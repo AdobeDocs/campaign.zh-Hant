@@ -5,9 +5,9 @@ title: 通用架構
 description: Campaign v8一般架構
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Adobe Campaign擁有原生電子郵件廣播功能。 此進程充當SMTP郵件�
 
 ## 資料庫容器{#db-containers}
 
-Adobe Campaign雲資料庫依賴於包含功能資料（配置檔案、訂閱、內容等）、技術資料（交付作業和日誌、跟蹤日誌等）的Snowflake 以及解決方案的工作資料（購買、銷售機會），所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
+Adobe Campaign雲資料庫依賴於[!DNL Snowflake]，該包含功能資料（配置檔案、訂閱、內容等）、技術資料（交付作業和日誌、跟蹤日誌等） 以及解決方案的工作資料（購買、銷售機會），所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
 
 客戶可使用預先定義的資料集市和結構描述來部署Adobe Campaign，也可以加以擴充。 Adobe Campaign通過SQL調用訪問資料集市中的所有資料。 Adobe Campaign也提供完整的摘取轉換與載入(ETL)工具，以執行資料進出系統的匯入與匯出。
 
