@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: c3eaaecd33c70be0b8c7e9e69a78aa43cf5d18b8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Adobe Campaignv8提供了重要的基礎架構、安全性、可傳遞性和監�
 
 ## 簡化並提高效能
 
-促銷活動v8簡化了資料管理：沒有索引，沒有資料庫維護。 有了Campaign v8，雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。
+Campaign v8引入了&#x200B;**完全同盟資料存取**(FDA)的概念：雲端資料庫上的所有資料現在都是遠端資料。
+
+使用此新架構，Campaign v8可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。
 
 [!DNL Snowflake] 是Campaign Cloud資料庫，將為您帶來速度和耐力：系統活動峰值沒有過載。
 
