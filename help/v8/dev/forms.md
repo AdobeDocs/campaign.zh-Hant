@@ -4,7 +4,7 @@ product: campaign
 title: 促銷活動輸入表單
 description: 瞭解如何自訂輸入表單
 translation-type: tm+mt
-source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
+source-git-commit: 5adbec5dfc738c2bec260c0d2a7f80e5a232056c
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -341,8 +341,6 @@ ht-degree: 0%
 ```
 
 其輸入形式的清單：
-
-![](assets/do-not-localize/form_exemple11.png)
 
 ```
  <input xpath="rcpEvent" type="linklist">
