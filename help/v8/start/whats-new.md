@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 9dcde5cff8b3bdbf240b01967cb27f9de8178f98
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adobe Campaignv8有哪些新功能？{#ac-gs-what-is-new}
 
-Adobe Campaignv8提供了重要的基礎架構、安全性、可傳遞性和監控增強功能。 通過利用雲資料庫技術Snowflake,Adobe Campaign大大提高了其規模和速度，並能夠管理更多的客戶個人檔案，以及每小時更高的交付率和交易。
+Adobe Campaignv8提供了重要的基礎架構、安全性、可傳遞性和監控增強功能。 借助雲資料庫技術[!DNL Snowflake],Adobe Campaign大大提高了其規模和速度，能夠管理更多的客戶個人檔案，以及每小時更高的交付率和交易。
 
 主要功能包括：
 
@@ -40,7 +40,7 @@ Adobe Campaignv8提供了重要的基礎架構、安全性、可傳遞性和監�
 
 促銷活動v8簡化了資料管理：沒有索引，沒有資料庫維護。 有了Campaign v8，雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。
 
-Snowflake（又稱雲資料庫）將為您帶來速度和耐力：系統活動峰值沒有過載。
+[!DNL Snowflake] 是Campaign Cloud資料庫，將為您帶來速度和耐力：系統活動峰值沒有過載。
 
 雲資料庫技術不需要進行具體的維護來保證效能級別。
 
