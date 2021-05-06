@@ -4,9 +4,9 @@ product: campaign
 title: 擴充促銷活動結構
 description: 瞭解如何擴充促銷活動結構描述
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -45,20 +45,26 @@ ht-degree: 1%
 
    ![](assets/extend-schema-edit.png)
 
-   在以下範例中，我們新增「會籍年」屬性，為姓氏加上長度限制（此限制將覆寫預設的限制），並從內建結構中移除出生日期。
+   在以下範例中，我們新增MembershipYear屬性，為姓氏加上長度限制（此限制將覆寫預設的限制），並從內建結構中移除出生日期。
+
+   ![](assets/extend-schema-sample.png)
 
    ```
    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-           name="recipient">
-   <attribute name="Membership Year" label="memberYear" type="long"/>
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+          name="recipient">
+   <attribute label="Member since" name="MembershipYear" type="long"/>
    <attribute length="50" name="lastName"/>
    <attribute _operation="delete" name="birthDate"/>
    </element>
-   </srcSchema> 
+   </srcSchema>
    ```
+1. 斷開連線並重新連線至促銷活動，以檢查&#x200B;**[!UICONTROL Structure]**&#x200B;標籤中的架構結構更新。
+
+   ![](assets/extend-schema-structure.png)
 
 1. 更新資料庫結構以應用更改。 [了解更多](update-database-structure.md)
+
 1. 在資料庫中實作變更後，您就可以調整收件者輸入表單，讓變更可見。 [了解更多](forms.md)
