@@ -4,82 +4,61 @@ product: campaign
 title: 擴充促銷活動結構
 description: 瞭解如何擴充促銷活動結構描述
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 5%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # 擴展模式{#extend-schemas}
 
-本文介紹了如何配置擴展模式，以擴展Adobe Campaign資料庫的概念資料模型。
+身為技術使用者，您可以自訂Campaign資料模型，以符合您實作的需求：將元素添加到現有模式、修改模式中的元素或刪除元素。
+
+自訂促銷活動資料模型的主要步驟為：
+
+1. 建立擴展架構
+1. 更新促銷活動資料庫
+1. 調整輸入表單
+
+>[!CAUTION]
+>內建架構不能直接修改。 如果您需要調整內建結構，則必須加以擴充。
 
 ：球：如需深入瞭解促銷活動內建表格及其互動，請參閱[本頁](datamodel.md)。
 
-並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**schema**。
+要擴展模式，請執行以下步驟：
 
-方案是與資料庫表關聯的XML文檔。 它定義了資料結構，並描述了表的SQL定義：
+1. 導覽至檔案總管中的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;資料夾。
+1. 按一下&#x200B;**新建**&#x200B;按鈕並選擇&#x200B;**[!UICONTROL Extend the data in a table using an extension schema]**。
 
-* 表的名稱
-* 欄位
-* 與其他表格的連結
+   ![](assets/extend-schema-option.png)
 
-此外，也說明用來儲存資料的XML結構：
+1. 識別要擴充的內建架構並加以選取。
 
-* 元素和屬性
-* 元素階層
-* 元素和屬性類型
-* 預設值
-* 標籤、說明和其他屬性。
+   ![](assets/extend-schema-select.png)
 
-結構使您能夠定義資料庫中的實體。 每個實體都有一個架構。
+   根據慣例，將擴充功能架構命名為與內建架構相同，並使用自訂命名空間。
 
-## 結構{#syntax-of-schemas}的語法
+   ![](assets/extend-schema-validate.png)
 
-架構的根元素為&#x200B;**`<srcschema>`**。 它包含&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;子元素。
+1. 進入架構編輯器後，使用內容相關選單新增所需元素，然後儲存。
 
-第一個&#x200B;**`<element>`**&#x200B;子元素與實體的根重合。
+   ![](assets/extend-schema-edit.png)
 
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
+   在以下範例中，我們新增「會籍年」屬性，為姓氏加上長度限制（此限制將覆寫預設的限制），並從內建結構中移除出生日期。
+
+   ```
+   <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+           mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
+   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+           name="recipient">
+   <attribute name="Membership Year" label="memberYear" type="long"/>
+   <attribute length="50" name="lastName"/>
+   <attribute _operation="delete" name="birthDate"/>
    </element>
-  </element>
-</srcSchema>
-```
+   </srcSchema> 
+   ```
 
->[!NOTE]
->
->實體的根元素與架構同名。
-
-![](assets/schema_and_entity.png)
-
-**`<element>`**&#x200B;標籤定義實體元素的名稱。 **`<attribute>`** 架構的標籤定義了已連結到的標 **`<element>`** 記中屬性的名稱。
-
-## 方案{#identification-of-a-schema}的標識
-
-資料架構由其名稱及其命名空間標識。
-
-命名空間可讓您依目標區域對一組結構描述進行分組。 例如，**cus**&#x200B;命名空間用於客戶特定的配置(**customers**)。
-
->[!CAUTION]
->
->作為標準，命名空間的名稱必須簡明扼要，且必須只包含符合XML命名規則的授權字元。
->
->標識符不能以數字字元開頭。
-
-某些名稱空間保留用於說明操作Adobe Campaign應用程式所需的系統實體：
-
-* **xxl**:關於雲資料庫架構，
-* **xtk**:平台系統資料，
-* **nl**:關於應用程式的整體使用，
-* **nms**:傳送（收件者、傳送、追蹤等）,
-* **ncm**:內容管理，
-* **臨時**:為臨時方案保留。
-
-模式的標識鍵是使用命名空間和名稱以冒號分隔的字串；例如：**nms:recipient**。
+1. 更新資料庫結構以應用更改。 [了解更多](update-database-structure.md)
+1. 在資料庫中實作變更後，您就可以調整收件者輸入表單，讓變更可見。 [了解更多](forms.md)
