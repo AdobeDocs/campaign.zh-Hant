@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 49%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 49%
 
 1. 是否可以監視工作流程執行？
 
-   :arrow_upper_right:瞭解如何在Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
+   :arrow_upper_right:瞭解如何在Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行。[
 
 1. Campaign v8與哪些系統和元件相容？
 
@@ -53,7 +53,7 @@ ht-degree: 49%
 
 1. Campaign v8發行說明位於何處？
 
-   ：球：您可以存取本頁](release-notes.md)中最新的促銷活動發行說明[。
+   ：球：您可以在這裡存取最新的促銷活動發行說明。
 
 1. 域配置的過程是什麼？
 
