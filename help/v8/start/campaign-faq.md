@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: e802857529d2b72995ccc08563b2356d809e5309
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 55%
+source-wordcount: '384'
+ht-degree: 49%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 55%
 
    Adobe Campaign 提供一組可監視電子郵件傳遞的儀表板和工具。
 
-   [按一下這裡以瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)如何確認訊息是否傳送，如何監視執行，以及在發生錯誤時如何採取行動。
+   [閱讀Campaign Classicv7檔案，了](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) 解如何確保訊息正在傳送、監控執行並在發生錯誤時採取行動。
 
 1. 是否可以監視工作流程執行？
 
-   :arrow_upper_right:瞭解如何在本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行。[
+   :arrow_upper_right:瞭解如何在Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
 
 1. Campaign v8與哪些系統和元件相容？
 
