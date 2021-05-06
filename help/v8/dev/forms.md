@@ -4,7 +4,7 @@ product: campaign
 title: 促銷活動輸入表單
 description: 瞭解如何自訂輸入表單
 translation-type: tm+mt
-source-git-commit: b4d5ed24bcca46591543b835b2fec1c18b26fc74
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -290,9 +290,7 @@ ht-degree: 0%
 
 下拉式清單可用來從已建立的記錄清單中選取目標元素。
 
-**[!UICONTROL Modify the link]**（資料夾）圖示會啟動選取表單，其中包含目標元素清單和篩選區：
-
-![](assets/do-not-localize/form_exemple10.png)
+**[!UICONTROL Modify the link]**（資料夾）圖示會啟動選取表單，其中包含目標元素清單和篩選區域。
 
 **[!UICONTROL Edit link]**（放大鏡）圖示會啟動連結元素的編輯表單。 預設情況下，所使用的形式是對目標模式的鍵進行推導。 **form**&#x200B;屬性可讓您強制編輯表單的名稱(例如&quot;cus:company2&quot;)。
 
@@ -433,8 +431,6 @@ ht-degree: 0%
 
 此控制項會顯示可編輯的欄清單，其工具列包含「新增」和「刪除」按鈕。
 
-![](assets/do-not-localize/form_exemple13.png)
-
 ```
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
@@ -452,8 +448,6 @@ ht-degree: 0%
 
 工具列按鈕可以水準對齊：
 
-![](assets/do-not-localize/form_exemple14.png)
-
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
@@ -466,8 +460,6 @@ ht-degree: 0%
 ### 啟用對清單{#zoom-in-a-list}的縮放
 
 可以在單獨的編輯表單中輸入清單中資料的插入和編輯。
-
-![](assets/do-not-localize/form_exemple15.png)
 
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
@@ -640,8 +632,6 @@ ht-degree: 0%
   ...
 </form>
 ```
-
-![](assets/do-not-localize/form_exemple19.png)
 
 `<form>`元素上存在&#x200B;**type=&quot;wizard&quot;**&#x200B;屬性，可讓您在表單構造中定義精靈模式。 頁面由`<container>`元素完成，這些元素是`<form>`元素的子項。 頁面的`<container>`元素會填入標題的標題屬性，並設計為在頁面標題下顯示說明。 **[!UICONTROL Previous]**&#x200B;和&#x200B;**[!UICONTROL Next]**&#x200B;按鈕會自動新增，以允許在頁面之間瀏覽。
 
