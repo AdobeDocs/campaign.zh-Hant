@@ -4,22 +4,95 @@ product: campaign
 title: 使用促銷活動結構描述
 description: 結構描述快速入門
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 6%
+source-wordcount: '1243'
+ht-degree: 4%
 
 ---
 
 # 使用結構{#gs-ac-schemas}
 
+並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**schema**。
+
+方案是與資料庫表關聯的XML文檔。 它定義了資料結構，並描述了表的SQL定義：
+
+* 表的名稱
+* 欄位
+* 與其他表格的連結
+
+此外，也說明用來儲存資料的XML結構：
+
+* 元素和屬性
+* 元素階層
+* 元素和屬性類型
+* 預設值
+* 標籤、說明和其他屬性。
+
+結構使您能夠定義資料庫中的實體。 每個實體都有一個架構。
+
 Adobe Campaign利用資料結構：
 
-* 定義應用程式內資料物件與基礎資料庫表的連結方式。
+* 定義應用程式中資料對象與基礎資料庫表的關聯方式。
 * 定義 Campaign 應用程式中不同資料物件之間的連結。
 * 定義及描述每個物件中包含的個別欄位。
 
 如需深入瞭解促銷活動內建表格及其互動，請參閱[本節](datamodel.md)。
+
+>[!CAUTION]
+>
+>某些內建促銷活動結構在雲端資料庫上具有關聯的結構。 這些結構描述由&#x200B;**Xxl**&#x200B;命名空間標識，不能修改。
+
+## 結構{#syntax-of-schemas}的語法
+
+架構的根元素為&#x200B;**`<srcschema>`**。 它包含&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;子元素。
+
+第一個&#x200B;**`<element>`**&#x200B;子元素與實體的根重合。
+
+```
+<srcSchema name="recipient" namespace="cus">
+  <element name="recipient">  
+    <attribute name="lastName"/>
+    <attribute name="email"/>
+    <element name="location">
+      <attribute name="city"/>
+   </element>
+  </element>
+</srcSchema>
+```
+
+>[!NOTE]
+>
+>實體的根元素與架構同名。
+
+![](assets/schema_and_entity.png)
+
+**`<element>`**&#x200B;標籤定義實體元素的名稱。 **`<attribute>`** 架構的標籤定義了已連結到的標 **`<element>`** 記中屬性的名稱。
+
+## 方案{#identification-of-a-schema}的標識
+
+資料架構由其名稱及其命名空間標識。
+
+命名空間可讓您依目標區域對一組結構描述進行分組。 例如，**cus**&#x200B;命名空間用於客戶特定的配置(**customers**)。
+
+>[!CAUTION]
+>
+>作為標準，命名空間的名稱必須簡明扼要，且必須只包含符合XML命名規則的授權字元。
+>
+>標識符不能以數字字元開頭。
+
+## 保留的命名空間
+
+保留某些名稱空間，以說明操作Adobe Campaign應用程式所需的系統實體。 以下命名空間&#x200B;**不得用於**&#x200B;以識別任何大寫／小寫組合的新模式：
+
+* **xxl**:保留至雲端資料庫結構，
+* **xtk**:保留給平台系統資料，
+* **nl**:保留給應用程式的整體使用，
+* **nms**:保留給傳送（收件者、傳送、追蹤等）,
+* **ncm**:保留給內容管理，
+* **臨時**:保留給臨時方案。
+
+模式的標識鍵是使用命名空間和名稱以冒號分隔的字串；例如：**nms:recipient**。
 
 ## 建立或擴充促銷活動結構{#create-or-extend-schemas}
 
@@ -32,6 +105,7 @@ Adobe Campaign利用資料結構：
 ：球：有關詳細資訊，請參閱[建立新模式](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
+
 
 在建立或擴充架構以開始運作後，最佳實務是依照其在下方顯示的順序定義其XML內容元素。
 
