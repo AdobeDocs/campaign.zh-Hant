@@ -8,20 +8,14 @@ role: Data Engineer
 level: Beginner
 exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 42%
+source-wordcount: '348'
+ht-degree: 43%
 
 ---
 
 # 促銷活動v8的說明與支援選項{#help-support-options}
-
-
->[!AVAILABILITY]
->
-> :warning:**本頁不適用於Campaign v8**。 [了解更多](campaign-faq.md)。
-
 
 使用我們的常見問答集、最佳實務、線上資源和支援入口網站取得支援。 您也可以加入Campaign社群、詢問專家或記錄問題
 
