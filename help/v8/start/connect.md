@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 97cc2dd6f78fac2723306f06bea74e808c84b4ad
+source-git-commit: c26e3b1af2f1706dbe2ca6cf9078f3e427e345cb
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '664'
 ht-degree: 6%
 
 ---
@@ -36,12 +36,6 @@ ht-degree: 6%
 >[!CAUTION]
 >
 >Adobe建議取消選中&#x200B;**[!UICONTROL No longer ask this question]**&#x200B;選項，以確保當有新版本的控制台可用時，所有用戶都會收到警報。  如果選取此選項，使用者將不會收到新可用版本的通知。
-
-### 教學課程影片
-
-本視頻介紹如何安裝和設定Adobe Campaign客戶端。
-
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 ## 建立您的連線
 
