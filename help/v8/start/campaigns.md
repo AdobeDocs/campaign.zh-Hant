@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: d7d026422d43e8baef43b114936366071f7086e5
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 8%
+source-wordcount: '747'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign 可讓您在多個通路上設計及編排有針對性的個人�
 
 Adobe Campaign可讓您從統一的控制中心建立、設定、執行和分析所有行銷宣傳。
 
-:arrow_upper_right:瞭解如何存取及實作此頁面[中的行銷促銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
+:arrow_upper_right:瞭解如何存取及實作[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)中的行銷促銷活動
 
 
 ## 啟動的關鍵步驟
@@ -56,50 +56,33 @@ Adobe Campaign可讓您從統一的控制中心建立、設定、執行和分析
 
    定義層次結構和計畫、設定預算、添加資源、選擇運算子。
 
-   :arrow_upper_right:瞭解如何在[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)中建立行銷計畫及設定促銷活動
+   :arrow_upper_right:瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)中建立行銷計畫及設定促銷活動
 
    所有行銷促銷活動都以儲存主要設定和功能的範本為基礎。 提供內建範本，以建立尚未定義特定設定的促銷活動。 您可以建立和設定促銷活動範本，然後從這些範本建立促銷活動。
 
-   :arrow_upper_right:瞭解如何在[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)中使用促銷活動範本
+   :arrow_upper_right:瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)中使用促銷活動範本
 
-   :arrow_upper_right:探索循環性促銷活動以及如何在[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)中設定這些促銷活動
+   :arrow_upper_right:探索循環性促銷活動，以及如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)中設定促銷活動
 
 1. **定義觀眾**
 
    您可以在工作流程中建立對象，或選取現有群組，例如收件者清單、電子報訂閱者、先前傳送的收件者或任何篩選條件。
 
-   :arrow_upper_right:瞭解如何在[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)中定義訊息的讀者
+   :arrow_upper_right:瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)中定義訊息的讀者
 
 1. **建立傳送**
 
    選取渠道、定義訊息內容並開始傳送。
 
-   :arrow_upper_right:瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)中建立和開始行銷促銷活動傳送
+   :arrow_upper_right:瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)中建立和開始行銷促銷活動傳送
 
    您可以將各種檔案與促銷活動建立關聯：報表、像片、網頁、圖表等。
 
-   :arrow_upper_right:進一步瞭解[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)中的相關檔案
+   :arrow_upper_right:進一步瞭解[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)中的相關檔案
 
 1. **設定核准程式**
 
    Adobe Campaign可讓您針對行銷活動的主要階段設定協作核准程式。 您可以針對每個促銷活動核准傳送目標、內容和成本。 Adobe Campaign負責核准的營運商可以透過電子郵件收到通知，並可從主控台或透過網路連線接受或拒絕核准。
 
-   :arrow_upper_right:瞭解如何在[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)中設定和管理核准
+   :arrow_upper_right:瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)中設定和管理核准
 
-
-1. 監視消息：控制傳送和執行。 了解更多。
-
-1. 規劃促銷活動和相關成本。 了解更多。
-
-## 核准與驗證
-
-
-## 服務與訂閱
-
-建立服務並管理訂閱／取消訂閱
-
-## 報告
-
-促銷活動的報表
-
-：球：
