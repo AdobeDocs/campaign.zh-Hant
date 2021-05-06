@@ -7,10 +7,10 @@ breadcrumb-title: 促銷活動v8
 title: Campaign v8檔案
 hide: true
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 36%
+source-wordcount: '164'
+ht-degree: 37%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 36%
    + [設定檔和對象](start/audiences.md)
    + [匯入資料](start/import.md)
    + [建立促銷活動](start/campaigns.md)
+   + [管理訂閱](start/subscriptions.md)
    + [傳送訊息](start/create-message.md)
    + [追蹤與監控](start/tracking.md)
    + [量度與報表](start/reporting.md)
@@ -80,6 +81,7 @@ ht-degree: 36%
       + [輸入表單](dev/forms.md)
    + API {#api}
       + [開始使用](dev/api.md)
+      + [新API](dev/new-apis.md)
       + [Campaign v8 API](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
 
 
