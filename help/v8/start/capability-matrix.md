@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 translation-type: tm+mt
-source-git-commit: 04859274593f507a0b07f46cf6a65434b6a4bc60
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## 產品設定變更
 
-### 促銷活動與Snowflake{#ac-gs-snowflake}
+### 促銷活動和[!DNL Snowflake] {#ac-gs-snowflake}
 
-雲端儲存空間是在Snowflake中執行：新的外部帳戶可確保與雲端資料庫的連線。 [了解更多](#ac-gs-snowflake)。
+在[!DNL Snowflake]中執行雲端儲存空間：新的外部帳戶可確保與雲端資料庫的連線。 [了解更多](#ac-gs-snowflake)。
 
 這是軟體架構的根本變更。 資料現在是遠程的：促銷活動會聯合整個資料，包括描述檔。 促銷活動程式現在可以從定位到傳送執行，端對端調整：資料擷取、分段、定位、查詢、傳送執行現在只需幾分鐘即可執行。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 任何需要在雲資料庫中移動或複製的內置模式／表都帶有命名空間&#x200B;**xxl**&#x200B;下的內置模式擴展。 至於架構擴充，新的XXL命名空間將用於任何新的OOTB組態，例如JavaScript、JSSP等。
 
-這些擴充功能包含從Campaign本機資料庫移動內建結構描述至SnowflakeCloud資料庫並據以調整其結構所需的任何修改：新的UUID、更新的連結等。
+這些擴充功能包含將內建結構描述從Campaign本機資料庫移至[!DNL Snowflake]雲端資料庫，並據以調整其結構所需的任何修改：新的UUID、更新的連結等。
 
 >[!CAUTION]
 >
