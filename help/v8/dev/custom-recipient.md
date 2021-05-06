@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
+source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Adobe Campaign有一個內置的配置檔案表：**nmsRecipient**。 此表格�
 * 使用具有非標準結構的配置檔案資料庫：使用單個實例，將檔案傳遞到保存在各種結構的表中。
 
 本節介紹映射Adobe Campaign現有表的關鍵點，以及基於任何表執行交付時要應用的配置設定。 此外，還介紹如何設計面向最終用戶的查詢介面。
-
 
 >[!CAUTION]
 >
