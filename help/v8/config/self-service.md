@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 57%
+source-wordcount: '358'
+ht-degree: 58%
 
 ---
 
@@ -28,28 +28,29 @@ ht-degree: 57%
 
 ## 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [按一下這裡](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html)以獲得更多資訊。
+控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)以獲得更多資訊。
 
 ## 「控制面板」常見問答集
 
-[按一下這裡](https://docs.adobe.com/content/hecontrol-panel/using/faq.html) 以存取 Campaign 控制面板常見問答集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) 以存取 Campaign 控制面板常見問答集。
 
 ## SFTP 管理
 
-在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html)以獲得更多資訊。
+在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management)以獲得更多資訊。
 
 ## 子網域和憑證
 
 您可以監視子網域及其憑證。 了解更多：
-* [子網域品牌](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [設定新子網域](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [監視 SSL 憑證](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+* [子網域品牌](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [設定新子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [監視 SSL 憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ## 執行個體設定
 
 瞭解如何在「控制面板」中管理您的「促銷活動」例項設定。
-* [允許清單上的IP](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [URL 權限](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html)
-* [執行個體詳細資訊](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html)
+* [允許清單上的IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+* [URL 權限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [執行個體詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 :arrow_upper_right:探索[本檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)中的所有控制面板功能
