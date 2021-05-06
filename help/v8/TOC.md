@@ -1,0 +1,85 @@
+---
+solution: Campaign
+product: campaign
+audience: end-user
+user-guide-title: 促銷活動v8
+breadcrumb-title: 促銷活動v8
+title: Campaign v8檔案
+hide: true
+translation-type: tm+mt
+source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 36%
+
+---
+
+
+# Adobe Campaignv8文檔{#campaign-v8}
+
++ [產品文件](campaign-home.md)
++ 新增功能{#start}
+   + [核心功能](start/whats-new.md)
+   + [發行說明](start/release-notes.md)
+   + [傳統v7到v8](start/capability-matrix.md)
++ 開始 {#start}
+   + [開始使用](start/get-started.md)
+   + [設定檔和對象](start/audiences.md)
+   + [匯入資料](start/import.md)
+   + [建立促銷活動](start/campaigns.md)
+   + [傳送訊息](start/create-message.md)
+   + [追蹤與監控](start/tracking.md)
+   + [量度與報表](start/reporting.md)
+   + [常見問答集](start/campaign-faq.md)
++ 實施{#implement}
+   + [實施步驟](start/implement.md)
+   + [自訂您的例項](dev/customize.md)
+   + [安全性准則](config/security.md)
+   + [設計網頁應用程式和表格](dev/webapps.md)
+   + [資料模型最佳實務](dev/datamodel-best-practices.md)
++ 部署{#deploy}
+   + [相容性矩陣](start/compatibility-matrix.md)
+   + [連結 Campaign](start/connect.md)
+   + [權限](start/permissions.md)
+   + [控制面板](config/self-service.md)
+   + [說明與支援](start/support.md)
++ 傳送{#send}
+   + [電子郵件](send/email.md)
+   + [SMS](send/sms.md)
+   + [推播通知](send/push.md)
+   + [直接郵件](send/direct-mail.md)
+   + [交易式訊息](send/transactional.md)
++ 配置{#config}
+   + [自動化](config/workflows.md)
+   + [管理資料](config/replication.md)
+   + [電子郵件設定](config/email-settings.md)
+   + [交易式訊息設定](config/transactional-msg-settings.md)
+   + [外部帳戶](config/external-accounts.md)
++ 連接{#connect}
+   + [與其他解決方案連結](connect/integration.md)
+   + [促銷活動+分析](connect/ac-aa.md)
+   + [促銷活動+Experience Manager](connect/ac-aem.md)
+   + [促銷活動+ Target](connect/ac-at.md)
+   + [Campaign + RTCDP](connect/ac-rtcdp.md)
+   + [Campaign +Twitter](connect/ac-tw.md)
+   + [促銷活動+外部資料庫](connect/fda.md)
+   + [Campaign +您的CRM](connect/crm.md)
++ 開發人員資源{#architecture}
+   + [全球原則](dev/general-architecture.md)
+   + [架構](dev/architecture.md)
+   + [資料模型](dev/datamodel.md)
+   + 架構和表單{#shemas-forms}
+      + [使用結構描述](dev/schemas.md)
+      + [建立結構描述](dev/create-schema.md)
+      + [延伸結構描述](dev/extend-schema.md)
+      + [綱要結構](dev/schema-structure.md)
+      + [資料庫對應](dev/database-mapping.md)
+      + [限制PI視圖](dev/restrict-pi-view.md)
+      + [使用自訂收件者表格](dev/custom-recipient.md)
+      + [更新資料庫](dev/update-database-structure.md)
+      + [輸入表單](dev/forms.md)
+   + API {#api}
+      + [開始使用](dev/api.md)
+      + [Campaign v8 API](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
+
+
