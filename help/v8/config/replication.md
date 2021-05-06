@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: 9efd6442336a62e627b0da4e17fa742f59f715f9
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,7 @@ Adobe Campaign提供一套內建的技術工作流程。 技術工作流程會�
 除了這些技術工作流程外，Campaign v8還依賴特定的技術工作流程來管理[資料複製](#data-replication)。
 
 * **[!UICONTROL Replicate Reference tables]**
-此工作流程會自動複製需要存在於Campaign本機資料庫(Postgres)和雲端資料庫(Snowflake)上的參考表。計畫每小時執行一次。 如果 
-**** lastModified欄位存在，複製會以增量方式進行，否則會複製整個表。下面陣列中表的順序是複製工作流使用的順序。
+此工作流程會自動複製需要存在於Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])上的參考表。計畫每小時執行一次。 如果&#x200B;**lastModified**&#x200B;欄位存在，則複製將以增量方式進行，否則將複製整個表。 下面陣列中表的順序是複製工作流使用的順序。
 * **[!UICONTROL Replicate Staging data]**
 此工作流程會複製單一呼叫的測試資料。計畫每小時執行一次。
 * **[!UICONTROL Deploy FFDA immediately]**\
@@ -41,7 +40,7 @@ Adobe Campaign提供一套內建的技術工作流程。 技術工作流程會�
 
 ## 資料複製{#data-replication}
 
-表格會透過上述說明的專屬工作流程，從Campaign資料庫複製至Snowflake雲端資料庫。
+表格會透過上述描述的專屬工作流程從Campaign資料庫複製到[!DNL Snowflake]雲端資料庫。
 
 複製策略基於表的大小。 將複製某些表。 有些表格將即時複製，而有些表格則會每小時複製。 某些表在替換其他表時會有增量更新。
 
