@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b39cac492f4605b7d1d7aeb75f6af26a20bf43e6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign 可讓您在多個通路上設計及編排有針對性的個人�
 
 * **計畫**:行銷計畫可包含多個方案。它連結至日曆期間、已分配預算，也可連結至檔案和目標。
 
-* **促銷活動工作流程**:促銷活動工作流程包含建立促銷活動邏輯的活動。使用促銷活動工作流程可定義觀眾並建立所有可用渠道的傳送。
+* **促銷活動工作流程**:促銷活動工作流程包含建立促銷活動邏輯的活動。使用促銷活動工作流程來定義觀眾並建立所有可用渠道的傳送。
 
 * **週期性促銷活動**:循環促銷活動是從定義要執行的工作流程範本和執行排程的特定範本建立。
 
