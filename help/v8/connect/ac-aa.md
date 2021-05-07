@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 與Campaign和Adobe Analytics合作
 description: 瞭解如何與Campaign和Adobe Analytics合作
 feature: 概覽
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 translation-type: tm+mt
-source-git-commit: c2d066ca2f935455861c3d6747c9805c847f2e0d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 3%
@@ -38,7 +38,7 @@ ht-degree: 3%
 * Adobe Analytics:
 
    * 標誌著與Adobe Campaign一起推出的電子郵件宣傳
-   * 以區段的形式儲存收件者在點按促銷活動電子郵件後所瀏覽之網站上的行為。 區段與放棄的產品（已檢視但未新增至購物車或購買的產品）、購買或購物車放棄有關。
+   * 以區段的形式儲存收件者在點按促銷活動電子郵件後所瀏覽之網站上的行為。 區段與放棄的產品（已檢視但未新增至購物車或已購買）、購買或購物車放棄有關。
 
 * Adobe Campaign:
 
