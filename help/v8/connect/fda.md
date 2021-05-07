@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 使用Campaign和外部資料庫(FDA)
 description: 瞭解如何使用Campaign和外部資料庫
 feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 57cd4fb8287cdcc16b4ed803a31b3b84840b2834
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
