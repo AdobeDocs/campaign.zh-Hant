@@ -8,7 +8,7 @@ breadcrumb-title: 促銷活動v8
 title: Campaign v8檔案
 hide: true
 translation-type: tm+mt
-source-git-commit: 7b8de5083836e906f563250e1a86b46abcd68650
+source-git-commit: 21172287921c9188037fe6e4306f755826d783f8
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 36%
@@ -28,8 +28,8 @@ ht-degree: 36%
    + [設定檔和對象](start/audiences.md)
    + [匯入資料](start/import.md)
    + [建立促銷活動](start/campaigns.md)
-   + [管理訂閱](start/subscriptions.md)
    + [傳送訊息](start/create-message.md)
+   + [管理訂閱](start/subscriptions.md)
    + [追蹤與監控](start/tracking.md)
    + [量度與報表](start/reporting.md)
    + [常見問答集](start/campaign-faq.md)
