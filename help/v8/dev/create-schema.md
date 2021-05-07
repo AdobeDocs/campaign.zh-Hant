@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 在促銷活動中建立新結構
 description: 瞭解如何在Campaign中建立新結構
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 2%
