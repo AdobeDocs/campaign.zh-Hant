@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 221adcce8951a3884b83d5e5e2de1a73fbe96050
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ Adobe Campaignv8提供下列傳送管道：
 * **行動頻道**:行動頻道上的傳送可讓您傳送個人化SMS給目標群體。進一步瞭解[本頁](../send/sms.md)
 
 * **行動應用程式頻道**:行動應用程式傳送可讓您傳送通知至iOS和Android系統。進一步瞭解[本頁](../send/push.md)
+* **線路頻道**:LINE傳送功能可讓您在LINE上傳送訊息，此即時訊息應用程式適用於所有智慧型手機。進一步瞭解[本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 
 ## 選擇如何傳送訊息
 
