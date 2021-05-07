@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 開始之前
 
-本節包含開發人員在開始之前必須先處理其實作的相關資訊，以瞭解其隱私權與安全性。
+本節包含隱私權與安全性的重要資訊，在開始實際實作之前，必須先加以審查和考慮。
 
 ### 隱私權
 
@@ -62,7 +62,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
 1. 匯入設定檔並建立觀眾
 
-   Campaign可協助您將連絡人新增至Cloud資料庫。 您可以載入檔案、排程並自動化多個連絡人更新、在網路上收集資料，或直接在收件者表格中輸入描述檔資訊。
+   Campaign可協助您將連絡人新增至Cloud資料庫。 您可以載入檔案、排程並自動化多個連絡人更新、在網路上收集資料，或直接在收件者表格中輸入個人檔案資訊。
 
    ：球：[瞭解如何匯入描述檔](import.md)。
 
@@ -88,7 +88,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
 1. 熟悉Campaign內建資料模型
 
-   Adobe Campaign 隨附預先定義的資料模型。要實施和定制您的環境，您需要熟悉Adobe Campaign資料模型的內置表及其交互。
+   Adobe Campaign 隨附預先定義的資料模型。要實施和定制您的環境，您需要熟悉Adobe Campaign資料模型的內置表以及它們之間的關係。
 
    ：球：[進一步瞭解Campaign資料模型](../dev/datamodel.md)。
 
