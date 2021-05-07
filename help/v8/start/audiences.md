@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 81a6d365554d87b020d47be6fd6a896f8ad33d57
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 32%
+source-wordcount: '702'
+ht-degree: 30%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資�
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
-「設定檔」系指資訊記錄(例如：[收件者表格](../dev/datamodel.md)中的記錄，或包含Cookie ID、客戶ID、行動識別碼或與特定頻道相關的其他資訊的外部表格，代表最終客戶、潛在客戶或潛在客戶。 如果設定檔在過去 12 個月期間，曾經透過任何通道而被設為目標或進行通訊，請將此類設定檔視為「作用中」。
+「設定檔」系指資訊記錄(例如：[收件者表格](../dev/datamodel.md)中的記錄，或包含Cookie ID、客戶ID、行動識別碼或與特定頻道相關的其他資訊的外部表格，代表最終客戶、潛在客戶或潛在客戶。 如果設定檔在過去12個月內透過任何通道被鎖定或傳達，則會視為作用中。
 
 您可以直接從「促銷活動控制面板」監視執行個體上使用的作用中描述檔數目。
 
