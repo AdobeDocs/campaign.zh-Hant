@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 瞭解如何連線至Campaign v8
 description: 連線至Campaign v8
 feature: 受眾
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: c26e3b1af2f1706dbe2ca6cf9078f3e427e345cb
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 6%
