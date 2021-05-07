@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 開始使用促銷活動報表
 description: 開始使用Campaign報表功能
 feature: 概覽
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 8c9f59067cd0e5a39e84315e5836a32bdf7a0864
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
