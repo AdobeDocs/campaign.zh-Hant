@@ -8,16 +8,16 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 49%
+source-wordcount: '377'
+ht-degree: 46%
 
 ---
 
 # 常見問題集{#faq}
 
-使用 Campaign Classic 時需要協助嗎？請閱讀下列 10 大問題，以及該頁面的其他常見問題。您也可以：
+使用Campaign時需要協助嗎？ 請閱讀下列 10 大問題，以及該頁面的其他常見問題。
 
 1. 如何將 Campaign 升級至最新版本？
 
@@ -25,7 +25,7 @@ ht-degree: 49%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們相信您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   您需要與客戶服務團隊聯繫，才能升級您的環境。
+   請聯絡客戶服務團隊，讓您的環境升級。
 
 1. 我要如何連線至Campaign v8?
 
