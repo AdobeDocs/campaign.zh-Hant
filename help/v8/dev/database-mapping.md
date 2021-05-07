@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 促銷活動資料庫對應
 description: 促銷活動資料庫對應
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 0%
@@ -379,7 +379,7 @@ Adobe Campaign表的主鍵是由資料庫引擎自動生成的&#x200B;**通用�
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### 範例4 {#example-4}
+### 範例5 {#example-4}
 
 連結至資料夾（&quot;xtk:folder&quot;結構）:
 
