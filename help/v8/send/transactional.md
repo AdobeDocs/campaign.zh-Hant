@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e068642c1bc5bf5f0329fc09f7ca6ddbd1683d6a
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 :speech_balloon:作為受管理Cloud Services用戶， [與Adobe](../start/support.md#support)聯繫，以在您的環境中安裝和配置促銷活動事務性消息。
 
-事務性消息用於：
+事務性消息用於發送：
 
 * 通知，例如訂單確認或密碼重設，例如
-* 傳送個別即時回應給客戶動作
+* 對客戶行為的個別即時回應
 * 非促銷內容
 
 ：球：事務性消息傳遞設定在[本節](../config/transactional-msg-settings.md)中有詳細說明。
