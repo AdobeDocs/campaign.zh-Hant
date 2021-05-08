@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 資料模型最佳實務
 description: 瞭解Campaign資料模型擴充最佳實務
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 8da6928096feec988d6495fdb617dda7d7cac6ff
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2663'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Adobe Campaign系統非常靈活，可以擴展到最初的實施範圍之外。 不過，儘管可能性無限，但必須做出明智決策並建立堅實的基礎，才能開始設計您的資料模型。
 
-如需深入瞭解促銷活動內建表格及其互動，請參閱[本節](datamodel.md)。
+如需深入瞭解促銷活動內建表格，以及它們彼此的關聯，請參閱[本節](datamodel.md)。
 
 ：球：請讀取[本節](schemas.md)以開始使用促銷活動結構。
 
@@ -67,9 +67,8 @@ Adobe Campaign是功能強大的跨通道宣傳管理系統，可協助您調整
 
 ### 欄位選擇{#choice-of-fields}
 
-如果欄位具有定位或個人化目的，則必須將其儲存在表格中。 換言之，如果欄位不是用來傳送個人化電子郵件，或是用作查詢中的標準，則會佔用磁碟空間，但是卻毫無用處。
+如果欄位具有定位或個人化目的，則必須將其儲存在表格中。 換言之，如果欄位不是用來傳送個人化電子郵件，或是當做查詢的標準，就會不必要地佔用磁碟空間。
 
-對於混合式和內部部署例項，FDA（Federated Data Access，允許存取外部資料的選用功能）涵蓋在促銷活動程式中新增「即時」欄位的需求。 如果你有食品藥物管理局的話，您不需要進口任何產品。 有關詳細資訊，請參閱[Federated Data Access](../connect/fda.md)。
 
 ### 鍵選擇{#choice-of-keys}
 
@@ -97,7 +96,7 @@ Adobe Campaign資源有三個識別碼，並且可以添加一個附加的識別
 | 名稱（或內部名稱） | <ul><li>此資訊是表中記錄的唯一標識符。 此值可以手動更新，通常使用生成的名稱。</li><li>此識別碼會在部署在不同的Adobe Campaign例項時保留其值，且不應為空。</li></ul> | <ul><li>如果對象應從一個環境部署到另一個環境，請更名Adobe Campaign生成的記錄名稱。</li><li>當對象具有namespace屬性（例如&#x200B;*schema*）時，此通用命名空間將用於所有建立的自定義對象。 不應使用某些保留的名稱空間：*nms*、*xtk*。</li><li>當物件沒有任何名稱空間（例如&#x200B;*workflow*&#x200B;或&#x200B;*delivery*）時，此名稱空間概念會新增為內部名稱物件的首碼：*namespaceMyObjectName*。</li><li>請勿使用特殊字元，例如空格&quot;&quot;、半欄&quot;:&quot;或連字型大小&quot;-&quot;。 所有這些字元都會以底線&quot;_&quot;（允許的字元）取代。 例如，&quot;abc-def&quot;和&quot;abc:def&quot;會儲存為&quot;abc_def&quot;，並互相覆寫。</li></ul> |
 | 標籤 | <ul><li>標籤是Adobe Campaign中對象或記錄的業務標識符。</li><li>此對象允許空格和特殊字元。</li><li>它不保證記錄的獨特性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是最易於使用的解決方案，可為Adobe Campaign用戶識別記錄或對象。</li></ul> |
 
-Adobe Campaign主鍵是所有內置表的自動生成UUID，對於自定義表可以是相同的。
+Adobe Campaign主鍵是所有內置表的自動生成UUID。 UUID也可用於自定義表。
 
 即使ID數量是無限的，您仍應考慮資料庫的大小，以確保最佳效能。 為防止出現任何問題，請務必調整實例清除設定。 如需詳細資訊，請參閱[本節](#data-retention)。
 
@@ -123,7 +122,7 @@ Adobe Campaign主鍵是所有內置表的自動生成UUID，對於自定義表�
 
 ### 連結 {#links}
 
-小心大桌上的「自己」誠信。 刪除具有「擁有」完整性的寬表的記錄可以停止實例。 表被鎖定，刪除操作逐個執行。 因此，最好對具有大卷的子表使用「中性」完整性。
+小心大桌上的「自己」誠信。 刪除具有「擁有」完整性的大表的記錄可能會停止該實例。 表被鎖定，刪除操作逐個執行。 因此，最好對具有大卷的子表使用「中性」完整性。
 
 將連結聲明為外部連接不利於效能。 零ID記錄模擬外部連接功能。 如果連結使用autouuid，則不需要聲明外部連接。
 
