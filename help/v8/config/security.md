@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 促銷活動安全性最佳實務
 description: 開始使用Campaign安全性最佳實務
 translation-type: tm+mt
-source-git-commit: d758b6ffaee5fdab3f600f58be5a81694162d269
+source-git-commit: 5592dd4e79391d953a4bc54cdd47475417e07b56
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 ## 資料限制
 
-您必須確保已加密密碼無法由低權限的已驗證用戶訪問。 要做到這一點，有兩種主要方式：僅限存取密碼欄位或整個實體（需要組建版本>= 8770）。
+您必須確保已加密密碼無法由低權限的已驗證用戶訪問。 要做到這一點，有兩種主要方式：僅限存取密碼欄位或限制存取整個實體。
 
-此限制允許您刪除密碼欄位，但允許所有用戶從介面訪問外部帳戶。 進一步瞭解[本頁](../dev/restrict-pi-view.md)。
+此限制允許您移除密碼欄位，但讓所有使用者都可從介面存取外部帳戶。 進一步瞭解[本頁](../dev/restrict-pi-view.md)。
 
 1. 進入&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您可以將`$(loginId) = 0 or $(login) = 'admin'`依`hasNamedRight('admin')`移除，讓擁有管理員權限的所有使用者都能看到這些密碼。
+   >您可以將`$(loginId) = 0 or $(login) = 'admin'`取代為`hasNamedRight('admin')`，讓擁有管理員權限的所有使用者都能看到這些密碼。
 
 
 ## 存取管理
@@ -115,10 +115,10 @@ ht-degree: 0%
 
 在Adobe Campaign進行開發時（工作流程、Javascript、JSSP等），請一律遵循下列准則：
 
-* 指令碼：嘗試避免SQL陳述式，使用參數化函式而不是字串串連，通過將要使用的SQL函式添加到允許清單來避免SQL插入。
+* **指令碼**:嘗試避免SQL陳述式，使用參數化函式而不是字串串連，通過將要使用的SQL函式添加到允許清單來避免SQL插入。
 
-* 保護資料模型：使用命名權限來限制運算元動作，新增系統篩選(sysFilter)
+* **保護資料模型**:使用命名權限來限制運算元動作，新增系統篩選(sysFilter)
 
-* 在Web應用程式中新增擷取功能：在您的公開登陸頁面和訂閱頁面中新增captchas。
+* **在Web應用程式中新增擷取功能**:在您的公開登陸頁面和訂閱頁面中新增captchas。
 
 :arrow_upper_right:進一步瞭解[Adobe Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
