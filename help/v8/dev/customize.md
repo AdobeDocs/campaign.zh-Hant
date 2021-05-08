@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: ddf60fb823cb0df99bdf3bc99f17d7a1abe6a33b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## 建立新的資料欄位和結構描述
 
-Adobe Campaign利用資料結構：
+Adobe Campaign利用資料結構來：
 
 * 定義應用程式中資料對象與基礎資料庫表的關聯方式
 * 定義促銷活動應用程式中不同資料物件之間的連結
 * 定義並說明每個物件所包含的個別欄位
 
-您可以將欄位添加到現有表，如收件者表(nms:recipient)，您必須擴展該模式。
+例如，要向現有表添加欄位，如收件者表(nms:recipient)，必須擴展該模式。
 
 有兩種表格擴充模式可供使用：
 
@@ -44,7 +44,7 @@ Adobe Campaign利用資料結構：
    ：球：瞭解如何在[本節](../dev/extend-schema.md)中擴展現有模式。
 
 
-您可以在Campaign資料庫中建立新表格，並擴充內建資料模型。
+您也可以在Campaign資料庫中建立新表格，並擴充內建的資料模型。
 
 若要新增在Adobe Campaign不現成可用的全新資料類型（例如合約表格），您可以直接建立自訂結構。 有關詳細資訊，請參閱[此示例](../dev/create-schema.md#example--creating-a-contract-table)。
 
@@ -57,7 +57,7 @@ Adobe Campaign利用資料結構：
 
 ## 修改輸入表單
 
-促銷活動輸入表單可以配合您的實施進行調整。 您可以修改XML內容來新增或移除欄位。
+促銷活動輸入表單可以調整以配合您的實施。 您可以修改XML內容來新增或移除表格欄位。
 
 ：球：瞭解如何修改現有輸入表單或在[本節](../dev/forms.md)中建立新表單。
 
