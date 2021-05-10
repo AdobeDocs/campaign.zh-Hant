@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
+source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -25,7 +25,7 @@ ht-degree: 46%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們相信您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   請聯絡客戶服務團隊，讓您的環境升級。
+   請洽詢Adobe客戶服務團隊，讓您的環境升級。
 
 1. 我要如何連線至Campaign v8?
 
