@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 2ea953145b645d376d5ea88b89350b45f024ea7d
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 傳送警報
 
-身為促銷活動運算子，您可以在發生錯誤時接收警報。
+身為促銷活動運算子，您可以在失敗時接收警報。
 
 您可以建立工作流程，讓您監控一組工作流程的狀態，並傳送循環訊息給主管。
 
