@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_004.png)
 
-1. 指定要插入傳送內文的選件數目。
+1. 指定您要插入傳送內文的選件數目。
 
    ![](assets/offer_delivery_005.png)
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 但是，您可以按如下方式儲存此資訊：
 
-1. 在查詢之後和傳送活動之前放置的擴充活動中，建立對選件引擎的呼叫。 [了解更多](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)。
+1. 在查詢之後和傳送活動之前放置的擴充活動中，建立對選件引擎的呼叫。 [了解更多](#specifying-an-offer-or-a-call-to-the-offer-engine)。
 1. 在活動的主窗口中，選擇&#x200B;**[!UICONTROL Edit additional data...]**。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -203,8 +203,7 @@ ht-degree: 2%
 
       ![](assets/int_offer_per_cell1.png)
 
-1. 然後設定與您所選渠道對應的傳送活動。 如需詳細資訊，請參閱[將選件提案插入傳送](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)一節。
-
+1. 然後設定與您所選渠道對應的傳送活動。
 
 <!--
 
