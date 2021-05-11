@@ -8,10 +8,10 @@ breadcrumb-title: 促銷活動v8
 title: Campaign v8檔案
 hide: true
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 34%
+source-wordcount: '197'
+ht-degree: 35%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 34%
          + [建立運算子](send/interaction-operators.md)
          + [建立環境](send/interaction-env.md)
          + [建立預先定義的篩選](send/interaction-predefined-filters.md)
+         + [建立優惠方案空間](send/interaction-offer-spaces.md)
       + [建立選件目錄](send/interaction-offer-catalog.md)
       + [建立優惠方案](send/interaction-offer.md)
       + [傳送選件](send/interaction-send-offers.md)
