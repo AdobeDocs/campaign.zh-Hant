@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_004.png)
 
-1. 指定您要插入傳送內文的選件數目。
+1. 指定要插入傳送內文的選件數目。
 
    ![](assets/offer_delivery_005.png)
 
@@ -184,7 +184,7 @@ ht-degree: 2%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 然後設定與您所選渠道對應的傳送活動。 [了解更多](inserting-an-offer-proposition-into-a-delivery)。
+1. 然後設定與您所選渠道對應的傳送活動。 [了解更多](#inserting-an-offer-proposition-into-a-delivery)。
 
 ### 依儲存格列出的優惠方案 {#offers-by-cell}
 
