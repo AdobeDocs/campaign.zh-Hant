@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
+source-git-commit: 3783cb5ed3085b988f573fbf15858377b2bb2e05
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -21,6 +21,35 @@ ht-degree: 1%
 您可以建立選件目錄，並與您的出站通道（電子郵件、直效郵件、SMS）介接，以選擇在特定情境下傳送給聯絡人的最佳選件。 收件者的最佳選件選擇是根據&#x200B;**資格規則**。 從一組相關選件中選擇選件是使用優先順序規則來決定。 選件簡報規則會考量連絡人的歷史記錄，並協助避免讓他們多次收到相同的選件。
 
 互動功能可讓您建立和管理選件目錄，並設定與選件連結的資格規則和應用程式主題。 視所選頻道而定，由於各種轉換功能，提供的內容可以個人化。 最後，您可使用模擬模組來計算選件簡報的影響。
+
+## 開始使用選件
+
+以下列出啟動的關鍵步驟。
+
+### 設定您的平台
+
+在開始之前，請以&#x200B;**管理員**&#x200B;的身分，確認您在設計環境中執行了下列工作：
+
+1. 建立使用者設定檔。 [了解更多](interaction-operators.md)。
+1. （選擇性）為每個定位維度建立選件環境。 [了解更多](interaction-env.md)
+1. 為每個環境建立類型學規則。 [了解更多](interaction-offer.md#offer-presentation)。
+1. 為每個環境建立選件空間並配置渲染功能。 [了解更多](interaction-offer-spaces.md)。如果空間由標識模式上的酉通道定義，則必須為此空間指定高級參數。
+
+### 建立並發佈選件目錄{#managing-the-offer-catalog-}
+
+作為&#x200B;**選件管理員**，您需要執行以下任務：
+
+1. 在設計環境中建立選件類別。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)。
+1. 在設計環境中建立選件。 [了解更多](interaction-offer.md)。
+1. 在一或多個空間核准和發佈選件，以便讓選件在即時環境中提供給傳送管理員。 [了解更多](interaction-offer.md#approve-offers)。
+
+### 運用選件目錄{#using-the-offer-catalog-}
+
+作為&#x200B;**傳送管理器**，您需要執行以下任務：
+
+1. 建立促銷活動.
+1. 參考促銷活動或傳送中的選件。 [了解更多](interaction-send-offers.md)。
+
 
 ## 概念和術語
 
@@ -57,32 +86,4 @@ ht-degree: 1%
 * 選件的&#x200B;**預覽**&#x200B;會顯示選件顯示在其資料夾中。 您可從選件設定視窗或連絡人設定檔存取。
 * **預先定** 義的篩選規則可以考慮選件參數（例如，選件程式碼）。在建立選件後，可以重新使用這些選件。
 * **選件表示法**&#x200B;是頻道用來顯示選件的資訊。 選件表示可以由表示選件的空間的渲染函式構造，或直接輸入到介面（例如，在HTML塊中）中。 選件可以用空格表示。
-
-## 開始使用選件
-
-以下列出啟動的關鍵步驟。
-
-### 設定您的平台
-
-在開始之前，請以&#x200B;**管理員**&#x200B;的身分，確認您在設計環境中執行了下列工作：
-
-1. 建立使用者設定檔。 [了解更多](interaction-operators.md)。
-1. （選擇性）為每個定位維度建立選件環境。 [了解更多](interaction-env.md)
-1. 為每個環境建立類型學規則。 [了解更多](interaction-offer.md#offer-presentation)。
-1. 為每個環境建立選件空間並配置渲染功能。 [了解更多](interaction-offer-spaces.md)。如果空間由標識模式上的酉通道定義，則必須為此空間指定高級參數。
-
-### 建立並發佈選件目錄{#managing-the-offer-catalog-}
-
-作為&#x200B;**選件管理員**，您需要執行以下任務：
-
-1. 在設計環境中建立選件類別。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)。
-1. 在設計環境中建立選件。 [了解更多](interaction-offer.md)。
-1. 在一或多個空間核准和發佈選件，以便讓選件在即時環境中提供給傳送管理員。 [了解更多](interaction-offer.md#approve-offers)。
-
-### 運用選件目錄{#using-the-offer-catalog-}
-
-作為&#x200B;**傳送管理器**，您需要執行以下任務：
-
-1. 建立促銷活動.
-1. 參考促銷活動或傳送中的選件。 [了解更多](interaction-send-offers.md)。
 
