@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,12 @@ Adobe Campaignv8提供了重要的基礎架構、安全性、可傳遞性和監�
 
 * **與Adobe Experience Platform的聯繫**。Adobe CampaignV8支援具有Adobe Experience Platform/RT-CDP、統一的客戶概要檔案以及與Journey Orchestration的本機整合的資料連接器。 這些投資將優化Adobe Campaign的客戶體驗，並釋放新的使用案例，例如新增個人化即時客戶宣傳體驗的能力。
 
-* **受管理的Cloud Services**。Adobe Campaignv8是同類最佳的受管理Cloud Services，提供主動預防性監督、及時警報和服務治理。 行銷人員的價值在於更靈活、更可擴充的跨通道宣傳管理。
+* **受管理的Cloud Services**。Adobe Campaignv8僅&#x200B;****&#x200B;作為同類最佳的受管理Cloud Services提供，提供主動預防性監督、及時警報和服務治理。 行銷人員的價值在於更靈活、更可擴充的跨通道宣傳管理。
+
+>[!CAUTION]
+>
+>目前，Campaign v8僅以受管理Cloud Service的形式提供。 您無法在內部部署或混合部署中實作Campaign v8。 尚未提供從Campaign Classicv7環境進行的遷移。
+
 
 ## 規模
 
