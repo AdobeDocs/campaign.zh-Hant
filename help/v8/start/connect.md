@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '674'
 ht-degree: 6%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 6%
 
 「促銷活動用戶端主控台」是rich client，可讓您連線至您的Campaign應用程式伺服器。
 
->[!CAUTION]
->
->在開始之前，您必須檢查促銷活動[相容性矩陣](compatibility-matrix.md)，取得您的促銷活動伺服器URL和使用者認證。
+在開始之前，您需要：
+
+* 在[Compatibility matrix](compatibility-matrix.md)中檢查您的系統和工具與Adobe Campaign的相容性
+* 取得您的促銷活動伺服器URL
+* 取得您的使用者認證
 
 ## 下載並安裝Client Console
 
@@ -93,7 +95,6 @@ Adobe Campaign可讓您定義並管理指派給各種運算子的權限。 這�
 進一步瞭解使用者以及如何在[本節](permissions.md)中定義其權限。
 
 身為促銷活動管理員，您負責建立運算子並與使用者共用其認證。
-
 
 ## 使用您的Adobe ID連線至促銷活動{#connect-ims}
 
