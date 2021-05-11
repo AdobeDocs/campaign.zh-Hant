@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: 113f4b3e91c40438c4809bdb97976b58935a2f18
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 1. 建立新運算子。
 
-:arrow_upper_right:在促銷活動中建立運算子的步驟詳見[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+在促銷活動中建立運算子的步驟詳見[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Offer manager]**&#x200B;組。
 
@@ -49,8 +49,7 @@ ht-degree: 1%
 ## 建立傳送管理員運算子{#delivery-manager}
 
 1. 建立新運算子。
-
-:arrow_upper_right:在促銷活動中建立運算子的步驟詳見[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+在促銷活動中建立運算子的步驟詳見[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery manager]**&#x200B;組。
 
