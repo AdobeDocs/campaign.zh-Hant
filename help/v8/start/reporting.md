@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 43914bcbe3cf0ddb323d99a9df16189a1f687317
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,8 @@ Adobe Campaign提供一套報告工具：
 
 根據查詢、計算和卷的複雜性，這些報告中分析的資料可透過查詢收集，並預先匯總到清單（「資料管理」類型工作流程）或立方（使用Marketing Analytics）中。 它將以透視表或組清單的形式顯示。
 
+
 :arrow_upper_right:有關報告功能的詳細資訊，請[參閱本節](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)。
 
-## 要檢查的關鍵量度
+請注意，促銷活動v8報表已最佳化，並提供比Campaign Classicv7更佳的縮放功能。 對立方的現有限制不適用。
 
