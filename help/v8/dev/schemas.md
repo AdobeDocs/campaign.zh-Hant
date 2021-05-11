@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 使用促銷活動結構描述
 description: 結構描述快速入門
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ![](assets/schemaextension_2.png)
 
-[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)部分的`<attribute>`元素部分提供了完整的屬性清單。 以下是一些較常使用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **標籤a13/>,**@length **,**@name **,**@notNull **,**@required **,** ref **、**@xml **、**@type **。**
+[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素部分提供了完整的屬性清單。 以下是一些較常使用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **標籤a13/>,**@length **,**@name **,**@notNull **,**@required **,** ref **、**@xml **、**@type **。**
 
 :arrow_upper_right:有關每個屬性的詳細資訊，請參閱[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的「屬性說明」。
 
