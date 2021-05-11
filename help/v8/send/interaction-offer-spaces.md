@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -58,7 +58,7 @@ HTML演算是透過演算功能建立。 呈現函式中定義的欄位順序必
 
    **注意** - XML格式僅限於暫時無法使用的傳入互動。[了解更多](../start/capability-matrix.md#gs-unavailable-features)
 
-   ![](assets/offer_spacecreate_006.png)_
+   ![](assets/offer_space_create_006.png)_
 
 1. 轉到&#x200B;**[!UICONTROL HTML rendering]**&#x200B;頁籤並選擇&#x200B;**[!UICONTROL Overload the HTML rendering function]**。
 1. 插入您的演算功能。
