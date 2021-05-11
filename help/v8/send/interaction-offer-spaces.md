@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 3%
 選件目錄的內容是在選件空間中設定。 依預設，內容可包含下列欄位：**[!UICONTROL Title]**、**[!UICONTROL Destination URL]**、**[!UICONTROL Image URL]**、**[!UICONTROL HTML content]**&#x200B;和&#x200B;**[!UICONTROL Text content]**。 欄位順序是在選件空間中設定。
 
 身為&#x200B;**技術管理員**，您可以在設計環境中建立選件空間。 您必須擁有選件空間子資料夾的存取權。 建立完成後，這些選件空間會在選件核准期間自動複製到即時環境中。
-
-進階參數可讓您指定連絡人識別金鑰（例如，該金鑰可由各種元素、名稱和電子郵件欄位組成）。 如需詳細資訊，請參閱[展示已識別的選件](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer)一節。
 
 HTML演算是透過演算功能建立。 呈現函式中定義的欄位順序必須與內容中設定的順序相同。
 
@@ -66,8 +64,6 @@ HTML演算是透過演算功能建立。 呈現函式中定義的欄位順序必
 1. 插入您的演算功能。
 
    ![](assets/offer_space_create_007.png)
-
-如有必要，您可讓HTML和文字轉換功能過載。 [了解更多](../../interaction/using/about-inbound-channels.md)。
 
 ## 選件提案狀態{#offer-proposition-statuses}
 
@@ -161,5 +157,5 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->
