@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: eb47761f20c02474bb971ab992cf1ea5098bb350
+source-git-commit: 878badaa696e11771388d3a37658f75cca756543
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 29%
@@ -30,7 +30,7 @@ ht-degree: 29%
 
 :arrow_forward:[瞭解視訊中的描述檔](https://video.tv.adobe.com/v/35611?quality=12)
 
-:arrow_upper_right:瞭解如何在[本指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html{{){:target=&quot;_blank&quot;}中管理描述檔。
+:arrow_upper_right:瞭解如何在[本指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html{:target=&quot;_blank&quot;})中管理配置式。
 
 ## 隱私權與同意
 
