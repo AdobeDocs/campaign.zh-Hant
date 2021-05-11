@@ -8,10 +8,10 @@ breadcrumb-title: 促銷活動v8
 title: Campaign v8檔案
 hide: true
 translation-type: tm+mt
-source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 35%
+source-wordcount: '199'
+ht-degree: 34%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 35%
    + [電子郵件](send/email.md)
    + [SMS](send/sms.md)
    + [推播通知](send/push.md)
+   + [LINE消息](send/line.md)
    + [直接郵件](send/direct-mail.md)
    + [交易式訊息](send/transactional.md)
    + 新增選件{#interaction}
