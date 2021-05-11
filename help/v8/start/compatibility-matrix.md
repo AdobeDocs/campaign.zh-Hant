@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: e94080bc5e56e642494de48ff4b739b806c6e2e7
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 28%
+source-wordcount: '307'
+ht-degree: 26%
 
 ---
 
@@ -50,37 +50,16 @@ ht-degree: 28%
    * HDInsight 3.4 (HDP 2.4)、3.5 (HDP 2.5)、3.6 (HDP 2.6
    * Cloudera CDH6.x
 
-### 用戶端控制台作業系統{#ClientConsoleoperatingsystems}
+### 客戶端控制台{#ClientConsoleoperatingsystems}
+
+:warning:使用「促銷活動用戶端主控台」時，需要下列作業系統和瀏覽器。
+
+**作業系統**
 
 * **Microsoft Windows Server**  2016、2012
 * **Microsoft Windows** 8、10（建議用於日文例項）
 
-## 客戶端控制台{#ClientConsoleoperatingsystems}
-
-:warning:使用「促銷活動用戶端主控台」時，需要下列作業系統和瀏覽器。
-
-### 作業系統
-
-<table>
-<tbody>
-<tr>
-<td>Microsoft Windows Server</td>
-<td>
-<p>2016</p>
-<p>2012</p>
-</td>
-</tr>
-<tr>
-<td>Microsoft Windows</td>
-<td>
-<p>8</p>
-<p>10（建議用於日文執行個體）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 瀏覽器
+**瀏覽器**
 
 <table>
 <tbody>
@@ -100,7 +79,7 @@ ht-degree: 28%
 * **Android** 7.x、8.x、9.0（含行動SDK組建版本1.0.27）。
 * **Apple iOS**  9 - 14含行動SDK組建版本1.0.26，與32和64位元版本相容。
 
-## 支援的瀏覽器{#Browsers}
+### 支援的瀏覽器{#Browsers}
 
 下列瀏覽器與Campaign for Web Access相容。
 
