@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%
@@ -188,9 +188,9 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 :arrow_upper_right:有關詳細資訊，請參閱[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
-## 管理優惠方案簡報
+## 管理優惠方案簡報{#offer-presentation}
 
-Campaign可讓您使用簡報規則來控制選件的流程。 這些規則是促銷活動互動專屬的類型學規則。 它們可讓您根據已向收件者提出之主張的歷史記錄，排除選件。 它們在環境中被引用。
+Campaign可讓您使用簡報規則來控制選件的流程。 這些規則是促銷活動互動專屬的，是&#x200B;**類型學規則**。 它們可讓您根據已向收件者提出之主張的歷史記錄，排除選件。 它們在環境中被引用。
 
 :arrow_upper_right:有關詳細資訊，請參閱[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
