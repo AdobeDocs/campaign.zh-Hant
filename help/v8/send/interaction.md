@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. 建立使用者設定檔。 [了解更多](interaction-operators.md)。
 1. （選擇性）為每個定位維度建立選件環境。 [了解更多](interaction-env.md)
-1. 為每個環境建立類型學規則。 [了解更多](interaction-offers.md#offer-presentation)。
+1. 為每個環境建立類型學規則。 [了解更多](interaction-offer.md#offer-presentation)。
 1. 為每個環境建立選件空間並配置渲染功能。 [了解更多](interaction-offer-spaces.md)。如果空間由標識模式上的酉通道定義，則必須為此空間指定高級參數。
 
 ### 建立並發佈選件目錄{#managing-the-offer-catalog-}
