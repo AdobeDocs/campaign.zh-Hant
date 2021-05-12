@@ -7,10 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -23,15 +22,15 @@ ht-degree: 0%
 
 促銷活動Cloud Service提供的三種環境類型：
 
-* 生產環境：為業務從業者代管應用程式。
+* **生產環境**:為業務從業者代管應用程式。
 
-* 舞台環境：在將應用程式的變更推送至生產環境之前，先用於各種效能和品質測試。
+* **舞台環境**:在將應用程式的變更推送至生產環境之前，先用於各種效能和品質測試。
 
-* 開發環境：可讓開發人員在與舞台和生產環境相同的執行時期條件下實作Campaign。
+* **開發環境**:可讓開發人員在與舞台和生產環境相同的執行時期條件下實作Campaign。
 
 您可以將軟體包從一個環境導出並導入到另一個環境。
 
-:arrow_upper_right:進一步瞭解[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)中的軟體包
+:arrow_upper_right:進一步瞭解[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)中的軟體包
 
 ## 中間來源部署{#mid-sourcing-deployment}
 
