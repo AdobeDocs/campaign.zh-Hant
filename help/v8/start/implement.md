@@ -7,10 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-translation-type: tm+mt
-source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -23,6 +22,12 @@ ht-degree: 2%
 1. **準備環境**:匯入設定檔、建立觀眾、設計工作流程和促銷活動範本，以及建立排版規則
 1. **自訂您的例項**:建立新資料欄位，添加表／方案
 1. **擴展您的部署**:連接到Adobe解決方案、其他產品和系統——連接器、多解決方案設定
+
+>[!CAUTION]
+>
+>使用&#x200B;**促銷活動管理Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 不允許修改已安裝的內置軟體包、內置結構描述或報告。
+>
+>如果您需要使用促銷活動附加元件或尚未為您布建的特定功能，您必須聯絡&#x200B;**Adobe客戶服務**。
 
 ## 開始之前
 
@@ -40,7 +45,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
 ### 安全性
 
-在[促銷活動安全性檢查清單](../config/security.md)中瞭解安全性方針與Adobe Campaign原則
+在[促銷活動安全性檢查清單](../config/security.md)中，瞭解與Adobe Campaign相關的安全性准則和原則。
 
 ## 定義促銷活動設定
 
