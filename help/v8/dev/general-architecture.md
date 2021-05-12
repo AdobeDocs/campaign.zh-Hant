@@ -4,10 +4,9 @@ product: Adobe Campaign
 title: 通用架構
 description: Campaign v8一般架構
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -123,3 +122,10 @@ Adobe Campaign雲資料庫依賴於[!DNL Snowflake]，該包含功能資料（�
 客戶可使用預先定義的資料集市和結構描述來部署Adobe Campaign，也可以加以擴充。 Adobe Campaign通過SQL調用訪問資料集市中的所有資料。 Adobe Campaign也提供完整的摘取轉換與載入(ETL)工具，以執行資料進出系統的匯入與匯出。
 
 ![](assets/data-flow-diagram.png)
+
+
+>[!CAUTION]
+>
+>使用&#x200B;**促銷活動管理Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 不允許修改已安裝的內置軟體包、內置結構描述或報告。
+>
+>如果您需要使用促銷活動附加元件或尚未為您布建的特定功能，您必須聯絡&#x200B;**Adobe客戶服務**。
