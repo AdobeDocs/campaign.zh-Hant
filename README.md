@@ -1,7 +1,6 @@
 ---
-source-git-commit: 4884271a9fcd96b4ad1da2e2aed5d25c8f267a7f
+source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -13,6 +12,7 @@ ht-degree: 100%
 ## Adobe 開放原始碼管理辦法
 
 本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
+
 
 ## 關於您對 Adobe 內容的投稿
 
