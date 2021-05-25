@@ -1,22 +1,25 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 控制面板
 description: Campaign 控制面板
 feature: 概覽
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+hidefromtoc: true
+hide: true
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '361'
 ht-degree: 58%
 
 ---
 
 # Campaign 控制面板
 
-「促銷活動控制面板」可讓您管理每個例項的設定並追蹤使用情形，協助您以Adobe Campaign的產品管理員身分提高工作效率。 其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
+尚未提供
+
+「Campaign控制面板」可讓您管理每個執行個體的設定並追蹤每個執行個體的使用方式，協助您以Adobe Campaign產品管理員的身分提高工作效率。 其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
 
 主要優點：
 
@@ -24,7 +27,7 @@ ht-degree: 58%
 * 根據不同時間的不同業務需求進行設定。
 * 根據需求控制存取設定，以加強安全性。
 
-您也可以使用「促銷活動控制面板」來設定例項設定，例如IP允許清單、URL權限，以及擷取有關例項的資訊。
+您也可以使用Campaign控制面板來設定執行個體設定，例如IP允許清單、URL權限，以及擷取執行個體的相關資訊。
 
 ## 如何存取控制面板？
 
@@ -47,10 +50,10 @@ ht-degree: 58%
 
 ## 執行個體設定
 
-瞭解如何在「控制面板」中管理您的「促銷活動」例項設定。
+了解如何在「控制面板」中管理您的Campaign執行個體設定。
 * [允許清單上的IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
 * [URL 權限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
 * [執行個體詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:arrow_upper_right:探索[本檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)中的所有控制面板功能
+:arrow_upper_right:探索[本檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)中的所有「控制面板」功能
