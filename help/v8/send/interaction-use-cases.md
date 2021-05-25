@@ -1,24 +1,23 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 促銷活動互動使用案例
+title: 行銷活動互動使用案例
 description: 互動使用案例
 feature: 概覽
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '73'
 ht-degree: 4%
 
 ---
 
 # 使用案例
 
-透過Campaign Classic檔案中提供的這些逐步使用案例，運用促銷活動互動功能。
+透過Campaign Classicv7檔案中提供的這些逐步使用案例，善用Campaign互動功能。
 
-:arrow_upper_right:[建立並套用簡報規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html)
+:arrow_upper_right:[建立並應用演示規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html)
 
 :arrow_upper_right:[傳送電子郵件選件傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html)
 
