@@ -1,31 +1,30 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 與Campaign和Adobe Experience Manager合作
-description: 瞭解如何與Campaign和Adobe Experience Manager合作
+title: 使用Campaign和Adobe Experience Manager
+description: 了解如何使用Campaign和Adobe Experience Manager
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# 與Campaign和Adobe Experience Manager合作
+# 使用Campaign和Adobe Experience Manager
 
-Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager管理電子郵件傳送內容及表格。
+Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
 
-您也可以在編輯電子郵件或Adobe Campaign的登陸頁面時，直接從Adobe Experience Manager資產庫插入資產。 此功能在「資產」一章中詳述。**新增連結**
+您也可以在Adobe Campaign中編輯電子郵件或登錄頁面時，直接從Adobe Experience Manager Assets資料庫插入資產。 在Adobe Experience Manager Assets [chapter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html)中會詳細說明此功能。
 
-這表示您可以充份運用Adobe Experience Manager的內容編輯功能和Adobe Campaign傳送功能。
+這表示您可充分運用Adobe Experience Manager內容編輯功能和Adobe Campaign傳送功能。
 
-:arrow_upper_right:[在本檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+:arrow_upper_right: [了解更多資訊，請參閱本檔案](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
 
-:arrow_upper_right:[在此端對端範例中探索此整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+:arrow_upper_right: [在此端對端範例中探索此整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en)
 
-:speech_balloon:身為受管理的Cloud Services使用者，[連絡Adobe](../start/support.md#support)以整合Adobe Experience Manager與促銷活動。
+:speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Experience Manager與Campaign整合。
 
