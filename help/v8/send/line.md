@@ -1,22 +1,27 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 與Adobe Campaign發送直接LINE消息
-description: 開始使用LINE消息傳遞
+title: 使用Adobe Campaign傳送直接LINE訊息
+description: 開始使用LINE報文傳送
 feature: 概覽
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+hidefromtoc: true
+hide: true
+source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
 
-# 建立LINE交貨
+# 建立LINE傳送
 
-LINE是一種應用程式，適用於所有行動裝置和PC上的免費即時訊息、語音和視訊呼叫。 Adobe Campaign允許您發送LINE消息。
 
-:arrow_upper_right:進一步瞭解[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
+**尚未提供**
+
+
+LINE是一種應用程式，用於免費即時消息、語音和視頻呼叫，可在所有移動設備上和PC上使用。 Adobe Campaign可讓您傳送LINE訊息。
+
+:arrow_upper_right:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 
