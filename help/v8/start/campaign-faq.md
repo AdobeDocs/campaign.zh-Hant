@@ -1,62 +1,90 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8常見問題
-description: Discover促銷活動常見問答
+description: 探索促銷活動常見問答
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-translation-type: tm+mt
-source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '652'
+ht-degree: 41%
 
 ---
 
 # 常見問題集{#faq}
 
-使用Campaign時需要協助嗎？ 請閱讀下列 10 大問題，以及該頁面的其他常見問題。
+使用Campaign時需要協助嗎？ 請閱讀以下熱門問題/答案。
 
-1. 如何將 Campaign 升級至最新版本？
+1. **如何將 Campaign 升級至最新版本？**
 
-   定期更新 Adobe Campaign。每年都會推出次要版本，其中包含新功能、改進和修正。 此外，我們定期發行只累積修正的版本編號。
+   定期更新 Adobe Campaign。每年都會發行次要版本，其中包含新功能、改良和修正。 此外，我們定期發行只累積修正的版本編號。
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們相信您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   請洽詢Adobe客戶服務團隊，讓您的環境升級。
+   :speech_balloon:作為「受管理的Cloud Services」使用者，您的執行個體會隨著每個新發行版本依Adobe升級。
 
-1. 我要如何連線至Campaign v8?
+1. **如何連線至Campaign v8?**
 
-   ：球：[按一下此處瞭解詳細資訊](connect.md)。
+   您需要下載並安裝Campaign用戶端主控台，才能連線至Adobe Campaign。
 
-1. 如何改善電子郵件的傳遞能力？
+   ：燈泡：[按一下這裡以了解更多](connect.md)。
 
-   :arrow_upper_right:請參閱本指南以瞭解[提供最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
+1. **Campaign v8是否可安裝在內部部署或混合環境中？**
 
-   :arrow_upper_right:瞭解如何在Campaign [中實作本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)中的傳遞性
+   目前，Campaign v8僅適用於受管Cloud Services，完全由Adobe托管。
 
-1. 如何確定我是否成功傳遞，以及是否出現錯誤？
+1. **如何改善電子郵件傳遞能力？**
+
+   電子郵件傳遞是每個寄件者行銷計畫成功的關鍵元件，其特徵在於不斷變化的標準和規則。 在這個數位世界中有效導覽需要定期調整您的電子郵件策略，並考量重要的傳遞趨勢，以便最能觸及您的對象。
+
+   :arrow_upper_right:請參閱本指南，了解[傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
+
+   :arrow_upper_right:在本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)中了解如何在Campaign [實作傳遞能力
+
+1. **如何確定我是否成功傳遞，以及是否出現錯誤？**
 
    Adobe Campaign 提供一組可監視電子郵件傳遞的儀表板和工具。
 
-   [閱讀Campaign Classicv7檔案，了](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) 解如何確保訊息正在傳送、監控執行並在發生錯誤時採取行動。
+   [閱讀Campaign Classicv7檔案，](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) 了解如何確認訊息是否傳送、監控執行，以及在發生錯誤時採取行動。
 
-1. 是否可以監視工作流程執行？
+1. **是否可以監視工作流程執行？**
 
-   :arrow_upper_right:瞭解如何在Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行。[
+   :arrow_upper_right:了解如何在Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
 
-1. Campaign v8與哪些系統和元件相容？
+1. **Campaign v8與哪些系統和元件相容？**
 
    在 [Adobe Campaign 相容性矩陣](compatibility-matrix.md)中，您可以取得 Campaign 最新建立支援的所有系統和組件的清單。
 
-1. Campaign v8發行說明位於何處？
-
-   ：球：您可以在這裡存取最新的促銷活動發行說明。
-
-1. 域配置的過程是什麼？
+1. **網域委派的程序為何？**
 
    子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
-   :arrow_upper_right:使用促銷活動控制面板來設定網域委派。 [按一下這裡以瞭解更多資訊](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)。
+   :speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以委派您的子網域至Adobe。
+
+1. **身為Campaign Classicv7使用者，我可以移轉至Campaign v8嗎？**
+
+   目前，Campaign v8僅適用於新實作。
+
+1. **如何下載Campaign?**
+
+   您可以從Adobe下載中心取得安裝程式和用戶端主控台。
+
+   [按一](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) 下這裡以存取Experience CloudSoftware Distribution。
+
+   深入了解本頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)中的發佈中心[。
+
+1. **我可以與Campaign專家連絡嗎？**
+
+   加入Campaign社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+
+
+1. **如何登錄問題？**
+
+   建立案例可讓您聯絡 Adobe 客戶支援團隊，瞭解您在 Adobe 產品上遇到的任何問題。為協助解決或疑難排解您的問題，Adobe Admin Console 將允許您與 Adobe 客戶支援部門進行交談。
+
+   如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminConsole.adobe.com/overview)。
+
+   此系統需要每個使用者的個別帳戶，並具備正確的權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 申請存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
