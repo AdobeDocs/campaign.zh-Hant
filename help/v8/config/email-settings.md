@@ -1,39 +1,46 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 促銷活動電子郵件頻道設定
-description: 促銷活動電子郵件頻道設定
+title: Campaign電子郵件通道設定
+description: Campaign電子郵件通道設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '237'
+ht-degree: 3%
 
 ---
 
-# 促銷活動電子郵件頻道設定
+# Campaign電子郵件通道設定
 
 ## 電子郵件密件副本
 
-您可以設定Adobe Campaign，保留從您的平台傳送的電子郵件副本。
+您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。
 
-不過，Adobe Campaign本身並不管理已封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用位址，以便使用外部系統處理及封存。
+>[!NOTE]
+>電子郵件密件副本功能為選用。 請檢查您的授權合約。
 
-為此，將與已發送電子郵件對應的。eml檔案傳輸到遠程伺服器，如SMTP電子郵件伺服器。 封存目標是您必須指定的密件副本電子郵件地址（對傳送收件者不可見）。
+Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用地址，以便使用外部系統處理和封存訊息。
+
+要執行此操作，與已傳送電子郵件對應的.eml檔案會傳輸至遠端伺服器，例如SMTP電子郵件伺服器。 封存目的地是您必須指定的密件副本電子郵件地址（不會顯示給傳送收件者）。
 
 請注意：
 
-* 您只能使用一個密件副本電子郵件地址。
+* 您只能使用&#x200B;**一個**&#x200B;密件副本電子郵件地址。
 
-* 只有成功傳送的電子郵件才會納入考量，但彈回數則不會納入考量。
+* 系統只會考慮成功傳送的電子郵件，不會考慮退信。
 
-在設定電子郵件密件副本後，請務必在傳送範本或透過&#x200B;**電子郵件密件副本**&#x200B;選項的傳送中啟用該功能。
+:speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以在促銷活動中啟用電子郵件密件副本。 您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
 
-:arrow_upper_right:有關詳細資訊，請參閱[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=en#email-bcc)
+設定電子郵件密件副本後，請確定已在傳送範本或透過&#x200B;**電子郵件密件副本**&#x200B;選項在傳送中啟用功能。
 
-**注意**:電子郵件密件副本功能是可選的。請檢查您的授權合約。
+![](assets/email-bcc.png)
 
-:speech_balloon:身為受管理的Cloud Services使用者，[請聯絡Adobe](../start/support.md#support)，以啟用促銷活動中的電子郵件密件副本。 您選擇的密件副本電子郵件地址必須提供給將為您配置的Adobe團隊。
+
+**相** 關主題Campaign Classicv7檔案：
+
+* [使用電子郵件傳遞範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+* [探索電子郵件參數](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html)
+* [瞭解傳遞失敗](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
