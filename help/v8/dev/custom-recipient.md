@@ -1,14 +1,13 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 變更您的預設收件者表格
-description: 瞭解如何使用自訂收件者表格
+title: 更改預設收件人表
+description: 了解如何使用自訂收件者表格
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-translation-type: tm+mt
-source-git-commit: 84ee7eb2bf2e15d30c81f32f6b25c9801b3b12b1
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -17,17 +16,17 @@ ht-degree: 2%
 
 # 使用自訂收件者表格{#gs-ac-custom-recipient}
 
-Adobe Campaign有一個內置的配置檔案表：**nmsRecipient**。 此表格包含許多可輕鬆擴充的預先定義欄位和表格。 在[本頁](datamodel.md#ootb-profiles)中進一步瞭解此表。
+Adobe Campaign隨附內建的設定檔表格：**nmsRecipient**。 此表格包含許多預先定義的欄位和表格，可輕鬆擴充。 在[此頁](datamodel.md#ootb-profiles)中了解有關此表的詳細資訊。
 
-內建表格擴充功能提供彈性，但不允許移除某些未使用的欄位或連結。 因此，當您的資料模型與促銷活動內建的收件者表格結構顯著不同，或者您有大量的描述檔時，使用自訂收件者表格可能是個不錯的選項。  但是，這種方法在實施時需要一定的預防措施。
+內建表格擴充功能提供彈性，但不允許移除某些未使用的欄位或連結。 因此，當您的資料模型與Campaign內建的收件者表格結構（或如果您有大量設定檔）有顯著差異時，使用自訂收件者表格可能是個不錯的選項。  但是，此方法在實施時需要一定的預防措施。
 
-此功能使Adobe Campaign能夠處理來自外部資料庫的資料：此資料將用作一組傳送的描述檔。 實作此程式涉及限制，例如：
+此功能可讓Adobe Campaign處理來自外部資料庫的資料：此資料將用作傳送的一組設定檔。 實作此程式涉及限制，例如：
 
-* 無更新串流進出Campaign Cloud資料庫：此表中的資料可以通過托管該表的資料庫引擎直接更新。
-* 在現有資料庫上運行的進程需要是穩定的。
-* 使用具有非標準結構的配置檔案資料庫：使用單個實例，將檔案傳遞到保存在各種結構的表中。
+* 沒有從Campaign Cloud資料庫進行資料流更新：可通過承載此表的資料庫引擎直接更新表中的資料。
+* 在現有資料庫上運行的進程必須是穩定的。
+* 使用具有非標準結構的配置檔案資料庫：可使用單一例項，以各種結構傳送至儲存在各種表格中的設定檔。
 
-本節介紹映射Adobe Campaign現有表的關鍵點，以及基於任何表執行交付時要應用的配置設定。 此外，還介紹如何設計面向最終用戶的查詢介面。
+本節說明映射Adobe Campaign中現有表格的關鍵點，以及要套用以根據任何表格執行傳送的組態設定。 還介紹了如何為最終用戶設計查詢介面。
 
 >[!CAUTION]
 >
