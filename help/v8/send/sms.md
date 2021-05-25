@@ -1,45 +1,44 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 與Adobe Campaign一起傳送簡訊
-description: 開始使用Campaign中的SMS
+title: 使用Adobe Campaign傳送簡訊
+description: 開始使用Campaign中的簡訊
 feature: 概覽
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: bbaa603e73d4c1618f326624600ea3d357b265e6
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
 
 # 建立和傳送簡訊
 
-使用Adobe Campaign來傳送個人化的SMS訊息。
+使用Adobe Campaign傳送個人化SMS訊息。
 
-傳送SMS的主要步驟在下列章節中詳述：
+傳送簡訊的關鍵步驟在以下章節中詳細說明：
 
-* 瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)中設定SMS頻道
-* 瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages)中建立SMS傳送
-* 定義對象的步驟在本頁](../start/audiences.md)中詳述。[
-* 瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)中定義SMS內容
-* [Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages)中介紹了發送、監視和跟蹤SMS的工具
-* 瞭解如何在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages)中疑難排解SMS傳送問題
+* 了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)中設定SMS通道
+* 了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages)中建立SMS傳送
+* 定義對象的步驟在本頁](../start/audiences.md)中詳細說明[
+* 了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)中定義SMS內容
+* 傳送、監控及追蹤SMS的工具在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages)中有說明
+* 了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages)中疑難排解SMS傳送
 
-開始傳送SMS之前：
+開始傳送簡訊之前：
 
 * 請確定收件者設定檔中至少包含行動電話。
-* 檢視Adobe Campaign Classic[傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)，此範例也適用於Campaign v8。
+* 檢閱也適用於Campaign v8的Adobe Campaign Classic [傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)。
 
-此外，您還需要熟悉SMS通訊協定和設定。 瀏覽[本文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)中Adobe Campaign公司與SMPP提供商之間設定的連接
+此外，您還需熟悉SMS通訊協定和設定。 在[本檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)中，逐步說明Adobe Campaign與SMPP提供者之間所設定的連線
 
-有關如何建立傳送的全局資訊，請參閱[Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)。
+如需如何建立傳送的全域資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)。
 
 >[!NOTE]
 >
->Adobe Campaign也可讓您透過其&#x200B;**Adobe Campaign行動應用頻道(NMAC)**&#x200B;選項，在行動終端上提交通知。
+>Adobe Campaign也可讓您透過其&#x200B;**Adobe Campaign行動應用程式頻道(NMAC)**&#x200B;選項，在行動終端上提交通知。
 > 
 >如需詳細資訊，請參閱[本章節](push.md)。
 
-:arrow_upper_right:進一步瞭解[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
+:arrow_upper_right:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
