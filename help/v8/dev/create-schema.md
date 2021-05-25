@@ -1,23 +1,22 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 在促銷活動中建立新結構
-description: 瞭解如何在Campaign中建立新結構
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+title: 在Campaign中建立新結構
+description: 了解如何在Campaign中建立新結構
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
 
-# 建立新模式{#create-new-schema}
+# 建立新架構{#create-new-schema}
 
-要編輯、建立和配置模式，請按一下Adobe Campaign客戶機控制台的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點。
+若要編輯、建立和設定結構，請按一下Adobe Campaign用戶端主控台的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點。
 
 >[!NOTE]
 >
->您的Adobe Campaign Classic控制台管理員只能刪除內建資料結構。
+>您的Adobe Campaign Classic主控台管理員只能刪除內建資料結構。
 
 ![](assets/schema_navtree.png)
 
@@ -27,26 +26,26 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->「名稱」編輯控制項可讓您輸入由名稱和名稱空間組成的架構索引鍵。 架構的根元素的&quot;name&quot;和&quot;namespace&quot;屬性會在架構的XML編輯區域中自動更新。
+>「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)。
 
-**[!UICONTROL Preview]**&#x200B;頁籤自動生成擴展模式：
+**[!UICONTROL Preview]**&#x200B;頁簽自動生成擴展架構：
 
 ![](assets/schema_edition2.png)
 
 >[!NOTE]
 >
->保存源模式時，將自動啟動擴展模式的生成。
+>儲存來源架構時，會自動啟動延伸架構的產生。
 
-如果需要檢查方案的完整結構，可以使用&#x200B;**[!UICONTROL Preview]**&#x200B;頁籤。 如果架構已擴充，則您將能夠直觀顯示其所有擴展。 作為補充，**[!UICONTROL Documentation]**&#x200B;頁籤顯示所有模式屬性和元素及其屬性（SQL欄位、類型／長度、標籤、說明）。 **[!UICONTROL Documentation]**&#x200B;標籤僅適用於生成的方案。
+如果需要檢查架構的完整結構，可以使用&#x200B;**[!UICONTROL Preview]**&#x200B;頁簽。 如果結構已擴充，您便能將其所有擴充功能視覺化。 作為補充，**[!UICONTROL Documentation]**&#x200B;頁簽顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤、說明）。 **[!UICONTROL Documentation]**&#x200B;索引標籤僅適用於產生的結構。
 
 ## 使用案例：建立合同表{#example--creating-a-contract-table}
 
-在以下示例中，您為資料庫中的&#x200B;**contracts**&#x200B;建立新表。 此表格可讓您儲存每個合約持有人和共同持有人的名字和姓氏以及電子郵件地址。
+在以下示例中，您為資料庫中的&#x200B;**contracts**&#x200B;建立新表。 此表格可讓您儲存每個合約的持有人和共同持有人的名字和姓氏以及電子郵件地址。
 
-為此，需要建立表的模式並更新資料庫結構以生成相應表。 詳細步驟列於下方。
+要執行此操作，需要建立表的架構並更新資料庫結構以生成相應的表。 以下列出詳細步驟。
 
 1. 編輯Adobe Campaign樹的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點，然後按一下&#x200B;**[!UICONTROL New]**。
-1. 選擇&#x200B;**[!UICONTROL Create a new table in the data template]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 選擇&#x200B;**[!UICONTROL Create a new table in the data template]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Next]** 。
 
    ![](assets/create_new_schema.png)
 
@@ -56,17 +55,17 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >依預設，由使用者建立的結構描述會儲存在&#39;cus&#39;命名空間中。 有關詳細資訊，請參閱[方案標識](extend-schema.md#identification-of-a-schema)。
+   >依預設，使用者建立的結構會儲存在「自訂」命名空間中。 有關詳細資訊，請參閱[架構的標識](extend-schema.md#identification-of-a-schema)。
 
-1. 建立表的內容。 我們建議使用專用的助理，以確保沒有遺失設定。 若要這麼做，請按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，然後選擇要新增的設定類型。
+1. 建立表格的內容。 建議您使用專用助理，確保未遺失任何設定。 要執行此操作，請按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕並選擇要添加的設定類型。
 
    ![](assets/create_new_content.png)
 
 1. 定義合同表的設定：
 
    ```
-   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
-           label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"
+   <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
+           label="Contracts" labelSingular="Contract" lastModified="YYYY-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <element dataSource="nms:extAccount:ffda" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" name="Contracts">
@@ -82,10 +81,10 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   新增合約列舉類型。
+   新增合約分項清單的類型。
 
    ```
-   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>
          <value label="Car" name="car" value="1"/>
@@ -106,9 +105,9 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 保存模式並按一下&#x200B;**[!UICONTROL Structure]**&#x200B;頁籤以生成結構：
+1. 保存架構，然後按一下&#x200B;**[!UICONTROL Structure]**&#x200B;頁簽以生成結構：
 
    ![](assets/configuration_structure.png)
 
-1. 更新資料庫結構以建立將連結模式的表。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。
+1. 更新資料庫結構以建立將連結架構的表。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。
 
