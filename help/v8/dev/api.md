@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用 Campaign API
 description: 開始使用 Campaign API
@@ -7,42 +7,56 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 13%
+source-wordcount: '329'
+ht-degree: 4%
 
 ---
 
-# 開始使用促銷活動API{#gs-ac-api}
+# 開始使用[!DNL Campaign] API{#gs-ac-api}
 
-Adobe Campaign提供一組Javascript函式，您可使用：
+[!DNL Adobe Campaign] 隨附一組您可使用的JavaScript函式：
 
-* 在指令碼中——在Adobe Campaign工作流程中
-* 透過API —— 從外部系統
+* 在指令碼中 — 在[!DNL Adobe Campaign]工作流程中
+* 透過API — 從外部系統
 
-[本檔案列出所有Javascript函式](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+您可以使用Javascript API在Campaign雲端資料庫中寫入或從資料庫讀取：
 
-您可以使用Javascript API在Campaign雲端資料庫中寫入，或從資料庫讀取：
+* 可讓您對每個物件採取動作的業務專屬API:傳遞、工作流程、訂閱等。 進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)。
+* 一般資料會存取API以查詢資料模型資料。 進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)。
 
-* 可讓您對每個物件採取行動的商業專用API:傳送、工作流程、訂閱等。 [請參閱「以商業為導向的API](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)」。
-* 一般資料會存取API以查詢資料模型資料。 請參閱[資料導向API](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)。
+Campaign v8可與兩個資料庫搭配使用：用於使用者介面即時訊息傳送和統一查詢及透過API寫入的本機資料庫，以及用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行的雲端資料庫。
+
+>[!CAUTION]
+>
+>[!DNL Adobe Campaign] v8會限制API層的吞吐量(TPS)。突破限制會導致標準HTTP錯誤(429)。 身為「受管Cloud Services」使用者，您可以聯絡Adobe以調整每個API的限制。
 
 
 ## 必要條件
 
-在使用Adobe CampaignAPI之前，您必須熟悉下列主題：
+使用[!DNL Adobe Campaign] API之前，您必須熟悉下列主題：
 
 * Javascript
 * SOAP協定
-* Adobe Campaign資料模型
+* [!DNL Adobe Campaign] 資料模型
 
-為了使用API並與Adobe Campaign互動，您也需要熟悉您的資料模型。
+若要使用API並與[!DNL Adobe Campaign]互動，您也需要熟悉資料模型。
 
 >[!NOTE]
->您可以產生資料模型的完整說明。 進一步瞭解[本頁](datamodel.md)。
+>您可以產生資料模型的完整說明。 深入了解[本頁面](datamodel.md)。
 
+## [!DNL Campaign] API中繼機制
+
+使用[!DNL Campaign]雲資料庫時，由於效能（延遲和並行），不建議使用blast統一呼叫。 總是首選批操作。 為保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
+
+：燈泡：[本頁](staging.md)中詳細說明了API預備機制
+
+## 新API
+
+新的API可用於管理[!DNL Campaign]本地資料庫和雲資料庫之間的資料同步。 此外，也推出新機制，在本機資料庫層級處理API呼叫，以避免延遲並提升整體效能
+
+：燈泡：[本頁](new-apis.md)詳細說明新API
 
 **相關主題**
 
