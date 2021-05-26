@@ -6,9 +6,9 @@ description: 了解如何建立優惠方案目錄
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 **擴充**&#x200B;活動可讓您將選件或連結新增至傳遞收件者的選件。
 
-:arrow_upper_right:如需擴充活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+:[!DNL :arrow_upper_right:]:如需擴充活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 例如，您可以在傳送前讓收件者查詢的資料更豐富。
 
@@ -166,7 +166,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offer engine]**&#x200B;活動也可讓您指定傳送前對選件引擎的呼叫。
 
-:arrow_upper_right:如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+:[!DNL :arrow_upper_right:]:如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 此活動的運作方式與引擎呼叫的&#x200B;**擴充**&#x200B;活動相同，方法是在傳送前使用引擎計算的選件擴充入站母體資料。
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分佈至數個區段，並指定要針對每個區段顯示的選件。
 
-:arrow_upper_right:如需&#x200B;**依儲存格**&#x200B;活動的優惠方案詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+:[!DNL :arrow_upper_right:]:如需&#x200B;**依儲存格**&#x200B;活動的優惠方案詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 若要這麼做，請使用下列程式：
 
