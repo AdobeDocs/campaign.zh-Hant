@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 93004d69f33fce39f8f2abb18eec2562177a7adf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 65%
+source-wordcount: '623'
+ht-degree: 57%
 
 ---
 
@@ -69,9 +69,9 @@ Campaign v8 物件現在使用&#x200B;**通用唯一 ID (UUID)**，此 UUID 允�
 
 Campaign 使用者不需要成為資料庫專家：不再需要複雜的資料庫維護操作或複雜的表格索引。
 
-## 暫時無法使用的功能{#gs-unavailable-features}
+## 不可用功能{#gs-unavailable-features}
 
-請注意，此第一版尚未提供某些功能，例如：
+請注意，此第一版中未提供某些功能，例如：
 
 * 行銷資源管理
 * 分散式行銷
@@ -79,6 +79,14 @@ Campaign 使用者不需要成為資料庫專家：不再需要複雜的資料�
 * 行銷活動最佳化
 * 回應管理員
 * 混合/內部部署模型
+
+>[!CAUTION]
+>
+>目前，Campaign v8僅&#x200B;****&#x200B;可作為托管Cloud Service使用，且無法部署在內部部署或混合環境中。
+>
+>尚無法從現有Campaign Classicv7環境進行移轉。
+>
+>如果您不確定部署模式或有任何疑問，請洽詢您的客戶團隊。
 
 ## 已移除的功能{#gs-removed}
 
