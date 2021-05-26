@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
@@ -30,7 +30,7 @@ CampaignCloud Service提供的三種環境類型：
 
 您可以將套件從一個環境匯出並匯入至另一個環境。
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)中的套件
+[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## 中間來源部署{#mid-sourcing-deployment}
 
@@ -69,7 +69,7 @@ CampaignCloud Service提供的三種環境類型：
 
 ![](assets/messagecenter_diagram.png)
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)中描述了訊息中心架構
+[!DNL :arrow_upper_right:] Campaign Classicv7檔案中會說明訊 [息中心架構](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 ### 驗證
 
@@ -82,4 +82,4 @@ CampaignCloud Service提供的三種環境類型：
 * 多個執行實例
 在負載平衡器後面具有多個執行實例的多小區執行體系結構中，外部應用程式調用的登錄方法正在通過負載平衡器：因此，無法使用以權杖為基礎的驗證。 需要基於用戶/密碼的身份驗證。
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)中的交易式訊息事件
+[!DNL :arrow_upper_right:] 進一步了解Campaign Classicv7檔案中 [的交易式訊息事件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
