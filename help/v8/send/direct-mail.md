@@ -6,7 +6,7 @@ description: 開始使用Campaign中的直接郵件
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 2%
@@ -17,5 +17,5 @@ ht-degree: 2%
 
 直接郵件傳送可讓您產生包含目標母體資料的擷取檔案。
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
+[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
 
