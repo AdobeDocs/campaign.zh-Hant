@@ -6,9 +6,9 @@ description: 促銷活動外部帳戶
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5cafea0ca9adde6e9e7156baf44b65801f84b2a7
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1017'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **退回郵件**&#x200B;外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 所有為POP3訪問配置的伺服器都可用於接收返回郵件。
 
-   :arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)中深入了解傳入電子郵件
+   :[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)中深入了解傳入電子郵件
 
 * **路由**
 
@@ -56,7 +56,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    在交易式訊息傳送的內容中，執行例項會連結至控制例項並加以連結。 交易式訊息範本會部署至執行例項。
 
-   ：燈泡：在[本頁](../dev/architecture.md#transac-msg-archi)中了解有關郵件中心體系結構的更多資訊。
+   [!DNL :bulb:] 在本頁面中了解更多訊息中 [心架構](../dev/architecture.md#transac-msg-archi)。
 
 ## 訪問外部系統外部帳戶
 
@@ -66,7 +66,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    與Adobe Campaign v8相容的外部資料庫列在[相容性矩陣](../start/compatibility-matrix.md)中
 
-   ：燈泡：深入了解同盟資料存取(FDA)選項，請參閱[本節](../connect/fda.md)。
+   [!DNL :bulb:] 了解更多同盟資料存取(FDA)選項，請參 [閱本節](../connect/fda.md)。
 
 ## Adobe解決方案整合外部帳戶
 
@@ -74,7 +74,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    若要使用Adobe ID連線至Adobe Campaign主控台，您必須設定&#x200B;**[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶。
 
-   ：燈泡：[此小節](../start/connect.md#connect-ims)深入了解AdobeIdentity Management服務(IMS)。
+   [!DNL :bulb:] 了解更多AdobeIdentity Management服務(IMS)，請參 [閱本節](../start/connect.md#connect-ims)。
 
    :speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以透過促銷活動實作AdobeIMS。
 
@@ -82,14 +82,14 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    使用&#x200B;**[!UICONTROL Web Analytics (Adobe Analytics)]**&#x200B;外部帳戶來設定從Adobe Analytics到Adobe Campaign的資料傳輸。
 
-   ：燈泡：深入了解[本頁面](../connect/ac-aa.md)中的Adobe Campaign - Adobe Analytics整合。
+   [!DNL :bulb:] 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aa.md)。
 
    :speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Analytics與Campaign整合。
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]**&#x200B;外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
 
-   ：燈泡：深入了解[本頁面](../connect/ac-aem.md)中的Adobe Campaign - Adobe Analytics整合。
+   [!DNL :bulb:] 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aem.md)。
 
    :speech_balloon:以「受管Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以整合Adobe Experience Manager與Adobe Campaign。
 
@@ -100,7 +100,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部帳戶可讓您將Microsoft Dynamics資料匯入和匯出至Adobe Campaign。
 
-   ：燈泡：深入了解Adobe Campaign — 在[本頁面](../connect/crm.md)中整合Microsoft Dynamics CRM。
+   [!DNL :bulb:] 深入了解Adobe Campaign — 本頁提供Microsoft Dynamics CRM整 [合](../connect/crm.md)。
 
    使用&#x200B;**[!UICONTROL Web API]**&#x200B;部署類型和&#x200B;**[!UICONTROL Password credentials]**&#x200B;身份驗證時，您需要提供以下詳細資訊：
 
@@ -146,7 +146,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 這些外部帳戶可用於使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。
 
-:arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)中進一步了解工作流程中的檔案傳輸
+:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)中進一步了解工作流程中的檔案傳輸
 
 * **FTP和SFTP**
 
