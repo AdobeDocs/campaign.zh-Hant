@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign資料庫對應
 description: Campaign資料庫對應
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -257,7 +257,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 * ![](assets/do-not-localize/join_fda_11.png) :基數1-1
 * ![](assets/do-not-localize/join_fda_1m.png) :基數1-N
 
-：燈泡：如需FDA表格的詳細資訊，請參閱[同盟資料存取](../connect/fda.md)。
+[!DNL :bulb:] 如需FDA表格的詳細資訊，請參閱 [同盟資料存取](../connect/fda.md)。
 
 必須在包含透過主要元素連結之表格的外鍵的架構中宣告連結：
 
@@ -388,7 +388,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 
 預設值返回在「DefaultFolder(&#39;nmsFolder&#39;)」函式中輸入的第一個合格參數類型檔案的標識符。
 
-### 範例5 {#example-5}
+### 範例4 {#example-5}
 
 在此範例中，我們想在連結（「company」至「cus:company」架構）上建立索引鍵，其中包含&#x200B;**xlink**&#x200B;屬性，以及(「email」)表格的欄位：
 
