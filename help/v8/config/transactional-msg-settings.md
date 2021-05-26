@@ -6,9 +6,9 @@ description: Campaign交易式訊息設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 :speech_balloon:以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定「促銷活動交易訊息」。
 
-：燈泡：在[本節](../send/transactional.md)中詳細說明交易式傳訊功能。
+[!DNL :bulb:] 本節將詳細說明交易式 [訊息功能](../send/transactional.md)。
 
-：燈泡：了解[本頁](../dev/architecture.md)中的交易式訊息架構。
+[!DNL :bulb:] 在本頁面中了解交易式 [訊息架構](../dev/architecture.md)。
 
 ## 定義權限
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 在&#x200B;**Message Center技術工作流程**&#x200B;在控制或執行例項上所使用架構上所建立的所有架構擴充功能，必須複製到Adobe Campaign交易訊息模組所使用的其他例項上。
 
-:arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)中進一步了解訊息中心技術工作流程
+:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)中進一步了解訊息中心技術工作流程
 
 ## 傳送交易式推播通知
 
 與行動應用程式通道模組結合時，交易式訊息可讓您透過行動裝置上的通知推送交易式訊息。
 
-:arrow_upper_right:行動應用程式通道在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)中有詳細說明。
+:[!DNL :arrow_upper_right:]:行動應用程式通道在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)中有詳細說明。
 
 若要傳送交易式推播通知，您必須執行下列設定：
 
