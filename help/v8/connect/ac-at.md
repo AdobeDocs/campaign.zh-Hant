@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!NOTE]
 >整合僅支援靜態影像。 其他類型的內容無法個人化。
 
-:speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以使用Campaign實作Experience Cloud觸發器。
+[!DNL :speech_balloon:] 以受管理Cloud Services使用者的身 [分，](../start/campaign-faq.md#support) 聯絡Adobe以透過Campaign實作Experience Cloud觸發器。
 
 下列資料類型可供Adobe Target使用：
 
