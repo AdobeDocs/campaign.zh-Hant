@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 3%
@@ -41,14 +41,15 @@ Adobe Campaign v8隨附下列傳送管道：
 建立訊息並設計及測試其內容後，您就可以選擇要如何傳送訊息。 Campaign提供一組功能，可：
 
 * 手動傳送訊息至主要目標
-:[!DNL :arrow_upper_right:]:[了解如何傳送訊息](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+   [!DNL :arrow_upper_right:] [了解如何傳送訊息](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 * 傳送與[行銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html)相關聯的訊息
-:[!DNL :arrow_upper_right:]:[了解如何在行銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html)的內容中傳送訊息。
+   [!DNL :arrow_upper_right:] [了解如何在行銷活動內容中傳送訊息](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html)。
 * 透過[workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)傳送訊息
-:[!DNL :arrow_upper_right:]:[了解如何自動傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
-* [從事](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) 件觸發訊息：[!DNL :arrow_upper_right:]: [使用案例：了解如何傳送包含附件的交易式電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
+   [!DNL :arrow_upper_right:] [了解如何自動傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
+* [從事](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) 件觸發訊息
+   [!DNL :arrow_upper_right:] [使用案例：了解如何傳送包含附件的交易式電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * 排程訊息
-:[!DNL :arrow_upper_right:]:[使用案例：了解如何排程並傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
+   [!DNL :arrow_upper_right:] [使用案例：了解如何排程和傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
 
 
 ## 新增個人化
@@ -57,10 +58,12 @@ Adobe Campaign傳送的訊息可透過多種方式個人化。
 
 您可以：
 
-* 插入動態的個人化欄位。:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)中使用個人化欄位
+* 插入動態的個人化欄位。
+   [!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中 [使用個人化欄位](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * 插入預先定義的個人化區塊。
-:[!DNL :arrow_upper_right:]:了解什麼是個人化區塊，以及如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)中使用
-* 建立有條件的內容。:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)中插入條件式內容
+   [!DNL :arrow_upper_right:] 了解什麼是個人化區塊，以及如何在 [Campaign Classicv7檔案中使用](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+* 建立有條件的內容。
+   [!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案中插入條件式內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## 傳送交易式訊息
 
