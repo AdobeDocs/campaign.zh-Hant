@@ -6,7 +6,7 @@ description: 了解如何在Campaign v8中管理訂閱和取消訂閱
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 使用Adobe Campaign建立並監視電子報等資訊服務，並管理這些服務的訂閱/取消訂閱。 可同時定義多個服務，例如：特定產品類別、網站主題或區域的專家通訊、各種警報訊息的訂閱及即時通知。 請參閱管理訂閱。
 
-:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)中了解如何建立資訊服務、傳送電子報及管理選擇加入和選擇退出
+[!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中建立資訊服務、傳送電子報及管理選擇加入 [和選擇退出](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
 
 若要訂閱（選擇加入）服務的設定檔，可用的選項有：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 * 指定資訊服務的持續時間限制：有效期屆滿時，收件者會自動取消訂閱。 此期間在服務屬性的「編輯」頁簽中指定。 以天表示。
 * 設定母體的取消訂閱工作流程
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
+[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
 
 >[!CAUTION]
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 您也可以讓傳遞收件者將訊息轉送給朋友。 若要這麼做，請將相關連結插入您的傳送中。 然後，您就可以追蹤此共用程式以及相關頁面的造訪次數。
 
-:[!DNL :arrow_upper_right:]:如需此功能的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend)。
+[!DNL :arrow_upper_right:] 如需此功能的詳細資訊，請參 [閱Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend)。
