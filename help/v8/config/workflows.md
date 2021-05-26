@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1223'
 ht-degree: 7%
 
 ---
@@ -31,19 +31,21 @@ ht-degree: 7%
 
 使用Adobe Campaign工作流程來改善行銷活動各個層面（從建立區段、準備訊息到傳送）的速度和規模。
 
-進一步了解以下小節中的工作流程：
+了解如何在這些[端對端使用案例](#end-to-end-uc)中設計工作流程。
 
-* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
-* 工作流程活動
+進一步了解Campaign Classicv7檔案中的工作流程使用者介面和執行：
+
+[!DNL :arrow_upper_right:]  [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+* 工作流程活動：
    * [目標定位活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html):查詢、讀取清單、擴充、聯合等
    * [流量控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):排程器、分叉、警報、外部訊號等
    * [動作活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):跨通道傳送、JavaScript程式碼、CRM活動、更新匯總等
    * [事件活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):檔案傳輸、網頁下載等
-* [透過端對端使用案例了解](#end-to-end-uc)
-* [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
-* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
-* [內建的技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
-* [監控工作流程執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
+      [!DNL :arrow_upper_right:]  [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+
+      [!DNL :arrow_upper_right:]  [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
+      [!DNL :arrow_upper_right:] [內建的技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
+      [!DNL :arrow_upper_right:] [監控工作流程執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
 
 
 ## 設定循環促銷活動
