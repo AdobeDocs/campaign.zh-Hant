@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 3%
@@ -22,7 +22,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會�
 
 這些工作流程會在資料庫上執行維護作業、運用傳送記錄檔中的追蹤資訊、建立週期性促銷活動等。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)中會詳細說明技術工作流程的完整清單
+[!DNL :arrow_upper_right:] 技術工作流程的完整清單在 [Campaign Classicv7檔案中詳細說明](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 
 
 除了這些技術工作流程外，Campaign v8還仰賴特定的技術工作流程來管理[資料復寫](#data-replication)。
@@ -69,6 +69,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **相關主題**
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)中如何開始使用工作流程
+[!DNL :arrow_upper_right:] 了解如何開始使用 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
 [!DNL :bulb:] 存取本區段中的資料保 [留期間](../dev/datamodel-best-practices.md#data-retention)
