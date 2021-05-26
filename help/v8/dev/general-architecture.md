@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 通用架構
 description: Campaign v8一般架構
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 0%
 
 * **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign用戶端主控台提供絕佳的使用方便性，可提高生產力、使用極少的頻寬（透過使用本機快取），且專為輕鬆部署而設計。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
-   ：燈泡：[進一步了解Campaign用戶端主控台](../start/connect.md)。
+   [!DNL :bulb:] [進一步了解Campaign用戶端主控台](../start/connect.md)。
 
 * **Web訪問**:應用程式的部分可透過簡單的網頁瀏覽器使用HTML使用者介面來存取，包括報表模組、傳送核准階段、執行個體監控等。
 
-   ：燈泡：[進一步了解Campaign Web Access](../start/connect.md)。
+   [!DNL :bulb:] [深入了解Campaign Web Access](../start/connect.md)。
 
 * **促銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
 
-   ：燈泡：[進一步了解Campaign API](../dev/api.md)。
+   [!DNL :bulb:] [深入了解Campaign API](../dev/api.md)。
 
 ## 開發環境{#dev-env}
 
