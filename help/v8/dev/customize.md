@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe Campaign利用資料結構來：
 
 * 透過介面，使用&#x200B;**新欄位**&#x200B;助理
 
-   :[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)中快速在Campaign中新增欄位
+   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何快速在Campaign中 [新增欄位](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * 以程式設計方式，借由擴充架構
 
