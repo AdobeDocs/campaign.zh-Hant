@@ -7,7 +7,7 @@ feature: 閱聽眾
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 7%
@@ -44,7 +44,7 @@ Adobe Campaign 可讓您在多個通路上設計及編排有針對性的個人�
 
 Adobe Campaign可讓您從統一控制中心建立、設定、執行和分析所有行銷活動。
 
-:[!DNL :arrow_upper_right:]:探索如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)中存取及實作行銷活動
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中探索如何存取及實 [作行銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
 
 ## 開始的關鍵步驟
