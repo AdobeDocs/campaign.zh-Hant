@@ -7,7 +7,7 @@ feature: 閱聽眾
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 5%
@@ -117,8 +117,8 @@ Campaign使用者可透過AdobeIdentity Management系統(IMS)，使用Adobe ID�
 
 應用程式的某些部分可使用HTML用戶介面，通過簡單的Web瀏覽器進行訪問：促銷活動控制面板、多維資料集報表、執行個體監控等。
 
-:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)中深入了解Web存取
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中進一步 [了解Web存取](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
 
 驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
 
-:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)中設定和管理核准
+[!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中設 [定和管理核准](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
