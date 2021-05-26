@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Adobe Campaign隨附程式和設定，可讓您使用Campaign，以符合適用�
 
 您可以手動將使用者新增至Cammaign，並與群組建立關聯，並與您的角色階層保持一致。 然後，使用者將能登入並存取適合他們的資料和權限。
 
-:[!DNL :arrow_upper_right:]:了解如何在[本區段](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)中將使用者新增至Adobe Campaign。
+[!DNL :arrow_upper_right:] 在本小節中了解如何將使用者新 [增至Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)。
 
 ### 安裝Campaign用戶端主控台
 
