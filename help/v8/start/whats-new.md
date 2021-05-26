@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 65%
+source-wordcount: '453'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視�
 
 主要功能包括：
 
-* **速度和規模**。Adobe Campaign v8 利用雲端資料庫管理器，讓查詢的執行速度加快 200 倍，擴展了多 PB 規模，每小時訊息數增加，異動訊息時速達 20M 或 1.5M/ 小時，並管理多達 2 億個活動中檔案，甚至可能多達 10 億。
+* **速度和規模**。Adobe Campaign v8 利用雲端資料庫管理器，讓查詢的執行速度加快 200 倍，擴展了多 PB 規模，每小時訊息數增加，異動訊息時速達 20M 或 1M/ 小時，並管理多達 2 億個活動中檔案，甚至可能多達 10 億。
 
 * **與 Adobe Experience Platform 的連結**。Adobe Campaign v8 支援 Adobe Experience Platform/RT-CDP 的資料連接器、統一的客戶設定檔以及與 Journey Orchestration 的原生整合。 這些投資將最佳化 Adobe Campaign 的客戶體驗，並解鎖新的使用實例，例如新增個人化即時客戶歷程至行銷活動等功能。
 
@@ -31,6 +31,8 @@ Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視�
 >目前，Campaign v8僅&#x200B;****&#x200B;可作為托管Cloud Service使用，且無法部署在內部部署或混合環境中。
 >
 >尚無法從現有Campaign Classicv7環境進行移轉。
+>
+>如果您不確定部署模式或有任何疑問，請洽詢您的客戶團隊。
 
 
 ## 規模
