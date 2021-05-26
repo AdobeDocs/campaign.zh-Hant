@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 41%
+source-wordcount: '642'
+ht-degree: 42%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 41%
 
    您需要下載並安裝Campaign用戶端主控台，才能連線至Adobe Campaign。
 
-   ：燈泡：[按一下這裡以了解更多](connect.md)。
+   [!DNL :bulb:][按一下這裡以瞭解更多資訊](connect.md)。
 
 1. **Campaign v8是否可安裝在內部部署或混合環境中？**
 
@@ -40,9 +40,9 @@ ht-degree: 41%
 
    電子郵件傳遞是每個寄件者行銷計畫成功的關鍵元件，其特徵在於不斷變化的標準和規則。 在這個數位世界中有效導覽需要定期調整您的電子郵件策略，並考量重要的傳遞趨勢，以便最能觸及您的對象。
 
-   :arrow_upper_right:請參閱本指南，了解[傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
+   :[!DNL :arrow_upper_right:]:請參閱本指南，了解[傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
 
-   :arrow_upper_right:在本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)中了解如何在Campaign [實作傳遞能力
+   :[!DNL :arrow_upper_right:]:閱讀本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)，了解如何在Campaign [中實作傳遞能力
 
 1. **如何確定我是否成功傳遞，以及是否出現錯誤？**
 
@@ -52,7 +52,7 @@ ht-degree: 41%
 
 1. **是否可以監視工作流程執行？**
 
-   :arrow_upper_right:了解如何在Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
+   :[!DNL :arrow_upper_right:]:了解如何在Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
 
 1. **Campaign v8與哪些系統和元件相容？**
 
