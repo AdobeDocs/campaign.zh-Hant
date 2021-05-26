@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 
 請前往[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)，深入了解Adobe Campaign和Adobe Analytics
 
-:speech_balloon: 以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以整合Adobe Analytics Data Connector與Campaign。
+[!DNL :speech_balloon:]  以「受管理Cloud Services」使用者 [身](../start/campaign-faq.md#support) 分，請聯絡Adobe以整合Adobe Analytics Data Connector與Campaign。
 
 
 ## Experience Cloud Triggers
@@ -49,4 +49,4 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 
 深入了解[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)上的Adobe Campaign和Experience Cloud觸發器。
 
-:speech_balloon: 以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以使用Campaign實作Experience Cloud觸發器。
+[!DNL :speech_balloon:]  以受管理Cloud Services使用者的身 [分，](../start/campaign-faq.md#support) 聯絡Adobe以透過Campaign實作Experience Cloud觸發器。
