@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 4%
 
 ---
@@ -50,13 +50,13 @@ Campaign v8可與兩個資料庫搭配使用：用於使用者介面即時訊息
 
 使用[!DNL Campaign]雲資料庫時，由於效能（延遲和並行），不建議使用blast統一呼叫。 總是首選批操作。 為保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
 
-：燈泡：[本頁](staging.md)中詳細說明了API預備機制
+[!DNL :bulb:] [本頁面詳細說明API中繼機制](staging.md)
 
 ## 新API
 
 新的API可用於管理[!DNL Campaign]本地資料庫和雲資料庫之間的資料同步。 此外，也推出新機制，在本機資料庫層級處理API呼叫，以避免延遲並提升整體效能
 
-：燈泡：[本頁](new-apis.md)詳細說明新API
+[!DNL :bulb:] [本頁詳細說明新API](new-apis.md)
 
 **相關主題**
 
