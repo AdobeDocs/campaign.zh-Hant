@@ -10,38 +10,38 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 8%
+ht-degree: 59%
 
 ---
 
-# 將資料匯入促銷活動{#ootb-profiles}
+# 將資料匯入 Campaign{#ootb-profiles}
 
-Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動執行多個連絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
+Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
 [!DNL :bulb:] 開始使用 [](audiences.md)
 [!DNL :bulb:] 對象了解Campaign資 [料模型](../dev/datamodel.md)
 
 ## 在工作流程中匯入設定檔
 
-設定檔匯入是在透過&#x200B;**Import**&#x200B;活動透過工作流程執行的專用範本中設定。 它們可以根據時間表自動重複，例如多個資訊系統之間的自動化資料交換。進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html)。
+設定檔匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=zh-Hant)。
 
 ![](assets/import-wf.png)
 
 進一步了解Campaign Classicv7檔案：
 
-[!DNL :arrow_upper_right:] [開始使用匯入和匯出功能](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+[!DNL :arrow_upper_right:] [開始使用匯入和匯出功能](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=zh-Hant)
 
-[!DNL :arrow_upper_right:] [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+[!DNL :arrow_upper_right:] [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=zh-Hant)
 
-[!DNL :arrow_upper_right:] [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+[!DNL :arrow_upper_right:] [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=zh-Hant)
 
-## 運行統一導入
+## 執行單一匯入
 
-建立並執行一般資料匯入工作，以在雲端資料庫中載入連絡人。
+建立並執行一般資料匯入作業，以載入雲端資料庫中的聯絡人。
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)中了解如何執行統一匯入工作以饋送資料庫。
+[!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant)中了解如何執行統一匯入工作以饋送資料庫。
 
 ## 透過網頁應用程式收集設定檔
 
@@ -54,5 +54,5 @@ Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 **相關主題**
 
 * [建立對象](audiences.md)
-* [刪除重複的設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
-* [擴充設定檔資料](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
+* [重複設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=zh-Hant)
+* [豐富設定檔資料](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko)
