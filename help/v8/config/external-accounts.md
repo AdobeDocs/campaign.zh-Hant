@@ -6,7 +6,7 @@ description: 促銷活動外部帳戶
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 4%
@@ -146,7 +146,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 這些外部帳戶可用於使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。
 
-:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)中進一步了解工作流程中的檔案傳輸
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中進一步了解工作流程 [中的檔案傳輸](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
 
 * **FTP和SFTP**
 
