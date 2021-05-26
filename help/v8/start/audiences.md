@@ -7,10 +7,10 @@ feature: 閱聽眾
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 22%
+source-wordcount: '743'
+ht-degree: 24%
 
 ---
 
@@ -37,34 +37,34 @@ ht-degree: 22%
 ![](assets/create-profile.png)
 
 
-[!DNL :arrow_upper_right:] 了解如何在Adobe Campaign Classic v7 [檔案中管理設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)。
+[!DNL :[!DNL :arrow_upper_right:]:]了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)中管理設定檔。
 
 
 ## 隱私權與同意
 
 Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料）的強大工具。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-:arrow_upper_right:在[Adobe Campaign Classic v7檔案](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)中了解如何管理隱私權和同意。
+:[!DNL :arrow_upper_right:]:在[Adobe Campaign Classic v7檔案](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)中了解如何管理隱私權和同意。
 
 ## 建立清單
 
 清單 (list) 是一組靜態的用戶檔案，在傳遞作業期間可用於提供目標，或在匯入作業或工作流程執行期間可對其進行更新。例如，透過查詢而從資料庫中摘取出的母體可形成一個清單。
 
-:arrow_upper_right:了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html)中建立及管理清單。
+:[!DNL :arrow_upper_right:]:了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html)中建立及管理清單。
 
 ## 查詢資料庫
 
 在工作流程中使用&#x200B;**Query**&#x200B;活動來查詢您的資料庫、劃分資料並建立複雜的對象。
 
-:arrow_upper_right:在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html)中深入了解Campaign查詢。
+:[!DNL :arrow_upper_right:]:在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html)中深入了解Campaign查詢。
 
-:arrow_upper_right:所有目標定位活動都列在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html)中
+:[!DNL :arrow_upper_right:]:所有鎖定目標活動都列在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html)中
 
 ## 在工作流程中建立對象
 
 鎖定目標可透過工作流程中圖形順序的查詢組合來建立。 您可以建立將根據您的需求鎖定的對象。 若要顯示工作流程編輯器，請按一下促銷活動控制面板中的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;標籤。
 
-:arrow_upper_right:在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)中了解如何在行銷活動工作流程中建立受眾
+:[!DNL :arrow_upper_right:]:在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)中了解如何在行銷活動工作流程中建立受眾
 
 
 ## 使用中的設定檔案{#active-profiles}
@@ -76,13 +76,13 @@ Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-:arrow_upper_right: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+:[!DNL :arrow_upper_right:]: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 **相關主題**
 
-:arrow_upper_right:[設計並執行促銷活動專屬的工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html)
+:[!DNL :arrow_upper_right:]:[設計並執行促銷活動專屬工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html)
 
-:arrow_upper_right:[了解如何選取行銷活動的對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html)
+:[!DNL :arrow_upper_right:]:[了解如何選取行銷活動的對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html)
 
-:arrow_upper_right:[開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
+:[!DNL :arrow_upper_right:]: [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
