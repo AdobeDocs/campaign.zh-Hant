@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 作為[!DNL Campaign Classic]使用者，請注意，除了[此區段](#gs-removed)中列出的小組功能外，大部分的[!DNL Campaign Classic] v7功能都可搭配[!DNL Campaign] v8使用。 其他將在未來發行。 [了解更多資訊](#gs-unavailable-features)
 
-：燈泡：了解[本頁](../dev/architecture.md)中[!DNL Campaign] v8架構的詳細資訊。
+[!DNL :bulb:] 在本頁面中 [!DNL Campaign] 深入了解v8 [架構](../dev/architecture.md)。
 
 ## 產品設定變更
 
