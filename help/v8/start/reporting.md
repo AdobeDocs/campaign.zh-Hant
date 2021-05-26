@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Campaign提供一組報表工具：
 根據查詢、計算和卷的複雜性，這些報告中分析的資料可透過查詢收集，並預先匯總到清單（資料管理類型工作流程）或多維資料集（使用Marketing Analytics）中。 它將以透視表或組清單的形式顯示。
 
 
-:[!DNL :arrow_upper_right:]:如需報告功能的詳細資訊，請[參閱本區段](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)。
+[!DNL :arrow_upper_right:] 如需報告功能的詳細資 [訊，請參閱本區段](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)。
 
 請注意，Adobe Campaign報表已最佳化，且比Campaign Classicv7提供更佳的擴充功能。 對多維資料集的現有限制不適用。
 
