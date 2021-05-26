@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 42%
@@ -40,9 +40,9 @@ ht-degree: 42%
 
    電子郵件傳遞是每個寄件者行銷計畫成功的關鍵元件，其特徵在於不斷變化的標準和規則。 在這個數位世界中有效導覽需要定期調整您的電子郵件策略，並考量重要的傳遞趨勢，以便最能觸及您的對象。
 
-   :[!DNL :arrow_upper_right:]:請參閱本指南，了解[傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
+   [!DNL :arrow_upper_right:] 請參閱本指南，了解傳 [遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
 
-   :[!DNL :arrow_upper_right:]:閱讀本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)，了解如何在Campaign [中實作傳遞能力
+   [!DNL :arrow_upper_right:] 閱讀本指南，了解如何在Campaign中 [實作傳遞能力](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. **如何確定我是否成功傳遞，以及是否出現錯誤？**
 
@@ -52,7 +52,7 @@ ht-degree: 42%
 
 1. **是否可以監視工作流程執行？**
 
-   :[!DNL :arrow_upper_right:]:了解如何在Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)中監控促銷活動工作流程執行[。
+   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如 [何監控Campaign工作流程執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)。
 
 1. **Campaign v8與哪些系統和元件相容？**
 
