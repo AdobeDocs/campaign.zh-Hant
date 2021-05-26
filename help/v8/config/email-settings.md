@@ -6,9 +6,9 @@ description: Campaign電子郵件通道設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選�
 
 * 系統只會考慮成功傳送的電子郵件，不會考慮退信。
 
-:speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以在促銷活動中啟用電子郵件密件副本。 您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
+[!DNL :speech_balloon:] 以「受管理的Cloud Services」使用者身 [分，](../start/campaign-faq.md#support) 連絡Adobe以在Campaign中啟用電子郵件密件副本。您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
 
 設定電子郵件密件副本後，請確定已在傳送範本或透過&#x200B;**電子郵件密件副本**&#x200B;選項在傳送中啟用功能。
 
