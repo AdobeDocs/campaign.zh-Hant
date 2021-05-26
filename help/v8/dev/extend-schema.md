@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 擴充Campaign綱要
 description: 了解如何擴充Campaign綱要
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!CAUTION]
 >內建架構不能直接修改。 如果您需要調整內建結構，則必須擴充它。
 
-：燈泡：如需深入了解Campaign內建表格及其互動，請參閱[此頁面](datamodel.md)。
+[!DNL :bulb:] 如需深入了解Campaign內建表格及其互動，請參閱 [本頁面](datamodel.md)。
 
 若要擴充結構，請遵循下列步驟：
 
