@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 42%
+source-wordcount: '638'
+ht-degree: 43%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們相信您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   :speech_balloon:作為「受管理的Cloud Services」使用者，您的執行個體會隨著每個新發行版本依Adobe升級。
+   [!DNL :speech_balloon:] 作為「受管理的Cloud Services」使用者，您的執行個體會隨著每個新發行版本依Adobe升級。
 
 1. **如何連線至Campaign v8?**
 
@@ -62,7 +62,7 @@ ht-degree: 42%
 
    子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
-   :speech_balloon:以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以委派您的子網域至Adobe。
+   [!DNL :speech_balloon:] 以「受管理的Cloud Services」使用者 [身](../start/campaign-faq.md#support) 分，請連絡Adobe以委派您的子網域至Adobe。
 
 1. **身為Campaign Classicv7使用者，我可以移轉至Campaign v8嗎？**
 
