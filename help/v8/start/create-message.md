@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 3%
@@ -73,19 +73,19 @@ Adobe Campaign傳送的訊息可透過多種方式個人化。
 
 [!DNL :bulb:] 本頁詳細說明設定及傳送交易式訊息 [的步驟](../send/transactional.md)
 
-:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)中，以端對端使用案例探索此功能
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中，透過端對端使用案例 [探索此功能](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## 傳送和追蹤記錄檔
 
 在傳送後監控傳送是確保行銷活動有效率並與客戶聯絡的關鍵步驟。 您可以在傳送傳送後進行監控，並了解如何管理傳送失敗和隔離。
 
-:[!DNL :arrow_upper_right:]:[在本小節中了解如何監控您的傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] [在本小節中了解如何監視您的傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
 
 **相關主題**
 
-:[!DNL :arrow_upper_right:]:  [關於傳遞的最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
+[!DNL :arrow_upper_right:]  [關於傳遞的最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
 
-:[!DNL :arrow_upper_right:]: [測試並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+[!DNL :arrow_upper_right:]  [測試並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 
-:[!DNL :arrow_upper_right:]: [傳送校樣](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[!DNL :arrow_upper_right:]  [傳送校樣](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
