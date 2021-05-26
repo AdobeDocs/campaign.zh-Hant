@@ -6,16 +6,16 @@ description: Campaign交易式訊息設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # 交易式訊息設定
 
-:speech_balloon:以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定「促銷活動交易訊息」。
+[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
 
 [!DNL :bulb:] 本節將詳細說明交易式 [訊息功能](../send/transactional.md)。
 
