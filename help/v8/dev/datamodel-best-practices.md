@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 資料模型最佳實務
 description: 了解Campaign資料模型擴充功能最佳實務
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2679'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ Adobe Campaign既非資料倉庫，也非報表工具。 因此，為確保Adobe
 
 您可以在架構中宣告「deleteStatus」屬性。 將記錄標示為已刪除，然後延遲清除任務中的刪除會更有效。
 
-:speech_balloon:身為受管理Cloud Services使用者，請洽詢Adobe顧問或技術管理員，以進一步了解保留，或您是否需要為自訂表格設定保留。
+[!DNL :speech_balloon:] 身為受管理Cloud Services使用者，請洽詢Adobe顧問或技術管理員，以進一步了解保留，或您是否需要為自訂表格設定保留。
 
 ## 效能 {#performance}
 
