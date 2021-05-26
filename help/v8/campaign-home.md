@@ -1,13 +1,13 @@
 ---
-keywords: Campaign Classic；首頁；熱門主題
+keywords: Campaign Classic;home;popular topics
 solution: Campaign v8
-description: Campaign v8說明中心
-title: Adobe Campaign v8產品檔案
+description: Campaign v8 說明中心
+title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 30b363ca9905c71f24a9b3db2404a301a5965eac
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 17%
+ht-degree: 83%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 17%
 
 * **[什麼是 [!DNL Adobe Campaign]](start/get-started.md)**  — 主要功能和使用案例
 
-* **[v8的新功能](start/whats-new.md)** - Discover Campaign v8功能
+* **[v8 的新增功能](start/whats-new.md)** - 瞭解 Campaign v8 功能
 
-* **[實作准則](start/implement.md)**   — 了解如何開始實作
+* **[實施方針](start/implement.md)**  - 瞭解如何開始實施
 
-* **[從v7到v8](start/capability-matrix.md)**  — 從Campaign Classicv7到v8?了解主要差異
+* **[從 v7 到 v8](start/capability-matrix.md)** - 從 Campaign Classic v7 轉變到 v8？瞭解主要差異
 
 ## 開始使用
 
@@ -31,10 +31,10 @@ ht-degree: 17%
 <tr>
   <td valign="bottom">
     <a href="start/connect.md">
-      <img alt="Connect" src="start/assets/do-not-localize/login.jpeg"/>
+      <img alt="CONNECT" src="start/assets/do-not-localize/login.jpeg"/>
     </a>
     <div>
-    <a href="start/connect.md">連結 Campaign</a>
+    <a href="start/connect.md">連結至 Campaign</a>
     </div>
     <br>
   </td>
@@ -63,6 +63,6 @@ ht-degree: 17%
 
 * [已知問題和限制](start/known-limitations.md)
 * [架構](dev/architecture.md)
-* [測量與追蹤](start/reporting.md)
-* [與其他解決方案連接](connect/integration.md)
+* [測量和追蹤](start/reporting.md)
+* [連結其他解決方案](connect/integration.md)
 * [Campaign v8常見問題集](start/campaign-faq.md)
