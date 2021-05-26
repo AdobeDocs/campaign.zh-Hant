@@ -6,9 +6,9 @@ description: 開始使用Campaign中的電子郵件
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -17,33 +17,33 @@ ht-degree: 2%
 
 電子郵件傳送可讓您傳送個人化電子郵件給目標人口。
 
-:arrow_upper_right:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)。
+:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)。
 
 ## 建立您的第一個電子郵件傳送
 
 建立與客戶體驗其餘部分一致的個人化和情境相關電子郵件。
 
-:arrow_upper_right:[了解如何在Campaign Classicv7檔案中建立電子郵件傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+:[!DNL :arrow_upper_right:]:[了解如何在Campaign Classicv7檔案中建立電子郵件傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 您可以直接建立至Campaign或匯入對象以及您的電子郵件內容。 使用下列連結了解如何：
 
 * 在Campaign中設計電子郵件
-:arrow_upper_right:[了解如何設計電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+:[!DNL :arrow_upper_right:]:[了解如何設計電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * 匯入電子郵件內容
-:arrow_upper_right:[使用案例：建立工作流程以載入傳送內容](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+:[!DNL :arrow_upper_right:]:[使用案例：建立工作流程以載入傳送內容](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * 建立和使用電子郵件範本
-:arrow_upper_right:[進一步了解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+:[!DNL :arrow_upper_right:]:[進一步了解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 * 選取電子郵件的對象
-:arrow_upper_right:[了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+:[!DNL :arrow_upper_right:]:[了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 驗證傳遞並傳送校樣
-:arrow_upper_right:[了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+:[!DNL :arrow_upper_right:]:[了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * 添加[種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## 測試及驗證您的電子郵件
 
 Campaign提供數種方式，可在將您的電子郵件傳送給您的對象之前，先測試及驗證您的電子郵件。
 
-:arrow_upper_right:[套用Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)中列出的最佳作法
+:[!DNL :arrow_upper_right:]:[套用Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)中列出的最佳實務
 
 您可以：
 
@@ -53,11 +53,11 @@ Campaign提供數種方式，可在將您的電子郵件傳送給您的對象之
 * 使用控制組
 * 檢查電子郵件呈現
 
-:arrow_upper_right:[進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+:[!DNL :arrow_upper_right:]:[進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## 監視您的電子郵件
 
 傳送後，在「傳送控制面板」中檢查您的傳送狀態，並存取傳送記錄檔和報表，確認訊息已正確傳送。
 
-:arrow_upper_right:[進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+:[!DNL :arrow_upper_right:]:[進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
