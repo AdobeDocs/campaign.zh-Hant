@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 行銷活動輸入表單
 description: 了解如何自訂輸入表單
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 依預設，每個欄位會顯示在單一行上，並根據資料類型佔據所有可用空間。
 
-:[!DNL :arrow_upper_right:]:所有表單屬性都列在[Campaign Classicv7檔案](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)中。
+[!DNL :arrow_upper_right:] 所有表單屬性都列 [在Campaign Classicv7檔案中](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)。
 
 ## 格式 {#formatting}
 
