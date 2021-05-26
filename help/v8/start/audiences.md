@@ -7,7 +7,7 @@ feature: 閱聽眾
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 
 Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料）的強大工具。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-:[!DNL :arrow_upper_right:]:在[Adobe Campaign Classic v7檔案](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)中了解如何管理隱私權和同意。
+:[!DNL :arrow_upper_right:]:在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)中了解如何管理隱私權和同意。
 
 ## 建立清單
 
