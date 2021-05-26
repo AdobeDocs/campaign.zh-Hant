@@ -6,7 +6,7 @@ description: 開始使用異動訊息
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 1%
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 傳送校樣的程式與任何傳送的程式相同。
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))中的校樣
+[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案中的校樣]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 
