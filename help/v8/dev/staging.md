@@ -6,9 +6,9 @@ description: 促銷活動API測試機制
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Campaign Classicv7 API仍可供使用，但無法受益於此新的測試機制�
    </srcSchema>
    ```
 
-   ：燈泡：進一步了解在[此頁面](create-schema.md)中建立自訂架構。
+   [!DNL :bulb:] 了解更多建立自訂結構 [的資訊](create-schema.md)。
 
 1. 保存和更新資料庫結構。  [了解更多](update-database-structure.md)
 
