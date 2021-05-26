@@ -6,10 +6,10 @@ description: '了解如何使用Campaign和您的CRM '
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 21%
+source-wordcount: '269'
+ht-degree: 22%
 
 ---
 
@@ -31,12 +31,12 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 ## 實施步驟 {#crm-implementation-steps}
 
-:arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)中了解連接Campaign和Microsoft Dynamics的逐步程式
+:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)中了解連接Campaign和Microsoft Dynamics的逐步程式
 
-:arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)中了解連接Campaign和Salesforce的逐步程式
+:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)中了解連接Campaign和Salesforce的逐步程式
 
 
 Adobe Campaign和CRM之間的資料同步是透過專用的工作流程活動執行。 建置您的工作流程，以自動同步Campaign和CRM。 您可以建立工作流程，該工作流程會透過Microsoft Dynamics匯入聯絡人、將其與現有的Adobe Campaign資料同步、刪除重複的聯絡人，然後更新Adobe Campaign資料庫。
 
-:arrow_upper_right:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
 
