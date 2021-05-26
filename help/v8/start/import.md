@@ -7,10 +7,10 @@ feature: 設定檔
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 905003b74a1f875432f08c5c70edf3d0451b861f
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 6%
+source-wordcount: '306'
+ht-degree: 8%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 6%
 
 Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動執行多個連絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-：燈泡：開始使用[audiences](audiences.md)
-：燈泡：了解促銷活動[資料模型](../dev/datamodel.md)
+[!DNL :bulb:] 開始使用 [](audiences.md)
+[!DNL :bulb:] 對象了解Campaign資 [料模型](../dev/datamodel.md)
 
 ## 在工作流程中匯入設定檔
 
@@ -29,11 +29,11 @@ Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 進一步了解Campaign Classicv7檔案：
 
-:arrow_upper_right:[開始匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+:[!DNL :arrow_upper_right:]:[開始匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
 
-:arrow_upper_right:[匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+:[!DNL :arrow_upper_right:]: [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
 
-:arrow_upper_right:[配置並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+:[!DNL :arrow_upper_right:]:[設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
 
 ## 運行統一導入
 
@@ -41,7 +41,7 @@ Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/new-import.png)
 
-:arrow_upper_right:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)中了解如何執行統一匯入作業以饋送資料庫。
+:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)中執行統一匯入作業以饋送資料庫。
 
 ## 透過網頁應用程式收集設定檔
 
@@ -49,7 +49,7 @@ Campaign可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/web-form-page.png)
 
-:arrow_upper_right:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)中建立網路表單。
+:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)中建立網路表單。
 
 **相關主題**
 
