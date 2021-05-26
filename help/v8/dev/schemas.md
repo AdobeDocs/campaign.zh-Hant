@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1246'
 ht-degree: 4%
 
 ---
@@ -98,11 +98,11 @@ Adobe Campaign採用資料結構：
 
 若要將欄位或其他元素新增至Campaign中的其中一個核心資料結構，例如收件者表格(nms:recipient)，您必須擴充該結構。
 
-：燈泡：有關詳細資訊，請參閱[擴展架構](extend-schema.md)。
+[!DNL :bulb:] 如需詳細資訊，請參閱 [擴充結構](extend-schema.md)。
 
 若要新增Adobe Campaign中不存在的全新資料類型（例如合約表格），您可以直接建立自訂結構。
 
-：燈泡：有關詳細資訊，請參閱[建立新架構](create-schema.md)。
+[!DNL :bulb:] 如需詳細資訊，請參 [閱建立新結構](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
 
@@ -154,7 +154,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >在建立新架構或架構擴充期間，您需要為整個架構保留相同的主鍵序列值(@pkSequence)。
 
-：燈泡：進一步了解[此小節](database-mapping.md#management-of-keys)中的鍵。
+[!DNL :bulb:] 在本小節中深入了 [解索引鍵](database-mapping.md#management-of-keys)。
 
 ## 屬性（欄位）{#attributes--fields-}
 
@@ -164,7 +164,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素區段中提供完整的屬性清單。 以下是一些最常用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, ****@required **,**@ref **,**@xml **,**@type **。**
 
-:arrow_upper_right:有關每個屬性的詳細資訊，請參閱[Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的屬性說明。
+:[!DNL :arrow_upper_right:]:有關每個屬性的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的屬性說明。
 
 ### 範例 {#examples}
 
