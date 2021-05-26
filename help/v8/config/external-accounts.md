@@ -6,7 +6,7 @@ description: 促銷活動外部帳戶
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 4%
@@ -42,7 +42,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **退回郵件**&#x200B;外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 所有為POP3訪問配置的伺服器都可用於接收返回郵件。
 
-   :[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)中深入了解傳入電子郵件
+   [!DNL :arrow_upper_right:] 進一步了解Campaign Classicv7檔 [案的傳入電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
 
 * **路由**
 
