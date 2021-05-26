@@ -6,9 +6,9 @@ description: 開始使用異動訊息
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 * 客戶動作的個別即時回應
 * 非促銷內容
 
-：燈泡：交易式訊息設定在[此區段](../config/transactional-msg-settings.md)中詳細說明。
+[!DNL :bulb:] 交易式訊息設定在本區段 [中有詳細說明](../config/transactional-msg-settings.md)。
 
-：燈泡：了解[本頁](../dev/architecture.md)中的交易式訊息架構。
+[!DNL :bulb:] 在本頁面中了解交易式 [訊息架構](../dev/architecture.md)。
 
 >[!CAUTION]
 >
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 傳送校樣的程式與任何傳送的程式相同。
 
-:arrow_upper_right:進一步了解[Campaign Classicv7檔案]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))中的校樣
+:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))中的校樣
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 
