@@ -6,9 +6,9 @@ description: 了解如何建立優惠方案
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '919'
 ht-degree: 3%
 
 ---
@@ -183,13 +183,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 您現在可以核准並啟動優惠方案，以便在&#x200B;**Live**&#x200B;環境中使用。
 
-:arrow_upper_right:如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+:[!DNL :arrow_upper_right:]:如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## 管理優惠方案簡報{#offer-presentation}
 
 Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是「促銷活動互動」專屬的規則是&#x200B;**類型規則**。 它們可讓您根據已向收件者提出的主張的歷史，排除優惠方案。 環境會參考這些參數。
 
-:arrow_upper_right:如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+:[!DNL :arrow_upper_right:]:如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## 優惠方案模擬
 
@@ -197,4 +197,4 @@ Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是�
 
 模擬會考慮先前套用至優惠方案的內容和適用性規則及其呈現規則。 這可讓您測試和調整優惠方案主張的各種版本，而不實際使用優惠方案或過度/不斷索取目標，因為模擬對目標收件者沒有影響。
 
-:arrow_upper_right:如需選件模擬的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+:[!DNL :arrow_upper_right:]:如需優惠方案模擬的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
