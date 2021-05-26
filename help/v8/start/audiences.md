@@ -7,9 +7,9 @@ feature: 閱聽眾
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 85e439e9500d74206d557acbe3c3a472baa70441
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '742'
 ht-degree: 24%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 24%
 ![](assets/create-profile.png)
 
 
-[!DNL[!DNL :arrow_upper_right:]]了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)中管理設定檔。
+[!DNL :arrow_upper_right:]]了解如何在Adobe Campaign Classic v7檔 [案中管理設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)。
 
 
 ## 隱私權與同意
