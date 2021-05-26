@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign安全性最佳實務
 description: 開始使用Campaign安全性最佳實務
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 * 請確定加密密碼受限
 * Protect可能包含個人資訊的頁面，例如鏡像頁面、網頁應用程式等。
 
-:speech_balloon:身為受管Cloud Services使用者，Adobe會與您合作，在您的環境中實作這些設定。
+[!DNL :speech_balloon:] 身為受管Cloud Services使用者，Adobe會與您合作，在您的環境中實作這些設定。
 
 ## 個人化
 
