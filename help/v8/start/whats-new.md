@@ -7,9 +7,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -57,5 +57,5 @@ Campaign v8提供&#x200B;**完整同盟資料存取**(FDA)的概念：雲資料�
 
 您也可以使用Journey AI設定預測性傳送時間最佳化和預測性參與計分，並提高開放率、點按次數和收入。
 
-：燈泡：[進一步了解Campaign整合](../connect/integration.md)
+[!DNL :bulb:] [進一步了解Campaign整合](../connect/integration.md)
 
