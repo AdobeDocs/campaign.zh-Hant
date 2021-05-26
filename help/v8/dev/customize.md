@@ -7,7 +7,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -49,9 +49,9 @@ Adobe Campaign利用資料結構來：
 
 **相關主題**
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)中的架構版本範例
+[!DNL :arrow_upper_right:] Campaign Classicv7檔案中的 [綱要版本範例](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 
-:[!DNL :arrow_upper_right:]:使用案例：將欄位連結至[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)中的現有參考表
+[!DNL :arrow_upper_right:] 使用案例：將欄位連結至Campaign Classicv7檔案中 [的現有參考表格](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
 
 
 ## 修改輸入表單
@@ -66,7 +66,7 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 現成的Web應用程式儲存在「管理>配置> Web應用程式」節點中。
 
-:[!DNL :arrow_upper_right:]:在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)中了解如何在Campaign中建立概覽頁面
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何在Campaign中建 [立概述頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
 
 
 ## 自訂清單並建立篩選器{#gs-lists-and-filters}
@@ -75,16 +75,16 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 促銷活動清單隨附預先定義的篩選器，以促進導覽和資料視覺化。
 
-:[!DNL :arrow_upper_right:]:進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)中的篩選選項
+[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
 
 
 ### 從資源管理器訪問資料
 
 在Adobe Campaign資源管理器樹中導航時，資料庫中包含的資料將顯示在清單中。 您可以篩選這些清單、執行搜尋、新增資訊、篩選及排序資料。
 
-:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)中設定清單並儲存清單設定
+[!DNL :arrow_upper_right:] 了解如何在Campaign Classic v7檔案中設定清單和儲存 [清單設定](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
 
 
 您可以對這些清單套用篩選，以僅顯示運算子所需的資料。 然後，即可對篩選的資料執行動作。 篩選設定可讓您動態地從清單中選取資料。 如果修改了資料，則更新篩選的資料。
 
-:[!DNL :arrow_upper_right:]:了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)中篩選資料
+[!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案中篩選資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
