@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 4%
@@ -164,7 +164,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素區段中提供完整的屬性清單。 以下是一些最常用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, ****@required **,**@ref **,**@xml **,**@type **。**
 
-:[!DNL :arrow_upper_right:]:有關每個屬性的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的屬性說明。
+[!DNL :arrow_upper_right:] 如需每個屬性的詳細資訊，請參閱 [Campaign Classicv7檔案中的屬性說明](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)。
 
 ### 範例 {#examples}
 
