@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign資料庫對應
 description: Campaign資料庫對應
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 1b731045783565c93a2db0923dea6b6d100471ad
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -207,7 +207,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 
 ```
 <srcSchema name="recipient" namespace="cus">
-  <element name="recipient" autouuid="true">
+  <element name="recipient"  autopk="true" autouuid="true">
   ...
   </element>
 </srcSchema>
@@ -217,7 +217,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-  <element name="recipient" autouuid="true" sqltable="CusRecipient"> 
+  <element name="recipient"  autopk="true" autouuid="true" sqltable="CusRecipient"> 
 
     <key internal="true" name="id">
       <keyfield xpath="@id"/>
@@ -333,7 +333,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
-  <element name="company" sqltable="CusCompany" autouuid="true"> 
+  <element name="company" sqltable="CusCompany"  autopk="true" autouuid="true"> 
     <key internal="true" name="id">      
       <keyfield xpath="@id"/>    
     </key>
