@@ -6,7 +6,7 @@ description: 了解如何建立優惠方案空間
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -55,7 +55,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
    這些函式可用來在優惠方案空間中產生優惠方案表示法。 有幾種可能的格式：HTML或文字。
 
-   **注意**  - XML格式僅限於暫時無法使用的入站互動。[了解更多](../start/capability-matrix.md#gs-unavailable-features)
+   **注意**  - XML格式僅限於暫時無法使用的入站互動。[瞭解更多](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
@@ -70,7 +70,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
 >[!NOTE]
 >
->狀態更新是非同步進程。 這會由每小時觸發的追蹤工作流程執行。
+>狀態更新是一個&#x200B;**非同步**&#x200B;進程。 這會由每小時觸發的追蹤工作流程執行。
 
 ### 選件狀態清單{#status-list}
 
