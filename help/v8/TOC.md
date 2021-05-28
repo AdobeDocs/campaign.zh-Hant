@@ -7,10 +7,10 @@ description: Campaign v8 文件
 breadcrumb-title: 促銷活動v8
 title: Campaign v8 文件
 hide: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 84%
+source-wordcount: '197'
+ht-degree: 83%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 84%
    + [設計網頁應用程式和表單](dev/webapps.md)
    + [資料模型最佳實務](dev/datamodel-best-practices.md)
 + 部署{#deploy}
-   + [相容性矩陣](start/compatibility-matrix.md)
-   + [連結至 Campaign](start/connect.md)
+   + [相容性對照表](start/compatibility-matrix.md)
+   + [連結 Campaign](start/connect.md)
    + [權限](start/permissions.md)
    + [控制面板](config/self-service.md)
 + 傳送 {#send}
@@ -57,7 +57,7 @@ ht-degree: 84%
          + [建立運算子](send/interaction-operators.md)
          + [建立環境](send/interaction-env.md)
          + [建立預先定義的篩選](send/interaction-predefined-filters.md)
-         + [建立優惠方案空間](send/interaction-offer-spaces.md)
+         + [建立優惠空間](send/interaction-offer-spaces.md)
       + [建立優惠方案目錄](send/interaction-offer-catalog.md)
       + [建立優惠方案](send/interaction-offer.md)
       + [傳送優惠方案](send/interaction-send-offers.md)
@@ -73,6 +73,7 @@ ht-degree: 84%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
+   + [Campaign +Experience Cloud觸發器](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
@@ -85,7 +86,7 @@ ht-degree: 84%
       + [使用方案](dev/schemas.md)
       + [建立方案](dev/create-schema.md)
       + [擴展方案](dev/extend-schema.md)
-      + [綱要結構](dev/schema-structure.md)
+      + [方案結構](dev/schema-structure.md)
       + [資料庫對應](dev/database-mapping.md)
       + [限制 PI 檢視](dev/restrict-pi-view.md)
       + [使用自訂收件者表格](dev/custom-recipient.md)
