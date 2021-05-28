@@ -7,10 +7,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 11%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -24,18 +24,15 @@ Adobe Campaign隨附數個連接器，可讓您與外部應用程式通訊、連
 
 最新化實作，並運用所有Adobe Experience Cloud功能。
 
-[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。您需要實作AdobeIdentity Management服務(IMS)。 [了解更多](../start/connect.md#connect-ims)
+[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。您需要實作AdobeIdentity Management服務(IMS)。 [瞭解更多](../start/connect.md#connect-ims)
 
 Campaign v8可以與：
 
 * [AdobeJourney Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-
 * [Real-Time CDP](../connect/ac-rtcdp.md)
-
-* [Adobe Analytics data connector](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [Adobe Experience Cloud觸發器](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 您也可以結合&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;的Experience Cloud解決方案，搭配資產共用和對象共用功能。
@@ -57,7 +54,7 @@ CRM連接器可讓您快速輕鬆地整合資料：Adobe Campaign提供專屬助
 
 使用FDA連接器（同盟資料存取）將Campaign連線至一或多個&#x200B;**外部資料庫**，並處理儲存在資料庫中的資訊，而不會影響您的Campaign雲端資料庫資料。
 
-[!DNL :bulb:] 了解更多 [資訊](fda.md)
+[!DNL :bulb:] 在[本頁](fda.md)中了解更多
 
 
 <!-- 
