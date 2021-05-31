@@ -6,28 +6,24 @@ description: 新的Campaign v8 API
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: d872702fe8933a1ef200b690f21efcbd8e5ab3bc
+source-git-commit: 0d6902e8c0bd68a081f7a5ef3ab9fc7a89367d5c
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 
 # 新促銷活動API{#gs-new-api}
 
-Campaign v8隨附三個新API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [了解更多](staging.md)。
+Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [瞭解更多](staging.md)。
 
 * 擷取API:**xtk.session.ingest**
 
-   此API僅專用於「資料插入」。 [了解更多](#data-insert-api)
+   此API僅專用於「資料插入」。 [瞭解更多](#data-insert-api)
 
 * 資料更新/刪除API:**xtk.session.ingestExt**
 
-   此API用於更新或刪除資料。 [了解更多](#data-update-api)
-
-* 查詢API:**xtk.session.lookup**。
-
-   此API會從查詢中擷取資料。 [了解更多](#lookup-api)
+   此API用於更新或刪除資料。 [瞭解更多](#data-update-api)
 
 專用的內建工作流程將同步雲端資料庫中的資料。
 
@@ -213,7 +209,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 [此頁面](../start/subscriptions.md)說明Campaign中的訂閱管理。
 
-訂閱和取消訂閱資料的插入需仰賴Campaign本機資料庫中的[中繼機制](staging.md)。 訂閱者資訊是臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 選擇加入和選擇退出請求會透過特定的技術工作流程每小時處理一次。 [了解更多](../config/replication.md#tech-wf)
+訂閱和取消訂閱資料的插入需仰賴Campaign本機資料庫中的[中繼機制](staging.md)。 訂閱者資訊是臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 選擇加入和選擇退出請求會透過特定的技術工作流程每小時處理一次。 [瞭解更多](../config/replication.md#tech-wf)
 
 
 **相關主題**
