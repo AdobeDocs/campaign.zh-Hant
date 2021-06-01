@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 促銷活動互動優惠方案目錄
 description: 了解如何建立優惠方案目錄
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 建立優惠方案之前，您必須先指定[environment](interaction-env.md)，其中包含一組優惠方案的所有特性（適用性、目標限制、展示規則），並分類，以及其空格清單。
 
-## 建立優惠方案類別{#creating-offer-categories}
+## 建立優惠類別{#creating-offer-categories}
 
 優惠方案會組織為類別/子類別。 類別會在&#x200B;**[!UICONTROL Design]**&#x200B;環境中建立，並在核准包含的選件時自動部署在&#x200B;**[!UICONTROL Live]**&#x200B;環境中（即可供使用）。 **[!UICONTROL Design]**&#x200B;環境包含接收所有選件的預設類別。 可以建立子類別，將階層新增至目錄選件。
 
