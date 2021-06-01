@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用 Campaign 資料模型
 description: 開始使用 Campaign 資料模型
@@ -7,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -16,7 +15,7 @@ ht-degree: 4%
 
 # 開始使用 Campaign 資料模型{#gs-ac-datamodel}
 
-Adobe Campaign 隨附預先定義的資料模型。本節提供Adobe Campaign資料模型的內建表格及其互動的一些詳細資料。 Adobe Campaign仰賴雲端資料庫，其中包含連結在一起的表格。
+Adobe Campaign 附有預定義的資料模型。本節提供Adobe Campaign資料模型的內建表格及其互動的一些詳細資料。 Adobe Campaign仰賴雲端資料庫，其中包含連結在一起的表格。
 
 Adobe Campaign資料模型的基本結構描述如下：
 
