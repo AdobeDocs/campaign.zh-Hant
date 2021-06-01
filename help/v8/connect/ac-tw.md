@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 使用Campaign和Twitter
 description: 了解如何使用Campaign和Twitter
@@ -9,7 +8,7 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 hidefromtoc: true
 hide: true
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -26,7 +25,7 @@ ht-degree: 4%
 
 * 收集新聯絡人 — Adobe Campaign Social Marketing也可讓您透過Facebook輕鬆取得新的聯絡人：聯絡使用者，詢問他們是否要共用其設定檔資訊。 如果他們接受，Adobe Campaign會自動恢復資料，這可讓您執行定位促銷活動，並在可能時實施跨管道策略。
 
-## 配置步驟
+## 設定步驟
 
 從以下位置獲取資訊：
 
