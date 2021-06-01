@@ -1,16 +1,15 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 了解如何連線至Campaign v8
 description: 連線至Campaign v8
-feature: 閱聽眾
+feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -121,4 +120,4 @@ Campaign使用者可透過AdobeIdentity Management系統(IMS)，使用Adobe ID�
 
 驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
 
-[!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中設 [定和管理核准](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中設 [定和管理核准](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns)
