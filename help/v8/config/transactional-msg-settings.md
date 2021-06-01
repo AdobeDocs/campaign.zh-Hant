@@ -1,19 +1,18 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign交易式訊息設定
 description: Campaign交易式訊息設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 交易式訊息設定
+# 異動訊息設定
 
 [!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
 
