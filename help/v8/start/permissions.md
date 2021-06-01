@@ -1,13 +1,12 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 將權限授予Campaign v8
 description: 了解如何授與Campaign v8的權限
-feature: 閱聽眾
+feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 2%
@@ -30,7 +29,7 @@ Adobe Campaign隨附內建運算元群組，例如促銷活動管理員或工作
 * 資料夾存取權
 操作員組的成員資格可以通過更改資料夾](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder)上的[安全設定來授予或限制對資料夾的訪問權。 例如，它可能會影響：**寫入訪問**&#x200B;以建立新實體（如傳遞、配置檔案等）,**讀取訪問**&#x200B;以使用實體，**刪除訪問**&#x200B;以刪除實體。
 
-**了解更多**
+**瞭解更多**
 
 * [內建的已命名權限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html)
 
