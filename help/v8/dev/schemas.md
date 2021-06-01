@@ -1,16 +1,15 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 使用結構{#gs-ac-schemas}
+# 使用方案{#gs-ac-schemas}
 
 並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**schema**。
 
