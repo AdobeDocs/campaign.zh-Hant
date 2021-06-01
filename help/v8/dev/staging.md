@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 促銷活動API測試機制
 description: 促銷活動API測試機制
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 3%
@@ -20,8 +19,8 @@ ht-degree: 3%
 促銷活動中繼機制適用於內建和自訂表格，並具備下列優點：
 
 * 資料架構結構在本地臨時表中複製
-* 用於擷取的新API會直接流入測試表格。 [了解更多](new-apis.md)
-* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [了解更多](../config/replication.md)。
+* 用於擷取的新API會直接流入測試表格。 [瞭解更多](new-apis.md)
+* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [瞭解更多](../config/replication.md)。
 
 某些內建結構預設會分段，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
 
@@ -53,7 +52,7 @@ Campaign Classicv7 API仍可供使用，但無法受益於此新的測試機制�
 
    [!DNL :bulb:] 了解更多建立自訂結構 [的資訊](create-schema.md)。
 
-1. 保存和更新資料庫結構。  [了解更多](update-database-structure.md)
+1. 保存和更新資料庫結構。  [瞭解更多](update-database-structure.md)
 
 1. 新增&#x200B;**autoStg=&quot;true&quot;**&#x200B;參數，以在架構定義中啟用預備機制。
 
