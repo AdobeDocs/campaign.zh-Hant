@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign安全性最佳實務
 description: 開始使用Campaign安全性最佳實務
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -41,7 +40,7 @@ ht-degree: 0%
 
 您必須確保已加密密碼無法由低權限已驗證的使用者存取。 要做到這一點，有兩種主要方法：僅限訪問密碼欄位或限制訪問整個實體。
 
-此限制可讓您移除密碼欄位，但讓所有使用者都能從介面存取外部帳戶。 深入了解[本頁面](../dev/restrict-pi-view.md)。
+此限制可讓您移除密碼欄位，但讓所有使用者都能從介面存取外部帳戶。 在[本頁](../dev/restrict-pi-view.md)中瞭解更多。
 
 1. 前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**。
 
