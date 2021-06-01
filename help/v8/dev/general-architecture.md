@@ -1,17 +1,16 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
-title: 通用架構
+title: 一般架構
 description: Campaign v8一般架構
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 通用架構{#general-architecture}
+# 一般架構{#general-architecture}
 
 一般的Adobe Campaign解決方案部署包含下列元件：
 
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 應用程式可以以不同方式存取：富客戶端、瘦客戶端或API整合。
 
-* **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign用戶端主控台提供絕佳的使用方便性，可提高生產力、使用極少的頻寬（透過使用本機快取），且專為輕鬆部署而設計。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
+* **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
    [!DNL :bulb:] [進一步了解Campaign用戶端主控台](../start/connect.md)。
 
