@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 使用Adobe Campaign傳送電子郵件
 description: 開始使用Campaign中的電子郵件
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
