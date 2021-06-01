@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用追蹤和監控功能
 description: 開始使用追蹤和監控功能
@@ -7,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -113,13 +112,13 @@ Web應用程式追蹤選擇退出可讓您停止追蹤選擇退出行為追蹤�
 
 [!DNL :arrow_upper_right:] [進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting)
 
-## 監視准則
+## 監視指南
 
 Adobe Campaign提供一組功能，可監控您的程式和環境。
 
 ### 監視您的傳送
 
-在傳送後監控傳送是確保行銷活動有效率並與客戶聯絡的關鍵步驟。
+傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 
 
 [!DNL :arrow_upper_right:] 進一步了解您在傳送後可監控的資訊，了解如何在Campaign Classicv7檔案中管理傳送 [失敗和隔離](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
