@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 使用Campaign和Adobe Target
 description: 了解如何使用Campaign和Adobe Target
@@ -7,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -98,7 +97,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 1. 對剩餘的重新導向選件，請依照相同的程式操作。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences)。
 
-### 建立對象{#audiences-target}
+### 建立對象 {#audiences-target}
 
 在Adobe Target中，您需要建立兩個對象，系統會針對要傳送的不同內容將造訪您選件的人員分類到這兩個對象中。 對於每個對象，新增規則以定義誰將能看見選件。
 
