@@ -1,19 +1,18 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 促銷活動互動選件預先定義的篩選
 description: 了解如何建立預先定義的篩選器
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
 
 ---
 
-# 建立預先定義的篩選器{#creating-predefined-filters}
+# 建立預定義的篩選器{#creating-predefined-filters}
 
 建立預先定義的篩選條件，為目標母體定義適用性規則，以便在建立優惠方案時輕鬆重複使用。 它們是每個環境專屬的，且會將優惠方案參數納入考量。
 
