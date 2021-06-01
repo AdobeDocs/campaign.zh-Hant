@@ -1,16 +1,15 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 促銷活動結構
 description: 行銷活動綱要結構
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 1%
 
 ---
 
-# 綱要結構{#schema-structure}
+# 方案結構{#schema-structure}
 
 `<srcschema>`的基本結構如下：
 
