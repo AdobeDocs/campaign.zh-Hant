@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用訊息
 description: 開始使用訊息
@@ -7,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 72%
@@ -87,7 +86,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。
 
 **相關主題**
 
-[!DNL :arrow_upper_right:]  [關於傳遞的最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:]  [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)
 
 [!DNL :arrow_upper_right:]  [測試並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 
