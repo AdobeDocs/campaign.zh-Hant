@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用Campaign架構
 description: 開始使用Campaign架構
@@ -7,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -49,7 +48,7 @@ CampaignCloud Service提供的三種環境類型：
 
 ## 消息中心體系結構{#transac-msg-archi}
 
-交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。
+異動訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
 [!DNL :bulb:] 在本小節中了解如何傳送交 [易式訊息](../send/transactional.md)。
 
