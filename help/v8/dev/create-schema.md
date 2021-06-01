@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 在Campaign中建立新結構
 description: 了解如何在Campaign中建立新結構
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 2%
@@ -26,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)。
+>「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)。
 
 **[!UICONTROL Preview]**&#x200B;頁簽自動生成擴展架構：
 
