@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 擴充Campaign綱要
 description: 了解如何擴充Campaign綱要
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -36,7 +35,7 @@ ht-degree: 2%
 
    ![](assets/extend-schema-select.png)
 
-   根據慣例，將擴充功能架構命名為與內建架構相同的架構，並使用自訂命名空間。  請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)。
+   根據慣例，將擴充功能架構命名為與內建架構相同的架構，並使用自訂命名空間。  請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)。
 
    ![](assets/extend-schema-validate.png)
 
@@ -64,6 +63,6 @@ ht-degree: 2%
 
    ![](assets/extend-schema-structure.png)
 
-1. 更新資料庫結構以應用更改。 [了解更多](update-database-structure.md)
+1. 更新資料庫結構以應用更改。 [瞭解更多](update-database-structure.md)
 
-1. 在資料庫中實作變更後，您可以調整收件者輸入表單，讓變更可見。 [了解更多](forms.md)
+1. 在資料庫中實作變更後，您可以調整收件者輸入表單，讓變更可見。 [瞭解更多](forms.md)
