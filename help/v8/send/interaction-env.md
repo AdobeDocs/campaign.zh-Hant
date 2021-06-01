@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 促銷活動互動運算子
 description: 建立優惠方案管理運算子
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -28,11 +27,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要定位收件者表格，您需要使用目標對應助理來建立環境。 [了解更多](#creating-an-offer-environment)。
+>若要定位收件者表格，您需要使用目標對應助理來建立環境。 [瞭解更多](#creating-an-offer-environment)。
 
 ![](assets/offer_environments_overview_002.png)
 
-傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [了解更多](interaction-operators.md)。
+傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [瞭解更多](interaction-operators.md)。
 
 ## 建立優惠方案環境{#creating-an-offer-environment}
 
