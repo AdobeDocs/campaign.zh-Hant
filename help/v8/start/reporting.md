@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 開始使用Campaign報表
 description: 開始使用Campaign報表功能
@@ -7,14 +6,14 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 量度與報表
+# 度量與報吿
 
 ## 開始使用報告{#gs-ac-reports}
 
