@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaign中的金鑰管理 '
 description: 開始使用金鑰管理
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe促銷活動v8以Snowflake為核心資料庫。 Snowflake資料庫的分佈
 
 要保持關係資料庫的一致性，必須避免對密鑰（尤其是主密鑰）重複。 主要金鑰上的重複項目會導致資料管理工作流程活動發生問題，例如&#x200B;**Query**、**調解**、**更新資料**&#x200B;等。
 
-Adobe Campaign提出功能強大的資料管理工具來協調資料，確保根據資料庫（**調解**）中的資料存在情況插入或更新資料，並在擷取資料（**重複資料刪除**）之前移除重複項目。 作為最佳作法，Adobe建議在資料庫中載入重複的鍵值時，在整體資料管理流程中採用[Detect](#detect-duplicates)和[Correct](#correct-duplicates)策略。
+作為最佳作法，Adobe建議在資料庫中載入重複的鍵值時，在整體資料管理流程中採用[Detect](#detect-duplicates)和[Correct](#correct-duplicates)策略。
 
 ## 檢測重複項{#detect-duplicates}
 
