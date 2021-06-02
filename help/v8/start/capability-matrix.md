@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '800'
+ht-degree: 44%
 
 ---
 
@@ -62,7 +62,12 @@ ht-degree: 57%
 
 Campaign v8 物件現在使用&#x200B;**通用唯一 ID (UUID)**，此 UUID 允許無限制的唯一值來識別資料.
 
-請注意，此ID是字串型且非循序。
+請注意，此ID是字串型且非循序。 主要金鑰不是Campaign v8中的數值，且您需要在結構中使用&#x200B;**autouuid**&#x200B;和&#x200B;**autopk**&#x200B;屬性。
+
+在Campaign Classicv7及舊版中，結構（即表格）中的金鑰的唯一性是在資料庫引擎的層級處理。 更一般地，PostgreSQL、Oracle或SQL Server等傳統資料庫引擎包括本機機制，以防止通過主鍵和/或唯一索引根據列或一組列插入重複行。 在資料庫級別設定正確的索引和主鍵時，這些版本中不存在重複的ID。
+
+Adobe促銷活動v8以Snowflake為核心資料庫。 由於它顯著地增加了查詢的規模，Snowflake資料庫的分佈式體系結構不提供這樣的機制來管理然後強制表內密鑰的唯一性。 因此，使用Adobe Campaign v8時，不會有任何項目能防止在表格中擷取重複的金鑰。 一般使用者現在負責確保Adobe Campaign資料庫內金鑰的一致性。 [瞭解更多](../dev/keys.md)。
+
 
 ### 簡化維護作業
 
