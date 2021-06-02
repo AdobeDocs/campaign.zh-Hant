@@ -6,9 +6,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -26,5 +26,4 @@ ht-degree: 3%
 * 使用者介面中仍會顯示某些無法使用或已移除的功能
 * 訂閱（選擇加入）和取消訂閱（選擇退出）機制，以及行動註冊為非同步程式。 系統會透過特定的技術工作流程，每小時處理要求。 [瞭解更多](../config/replication.md#tech-wf)
 * 重複項目需要由使用者手動處理。 [瞭解更多](../dev/keys.md)
-* LINE — 確認+詳細資訊
 * 延遲 — 確認+詳細資訊
