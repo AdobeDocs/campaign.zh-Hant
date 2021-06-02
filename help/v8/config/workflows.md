@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 9%
@@ -37,8 +37,8 @@ ht-degree: 9%
 [!DNL :arrow_upper_right:]  [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 * 工作流程活動：
    * [目標定位活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html):查詢、讀取清單、擴充、聯合等
-   * [流量控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):排程器、分叉、警報、外部訊號等
-   * [動作活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):跨通道傳送、JavaScript程式碼、CRM活動、更新匯總等
+   * [流量控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):排程器、分支、警報、外部訊號等
+   * [動作活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):跨通道傳送、Javascript程式碼、CRM活動、更新匯總等
    * [事件活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):檔案傳輸、網頁下載等
       [!DNL :arrow_upper_right:]  [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
