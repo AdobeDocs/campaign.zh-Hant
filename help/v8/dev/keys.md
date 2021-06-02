@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaign中的金鑰管理 '
 description: 開始使用金鑰管理
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Adobe促銷活動v8以Snowflake為核心資料庫。 Snowflake資料庫的分佈式體系結構不提供管理表中密鑰的唯一性的機制：一般使用者負責確保Adobe Campaign資料庫內金鑰的一致性。
 
-要保持關係資料庫的一致性，必須避免對密鑰（尤其是主密鑰）重複。 主要索引鍵上的重複項目會導致資料管理工作流程活動（例如查詢、調解、更新等）發生問題。
+要保持關係資料庫的一致性，必須避免對密鑰（尤其是主密鑰）重複。 主要金鑰上的重複項目會導致資料管理工作流程活動發生問題，例如&#x200B;**Query**、**調解**、**更新資料**&#x200B;等。
 
-Adobe Campaign提出功能強大的資料管理工具來協調資料、根據資料庫中是否存在資料來插入或更新資料（調解），以及在擷取資料（重複資料刪除）之前移除重複項目。 作為最佳作法，Adobe建議在資料庫中載入重複的鍵值時，在整體資料管理流程中採用[Detect](#detect-duplicates)和[Correct](#correct-duplicates)策略。
+Adobe Campaign提出功能強大的資料管理工具來協調資料，確保根據資料庫（**調解**）中的資料存在情況插入或更新資料，並在擷取資料（**重複資料刪除**）之前移除重複項目。 作為最佳作法，Adobe建議在資料庫中載入重複的鍵值時，在整體資料管理流程中採用[Detect](#detect-duplicates)和[Correct](#correct-duplicates)策略。
 
 ## 檢測重複項{#detect-duplicates}
 
 Campaign隨附新的護欄，在準備傳送期間會自動移除對象中任何重複的UUID。 這個新機制可防止在準備傳送時發生任何錯誤。
 
-身為一般使用者，您可以在傳送記錄檔中查看此資訊：由於重複的金鑰，某些收件者可能會從主要目標中排除。 在這種情況下，會顯示下列警告：`Exclusion of duplicates (based on the primary key or targeted records)`。
+身為一般使用者，您可以在傳送記錄檔中檢查此資訊：由於重複的金鑰，某些收件者可能會從主要目標中排除。 在這種情況下，會顯示下列警告：`Exclusion of duplicates (based on the primary key or targeted records)`。
 
 ![](assets/delivery-log-duplicates.png)
 
@@ -81,4 +81,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-使用新的UUID更新選取的列後，您就可以從介面檢查更新的列，並注意UUID已如預期般更新。 您也可以執行「檢測重複項」工作流[，以檢測資料庫中的重複項，如此處](#detect-duplicates)所述。
+使用新的UUID更新選取的列後，您就可以從介面檢查更新的列，並注意UUID已如預期般更新。 您也可以執行&#x200B;**偵測重複項目**&#x200B;工作流程[，如此處](#detect-duplicates)所述，以偵測資料庫中的重複項目。
