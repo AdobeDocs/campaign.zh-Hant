@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## 金鑰 {#keys}
 
-每個表至少必須有一個鍵，且通常會使用設為&quot;true&quot;的&#x200B;**@autouuid=true**&#x200B;屬性，在架構的主要元素中自動建立該鍵。
+每個表至少必須有一個鍵，並且通常會使用設定為&#x200B;**true**&#x200B;的&#x200B;**autopk**&#x200B;屬性，在架構的主要元素中自動建立該鍵。****
 
 也可以使用&#x200B;**internal**&#x200B;屬性來定義主鍵。
 
