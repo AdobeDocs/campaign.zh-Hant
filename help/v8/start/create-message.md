@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -41,11 +41,11 @@ Adobe Campaign v8 提供下列傳送頻道：
 
 * 手動傳送訊息至主要目標
    [!DNL :arrow_upper_right:] [了解如何傳送訊息](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=zh-Hant)
-* 傳送與[行銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant)相關聯的訊息
+* 傳送與[行銷活動](campaigns.md)相關聯的訊息
    [!DNL :arrow_upper_right:] [了解如何在行銷活動內容中傳送訊息](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant)。
-* 透過[workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=zh-Hant)傳送訊息
+* 透過[workflow](../config/workflows.md)傳送訊息
    [!DNL :arrow_upper_right:] [了解如何自動傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=zh-Hant)
-* [從事](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hant) 件觸發訊息
+* [從事](../send/transactional.md) 件觸發訊息
    [!DNL :arrow_upper_right:] [使用案例：了解如何傳送包含附件的交易式電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=zh-Hant)
 * 排程訊息
    [!DNL :arrow_upper_right:] [使用案例：了解如何排程和傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=zh-Hant)
