@@ -5,9 +5,9 @@ description: 開始使用Campaign中的電子郵件
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
+source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '790'
 ht-degree: 4%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 4%
 
    * 整合Web應用程式的連結
 
-      數位內容編輯器可讓您整合從Adobe Campaign主控台（例如登錄頁面或表單頁面）指向Web應用程式的連結。 有關詳細資訊，請參閱[連結到Web應用程式](../../web/using/editing-content.md#link-to-a-web-application)。
+      數位內容編輯器可讓您整合從Adobe Campaign主控台（例如登錄頁面或表單頁面）指向Web應用程式的連結。
 
       為連結至Web應用程式的文字欄位，然後按一下第一個圖示。 選擇&#x200B;**[!UICONTROL Link to a Web application]**，然後按一下&#x200B;**Web應用程式**&#x200B;欄位結尾的表徵圖，選擇所需的應用程式。
 
