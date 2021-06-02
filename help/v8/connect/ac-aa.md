@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: 使用Campaign和Adobe Analytics
-description: 了解如何使用Campaign和Adobe Analytics
+description: 了解如何整合Campaign與Analytics
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -19,22 +19,15 @@ ht-degree: 0%
 
 此整合可讓Adobe Campaign和Adobe Analytics透過&#x200B;**Web Analytics連接器**&#x200B;附加元件互動。 此整合會將Adobe Campaign所傳送電子郵件促銷活動的指標和屬性傳送至Adobe Analytics。
 
+[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。AdobeIdentity Management服務(IMS)必須實作給您的執行個體。 [進一步瞭解](../start/connect.md#connect-ims)。您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
+
 Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Analytics)。 網頁分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
 每個工具的動作周長如下：
 
-* **Adobe Analytics**
+* **Adobe** 分析會標示透過Adobe Campaign啟動的電子郵件行銷活動
 
-   * 會標籤透過Adobe Campaign啟動的電子郵件行銷活動
-   * 以區段的形式，儲存收件者在按一下促銷活動電子郵件後所瀏覽的網站上的行為。 區段與放棄的產品（已檢視但未新增至購物車或已購買）、購買或購物車放棄有關。
-
-* **Adobe Campaign**
-
-   * 會將指標和促銷活動屬性傳送至連接器，連接器會將它們轉送至Web分析工具
-   * 恢復和分析區段
-   * 觸發再行銷活動
-
-[!DNL :speech_balloon:]  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe以整合Adobe Analytics Connector與Campaign。您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
+* **Adobe** 促銷活動會將指標和促銷活動屬性傳送至連接器，連接器再將它們轉送至網頁分析工具
 
 
 >[!CAUTION]
@@ -47,7 +40,7 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 1. [設定轉換變數和成功事件](#configure-conversion-success)
 1. [在Adobe Campaign中設定您的外部帳戶](#external-account-ac)
 
-## 在Adobe Analytics {#report-suite-analytics}中建立報表套裝
+## 建立Analytics報表套裝{#report-suite-analytics}
 
 要在[!DNL Adobe Analytics]中建立&#x200B;**[!UICONTROL Report suite]**，請執行以下步驟：
 
@@ -122,7 +115,7 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 
 設定報表套裝後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
 
-## 在Adobe Campaign {#external-account-ac}中設定外部帳戶
+## 設定您的Campaign外部帳戶{#external-account-ac}
 
 您現在需要在Adobe Campaign中設定&#x200B;**[!UICONTROL Web Analytics]**&#x200B;外部帳戶，以啟用兩個解決方案之間的同步。
 
@@ -232,7 +225,7 @@ Adobe Campaign和Adobe Analytics之間的資料交換是由作為背景工作執
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
 * **[!UICONTROL Contact date]** (排程/@contactDate)
 
-## 在Adobe Campaign {#tracking-deliveries-in-adobe-campaign}中追蹤傳送
+## 追蹤傳遞{#tracking-deliveries-in-adobe-campaign}
 
 為了讓Adobe Experience Cloud在Adobe Campaign傳送後能夠追蹤網站上的活動，您必須在傳送屬性中參考相符的連接器。 若要這麼做，請套用下列步驟：
 
@@ -246,46 +239,6 @@ Adobe Campaign和Adobe Analytics之間的資料交換是由作為背景工作執
    ![](assets/webanalytics_delivery_properties_002.png)
 
 1. 您現在可以傳送傳遞內容，並在Adobe Analytics中存取報表。
-
-## 建立再行銷促銷活動{#creating-a-re-marketing-campaign}
-
-若要準備再行銷行銷活動，只需建立要用於再行銷類型行銷活動的傳遞範本。 然後設定再行銷促銷活動，並將其連結至區段。 每個區段必須有不同的再行銷促銷活動。
-
-當Adobe Campaign完成分析初始促銷活動鎖定目標之人員的行為的區段後，就會自動開始再行銷促銷活動。 如果放棄購買或檢視產品而未進行購買，則會傳送傳遞給相關收件者，以便其網站瀏覽結束購買。
-
-Adobe Campaign提供個人化傳遞範本，供您自行使用或建立資料庫，以準備行銷活動。
-
-1. 從&#x200B;**[!UICONTROL Explorer]**，前往Adobe Campaign樹的&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;資料夾。
-
-1. 複製Adobe Campaign提供的&#x200B;**[!UICONTROL Email delivery (re-marketing)]**&#x200B;範本或再行銷範本範例。
-
-   ![](assets/webanalytics_delivery_model.png)
-
-1. 個人化範本以符合您的需求並加以儲存。
-
-1. 建立新促銷活動，並從下拉式清單中選取&#x200B;**[!UICONTROL Re-marketing campaign]**&#x200B;範本。
-
-   ![](assets/webanalytics_remarketing_campaign_002.png)
-
-1. 按一下&#x200B;**[!UICONTROL Configure...]**&#x200B;連結，以指定連結至促銷活動的區段和傳送範本。
-
-1. 選取先前設定的外部帳戶。
-
-   ![](assets/webanalytics_remarketing_campaign_003.png)
-
-1. 選取相關區段。
-
-   ![](assets/webanalytics_remarketing_campaign_005.png)
-
-1. 選取要用於此再行銷促銷活動的傳送範本，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以關閉視窗。
-
-   ![](assets/webanalytics_remarketing_campaign_006.png)
-
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉促銷活動視窗。
-
-**[!UICONTROL Re-marketing efficiency]**&#x200B;報表可透過全域報表頁面存取。 它可讓您檢視與Adobe Campaign再行銷活動後購物車放棄次數相關的轉換連絡人數（亦即已購買商品）。 轉換率是每週、每月或自Adobe Campaign與網頁分析工具開始同步後計算。
-
-![](assets/webanalytics_reporting.png)
 
 
 **相關主題**
