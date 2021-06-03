@@ -5,7 +5,7 @@ description: 開始使用異動訊息
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 每個事件都可觸發個人化訊息。 為了讓此情況發生，您需要建立訊息範本以符合每個事件類型。 範本包含個人化交易式訊息的必要資訊。 您也可以使用範本來測試訊息預覽，並在傳送至最終目標之前使用種子地址傳送校樣。
 
-## 建立範本
+### 建立範本
 
 若要建立訊息範本，請遵循下列步驟：
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Adobe Campaign必須依Adobe在控制例項中建立要處理的事件類型。
+   Adobe Campaign必須依Adobe在控制例項上建立要處理的事件類型。
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 輸入性質和說明，然後按一下&#x200B;**[!UICONTROL Continue]**&#x200B;建立訊息內文。 請參閱[建立訊息內容](#create-message-content)。
 
-## 建立內容{#create-message-content}
+### 建立內容{#create-message-content}
 
 交易式訊息內容的定義與Adobe Campaign中所有傳送的定義相同。 例如，對於電子郵件傳送，您可以建立HTML或文字格式的內容、新增附件或個人化傳送物件。 如需詳細資訊，請參閱[本章節](../start/create-message.md)。
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_2.png)
 
-## 新增種子地址{#add-seeds}
+### 新增種子地址{#add-seeds}
 
 種子地址可讓您顯示訊息的預覽、傳送校樣，以及在傳送訊息之前測試訊息個人化。 種子地址連結至傳送，無法用於其他傳送。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 建立地址後，您就可以存取其預覽和個人化。
 
-## 新增個人化資料{#personalization-data}
+### 新增個人化資料{#personalization-data}
 
 您可以在訊息範本中新增資料，以測試交易式訊息個人化。 這可讓您產生預覽或傳送校樣。 如果您安裝&#x200B;**傳遞能力**&#x200B;模組，此資料可讓您顯示各種案頭、網頁或行動用戶端的訊息轉譯。
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_3.png)
 
-## 檢視交易式訊息{#transactional-message-preview}
+### 預覽交易式訊息{#transactional-message-preview}
 
 建立一或多個種子地址和訊息內文後，您可以預覽訊息並檢查其個人化。
 
@@ -145,7 +145,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_7.png)
 
-## 傳送證明
+### 傳送證明
 
 您可以傳送校樣至先前建立的種子地址，以測試訊息傳送。
 
