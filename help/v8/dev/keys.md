@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaign中的金鑰管理 '
 description: 開始使用金鑰管理
-source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe促銷活動v8以Snowflake為核心資料庫。 Snowflake資料庫的分佈
 ## 檢測重複項{#detect-duplicates}
 
 Campaign隨附新的護欄，在準備傳送期間會自動移除對象中任何重複的UUID。 這個新機制可防止在準備傳送時發生任何錯誤。
+
+>[!CAUTION]
+>
+>重複的鍵不限於UUID。 ID中可能會發生此情況，包括在自訂表格中建立的自訂索引鍵。
 
 身為一般使用者，您可以在傳送記錄檔中檢查此資訊：由於重複的金鑰，某些收件者可能會從主要目標中排除。 在這種情況下，會顯示下列警告：`Exclusion of duplicates (based on the primary key or targeted records)`。
 
