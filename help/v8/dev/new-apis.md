@@ -5,7 +5,7 @@ description: 新的Campaign v8 API
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 新促銷活動API{#gs-new-api}
 
-Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [瞭解更多](staging.md)。
+Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [瞭解更多](staging.md)
 
 * 擷取API:**xtk.session.ingest**
 
