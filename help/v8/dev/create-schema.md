@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 在Campaign中建立新結構
 description: 了解如何在Campaign中建立新結構
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '408'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您的Adobe Campaign Classic主控台管理員只能刪除內建資料結構。
+>您的Adobe Campaign主控台管理員只能刪除內建資料結構。
 
 ![](assets/schema_navtree.png)
 
@@ -60,7 +60,9 @@ ht-degree: 2%
 
    ![](assets/create_new_content.png)
 
-1. 定義合同表的設定：
+1. 定義合約表格的設定。
+
+   最佳作法是在雲端資料庫中新增`dataSource="nms:extAccount:ffda"`屬性以建立表格。 建立新表格時，預設會新增此屬性。
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
