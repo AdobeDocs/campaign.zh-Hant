@@ -5,7 +5,7 @@ description: 了解如何建立優惠方案
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 3%
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 ![](assets/offer_eligibility_create_003.png)
 
-如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [瞭解更多](interaction-predefined-filters.md)。
+如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [瞭解更多](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以根據選件所屬類別的參數來暫時修改指派的加權。 [瞭解更多](interaction-offer-catalog.md#creating-offer-categories)。
+>您可以根據選件所屬類別的參數來暫時修改指派的加權。 [瞭解更多](interaction-offer-catalog.md#creating-offer-categories)
 
 若要在選件中建立權重，請套用下列步驟：
 
@@ -140,7 +140,7 @@ ht-degree: 3%
 
    ![](assets/offer_content_create_002.png)
 
-   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [瞭解更多](interaction-offer-spaces.md)。
+   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [瞭解更多](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
