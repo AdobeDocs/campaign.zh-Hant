@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: 擴充Campaign綱要
 description: 了解如何擴充Campaign綱要
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
    ![](assets/extend-schema-select.png)
 
-   根據慣例，將擴充功能架構命名為與內建架構相同的架構，並使用自訂命名空間。  請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)。
+   根據慣例，將擴充功能架構命名為與內建架構相同的架構，並使用自訂命名空間。  請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
