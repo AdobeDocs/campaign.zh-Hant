@@ -5,7 +5,7 @@ description: 建立優惠方案管理運算子
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ![](assets/offer_environments_overview_002.png)
 
-傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [瞭解更多](interaction-operators.md)。
+傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [瞭解更多](interaction-operators.md)
 
 ## 建立優惠方案環境{#creating-an-offer-environment}
 
