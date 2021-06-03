@@ -5,9 +5,9 @@ description: 了解如何建立優惠方案空間
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
    這些函式可用來在優惠方案空間中產生優惠方案表示法。 有幾種可能的格式：HTML或文字。
 
-   **注意**  - XML格式僅限於暫時無法使用的入站互動。[瞭解更多](../start/capability-matrix.md#gs-unavailable-features)
+   **注意**  - XML格式僅限於此版本產品中無法使用的入站互動。[瞭解更多](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
