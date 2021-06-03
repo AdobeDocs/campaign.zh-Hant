@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 資料模型最佳實務
 description: 了解Campaign資料模型擴充功能最佳實務
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2683'
 ht-degree: 4%
 
 ---
@@ -93,7 +93,7 @@ Adobe Campaign資源有三個識別碼，且可以新增其他識別碼。
 | 名稱（或內部名稱） | <ul><li>此資訊是表中記錄的唯一標識符。 此值可手動更新，通常具有產生的名稱。</li><li>此識別碼會在部署至不同的Adobe Campaign例項時保留其值，且不應為空。</li></ul> | <ul><li>如果要將物件從環境部署至另一個環境，請重新命名Adobe Campaign產生的記錄名稱。</li><li>當對象具有命名空間屬性（例如&#x200B;*schema*）時，此通用命名空間將用於所有建立的自定義對象。 不應使用某些保留的命名空間：*nms*、*xtk*&#x200B;等。  請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)。</li><li>當物件沒有任何命名空間時（例如&#x200B;*workflow*&#x200B;或&#x200B;*delivery*），此命名空間概念將新增為內部名稱物件的前置詞：*namespaceMyObjectName*。</li><li>請勿使用特殊字元，例如空格&quot; &quot;、半欄&quot;:&quot;或連字型大小&quot;-&quot;。 所有這些字元都將替換為底線「_」（允許的字元）。 例如，「abc-def」和「abc:def」會儲存為「abc_def」並互相覆寫。</li></ul> |
 | 標籤 | <ul><li>標籤是Adobe Campaign中物件或記錄的業務識別碼。</li><li>此對象允許空格和特殊字元。</li><li>它不能保證記錄的獨特性。</li></ul> | <ul><li>建議您判斷物件標籤的結構。</li><li>這是最方便使用者為Adobe Campaign使用者識別記錄或物件的解決方案。</li></ul> |
 
-Adobe Campaign主要索引鍵是針對所有內建表格自動產生的UUID。 UUID也可用於自訂表格。
+Adobe Campaign主要索引鍵是針對所有內建表格自動產生的UUID。 UUID也可用於自訂表格。 [瞭解更多](keys.md)
 
 即使ID數量是無限的，您也應該處理資料庫的大小，以確保最佳效能。 若要避免發生任何問題，請務必調整執行個體清除設定。 如需詳細資訊，請參閱[本節](#data-retention)。
 
