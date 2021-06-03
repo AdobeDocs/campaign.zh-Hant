@@ -5,7 +5,7 @@ description: 了解如何使用Campaign和外部資料庫
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 3%
@@ -54,7 +54,7 @@ ht-degree: 3%
 若要使用FDA設定外部資料庫的存取權，設定步驟為：
 
 1. 身為Adobe Managed Services使用者，請連絡Adobe以在您的Campaign執行個體上安裝驅動程式。
-1. 安裝驅動程式後，請設定與Adobe Campaign伺服器上的資料庫相對應的外部帳戶，並測試外部帳戶。 [瞭解更多](#fda-external-account)。
+1. 安裝驅動程式後，請設定與Adobe Campaign伺服器上的資料庫相對應的外部帳戶，並測試外部帳戶。 [瞭解更多](#fda-external-account)
 1. 在Adobe Campaign中建立外部資料庫的架構。 這可讓您識別外部資料庫的資料結構。 [瞭解更多](#create-data-schema)
 1. 如有需要，從先前建立的架構建立新的目標對應。 如果傳送的收件者來自外部資料庫，則此為必要項目。 此實施隨附與訊息個人化相關的限制。 [瞭解更多](#define-data-mapping)
 
