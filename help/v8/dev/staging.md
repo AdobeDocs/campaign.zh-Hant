@@ -5,7 +5,7 @@ description: 促銷活動API測試機制
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 * 資料架構結構已複製到本機中繼表格
 * 專用於資料擷取的新API會直接匯入本機中繼表格。 [瞭解更多](new-apis.md)
-* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [瞭解更多](../config/replication.md)。
+* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [瞭解更多](../config/replication.md)
 
 某些內建結構預設會分段，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
 
