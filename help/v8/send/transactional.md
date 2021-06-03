@@ -5,9 +5,9 @@ description: 開始使用異動訊息
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -219,8 +219,8 @@ ht-degree: 1%
 
 若要取消發佈交易式訊息範本，請遵循下列步驟。
 
-1. 在控制實例上，轉到樹的&#x200B;**[!UICONTROL Message Center > Transactional message templates]**&#x200B;資料夾。
-1. 選取您要取消發佈的範本。
+1. 在控制實例上，瀏覽到&#x200B;**[!UICONTROL Message Center > Transactional message templates]**&#x200B;資料夾。
+1. 選取要取消發佈的範本。
 1. 按一下 **[!UICONTROL Unpublish]**。
 1. 按一下 **[!UICONTROL Start]**。
 
