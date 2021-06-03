@@ -5,7 +5,7 @@ description: 了解如何建立優惠方案目錄
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -40,11 +40,11 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_005.png)
 
-1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)。
+1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)。
+1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)。
+1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ ht-degree: 2%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)。
+1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ ht-degree: 2%
 
 不過，您可以依下列方式儲存此資訊：
 
-1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [瞭解更多](#specifying-an-offer-or-a-call-to-the-offer-engine)。
+1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [瞭解更多](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. 在活動的主窗口中，選擇&#x200B;**[!UICONTROL Edit additional data...]**。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ ht-degree: 2%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#inserting-an-offer-proposition-into-a-delivery)。
+1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#inserting-an-offer-proposition-into-a-delivery)
 
 ### 依儲存格列出的優惠 {#offers-by-cell}
 
