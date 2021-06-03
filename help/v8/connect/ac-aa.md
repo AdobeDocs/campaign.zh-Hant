@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
+source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -135,10 +135,13 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 
 1. 從&#x200B;**[!UICONTROL Configure Analytics integration]**&#x200B;視窗，將外部帳戶與先前建立的報表套裝對應，並提供下列資訊：
 
+   ![](assets/analytics_connector_0.png)
+
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
    * **[!UICONTROL Report Suite]**
+
 
 1. 從&#x200B;**[!UICONTROL eVars]**&#x200B;類別中，映射在[!DNL Adobe Analytics]中配置的兩個&#x200B;**[!UICONTROL Conversion variables]**。
 
