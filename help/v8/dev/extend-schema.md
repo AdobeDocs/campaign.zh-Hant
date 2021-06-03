@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 擴充Campaign綱要
 description: 了解如何擴充Campaign綱要
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CAUTION]
 >內建架構不能直接修改。 如果您需要調整內建結構，則必須擴充它。
 
-[!DNL :bulb:] 如需深入了解Campaign內建表格及其互動，請參閱 [本頁面](datamodel.md)。
+[!DNL :bulb:] 如需深入了解Campaign內建表格及其互動，請參閱 [本頁面](datamodel.md)。另請參閱在[此頁面](create-schema.md)中建立新架構時的建議。
 
 若要擴充結構，請遵循下列步驟：
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
    ![](assets/extend-schema-edit.png)
 
-   在以下示例中，我們添加了MembershipYear屬性，為姓氏設定了長度限制（此限制將覆蓋預設的限制），並從內置架構中刪除出生日期。
+   在以下示例中，我們添加&#x200B;**MembershipYear**&#x200B;屬性，設定姓氏的長度限制（此限制將覆蓋預設的限制），並從內置架構中刪除出生日期。
 
    ![](assets/extend-schema-sample.png)
 
