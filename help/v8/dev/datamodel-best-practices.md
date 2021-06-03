@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: 資料模型最佳實務
 description: 了解Campaign資料模型擴充功能最佳實務
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 4%
@@ -66,7 +66,6 @@ Adobe Campaign是功能強大的跨頻道行銷活動管理系統，可協助您
 ### 欄位選擇{#choice-of-fields}
 
 如果欄位具有定位或個人化目的，則必須將其儲存在表格中。 換句話說，如果欄位未用來傳送個人化電子郵件，或用作查詢中的標準，則會不必要地佔用磁碟空間。
-
 
 ### 鍵的選擇{#choice-of-keys}
 
