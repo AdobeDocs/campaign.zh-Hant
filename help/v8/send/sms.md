@@ -5,9 +5,9 @@ description: 開始使用Campaign中的簡訊
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
+source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '583'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 參考此外部帳戶的傳遞範本。
 
-!DNL :arrow_upper_right:]了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)中設定SMS通道
+[!DNL :arrow_upper_right:]  了解如何在 [Campaign Classicv7檔案中設定SMS通道](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)
 
 開始傳送簡訊之前：
 
