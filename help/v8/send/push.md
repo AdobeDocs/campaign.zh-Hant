@@ -5,7 +5,7 @@ description: 開始使用Campaign中的推播通知
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: c6f1cfdec3d05a81f8885cc73b370723024f858f
+source-git-commit: b0fcdefb638a2424e9464cf520724cc492fabc55
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -97,19 +97,19 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 1. 選取&#x200B;**[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
 
-   ![](assets/push-template-android.png)
+   <!--![](assets/push-template-android.png)-->
 
 1. 若要定義通知的目標，請按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/nmac_delivery_android_2.png)
+   <!--![](assets/nmac_delivery_android_2.png)-->
 
 1. 選取&#x200B;**[!UICONTROL Subscribers of an Android mobile application]**，選擇與行動應用程式相關的服務（在此例中為Neotrips），然後選取應用程式的Android版本。
 
-   ![](assets/push-android-select-target.png)
+   <!--![](assets/push-android-select-target.png)-->
 
 1. 然後輸入通知的內容。
 
-   ![](assets/push-android-content.png)
+   <!--![](assets/push-android-content.png)-->
 
 1. 按一下&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;圖示，將表情符號插入推播通知。
 
@@ -117,7 +117,7 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 1. 設定通知後，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以預覽通知。
 
-   ![](assets/push-android-preview.png)
+   <!--![](assets/push-android-preview.png)-->
 
 ## 測試、傳送及監視您的推播通知
 
