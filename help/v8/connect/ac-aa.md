@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -135,8 +135,6 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
 
 1. 從&#x200B;**[!UICONTROL Configure Analytics integration]**&#x200B;視窗，將外部帳戶與先前建立的報表套裝對應，並提供下列資訊：
 
-   ![](assets/analytics_connector_0.png)
-
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
@@ -160,6 +158,8 @@ Adobe Campaign使用Adobe Analytics Connector可測量網際網路受眾(Web Ana
    ![](assets/analytics_connnector_12.png)
 
 1. 如有需要，您可以從&#x200B;**[!UICONTROL Update Segments]**&#x200B;索引標籤新增或移除區段。
+
+   ![](assets/analytics_connnector_12a.png)
 
 1. 在&#x200B;**[!UICONTROL External account]**&#x200B;中，按一下&#x200B;**[!UICONTROL Enrich the formula...]**&#x200B;連結以變更URL計算公式，以指定網站分析工具整合資訊（促銷活動ID）和必須追蹤其活動的網站網域。
 
