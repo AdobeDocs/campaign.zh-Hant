@@ -5,9 +5,9 @@ description: 開始使用Campaign中的電子郵件
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
+source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 5%
 
 ---
@@ -107,7 +107,7 @@ Campaign提供數種方式，可在將您的電子郵件傳送給您的對象之
 
 ## 監視您的電子郵件
 
-傳送後，在「傳送控制面板」中檢查您的傳送狀態，並存取傳送記錄檔和報表，確認訊息已正確傳送。
+傳送後，在「傳送控制面板」中檢查您的傳送狀態，並存取傳送記錄檔和報表，以確認訊息已正確傳送。
 
 [!DNL :arrow_upper_right:] [進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
