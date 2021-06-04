@@ -5,9 +5,9 @@ description: 了解如何在Campaign v8中管理訂閱和取消訂閱
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
+source-git-commit: 4cdf1b30584088d1c5de301d89c6d09bf5429ca1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,13 @@ ht-degree: 0%
 
    [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
-* 自動為服務訂閱一組收件者。 收件者清單可來自篩選操作、群組、資料夾、匯入或直接手動選取。 若要訂閱這些收件者，請選取設定檔並按一下滑鼠右鍵。 選擇&#x200B;**[!UICONTROL Actions > Subscribe selection to a service...]**，選擇相關服務並啟動操作。
+* 自動為服務訂閱一組收件者。 收件者清單可來自篩選操作、群組、資料夾、匯入或直接手動選取。 若要訂閱這些收件者，請選取設定檔並按一下滑鼠右鍵。 選取 **[!UICONTROL Actions > Subscribe selection to a service...]**。
+
+   ![](assets/subscribe-selection.png)
+
+   選擇相關服務，然後開始操作。
+
+   ![](assets/subscribe-confirm.png)
 
    [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -37,13 +43,20 @@ ht-degree: 0%
 
 * 使用Web表單，讓收件者可以訂閱服務。
 
+   ![](assets/opt-in-webapp.png)
+
+   Campaign隨附管理選擇加入的預設網頁表單。 您可以個人化它，並對應設定檔資料。
+
+   ![](assets/web-app.png)
+
    [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * 建立目標工作流程並使用&#x200B;**[!UICONTROL Subscription service]**&#x200B;活動。
 
-   [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
+   ![](assets/wf-subscription.png)
 
+   [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 若要取消訂閱（選擇退出）服務的設定檔，可用的選項有：
 
@@ -56,7 +69,7 @@ ht-degree: 0%
 **自動取消訂閱**
 
 * 指定資訊服務的持續時間限制：有效期屆滿時，收件者會自動取消訂閱。 此期間在服務屬性的「編輯」頁簽中指定。 以天表示。
-* 設定母體的取消訂閱工作流程
+* 設定母體的取消訂閱工作流程。
 
 [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
