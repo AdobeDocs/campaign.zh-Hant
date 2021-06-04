@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 62%
+ht-degree: 53%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign v8可在程式的任何步驟（從定位到最終報告）提供端對
 
 ## 簡化並提高效能
 
-Campaign v8 引入了&#x200B;**完全同盟資料存取** (FDA) 的概念：雲端資料庫上的所有資料現在都是遠端資料。
+Campaign v8帶來了&#x200B;**完整同盟資料存取**(FFDA)的概念：雲資料庫上的所有資料現在都是遠程資料。
 
 透過這個新架構，Campaign v8簡化了資料管理：雲資料庫上不需要索引。 您只需要建立表格、複製資料，就可以開始。
 
@@ -54,7 +54,7 @@ Campaign v8 引入了&#x200B;**完全同盟資料存取** (FDA) 的概念：雲�
 
 ## 整合的生態系統
 
-您可以將 Campaign 與一組功能強大的 Adobe 解決方案整合，例如：Adobe Analytics、Workfront、Journey Orchestration、即時 CDP 等。
+您可以將Campaign與一組強大的Adobe解決方案整合，例如：Adobe Analytics、AdobeJourney Orchestration、即時CDP等。
 
 您也可以使用 Journey AI 設定預測性傳送時間最佳化和預測性參與度評分，並提高開放率、點擊次數和收入。
 
