@@ -5,7 +5,7 @@ description: 開始使用Campaign中的簡訊
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -51,9 +51,9 @@ ht-degree: 3%
 
    ![](assets/sms-template-list.png)
 
-   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何建立 [SMPP外部帳戶](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何建立 [SMPP外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案中了解如何建立傳遞範本以傳遞至行動](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案中了解如何建立傳遞範本以傳遞至行動](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
 
 1. 使用標籤、程式碼和說明來識別您的傳送。
 
