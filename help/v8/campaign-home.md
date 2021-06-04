@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
+source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 74%
+source-wordcount: '93'
+ht-degree: 76%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 74%
 
 ## 更多資源
 
-* [已知問題和限制](start/known-limitations.md)
+* [已知限制](start/known-limitations.md)
 * [架構](dev/architecture.md)
 * [測量和追蹤](start/reporting.md)
 * [連結其他解決方案](connect/integration.md)
