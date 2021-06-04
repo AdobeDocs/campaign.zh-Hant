@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 66%
+source-wordcount: '640'
+ht-degree: 67%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 66%
 
 1. **我可以與Campaign專家連絡嗎？**
 
-   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 
 1. **如何登錄問題？**
