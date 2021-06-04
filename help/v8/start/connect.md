@@ -6,10 +6,10 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03585f0c1514a80b0b0cba5a2d05fa3f44398405
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 6%
+source-wordcount: '799'
+ht-degree: 7%
 
 ---
 
@@ -117,6 +117,16 @@ Campaign使用者可透過AdobeIdentity Management系統(IMS)，使用Adobe ID�
 應用程式的某些部分可使用HTML用戶介面，通過簡單的Web瀏覽器進行訪問：促銷活動控制面板、多維資料集報表、執行個體監控等。
 
 [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中進一步 [了解Web存取](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+Web存取提供的介面與控制台類似，但功能集減少。
+
+例如，對於指定運算子，促銷活動在主控台中會顯示下列選項：
+
+![](assets/campaign-from-console.png)
+
+而網路存取介面上，主要啟用檢視選項：
+
+![](assets/campaign-from-web.png)
 
 驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
 
