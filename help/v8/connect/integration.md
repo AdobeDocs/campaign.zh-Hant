@@ -6,9 +6,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03cc90222cc8f64e820856382a00c92bf3f92c41
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '358'
 ht-degree: 13%
 
 ---
@@ -27,8 +27,12 @@ Adobe Campaign隨附數個連接器，可讓您與外部應用程式通訊、連
 
 Campaign v8可以與：
 
-* [AdobeJourney Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-* [Real-Time CDP](../connect/ac-rtcdp.md)
+
+* [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
+* [AdobeJourney Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)。
+
+   請參閱端對端使用案例[此處](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)。
+
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloud觸發器](../connect/ac-triggers.md)
