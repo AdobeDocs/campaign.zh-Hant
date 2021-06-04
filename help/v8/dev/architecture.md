@@ -6,9 +6,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: e6086620909277eaaf5966335df9b71c6830e726
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -67,8 +67,6 @@ CampaignCloud Service提供的三種環境類型：
 >控制實例和執行實例必須安裝在不同的電腦上。 他們無法共用相同的Campaign執行個體。
 
 ![](assets/messagecenter_diagram.png)
-
-[!DNL :arrow_upper_right:] Campaign Classicv7檔案中會說明訊 [息中心架構](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
 
 ### 驗證
 
