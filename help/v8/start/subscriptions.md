@@ -5,9 +5,9 @@ description: 了解如何在Campaign v8中管理訂閱和取消訂閱
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 若要訂閱（選擇加入）服務的設定檔，可用的選項有：
 
 * 手動將服務新增至收件者設定檔：要執行此操作，請從其配置檔案的&#x200B;**[!UICONTROL Subscriptions]**&#x200B;頁簽中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇相關資訊服務。
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
