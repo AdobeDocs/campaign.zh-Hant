@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 0e99b836dc035c0076f6771b5b430dfd1bd8edaf
+source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 78%
@@ -85,6 +85,8 @@ Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施�
 ## 工作區與自訂
 
 可透過[用戶端主控台](../dev/general-architecture.md)使用促銷活動工作區。
+
+![](assets/home-page.png)
 
 [!DNL :bulb:] [進一步了解Campaign用戶端主控台](../start/connect.md)。
 
