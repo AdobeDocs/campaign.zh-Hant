@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 44%
+source-wordcount: '829'
+ht-degree: 43%
 
 ---
 
@@ -71,6 +71,10 @@ Adobe促銷活動v8以Snowflake為核心資料庫。 由於它顯著地增加了
 ### 簡化維護作業
 
 Campaign 使用者不需要成為資料庫專家：不再需要複雜的資料庫維護操作或複雜的表格索引。
+
+## 報告功能
+
+請注意，Adobe Campaign報表已最佳化，且比Campaign Classicv7提供更佳的擴充功能。 對多維資料集的現有限制不適用。
 
 ## 不可用功能{#gs-unavailable-features}
 
