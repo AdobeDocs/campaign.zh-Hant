@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 46f013dc18e504d490084a6d911b4772ce0fac2e
+source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
 * **立方體**
 
-   分析和測量資料、計算統計資料、使用立方體簡化並最佳化報表建立和計算。  您可以擴充資料庫的探索和分析能力，同時讓一般使用者更容易設定報表和表格：他們只需在建立其報告或表格時選擇現有（完全配置的）多維資料集，以處理計算、度量和統計資訊。
+   分析和測量資料、計算統計資料、使用立方體簡化並最佳化報表建立和計算。  您可以擴充資料庫的探索和分析能力，讓一般使用者更容易設定報表和表格。 他們只需在建立其報告或表格時選擇現有（完全配置的）多維資料集，以處理計算、度量和統計資訊。
 
    ![](assets/create-a-report.png)
 
