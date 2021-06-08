@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: 開始使用 Campaign v8
-description: 探索重要功能、使用者介面和全域準則
+description: Campaign的新手嗎？ 了解如何開始使用
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 78%
+source-wordcount: '894'
+ht-degree: 76%
 
 ---
 
@@ -119,3 +119,8 @@ Campaign v8使用者介面提供下列語言版本：
 
 語言會影響日期和時間格式。 如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time)。
 
+**另請參閱**
+
+* [Campaign v8相容性矩陣](compatibility-matrix.md)
+* [連結 Campaign](connect.md)
+* [常見問題集](campaign-faq.md)
