@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 使用iOS和Android適用的Campaign SDK，以促進行動應用程式與Adobe Campaign平台的整合。
 
-[相容性矩陣](../../rn/using/compatibility-matrix.md#MobileSDK)中列出Android和iOS支援的版本，以及Campaign SDK與Campaign v8相容的版本。
+[相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中列出Android和iOS支援的版本，以及Campaign SDK與Campaign v8相容的版本。
 
 >[!NOTE]
 >
@@ -422,6 +422,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 >
 > 如果使用者在目標活動內使用`click_action`選項，則需要執行類似的管理。
 
+
 1. **接收資料訊息的追蹤**
 
    若是資料訊息，則會在`onMessageReceived`呼叫層級接收追蹤。 需要調用「notifyReceive」函式。
@@ -552,8 +553,6 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
        }
    }
    ```
-
-
 
 
 ## 整合iOS SDK
