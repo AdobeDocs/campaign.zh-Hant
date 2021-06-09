@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
+source-git-commit: b745fc70ce52d34d1035d2cb31dd6252135e4334
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -359,12 +359,13 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
            }
        }
    }
-   
+   ```
+
 1. **追蹤通知訊息的開啟和點按**
 
    對於通知訊息，開啟/點擊追蹤必須使用應用程式啟動活動內的`notifyOpening`函式完成，如下所示：
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -373,7 +374,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
