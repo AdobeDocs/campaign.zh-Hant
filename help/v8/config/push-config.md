@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
+source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    `IntegrationKey`必須符合連結至此Android應用程式的Adobe Campaign行動應用程式中設定的「IntegrationKey」。
 
-2. **將行動裝置註冊至Adobe Campaign伺服器**
+1. **將行動裝置註冊至Adobe Campaign伺服器**
 
    註冊功能允許您：
 
@@ -425,7 +425,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 1. **接收資料訊息的追蹤**
 
-   若是資料訊息，則會在`onMessageReceived`呼叫層級接收追蹤。 需要調用「notifyReceive」函式。
+   對於資料訊息，會在`onMessageReceived`呼叫層級接收追蹤。 需要調用「notifyReceive」函式。
 
    YourApplicationMessagingService.java
 
