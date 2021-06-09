@@ -5,9 +5,9 @@ description: 了解如何建立優惠方案
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -196,4 +196,4 @@ Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是�
 
 模擬會考慮先前套用至優惠方案的內容和適用性規則及其呈現規則。 這可讓您測試和調整優惠方案主張的各種版本，而不實際使用優惠方案或過度/不斷索取目標，因為模擬對目標收件者沒有影響。
 
-[!DNL :arrow_upper_right:] 如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] 如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
