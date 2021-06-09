@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 71%
+source-wordcount: '600'
+ht-degree: 68%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign v8 提供下列傳送頻道：
 
    [!DNL :arrow_upper_right:] [了解如何自動傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=zh-Hant)
 * [從事](../send/transactional.md) 件觸發訊息
-   [!DNL :arrow_upper_right:] [使用案例：了解如何傳送包含附件的交易式電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=zh-Hant)
+   [!DNL :arrow_upper_right:] [使用案例：了解如何傳送包含附件的交易式電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * 排程訊息
 
    ![](assets/schedule-send.png)
@@ -87,7 +87,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。
 
 [!DNL :bulb:][ 本頁](../send/transactional.md)中詳細說明了設定和傳送異動訊息的步驟
 
-[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中，透過端對端使用案例 [探索此功能](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=zh-Hant#transactional-messaging)
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中，透過端對端使用案例 [探索此功能](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## 傳送和追蹤記錄
 
