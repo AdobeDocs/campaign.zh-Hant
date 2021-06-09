@@ -5,9 +5,9 @@ description: Campaign交易式訊息設定
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 在&#x200B;**Message Center技術工作流程**&#x200B;在控制或執行例項上所使用架構上所建立的所有架構擴充功能，必須複製到Adobe Campaign交易訊息模組所使用的其他例項上。
 
-[!DNL :arrow_upper_right:] 進一步了解Campaign Classicv7檔案中的訊息中 [心技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:] 進一步了解Campaign Classicv7檔案中的訊息中 [心技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## 傳送交易式推播通知
 
