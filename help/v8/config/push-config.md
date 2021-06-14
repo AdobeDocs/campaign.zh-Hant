@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 170a80942aff9951859646942657938e206959fe
+source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1346'
 ht-degree: 1%
 
 ---
@@ -419,9 +419,9 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
    }
    ```
 
->[!NOTE]
->
-> 如果使用者在目標活動內使用`click_action`選項，則需要執行類似的管理。
+   >[!NOTE]
+   >
+   > 如果使用者在目標活動內使用`click_action`選項，則需要執行類似的管理。
 
 
 1. **接收資料訊息的追蹤**
@@ -644,6 +644,15 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    * **** ErrorReason會提供您有關所發生錯誤的詳細資訊。有關可用錯誤及其說明的詳細資訊，請參閱下表。
 
+
+      | 狀態 | 說明 | ErrorReason |
+      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+      | ACCRegisterDeviceStatusSuccess | 註冊成功 | 空白 |
+      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC行銷伺服器主機名稱空白或未設定。 | 空白 |
+      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 整合金鑰為空或未設定。 | 空白 |
+      | ACCRegisterDeviceStatusFailureConnectionIssue | ACC的連線問題 | 更多資訊（使用作業系統當前語言） |
+      | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
+      | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
    <table> 
     <thead>
     <tr>
