@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -644,56 +644,15 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    * **** ErrorReason會提供您有關所發生錯誤的詳細資訊。有關可用錯誤及其說明的詳細資訊，請參閱下表。
 
+   | 狀態 | 說明 | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | 註冊成功 | 空白 |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC行銷伺服器主機名稱空白或未設定。 | 空白 |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 整合金鑰為空或未設定。 | 空白 |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | ACC的連線問題 | 更多資訊（使用作業系統當前語言） |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
+   | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
 
-      | 狀態 | 說明 | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRegisterDeviceStatusSuccess | 註冊成功 | 空白 |
-      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC行銷伺服器主機名稱空白或未設定。 | 空白 |
-      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 整合金鑰為空或未設定。 | 空白 |
-      | ACCRegisterDeviceStatusFailureConnectionIssue | ACC的連線問題 | 更多資訊（使用作業系統當前語言） |
-      | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
-      | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
-   <table> 
-    <thead>
-    <tr>
-    <th> 狀態<br /> </th>
-    <th> 說明<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> 註冊成功<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> ACC行銷伺服器主機名稱空白或未設定。<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> 整合密鑰為空或未設定。<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> ACC<br />的連線問題 </td>
-    <td> 更多資訊（作業系統當前語言）<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> 提供的UUID（整合金鑰）未知。<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnexceptedError<br /> </td>
-    <td> 傳回到ACC伺服器的錯誤。<br /> </td>
-    <td> 傳回至ACC的錯誤訊息。<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
    **Neolane_** SDKDelegateprotocol和registerDeviceStatusdelegate定 **** 義如下：
 
@@ -830,6 +789,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
       }
       @end
       ```
+
 
 
 ## 變數 {#variables}
