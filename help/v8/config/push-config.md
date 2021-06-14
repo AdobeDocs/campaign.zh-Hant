@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
+source-git-commit: 68cd7d5a20dafeea3c19f35f5c9547b623319ba2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
@@ -652,6 +652,9 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
    | ACCRegisterDeviceStatusFailureConnectionIssue | ACC的連線問題 | 更多資訊（使用作業系統當前語言） |
    | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
    | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
+
+
+   {style=&quot;table-layout:auto&quot;}
 
 
    **Neolane_** SDKDelegateprotocol和registerDeviceStatusdelegate定 **** 義如下：
