@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: eec769a09d59034dde59983bd0a53a4ac4fddde5
+source-git-commit: 9f05209e47f35c91720f68d56593812115726817
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -644,7 +644,6 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    * **** ErrorReason會提供您有關所發生錯誤的詳細資訊。有關可用錯誤及其說明的詳細資訊，請參閱下表。
 
-
 | 狀態 | 說明 | ErrorReason |
 | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
 | ACCRegisterDeviceStatusSuccess | 註冊成功 | 空白 |
@@ -653,7 +652,6 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 | ACCRegisterDeviceStatusFailureConnectionIssue | ACC的連線問題 | 更多資訊（使用作業系統當前語言） |
 | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
 | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
-
 
 {style=&quot;table-layout:auto&quot;}
 
