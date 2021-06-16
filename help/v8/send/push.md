@@ -5,10 +5,10 @@ description: 開始使用Campaign中的推播通知
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: aa3f2f17981ad10221771b3a22c76f7a445b94c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 1%
+source-wordcount: '765'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,10 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 相容的SDK版本列在[Campaign相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中。
 
-[!DNL :arrow_upper_right:] 在本小節中了解如何整合Campaign Android和iOS SDK與您的應 [用程式](../config/push-config.md)
+<!--
+[!DNL :arrow_upper_right:] Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
+-->
+
 
 ### 在Launch中設定Campaign擴充功能
 
