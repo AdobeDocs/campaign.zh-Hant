@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ ht-degree: 96%
 * [執行個體詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=zh-Hant)
 * [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant)
 
-[!DNL :arrow_upper_right:] 探索本檔案中的所有「控制面 [板」功能](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:]探索[本文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)中的所有控制面板功能
