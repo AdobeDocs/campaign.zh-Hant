@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->若使用&#x200B;**促銷活動托管Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 您不得修改已安裝的內建套件、內建結構或報表。
+>若使用&#x200B;**Campaign 托管 Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
->如果您需要使用促銷活動附加元件或尚未布建的特定功能，您必須聯絡&#x200B;**Adobe客戶服務**。
+>如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
 
 ## 開始之前
 
@@ -36,15 +36,15 @@ ht-degree: 79%
 
 Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法和收件者的偏好使用 Campaign。 您可以管理：
 
-* **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
+* **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition) 中深入瞭解
 
-* **使用者同意與資料保留**：瞭解如何取得使用者同意、設定雙重選擇加入訂閱機制、促進選擇退出並在 [Campaign Classic 隱私文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)中設定資料保留
+* **使用者同意與資料保留**：瞭解如何取得使用者同意、設定雙重選擇加入訂閱機制、促進選擇退出並在 [Campaign Classic 隱私文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent)中設定資料保留
 
-* **隱私權與資料保護法規**：請參閱 [Campaign Classic 隱私權文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)，以取得歐盟通用資料保護規則 (GDPR)、加州消費者隱私法 (CCPA) 和其他國際隱私權要求的相關資訊，以及這些規定對貴組織和 Adobe Campaign 的影響。
+* **隱私權與資料保護法規**：請參閱 [Campaign Classic 隱私權文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant)，以取得歐盟通用資料保護規則 (GDPR)、加州消費者隱私法 (CCPA) 和其他國際隱私權要求的相關資訊，以及這些規定對貴組織和 Adobe Campaign 的影響。
 
 ### 安全性
 
-在[Campaign安全性檢查清單](../config/security.md)中，透過Adobe Campaign了解安全性准則和原則。
+在 [Campaign 安全性檢查清單](../config/security.md)中瞭解安全性方針與 Adobe Campaign 原則
 
 ## 定義 Campaign 設定
 
@@ -52,13 +52,13 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您可以手動將使用者新增至 Cammagin，並將他們與群組建立關聯，並與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
-[!DNL :arrow_upper_right:] 在本小節中了解如何將使用者新 [增至Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started)。
+[!DNL :arrow_upper_right:] 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started)瞭解如何新增使用者至 Adobe Campaign。
 
 ### 安裝 Campaign 用戶端控制台
 
 應用程式的主要使用者介面為豐富型客戶端，換言之，即僅與擁有標準網際網路通訊協定 (SOAP、HTTP 等) 的 Adobe Campaign 應用程式伺服器通訊的原生應用程式 (Windows)。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網路瀏覽器部署、可自動更新，且不需要任何特定網路組態，因為它只會產生 HTTP(S) 流量。
 
-[!DNL :bulb:] [進一步了解Campaign用戶端主控台](connect.md)。
+[!DNL :bulb:] [深入瞭解 Campaign 用戶端主控台](connect.md)。
 
 ## 準備您的環境
 
@@ -68,33 +68,33 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-   [!DNL :bulb:] [了解如何匯入設定檔](import.md)。
+   [!DNL :bulb:] [瞭解如何匯入設定檔](import.md)。
 
    對象會分組到清單中，並可透過工作流程建立。 然後，您就可以在跨頻道傳遞中鎖定這些目標。
 
-   [!DNL :bulb:] [了解如何定義對象](audiences.md)。
+   [!DNL :bulb:] [瞭解如何定義對象](audiences.md)。
 
 1. 建立範本
 
    行銷活動、傳遞、工作或工作流程都以儲存關鍵設定和功能的範本為基礎。 系統會為每個元件提供內建範本，其尚未定義特定組態。 您需要設定並調整範本以符合您的需求，並讓終端使用者也能使用範本。
 
-   [!DNL :arrow_upper_right:] [深入了解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant)
+   [!DNL :arrow_upper_right:] [深入瞭解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant)
 
-   [!DNL :arrow_upper_right:] 在本頁面中了解如何使用行銷 [活動範本](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] 在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns)瞭解如何使用行銷活動範本
 
-   [!DNL :arrow_upper_right:] 在本頁面中了解如何設定工作流 [程範本](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=zh-Hant#workflow-templates)
+   [!DNL :arrow_upper_right:] 在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=zh-Hant#workflow-templates)瞭解如何設定工作流程範本
 
 1. 設定類型規則
 
    運用 Campaign 類型規則來篩選、控制和監視傳遞。 例如，疲勞規則控制傳送訊息的頻率和數量，以避免收件者過度徵求。 實施後，在傳遞中會參考類型規則。
 
-   [!DNL :arrow_upper_right:] [深入了解類型與疲勞管理](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] [深入瞭解類型和疲勞管理](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#orchestrating-campaigns)
 
 1. 熟悉 Campaign 內建資料模型
 
    Adobe Campaign 附有預定義的資料模型。若要實施和自訂您的環境，您需要熟悉 Adobe Campaign 資料模型的內建表格以及它們之間的關係。
 
-   [!DNL :bulb:] [深入了解Campaign資料模型](../dev/datamodel.md)。
+   [!DNL :bulb:] [深入瞭解 Campaign 資料模型](../dev/datamodel.md)。
 
 ## 自訂您的執行個體
 
@@ -104,19 +104,19 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Adobe Campaign 提供了通用方案來識別資料，例如：收件者、傳遞記錄、訂閱及更多。
 
-   [!DNL :bulb:] 請參閱本節，深入了解 [Campaign內建的資料模型](../dev/datamodel.md)。
+   [!DNL :bulb:] 請參閱本節以深入瞭解 [Campaign 內建資料模型](../dev/datamodel.md)。
 
-   [!DNL :bulb:] 您可以擴充現有結構或從頭建立新結構。在[本頁](../dev/customize.md)中瞭解更多。
+   [!DNL :bulb:] 您可以擴充現有方案或從頭開始建立新方案。 在[本頁](../dev/customize.md)中瞭解更多。
 
 1. **儀表板和清單**
 
    您可以輕鬆設定清單、新增和移除欄位，以及自訂欄位。
 
-   [!DNL :bulb:] 透過本頁面了解如何在Campaign中管理篩選 [器和清單](../dev/customize.md#gs-lists-and-filters)。
+   [!DNL :bulb:]在[本頁面](../dev/customize.md#gs-lists-and-filters)瞭解如何管理 Campaign 的篩選器和清單。
 
    您也可以根據您的需求建立新的控制面板以顯示 Campaign 資料。
 
-   [!DNL :bulb:]在[本頁](../dev/customize.md#gs-custom-dashboards)瞭解更多。
+   [!DNL :bulb:]在[本頁面](../dev/customize.md#gs-custom-dashboards)深入瞭解。
 
 1. **報告**
 
@@ -124,7 +124,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    除了內建報告之外，透過使用 Adobe Campaign，可以讓您在不同工作環境中根據不同需求產生報告。本檔案詳細說明了使用原則和實施模式。
 
-   [!DNL :bulb:] 透過本頁面進一步了解Campaign中的報 [表功能](reporting.md)。
+   [!DNL :bulb:]在[本頁面](reporting.md)伸入瞭解 Campaign 的報告功能。
 
 
 ## 設定行銷活動自動化
@@ -155,22 +155,22 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您也可以使用單一登入 (SSO) 來連線至 Campaign。在[本頁](connect.md)瞭解更多。
 
-[!DNL :bulb:] 在本頁面中探索可與Adobe Campaign整合的Adobe解決 [方案完整清單](../connect/integration.md)。
+[!DNL :bulb:] 在[本頁面](../connect/integration.md)瞭解可整合 Adobe Campaign 的完整 Adobe 解決方案清單。
 
 ### 連接器
 
 將 Campaign 與協力廠商系統連結，以結合多種功能並自動化流程。
 
-[!DNL :bulb:] 了解更多可用連接器 [的相關資訊](../connect/integration.md)。
+[!DNL :bulb:] 在[本節](../connect/integration.md)深入瞭解可用的連接器。
 
 **將您的 CRM 連結至 Campaign**
 
 您可以將您的 Adobe Campaign 平台連接至 CRM 協力廠商系統，並同步資料：連絡人、帳戶、購買等。
 
-[!DNL :bulb:] 在[本節](../connect/integration.md#gs-crm-connectors)中瞭解如何將 CRM 系統連結至 Campaign
+[!DNL :bulb:] 在[本節](../connect/integration.md#gs-crm-connectors)瞭解如何將 CRM 系統連結至 Campaign
 
 **連結至外部資料庫**
 
 您可以透過同盟資料存取 (FDA) 模組，將 Campaign Cloud 資料庫連結至外部系統。
 
-[!DNL :bulb:] 在[本節](../connect/integration.md#gs-fda)中瞭解如何設定 Campaign FDA 模組，以定義存取參數
+[!DNL :bulb:] 在[本節](../connect/integration.md#gs-fda)瞭解如何設定 Campaign FDA 模組，以定義存取參數
