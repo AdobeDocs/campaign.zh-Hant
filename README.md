@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 關於您對 Adobe 內容的投稿
 
-請參閱 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/introduction.html)。
 
 您的投稿方式視您的身份，以及您想要投稿的變更類型而定：
 
