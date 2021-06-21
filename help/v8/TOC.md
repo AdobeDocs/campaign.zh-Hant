@@ -8,7 +8,7 @@ title: Campaign v8 文件
 source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 80%
+ht-degree: 98%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 80%
 # Adobe Campaign v8 文件{#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
-+ 新增功能{#start}
++ 有哪些新增功能？{#start}
    + [主要功能](start/whats-new.md)
    + [發行說明](start/release-notes.md)
    + [已知限制](start/known-limitations.md)
    + [Classic v7 到 v8](start/capability-matrix.md)
 + 開始 {#start}
    + [開始使用](start/get-started.md)
-   + [設定檔和閱聽眾](start/audiences.md)
+   + [設定檔和對象](start/audiences.md)
    + [匯入資料](start/import.md)
    + [建立行銷活動](start/campaigns.md)
    + [傳送訊息](start/create-message.md)
    + [管理訂閱](start/subscriptions.md)
    + [追蹤與監視](start/tracking.md)
-   + [度量與報吿](start/reporting.md)
+   + [指標與報吿](start/reporting.md)
    + [常見問答集](start/campaign-faq.md)
 + 實施 {#implement}
    + [實施步驟](start/implement.md)
@@ -38,26 +38,26 @@ ht-degree: 80%
    + [設計網頁應用程式和表單](dev/webapps.md)
    + [資料模型最佳實務](dev/datamodel-best-practices.md)
 + 部署{#deploy}
-   + [相容性對照表](start/compatibility-matrix.md)
-   + [連結 Campaign](start/connect.md)
+   + [相容性矩陣](start/compatibility-matrix.md)
+   + [連結至 Campaign](start/connect.md)
    + [權限](start/permissions.md)
    + [控制面板](config/self-service.md)
 + 傳送 {#send}
    + [電子郵件](send/email.md)
-   + [簡訊](send/sms.md)
+   + [SMS](send/sms.md)
    + [推播通知](send/push.md)
-   + [線路報文傳送](send/line.md)
+   + [LINE 傳送訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
-   + [交易式訊息](send/transactional.md)
-   + 新增選件{#interaction}
+   + [異動訊息](send/transactional.md)
+   + 新增優惠方案{#interaction}
       + [開始互動](send/interaction.md)
       + 定義設定{#interaction}
          + [建立運算子](send/interaction-operators.md)
          + [建立環境](send/interaction-env.md)
-         + [建立預先定義的篩選](send/interaction-predefined-filters.md)
-         + [建立優惠空間](send/interaction-offer-spaces.md)
+         + [建立預先定義的篩選器](send/interaction-predefined-filters.md)
+         + [建立優惠方案空間](send/interaction-offer-spaces.md)
       + [建立優惠方案目錄](send/interaction-offer-catalog.md)
-      + [建立優惠方案](send/interaction-offer.md)
+      + [建立優惠優惠方案](send/interaction-offer.md)
       + [傳送優惠方案](send/interaction-send-offers.md)
       + [使用案例](send/interaction-use-cases.md)
 + 設定 {#config}
@@ -72,7 +72,7 @@ ht-degree: 80%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
-   + [Campaign +Experience Cloud觸發器](connect/ac-triggers.md)
+   + [Campaign + Experience Cloud 觸發程式](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
@@ -83,9 +83,9 @@ ht-degree: 80%
    + [資料模型](dev/datamodel.md)
    + 方案和表單{#shemas-forms}
       + [使用方案](dev/schemas.md)
-      + [密鑰管理和唯一性](dev/keys.md)
+      + [金鑰管理和唯一性](dev/keys.md)
       + [建立方案](dev/create-schema.md)
-      + [擴展方案](dev/extend-schema.md)
+      + [擴充方案](dev/extend-schema.md)
       + [方案結構](dev/schema-structure.md)
       + [資料庫對應](dev/database-mapping.md)
       + [限制 PI 檢視](dev/restrict-pi-view.md)
@@ -95,4 +95,4 @@ ht-degree: 80%
    + API {#api}
       + [開始使用](dev/api.md)
       + [新 API](dev/new-apis.md)
-      + [API中繼機制](dev/staging.md)
+      + [API 準備機制](dev/staging.md)
