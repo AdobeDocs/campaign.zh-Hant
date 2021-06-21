@@ -9,7 +9,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 68%
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 68%
 **作業系統**
 
 * **Microsoft Windows Server** 2016、2012
-* **Microsoft Windows** 8、10 (建議日文執行個體使用)）
+* **Microsoft Windows** 8、10 (建議日文執行個體使用))
 
 **瀏覽器**
 
@@ -71,7 +71,7 @@ ht-degree: 68%
 
 您可存取下列資訊：
 
-* 客戶端控制台和應用程式伺服器的&#x200B;**版本**&#x200B;編號。 在上例中，客戶端控制台和應用程式伺服器的版本為8.1.5。
-* 括弧之間的SHA號。
-* 連絡Adobe客戶服務的連結。
-* Adobe隱私權原則、使用條款和Cookie原則的連結。
+* Campaign 用戶端控制台及應用程式伺服器的&#x200B;**版本**&#x200B;號碼。在上述例子中，客戶端主控台和應用程式伺服器的版本為 8.1.5。
+* 括弧之間的 SHA 編號。
+* 聯絡 Adobe 客戶服務的連結.
+* 導覽至 Adobe 隱私權政策、使用條款與 Cookie 政策的連結.
