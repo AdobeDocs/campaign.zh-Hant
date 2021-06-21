@@ -9,7 +9,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷�
 
 使用 Campaign 可以：
 
-* **透過單一可存取的客戶檢視，推動個人化和參與**
-* **將電子郵件、行動裝置、線上和線下頻道整合至客戶歷程**
-* **自動化有意義且即時的訊息和優惠方案傳遞**
+* **透過存取單一客戶視圖，推動個人化和參與**
+* 將電子郵件、行動裝置、線上和線下頻道&#x200B;**整合**&#x200B;至客戶歷程
+* **自動化傳送有意義的即時訊息和優惠方案**
 
 ![](assets/ac-capabilities.png)
 
@@ -31,9 +31,9 @@ Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷�
 
 在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、SMS 等) 的預設用戶檔案。有了資料庫中儲存的收件者資料，您能夠對接收任何給定內容的收件者進行篩選，並在交付內容中新增個人化資料。資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
 
-[!DNL :bulb:] 本節將說明設定檔管理的 [基本知識](audiences.md)。
+[!DNL :bulb:]有關設定檔管理的基本資訊請參閱[本節](audiences.md)。
 
-[!DNL :bulb:] 在本小節中了解如何將設定檔 [新增至Campaign](import.md)。
+[!DNL :bulb:]在[本節](import.md)瞭解如何新增設定檔至 Campaign。
 
 ## 目標市場細分 {#targeted-segmentation}
 
@@ -41,13 +41,13 @@ Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功�
 
 進階資料管理功能進一步擴充了資料處理能力。該功能透過包含未在資料超市中模組化的資料，來簡化及最佳化目標定位流程。
 
-[!DNL :bulb:] 在本小節中深入了解區段、受眾建立 [和個人化](audiences.md)。
+[!DNL :bulb:]在[本節](audiences.md)中深入瞭解細分、對象建立和個人化。
 
 ## 跨通路的行銷活動策劃 {#cross-channel-campaign-orchestration}
 
 Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、SMS、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
-[!DNL :bulb:] 在本小節中了解如何設計、排程及執行 [行銷活動](campaigns.md)。
+[!DNL :bulb:]在[本節](campaigns.md)中瞭解行銷活動的設計、排程及執行。
 
 ## 工作流程
 
@@ -62,65 +62,65 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * 將資料匯入 Campaign 資料庫。
 * 技術流程，例如資料庫清理、復原追蹤資訊等。
 
-[!DNL :bulb:] 在本小節中了解如何設計和執行工 [作流程](../config/workflows.md)。
+[!DNL :bulb:]在[本節](../config/workflows.md)中瞭解如何設計和執行工作流程。
 
 ## 報告與分析{#analysis-and-reporting}
 
 您可以使用 Adobe Campaign 透過逐步豐富客戶資料和設定檔，來監視和詮釋客戶行為。您可以使用報告和分析工具充分利用每一次新的行銷活動、更有效地鎖定行銷方案，且最佳化行銷影響力及投資報酬率。
 
-[!DNL :bulb:] 在本小節中進一步了解報告和 [追蹤功能](reporting.md)。
+[!DNL :bulb:]進一步瞭解[本節](reporting.md)中的報告和追蹤功能。
 
 ## Adobe Experience Cloud 整合 {#adobe-experience-cloud-integrations}
 
 您可以將 Adobe Campaign 的傳遞功能和行銷活動管理進階功能，與協助您個人化使用者體驗的解決方案 (例如：Adobe Experience Manager、Adobe Analytics、Adobe Target 或 Adobe Experience Cloud 觸發程式) 相互結合。
 
-[!DNL :bulb:] 在本小節中了解如何與Adobe服務和解決 [方案整合](../connect/integration.md)。
+[!DNL :bulb:] 在[本節](../connect/integration.md)中瞭解如何整合 Adobe 服務和解決方案。
 
 ## 關於 Campaign 功能的更多資訊{#core-capabilities-and-add-ons}
 
 Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施及最佳化對話式行銷功能。其中部分是核心功能，部分功能取決於套件的安裝和您的設定。此處提供了詳盡的產品說明：[Adobe Campaign v8 產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)。
 
-[!DNL :bulb:] 已熟悉Campaign Classic?在[本頁](capability-matrix.md)中瞭解 Campaign Classic 與Campaign v8 的主要差異。
+[!DNL :bulb:] 已經熟悉 Campaign Classic 嗎？在[本頁](capability-matrix.md)中瞭解 Campaign Classic 與Campaign v8 的主要差異。
 
 ## 工作區與自訂
 
-可透過[用戶端主控台](../dev/general-architecture.md)使用促銷活動工作區。
+Campaign 工作區可在[用戶端主控台](../dev/general-architecture.md)提供。
 
 ![](assets/home-page.png)
 
-[!DNL :bulb:] [進一步了解Campaign用戶端主控台](../start/connect.md)。
+[!DNL :bulb:] [進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
 
-可根據您的需求調整行銷活動工作區。
+可根據您的需求調整 Campaign 工作區。
 
-[!DNL :arrow_upper_right:]  在Campaign Classicv7檔案中了解如 [何使用Campaign工作區](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:]  在Campaign Classic v7 文件中瞭解 [如何使用 Campaign 工作區](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=zh-Hant)
 
-[!DNL :arrow_upper_right:]  了解如何在 [Campaign Classicv7檔案中自訂清單](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:]在 [Campaign Classic v7 文件中瞭解如何自訂清單](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=zh-Hant)
 
-您也可以透過 Web 存取某些功能。
+您也可以透過網頁存取某些功能。
 
-[!DNL :bulb:] [深入了解Campaign Web Access](../start/connect.md#web-access)。
+[!DNL :bulb:] [深入瞭解 Campaign 網頁存取](../start/connect.md#web-access)。
 
 
 ## 語言
 
-Campaign v8使用者介面提供下列語言版本：
+Campaign v8 使用者介面提供下列語言版本：
 
-* 英語（英國）
-* 英文 (US)
+* 英文 (英國)
+* 英文 (美國)
 * 法文
 * 德文
 * 日文
 
-在安裝過程中將選擇該語言。
+在安裝過程中選擇語言。
 
 >[!CAUTION]
 >
 >建立執行個體後無法變更語言。
 
-語言會影響日期和時間格式。 如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time)。
+語言會影響日期和時間格式。 如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=zh-Hant#date-and-time)。
 
 **另請參閱**
 
 * [Campaign v8相容性矩陣](compatibility-matrix.md)
-* [連結 Campaign](connect.md)
+* [連結至 Campaign](connect.md)
 * [常見問題集](campaign-faq.md)
