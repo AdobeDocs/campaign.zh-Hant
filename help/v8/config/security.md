@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Campaign安全性最佳實務
 description: 開始使用Campaign安全性最佳實務
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 1%
 * 檢查每個運算子是否擁有適當的存取權限
 * 請避免使用管理員運算子，並避免管理員群組中有太多運算子
 
-[!DNL :arrow_upper_right:] 進一步了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
+[!DNL :arrow_upper_right:] 進一步了 [解Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## 編碼准則
 
@@ -119,4 +119,4 @@ ht-degree: 1%
 
 * **在Web應用程式中新增captcha**:在您的公開登錄頁面和訂閱頁面中新增captcha。
 
-[!DNL :arrow_upper_right:] 進一步了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
+[!DNL :arrow_upper_right:] 進一步了 [解Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
