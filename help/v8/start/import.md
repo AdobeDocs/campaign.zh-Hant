@@ -6,10 +6,10 @@ feature: 設定檔
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 79%
 
 ---
 
@@ -22,17 +22,17 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ## 在工作流程中匯入設定檔
 
-設定檔匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=zh-Hant)深入瞭解。
+設定檔匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ![](assets/import-wf.png)
 
 在 Campaign Classic v7 文件深入瞭解：
 
-[!DNL :arrow_upper_right:] [開始使用匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:] [開始使用匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [匯入和匯出的最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:] [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=zh-Hant)
+[!DNL :arrow_upper_right:] [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 ## 執行單一匯入
 
@@ -40,7 +40,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant)中瞭解如何執行單一匯入作業，以供資料庫使用。
+[!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target=&quot;_blank&quot;}中了解如何執行統一匯入工作以饋送資料庫。
 
 ## 透過網頁應用程式收集設定檔
 
@@ -48,10 +48,10 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件中瞭解如何建立網路表單](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant)。
+[!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target=&quot;_blank&quot;}中建立網路表單。
 
 **相關主題**
 
 * [建立對象](audiences.md)
-* [重複設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=zh-Hant)
-* [豐富設定檔資料](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko)
+* [刪除重複的設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [擴充設定檔資料](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko){target=&quot;_blank&quot;}
