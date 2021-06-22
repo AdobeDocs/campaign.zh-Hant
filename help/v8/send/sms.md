@@ -5,10 +5,10 @@ description: 開始使用Campaign中的簡訊
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 3%
+source-wordcount: '611'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 使用Adobe Campaign傳送個人化SMS訊息。
 
-[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何開始使 [用SMS通道](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
+[!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target=&quot;_blank&quot;}中了解如何開始使用SMS通道
 
 >[!NOTE]
 >
@@ -30,14 +30,14 @@ ht-degree: 3%
 
 * 參考此外部帳戶的傳遞範本。
 
-[!DNL :arrow_upper_right:]  了解如何在 [Campaign Classicv7檔案中設定SMS通道](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:]  了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target=&quot;_blank&quot;}中設定SMS通道
 
 開始傳送簡訊之前：
 
 * 請確定收件者設定檔中至少包含行動電話。
-* 檢閱也適用於Campaign v8的Adobe Campaign Classic [傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)。
+* 檢閱也適用於Campaign v8的Adobe Campaign Classic [傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages){target=&quot;_blank&quot;}。
 
-此外，您還需熟悉SMS通訊協定和設定。 在[本檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)中，逐步了解Adobe Campaign與SMPP提供者之間所設定的連線。
+此外，您還需熟悉SMS通訊協定和設定。 逐步了解Adobe Campaign與[本檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages){target=&quot;_blank&quot;}中SMPP提供者之間所設定的連線。
 
 ## 建立您的第一個SMS傳送
 
@@ -45,15 +45,15 @@ ht-degree: 3%
 
    ![](assets/delivery_step_1.png)
 
-   [!DNL :arrow_upper_right:] 如需如何建立傳送的全域資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)。
+   [!DNL :arrow_upper_right:] 如需如何建立傳送的全域資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}。
 
 1. 選取參考相關外部帳戶的傳遞範本以傳送SMS傳遞。
 
    ![](assets/sms-template-list.png)
 
-   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中了解如何建立 [SMPP外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+   [!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target=&quot;_blank&quot;}中建立SMPP外部帳戶
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案中了解如何建立傳遞範本以傳遞至行動](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target=&quot;_blank&quot;}中了解如何建立傳送範本以傳送至行動裝置
 
 1. 使用標籤、程式碼和說明來識別您的傳送。
 
@@ -69,15 +69,15 @@ ht-degree: 3%
 
 * 建立簡訊
 
-   [!DNL :arrow_upper_right:] [了解如何建立簡訊傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages)
+   [!DNL :arrow_upper_right:] [了解如何建立SMS傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 * 設計SMS內容
 
-   [!DNL :arrow_upper_right:] [了解如何定義SMS內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)
+   [!DNL :arrow_upper_right:] [了解如何定義SMS內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content){target=&quot;_blank&quot;}
 
 * 選取電子郵件的對象
 
-   [!DNL :arrow_upper_right:] [了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   [!DNL :arrow_upper_right:] [了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 
 [!DNL :bulb:] 定義對象的步驟在本頁面 [詳細說明](../start/audiences.md)。
 
@@ -90,9 +90,9 @@ ht-degree: 3%
 若要傳送校樣，請參閱Campaign Classicv7檔案的以下章節：
 
 * 驗證傳遞並傳送校樣
-   [!DNL :arrow_upper_right:] [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [了解驗證傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}的關鍵步驟
 * 新增種子地址
-   [!DNL :arrow_upper_right:] [了解種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+   [!DNL :arrow_upper_right:] [了解種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
 
 ## 傳送及監控SMS傳送
 
@@ -100,7 +100,8 @@ ht-degree: 3%
 
 * 傳送、監視及追蹤SMS傳遞
 
-   [!DNL :arrow_upper_right:] [了解傳送、監視及追蹤簡訊的工具。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages)
+   [!DNL :arrow_upper_right:] [了解傳送、監視及追蹤SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages){target=&quot;_blank&quot;}的工具
+
 * 疑難排解SMS傳送
 
-   [!DNL :arrow_upper_right:] [了解SMS疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages)
+   [!DNL :arrow_upper_right:] [了解SMS疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target=&quot;_blank&quot;}
