@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '1193'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 * **使用者同意與資料保留**：瞭解如何取得使用者同意、設定雙重選擇加入訂閱機制、促進選擇退出並在 [Campaign Classic 隱私文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent)中設定資料保留
 
-* **隱私權與資料保護法規**：請參閱 [Campaign Classic 隱私權文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant)，以取得歐盟通用資料保護規則 (GDPR)、加州消費者隱私法 (CCPA) 和其他國際隱私權要求的相關資訊，以及這些規定對貴組織和 Adobe Campaign 的影響。
+* **隱私權與資料保護規範**:如需歐盟 [一般資料保護規範(GDPR)、加州消費者隱私法(CCPA)和其他國際隱私權要求，以及這些規範對您的組織和Adobe Campaign有何影響的相關資訊，請參閱Campaign Classic隱私權檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ### 安全性
 
@@ -52,7 +52,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您可以手動將使用者新增至 Cammagin，並將他們與群組建立關聯，並與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
-[!DNL :arrow_upper_right:] 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started)瞭解如何新增使用者至 Adobe Campaign。
+[!DNL :arrow_upper_right:] 在此章節了解如何將使 [用者新增](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started){target=&quot;_blank&quot;}。
 
 ### 安裝 Campaign 用戶端控制台
 
@@ -78,17 +78,17 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    行銷活動、傳遞、工作或工作流程都以儲存關鍵設定和功能的範本為基礎。 系統會為每個元件提供內建範本，其尚未定義特定組態。 您需要設定並調整範本以符合您的需求，並讓終端使用者也能使用範本。
 
-   [!DNL :arrow_upper_right:] [深入瞭解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant)
+   [!DNL :arrow_upper_right:] [深入瞭解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] 在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns)瞭解如何使用行銷活動範本
+   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中了解如何使用行銷活動範本
 
-   [!DNL :arrow_upper_right:] 在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=zh-Hant#workflow-templates)瞭解如何設定工作流程範本
+   [!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=zh-Hant#workflow-templates){target=&quot;_blank&quot;}中設定工作流程範本
 
 1. 設定類型規則
 
    運用 Campaign 類型規則來篩選、控制和監視傳遞。 例如，疲勞規則控制傳送訊息的頻率和數量，以避免收件者過度徵求。 實施後，在傳遞中會參考類型規則。
 
-   [!DNL :arrow_upper_right:] [深入瞭解類型和疲勞管理](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#orchestrating-campaigns)進一步了解類型和疲勞管理
 
 1. 熟悉 Campaign 內建資料模型
 
