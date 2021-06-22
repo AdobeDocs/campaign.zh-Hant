@@ -6,9 +6,9 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '803'
 ht-degree: 7%
 
 ---
@@ -116,7 +116,7 @@ Campaign使用者可透過AdobeIdentity Management系統(IMS)，使用Adobe ID�
 
 應用程式的某些部分可使用HTML用戶介面，通過簡單的Web瀏覽器進行訪問：促銷活動控制面板、多維資料集報表、執行個體監控等。
 
-[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中進一步 [了解Web存取](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中 [深入了解Web存取](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
 
 Web存取提供的介面與控制台類似，但功能集減少。
 
@@ -130,4 +130,4 @@ Web存取提供的介面與控制台類似，但功能集減少。
 
 驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
 
-[!DNL :arrow_upper_right:] 了解如何在Campaign Classicv7檔案中設 [定和管理核准](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中設定和管理核准
