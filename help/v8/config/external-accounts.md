@@ -5,9 +5,9 @@ description: 促銷活動外部帳戶
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: ff2c49a2b4f22cde7ebb798d9f565e133c0268fc
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **退回郵件**&#x200B;外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 所有為POP3訪問配置的伺服器都可用於接收返回郵件。
 
-   [!DNL :arrow_upper_right:] 進一步了解Campaign Classicv7檔 [案的傳入電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}中的傳入電子郵件
 
 * **路由**
 
@@ -145,7 +145,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 這些外部帳戶可用於使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。
 
-[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中進一步了解工作流程 [中的檔案傳輸](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)進一步了解工作流程中的檔案傳輸
 
 * **FTP和SFTP**
 
