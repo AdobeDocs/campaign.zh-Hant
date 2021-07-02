@@ -1,6 +1,6 @@
 ---
 source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ### 小幅變更
 
-如果您是基於善意而投稿進行小幅更新，請瀏覽該文章，然後按一下文章中的&#x200B;**編輯**&#x200B;連結，該連結會前往文章的 GitHub 來源。之後，只要使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+如果您是基於善意而投稿進行小幅更新，請瀏覽該文章，然後按一下文章中的&#x200B;**編輯**&#x200B;連結，該連結會前往文章的 GitHub 來源。之後，只要使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/introduction.html)。
 
 「Adobe 使用條款」會涵蓋您針對本回購提交之文件及程式碼範例的小幅更正或釐清。
 
@@ -44,7 +44,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿者可使用 GitHub UI 進行基礎編輯，或是復刻存放庫以作出重大貢獻。
 
-如需詳細資訊，請參閱 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+如需詳細資訊，請參閱 [Adobe Docs 投稿人指南](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/introduction.html)。
 
 ## 如何使用 Markdown 以設定主題格式
 
