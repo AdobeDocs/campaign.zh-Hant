@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -43,22 +43,22 @@ Adobe Campaign v8 提供下列傳送頻道：
 
    ![](assets/send-email.png)
 
-   [!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=zh-Hant){target=&quot;_blank&quot;}中傳送訊息
+   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何傳送訊息
 
-* 傳送與[行銷活動](campaigns.md)關聯的訊息
+* 傳送與[行銷活動](campaigns.md)相關的訊息
 
    ![](assets/deliveries-in-a-campaign.png)
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant){target=&quot;_blank&quot;}中了解如何在行銷活動的內容中傳送訊息
+   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何在行銷活動的內容中傳送訊息
 
 * 透過[工作流程](../config/workflows.md)傳送訊息
 
    ![](assets/send-in-a-wf.png)
 
-   [!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}中自動傳送電子郵件
+   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何自動傳送電子郵件
 
 * 從事件[觸發訊息](../send/transactional.md) 
-   [!DNL :arrow_upper_right:] [使用案例：瞭解如何傳送包含附件的異動電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target=&quot;_blank&quot;}
+   [!DNL :arrow_upper_right:] [使用案例：瞭解如何傳送包含附件的異動電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 * 排程您的訊息
 
@@ -94,13 +94,13 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target=&quot;_blank&quot;}中了解如何監視傳送
+[!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target=&quot;_blank&quot;} 中了解如何監視傳遞
 
 
-**相** 關主題Campaign Classicv7檔案：
+**相關主題** Campaign Classic v7 文件：
 
-[!DNL :arrow_upper_right:]  [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:]  [傳遞最佳實務 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  [測試並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:]  [測試並傳送電子郵件 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  [傳送校樣](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:]  [傳送校樣 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}
