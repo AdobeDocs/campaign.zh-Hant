@@ -7,13 +7,13 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# [!DNL Campaign Classic] v7 - [!DNL Campaign]v8 功能{#gs-matrix}
+# [!DNL Campaign Classic] v7 - [!DNL Campaign] v8 功能{#gs-matrix}
 
 [!DNL Campaign Classic]身為 v7 的現有使用者，您和 [!DNL Adobe Campaign] 的互動方式差異應該不會太大。除了 UI 和設定步驟中出現的小變更以外，v8 中的大多數變更都看不太到。
 
@@ -74,7 +74,7 @@ Campaign 使用者不需要成為資料庫專家：不再需要複雜的資料�
 
 ## 報告
 
-請注意，Adobe Campaign報表已最佳化，且比Campaign Classicv7提供更佳的擴充功能。 對多維資料集的現有限制不適用。
+請注意，Adobe Campaign 報告已最佳化，且提供比 Campaign Classic v7 更好的擴充功能。 對立方體的現有限制不適用。
 
 ## 未提供的功能{#gs-unavailable-features}
 
