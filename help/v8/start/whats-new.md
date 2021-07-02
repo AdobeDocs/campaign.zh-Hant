@@ -1,21 +1,21 @@
 ---
 product: Adobe Campaign
 title: Campaign v8 的新增功能
-description: 探索Campaign v8中的關鍵功能
+description: 探索 Campaign v8 中的重要功能
 feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign v8 有哪些新功能？{#ac-gs-what-is-new}
+# Adobe Campaign v8 有哪些新功能？ {#ac-gs-what-is-new}
 
-Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視。 善用雲端資料庫技術[[!DNL Snowflake]](https://www.snowflake.com/)，Adobe Campaign 大幅提高了其規模和速度，能夠管理更多的客戶設定檔，並提供更高的每小時傳送率和異動。
+Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視功能。 善用雲端資料庫技術[[!DNL Snowflake]](https://www.snowflake.com/)，Adobe Campaign 大幅提高了其規模和速度，能夠管理更多的客戶設定檔，並提供更高的每小時傳送率和異動。
 
 主要功能包括：
 
@@ -45,7 +45,7 @@ Campaign v8 在流程的任何步驟中都提供端對端規模調整，從目�
 
 ## 簡化並提高效能
 
-Campaign v8帶來了&#x200B;**完整同盟資料存取**(FFDA)的概念：雲資料庫上的所有資料現在都是遠程資料。
+Campaign v8 引入了&#x200B;**完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫上遠端處理。
 
 使用此新架構，Campaign v8 可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。
 
@@ -55,7 +55,7 @@ Campaign v8帶來了&#x200B;**完整同盟資料存取**(FFDA)的概念：雲資
 
 ## 整合的生態系統
 
-您可以將Campaign與一組強大的Adobe解決方案整合，例如：Adobe Analytics、AdobeJourney Orchestration、即時CDP等。
+您可以將 Campaign 與一組功能強大的 Adobe 解決方案整合，例如：Adobe Analytics、Adobe Journey Orchestration、即時 CDP 等。
 
 您也可以使用 Journey AI 設定預測性傳送時間最佳化和預測性參與度評分，並提高開放率、點擊次數和收入。
 
