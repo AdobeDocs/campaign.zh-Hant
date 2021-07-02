@@ -3,17 +3,17 @@ product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 促銷活動v8
+breadcrumb-title: Campaign v8
 title: Campaign v8 文件
 source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Campaign v8 文件{#campaign-v8}
+# Adobe Campaign v8 文件 {#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
 + 有哪些新增功能？{#start}
