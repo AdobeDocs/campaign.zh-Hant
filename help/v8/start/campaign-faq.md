@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -39,19 +39,19 @@ ht-degree: 82%
 
    對於每個位寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 在這個數位世界中進行有效導覽，需要定期調整您的電子郵件策略，考量傳遞能力的重要趨勢，以便最能觸及您的對象。
 
-   [!DNL :arrow_upper_right:] 請參閱本指南，了 [解傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
+   [!DNL :arrow_upper_right:]請參閱本指南，瞭解[傳遞能力最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] 閱讀本指南 [{target=&quot;_blank&quot;},](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant)了解如何在Campaign中實作傳遞能力
+   [!DNL :arrow_upper_right:]在[本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何在 Campaign 實施傳遞能力
 
 1. **如何確定我的內容是否成功傳送無誤？**
 
    Adobe Campaign 提供一組可監視電子郵件傳遞的儀表板和工具。
 
-   [閱讀Campaign Classicv7檔案，了解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;}如何確認訊息是否傳送、監控執行，以及在發生錯誤時如何採取行動。
+   [閱讀 Campaign Classic v7 的相關文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;} 以瞭解如何確認訊息是否傳送、如何監視執行，以及在發生錯誤時如何採取行動。
 
 1. **是否可以監視工作流程的執行？**
 
-   [!DNL :arrow_upper_right:] 在Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant)了解如何監控Campaign工作流程執行
+   [!DNL :arrow_upper_right:]在 [ Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何監視 Campaign 工作流程的執行
 
 1. **哪些系統和元件與 Campaign v8 相容？**
 
@@ -71,9 +71,9 @@ ht-degree: 82%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   [按一下這裡](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;}以訪問Experience Cloud軟體分發。
+   [按一下此處](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;} 以存取 Experience Cloud 軟體發佈。
 
-   在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;}中深入了解發佈中心[。
+   在[本頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解發佈中心。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
@@ -84,6 +84,6 @@ ht-degree: 82%
 
    建立案例可讓您聯絡 Adobe 客戶支援團隊，瞭解您在 Adobe 產品上遇到的任何問題。為協助解決或疑難排解您的問題，您可使用 Adobe Admin Console 與 Adobe 客戶支援部門進行交談。
 
-   若要記錄問題或在該新系統中啟動聊天會話，請連接到[Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}。
+   如要在該新系統中記錄問題或啟動聊天工作階段，請連結至 [Adobe 管理員主控台](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}。
 
    此系統要求每個使用者都需要有新的個別帳戶，並擁有正確權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 申請存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
