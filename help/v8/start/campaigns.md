@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何使用行銷活動範本{target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] 探索循環促銷活動以及如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}中進行設定
+   [!DNL :arrow_upper_right:]在 [Campaign Classic v7 文件 ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#recurring-and-periodic-campaigns){target=&quot;_blank&quot;} 中瞭解週期性行銷活動以及如何進行設定
 
 1. **定義對象**
 
