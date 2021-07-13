@@ -3,10 +3,10 @@ product: Adobe Campaign
 title: 一般架構
 description: 進一步了解Campaign架構和元件
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 2%
 
    Adobe Campaign雲端資料庫以關係資料庫技術為基礎，儲存所有客戶資訊、促銷活動元件、選件和工作流程，以及促銷活動結果於客戶資料庫容器中。
 
-## 個性化客戶端環境{#client-env}
+## 個人化用戶端環境 {#client-env}
 
 應用程式可以以不同方式存取：富客戶端、瘦客戶端或API整合。
 
 * **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
-   [!DNL :bulb:] [進一步了解Campaign用戶端主控台](../start/connect.md)。
+   ??[進一步了解Campaign用戶端主控台](../start/connect.md)。
 
 * **Web訪問**:應用程式的部分可透過簡單的網頁瀏覽器使用HTML使用者介面來存取，包括報表模組、傳送核准階段、執行個體監控等。
 
-   [!DNL :bulb:] [深入了解Campaign Web Access](../start/connect.md)。
+   ??[進一步了解Campaign Web Access](../start/connect.md)。
 
 * **促銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
 
-   [!DNL :bulb:] [深入了解Campaign API](../dev/api.md)。
+   ??[進一步了解Campaign API](../dev/api.md)。
 
-## 開發環境{#dev-env}
+## 開發環境 {#dev-env}
 
 Adobe Campaign是具有不同應用程式的單一平台，可建立開放且可擴充的架構。 Adobe Campaign平台是在彈性的應用程式層上撰寫，可輕鬆設定以符合您的業務需求。 分佈式體系結構確保線性系統可擴充性，從數千條報文擴展到數百萬條報文。
 
@@ -114,7 +114,7 @@ Adobe Campaign具有原生電子郵件廣播功能。 此程式可作為SMTP郵�
 
 此過程會維護有關連接數、向每個郵件伺服器發送的郵件以及其限制（最大同時連接數、每小時/或連接的郵件數）的統計資訊。 如果多個執行個體或電腦共用相同的公用IP位址，也可讓您聯合。
 
-## 資料庫容器{#db-containers}
+## 資料庫容器 {#db-containers}
 
 Adobe Campaign雲端資料庫仰賴[!DNL Snowflake]，其中包含功能資料（設定檔、訂閱、內容等）、技術資料（傳送工作和記錄、追蹤記錄等） 以及解決方案的工作資料（購買、銷售機會），所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
 
@@ -125,6 +125,6 @@ Adobe Campaign雲端資料庫仰賴[!DNL Snowflake]，其中包含功能資料�
 
 >[!CAUTION]
 >
->若使用&#x200B;**促銷活動托管Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 您不得修改已安裝的內建套件、內建結構或報表。
+>若使用&#x200B;**Campaign 托管 Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
->如果您需要使用促銷活動附加元件或尚未布建的特定功能，您必須聯絡&#x200B;**Adobe客戶服務**。
+>如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
