@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 * [執行個體詳細資料](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]探索[本文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中的所有控制面板功能
+↗️探索[本檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;}中的所有「控制面板」功能
