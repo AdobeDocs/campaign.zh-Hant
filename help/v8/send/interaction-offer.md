@@ -5,14 +5,14 @@ description: 了解如何建立優惠方案
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 建立優惠方案
+# 建立優惠優惠方案
 
 若要建立優惠方案，請遵循下列步驟：
 
@@ -30,11 +30,11 @@ ht-degree: 3%
 
 您現在可以使用&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤來定義：
 
-* 優惠方案的資格期。 [瞭解更多](#eligibility-period)
-* 選件目標母體的篩選。 [瞭解更多](#filters-on-the-target)
-* 選件權重。 [瞭解更多](#offer-weight)
+* 優惠方案的資格期。 [深入瞭解](#eligibility-period)
+* 選件目標母體的篩選。 [深入瞭解](#filters-on-the-target)
+* 選件權重。 [深入瞭解](#offer-weight)
 
-### 優惠方案資格期{#eligibility-period}
+### 優惠方案資格期間{#eligibility-period}
 
 在優惠方案的&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤中，定義優惠方案的資格期間。 使用下拉式清單來選取日曆中的開始和結束日期。
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 在此期間之外，將不會選取優惠方案。 如果您也已設定優惠方案類別的資格日期，則會套用限制最嚴格的期間。
 
-### 在目標{#filters-on-the-target}上新增篩選器
+### 在目標上新增篩選器 {#filters-on-the-target}
 
 在選件的&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤中，將篩選器套用至選件目標。
 
@@ -50,11 +50,11 @@ ht-degree: 3%
 
 ![](assets/offer_eligibility_create_003.png)
 
-如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [瞭解更多](interaction-predefined-filters.md)
+如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [深入瞭解](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
-### 設定選件權重{#offer-weight}
+### 設定優惠方案權重 {#offer-weight}
 
 若要讓引擎在目標符合資格的多個選件之間做出決定，您需要為選件指派一或多個加權。 您也可以視需要將篩選器套用至目標，或限制權數要套用的選件空間。 較重量較輕的優惠方案，更偏好權重較重的優惠方案。
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以根據選件所屬類別的參數來暫時修改指派的加權。 [瞭解更多](interaction-offer-catalog.md#creating-offer-categories)
+>您可以根據選件所屬類別的參數來暫時修改指派的加權。 [深入瞭解](interaction-offer-catalog.md#creating-offer-categories)
 
 若要在選件中建立權重，請套用下列步驟：
 
@@ -100,7 +100,7 @@ ht-degree: 3%
    >
    >如果目標符合所選選件的多個加權，引擎會保留最佳（最高）加權。 呼叫優惠方案引擎時，每個連絡最多會選取一次優惠方案。
 
-### 優惠方案適用性規則摘要{#a-summary-of-offer-eligibility-rules}
+### 優惠方案適用性規則摘要 {#a-summary-of-offer-eligibility-rules}
 
 完成設定後，優惠方案控制面板就會提供資格規則的摘要。
 
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 ![](assets/offer_eligibility_create_005.png)
 
-## 建立選件內容{#creating-the-offer-content}
+## 建立優惠方案內容 {#creating-the-offer-content}
 
 使用&#x200B;**[!UICONTROL Content]**&#x200B;標籤來定義選件內容。
 
@@ -140,13 +140,13 @@ ht-degree: 3%
 
    ![](assets/offer_content_create_002.png)
 
-   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [瞭解更多](interaction-offer-spaces.md)
+   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [深入瞭解](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
    在此範例中，選件必須包含標題、影像、HTML內容和目的地URL。
 
-## 預覽選件{#previewing-the-offer}
+## 預覽選件 {#previewing-the-offer}
 
 設定優惠方案內容後，您就可以預覽優惠方案在收件者看見時的顯示效果。
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 您現在可以核准並啟動優惠方案，以便在&#x200B;**Live**&#x200B;環境中使用。
 
-[!DNL :arrow_upper_right:] 如需詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+↗️ 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## 管理優惠方案簡報{#offer-presentation}
 
 Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是「促銷活動互動」專屬的規則是&#x200B;**類型規則**。 它們可讓您根據已向收件者提出的主張的歷史，排除優惠方案。 環境會參考這些參數。
 
-[!DNL :arrow_upper_right:] 如需詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+↗️ 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## 優惠方案模擬
 
@@ -196,4 +196,4 @@ Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是�
 
 模擬會考慮先前套用至優惠方案的內容和適用性規則及其呈現規則。 這可讓您測試和調整優惠方案主張的各種版本，而不實際使用優惠方案或過度/不斷索取目標，因為模擬對目標收件者沒有影響。
 
-[!DNL :arrow_upper_right:] 如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+↗️如需優惠方案模擬的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
