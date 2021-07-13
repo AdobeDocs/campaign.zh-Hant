@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campaign資料庫對應
 description: Campaign資料庫對應
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -77,7 +77,7 @@ SQL欄位約束如下：
 * 數值和日期欄位中沒有空值，
 * 數值欄位已初始化為0。
 
-## XML欄位{#xml-fields}
+## XML欄位 {#xml-fields}
 
 預設情況下，任何類型的&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;元素都映射到資料架構表的SQL欄位。 但是，您可以在XML中引用此欄位，而不是SQL，這意味著資料儲存在包含所有XML欄位值的表的備忘錄欄位(&quot;mData&quot;)中。 這些資料的儲存是一個XML文檔，用於觀察架構結構。
 
@@ -101,7 +101,7 @@ SQL欄位約束如下：
 
 使用XML欄位可讓您添加欄位，而無需修改資料庫的物理結構。 另一個優點是，您使用的資源更少（分配給SQL欄位的大小、每個表的欄位數限制等）。
 
-## 金鑰管理{#management-of-keys}
+## 金鑰管理 {#management-of-keys}
 
 表必須至少具有一個用於標識表中記錄的鍵。
 
@@ -233,7 +233,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 >
 >在建立表時自動插入主鍵設定為0的記錄。 此記錄用於避免對卷表無效的外連接。 預設情況下，所有外鍵都使用值0初始化，以便在資料項未填充時始終在連接時返回結果。
 
-## 連結：表{#links--relation-between-tables}的關係
+## 連結：表之間的關係 {#links--relation-between-tables}
 
 連結描述了一個表和另一個表之間的關聯。
 
@@ -256,7 +256,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 * ![](assets/do-not-localize/join_fda_11.png) :基數1-1
 * ![](assets/do-not-localize/join_fda_1m.png) :基數1-N
 
-[!DNL :bulb:] 如需FDA表格的詳細資訊，請參閱 [同盟資料存取](../connect/fda.md)。
+??如需FDA表格的詳細資訊，請參閱[同盟資料存取](../connect/fda.md)。
 
 必須在包含透過主要元素連結之表格的外鍵的架構中宣告連結：
 
@@ -387,7 +387,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 
 預設值返回在「DefaultFolder(&#39;nmsFolder&#39;)」函式中輸入的第一個合格參數類型檔案的標識符。
 
-### 範例4 {#example-5}
+### 範例5 {#example-5}
 
 在此範例中，我們想在連結（「company」至「cus:company」架構）上建立索引鍵，其中包含&#x200B;**xlink**&#x200B;屬性，以及(「email」)表格的欄位：
 
