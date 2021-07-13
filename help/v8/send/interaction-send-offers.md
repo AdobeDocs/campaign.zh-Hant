@@ -5,20 +5,20 @@ description: 了解如何建立優惠方案目錄
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 傳送優惠方案
 
-為了讓優惠方案引擎選取優惠方案，優惠方案已獲得核准，並可在&#x200B;**Live**&#x200B;環境中使用。 [瞭解更多](interaction-offer.md#approve-offers)
+為了讓優惠方案引擎選取優惠方案，優惠方案已獲得核准，並可在&#x200B;**Live**&#x200B;環境中使用。 [深入瞭解](interaction-offer.md#approve-offers)
 
 透過傳出通訊通道，透過直接郵件、電子郵件或行動傳送來進行優惠方案簡報。 您也可以搭配交易式訊息（訊息中心）使用統一模式。
 
-## 在傳送{#offer-into-a-delivery}中插入選件
+## 在傳送中插入選件 {#offer-into-a-delivery}
 
 若要將優惠方案主張插入傳送中，請遵循下列步驟：
 
@@ -40,11 +40,11 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_005.png)
 
-1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)
+1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [深入瞭解](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [瞭解更多](#parameters-for-calling-offer-engine)
+1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [深入瞭解](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -57,7 +57,7 @@ ht-degree: 2%
    ![](assets/offer_delivery_010.png)
 
 
-### 選件引擎{#parameters-for-calling-offer-engine}的參數
+### 優惠方案引擎的參數 {#parameters-for-calling-offer-engine}
 
 * **[!UICONTROL Space]** :選件環境的空間，必須選取該空間才能啟用選件引擎。
 * **[!UICONTROL Category]** :選件排序的特定資料夾。如果未指定類別，除非選取主題，否則選件引擎會考量環境中包含的所有選件。
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 **擴充**&#x200B;活動可讓您將選件或連結新增至傳遞收件者的選件。
 
-[!DNL :arrow_upper_right:] 如需擴充活動的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+↗️如需擴充活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 例如，您可以在傳送前讓收件者查詢的資料更豐富。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 * 指定優惠方案或優惠方案引擎呼叫。
 * 參考選件的連結。
 
-#### 指定優惠方案或對優惠方案引擎的呼叫{#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### 指定優惠方案或對優惠方案引擎的呼叫 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 設定&#x200B;**Query**&#x200B;活動後：
 
@@ -110,13 +110,13 @@ ht-degree: 2%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#offer-into-a-delivery)
 
    >[!NOTE]
    >
    >可用於預覽的建議數取決於擴充活動中執行的配置，而不是直接在傳送中執行的任何可能配置。
 
-#### 參考選件{#referencing-a-link-to-an-offer}的連結
+#### 參考優惠方案的連結 {#referencing-a-link-to-an-offer}
 
 您也可以參考&#x200B;**Excrent**&#x200B;活動中選件的連結。
 
@@ -132,13 +132,13 @@ ht-degree: 2%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#offer-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#offer-into-a-delivery)
 
    >[!NOTE]
    >
    >預覽的可用建議數取決於傳送中執行的配置。
 
-#### 儲存選件排名和權重{#storing-offer-rankings-and-weights}
+#### 商店優惠方案排名和權重 {#storing-offer-rankings-and-weights}
 
 依預設，當使用&#x200B;**擴充**&#x200B;活動來傳送選件時，其排名和權重不會儲存在主張表格中。
 
@@ -148,7 +148,7 @@ ht-degree: 2%
 
 不過，您可以依下列方式儲存此資訊：
 
-1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [瞭解更多](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [深入瞭解](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. 在活動的主窗口中，選擇&#x200B;**[!UICONTROL Edit additional data...]**。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offer engine]**&#x200B;活動也可讓您指定傳送前對選件引擎的呼叫。
 
-[!DNL :arrow_upper_right:] 如需優惠方案工 **程活** 動的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+↗️如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 此活動的運作方式與引擎呼叫的&#x200B;**擴充**&#x200B;活動相同，方法是在傳送前使用引擎計算的選件擴充入站母體資料。
 
@@ -182,13 +182,13 @@ ht-degree: 2%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [瞭解更多](#inserting-an-offer-proposition-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#inserting-an-offer-proposition-into-a-delivery)
 
 ### 依儲存格列出的優惠 {#offers-by-cell}
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分佈至數個區段，並指定要針對每個區段顯示的選件。
 
-[!DNL :arrow_upper_right:] 如需「依儲存 **格列** 出優惠方案」的詳細資 [訊，請參閱Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+↗️有關&#x200B;**依儲存格**&#x200B;活動提供的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 若要這麼做，請使用下列程式：
 
