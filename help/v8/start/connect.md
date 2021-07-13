@@ -6,10 +6,10 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 7%
+source-wordcount: '731'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 * 在[相容性矩陣](compatibility-matrix.md)中檢查您的系統和工具與Adobe Campaign的相容性
 * 取得您的Campaign伺服器URL
-* 取得您的使用者認證
+* 建立Adobe ID或從公司取得使用者認證
 
 ## 下載並安裝客戶端控制台
 
@@ -69,18 +69,15 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 1. 按一下認證欄位右上角的連結，以存取連線設定視窗。
 
+   ![](assets/connectToCampaign.png)
+
 1. 選取您需要登入的Campaign執行個體。
 
-1. 按一下 **[!UICONTROL Ok]**。
+1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-1. 輸入用戶登錄憑據，然後按一下&#x200B;**[!UICONTROL LOG IN]**。
+1. 然後，您可以登入Campaign。
 
-   ![](assets/sign-in-v8.png)
-
-根據您的配置，您的憑證可以是：
-
-* 由您授予您存取權的Campaign管理員提供
-* 您的Adobe ID
+   ![](assets/adobeID.png)
 
 ## 授予使用者存取權
 
@@ -94,29 +91,17 @@ Adobe Campaign可讓您定義及管理指派給各種運算子的權限。 這�
 
 身為Campaign管理員，您負責建立運算子，並與使用者共用其認證。
 
-## 使用Adobe ID連線至Campaign{#connect-ims}
+## 使用您的Adobe ID連線至Campaign{#connect-ims}
 
-Campaign使用者可透過AdobeIdentity Management系統(IMS)，使用Adobe ID連線至Adobe Campaign主控台。 此實作具備下列優點：
+Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)連線至Adobe Campaign主控台。 所有Adobe解決方案都可使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。
 
-* 所有 Experience Cloud 解決方案都可以使用相同的 ID。
-* 使用不同整合中的 Adobe Campaign 時，可以記憶連線。
-* 更強的密碼管理策略。
-* 使用 Federated ID 帳戶（外部 ID 提供者）。
+深入了解[本頁面](https://helpx.adobe.com/enterprise/using/identity.html)中的AdobeIMS。
 
-[!DNL :speech_balloon:] 以受管理Cloud Services的使用者身 [分](campaign-faq.md#support) 連絡Adobe，以透過Campaign實作AdobeIMS。
-
-## 使用您的LDAP登入連線至Campaign
-
-可設定Adobe Campaign，讓使用者透過其LDAP驗證存取平台。
-
-[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](campaign-faq.md#support) 請連絡Adobe以設定與Campaign的LDAP整合。
-
-
-## Web訪問{#web-access}
+## 網路存取{#web-access}
 
 應用程式的某些部分可使用HTML用戶介面，通過簡單的Web瀏覽器進行訪問：促銷活動控制面板、多維資料集報表、執行個體監控等。
 
-[!DNL :arrow_upper_right:] 在Campaign Classicv7檔案中 [深入了解Web存取](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
+↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}中進一步了解Web存取
 
 Web存取提供的介面與控制台類似，但功能集減少。
 
@@ -130,4 +115,4 @@ Web存取提供的介面與控制台類似，但功能集減少。
 
 驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
 
-[!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中設定和管理核准
+↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中設定和管理核准
