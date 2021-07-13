@@ -6,10 +6,10 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -27,14 +27,14 @@ Adobe Campaign隨附內建運算元群組，例如促銷活動管理員或工作
 例如，為**準備傳送**&#x200B;名為右的&#x200B;**傳送運算子**&#x200B;群組成員啟用傳送編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 資料夾存取權
-操作員組的成員資格可以通過更改資料夾的安全設定來授予或限制對資料夾的訪問權限。 [進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}。例如，它可能會影響：**寫入訪問**&#x200B;以建立新實體（如傳遞、配置檔案等）,**讀取訪問**&#x200B;以使用實體，**刪除訪問**&#x200B;以刪除實體。
+操作員組的成員資格可以通過更改資料夾的安全設定來授予或限制對資料夾的訪問權限。 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;} 深入瞭解。例如，它可能會影響：**寫入訪問**&#x200B;以建立新實體（如傳遞、配置檔案等）,**讀取訪問**&#x200B;以使用實體，**刪除訪問**&#x200B;以刪除實體。
 
 **在 Campaign Classic v7 文件深入瞭解：**
 
-[!DNL :arrow_upper_right:] [內建的命名權限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
+↗️ [內建命名權限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [內建運算子群組](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
+↗️ [內建運算子組](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [設定權限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target=&quot;_blank&quot;}的步驟
+↗️ [設定權限的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [資料夾](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}上的安全設定
+↗️ [資料夾上的安全設定](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}
