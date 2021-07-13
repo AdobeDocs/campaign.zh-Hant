@@ -6,10 +6,10 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
 ![](assets/calendar.png)
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何存取及實施行銷活動{target=&quot;_blank&quot;}
+↗️探索如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中存取和實作行銷活動
 
 
 ## 開始的關鍵步驟
@@ -58,13 +58,13 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    定義層次結構和計畫、設定預算、加入資源、選擇運算子。
 
-   [!DNL :arrow_upper_right:] 在[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#creating-plan-and-program-hierarchy)中瞭解如何建立行銷計劃及設定行銷活動{target=&quot;_blank&quot;}
+   ↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#creating-plan-and-program-hierarchy){target=&quot;_blank&quot;}中建立行銷計畫和設定行銷活動
 
    所有行銷活動都以儲存主要設定和功能的範本為基礎。 提供內建範本，以建立尚未定義特定設定的行銷活動。 您可以建立和設定行銷活動範本，然後從這些範本建立行銷活動。
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何使用行銷活動範本{target=&quot;_blank&quot;}
+   ↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中了解如何使用行銷活動範本
 
-   [!DNL :arrow_upper_right:]在 [Campaign Classic v7 文件 ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#recurring-and-periodic-campaigns){target=&quot;_blank&quot;} 中瞭解週期性行銷活動以及如何進行設定
+   ↗️探索循環促銷活動以及如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}中設定
 
 1. **定義對象**
 
@@ -72,7 +72,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-wf.png)
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何定義訊息的對象{target=&quot;_blank&quot;}
+   ↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中了解如何定義訊息的對象
 
 1. **建立傳遞**
 
@@ -80,15 +80,15 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-dashboard.png)
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant#creating-deliveries)中瞭解如何建立及開始行銷活動的傳送{target=&quot;_blank&quot;}
+   ↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant#creating-deliveries){target=&quot;_blank&quot;}中建立和開始行銷活動傳送
 
    您可以為行銷活動跟各種檔案建立關聯：報告、照片、網頁、圖表等。
 
-   [!DNL :arrow_upper_right:]在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=zh-Hant#adding-documents)中深入瞭解相關文件{target=&quot;_blank&quot;}
+   ↗️進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=zh-Hant#adding-documents){target=&quot;_blank&quot;}中的相關檔案
 
 1. **設定核准流程**
 
    Adobe Campaign 可讓您針對行銷活動的主要階段設定協作核准流程。 您可以針對每個行銷活動，核准傳遞目標、內容和成本。可以透過電子郵件形式通知負責核准的 Adobe Campaign 操作者，然後他們可透過主控台或網路連線核准或拒絕核准。
 
-   [!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何設定及管理核准{target=&quot;_blank&quot;}
+   ↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns){target=&quot;_blank&quot;}中設定和管理核准
 
