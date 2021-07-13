@@ -5,18 +5,18 @@ description: 開始使用異動訊息
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
 
 ---
 
-# 開始使用交易式訊息{#send-transactional-messages}
+# 開始使用異動訊息{#send-transactional-messages}
 
 交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 這些訊息是從資訊系統觸發的事件產生，可以是：例如，發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單或網站帳戶建立。
 
-[!DNL :speech_balloon:] 以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
+??以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定「促銷活動交易訊息」。
 
 交易式訊息用於傳送：
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 * 客戶動作的個別即時回應
 * 非促銷內容
 
-[!DNL :bulb:] 交易式訊息設定在本區段 [中有詳細說明](../config/transactional-msg-settings.md)。
+??交易式訊息設定在[此區段](../config/transactional-msg-settings.md)中詳細說明。
 
-[!DNL :bulb:] 在本頁面中了解交易式 [訊息架構](../dev/architecture.md)。
+??了解[本頁](../dev/architecture.md)中的交易式訊息架構。
 
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ ht-degree: 2%
 
 傳送校樣的程式與任何傳送的程式相同。
 
-[!DNL :arrow_upper_right:] 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}中的校樣
+↗️進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}中的校樣
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 
@@ -190,7 +190,7 @@ ht-degree: 2%
 
 1. 在控制實例上，轉到樹的&#x200B;**[!UICONTROL Message Center > Transactional message templates]**&#x200B;資料夾。
 1. 選取要在執行執行個體上發佈的範本。
-1. 按一下 **[!UICONTROL Publish]**。
+1. 按一下&#x200B;**[!UICONTROL Publish]**。
 
    ![](assets/messagecenter_publish_template.png)
 
@@ -221,8 +221,8 @@ ht-degree: 2%
 
 1. 在控制實例上，瀏覽到&#x200B;**[!UICONTROL Message Center > Transactional message templates]**&#x200B;資料夾。
 1. 選取要取消發佈的範本。
-1. 按一下 **[!UICONTROL Unpublish]**。
-1. 按一下 **[!UICONTROL Start]**。
+1. 按一下&#x200B;**[!UICONTROL Unpublish]**。
+1. 按一下&#x200B;**[!UICONTROL Start]**。
 
 ![](assets/message-center-unpublish.png)
 
