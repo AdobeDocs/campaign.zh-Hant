@@ -5,7 +5,7 @@ description: 了解如何在Campaign v8中管理訂閱和取消訂閱
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 使用Adobe Campaign建立並監視電子報等資訊服務，並管理這些服務的訂閱/取消訂閱。 可同時定義多個服務，例如：特定產品類別、網站主題或區域的專家通訊、各種警報訊息的訂閱及即時通知。 請參閱管理訂閱。
 
-[!DNL :arrow_upper_right:] 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}中建立資訊服務、傳送電子報及管理選擇加入和選擇退出
+↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}中建立資訊服務、傳送電子報及管理選擇加入和選擇退出
 
 若要訂閱（選擇加入）服務的設定檔，可用的選項有：
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    ![](assets/subscribe-to-a-service.png)
 
-   [!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;}
+   ↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;}
 
 * 自動為服務訂閱一組收件者。 收件者清單可來自篩選操作、群組、資料夾、匯入或直接手動選取。 若要訂閱這些收件者，請選取設定檔並按一下滑鼠右鍵。 選取 **[!UICONTROL Actions > Subscribe selection to a service...]**。
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
    ![](assets/subscribe-confirm.png)
 
-   [!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;}
+   ↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;}
 
 
 * 將收件者自動匯入並訂閱至資訊服務。 要執行此操作，請選取匯入精靈最後一個步驟中相關的服務。
 
-   [!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients){target=&quot;_blank&quot;}
+   ↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients){target=&quot;_blank&quot;}
 
 * 使用Web表單，讓收件者可以訂閱服務。
 
@@ -49,14 +49,14 @@ ht-degree: 0%
 
    ![](assets/web-app.png)
 
-   [!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;}
+   ↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;}
 
 
 * 建立目標工作流程並使用&#x200B;**[!UICONTROL Subscription service]**&#x200B;活動。
 
    ![](assets/wf-subscription.png)
 
-   [!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter){target=&quot;_blank&quot;}
+   ↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter){target=&quot;_blank&quot;}
 
 若要取消訂閱（選擇退出）服務的設定檔，可用的選項有：
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 * 指定資訊服務的持續時間限制：有效期屆滿時，收件者會自動取消訂閱。 此期間在服務屬性的「編輯」頁簽中指定。 以天表示。
 * 設定母體的取消訂閱工作流程。
 
-[!DNL :arrow_upper_right:] 進一步了 [解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service){target=&quot;_blank&quot;}
+↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service){target=&quot;_blank&quot;}
 
 
 >[!CAUTION]
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 您也可以讓傳遞收件者將訊息轉送給朋友。 若要這麼做，請將相關連結插入您的傳送中。 然後，您就可以追蹤此共用程式以及相關頁面的造訪次數。
 
-[!DNL :arrow_upper_right:] 如需此功能的詳細資訊， [請參閱Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}
+↗️有關此功能的詳細資訊，請參閱[Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}
