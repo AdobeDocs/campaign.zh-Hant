@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!NOTE]
 >整合僅支援靜態影像。 其他類型的內容無法個人化。
 
-[!DNL :speech_balloon:] 以受管理Cloud Services使用者的身 [分，](../start/campaign-faq.md#support) 聯絡Adobe以透過Campaign實作Experience Cloud觸發器。
+??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以使用Campaign實作Experience Cloud觸發器。
 
 下列資料類型可供Adobe Target使用：
 
@@ -52,7 +52,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 1. [建立體驗鎖定目標活動](#creating-targeting-activity)
 1. [預覽並傳送訊息](#preview-send-email)
 
-### 在電子郵件{#inserting-dynamic-offer}中插入動態選件
+### 在電子郵件中插入動態優惠方案 {#inserting-dynamic-offer}
 
 在Adobe Campaign中，定義目標和電子郵件內容。 您可以從Adobe Target插入動態影像。
 
@@ -79,7 +79,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 ![](assets/target_13.png)
 
-### 建立重新導向選件{#create-redirect-offers}
+### 建立重新導向選件 {#create-redirect-offers}
 
 在Adobe Target中，您可以建立不同版本的優惠方案。 您可以根據每個使用者體驗來建立重新導向選件，並指定要顯示的影像。
 
@@ -113,7 +113,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 1. 請對其餘對象執行相同的程式。
 
-### 建立體驗鎖定目標活動{#creating-targeting-activity}
+### 建立體驗鎖定目標活動 {#creating-targeting-activity}
 
 在Adobe Target中，我們需要建立體驗鎖定目標活動、定義不同的體驗，並將它們與對應的選件建立關聯。
 
@@ -161,7 +161,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 ![](assets/target_experience_2.png)
 
-## 預覽並傳送訊息{#preview-send-email}
+## 預覽並傳送訊息 {#preview-send-email}
 
 在Adobe Campaign中，您現在可以預覽電子郵件，並在不同的收件者上測試其呈現。
 
