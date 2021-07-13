@@ -6,9 +6,9 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
+source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '684'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
    例如，您可以使用[`https://<machine>.<domain>.com`](https://myserver.adobe.com)類型URL。
 
-1. 如果貴組織已設定AdobeIdentity Management系統(IMS)，請核取選項&#x200B;**[!UICONTROL Connect with an Adobe ID]** 。
+1. 核取選項&#x200B;**[!UICONTROL Connect with an Adobe ID]**。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以儲存設定。
 
