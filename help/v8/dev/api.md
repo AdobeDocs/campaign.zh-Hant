@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 7%
 
 您可以使用JavaScript API在Campaign雲端資料庫中寫入或從資料庫讀取：
 
-* 可讓您對每個物件採取動作的業務專屬API:傳遞、工作流程、訂閱等。 進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)。
-* 查詢資料模型資料的一般資料存取API。 進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)。
+* 可讓您對每個物件採取動作的業務專屬API:傳遞、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)深入瞭解。
+* 查詢資料模型資料的一般資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)深入瞭解。
 
 Campaign v8可與兩個資料庫搭配使用：用於使用者介面即時訊息傳送和統一查詢及透過API寫入的本機資料庫，以及用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行的雲端資料庫。
 
@@ -45,17 +45,17 @@ Campaign v8可與兩個資料庫搭配使用：用於使用者介面即時訊息
 >[!NOTE]
 >您可以產生資料模型的完整說明。 在[本頁](datamodel.md)中瞭解更多。
 
-## [!DNL Campaign] API中繼機制
+## [!DNL Campaign] API 準備機制
 
 使用[!DNL Campaign]雲資料庫時，由於效能（延遲和並行），不建議使用blast統一呼叫。 總是首選批操作。 為保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
 
-[!DNL :bulb:] [本頁面詳細說明API中繼機制](staging.md)
+??[本頁](staging.md)中詳細說明了API預備機制
 
 ## 新 API
 
 新的API可用於管理[!DNL Campaign]本地資料庫和雲資料庫之間的資料同步。 此外，也推出新機制，在本機資料庫層級處理API呼叫，以避免延遲並提升整體效能。
 
-[!DNL :bulb:] [本頁詳細說明新API](new-apis.md)
+??[本頁](new-apis.md)詳細說明新API
 
 **相關主題**
 
