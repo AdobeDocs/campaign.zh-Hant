@@ -5,7 +5,7 @@ description: 建立優惠方案管理運算子
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 ---
 
 
-# 運算子配置式{#operator-profiles}
+# 運算子設定檔 {#operator-profiles}
 
 兩種運算子可以使用促銷活動互動：**選件管理員**&#x200B;和&#x200B;**傳送管理員**。 每個都有特定權限和限制。 在[本頁面](../start/permissions.md)中深入了解Campaign運算子和權限。
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 1. 建立新運算子。
 
-   [!DNL :arrow_upper_right:] 在Campaign v7檔案中詳細說明建立運 [算子的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️在Campaign中建立運算子的步驟詳見[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Offer manager]**&#x200B;組。
 
@@ -44,11 +44,11 @@ ht-degree: 1%
 >
 >**優惠方案管理員**&#x200B;只有在未指定審核者，或在優惠方案所依據的優惠方案範本中已宣告其為審核者時，才能核准優惠方案。
 
-## 建立傳遞管理器運算子{#delivery-manager}
+## 建立傳送管理員運算子 {#delivery-manager}
 
 1. 建立新運算子。
 
-   [!DNL :arrow_upper_right:] 在Campaign v7檔案中詳細說明建立運 [算子的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️在Campaign中建立運算子的步驟詳見[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery manager]**&#x200B;組。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
    >
    >**傳遞管理員**&#x200B;只有在優惠方案設定期間宣告其為審核者時，才能核准優惠方案。
 
-## 每個交互運算子的權限矩陣{#recap-of-rights-according-to-operator}
+## 每個交互運算子的權限矩陣 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
