@@ -6,7 +6,7 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 3%
@@ -21,10 +21,10 @@ Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會�
 
 這些工作流程會在資料庫上執行維護作業、運用傳送記錄檔中的追蹤資訊、建立週期性促銷活動等。
 
-[!DNL :arrow_upper_right:] Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中會詳細說明](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)技術工作流程的完整清單
+↗️[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}中詳細說明了技術工作流的完整清單
 
 
-除了這些技術工作流程外，Campaign v8還仰賴特定的技術工作流程來管理[資料復寫](#data-replication)。
+除了這些技術工作流程外，Campaign v8還仰賴特定技術工作流程來管理[資料復寫](#data-replication)。
 
 * **[!UICONTROL Replicate Reference tables]**
 此工作流程會自動復寫需要存在於Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])上的內建表格。排程每小時執行一次。 如果&#x200B;**lastModified**&#x200B;欄位存在，則複製會以增量方式進行，否則將複製整個表。 以下陣列中的表的順序是複製工作流使用的順序。
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **相關主題**
 
-[!DNL :arrow_upper_right:] 了解如何開始使用 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}中的工作流程
+↗️了解如何開始使用[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}中的工作流程
 
-[!DNL :bulb:] 存取本區段中的資料保 [留期間](../dev/datamodel-best-practices.md#data-retention)
+??存取[此區段](../dev/datamodel-best-practices.md#data-retention)中的資料保留期
