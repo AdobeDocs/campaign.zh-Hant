@@ -6,9 +6,9 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 13f3122a830c723fa940290689c8e3a1baa0443a
+source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '695'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-1. 然後，您可以登入Campaign。
+1. 然後，您可以使用[您的Adobe ID](#connect-ims)登入Campaign。
 
    ![](assets/adobeID.png)
 
