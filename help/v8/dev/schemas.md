@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -41,7 +41,7 @@ Adobe Campaign採用資料結構：
 >
 >某些內建Campaign結構在雲端資料庫上有相關聯的結構。 這些結構由&#x200B;**Xxl**&#x200B;命名空間識別，不得修改或擴充。
 
-## 架構的語法{#syntax-of-schemas}
+## 結構的語法 {#syntax-of-schemas}
 
 架構的根元素為&#x200B;**`<srcschema>`**。 它包含&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;子元素。
 
@@ -67,7 +67,7 @@ Adobe Campaign採用資料結構：
 
 **`<element>`**&#x200B;標籤定義實體元素的名稱。 **`<attribute>`** 架構的標籤定義了已連結的標 **`<element>`** 簽中的屬性名稱。
 
-## 架構{#identification-of-a-schema}的標識
+## 方案的標識 {#identification-of-a-schema}
 
 資料結構以其名稱及其命名空間來識別。
 
@@ -79,7 +79,7 @@ Adobe Campaign採用資料結構：
 >
 >識別碼不得以數字字元開頭。
 
-## 保留的命名空間{#reserved-namespaces}
+## 保留的命名空間 {#reserved-namespaces}
 
 某些命名空間會保留給Adobe Campaign應用程式運作所需系統實體的說明。 下列命名空間&#x200B;**不得用於**&#x200B;以識別任何大寫/小寫組合的新架構：
 
@@ -93,15 +93,15 @@ Adobe Campaign採用資料結構：
 
 架構的識別索引鍵是使用命名空間建立的字串，以及以冒號分隔的名稱；例如：**nms:recipient**。
 
-## 建立或擴充Campaign綱要{#create-or-extend-schemas}
+## 建立或擴充Campaign綱要 {#create-or-extend-schemas}
 
 若要將欄位或其他元素新增至Campaign中的其中一個核心資料結構，例如收件者表格(nms:recipient)，您必須擴充該結構。
 
-[!DNL :bulb:] 如需詳細資訊，請參閱 [擴充結構](extend-schema.md)。
+??有關詳細資訊，請參閱[擴展架構](extend-schema.md)。
 
 若要新增Adobe Campaign中不存在的全新資料類型（例如合約表格），您可以直接建立自訂結構。
 
-[!DNL :bulb:] 如需詳細資訊，請參 [閱建立新結構](create-schema.md)。
+??有關詳細資訊，請參閱[建立新架構](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
 
@@ -153,9 +153,9 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >在建立新架構或架構擴充期間，您需要為整個架構保留相同的主鍵序列值(@pkSequence)。
 
-[!DNL :bulb:] 在本小節中深入了 [解索引鍵](database-mapping.md#management-of-keys)。
+??進一步了解[此小節](database-mapping.md#management-of-keys)中的鍵。
 
-## 屬性（欄位）{#attributes--fields-}
+## 屬性（欄位） {#attributes--fields-}
 
 屬性可讓您定義組成資料物件的欄位。 您可以使用方案版工具欄中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空屬性模板放置到游標所在的XML中。 進一步了解[本節](create-schema.md)。
 
@@ -163,7 +163,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素區段中提供完整的屬性清單。 以下是一些最常用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, ****@required **,**@ref **,**@xml **,**@type **。**
 
-[!DNL :arrow_upper_right:] 如需每個屬性的詳細資訊，請參閱 [Campaign Classicv7檔案中的屬性說明](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)。
+↗️有關每個屬性的詳細資訊，請參閱[Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的屬性說明。
 
 ### 範例 {#examples}
 
