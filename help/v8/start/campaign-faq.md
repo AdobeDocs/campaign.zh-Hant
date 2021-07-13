@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 100%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   [!DNL :speech_balloon:] 作為「受管理的 Cloud Services」使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。
+   ??作為「受管理的Cloud Services」使用者，您的執行個體會隨著每個新發行版本依Adobe升級。
 
 1. **如何連線至 Campaign v8？**
 
    您需要下載並安裝 Campaign 用戶端主控台，才能連線至 Adobe Campaign。
 
-   [!DNL :bulb:][按一下這裡以了解更多資訊](connect.md)。
+   ??[按一下這裡以了解更多](connect.md)。
 
 1. **Campaign v8 是否可安裝在內部部署或混合環境中？**
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
    對於每個位寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 在這個數位世界中進行有效導覽，需要定期調整您的電子郵件策略，考量傳遞能力的重要趨勢，以便最能觸及您的對象。
 
-   [!DNL :arrow_upper_right:]請參閱本指南，瞭解[傳遞能力最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
+   ↗️請參閱本指南，了解[傳遞最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:]在[本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何在 Campaign 實施傳遞能力
+   ↗️本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target=&quot;_blank&quot;}中了解如何在Campaign [實作傳遞能力
 
 1. **如何確定我的內容是否成功傳送無誤？**
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 1. **是否可以監視工作流程的執行？**
 
-   [!DNL :arrow_upper_right:]在 [ Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何監視 Campaign 工作流程的執行
+   ↗️了解如何在Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant){target=&quot;_blank&quot;}中監控促銷活動工作流程執行[
 
 1. **哪些系統和元件與 Campaign v8 相容？**
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
 
-   [!DNL :speech_balloon:] 請以「受管理的 Cloud Services」使用者 [身分](../start/campaign-faq.md#support)聯絡 Adobe 以委派您的子網域至 Adobe。
+   ??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以委派您的子網域至Adobe。
 
 1. **身為 Campaign Classic v7 使用者，我可以移轉至 Campaign v8 嗎？**
 
