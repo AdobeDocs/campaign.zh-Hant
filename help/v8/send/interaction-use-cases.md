@@ -5,7 +5,7 @@ description: 互動使用案例
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 4%
@@ -16,8 +16,8 @@ ht-degree: 4%
 
 透過Campaign Classicv7檔案中提供的這些逐步使用案例，善用Campaign互動功能。
 
-[!DNL :arrow_upper_right:] [建立和應用演示規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html)
+↗️ [建立並應用演示規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html)
 
-[!DNL :arrow_upper_right:] [傳送電子郵件優惠方案傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html)
+↗️ [傳送電子郵件選件傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html)
 
-[!DNL :arrow_upper_right:] [執行優惠方案模擬](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html)
+↗️ [執行優惠方案模擬](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html)
