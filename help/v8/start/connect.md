@@ -6,10 +6,10 @@ feature: 對象
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
+source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '685'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 有兩個選項可用：
 
-1. 身為Campaign管理員，請連線至Adobe[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html)並下載用戶端主控台安裝程式。 然後，您可以將其安裝在本機電腦上。
+1. 身為Campaign管理員，請連線至Adobe[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)並下載用戶端主控台安裝程式。 然後，您可以將其安裝在本機電腦上。
 
 1. 身為一般使用者，Adobe可為您部署主控台：更新主控台後，系統會在快顯視窗中提示您下載最新的用戶端主控台版本。
 
