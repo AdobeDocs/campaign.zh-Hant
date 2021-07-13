@@ -6,10 +6,10 @@ feature: 設定檔
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 100%
 
 Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-[!DNL :bulb:]開始使用[對象](audiences.md)
-[!DNL :bulb:]瞭解 Campaign[ 資料模型](../dev/datamodel.md)
+??開始使用[audiences](audiences.md)
+??了解促銷活動[資料模型](../dev/datamodel.md)
 
 ## 在工作流程中匯入設定檔
 
@@ -28,11 +28,11 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 在 Campaign Classic v7 文件深入瞭解：
 
-[!DNL :arrow_upper_right:] [開始使用匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=zh-Hant){target=&quot;_blank&quot;}
+↗️ [開始匯入和匯出](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;}
+↗️ [匯入和匯出最佳實務](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=zh-Hant){target=&quot;_blank&quot;}
+↗️ [設定並執行匯入](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 ## 執行單一匯入
 
@@ -40,7 +40,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何執行單一匯入作業，以供資料庫使用。
+↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target=&quot;_blank&quot;}中執行統一匯入作業以饋送資料庫。
 
 ## 透過網頁應用程式收集設定檔
 
@@ -48,7 +48,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:]在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何建立網路表單。
+↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target=&quot;_blank&quot;}中建立網路表單。
 
 **相關主題**
 
