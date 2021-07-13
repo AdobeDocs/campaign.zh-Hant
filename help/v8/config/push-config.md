@@ -8,14 +8,14 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
 
 ---
 
-# 將Campaign SDK與您的應用程式整合{#integrate-campaign-sdk}
+# 將Campaign SDK與您的應用程式整合 {#integrate-campaign-sdk}
 
 使用iOS和Android適用的Campaign SDK，以促進行動應用程式與Adobe Campaign平台的整合。
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 >身為Campaign管理員，您可以從[Experience Cloud軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)下載Campaign SDK。 如需詳細資訊，請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 
-## 聲明整合設定{#declaring-integration-settings}
+## 宣告整合設定 {#declaring-integration-settings}
 
 若要將Campaign SDK整合至行動應用程式，功能管理員必須向開發人員提供下列資訊：
 
@@ -797,7 +797,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 變數可讓您在收到通知後定義行動應用程式行為。 這些變數必須在行動應用程式程式碼和Adobe Campaign主控台中，在專用行動應用程式服務的&#x200B;**[!UICONTROL Variables]**&#x200B;標籤中定義。
 
-[!DNL :arrow_upper_right:] 進一步了解 **Campaign Classicv7檔案** ，在行動應用程式中： [iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}的配置步驟， [以及Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}的配置步驟。
+↗️進一步了解行動應用程式上的&#x200B;**Campaign Classicv7檔案**:[iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}和[Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}的配置步驟。
 
 以下是可讓行動應用程式收集通知中任何新增變數的程式碼範例。 在範例中，我們使用「VAR」變數。
 
@@ -845,7 +845,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 >
 >Adobe建議選擇短變數名稱，因為iOS和Android的通知大小限制為4kB。
 
-## 通知服務擴展{#notification-service-extension}
+## 通知服務擴充功能 {#notification-service-extension}
 
 **適用於iOS**
 
@@ -879,7 +879,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
     // Perform the download to local storage
 ```
 
-## 通知內容擴充功能{#notification-content-extension}
+## 通知內容擴充功能 {#notification-content-extension}
 
 **適用於iOS**
 
