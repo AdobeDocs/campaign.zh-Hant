@@ -6,22 +6,18 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 610a818c1f5d8a43ea55659a3c5b46676405415d
+source-git-commit: f51c36ed426d200a4636290eb4fa1be6b077f976
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Campaign v8 相容性對照表
 
-本文件列出最新建置版本的 **Adobe Campaign v8** 所支援的所有系統及元件。不屬於此清單的產品和版本即與 Adobe Campaign 不相容。
+本文件列出最新建置版本的 **Adobe Campaign v8** 所支援的所有系統及元件。除非另有提及，否則支援所有次要版本。不屬於此清單的產品和版本即與 Adobe Campaign 不相容。
 
->[!CAUTION]
->
->* 除非另有提及，否則支援所有次要版本。
->* 這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。請確保您使用的是相容性對照表所列出的任一系統支援版本，以避免出現任何問題。
-
+這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。請確保您使用的是相容性對照表所列出的任一系統支援版本，以避免出現任何問題。
 
 ## 用戶端主控台{#ClientConsoleoperatingsystems}
 
