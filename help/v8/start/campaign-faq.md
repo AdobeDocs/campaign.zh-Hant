@@ -6,10 +6,10 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 89%
+source-wordcount: '663'
+ht-degree: 87%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 89%
 
    子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
 
-   ??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以委派您的子網域至Adobe。
+   ??以「受管理的Cloud Services」使用者身分，請聯絡Adobe以委派您的子網域至Adobe。
 
 1. **身為 Campaign Classic v7 使用者，我可以移轉至 Campaign v8 嗎？**
 
@@ -71,7 +71,7 @@ ht-degree: 89%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   [按一下此處](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;} 以存取 Experience Cloud 軟體發佈。
+   以管理員使用者身分，存取Adobe[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;}以下載Adobe Campaign。
 
    在[本頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解發佈中心。
 
