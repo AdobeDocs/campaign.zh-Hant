@@ -6,10 +6,10 @@ description: 了解如何授與Campaign v8的權限
 feature: 對象
 role: Data Engineer
 level: Beginner
-source-git-commit: a57855556751e85e7a1f7751a103ca157f434a8a
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 5%
+source-wordcount: '383'
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign隨附內建運算元群組，例如促銷活動管理員或工作
 
 操作員從控制台中的配置檔案連結到安全區域，可在&#x200B;**[!UICONTROL Administration > Access management > Operators]**&#x200B;節點中訪問。
 
-??作為托管Cloud Services用戶，Adobe會為您設定安全區域。 有關詳細資訊，請[聯繫Adobe](support.md#support)。
+??作為托管Cloud Services用戶，Adobe會為您設定安全區域。 如需詳細資訊，請[連絡Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
 **在 Campaign Classic v7 文件** 中深入瞭解
 
