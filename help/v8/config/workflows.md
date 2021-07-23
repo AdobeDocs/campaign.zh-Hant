@@ -6,9 +6,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: cc8707c7765a47fc00d46283eb6588e63a98499d
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1546'
 ht-degree: 2%
 
 ---
@@ -35,12 +35,59 @@ ht-degree: 2%
 進一步了解Campaign Classicv7檔案中的工作流程使用者介面和執行：
 
 ↗️ [開始使用工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
-* 工作流程活動：
-   * [目標定位活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}:查詢、讀取清單、擴充、聯合等
-   * [流量控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}:排程器、分支、警報、外部訊號等
-   * [動作活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}:跨通道傳送、Javascript程式碼、CRM活動、更新匯總等
-   * [事件活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}:檔案傳輸、網頁下載等↗️   [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} ↗️   [工作流程最佳作法](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;} ↗️  [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;} ↗️  [監視工作流程執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
+↗️ [工作流最佳實踐](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+
+↗️ [內建技術工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+
+↗️ [監視工作流執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+
+↗️ [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+
+## 工作流程活動 {#wf-activities}
+
+↗️進一步了解可用的工作流活動[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
+
+工作流活動按類別分組。 有四個活動類別可供使用：
+
+* [目標定位活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}:查詢、讀取清單、擴充、聯合等
+* [流量控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}:排程器、分支、警報、外部訊號等
+* [動作活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}:跨通道傳送、Javascript程式碼、CRM活動、更新匯總等
+* [事件活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}:檔案傳輸、網頁下載等
+
+### 變更資料來源活動 {#change-data-source-activity}
+
+**[!UICONTROL Change data source]**&#x200B;活動可讓您變更工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;的資料來源。 這可提供更大的彈性，可管理不同資料來源的資料，例如FDA、FFDA和本機資料庫。
+
+**[!UICONTROL Working table]**可讓Adobe Campaign工作流程處理資料，並與工作流程活動共用資料。
+預設情況下， **[!UICONTROL Working table]**&#x200B;建立在與我們查詢的資料源相同的資料庫中。
+
+例如，查詢儲存在雲資料庫上的&#x200B;**[!UICONTROL Profiles]**&#x200B;表時，您將在相同雲資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+若要變更此項，您可以新增**[!UICONTROL Change Data Source]**&#x200B;活動，以為&#x200B;**[!UICONTROL Working table]**&#x200B;選擇不同的資料來源。
+
+請注意，使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動時，您需要切換回雲端資料庫，以繼續執行工作流程。
+
+若要使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動：
+
+1. 建立工作流程.
+
+1. 使用&#x200B;**[!UICONTROL Query]**&#x200B;活動查詢目標收件者。
+
+   如需&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱Campaign ClassicV7檔案中的[查詢](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query)頁面。
+
+1. 從&#x200B;**[!UICONTROL Targeting]**&#x200B;標籤中，新增&#x200B;**[!UICONTROL Change data source]**&#x200B;活動並連按兩下以選取&#x200B;**[!UICONTROL Default data source]**。
+
+   然後，將包含查詢結果的工作表移至預設的PostgreSQL資料庫。
+
+1. 從&#x200B;**[!UICONTROL Actions]**&#x200B;索引標籤，拖放&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動，以對工作表執行統一操作。
+
+   如需&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動的詳細資訊，請參閱Campaign ClassicV7檔案中的[JavaScript程式碼和進階JavaScript程式碼](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code)頁面。
+
+1. 新增其他&#x200B;**[!UICONTROL Change data source]**&#x200B;活動，以切換回雲端資料庫。
+
+   連按兩下您的活動，然後選取&#x200B;**[!UICONTROL Active FDA external account]**，然後選取對應的外部帳戶。
+
+1. 您現在可以開始工作流程。
 
 ## 設定循環促銷活動
 
@@ -158,4 +205,34 @@ ht-degree: 2%
 * [在查詢](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;}中呼叫例項變數
 
    了解如何使用例項變數以動態方式運算要套用至母體的分割百分比。
+
+<!--
+### Change data source activity {#data-source-uc}
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
+
+In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
+
+![](assets/wf_data_source_uc.png)
+
+1. Create a workflow and add a **[!UICONTROL Start]** activity.
+
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
+
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+1. 
+
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
+
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. Add an **[!UICONTROL End]** activity and start your workflow.
+-->
 
