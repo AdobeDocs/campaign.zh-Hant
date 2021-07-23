@@ -5,10 +5,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: 促銷活動v8
 title: Campaign v8 文件
-source-git-commit: c626776351cafa55acbeb9a898bb2c44e00d02d3
+source-git-commit: e41f5b37d8f13c2a17f27a27bf1803081945a8ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 100%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 0%
 
 + [Campaign v8 文件](campaign-home.md)
 + 開始 {#start}
+   + [主要功能](start/whats-new.md)
+   + [發行說明](start/release-notes.md)
+   + [已知限制](start/known-limitations.md)
+   + [Classic v7 到 v8](start/capability-matrix.md)
    + [開始使用](start/get-started.md)
    + [設定檔和對象](start/audiences.md)
    + [匯入資料](start/import.md)
