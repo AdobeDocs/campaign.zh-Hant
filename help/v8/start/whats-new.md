@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
 
@@ -59,5 +59,5 @@ Campaign v8 引入了&#x200B;**完全同盟資料存取** (FFDA) 的概念：所
 
 您也可以使用 Journey AI 設定預測性傳送時間最佳化和預測性參與度評分，並提高開放率、點擊次數和收入。
 
-💡 [進一步瞭解 Campaign 整合](../connect/integration.md)
+?? [進一步瞭解 Campaign 整合](../connect/integration.md)
 
