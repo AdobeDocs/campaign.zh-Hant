@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
+source-git-commit: 328f1bca11f8554def6ad4ccb741a86695481e98
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '312'
 ht-degree: 7%
 
 ---
@@ -50,14 +50,13 @@ _2021年7月23日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>LINE管道現在可與Campaign v8搭配使用。 使用LINE與訊息中心時已進行下列增強：
-</p>
+<td> <p><a href="../send/line.md">LINE頻道</a>現在可與Campaign v8搭配使用，包括與<a href="../send/transactional.md">交易式訊息</a>模組結合時的下列增強功能：
 <ul> 
 <li><p>修正了無法在LINE傳送中鎖定訪客的問題。 
 </p></li>
 <li><p>修正從執行例項擷取訪客至行銷例項時，可能會導致錯誤的問題。
 </p></li>
-<li><p>修正使用訊息中心處理LINE傳送內容中即時事件的問題。</p></li>
+<li><p>修正處理即時事件期間的問題。</p></li>
 </ul>
 </td> 
 </tr> 
