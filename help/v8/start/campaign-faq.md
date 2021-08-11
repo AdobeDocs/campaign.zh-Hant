@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取Adobe[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;}以下載Adobe Campaign。
+   以管理員使用者身分，存取 Adobe[ Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} 以下載 Adobe Campaign。
 
    在[本頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中進一步瞭解發佈中心。
 
