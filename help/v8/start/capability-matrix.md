@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ Campaign 使用者透過其 Adobe ID 連線。 相同的 Adobe ID 可用來保�
 
 ## 工作流程 {#workflow}
 
-Campaign v8提供其他目標工作流程活動：**[!UICONTROL Change data source]**。
+Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change data source]**。
 
-**[!UICONTROL Change data source]**&#x200B;活動可讓您變更工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;的資料來源，以管理不同資料來源（例如FDA、FFDA和本機資料庫）的資料。
+**[!UICONTROL Change data source]**&#x200B;活動可讓您變更工作流程的資料來源&#x200B;**[!UICONTROL Working table]**，以管理不同資料來源 (例如FDA、FFDA 和本機資料庫) 的資料。
 
-??深入了解[此頁面](../config/workflows.md#change-data-source-activity)中的&#x200B;**[!UICONTROL Change data source]**&#x200B;活動。
+?? 在[此頁面](../config/workflows.md#change-data-source-activity)中的&#x200B;**[!UICONTROL Change data source]**&#x200B;活動深入了解。
 
 ## 未提供的功能{#gs-unavailable-features}
 
