@@ -5,10 +5,10 @@ description: 開始使用Campaign控制面板
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
+source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '345'
+ht-degree: 82%
 
 ---
 
@@ -38,15 +38,15 @@ ht-degree: 91%
 
 ## 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant)以獲得更多資訊。
+控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [如需詳細資訊，請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ## 「控制面板」常見問答集
 
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant) 以存取 Campaign 控制面板常見問答集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target=&quot;_blank&quot;}以存取Campaign控制面板常見問題集。
 
 ## SFTP 管理
 
-在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management)以獲得更多資訊。
+在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [如需詳細資訊，請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management){target=&quot;_blank&quot;}。
 
 ## 執行個體設定
 
