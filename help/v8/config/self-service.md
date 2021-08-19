@@ -5,9 +5,9 @@ description: 開始使用Campaign控制面板
 feature: 概覽
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 91%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
 
-↗️進一步了解[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+↗️進一步了解[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 > Campaign v8尚不支援下列功能：
