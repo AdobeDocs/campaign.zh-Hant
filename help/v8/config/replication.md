@@ -6,9 +6,9 @@ feature: 概覽
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '392'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,13 @@ Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會�
 
 有些內建表格會透過上述專用工作流程，從Campaign本機資料庫複製到[!DNL Snowflake]雲端資料庫。
 
+了解Adobe Campaign v8使用的資料庫、複製資料的原因、正在複製的資料以及複製過程的工作方式。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+
+
+### 資料複製策略
+
 複製策略基於表的大小。 有些表將即時複製，有些表將按小時複製。 某些表在替換其他表時將進行增量更新。
 
 除了內建的&#x200B;**複製參考表**&#x200B;技術工作流之外，您還可以在工作流中強制進行資料複製。
@@ -65,6 +72,8 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
+
+
 
 **相關主題**
 
