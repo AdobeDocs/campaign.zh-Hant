@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Campaign 控制面板
-description: 開始使用Campaign控制面板
-feature: 概覽
+description: 開始使用 Campaign 控制面板
+feature: Overview
 role: Data Engineer
 level: Beginner
 source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 82%
 
 您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
 
-↗️進一步了解[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+↗️ 在 [Campaign 控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多。
 
 >[!CAUTION]
-> Campaign v8尚不支援下列功能：
+> Campaign v8 尚不支援下列功能：
 >
 >* 子網域管理
 >* 憑證管理
@@ -35,18 +35,17 @@ ht-degree: 82%
 >
 
 
-
 ## 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [如需詳細資訊，請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 如需詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target=&quot;_blank&quot;}。
 
-## 「控制面板」常見問答集
+## 控制面板常見問答集
 
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target=&quot;_blank&quot;}以存取Campaign控制面板常見問題集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=zh-Hant#control-panel){target=&quot;_blank&quot;} 以存取 Campaign 控制面板常見問答集。
 
 ## SFTP 管理
 
-在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [如需詳細資訊，請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management){target=&quot;_blank&quot;}。
+在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 如需詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management){target=&quot;_blank&quot;}。
 
 ## 執行個體設定
 
