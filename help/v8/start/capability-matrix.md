@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 功能對照表
 description: 瞭解 Campaign Classic v7 和 Campaign v8 之間的差異
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '909'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 99%
 >
 > 客戶資料不會儲存在本機 [!DNL Campaign] 資料庫中。 因此，任何自訂表格都必須在雲端資料庫中建立。
 
-
 可利用特定 API 來管理本機和雲端資料庫之間的資料。 在[此頁面](../dev/new-apis.md)瞭解這些新 API 如何運作，以及如何使用它們。
 
 ### 資料複製
@@ -54,7 +53,6 @@ ht-degree: 99%
 >
 > 已根據表格 (XS、XL等) 的大小建立了多個複製策略。
 > 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有逐漸更新，有些則會進行完整更新。
-
 
 [深入瞭解資料複製](../config/replication.md)
 
@@ -80,7 +78,7 @@ Campaign 使用者透過其 Adobe ID 連線。 相同的 Adobe ID 可用來保�
 
 ## 報告
 
-請注意，Adobe Campaign 報告已最佳化，且提供比 Campaign Classic v7 更好的擴充功能。 多維資料集限制不適用。
+請注意，Adobe Campaign 報告已最佳化，且提供比 Campaign Classic v7 更好的擴充功能。 對立方體的限制不適用。
 
 ## 工作流程 {#workflow}
 
