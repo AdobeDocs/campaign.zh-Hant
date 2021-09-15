@@ -1,14 +1,13 @@
 ---
-solution: Campaign
-product: Adobe Campaign
 title: 將權限授予Campaign v8
 description: 了解如何授與Campaign v8的權限
-feature: 對象
+feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
+exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
+source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 7%
 
 ---
