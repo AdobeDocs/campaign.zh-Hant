@@ -1,16 +1,16 @@
 ---
-product: Adobe Campaign
 title: 將Campaign SDK與您的應用程式整合
 description: 了解如何將Campaign Android和iOS SDK與您的應用程式整合
 version: v8
-feature: 推播
+feature: Push
 role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -77,9 +77,8 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 >[!NOTE]
 >
 > * 別忘了下載google-services.json並新增至您的專案。
-   >
-   > 
-* `apiKey`必須符合連結至此Android應用程式的Adobe Campaign行動應用程式中設定的`projectKey`。
+>
+> * `apiKey`必須符合連結至此Android應用程式的Adobe Campaign行動應用程式中設定的`projectKey`。
 
 
 ### 配置Android SDK

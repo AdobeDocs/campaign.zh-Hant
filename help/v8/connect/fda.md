@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 使用Campaign和外部資料庫(FDA)
 description: 了解如何使用Campaign和外部資料庫
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1843'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ ht-degree: 3%
 若要使用FDA設定外部資料庫的存取權，設定步驟為：
 
 1. 身為Adobe Managed Services使用者，請連絡Adobe以在您的Campaign執行個體上安裝驅動程式。
-1. 安裝驅動程式後，請設定與Adobe Campaign伺服器上的資料庫相對應的外部帳戶，並測試外部帳戶。 [瞭解更多](#fda-external-account)
-1. 在Adobe Campaign中建立外部資料庫的架構。 這可讓您識別外部資料庫的資料結構。 [瞭解更多](#create-data-schema)
-1. 如有需要，從先前建立的架構建立新的目標對應。 如果傳送的收件者來自外部資料庫，則此為必要項目。 此實施隨附與訊息個人化相關的限制。 [瞭解更多](#define-data-mapping)
+1. 安裝驅動程式後，請設定與Adobe Campaign伺服器上的資料庫相對應的外部帳戶，並測試外部帳戶。 [了解更多](#fda-external-account)
+1. 在Adobe Campaign中建立外部資料庫的架構。 這可讓您識別外部資料庫的資料結構。 [了解更多](#create-data-schema)
+1. 如有需要，從先前建立的架構建立新的目標對應。 如果傳送的收件者來自外部資料庫，則此為必要項目。 此實施隨附與訊息個人化相關的限制。 [了解更多](#define-data-mapping)
 
 ## 外部資料庫外部帳戶{#fda-external-account}
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 1. 從促銷活動&#x200B;**[!UICONTROL Explorer]**，瀏覽至&#x200B;**[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**。
 
-1. 按一下 **[!UICONTROL New]**。
+1. 按一下&#x200B;**[!UICONTROL New]**。
 
    >[!NOTE]
    >
@@ -100,9 +100,9 @@ ht-degree: 3%
 |---|---|
 | 工作架構 | 用於工作表的資料庫架構 |
 | 倉儲 | 要使用的預設倉庫的名稱。 它會覆寫使用者的預設值。 |
-| 時區名稱 | 預設為空，這表示使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE會話參數。 <br>有關詳細資訊，請參見[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
-| WeekStart | WEEK_START會話參數。 預設為0。 <br>有關詳細資訊，請參見[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)。 |
-| UseCachedResult | USE_CACHED_RESULTS會話參數。 預設為TRUE。 此選項可用於禁用Snowflake快取結果。 <br>有關詳細資訊，請參見[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
+| 時區名稱 | 預設為空，這表示使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE會話參數。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | WEEK_START會話參數。 預設為0。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| UseCachedResult | USE_CACHED_RESULTS會話參數。 預設為TRUE。 此選項可用於禁用Snowflake快取結果。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 
 ## 建立資料方案{#create-data-schema}
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以確認建立。
 
-## 定義目標映射{#define-data-mapping}
+## 定義目標對應{#define-data-mapping}
 
 您可以定義外部表格中資料的對應。
 

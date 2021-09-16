@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 行銷活動互動 — 優惠方案管理
 description: 開始使用Offer Management
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -28,26 +28,26 @@ Campaign隨附&#x200B;**互動**&#x200B;模組，可讓您在與指定連絡人�
 
 開始之前，以促銷活動&#x200B;**管理員**&#x200B;的身分，請務必在設計環境中執行下列工作：
 
-1. 建立使用者設定檔。 [瞭解更多](interaction-operators.md)
-1. （選用）為每個目標維度建立選件環境。 [瞭解更多](interaction-env.md)
-1. 為每個環境建立類型規則。 [瞭解更多](interaction-offer.md#offer-presentation)
+1. 建立使用者設定檔。 [了解更多](interaction-operators.md)
+1. （選用）為每個目標維度建立選件環境。 [了解更多](interaction-env.md)
+1. 為每個環境建立類型規則。 [了解更多](interaction-offer.md#offer-presentation)
 1. 為每個環境建立選件空間並設定轉譯函式。 [深](interaction-offer-spaces.md)
 入了解如果空間由標識模式上的統一通道定義，則必須指定此空間的高級參數。
 
-### 建立並發佈優惠方案目錄{#managing-the-offer-catalog-}
+### 建立和發佈優惠方案目錄 {#managing-the-offer-catalog-}
 
 作為&#x200B;**選件管理員**，您需要執行下列工作：
 
-1. 在設計環境中建立選件類別。 [瞭解更多](interaction-offer-catalog.md#creating-offer-categories)
-1. 在設計環境中建立選件。 [瞭解更多](interaction-offer.md)
-1. 在一或多個空間核准和發佈優惠方案，以便供傳遞管理員在即時環境中使用。 [瞭解更多](interaction-offer.md#approve-offers)
+1. 在設計環境中建立選件類別。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)
+1. 在設計環境中建立選件。 [了解更多](interaction-offer.md)
+1. 在一或多個空間核准和發佈優惠方案，以便供傳遞管理員在即時環境中使用。 [了解更多](interaction-offer.md#approve-offers)
 
-### 運用優惠方案目錄{#using-the-offer-catalog-}
+### 運用優惠方案目錄 {#using-the-offer-catalog-}
 
 作為&#x200B;**傳遞管理器**，您需要執行下列任務：
 
 1. 建立促銷活動.
-1. 參考促銷活動或傳送中的選件。 [瞭解更多](interaction-send-offers.md)。
+1. 參考促銷活動或傳送中的選件。 [深入瞭解](interaction-send-offers.md)。
 
 
 ## 概念和術語
@@ -80,9 +80,8 @@ Campaign隨附&#x200B;**互動**&#x200B;模組，可讓您在與指定連絡人�
 * **簡報** 規則是選件環境中參考的類型規則，可讓您將主張歷程記錄納入考量，以排除部分選件。
 * **** 加權是可讓您精確計算優惠方案關聯性的公式，以便選取最相關的優惠方案。權重是在選件中定義。 在減輕重量順序時，會考慮合格優惠方案。
 * **呈現** 函式是在選件空間中定義，以便根據選件中定義的屬性來建構其選件表示。有三種不同的呈現功能模式：HTML、XML和文本。
-* **優** 惠方案是此動作的結果，包括在指定空間（例如網站上的橫幅、電子郵件或簡訊）向連絡人呈現一或多個優惠方案。此結果儲存在優惠方案主張表中。 但是，保存這些主張並非強制性的。
+* **優** 惠方案是此動作的結果，包括在指定空間向連絡人呈現一或多個優惠方案（例如網站上的橫幅、電子郵件或簡訊）。此結果儲存在優惠方案主張表中。 但是，保存這些主張並非強制性的。
 * **** 模擬是一個模組，可讓您在實際傳送優惠方案之前，先測試目標收件者的優惠方案簡報。
 * 選件的&#x200B;**預覽**&#x200B;會以其資料夾中顯示選件。 可從優惠方案設定視窗或聯絡人設定檔存取。
 * **預先** 定義的篩選器共用篩選規則可考慮選件參數（例如選件代碼）。建立選件後，它們可重複使用。
 * **選件表示**&#x200B;是頻道用來顯示選件的資訊。 選件表示可以從表示選件的空間的呈現函式構造，或直接輸入介面（例如，在HTML區塊中）。 優惠方案可以由空格表示。
-

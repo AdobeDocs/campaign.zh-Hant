@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: 開始使用 Campaign API
 description: 開始使用 Campaign API
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '330'
 ht-degree: 12%
 
 ---
@@ -30,7 +29,6 @@ Campaign v8可與兩個資料庫搭配使用：用於使用者介面即時訊息
 >[!CAUTION]
 >
 >[!DNL Adobe Campaign] v8會限制API層的吞吐量(TPS)。突破限制會導致標準HTTP錯誤(429)。 身為「受管Cloud Services」使用者，您可以聯絡Adobe以調整每個API的限制。
-
 
 ## 先決條件
 

@@ -1,19 +1,19 @@
 ---
-product: Adobe Campaign
-title: 'Campaign中的金鑰管理 '
+title: Campaign中的金鑰管理
 description: 開始使用金鑰管理
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 密鑰管理和唯一性{#key-management}
+# 金鑰管理和唯一性 {#key-management}
 
 在Campaign v8中，主要索引鍵是通用唯一IDentifier(UUID)，此為字元字串。 若要建立此UUID，架構的主要元素必須包含設為&#x200B;**true**&#x200B;的&#x200B;**autopk**&#x200B;屬性。****
 
-Adobe促銷活動v8以Snowflake為核心資料庫。 Snowflake資料庫的分佈式體系結構不提供管理表中密鑰的唯一性的機制：一般使用者負責確保Adobe Campaign資料庫內金鑰的一致性。
+Adobe Campaign v8 以 Snowflake 為核心資料庫。 Snowflake資料庫的分佈式體系結構不提供管理表中密鑰的唯一性的機制：一般使用者負責確保Adobe Campaign資料庫內金鑰的一致性。
 
 要保持關係資料庫的一致性，必須避免對密鑰（尤其是主密鑰）重複。 主要金鑰上的重複項目會導致資料管理工作流程活動發生問題，例如&#x200B;**Query**、**調解**、**更新資料**&#x200B;等。
 
@@ -71,7 +71,7 @@ Campaign隨附新的護欄，在準備傳送期間會自動移除對象中任何
 
 根據您的緩解策略，您一律可以從其他工作流程查詢清單，然後視需要套用更新。 如需詳細指引，請連絡Adobe。
 
-### 重複資料刪除示例{#deduplicate-sample}
+### 重複資料刪除範例{#deduplicate-sample}
 
 如果收件者重複，您可以在Campaign資料庫中保留這兩項記錄。 在這種情況下，您需要使用新的UUID來更新其中一個UUID。
 

@@ -1,12 +1,11 @@
 ---
-product: Adobe Campaign
 title: 一般架構
 description: 進一步了解Campaign架構和元件
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -32,11 +31,11 @@ ht-degree: 7%
 
 * **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
-   ??[進一步了解Campaign用戶端主控台](../start/connect.md)。
+   ?? [進一步瞭解 Campaign 用戶端控制台](../start/connect.md)。
 
 * **Web訪問**:應用程式的部分可透過簡單的網頁瀏覽器使用HTML使用者介面來存取，包括報表模組、傳送核准階段、執行個體監控等。
 
-   ??[進一步了解Campaign Web Access](../start/connect.md)。
+   ?? [進一步瞭解 Campaign 網頁存取](../start/connect.md)。
 
 * **促銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
 

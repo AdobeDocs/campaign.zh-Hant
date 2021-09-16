@@ -1,12 +1,12 @@
 ---
-product: Adobe Campaign
 title: Campaign 控制面板
 description: 開始使用 Campaign 控制面板
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: ht
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 ↗️ 在 [Campaign 控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多。
 
 >[!CAUTION]
->
 > Campaign v8 尚不支援下列功能：
 >
 >* 子網域管理
 >* 憑證管理
+
 >
 
 
@@ -54,4 +54,3 @@ ht-degree: 100%
 * [URL 權限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * [執行個體詳細資料](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant){target=&quot;_blank&quot;}
-

@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: 行銷活動互動使用案例
 description: 互動使用案例
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 4ea77a39-f505-4657-be43-a0e2b79ddcdd
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 4%
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 

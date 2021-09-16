@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 行銷活動互動優惠方案空間
 description: 了解如何建立優惠方案空間
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
    這些函式可用來在優惠方案空間中產生優惠方案表示法。 有幾種可能的格式：HTML或文字。
 
-   **注意**  - XML格式僅限於此版本產品中無法使用的入站互動。[瞭解更多](../start/capability-matrix.md#gs-unavailable-features)
+   **注意**  - XML格式僅限於此版本產品中無法使用的入站互動。[了解更多](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
@@ -63,7 +63,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
    ![](assets/offer_space_create_007.png)
 
-## 優惠方案主張狀態{#offer-proposition-statuses}
+## 優惠方案主張狀態 {#offer-proposition-statuses}
 
 優惠方案主張狀態會依與目標人口的互動而有所不同。 「促銷活動互動」模組隨附一組值，可在優惠方案主張的整個生命週期中套用。 您需要設定平台，以便在建立並接受優惠方案主張時變更狀態。
 
@@ -71,7 +71,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 >
 >狀態更新是一個&#x200B;**非同步**&#x200B;進程。 這會由每小時觸發的追蹤工作流程執行。
 
-### 選件狀態清單{#status-list}
+### 選件狀態清單 {#status-list}
 
 可用的優惠方案狀態包括：
 
@@ -88,7 +88,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 >
 >如果優惠方案連結至狀態為「已傳送」的傳送，優惠方案主張的狀態會自動變更為「已呈現」。
 
-### 建立主張時的選件狀態{#configuring-the-status-when-the-proposition-is-created}
+### 建立主張時的選件狀態 {#configuring-the-status-when-the-proposition-is-created}
 
 當優惠方案主張為&#x200B;**created**&#x200B;時，其狀態會更新。
 
@@ -101,7 +101,7 @@ HTML呈現是透過呈現函式建立。 呈現函式中定義的欄位順序必
 
    ![](assets/offer_update_status_001.png)
 
-### 接受主張時的選件狀態{#configuring-the-status-when-the-proposition-is-accepted}
+### 接受主張時的優惠方案狀態 {#configuring-the-status-when-the-proposition-is-accepted}
 
 一旦優惠方案主張已&#x200B;**接受**，請使用預設提供的其中一個值來設定該主張的新狀態。 當收件者點按選件中的連結時，就會套用更新。
 
@@ -144,7 +144,7 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
-## 每個空間的選件預覽{#offer-preview-per-space}
+## 每個空間的選件預覽 {#offer-preview-per-space}
 
 在&#x200B;**[!UICONTROL Preview]**&#x200B;標籤中，您可以透過所選方法檢視收件者符合資格的選件。 在以下範例中，收件者可透過郵件取得三份優惠方案。
 

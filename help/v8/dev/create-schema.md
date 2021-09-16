@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
 title: 在Campaign中建立新結構
 description: 了解如何在Campaign中建立新結構
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# 建立新架構{#create-new-schema}
+# 建立新結構{#create-new-schema}
 
 若要編輯、建立和設定結構，請按一下Adobe Campaign用戶端主控台的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點。
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [瞭解更多](schemas.md#reserved-namespaces)
+>「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)
 
 **[!UICONTROL Preview]**&#x200B;頁簽自動生成擴展架構：
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 如果需要檢查架構的完整結構，可以使用&#x200B;**[!UICONTROL Preview]**&#x200B;頁簽。 如果結構已擴充，您便能將其所有擴充功能視覺化。 作為補充，**[!UICONTROL Documentation]**&#x200B;頁簽顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤、說明）。 **[!UICONTROL Documentation]**&#x200B;索引標籤僅適用於產生的結構。
 
-## 使用案例：建立合同表{#example--creating-a-contract-table}
+## 使用案例：建立合同表 {#example--creating-a-contract-table}
 
 在以下示例中，您為資料庫中的&#x200B;**contracts**&#x200B;建立新表。 此表格可讓您儲存每個合約的持有人和共同持有人的名字和姓氏以及電子郵件地址。
 
@@ -111,4 +111,3 @@ ht-degree: 2%
    ![](assets/configuration_structure.png)
 
 1. 更新資料庫結構以建立將連結架構的表。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。
-

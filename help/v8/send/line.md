@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: 使用Adobe Campaign傳送直接LINE訊息
 description: 開始使用LINE報文傳送
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 03d2ad12fabd332df36dcb5257b992f350905c5b
+exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 9%
+source-wordcount: '85'
+ht-degree: 8%
 
 ---
 

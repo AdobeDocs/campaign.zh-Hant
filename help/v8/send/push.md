@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 使用Adobe Campaign傳送推播通知
 description: 開始使用Campaign中的推播通知
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 >[!CAUTION]
 >
->若使用Campaign v8，行動註冊現在為&#x200B;**asynchronous**。 [深入瞭解](../dev/staging.md)
+>若使用Campaign v8，行動註冊現在為&#x200B;**asynchronous**。 [了解更多](../dev/staging.md)
 
 若要建立新傳送，請瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Deliveries]**，然後按一下現有傳送清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
@@ -126,7 +126,7 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 ## 測試、傳送及監視您的推播通知
 
-若要傳送校樣並傳送最終傳送，請使用與電子郵件傳送相同的程式。 在 Campaign Classic v7 文件深入瞭解：
+若要傳送校樣並傳送最終傳送，請使用與電子郵件傳送相同的程式。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 驗證傳遞並傳送校樣
 ↗️ [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
@@ -134,7 +134,7 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 * 確認並傳送傳送
 ↗️ [了解傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}的關鍵步驟
 
-傳送訊息後，您可以監控及追蹤您的傳送。 在 Campaign Classic v7 文件深入瞭解：
+傳送訊息後，您可以監控及追蹤您的傳送。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 推播通知隔離
 ↗️ [進一步了解推播通知隔離](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}

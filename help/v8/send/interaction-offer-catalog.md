@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: 促銷活動互動優惠方案目錄
 description: 了解如何建立優惠方案目錄
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,6 @@ ht-degree: 1%
 
 1. 瀏覽至優惠方案目錄。
 1. 按一下&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤並選取&#x200B;**[!UICONTROL Always include this category in the recommendations]**&#x200B;選項。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](assets/offer_cat_default_001.png)
-

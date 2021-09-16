@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign v8 已知限制
 description: 已知限制
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
-workflow-type: ht
-source-wordcount: '177'
+exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,3 @@ ht-degree: 100%
 * 訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。 每小時都會透過特定的技術工作流程處理請求。 [深入瞭解](../config/replication.md#tech-wf)
 * 重複項目需要由終端使用者手動處理。 [深入瞭解](../dev/keys.md)
 * Adobe Campaign v8 不支援 API 和 Web 應用程式的延長輸送量。 若有特定需求，請聯絡 Adobe 以取得指引。
-
-

@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 促銷活動互動選件
 description: 了解如何建立優惠方案
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 5%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 5%
 
 您現在可以使用&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤來定義：
 
-* 優惠方案的資格期。 [深入瞭解](#eligibility-period)
-* 選件目標母體的篩選。 [深入瞭解](#filters-on-the-target)
-* 選件權重。 [深入瞭解](#offer-weight)
+* 優惠方案的資格期。 [了解更多](#eligibility-period)
+* 選件目標母體的篩選。 [了解更多](#filters-on-the-target)
+* 選件權重。 [了解更多](#offer-weight)
 
 ### 優惠方案資格期間{#eligibility-period}
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ![](assets/offer_eligibility_create_003.png)
 
-如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [深入瞭解](interaction-predefined-filters.md)
+如果已建立預先定義的篩選，您可以從使用者篩選清單中選取這些篩選。 [了解更多](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->您可以根據選件所屬類別的參數來暫時修改指派的加權。 [深入瞭解](interaction-offer-catalog.md#creating-offer-categories)
+>您可以根據選件所屬類別的參數來暫時修改指派的加權。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)
 
 若要在選件中建立權重，請套用下列步驟：
 
@@ -140,7 +140,7 @@ ht-degree: 5%
 
    ![](assets/offer_content_create_002.png)
 
-   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [深入瞭解](interaction-offer-spaces.md)
+   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [了解更多](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 

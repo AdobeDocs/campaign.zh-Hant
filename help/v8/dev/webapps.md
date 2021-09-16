@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign網頁應用程式和網頁表單
 description: 開始使用網路應用程式和網路表單
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: a460c1b4-4266-46ff-8cca-748050afd579
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---

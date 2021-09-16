@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 在Campaign中管理訂閱和取消訂閱
 description: 了解如何在Campaign v8中管理訂閱和取消訂閱
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->訂閱和取消訂閱是&#x200B;**非同步**&#x200B;程式。 每小時都會處理加入和退出請求。 [深入瞭解](../dev/new-apis.md#sub-apis)
+>訂閱和取消訂閱是&#x200B;**非同步**&#x200B;程式。 每小時都會處理加入和退出請求。 [了解更多](../dev/new-apis.md#sub-apis)
 
 您也可以讓傳遞收件者將訊息轉送給朋友。 若要這麼做，請將相關連結插入您的傳送中。 然後，您就可以追蹤此共用程式以及相關頁面的造訪次數。
 

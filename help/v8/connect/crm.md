@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 使用Campaign和您的CRM
-description: '了解如何使用Campaign和您的CRM '
-feature: 概覽
+description: 了解如何使用Campaign和您的CRM
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 25%
 
 ---
@@ -38,4 +38,3 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 Adobe Campaign和CRM之間的資料同步是透過專用的工作流程活動執行。 建置您的工作流程，以自動同步Campaign和CRM。 您可以建立工作流程，該工作流程會透過Microsoft Dynamics匯入聯絡人、將其與現有的Adobe Campaign資料同步、刪除重複的聯絡人，然後更新Adobe Campaign資料庫。
 
 ↗️ 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started) 中深入瞭解
-

@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: 使用Campaign綱要
 description: 開始使用結構
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -250,4 +250,3 @@ SQL欄位中也儲存有XML欄位的示例，該欄位具有&#x200B;**@dataPolic
 >[!NOTE]
 >
 >當修改不影響資料庫結構時，您只需重新產生結構即可。 要執行此操作，請選擇要更新的架構，按一下右鍵並選擇&#x200B;**[!UICONTROL Actions > Regenerate selected schemas...]** 。
-

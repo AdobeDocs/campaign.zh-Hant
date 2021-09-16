@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: 使用Campaign和Adobe Analytics
 description: 了解如何整合Campaign與Analytics
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 75%
 
 ---
@@ -38,7 +37,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. [在 Adobe Analytics 中建立報告套裝](#report-suite-analytics)
 1. [設定轉換變數和成功事件](#configure-conversion-success)
-1. [在 Adobe Campaign 中設定外部帳戶](#external-account-ac)
+1. [在 Adobe Campaign 中設定您的外部帳戶](#external-account-ac)
 
 ## 建立Analytics報表套裝 {#report-suite-analytics}
 

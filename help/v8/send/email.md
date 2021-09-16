@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 使用Adobe Campaign傳送電子郵件
 description: 開始使用Campaign中的電子郵件
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 9%
 
 ---
@@ -110,4 +110,3 @@ Campaign提供數種方式，可在將您的電子郵件傳送給您的對象之
 傳送後，在「傳送控制面板」中檢查您的傳送狀態，並存取傳送記錄檔和報表，以確認訊息已正確傳送。
 
 ↗️ [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html) 中深入瞭解
-

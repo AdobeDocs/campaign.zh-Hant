@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: 促銷活動互動選件預先定義的篩選
 description: 了解如何建立預先定義的篩選器
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
    ![](assets/offer_filter_create_005.png)
 
-1. 按一下 **[!UICONTROL New]**。
+1. 按一下&#x200B;**[!UICONTROL New]**。
 
    ![](assets/offer_filter_create_001.png)
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以檢視篩選結果。
 
    ![](assets/offer_filter_create_006.png)
-

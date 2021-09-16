@@ -1,20 +1,20 @@
 ---
-product: Adobe Campaign
 title: 促銷活動互動優惠方案目錄
 description: 了解如何建立優惠方案目錄
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1275'
 ht-degree: 3%
 
 ---
 
 # 傳送優惠方案
 
-為了讓優惠方案引擎選取優惠方案，優惠方案已獲得核准，並可在&#x200B;**Live**&#x200B;環境中使用。 [深入瞭解](interaction-offer.md#approve-offers)
+為了讓優惠方案引擎選取優惠方案，優惠方案已獲得核准，並可在&#x200B;**Live**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
 
 透過傳出通訊通道，透過直接郵件、電子郵件或行動傳送來進行優惠方案簡報。 您也可以搭配交易式訊息（訊息中心）使用統一模式。
 
@@ -40,11 +40,11 @@ ht-degree: 3%
 
    ![](assets/offer_delivery_005.png)
 
-1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [深入瞭解](#parameters-for-calling-offer-engine)
+1. 視需要選取&#x200B;**[!UICONTROL Exclude non-eligible recipients]**&#x200B;選項。 [了解更多](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [深入瞭解](#parameters-for-calling-offer-engine)
+1. 如果需要，請選取&#x200B;**[!UICONTROL Do not display anything if no offers are selected]**&#x200B;選項。 [了解更多](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#offer-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [了解更多](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ ht-degree: 3%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#offer-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [了解更多](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ ht-degree: 3%
 
 不過，您可以依下列方式儲存此資訊：
 
-1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [深入瞭解](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. 在查詢後和傳送活動前放置的擴充活動中，建立對選件引擎的呼叫。 [了解更多](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. 在活動的主窗口中，選擇&#x200B;**[!UICONTROL Edit additional data...]**。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ ht-degree: 3%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 然後設定與您選擇的通道相對應的傳送活動。 [深入瞭解](#inserting-an-offer-proposition-into-a-delivery)
+1. 然後設定與您選擇的通道相對應的傳送活動。 [了解更多](#inserting-an-offer-proposition-into-a-delivery)
 
 ### 依儲存格列出的優惠 {#offers-by-cell}
 

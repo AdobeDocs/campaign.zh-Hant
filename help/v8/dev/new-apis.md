@@ -1,28 +1,28 @@
 ---
-product: Adobe Campaign
 title: 新的Campaign v8 API
 description: 新的Campaign v8 API
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: dd822f88-b27d-4944-879c-087f68e79825
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
 
-# 新促銷活動API{#gs-new-api}
+# 新的Campaign API{#gs-new-api}
 
-Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [瞭解更多](staging.md)
+Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [了解更多](staging.md)
 
 * 擷取API:**xtk.session.ingest**
 
-   此API僅專用於「資料插入」。 [瞭解更多](#data-insert-api)
+   此API僅專用於「資料插入」。 [了解更多](#data-insert-api)
 
 * 資料更新/刪除API:**xtk.session.ingestExt**
 
-   此API用於更新或刪除資料。 [瞭解更多](#data-update-api)
+   此API用於更新或刪除資料。 [了解更多](#data-update-api)
 
 專用的內建工作流程將同步雲端資料庫中的資料。
 
@@ -204,11 +204,11 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 因此，中繼表格會如預期般更新。
 
-## 訂閱管理{#sub-apis}
+## 訂閱管理 {#sub-apis}
 
 [此頁面](../start/subscriptions.md)說明Campaign中的訂閱管理。
 
-訂閱和取消訂閱資料的插入需仰賴Campaign本機資料庫中的[中繼機制](staging.md)。 訂閱者資訊是臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 選擇加入和選擇退出請求會透過特定的技術工作流程每小時處理一次。 [瞭解更多](../config/replication.md#tech-wf)
+訂閱和取消訂閱資料的插入需仰賴Campaign本機資料庫中的[中繼機制](staging.md)。 訂閱者資訊是臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 選擇加入和選擇退出請求會透過特定的技術工作流程每小時處理一次。 [了解更多](../config/replication.md#tech-wf)
 
 
 **相關主題**

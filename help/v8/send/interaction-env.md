@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 促銷活動互動運算子
 description: 建立優惠方案管理運算子
-feature: 概覽
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要定位收件者表格，您需要使用目標對應助理來建立環境。 [瞭解更多](#creating-an-offer-environment)。
+>若要定位收件者表格，您需要使用目標對應助理來建立環境。 [深入瞭解](#creating-an-offer-environment)。
 
 ![](assets/offer_environments_overview_002.png)
 
-傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [瞭解更多](interaction-operators.md)
+傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境，並運用選件來傳遞。 選件管理員可以檢視和使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [了解更多](interaction-operators.md)
 
-## 建立優惠方案環境{#creating-an-offer-environment}
+## 建立優惠方案環境 {#creating-an-offer-environment}
 
 依預設，Campaign隨附內建環境，以鎖定收件者表格（已識別的選件）。 若要鎖定另一個表格，請遵循下列步驟：
 
