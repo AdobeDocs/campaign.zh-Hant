@@ -27,11 +27,11 @@ ht-degree: 100%
 ↗️ 在 [Campaign 控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多。
 
 >[!CAUTION]
+>
 > Campaign v8 尚不支援下列功能：
 >
 >* 子網域管理
 >* 憑證管理
-
 >
 
 
