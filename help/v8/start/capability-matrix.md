@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 873e7df79d60e5c897d09312939bbb1d91f194b2
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 
 ## 未提供的功能{#gs-unavailable-features}
 
-請注意，第一版尚未提供部分功能，例如：
+請注意，此版本的Campaign中沒有某些功能，例如：
 
 * 行銷資源管理
 * 分散式行銷
@@ -97,6 +97,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 * 行銷活動最佳化
 * 回應管理員
 * 混合/內部部署模型
+* Twitter頻道
 
 >[!CAUTION]
 >
@@ -106,14 +107,18 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 >
 >如果您不確定部署模式，或有任何疑問，請洽詢您的帳戶團隊。
 
-## 已移除的功能{#gs-removed}
+## 不支援的功能{#gs-removed}
 
-為符合 Campaign v8 的新架構和部署模型，Campaign v8 中已不再提供一些歷史性的 Campaign Classic v7 功能。
+為了與Campaign v8的新架構和部署模型保持一致，Campaign v8不再支援某些歷史Campaign Classicv7功能，例如：
 
 * 優惠券
 * 網路追蹤
 * 調查
-* 社交行銷
+* 社交行銷 搭配Facebook
 * ACS 連接器 (Prime 產品)
 * 與 LDAP 整合
 * 使用者/密碼登入
+
+>[!NOTE]
+>
+>使用者介面中仍可看到某些無法使用或不支援的功能。
