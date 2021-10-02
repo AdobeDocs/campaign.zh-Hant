@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**優惠方案管理員**&#x200B;只有在未指定審核者，或在優惠方案所依據的優惠方案範本中已宣告其為審核者時，才能核准優惠方案。
+>**只有** 在未指定審核者，或在優惠方案範本中宣告為審核者時，優惠方案管理員才會核准優惠方案。
 
 ## 建立傳送管理員運算子 {#delivery-manager}
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery manager]**&#x200B;組。
 
-指派給傳送管理員的權限是/讓他們執行下列工作：
+指派給傳送管理員的權限可讓他們執行下列工作：
 
 * 顯示&#x200B;**[!UICONTROL Live]**&#x200B;環境。
 * 顯示和修改優惠方案類別。
-* 如果指定其審核者之一，則核准優惠方案。
+* 如果優惠方案是其審核者，請核准優惠方案。
 
    >[!NOTE]
    >
-   >**傳遞管理員**&#x200B;只有在優惠方案設定期間宣告其為審核者時，才能核准優惠方案。
+   >**傳送** 管理員必須在優惠方案設定中宣告為審核者，才能核准優惠方案。
 
 ## 每個交互運算子的權限矩陣 {#recap-of-rights-according-to-operator}
 
