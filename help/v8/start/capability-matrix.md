@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 
 ## 未提供的功能{#gs-unavailable-features}
 
-請注意，此版本的Campaign中沒有某些功能，例如：
+請注意此 Campaign 版本尚未提供部分功能，例如：
 
 * 行銷資源管理
 * 分散式行銷
@@ -97,7 +97,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 * 行銷活動最佳化
 * 回應管理員
 * 混合/內部部署模型
-* Twitter頻道
+* Twitter 頻道
 
 >[!CAUTION]
 >
@@ -110,16 +110,16 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 
 ## 不支援的功能{#gs-removed}
 
-為了與Campaign v8的新架構和部署模型保持一致，Campaign v8不再支援某些歷史Campaign Classicv7功能，例如：
+為符合 Campaign v8 的新架構和部署模型，Campaign v8 中已不再提供一些 Campaign Classic v7 的歷史性功能。例如:
 
 * 優惠券
 * 網路追蹤
 * 調查
-* 社交行銷 搭配Facebook
-* ACS 連接器 (Prime 產品)
+* 社交行銷搭配 Facebook
+* ACS 連接器 (主要優惠)
 * 與 LDAP 整合
 * 使用者/密碼登入
 
 >[!NOTE]
 >
->使用者介面中仍可看到某些無法使用或不支援的功能。
+>使用者介面中仍會顯示某些無法使用或不支援的功能。
