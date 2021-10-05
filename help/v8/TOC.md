@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 促銷活動v8
+breadcrumb-title: Campaign v8
 title: Campaign v8 文件
 source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 97%
    + [管理資料](config/replication.md)
    + [電子郵件設定](config/email-settings.md)
    + [異動訊息設定](config/transactional-msg-settings.md)
-   + [將Campaign SDK與您的應用程式整合](config/push-config.md)
+   + [將 Campaign SDK 與您的應用程式整合](config/push-config.md)
    + [外部帳戶](config/external-accounts.md)
 + 連結 {#connect}
    + [連結其他解決方案](connect/integration.md)
