@@ -4,10 +4,9 @@ description: 建立優惠方案管理運算子
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -21,9 +20,9 @@ ht-degree: 1%
 
 ## 建立優惠方案管理員運算子{#offer-manager}
 
-1. 建立新運算子。
+1. 建立運算子。
 
-   ↗️在Campaign中建立運算子的步驟詳見[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) 在Campaign v7檔案中詳細說明建立運 [算子的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Offer manager]**&#x200B;組。
 
@@ -37,17 +36,17 @@ ht-degree: 1%
 * 設定優惠方案資格。
 * 核准優惠方案。
 
-請注意，如果工作流中使用選件，則必須將運算子新增至&#x200B;**[!UICONTROL Administrator]**&#x200B;或&#x200B;**[!UICONTROL Offer managers]**&#x200B;運算子群組，才能執行工作流。
+如果在工作流中使用選件，必須將運算子新增至&#x200B;**[!UICONTROL Administrator]**&#x200B;或&#x200B;**[!UICONTROL Offer managers]**&#x200B;運算子群組，才能執行工作流。
 
 >[!NOTE]
 >
->**只有** 在未指定審核者，或在優惠方案範本中宣告為審核者時，優惠方案管理員才會核准優惠方案。
+>**只有** 在未指定審核者，或在優惠方案範本中已宣告為審核者時，優惠方案管理員才會核准優惠方案。
 
 ## 建立傳送管理員運算子 {#delivery-manager}
 
-1. 建立新運算子。
+1. 建立運算子。
 
-   ↗️在Campaign中建立運算子的步驟詳見[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) 在Campaign v7檔案中詳細說明建立運 [算子的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. 轉至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;窗口，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery manager]**&#x200B;組。
 
@@ -67,8 +66,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>選件管理器（設計環境）</strong><br /> </td> 
-   <td> <strong>選件管理器（即時環境）</strong><br /> </td> 
+   <td> <strong>優惠方案管理員（設計環境）</strong><br /> </td> 
+   <td> <strong>優惠方案管理員（即時環境）</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>樹結構級別</strong><br /> </td> 
@@ -86,7 +85,7 @@ ht-degree: 1%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 管理員<br /> </td> 
+   <td> 管理<br /> </td> 
    <td> 讀/寫<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
@@ -146,7 +145,7 @@ ht-degree: 1%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 管理員<br /> </td> 
+   <td> 管理<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

@@ -1,21 +1,21 @@
 ---
-title: 將Campaign SDK與您的應用程式整合
+title: 將 Campaign SDK 與您的應用程式整合
 description: 了解如何將Campaign Android和iOS SDK與您的應用程式整合
 version: v8
 feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 將Campaign SDK與您的應用程式整合 {#integrate-campaign-sdk}
+# 將 Campaign SDK 與您的應用程式整合 {#integrate-campaign-sdk}
 
-使用iOS和Android適用的Campaign SDK，以促進行動應用程式與Adobe Campaign平台的整合。
+使用iOS和Android適用的Campaign SDK，來促進行動應用程式與Adobe Campaign平台的整合。
 
 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中列出Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本。
 
@@ -45,7 +45,7 @@ ht-degree: 1%
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
    ```
 
-* **在iOS中**:
+* **在iOS**:
 
    ```sql
    Neolane_SDK *nl = [Neolane_SDK getInstance];
@@ -108,7 +108,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    註冊功能允許您：
 
-   * 傳送通知ID或推播ID（iOS為deviceToken,Android為registrationID）至Adobe Campaign。
+   * 傳送通知ID或推播ID(iOS的deviceToken和Android的registrationID)至Adobe Campaign。
    * 恢復調解金鑰或userKey（例如，電子郵件或帳號）
 
    您必須在應用程式初始化或使用者動作中，將裝置註冊至Adobe Campaign。 使用`registerDevice`方法可輕鬆完成。
@@ -560,7 +560,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    註冊功能允許您：
 
-   * 傳送通知ID或推播ID（iOS為deviceToken,Android為registrationID）至Adobe Campaign。
+   * 傳送通知ID或推播ID(iOS的deviceToken和Android的registrationID)至Adobe Campaign。
    * 恢復調解金鑰或userKey（例如，電子郵件或帳號）
 
    ```sql
@@ -640,7 +640,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
    * **** 狀態可讓您知道註冊是否成功或是否發生錯誤。
 
-   * **** ErrorReason會提供您有關所發生錯誤的詳細資訊。有關可用錯誤及其說明的詳細資訊，請參閱下表。
+   * **** ErrorReason為您提供了有關所發生錯誤的詳細資訊。有關可用錯誤及其說明的詳細資訊，請參閱下表。
 
    | 狀態 | 說明 | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -794,7 +794,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 變數可讓您在收到通知後定義行動應用程式行為。 這些變數必須在行動應用程式程式碼和Adobe Campaign主控台中，在專用行動應用程式服務的&#x200B;**[!UICONTROL Variables]**&#x200B;標籤中定義。
 
-↗️進一步了解行動應用程式上的&#x200B;**Campaign Classicv7檔案**:[iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}和[Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}的配置步驟。
+![](../assets/do-not-localize/book.png) 進一步了解 **Campaign Classicv7檔案** ，在行動應用程式中： [iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}的設定步驟， [以及Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}的設定步驟。
 
 以下是可讓行動應用程式收集通知中任何新增變數的程式碼範例。 在範例中，我們使用「VAR」變數。
 
@@ -808,7 +808,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
    }
    ```
 
-* **在iOS中**:
+* **在iOS**:
 
    ```sql
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -844,7 +844,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 ## 通知服務擴充功能 {#notification-service-extension}
 
-**適用於iOS**
+**針對iOS**
 
 必須在通知服務擴充層級下載媒體。
 
@@ -878,7 +878,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 ## 通知內容擴充功能 {#notification-content-extension}
 
-**適用於iOS**
+**針對iOS**
 
 在此層級，您需要：
 

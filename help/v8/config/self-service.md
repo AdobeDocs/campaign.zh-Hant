@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 
 您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
 
-↗️ 在 [Campaign 控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解更多。
+![](../assets/do-not-localize/book.png) 進一步了 [解Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
->
 > Campaign v8 尚不支援下列功能：
 >
 >* 子網域管理
 >* 憑證管理
+
 >
 
 

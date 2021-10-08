@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 4%
@@ -20,7 +20,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 * **收件者表格**:資料模型依賴主表，預設情況下主表為收件者表(nmsRecipient)。此表格可讓儲存所有行銷設定檔。
 
-   ??如需「收件者」表格的詳細資訊，請參閱[此區段](#ootb-profiles)。
+   ![](../assets/do-not-localize/glass.png) 如需「收件者」表格的詳細資訊，請 [參閱本區段](#ootb-profiles)。
 
 * **傳送表格**:資料模型也包含專用於儲存所有行銷活動的部分。通常為傳送表格(NmsDelivery)。 此表中的每個記錄都表示傳遞操作或傳遞模板。 它包含執行傳送所需的所有必要參數，例如目標、內容等。
 
@@ -43,7 +43,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 * [使用新欄位](extend-schema.md) 擴展現有表。例如，您可以將新的「忠誠度」欄位新增至「收件者」表格。
 * [建立新表格](create-schema.md)，例如「購買」表格，列出資料庫每個設定檔進行的所有購買，並將其連結至收件者表格。
 
-??探索在[此區段](datamodel-best-practices.md)中使用Campaign資料模型時的最佳作法。
+![](../assets/do-not-localize/glass.png) 在本節中探索使用Campaign資料模型時的 [最佳實務](datamodel-best-practices.md)。
 
 ## 內建設定檔表格 {#ootb-profiles}
 
@@ -58,9 +58,9 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 可以擴展收件者表，但不能減少表中的欄位或連結數。
 
-??了解如何在[此小節](extend-schema.md)中擴展現有架構。
+![](../assets/do-not-localize/glass.png) 在本小節中了解如何擴充現有 [的結構](extend-schema.md)。
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)中探索內建收件者表格副檔名的範例
+![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中探索內建收件者表格擴充功 [能的範例](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法有其限制，如[本節](custom-recipient.md)所述。
 
@@ -68,9 +68,9 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 為了更好地了解Campaign v8中的表格管理，請注意，表格會在Campaign與其Snowflake雲端資料庫之間複製。
 
-??在[本小節](../config/replication.md)中了解有關複製策略和機制的詳細資訊。
+![](../assets/do-not-localize/glass.png) 在本小節中深入了解復寫策略 [和機制](../config/replication.md)。
 
 **相關主題**
 
-??探索如何在[此區段](../start/import.md)中匯入設定檔
-??在[此小節](../start/audiences.md)中深入了解Campaign對象
+![](../assets/do-not-localize/glass.png) 探索如何在本節匯入設 [定檔](../start/import.md)
+![](../assets/do-not-localize/glass.png) 深入了解本節中的 [Campaign對象](../start/audiences.md)

@@ -2,7 +2,7 @@
 title: 資料模型最佳實務
 description: 了解Campaign資料模型擴充功能最佳實務
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ Adobe Campaign系統非常靈活，可擴充至初次實作以外。 不過，�
 
 如需深入了解Campaign內建表格及其彼此的關聯，請參閱[本區段](datamodel.md) 。
 
-??請閱讀[此小節](schemas.md)，以開始使用Campaign綱要。
+![](../assets/do-not-localize/glass.png) 閱讀本 [節](schemas.md) 以開始使用Campaign綱要。
 
-??了解如何設定擴充功能結構，以在[本頁](extend-schema.md)中擴充Adobe Campaign資料庫的概念資料模型。
+![](../assets/do-not-localize/glass.png) 在本頁面中，了解如何設定擴充功能結構，以擴充Adobe Campaign資料庫的概念資料 [模型](extend-schema.md)。
 
 ## 資料模型架構 {#data-model-architecture}
 

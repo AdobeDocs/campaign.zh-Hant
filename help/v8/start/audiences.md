@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 25%
@@ -35,34 +35,34 @@ ht-degree: 25%
 ![](assets/create-profile.png)
 
 
-↗️了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}中管理設定檔。
+![](../assets/do-not-localize/book.png) 了解如何在Adobe Campaign Classic v7 [檔案中管理設定檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}。
 
 
 ## 隱私權與同意
 
 Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料）的強大工具。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-↗️在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}中了解如何管理隱私權和同意。
+![](../assets/do-not-localize/book.png) 在Adobe Campaign Classic v7檔案中了解 [如何管理隱私權和同意](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}。
 
 ## 建立清單
 
 清單 (list) 是一組靜態的用戶檔案，在傳遞作業期間可用於提供目標，或在匯入作業或工作流程執行期間可對其進行更新。例如，透過查詢而從資料庫中摘取出的母體可形成一個清單。
 
-↗️了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}中建立和管理清單。
+![](../assets/do-not-localize/book.png) 了解如何在Adobe Campaign Classic v7檔 [案中建立和管理清單](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}。
 
 ## 查詢資料庫
 
 在工作流程中使用&#x200B;**Query**&#x200B;活動來查詢您的資料庫、劃分資料並建立複雜的對象。
 
-↗️在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}中進一步了解Campaign查詢。
+![](../assets/do-not-localize/book.png) 在Adobe Campaign Classic v7檔案中 [深入了解Campaign查詢](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}。
 
-↗️所有目標定位活動都列在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}中。
+![](../assets/do-not-localize/book.png) 所有鎖定目標活動都列 [在Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}中。
 
 ## 在工作流程中建立對象
 
 鎖定目標可透過工作流程中圖形順序的查詢組合來建立。 您可以建立將根據您的需求鎖定的對象。 若要顯示工作流程編輯器，請按一下促銷活動控制面板中的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;標籤。
 
-↗️了解如何在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}的行銷活動工作流程中建立對象。
+![](../assets/do-not-localize/book.png) 在Adobe Campaign Classic v7檔案 [{target=&quot;_blank&quot;}中，了解如何在行銷](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)活動工作流程中建立對象。
 
 
 ## 使用中的設定檔案{#active-profiles}
@@ -74,13 +74,13 @@ Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-↗️ For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 Campaign Classic v7 文件中的&#x200B;**相關主題**：
 
-↗️ [設計並執行促銷活動專屬的工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
+* [設計並執行促銷活動專屬的工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
 
-↗️ [了解如何選取促銷活動的對象](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;}
+* [了解如何選取行銷活動](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;}的對象
 
-↗️ [開始使用工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}

@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    您需要下載並安裝 Campaign 用戶端主控台，才能連線至 Adobe Campaign。
 
-   ?? [按一下這裡以進一步瞭解](connect.md)。
+   ![](../assets/do-not-localize/glass.png)[按一下這裡以了解更多資訊](connect.md)。
 
 1. **Campaign v8 是否可安裝在內部部署或混合環境中？**
 
@@ -38,9 +38,9 @@ ht-degree: 100%
 
    對於每個位寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 在這個數位世界中進行有效導覽，需要定期調整您的電子郵件策略，考量傳遞能力的重要趨勢，以便最能觸及您的對象。
 
-   ↗️請參閱本指南，瞭解[傳遞能力最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png)請參閱本指南，瞭解[傳遞能力最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-   ↗️ 在[本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何在 Campaign 實施傳遞性
+   ![](../assets/do-not-localize/book.png)在[本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何在 Campaign 實施傳遞能力
 
 1. **如何確定我的內容是否成功傳送無誤？**
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 1. **是否可以監視工作流程的執行？**
 
-   ↗️ 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何監視 Campaign 工作流程的執行
+   ![](../assets/do-not-localize/book.png)在 [ Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何監視 Campaign 工作流程的執行
 
 1. **哪些系統和元件與 Campaign v8 相容？**
 

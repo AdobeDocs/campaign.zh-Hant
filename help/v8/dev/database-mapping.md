@@ -2,7 +2,7 @@
 title: Campaign資料庫對應
 description: Campaign資料庫對應
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -97,7 +97,7 @@ SQL欄位約束如下：
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   「html」類型可讓您將HTML內容儲存在CDATA標籤中，並在Adobe Campaign用戶端介面中顯示特殊的HTML編輯檢查。
+   「html」類型可讓您將HTML內容儲存在CDATA標籤中，並在Adobe Campaign用戶端介面中顯示特殊HTML編輯檢查。
 
 使用XML欄位可讓您添加欄位，而無需修改資料庫的物理結構。 另一個優點是，您使用的資源更少（分配給SQL欄位的大小、每個表的欄位數限制等）。
 
@@ -256,7 +256,7 @@ Adobe Campaign表格的主要索引鍵是資料庫引擎自動產生的&#x200B;*
 * ![](assets/do-not-localize/join_fda_11.png) :基數1-1
 * ![](assets/do-not-localize/join_fda_1m.png) :基數1-N
 
-??如需FDA表格的詳細資訊，請參閱[同盟資料存取](../connect/fda.md)。
+![](../assets/do-not-localize/glass.png) 如需FDA表格的詳細資訊，請參閱 [同盟資料存取](../connect/fda.md)。
 
 必須在包含透過主要元素連結之表格的外鍵的架構中宣告連結：
 

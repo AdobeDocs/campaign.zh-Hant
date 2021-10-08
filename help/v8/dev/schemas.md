@@ -2,7 +2,7 @@
 title: 使用Campaign綱要
 description: 開始使用結構
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -97,11 +97,11 @@ Adobe Campaign採用資料結構：
 
 若要將欄位或其他元素新增至Campaign中的其中一個核心資料結構，例如收件者表格(nms:recipient)，您必須擴充該結構。
 
-??有關詳細資訊，請參閱[擴展架構](extend-schema.md)。
+![](../assets/do-not-localize/glass.png) 如需詳細資訊，請參閱 [擴充結構](extend-schema.md)。
 
 若要新增Adobe Campaign中不存在的全新資料類型（例如合約表格），您可以直接建立自訂結構。
 
-??有關詳細資訊，請參閱[建立新架構](create-schema.md)。
+![](../assets/do-not-localize/glass.png) 如需詳細資訊，請參 [閱建立新結構](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >在建立新架構或架構擴充期間，您需要為整個架構保留相同的主鍵序列值(@pkSequence)。
 
-??進一步了解[此小節](database-mapping.md#management-of-keys)中的鍵。
+![](../assets/do-not-localize/glass.png) 在本小節中深入了 [解索引鍵](database-mapping.md#management-of-keys)。
 
 ## 屬性（欄位） {#attributes--fields-}
 
@@ -163,7 +163,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素區段中提供完整的屬性清單。 以下是一些最常用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, ****@required **,**@ref **,**@xml **,**@type **。**
 
-↗️有關每個屬性的詳細資訊，請參閱[Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中的屬性說明。
+![](../assets/do-not-localize/book.png) 如需每個屬性的詳細資訊，請參閱 [Campaign Classicv7檔案中的屬性說明](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)。
 
 ### 範例 {#examples}
 

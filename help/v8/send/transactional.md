@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 * 客戶動作的個別即時回應
 * 非促銷內容
 
-??交易式訊息設定在[此區段](../config/transactional-msg-settings.md)中詳細說明。
+![](../assets/do-not-localize/glass.png) 交易式訊息設定在本區段 [中有詳細說明](../config/transactional-msg-settings.md)。
 
-??了解[本頁](../dev/architecture.md)中的交易式訊息架構。
+![](../assets/do-not-localize/glass.png) 在本頁面中了解交易式 [訊息架構](../dev/architecture.md)。
 
 >[!CAUTION]
 >
->交易式訊息需要特定授權。 請檢查您的許可協定。
+>交易式訊息需要特定授權。 請檢查您的授權合約。
 
 ## 定義交易式訊息範本
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 若要將個人化標籤插入電子郵件訊息的內文，請套用下列步驟：
 
-1. 在訊息範本中，按一下符合電子郵件格式（HTML或文字）的索引標籤。
+1. 在訊息範本中，按一下符合電子郵件格式(HTML或文字)的索引標籤。
 1. 輸入訊息的內文。
 1. 在文字本文中，使用&#x200B;**[!UICONTROL Real time events>Event XML]**&#x200B;功能表插入標籤。
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 傳送校樣的程式與任何傳送的程式相同。
 
-↗️進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}中的校樣
+![](../assets/do-not-localize/book.png) 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}中的校樣
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 

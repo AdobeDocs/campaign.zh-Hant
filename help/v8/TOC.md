@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: Campaign v8
+breadcrumb-title: 促銷活動v8
 title: Campaign v8 文件
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 98%
 
 ---
 

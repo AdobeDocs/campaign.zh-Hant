@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 1. 將應用程式的iOS和Android版本新增至此服務。
 1. 建立iOS和Android的傳送。
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}中了解如何開始使用行動應用程式
+![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中了解如 [何開始使用行動應用程式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
 
 ## 與AdobeSDK整合
 
@@ -33,25 +33,25 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 相容的SDK版本列在[Campaign相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中。
 
-??在[本小節](../config/push-config.md)中了解如何將Campaign Android和iOS SDK與您的應用程式整合
+![](../assets/do-not-localize/glass.png) 在本小節中了解如何將Campaign Android和iOS SDK與您的應用程 [式整合](../config/push-config.md)
 
 ### 在Launch中設定Campaign擴充功能
 
 您可以善用Campaign Classic擴充功能，將Adobe Experience Platform Launch SDK與Campaign整合。
 
-↗️進一步了解[Adobe行動SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 進一步了 [解Adobe行動SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
 
 ## 在Campaign中配置您的應用程式設定
 
 您必須在Adobe Campaign中定義iOS和Android應用程式設定。
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}中詳細說明iOS的配置指南
+![](../assets/do-not-localize/book.png) iOS的設定准則在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}中有詳細說明
 
-↗️[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}中詳細說明Android的配置准則
+![](../assets/do-not-localize/book.png) Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中會詳](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)細說明Anddroid的設定准則
 
 ## 建立您的第一個推播通知
 
-本節詳細說明iOS和Android通知傳送的特定元素。
+本節詳細說明傳送iOS和Android通知的特定元素。
 
 >[!CAUTION]
 >
@@ -61,7 +61,7 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 ![](assets/delivery_step_1.png)
 
-↗️有關如何建立傳遞的全域資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 如需如何建立傳送的全域資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### 在iOS上傳送通知 {#send-notifications-on-ios}
 
@@ -129,15 +129,15 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 若要傳送校樣並傳送最終傳送，請使用與電子郵件傳送相同的程式。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 驗證傳遞並傳送校樣
-↗️ [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [了解驗證傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}的關鍵步驟
 
 * 確認並傳送傳送
-↗️ [了解傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}的關鍵步驟
+   ![](../assets/do-not-localize/book.png) [了解傳送傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}的關鍵步驟
 
 傳送訊息後，您可以監控及追蹤您的傳送。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 推播通知隔離
-↗️ [進一步了解推播通知隔離](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [深入了解推播通知隔離](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * 疑難排解
-↗️ [了解如何疑難排解推播通知](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [了解如何疑難排解推播通知](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;}

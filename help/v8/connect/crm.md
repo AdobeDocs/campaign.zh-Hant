@@ -4,8 +4,7 @@ description: 了解如何使用Campaign和您的CRM
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 25%
@@ -30,11 +29,11 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 ## 實施步驟 {#crm-implementation-steps}
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)中了解連接Campaign和Microsoft Dynamics的逐步程式
+![](../assets/do-not-localize/book.png) 在Microsoft v7檔案中了解連接Campaign和Campaign Classic Dynamics的 [逐步程式](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)中了解連接Campaign和Salesforce的逐步程式
+![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中了解連接Campaign和Salesforce的逐 [步程式](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
-Adobe Campaign和CRM之間的資料同步是透過專用的工作流程活動執行。 建置您的工作流程，以自動同步Campaign和CRM。 您可以建立工作流程，該工作流程會透過Microsoft Dynamics匯入聯絡人、將其與現有的Adobe Campaign資料同步、刪除重複的聯絡人，然後更新Adobe Campaign資料庫。
+Adobe Campaign和CRM之間的資料同步是透過專用的工作流程活動執行。 建置您的工作流程，以自動同步Campaign和CRM。 您可以建立工作流程，透過Microsoft Dynamics匯入聯絡人、與現有Adobe Campaign資料同步、刪除重複的聯絡人，然後更新Adobe Campaign資料庫。
 
-↗️ 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started) 中深入瞭解
+![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started) 中深入瞭解

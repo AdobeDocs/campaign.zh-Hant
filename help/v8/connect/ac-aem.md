@@ -4,7 +4,7 @@ description: 了解如何使用Campaign和Adobe Experience Manager
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -19,9 +19,8 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 這表示您可充分運用Adobe Experience Manager內容編輯功能和Adobe Campaign傳送功能。
 
-↗️ [了解更多資訊，請參閱本檔案](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+![](../assets/do-not-localize/book.png) [了解更多資訊](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
 
-↗️ [在此端對端範例中探索此整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) [在此端對端範例中探索此整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Experience Manager與Campaign整合。
-

@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 5%
@@ -119,7 +119,7 @@ ht-degree: 5%
    * **[!UICONTROL Title]** :指定您要在選件中顯示的標題。警告：這並非指在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義的選件標籤。
    * **[!UICONTROL Destination URL]** :指定您選件的URL。它必須以&quot;http://&quot;或&quot;https://&quot;開頭。
    * **[!UICONTROL Image URL]** :指定選件影像的URL或存取路徑。
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** :在您想要的索引標籤中輸入優惠方案的內文。若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由HTML元素組成，這些元素可封閉在`<div>`類型元素中。 例如，HTML頁面中`<table>`元素的結果如下：
+   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** :在您想要的索引標籤中輸入優惠方案的內文。若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可封閉在`<div>`類型元素中的HTML元素組成。 例如，HTML頁面中`<table>`元素的結果如下：
 
    ```
       <div> 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 您現在可以核准並啟動優惠方案，以便在&#x200B;**Live**&#x200B;環境中使用。
 
-↗️ 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## 管理優惠方案簡報{#offer-presentation}
 
 Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是「促銷活動互動」專屬的規則是&#x200B;**類型規則**。 它們可讓您根據已向收件者提出的主張的歷史，排除優惠方案。 環境會參考這些參數。
 
-↗️ 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## 優惠方案模擬
 
@@ -196,4 +196,4 @@ Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是�
 
 模擬會考慮先前套用至優惠方案的內容和適用性規則及其呈現規則。 這可讓您測試和調整優惠方案主張的各種版本，而不實際使用優惠方案或過度/不斷索取目標，因為模擬對目標收件者沒有影響。
 
-↗️如需優惠方案模擬的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+![](../assets/do-not-localize/book.png) 如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

@@ -4,8 +4,7 @@ description: 了解如何使用Campaign和外部資料庫
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -96,7 +95,7 @@ ht-degree: 3%
 
 對於[!DNL Snowflake]，連接器支援以下選項：
 
-| 選項 | 說明 |
+| Option | 說明 |
 |---|---|
 | 工作架構 | 用於工作表的資料庫架構 |
 | 倉儲 | 要使用的預設倉庫的名稱。 它會覆寫使用者的預設值。 |
@@ -187,7 +186,7 @@ ht-degree: 3%
 
 |   | Snowflake | Amazon Redshift |
 |:-:|:-:|:-:|
-| **連接到遠程資料庫** | 倉庫使用、資料庫使用和方案權限使用 | 建立連結到AWS帳戶的用戶 |
+| **連接到遠程資料庫** | 倉庫使用、資料庫使用和方案權限使用 | 建立連結至AWS帳戶的使用者 |
 | **建立表格** | 建立方案權限表 | 建立權限 |
 | **建立索引** | N/A | 建立權限 |
 | **建立函式** | 建立架構權限的函式 | USAGE ON LANGUAGE plpythonu特權可調用外部python指令碼 |

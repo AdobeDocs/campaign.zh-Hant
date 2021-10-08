@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **退回郵件**&#x200B;外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 所有為POP3訪問配置的伺服器都可用於接收返回郵件。
 
-   ↗️進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}中的傳入電子郵件
+   ![](../assets/do-not-localize/book.png) 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}中的傳入電子郵件
 
 * **路由**
 
@@ -54,7 +54,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    在交易式訊息傳送的內容中，執行例項會連結至控制例項並加以連結。 交易式訊息範本會部署至執行例項。
 
-   ??在[本頁](../dev/architecture.md#transac-msg-archi)中了解有關郵件中心體系結構的更多資訊。
+   ![](../assets/do-not-localize/glass.png) 在本頁面中了解更多訊息中 [心架構](../dev/architecture.md#transac-msg-archi)。
 
 ## 訪問外部系統外部帳戶
 
@@ -64,28 +64,28 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    與Adobe Campaign v8相容的外部資料庫列在[相容性矩陣](../start/compatibility-matrix.md)中
 
-   ??深入了解同盟資料存取(FDA)選項，請參閱[本節](../connect/fda.md)。
+   ![](../assets/do-not-localize/glass.png) 了解更多同盟資料存取(FDA)選項，請參 [閱本節](../connect/fda.md)。
 
 ## Adobe解決方案整合外部帳戶
 
 * **Adobe Experience Cloud**
 
-   **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶用於實作AdobeIMS，以使用Adobe ID連線至Adobe Campaign主控台。
+   **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶是實作Adobe IMS，以使用Adobe ID連線至Adobe Campaign主控台。
 
-   ??[此小節](../start/connect.md#connect-ims)深入了解AdobeIdentity Management服務(IMS)。
+   ![](../assets/do-not-localize/glass.png) 了解更多AdobeIdentity Management服務(IMS)，請參 [閱本節](../start/connect.md#connect-ims)。
 
 * **網站分析**
 
    使用&#x200B;**[!UICONTROL Web Analytics (Adobe Analytics)]**&#x200B;外部帳戶來設定從Adobe Analytics到Adobe Campaign的資料傳輸。
 
-   ??深入了解[本頁面](../connect/ac-aa.md)中的Adobe Campaign - Adobe Analytics整合。
+   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aa.md)。
 
    ??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Analytics與Campaign整合。
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]**&#x200B;外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
 
-   ??深入了解[本頁面](../connect/ac-aem.md)中的Adobe Campaign - Adobe Analytics整合。
+   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aem.md)。
 
    ??以「受管Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以整合Adobe Experience Manager與Adobe Campaign。
 
@@ -96,15 +96,15 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    **[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部帳戶可讓您將Microsoft Dynamics資料匯入和匯出至Adobe Campaign。
 
-   ??深入了解Adobe Campaign — 在[本頁面](../connect/crm.md)中整合Microsoft Dynamics CRM。
+   ![](../assets/do-not-localize/glass.png) 了解更多Adobe Campaign - Microsoft Dynamics CRM整合，請參 [閱本頁](../connect/crm.md)。
 
    使用&#x200B;**[!UICONTROL Web API]**&#x200B;部署類型和&#x200B;**[!UICONTROL Password credentials]**&#x200B;身份驗證時，您需要提供以下詳細資訊：
 
-   * **[!UICONTROL Account]**:用於登入Microsoft CRM的帳戶。
+   * **[!UICONTROL Account]**:用來登入Microsoft CRM的帳戶。
 
    * **[!UICONTROL Server]**:Microsoft CRM伺服器的URL。
 
-   * **[!UICONTROL Client identifier]**:可從類別「 」欄位中的Microsoft Azure管理入口網站找 **[!UICONTROL Update your code]** 到用 **[!UICONTROL Client ID]** 戶端ID。
+   * **[!UICONTROL Client identifier]**:可從類別欄位中的Microsoft Azure管理入口網站找 **[!UICONTROL Update your code]** 到用戶 **[!UICONTROL Client ID]** 端ID。
 
    * **[!UICONTROL CRM version]**:介於、或之間 **[!UICONTROL Dynamics CRM 2007]**&#x200B;的 **[!UICONTROL Dynamics CRM 2015]** CRM版 **[!UICONTROL Dynamics CRM 2016]**&#x200B;本。
    使用&#x200B;**[!UICONTROL Web API]**&#x200B;部署類型和&#x200B;**[!UICONTROL Certificate]**&#x200B;身份驗證時，您需要提供以下詳細資訊：
@@ -117,7 +117,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    * **[!UICONTROL Key ID]**
 
-   * **[!UICONTROL Client identifier]**:可從類別「 」欄位中的Microsoft Azure管理入口網站找 **[!UICONTROL Update your code]** 到用 **[!UICONTROL Client ID]** 戶端ID。
+   * **[!UICONTROL Client identifier]**:可從類別欄位中的Microsoft Azure管理入口網站找 **[!UICONTROL Update your code]** 到用戶 **[!UICONTROL Client ID]** 端ID。
 
    * **[!UICONTROL CRM version]**:介於、或之間 **[!UICONTROL Dynamics CRM 2007]**&#x200B;的 **[!UICONTROL Dynamics CRM 2015]** CRM版 **[!UICONTROL Dynamics CRM 2016]**&#x200B;本。
 
@@ -142,7 +142,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 這些外部帳戶可用於使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。
 
-↗️深入了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}中工作流程的檔案傳輸
+![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)進一步了解工作流程中的檔案傳輸
 
 * **FTP和SFTP**
 
@@ -155,11 +155,11 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    * **[!UICONTROL AWS S3 Account Server]**:伺服器的URL，填入如下：    ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**:在Amazon檔案中了解如何找到您的AWS存取 [密鑰ID](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) 。
+   * **[!UICONTROL AWS access key ID]**:在AWS檔案中了解如何尋找您的Amazon存取 [關鍵ID](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) 。
 
-   * **[!UICONTROL Secret access key to AWS]**:在Amazon檔案中了解如何找到AWS的秘密存 [取金鑰](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
+   * **[!UICONTROL Secret access key to AWS]**:在AWS檔案中了解如何找到您的Amazon秘密存 [取金鑰](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
 
-   * **[!UICONTROL AWS Region]**:在Amazon檔案中進一步了 [解AWS地區](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
+   * **[!UICONTROL AWS Region]**:進一步了解AWS地區的 [Amazon檔案](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
 
    * **[!UICONTROL Use server side encryption]**&#x200B;核取方塊可讓您以S3加密模式儲存檔案。 在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)中了解如何尋找存取金鑰ID和秘密存取金鑰。
 
@@ -171,4 +171,4 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    * **[!UICONTROL Encryption]**:或之間的加 **[!UICONTROL None]** 密類 **[!UICONTROL SSL]**&#x200B;型。
 
-   * **[!UICONTROL Access key]**:在Microsoft文檔中了 **[!UICONTROL Access key]** 解 [如何查找](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。
+   * **[!UICONTROL Access key]**:在Microsoft檔案中 **[!UICONTROL Access key]** 了解 [如何尋找](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。

@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 2%
@@ -28,7 +28,7 @@ CampaignCloud Service提供的三種環境類型：
 
 您可以將套件從一個環境匯出並匯入至另一個環境。
 
-↗️進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)中的套件
+![](../assets/do-not-localize/book.png) 進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## 中間來源部署{#mid-sourcing-deployment}
 
@@ -49,7 +49,7 @@ CampaignCloud Service提供的三種環境類型：
 
 異動訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
-??了解如何在[本小節](../send/transactional.md)中傳送交易式訊息。
+![](../assets/do-not-localize/glass.png) 在本小節中了解如何傳送交 [易式訊息](../send/transactional.md)。
 
 為了回應客戶在網站上的動作，事件會透過REST API傳送Campaign，而訊息範本會填入透過API呼叫提供的資訊或資料，而交易式訊息會即時傳送給客戶。 這些訊息可以個別傳送，或透過電子郵件、簡訊或推播通知分批傳送。
 
@@ -57,7 +57,7 @@ CampaignCloud Service提供的三種環境類型：
 
 * 行銷人員和IT團隊會使用&#x200B;**控制例項**（或行銷例項）來建立、設定和發佈訊息範本。 此例項也會集中事件監控和歷史記錄。
 
-   ??了解如何在[此小節](../send/transactional.md)中建立和發佈訊息範本。
+   ![](../assets/do-not-localize/glass.png) 在本小節中了解如何建立和發佈 [訊息範本](../send/transactional.md)。
 
 * **執行實例**&#x200B;會檢索傳入事件（例如密碼重置或來自網站的訂單）併發送個性化消息。 可以有多個執行實例通過負載平衡器處理消息，並縮放要進行的事件數以實現最大可用性。
 
@@ -78,4 +78,4 @@ CampaignCloud Service提供的三種環境類型：
 * 多個執行實例
 在負載平衡器後面具有多個執行實例的多小區執行體系結構中，外部應用程式調用的登錄方法正在通過負載平衡器：因此，無法使用以權杖為基礎的驗證。 需要基於用戶/密碼的身份驗證。
 
-↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)中進一步了解交易式訊息事件
+![](../assets/do-not-localize/book.png) 進一步了解Campaign Classicv7檔案中 [的交易式訊息事件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)

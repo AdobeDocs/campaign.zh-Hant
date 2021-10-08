@@ -2,9 +2,9 @@
 title: 行銷活動輸入表單
 description: 了解如何自訂輸入表單
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 依預設，每個欄位會顯示在單一行上，並根據資料類型佔據所有可用空間。
 
-↗️所有表單屬性都列在[Campaign Classicv7檔案](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)中。
+![](../assets/do-not-localize/book.png) 所有表單屬性都列 [在Campaign Classicv7檔案中](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html)。
 
 ## 格式 {#formatting}
 
-控制項的佈局類似於在HTML表中使用的佈局，可以將控制項劃分為多列、交錯元素或指定可用空間的佔用。 但請記住，格式設定只能讓您將區域按比例劃分；不能為對象指定固定維。
+控制項的佈局類似於在HTML表中使用的佈局，可將控制項分成多列、交錯元件或指定佔用可用空間。 但請記住，格式設定只能讓您將區域按比例劃分；不能為對象指定固定維。
 
 要以兩列顯示上述示例的控制項：
 

@@ -2,10 +2,10 @@
 title: 一般架構
 description: 進一步了解Campaign架構和元件
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 * **資料庫容器**
 
-   Adobe Campaign雲端資料庫以關係資料庫技術為基礎，儲存所有客戶資訊、促銷活動元件、選件和工作流程，以及促銷活動結果於客戶資料庫容器中。
+   Adobe Campaign雲端資料庫以關係資料庫技術為基礎，儲存所有客戶資訊、促銷活動元件、選件和工作流程，以及促銷活動結果，並放在客戶資料庫容器中。
 
 ## 個人化用戶端環境 {#client-env}
 
@@ -31,15 +31,15 @@ ht-degree: 8%
 
 * **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
-   ?? [進一步瞭解 Campaign 用戶端控制台](../start/connect.md)。
+   ![](../assets/do-not-localize/glass.png) [進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
 
-* **Web訪問**:應用程式的部分可透過簡單的網頁瀏覽器使用HTML使用者介面來存取，包括報表模組、傳送核准階段、執行個體監控等。
+* **Web訪問**:應用程式的某些部分可使用HTML用戶介面（包括報告模組、傳遞審批階段、實例監視等）通過簡單的Web瀏覽器進行訪問。
 
-   ?? [進一步瞭解 Campaign 網頁存取](../start/connect.md)。
+   ![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 網頁存取](../start/connect.md)。
 
 * **促銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
 
-   ??[進一步了解Campaign API](../dev/api.md)。
+   ![](../assets/do-not-localize/glass.png) [深入了解Campaign API](../dev/api.md)。
 
 ## 開發環境 {#dev-env}
 
@@ -57,7 +57,7 @@ Adobe Campaign是具有不同應用程式的單一平台，可建立開放且可
 
 **應用程式伺服器** (nlserver web)
 
-此程式會透過網站服務API(SOAP / HTTP + XML)公開Adobe Campaign的完整功能。 此外，它可以動態產生用於HTML型存取（報表、網頁表單等）的網頁。 為此，此過程包括Apache Tomcat JSP伺服器。 這是控制台連接的過程。
+此程式會透過網站服務API(SOAP / HTTP + XML)公開Adobe Campaign的完整功能。 此外，它可動態產生用於HTML存取的網頁（報表、網頁表單等）。 為此，此過程包括Apache Tomcat JSP伺服器。 這是控制台連接的過程。
 
 **工作流引擎** (nlserver wfserver)
 
@@ -124,6 +124,6 @@ Adobe Campaign雲端資料庫仰賴[!DNL Snowflake]，其中包含功能資料�
 
 >[!CAUTION]
 >
->若使用&#x200B;**Campaign 托管 Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
+>若使用&#x200B;**促銷活動托管Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。

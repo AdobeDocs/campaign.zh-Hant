@@ -4,7 +4,7 @@ description: 開始使用Campaign報表功能
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
+source-git-commit: 2e192f3a9a8189a4dc686dc4a57eee03f83d75bc
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
    ![](assets/built-in-reports.png)
 
-   ↗️促銷活動內建報表顯示在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}中
+   ![](../assets/do-not-localize/book.png) Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html)顯示促銷活動內建報表
 
 * **描述性資料分析**
 
@@ -35,13 +35,13 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
    ![](assets/desc-analysis-report.png)
 
-   ↗️促銷活動描述性分析報表顯示在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}中
+   ![](../assets/do-not-localize/book.png) Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中會顯](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html)示促銷活動描述性分析報告
 
 * **個人化報表**
 
    使用Adobe Campaign建立資料庫中資料的報表。 建立後，請在適當的內容中使其可存取。
 
-   ↗️在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}中詳細說明建立報表的步驟。 個人化報表建立會保留給進階使用者。
+   ![](../assets/do-not-localize/book.png) 建立報表的步驟在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}中有詳細說明。個人化報表建立會保留給進階使用者。
 
 * **立方體**
 
@@ -51,8 +51,7 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
    根據查詢、計算和卷的複雜性，這些報告中分析的資料可透過查詢收集，並預先匯總到清單（資料管理類型工作流程）或多維資料集（使用Marketing Analytics）中。 它將以透視表或組清單的形式顯示。
 
-   ↗️了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}中建立多維資料集
+   ![](../assets/do-not-localize/book.png) 了解如何在 [Campaign Classicv7檔案中建立多維資料集](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
 
 
 請注意，Adobe Campaign 報告已最佳化，且提供比 Campaign Classic v7 更好的擴充功能。 對立方體的現有限制不適用。
-

@@ -2,7 +2,7 @@
 title: 擴充Campaign綱要
 description: 了解如何擴充Campaign綱要
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CAUTION]
 >內建架構不能直接修改。 如果您需要調整內建結構，則必須擴充它。
 
-??如需深入了解Campaign內建表格及其互動，請參閱[此頁面](datamodel.md)。 另請參閱在[此頁面](create-schema.md)中建立新架構時的建議。
+![](../assets/do-not-localize/glass.png) 如需深入了解Campaign內建表格及其互動，請參閱 [本頁面](datamodel.md)。另請參閱在[此頁面](create-schema.md)中建立新架構時的建議。
 
 若要擴充結構，請遵循下列步驟：
 
