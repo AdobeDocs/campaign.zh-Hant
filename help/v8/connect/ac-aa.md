@@ -4,7 +4,8 @@ description: 了解如何整合Campaign與Analytics
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 75%
@@ -17,7 +18,7 @@ ht-degree: 75%
 
 此整合可讓Adobe Campaign和Adobe Analytics透過&#x200B;**Web Analytics連接器**&#x200B;附加元件互動。 此整合會將Adobe Campaign所傳送電子郵件促銷活動的指標和屬性傳送至Adobe Analytics。
 
-??以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連結。 您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
+![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web Analytics)。 網頁分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 

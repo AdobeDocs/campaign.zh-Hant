@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 11%
@@ -22,7 +22,7 @@ Adobe Campaign隨附數個連接器，可讓您與外部應用程式通訊、連
 
 最新化實作，並運用所有Adobe Experience Cloud功能。
 
-??以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連結。
+![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。
 
 Campaign v8可以與：
 

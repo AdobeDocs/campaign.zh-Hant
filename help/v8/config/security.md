@@ -2,7 +2,7 @@
 title: Campaign安全性最佳實務
 description: 開始使用Campaign安全性最佳實務
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 * 請確定加密密碼受限
 * Protect可能包含個人資訊的頁面，例如鏡像頁面、網頁應用程式等。
 
-??身為受管Cloud Services使用者，Adobe會與您合作，在您的環境中實作這些設定。
+![](../assets/do-not-localize/speech.png)  身為受管Cloud Services使用者，Adobe會與您合作，在您的環境中實作這些設定。
 
 ## 個人化
 

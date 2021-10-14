@@ -1,10 +1,11 @@
 ---
-title: 使用Campaign和Adobe Target
+title: Work with Campaign and Adobe Target
 description: 了解如何使用Campaign和Adobe Target
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 1%
@@ -18,9 +19,9 @@ ht-degree: 1%
 此整合可協助您實作使用案例，如下所示：收件者開啟透過Adobe Campaign傳送的電子郵件時，對Adobe Target的呼叫可讓您顯示內容的動態版本。 此動態版本的計算方式取決於建立電子郵件時預先指定的規則。
 
 >[!NOTE]
->整合僅支援靜態影像。 其他類型的內容無法個人化。
+>The integration only supports static images. 其他類型的內容無法個人化。
 
-??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以使用Campaign實作Experience Cloud觸發器。
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
 
 下列資料類型可供Adobe Target使用：
 
@@ -32,17 +33,17 @@ ht-degree: 1%
 
 在下列範例中，您將學習如何將&#x200B;**動態選件**&#x200B;從Adobe Target整合至Adobe Campaign電子郵件。
 
-我們想要建立訊息，其影像會根據收件者的國家/地區動態變更。 資料會隨每個mbox請求一併傳送，且會依訪客的IP位址而定。
+We want to create a message with an image that will dynamically change according to the recipient&#39;s country. The data is sent with each mbox request and depends on the visitor&#39;s IP address.
 
-在這封電子郵件中，我們希望其中一張影像會依下列使用者體驗而動態變化：
+In this email, we want one of the images to vary dynamically according to the following user-experiences:
 
-* 電子郵件在法國開啟。
+* The email is opened in France.
 * 電子郵件在美國開啟。
 * 如果這些條件皆不適用，則會顯示預設影像。
 
 ![](assets/target_4.png)
 
-Adobe Campaign和Adobe Target需要採取下列步驟：
+THe following steps need to be achieved in Adobe Campaign and Adobe Target:
 
 1. [在電子郵件中插入動態優惠方案](#inserting-dynamic-offer)
 1. [建立重新導向選件](#create-redirect-offers)
@@ -54,7 +55,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 在Adobe Campaign中，定義目標和電子郵件內容。 您可以從Adobe Target插入動態影像。
 
-若要這麼做，請指定預設影像的URL、位置名稱，以及您要傳輸至Adobe Target的欄位。
+To do this, specify the default image&#39;s URL, the location name, and the fields you want to transfer to Adobe Target.
 
 在Adobe Campaign中，有兩種方式可從Target將動態影像插入電子郵件：
 
@@ -77,7 +78,7 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 ![](assets/target_13.png)
 
-### 建立重新導向選件 {#create-redirect-offers}
+### Create redirect offers {#create-redirect-offers}
 
 在Adobe Target中，您可以建立不同版本的優惠方案。 您可以根據每個使用者體驗來建立重新導向選件，並指定要顯示的影像。
 
@@ -113,27 +114,27 @@ Adobe Campaign和Adobe Target需要採取下列步驟：
 
 ### 建立體驗鎖定目標活動 {#creating-targeting-activity}
 
-在Adobe Target中，我們需要建立體驗鎖定目標活動、定義不同的體驗，並將它們與對應的選件建立關聯。
+In Adobe Target, we need to create an Experience Targeting activity, define the different experiences, and associate them with the corresponding offers.
 
 首先，您需要定義對象：
 
-1. 若要建立體驗鎖定目標活動，請從&#x200B;**[!UICONTROL Activities]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Create Activity]**，然後按一下&#x200B;**[!UICONTROL Experience Targeting]**。
+1. To create an Experience Targeting activity, from the **[!UICONTROL Activities]** tab, click **[!UICONTROL Create Activity]** then **[!UICONTROL Experience Targeting]**.
 
    ![](assets/target_10.png)
 
 1. 選擇&#x200B;**[!UICONTROL Form]**&#x200B;作為&#x200B;**[!UICONTROL Experience Composer]**。
 
-1. 按一下&#x200B;**[!UICONTROL Change audience]**&#x200B;按鈕以選擇對象。
+1. Choose an audience by clicking the **[!UICONTROL Change audience]** button.
 
    ![](assets/target_10_2.png)
 
-1. 選取在前述步驟中建立的對象。
+1. Select the audience that was created in the previous steps.
 
    ![](assets/target_10_3.png)
 
-1. 按一下&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以建立其他體驗。
+1. Create another experience by clicking **[!UICONTROL Add Experience Targeting]**.
 
-然後為每個對象新增內容：
+Then add a content for each audience:
 
 1. 在Adobe Campaign中插入動態選件時，選取您選取的位置名稱。
 

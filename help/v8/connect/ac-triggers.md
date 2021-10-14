@@ -4,7 +4,8 @@ description: 了解如何使用Campaign和Adobe Experience Cloud觸發程式
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -17,4 +18,4 @@ ht-degree: 0%
 
 深入了解[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)上的Adobe Campaign和Experience Cloud觸發器。
 
-?? 以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以使用Campaign實作Experience Cloud觸發器。
+![](../assets/do-not-localize/speech.png)   以受管理Cloud Services使用者的身 [分，](../start/campaign-faq.md#support) 聯絡Adobe以透過Campaign實作Experience Cloud觸發器。

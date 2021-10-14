@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 這些訊息是從資訊系統觸發的事件產生，可以是：例如，發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單或網站帳戶建立。
 
-??以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定「促銷活動交易訊息」。
+![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
 
 交易式訊息用於傳送：
 

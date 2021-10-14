@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 異動訊息設定
 
-??以「受管理Cloud Services」使用者的身分，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定「促銷活動交易訊息」。
+![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
 
 ![](../assets/do-not-localize/glass.png) 本節將詳細說明交易式 [訊息功能](../send/transactional.md)。
 

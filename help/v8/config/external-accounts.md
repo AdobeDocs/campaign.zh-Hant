@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 
 Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
-??以「受管理Cloud Services」使用者的身分，Adobe會為您設定所有促銷活動專用的外部帳戶。
+![](../assets/do-not-localize/speech.png)  以「受管理Cloud Services」使用者的身分，Adobe會為您設定所有促銷活動專用的外部帳戶。
 
 * **退回郵件(POP3)**
 
@@ -80,14 +80,14 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
    ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aa.md)。
 
-   ??以「受管理的Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Analytics與Campaign整合。
+   ![](../assets/do-not-localize/speech.png)  以受管Cloud Services使用者身 [分](../start/campaign-faq.md#support) 聯絡Adobe，將Adobe Analytics與Campaign整合。
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]**&#x200B;外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
 
    ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在本頁 [的整合](../connect/ac-aem.md)。
 
-   ??以「受管Cloud Services」使用者身分，[聯絡Adobe](../start/campaign-faq.md#support)以整合Adobe Experience Manager與Adobe Campaign。
+   ![](../assets/do-not-localize/speech.png)  以受管Cloud Services使用者的身 [分](../start/campaign-faq.md#support) 聯絡Adobe，將Adobe Experience Manager與Adobe Campaign整合。
 
 
 ## CRM連接器外部帳戶

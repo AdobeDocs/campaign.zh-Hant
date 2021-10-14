@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Adobe Campaign隨附內建運算元群組，例如促銷活動管理員或工作
 
 操作員從控制台中的配置檔案連結到安全區域，可在&#x200B;**[!UICONTROL Administration > Access management > Operators]**&#x200B;節點中訪問。
 
-??作為托管Cloud Services用戶，Adobe會為您設定安全區域。 如需詳細資訊，請[連絡Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶，Adobe會為您設定安全區域。如需詳細資訊，請[連絡Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
 **在 Campaign Classic v7 文件** 中深入瞭解
 
