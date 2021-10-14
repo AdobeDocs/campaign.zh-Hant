@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: 促銷活動v8
 title: Campaign v8 文件
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+source-wordcount: '208'
+ht-degree: 97%
 
 ---
 
@@ -85,6 +85,7 @@ ht-degree: 98%
       + [金鑰管理和唯一性](dev/keys.md)
       + [建立方案](dev/create-schema.md)
       + [擴充方案](dev/extend-schema.md)
+      + [篩選結構](dev/filter-schema.md)
       + [方案結構](dev/schema-structure.md)
       + [資料庫對應](dev/database-mapping.md)
       + [限制 PI 檢視](dev/restrict-pi-view.md)
