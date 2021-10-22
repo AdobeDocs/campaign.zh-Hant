@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->若使用&#x200B;**促銷活動托管Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 您不得修改已安裝的內建套件、內建方案或報告。
+>若使用 **Campaign Managed Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
 
@@ -49,7 +49,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 ### 新增使用者並授與權限
 
-您可以手動將使用者新增至Campaign，並與群組建立關聯，並與您的角色階層保持一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
+您可以手動將使用者新增至 Campagin，並將他們與群組建立關聯，並使其與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
 ![](../assets/do-not-localize/book.png)在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started){target=&quot;_blank&quot;} 中瞭解如何新增使用者至 Adobe Campaign。
 
@@ -69,7 +69,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    ![](../assets/do-not-localize/glass.png) [瞭解如何匯入設定檔](import.md)。
 
-   對象會分組為清單，並可透過工作流程建立。 然後，您就可以在跨頻道傳遞中鎖定這些目標。
+   對象會分組到清單中，並可透過工作流程建立。 然後，您就可以在跨頻道傳遞中鎖定這些目標。
 
    ![](../assets/do-not-localize/glass.png) [瞭解如何定義對象](audiences.md)。
 
