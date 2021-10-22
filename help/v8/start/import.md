@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-![](../assets/do-not-localize/glass.png) 開始使用 [對象](audiences.md)
+![](../assets/do-not-localize/glass.png) 開始使用[ Audiences](audiences.md)
 
-![](../assets/do-not-localize/glass.png) 了解Campaign資料 [模型](../dev/datamodel.md)
+![](../assets/do-not-localize/glass.png)瞭解 Campaign [資料模型](../dev/datamodel.md)
 
 ## 在工作流程中匯入設定檔
 
