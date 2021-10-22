@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Campaign 使用者不需要成為資料庫專家：不再需要複雜的資料�
 
 Campaign 使用者透過其 Adobe ID 連線。 相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe 計畫和產品。
 
-![](../assets/do-not-localize/glass.png) 在本頁面中了解如 [!DNL Campaign] 何 [連線至](connect.md)。
+![](../assets/do-not-localize/glass.png)瞭解在[此頁面](connect.md)如何連結到[!DNL Campaign].。
 
 ## 報告
 
@@ -85,7 +85,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 
 **[!UICONTROL Change data source]**&#x200B;活動可讓您變更工作流程的資料來源&#x200B;**[!UICONTROL Working table]**，以管理不同資料來源 (例如FDA、FFDA 和本機資料庫) 的資料。
 
-![](../assets/do-not-localize/glass.png) 深入了解 **[!UICONTROL Change data source]** 本頁 [的活動](../config/workflows.md#change-data-source-activity)。
+![](../assets/do-not-localize/glass.png)**[!UICONTROL Change data source]**&#x200B;在[本頁面](../config/workflows.md#change-data-source-activity)瞭解活動的更多資訊。
 
 ## 未提供的功能{#gs-unavailable-features}
 
