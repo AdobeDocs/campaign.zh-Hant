@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 用戶端主控台{#ClientConsoleoperatingsystems}
 
-使用 Campaign 用戶端主控台時，需要使用下列作業系統和瀏覽器。[深入瞭解](connect.md)。
+使用 Campaign 用戶端主控台時，需要下列作業系統和瀏覽器。[深入瞭解](connect.md)。
 
 ### 作業系統
 
@@ -33,18 +33,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Campaign伺服器和用戶端主控台必須使用相同版本。 [了解如何檢查您的版本](#version)。
+>Adobe Campaign 伺服器和用戶端主控台必須使用相同版本。 [瞭解如何檢查您的版本](#version)。
 
 ## CRM 連接器{#CRMconnectors}
 
-與Adobe Campaign相容的客戶關係管理(CRM)系統列於下方。 [深入瞭解](../connect/crm.md)。
+與 Adobe Campaign 相容的客戶關係管理 (CRM) 系統列於下方。 [深入瞭解](../connect/crm.md)。
 
 * **Salesforce** 連接器 API 49 版本
 * **Microsoft Dynamics** 連接器、Web API：Dynamics 365 內部部署與線上
 
 ## 同盟資料存取 (FDA){#FederatedDataAccessFDA}
 
-與Adobe Campaign同盟資料存取(FDA)模組相容的外部資料庫列於下方。 [深入瞭解](../connect/fda.md)。
+與 Adobe Campaign 同盟資料存取 (FDA) 模組相容的外部資料庫列於下方。 [深入瞭解](../connect/fda.md)。
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -53,14 +53,14 @@ ht-degree: 0%
 
 ## 行動 SDK{#MobileSDK}
 
-您可以使用Campaign，透過相關聯的行動SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
+您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
 * **Android** 7.x、8.x、9.0 (含 Campaign Android SDK 版本編號 1.1.1)。
 * **Apple iOS** 9 - 14 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。
 
 ## 網路存取
 
-下列瀏覽器與[Web Access](connect.md#web-access)的Campaign相容。
+下列瀏覽器與 Campaign for [Web Access](connect.md#web-access) 相容。
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** (最新版本)
 
