@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   ![](../assets/do-not-localize/speech.png) 作為「受管理的 Cloud Services」使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。
+   ![](../assets/do-not-localize/speech.png) 作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。
 
 1. **如何連線至 Campaign v8？**
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
    子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
 
-   ![](../assets/do-not-localize/speech.png) 請以「受管理的 Cloud Services」使用者 身分聯絡 Adobe 以委派您的子網域至 Adobe。
+   ![](../assets/do-not-localize/speech.png) 請以 Managed Cloud Services 使用者身分，聯絡 Adobe 以委派您的子網域至 Adobe。
 
 1. **身為 Campaign Classic v7 使用者，我可以移轉至 Campaign v8 嗎？**
 
