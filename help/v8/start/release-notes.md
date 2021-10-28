@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
+source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 49%
+source-wordcount: '1574'
+ht-degree: 50%
 
 ---
 
@@ -68,7 +68,6 @@ _2021年10月28日_
 **功能改善**
 
 * Snowflake連接器效能已改善。
-* 在伺服器配置檔案(serverConf.xml)中，您現在可以根據方案在更新和提交複製之間設定等待時間（每個架構）。
 * 為了監控和測試之目的， **[!UICONTROL Replicate Staging data]** 工作流程現在包含已傳送至FFDA（完整同盟資料存取）資料庫的記錄數。
 * SQL代碼活動現在允許您選擇SQL指令碼將儲存在哪個資料庫中：預設資料來源或選擇的有效FDA外部帳戶。
 * 一組預先定義的倉庫現在可用，並可用於並行運行各種查詢，如分段、ETL或峰值。 [了解更多](../config/workflows.md)
