@@ -6,16 +6,102 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
-source-wordcount: '756'
-ht-degree: 100%
+source-git-commit: 0061c536ff309d86061548b98d2c6e1124e01a0e
+workflow-type: tm+mt
+source-wordcount: '1597'
+ht-degree: 49%
 
 ---
 
 # 最新發行版本{#latest-release}
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
+
+## 第 8.2.1 發行版本 {#release-8-2-1}
+
+_2021年10月28日_
+
+<table>
+<thead>
+<tr>
+<th><strong>入站互動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>傳入頻道現在提供即時互動管理。 使用Campaign入站互動模組，在客戶造訪您的網站或聯絡您的客服中心時，向客戶呈現最佳優惠方案。 此功能隨附Campaign v8作為選項，且需要您執行個體的特定設定。 請洽詢您的Adobe代表，以存取入站互動模組。</p>
+<p>如需詳細資訊，請參閱<a href="../send/interaction-architecture.md">詳細文件</a>以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>行銷活動最佳化</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>促銷活動最佳化模組現已可用。 此模組可讓您控制、篩選及監控傳送的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這可確保傳送的訊息符合客戶的需求和期望，以及公司通訊政策。</p>
+<p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classicv7檔案</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+<table> 
+<thead>
+<tr> 
+<th> <strong>Unicity服務</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Unicity Service是新的Cloud Database Manager元件。 它可協助使用者保留及監控雲端資料庫表格中唯一索引鍵限制的完整性。 這可讓您降低插入重複金鑰的風險。
+<p>由於雲資料庫不強制執行唯一性約束，Unicity Service在應用程式級別引入 <b>一組新的護欄</b> 使用Adobe Campaign管理資料時，請減少插入重複項目的風險。</p> 
+<p>Unicity服務啟動新的內置工作流，稱為 <b>ffdaUnicity</b> 監視單向性約束，並在檢測到重複項時發出警報。</p></td> </tr> 
+</tbody> 
+</table>
+
+**功能改善**
+
+* Snowflake連接器效能已改善。
+* 在伺服器配置檔案(serverConf.xml)中，您現在可以根據方案在更新和提交複製之間設定等待時間（每個架構）。
+* 為了監控和測試之目的， **[!UICONTROL Replicate Staging data]** 工作流程現在包含已傳送至FFDA（完整同盟資料存取）資料庫的記錄數。
+* SQL代碼活動現在允許您選擇SQL指令碼將儲存在哪個資料庫中：預設資料來源或選擇的有效FDA外部帳戶。
+* 一組預先定義的倉庫現在可用，並可用於並行運行各種查詢，如分段、ETL或峰值。 [了解更多](../config/workflows.md)
+
+**其他變更**
+
+* 此 **[!UICONTROL Encrypted identifier]** 欄位已新增至訪客結構(`nms:visitor`)。 此欄位是經過計算的，將用於Web應用程式。
+* 修正某些中間來源容器（而非所有容器）中存在某些IP相關性時，導致傳送分析失敗的問題。 現在，IP相關性都會儲存在資料庫中，因此任何容器都可以存取其他所有容器中呈現的相關性。 (NEO-37564)
+* 您現在可以匯入包含多個結構和導覽樹節點的套件。
+
+**修補程式**
+
+* 使用者移除後，在資料結構中， `<autoStg>` 屬性，或將其值從 `true` to `false`，則沒有刪除相關的測試表格。 此問題已修正。
+* 修正由於FFDA資料來源的ID管理，以專用表單建立記錄時發生錯誤的問題。
+* 修正了如果選件是由工作流程中的擴充活動管理，則無法將選件插入傳遞的問題。
+* 修正了可能會拖慢套件匯入速度的問題。
+* 修正了無法傳送含種子地址之電子郵件的問題。
+* 修正了無法將建議儲存在優惠方案主張表格中的問題。
+* 修正導致網路逾時問題錯誤記錄為指令碼中斷問題，而非網路錯誤的問題。 在JavaScript活動中包含的HTTP要求中，會發生此問題。
+* 修正無法將選件複製到Snowflake上即時選件環境的問題。
+* 修正忽略非擴充內建結構之「autoStg」屬性的問題。
+* 修正使用者無法選取 **[!UICONTROL Country/Region]** 預覽設定檔時的連結。
+* 修正自訂報表中的日期選擇器導致指令碼錯誤的問題。 (NEO-36345)
+* 修正了在重新生成配置時，如果配置檔案錯誤，會導致系統崩潰的問題。
+* 修正無法成功升級行銷和控制執行個體的問題。
+* 修正行銷執行個體上，計費工作流程可能當機的問題。
+* 修正FFDASnowflake現成可用表格中可能重複金鑰的問題。 (NEO-38583)
+* 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時結構遺失的問題。 (NEO-34063)
+* 修正了在嘗試提取時間元件時，執行Amazon Redshift HoursDiff和MinutesDiff函式時傳回錯誤結果的問題。(NEO-31673)
+* 修正了由於代理組態問題，使用者無法登入主控台的問題。 (NEO-38388)
+* 修正無法 **清除資料夾** 功能無法正常運作的問題。 (NEO-37459)
+* 修正了無法預覽附加至工作流程的行動傳送的問題。
+* 修正了 **讀取清單** 在資料庫中以負ID識別清單時，工作流程活動無法運作。 (NEO-39607)
 
 ## 第 8.1.20 發行版本 {#release-8-1-20}
 
@@ -27,25 +113,25 @@ _2021 年 9 月 7 日_
 
 **功能改善**
 
-* 生命週期結束後，Flash 已從所有相關的 Campaign 功能和元件中移除，並更換為 HTML5。 已移除&#x200B;**量測**&#x200B;類型圖表。 (NEO-30330)[了解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant)
-* 在 Windows 上安裝客戶端控制台時，安裝程式現在會檢查是否有父代登錄節點，如果答案為否，則會建立一個。 這可防止啟動控制台時可能發生的潛在問題。 (NEO-34854)
+* Flash 的生命週期結束後，已從所有相關的 Campaign 功能和元件中移除，並更換為 HTML5。 **量測**&#x200B;類型圖表已移除。 (NEO-30330) [了解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant)
+* 在 Windows 上安裝客戶端控制台時，安裝程式現在會檢查是否有父代登錄節點，如果沒有，會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
 * 追蹤簽章功能已經過改良，以防止連結至協力廠商工具 (電子郵件用戶端、網際網路瀏覽器等) 的錯誤 處理特殊字元。 URL 參數現在已編碼。
 
 **其他變更**
 
-* 先前已棄用的 Microsoft CRM 連接器 (Office 365和內部部署) 已從介面中移除。 [閱讀全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=zh-Hant#configure-acc-for-microsoft)
-* 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正 IIS 整合問題。 (NEO-31019)
+* 先前已棄用的 Microsoft CRM 連接器 (Office 365 和內部部署) 已從介面中移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=zh-Hant#configure-acc-for-microsoft)
+* 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正了 IIS 整合問題。 (NEO-31019)
 * 已新增護欄，僅允許[帳單技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=zh-Hant#billing-report)在行銷執行個體上執行。
-* 已在工作流程轉換&#x200B;**檢視人口**&#x200B;視窗的資料和結構描述中改善資料來源識別。
-* 已將缺少的資料庫索引添加到以下結構描述中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* 已在工作流程轉變&#x200B;**檢視母體**&#x200B;視窗的資料和架構標籤中改善資料來源識別。
+* 已將缺少的資料庫索引添加到以下架構中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **修補程式**
 
 * 修正當優惠連結至傳遞時，**熱點擊**&#x200B;報告無法運作的問題。 (NEO-26295)
-* 修正&#x200B;**子工作流程**&#x200B;活動執行時未產生匯出表格的問題。 (NEO-36242)
+* 修正&#x200B;**子工作流程**&#x200B;活動執行未產生輸出表格時的問題。 (NEO-36242)
 * 修正將&#x200B;**描述性分析**&#x200B;報表匯出為 PDF 時的各種問題。 (NEO-25847)
 * 修正使用外部郵件傳遞時，可能導致傳遞失敗的問題。 (NEO-37435)
-* 修正使用網站 API 連線至 Microsoft CRM 時的錯誤。 由於功能未受影響，因此將錯誤訊息移除。
+* 修正使用 Web API 連線至 Microsoft CRM 時的錯誤。 由於功能未受影響，因此已移除錯誤訊息。
 * 修正當中繼伺服器設為追蹤和行銷伺服器之間的轉送時，追蹤記錄重複資料刪除的問題。 (NEO-36285)
 * 修正無法將保存庫用作特定代碼儲存區的迴歸。
 * 修正當傳入轉變來自 FDA 資料來源時，無法在&#x200B;**擴充**&#x200B;工作流程活動中使用變數的問題。

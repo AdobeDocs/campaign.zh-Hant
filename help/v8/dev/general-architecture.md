@@ -2,10 +2,10 @@
 title: 一般架構
 description: 進一步了解Campaign架構和元件
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 6%
 
 應用程式可以以不同方式存取：富客戶端、瘦客戶端或API整合。
 
-* **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
+* **用戶端主控台**:應用程式的主要使用者介面是原生應用程式（在Windows上），會以標準網際網路通訊協定（SOAP、HTTP等）與Adobe Campaign應用程式伺服器通訊。 Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網際網路瀏覽器部署，可自動更新，不需要任何特定網路配置，因為它只會產生HTTP(S)流量。
 
    ![](../assets/do-not-localize/glass.png) [進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
 
-* **Web訪問**:應用程式的某些部分可使用HTML用戶介面（包括報告模組、傳遞審批階段、實例監視等）通過簡單的Web瀏覽器進行訪問。
+* **網路存取**:應用程式的某些部分可使用HTML用戶介面（包括報告模組、傳遞審批階段、實例監視等）通過簡單的Web瀏覽器進行訪問。
 
    ![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 網頁存取](../start/connect.md)。
 
-* **促銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
+* **行銷活動API**:在某些情況下，可使用透過SOAP通訊協定公開的Web服務API，從外部應用程式呼叫系統。
 
-   ![](../assets/do-not-localize/glass.png) [深入了解Campaign API](../dev/api.md)。
+   ![](../assets/do-not-localize/glass.png) [進一步了解Campaign API](../dev/api.md).
 
 ## 開發環境 {#dev-env}
 
@@ -49,8 +49,8 @@ Adobe Campaign是具有不同應用程式的單一平台，可建立開放且可
 
 有三種類型的Adobe Campaign模組：
 
-* **多執行個體模組**:對所有實例運行單個進程。這適用於下列模組：web、syslogd、trackinglogd和watchdog。
-* **單實例模組**:每個實例運行一個進程。這適用於下列模組：mta、wfserver、inMail、sms和stat。
+* **多執行個體模組**:對所有實例運行單個進程。 這適用於下列模組：web、syslogd、trackinglogd和watchdog。
+* **單實例模組**:每個實例運行一個進程。 這適用於下列模組：mta、wfserver、inMail、sms和stat。
 * **實用程式模組**:這些模組偶爾會執行，以執行偶爾或經常的操作（清除、設定、下載追蹤記錄等）。
 
 主要程式為：
@@ -59,14 +59,14 @@ Adobe Campaign是具有不同應用程式的單一平台，可建立開放且可
 
 此程式會透過網站服務API(SOAP / HTTP + XML)公開Adobe Campaign的完整功能。 此外，它可動態產生用於HTML存取的網頁（報表、網頁表單等）。 為此，此過程包括Apache Tomcat JSP伺服器。 這是控制台連接的過程。
 
-**工作流引擎** (nlserver wfserver)
+**工作流程引擎** (nlserver wfserver)
 
 它會執行應用程式中定義的工作流程程式。
 
 它也會定期處理執行的技術工作流程，包括：
 
-* **追蹤**:恢復和整合追蹤記錄。它可讓您從重新導向伺服器擷取記錄檔，並建立報表模組所使用的匯總指標。
-* **清理**:資料庫清除。用於清除舊記錄，並避免資料庫呈指數級增長。
+* **追蹤**:恢復和整合追蹤記錄。 它可讓您從重新導向伺服器擷取記錄檔，並建立報表模組所使用的匯總指標。
+* **清除**:資料庫清除。 用於清除舊記錄，並避免資料庫呈指數級增長。
 * **帳單**:自動傳送平台的活動報表（資料庫大小、行銷動作數量等）。
 
 **傳送伺服器** (nlserver mta)
@@ -89,7 +89,7 @@ Adobe Campaign具有原生電子郵件廣播功能。 此程式可作為SMTP郵�
 
 所有這些操作都完全自動和預配置。
 
-**SMS傳送狀態** (nlserver sms)
+**簡訊傳送狀態** (nlserver sms)
 
 此過程會輪詢SMS路由器以收集進度狀態並更新資料庫。
 
@@ -101,11 +101,11 @@ Adobe Campaign具有原生電子郵件廣播功能。 此程式可作為SMTP郵�
 
 此程式會將重新導向程式產生的追蹤記錄儲存至磁碟。
 
-**寫入入站事件** (nlserver interactiond)
+**寫入傳入事件** (nlserver interactiond)
 
 此程式可確保在Interaction的框架內將入站事件記錄到磁碟。
 
-**監督模組** （nlserver監視程式）
+**監督模組** (nlserver watchdog)
 
 此技術流程是產生其他流程的主要流程。 此外，它還會監控這些事件並在發生事件時自動重新啟動它們，從而保持最大的系統正常運行時間。
 
@@ -115,7 +115,7 @@ Adobe Campaign具有原生電子郵件廣播功能。 此程式可作為SMTP郵�
 
 ## 資料庫容器 {#db-containers}
 
-Adobe Campaign雲端資料庫仰賴[!DNL Snowflake]，其中包含功能資料（設定檔、訂閱、內容等）、技術資料（傳送工作和記錄、追蹤記錄等） 以及解決方案的工作資料（購買、銷售機會），所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
+Adobe Campaign雲端資料庫依賴 [!DNL Snowflake] 包含功能資料（設定檔、訂閱、內容等）、技術資料（傳送工作和記錄、追蹤記錄等） 以及解決方案的工作資料（購買、銷售機會），所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
 
 客戶可使用預先定義的資料庫和結構來部署Adobe Campaign，如有需要，可擴充此預先定義的環境。 Adobe Campaign可透過SQL呼叫存取資料集市內的所有資料。 Adobe Campaign也提供完整的擷取轉換與載入(ETL)工具，以執行資料匯入與匯出至系統和系統外。
 
@@ -124,6 +124,6 @@ Adobe Campaign雲端資料庫仰賴[!DNL Snowflake]，其中包含功能資料�
 
 >[!CAUTION]
 >
->若使用&#x200B;**促銷活動托管Cloud Services**，您的環境和初始配置已根據您的許可協定條款由Adobe設定。 您不得修改已安裝的內建套件、內建方案或報告。
+>若使用 **Campaign Managed Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
