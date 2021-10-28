@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 0061c536ff309d86061548b98d2c6e1124e01a0e
+source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 49%
@@ -17,7 +17,7 @@ ht-degree: 49%
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
 
-## 第 8.2.1 發行版本 {#release-8-2-1}
+## 第 8.2.8 發行版本 {#release-8-2-8}
 
 _2021年10月28日_
 
