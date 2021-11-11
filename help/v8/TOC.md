@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 促銷活動v8
+breadcrumb-title: Campaign v8
 title: Campaign v8 文件
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 86%
    + [LINE 傳送訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
    + [異動訊息](send/transactional.md)
-   + 透過Campaign互動管理優惠方案{#interaction}
-      + [開始進行即時互動](send/interaction.md)
+   + 透過 Campaign 互動管理優惠方案{#interaction}
+      + [開始使用即時互動](send/interaction.md)
       + [環境與架構](send/interaction-architecture.md)
       + [最佳實務](send/interaction-best-practices.md)
       + 定義設定{#interaction}
@@ -59,12 +59,12 @@ ht-degree: 86%
          + [建立優惠方案空間](send/interaction-offer-spaces.md)
       + [建立優惠方案目錄](send/interaction-offer-catalog.md)
       + [建立優惠優惠方案](send/interaction-offer.md)
-      + [傳送優惠方案 （出站）](send/interaction-send-offers.md)
-      + 呈現選件（入站）{#inbound}
+      + [傳送優惠方案(傳出)](send/interaction-send-offers.md)
+      + 呈現優惠方案 (傳入){#inbound}
          + [內容](send/interaction-present-offers.md)
-         + [呼叫網頁中的選件](send/interaction-integration.md)
+         + [呼叫網頁中的優惠](send/interaction-integration.md)
          + [管理匿名互動](send/anonymous-interactions.md)
-      + [報表和歷史記錄](send/interaction-tracking.md)
+      + [報告和歷史記錄](send/interaction-tracking.md)
       + [使用案例](send/interaction-use-cases.md)
 + 設定 {#config}
    + [使用工作流程自動化](config/workflows.md)
