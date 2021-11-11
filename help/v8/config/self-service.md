@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 50e138853b047c27b106401f007043a0fcb45f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 89%
 
 ## 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 如需詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target=&quot;_blank&quot;}。
+控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 如需詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 ## 控制面板常見問答集
 
@@ -42,13 +42,13 @@ ht-degree: 89%
 
 瞭解如何監視您的子網域及其憑證。
 
-* [監視您的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target=&quot;_blank&quot;}
-* [設定新子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target=&quot;_blank&quot;}
-* [監控子網域的SSL憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target=&quot;_blank&quot;}
+* [監視您的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [設定新的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [監視子網域的 SSL 憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 ## 效能監視
 
-「控制面板」提供數種功能，協助您監控執行個體並確保最佳效能。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;}
+控制面板提供數種功能，協助您監視執行個體並確保最佳效能。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 ## 執行個體設定
