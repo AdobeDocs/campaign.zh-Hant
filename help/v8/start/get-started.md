@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 開始使用 Adobe Campaign{#gs-ac-v8}
 
-Adobe Campaign提供設計跨管道客戶體驗的平台，以及視覺化行銷活動策劃、即時互動管理和跨管道執行的環境。
+Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷活動協調、Real-time Interaction Management 和跨頻道執行提供環境。
 
 使用 Campaign 可以：
 
@@ -91,9 +91,9 @@ Campaign 工作區可在[用戶端主控台](../dev/general-architecture.md)提�
 
 可根據您的需求調整 Campaign 工作區。
 
-![](../assets/do-not-localize/book.png)  在Campaign Classic v7 文件中瞭解 [如何使用 Campaign 工作區](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=zh-Hant){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png)  在 Campaign Classic v7 文件中瞭解 [如何使用 Campaign 工作區](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何自訂清單
+![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解如何自訂清單
 
 您也可以透過網頁存取某些功能。
 
