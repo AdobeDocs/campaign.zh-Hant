@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: e41816003958c3373e92d5ea82240fd7ceda5857
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 87%
 * 訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。 每小時都會透過特定的技術工作流程處理請求。 [深入瞭解](../config/replication.md#tech-wf)
 * 重複項目需要由終端使用者手動處理。 [深入瞭解](../dev/keys.md)
 * Adobe Campaign v8 不支援 API 和 Web 應用程式的延長輸送量。 若有特定需求，請聯絡 Adobe 以取得指引。
-* Adobe Campaign促銷活動最佳化模組沒有在壓力類型規則中考慮已排程的傳送。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=en#setting-the-period)深入瞭解。
+* Adobe Campaign 行銷活動最佳化模組沒有將壓力類型規則中已排程的傳遞考慮在內。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=zh-Hant#setting-the-period)中進一步瞭解。
