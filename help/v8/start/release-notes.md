@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1574'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 50%
 
 ## 第 8.2.8 發行版本 {#release-8-2-8}
 
-_2021年10月28日_
+_2021 年 10 月 28 日_
 
 <table>
 <thead>
 <tr>
-<th><strong>入站互動</strong><br/></th>
+<th><strong>傳入互動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>傳入頻道現在提供即時互動管理。 使用Campaign入站互動模組，在客戶造訪您的網站或聯絡您的客服中心時，向客戶呈現最佳優惠方案。 此功能隨附Campaign v8作為選項，且需要您執行個體的特定設定。 請洽詢您的Adobe代表，以存取入站互動模組。</p>
+<p>傳入頻道現在可使用 Real-time Interaction Management。 使用 Campaign 傳入互動模組，在客戶造訪您的網站或聯絡您的呼叫中心時，向客戶呈現最佳優惠。 此功能作為 Campaign v8 提供的選項之一，且需要您執行個體的特定設定。 請洽詢您的 Adobe 代表，以存取傳入互動模組。</p>
 <p>如需詳細資訊，請參閱<a href="../send/interaction-architecture.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -45,8 +45,8 @@ _2021年10月28日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>促銷活動最佳化模組現已可用。 此模組可讓您控制、篩選及監控傳送的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這可確保傳送的訊息符合客戶的需求和期望，以及公司通訊政策。</p>
-<p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classicv7檔案</a>.</p>
+<td> <p>行銷活動最佳化模組現已可使用。 此模組可讓您控制、篩選及檢視傳遞的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這樣可確保傳送的訊息符合客戶和公司通訊政策的需求及期望。</p>
+<p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant">Campaign Classic v7 文件</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -54,53 +54,53 @@ _2021年10月28日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Unicity服務</strong><br /> </th> 
+<th> <strong>Unicity Service</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Unicity Service是新的Cloud Database Manager元件。 它可協助使用者保留及監控雲端資料庫表格中唯一索引鍵限制的完整性。 這可讓您降低插入重複金鑰的風險。
-<p>由於雲資料庫不強制執行唯一性約束，Unicity Service在應用程式級別引入 <b>一組新的護欄</b> 使用Adobe Campaign管理資料時，請減少插入重複項目的風險。</p> 
-<p>Unicity服務啟動新的內置工作流，稱為 <b>ffdaUnicity</b> 監視單向性約束，並在檢測到重複項時發出警報。</p></td> </tr> 
+<td> <p>Unicity Service 是新的 Cloud Database Manager 元件。 它可協助使用者保留及監視雲端資料庫表格中唯一關鍵值限制的完整性。 這可讓您降低插入重複金鑰的風險。
+<p>由於雲資料庫不強制執行 unicity 限制，Unicity Service 在應用程式層級引入 <b>新的護欄組</b> 以減少使用 Adobe Campaign 管理資料時插入重複項目的風險。</p> 
+<p>Unicity Service 啟動新的內建工作流程，稱為 <b>ffdaUnicity</b> 以監視單向性限制，並在偵測到重複項目時發出警報。</p></td> </tr> 
 </tbody> 
 </table>
 
 **功能改善**
 
-* Snowflake連接器效能已改善。
-* 為了監控和測試之目的， **[!UICONTROL Replicate Staging data]** 工作流程現在包含已傳送至FFDA（完整同盟資料存取）資料庫的記錄數。
-* SQL代碼活動現在允許您選擇SQL指令碼將儲存在哪個資料庫中：預設資料來源或選擇的有效FDA外部帳戶。
-* 一組預先定義的倉庫現在可用，並可用於並行運行各種查詢，如分段、ETL或峰值。 [了解更多](../config/workflows.md)
+* Snowflake 連接器效能已改善。
+* 為了監視和測試之目的， **[!UICONTROL Replicate Staging data]** 工作流程現在包含已傳送至 FFDA (完整同盟資料存取) 資料庫的記錄數。
+* SQL 代碼活動現在允許您選擇 SQL 指令碼將儲存於指定資料庫中：預設資料來源或所選的主要 FDA 外部帳戶。
+* 預定義的倉庫組現在已可使用，並可用於並行執行各種查詢，如細分、ETL 或峰值。 [閱讀全文](../config/workflows.md)
 
 **其他變更**
 
-* 此 **[!UICONTROL Encrypted identifier]** 欄位已新增至訪客結構(`nms:visitor`)。 此欄位是經過計算的，將用於Web應用程式。
-* 修正某些中間來源容器（而非所有容器）中存在某些IP相關性時，導致傳送分析失敗的問題。 現在，IP相關性都會儲存在資料庫中，因此任何容器都可以存取其他所有容器中呈現的相關性。 (NEO-37564)
+* 此 **[!UICONTROL Encrypted identifier]** 欄位已新增至訪客方案 (`nms:visitor`)。 此欄位已經過計算，將用於網路應用程式。
+* 修正部分中間來源容器 (非所有) 中存在某些 IP 相關性時，導致傳遞分析失敗的問題。 現在，IP 相關性都會儲存在資料庫中，因此任何容器都可以存取其他所有容器中呈現的相關性。 (NEO-37564)
 * 您現在可以匯入包含多個結構和導覽樹節點的套件。
 
 **修補程式**
 
-* 使用者移除後，在資料結構中， `<autoStg>` 屬性，或將其值從 `true` to `false`，則沒有刪除相關的測試表格。 此問題已修正。
-* 修正由於FFDA資料來源的ID管理，以專用表單建立記錄時發生錯誤的問題。
-* 修正了如果選件是由工作流程中的擴充活動管理，則無法將選件插入傳遞的問題。
+* 移除使用者後，在資料結構中，`<autoStg>`表格定義元素的屬性，或將其值從 `true` 變更為 `false`，將不會刪除相關的中繼表格。此問題已修正。
+* 修正 FFDA 資料來源的 ID 管理以專用表單建立記錄時發生錯誤的問題。
+* 如果優惠是由工作流程中的擴充活動管理，修正了此情況下無法將優惠插入至傳遞的問題。
 * 修正了可能會拖慢套件匯入速度的問題。
 * 修正了無法傳送含種子地址之電子郵件的問題。
-* 修正了無法將建議儲存在優惠方案主張表格中的問題。
-* 修正導致網路逾時問題錯誤記錄為指令碼中斷問題，而非網路錯誤的問題。 在JavaScript活動中包含的HTTP要求中，會發生此問題。
-* 修正無法將選件複製到Snowflake上即時選件環境的問題。
-* 修正忽略非擴充內建結構之「autoStg」屬性的問題。
-* 修正使用者無法選取 **[!UICONTROL Country/Region]** 預覽設定檔時的連結。
-* 修正自訂報表中的日期選擇器導致指令碼錯誤的問題。 (NEO-36345)
-* 修正了在重新生成配置時，如果配置檔案錯誤，會導致系統崩潰的問題。
-* 修正無法成功升級行銷和控制執行個體的問題。
-* 修正行銷執行個體上，計費工作流程可能當機的問題。
-* 修正FFDASnowflake現成可用表格中可能重複金鑰的問題。 (NEO-38583)
-* 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時結構遺失的問題。 (NEO-34063)
-* 修正了在嘗試提取時間元件時，執行Amazon Redshift HoursDiff和MinutesDiff函式時傳回錯誤結果的問題。(NEO-31673)
-* 修正了由於代理組態問題，使用者無法登入主控台的問題。 (NEO-38388)
-* 修正無法 **清除資料夾** 功能無法正常運作的問題。 (NEO-37459)
-* 修正了無法預覽附加至工作流程的行動傳送的問題。
-* 修正了 **讀取清單** 在資料庫中以負ID識別清單時，工作流程活動無法運作。 (NEO-39607)
+* 修正了無法將建議儲存在優惠提案表格中的問題。
+* 修正了導致網路逾時問題錯誤記錄為指令碼中斷問題，而非網路錯誤的問題。 在 JavaScript 活動中包含的 HTTP 要求中，會發生此問題。
+* 修正無法將優惠複製到 Snowflake 上即時優惠環境的問題。
+* 修正了忽略非擴充內建結構之「autoStg」屬性的問題。
+* 修正了使用者無法選取 **[!UICONTROL Country/Region]** 預覽設定檔時的連結的問題。
+* 修正了自訂報告中的日期選擇器導致指令碼錯誤的問題。 (NEO-36345)
+* 修正了在重新產生設定時，如果設定檔案錯誤，會導致系統當機的問題。
+* 修正了無法成功升級行銷和控制執行個體的問題。
+* 修正了行銷執行個體上，計費工作流程可能當機的問題。
+* 修正了 FFDA Snowflake 現成可用表格中可能重複金鑰的問題。 (NEO-38583)
+* 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時方案遺失的問題。 (NEO-34063)
+* 修正了在嘗試提取時間元件時，執行 Amazon Redshift HoursDiff 和 MinutesDiff 函式時傳回錯誤結果的問題。(NEO-31673)
+* 修正了由於 Proxy 組態問題，使用者無法登入主控台的問題。 (NEO-38388)
+* 修正了妨礙&#x200B;**清除資料夾**&#x200B;功能正常運作的問題。 (NEO-37459)
+* 修正了無法預覽附加至工作流程的行動傳遞問題。
+* 修正了&#x200B;**讀取清單** 在資料庫中以負 ID 識別清單時，工作流程活動無法運作的問題。 (NEO-39607)
 
 ## 第 8.1.20 發行版本 {#release-8-1-20}
 
