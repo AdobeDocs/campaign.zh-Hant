@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # 建立新結構{#create-new-schema}
 
-若要編輯、建立和設定結構，請按一下Adobe Campaign用戶端主控台的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點。
+若要編輯、建立和設定結構，請按一下 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign用戶端主控台的節點。
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ![](assets/schema_navtree.png)
 
-**[!UICONTROL Edit]**&#x200B;標籤顯示架構的XML內容：
+此 **[!UICONTROL Edit]** 頁簽顯示架構的XML內容：
 
 ![](assets/schema_edition.png)
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 >
 >「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)
 
-**[!UICONTROL Preview]**&#x200B;頁簽自動生成擴展架構：
+此 **[!UICONTROL Preview]** 頁簽自動生成擴展架構：
 
 ![](assets/schema_edition2.png)
 
@@ -35,16 +35,16 @@ ht-degree: 2%
 >
 >儲存來源架構時，會自動啟動延伸架構的產生。
 
-如果需要檢查架構的完整結構，可以使用&#x200B;**[!UICONTROL Preview]**&#x200B;頁簽。 如果結構已擴充，您便能將其所有擴充功能視覺化。 作為補充，**[!UICONTROL Documentation]**&#x200B;頁簽顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤、說明）。 **[!UICONTROL Documentation]**&#x200B;索引標籤僅適用於產生的結構。
+如果您需要檢查架構的完整結構，可以使用 **[!UICONTROL Preview]** 標籤。 如果結構已擴充，您便能將其所有擴充功能視覺化。 作為補充， **[!UICONTROL Documentation]** 頁簽顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤、說明）。 此 **[!UICONTROL Documentation]** 索引標籤僅適用於產生的結構。
 
 ## 使用案例：建立合同表 {#example--creating-a-contract-table}
 
-在以下示例中，您為資料庫中的&#x200B;**contracts**&#x200B;建立新表。 此表格可讓您儲存每個合約的持有人和共同持有人的名字和姓氏以及電子郵件地址。
+在以下範例中，您為 **合同** 在資料庫中。 此表格可讓您儲存每個合約的持有人和共同持有人的名字和姓氏以及電子郵件地址。
 
 要執行此操作，需要建立表的架構並更新資料庫結構以生成相應的表。 以下列出詳細步驟。
 
-1. 編輯Adobe Campaign樹的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點，然後按一下&#x200B;**[!UICONTROL New]**。
-1. 選擇&#x200B;**[!UICONTROL Create a new table in the data template]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Next]** 。
+1. 編輯 **[!UICONTROL Administration > Configuration > Data schemas]** 節點，然後按一下 **[!UICONTROL New]**.
+1. 選擇 **[!UICONTROL Create a new table in the data template]** 選項，然後按一下 **[!UICONTROL Next]** .
 
    ![](assets/create_new_schema.png)
 
@@ -54,15 +54,15 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >依預設，使用者建立的結構會儲存在「自訂」命名空間中。 有關詳細資訊，請參閱[架構的標識](extend-schema.md#identification-of-a-schema)。
+   >依預設，使用者建立的結構會儲存在「自訂」命名空間中。 有關詳細資訊，請參閱 [方案的標識](extend-schema.md#identification-of-a-schema).
 
-1. 建立表格的內容。 建議您使用專用助理，確保未遺失任何設定。 要執行此操作，請按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕並選擇要添加的設定類型。
+1. 建立表格的內容。 建議您使用專用助理，確保未遺失任何設定。 若要這麼做，請按一下 **[!UICONTROL Insert]** 按鈕，然後選擇要添加的設定類型。
 
    ![](assets/create_new_content.png)
 
 1. 定義合約表格的設定。
 
-   最佳作法是在雲端資料庫中新增`dataSource="nms:extAccount:ffda"`屬性以建立表格。 建立新表格時，預設會新增此屬性。
+   最佳作法是在雲端資料庫中，新增 `dataSource="nms:extAccount:ffda"` 屬性。 建立新表格時，預設會新增此屬性。
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -106,7 +106,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 保存架構，然後按一下&#x200B;**[!UICONTROL Structure]**&#x200B;頁簽以生成結構：
+1. 儲存結構，然後按一下 **[!UICONTROL Structure]** 頁簽生成結構：
 
    ![](assets/configuration_structure.png)
 

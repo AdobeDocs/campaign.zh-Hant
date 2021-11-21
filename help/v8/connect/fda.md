@@ -4,7 +4,8 @@ description: 了解如何使用Campaign和外部資料庫
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -13,21 +14,21 @@ ht-degree: 3%
 
 # 同盟資料存取 (FDA){#gs-fda}
 
-使用FDA連接器（同盟資料存取）將Campaign連線至一或多個&#x200B;**外部資料庫**，並處理儲存在資料庫中的資訊，而不會影響您的Campaign雲端資料庫資料。 接著，您就可以存取外部資料，而不需變更Adobe Campaign資料的結構。
+使用FDA連接器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 和處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。 接著，您就可以存取外部資料，而不需變更Adobe Campaign資料的結構。
 
 >[!NOTE]
 >
->[相容性矩陣](../start/compatibility-matrix.md)中列出了FDA的相容資料庫。
+>FDA的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md).
 
 促銷活動FDA選項可讓您在協力廠商資料庫中擴充您的資料模型。 它將自動檢測目標表的結構，並使用來自SQL源的資料。
 
-在[!DNL Adobe Campaign]和外部資料庫上需要特定的&#x200B;**權限**&#x200B;才能一起交互。 進一步了解[本節](#fda-permissions)。
+特定 **權限** 在 [!DNL Adobe Campaign] 和外部資料庫進行交互。 深入了解 [本節](#fda-permissions).
 
 ## 最佳實務和限制
 
 * **使用外部資料最佳化電子郵件個人化**
 
-   您可以在專用的工作流程中預先處理訊息個人化。 若要執行此操作，請使用傳送屬性的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤中提供的&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項。
+   您可以在專用的工作流程中預先處理訊息個人化。 若要執行此作業，請使用 **[!UICONTROL Prepare the personalization data with a workflow]** 選項，可在 **[!UICONTROL Analysis]** 標籤。
 
    在傳遞分析期間，此選項會自動建立並執行工作流程，該工作流程會將連結到目標的所有資料儲存在臨時表中，包括來自連結到外部資料庫的表的資料。
 
@@ -63,15 +64,15 @@ ht-degree: 3%
 
 請遵循以下步驟完成此項目：
 
-1. 從促銷活動&#x200B;**[!UICONTROL Explorer]**，瀏覽至&#x200B;**[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**。
+1. 從促銷活動 **[!UICONTROL Explorer]**，瀏覽 **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
 1. 按一下&#x200B;**[!UICONTROL New]**。
 
    >[!NOTE]
    >
-   > 若要啟用，必須勾選&#x200B;**[!UICONTROL Enabled]**&#x200B;選項。 如有必要，請取消選中此選項以禁用對此資料庫的訪問而不刪除其配置。
+   > 若要啟用， **[!UICONTROL Enabled]** 選項。 如有必要，請取消選中此選項以禁用對此資料庫的訪問而不刪除其配置。
 
-1. 選擇&#x200B;**[!UICONTROL External database]**&#x200B;作為外部帳戶的&#x200B;**[!UICONTROL Type]**。
+1. 選擇 **[!UICONTROL External database]** 作為外部帳戶 **[!UICONTROL Type]**.
 
 1. 在下拉式清單中選擇您的外部資料庫，並設定外部帳戶。 您必須指定：
 
@@ -85,15 +86,15 @@ ht-degree: 3%
 
       ![](assets/snowflake.png)
 
-1. 按一下&#x200B;**[!UICONTROL Parameters]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Deploy functions]**&#x200B;按鈕以建立函式。
+1. 按一下 **[!UICONTROL Parameters]** ，然後 **[!UICONTROL Deploy functions]** 按鈕以建立函式。
 
-1. 輸入參數後，按一下&#x200B;**[!UICONTROL Test the connection]**&#x200B;按鈕以核准這些參數。
+1. 輸入參數後，按一下 **[!UICONTROL Test the connection]** 按鈕來核准。
 
-1. 要允許Adobe Campaign訪問此資料庫，必須部署SQL函式。 按一下&#x200B;**[!UICONTROL Parameters]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Deploy functions]**&#x200B;按鈕。
+1. 要允許Adobe Campaign訪問此資料庫，必須部署SQL函式。 按一下 **[!UICONTROL Parameters]** ，然後 **[!UICONTROL Deploy functions]** 按鈕。
 
-您可以在&#x200B;**[!UICONTROL Parameters]**&#x200B;頁簽中為表和索引定義特定的工作表空間。
+可以為表和中的索引定義特定的工作表空間 **[!UICONTROL Parameters]** 標籤。
 
-對於[!DNL Snowflake]，連接器支援以下選項：
+針對 [!DNL Snowflake]，連接器支援下列選項：
 
 | Option | 說明 |
 |---|---|
@@ -108,7 +109,7 @@ ht-degree: 3%
 
 若要在Adobe Campaign中建立外部資料庫的架構，請遵循下列步驟：
 
-1. 按一下資料架構清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL Access external data]**。
+1. 按一下 **[!UICONTROL New]** 按鈕，然後選擇 **[!UICONTROL Access external data]**.
 
    ![](assets/wf_new_schema_fda.png)
 
@@ -116,9 +117,9 @@ ht-degree: 3%
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認。 Adobe Campaign會自動偵測所選表格的結構，並產生邏輯架構。 請注意，Adobe Campaign不會產生連結。
+1. 按一下 **[!UICONTROL OK]** 確認。 Adobe Campaign會自動偵測所選表格的結構，並產生邏輯架構。 請注意，Adobe Campaign不會產生連結。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以確認建立。
+1. 按一下 **[!UICONTROL Save]** 確認建立。
 
 ## 定義目標對應{#define-data-mapping}
 
@@ -128,7 +129,7 @@ ht-degree: 3%
 
 要執行此操作，請依照下列步驟執行：
 
-1. 從Adobe Campaign檔案總管瀏覽至&#x200B;**[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 。
+1. 瀏覽至 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 從Adobe Campaign資源管理器。
 
 1. 建立新的目標對應，並選取您剛建立的結構作為目標維度。
 
@@ -143,7 +144,7 @@ ht-degree: 3%
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   您可以選擇是儲存包含訊息(**broadlog**)的排除項目(**excludelog**)，還是儲存在個別表格中。
+   您可以選擇是否儲存排除項目(**排除記錄**)，含訊息(**broadlog**)或個別表格中。
 
    您也可以選擇是否管理此傳送對應的追蹤(**trackinglog**)。
 
@@ -151,24 +152,24 @@ ht-degree: 3%
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以啟動傳送對應建立：所有連結表都會根據所選參數自動建立。
+   按一下 **[!UICONTROL Save]** 啟動傳遞對應建立的按鈕：所有連結表都會根據所選參數自動建立。
 
 
 ## 權限{#fda-permissions}
 
-在[!DNL Adobe Campaign]和外部資料庫上需要特定的&#x200B;**權限**&#x200B;才能一起交互。
+特定 **權限** 在 [!DNL Adobe Campaign] 和外部資料庫進行交互。
 
-首先，為了讓使用者能透過FDA在外部資料庫上執行操作，運算子必須在[!DNL Adobe Campaign]中擁有指定的權限。
+首先，為了讓使用者能透過FDA對外部資料庫執行操作，運算子必須具有中指定的特定權限 [!DNL Adobe Campaign].
 
-1. 在Adobe Campaign檔案總管中選取&#x200B;**[!UICONTROL Administration > Access Management > Named Rights]**&#x200B;節點。
+1. 選取 **[!UICONTROL Administration > Access Management > Named Rights]** 節點。
 1. 指定您選取的標籤，以建立新權限。
-1. 以下格式輸入「已命名」右側的名稱： **user:base@server**，其中：
+1. 以下格式輸入「已命名」右側的名稱 **user:base@server**，其中：
 
-   * **** user是外部資料庫中用戶的名稱
-   * **** base是外部資料庫的名稱
-   * **** server是外部資料庫伺服器的名稱
+   * **使用者** 是外部資料庫中用戶的名稱
+   * **基礎** 是外部資料庫的名稱
+   * **伺服器** 是外部資料庫伺服器的名稱
 
-1. 將「已命名」儲存在右側，並從Adobe Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Access Management > Operators]**&#x200B;節點將其連結至您選取的運算子。
+1. 儲存「已命名」權限，並從 **[!UICONTROL Administration > Access Management > Operators]** 節點。
 
 然後，若要處理外部資料庫中包含的資料，Adobe Campaign運算子必須對資料庫至少具有「寫入」權限，才能建立工作表。 這些表格會由Adobe Campaign自動刪除。
 
@@ -176,9 +177,9 @@ ht-degree: 3%
 
 * **CONNECT**:連接到遠程資料庫
 * **讀取資料**:對包含客戶資料的表的只讀訪問
-* **閱讀「元資料**」：訪問伺服器資料目錄以獲取表結構
+* **閱讀「MetaData」**:訪問伺服器資料目錄以獲取表結構
 * **載入**:在工作表中大量載入（處理集合和聯接時需要）
-* **為表** 格/索 **引/過程/函式建立/刪除** (僅適用於Adobe Campaign產生的工作台)
+* **建立/放置** for **表/索引/過程/函式** (僅適用於Adobe Campaign產生的工作台)
 * **說明** （建議）:在出現問題時監控效能
 * **寫入資料** （視整合案例而定）
 
@@ -205,13 +206,13 @@ ht-degree: 3%
 
 多個活動可讓您與外部資料庫的資料互動：
 
-* **篩選外部資料**  — 活動可 **[!UICONTROL Query]** 讓您新增外部資料，並在定義的篩選設定中使用它。
+* **篩選外部資料** - **[!UICONTROL Query]** 活動可讓您新增外部資料，並在定義的篩選設定中使用。
 
-* **建立子集**  — 活動 **[!UICONTROL Split]** 可讓您建立子集。您可以使用外部資料來定義要使用的篩選條件。
+* **建立子集** - **[!UICONTROL Split]** 活動可讓您建立子集。 您可以使用外部資料來定義要使用的篩選條件。
 
-* **載入外部資料庫**  — 您可以在活動中使用外部 **[!UICONTROL Data loading (RDBMS)]** 資料。
+* **載入外部資料庫**  — 您可以在 **[!UICONTROL Data loading (RDBMS)]** 活動。
 
-* **新增資訊和連結**  — 活 **[!UICONTROL Enrichment]** 動可讓您新增其他資料至工作流程的工作表，以及連結至外部表格。在此內容中，它可使用外部資料庫的資料。
+* **新增資訊和連結** - **[!UICONTROL Enrichment]** 活動可讓您新增其他資料至工作流程的工作表，以及連結至外部表格。 在此內容中，它可使用外部資料庫的資料。
 
 
 您也可以針對暫時用途，直接從這些工作流程活動定義外部資料庫的連線。 在此情況下，它將位於本地外部資料庫上，保留用於當前工作流中：不會儲存在外部帳戶上。
@@ -220,14 +221,14 @@ ht-degree: 3%
 >
 >此類型的設定只能暫時用於收集資料。 任何其他用途均應偏好使用外部帳戶設定。
 
-例如，在&#x200B;**[!UICONTROL Query]**&#x200B;活動中，您可以定義外部資料庫的臨時連接，如下所示：
+例如，在 **[!UICONTROL Query]** 活動，您可以定義外部資料庫的臨時連線，如下所示：
 
-1. 開啟活動，然後按一下&#x200B;**[!UICONTROL Add data...]**
-1. 選擇&#x200B;**[!UICONTROL External data]**&#x200B;選項
-1. 選擇&#x200B;**[!UICONTROL Locally defining the data source]**&#x200B;選項
+1. 開啟活動，然後按一下 **[!UICONTROL Add data...]**
+1. 選取 **[!UICONTROL External data]** 選項
+1. 選取 **[!UICONTROL Locally defining the data source]** 選項
 1. 在下拉式清單中選取目標資料庫引擎。 輸入伺服器的名稱並提供驗證參數。 也指定外部資料庫的名稱。
 1. 選擇資料儲存所在的表。 您可以直接在相應欄位中輸入表的名稱，或按一下編輯表徵圖以訪問資料庫表的清單。
-1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，在外部資料庫資料和Adobe Campaign資料庫中的資料之間定義一個或多個協調欄位。 **[!UICONTROL Remote field]**&#x200B;和&#x200B;**[!UICONTROL Local field]**&#x200B;的&#x200B;**[!UICONTROL Edit expression]**&#x200B;表徵圖允許您訪問每個表的欄位清單。
+1. 按一下 **[!UICONTROL Add]** 按鈕，在外部資料庫資料和Adobe Campaign資料庫中的資料之間定義一個或多個調解欄位。 此 **[!UICONTROL Edit expression]** 表徵圖 **[!UICONTROL Remote field]** 和 **[!UICONTROL Local field]** 可讓您存取每個表格的欄位清單。
 1. 如有必要，請指定篩選條件和資料排序模式。
-1. 選取要在外部資料庫中收集的其他資料。 要執行此操作，請連按兩下要新增的欄位，以在&#x200B;**[!UICONTROL Output columns]**&#x200B;中顯示這些欄位。
-1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以確認此配置。
+1. 選取要在外部資料庫中收集的其他資料。 若要這麼做，請連按兩下您要新增的欄位，以在 **[!UICONTROL Output columns]**.
+1. 按一下 **[!UICONTROL Finish]** 確認此設定。

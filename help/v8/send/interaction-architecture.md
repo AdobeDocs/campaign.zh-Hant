@@ -4,7 +4,8 @@ description: Campaign互動架構基本概念
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -99,7 +100,7 @@ Adobe Campaign互動模組提出兩種互動：
    * 完成執行實例的連接參數。
    * 每個執行例項都必須連結至ID。 此ID會在您按一下 **[!UICONTROL Initialize connection]** 按鈕。
    * 檢查所使用的應用程式類型： **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**，或兩者皆有。
-   * 輸入使用的FDA帳戶。 必須在執行實例上建立運算子，並且必須在有關實例的資料庫上具有以下讀寫權限：
+   * 輸入使用的FDA帳戶。 必須在執行實例上建立運算子，並且必須在有關實例的資料庫上具有以下讀和寫權限：
 
       ```
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
@@ -114,13 +115,13 @@ Adobe Campaign互動模組提出兩種互動：
    ![](assets/interaction_powerbooster2.png)
 
    * 新增執行例項清單。
-   * 對於每個，指定同步期間和篩選條件（例如，依國家/地區）。
+   * 對於每個，指定同步期間並篩選條件（例如，依國家/地區）。
 
       >[!NOTE]
       >
       >如果您遇到錯誤，可以查閱同步工作流程和優惠方案通知。 您可以在應用程式的技術工作流程中找到。
 
-基於最佳化原因，如果執行例項上僅複製了部分行銷資料庫，則您可以指定連結至環境的受限架構，以允許使用者僅使用執行例項上可用的資料。 您可以使用執行例項上無法使用的資料來建立選件。 若要這麼做，您必須限制出站管道(**[!UICONTROL Taken into account if]** 欄位)。
+基於最佳化原因，如果執行例項上僅複製了部分行銷資料庫，則您可以指定連結至環境的受限架構，以允許使用者僅使用執行例項上可用的資料。 您可以使用執行例項上無法使用的資料來建立選件。 若要這麼做，您必須限制出站管道上的此規則，以停用其他管道上的規則(**[!UICONTROL Taken into account if]** 欄位)。
 
 ![](assets/ita_filtering.png)
 

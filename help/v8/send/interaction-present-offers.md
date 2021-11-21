@@ -2,7 +2,8 @@
 product: campaign
 title: 呈現選件（入站互動）
 description: 了解如何使用Campaign互動模組呈現最佳優惠方案
-source-git-commit: 9712d72dd08291673490b42967fd469353fca67a
+exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 9%
@@ -21,7 +22,7 @@ ht-degree: 9%
 
 在傳入連絡人的內容中，瀏覽頁面的使用者可由網站識別，或不可由網站識別。 選件引擎會針對已識別的設定檔和匿名設定檔顯示不同的選件。
 
-您必須先設定優惠方案引擎呼叫，以便在其中顯示優惠方案，才能在入站管道上顯示優惠方案。 在大部分的入站互動中，這是網頁。
+您必須先設定優惠方案引擎呼叫，以便在其中顯示優惠方案，才能在入站管道上顯示優惠方案。 在傳入互動的大多數情況下，此為網頁。
 
 >[!NOTE]
 >

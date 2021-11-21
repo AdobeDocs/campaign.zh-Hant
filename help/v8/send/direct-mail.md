@@ -20,7 +20,7 @@ ht-degree: 12%
 
 1. 建立傳送
 
-   根據範本建立直接郵件傳送。 您可以複製並配置&#x200B;**[!UICONTROL Deliver by direct mail (paper)]**&#x200B;內建範本。
+   根據範本建立直接郵件傳送。 您可以複製並設定 **[!UICONTROL Deliver by direct mail (paper)]** 內建範本。
 
    ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html) 中深入瞭解
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 1. 開始傳送
 
-   驗證解壓縮檔案後，按一下&#x200B;**確認傳送**&#x200B;確認訊息可讓您啟動傳送。
+   驗證解壓縮檔案後，按一下 **確認傳送** 確認訊息可讓您啟動傳送。
 
    確認會開始指定檔案中的資料擷取。
 

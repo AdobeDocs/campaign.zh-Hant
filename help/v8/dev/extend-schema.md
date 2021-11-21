@@ -22,12 +22,12 @@ ht-degree: 2%
 >[!CAUTION]
 >內建架構不能直接修改。 如果您需要調整內建結構，則必須擴充它。
 
-![](../assets/do-not-localize/glass.png) 如需深入了解Campaign內建表格及其互動，請參閱 [本頁面](datamodel.md)。另請參閱在[此頁面](create-schema.md)中建立新架構時的建議。
+![](../assets/do-not-localize/glass.png) 如需深入了解Campaign內建表格及其互動，請參閱 [本頁](datamodel.md). 另請參閱在中建立新結構時的建議 [本頁](create-schema.md).
 
 若要擴充結構，請遵循下列步驟：
 
-1. 導覽至檔案總管中的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;資料夾。
-1. 按一下&#x200B;**New**&#x200B;按鈕並選擇&#x200B;**[!UICONTROL Extend the data in a table using an extension schema]**。
+1. 導覽至 **[!UICONTROL Administration > Configuration > Data schemas]** 檔案夾。
+1. 按一下 **新增** 按鈕並選取 **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
    ![](assets/extend-schema-edit.png)
 
-   在以下示例中，我們添加&#x200B;**MembershipYear**&#x200B;屬性，設定姓氏的長度限制（此限制將覆蓋預設的限制），並從內置架構中刪除出生日期。
+   在以下範例中，我們新增 **MembershYear** 屬性，請設定姓氏的長度限制（此限制將覆寫預設限制），並從內建架構中移除出生日期。
 
    ![](assets/extend-schema-sample.png)
 
@@ -59,7 +59,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 斷開連線並重新連線至Campaign，以在&#x200B;**[!UICONTROL Structure]**&#x200B;標籤中檢查架構結構更新。
+1. 斷開連線並重新連線至Campaign，以檢查 **[!UICONTROL Structure]** 標籤。
 
    ![](assets/extend-schema-structure.png)
 

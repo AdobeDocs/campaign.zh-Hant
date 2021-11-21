@@ -27,13 +27,13 @@ Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選�
 
 請注意：
 
-* 您只能使用&#x200B;**一個**&#x200B;密件副本電子郵件地址。
+* 您只能使用 **one** 密件副本電子郵件地址。
 
 * 系統只會考慮成功傳送的電子郵件，不會考慮退信。
 
-![](../assets/do-not-localize/speech.png)  以「受管理的Cloud Services」使用者身 [分，](../start/campaign-faq.md#support) 連絡Adobe以在Campaign中啟用電子郵件密件副本。您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 以在Campaign中啟用電子郵件密件副本。 您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
 
-設定電子郵件密件副本後，請確定已在傳送範本或透過&#x200B;**電子郵件密件副本**&#x200B;選項在傳送中啟用功能。
+設定電子郵件密件副本後，請確定已在傳遞範本或透過 **電子郵件密件副本** 選項。
 
 ![](assets/email-bcc.png)
 
@@ -49,6 +49,6 @@ Campaign Classic v7 文件中的&#x200B;**相關主題**：
 
 * [設定退信電子郵件地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
 
-* [使用電子郵件傳送範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [使用電子郵件傳遞範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* [了解傳送失敗](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+* [了解傳送故障](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}

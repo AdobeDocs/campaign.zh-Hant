@@ -54,7 +54,7 @@ Adobe Campaign利用資料結構來：
 
 ## 修改輸入表單
 
-Campaign輸入表單可適應您的實作。 您可以修改XML內容，以新增或移除表單欄位。
+Campaign輸入表單可適應您的實作。 您可以修改XML內容來新增或移除表單欄位。
 
 ![](../assets/do-not-localize/glass.png) 了解如何修改現有的輸入表單或在 [本節](../dev/forms.md).
 

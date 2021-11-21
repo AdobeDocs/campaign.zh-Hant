@@ -16,7 +16,7 @@ ht-degree: 11%
 
 電子郵件傳送可讓您傳送個人化電子郵件給目標人口。
 
-![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)深入瞭解。
+![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)中進一步瞭解。
 
 ## 建立您的第一個電子郵件傳送
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 1. **建立傳送**
 
-   若要建立新傳送，請瀏覽至&#x200B;**Campaigns**&#x200B;標籤，按一下&#x200B;**Delives**，然後按一下現有傳送清單上方的&#x200B;**Create**&#x200B;按鈕。
+   若要建立新傳送，請瀏覽至 **行銷活動** 按一下 **傳遞** 並按一下 **建立** 按鈕。
 
    ![](assets/delivery_step_1.png)
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 1. **匯入您的內容**
 
-   按一下&#x200B;**Source**&#x200B;標籤以貼上您的HTML內容。
+   按一下 **來源** 標籤來貼上HTML內容。
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
    * 新增收件者的名字和姓氏
 
-      要在消息內容中插入目標配置檔案的名字和姓氏，請將游標放在要插入它們的位置，然後按一下工具欄中的最後一個表徵圖，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選擇&#x200B;**[!UICONTROL Greetings]**。
+      若要在訊息內容中插入目標設定檔的名字和姓氏，請將游標置於您要插入設定檔的位置，然後按一下工具列中的最後一個圖示，然後按一下 **[!UICONTROL Include]** 選取 **[!UICONTROL Greetings]**.
 
       ![](assets/include-greetings.png)
 
@@ -61,9 +61,9 @@ ht-degree: 11%
 
    * 插入追蹤連結
 
-      若要透過影像或文字將傳送收件者帶至外部地址，請選取該收件者，然後按一下工具列中的&#x200B;**[!UICONTROL Add a link]**&#x200B;圖示。
+      若要透過影像或文字將傳送收件者帶至外部地址，請選取該收件者，然後按一下 **[!UICONTROL Add a link]** 圖示。
 
-      在&#x200B;**URL**&#x200B;欄位中輸入連結的URL，使用下列格式&#x200B;**https://www.myURL.com**，然後確認。
+      在 **URL** 欄位，使用下列格式 **https://www.myURL.com**，然後確認。
 
       ![](assets/add-a-link.png)
 
@@ -71,8 +71,8 @@ ht-degree: 11%
 
       若要允許收件者在網頁瀏覽器中檢視您的傳遞內容，請新增連結至訊息的鏡像頁面。
 
-      將游標置於要插入此連結的位置，然後按一下工具欄中的最後一個表徵圖，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選擇&#x200B;**[!UICONTROL link to mirror page]**。
-   內容準備就緒後，按一下「**儲存**」：它現在會顯示在您的傳送清單中，位於&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;標籤中。 您的第一封電子郵件已就緒。 您現在需要定義對象、驗證傳送並傳送。
+      將游標置於要插入此連結的位置，然後按一下工具欄中的最後一個表徵圖，然後按一下 **[!UICONTROL Include]** 選取 **[!UICONTROL link to mirror page]**.
+   內容準備就緒後，按一下 **儲存**:它現在會顯示在您的傳送清單中， **[!UICONTROL Campaigns > Deliveries]** 標籤。 您的第一封電子郵件已就緒。 您現在需要定義對象、驗證傳送並傳送。
 
 
 如需詳細資訊，請參閱Campaign Classicv7檔案的以下章節：
@@ -87,7 +87,7 @@ ht-degree: 11%
    ![](../assets/do-not-localize/book.png) [了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 驗證傳遞並傳送校樣
    ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* 添加[種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+* 新增 [種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## 測試及驗證您的電子郵件
 

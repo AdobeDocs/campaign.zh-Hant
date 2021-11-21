@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 方案結構{#schema-structure}
 
-`<srcschema>`的基本結構如下：
+的基本結構 `<srcschema>` 如下所示：
 
 ```
 <srcSchema>
@@ -51,7 +51,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-資料架構的XML文檔必須包含&#x200B;**name**&#x200B;和&#x200B;**namespace**&#x200B;屬性的&#x200B;**`<srcschema>`**&#x200B;根元素，以填充架構名稱及其命名空間。
+資料架構的XML文檔必須包含 **`<srcschema>`** 根元素與 **名稱** 和 **命名空間** 屬性來填入結構名稱及其命名空間。
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -92,7 +92,7 @@ ht-degree: 1%
 <element name="recipient">
 ```
 
-主要元素後面的元素&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;允許您定義XML結構中資料項的位置和名稱。
+元素 **`<attribute>`** 和 **`<element>`** 後面的主要元素允許您定義XML結構中資料項的位置和名稱。
 
 在我們的範例結構中，以下是：
 
@@ -107,42 +107,42 @@ ht-degree: 1%
 
 必須遵守下列規則：
 
-* 每個&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;必須透過&#x200B;**name**&#x200B;屬性以名稱識別。
+* 每個 **`<element>`** 和 **`<attribute>`** 必須透過 **名稱** 屬性。
 
    >[!CAUTION]
    >
    >元素的名稱應簡明扼要，最好是英文，並且僅包括符合XML命名規則的授權字元。
 
-* 在XML結構中，只有&#x200B;**`<element>`**&#x200B;元素可以包含&#x200B;**`<attribute>`**&#x200B;元素和&#x200B;**`<element>`**&#x200B;元素。
-* **`<attribute>`**&#x200B;元素在&#x200B;**`<element>`**&#x200B;內必須具有唯一名稱。
-* 建議在多行資料字串中使用&#x200B;**`<elements>`**。
+* 僅 **`<element>`** 可包含的元素 **`<attribute>`** 元素和 **`<element>`** 元素。
+* 安 **`<attribute>`** 元素在 **`<element>`**.
+* 使用 **`<elements>`** 建議使用多行資料字串。
 
 ## 資料類型 {#data-types}
 
-資料類型是透過&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;元素中的&#x200B;**type**&#x200B;屬性輸入的。
+資料類型是透過 **type** 屬性 **`<attribute>`** 和 **`<element>`** 元素。
 
-[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)中提供詳細清單。
+如需詳細清單，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
-未填入此屬性時，除非元素包含子元素，否則&#x200B;**string**&#x200B;為預設資料類型。 若有，則僅用於以階層式結構元素（在本範例中為&#x200B;**`<location>`**&#x200B;元素）。
+未填入此屬性時， **字串** 為預設資料類型，除非元素包含子元素。 若有，則僅用於以階層式結構化元素(**`<location>`** 元素)。
 
 結構支援下列資料類型：
 
-* **字串**:字串。範例：名字、城鎮等。
+* **字串**:字串。 範例：名字、城鎮等。
 
-   可透過&#x200B;**length**&#x200B;屬性指定大小（選用，預設值「255」）。
+   可以透過 **length** 屬性（選用，預設值「255」）。
 
-* **布林值**:布林欄位。可能的值範例：true/false、0/1、yes/no等。
-* **位元組**, **短**, **長**:整數（1個位元組、2個位元組、4個位元組）。範例：年齡、帳號、點數等。
-* **雙**:雙精度浮點數。範例：價格、費率等。
-* **date**,  **datetime**:日期和日期+時間。範例：出生日期、購買日期等。
+* **布林值**:布林欄位。 可能的值範例：true/false、0/1、yes/no等。
+* **位元組**, **short**, **long**:整數（1個位元組、2個位元組、4個位元組）。 範例：年齡、帳號、點數等。
+* **兩次**:雙精度浮點數。 範例：價格、費率等。
+* **日期**, **日期時間**:日期和日期+時間。 範例：出生日期、購買日期等。
 * **datetimenotz**:日期+時間（不含時區資料）。
-* **時間範圍**:持續時間。範例：資歷。
-* **備忘錄**:長文本欄位（多行）。範例：說明、注釋等。
-* **uuid**:&quot;uniqueidentifier&quot;欄位
+* **時間盤**:持續時間。 範例：資歷。
+* **備忘錄**:長文本欄位（多行）。 範例：說明、注釋等。
+* **uid**:&quot;uniqueidentifier&quot;欄位
 
    >[!NOTE]
    >
-   >若要包含&#x200B;**uuid**&#x200B;欄位，必須新增&quot;newuuid()&quot;函式並以其預設值完成。
+   >若要包含 **uid** 欄位中，必須新增&quot;newuuid()&quot;函式並以其預設值完成。
 
 以下是輸入類型的範例結構：
 
@@ -161,11 +161,11 @@ ht-degree: 1%
 
 ## 屬性 {#properties}
 
-資料架構的&#x200B;**`<elements>`**&#x200B;和&#x200B;**`<attributes>`**&#x200B;元素可以豐富各種屬性。 您可以填入標籤以說明目前的元素。
+此 **`<elements>`** 和 **`<attributes>`** 資料結構的元素可以透過各種屬性來擴充。 您可以填入標籤以說明目前的元素。
 
 ### 標籤和說明 {#labels-and-descriptions}
 
-* **label**&#x200B;屬性可讓您輸入簡短說明。
+* 此 **標籤** 屬性可讓您輸入簡短說明。
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ ht-degree: 1%
 
    ![](assets/schema_label.png)
 
-* **desc**&#x200B;屬性可讓您輸入長說明。
+* 此 **desc** 屬性可讓您輸入詳細說明。
 
    您可從Adobe Campaign用戶端主控台主視窗狀態列的輸入表單中查看說明。
 
@@ -197,32 +197,32 @@ ht-degree: 1%
 
 ### 預設值 {#default-values}
 
-**default**&#x200B;屬性可讓您定義在內容建立時傳回預設值的運算式。
+此 **預設** 屬性可讓您定義在內容建立時傳回預設值的運算式。
 
 該值必須是與XPath語言相容的表達式。 如需詳細資訊，請參閱[本章節](#reference-with-xpath)。
 
 **範例**:
 
-* 當前日期：**default=&quot;GetDate()&quot;**
-* 計數器：**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
+* 當前日期： **default=&quot;GetDate()&quot;**
+* 計數器： **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   在此示例中，預設值是使用字串的串連來構建的，並使用自由計數器名稱調用&#x200B;**CounterValue**&#x200B;函式。 每次插入時，傳回的數字會增加一。
+   在此範例中，預設值是使用字串的串連來建構，並呼叫 **CounterValue** 函式（具有自由計數器名稱）。 每次插入時，傳回的數字會增加一。
 
    >[!NOTE]
    >
-   >在Adobe Campaign用戶端主控台中， **[!UICONTROL Administration>Counters]**&#x200B;節點用於管理計數器。
+   >在Adobe Campaign用戶端主控台中， **[!UICONTROL Administration>Counters]** 節點用於管理計數器。
 
-若要將預設值連結到欄位，可以使用`<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+若要將預設值連結至欄位，您可以使用 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` :可讓您在建立實體時，以預設值預先填入欄位。該值將不是預設SQL值。
+`<default>` :可讓您在建立實體時，以預設值預先填入欄位。 該值將不是預設SQL值。
 
-`<sqldefault>` :可讓您在建立欄位時有新增值。此值將作為SQL結果顯示。 在結構更新期間，只有新記錄會受此值影響。
+`<sqldefault>` :可讓您在建立欄位時有新增值。 此值將作為SQL結果顯示。 在結構更新期間，只有新記錄會受此值影響。
 
 ### 分項清單 {#enumerations}
 
 #### 自由枚舉 {#free-enumeration}
 
-**userEnum**&#x200B;屬性可讓您定義自由枚舉，以記住並顯示通過此欄位輸入的值。 語法如下：
+此 **userEnum** 屬性可讓您定義免費分項清單，以記住和顯示透過此欄位輸入的值。 語法如下：
 
 **userEnum=&quot;枚舉的名稱&quot;**
 
@@ -234,13 +234,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Adobe Campaign用戶端主控台中， **[!UICONTROL Administration > Enumerations]**&#x200B;節點用於管理列舉。
+>在Adobe Campaign用戶端主控台中， **[!UICONTROL Administration > Enumerations]** 節點用於管理枚舉。
 
 #### 設定枚舉 {#set-enumeration}
 
-**enum**&#x200B;屬性可讓您定義預先知道可能值清單時所使用的固定分項清單。
+此 **列舉** 屬性可讓您定義預先知道可能值清單時所使用的固定分項清單。
 
-**enum**&#x200B;屬性引用在主要元素之外的架構中填充的枚舉類的定義。
+此 **列舉** 屬性是指在主要元素外的架構中填入的分項清單類別的定義。
 
 列舉可讓使用者從下拉式清單中選取值，而非在一般輸入欄位中輸入值：
 
@@ -256,7 +256,7 @@ ht-degree: 1%
 </enumeration>
 ```
 
-會透過&#x200B;**`<enumeration>`**&#x200B;元素在主要元素外部宣告分項清單。
+分項清單會透過 **`<enumeration>`** 元素。
 
 枚舉屬性如下：
 
@@ -265,18 +265,18 @@ ht-degree: 1%
 * **名稱**:枚舉的名稱，
 * **預設**:枚舉的預設值。
 
-枚舉值在&#x200B;**`<value>`**&#x200B;元素中聲明，具有以下屬性：
+分項清單會在 **`<value>`** 元素（具有下列屬性）:
 
 * **名稱**:內部儲存的值名稱，
 * **標籤**:標籤。
 
 #### dbenum枚舉 {#dbenum-enumeration}
 
-* **dbenum**&#x200B;屬性可讓您定義屬性與&#x200B;**enum**&#x200B;屬性相似的分項清單。
+* 此 **貝努姆** 屬性可讓您定義其屬性與 **列舉** 屬性。
 
-   但是，**name**&#x200B;屬性不會在內部儲存值，它會儲存一個代碼，該代碼允許您在不修改其架構的情況下擴展相關表。
+   不過， **名稱** 屬性不會在內部儲存值，而會儲存程式碼，讓您在不修改其架構的情況下擴充相關表格。
 
-   值是透過&#x200B;**[!UICONTROL Administration>Enumerations]**&#x200B;節點定義。
+   這些值是透過 **[!UICONTROL Administration>Enumerations]** 節點。
 
    例如，此分項清單用於指定促銷活動的性質。
 
@@ -309,9 +309,9 @@ ht-degree: 1%
 
 集合是具有相同名稱和相同階層層級的元素清單。
 
-值為「true」的&#x200B;**unbound**&#x200B;屬性可讓您填入集合元素。
+此 **未綁定** 屬性的值為「true」，可讓您填入集合元素。
 
-**範例**:架構中 **`<group>`** 集合元素的定義。
+**範例**:定義 **`<group>`** 結構中的集合元素。
 
 ```
 <element name="group" unbound="true" label="List of groups">
@@ -337,23 +337,24 @@ XPath是一種語法，用於在XML文檔的樹中查找節點。
 **範例**:
 
 * **@email**:選擇電子郵件，
-* **location/@city**:在元素下選取「city」屬 **`<location>`** 性
+* **位置/@city**:選取 **`<location>`** 元素
 * **../@email**:從當前元素的父元素中選擇電子郵件地址
-* **群組`[1]/@label`**:選擇作為第一個集合元素的子項的「label」 **`<group>`** 屬性
-* **群組`[@label='test1']`**:選取元素的子項「label」屬性， **`<group>`** 並包含「test1」值
+* **群組`[1]/@label`**:選擇「label」屬性，該屬性是第一個的子項 **`<group>`** 集合元素
+* **群組`[@label='test1']`**:選擇「label」屬性，該屬性是 **`<group>`** 元素和包含「test1」值
 
 >[!NOTE]
 >
 >當路徑跨過子元素時，會添加附加約束。 在此情況下，下列運算式必須放置在方括弧之間：
 >
->* **location/@** city無效；請使用  **`[location/@city]`**
->* **`[@email]`** 和 **@** emailare對等
+>* **位置/@city** 無效；請使用 **`[location/@city]`**
+>* **`[@email]`** 和 **@email** 等於
+
 >
 
 
 您也可以定義複雜的運算式，例如下列運算：
 
-* **@gender+1**:將1新增至genderattribute的內 **** 容，
+* **@gender+1**:在 **性別** 屬性，
 * **@email + &#39;(&#39;+@created+&#39;)&#39;**:通過取用添加到建立日期（括弧之間）的電子郵件地址的值（對於字串類型，以引號括住常數）來構建字串。
 
 已在運算式中新增高階函式，以豐富此語言的潛力。
@@ -370,9 +371,9 @@ XPath是一種語法，用於在XML文檔的樹中查找節點。
 
 ## 透過計算字串建立字串 {#building-a-string-via-the-compute-string}
 
-**計算字串**&#x200B;是XPath表達式，用於構造表示與架構相關聯的表中的記錄的字串。 **計** 算字串主要用於圖形介面，以顯示所選記錄的標籤。
+A **計算字串** 是XPath表達式，用於構造表示與架構關聯的表中的記錄的字串。 **計算字串** 主要用於圖形介面，以顯示所選記錄的標籤。
 
-**計算字串**&#x200B;是透過資料架構主要元素下的&#x200B;**`<compute-string>`**&#x200B;元素定義。 **expr**&#x200B;屬性包含用於計算顯示的XPath表達式。
+此 **計算字串** 是透過 **`<compute-string>`** 元素。 安 **expr** 屬性包含XPath表達式，用於計算顯示。
 
 **範例**:收件者表格的計算字串。
 
@@ -385,7 +386,7 @@ XPath是一種語法，用於在XML文檔的樹中查找節點。
 </srcSchema>
 ```
 
-收件者的計算字串結果：**無名氏(john.doe@aol.com)**
+收件者的計算字串結果： **Doe John(john.doe@aol.com)**
 
 >[!NOTE]
 >

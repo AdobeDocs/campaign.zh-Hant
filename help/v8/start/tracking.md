@@ -4,7 +4,8 @@ description: 開始使用追蹤和監控功能
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 76269d65246010af60fda84b388a7c74269e236f
+exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -21,7 +22,7 @@ ht-degree: 8%
 
 傳送控制面板是監控傳送及傳送訊息期間潛在問題的重要工具。
 
-如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}。
+如需詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}。
 
 Campaign中可用的重要追蹤功能列於下方。
 
@@ -50,7 +51,7 @@ Campaign中可用的重要追蹤功能列於下方。
 
 **追蹤記錄**
 
-**追蹤**&#x200B;技術工作流程會在傳送並啟動追蹤後擷取追蹤資料。 您可以在傳送的「追蹤」標籤中找到此資料。
+此 **追蹤** 技術工作流程會在傳送並啟動追蹤後，擷取追蹤資料。 您可以在傳送的「追蹤」標籤中找到此資料。
 
 [進一步了解Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
@@ -118,16 +119,16 @@ Adobe Campaign提供一組功能，可監控您的程式和環境。
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 
 
-進一步了解您在傳送後可監控的資訊，了解在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}中如何管理傳送失敗和隔離
+進一步了解您在傳送後可監控的資訊，了解如何在中管理傳送失敗和隔離 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### 監視工作流程
 
-了解如何在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}中監控工作流程執行
+了解如何在  [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
 ### 監視您的執行個體
 
-[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}中提供執行個體監控准則
+例項監控准則適用於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}
 
 使用稽核軌跡自助服務介面來監控執行個體中所做的變更。 稽核軌跡會即時擷取在您的Adobe Campaign例項中發生之動作和事件的完整清單。 您可以存取資料記錄，以協助回答下列問題：工作流程的變更，以及上次更新工作流程的使用者，或您的使用者在例項中執行的動作。
 
-進一步了解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}中的稽核軌跡
+進一步了解稽核軌跡(位於  [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}

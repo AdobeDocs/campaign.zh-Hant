@@ -2,7 +2,8 @@
 product: campaign
 title: 向匿名設定檔提供選件（入站互動）
 description: 了解如何向匿名設定檔呈現優惠方案
-source-git-commit: c19336c84114a0c81563c4d5ae760330d3b284cb
+exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

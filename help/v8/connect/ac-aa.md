@@ -16,17 +16,17 @@ ht-degree: 75%
 
 您可以設定Adobe Analytics以整合Campaign與Analytics。
 
-此整合可讓Adobe Campaign和Adobe Analytics透過&#x200B;**Web Analytics連接器**&#x200B;附加元件互動。 此整合會將Adobe Campaign所傳送電子郵件促銷活動的指標和屬性傳送至Adobe Analytics。
+此整合可讓Adobe Campaign和Adobe Analytics透過 **網站分析連接器** 附加元件。 此整合會將Adobe Campaign所傳送電子郵件促銷活動的指標和屬性傳送至Adobe Analytics。
 
-![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 連絡Adobe以將Campaign與Adobe Experience Cloud服務與解決方案連結。您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務及解決方案連結。 您的環境必須透過專用套件安裝Web Analytics連接器附加元件。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web Analytics)。 網頁分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
 每個工具的動作周長如下：
 
-* **Adobe** 分析會標示透過Adobe Campaign啟動的電子郵件行銷活動
+* **Adobe Analytics** 會標籤透過Adobe Campaign啟動的電子郵件行銷活動
 
-* **Adobe** 促銷活動會將指標和促銷活動屬性傳送至連接器，連接器再將它們轉送至網頁分析工具
+* **Adobe Campaign** 會將指標和促銷活動屬性傳送至連接器，連接器會將它們轉送至Web分析工具
 
 
 >[!CAUTION]
@@ -41,7 +41,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 ## 建立Analytics報表套裝 {#report-suite-analytics}
 
-要在[!DNL Adobe Analytics]中建立&#x200B;**[!UICONTROL Report suite]**，請執行以下步驟：
+若要建立 **[!UICONTROL Report suite]** in [!DNL Adobe Analytics]，請遵循下列步驟：
 
 1. 從 [!DNL Adobe Analytics] 中，選擇&#x200B;**[!UICONTROL Admin tab]**，然後按一下&#x200B;**[!UICONTROL All admin]**。
 
@@ -112,7 +112,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-設定報表套裝後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
+報表套裝設定完成後，您需要設定 **[!UICONTROL External accounts]** 在Adobe Campaign。
 
 ## 設定您的Campaign外部帳戶 {#external-account-ac}
 
@@ -191,11 +191,11 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 Adobe Campaign和Adobe Analytics之間的資料交換是由作為背景工作執行的技術工作流程處理。
 
-此工作流程可從「促銷活動總管」樹狀結構中的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**&#x200B;資料夾下。
+此工作流程可從「促銷活動總管」樹狀結構檢視(位於 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 檔案夾。
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector，透過Adobe Campaign將電子郵件促銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
+此 **[!UICONTROL Sending of indicators and campaign attributes]** 工作流程可讓您使用Adobe Campaign Connector，透過Adobe Analytics將電子郵件促銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
 
 請注意，不應重新啟動此工作流程，否則會重新傳送所有可能扭曲 Analytics 結果的先前資料。
 

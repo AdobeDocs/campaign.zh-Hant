@@ -20,27 +20,27 @@ Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會�
 
 這些工作流程會在資料庫上執行維護作業、運用傳送記錄檔中的追蹤資訊、建立週期性促銷活動等。
 
-![](../assets/do-not-localize/book.png) Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中會詳細說明](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)技術工作流程的完整清單
+![](../assets/do-not-localize/book.png) 技術工作流程的完整清單在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
-除了這些技術工作流程外，Campaign v8還仰賴特定技術工作流程來管理[資料復寫](#data-replication)。
+除了這些技術工作流程外，Campaign v8還依賴特定的技術工作流程來管理 [資料復寫](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-此工作流程會自動復寫需要存在於Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])上的內建表格。排程每小時執行一次。 如果&#x200B;**lastModified**&#x200B;欄位存在，則複製會以增量方式進行，否則將複製整個表。 以下陣列中的表的順序是複製工作流使用的順序。
+此工作流程會自動復寫需要存在於Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])。 排程每小時執行一次。 若 **lastModified** 欄位存在，複製會以增量方式進行，否則會複製整個表。 以下陣列中的表的順序是複製工作流使用的順序。
 * **[!UICONTROL Replicate Staging data]**
-此工作流程會複製統一呼叫的中繼資料。排程每小時執行一次。
+此工作流程會複製統一呼叫的中繼資料。 排程每小時執行一次。
 * **[!UICONTROL Deploy FFDA immediately]**\
    此工作流程會立即部署至雲端資料庫。
 * **[!UICONTROL Replicate FFDA data immediately]**
 此工作流將複製給定外部帳戶的XS資料。
 
-這些技術工作流程可從Campaign Explorer的&#x200B;**[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]**&#x200B;節點取得。 **不得更改它們。**
+這些技術工作流程可從 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** 行銷活動總管的節點。 **不得更改它們。**
 
-如有需要，您可以手動啟動資料同步。 要執行此操作，請按一下右鍵&#x200B;**調度程式**&#x200B;活動，然後選擇&#x200B;**立即執行掛起任務**。
+如有需要，您可以手動啟動資料同步。 若要執行此操作，請以滑鼠右鍵按一下 **排程器** 活動和選取 **立即執行掛起任務**.
 
 ## 資料複製{#data-replication}
 
-有些內建表格會透過上述專用工作流程，從Campaign本機資料庫複製到[!DNL Snowflake]雲端資料庫。
+有些內建表格會從Campaign本機資料庫複製到 [!DNL Snowflake] 雲端資料庫，透過上述專屬的工作流程。
 
 了解Adobe Campaign v8使用的資料庫、複製資料的原因、正在複製的資料以及複製過程的工作方式。
 
@@ -51,11 +51,11 @@ Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會�
 
 複製策略基於表的大小。 有些表將即時複製，有些表將按小時複製。 某些表在替換其他表時將進行增量更新。
 
-除了內建的&#x200B;**複製參考表**&#x200B;技術工作流之外，您還可以在工作流中強制進行資料複製。
+除了內建 **複製引用表** 技術工作流程中，您可以在工作流程中強制進行資料復寫。
 
 您可以：
 
-* 使用下列程式碼新增特定&#x200B;**Javascript程式碼**&#x200B;活動：
+* 新增特定 **Javascript程式碼** 活動（包含下列程式碼）:
 
 ```
 nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
@@ -64,7 +64,7 @@ nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
 ![](assets/jscode.png)
 
 
-* 使用以下命令添加特定的&#x200B;**nlmodule**&#x200B;活動：
+* 新增特定 **nlmodule** 活動（使用下列命令）:
 
 ```
 nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **相關主題**
 
-![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中了解 [如何開始使用工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 了解如何開始使用 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/glass.png) 存取本區段中的資料保 [留期間](../dev/datamodel-best-practices.md#data-retention)
+![](../assets/do-not-localize/glass.png) 存取中的資料保留期 [本節](../dev/datamodel-best-practices.md#data-retention)

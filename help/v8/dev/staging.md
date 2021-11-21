@@ -28,7 +28,7 @@ Campaign Classicv7 API仍可供使用，但無法受益於此新的測試機制�
 
 >[!CAUTION]
 >
->* 透過這種新機制，通道輸出、訂閱、取消訂閱或行動註冊的資料同步現在為&#x200B;**asynchronous**。
+>* 透過這種新機制，通道輸出、訂閱、取消訂閱或行動註冊的資料同步功能現已開放使用 **非同步**.
 >
 >* 中繼僅適用於雲端資料庫上儲存的結構描述。 請勿在複製的架構上啟用中繼。 請勿啟用本機結構上的測試功能。 不啟用分段架構上的分段
 
@@ -54,11 +54,11 @@ Campaign Classicv7 API仍可供使用，但無法受益於此新的測試機制�
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) 了解更多建立自訂結構 [的資訊](create-schema.md)。
+   ![](../assets/do-not-localize/glass.png) 進一步了解自訂結構建立，位於 [本頁](create-schema.md).
 
 1. 保存和更新資料庫結構。  [了解更多](update-database-structure.md)
 
-1. 新增&#x200B;**autoStg=&quot;true&quot;**&#x200B;參數，以在架構定義中啟用預備機制。
+1. 借由新增 **autoStg=&quot;true&quot;** 參數。
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

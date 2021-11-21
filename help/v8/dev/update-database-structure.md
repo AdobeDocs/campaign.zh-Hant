@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 更新資料庫結構{#updating-the-database-structure}
 
-要對架構應用所做的修改，請啟動資料庫更新嚮導。 此助理可透過&#x200B;**[!UICONTROL Tools > Advanced > Update database structure]**&#x200B;存取。 它檢查資料庫的物理結構是否與其邏輯描述匹配，並執行SQL更新指令碼。
+要對架構應用所做的修改，請啟動資料庫更新嚮導。 此助理可透過 **[!UICONTROL Tools > Advanced > Update database structure]** . 它檢查資料庫的物理結構是否與其邏輯描述匹配，並執行SQL更新指令碼。
 
 ![](assets/schema_update.png)
 

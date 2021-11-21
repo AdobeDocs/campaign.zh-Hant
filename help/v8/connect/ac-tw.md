@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 5%
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 **尚未提供**
 
-使用&#x200B;**管理社交網路（社交行銷）**&#x200B;選項，透過Twitter與客戶和潛在客戶互動。
+使用 **管理社交網路（社交行銷）** 選擇透過Twitter與客戶和潛在客戶互動。
 
 * 傳送訊息 — 使用Adobe Campaign Social Marketing在Twitter上傳送訊息。 Adobe Campaign可讓您直接將訊息張貼至您的twitter帳戶。 您也可以傳送直接訊息給所有追隨者。
 

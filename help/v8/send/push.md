@@ -23,7 +23,7 @@ ht-degree: 4%
 1. 將應用程式的iOS和Android版本新增至此服務。
 1. 建立iOS和Android的傳送。
 
-![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中了解如 [何開始使用行動應用程式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 了解如何開始使用 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
 
 ## 與AdobeSDK整合
 
@@ -31,23 +31,23 @@ ht-degree: 4%
 
 Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
-相容的SDK版本列在[Campaign相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中。
+相容的SDK版本列於 [Campaign相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
 
-![](../assets/do-not-localize/glass.png) 在本小節中了解如何將Campaign Android和iOS SDK與您的應用程 [式整合](../config/push-config.md)
+![](../assets/do-not-localize/glass.png) 了解如何在中，將Campaign Android和iOS SDK與您的應用程式整合 [本節](../config/push-config.md)
 
 ### 在Launch中設定Campaign擴充功能
 
 您可以善用Campaign Classic擴充功能，將Adobe Experience Platform Launch SDK與Campaign整合。
 
-![](../assets/do-not-localize/book.png) 進一步了 [解Adobe行動SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 深入了解 [Adobe行動SDK檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
 
 ## 在Campaign中配置您的應用程式設定
 
 您必須在Adobe Campaign中定義iOS和Android應用程式設定。
 
-![](../assets/do-not-localize/book.png) iOS的設定准則在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}中有詳細說明
+![](../assets/do-not-localize/book.png) iOS的設定准則於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) Campaign Classicv7檔案 [{target=&quot;_blank&quot;}中會詳](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)細說明Anddroid的設定准則
+![](../assets/do-not-localize/book.png) Anddroid的設定准則於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ## 建立您的第一個推播通知
 
@@ -55,9 +55,9 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 >[!CAUTION]
 >
->若使用Campaign v8，行動註冊現在為&#x200B;**asynchronous**。 [了解更多](../dev/staging.md)
+>有了Campaign v8，行動註冊現在已可 **非同步**. [了解更多](../dev/staging.md)
 
-若要建立新傳送，請瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Deliveries]**，然後按一下現有傳送清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
+若要建立新傳送，請瀏覽至 **[!UICONTROL Campaigns]** 按一下 **[!UICONTROL Deliveries]** 並按一下 **[!UICONTROL Create]** 按鈕。
 
 ![](assets/delivery_step_1.png)
 
@@ -65,50 +65,50 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
 ### 在iOS上傳送通知 {#send-notifications-on-ios}
 
-1. 選取&#x200B;**[!UICONTROL Deliver on iOS]**&#x200B;傳遞範本，然後按一下&#x200B;**[!UICONTROL Continue]**。
+1. 選取 **[!UICONTROL Deliver on iOS]** 傳遞範本，按一下 **[!UICONTROL Continue]**.
 
    ![](assets/push-template-ios.png)
 
-1. 若要定義通知的目標，請按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 若要定義通知的目標，請按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Add]**.
 
    ![](assets/push-ios-select-target.png)
 
-1. 選取&#x200B;**[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，選取與行動應用程式相關的服務，然後選取應用程式的iOS版本。
+1. 選擇 **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，請選取與行動應用程式相關的服務，然後選取應用程式的iOS版本。
 
    ![](assets/push-ios-subscribers.png)
 
-1. 選擇通知類型：**[!UICONTROL Alert]**、**[!UICONTROL Badge]**、**[!UICONTROL Alert and badge]**&#x200B;或&#x200B;**[!UICONTROL Silent Push]**。
+1. 選擇通知類型： **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** 或 **[!UICONTROL Silent Push]**.
 
    ![](assets/push-ios-alert.png)
 
-1. 在&#x200B;**[!UICONTROL Title]**&#x200B;欄位中，輸入要在通知上顯示的標題標籤。
+1. 在 **[!UICONTROL Title]** 欄位中，輸入要在通知上顯示的標題標籤。
 
-1. 根據所選通知類型輸入&#x200B;**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Value of the badge]**。
+1. 輸入 **[!UICONTROL Message]** 和 **[!UICONTROL Value of the badge]** 根據所選通知類型。
 
 1. 您也可以定義下列元素：
 
-   * **[!UICONTROL Action button]**&#x200B;可讓您為出現在警報通知（**action_loc_key**&#x200B;有效負載欄位）上的動作按鈕定義標籤。
+   * 此 **[!UICONTROL Action button]** 可讓您為出現在警報通知上的動作按鈕定義標籤(**action_loc_key** 有效負載的欄位)。
 
-   * 在&#x200B;**[!UICONTROL Play a sound]**&#x200B;欄位中，選取接收通知時由行動終端播放的音效。
+   * 在 **[!UICONTROL Play a sound]** 欄位中，選取接收通知時由行動終端播放的音效。
 
-   * 在&#x200B;**[!UICONTROL Application variables]**&#x200B;欄位中，輸入每個變數的值。 例如，您可以設定特定應用程式畫面，以在使用者啟動通知時顯示。
+   * 在 **[!UICONTROL Application variables]** 欄位，輸入每個變數的值。 例如，您可以設定特定應用程式畫面，以在使用者啟動通知時顯示。
 
-1. 設定通知後，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以預覽通知。
+1. 設定通知後，按一下 **[!UICONTROL Preview]** 標籤來預覽通知。
 
    ![](assets/push-ios-preview.png)
 
 
 ### 在Android上傳送通知 {#send-notifications-on-android}
 
-1. 選取&#x200B;**[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
+1. 選取 **[!UICONTROL Deliver on Android (android)]** 傳遞範本。
 
    ![](assets/push-template-android.png)
 
-1. 若要定義通知的目標，請按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 若要定義通知的目標，請按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
 
-1. 選取&#x200B;**[!UICONTROL Subscribers of an Android mobile application]**，選擇與行動應用程式相關的服務（在此例中為Neotrips），然後選取應用程式的Android版本。
+1. 選擇 **[!UICONTROL Subscribers of an Android mobile application]**，選擇與行動應用程式相關的服務（在此例中為Neotrips），然後選取應用程式的Android版本。
 
    ![](assets/push-ios-subscribers.png)
 
@@ -116,11 +116,11 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 
    ![](assets/push-android-content.png)
 
-1. 按一下&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;圖示，將表情符號插入推播通知。
+1. 按一下 **[!UICONTROL Insert emoticon]** 圖示將表情符號插入推播通知。
 
-1. 在&#x200B;**[!UICONTROL Application variables]**&#x200B;欄位中，輸入每個變數的值。 例如，您可以設定特定應用程式畫面，以在使用者啟動通知時顯示。
+1. 在 **[!UICONTROL Application variables]** 欄位，輸入每個變數的值。 例如，您可以設定特定應用程式畫面，以在使用者啟動通知時顯示。
 
-1. 設定通知後，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以預覽通知。
+1. 設定通知後，按一下 **[!UICONTROL Preview]** 標籤來預覽通知。
 
    <!--![](assets/push-android-preview.png)-->
 
@@ -129,10 +129,10 @@ Campaign SDK可促進行動應用程式與Adobe Campaign平台的整合。
 若要傳送校樣並傳送最終傳送，請使用與電子郵件傳送相同的程式。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 驗證傳遞並傳送校樣
-   ![](../assets/do-not-localize/book.png) [了解驗證傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}的關鍵步驟
+   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 * 確認並傳送傳送
-   ![](../assets/do-not-localize/book.png) [了解傳送傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}的關鍵步驟
+   ![](../assets/do-not-localize/book.png) [了解傳送傳遞的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}
 
 傳送訊息後，您可以監控及追蹤您的傳送。 在 Campaign Classic v7 文件進一步瞭解：
 

@@ -20,19 +20,19 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 >[!NOTE]
 >
->此功能可在Adobe Campaign中透過&#x200B;**CRM連接器**&#x200B;專用套件取得。
+>此功能可在Adobe Campaign中透過 **CRM連接器** 專屬套件。
 
 ## 相容系統 {#compatible-crm-systems-and-limitations}
 
-支援的CRM和版本在Campaign [相容性矩陣](../start/compatibility-matrix.md)中詳細說明。
+支援的CRM和版本在Campaign中詳細說明 [相容性矩陣](../start/compatibility-matrix.md).
 
 ![](../assets/do-not-localize/speech.png)  CRM連接器只能搭配安全URL(https)運作。
 
 ## 實施步驟 {#crm-implementation-steps}
 
-![](../assets/do-not-localize/book.png) 在Microsoft v7檔案中了解連接Campaign和Campaign Classic Dynamics的 [逐步程式](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+![](../assets/do-not-localize/book.png) 了解連結Campaign和Microsoft Dynamics的逐步程式，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-![](../assets/do-not-localize/book.png) 在Campaign Classicv7檔案中了解連接Campaign和Salesforce的逐 [步程式](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+![](../assets/do-not-localize/book.png) 了解在中連結Campaign和Salesforce的逐步程式 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
 Adobe Campaign和CRM之間的資料同步是透過專用的工作流程活動執行。 建置您的工作流程，以自動同步Campaign和CRM。 您可以建立工作流程，透過Microsoft Dynamics匯入聯絡人、與現有Adobe Campaign資料同步、刪除重複的聯絡人，然後更新Adobe Campaign資料庫。

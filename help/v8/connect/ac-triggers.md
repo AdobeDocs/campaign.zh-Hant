@@ -16,6 +16,6 @@ ht-degree: 0%
 
 您可以使用Experience Cloud觸發器，使用管道在Adobe Campaign和Adobe Analytics之間連線資料。 管道會從您的網站擷取使用者的動作或觸發器。 放棄購買是觸發的範例。 觸發器會在Adobe Campaign中處理，以近乎即時傳送電子郵件。
 
-深入了解[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)上的Adobe Campaign和Experience Cloud觸發器。
+進一步了解Adobe Campaign和Experience Cloud觸發器 [本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-![](../assets/do-not-localize/speech.png)   以受管理Cloud Services使用者的身 [分，](../start/campaign-faq.md#support) 聯絡Adobe以透過Campaign實作Experience Cloud觸發器。
+![](../assets/do-not-localize/speech.png)   作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 使用Campaign實作Experience Cloud觸發程式。

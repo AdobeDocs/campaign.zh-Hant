@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 異動訊息設定
 
-![](../assets/do-not-localize/speech.png)  以「受管Cloud Services」使用者的身 [分，](../start/campaign-faq.md#support) 請連絡Adobe，在您的環境中安裝及設定Campaign交易訊息。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 若要在您的環境中安裝及設定Campaign交易式訊息。
 
-![](../assets/do-not-localize/glass.png) 本節將詳細說明交易式 [訊息功能](../send/transactional.md)。
+![](../assets/do-not-localize/glass.png) 交易式訊息功能於 [本節](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) 在本頁面中了解交易式 [訊息架構](../dev/architecture.md)。
+![](../assets/do-not-localize/glass.png) 了解 [本頁](../dev/architecture.md).
 
 ## 定義權限
 
@@ -26,31 +26,31 @@ ht-degree: 0%
 
 ## 結構擴充功能
 
-在&#x200B;**Message Center技術工作流程**&#x200B;在控制或執行例項上所使用架構上所建立的所有架構擴充功能，必須複製到Adobe Campaign交易訊息模組所使用的其他例項上。
+對使用的結構進行的所有架構擴充功能 **訊息中心技術工作流程** 控制或執行例項必須重複於Adobe Campaign交易式訊息模組所使用的其他例項。
 
-![](../assets/do-not-localize/book.png) 進一步了解Campaign Classicv7檔案中的訊息中 [心技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+![](../assets/do-not-localize/book.png) 深入了解訊息中心技術工作流程，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## 傳送交易式推播通知
 
 與行動應用程式通道模組結合時，交易式訊息可讓您透過行動裝置上的通知推送交易式訊息。
 
-![](../assets/do-not-localize/book.png) 行動應用程式通道在Campaign Classicv7 [檔案中有詳細說明](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)。
+![](../assets/do-not-localize/book.png) 行動應用程式頻道於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 若要傳送交易式推播通知，您必須執行下列設定：
 
-1. 將&#x200B;**行動應用程式頻道**&#x200B;套件安裝至控制項和執行個體。
+1. 安裝 **行動應用程式頻道** 封裝至控制和執行執行個體。
 
    >[!CAUTION]
    >
    >安裝新的Campaign內建套件前，請先檢查您的授權合約。
 
-1. 在執行實例上複製&#x200B;**Mobile application**&#x200B;服務和相關的移動應用程式。
+1. 復寫 **行動應用程式** 執行例項上的服務及相關行動應用程式。
 
 為了讓Campaign傳送交易式推播通知，事件必須包含下列元素：
 
-* 行動裝置ID:**registrationId**&#x200B;適用於Android,**deviceToken**&#x200B;適用於iOS。 此ID代表通知將傳送至的「位址」。
-* 行動應用程式的連結或整合索引鍵(**uuid**)，可讓您擷取應用程式專屬的連線資訊。
-* 將向其發送通知的通道(**wishedChannel**):iOS為41,Android為42。
+* 行動裝置ID: **registrationId** 適用於Android和 **deviceToken** iOS。 此ID代表通知將傳送至的「位址」。
+* 行動應用程式或整合金鑰的連結(**uid**)，可讓您擷取應用程式的特定連線資訊。
+* 將傳送通知的通道(**whiskChannel**):iOS為41,Android為42。
 * 用於個人化的其他資料。
 
 以下是包含此資訊的事件範例：

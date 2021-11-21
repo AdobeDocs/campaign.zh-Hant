@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # 使用方案{#gs-ac-schemas}
 
-並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**schema**。
+並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為 **綱要**.
 
 架構是與資料庫表關聯的XML文檔。 它定義了資料結構並描述了表的SQL定義：
 
@@ -35,17 +35,17 @@ Adobe Campaign採用資料結構：
 * 定義 Campaign 應用程式中不同資料物件之間的連結。
 * 定義及描述每個物件中包含的個別欄位。
 
-如需深入了解Campaign內建表格及其互動，請參閱[此區段](datamodel.md)。
+如需深入了解Campaign內建表格及其互動，請參閱 [本節](datamodel.md).
 
 >[!CAUTION]
 >
->某些內建Campaign結構在雲端資料庫上有相關聯的結構。 這些結構由&#x200B;**Xxl**&#x200B;命名空間識別，不得修改或擴充。
+>某些內建Campaign結構在雲端資料庫上有相關聯的結構。 這些結構由 **Xxl** 命名空間和，不得修改或擴展。
 
 ## 結構的語法 {#syntax-of-schemas}
 
-架構的根元素為&#x200B;**`<srcschema>`**。 它包含&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;子元素。
+架構的根元素為 **`<srcschema>`**. 它包含 **`<element>`** 和 **`<attribute>`** 子元素。
 
-第一個&#x200B;**`<element>`**&#x200B;子元素與實體的根重合。
+第一個 **`<element>`** 子元素與實體的根重合。
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -65,13 +65,13 @@ Adobe Campaign採用資料結構：
 
 ![](assets/schema_and_entity.png)
 
-**`<element>`**&#x200B;標籤定義實體元素的名稱。 **`<attribute>`** 架構的標籤定義了已連結的標 **`<element>`** 簽中的屬性名稱。
+此 **`<element>`** 標籤定義實體元素的名稱。 **`<attribute>`** 架構的標籤定義 **`<element>`** 已連結的標籤。
 
 ## 方案的標識 {#identification-of-a-schema}
 
 資料結構以其名稱及其命名空間來識別。
 
-命名空間可讓您依感興趣區域對一組結構進行分組。 例如， **cus**&#x200B;命名空間用於客戶特定配置(**customers**)。
+命名空間可讓您依感興趣區域對一組結構進行分組。 例如， **cus** 命名空間用於客戶專屬設定(**客戶**)。
 
 >[!CAUTION]
 >
@@ -81,27 +81,27 @@ Adobe Campaign採用資料結構：
 
 ## 保留的命名空間 {#reserved-namespaces}
 
-某些命名空間會保留給Adobe Campaign應用程式運作所需系統實體的說明。 下列命名空間&#x200B;**不得用於**&#x200B;以識別任何大寫/小寫組合的新架構：
+某些命名空間會保留給Adobe Campaign應用程式運作所需系統實體的說明。 下列命名空間 **不得使用** 若要識別新結構，請使用任何大寫/小寫組合：
 
 * **xxl**:保留給雲資料庫架構
 * **xtk**:保留給平台系統資料
 * **nl**:保留給應用程式的整體使用
 * **nms**:保留給傳送（收件者、傳送、追蹤等）
 * **ncm**:保留給內容管理
-* **臨時**:保留給臨時方案
+* **溫度**:保留給臨時方案
 * **crm**:保留給CRM連接器整合
 
-架構的識別索引鍵是使用命名空間建立的字串，以及以冒號分隔的名稱；例如：**nms:recipient**。
+架構的識別索引鍵是使用命名空間建立的字串，以及以冒號分隔的名稱；例如： **nms:recipient**.
 
 ## 建立或擴充Campaign綱要 {#create-or-extend-schemas}
 
 若要將欄位或其他元素新增至Campaign中的其中一個核心資料結構，例如收件者表格(nms:recipient)，您必須擴充該結構。
 
-![](../assets/do-not-localize/glass.png) 如需詳細資訊，請參閱 [擴充結構](extend-schema.md)。
+![](../assets/do-not-localize/glass.png) 有關詳細資訊，請參閱 [擴充結構](extend-schema.md).
 
 若要新增Adobe Campaign中不存在的全新資料類型（例如合約表格），您可以直接建立自訂結構。
 
-![](../assets/do-not-localize/glass.png) 如需詳細資訊，請參 [閱建立新結構](create-schema.md)。
+![](../assets/do-not-localize/glass.png) 有關詳細資訊，請參閱 [建立新結構](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -131,13 +131,13 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->您也可以使用使用者管理的列舉（通常位於&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]**&#x200B;下）來指定指定欄位的值。 這些實際上是全局枚舉，如果您的枚舉可能在您正在使用的特定架構之外使用，則可作為更好的選擇。
+>您也可以採用使用者管理的列舉(通常位於 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** )來指定指定欄位的值。 這些實際上是全局枚舉，如果您的枚舉可能在您正在使用的特定架構之外使用，則可作為更好的選擇。
 
 ## 金鑰 {#keys}
 
-每個表至少必須有一個鍵，並且通常會使用設定為&#x200B;**true**&#x200B;的&#x200B;**autopk**&#x200B;屬性，在架構的主要元素中自動建立該鍵。****
+每個表必須至少有一個鍵，並且通常會使用 **@autouuid** 和 **奧托普** 設定為 **true**.
 
-也可以使用&#x200B;**internal**&#x200B;屬性來定義主鍵。
+也可以使用 **內部** 屬性。
 
 範例:
 
@@ -147,23 +147,23 @@ type="string" enum="exTransactionTypeEnum"/>
 </key>
 ```
 
-在此範例中，我們會指定自己的「househouldId」主要金鑰，而不是讓&#x200B;**@autouuid**&#x200B;屬性建立名為「id」的預設主要金鑰。
+在此範例中，請避免讓 **@autouuid** 屬性會建立名為「id」的預設主索引鍵，我們會指定自己的「househId」主索引鍵。
 
 >[!CAUTION]
 >
 >在建立新架構或架構擴充期間，您需要為整個架構保留相同的主鍵序列值(@pkSequence)。
 
-![](../assets/do-not-localize/glass.png) 在本小節中深入了 [解索引鍵](database-mapping.md#management-of-keys)。
+![](../assets/do-not-localize/glass.png) 深入了解 [本節](database-mapping.md#management-of-keys).
 
 ## 屬性（欄位） {#attributes--fields-}
 
-屬性可讓您定義組成資料物件的欄位。 您可以使用方案版工具欄中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空屬性模板放置到游標所在的XML中。 進一步了解[本節](create-schema.md)。
+屬性可讓您定義組成資料物件的欄位。 您可以使用 **[!UICONTROL Insert]** 按鈕，將空屬性模板放入游標所在的XML中。 深入了解 [本節](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
-[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)的`<attribute>`元素區段中提供完整的屬性清單。 以下是一些最常用的屬性：**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, ****@required **,**@ref **,**@xml **,**@type **。**
+屬性的完整清單可在 `<attribute>` 元素區段 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). 以下是一些最常用的屬性： **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-![](../assets/do-not-localize/book.png) 如需每個屬性的詳細資訊，請參閱 [Campaign Classicv7檔案中的屬性說明](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)。
+![](../assets/do-not-localize/book.png) 有關每個屬性的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### 範例 {#examples}
 
@@ -179,13 +179,13 @@ type="string" enum="exTransactionTypeEnum"/>
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-使用&#x200B;**@advanced**&#x200B;屬性隱藏的計算欄位範例：
+使用 **@advanced** 屬性：
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-SQL欄位中也儲存有XML欄位的示例，該欄位具有&#x200B;**@dataPolicy**&#x200B;屬性。
+XML欄位也儲存在SQL欄位中，且具有 **@dataPolicy** 屬性。
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -201,7 +201,7 @@ SQL欄位中也儲存有XML欄位的示例，該欄位具有&#x200B;**@dataPolic
 
 連結是結構之主要元素中的最後一些元素。 它們定義您執行個體中所有不同結構彼此的關聯方式。
 
-連結在包含連結表&#x200B;**外鍵**&#x200B;的架構中聲明。
+連結在包含 **外鍵** 連結的表格。
 
 基數類型有三種：1-1、1-N和N-N。預設會使用1-N類型。
 
@@ -249,4 +249,4 @@ SQL欄位中也儲存有XML欄位的示例，該欄位具有&#x200B;**@dataPolic
 
 >[!NOTE]
 >
->當修改不影響資料庫結構時，您只需重新產生結構即可。 要執行此操作，請選擇要更新的架構，按一下右鍵並選擇&#x200B;**[!UICONTROL Actions > Regenerate selected schemas...]** 。
+>當修改不影響資料庫結構時，您只需重新產生結構即可。 要執行此操作，請選擇要更新的架構，按一下右鍵並選擇 **[!UICONTROL Actions > Regenerate selected schemas...]** .
