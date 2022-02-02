@@ -6,16 +6,30 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
+source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 92%
 
 ---
 
 # 最新發行版本{#latest-release}
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
+
+## 第 8.2.10 發行版本 {#release-8-2-10}
+
+_2021 年 2 月 2 日_
+
+**修補程式**
+
+* 修復了一個問題，如果達到了在類型規則中定義的最大郵件數，則導致傳遞準備失敗。 (NEO-40062)
+* 在配置Adobe Analytics連接器期間，當電子郵件地址包含「s」字元時，已修復問題。 (NEO-39082)
+* 已修復在postupgrade期間的問題，這可能導致deliveryMapping表丟失自定義傳遞映射中的資料。 (NEO-40133)
+* 修復了一個問題，當電子郵件地址包含單引號字元(&#39;)時，該問題可能導致收件人多次接收同一郵件以進行相同傳遞。 此字元現在已轉義。 (NEO-41198)
+* 在發送帶有種子或替代地址的證明時，已解決ID生成問題。 (NEO-42670)
+* 已修復一個問題，該問題可能會阻止您使用地址替代方法發送校樣。 (NEO-40417)
+* 已修復導致無法安裝LINE包的問題。 (NEO-42503)
 
 ## 第 8.2.8 發行版本 {#release-8-2-8}
 
