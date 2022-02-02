@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
+source-git-commit: 89d3ffc7928e1416744f3c54a306b3d39008f2af
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ _2021 年 2 月 2 日_
 
 **修補程式**
 
-* 修復了一個問題，如果達到了在類型規則中定義的最大郵件數，則導致傳遞準備失敗。 (NEO-40062)
-* 在配置Adobe Analytics連接器期間，當電子郵件地址包含「s」字元時，已修復問題。 (NEO-39082)
-* 已修復在postupgrade期間的問題，這可能導致deliveryMapping表丟失自定義傳遞映射中的資料。 (NEO-40133)
+* 修復了在達到類型規則中定義的最大郵件數時導致傳遞準備失敗的問題。
+* 在配置Adobe Analytics連接器期間，當電子郵件地址包含「s」字元時，已修復問題。
+* 已修復在postupgrade期間的問題，這可能導致deliveryMapping表丟失自定義傳遞映射中的資料。
 * 修復了一個問題，當電子郵件地址包含單引號字元(&#39;)時，該問題可能導致收件人多次接收同一郵件以進行相同傳遞。 此字元現在已轉義。 (NEO-41198)
-* 在發送帶有種子或替代地址的證明時，已解決ID生成問題。 (NEO-42670)
+* 在發送帶有種子或替代地址的證明時，已解決ID生成問題。 (NEO-42637)
 * 已修復一個問題，該問題可能會阻止您使用地址替代方法發送校樣。 (NEO-40417)
 * 已修復導致無法安裝LINE包的問題。 (NEO-42503)
 
