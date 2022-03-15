@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
@@ -45,7 +45,7 @@ _2021 年 10 月 28 日_
 <tr>
 <td>
 <p>傳入頻道現在可使用 Real-time Interaction Management。 使用 Campaign 傳入互動模組，在客戶造訪您的網站或聯絡您的呼叫中心時，向客戶呈現最佳優惠。 此功能作為 Campaign v8 提供的選項之一，且需要您執行個體的特定設定。 請洽詢您的 Adobe 代表，以存取傳入互動模組。</p>
-<p>如需詳細資訊，請參閱<a href="../send/interaction-architecture.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../interaction/interaction-architecture.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
