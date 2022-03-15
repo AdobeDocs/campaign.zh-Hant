@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 促銷活動v8
+breadcrumb-title: 市場活動v8
 title: Campaign v8 文件
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Campaign v8 文件 {#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
-+ 有哪些新增功能？{#start}
++ 有哪些新增功能？{#new}
    + [主要功能](start/whats-new.md)
    + [發行說明](start/release-notes.md)
    + [已知限制](start/known-limitations.md)
@@ -47,25 +47,26 @@ ht-degree: 100%
    + [推播通知](send/push.md)
    + [LINE 傳送訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
+   + [社會營銷](send/twitter.md)
    + [異動訊息](send/transactional.md)
-   + 透過 Campaign 互動管理優惠方案{#interaction}
-      + [開始使用即時互動](send/interaction.md)
-      + [環境與架構](send/interaction-architecture.md)
-      + [最佳實務](send/interaction-best-practices.md)
-      + 定義設定{#interaction}
-         + [建立運算子](send/interaction-operators.md)
-         + [建立環境](send/interaction-env.md)
-         + [建立預先定義的篩選器](send/interaction-predefined-filters.md)
-         + [建立優惠方案空間](send/interaction-offer-spaces.md)
-      + [建立優惠方案目錄](send/interaction-offer-catalog.md)
-      + [建立優惠優惠方案](send/interaction-offer.md)
-      + [傳送優惠方案(傳出)](send/interaction-send-offers.md)
-      + 呈現優惠方案 (傳入){#inbound}
-         + [內容](send/interaction-present-offers.md)
-         + [呼叫網頁中的優惠](send/interaction-integration.md)
-         + [管理匿名互動](send/anonymous-interactions.md)
-      + [報告和歷史記錄](send/interaction-tracking.md)
-      + [使用案例](send/interaction-use-cases.md)
++ 即時交互{#interaction}
+   + [開始使用即時互動](interaction/interaction.md)
+   + [環境與架構](interaction/interaction-architecture.md)
+   + [最佳實務](interaction/interaction-best-practices.md)
+   + 定義設定{#interaction-settings}
+      + [建立運算子](interaction/interaction-operators.md)
+      + [建立環境](interaction/interaction-env.md)
+      + [建立預先定義的篩選器](interaction/interaction-predefined-filters.md)
+      + [建立優惠方案空間](interaction/interaction-offer-spaces.md)
+   + [建立優惠方案目錄](interaction/interaction-offer-catalog.md)
+   + [建立優惠優惠方案](interaction/interaction-offer.md)
+   + [傳送優惠方案(傳出)](interaction/interaction-send-offers.md)
+   + 呈現優惠方案 (傳入){#inbound}
+      + [內容](interaction/interaction-present-offers.md)
+      + [呼叫網頁中的優惠](interaction/interaction-integration.md)
+      + [管理匿名互動](interaction/anonymous-interactions.md)
+   + [報告和歷史記錄](interaction/interaction-tracking.md)
+   + [使用案例](interaction/interaction-use-cases.md)
 + 設定 {#config}
    + [使用工作流程自動化](config/workflows.md)
    + [管理資料](config/replication.md)
