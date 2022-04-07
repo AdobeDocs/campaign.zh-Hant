@@ -1,6 +1,6 @@
 ---
 title: 限制 PI 檢視
-description: 了解如何限制PI檢視
+description: 瞭解如何限制PI視圖
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
@@ -13,13 +13,13 @@ ht-degree: 2%
 
 ## 概覽 {#overview}
 
-如果您需要行銷使用者能夠存取資料記錄，但不希望他們看到收件者個人資訊(PI)，例如名字、姓氏或電子郵件地址，請套用下列准則，以保護隱私權並防止一般行銷活動營運商濫用資料。
+如果您需要市場營銷用戶能夠訪問資料記錄，但不希望他們看到收件人個人資訊(PI)，例如名、姓或電子郵件地址，請應用以下准則來保護隱私並防止常規市場活動操作員濫用資料。
 
-## 實作 {#implementation}
+## 實施 {#implementation}
 
-可套用至任何元素或屬性的特定屬性已新增至結構，可補充現有屬性 **[!UICONTROL visibleIf]** . 此屬性為： **[!UICONTROL accessibleIf]** . 包含與目前使用者內容相關的XTK運算式時，可善用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]** ，例如。
+可應用於任何元素或屬性的特定屬性已添加到方案中，它補充了現有屬性 **[!UICONTROL visibleIf]** 。 此屬性為： **[!UICONTROL accessibleIf]** 。 當包含與當前用戶上下文相關的XTK表達式時，它可以利用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]** ，例如
 
-您可以找到收件者結構擴充功能的範例，其中顯示以下用法：
+您可以找到以下顯示此用法的收件人架構擴展示例：
 
 ```
 <srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="xxl:nmsRecipientXl"
@@ -34,27 +34,27 @@ ht-degree: 2%
 </srcSchema>
 ```
 
-主要屬性為：
+主要屬性有：
 
-* **[!UICONTROL visibleIf]** :會隱藏中繼資料中的欄位，因此無法在結構檢視、欄選取項目或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果在運算式中手動輸入欄位名稱，則會顯示值。
-* **[!UICONTROL accessibleIf]** :會隱藏資料（以空值取代），使其不會產生查詢。 如果visibleIf為空，則會獲得與 **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL visibleIf]** :從元資料中隱藏欄位，因此在架構視圖、列選擇或表達式生成器中無法訪問這些欄位。 但這不會隱藏任何資料，如果欄位名稱是在表達式中手動輸入的，則值將顯示。
+* **[!UICONTROL accessibleIf]** :隱藏資料（用空值替換它），使其無法生成查詢。 如果visibleIf為空，則獲取與 **[!UICONTROL accessibleIf]** 。
 
-以下是在Campaign中使用此屬性的後果：
+以下是在市場活動中使用此屬性的後果：
 
-* 控制台中不會使用一般查詢編輯器來顯示資料，
-* 概覽清單和記錄清單（主控台）中不會顯示資料。
-* 在詳細檢視中，資料將變成唯讀。
-* 資料只能在篩選器中使用（這表示使用某些二分法策略，您仍可以猜測值）。
-* 使用限制欄位建立的任何運算式也會受到限制：lower(@email)將變成可存取@email。
-* 在工作流程中，您可以將限制欄新增至目標母體，作為轉變的額外欄，但Adobe Campaign使用者仍無法存取該欄。
-* 將目標母體儲存在組（清單）中時，所儲存欄位的特徵與資料源相同。
-* JS程式碼預設無法存取資料。
+* 在控制台中，不會使用通用查詢編輯器顯示資料，
+* 資料在概述清單和記錄清單（控制台）中不可見。
+* 資料將在詳細視圖中變為只讀。
+* 資料只能在篩選器內使用（這意味著使用某些二分法策略，您仍可以猜測值）。
+* 使用受限欄位生成的任何表達式也會受到限制：低(@email)與可訪問@email。
+* 在工作流中，您可以將受限制列作為過渡的額外列添加到目標人口中，但Adobe Campaign用戶仍無法訪問該列。
+* 當將目標群體儲存在組（清單）中時，所儲存欄位的特性與資料源相同。
+* 預設情況下，JS代碼無法訪問資料。
 
 ## 建議 {#recommendations}
 
-在每個傳送中，電子郵件地址會複製到 **[!UICONTROL broadLog]** 和 **[!UICONTROL forecastLog]** 表：因此，這些欄位也需要得到保護。
+在每個傳遞中，電子郵件地址都複製到 **[!UICONTROL broadLog]** 和 **[!UICONTROL forecastLog]** 表：因此，這些欄位也需要保護。
 
-以下是實作此項目的記錄表擴充功能範例：
+下面是日誌表擴展的示例，用於實現此功能：
 
 ```
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
@@ -85,4 +85,4 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此限制僅適用於非技術使用者，不會隔離資料：具有相關權限的技術使用者可以擷取資料。
+>此限制僅適用於非技術用戶，不會隔離資料：具有相關權限的技術用戶可以檢索資料。

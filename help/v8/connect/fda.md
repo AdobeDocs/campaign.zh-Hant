@@ -1,234 +1,234 @@
 ---
-title: 使用Campaign和外部資料庫(FDA)
-description: 了解如何使用Campaign和外部資料庫
+title: 使用活動和外部資料庫(FDA)
+description: 瞭解如何使用活動和外部資料庫
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1841'
 ht-degree: 3%
 
 ---
 
 # 同盟資料存取 (FDA){#gs-fda}
 
-使用FDA連接器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 和處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。 接著，您就可以存取外部資料，而不需變更Adobe Campaign資料的結構。
+使用FDA連接器（聯合資料存取）將市場活動連接到一個或多個 **外部資料庫** 並處理儲存在其中的資訊，而不影響您的市場活動雲資料庫資料。 然後，您可以訪問外部資料，而不更改Adobe Campaign資料的結構。
 
 >[!NOTE]
 >
->FDA的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md).
+>FDA的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)。
 
-促銷活動FDA選項可讓您在協力廠商資料庫中擴充您的資料模型。 它將自動檢測目標表的結構，並使用來自SQL源的資料。
+活動FDA選項允許您在第三方資料庫中擴展您的資料模型。 它將自動檢測目標表的結構並使用SQL源中的資料。
 
-特定 **權限** 在 [!DNL Adobe Campaign] 和外部資料庫進行交互。 深入了解 [本節](#fda-permissions).
+特定 **權限** 需要 [!DNL Adobe Campaign] 並在外部資料庫上進行交互。 瞭解詳情 [此部分](#fda-permissions)。
 
 ## 最佳實務和限制
 
-* **使用外部資料最佳化電子郵件個人化**
+* **利用外部資料優化電子郵件個性化**
 
-   您可以在專用的工作流程中預先處理訊息個人化。 若要執行此作業，請使用 **[!UICONTROL Prepare the personalization data with a workflow]** 選項，可在 **[!UICONTROL Analysis]** 標籤。
+   您可以在專用工作流中預處理消息個性化。 要執行此操作，請使用 **[!UICONTROL Prepare the personalization data with a workflow]** ，在 **[!UICONTROL Analysis]** 的子菜單。
 
-   在傳遞分析期間，此選項會自動建立並執行工作流程，該工作流程會將連結到目標的所有資料儲存在臨時表中，包括來自連結到外部資料庫的表的資料。
+   在傳遞分析期間，此選項會自動建立並執行一個工作流，該工作流將連結到目標的所有資料儲存在臨時表中，包括來自外部資料庫中連結的表的資料。
 
-   此選項可大幅改善執行個人化步驟時的效能。
+   此選項在執行個性化設定步驟時顯著提高效能。
 
 * **FDA限制**
 
-   FDA選項是用來在工作流程中以批次模式處理外部資料庫中的資料。 為避免效能問題，不建議在單一操作的情境下使用FDA模組，例如：個人化、互動、即時訊息傳送等。
+   FDA選項用於在工作流中以批處理模式處理外部資料庫中的資料。 為避免業績問題，不建議在單一操作中使用FDA模組，例如：個性化、交互、即時消息等。
 
-   請盡量避免同時使用Adobe Campaign和外部資料庫的操作。 若要這麼做，您可以：
+   避免需要盡可能使用Adobe Campaign和外部資料庫的操作。 為此，您可以：
 
-   * 將Adobe Campaign資料庫匯出至外部資料庫，並在將結果重新匯入Adobe Campaign之前，僅從外部資料庫執行操作。
+   * 將Adobe Campaign資料庫導出到外部資料庫，並僅在將結果重新導入Adobe Campaign之前從外部資料庫執行操作。
 
-   * 從外部Adobe Campaign資料庫收集資料，並在本機執行操作。
+   * 從外部Adobe Campaign資料庫收集資料並在本地執行操作。
 
-   如果您想要使用外部資料庫的資料在傳送中進行個人化，請收集要在工作流程中使用的資料，以便在暫時表格中使用。 然後使用臨時表格中的資料來個人化您的傳送。
+   如果您希望使用外部資料庫中的資料在交貨中執行個性化設定，請收集要在工作流中使用的資料，使其在臨時表中可用。 然後使用臨時表中的資料來個性化您的交付。
 
-   FDA選項受您所使用外部資料庫系統的限制。
+   FDA選項受您使用的外部資料庫系統的限制。
 
 
 ## 設定步驟{#fda-configuration-steps}
 
-若要使用FDA設定外部資料庫的存取權，設定步驟為：
+要使用FDA設定對外部資料庫的訪問，配置步驟包括：
 
-1. 身為Adobe Managed Services使用者，請連絡Adobe以在您的Campaign執行個體上安裝驅動程式。
-1. 安裝驅動程式後，請設定與Adobe Campaign伺服器上的資料庫相對應的外部帳戶，並測試外部帳戶。 [了解更多](#fda-external-account)
-1. 在Adobe Campaign中建立外部資料庫的架構。 這可讓您識別外部資料庫的資料結構。 [了解更多](#create-data-schema)
-1. 如有需要，從先前建立的架構建立新的目標對應。 如果傳送的收件者來自外部資料庫，則此為必要項目。 此實施隨附與訊息個人化相關的限制。 [了解更多](#define-data-mapping)
+1. 作為Adobe Managed Services用戶，請與Adobe聯繫，以在您的市場活動實例上安裝驅動程式。
+1. 安裝驅動程式後，在Adobe Campaign伺服器上設定與資料庫對應的外部帳戶並test外部帳戶。 [了解更多](#fda-external-account)
+1. 在Adobe Campaign建立外部資料庫的架構。 這允許您標識外部資料庫的資料結構。 [了解更多](#create-data-schema)
+1. 如果需要，從先前建立的架構建立新的目標映射。 如果交貨的收件人來自外部資料庫，則此為必需欄位。 此實現具有與消息個性化相關的限制。 [了解更多](#define-data-mapping)
 
 ## 外部資料庫外部帳戶{#fda-external-account}
 
-您需要建立特定的外部帳戶，將您的Campaign執行個體連結至外部資料庫。
+您需要建立特定的外部帳戶以將市場活動實例連接到外部資料庫。
 
 請遵循以下步驟完成此項目：
 
-1. 從促銷活動 **[!UICONTROL Explorer]**，瀏覽 **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
+1. 從市場活動 **[!UICONTROL Explorer]**，瀏覽 **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**。
 
 1. 按一下&#x200B;**[!UICONTROL New]**。
 
    >[!NOTE]
    >
-   > 若要啟用， **[!UICONTROL Enabled]** 選項。 如有必要，請取消選中此選項以禁用對此資料庫的訪問而不刪除其配置。
+   > 要處於活動狀態， **[!UICONTROL Enabled]** 選項。 如有必要，取消選中此選項可禁用對此資料庫的訪問，而不刪除其配置。
 
-1. 選擇 **[!UICONTROL External database]** 作為外部帳戶 **[!UICONTROL Type]**.
+1. 選擇 **[!UICONTROL External database]** 作為您的外部帳戶 **[!UICONTROL Type]**。
 
-1. 在下拉式清單中選擇您的外部資料庫，並設定外部帳戶。 您必須指定：
+1. 在下拉清單中選擇外部資料庫並配置外部帳戶。 必須指定：
 
    * **[!UICONTROL Server]**:伺服器的URL
 
-   * **[!UICONTROL Account]**:使用者名稱
+   * **[!UICONTROL Account]**:用戶名
 
-   * **[!UICONTROL Password]**:使用者帳戶密碼
+   * **[!UICONTROL Password]**:用戶帳戶密碼
 
    * **[!UICONTROL Database]**:資料庫的名稱
 
       ![](assets/snowflake.png)
 
-1. 按一下 **[!UICONTROL Parameters]** ，然後 **[!UICONTROL Deploy functions]** 按鈕以建立函式。
+1. 按一下 **[!UICONTROL Parameters]** 按鈕 **[!UICONTROL Deploy functions]** 按鈕。
 
-1. 輸入參數後，按一下 **[!UICONTROL Test the connection]** 按鈕來核准。
+1. 輸入參數後，按一下 **[!UICONTROL Test the connection]** 按鈕
 
-1. 要允許Adobe Campaign訪問此資料庫，必須部署SQL函式。 按一下 **[!UICONTROL Parameters]** ，然後 **[!UICONTROL Deploy functions]** 按鈕。
+1. 要允許Adobe Campaign訪問此資料庫，必須部署SQL函式。 按一下 **[!UICONTROL Parameters]** 按鈕 **[!UICONTROL Deploy functions]** 按鈕
 
-可以為表和中的索引定義特定的工作表空間 **[!UICONTROL Parameters]** 標籤。
+您可以為中的表和索引定義特定的工作表空間 **[!UICONTROL Parameters]** 頁籤。
 
-針對 [!DNL Snowflake]，連接器支援下列選項：
+對於 [!DNL Snowflake]，連接器支援以下選項：
 
 | Option | 說明 |
 |---|---|
 | 工作架構 | 用於工作表的資料庫架構 |
-| 倉儲 | 要使用的預設倉庫的名稱。 它會覆寫使用者的預設值。 |
-| 時區名稱 | 預設為空，這表示使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE會話參數。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | WEEK_START會話參數。 預設為0。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | USE_CACHED_RESULTS會話參數。 預設為TRUE。 此選項可用於禁用Snowflake快取結果。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| 倉庫 | 要使用的預設倉庫的名稱。 它將覆蓋用戶的預設值。 |
+| 時區名稱 | 預設為空，這意味著使用Campaign Classic應用伺服器的系統時區。 該選項可用於強制TIMEZONE會話參數。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| 周開始 | WEEK_START會話參數。 預設設定為0。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| UseCachedResult | USE_CACHED_RESULTS會話參數。 預設設定為TRUE。 此選項可用於禁用Snowflake快取結果。 <br>[如需關於此項目的詳細資訊，請參閱此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 
 ## 建立資料方案{#create-data-schema}
 
-若要在Adobe Campaign中建立外部資料庫的架構，請遵循下列步驟：
+要在Adobe Campaign建立外部資料庫的模式，請執行以下步驟：
 
-1. 按一下 **[!UICONTROL New]** 按鈕，然後選擇 **[!UICONTROL Access external data]**.
+1. 按一下 **[!UICONTROL New]** 按鈕，然後選擇 **[!UICONTROL Access external data]**。
 
    ![](assets/wf_new_schema_fda.png)
 
-1. 輸入方案的名稱和說明，並選擇將啟用與資料庫連接的外部帳戶。 這允許訪問外部資料庫中可用的表清單。 選擇包含要收集的資料的表。
+1. 輸入方案的名稱和說明，然後選擇啟用與資料庫連接的外部帳戶。 這允許訪問外部基中可用的表清單。 選擇包含要收集的資料的表。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 按一下 **[!UICONTROL OK]** 確認。 Adobe Campaign會自動偵測所選表格的結構，並產生邏輯架構。 請注意，Adobe Campaign不會產生連結。
+1. 按一下 **[!UICONTROL OK]** 確認。 Adobe Campaign自動檢測所選表的結構並生成邏輯架構。 請注意，Adobe Campaign未生成連結。
 
 1. 按一下 **[!UICONTROL Save]** 確認建立。
 
-## 定義目標對應{#define-data-mapping}
+## 定義目標映射{#define-data-mapping}
 
-您可以定義外部表格中資料的對應。
+可以在外部表中定義資料的映射。
 
-要執行此操作，建立外部表的架構後，您需要建立新的傳送對應，以將此表中的資料用作傳送目標。
+為此，在建立外部表的架構後，需要建立新的傳遞映射以將此表中的資料用作傳遞目標。
 
 要執行此操作，請依照下列步驟執行：
 
-1. 瀏覽至 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 從Adobe Campaign資源管理器。
+1. 瀏覽到 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** Adobe Campaign探險家。
 
-1. 建立新的目標對應，並選取您剛建立的結構作為目標維度。
+1. 建立新目標映射並選擇剛建立為目標維的架構。
 
    ![](assets/new-target-mapping.png)
 
 
-1. 指定儲存傳送資訊的欄位（姓氏、名字、電子郵件、地址等）。
+1. 指示儲存傳遞資訊的欄位（姓、名、電子郵件、地址等）。
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 指定資訊儲存的參數，包括擴充功能結構的尾碼，以便輕鬆識別。
+1. 指定資訊儲存的參數，包括擴展架構的尾碼，以便它們能夠輕鬆識別。
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   您可以選擇是否儲存排除項目(**排除記錄**)，含訊息(**broadlog**)或個別表格中。
+   您可以選擇是否儲存排除(**排除日誌**)，帶消息(**廣播**)或單獨的表中。
 
-   您也可以選擇是否管理此傳送對應的追蹤(**trackinglog**)。
+   您還可以選擇是否管理此交貨映射的跟蹤(**跟蹤日誌**)。
 
-1. 然後選取要考慮的擴充功能。 擴充功能類型取決於您平台的參數和選項（檢視您的授權合約）。
+1. 然後選擇要考慮的擴展。 擴展類型取決於您的平台的參數和選項（查看您的許可證合同）。
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   按一下 **[!UICONTROL Save]** 啟動傳遞對應建立的按鈕：所有連結表都會根據所選參數自動建立。
+   按一下 **[!UICONTROL Save]** 按鈕啟動交貨映射建立：所有連結的表都會基於所選參數自動建立。
 
 
 ## 權限{#fda-permissions}
 
-特定 **權限** 在 [!DNL Adobe Campaign] 和外部資料庫進行交互。
+特定 **權限** 需要 [!DNL Adobe Campaign] 並在外部資料庫上進行交互。
 
-首先，為了讓使用者能透過FDA對外部資料庫執行操作，運算子必須具有中指定的特定權限 [!DNL Adobe Campaign].
+首先，為了使用戶能夠通過FDA對外部資料庫執行操作，操作員必須在中具有特定的命名權限 [!DNL Adobe Campaign]。
 
-1. 選取 **[!UICONTROL Administration > Access Management > Named Rights]** 節點。
-1. 指定您選取的標籤，以建立新權限。
-1. 以下格式輸入「已命名」右側的名稱 **user:base@server**，其中：
+1. 選擇 **[!UICONTROL Administration > Access Management > Named Rights]** 的子菜單。
+1. 通過指定所選標籤建立新權限。
+1. 按以下格式輸入命名權的名稱 **用戶：base@server**，其中：
 
-   * **使用者** 是外部資料庫中用戶的名稱
+   * **用戶** 是外部資料庫中用戶的名稱
    * **基礎** 是外部資料庫的名稱
    * **伺服器** 是外部資料庫伺服器的名稱
 
-1. 儲存「已命名」權限，並從 **[!UICONTROL Administration > Access Management > Operators]** 節點。
+1. 保存「已命名」右側，並將其連結到所選運算子 **[!UICONTROL Administration > Access Management > Operators]** 的下界。
 
-然後，若要處理外部資料庫中包含的資料，Adobe Campaign運算子必須對資料庫至少具有「寫入」權限，才能建立工作表。 這些表格會由Adobe Campaign自動刪除。
+然後，要處理外部資料庫中包含的資料，Adobe Campaign操作員必須對資料庫至少具有「寫入」權限才能建立工作表。 這些表由Adobe Campaign自動刪除。
 
-需要下列權限：
+需要以下權限：
 
-* **CONNECT**:連接到遠程資料庫
+* **CONNECT**:到遠程資料庫的連接
 * **讀取資料**:對包含客戶資料的表的只讀訪問
-* **閱讀「MetaData」**:訪問伺服器資料目錄以獲取表結構
-* **載入**:在工作表中大量載入（處理集合和聯接時需要）
-* **建立/放置** for **表/索引/過程/函式** (僅適用於Adobe Campaign產生的工作台)
-* **說明** （建議）:在出現問題時監控效能
-* **寫入資料** （視整合案例而定）
+* **讀取「元資料」**:訪問伺服器資料目錄以獲取表結構
+* **載入**:在工作表中成批載入（在處理集合和聯接時需要）
+* **建立/刪除** 為 **表/索引/過程/函式** (僅用於Adobe Campaign生成的工作表)
+* **解釋** （推薦）:用於在出現問題時監視效能
+* **寫入資料** （取決於整合方案）
 
 資料庫管理員需要使這些權限與每個資料庫引擎的特定權限相匹配，如下所述。
 
 |   | Snowflake | Amazon Redshift |
 |:-:|:-:|:-:|
-| **連接到遠程資料庫** | 倉庫使用、資料庫使用和方案權限使用 | 建立連結至AWS帳戶的使用者 |
-| **建立表格** | 建立方案權限表 | 建立權限 |
-| **建立索引** | N/A | 建立權限 |
-| **建立函式** | 建立架構權限的函式 | USAGE ON LANGUAGE plpythonu特權可調用外部python指令碼 |
-| **建立程式** | 不適用 | USAGE ON LANGUAGE python特權可調用外部python指令碼 |
+| **連接到遠程資料庫** | 倉庫的使用、資料庫的使用和模式權限的使用 | 建立連結到AWS帳戶的用戶 |
+| **建立表** | 在架構上建立表權限 | CREATE權限 |
+| **建立索引** | N/A | CREATE權限 |
+| **建立函式** | 對架構權限建立函式 | USAGE ON LANGUAGE plpythonu權限，可以調用外部python指令碼 |
+| **建立過程** | 不適用 | USAGE ON LANGUAGE Python權限，可以調用外部python指令碼 |
 | **刪除對象（表、索引、函式、過程）** | 擁有對象 | 擁有對象或是超級用戶 |
-| **監控執行** | 對所需對象的監視權限 | 使用EXPLAIN命令無需任何權限 |
-| **寫入資料** | INSERT和/或UPDATE權限（取決於寫操作） | 插入和更新權限 |
-| **將資料載入表格** | 在架構上建立階段，在目標表權限上選擇並插入 | 選擇和插入權限 |
-| **訪問客戶端資料** | 選擇「開啟（未來）」表或「查看」權限 | 選擇權限 |
-| **存取中繼資料** | 選擇INFORMATION_SCHEMA架構權限 | 選擇權限 |
+| **監視執行** | 對所需對象的MONITOR權限 | 使用EXPLAIN命令不需要權限 |
+| **寫入資料** | INSERT和/或UPDATE權限（取決於寫入操作） | INSERT和UPDATE權限 |
+| **將資料載入到表** | 在方案上建立階段，在目標表權限上選擇和插入 | SELECT和INSERT權限 |
+| **訪問客戶端資料** | SELECT on(FUTURE)TABLE(S)或VIEW(S)權限 | SELECT權限 |
+| **訪問元資料** | 選擇INFORMATION_SCHEMA權限 | SELECT權限 |
 
 
-## 在工作流程中使用外部資料
+## 在工作流中使用外部資料
 
-建立資料結構後，即可在Adobe Campaign工作流程中處理資料。
+建立資料模式後，可以在Adobe Campaign工作流中處理資料。
 
-多個活動可讓您與外部資料庫的資料互動：
+通過多個活動，您可以與外部資料庫中的資料交互：
 
-* **篩選外部資料** - **[!UICONTROL Query]** 活動可讓您新增外部資料，並在定義的篩選設定中使用。
+* **篩選外部資料** - **[!UICONTROL Query]** 活動允許您添加外部資料並在定義的篩選器配置中使用它。
 
-* **建立子集** - **[!UICONTROL Split]** 活動可讓您建立子集。 您可以使用外部資料來定義要使用的篩選條件。
+* **建立子集** - **[!UICONTROL Split]** 活動允許您建立子集。 可以使用外部資料來定義要使用的篩選條件。
 
-* **載入外部資料庫**  — 您可以在 **[!UICONTROL Data loading (RDBMS)]** 活動。
+* **載入外部資料庫**  — 您可以使用 **[!UICONTROL Data loading (RDBMS)]** 的子菜單。
 
-* **新增資訊和連結** - **[!UICONTROL Enrichment]** 活動可讓您新增其他資料至工作流程的工作表，以及連結至外部表格。 在此內容中，它可使用外部資料庫的資料。
+* **添加資訊和連結** - **[!UICONTROL Enrichment]** 「活動」(Activity)允許您向工作流的工作表添加附加資料，並連結到外部表。 在此上下文中，它可以使用外部資料庫中的資料。
 
 
-您也可以針對暫時用途，直接從這些工作流程活動定義外部資料庫的連線。 在此情況下，它將位於本地外部資料庫上，保留用於當前工作流中：不會儲存在外部帳戶上。
+您也可以直接從這些工作流活動定義到外部資料庫的連接，以便暫時使用。 在這種情況下，它將位於本地外部資料庫上，保留用於當前工作流：不會保存在外部帳戶中。
 
 >[!CAUTION]
 >
->此類型的設定只能暫時用於收集資料。 任何其他用途均應偏好使用外部帳戶設定。
+>此類型的配置只能用於臨時收集資料。 對於任何其他用途，應首選外部帳戶配置。
 
-例如，在 **[!UICONTROL Query]** 活動，您可以定義外部資料庫的臨時連線，如下所示：
+例如，在 **[!UICONTROL Query]** 活動，可以定義到外部資料庫的臨時連接，如下所示：
 
 1. 開啟活動，然後按一下 **[!UICONTROL Add data...]**
-1. 選取 **[!UICONTROL External data]** 選項
-1. 選取 **[!UICONTROL Locally defining the data source]** 選項
-1. 在下拉式清單中選取目標資料庫引擎。 輸入伺服器的名稱並提供驗證參數。 也指定外部資料庫的名稱。
-1. 選擇資料儲存所在的表。 您可以直接在相應欄位中輸入表的名稱，或按一下編輯表徵圖以訪問資料庫表的清單。
-1. 按一下 **[!UICONTROL Add]** 按鈕，在外部資料庫資料和Adobe Campaign資料庫中的資料之間定義一個或多個調解欄位。 此 **[!UICONTROL Edit expression]** 表徵圖 **[!UICONTROL Remote field]** 和 **[!UICONTROL Local field]** 可讓您存取每個表格的欄位清單。
+1. 選擇 **[!UICONTROL External data]** 選項
+1. 選擇 **[!UICONTROL Locally defining the data source]** 選項
+1. 在下拉清單中選擇目標資料庫引擎。 輸入伺服器名稱並提供驗證參數。 還指定外部資料庫的名稱。
+1. 選擇儲存資料的表。 可以直接在相應欄位中輸入表的名稱，或按一下編輯表徵圖訪問資料庫表的清單。
+1. 按一下 **[!UICONTROL Add]** 按鈕，定義外部資料庫資料與Adobe Campaign資料庫中資料之間的一個或多個協調欄位。 的 **[!UICONTROL Edit expression]** 表徵圖 **[!UICONTROL Remote field]** 和 **[!UICONTROL Local field]** 允許您訪問每個表的欄位清單。
 1. 如有必要，請指定篩選條件和資料排序模式。
-1. 選取要在外部資料庫中收集的其他資料。 若要這麼做，請連按兩下您要新增的欄位，以在 **[!UICONTROL Output columns]**.
-1. 按一下 **[!UICONTROL Finish]** 確認此設定。
+1. 選擇要在外部資料庫中收集的其他資料。 為此，請按兩下要添加的欄位，以在 **[!UICONTROL Output columns]**。
+1. 按一下 **[!UICONTROL Finish]** 確認此配置。

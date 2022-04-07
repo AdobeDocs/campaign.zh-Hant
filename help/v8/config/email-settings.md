@@ -1,6 +1,6 @@
 ---
-title: Campaign電子郵件通道設定
-description: Campaign電子郵件通道設定
+title: 市場活動電子郵件通道設定
+description: 市場活動電子郵件通道設定
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -12,28 +12,28 @@ ht-degree: 6%
 
 ---
 
-# Campaign電子郵件通道設定
+# 市場活動電子郵件通道設定
 
-## 電子郵件密件副本
+## 電子郵件密件抄送
 
-您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。
+您可以配置Adobe Campaign以保留從您的平台發送的電子郵件副本。
 
 >[!NOTE]
->電子郵件密件副本功能為選用。 請檢查您的授權合約。
+>電子郵件密件抄送功能是可選的。 請檢查您的授權合約。
 
-Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用地址，以便使用外部系統處理和封存訊息。
+Adobe Campaign本身不管理存檔檔案。 它確實使您能夠將您選擇的消息發送到專用地址，在該地址可以使用外部系統進行處理和存檔。
 
-要執行此操作，與已傳送電子郵件對應的.eml檔案會傳輸至遠端伺服器，例如SMTP電子郵件伺服器。 封存目的地是您必須指定的密件副本電子郵件地址（不會顯示給傳送收件者）。
+為此，將與已發送電子郵件相對應的.eml檔案傳輸到遠程伺服器，如SMTP電子郵件伺服器。 存檔目標是您必須指定的密件抄送電子郵件地址（對傳遞收件人不可見）。
 
 請注意：
 
-* 您只能使用 **one** 密件副本電子郵件地址。
+* 您只能使用 **一個** 密件抄送電子郵件地址。
 
-* 系統只會考慮成功傳送的電子郵件，不會考慮退信。
+* 只考慮成功發送的電子郵件，不考慮回報。
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 以在Campaign中啟用電子郵件密件副本。 您選擇的密件副本電子郵件地址必須提供給Adobe團隊，由團隊為您進行配置。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support) 在市場活動中激活電子郵件密件抄送。 必須將您選擇的BCC電子郵件地址提供給將為您配置該地址的Adobe團隊。
 
-設定電子郵件密件副本後，請確定已在傳遞範本或透過 **電子郵件密件副本** 選項。
+配置電子郵件密件抄送後，確保在傳遞模板或通過 **電子郵件密件抄送** 的雙曲餘切值。
 
 ![](assets/email-bcc.png)
 
@@ -41,14 +41,14 @@ Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選�
 Campaign Classic v7 文件中的&#x200B;**相關主題**：
 
 
-* [生成鏡像頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
+* [生成鏡像頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;
 
-* [選擇電子郵件格式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
+* [選擇電子郵件格式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;
 
-* [選擇字元編碼](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
+* [選擇字元編碼](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;
 
-* [設定退信電子郵件地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
+* [設定退回電子郵件地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;
 
-* [使用電子郵件傳遞範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}
+* [使用電子郵件傳遞模板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;
 
-* [了解傳送故障](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+* [瞭解交付失敗](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;

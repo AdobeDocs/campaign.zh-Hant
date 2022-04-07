@@ -1,5 +1,5 @@
 ---
-title: 開始使用Campaign架構
+title: 開始使用活動體系結構
 description: 探索環境和部署基本知識
 feature: Overview
 role: Data Engineer
@@ -8,72 +8,72 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 開始使用Campaign架構{#gs-ac-archi}
+# 活動體系結構入門{#gs-ac-archi}
 
 ## 環境
 
-促銷活動可作為個別例項使用，每個例項代表完整的促銷活動環境。
+市場活動可以作為單個實例提供，每個實例代表完整的市場活動環境。
 
-CampaignCloud Service提供的三種環境類型：
+市場活動Cloud Service提供的三種環境類型：
 
 * **生產環境**:為業務從業者托管應用程式。
 
-* **預備環境**:在將應用程式的變更推送至生產環境之前，會先用於各種效能和品質測試。
+* **階段環境**:在將應用程式更改推送到生產環境之前，用於各種效能和質量test。
 
-* **開發環境**:可讓開發人員在與預備和生產環境相同的執行階段條件下實作Campaign。
+* **開發環境**:允許開發人員在與階段和生產環境相同的運行時條件下實施市場活動。
 
-您可以將套件從一個環境匯出並匯入至另一個環境。
+您可以將軟體包從一個環境導出並導入到另一個環境。
 
-![](../assets/do-not-localize/book.png) 深入了解套件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+![](../assets/do-not-localize/book.png) 瞭解有關中的包的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## 中間來源部署{#mid-sourcing-deployment}
 
-伺服器和進程之間的一般通信根據以下模式執行：
+伺服器和進程之間的一般通信按照以下模式進行：
 
 ![](assets/architecture.png)
 
-* 執行和退信管理模組在執行個體上是停用的。
+* 實例上禁用了執行和彈出管理模組。
 
-* 應用程式可配置為在使用SOAP呼叫（通過HTTP或HTTPS）驅動的遠程「中源」伺服器上執行消息。
+* 該應用程式配置為在使用SOAP調用（通過HTTP或HTTPS）驅動的遠程「中間源」伺服器上執行消息。
 
 >[!NOTE]
 >
-> Campaign v8仰賴混合架構。 如果您要從Campaign Classicv7轉換，請注意所有傳送都會經過中間來源伺服器。
-> 因此，內部路由是 **不可能** 在Campaign v8中，且外部帳戶已據此停用。
+> Campaing v8依賴於混合架構。 如果要從Campaign Classicv7進行轉換，請注意，所有交貨都通過中間採購伺服器。
+> 因此，內部路由 **不可能** 在市場活動v8中，外部帳戶已相應禁用。
 
-## 訊息中心架構{#transac-msg-archi}
+## 消息中心體系結構{#transac-msg-archi}
 
 異動訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
-![](../assets/do-not-localize/glass.png) 了解如何在 [本節](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) 瞭解如何在 [此部分](../send/transactional.md)。
 
-為了回應客戶在網站上的動作，事件會透過REST API傳送Campaign，而訊息範本會填入透過API呼叫提供的資訊或資料，而交易式訊息會即時傳送給客戶。 這些訊息可以個別傳送，或透過電子郵件、簡訊或推播通知分批傳送。
+響應於客戶在網站上的動作，通過REST API發送活動，並且消息模板填充通過API調用提供的資訊或資料，並且事務性消息即時地發送給客戶。 這些消息可以單獨或通過電子郵件、簡訊或推式通知批量發送。
 
-在此特定架構中，執行單元與控制實例分離，以確保高可用性和負載管理。
+在此特定體系結構中，執行單元與控制實例分離以確保高可用性和負載管理。
 
-* 此 **控制實例** （或行銷例項）供行銷人員和IT團隊用來建立、設定和發佈訊息範本。 此例項也會集中事件監控和歷史記錄。
+* 的 **控制實例** （或營銷實例）由營銷人員和IT團隊用於建立、配置和發佈消息模板。 此實例還集中了事件監視和歷史記錄。
 
-   ![](../assets/do-not-localize/glass.png) 了解如何在 [本節](../send/transactional.md).
+   ![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和發佈消息模板 [此部分](../send/transactional.md)。
 
-* 此 **執行實例** 擷取傳入事件（例如密碼重設或來自網站的訂單）並傳送個人化訊息。 可以有多個執行實例通過負載平衡器處理消息，並縮放要進行的事件數以實現最大可用性。
+* 的 **執行實例** 重置傳入事件（例如密碼重置或來自網站的訂單）併發送個性化消息。 可以有多個執行實例通過負載平衡器處理消息，並擴展要進行的事件數以實現最大可用性。
 
 >[!CAUTION]
 >
->控制實例和執行實例必須安裝在不同的電腦上。 他們無法共用相同的Campaign執行個體。
+>控制實例和執行實例必須安裝在不同的電腦上。 他們不能共用同一Campaign實例。
 
 ![](assets/messagecenter_diagram.png)
 
 ### 驗證
 
-若要使用這些功能，Adobe Campaign使用者需登入控制執行個體以建立交易式訊息範本、使用種子清單產生訊息預覽、顯示報表及監控執行執行執行執行個體。
+要使用這些功能，Adobe Campaign用戶登錄到控制實例以建立事務性消息模板，使用種子清單生成消息預覽，顯示報告和監視執行實例。
 
-* 單執行實例與托管的Adobe消息中心執行實例交互時，外部系統可以使用提供的帳戶登錄和密碼，通過對會話登錄方法發出api調用，首先檢索會話令牌（預設在24小時內過期）。
-然後，由執行例項提供以回應上述呼叫的sessionToken，外部應用程式可讓SOAP api叫用（rtEvents或batchEvents）來傳送通訊，而不需要在每個SOAP呼叫中納入帳戶登入和密碼。
+* 單個執行實例當與Adobe托管的消息中心執行實例交互時，外部系統可以首先檢索會話令牌（預設在24小時內過期），方法是使用提供的帳戶登錄和密碼對會話登錄方法進行api調用。
+然後，通過執行實例響應上述調用提供的sessionToken，外部應用程式可以進行SOAP api調用（rtEvents或batchEvents）來發送通信，而無需在每個SOAP調用中包括帳戶登錄和密碼。
 
-* 多個執行實例在負載平衡器後面具有多個執行實例的多單元執行體系結構中，外部應用程式調用的登錄方法正在通過負載平衡器：因此，無法使用以權杖為基礎的驗證。 需要基於用戶/密碼的身份驗證。
+* 多個執行實例在負載平衡器後面具有多個執行實例的多單元執行體系結構中，外部應用程式調用的登錄方法正通過負載平衡器：因此，不能使用基於令牌的身份驗證。 需要基於用戶/密碼的驗證。
 
-![](../assets/do-not-localize/book.png) 進一步了解交易式訊息事件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+![](../assets/do-not-localize/book.png) 瞭解有關中事務性消息傳遞事件的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)

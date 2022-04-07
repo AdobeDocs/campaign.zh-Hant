@@ -1,6 +1,6 @@
 ---
-title: 新的Campaign v8 API
-description: 新的Campaign v8 API
+title: 新市場活動v8 API
+description: 新市場活動v8 API
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -12,29 +12,29 @@ ht-degree: 2%
 
 ---
 
-# 新的Campaign API{#gs-new-api}
+# 新建市場活動API{#gs-new-api}
 
-Campaign v8隨附兩個新的API，可管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些設定的先決條件是啟用架構上的測試機制。 [了解更多](staging.md)
+Campaign v8附帶了兩個新的API，用於管理Campaign本地資料庫和雲資料庫之間的資料。 使用它們的先決條件是在架構上啟用轉移機制。 [了解更多](staging.md)
 
-* 擷取API: **xtk.session.ingest**
+* 接收API: **xtk.session.ingest**
 
-   此API僅專用於「資料插入」。 [了解更多](#data-insert-api)
+   此API僅專用於資料插入。 [了解更多](#data-insert-api)
 
 * 資料更新/刪除API: **xtk.session.ingestExt**
 
    此API用於更新或刪除資料。 [了解更多](#data-update-api)
 
-專用的內建工作流程將同步雲端資料庫中的資料。
+專用的內置工作流將同步雲資料庫中的資料。
 
 ## 插入資料{#data-insert-api}
 
-此 **xtk.session.ingest** API僅專用於「資料插入」。 無更新/刪除。
+的 **xtk.session.ingest** API僅專用於資料插入。 無更新/刪除。
 
-### 插入，無調解
+### 插入時無對帳
 
-**在工作流程中**
+**在工作流中**
 
-在 **Javascript程式碼** 在雲端資料庫中插入資料而不進行調解的活動：
+在 **Javascript代碼** 在雲資料庫中插入資料而不進行協調的活動：
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -46,12 +46,12 @@ strUuid = xtk.session.Ingest(xmlStagingSampleTable);
 logInfo(strUuid);
 ```
 
-執行工作流程後，中繼表格會如預期般饋送。
+執行工作流後，將按照預期饋送臨時表。
 
 **從SOAP調用**
 
-1. 取得驗證Token。
-1. 觸發API。 裝載為：
+1. 獲取身份驗證令牌。
+1. 觸發API。 負載為：
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -71,7 +71,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUID會傳回至SOAP回應：
+1. UUID將發回到SOAP響應：
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -83,15 +83,15 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-因此，中繼表格會如預期般饋送。
+因此，按照預期饋送臨時表。
 
 ![](assets/no-reconciliation.png)
 
-### 插入並進行調解
+### 插入並協調
 
-**在工作流程中**
+**在工作流中**
 
-在 **Javascript程式碼** 在具有調解的雲端資料庫中插入資料的活動：
+在 **Javascript代碼** 活動，在雲資料庫中插入資料，並進行協調：
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -103,15 +103,15 @@ strUuid = xtk.session.Ingest(xmlStagingSampleTable);
 logInfo(strUuid);
 ```
 
-執行工作流程後，中繼表格會如預期般饋送。
+執行工作流後，將按照預期饋送臨時表。
 
 ![](assets/with-reconciliation.png)
 
 
 **從SOAP調用**
 
-1. 取得驗證Token。
-1. 觸發API。 裝載為：
+1. 獲取身份驗證令牌。
+1. 觸發API。 負載為：
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -131,7 +131,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. 在此情況下，不會將UUID提供回回應，因為已在裝載中提供。 回應為：
+1. 在這種情況下， UUID不會返回到響應，因為它在負載中已提供。 回應是：
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -143,17 +143,17 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-因此，中繼表格會如預期般饋送。
+因此，按照預期饋送臨時表。
 
 ## 更新或刪除資料{#data-update-api}
 
-此 **xtk.session.IngestExt** API會最佳化以進行資料更新/刪除。 僅插入，首選 **xtk.session.ingest**. 記錄鍵是否不在測試表中，插入正在工作。
+的 **xtk.session.IngestExt** API被優化用於資料更新/刪除。 僅用於插入，首選 **xtk.session.ingest**。 插入正在處理記錄密鑰是否不在臨時表中。
 
 ### 插入/更新
 
-**在工作流程中**
+**在工作流中**
 
-在 **Javascript程式碼** 更新雲端資料庫中資料的活動：
+在 **Javascript代碼** 更新雲資料庫中資料的活動：
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -164,15 +164,15 @@ var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
 xtk.session.IngestExt(xmlStagingRecipient);
 ```
 
-執行工作流程後，中繼表格會如預期般更新。
+執行工作流後，將按預期更新臨時表。
 
 ![](assets/updated-data.png)
 
 **從SOAP調用**
 
 
-1. 取得驗證Token。
-1. 觸發API。 裝載為：
+1. 獲取身份驗證令牌。
+1. 觸發API。 負載為：
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -202,15 +202,15 @@ xtk.session.IngestExt(xmlStagingRecipient);
    </SOAP-ENV:Envelope>
    ```
 
-因此，中繼表格會如預期般更新。
+因此，將按照預期更新臨時表。
 
 ## 訂閱管理 {#sub-apis}
 
-如需Campaign中的訂閱管理相關說明，請參閱 [本頁](../start/subscriptions.md).
+市場活動中的訂閱管理如中所述 [此頁](../start/subscriptions.md)。
 
-插入訂閱和取消訂閱資料需仰賴 [中繼機制](staging.md) 在Campaign本機資料庫中。 訂閱者資訊是臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱程式 **非同步**. 選擇加入和選擇退出請求會透過特定的技術工作流程每小時處理一次。 [了解更多](../config/replication.md#tech-wf)
+訂閱和取消訂閱資料的插入依賴於 [分級機構](staging.md) 在市場活動本地資料庫中。 訂閱者資訊臨時儲存在本地資料庫的臨時表中，同步工作流將此資料從本地資料庫發送到雲資料庫。 因此，訂閱和取消訂閱進程 **非同步**。 選擇加入和選擇退出請求每小時都通過特定的技術工作流進行處理。 [了解更多](../config/replication.md#tech-wf)
 
 
 **相關主題**
 
-* [Campaign Classicv7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
+* [Campaign ClassicV7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)

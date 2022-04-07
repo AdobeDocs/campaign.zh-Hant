@@ -9,7 +9,7 @@ exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -102,7 +102,7 @@ Android SDK是一個用JAVA編寫的jar庫。 它讓Android開發者能夠與Ado
    }
    ```
 
-   的 `IntegrationKey` 必須與連結到此Android應用程式的Adobe Campaign移動應用程式中的「IntegrationKey」集匹配。
+   的 `IntegrationKey` 必須與連結到此Android應用程式的Adobe CampaignMobile應用程式中的「IntegrationKey」集匹配。
 
 1. **將移動設備註冊到Adobe Campaign伺服器**
 
@@ -651,7 +651,7 @@ Android SDK是一個用JAVA編寫的jar庫。 它讓Android開發者能夠與Ado
    | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合密鑰）未知。 | 空 |
    | ACCRegisterDeviceStatusFailureUnexpectedError | ACC伺服器返回了意外錯誤。 | 錯誤資訊返回給ACC。 |
 
-   {style=&quot;table-layout:auto&quot;&quot;
+   {style=&quot;table-layout:auto&quot;}
 
    **新奧蘭_SDKDelegate** 協定和 **註冊設備狀態** 委託定義如下：
 

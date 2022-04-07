@@ -1,108 +1,108 @@
 ---
-title: 連線至Campaign v8
-description: 了解如何連線至Campaign v8
+title: 連接到市場活動v8
+description: 了解如何連線至 Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 連線至Adobe Campaign v8{#gs-ac-connect}
+# 連接到Adobe Campaignv8{#gs-ac-connect}
 
-Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Campaign應用程式伺服器。
+市場活動客戶端控制台是一個富客戶端，它使您能夠連接到市場活動應用程式伺服器。
 
-開始之前，您需要：
+在開始之前，您需要：
 
-* 在 [相容性矩陣](compatibility-matrix.md)
-* 取得您的Campaign伺服器URL
-* 建立Adobe ID或從公司取得使用者認證
+* 檢查您的系統和工具與Adobe Campaign的相容性 [相容性矩陣](compatibility-matrix.md)
+* 獲取您的市場活動伺服器URL
+* 建立您的Adobe ID或從您的公司獲取您的用戶憑據
 
-## 下載並安裝客戶端控制台
+## 下載並安裝客戶端控制台{#download-ac-console}
 
-第一次使用Campaign時，或如果您需要升級至更新版本，則需要下載用戶端主控台並安裝。
+首次使用市場活動時，或者如果需要升級到較新版本，則需要下載客戶端控制台並安裝它。
 
-有兩個選項可用：
+有兩個選項：
 
-1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 下載客戶端控制台安裝程式。 然後，您可以將其安裝在本機電腦上。
+1. 作為市場活動管理員，連接到Adobe [軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 並下載客戶端控制台安裝程式。 然後，可以將其安裝到本地電腦上。
 
-1. 身為一般使用者，Adobe可為您部署主控台：更新主控台後，系統會在快顯視窗中提示您下載最新的用戶端主控台版本。
+1. 作為最終用戶，Adobe可以為您部署控制台：更新控制台後，系統將提示您在彈出窗口中下載最新的客戶端控制台版本。
 
 >[!CAUTION]
 >
->Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 未選取，以確保在有新版本的Console可用時，會提醒所有使用者。  如果選取此選項，系統不會通知使用者新的可用版本。
+>Adobe建議保留 **[!UICONTROL No longer ask this question]** 未選定，以確保在有新版本的Console可用時向所有用戶發出警報。  如果選擇此選項，則用戶將不會獲悉新的可用版本。
 
-## 建立連線
+## 建立連接{#create-your-connection}
 
 新安裝客戶端控制台後，請按照以下步驟建立與應用程式伺服器的連接：
 
-1. 從Windows啟動Console **[!UICONTROL Start]** ，在 **Adobe Campaign** 方案組。
+1. 從Windows啟動控制台 **[!UICONTROL Start]** 的 **Adobe Campaign** 程式組。
 
-1. 按一下認證欄位右上角的連結，以存取連線設定視窗。
+1. 按一下憑據欄位右上角的連結以訪問連接配置窗口。
 
-1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用程式伺服器的標籤和URL。
+1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用伺服器的標籤和URL。
 
-1. 透過URL指定與Adobe Campaign應用程式伺服器的連線。 使用電腦的DNS、別名或IP地址。
+1. 通過URL指定到Adobe Campaign應用程式伺服器的連接。 使用DNS或電腦的別名或IP地址。
 
-   例如，您可以使用 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 類型URL。
+   例如，您可以使用 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 鍵。
 
-1. 核取選項 **[!UICONTROL Connect with an Adobe ID]**.
+1. 選中選項 **[!UICONTROL Connect with an Adobe ID]**。
 
-1. 按一下 **[!UICONTROL Ok]** 來儲存設定。
+1. 按一下 **[!UICONTROL Ok]** 的子菜單。
 
-例如，您可以視需要新增連線，以連線至您的測試、預備和生產環境。
+例如，您可以根據需要添加多個連接以連接到test、舞台和生產環境。
 
 >[!NOTE]
 >
->此 **[!UICONTROL Add]** 按鈕可讓您建立 **[!UICONTROL folders]** 來組織所有連線。 只需將每個連線拖放到資料夾中即可。
+>的 **[!UICONTROL Add]** 按鈕，您可以建立 **[!UICONTROL folders]** 來組織你的所有聯繫。 只需將每個連線拖放到資料夾中即可。
 
-## 登入Adobe Campaign
+## 登錄Adobe Campaign {#logon-to-ac}
 
-若要登入現有執行個體，請遵循下列步驟：
+要登錄到現有實例，請執行以下步驟：
 
-1. 從Windows啟動Console **[!UICONTROL Start]** ，在 **Adobe Campaign** 方案組。
+1. 從Windows啟動控制台 **[!UICONTROL Start]** 的 **Adobe Campaign** 程式組。
 
-1. 按一下認證欄位右上角的連結，以存取連線設定視窗。
+1. 按一下憑據欄位右上角的連結以訪問連接配置窗口。
 
    ![](assets/connectToCampaign.png)
 
-1. 選取您需要登入的Campaign執行個體。
+1. 選擇要登錄的市場活動實例。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-1. 然後，您可以使用 [您的Adobe ID](#connect-ims).
+1. 然後，您可以使用 [你的Adobe ID](#connect-ims)。
 
    ![](assets/adobeID.png)
 
-## 授予使用者存取權
+## 授予用戶訪問權限{#grant-access}
 
-Adobe Campaign可讓您定義及管理指派給各種運算子的權限。 這些是授權或拒絕的一組權限和限制：
+Adobe Campaign允許您定義和管理分配給各種運算子的權限。 這些是授權或拒絕的一組權利和限制：
 
-* 存取特定功能（透過具名權限）,
-* 存取特定元素，
-* 建立、修改和/或刪除元素（傳遞、聯絡人、促銷活動、群組等）。
+* 訪問某些功能（通過指定權限）,
+* 訪問某些元素，
+* 建立、修改和/或刪除要素（交貨、聯繫人、市場活動、組等）。
 
-進一步了解使用者，以及如何在 [本節](permissions.md).
+瞭解有關用戶的詳細資訊以及如何在 [此部分](permissions.md)。
 
-身為Campaign管理員，您負責建立運算子，並與使用者共用其認證。
+作為市場活動管理員，您負責建立操作員並與用戶共用其憑據。
 
-## 使用您的Adobe ID連線至Campaign{#connect-ims}
+## 與您的Adobe ID聯繫{#connect-ims}
 
-Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)連線至Adobe Campaign主控台。 所有Adobe解決方案都可使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。
+活動用戶通過AdobeIdentity Management系統(IMS)使用其Adobe ID連接到Adobe Campaign控制台。 他們可以使用相同的ID所有Adobe解決方案。 將Adobe Campaign與其他解決方案一起使用時，將保存連接。
 
-深入了解Adobe IMS，位於 [本頁](https://helpx.adobe.com/enterprise/using/identity.html).
+瞭解有關Adobe IMS的詳細資訊 [此頁](https://helpx.adobe.com/enterprise/using/identity.html)。
 
 ## 網路存取{#web-access}
 
-應用程式的某些部分可通過Web瀏覽器使用HTML用戶介面進行訪問：報告、傳送核准、執行個體監控等。
+使用HTML用戶介面，可以通過Web瀏覽器訪問應用程式的某些部分：報告、交付審批、實例監控等。
 
 網路存取介面與主控台的介面類似，但是功能有所減少。
 
-例如，對於指定運算子，促銷活動在主控台中會顯示下列選項：
+例如，對於給定操作員，市場活動將在控制台中顯示以下選項：
 
 ![](assets/campaign-from-console.png)
 
@@ -110,6 +110,6 @@ Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)�
 
 ![](assets/campaign-from-web.png)
 
-驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
+Web訪問也用於驗證過程：操作員可以按一下批准請求電子郵件並通過其web瀏覽器連接到市場活動，以驗證或拒絕交付內容或預算。
 
-若要從網路存取您的Campaign執行個體，URL為：  `https://<your adobe campaign server>:<port number>/view/home`.
+要從Web訪問您的Campaign實例，URL為：  `https://<your adobe campaign server>:<port number>/view/home`。

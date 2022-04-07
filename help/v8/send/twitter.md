@@ -3,13 +3,13 @@ title: 在Twitter與Adobe Campaign發帖
 description: 瞭解如何使用Adobe Campaign社會營銷模組在Twitter上發佈消息並收集聯繫人資料
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: da6e585a789749ae0302f048940d104a36e2b477
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,6 @@ Adobe Campaign **社會營銷** 模組，讓您通過Twitter與客戶和潛在�
 
 * 在Twitter發送消息：Adobe Campaign允許你直接將郵件發到twitter帳戶。 您還可以向所有關注者發送直接消息。
 * 收集新聯繫人：Adobe Campaign可以自動恢復個人資料資料，這使您能夠開展針對性活動，並盡可能實施跨渠道策略。 此操作需要用戶同意。
-
 
 有關將您的Twitter帳戶與Adobe Campaign整合的配置步驟，請參見 [此頁](../connect/ac-tw.md)。
 

@@ -1,6 +1,6 @@
 ---
-title: 擴充Campaign綱要
-description: 了解如何擴充Campaign綱要
+title: 擴展市場活動架構
+description: 瞭解如何擴展市場活動架構
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
@@ -9,41 +9,41 @@ ht-degree: 2%
 
 ---
 
-# 擴充結構{#extend-schemas}
+# 擴展架構{#extend-schemas}
 
-身為技術使用者，您可以自訂Campaign資料模型，以符合實作的需求：將元素新增至現有架構、修改架構中的元素或刪除元素。
+作為技術用戶，您可以自定義市場活動資料模型以滿足實施的需要：將元素添加到現有架構中，修改架構中的元素或刪除元素。
 
-自訂Campaign資料模型的關鍵步驟為：
+自定義市場活動資料模型的關鍵步驟包括：
 
-1. 建立擴充功能結構
-1. 更新Campaign資料庫
+1. 建立擴展架構
+1. 更新市場活動資料庫
 1. 調整輸入表單
 
 >[!CAUTION]
->內建架構不能直接修改。 如果您需要調整內建結構，則必須擴充它。
+>內置架構不能直接修改。 如果需要調整內置架構，則必須擴展它。
 
-![](../assets/do-not-localize/glass.png) 如需深入了解Campaign內建表格及其互動，請參閱 [本頁](datamodel.md). 另請參閱在中建立新結構時的建議 [本頁](create-schema.md).
+![](../assets/do-not-localize/glass.png) 要更好地瞭解活動內置表及其交互作用，請參閱 [此頁](datamodel.md)。 另請參見中建立新架構時的建議 [此頁](create-schema.md)。
 
-若要擴充結構，請遵循下列步驟：
+要擴展架構，請執行以下步驟：
 
-1. 導覽至 **[!UICONTROL Administration > Configuration > Data schemas]** 檔案夾。
-1. 按一下 **新增** 按鈕並選取 **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. 導航到 **[!UICONTROL Administration > Configuration > Data schemas]** 資料夾。
+1. 按一下 **新建** 按鈕 **[!UICONTROL Extend the data in a table using an extension schema]**。
 
    ![](assets/extend-schema-option.png)
 
-1. 識別要擴充的內建架構，並加以選取。
+1. 標識要擴展的內置架構並選擇它。
 
    ![](assets/extend-schema-select.png)
 
-   根據慣例，將擴充功能架構命名為與內建架構相同的架構，並使用自訂命名空間。  請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)
+   按照約定，將擴展架構命名為與內置架構相同，並使用自定義命名空間。  請注意，某些命名空間僅是內部的。 [了解更多](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
-1. 進入結構編輯器後，使用內容功能表新增您需要的元素並儲存。
+1. 在架構編輯器中，使用上下文菜單添加所需元素並保存。
 
    ![](assets/extend-schema-edit.png)
 
-   在以下範例中，我們新增 **MembershYear** 屬性，請設定姓氏的長度限制（此限制將覆寫預設限制），並從內建架構中移除出生日期。
+   在下面的示例中，我們將 **會員年** 屬性，為姓氏設定長度限制（此限制將覆蓋預設限制），並從內置架構中刪除出生日期。
 
    ![](assets/extend-schema-sample.png)
 
@@ -59,10 +59,10 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 斷開連線並重新連線至Campaign，以檢查 **[!UICONTROL Structure]** 標籤。
+1. 斷開與市場活動的連接並重新連接，以在 **[!UICONTROL Structure]** 頁籤。
 
    ![](assets/extend-schema-structure.png)
 
 1. 更新資料庫結構以應用更改。 [了解更多](update-database-structure.md)
 
-1. 在資料庫中實作變更後，您可以調整收件者輸入表單，讓變更可見。 [了解更多](forms.md)
+1. 在資料庫中實施更改後，您可以調整收件人輸入表單以使更改可見。 [了解更多](forms.md)

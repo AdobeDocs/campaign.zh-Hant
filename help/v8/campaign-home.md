@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 21726c8bd0c17c88c83897b98947f56b20152979
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 80%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 * **[實施方針](start/implement.md)**  - 瞭解如何開始實施
 
 * **[從 v7 到 v8](start/capability-matrix.md)** - 從 Campaign Classic v7 轉變到 v8？瞭解主要差異
+
+* **[市場活動v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;**  — 使用市場活動控制面板自行執行關鍵管理員任務
+
+* **[發行說明](start/release-notes.md)**  — 發現最新功能和改進
+
 
 ## 開始使用
 
@@ -65,4 +70,4 @@ ht-degree: 100%
 * [測量和追蹤](start/reporting.md)
 * [連結其他解決方案](connect/integration.md)
 * [Campaign v8 常見問題集](start/campaign-faq.md)
-* [Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}

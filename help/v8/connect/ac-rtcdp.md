@@ -1,6 +1,6 @@
 ---
-title: 使用Campaign和Real-time Customer Data Platform
-description: 了解如何使用Campaign和Real-time Customer Data Platform
+title: 與運動和Real-time Customer Data Platform合作
+description: 瞭解如何與Campaign和Real-time Customer Data Platform合作
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 使用Campaign和Real-time Customer Data Platform
+# 與運動和Real-time Customer Data Platform合作
 
-使用 **Adobe Experience Platform**，您可以在Campaign和Adobe Real-time Customer Data Platform(RTCDP)之間共用資料。 這可讓您在促銷活動工作流程中鎖定Adobe Experience Platform對象，然後傳回與這些對象相關的Adobe Real-time Customer Data Platform資料，例如傳送、開啟和點按。
+與 **Adobe Experience Platform**，您可以在市場活動和Adobe Real-time Customer Data Platform(RTCDP)之間共用資料。 這樣，您就可以在活動工作流中將Adobe Experience Platform受眾作為目標，然後將與這些受眾相關的資料發回Adobe Real-time Customer Data Platform，如發送、開啟和按一下。
 
-![](../assets/do-not-localize/book.png) 深入了解RTCDP(位於 [本節](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
+![](../assets/do-not-localize/book.png) 瞭解有關RTCDP的更多資訊， [此部分](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
 
-![](../assets/do-not-localize/book.png) 了解如何在中實作和使用RTCDP搭配Campaign [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) 瞭解如何實施和使用RTCDP與市場活動 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 來連接RTCDP和Campaign。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support) 連接RTCDP和市場活動。

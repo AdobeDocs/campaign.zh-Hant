@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: 市場活動v8
 title: Campaign v8 文件
-source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 98%
    + [Classic v7 到 v8](start/capability-matrix.md)
 + 開始 {#start}
    + [開始使用](start/get-started.md)
-   + [設定檔和對象](start/audiences.md)
+   + [元件和流程](start/ac-components.md)
+   + 市場活動UI {#ac-ui}
+      + [發現市場活動介面](start/campaign-ui.md)
+      + [自定義市場活動介面](start/customize-ui.md)
+   + [與受眾合作](start/audiences.md)
    + [匯入資料](start/import.md)
    + [建立行銷活動](start/campaigns.md)
    + [傳送訊息](start/create-message.md)
@@ -41,7 +45,20 @@ ht-degree: 98%
    + [連結至 Campaign](start/connect.md)
    + [權限](start/permissions.md)
    + [控制面板](config/self-service.md)
-+ 傳送 {#send}
++ 設定檔和對象 {#profiles-and-audiences}
+   + [開始使用](audiences/gs-audiences.md)
+   + [訪問配置檔案](audiences/view-profiles.md)
+   + 新增設定檔 {#add-profiles}
+      + [手動建立配置檔案](audiences/create-profiles.md)
+      + [從檔案導入配置檔案](audiences/import-profiles.md)
+      + [使用外部配置檔案](audiences/external-profiles.md)
+      + [在Web表單中收集配置檔案資料](audiences/collect-profiles.md)
+   + 建立對象 {#create-audiences}
+      + [建立聯繫人清單](audiences/create-audiences.md)
+      + [建立和管理篩選器](audiences/create-filters.md)
+   + [管理資料夾和視圖](audiences/folders-and-views.md)
+   + [最佳實務](audiences/audiences-best-practices.md)
++ 傳送訊息{#send}
    + [電子郵件](send/email.md)
    + [SMS](send/sms.md)
    + [推播通知](send/push.md)
@@ -49,6 +66,9 @@ ht-degree: 98%
    + [直接郵件](send/direct-mail.md)
    + [社會營銷](send/twitter.md)
    + [異動訊息](send/transactional.md)
+   + 故障、邊界和隔離{#failures}
+      + [隔離](send/quarantines.md)
+      + [傳遞失敗](send/delivery-failures.md)
 + 即時交互{#interaction}
    + [開始使用即時互動](interaction/interaction.md)
    + [環境與架構](interaction/interaction-architecture.md)
@@ -104,3 +124,4 @@ ht-degree: 98%
       + [開始使用](dev/api.md)
       + [新 API](dev/new-apis.md)
       + [API 準備機制](dev/staging.md)
++ [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)

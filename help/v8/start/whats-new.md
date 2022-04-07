@@ -5,16 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 81%
 
 ---
 
 # Adobe Campaign v8 有哪些新功能？ {#ac-gs-what-is-new}
 
 Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視功能。 善用雲端資料庫技術[[!DNL Snowflake]](https://www.snowflake.com/)，Adobe Campaign 大幅提高了其規模和速度，能夠管理更多的客戶設定檔，並提供更高的每小時傳送率和異動。
+
+## 主要功能{#key-capabilities}
 
 主要功能包括：
 
@@ -34,7 +36,7 @@ Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視�
 
 ![](assets/home-page.png)
 
-## 規模調整
+## 規模調整{#scale}
 
 Campaign v8 在流程的任何步驟中都提供端對端規模調整，從目標定位到最終報告：
 
@@ -42,7 +44,23 @@ Campaign v8 在流程的任何步驟中都提供端對端規模調整，從目�
 * 針對細分和目標定位以及資料擷取與匯出調整查詢的效能
 * 調整傳送準備規模 (從小時到分鐘)
 
-## 簡化並提高效能
+## 自助服務管理介面{#self-service-admin}
+
+作為產品管理員，您可以管理設定並跟蹤每個促銷活動v8實例的使用情況 **市場活動控制面板**。
+
+通過直觀的用戶介面，管理員可以監視關鍵資產的使用情況，執行高級任務，如IP地址允許清單、 SFTP儲存監視、密鑰管理等。 此自助服務介面為您帶來更多靈活性，並幫助您：
+
+* 無需聯繫Adobe支援即可自行快速更改設定
+* 根據不同業務需要在不同時間配置設定
+* 通過按需控制訪問設定來增強安全性
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [瞭解有關市場活動控制面板的詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;
+
+
+
+## 簡化並提高效能{#simplification-and-perf-increase}
 
 Campaign v8 引入了&#x200B;**完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫上遠端處理。
 
