@@ -8,7 +8,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷�
 
 ## 整合式客戶設定檔 {#integrated-customer-profile}
 
-設定檔集中在功能強大的雲端資料庫中。 獲取配置檔案和建立此資料庫的可能機制有很多：通過Web表單進行線上收集、手動或自動導入文本檔案、與公司資料庫或其他資訊系統進行複製。 藉助 Adobe Campaign，您可以將行銷記錄、購買資訊、偏好、CRM 資料以及任何相關的 PII 資料融入整合視圖中，以進行分析並採取行動。
+設定檔集中在功能強大的雲端資料庫中。 要取得設定檔來建立此資料庫，有許多可行的機制：透過網路表單線上收集、手動或自動匯入文字檔、透過公司資料庫或其他資訊系統進行複寫。藉助 Adobe Campaign，您可以將行銷記錄、購買資訊、偏好、CRM 資料以及任何相關的 PII 資料融入整合視圖中，以進行分析並採取行動。
 
 在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、SMS 等) 的預設用戶檔案。有了資料庫中儲存的收件者資料，您能夠對接收任何給定內容的收件者進行篩選，並在交付內容中新增個人化資料。資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
 
@@ -67,9 +67,9 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 您可以使用 Adobe Campaign 透過逐步豐富客戶資料和設定檔，來監視和詮釋客戶行為。您可以使用報告和分析工具充分利用每一次新的行銷活動、更有效地鎖定行銷方案，且最佳化行銷影響力及投資報酬率。
 
-除了功能強大的現成報告模板外，Adobe Campaign還允許您在交貨、市場活動、用戶或段層建立自定義報告。 進行描述性分析、匯總ROI或將資料導出到Adobe Analytics和其他解決方案，以便進一步進行資料可視化和分析。
+除了功能強大的現成報告範本外，Adobe Campaign 還允許您在傳遞、行銷活動、使用者或區段層級建立自訂報告。 進行敘述性分析、匯總 ROI 或將資料匯出至 Adobe Analytics 和其他解決方案，以便進一步視覺化呈現資料並加以分析。
 
-市場活動報告功能有助於建立動態報告。 您可以使用拖放變數來自定義報表並分析市場活動的成功。 根據查詢和計算的複雜性，資料可以聚合到清單視圖中或以便於生成市場營銷分析報告的格式訪問。
+行銷活動報告功能有助於建立動態報告。 您可以利用可拖放的變數來自訂報告並分析行銷活動的成功與否。 根據查詢和計算的複雜性，資料可以彙總到清單檢視或透過便於產生行銷分析報告的格式加以存取。
 
 
 ![](../assets/do-not-localize/glass.png)進一步瞭解[本節](reporting.md)中的報告和追蹤功能。
@@ -84,11 +84,11 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施及最佳化對話式行銷功能。其中部分是核心功能，部分功能取決於套件的安裝和您的設定。此處提供了詳盡的產品說明：[Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)。
 
-![](../assets/do-not-localize/glass.png) 已經熟悉 Campaign Classic 嗎？在[本頁](capability-matrix.md)中瞭解 Campaign Classic 與Campaign v8 的主要差異。
+![](../assets/do-not-localize/glass.png) 已經熟悉 Campaign Classic 嗎？在[本頁](capability-matrix.md)中瞭解 Campaign Classic 與 Campaign v8 的主要差異。
 
 **另請參閱**
 
-* [市場活動工作區](campaign-ui.md)
+* [Campaign 工作環境](campaign-ui.md)
 * [Campaign v8 相容性對照表](compatibility-matrix.md)
 * [連結至 Campaign](connect.md)
 * [常見問題集](campaign-faq.md)

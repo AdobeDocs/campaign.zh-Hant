@@ -8,11 +8,11 @@ exl-id: 363b53ad-098c-4c34-8026-3185702c0452
 source-git-commit: 9c5c5e825294bd39742ecbd07b98a90b4555c138
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 手動建立配置檔案{#create-profiles-manual}
+# 手動建立設定檔{#create-profiles-manual}
 
 要填充市場活動資料庫，您可以 [導入配置檔案](import-profiles.md) 或手動添加，如下所述。
 

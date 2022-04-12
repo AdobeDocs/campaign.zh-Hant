@@ -7,7 +7,7 @@ title: Campaign v8 文件
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 81%
    + [Classic v7 到 v8](start/capability-matrix.md)
 + 開始 {#start}
    + [開始使用](start/get-started.md)
-   + [元件和流程](start/ac-components.md)
-   + 市場活動UI {#ac-ui}
-      + [發現市場活動介面](start/campaign-ui.md)
-      + [自定義市場活動介面](start/customize-ui.md)
-   + [與受眾合作](start/audiences.md)
+   + [元件與流程](start/ac-components.md)
+   + Campaign UI {#ac-ui}
+      + [瞭解 Campaign 介面](start/campaign-ui.md)
+      + [自訂 Campaign 介面](start/customize-ui.md)
+   + [配合受眾](start/audiences.md)
    + [匯入資料](start/import.md)
    + [建立行銷活動](start/campaigns.md)
    + [傳送訊息](start/create-message.md)
@@ -45,18 +45,18 @@ ht-degree: 81%
    + [連結至 Campaign](start/connect.md)
    + [權限](start/permissions.md)
    + [控制面板](config/self-service.md)
-+ 設定檔和對象 {#profiles-and-audiences}
++ 設定檔和受眾 {#profiles-and-audiences}
    + [開始使用](audiences/gs-audiences.md)
-   + [訪問配置檔案](audiences/view-profiles.md)
+   + [存取設定檔](audiences/view-profiles.md)
    + 新增設定檔 {#add-profiles}
-      + [手動建立配置檔案](audiences/create-profiles.md)
-      + [從檔案導入配置檔案](audiences/import-profiles.md)
-      + [使用外部配置檔案](audiences/external-profiles.md)
-      + [在Web表單中收集配置檔案資料](audiences/collect-profiles.md)
+      + [手動建立設定檔](audiences/create-profiles.md)
+      + [從檔案匯入設定檔](audiences/import-profiles.md)
+      + [使用外部設定檔](audiences/external-profiles.md)
+      + [在網路表單中收集設定檔資料](audiences/collect-profiles.md)
    + 建立對象 {#create-audiences}
-      + [建立聯繫人清單](audiences/create-audiences.md)
-      + [建立和管理篩選器](audiences/create-filters.md)
-   + [管理資料夾和視圖](audiences/folders-and-views.md)
+      + [建立連絡人清單](audiences/create-audiences.md)
+      + [建立及管理篩選器](audiences/create-filters.md)
+   + [管理資料夾和檢視](audiences/folders-and-views.md)
    + [最佳實務](audiences/audiences-best-practices.md)
 + 傳送訊息{#send}
    + [電子郵件](send/email.md)
@@ -64,12 +64,12 @@ ht-degree: 81%
    + [推播通知](send/push.md)
    + [LINE 傳送訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
-   + [社會營銷](send/twitter.md)
+   + [社交行銷](send/twitter.md)
    + [異動訊息](send/transactional.md)
-   + 故障、邊界和隔離{#failures}
+   + 失敗、邊界和隔離{#failures}
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)
-+ 即時交互{#interaction}
++ 即時互動{#interaction}
    + [開始使用即時互動](interaction/interaction.md)
    + [環境與架構](interaction/interaction-architecture.md)
    + [最佳實務](interaction/interaction-best-practices.md)

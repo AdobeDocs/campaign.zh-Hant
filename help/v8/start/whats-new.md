@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Campaign v8 在流程的任何步驟中都提供端對端規模調整，從目�
 
 ## 自助服務管理介面{#self-service-admin}
 
-作為產品管理員，您可以管理設定並跟蹤每個促銷活動v8實例的使用情況 **市場活動控制面板**。
+作為產品管理員，您可以利用 **Campaign 控制面板**&#x200B;來管理設定並追蹤每個 Campaign v8 執行個體的使用情況。
 
-通過直觀的用戶介面，管理員可以監視關鍵資產的使用情況，執行高級任務，如IP地址允許清單、 SFTP儲存監視、密鑰管理等。 此自助服務介面為您帶來更多靈活性，並幫助您：
+透過直觀的使用者介面，管理員可以監視重要資產的使用情況，執行進階任務，例如 IP 位址允許清單、SFTP 儲存監視、金鑰管理等等。 此自助服務介面為您帶來更多彈性，並幫助您：
 
-* 無需聯繫Adobe支援即可自行快速更改設定
-* 根據不同業務需要在不同時間配置設定
-* 通過按需控制訪問設定來增強安全性
+* 自行快速變更設定，而無需聯絡 Adobe 支援部門。
+* 根據不同時間的不同業務需求進行設定
+* 根據需求控制存取設定，以加強安全性
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [瞭解有關市場活動控制面板的詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;
+![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 

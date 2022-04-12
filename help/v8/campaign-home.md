@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 21726c8bd0c17c88c83897b98947f56b20152979
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 80%
 
 * **[從 v7 到 v8](start/capability-matrix.md)** - 從 Campaign Classic v7 轉變到 v8？瞭解主要差異
 
-* **[市場活動v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;**  — 使用市場活動控制面板自行執行關鍵管理員任務
+* **[Campaign v8 的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target=&quot;_blank&quot;}** - 利用 Campaign 控制面板自行執行重要的管理員工作
 
-* **[發行說明](start/release-notes.md)**  — 發現最新功能和改進
+* **[發行說明](start/release-notes.md)** - 瞭解最新功能和改進
 
 
 ## 開始使用

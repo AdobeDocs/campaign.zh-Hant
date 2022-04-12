@@ -8,7 +8,7 @@ exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 22%
 >[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
-## 建立聯繫人清單 {#create-a-list-of-contacts}
+## 建立連絡人清單 {#create-a-list-of-contacts}
 
 要建立聯繫人清單，請執行以下步驟：
 

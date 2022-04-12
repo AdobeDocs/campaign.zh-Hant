@@ -8,11 +8,11 @@ exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 source-git-commit: 9c5c5e825294bd39742ecbd07b98a90b4555c138
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# 從檔案導入配置檔案{#create-profiles}
+# 從檔案匯入設定檔{#create-profiles}
 
 要填充市場活動資料庫，您可以 [手動添加配置檔案](create-profiles.md) 或導入配置式（如下所述）。 您還可以使用導入的檔案來更新聯繫人資料。
 

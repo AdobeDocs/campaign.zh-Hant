@@ -8,11 +8,11 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 管理資料夾和視圖 {#folders-and-views}
+# 管理資料夾和檢視 {#folders-and-views}
 
 市場活動資料夾是瀏覽器樹中的節點。 根據其類型，它們包含某些類型的資料。
 

@@ -5,7 +5,7 @@ exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 在Campaign v8中，主鍵是通用唯一標識符(UUID)，它是字串。 要建立此UUID，架構的主元素必須包含 **autouuid** 和 **奧托普** 屬性設定為 **真**。
 
-Adobe Campaignv8以Snowflake為核心資料庫。 Snowflake資料庫的分佈式體系結構沒有提供管理表中密鑰唯一性的機制：最終用戶負責確保Adobe Campaign資料庫中密鑰的一致性。
+Adobe Campaign v8 以 Snowflake 作為核心資料庫。 Snowflake資料庫的分佈式體系結構沒有提供管理表中密鑰唯一性的機制：最終用戶負責確保Adobe Campaign資料庫中密鑰的一致性。
 
 要保持關係資料庫一致性，必須避免在鍵上重複，尤其是在主鍵上重複。 主鍵上的重複導致資料管理工作流活動出現問題，如 **查詢**。 **協調**。 **更新資料**。
 
