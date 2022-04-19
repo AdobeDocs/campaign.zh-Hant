@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: 市場活動v8
 title: Campaign v8 文件
-source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
+source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,11 @@ ht-degree: 100%
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
-   + [Campaign + 您的 CRM](connect/crm.md)
+   + Campaign + 您的 CRM {#ac-crm}
+      + [開始使用CRM連接器](connect/crm.md)
+      + [與市場活動和SFDC合作](connect/ac-sfdc.md)
+      + [與Campaign和MicrosoftDynamics合作](connect/ac-ms-dyn.md)
+      + [同步資料](connect/crm-data-sync.md)
 + 開發人員資源{#architecture}
    + [全域原則](dev/general-architecture.md)
    + [架構](dev/architecture.md)
