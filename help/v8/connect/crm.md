@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: 9ad8623b48021eab7b53c7fbc69f3baa165afd3f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 19%
+source-wordcount: '329'
+ht-degree: 20%
 
 ---
 
@@ -35,7 +35,9 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 市場活動中詳細介紹了支援的CRM和版本 [相容性矩陣](../start/compatibility-matrix.md)。
 
-![](../assets/do-not-localize/speech.png)  CRM連接器僅使用安全URL(https)。
+>[!CAUTION]
+>
+> 市場活動CRM連接器僅使用安全URL(https)。
 
 ## 實施步驟 {#crm-implementation-steps}
 
@@ -43,6 +45,4 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 瞭解將Campaign和Salesforce.com連接到的逐步過程 [此頁](ac-sfdc.md)。
 
-Adobe Campaign和CRM之間的資料同步通過專用工作流活動執行。 構建您的工作流以自動同步市場活動和您的CRM。 您可以建立一個工作流，該工作流通過Microsoft動態導入聯繫人，將其與現有Adobe Campaign資料同步，刪除重複的聯繫人，然後更新Adobe Campaign資料庫。
-
-![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started) 中深入瞭解
+Adobe Campaign和CRM之間的資料同步通過專用工作流活動執行。 構建您的工作流以自動同步市場活動和您的CRM。 您可以建立一個工作流，該工作流通過Microsoft動態導入聯繫人，將其與現有Adobe Campaign資料同步，刪除重複的聯繫人，然後更新Adobe Campaign資料庫。 在[本頁](crm-data-sync.md)中瞭解更多。
