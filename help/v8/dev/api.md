@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 12%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -43,17 +43,6 @@ Campaing v8與兩個資料庫配合使用：本地資料庫用於用戶介面即
 >[!NOTE]
 >您可以生成資料模型的完整說明。 在[本頁](datamodel.md)中瞭解更多。
 
-## [!DNL Campaign] API 準備機制
-
-與 [!DNL Campaign] 由於效能（延遲和併發），建議不要對雲資料庫、Blast統一調用進行處理。 批處理操作始終是首選的。 為了保證API的最佳效能，Campign會在本地資料庫級別處理API調用。
-
-![](../assets/do-not-localize/glass.png) [本頁詳細介紹了API暫存機制](staging.md)
-
-## 新 API
-
-新的API可用於管理之間的資料同步 [!DNL Campaign] 本地資料庫和雲資料庫。 此外，還引入了一種新機制來處理本地資料庫級別的API調用，以避免延遲並提高整體效能。
-
-![](../assets/do-not-localize/glass.png) [本頁詳細介紹了新API](new-apis.md)
 
 **相關主題**
 

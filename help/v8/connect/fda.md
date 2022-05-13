@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1699'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->FDA的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)。
+>* FDA的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)。
+>
+>* 在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，可使用特定外部帳戶管理市場活動本地資料庫和Snowflake雲資料庫之間的通信。 此外部帳戶是通過Adobe為您設定的，不得修改。
+>
+
 
 活動FDA選項允許您在第三方資料庫中擴展您的資料模型。 它將自動檢測目標表的結構並使用SQL源中的資料。
 
@@ -56,7 +60,12 @@ ht-degree: 3%
 1. 作為Adobe Managed Services用戶，請與Adobe聯繫，以在您的市場活動實例上安裝驅動程式。
 1. 安裝驅動程式後，在Adobe Campaign伺服器上設定與資料庫對應的外部帳戶並test外部帳戶。 [了解更多](#fda-external-account)
 1. 在Adobe Campaign建立外部資料庫的架構。 這允許您標識外部資料庫的資料結構。 [了解更多](#create-data-schema)
-1. 如果需要，從先前建立的架構建立新的目標映射。 如果交貨的收件人來自外部資料庫，則此為必需欄位。 此實現具有與消息個性化相關的限制。 [了解更多](#define-data-mapping)
+
+<!--
+1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
+-->
+
+請注意，使用市場活動 [企業(FDA)部署](../architecture/enterprise-deployment.md)，無法從FDA訪問的外部資料庫中儲存的架構建立目標映射。 因此，您交貨的收件人不能來自外部資料庫。
 
 ## 外部資料庫外部帳戶{#fda-external-account}
 
@@ -121,39 +130,40 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL Save]** 確認建立。
 
-## 定義目標映射{#define-data-mapping}
+<!-- 
+## Define the target mapping{#define-data-mapping}
 
-可以在外部表中定義資料的映射。
+You can define a mapping on the data in an external table.
 
-為此，在建立外部表的架構後，需要建立新的傳遞映射以將此表中的資料用作傳遞目標。
+To do this, once the schema of the external table has been created, you need to create a new delivery mapping to use the data in this table as a delivery target.
 
-要執行此操作，請依照下列步驟執行：
+To do this, follow these steps:
 
-1. 瀏覽到 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** Adobe Campaign探險家。
+1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** from Adobe Campaign explorer.
 
-1. 建立新目標映射並選擇剛建立為目標維的架構。
+1. Create a new target mapping and select the schema you just created as the targeting dimension.
 
    ![](assets/new-target-mapping.png)
 
 
-1. 指示儲存傳遞資訊的欄位（姓、名、電子郵件、地址等）。
+1. Indicate the fields where the delivery information is stored (last name, first name, email, address, etc.).
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 指定資訊儲存的參數，包括擴展架構的尾碼，以便它們能夠輕鬆識別。
+1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   您可以選擇是否儲存排除(**排除日誌**)，帶消息(**廣播**)或單獨的表中。
+   You can choose whether to store exclusions (**excludelog**), with messages (**broadlog**) or in a separate table.
 
-   您還可以選擇是否管理此交貨映射的跟蹤(**跟蹤日誌**)。
+   You can also choose whether to manage tracking for this delivery mapping (**trackinglog**).
 
-1. 然後選擇要考慮的擴展。 擴展類型取決於您的平台的參數和選項（查看您的許可證合同）。
+1. Then select the extensions to be taken into account. The extension type depends on your platform's parameters and options (view your license contract).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   按一下 **[!UICONTROL Save]** 按鈕啟動交貨映射建立：所有連結的表都會基於所選參數自動建立。
-
+   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+-->
 
 ## 權限{#fda-permissions}
 

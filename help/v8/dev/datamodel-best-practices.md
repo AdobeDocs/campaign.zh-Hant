@@ -2,9 +2,9 @@
 title: 資料模型最佳實務
 description: 瞭解市場活動資料模型擴展最佳做法
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2717'
 ht-degree: 4%
 
 ---
@@ -73,13 +73,9 @@ Adobe Campaign是一個功能強大的跨渠道市場活動管理系統，可幫
 
 高效的密鑰對效能至關重要。 使用Snowflake，可以將數字或基於字串的資料類型插入為表的鍵。
 
-<!-- ### Dedicated tablespaces {#dedicated-tablespaces}
-
-The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
-
-The installation wizard allows you to store objects by type (data, temporary).
-
-Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance. -->
+>[!NOTE]
+>
+>的 **autouuid** 屬性僅適用於 [企業(FDA)部署](../architecture/enterprise-deployment.md)。
 
 ## 標識符 {#identifiers}
 
@@ -93,7 +89,7 @@ Adobe Campaign資源有三個標識符，並且可以添加一個附加標識符
 | 名稱（或內部名稱） | <ul><li>此資訊是表中記錄的唯一標識符。 此值可以手動更新，通常使用生成的名稱。</li><li>此標識符在部署到Adobe Campaign的其他實例時保留其值，不應為空。</li></ul> | <ul><li>如果對象要從環境部署到另一個環境，請更名Adobe Campaign生成的記錄名稱。</li><li>當對象具有命名空間屬性(*架構* 例如)，此公共命名空間將用於所有建立的自定義對象。 不應使用某些保留的命名空間： *nms*。 *xtk*&#x200B;的子菜單。  請注意，某些命名空間僅是內部的。 [了解更多資訊](schemas.md#reserved-namespaces)。</li><li>當對象沒有任何命名空間(*工作流* 或 *交貨* 例如)，此命名空間概念將作為內部名稱對象的前置詞添加： *命名空間MyObjectName*。</li><li>請勿使用特殊字元，如空格「」、半列「：」或連字元「 — 」。 所有這些字元都將替換為下划線「_」（允許的字元）。 例如，「abc-def」和「abc:def」將儲存為「abc_def」，並互相覆蓋。</li></ul> |
 | 標籤 | <ul><li>標籤是Adobe Campaign中對象或記錄的業務標識符。</li><li>此對象允許空格和特殊字元。</li><li>它不能保證記錄的唯一性。</li></ul> | <ul><li>建議確定對象標籤的結構。</li><li>這是標識Adobe Campaign用戶的記錄或對象的最方便用戶的解決方案。</li></ul> |
 
-Adobe Campaign主鍵是所有內置表的自動生成UUID。 UUID也可用於自定義表。 [了解更多](keys.md)
+在 [企業(FDA)部署](../architecture/enterprise-deployment.md),Adobe Campaign主鍵是所有內置表的自動生成UUID。 UUID也可用於自定義表。 [了解更多](../architecture/keys.md)
 
 即使ID數量是無限的，您也應該考慮資料庫的大小，以確保達到最佳效能。 要防止出現任何問題，請確保調整實例清除設定。 如需詳細資訊，請參閱[本節](#data-retention)。
 
@@ -112,7 +108,9 @@ Adobe Campaign主鍵是所有內置表的自動生成UUID。 UUID也可用於自
 
 >[!CAUTION]
 >
->工作流中不應將autouuid用作引用。
+>* 工作流中不應將autouuid用作引用。
+> * 的 **autouuid** 屬性僅適用於 [企業(FDA)部署](../architecture/enterprise-deployment.md)。
+>
 
 
 ## 連結和基數 {#links-and-cardinality}
@@ -121,7 +119,7 @@ Adobe Campaign主鍵是所有內置表的自動生成UUID。 UUID也可用於自
 
 謹防大桌上的「自己」誠信。 刪除具有「自有」完整性的大表的記錄可能會停止實例。 表被鎖定，刪除操作逐個進行。 所以最好在大容量的子表上使用&quot;中性&quot;完整性。
 
-將連結聲明為外部連接對效能不利。 零ID記錄模擬外部連接功能。 如果連結使用 **autouuid**。
+將連結聲明為外部連接對效能不利。 零ID記錄模擬外部連接功能。 在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，如果連結使用 **autouuid**。
 
 雖然可以將任何表加入工作流中，但Adobe建議直接在資料結構定義中定義資源之間的公用連結。
 

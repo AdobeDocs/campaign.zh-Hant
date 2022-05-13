@@ -2,9 +2,9 @@
 title: 使用市場活動架構
 description: 開始使用架構
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1266'
 ht-degree: 5%
 
 ---
@@ -133,9 +133,43 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >您還可以使用用戶管理的枚舉(通常在 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** )指定給定欄位的值。 這些實際上是全局枚舉，如果枚舉可能在您正在使用的特定架構之外使用，則是一個更好的選擇。
 
+<!--
+## Index {#index} 
+
+In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
+
+They can be unique or not, and reference one or more fields.
+
+Examples:
+
+```
+<dbindex name="email" unique="true">
+  <keyfield xpath="@email"/>
+</dbindex>
+```
+
+```
+<dbindex name="lastNameAndZip">
+  <keyfield xpath="@lastName"/>
+  <keyfield xpath="location/@zipCode"/>
+</dbindex>
+```
+
+The **xpath** attribute points to the field in your schema that you wish to index.
+
+>[!IMPORTANT]
+>
+>It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
+
+For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
+
+-->
+
 ## 鍵 {#keys}
 
-每個表必須至少有一個鍵，並且通常使用 **@autouuid** 和 **奧托普** 屬性設定為 **真**。
+每個表必須至少有一個鍵，並且通常使用 **奧托普** 屬性集 **真**。
+
+此外，在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，使用 **@autouuid** 並將其設定為 **真**。
 
 還可以使用 **內部** 屬性。
 
@@ -147,7 +181,7 @@ type="string" enum="exTransactionTypeEnum"/>
 </key>
 ```
 
-在此示例中，不讓 **@autouuid** 屬性建立名為「id」的預設主鍵，我們將指定自己的「householdId」主鍵。
+在此示例中，不讓 **@autopk** 或 **@autouuid** 屬性建立名為「id」的預設主鍵，我們將指定自己的「householdId」主鍵。
 
 >[!CAUTION]
 >

@@ -2,9 +2,9 @@
 title: 市場活動資料庫映射
 description: 市場活動資料庫映射
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ SQL欄位約束如下：
    </schema>
    ```
 
-### 主鍵 — 標識符
+### 主鍵 — 標識符{#primary-key}
 
-Adobe Campaign表的主鍵是 **通用唯一ID(UUID)** 由資料庫引擎自動生成。 鍵值在整個資料庫中是唯一的。 在插入記錄時自動生成密鑰的內容。
+在 [企業(FDA)部署](../architecture/enterprise-deployment.md),Adobe Campaign表的主鍵是 **通用唯一ID(UUID)** 由資料庫引擎自動生成。 鍵值在整個資料庫中是唯一的。 在插入記錄時自動生成密鑰的內容。
 
 **範例**
 
@@ -353,6 +353,8 @@ Adobe Campaign表的主鍵是 **通用唯一ID(UUID)** 由資料庫引擎自動�
 * **目標**:連結架構的鍵（&quot;cus:recipient&quot;架構）
 * **解除**:連結聲明為1-N基數的集合元素（預設情況下）
 * **完整性**:預設情況下，「define」（源架構上的連結定義中的「revIntegrity」屬性可強制使用）。
+
+請注意 `autouuid="true"`參數應用於 [企業(FDA)部署](../architecture/enterprise-deployment.md) 只是。
 
 ### 示例2 {#example-2}
 

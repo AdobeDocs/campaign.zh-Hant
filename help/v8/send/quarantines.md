@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1093'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ Adobe Campaign管理線上渠道（電子郵件、簡訊、推送通知）的隔
 
 **隔離** 僅適用於 **地址**&#x200B;的 **電話號碼**&#x200B;或 **設備令牌**，但不是檔案本身。 例如，其電子郵件地址被隔離的配置檔案可以更新其配置檔案並輸入新地址，然後可以再次通過傳遞操作鎖定。 同樣，如果兩個配置檔案的電話號碼相同，則如果隔離該號碼，則兩個配置檔案都會受到影響。 隔離的地址或電話號碼顯示在 [排除日誌](#delivery-quarantines) （交貨）或 [隔離清單](#non-deliverable-bounces) （適用於整個平台）。
 
-另一方面，配置檔案可以位於 **密度** 在取消訂閱（選擇退出）後，對於給定頻道：這意味著它們不再成為任何目標。 因此，如果電子郵件渠道的denylist上的配置檔案有兩個電子郵件地址，則兩個地址都將被排除在傳遞之外。 您可以檢查配置檔案是否位於密鑰清單中，以查看 **[!UICONTROL No longer contact]** 的 **[!UICONTROL General]** 頁籤。 [了解更多資訊](../audiences/view-profiles.md)。
+另一方面，配置檔案可以位於 **密度** 在取消訂閱（選擇退出）後，對於給定頻道：這意味著它們不再成為任何目標。 因此，如果電子郵件渠道的denylist上的配置檔案有兩個電子郵件地址，則兩個地址都將被排除在傳遞之外。 您可以檢查配置檔案是否位於密鑰清單中，以查看 **[!UICONTROL No longer contact]** 的 **[!UICONTROL General]** 頁籤。 [了解更多](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
 >當收件人將您的郵件報告為垃圾郵件或用關鍵字（如「STOP」）回復SMS郵件時，其地址或電話號碼將被隔離為 **[!UICONTROL Denylisted]**。 相應地更新其簡介。
->
-> 對於電子郵件通道，電子郵件地址被隔離。 對於移動應用通道，設備令牌被隔離。 對於SMS頻道，電話號碼被隔離。
+
+<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## 為什麼電子郵件、電話或設備被發送到隔離區 {#quarantine-reason}
 
@@ -37,8 +37,7 @@ Adobe Campaign根據交貨失敗的類型及其原因管理檢疫。 在錯誤�
 可以捕獲兩種類型或錯誤：
 
 * **硬錯誤**:電子郵件地址、電話號碼或設備會立即發送到隔離區。
-* **軟錯誤**:軟錯誤會增加錯誤計數器，並可能會隔離電子郵件、電話號碼或設備令牌。 市場活動績效 [重試](delivery-failures.md#retries)。:當錯誤計數器達到限制閾值時，將隔離地址、電話號碼或設備令牌。 [了解更多資訊](delivery-failures.md#retries)。
-
+* **軟錯誤**:軟錯誤會增加錯誤計數器，並可能會隔離電子郵件、電話號碼或設備令牌。 市場活動執行 [重試](delivery-failures.md#retries):當錯誤計數器達到限制閾值時，將隔離地址、電話號碼或設備令牌。 [了解更多資訊](delivery-failures.md#retries)。
 
 在隔離地址清單中， **[!UICONTROL Error reason]** 欄位指明將選定地址置於隔離區的原因。 [了解更多資訊](#identifying-quarantined-addresses-for-the-entire-platform)。
 

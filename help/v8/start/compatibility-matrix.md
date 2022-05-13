@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
+source-git-commit: f89bc8baeb4b934bdde6b6fd33ee494195ab61b3
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 88%
 
 ---
 
@@ -18,22 +18,26 @@ ht-degree: 100%
 
 這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。請確保您使用的是相容性對照表所列出的任一系統支援版本，以避免出現任何問題。
 
+>[!NOTE]
+>
+>Adobe Campaign 伺服器和用戶端主控台必須使用相同版本。 [瞭解如何檢查您的版本](#version)。
+
 ## 用戶端主控台{#ClientConsoleoperatingsystems}
 
 使用 Campaign 用戶端主控台時，需要下列作業系統和瀏覽器。[深入瞭解](connect.md)。
 
 ### 作業系統
 
-* **Microsoft Windows Server** 2016、2012
-* **Microsoft Windows** 8、10 (建議日文執行個體使用))
+* **MicrosoftWindows伺服器** 2019、2016、2012
+* **Microsoft窗** 11（8.3版起始促銷活動）、10、8、
+
+>[!NOTE]
+>
+>MicrosoftWindows 10建議使用日文實例。
 
 ### 瀏覽器
 
 **Microsoft Internet Explorer** 11
-
->[!NOTE]
->
->Adobe Campaign 伺服器和用戶端主控台必須使用相同版本。 [瞭解如何檢查您的版本](#version)。
 
 ## CRM 連接器{#CRMconnectors}
 
@@ -55,8 +59,8 @@ ht-degree: 100%
 
 您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
-* **Android** 7.x、8.x、9.0 (含 Campaign Android SDK 版本編號 1.1.1)。
-* **Apple iOS** 9 - 14 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。
+* **安卓** 12（啟動Campaing v8.3）、9.0、8.x、7.x，帶Campaig Android SDK版本1.1.1。
+* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。iOS15支援啟動Campaing v8。
 
 ## 網路存取
 
@@ -64,9 +68,7 @@ ht-degree: 100%
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** (最新版本)
 
-* **Internet Explorer** 11
-
-## 如何檢查您的 Campaign 版本及版本編號{#version}
+## 如何檢查您的市場活動版本和生成{#version}
 
 使用 **說明 > 關於…** 選單檢查您的版本。
 

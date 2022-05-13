@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: a18141274b4934d45ecc82ce5d872c86e141a96f
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 3%
+source-wordcount: '1097'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 要在Adobe Campaign發送推送通知，您需要：
 
 1. 配置市場活動環境
-1. 為您的移動應用程式建立Mobile應用程式類型資訊服務。
+1. 為移動應用程式建立移動應用程式類型資訊服務。
 1. 將應用程式的iOS和Android版本添加到此服務。
 1. 為iOS和Android建立交付。
 
@@ -56,7 +56,7 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 
 >[!CAUTION]
 >
->使用Campaign v8，移動註冊現在 **非同步**。 [了解更多](../dev/staging.md)
+>在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，移動註冊現在 **非同步**。 [了解更多](../architecture/staging.md)
 
 要建立新交貨，請瀏覽至 **[!UICONTROL Campaigns]** 按鈕 **[!UICONTROL Deliveries]** 並按一下 **[!UICONTROL Create]** 按鈕。
 
@@ -66,38 +66,93 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 
 ### 在iOS發送通知 {#send-notifications-on-ios}
 
-1. 選擇 **[!UICONTROL Deliver on iOS]** 交貨模板，按一下 **[!UICONTROL Continue]**。
+>[!NOTE]
+>
+>此功能可從8.3版市場活動開始使用。要檢查您的版本，請參閱 [此部分](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-   ![](assets/push-template-ios.png)
+1. 選擇 **[!UICONTROL Deliver on iOS]** 交貨模板。
+
+   ![](assets/push_ios_1.png)
 
 1. 要定義通知的目標，請按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Add]**。
 
-   ![](assets/push-ios-select-target.png)
+   ![](assets/push_ios_2.png)
 
 1. 選擇 **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，選擇與您的移動應用程式相關的服務，然後選擇應用程式的iOS版本。
 
-   ![](assets/push-ios-subscribers.png)
+   ![](assets/push_ios_3.png)
 
-1. 選擇通知類型： **[!UICONTROL Alert]**。 **[!UICONTROL Badge]**。 **[!UICONTROL Alert and badge]** 或 **[!UICONTROL Silent Push]**。
+1. 選擇 **[!UICONTROL Notification type]** 間 **[!UICONTROL General notification (Alert, Sound, Badge)]** 或 **[!UICONTROL Silent notification]**。
 
-   ![](assets/push-ios-alert.png)
+   ![](assets/push_ios_4.png)
 
-1. 在 **[!UICONTROL Title]** 欄位中，輸入要在通知中顯示的標題的標籤。
+   >[!NOTE]
+   >
+   >的 **靜默推送** 模式允許將「靜默」通知發送到移動應用程式。 用戶未意識到通知的到達。 直接轉給申請。
 
-1. 輸入 **[!UICONTROL Message]** 和 **[!UICONTROL Value of the badge]** 基於所選通知類型。
+1. 在 **[!UICONTROL Title]** 欄位，輸入要顯示在通知中心可用通知清單中的標題標籤。
 
-1. 您還可以定義以下元素：
+   此欄位允許您定義 **標題** iOS通知負載的參數。
 
-   * 的 **[!UICONTROL Action button]** 允許您為出現在警報通知中的操作按鈕定義標籤(**操作_loc_key** 有效負載欄位)。
+1. 可以添加 **[!UICONTROL Subtitle]**, **字幕** iOS通知負載的參數。
 
-   * 在 **[!UICONTROL Play a sound]** 欄位中，選擇當收到通知時由移動終端播放的聲音。
+1. 在 **[!UICONTROL Message content]** 的子菜單。
 
-   * 在 **[!UICONTROL Application variables]** 欄位，輸入每個變數的值。 例如，您可以配置特定應用程式螢幕，以便在用戶激活通知時顯示。
+1. 從 **[!UICONTROL Sound and Badge]** 頁籤中，可以編輯以下選項：
+
+   * **[!UICONTROL Clean Badge]**:啟用此選項以刷新標籤值。
+
+   * **[!UICONTROL Value]**:設定一個數字，該數字將用於直接在應用程式表徵圖上顯示新未讀資訊的數量。
+
+   * **[!UICONTROL Critical alert mode]**:啟用此選項可在用戶的電話設定為焦點模式或iPhone靜音時，將聲音添加到通知中。
+
+   * **[!UICONTROL Name]**:選擇當收到通知時由移動終端播放的聲音。
+
+   * **[!UICONTROL Volume]**:聲音從0到100。
+
+      >[!NOTE]
+      > 
+      >聲音必須包括在應用程式中並在建立服務時定義。
+      >
+      >有關iOS的配置指南，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en)。
+   ![](assets/push_ios_5.png)
+
+1. 從 **[!UICONTROL Application variables]** 頁籤 **[!UICONTROL Application variables]** 的子菜單。 它們允許您定義通知行為，例如，您可以配置特定應用程式螢幕以在用戶激活通知時顯示。
+
+   如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en)。
+
+1. 從 **[!UICONTROL Advanced]** 頁籤中，可以編輯以下常規選項：
+
+   * **[!UICONTROL Mutable content]**:啟用此選項可允許移動應用程式下載媒體內容。
+
+   * **[!UICONTROL Thread-id]**:用於將相關通知分組在一起的標識符。
+
+   * **[!UICONTROL Category]**:將顯示操作按鈕的類別ID的名稱。 這些通知可讓使用者以更快的方式回應通知，執行不同的工作，而不需在應用程式中開啟或導覽。
+
+   ![](assets/push_ios_6.png)
+
+1. 對於時間敏感通知，可以指定以下選項：
+
+   * **[!UICONTROL Target content ID]**:用於在開啟通知時要轉發的應用程式窗口的目標標識符。
+
+   * **[!UICONTROL Launch image]**:要顯示的啟動映像檔案的名稱。 如果用戶選擇啟動您的應用程式，則將顯示所選影像，而不是應用程式的啟動螢幕。
+
+   * **[!UICONTROL Interruption level]**:
+
+      * **[!UICONTROL Active]**:預設情況下，系統會立即顯示通知，開啟螢幕並播放聲音。 通知不會突破焦點模式。
+
+      * **[!UICONTROL Passive]**:系統將通知添加到通知清單，而不點亮螢幕或播放聲音。 通知不會突破焦點模式。
+
+      * **[!UICONTROL Time sensitive]** 系統會立即發出通知，點亮螢幕，播放聲音並突破焦點模式。 這一級別不需要Apple的特別許可。
+
+      * **[!UICONTROL Critical]** 系統會立即顯示通知，點亮螢幕，並繞過靜音開關或聚焦模式。 請注意，此級別需要獲得Apple的特別許可。
+   * **[!UICONTROL Relevance score]**:將相關性分數設定為0到100。 系統使用此選項對通知摘要中的通知進行排序。
+
+   ![](assets/push_ios_7.png)
 
 1. 配置通知後，按一下 **[!UICONTROL Preview]** 的子菜單。
 
    ![](assets/push-ios-preview.png)
-
 
 ### 在Android上發送通知 {#send-notifications-on-android}
 
@@ -111,7 +166,7 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 
 1. 選擇 **[!UICONTROL Subscribers of an Android mobile application]**，選擇與您的移動應用程式相關的服務（Neotrips，在本例中），然後選擇該應用程式的Android版本。
 
-   ![](assets/push-ios-subscribers.png)
+   ![](assets/push-android-subscribers.png)
 
 1. 然後輸入通知的內容。
 

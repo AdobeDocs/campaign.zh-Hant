@@ -6,16 +6,108 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
+source-git-commit: d3137e75bfc4986e1d6badf32f21fda4c4353c8b
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 100%
+source-wordcount: '2240'
+ht-degree: 80%
 
 ---
 
 # 最新發行版本{#latest-release}
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
+
+## 發行版本 8.3.7 {#release-8-3-7}
+
+_2022年5月16日_
+
+**有哪些新功能？**
+
+<table>
+<thead>
+<tr>
+<th><strong>回應管理員</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>市場活動響應管理允許您衡量營銷活動的成功和ROI，或提供跨所有渠道的建議：電子郵件、移動、直郵等。</p>
+<p>如需詳細資訊，請參閱<a href="../start/campaigns.md#response-manager-add-on">詳細文件</a>以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>分散式行銷</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>市場活動分佈式市場營銷使您能夠在中心實體（總部、市場營銷部門等）之間實施協作市場活動 地方實體（銷售點、地區代理等）。 通過共用工作區（市場活動包），您可以建立市場活動模板並將其建議給本地實體。</p>
+<p>如需詳細資訊，請參閱<a href="../start/campaigns.md#distributed-marketing-add-on">詳細文件</a>以瞭解詳情。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>時間敏感通知</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>在iOS15中，Apple還增加了敏感通知的概念，即當通知被視為敏感，然後需要即時聯繫用戶時，可以控制應用開發者繞過Focus模式。</p>
+<p>如需詳細資訊，請參閱<a href="../send/push.md#send-notifications-on-ios">詳細文件</a>以瞭解詳情。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>核心Privacy Service整合</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>活動v8現在與Adobe隱私核心服務整合。 從「隱私權核心服務」推送至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。</p>
+<p>如需詳細資訊，請參閱<a href="privacy.md">詳細文件</a>以瞭解詳情。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**相容性更新**
+
+* 活動v8 SDK現在支援Android 12和iOS15，用於推送通知。
+* 活動v8現在與Windows 11相容。
+
+請參閱 [Campaign 相容性對照表](capability-matrix.md)。
+
+**功能改進**
+
+* MicrosoftExchange Online OAuth 2.0 POP3身份驗證現在在市場活動中受支援。 [閱讀全文](../config/external-accounts.md#bounce-mails-external-account)
+* 已對MicrosoftDynamics Connector Web API應用了關鍵修復。
+* 已添加名為權限的新運算子和組架構寫入(operatorWrite)，以允許用戶插入、更新和刪除運算子(xtk:operator)和運算子組(xtk:group)架構。
+* 您現在可以啟用電子郵件密件抄送（盲碳拷貝）功能，通過交貨屬性中的專用選項在交貨級別儲存市場活動發送的電子郵件。 [閱讀全文](../config/email-settings.md#email-bcc)
+* 為確保效能更好，現在預設情況下，在路由外部帳戶中激活了新的「拆分」選項。 此選項允許在中間採購實例中自動拆分郵件，以便更快地將郵件遞送給收件人。 連結
+* 對於中間來源補充設定上的LINE交貨，同一類型的多個有效帳戶現在可以存在於中間常式中。
+* Web進程的預設連接數已從50增加到150。
+* 市場活動附帶了一組新的護欄，以防止在Snowflake資料庫中插入重複的密鑰。 [閱讀全文](../architecture/keys.md)
+
+**修補程式**
+
+* 已修復在同一重複傳遞中使用種子和控制組時發生的問題。 (NEO-41197)
+* 修復了FFDA上的問題，當個性化塊包含以下字元之一時，該問題導致在發送過程中（最多256個）阻止屬於同一deliveryPart的所有收件人發送電子郵件： `' & < > "`。 個性化塊現在支援這些字元(例如：firstname=&quot;布萊恩·奧尼爾&quot;)。 (NEO-43184)
+* 修復了在使用自定義架構作為目標映射時可能導致跟蹤工作流失敗的問題。 現在，我們通過目標映射嚮導生成broadLog架構時，確保到自定義目標架構的外部連結的類型正確。 (NEO-43506)
+* 已修復可能導致FFDA部署工作流失敗的英語以外的語言問題。 (NEO-44561)
 
 ## 發行版本 8.2.10 {#release-8-2-10}
 
@@ -76,7 +168,9 @@ _2021 年 10 月 28 日_
 <tr> 
 <td> <p>Unicity Service 是新的 Cloud Database Manager 元件。 它可協助使用者保留及監視雲端資料庫表格中唯一關鍵值限制的完整性。 這可讓您降低插入重複金鑰的風險。
 <p>由於雲資料庫不強制執行 unicity 限制，Unicity Service 在應用程式層級引入 <b>新的護欄組</b> 以減少使用 Adobe Campaign 管理資料時插入重複項目的風險。</p> 
-<p>Unicity Service 啟動新的內建工作流程，稱為 <b>ffdaUnicity</b> 以監視單向性限制，並在偵測到重複項目時發出警報。</p></td> </tr> 
+<p>Unicity Service 啟動新的內建工作流程，稱為 <b>ffdaUnicity</b> 以監視單向性限制，並在偵測到重複項目時發出警報。</p>
+<p>如需詳細資訊，請參閱<a href="../architecture/keys.md">詳細文件</a>以瞭解詳情。</p>
+</td> </tr> 
 </tbody> 
 </table>
 

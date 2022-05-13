@@ -5,18 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: ec044d6176b4d00302d7a7e24520b97669bede49
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 2%
+source-wordcount: '1827'
+ht-degree: 1%
 
 ---
 
 # 開始事務性消息傳遞{#send-transactional-messages}
 
-事務性消息傳遞（消息中心）是一個市場活動模組，用於管理觸發消息。 這些消息是從資訊系統觸發的事件生成的，可以是：例如，發票、訂單確認、發運確認、密碼更改、產品不可用性通知、帳戶對帳單或網站帳戶建立。
+事務性消息傳遞（消息中心）是一個市場活動模組，用於管理觸發消息。 這些通知是從資訊系統觸發的事件生成的，可以是：發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單、網站帳戶建立等。
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support) 在您的環境中安裝和配置市場活動事務性消息傳遞。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;}，以在您的環境中安裝和配置市場活動事務性消息。
 
 事務性消息用於發送：
 
@@ -26,13 +26,58 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/glass.png) 事務性消息傳送設定在 [此部分](../config/transactional-msg-settings.md)。
 
-![](../assets/do-not-localize/glass.png) 瞭解中的事務性消息傳遞體系結構 [此頁](../dev/architecture.md)。
+![](../assets/do-not-localize/glass.png) 瞭解事務性消息傳遞體系結構 [此頁](../architecture/architecture.md)。
 
->[!CAUTION]
+## 交易式訊息傳遞操作原則 {#transactional-messaging-operating-principle}
+
+Adobe Campaign事務性消息傳遞模組整合到資訊系統中，該資訊系統將要被更改的事件返回到個性化事務性消息。 這些消息可以單獨或通過電子郵件、簡訊或推式通知批量發送。
+
+例如，假設您是一家擁有網站的公司，客戶可以在該網站上購買產品。
+
+Adobe Campaign允許您向已將產品添加到購物車的客戶發送通知電子郵件。 當其中一個人離開您的網站而未完成其購買（觸發市場活動事件的外部事件）時，將自動向他們發送購物車放棄電子郵件（事務性消息傳遞）。
+
+實施此項措施的主要步驟如下：
+
+1. [建立事件類型](#create-event-types)。
+1. [建立和設計消息模板](#create-message-template)。 在此步驟中，必須將事件連結到您的消息。
+1. [Test消息](#test-message-template)。
+1. [發佈消息模板](#publish-message-template)。
+
+設計並發佈事務性消息模板後，如果觸發了相應的事件，則相關資料將通過PushEvent和PushEvents發送到Campaign [SOAP方法](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;}，並將傳遞發送到目標收件人。
+
+## 建立事件類型 {#create-event-types}
+
+要確保每個事件都可以更改為個性化郵件，您首先需要建立 **事件類型**。
+
+當 [建立消息模板](#create-message-template)，您將選擇與要發送的消息匹配的事件類型。
+
+>[!IMPORTANT]
 >
->事務性消息傳遞需要特定的許可證。 請檢查您的授權合約。
+>必須先建立事件類型，然後才能在消息模板中使用它們。
 
-## 定義事務性消息模板
+要建立將由Adobe Campaign處理的事件類型，請執行以下步驟：
+
+1. 登錄到 **控制實例**。
+
+1. 轉到 **[!UICONTROL Administration > Platform > Enumerations]** 資料夾。
+
+1. 選擇 **[!UICONTROL Event type]** 清單中。
+
+1. 按一下 **[!UICONTROL Add]** 建立枚舉值。 這可以是訂單確認、密碼更改、訂單交貨更改等。
+
+   <!--![](assets/messagecenter_eventtype_enum_001.png)-->
+
+   >[!IMPORTANT]
+   >
+   >每個事件類型都必須與 **[!UICONTROL Event type]** 枚舉。
+
+1. 建立明細化清單值後，註銷並返回實例以使建立生效。
+
+>[!NOTE]
+>
+>瞭解有關中分項清單的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}。
+
+## 定義事務性消息模板 {#create-message-template}
 
 每個事件都可觸發個性化消息。 為了實現此目的，您需要建立一個消息模板以匹配每個事件類型。 模板包含個性化事務性消息的必要資訊。 您還可以使用模板test消息預覽，並在傳送到最終目標之前使用種子地址發送校樣。
 
@@ -54,9 +99,9 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_model_003.png)
 
-   必須通過Adobe在控制實例上建立目標為Adobe Campaign處理的事件類型。
+   必須事先建立要由Adobe Campaign處理的事件類型。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >事件類型永遠不應連結到多個模板。
 
@@ -91,6 +136,8 @@ ht-degree: 2%
 1. 使用以下語法填充標籤： **元素名稱**。@**屬性名稱** 如下所示。
 
    ![](assets/messagecenter_create_custo_2.png)
+
+## Test事務性消息模板 {#test-message-template}
 
 ### 新增種子地址{#add-seeds}
 
@@ -174,7 +221,7 @@ ht-degree: 2%
 
 ![](assets/messagecenter_send_proof_003.png)
 
-### 發佈模板
+## 發佈模板 {#publish-message-template}
 
 在控制項實例上建立的消息模板完成後，可以發佈它。 此進程還將在所有執行實例上發佈它。
 
@@ -206,8 +253,7 @@ ht-degree: 2%
 >
 >但是，如果添加非空值，則在下次發佈後，相應欄位將照常更新。
 
-
-### 取消發佈模板
+## 取消發佈模板
 
 在執行實例上發佈消息模板後，可以取消發佈該消息模板。
 

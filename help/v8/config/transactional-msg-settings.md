@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/glass.png) 事務性消息傳遞功能詳見 [此部分](../send/transactional.md)。
 
-![](../assets/do-not-localize/glass.png) 瞭解中的事務性消息傳遞體系結構 [此頁](../dev/architecture.md)。
+![](../assets/do-not-localize/glass.png) 瞭解中的事務性消息傳遞體系結構 [此頁](../architecture/architecture.md)。
 
 ## 定義權限
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 發送事務推送通知
 
-與Mobile應用通道模組結合使用時，事務性消息傳遞使您能夠通過移動設備上的通知推送事務性消息。
+與移動應用通道模組結合使用時，事務性消息傳遞使您能夠通過移動設備上的通知推送事務性消息。
 
 ![](../assets/do-not-localize/book.png) Mobile應用頻道詳見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)。
 

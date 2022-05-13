@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '655'
 ht-degree: 4%
 
 ---
@@ -66,9 +66,9 @@ Adobe Campaign的內置收件人表(nmsrecipient)為構建資料模型提供了�
 
 ## 活動表和雲資料庫
 
-為了更好地瞭解Campaign v8中的表管理，請注意，表是在Campaign與其Snowflake雲資料庫之間複製的。
+為了更好地理解市場活動v8中的表管理，請注意，在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，表在Campaigm和其Snowflake雲資料庫之間複製。
 
-![](../assets/do-not-localize/glass.png) 瞭解有關中的複製策略和機制的更多資訊 [此部分](../config/replication.md)。
+![](../assets/do-not-localize/glass.png) 瞭解有關中的複製策略和機制的更多資訊 [此部分](../architecture/replication.md)。
 
 **相關主題**
 

@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: b5fb8825734bce2ec62485208b468757b461005f
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 19%
@@ -51,13 +51,11 @@ You can monitor the number of active profiles used on your instances directly fr
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
-
-## 隱私權與同意
+## 隱私權與同意{#privacy-and-consent}
 
 Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料）的強大工具。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
 ![](../assets/do-not-localize/book.png) 瞭解如何管理中的隱私和同意 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target=&quot;_blank&quot;}。
-
 
 Campaign Classic v7 文件中的&#x200B;**相關主題**：
 

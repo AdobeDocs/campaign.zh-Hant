@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: 市場活動v8
 title: Campaign v8 文件
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 94%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 94%
       + [瞭解 Campaign 介面](start/campaign-ui.md)
       + [自訂 Campaign 介面](start/customize-ui.md)
    + [配合受眾](start/audiences.md)
+   + [管理隱私權請求](start/privacy.md)
    + [匯入資料](start/import.md)
    + [建立行銷活動](start/campaigns.md)
    + [傳送訊息](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 94%
    + [追蹤與監視](start/tracking.md)
    + [指標與報吿](start/reporting.md)
    + [常見問答集](start/campaign-faq.md)
++ 架構 {#architecture}
+   + [全域原則](architecture/general-architecture.md)
+   + [架構](architecture/architecture.md)
+   + FDASnowflake部署 {#fda}
+      + [什麼是FDA-Snowflake?](architecture/fda-deployment.md)
+   + 企業(FDA)部署 {#ffda}
+      + [什麼是活動FDA?](architecture/enterprise-deployment.md)
+      + 特徵 {#ffda-characteristics}
+         + [金鑰管理和唯一性](architecture/keys.md)
+         + [新 API](architecture/new-apis.md)
+         + [API 準備機制](architecture/staging.md)
+         + [複製機制](architecture/replication.md)
 + 實施 {#implement}
    + [實施步驟](start/implement.md)
    + [自訂您的執行個體](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 94%
    + [管理資料夾和檢視](audiences/folders-and-views.md)
    + [最佳實務](audiences/audiences-best-practices.md)
 + 傳送訊息{#send}
-   + [電子郵件](send/email.md)
+   + 電子郵件 {#emails}
+      + [設計和發送電子郵件](send/email.md)
+      + [使用增強的 MTA 傳送](send/enhanced-mta.md)
    + [SMS](send/sms.md)
    + [推播通知](send/push.md)
    + [LINE 傳送訊息](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 94%
    + [使用案例](interaction/interaction-use-cases.md)
 + 設定 {#config}
    + [使用工作流程自動化](config/workflows.md)
-   + [管理資料](config/replication.md)
    + [電子郵件設定](config/email-settings.md)
    + [異動訊息設定](config/transactional-msg-settings.md)
    + [將 Campaign SDK 與您的應用程式整合](config/push-config.md)
@@ -108,13 +122,10 @@ ht-degree: 94%
       + [與市場活動和SFDC合作](connect/ac-sfdc.md)
       + [與Campaign和MicrosoftDynamics合作](connect/ac-ms-dyn.md)
       + [同步資料](connect/crm-data-sync.md)
-+ 開發人員資源{#architecture}
-   + [全域原則](dev/general-architecture.md)
-   + [架構](dev/architecture.md)
-   + [資料模型](dev/datamodel.md)
++ 開發人員資源{#developer}
+   + [市場活動資料模型](dev/datamodel.md)
    + 方案和表單{#shemas-forms}
       + [使用方案](dev/schemas.md)
-      + [金鑰管理和唯一性](dev/keys.md)
       + [建立方案](dev/create-schema.md)
       + [擴充方案](dev/extend-schema.md)
       + [篩選結構](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 94%
       + [使用自訂收件者表格](dev/custom-recipient.md)
       + [更新資料庫](dev/update-database-structure.md)
       + [輸入表單](dev/forms.md)
-   + API {#api}
-      + [開始使用](dev/api.md)
-      + [新 API](dev/new-apis.md)
-      + [API 準備機制](dev/staging.md)
+   + [Campaign API](dev/api.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)
+

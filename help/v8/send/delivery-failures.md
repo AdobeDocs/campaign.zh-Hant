@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '3106'
-ht-degree: 5%
+source-wordcount: '2849'
+ht-degree: 6%
 
 ---
 
-# 瞭解傳遞失敗{#delivery-failures}
+# 瞭解傳遞失敗 {#delivery-failures}
 
-ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理是清單衛生的關鍵部分。 在給定電子郵件已連續多次跳轉後，此進程會將其標籤為要抑制。 此過程阻止系統繼續發送無效的電子郵件地址。 Bounces是ISP用來確定IP信譽的關鍵資料之一。 關注這一指標很重要。 「已交付」與「已退出」可能是衡量營銷資訊傳遞情況的最常見方式：交付的百分比越高越好。
+ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理是清單衛生的關鍵部分。 在給定電子郵件已連續多次跳轉後，此進程會將其標籤為要抑制。
+
+此過程阻止系統繼續發送無效的電子郵件地址。 Bounces是ISP用來確定IP信譽的關鍵資料之一。 關注這一指標很重要。 「已交付」與「已退出」可能是衡量營銷資訊傳遞情況的最常見方式：交付的百分比越高越好。
 
 如果無法將消息發送到配置檔案，遠程伺服器將自動向Adobe Campaign發送錯誤消息。 此錯誤被限定用於確定是否應隔離電子郵件地址、電話號碼或設備。 請參閱 [彈出郵件管理](#bounce-mail-qualification)。
 
@@ -24,66 +26,21 @@ ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理�
 
 ## 為什麼郵件傳遞失敗 {#delivery-failure-reasons}
 
-消息失敗時有兩種錯誤類型。 每個錯誤類型都確定地址是否發送到 [檢疫](quarantines.md#quarantine-reason) 或者不是。
-
+消息失敗時有兩種錯誤類型。 每個傳遞失敗類型都確定地址是否發送到 [隔離](quarantines.md#quarantine-reason) 或者不是。
 
 * **硬邊界**
-硬門禁是ISP確定無法送達訂閱者地址的郵寄嘗試後產生的永久故障。 在Adobe Campaign，被歸為無法送達的硬彈射被加入隔離區，這意味著不再嘗試。 有些情況下，如果故障原因未知，則會忽略硬反彈。
+硬門禁是ISP確定無法送達訂閱者地址的郵寄嘗試後產生的永久故障。 在Adobe Campaign，被歸類為無法送達的硬回報會被添加到隔離清單中，這意味著不會重試。 有些情況下，如果故障原因未知，則會忽略硬反彈。
 
    以下是一些常見的硬邊界例子：地址不存在，帳戶已禁用，語法錯誤，域錯誤
 
-
 * **軟邊界**
-軟邊界是ISP在發送郵件時產生的臨時故障。 軟失敗將重試多次（差異取決於使用自定義或現成交貨設定）以嘗試成功交貨。 在嘗試最大重試次數（這種重試次數取決於設定）之前，不會將持續軟彈回的地址添加到隔離中。
+軟邊界是ISP在發送郵件時產生的臨時故障。 軟故障將 [重試](#retries) 多次（差異取決於使用自定義或開箱交貨設定）以嘗試成功交貨。 在嘗試最大重試次數（這種重試次數取決於設定）之前，不會將持續軟彈回的地址添加到隔離中。
 
    軟邊界的一些常見原因包括：郵箱已滿，正在關閉接收電子郵件伺服器，發件人信譽問題
 
-
 的  **已忽略** 錯誤類型已知為臨時錯誤，例如「外出」或技術錯誤，例如，如果發件人類型為「postmaster」。
 
-
-
-### 退回郵件資格 {#bounce-mail-qualification}
-
-市場活動用於限定交付失敗的規則列在 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 的下界。 它非詳盡無遺，由Adobe Campaign定期更新，也可由用戶管理。
-
-![](assets/delivery-log-qualification.png)
-
-在 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤消息。 Momentum確定反彈類型和資格，並將該資訊發回市場活動。
-
-**非同步** 通過inMail流程對回報進行限定 **[!UICONTROL Inbound email]** 規則。
-
-遠程伺服器在第一次出現此錯誤類型時返回的消息顯示在 **[!UICONTROL First text]** 列 **[!UICONTROL Audit]** 頁籤。
-
-![](assets/delivery-log-first-txt.png)
-
-Adobe Campaign會過濾此郵件以刪除變數內容（如ID、日期、電子郵件地址、電話號碼等） 並在 **[!UICONTROL Text]** 的雙曲餘切值。 變數替換為 **`#xxx#`**，但替換為 **`*`**。
-
-此流程允許將同一類型的所有失敗匯集在一起，並避免在「交付日誌」限定表中為類似錯誤輸入多個條目。
-
->[!NOTE]
->
->的 **[!UICONTROL Number of occurrences]** 欄位顯示清單中消息的出現次數。 最多10萬次。 例如，如果希望重置該欄位，可以編輯該欄位。
-
-退信郵件可具有以下資格狀態：
-
-* **[!UICONTROL To qualify]** :郵寄郵件無法合格。 必須將資格分配給交付能力團隊，以確保高效的平台交付能力。 只要不合格，就不會使用退信郵件來豐富電子郵件管理規則清單。
-* **[!UICONTROL Keep]** :郵件是合格的，由 **刷新可交付性** 將工作流與現有電子郵件管理規則進行比較並豐富清單。
-* **[!UICONTROL Ignore]** :彈出郵件被忽略，這意味著此彈出不會導致隔離收件人的地址。 它不會被 **刷新可交付性** 工作流，不會將其發送到客戶端實例。
-
-![](assets/delivery-log-status.png)
-
-
->[!NOTE]
->
->在ISP停機時，通過Campaign發送的電子郵件將被錯誤地標籤為退貨。 要更正此問題，您需要更新退貨資格。
-
-
-## 重試管理 {#retries}
-
-如果在出現臨時錯誤後郵件傳遞失敗(**軟** 或 **已忽略**)，正在發送CAmpaing重試。 這些重試可以執行到交貨期限結束為止。 重試次數和重試頻率由Momentum根據消息的ISP返回的反彈響應的類型和嚴重性設定。
-
-預設配置定義了5次重試，間隔為1小時，之後是4天的每天1次重試。 可以全局更改重試次數，也可以為每個傳遞或傳遞模板更改重試次數。 如果您需要調整交付持續時間和重試次數，請與Adobe支援部門聯繫。
+反饋循環的運行方式與反饋電子郵件類似：當用戶將電子郵件定義為垃圾郵件時，您可以在Adobe Campaign配置電子郵件規則以阻止向此用戶發送的所有郵件。 即使這些用戶的地址未按一下取消訂閱連結，也會拒絕列出。 地址將添加到(**NMS地址**)隔離表，而不是(**Nms收件人**)收件人表 **[!UICONTROL Denylisted]** 狀態。 瞭解有關中反饋循環機制的詳細資訊 [Adobe可交付性最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -91,17 +48,58 @@ Adobe Campaign會過濾此郵件以刪除變數內容（如ID、日期、電子�
 
 這些類型的錯誤管理如下：
 
-* **同步錯誤**:Adobe Campaign傳遞伺服器聯繫的遠程伺服器立即返回錯誤消息，不允許將傳遞發送到配置檔案的伺服器。 Adobe Campaign確認了每個錯誤，以確定是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
+* **同步錯誤**:Adobe Campaign傳遞伺服器聯繫的遠程伺服器立即返回錯誤消息。 不允許將傳遞發送到配置檔案的伺服器。 增強型MTA確定退回類型並確認錯誤，並將該資訊發回市場活動，以確定是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
 
 * **非同步錯誤**:接收伺服器稍後會重新發送反彈郵件或SR。 此錯誤用與錯誤相關的標籤限定。 傳送後一週內，可能會發生非同步錯誤。
 
-   >[!NOTE]
-   >
-   >作為Managed Services用戶，彈出郵箱的配置由Adobe執行。
+>[!NOTE]
+>
+>作為Managed Services用戶，彈出郵箱的配置由Adobe執行。
 
-   反饋循環的運行方式與反饋電子郵件類似：當用戶將電子郵件定義為垃圾郵件時，您可以在Adobe Campaign配置電子郵件規則以阻止向此用戶發送的所有郵件。 這些用戶的地址在denylist上，即使他們沒有按一下取消訂閱連結。 地址位於(**NMS地址**)隔離表，而不在(**Nms收件人**)收件人表。 瞭解有關中反饋循環機制的詳細資訊 [Adobe可交付性最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)。
+## 退回郵件資格 {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+目前，Adobe Campaign處理反彈郵件資格的方式取決於錯誤類型：
+
+* **同步錯誤**:「增強的MTA」確定退貨類型和資格，並將該資訊發回市場活動。 在 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤消息。
+
+* **非同步錯誤**:市場活動用於限定非同步傳遞失敗的規則列在 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 的下界。 非同步綁定由inMail進程通過 **[!UICONTROL Inbound email]** 規則。 有關此內容的詳細資訊，請參閱 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
+## 重試管理 {#retries}
+
+如果在出現臨時錯誤後郵件傳遞失敗(**軟** 或 **已忽略**)，發送市場活動重試次數。 這些重試可以執行到交貨期限結束為止。
+
+重試次數和重試頻率由增強型MTA根據消息的ISP返回的反彈響應的類型和嚴重性設定。
+
+<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
 
 ## 電子郵件錯誤類型 {#email-error-types}
 
@@ -116,7 +114,7 @@ Adobe Campaign會過濾此郵件以刪除變數內容（如ID、日期、電子�
    <td> 說明 </td> 
   </tr> 
   <tr> 
-   <td> 帳戶已禁用 </td> 
+   <td> 帳戶已停用 </td> 
    <td> 軟/硬 </td> 
    <td> 4 </td> 
    <td> 連結到地址的帳戶不再處於活動狀態。 當Internet訪問提供程式(IAP)檢測到長時間不活動時，它可以關閉用戶帳戶。 然後，無法向用戶地址交付。 如果帳戶由於六個月的不活動狀態而暫時禁用，並且仍然可以激活，則將分配「有錯誤」狀態，並重試帳戶，直到錯誤計數器達到5。 如果錯誤表明帳戶已永久停用，則它將直接設定為「隔離」。<br /> </td> 

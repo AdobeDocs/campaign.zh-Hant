@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: b54a39ee6d106d68446878815c068571e310aaa3
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 21%
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 ## 訪問市場活動UI
 
-Campaign 工作區可在[用戶端主控台](../dev/general-architecture.md)提供。
+Campaign 工作區可在[用戶端主控台](../architecture/general-architecture.md)提供。
 
 瞭解如何在中安裝和配置市場活動客戶端控制台 [此部分](../start/connect.md)。
 

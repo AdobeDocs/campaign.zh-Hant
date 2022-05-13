@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->訂閱和取消訂閱是 **非同步** 進程。 每小時處理選擇加入和選擇退出請求。 [了解更多](../dev/new-apis.md#sub-apis)
+>在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，訂閱和取消訂閱 **非同步** 進程。 每小時處理選擇加入和選擇退出請求。 [了解更多](../architecture/new-apis.md#sub-apis)
 
 您還可以啟用傳遞收件人將郵件轉發給朋友。 為此，請將相關連結插入到您的交貨中。 然後，您可以跟蹤此共用過程以及訪問相關頁面的次數。
 

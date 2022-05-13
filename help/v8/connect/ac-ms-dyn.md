@@ -4,9 +4,10 @@ description: 瞭解如何與Campaign和MicrosoftDynamics合作
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 59ccee717d857545ed2b3ba6fb850ef8a9d0907b
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 2%
 
 保存後，MicrosoftAzure目錄將分配一個唯一 **應用程式（客戶端）ID** 你的應用。 您以後在Adobe Campaign配置Dynamics 365時需要此ID。
 
-瞭解詳情 [MicrosoftDynamics 365文檔](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)。
+瞭解詳情 [MicrosoftDynamics 365文檔](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}。
 
 ### 生成MicrosoftDynamics證書密鑰標識符和密鑰ID {#config-certificate-key-id}
 

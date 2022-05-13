@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1086'
+ht-degree: 5%
 
 ---
 
@@ -25,10 +25,8 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。為了設定與外部�
 
 >[!CAUTION]
 >
->特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理市場活動本地資料庫和雲資料庫之間的連接([!DNL Snowflake])。
->
->作為托管Cloud Services用戶，此外部帳戶按Adobe配置給您的實例。 不得修改。
-
+>在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理市場活動本地資料庫和雲資料庫之間的連接([!DNL Snowflake])。
+></br>作為托管Cloud Services用戶，此外部帳戶按Adobe配置給您的實例。 不得修改。
 
 ## 特定於市場活動的外部帳戶
 
@@ -36,25 +34,84 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
 ![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶，Adobe為您配置所有特定於市場活動的外部帳戶。
 
-* **退回郵件(POP3)**
+### 退回郵件 {#bounce-mails-external-account}
 
-   的 **退回郵件** 外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 為POP3訪問配置的所有伺服器都可用於接收返回郵件。
+>[!NOTE]
+>
+>從8.3版活動開始，可使用MicrosoftExchange Online OAuth 2.0 POP3功能驗證。要檢查您的版本，請參閱 [此部分](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-   ![](../assets/do-not-localize/book.png) 瞭解有關入站電子郵件的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;
+的 **退回郵件** 外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 為POP3訪問配置的所有伺服器都可用於接收返回郵件。
 
-* **路由**
+![](../assets/do-not-localize/book.png) 瞭解有關入站電子郵件的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;
 
-   的 **[!UICONTROL Routing]** 外部帳戶允許您根據安裝的軟體包配置Adobe Campaign的每個可用通道。
+![](assets/bounce_external_1.png)
 
-   >[!CAUTION]
-   >
-   >的 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk)外部帳戶 **不能** 在Adobe Campaignv8中啟用。
+配置 **[!UICONTROL Bounce mails (defaultPopAccount)]** 外部帳戶：
 
-* **執行實例**
+* **[!UICONTROL Server]**
 
-   在事務性消息傳遞的上下文中，執行實例被連結到控制實例並連接它們。 事務性消息模板被部署到執行實例。
+   POP3伺服器的URL。
 
-   ![](../assets/do-not-localize/glass.png) 瞭解有關中消息中心體系結構的詳細資訊 [此頁](../dev/architecture.md#transac-msg-archi)。
+* **[!UICONTROL Port]**
+
+   POP3連接埠號。 預設埠為110。
+
+* **[!UICONTROL Account]**
+
+   用戶的名稱。
+
+* **[!UICONTROL Password]**
+
+   用戶帳戶密碼。
+
+* **[!UICONTROL Encryption]**
+
+   選擇的加密類型 **[!UICONTROL By default]**。 **[!UICONTROL POP3 + STARTTLS]**。 **[!UICONTROL POP3]** 或 **[!UICONTROL POP3S]**。
+的 **退回郵件** 外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 為POP3訪問配置的所有伺服器都可用於接收返回郵件。
+
+* **[!UICONTROL Function]**
+
+   入站電子郵件或SOAP路由器
+
+![](assets/bounce_external_2.png)
+
+>[!IMPORTANT]
+>
+>在使用MicrosoftOAuth 2.0配置POP3外部帳戶之前，您首先需要在Azure門戶中註冊您的應用程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。
+
+要使用MicrosoftOAuth 2.0配置POP3外部，請檢查 **[!UICONTROL Microsoft OAuth 2.0]** 的子菜單。
+
+* **[!UICONTROL Azure tenant]**
+
+   在 **基本知識** Azure門戶中應用程式概述的下拉框。
+
+* **[!UICONTROL Azure Client ID]**
+
+   在 **基本知識** Azure門戶中應用程式概述的下拉框。
+
+* **[!UICONTROL Azure Client secret]**:
+
+   在 **客戶端機密** 列 **證書和機密** Azure門戶中應用程式的菜單。
+
+* **[!UICONTROL Azure Redirect URL]**:
+
+   可在 **驗證** Azure門戶中應用程式的菜單。 它應以以下語法結尾 `nl/jsp/oauth.jsp`，例如 `https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+
+輸入不同的憑據後，可以按一下 **[!UICONTROL Setup the connection]** 完成外部帳戶配置。
+
+### 路由 {#routing}
+
+的 **[!UICONTROL Routing]** 外部帳戶允許您根據安裝的軟體包配置Adobe Campaign的每個可用通道。
+
+>[!CAUTION]
+>
+>的 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk)外部帳戶 **不能** 在Adobe Campaignv8中啟用。
+
+### 執行實例 {#execution-instance}
+
+在事務性消息傳遞的上下文中，執行實例被連結到控制實例並連接它們。 事務性消息模板被部署到執行實例。
+
+![](../assets/do-not-localize/glass.png) 瞭解有關中消息中心體系結構的詳細資訊 [此頁](../architecture/architecture.md#transac-msg-archi)。
 
 ## 訪問外部系統外部帳戶
 
@@ -96,47 +153,13 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
    的 **[!UICONTROL Microsoft Dynamics CRM]** 外部帳戶允許您將MicrosoftDynamics資料導入和導出到Adobe Campaign。
 
-   ![](../assets/do-not-localize/glass.png) 瞭解有關Adobe Campaign-MicrosoftDynamics CRM整合的詳細資訊 [此頁](../connect/crm.md)。
-
-   與 **[!UICONTROL Web API]** 部署類型和 **[!UICONTROL Password credentials]** 驗證，您需要提供以下詳細資訊：
-
-   * **[!UICONTROL Account]**:用於登錄MicrosoftCRM的帳戶。
-
-   * **[!UICONTROL Server]**:您的MicrosoftCRM伺服器的URL。
-
-   * **[!UICONTROL Client identifier]**:可從以下位置的MicrosoftAzure管理門戶中找到的客戶端ID **[!UICONTROL Update your code]** 類別， **[!UICONTROL Client ID]** 的子菜單。
-
-   * **[!UICONTROL CRM version]**:CRM的版本 **[!UICONTROL Dynamics CRM 2007]**。 **[!UICONTROL Dynamics CRM 2015]** 或 **[!UICONTROL Dynamics CRM 2016]**。
-   與 **[!UICONTROL Web API]** 部署類型和 **[!UICONTROL Certificate]** 驗證，您需要提供以下詳細資訊：
-
-   * **[!UICONTROL Server]**:您的MicrosoftCRM伺服器的URL。
-
-   * **[!UICONTROL Private Key (Base64 encoded)]**:編碼到Base64的私鑰
-
-   * **[!UICONTROL Custom Key identifier]**
-
-   * **[!UICONTROL Key ID]**
-
-   * **[!UICONTROL Client identifier]**:可從以下位置的MicrosoftAzure管理門戶中找到的客戶端ID **[!UICONTROL Update your code]** 類別， **[!UICONTROL Client ID]** 的子菜單。
-
-   * **[!UICONTROL CRM version]**:CRM的版本 **[!UICONTROL Dynamics CRM 2007]**。 **[!UICONTROL Dynamics CRM 2015]** 或 **[!UICONTROL Dynamics CRM 2016]**。
-
+   ![](../assets/do-not-localize/glass.png) 瞭解有關Adobe Campaign-MicrosoftDynamics CRM整合的詳細資訊 [此頁](../connect/ac-ms-dyn.md)。
 
 * **Salesforce.com**
 
    的 **[!UICONTROL Salesforce CRM]** 外部帳戶允許您將Salesforce資料導入和導出到Adobe Campaign。
 
-   要配置Salesforce CRM外部帳戶以與Adobe Campaign協作，您需要提供以下詳細資訊：
-
-   * **[!UICONTROL Account]**:用於登錄Salesforce CRM的帳戶。
-
-   * **[!UICONTROL Password]**:用於登錄Salesforce CRM的密碼。
-
-   * **[!UICONTROL Client identifier]**:瞭解如何在 [此頁](https://help.salesforce.com/articleView?id=000205876&amp;type=1)。
-
-   * **[!UICONTROL Security token]**:瞭解如何在 [此頁](https://help.salesforce.com/articleView?id=000205876&amp;type=1)。
-
-   * **[!UICONTROL API version]**:選擇API的版本。 對於此外部帳戶，您需要使用配置嚮導配置Salesforce CRM。
+   ![](../assets/do-not-localize/glass.png) 瞭解有關Adobe Campaign- Salesforce.com CRM整合的詳細資訊 [此頁](../connect/ac-sfdc.md)。
 
 ## 傳輸資料外部帳戶
 
