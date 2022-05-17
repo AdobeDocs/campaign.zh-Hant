@@ -2,7 +2,8 @@
 title: CRM連接器資料同步
 description: 在市場活動和您的CRM之間管理資料
 feature: Salesforce Integration, Microsoft CRM Integration
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%

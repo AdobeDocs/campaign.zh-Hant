@@ -197,7 +197,7 @@ Adobe Campaign會過濾此郵件以刪除變數內容（如ID、日期、電子�
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 該地址處於限定狀態，因為錯誤尚未遞增。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後，他們可以通過 <span class="uicontrol">管理</span> / <span class="uicontrol">市場活動管理</span> / <span class="uicontrol">非交付項管理</span> 樹結構中的節點。<br /> </td> 
+   <td> 該地址處於限定狀態，因為錯誤尚未遞增。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後，他們可以通過 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">非交付項管理</span> 樹結構中的節點。<br /> </td> 
   </tr> 
   <tr> 
    <td> 無資格獲得優惠 </td> 
