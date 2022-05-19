@@ -4,7 +4,8 @@ description: 瞭解與Adobe Campaign增強型MTA發送電子郵件的範圍和�
 feature: Email
 role: Data Engineer
 level: Beginner
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
+source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 4%
@@ -112,4 +113,3 @@ MX規則（郵件eXchanger）是管理發送伺服器與接收伺服器之間通
 | 從增強的MTA返回軟彈跳消息 | 未更改 **[!UICONTROL Success]** 百分比 | 服務提供商考慮的因素 |
 | 軟彈跳消息重試成功 | **[!UICONTROL Success]** 百分比相應增加 | 已傳送 |
 | 軟跳轉消息重試失敗 | 未更改 **[!UICONTROL Success]** 百分比 | 已失敗 |
-
