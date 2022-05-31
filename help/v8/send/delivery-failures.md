@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2849'
-ht-degree: 6%
+source-wordcount: '3009'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理�
 
 這些類型的錯誤管理如下：
 
-* **同步錯誤**:Adobe Campaign傳遞伺服器聯繫的遠程伺服器立即返回錯誤消息。 不允許將傳遞發送到配置檔案的伺服器。 增強型MTA確定退回類型並確認錯誤，並將該資訊發回市場活動，以確定是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
+* **同步錯誤**:Adobe Campaign傳遞伺服器聯繫的遠程伺服器立即返回錯誤消息。 不允許將傳遞發送到配置檔案的伺服器。 郵件轉移代理(MTA)確定退回類型並確認錯誤，並將該資訊發回市場活動，以確定是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
 
 * **非同步錯誤**:接收伺服器稍後會重新發送反彈郵件或SR。 此錯誤用與錯誤相關的標籤限定。 傳送後一週內，可能會發生非同步錯誤。
 
@@ -64,7 +64,7 @@ ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理�
 
 目前，Adobe Campaign處理反彈郵件資格的方式取決於錯誤類型：
 
-* **同步錯誤**:「增強的MTA」確定退貨類型和資格，並將該資訊發回市場活動。 在 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤消息。
+* **同步錯誤**:MTA確定退貨類型和資格，並將該資訊發回市場活動。 在 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤消息。
 
 * **非同步錯誤**:市場活動用於限定非同步傳遞失敗的規則列在 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 的下界。 非同步綁定由inMail進程通過 **[!UICONTROL Inbound email]** 規則。 有關此內容的詳細資訊，請參閱 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 如果在出現臨時錯誤後郵件傳遞失敗(**軟** 或 **已忽略**)，發送市場活動重試次數。 這些重試可以執行到交貨期限結束為止。
 
-重試次數和重試頻率由增強型MTA根據消息的ISP返回的反彈響應的類型和嚴重性設定。
+軟反彈重試次數和它們之間的時間長度由MTA根據郵件電子郵件域返回的反彈響應的類型和嚴重性確定。
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>市場活動不使用傳遞屬性中的重試設定。
+
+## 有效期
+
+市場活動交付中的有效期設定限於 **3.5天或以下**。 對於交貨，如果您在市場活動中定義的值超過3.5天，則不會將其考慮在內。
+
+例如，如果在市場活動中將有效期設定為預設值5天，則軟跳轉消息將進入MTA重試隊列，並從消息到達MTA後重試最多3.5天。 在這種情況下，將不使用「市場活動」中設定的值。
+
+當訊息在 MTA 佇列中停留 3.5 天且無法傳送時，訊息會逾時，其狀態會從傳送記錄檔中的 **[!UICONTROL Sent]** 更新為 **[!UICONTROL Failed]**。
+
+有關有效期的詳細資訊，請參閱 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}。
+
 
 ## 電子郵件錯誤類型 {#email-error-types}
 
@@ -150,7 +163,7 @@ Bounce mails can have the following qualification status:
    <td> 收件人的地址是控制組的一部分。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 雙線 </td> 
+   <td> 兩次 </td> 
    <td> 已忽略 </td> 
    <td> 10 </td> 
    <td> 收件人的地址已在此傳遞中。<br /> </td> 
@@ -195,7 +208,7 @@ Bounce mails can have the following qualification status:
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 該地址處於限定狀態，因為錯誤尚未遞增。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後，他們可以通過 <span class="uicontrol">管理</span> / <span class="uicontrol">市場活動管理</span> / <span class="uicontrol">非交付項管理</span> 樹結構中的節點。<br /> </td> 
+   <td> 該地址處於限定狀態，因為錯誤尚未遞增。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後，他們可以通過 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">非交付項管理</span> 樹結構中的節點。<br /> </td> 
   </tr> 
   <tr> 
    <td> 無資格獲得優惠 </td> 
