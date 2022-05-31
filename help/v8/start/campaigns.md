@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    定義層次結構和計畫、設定預算、加入資源、選擇運算子。
 
-   ![](../assets/do-not-localize/book.png) 在[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#creating-plan-and-program-hierarchy)中瞭解如何建立行銷計劃及設定行銷活動{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=zh-Hant#creating-plan-and-program-hierarchy)中瞭解如何建立行銷計劃及設定行銷活動{target=&quot;_blank&quot;}
 
    所有行銷活動都以儲存主要設定和功能的範本為基礎。 提供內建範本，以建立尚未定義特定設定的行銷活動。 您可以建立和設定行銷活動範本，然後從這些範本建立行銷活動。
 
@@ -71,7 +71,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-wf.png)
 
-   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何定義訊息的對象{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何定義訊息的對象{target=&quot;_blank&quot;}
 
 1. **建立傳遞**
 
@@ -79,36 +79,36 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant#creating-deliveries)中瞭解如何建立及開始行銷活動的傳送{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=zh-Hant#creating-deliveries)中瞭解如何建立及開始行銷活動的傳送{target=&quot;_blank&quot;}
 
    您可以為行銷活動跟各種檔案建立關聯：報告、照片、網頁、圖表等。
 
-   ![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=zh-Hant#adding-documents)中深入瞭解相關文件{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=zh-Hant#adding-documents)中深入瞭解相關文件{target=&quot;_blank&quot;}
 
 1. **設定核准流程**
 
    Adobe Campaign 可讓您針對行銷活動的主要階段設定協作核准流程。 您可以針對每個行銷活動，核准傳遞目標、內容和成本。可以透過電子郵件形式通知負責核准的 Adobe Campaign 操作者，然後他們可透過主控台或網路連線核准或拒絕核准。
 
-   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何設定及管理核准{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=zh-Hant#orchestrating-campaigns)中瞭解如何設定及管理核准{target=&quot;_blank&quot;}
 
 
-## 分佈式市場營銷附加模組{#distributed-marketing-add-on}
+## 分散式行銷附加內容{#distributed-marketing-add-on}
 
-Adobe Campaign提供 **分佈式營銷** 中央單位（總部、營銷部門等）開展合作活動的附件 和地方實體（商店、地區機構等）。 此協作基於共用工作區，稱為 **[!UICONTROL List of campaign packages]**&#x200B;中，中心實體設計的市場活動模板將提供給本地實體。
-
->[!NOTE]
->
->此功能可從8.3版市場活動開始使用。要檢查您的版本，請參閱 [此部分](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
-
-[](../assets/do-not-localize/book.png) 瞭解如何在中配置和使用市場活動分佈式營銷功能 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;
-
-## 響應管理附加模組{#response-manager-add-on}
-
-Adobe Campaign提供 **響應管理** 附加功能，讓您可以衡量營銷活動的成功和盈利能力，或跨通信渠道提供建議：電子郵件、移動、直郵等。
+Adobe Campaign 提供&#x200B;**分散式行銷**，為中心實體之間 (總部、行銷部門等) 實施合作活動的附加內容 和地方實體 (商店、地區機構等)。 此協作基於共用工作區，稱為&#x200B;**[!UICONTROL List of campaign packages]**，由中心實體設計行銷活動範本給本地實體。
 
 >[!NOTE]
 >
->此功能可從8.3版市場活動開始使用。要檢查您的版本，請參閱 [此部分](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) 瞭解如何在中配置和使用市場活動響應管理器 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target=&quot;_blank&quot;
+[](../assets/do-not-localize/book.png)瞭解如何在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target=&quot;_blank&quot;} 中設定和使用行銷活動分散式行銷功能
+
+## 回應管理附加內容{#response-manager-add-on}
+
+Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量行銷活動的成功和盈利能力，或為跨通訊頻道 (例如：電子郵件、行動裝置、直接郵件等) 提供建議。
+
+>[!NOTE]
+>
+>此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png)瞭解如何在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target=&quot;_blank&quot;} 中設定和使用行銷活動回應管理員
 
