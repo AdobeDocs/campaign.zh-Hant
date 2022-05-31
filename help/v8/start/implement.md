@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1188'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 94%
 
 Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法和收件者的偏好使用 Campaign。 您可以管理：
 
-* **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。瞭解詳情 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition){target=&quot;_blank&quot;
+* **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition){target=&quot;_blank&quot;} 
 
-* **用戶同意和資料保留**:瞭解如何獲得用戶同意、設定雙重選擇加入訂閱機制、方便選擇退出並配置資料保留 [Campaign Classic隱私文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target=&quot;_blank&quot;
+* **使用者同意與資料保留**：瞭解如何取得使用者同意、設定雙重選擇加入訂閱機制、促進選擇退出並在 [Campaign Classic 隱私文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent)中設定資料保留{target=&quot;_blank&quot;}
 
-* **隱私和資料保護法規**:參考 [此部分](privacy.md) 有關隱私要求的資訊，以及這些法規對您的組織和Adobe Campaign的影響。
+* **隱私和資料保護法規**：請參考[此章節](privacy.md)關於隱私權請求的資訊，以及這些法規對您的組織和 Adobe Campaign 的影響。
 
 ### 安全性
 
