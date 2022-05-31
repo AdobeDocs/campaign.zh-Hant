@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0c01b0a597e54ae93dd581ccba6f19b2ff13f956
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '550'
 ht-degree: 40%
 
 ---
@@ -63,8 +63,6 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 請注意此 Campaign 版本尚未提供部分功能，例如：
 
 * 行銷資源管理
-* 分散式行銷
-* 回應管理員
 * 混合/內部部署模型
 
 >[!CAUTION]
@@ -83,7 +81,7 @@ Campaign v8 提供額外目標定位工作流程活動：**[!UICONTROL Change da
 * 優惠券
 * 網路追蹤
 * 調查
-* 社交行銷搭配 Facebook
+* 社交行銷
 * ACS 連接器 (主要優惠)
 * 與 LDAP 整合
 * 使用者/密碼登入
