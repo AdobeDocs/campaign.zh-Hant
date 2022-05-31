@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 88%
 
 ### 作業系統
 
-* **MicrosoftWindows伺服器** 2019、2016、2012
-* **Microsoft窗** 11（8.3版起始促銷活動）、10、8、
+* **Microsoft Windows 伺服器** 2019、2016、2012
+* **Microsoft Windows** 11 (自 Campaign v8.3 開始)、10、8、
 
 >[!NOTE]
 >
->MicrosoftWindows 10推薦用於日文實例。
+>建議日文執行個體使用 Microsoft Windows 10 
 
 ### 瀏覽器
 
@@ -59,8 +59,8 @@ ht-degree: 88%
 
 您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
-* **安卓** 12（啟動Campaing v8.3）、9.0、8.x、7.x，帶Campaig Android SDK版本1.1.1。
-* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。iOS15支援啟動Campaing v8。
+* **Android** 12 (自 Campaing v8.3 開始)、9.0、8.x、7.x，配備 Campaig Android SDK 版本編號 1.1.1。
+* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8 開始支援 iOS 15。
 
 ## 網路存取
 
@@ -68,7 +68,7 @@ ht-degree: 88%
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** (最新版本)
 
-## 如何檢查您的市場活動版本和生成{#version}
+## 如何檢查您的 Campaign 版本與版本編號{#version}
 
 使用 **說明 > 關於…** 選單檢查您的版本。
 
