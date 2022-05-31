@@ -1,42 +1,42 @@
 ---
-title: 管理市場活動中的隱私請求
-description: 瞭解如何在市場活動中管理隱私請求
+title: 管理 Campaign 的隱私權請求
+description: 了解如何在 Campaign 管理隱私權請求
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# 管理市場活動中的隱私請求 {#privacy}
+# 管理 Campaign 的隱私權請求 {#privacy}
 
 <!--Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. It is therefore essential that you receive and monitor consent from your recipients.-->
 
 >[!NOTE]
 >
->此功能可從8.3版市場活動開始使用。要檢查您的版本，請參閱 [此部分](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>自 Campaign v8.3 開始可使用此項功能。若要查看您的版本，請參閱 [此部分](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 為協助您加速隱私權準備，Adobe Campaign 可讓您處理存取和刪除要求。
 
-若要執行那些要求，您必須使用&#x200B;**隱私權核心服務**&#x200B;整合。從「隱私權核心服務」推送至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。[了解更多](#create-privacy-request)
+若要執行那些要求，您必須使用&#x200B;**隱私權核心服務**&#x200B;整合。從「隱私權核心服務」推播至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。[了解更多](#create-privacy-request)
 
-Adobe為資料控制器提供了建立和處理市場活動中儲存資料的隱私請求的工具。 但是，作為資料控制員，您有責任驗證發出請求的資料主題的身份，並確認返回給請求者的資料與資料主題有關。 瞭解有關個人資料和管理資料的不同實體的更多資訊 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target=&quot;_blank&quot;}。
+Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建立並處理隱私權請求。然而，資料控制方應負責確認提出請求之資料主體身份，並確認傳回給請求者的資料與資料主體有關。若需進一步資訊了解個人資料及管理資料的不同實體，請參考 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#personal-data){target=&quot;_blank&quot;}。
 
-![](../assets/do-not-localize/speech.png) 瞭解 **訪問權** 和 **被遺忘權** （刪除請求） [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target=&quot;_blank&quot;}。
+![](../assets/do-not-localize/speech.png) 若需了解 **存取權限** 與 **被遺忘的權利** (刪除請求)，請參閱 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target=&quot;_blank&quot;}
 
 ## 定義命名空間 {#namespaces}
 
-在建立隱私請求之前，您必須 **定義命名空間** 你會用的。 命名空間是將用於識別 Adobe Campaign 資料庫中資料主體的金鑰。
+在建立隱私權請求之前，您必須定義您會使用的&#x200B;**命名空間**。 命名空間是將用於識別 Adobe Campaign 資料庫中資料主體的金鑰。
 
 >[!NOTE]
 >
->要瞭解有關標識命名空間的詳細資訊，請參見 [Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}。
+>若要深入瞭解身份識別命名空間，請參閱[Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-當前Adobe Campaign不支援從Experience Platform標識命名空間服務導入命名空間。 因此，在Identity Namespace服務上建立命名空間後，必須在Adobe Campaign介面中手動建立相應的命名空間。 請依照下列步驟以執行此操作。
+目前的 Adobe Campaign 不支援從 Experience Platform 身分識別命名空間服務匯入命名空間。 因此，在身分命名空間服務上建立命名空間後，必須在 Adobe Campaign 介面上手動建立對應的命名空間。 請依照下列步驟以執行此操作。
 
 <!--v7?
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
@@ -46,9 +46,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. 在 [Identity Namespace服務](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target=&quot;_blank&quot;}。
+1. 在[身分識別命名空間服務](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace)上建立命名空間{target=&quot;_blank&quot;}。
 
-1. 當 [列出標識命名空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;}可用於您的組織，您將獲得以下詳細資訊，例如：
+1. 當列出可用於您的組織的[身分識別命名空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;}，您將獲得以下詳細資訊，例如：
 
    ```
    {
@@ -65,23 +65,23 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    }
    ```
 
-1. 在Adobe Campaign，轉到 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** 選擇 **[!UICONTROL New]**。
+1. 在 Adobe Campaign，前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**&#x200B;並選擇&#x200B;**[!UICONTROL New]**。
 
    ![](assets/privacy-namespaces-new.png)
 
 1. 輸入 **[!UICONTROL Label]**。
 
-1. 填寫新命名空間詳細資訊以匹配在標識命名空間服務上建立的命名空間：
+1. 填寫新命名空間的詳細資訊，以符合在識別命名空間服務上建立的命名空間：
 
-   * 這樣 **[!UICONTROL AEC Namespace ID]** 必須與「id」屬性匹配；
-   * 這樣 **[!UICONTROL Internal name]** 必須與「code」屬性匹配；
-   * 這樣 **[!UICONTROL Reconciliation key]** 必須與「idType」屬性匹配。
+   * **[!UICONTROL AEC Namespace ID]** 必須與「id」屬性相符；
+   * **[!UICONTROL Internal name]** 必須與「code」屬性相符；
+   * **[!UICONTROL Reconciliation key]** 必須與「idType」屬性相符。
 
    ![](assets/privacy-namespaces-details.png)
 
-   的 **[!UICONTROL Reconciliation key]** 欄位將用於標識Adobe Campaign資料庫中的資料主題。
+   這是將用於識別 Adobe Campaign 資料庫中資料主體的欄位&#x200B;**[!UICONTROL Reconciliation key]**。
 
-1. 選擇目標映射 <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)--> 指定在Adobe Campaign協調命名空間的方式。
+1. 選擇目標對應<!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)-->，指定在 Adobe Campaign 中命名空間的協調方式。
 
    >[!NOTE]
    >
@@ -89,19 +89,19 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 儲存您的變更。
 
-您現在可以根據新的命名空間來建立隱私權要求。如果使用多個命名空間，請為每個命名空間為相同的協調值建立一個隱私請求。
+您現在可以根據新的命名空間來建立隱私權要求。如果使用多個命名空間，請為每個命名空間相同的協調值建立一個隱私權請求。
 
 ## 建立隱私權請求 {#create-privacy-request}
 
-的 **隱私核心服務** 整合允許您通過單個JSON API調用在多解決方案上下文中自動執行隱私請求。 Adobe Campaign通過專用工作流自動處理從隱私核心服務推送的請求。
+**隱私權核心服務**&#x200B;整合可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權要求。Adobe Campaign 透過專用工作流程自動處理推播自隱私權核心服務的請求。
 
 >[!CAUTION]
 >
->要處理隱私請求，必須在您的Adobe Campaign實例上建立與您在Experience PlatformIdentity Namespace服務上建立的命名空間匹配的命名空間。
+>為了處理隱私權請求，您在 Adobe Campaign 執行個體上建立的命名空間，必須與您在 Experience Platform 身分識別命名空間服務上建立的命名空間相符。
 
-請參閱 [Experience PlatformPrivacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;}文檔，瞭解如何從Privacy Core Service建立Privacy請求。
+請參閱[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 文件，瞭解如何從隱私權核心服務建立隱私權要求。
 
-在Adobe Campaign，每個隱私核心服務作業根據正在使用的命名空間數被拆分為多個隱私請求，一個請求對應於一個命名空間。
+依據正在使用的命名空間數量，在 Adobe Campaign 中每個隱私權核心服務都會分割為多個隱私權要求，而一個要求都會與一個命名空間相對應。
 
 此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
@@ -117,7 +117,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >
 >僅使用[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target=&quot;_blank&quot;}，使用標準命名空間類型提交請求。
 
-### 處理請求時搜索的表 {#list-of-tables}
+### 處理請求時搜尋的表格 {#list-of-tables}
 
 執行刪除或存取隱私權要求時，Adobe Campaign 會根據所有包含收件者表格連結 (自有類型) 之表格中的&#x200B;**[!UICONTROL Reconciliation value]**，以搜尋所有資料主體的資料。
 
@@ -145,7 +145,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ### 隱私權請求狀態 {#privacy-request-statuses}
 
-以下是Adobe Campaign隱私請求的不同狀態：
+以下是 Adobe Campaign 隱私權請求的不同狀態：
 
 * **[!UICONTROL New]** / **[!UICONTROL Retry pending]**：進行中，工作流程尚未處理要求。
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**：工作流程正在處理要求。
@@ -156,10 +156,10 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 Campaign Classic v7 文件中的&#x200B;**相關主題：**
 
-* [隱私和同意](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;
+* [隱私權與同意](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* [隱私管理入門](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target=&quot;_blank&quot;
+* [隱私權管理快速入門](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-* [隱私管理條例](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target=&quot;_blank&quot;}（GDPR、CCPA、PDPA和LGPD）
+* [隱私權管理法規](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#privacy-management-regulations){target=&quot;_blank&quot;} (GDPR、CCPA、PDPA 和 LGPD)
 
-* [個人資訊銷售選擇](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target=&quot;_blank&quot;}（特定於CCPA）
+* [選擇退出個人資訊銷售](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=zh-Hant){target=&quot;_blank&quot;} (特定於 CCPA)
