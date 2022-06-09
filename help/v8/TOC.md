@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 市場活動v8
+breadcrumb-title: Campaign v8
 title: Campaign v8 文件
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 92%
 + 架構 {#architecture}
    + [全域原則](architecture/general-architecture.md)
    + [架構](architecture/architecture.md)
-   + FDASnowflake部署 {#fda}
-      + [什麼是FDA-Snowflake?](architecture/fda-deployment.md)
-   + 企業(FDA)部署 {#ffda}
-      + [什麼是活動FDA?](architecture/enterprise-deployment.md)
-      + 特徵 {#ffda-characteristics}
+   + FDA Snowflake 部署 {#fda}
+      + [什麼是 FDA-Snowflake?](architecture/fda-deployment.md)
+   + 企業 (FFDA) 部署 {#ffda}
+      + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
+      + 特性 {#ffda-characteristics}
          + [金鑰管理和唯一性](architecture/keys.md)
          + [新 API](architecture/new-apis.md)
          + [API 準備機制](architecture/staging.md)
@@ -74,7 +74,7 @@ ht-degree: 92%
 + 傳送訊息{#send}
    + 電子郵件 {#emails}
       + [設計和驗證電子郵件](send/email.md)
-      + [發送和接收電子郵件](send/send.md)
+      + [傳送和監視電子郵件](send/send.md)
    + [SMS](send/sms.md)
    + [推播通知](send/push.md)
    + [LINE 傳送訊息](send/line.md)
@@ -123,7 +123,7 @@ ht-degree: 92%
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [同步資料](connect/crm-data-sync.md)
 + 開發人員資源{#developer}
-   + [市場活動資料模型](dev/datamodel.md)
+   + [促銷活動資料模型](dev/datamodel.md)
    + 方案和表單{#shemas-forms}
       + [使用方案](dev/schemas.md)
       + [建立方案](dev/create-schema.md)
