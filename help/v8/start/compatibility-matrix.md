@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+source-git-commit: d7621adc0f4bd4eaad1b2ff8f270943e91f4edde
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
 * **Android** 12 (自 Campaing v8.3 開始)、9.0、8.x、7.x，配備 Campaig Android SDK 版本編號 1.1.1。
-* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8 開始支援 iOS 15。
+* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8.3 開始支援 iOS 15。
 
 ## 網路存取
 
