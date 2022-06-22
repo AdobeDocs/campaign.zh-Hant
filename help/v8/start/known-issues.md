@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2705e9b23f9f8a61f799381434f7e94a226de1b9
+source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 
 
-## 由於反斜線，資料載入（檔案）活動失敗 {#issue-2}
+## 由於反斜線，更改資料源活動失敗 {#issue-2}
 
 ### 說明{#issue-2-desc}
 
-將資料注入具有「活動」載入活動的Snowflake雲資料庫時，當源檔案中存在反斜線字元時，該流程將失敗。 字串未轉義，資料在Snowflake上未正確處理。
+將資料注入Snowflake雲資料庫時 **查詢** 和 **更改資料源** 活動，當資料中存在反斜線字元時，進程將失敗。 源字串未轉義，資料未在Snowflake上正確處理。
 
 僅當反斜槓字元位於字串末尾時，才會出現此問題，例如： `Barker\`。
 
@@ -69,8 +69,9 @@ ht-degree: 0%
 ### 複製步驟{#issue-2-repro}
 
 1. 連接到客戶端控制台並建立工作流。
-1. 添加 **資料載入（檔案）** 並配置。
-1. 選擇具有上述特徵的本地檔案。
+1. 添加 **查詢** 並配置。
+1. 選擇具有上述特徵的資料。
+1. 添加 **更改資料源** 活動，並將其配置為選擇Snowflake雲資料庫。
 1. 運行工作流並檢查工作流日誌以查看錯誤。
 
 
