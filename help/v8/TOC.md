@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: Campaign v8
+breadcrumb-title: 市場活動v8
 title: Campaign v8 文件
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+source-git-commit: 099d14ace04df1b98e03be283a6436f49f535958
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
    + [主要功能](start/whats-new.md)
    + [發行說明](start/release-notes.md)
    + [已知限制](start/known-limitations.md)
+   + [已知問題](start/known-issues.md)
    + [Classic v7 到 v8](start/capability-matrix.md)
 + 開始 {#start}
    + [開始使用](start/get-started.md)
