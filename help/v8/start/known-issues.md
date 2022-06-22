@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Adobe自行發佈已知問題清單。 它基於客戶報告的數量、嚴重性和變通辦法的可用性。 如果未列出您遇到的問題，則可能不符合此頁中發佈的條件。
 
-## 更改資料源活動問題 {#issue-1}
+## 更改資料源活動問題#1 {#issue-1}
 
 ### 說明{#issue-1-desc}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 
 
-## 由於反斜線，更改資料源活動失敗 {#issue-2}
+## 更改資料源活動問題#2 {#issue-2}
 
 ### 說明{#issue-2-desc}
 
