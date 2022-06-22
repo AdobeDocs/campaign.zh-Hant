@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e82ae1158926fb6335380626158089c6394377a1
+source-git-commit: 2705e9b23f9f8a61f799381434f7e94a226de1b9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 錯誤消息{#issue-1-error}
 
-```
+```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
 04/13/2022 10:00:18 AM              Starting 1 connection(s) on pool 'nms:extAccount:ffda tractorsupply_mkt_stage8' (Snowflake, server='adobe-acc_tractorsupply_us_west_2_aws.snowflakecomputing.com', login='tractorsupply_stage8_MKT:tractorsupply_stage8')
 04/13/2022 10:00:26 AM              ODB-240000 ODBC error: {*}Numeric value '{*}******{*}{{*}}' is not recognized\{*}   File 'wkf1285541_13_1_0_47504750#458318uploadPart0.chunk.gz', line 1, character 10140   Row 279, column "WKF1285541_13_1_0"["BICUST_ID":1]   If you would like to continue loading when a
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 ### 說明{#issue-2-desc}
 
-將資料注入具有「市場活動」載入活動的Snowflake雲資料庫時，由於源檔案中存在反斜線字元，進程可能會失敗。 字串未轉義，資料在Snowflake上未正確處理。
+將資料注入具有「活動」載入活動的Snowflake雲資料庫時，當源檔案中存在反斜線字元時，該流程將失敗。 字串未轉義，資料在Snowflake上未正確處理。
 
-僅當反斜槓位於字串的末尾時，才會出現此問題，例如：&quot;巴克&quot;
+僅當反斜槓字元位於字串末尾時，才會出現此問題，例如： `Barker\`。
 
 
 ### 複製步驟{#issue-2-repro}
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ### 錯誤消息{#issue-2-error}
 
-```
+```sql
 Error:
 04/21/2022 4:01:58 PM     loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22000
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
@@ -84,7 +84,7 @@ Error:
 
 ### 解決方法{#issue-2-workaround}
 
-作為解決方法，請在諸如&quot;Barker\&quot;等值周圍導出帶雙引號的檔案，並包括檔案格式選項FIELD_ONPOTIO_CONNED_BY = &#39;&quot;&#39;
+作為一種解決方法，請在有問題的值周圍導出帶雙引號的檔案(如 `Barker\`)並包含檔案格式選項 `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`。
 
 ### 內部引用{#issue-2-ref}
 
