@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
+source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Error:
 
 ### 解決方法{#issue-3-workaround}
 
-無
+您應使用舊客戶端控制台，以便能夠在伺服器上上載檔案。
 
 ### 內部引用{#issue-3-ref}
 
