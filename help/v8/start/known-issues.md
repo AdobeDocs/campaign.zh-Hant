@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
+source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 
@@ -22,21 +22,22 @@ ht-degree: 0%
 >
 >Adobe自行發佈已知問題清單。 它基於客戶報告的數量、嚴重性和變通辦法的可用性。 如果未列出您遇到的問題，則可能不符合此頁中發佈的條件。
 
-## 更改資料源活動問題#1 {#issue-1}
+<!--
+## Change Data Source activity issue #1 {#issue-1}
 
-### 說明{#issue-1-desc}
+### Description{#issue-1-desc}
 
-的 **更改資料源** 活動在將資料從Campagint本地資料庫傳輸到Snowflake雲資料庫時失敗。 在切換方向時，活動會產生問題。
+The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
 
-### 複製步驟{#issue-1-repro}
+### Reproduction steps{#issue-1-repro}
 
-1. 連接到客戶端控制台並建立工作流。
-1. 添加 **查詢** 活動和 **更改資料源** 的子菜單。
-1. 在 **電子郵件**，即字串。
-1. 運行工作流並按一下右鍵該過渡以查看填充：電子郵件記錄顯示為 `****`。
-1. 檢查工作流日誌：這樣 **更改資料源** 活動將這些記錄解釋為數值。
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and a **Change Data Source** activity.
+1. Define a query on the **email**, which is a string.
+1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
+1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
 
-### 錯誤消息{#issue-1-error}
+### Error message{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -47,17 +48,17 @@ ht-degree: 0%
 04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
 ```
 
-### 解決方法{#issue-1-workaround}
+### Workaround{#issue-1-workaround}
 
-要將資料從Snowflake雲資料庫傳輸到市場活動本地資料庫並返回Snowflake，必須使用兩種不同的 **更改資料源** 活動。
+To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
 
-### 內部引用{#issue-1-ref}
+### Internal reference{#issue-1-ref}
 
-參考：NEO-45549
+Reference: NEO-45549 
+-->
 
 
-
-## 更改資料源活動問題#2 {#issue-2}
+## 更改資料源活動問題 {#issue-2}
 
 ### 說明{#issue-2-desc}
 
@@ -85,7 +86,11 @@ Error:
 
 ### 解決方法{#issue-2-workaround}
 
-作為一種解決方法，請在有問題的值周圍導出帶雙引號的檔案(如 `Barker\`)並包含檔案格式選項 `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`。
+解決方法是排除字串結尾處包含反斜線字元的資料，或將其從源檔案中刪除。
+
+<!--
+As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+-->
 
 ### 內部引用{#issue-2-ref}
 
@@ -113,7 +118,13 @@ Error:
 
 ### 解決方法{#issue-3-workaround}
 
-您應使用舊客戶端控制台，以便能夠在伺服器上上載檔案。
+解決方法是使用較舊的客戶端控制台。 然後，您就可以在伺服器上上載該檔案。
+
+作為管理員，您可以在下載Campaign v8.3.1客戶端控制台 [Adobe分發服務](https://experience.adobe.com/downloads)。
+
+瞭解如何訪問Adobe分發服務 [此頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant)
+
+瞭解如何升級客戶端控制台 [此頁](connect.md)
 
 ### 內部引用{#issue-3-ref}
 
