@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ _2022 年 5 月 18 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>在 iOS15 ，Apple 增加了敏感性通知的概念，當通知被視為敏感，需要即時聯絡使用者時，可以讓應用程式開發人員繞過專注模式。</p>
+<td> <p>在 iOS15 ，Apple 增加了具時效性通知的概念，當通知被視為具時效性，需要即時聯絡使用者時，可以讓應用程式開發人員繞過專注模式。</p>
 <p>如需詳細資訊，請參閱<a href="../send/push.md#send-notifications-on-ios">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 
