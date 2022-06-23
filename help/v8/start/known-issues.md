@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
+source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
@@ -120,9 +120,9 @@ As a workaround, export the files with double quotes around the problematic valu
 
 解決方法是使用較舊的客戶端控制台。 然後，您就可以在伺服器上上載該檔案。
 
-作為管理員，您可以在下載Campaign v8.3.1客戶端控制台 [Adobe分發服務](https://experience.adobe.com/downloads)。
+作為市場活動管理員，您可以在下載市場活動v8.3.1客戶端控制台 [Adobe分發服務](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3內容%2Fmetadata%2Fdc%3Rast&amp;1_group.propertyvalues.operation=等於&amp;1_group.propertyvalues.0_values=目標版本%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModifiedModied&amp;ordModied&amp;OrdSed&amp;Sed&amp;St.st&amp;St&amp;Sor&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
 
-瞭解如何訪問Adobe分發服務 [此頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant)
+瞭解如何訪問Adobe分發服務 [此頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
 瞭解如何升級客戶端控制台 [此頁](connect.md)
 
