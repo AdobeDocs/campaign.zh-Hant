@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施及最佳化對話式行銷功能。其中部分是核心功能，部分功能取決於套件的安裝和您的設定。此處提供了詳盡的產品說明：[Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)。
 
-![](../assets/do-not-localize/glass.png) 已經熟悉 Campaign Classic 嗎？在[本頁](capability-matrix.md)中瞭解 Campaign Classic 與 Campaign v8 的主要差異。
+![](../assets/do-not-localize/glass.png) 已經熟悉 Campaign Classic 嗎？在[本頁](v7-to-v8.md)中瞭解 Campaign Classic 與 Campaign v8 的主要差異。
 
 **另請參閱**
 

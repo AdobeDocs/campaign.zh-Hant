@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -54,7 +54,7 @@ HTML渲染通過渲染功能建立。 呈現函式中定義的欄位序列必須
 
    這些函式用於在提供空間上生成提供表示。 有幾種可能的格式：HTML或文本。
 
-   **注釋** - XML格式僅限於此版本產品中不可用的入站交互。 [了解更多](../start/capability-matrix.md#gs-unavailable-features)
+   **注釋** - XML格式僅限於此版本產品中不可用的入站交互。 [了解更多](../start/v7-to-v8.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
