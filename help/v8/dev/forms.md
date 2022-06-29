@@ -2,9 +2,9 @@
 title: 市場活動輸入表
 description: 瞭解如何自定義輸入表單
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2554'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 預設情況下，每個欄位都顯示在一行上，並根據資料類型佔用所有可用空間。
 
-![](../assets/do-not-localize/book.png) 所有表單屬性都列在 [Campaign Classicv7文檔](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html)。
+![](../assets/do-not-localize/book.png) 所有表單屬性都列在 [Campaign Classicv7文檔](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target=&quot;_blank&quot;}。
 
 ## 格式 {#formatting}
 
@@ -349,7 +349,7 @@ A **`<static>`** 元素可用於格式化輸入表單：
 
 清單控制項由 **type=&quot;linklist&quot;** 屬性。 清單路徑必須引用集合連結。
 
-列通過 **`<input>`** 清單中的元素。 的 **xpath** 屬性指目標架構中欄位的路徑。
+列通過 **`<input>`** 清單中的清單。 的 **xpath** 屬性指目標架構中欄位的路徑。
 
 帶有標籤（在架構中的連結上定義）的工具欄將自動置於清單上方。
 

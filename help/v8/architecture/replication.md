@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### 資料複製策略
+### 資料複製策略{#data-replication-policies}
 
 複製策略基於表的大小。 一些表將即時複製，另一些表將按小時複製。 某些表在替換其他表時將具有增量更新。
 

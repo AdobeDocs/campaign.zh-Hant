@@ -1,20 +1,20 @@
 ---
-title: 新市場活動v8 API
-description: 新市場活動v8 API
+title: FFDA部署API
+description: FFDA特定API
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
 
-# 新建市場活動API{#gs-new-api}
+# 特定FFDA市場活動API{#gs-new-api}
 
-在 [企業(FDA)部署](enterprise-deployment.md), Campaign v8附帶了兩個新的API來管理Campaign本地資料庫和雲資料庫之間的資料。 使用它們的先決條件是在架構上啟用轉移機制。 [了解更多](staging.md)
+在 [企業(FDA)部署](enterprise-deployment.md), Campaign v8附帶了兩個特定的API，用於管理Campaign本地資料庫和雲資料庫之間的資料。 使用它們的先決條件是在架構上啟用轉移機制。 [了解更多](staging.md)
 
 * 接收API: **xtk.session.ingest**
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 的 **xtk.session.ingest** API僅專用於資料插入。 無更新/刪除。
 
-### 插入時無對帳
+### 插入時無對帳{#insert-no-reconciliation}
 
 **在工作流中**
 
@@ -170,7 +170,6 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 **從SOAP調用**
 
-
 1. 獲取身份驗證令牌。
 1. 觸發API。 負載為：
 
@@ -213,4 +212,4 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 **相關主題**
 
-* [Campaign ClassicV7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
+* [Campaign ClassicV7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target=&quot;_blank&quot;

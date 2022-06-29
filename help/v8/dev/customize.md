@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Adobe Campaign利用資料架構：
 
 * 通過介面，使用 **新建欄位** 助理
 
-   ![](../assets/do-not-localize/book.png) 瞭解如何快速在市場活動中添加新欄位 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+   ![](../assets/do-not-localize/book.png) 瞭解如何快速在市場活動中添加新欄位 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target=&quot;_blank&quot;
 
 * 以寫程式方式，通過擴展模式
 
@@ -47,9 +47,9 @@ Adobe Campaign利用資料架構：
 
 **相關主題**
 
-![](../assets/do-not-localize/book.png) 中的架構版本示例 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
+![](../assets/do-not-localize/book.png) 中的架構版本示例 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic){target=&quot;_blank&quot;
 
-![](../assets/do-not-localize/book.png) 用例：將欄位連結到中的現有引用表 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
+![](../assets/do-not-localize/book.png) 用例：將欄位連結到中的現有引用表 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link){target=&quot;_blank&quot;
 
 
 ## 修改輸入表單
@@ -64,7 +64,7 @@ Adobe Campaign介面使用許多Web應用程式來訪問、管理和與收件人
 
 預置的Web應用程式儲存在「管理」>「配置」>「Web應用程式」節點中。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中的市場活動中建立概覽頁 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
+![](../assets/do-not-localize/book.png) 瞭解如何在中的市場活動中建立概覽頁 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target=&quot;_blank&quot;
 
 
 ## 自定義清單並建立篩選器 {#gs-lists-and-filters}
@@ -73,16 +73,16 @@ Adobe Campaign介面使用許多Web應用程式來訪問、管理和與收件人
 
 市場活動清單附帶了預定義的篩選器，以便於導航和資料可視化。
 
-![](../assets/do-not-localize/book.png) 瞭解有關篩選選項的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
+![](../assets/do-not-localize/book.png) 瞭解有關篩選選項的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering){target=&quot;_blank&quot;
 
 
 ### 從資源管理器訪問資料
 
 在Adobe Campaign資源管理器樹中導航時，資料庫中包含的資料將顯示在清單中。 您可以過濾這些清單、運行搜索、添加資訊、過濾和排序資料。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中配置清單和保存清單配置 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
+![](../assets/do-not-localize/book.png) 瞭解如何在中配置清單和保存清單配置 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started){target=&quot;_blank&quot;
 
 
 您可以對這些清單應用篩選器，以僅顯示運算子所需的資料。 然後，可以對過濾的資料執行動作。 篩選器配置允許您動態地從清單中選擇資料。 如果資料被修改，則更新過濾的資料。
 
-![](../assets/do-not-localize/book.png) 瞭解如何篩選中的資料 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
+![](../assets/do-not-localize/book.png) 瞭解如何篩選中的資料 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters){target=&quot;_blank&quot;

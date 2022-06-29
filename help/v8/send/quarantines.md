@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1097'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign根據交貨失敗的類型及其原因管理檢疫。 在錯誤�
 在隔離地址清單中， **[!UICONTROL Error reason]** 欄位指明將選定地址置於隔離區的原因。 [了解更多資訊](#identifying-quarantined-addresses-for-the-entire-platform)。
 
 
-如果用戶將電子郵件定義為垃圾郵件，則該郵件將自動重定向到由Adobe管理的技術郵箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指地址，配置檔案不在密碼清單中，因此用戶繼續接收SMS消息和推送通知。 瞭解有關中反饋循環的詳細資訊 [交付最佳做法指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)。
+如果用戶將電子郵件定義為垃圾郵件，則該郵件將自動重定向到由Adobe管理的技術郵箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指地址，配置檔案不在密碼清單中，因此用戶繼續接收SMS消息和推送通知。 瞭解有關中反饋循環的詳細資訊 [交付最佳做法指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Adobe Campaign根據交貨失敗的類型及其原因管理檢疫。 在錯誤�
 
 另外， **[!UICONTROL Non-deliverables and bounces]** 內置報告，可從 **報告** 此首頁的「」部分，按域顯示有關隔離中的地址、遇到的錯誤類型和故障細分的資訊。 您可以篩選特定傳遞的資料，或根據需要自定義此報告。
 
-瞭解有關中的彈出地址的詳細資訊 [交付能力最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html)
+瞭解有關中的彈出地址的詳細資訊 [交付能力最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target=&quot;_blank&quot;}。
 
 ### 隔離的電子郵件地址 {#quarantined-recipient}
 

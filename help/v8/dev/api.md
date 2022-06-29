@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 15%
 
 可以使用JavaScript API在Campaign雲資料庫中寫入或從資料庫中讀取：
 
-* 業務特定的API，允許您對每個對象執行操作：交貨、工作流、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)中進一步瞭解。
-* 用於查詢資料模型資料的通用資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)中進一步瞭解。
+* 業務特定的API，允許您對每個對象執行操作：交貨、工作流、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target=&quot;_blank&quot;} 深入瞭解。
+* 用於查詢資料模型資料的通用資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target=&quot;_blank&quot;} 深入瞭解。
 
-Campaing v8與兩個資料庫配合使用：本地資料庫用於用戶介面即時消息傳遞和單一查詢並通過API進行寫入，雲資料庫用於市場活動執行、報告、資料接收、批處理查詢和工作流執行。
+請注意，在 [企業(FDA)部署](../architecture/enterprise-deployment.md), Campign可以與兩個資料庫配合使用：本地資料庫用於用戶介面即時消息傳遞和單一查詢並通過API進行寫入，雲資料庫用於市場活動執行、報告、資料接收、批處理查詢和工作流執行。
 
 >[!CAUTION]
 >

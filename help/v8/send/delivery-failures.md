@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3008'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ ISP提供返回故障通知時，發送嘗試和失敗的結果。 彈跳處理�
 
 ![](assets/delivery-log-qualification.png)-->
 
-目前，Adobe Campaign處理反彈郵件資格的方式取決於錯誤類型：
+在Adobe Campaign處理彈回郵件資格的方式取決於錯誤類型：
 
 * **同步錯誤**:MTA確定退貨類型和資格，並將該資訊發回市場活動。 在 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤消息。
 

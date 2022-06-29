@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
+exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # 已知問題{#known-issues}
 
-此頁列出了在 **最新市場活動v8版本**。 此外，還列出了市場活動v8的限制 [此頁](known-limitations.md)。
+此頁列出了在 **最新市場活動v8版本**。 此外，還列出了市場活動v8的限制 [此頁](ac-guardrails.md)。
 
 
 >[!NOTE]

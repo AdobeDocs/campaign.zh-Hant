@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 5%
+source-wordcount: '1093'
+ht-degree: 6%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 5%
 
 市場活動SDK有助於將您的移動應用程式整合到Adobe Campaign平台。
 
-Compatible SDK versions are listed in [Campaign Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
+相容SDK版本列於 [市場活動相容性清單](../start/compatibility-matrix.md#MobileSDK)。
 
-![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
+![](../assets/do-not-localize/glass.png) 瞭解如何將營銷活動Android和iOSSDK與您的應用程式整合 [此部分](../config/push-config.md)
 
 <!--
 ### Configure Campaign Extension in Launch
@@ -48,9 +48,9 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 
 ![](../assets/do-not-localize/book.png) 有關iOS的配置指南，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;
 
-![](../assets/do-not-localize/book.png) Configuration guidelines for Anddroid are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Anddroid的配置指南詳見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;
 
-## Create your first push notification
+## 建立第一個推送通知
 
 本節詳細介紹iOS和Android通知傳遞的特定元素。
 
@@ -58,7 +58,7 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 >
 >在 [企業(FDA)部署](../architecture/enterprise-deployment.md)，移動註冊現在 **非同步**。 [了解更多](../architecture/staging.md)
 
-To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
+要建立新交貨，請瀏覽至 **[!UICONTROL Campaigns]** 按鈕 **[!UICONTROL Deliveries]** 並按一下 **[!UICONTROL Create]** 按鈕。
 
 ![](assets/delivery_step_1.png)
 
@@ -68,7 +68,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 >[!NOTE]
 >
->此功能可從8.3版市場活動開始使用。要檢查您的版本，請參閱 [此部分](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 1. 選擇 **[!UICONTROL Deliver on iOS]** 交貨模板。
 
@@ -94,7 +94,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
    此欄位允許您定義 **標題** iOS通知負載的參數。
 
-1. You can add a **[!UICONTROL Subtitle]**, value of the **subtitle** parameter of the iOS notification payload.
+1. 可以添加 **[!UICONTROL Subtitle]**, **字幕** iOS通知負載的參數。
 
 1. 在 **[!UICONTROL Message content]** 的子菜單。
 
@@ -104,7 +104,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
    * **[!UICONTROL Value]**:設定一個數字，該數字將用於直接在應用程式表徵圖上顯示新未讀資訊的數量。
 
-   * **[!UICONTROL Critical alert mode]**: enable this option to add sound to your notification even the user&#39;s phone is set on focus mode or if the iPhone is muted.
+   * **[!UICONTROL Critical alert mode]**:啟用此選項可在用戶的電話設定為焦點模式或iPhone靜音時，將聲音添加到通知中。
 
    * **[!UICONTROL Name]**:選擇當收到通知時由移動終端播放的聲音。
 
@@ -114,12 +114,12 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
       > 
       >聲音必須包括在應用程式中並在建立服務時定義。
       >
-      >有關iOS的配置指南，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en)。
+      >有關iOS的配置指南，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}。
    ![](assets/push_ios_5.png)
 
 1. 從 **[!UICONTROL Application variables]** 頁籤 **[!UICONTROL Application variables]** 的子菜單。 它們允許您定義通知行為，例如，您可以配置特定應用程式螢幕以在用戶激活通知時顯示。
 
-   如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en)。
+   如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}。
 
 1. 從 **[!UICONTROL Advanced]** 頁籤中，可以編輯以下常規選項：
 
@@ -139,13 +139,13 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
    * **[!UICONTROL Interruption level]**:
 
-      * **[!UICONTROL Active]**:預設情況下，系統會立即顯示通知，開啟螢幕並播放聲音。 Notifications do not break through Focus modes.
+      * **[!UICONTROL Active]**:預設情況下，系統會立即顯示通知，開啟螢幕並播放聲音。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Passive]**: The system adds the notification to the notification list without lighting up the screen or playing a sound. 通知不會突破焦點模式。
+      * **[!UICONTROL Passive]**:系統將通知添加到通知清單，而不點亮螢幕或播放聲音。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Time sensitive]** The system presents the notification immediately, lights up the screen, can play a sound and break through Focus modes. This level does not require a special permission from Apple.
+      * **[!UICONTROL Time sensitive]** 系統會立即發出通知，點亮螢幕，播放聲音並突破焦點模式。 這一級別不需要Apple的特別許可。
 
-      * **[!UICONTROL Critical]** The system presents the notification immediately, lights up the screen, and bypasses the mute switch or focus modes. Note that this level requires a special permission from Apple.
+      * **[!UICONTROL Critical]** 系統會立即顯示通知，點亮螢幕，並繞過靜音開關或聚焦模式。 請注意，此級別需要獲得Apple的特別許可。
    * **[!UICONTROL Relevance score]**:將相關性分數設定為0到100。 系統使用此選項對通知摘要中的通知進行排序。
 
    ![](assets/push_ios_7.png)
@@ -185,15 +185,15 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 要發送證據併發送最終交貨，請使用與電子郵件交貨相同的流程。 在 Campaign Classic v7 文件進一步瞭解：
 
 * 驗證交貨併發送校樣
-   ![](../assets/do-not-localize/book.png) [瞭解驗證交付的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) [瞭解驗證交付的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;
 
 * 確認併發送交貨
-   ![](../assets/do-not-localize/book.png) [瞭解發送遞送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) [瞭解發送遞送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target=&quot;_blank&quot;
 
-After sending messages, you can monitor and track your deliveries. 在 Campaign Classic v7 文件進一步瞭解：
+發送消息後，您可以監視和跟蹤交貨。 在 Campaign Classic v7 文件進一步瞭解：
 
-* Push notification quarantines
-   ![](../assets/do-not-localize/book.png) [瞭解有關推送通知隔離的詳細資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;
+* 推送通知隔離
+   ![](../assets/do-not-localize/book.png) [瞭解有關推送通知隔離的詳細資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target=&quot;_blank&quot;
 
 * 疑難排解
-   ![](../assets/do-not-localize/book.png) [瞭解如何排除推式通知故障](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) [瞭解如何排除推式通知故障](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target=&quot;_blank&quot;
