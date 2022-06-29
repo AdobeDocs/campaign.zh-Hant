@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 78%
+source-wordcount: '635'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services公司為設計跨渠道客戶體驗提供了Managed Services平台，並為可視的市場活動協調，即時交互管理和跨渠道執行提供了環境。 瞭解有關中的市場活動管理Cloud Services的詳細資訊 [產品說明頁](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}...
+Adobe Campaign Managed Cloud Services公司為設計跨渠道客戶體驗提供了Managed Services平台，並為可視的市場活動協調，即時交互管理和跨渠道執行提供了環境。 瞭解有關中的市場活動管理Cloud Services的詳細資訊 [產品說明頁](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 
@@ -36,7 +36,7 @@ Adobe Campaign Managed Cloud Services公司為設計跨渠道客戶體驗提供�
 * **服務體驗** — 主動的可用性、容量和效能監控和回應，以防止中斷，更快地解決事件，並定期審查服務以持續改進。
 * **深入的行銷活動專長** — 由專家客戶工程團隊提供的高相似性服務，可滿足功能、技術或傳遞性需求，降低部署風險，並改善變更管理。
 
-身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[本章節](#gs-removed)所列的一小部分功能外，也提供大部份[!DNL Campaign] v8 的功能。 其他內容將在未來發行中推出。 [在本節了解更多資訊](#gs-unavailable-features)
+身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[!DNL Campaign]本章節[所列的一小部分功能外，也提供大部份](#gs-removed) v8 的功能。 
 
 >[!NOTE]
 >
