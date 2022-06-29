@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 14%
@@ -26,9 +26,8 @@ Adobe Campaign提供了多個連接器，允許您與外部應用程式通信、
 
 市場活動v8可以與：
 
-
 * [Adobe Experience CloudReal-Time CDP](../connect/ac-rtcdp.md)
-* [AdobeJourney Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)。
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)。
 
    請參閱端到端使用案例 [這裡](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=zh-Hant)。
 

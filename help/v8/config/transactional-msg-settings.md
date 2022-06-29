@@ -1,11 +1,11 @@
 ---
 title: 市場活動事務性消息傳遞設定
 description: 市場活動事務性消息傳遞設定
-feature: Overview
+feature: Transactional Messaging
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 發送事務推送通知
 
-與Mobile應用通道模組結合使用時，事務性消息傳遞使您能夠通過移動設備上的通知推送事務性消息。
+與移動應用通道模組結合使用時，事務性消息傳遞使您能夠通過移動設備上的通知推送事務性消息。
 
 ![](../assets/do-not-localize/book.png) Mobile應用頻道詳見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
    >
    >在安裝新的市場活動內置軟體包之前，請檢查您的許可協定。
 
-1. 複製 **Mobile應用** 執行實例上的服務和關聯的移動應用。
+1. 複製 **移動應用** 執行實例上的服務和關聯的移動應用。
 
 為使市場活動能夠發送事務性推式通知，事件必須包含以下元素：
 

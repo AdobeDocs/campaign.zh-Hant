@@ -1,11 +1,11 @@
 ---
 title: 使用 Campaign 及 SFDC
 description: 瞭解如何使用Campaign和Salesforce.com
-feature: Overview
+feature: Salesforce Integration
 role: Data Engineer
 level: Beginner
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 3%

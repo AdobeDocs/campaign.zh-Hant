@@ -1,11 +1,11 @@
 ---
 title: 即時交互歷史記錄和報告
 description: 瞭解如何通過市場活動互動跟蹤和衡量您的服務
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%

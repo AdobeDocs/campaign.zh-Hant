@@ -1,11 +1,11 @@
 ---
 title: 與Adobe Campaign直接發送郵件
 description: 在市場活動中開始使用直郵
-feature: Overview
+feature: Direct Mail
 role: Data Engineer
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 15%

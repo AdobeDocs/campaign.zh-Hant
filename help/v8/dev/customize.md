@@ -1,11 +1,11 @@
 ---
 title: 自訂您的執行個體
 description: 瞭解如何自定義實例
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 自訂您的執行個體{#gs-ac-custom}
 
-瞭解如何 **自定義您的市場活動實例**
+瞭解如何 **自定義您的市場活動實例**。
 
 >[!CAUTION]
 >

@@ -1,11 +1,11 @@
 ---
 title: 向Adobe Campaign發送直接線路消息
 description: 開始使用LINE消息
-feature: Overview
+feature: Line App
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 18%

@@ -1,11 +1,11 @@
 ---
 title: 使用活動和外部資料庫(FDA)
 description: 瞭解如何使用活動和外部資料庫
-feature: Overview
+feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 3%
@@ -126,7 +126,7 @@ ht-degree: 3%
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 按一下 **[!UICONTROL OK]** 確認。 Adobe Campaign自動檢測所選表的結構並生成邏輯架構。 請注意，Adobe Campaign未生成連結。
+1. 按一下 **[!UICONTROL OK]** 確認。Adobe Campaign自動檢測所選表的結構並生成邏輯架構。 請注意，Adobe Campaign未生成連結。
 
 1. 按一下 **[!UICONTROL Save]** 確認建立。
 

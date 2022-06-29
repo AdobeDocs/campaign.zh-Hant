@@ -1,11 +1,11 @@
 ---
 title: 市場活動電子郵件通道設定
 description: 市場活動電子郵件通道設定
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 您可以配置Adobe Campaign以保留從您的平台發送的電子郵件副本。
 
-Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated BCC (blind carbon copy) email address, from where they can be processed and archived using an external system. 然後，與所發送的電子郵件相對應的.eml檔案可以傳輸到遠程伺服器，如SMTP電子郵件伺服器。
+Adobe Campaign本身不管理存檔檔案。 它確實使您能夠將您選擇的郵件發送到專用的BCC（盲碳拷貝）電子郵件地址，在該地址，您可以使用外部系統處理和存檔這些郵件。 然後，與所發送的電子郵件相對應的.eml檔案可以傳輸到遠程伺服器，如SMTP電子郵件伺服器。
 
 >[!CAUTION]
 >
@@ -42,7 +42,7 @@ Adobe Campaign itself does not manage archived files. It does enable you to send
 
 要執行此操作，請遵循下列步驟：
 
-1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**, or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. 轉到 **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**&#x200B;或 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**。
 1. 選擇您選擇的交貨或複製現成的 **[!UICONTROL Email delivery]** ，然後選擇複製的模板。
 1. 按一下 **[!UICONTROL Properties]** 按鈕。
 1. 選取 **[!UICONTROL Delivery]** 索引標籤。
@@ -56,11 +56,11 @@ Adobe Campaign itself does not manage archived files. It does enable you to send
 
 注意以下具體情況和建議：
 
-* You can only use one BCC email address.
+* 您只能使用一個密件抄送電子郵件地址。
 
 * 確保BCC地址具有足夠的接收容量來存檔所有已發送的電子郵件。
 
-* Email BCC <!--with Enhanced MTA--> delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. 有關退貨的詳細資訊，請參閱 [瞭解交付失敗](../send/delivery-failures.md)。
+* 電子郵件密件抄送 <!--with Enhanced MTA--> 在傳送給收件人之前，將其傳送至BCC電子郵件地址，這可能導致BCC郵件被發送，即使原始遞送可能已經轉發。 有關退貨的詳細資訊，請參閱 [瞭解交付失敗](../send/delivery-failures.md)。
 
 * 如果開啟並按一下發送到密件抄送地址的電子郵件，則在 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** 從發送分析中得出，這可能會導致一些錯誤計算。
 
@@ -70,7 +70,7 @@ Adobe Campaign itself does not manage archived files. It does enable you to send
 
 * [生成鏡像頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;
 
-* [Select email format](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
+* [選擇電子郵件格式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;
 
 * [選擇字元編碼](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;
 

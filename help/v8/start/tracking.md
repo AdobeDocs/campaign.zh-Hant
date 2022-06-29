@@ -1,14 +1,14 @@
 ---
 title: 開始使用跟蹤和監視功能
 description: 開始使用跟蹤和監視功能
-feature: Overview
+feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -34,32 +34,32 @@ ht-degree: 8%
 
 您可以跟蹤消息的接收和消息內容中插入的連結的激活情況，以便更好地瞭解收件人的行為。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target=&quot;_blank&quot;} 
 
 **URL跟蹤**
 
 可以通過激活或停用跟蹤的URL來配置跟蹤選項。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;} 
 
 
 **跟蹤連結個性化**
 
 市場活動跟蹤功能允許您在電子郵件中添加可個性化且支援跟蹤的連結。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=en#sending-messages){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=en#sending-messages){target=&quot;_blank&quot;} 
 
 **跟蹤日誌**
 
 的 **跟蹤** 技術工作流在發送並激活跟蹤後檢索跟蹤資料。 此資料可在您交貨的「跟蹤」頁籤中找到。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;} 
 
 **測試追蹤**
 
 在通過跟蹤發送郵件之前，您可以在鏡像頁面、電子郵件日誌和連結上test跟蹤。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;} 
 
 ### Web應用程式跟蹤 {#web-application-tracking}
 
@@ -69,13 +69,13 @@ ht-degree: 8%
 
 您還可以使用跟蹤標籤跟蹤和測量Web應用程式頁面上的訪問。 此功能可用於所有Web應用程式類型，如表單和線上調查。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=en#designing-content){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=en#designing-content){target=&quot;_blank&quot;} 
 
 **網站應用程式追蹤選擇退出**
 
 Web應用程式跟蹤選擇退出使您能夠停止跟蹤選擇退出行為跟蹤的最終用戶的Web行為。 您可以將橫幅廣告顯示到Web應用程式或登錄頁中，從而允許用戶選擇退出。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=en#designing-content){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=en#designing-content){target=&quot;_blank&quot;} 
 
 ### 跟蹤報告 {#tracking-reports}
 
@@ -85,31 +85,31 @@ Web應用程式跟蹤選擇退出使您能夠停止跟蹤選擇退出行為跟�
 
 此報表提供有關開啟、按一下和交易記錄的統計資訊，並允許您跟蹤交貨的市場影響。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=en#tracking-reports){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=en#tracking-reports){target=&quot;_blank&quot;} 
 
 **URL 和點按流**
 
 此報告顯示交貨後訪問的頁的清單。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#urls-and-click-streams){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#urls-and-click-streams){target=&quot;_blank&quot;} 
 
 **人員與收件者**
 
 通過此示例，更好地瞭解Adobe Campaign的人員/人員和接收者之間的跟蹤差異。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=en#reporting){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=en#reporting){target=&quot;_blank&quot;} 
 
 **追蹤指標**
 
 此報告合併了用於在接收到傳送時跟蹤收件人行為的主要指標，如開啟、點擊率和按一下流。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#reporting){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#reporting){target=&quot;_blank&quot;} 
 
 **指示器計算**
 
 不同的表根據交貨類型為您提供不同報表中使用的指示符清單及其計算公式。
 
-[瞭解有關Campaign Classicv7文檔的更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;
+[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;} 
 
 ## 監視指南
 
