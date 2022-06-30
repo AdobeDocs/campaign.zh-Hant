@@ -63,7 +63,7 @@ Adobe Campaign v8 提供下列傳送頻道：
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/book.png) [使用案例：瞭解如何排程並傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=zh-Hant){target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) [使用案例：瞭解如何排程並傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
 
 ## 新增個人化{#personalization}
@@ -73,11 +73,11 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。
 您可以：
 
 * 插入動態個人化欄位。
-   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)中瞭解如何使用個人化欄位{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)中瞭解如何使用個人化欄位{target=&quot;_blank&quot;}
 * 插入預先定義的個人化區塊。
    ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=zh-Hant){target=&quot;_blank&quot;} 中瞭解什麼是個人化區塊，以及如何使用
 * 建立條件式內容。
-   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=zh-Hant)中瞭解如何插入條件式內容{target=&quot;_blank&quot;
+   ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=zh-Hant)中瞭解如何插入條件式內容{target=&quot;_blank&quot;}
 
 ## 傳送異動訊息{#gs-transac-messages}
 
@@ -87,7 +87,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。
 
 ![](../assets/do-not-localize/glass.png)[ 本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
 
-![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=zh-Hant)中瞭解此功能在端對端使用案例中的作用{target=&quot;_blank&quot;
+![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=zh-Hant)中瞭解此功能在端對端使用案例中的作用{target=&quot;_blank&quot;}
 
 ## 傳送和追蹤記錄{#gs-tracking-logs}
 
