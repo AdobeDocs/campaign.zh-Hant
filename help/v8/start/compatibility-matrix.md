@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 與 Adobe Campaign 相容的客戶關係管理 (CRM) 系統列於下方。 [深入瞭解](../connect/crm.md)。
 
 * **Salesforce** 連接器 API 49 版本
-* **Microsoft動力** 連接器， Web API:Dynamics 365內部和線上
+* **Microsoft Dynamics** 連接器、Web API：Dynamics 365 內部部署與線上
 
 ## 同盟資料存取 (FDA){#FederatedDataAccessFDA}
 
