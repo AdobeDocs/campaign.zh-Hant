@@ -1,34 +1,34 @@
 ---
-title: 從Campaign Classicv7過渡到市場活動v8
+title: 從 Campaign Classic v7 轉變到 Campaign v8
 description: 瞭解 Campaign Classic v7 和 Campaign v8 之間的差異
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# 從 [!DNL Campaign Classic] v7至 [!DNL Campaign] v8{#gs-matrix}
+# 從 [!DNL Campaign Classic] v7 轉變至 [!DNL Campaign] v8{#gs-matrix}
 
 身為前 [!DNL Campaign Classic]v7 的使用者，您和 [!DNL Adobe Campaign] 的互動方式差異應該不會太大。除了 UI 和設定步驟中出現的小變更以外，v8 中的大多數變更都看不太到。
 
 >[!AVAILABILITY]
 >
->* 目前，Campaign v8 僅&#x200B;****&#x200B;可作為托管 Cloud Service 使用，而且無法在內部部署或混合環境中進行部署。[了解更多](#cloud-services)
+>* 目前，Campaign v8 **僅**&#x200B;可作為托管 Cloud Service 使用，而且無法在內部部署或混合環境中進行部署。[了解更多](#cloud-services)
 >
->* 從現有Campaign Classicv7環境自動遷移尚不可用。
+>* 無法從現有 Campaign Classic V7 環境進行自動移轉。
 
 
 
-## 托管Cloud Services{#cloud-services}
+## Managed Cloud Services{#cloud-services}
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services公司為設計跨渠道客戶體驗提供了Managed Services平台，並為可視的市場活動協調，即時交互管理和跨渠道執行提供了環境。 瞭解有關中的市場活動管理Cloud Services的詳細資訊 [產品說明頁](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}。
+Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。請在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}了解更多有關 Campaign Managed Cloud Services 的詳細資訊。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 
@@ -49,16 +49,16 @@ Adobe Campaign Managed Cloud Services公司為設計跨渠道客戶體驗提供�
 
 Campaign v8 可以與[!DNL Snowflake]使用。 
 
-在 [企業(FDA)部署](../architecture/enterprise-deployment.md)。 [!DNL Adobe Campaign] v8適用於兩個資料庫：當地 [!DNL Campaign] 用於用戶介面即時消息傳遞和統一查詢及通過API和雲寫入的資料庫 [!DNL Snowflake] 用於市場活動執行、批處理查詢和工作流執行的資料庫。
+在[企業 (FFDA) 部署](../architecture/enterprise-deployment.md)中，[!DNL Adobe Campaign] v8 可同時使用兩個資料庫：本機 [!DNL Campaign] 資料庫，用於使用者介面即時傳送訊息並透過 API 統一查詢及寫入，以及雲端 [!DNL Snowflake] 資料庫，用於行銷活動執行、批次查詢及工作流程執行。
 
-Campaign v8 企業版 帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。利用此新體系結構，Campaign v8 Enterprise(FDA)部署簡化了資料管理：雲資料庫不需要索引。 您只需建立表、複製資料即可啟動。 雲端資料庫技術不需要進行具體的維護來保證效能等級。
+Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
 ![](../assets/do-not-localize/glass.png) 在本頁面了解更多 [!DNL Campaign] v8 [架構](../architecture/architecture.md)。
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
-競選用戶只能通過他們的Adobe ID進行連接。 相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
+Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
 
 ![](../assets/do-not-localize/glass.png)瞭解在[此頁面](connect.md)如何連結到[!DNL Campaign].。
 
