@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 * Adobe Campaign v8 不適用於內部部署/混合部署，僅以 Adobe 管理的 Cloud Service 發行。
 * 現有客戶無法從現有的 Adobe Campaign 環境移轉至 Adobe Campaign v8
 * 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，不提供雙向資料複製：只會從 Campaign 本機資料庫複製到雲端資料庫
-* 此區段](v7-to-v8.md#gs-unavailable-features)中列出的功能，不適用於目前的 Campaign v8 版本編號[
+* [此區段](v7-to-v8.md#gs-unavailable-features)中列出的功能，不適用於目前的 Campaign v8 版本編號
 * 使用者介面中仍會顯示某些無法使用或已移除的功能
 * 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。每小時都會透過特定的技術工作流程處理請求。 [深入瞭解](../architecture/replication.md#tech-wf)
 * 重複項目需要由終端使用者手動處理。 [深入瞭解](../architecture/keys.md)
