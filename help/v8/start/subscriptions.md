@@ -1,14 +1,14 @@
 ---
 title: 管理市場活動中的訂閱和取消訂閱
-description: 瞭解如何管理市場活動v8中的訂閱和取消訂閱
+description: 了解如何管理 Campaign v8 的訂閱和取消訂閱
 feature: Subscriptions
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

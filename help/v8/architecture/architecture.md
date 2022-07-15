@@ -8,7 +8,7 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 9%
 
    在 [企業(FDA)部署](enterprise-deployment.md)。 [!DNL Adobe Campaign] v8適用於兩個資料庫：當地 [!DNL Campaign] 用於用戶介面即時消息傳遞和統一查詢及通過API和雲寫入的資料庫 [!DNL Snowflake] 用於市場活動執行、批處理查詢和工作流執行的資料庫。
 
-   Campaign v8 企業版 帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。利用此新體系結構，Campaign v8 Enterprise(FDA)部署簡化了資料管理：雲資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
+   Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
 
 ## 消息中心體系結構{#transac-msg-archi}
