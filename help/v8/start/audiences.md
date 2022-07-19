@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 19%
+source-wordcount: '489'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 目標可以通過工作流中圖形序列中的查詢組合來建立。 您可以根據您的要求建立目標受眾。 要顯示工作流編輯器，請按一下 **[!UICONTROL Targeting and workflows]** 頁籤
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中的市場活動工作流中構建受眾 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}。
+瞭解如何在中的市場活動工作流中構建受眾 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 
 ## 使用中的設定檔案{#active-profiles}
@@ -57,10 +57,10 @@ Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料
 
 ![](../assets/do-not-localize/book.png) 瞭解如何管理中的隱私和同意 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-Campaign Classic v7 文件中的&#x200B;**相關主題**：
+**相關主題**
 
-* [設計和執行市場活動特定的工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;
+* [設計和執行市場活動特定的工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
 
-* [瞭解如何選擇市場活動的受眾](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;
+* [瞭解如何選擇市場活動的受眾](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
-* [開始使用工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)

@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 17%
+source-wordcount: '268'
+ht-degree: 24%
 
 ---
 
@@ -22,17 +22,13 @@ ht-degree: 17%
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 
-準備並構建檔案中的資料，以使用工作流導入資料。
-
-有關在工作流中使用讀取清單活動的詳細資訊，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/read-list.html){target=&quot;_blank&quot;}。
+準備並構建檔案中的資料，以使用工作流導入資料。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)。
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-工作流中處理的資料可以從結構化檔案中提取，以便可以導入到Adobe Campaign。
+工作流中處理的資料可以從結構化檔案中提取，以便可以導入到Adobe Campaign。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
 
-有關載入資料活動的說明，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html){target=&quot;_blank&quot;}。
-
-收集資料後，您就可以在工作流中使用它，例如，用於豐富傳遞內容或更新資料庫。 有關此內容的詳細資訊，請參閱 [Campaign Classicv7文檔]https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/how-to-use-workflow-data.htmll){target=&quot;_blank&quot;}。
+收集資料後，您就可以在工作流中使用它，例如，用於豐富傳遞內容或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)。
 
 ## 一次性進口{#import-jobs}
 

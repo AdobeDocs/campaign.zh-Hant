@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 1%
+source-wordcount: '1638'
+ht-degree: 0%
 
 ---
 
@@ -325,12 +325,12 @@ ht-degree: 1%
 
 要執行高級篩選功能，請使用函式定義篩選器的內容。 高級篩選器編輯器利用市場活動查詢編輯器的所有功能。
 
-瞭解如何在Adobe Campaign Classicv7文檔中構建高級查詢。 例如：
+瞭解如何在這些端到端示例中構建高級查詢：
 
-* 瞭解如何針對中的簡單收件人屬性 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target=&quot;_blank&quot;}。
-* 瞭解如何篩選過去7天未聯繫的收件人 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;}。
-* 瞭解如何恢復可按中的活動帳戶篩選的運算子清單 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target=&quot;_blank&quot;}。
-* 瞭解如何在  [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target=&quot;_blank&quot;}。
+* 瞭解如何針對中的簡單收件人屬性 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html)。
+* 瞭解如何篩選過去7天未聯繫的收件人 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)。
+* 瞭解如何恢復可按中的活動帳戶篩選的運算子清單 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html)。
+* 瞭解如何在  [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)。
 
 
 ### 預定義篩選器的高級參數 {#param-for-data-filters}

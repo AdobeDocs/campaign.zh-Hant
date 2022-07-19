@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 2046e93b97e8a45c4837dd10182adc94eea6940b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -212,4 +212,4 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 **相關主題**
 
-* [Campaign ClassicV7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target=&quot;_blank&quot;
+* [市場活動JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target=&quot;_blank&quot;

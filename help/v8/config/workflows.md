@@ -5,10 +5,10 @@ feature: Workflows
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 3%
+source-wordcount: '1574'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 * 工作流程
 * 定期市場活動
 * 端到端驗證週期
-* 警報
+* 警示
 * 自動發送報告
 * 觸發的事件
 
@@ -31,28 +31,28 @@ ht-degree: 3%
 
 瞭解如何在這些中設計工作流 [端到端使用案例](#end-to-end-uc)。
 
-瞭解有關工作流用戶介面和Campaign Classicv7文檔執行的詳細資訊：
+瞭解有關工作流用戶介面和執行的詳細資訊：
 
-* [開始使用工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 
-* [工作流最佳實踐](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target=&quot;_blank&quot;
+* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
-* [內置技術工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;
+* [內置技術工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
 
-* [監視工作流執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;
+* [監視工作流執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [在市場營銷活動工作流中構建受眾](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;
+* [在市場營銷活動工作流中構建受眾](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 ## 工作流活動 {#wf-activities}
 
-![](../assets/do-not-localize/book.png) 瞭解有關可用工作流活動的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;
+瞭解有關中可用工作流活動的詳細資訊 [此部分](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
 
 工作流活動按類別分組。 有四個活動類別：
 
-* [目標活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;:查詢、讀取清單、濃縮、聯合等
-* [流控制活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;:調度程式、分叉、警報、外部信號等
-* [行動活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;:跨渠道交付、Javascript代碼、 CRM活動、更新聚合等
-* [活動](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;:檔案傳輸、Web下載等
+* [目標活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html):查詢、讀取清單、濃縮、聯合等
+* [流控制活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html):調度程式、分叉、警報、外部信號等
+* [行動活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html):跨渠道交付、Javascript代碼、 CRM活動、更新聚合等
+* [活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html):檔案傳輸、Web下載等
 
 ### 更改資料源活動 {#change-data-source-activity}
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
 1. 使用 **[!UICONTROL Query]** 的子菜單。
 
-   有關 **[!UICONTROL Query]** 活動，請參閱 [查詢](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) Campaign ClassicV7文檔中。
+   有關 **[!UICONTROL Query]** 活動，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html)。
 
 1. 從 **[!UICONTROL Targeting]** 頁籤，添加 **[!UICONTROL Change data source]** 活動，並按兩下它以選擇 **[!UICONTROL Default data source]**。
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 1. 從 **[!UICONTROL Actions]** 頁籤，拖放 **[!UICONTROL JavaScript code]** 活動，以在工作表上執行單一操作。
 
-   有關 **[!UICONTROL JavaScript code]** 活動，請參閱 [JavaScript代碼和高級JavaScript代碼](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) Campaign ClassicV7文檔中。
+   有關 **[!UICONTROL JavaScript code]** 活動，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html)。
 
 1. 添加其他 **[!UICONTROL Change data source]** 活動以切換回雲資料庫。
 
@@ -92,7 +92,7 @@ ht-degree: 3%
 
 建立工作流後，您可以使用 **[!UICONTROL Properties]** 的子菜單。
 
-![](../assets/do-not-localize/book.png) 瞭解有關 **工作流屬性** 在 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant){target=&quot;_blank&quot;
+瞭解有關 **工作流屬性** 在 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html)。
 
 從 **[!UICONTROL Execution]** 頁籤 **[!UICONTROL Properties]**，您可以選擇將工作流連結到不同的倉庫並優化工作量管理。 有關 **倉庫**，請參閱 [Snowflake文檔](https://docs.snowflake.com/en/user-guide/warehouses-overview.html)。
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
 設計循環工作流，並在每次執行工作流時建立新的交付實例。 例如，如果您的工作流設計為每週運行一次，則在一年後將產生52個交貨。 這也意味著日誌將由每個傳遞實例分隔。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;
+瞭解如何在 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
 
 
 ## 利用觸發事件
@@ -130,102 +130,85 @@ ht-degree: 3%
 
 ## 工作流端到端使用案例{#end-to-end-uc}
 
-在本節中，您將發現利用市場活動工作流功能的各種使用案例。 這些使用案例是在Adobe Campaign Classicv7中構建的，適用於Adobe Campaignv8。
+在本節中，您將發現利用市場活動工作流功能的各種使用案例。
 
 ### 傳遞 {#deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-* [A/B測試](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target=&quot;_blank&quot;
 
-   瞭解如何通過目標工作流比較兩個電子郵件傳遞內容。 消息和文本在兩個遞送中都相同：只更改佈局。 目標人口分為三：兩個test群體和其餘人口。 將不同版本的傳遞發送到每個test組。
-
-* [發送生日電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html){target=&quot;_blank&quot;
+* [傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
    此使用案例介紹如何計畫在收件人生日當天向其清單發送定期電子郵件。
 
-* [正在載入傳遞內容](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;}當您的傳遞內容位於遠程伺服器上的HTML檔案中可用時，您可以輕鬆將此內容載入到Adobe Campaign傳遞中。
+* [載入傳遞內容](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+當您的傳遞內容位於遠程伺服器上的HTML檔案中可用時，您可以輕鬆地將此內容載入到Adobe Campaign的傳遞中。
 
-* [跨渠道交付工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target=&quot;_blank&quot;
+* [跨渠道交付工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+瞭解如何構建跨渠道交付工作流。 目標是將受眾從資料庫的收件人分割為不同的組，並向第一組發送電子郵件，向另一組發送SMS。
 
-   瞭解如何構建跨渠道交付工作流。 目標是將受眾從資料庫的收件人分割為不同的組，並向第一組發送電子郵件，向另一組發送SMS。
+* [具有自定義日期欄位的電子郵件豐富性](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+瞭解如何向本月慶祝生日的個人資料發送包含自定義資料欄位的電子郵件。 電子郵件中將包含一張在他們生日前後一週有效的優惠券。
 
-* [具有自定義日期欄位的電子郵件豐富性](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target=&quot;_blank&quot;
+Campaig v7文檔中的以下頁面：
 
-   瞭解如何向本月慶祝生日的個人資料發送包含自定義資料欄位的電子郵件。 電子郵件中將包含一張在他們生日前後一週有效的優惠券。
+* [自動建立、編輯和發佈內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;}瞭解如何使用Campaig Content Management載入項自動建立和傳遞內容塊。
 
-* [自動化內容建立、編輯和發佈](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;
-
-   瞭解如何使用市場活動內容管理附加模組自動建立和交付內容塊。
-
+* [A/B測試](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target=&quot;_blank&quot;}瞭解如何通過目標工作流比較兩個電子郵件傳遞內容。 消息和文本在兩個遞送中都相同：只更改佈局。 目標人口分為三：兩個test群體和其餘人口。 將不同版本的傳遞發送到每個test組。
 
 ### 監視 {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [將報告發送到清單](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html){target=&quot;_blank&quot;
+* [將報告發送到清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
+瞭解如何以PDF格式生成每月內置跟蹤指標報告並將其發送到市場活動操作員清單。
 
-   瞭解如何以PDF格式生成每月內置跟蹤指標報告並將其發送到市場活動操作員清單。
+* [監控工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+瞭解如何建立工作流，以便監視「已暫停」、「已停止」或「有錯誤」的一組工作流的狀態。
 
-* [監控工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html){target=&quot;_blank&quot;
-
-   瞭解如何建立工作流，以便監視「已暫停」、「已停止」或「有錯誤」的一組工作流的狀態。
-
-* [向操作員發送個性化警報](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-personalized-alerts-to-operators.html){target=&quot;_blank&quot;
-
-   瞭解如何向操作員發送警報，操作員將包含開啟新聞簡報但未按一下該通訊所包含連結的配置檔案的名稱。
+* [向操作員發送個性化警報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+瞭解如何向操作員發送警報，操作員將包含開啟新聞簡報但未按一下該通訊所包含連結的配置檔案的名稱。
 
 ### 資料管理 {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [協調資料更新](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html){target=&quot;_blank&quot;
+* [協調資料更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+瞭解如何在執行另一個更新操作之前檢查更新進程是否已結束。 為此，我們將設定一個實例變數，並在實例正在運行時讓工作流test決定是否繼續執行工作流並執行更新。
 
-   瞭解如何在執行另一個更新操作之前檢查更新進程是否已結束。 為此，我們將設定一個實例變數，並在實例正在運行時讓工作流test決定是否繼續執行工作流並執行更新。
+* [建立摘要清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+瞭解如何建立工作流，該工作流在收集檔案並完成若干項任務後，允許您建立摘要清單。 該示例基於在商店中進行採購的聯繫人清單。
 
-* [建立摘要清單](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html){target=&quot;_blank&quot;
+* [豐富資料](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+瞭解如何根據個人得分將個性化送貨發送給參加最新競爭的個人資料。
 
-   瞭解如何建立工作流，該工作流在收集檔案並完成若干項任務後，允許您建立摘要清單。 該示例基於在商店中進行採購的聯繫人清單。
+* [使用聚合](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+瞭解如何標識添加到資料庫的最後一個收件人。
 
-* [豐富資料](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html){target=&quot;_blank&quot;
+* [使用增量查詢的季度清單更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+瞭解如何使用增量查詢自動更新收件人清單。
 
-   瞭解如何根據個人得分將個性化送貨發送給參加最新競爭的個人資料。
-
-* [使用聚合](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/using-aggregates.html){target=&quot;_blank&quot;
-
-   瞭解如何標識添加到資料庫的最後一個收件人。
-
-* [使用增量查詢的季度清單更新](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/quarterly-list-update.html){target=&quot;_blank&quot;
-
-   瞭解如何使用增量查詢自動更新收件人清單。
-
-* [設定定期導入工作流](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/recurring-import-workflow.html){target=&quot;_blank&quot;
-
-   瞭解如何設計可重新用於導入來自Adobe Campaign資料庫中CRM的配置檔案的工作流。
+* [設定定期導入工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+瞭解如何設計可重新用於導入來自Adobe Campaign資料庫中CRM的配置檔案的工作流。
 
 ### 目標定位 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [查詢收件人表](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-recipient-table.html){target=&quot;_blank&quot;
+* [查詢收件人表](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+瞭解如何恢復電子郵件域為「orange.co.uk」且不居住在倫敦的收件人的姓名和電子郵件。
 
-   瞭解如何恢復電子郵件域為「orange.co.uk」且不居住在倫敦的收件人的姓名和電子郵件。
+* [查詢傳遞資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+瞭解如何定義傳遞資訊查詢以檢索配置檔案的行為。
 
-* [查詢傳遞資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-delivery-information.html){target=&quot;_blank&quot;
+* [計算聚合](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+瞭解如何根據性別統計倫敦居住的檔案數量。
 
-   瞭解如何定義傳遞資訊查詢以檢索配置檔案的行為。
+* [使用多對多關係進行查詢](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+瞭解如何查找過去7天內未聯繫的配置檔案。
 
-* [計算聚合](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html){target=&quot;_blank&quot;
-
-   瞭解如何根據性別統計倫敦居住的檔案數量。
-
-* [使用多對多關係進行查詢](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;
-
-   瞭解如何查找過去7天內未聯繫的配置檔案。
-
-* [在查詢中調用實例變數](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;
-
-   瞭解如何使用實例變數動態計算要應用於總體的拆分百分比。
+* [在查詢中調用實例變數](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+瞭解如何使用實例變數動態計算要應用於總體的拆分百分比。
 
 <!--
 ### Change data source activity {#data-source-uc}

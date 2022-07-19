@@ -5,9 +5,9 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '576'
 ht-degree: 16%
 
 ---
@@ -75,12 +75,12 @@ ht-degree: 16%
    內容準備好後，按一下 **保存**:它現在將顯示在您的交貨清單中 **[!UICONTROL Campaigns > Deliveries]** 頁籤。 您的第一封電子郵件已準備就緒。 您現在需要定義受眾、驗證交付併發送。
 
 
-在Campaign Classicv7文檔的以下章節中瞭解更多資訊：
+瞭解如何在此導入電子郵件內容 [用例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)。
+
+在以下章節中瞭解更多資訊 **Campaign Classicv7文檔**:
 
 * 在活動中設計電子郵件
    ![](../assets/do-not-localize/book.png) [瞭解如何設計電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;
-* 導入電子郵件內容
-   ![](../assets/do-not-localize/book.png) [用例：建立工作流以載入交貨內容](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;
 * 建立和使用電子郵件模板
    ![](../assets/do-not-localize/book.png) [進一步瞭解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}
 * 選擇電子郵件的受眾

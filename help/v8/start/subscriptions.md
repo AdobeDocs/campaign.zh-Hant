@@ -5,10 +5,10 @@ feature: Subscriptions
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![](assets/wf-subscription.png)
 
-   ![](../assets/do-not-localize/book.png)深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter){target=&quot;_blank&quot;} 
+   在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)中瞭解更多。
 
 要取消訂閱（選擇退出）服務中的配置檔案，可用選項包括：
 

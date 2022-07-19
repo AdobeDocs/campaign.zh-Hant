@@ -5,9 +5,9 @@ feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
 的 **退回郵件** 外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 為POP3訪問配置的所有伺服器都可用於接收返回郵件。
 
-![](../assets/do-not-localize/book.png) 瞭解有關入站電子郵件的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;
+瞭解有關入站電子郵件的詳細資訊 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
 
 ![](assets/bounce_external_1.png)
 
@@ -165,7 +165,7 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
 這些外部帳戶可用於使用 **[!UICONTROL Transfer file]** 工作流活動。
 
-![](../assets/do-not-localize/book.png) 瞭解有關中的工作流中檔案傳輸的詳細資訊 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;
+瞭解有關中的工作流中檔案傳輸的詳細資訊 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP和SFTP**
 
@@ -178,15 +178,15 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
    * **[!UICONTROL AWS S3 Account Server]**:伺服器的URL，填寫如下：   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**:瞭解如何在中查找您的AWS訪問密鑰ID [Amazon文檔](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) 。
+   * **[!UICONTROL AWS access key ID]**:瞭解如何在中查找您的AWS訪問密鑰ID [Amazon文檔](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}。
 
-   * **[!UICONTROL Secret access key to AWS]**:瞭解如何在中查找到AWS的機密訪問密鑰 [Amazon文檔](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
+   * **[!UICONTROL Secret access key to AWS]**:瞭解如何在中查找到AWS的機密訪問密鑰 [Amazon文檔](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target=&quot;_blank&quot;}。
 
-   * **[!UICONTROL AWS Region]**:瞭解有關AWS地區的更多資訊 [Amazon文檔](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
+   * **[!UICONTROL AWS Region]**:瞭解有關AWS地區的更多資訊 [Amazon文檔](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target=&quot;_blank&quot;}。
 
-   * 的 **[!UICONTROL Use server side encryption]** 複選框允許您將檔案儲存在S3加密模式下。 瞭解如何在中查找訪問密鑰ID和密鑰訪問密鑰 [Amazon文檔](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)。
+   * 的 **[!UICONTROL Use server side encryption]** 複選框允許您將檔案儲存在S3加密模式下。 瞭解如何在中查找訪問密鑰ID和密鑰訪問密鑰 [Amazon文檔](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}。
 
-* **Azure Blob儲存**
+* **Azure Blob 儲存體**
 
    的 **Azure** 外部帳戶可使用 **[!UICONTROL Transfer file]** 工作流活動。 配置 **Azure** 要與Adobe Campaign合作，您需要提供以下詳細資訊：
 
@@ -194,4 +194,4 @@ Adobe Campaign使用以下技術帳戶啟用和執行特定進程。
 
    * **[!UICONTROL Encryption]**:加密類型 **[!UICONTROL None]** 或 **[!UICONTROL SSL]**。
 
-   * **[!UICONTROL Access key]**:瞭解如何查找 **[!UICONTROL Access key]** 在 [Microsoft文檔](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。
+   * **[!UICONTROL Access key]**:瞭解如何查找 **[!UICONTROL Access key]** 在 [Microsoft文檔](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target=&quot;_blank&quot;}。

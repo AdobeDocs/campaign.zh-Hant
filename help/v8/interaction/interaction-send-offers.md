@@ -5,9 +5,9 @@ feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1265'
 ht-degree: 3%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 3%
 
 ### 擴充 {#enrichment}
 
-的 **濃縮** 「活動」(Activity)，您可以為遞送收件人添加優惠或指向優惠的連結。
-
-![](../assets/do-not-localize/book.png) 有關濃縮活動的詳細資訊，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+的 **濃縮** 「活動」(Activity)，您可以為遞送收件人添加優惠或指向優惠的連結。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
 
 例如，您可以在傳遞之前為收件人查詢豐富資料。
 
@@ -165,7 +163,7 @@ ht-degree: 3%
 
 的 **[!UICONTROL Offer engine]** 活動還允許您在交貨前指定對供應引擎的呼叫。
 
-![](../assets/do-not-localize/book.png) 有關 **提供引擎** 活動，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+有關 **提供引擎** 活動，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
 本活動與 **濃縮** 通過在交貨前使用引擎計算的優惠來豐富入站人口資料，進行引擎呼叫的活動。
 
@@ -188,7 +186,7 @@ ht-degree: 3%
 
 的 **[!UICONTROL Offers by cell]** 活動允許您將入站總量（例如從查詢）分配到多個段，並指定要為這些段中的每個段提供的優惠。
 
-![](../assets/do-not-localize/book.png) 有關 **按手機提供** 活動，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+有關 **按手機提供** 活動，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
 
 要執行此操作，請使用以下過程：
 

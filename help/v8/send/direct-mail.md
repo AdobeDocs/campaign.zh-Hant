@@ -5,10 +5,10 @@ feature: Direct Mail
 role: Data Engineer
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 15%
+source-wordcount: '407'
+ht-degree: 12%
 
 ---
 
@@ -46,9 +46,7 @@ ht-degree: 15%
 
    ![](../assets/do-not-localize/book.png)深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target=&quot;_blank&quot;} 
 
-   在市場營銷活動的上下文中，在提取日期建立提取檔案。 您可以查看提取的檔案的內容、批准它或更改格式，並在需要時重新啟動提取。 檔案獲得批准後，您可以向路由器發送通知電子郵件。
-
-   ![](../assets/do-not-localize/book.png)深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file){target=&quot;_blank&quot;} 
+   在市場營銷活動的上下文中，在提取日期建立提取檔案。 您可以查看提取的檔案的內容、批准它或更改格式，並在需要時重新啟動提取。 檔案獲得批准後，您可以向路由器發送通知電子郵件。 在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)中了解更多
 
 1. 開始交貨
 
@@ -56,6 +54,4 @@ ht-degree: 15%
 
    確認將啟動指定檔案中的資料提取。
 
-   在市場營銷活動的上下文中，當所有批准都被授予時，提取檔案通過特殊工作流建立，在預設配置中，當直郵遞送處於待提取狀態時，該工作流將自動啟動。
-
-   ![](../assets/do-not-localize/book.png)深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery){target=&quot;_blank&quot;} 
+   在市場營銷活動的上下文中，當所有批准都被授予時，提取檔案通過特殊工作流建立，在預設配置中，當直郵遞送處於待提取狀態時，該工作流將自動啟動。 瞭解詳情 [此部分](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)

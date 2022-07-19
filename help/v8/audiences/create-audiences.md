@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 23%
+source-wordcount: '785'
+ht-degree: 22%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 23%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   瞭解如何在中的工作流中建立查詢 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target=&quot;_blank&quot;
+   瞭解如何在中的工作流中建立查詢 [此部分](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html)。
 
 1. 為此查詢添加標籤並保存更改。
 1. 添加 **[!UICONTROL List update]** 編輯。
@@ -124,7 +124,7 @@ ht-degree: 23%
 
    ![](assets/access-new-list.png)
 
-   通過將調度程式添加到工作流中，可以使此工作流重複運行。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;} 深入瞭解。
+   通過將調度程式添加到工作流中，可以使此工作流重複運行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html)。
 
 ## 從清單中刪除配置檔案 {#remove-a-profile-from-a-list}
 
