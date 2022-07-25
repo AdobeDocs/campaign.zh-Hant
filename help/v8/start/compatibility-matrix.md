@@ -5,16 +5,16 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 50b6c9c8f55bb870e95c91bd1de22e3392e732dd
+source-git-commit: 93d990509af2f7c917775217e95ba40dd407d0c1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 90%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
 # Campaign v8 相容性對照表
 
-本文檔列出了支援的所有系統和元件 **Adobe Campaignv8最新版**。 除非另有提及，否則支援所有次要版本。此清單上未列出的產品和版本即與 Adobe Campaign 不相容。
+本文件列出最新建置版本的 **Adobe Campaign v8** 所支援的所有系統及元件。除非另有提及，否則支援所有次要版本。此清單上未列出的產品和版本即與 Adobe Campaign 不相容。
 
 這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。請確保您使用的是相容性對照表所列出的任一系統支援版本，以避免出現任何問題。
 
@@ -24,14 +24,20 @@ ht-degree: 90%
 
 ## 用戶端主控台{#ClientConsoleoperatingsystems}
 
-使用市場活動客戶端控制台需要以下作業系統之一。 [了解更多資訊](connect.md)。
+使用 Campaign 用戶端主控台時，需要下列作業系統和瀏覽器。[深入瞭解](connect.md)。
+
+### 作業系統
 
 * **Microsoft Windows 伺服器** 2019、2016、2012
-* **Microsoft窗** 11（8.3版起始促銷活動）、10、8
+* **Microsoft Windows** 11 (自 Campaign v8.3 開始)、10、8、
 
 >[!NOTE]
 >
 >建議日文執行個體使用 Microsoft Windows 10 
+
+### 瀏覽器
+
+**Microsoft Internet Explorer** 11
 
 ## CRM 連接器{#CRMconnectors}
 
