@@ -4,9 +4,9 @@ description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 07c73a6ab22962472bde431948386d0142d6732d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 ## 有哪些新功能
 
-* **[[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target=&quot;_blank&quot;**  — 瞭解如何構建工作流和市場活動
+* **[[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target=&quot;_blank&quot;}** - 瞭解如何建立工作流程與行銷活動
 
 * **[什麼是 [!DNL Adobe Campaign]](start/get-started.md)** - 主要功能與使用案例
 
