@@ -6,22 +6,22 @@ role: Data Engineer
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 41a213eea434b3fc6ee8b3ea3c29d4364f9c9761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1080'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # 管理 Campaign 的隱私權請求 {#privacy}
 
-根據您的業務性質及其運營的管轄區，您的資料操作可能受法律隱私法規的約束。 這些法規通常授予您的客戶請求訪問您從他們那裡收集的資料的權利，並授予您請求刪除儲存的資料的權利。 這些客戶對其個人資料的請求在文檔中稱為「隱私請求」。
+根據您的業務性質及其營運的管轄區，您的資料作業可能受法律隱私權法規的約束。 這些法規通常授予權利給您的客戶，讓他們可請求存取您自他們那裡收集的資料，以及請求您刪除該筆儲存資料。 客戶對其個人資料的請求，在本文件稱為「隱私權請求」。
 
 Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建立並處理隱私權請求。然而，資料控制方應負責確認提出請求之資料主體身份，並確認傳回給請求者的資料與資料主體有關。若需進一步資訊了解個人資料及管理資料的不同實體，請參考 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#personal-data){target=&quot;_blank&quot;}。
 
 
-要在市場活動中管理隱私請求，必須首先 [定義命名空間](#namespaces)。 然後，您就可以建立和管理隱私請求。 要執行隱私請求，請使用 **AdobePrivacy Service** 整合。 從Privacy Service推送到所有Adobe Experience Cloud解決方案的隱私請求由活動通過專用工作流自動處理。 [了解更多](#create-privacy-request)
+若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從 Privacy Service 推播至所有 Adobe Experience Cloud 解決方案的隱私權請求，會由 Campaign 透過專用工作流程自動處理。[了解更多](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) 若需了解 **存取權限** 與 **被遺忘的權利** (刪除請求)，請參閱 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/speech.png) 若需了解 **存取權限** 與 **被遺忘的權利** (刪除請求)，請參閱 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target=&quot;_blank&quot;}。
 
 
 >[!NOTE]
@@ -30,11 +30,11 @@ Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建�
 
 ## 定義命名空間 {#namespaces}
 
-在建立隱私請求之前，您必須 **定義命名空間** 的下界。 命名空間是用於標識資料庫中資料主題的鍵。
+在建立隱私權請求之前，您必須&#x200B;**定義命名空間**&#x200B;以利使用。 命名空間是用於識別資料庫中資料主體的金鑰。
 
 >[!NOTE]
 >
->瞭解有關中標識命名空間的詳細資訊 [Adobe Experience Platform文檔](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+>若要深入瞭解身分識別命名空間，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) {target=&quot;_blank&quot;}。
 
 目前的 Adobe Campaign 不支援從 Experience Platform 身分識別命名空間服務匯入命名空間。 因此，在身分命名空間服務上建立命名空間後，必須在 Adobe Campaign 介面上手動建立對應的命名空間。 請依照下列步驟以執行此操作。
 
@@ -48,7 +48,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 在[身分識別命名空間服務](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace)上建立命名空間{target=&quot;_blank&quot;}。
 
-1. 當 [列出標識命名空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;}可用於您的組織，您將獲得以下詳細資訊，例如：
+1. 當 [列出可用於您組織的身分識別命名空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;}，您將獲得以下命名空間詳細資訊，例如：
 
    ```
    {
@@ -65,7 +65,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    }
    ```
 
-1. 在Adobe Campaign，瀏覽 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** 選擇 **[!UICONTROL New]**。
+1. 在 Adobe Campaign，瀏覽 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** 並選擇 **[!UICONTROL New]**。
 
    ![](assets/privacy-namespaces-new.png)
 
@@ -73,9 +73,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 填寫新命名空間的詳細資訊，以符合在識別命名空間服務上建立的命名空間：
 
-   * 這樣 **[!UICONTROL AEC Namespace ID]** 必須與&quot;id&quot;屬性匹配
-   * 這樣 **[!UICONTROL Internal name]** 必須與&quot;code&quot;屬性匹配
-   * 這樣 **[!UICONTROL Reconciliation key]** 必須與「idType」屬性匹配
+   * **[!UICONTROL AEC Namespace ID]** 必須與「id」屬性相符
+   * **[!UICONTROL Internal name]** 必須與「code」屬性相符
+   * **[!UICONTROL Reconciliation key]** 必須與「idType」屬性相符
 
    ![](assets/privacy-namespaces-details.png)
 
@@ -85,7 +85,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
    >[!NOTE]
    >
-   >如果需要使用多個目標映射，請為每個目標映射建立一個命名空間。
+   >如果您需要使用數個目標對應，請為每個目標對應建立一個命名空間。
 
 1. 儲存您的變更。
 
@@ -93,11 +93,11 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ## 建立隱私權請求 {#create-privacy-request}
 
-的 **[!DNL Adobe Experience Platform Privacy Service]** 整合允許您通過單個JSON API調用在多解決方案上下文中自動執行隱私請求。 Adobe Campaign自動處理通過專用工作流從Privacy Service推送的請求。
+**[!DNL Adobe Experience Platform Privacy Service]**&#x200B;整合可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權請求。Adobe Campaign 透過專用工作流程自動處理推播來自隱私權服務的請求。
 
-請參閱[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 文件，瞭解如何從隱私權核心服務建立隱私權要求。
+請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target=&quot;_blank&quot;} 文件，瞭解如何從隱私權核心服務建立隱私權請求。
 
-每個 **[!DNL Privacy Service]**  作業根據使用的命名空間數被拆分為Adobe Campaign的多個隱私請求，一個請求對應於一個命名空間。
+依據正在使用的命名空間數量，在 Adobe Campaign 中每個 **[!DNL Privacy Service]** 工作都會分割為多個隱私權請求，而一個請求都會與一個命名空間相對應。
 
 此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
@@ -117,7 +117,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 執行刪除或存取隱私權要求時，Adobe Campaign 會根據所有包含收件者表格連結 (自有類型) 之表格中的&#x200B;**[!UICONTROL Reconciliation value]**，以搜尋所有資料主體的資料。
 
-執行隱私請求時考慮的內置表清單包括：
+執行隱私權請求時，考慮的內建表格清單包括：
 
 * 收件者 (recipient)
 * 收件者傳遞記錄 (broadLogRcp)
@@ -141,7 +141,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ### 隱私權請求狀態 {#privacy-request-statuses}
 
-您可以在Adobe Campaign的隱私請求的不同狀態下找到以下狀態以及如何解釋它們：
+您可在下方找到 Adobe Campaign 隱私權請求的不同狀態以及其意涵：
 
 * **[!UICONTROL New]** / **[!UICONTROL Retry pending]**：進行中，工作流程尚未處理要求。
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**：工作流程正在處理要求。
