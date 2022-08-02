@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 文件
-breadcrumb-title: 市場活動概述
+breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 96%
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
-   + Campaign + 您的 CRM {#ac-crm}
+   + Campaign + 您的 CRM{#ac-crm}
       + [開始使用 CRM 連接器](connect/crm.md)
       + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -138,4 +138,4 @@ ht-degree: 96%
       + [輸入表單](dev/forms.md)
    + [Campaign API](dev/api.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)
-+ [市場活動自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant)
