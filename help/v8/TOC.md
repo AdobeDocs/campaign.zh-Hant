@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
+source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 100%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 0%
       + [從檔案匯入設定檔](audiences/import-profiles.md)
       + [使用外部設定檔](audiences/external-profiles.md)
       + [在網路表單中收集設定檔資料](audiences/collect-profiles.md)
+      + [目標對應](audiences/target-mappings.md)
    + 建立對象 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
