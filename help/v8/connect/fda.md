@@ -5,9 +5,9 @@ feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: bb03c804c1c65322d275d0a2ca1db0bfe974636d
+source-git-commit: ca9275017e36dae2f0152e0ff365541d7cab96de
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 使用FDA連接器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 和處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。 接著，您就可以存取外部資料，而不需變更Adobe Campaign資料的結構。
 
-![](../assets/do-not-localize/speech.png)   作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 使用Campaign實作Experience Cloud觸發程式。
+![](../assets/do-not-localize/speech.png)   作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 將外部資料庫與Campaign連線。
 
 
 >[!NOTE]
