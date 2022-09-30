@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
+source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 79%
@@ -35,7 +35,7 @@ _2022年9月30日_
 <ul><li>使用Adobe Campaign Managed Cloud Sources連接器將Experience Platform區段傳送至Adobe Campaign以進行啟用，</li>
 <li>使用Adobe Campaign Managed Cloud Destination Connector將Adobe Campaign傳送和追蹤記錄檔傳送至Adobe Experience Platform。</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="privacy.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../connect/ac-aep.md">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 
 </tbody> 
