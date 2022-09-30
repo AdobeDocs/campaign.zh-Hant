@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 98%
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 98%
    + [推播通知](send/push.md)
    + [LINE 傳送訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
-   + [社交行銷](send/twitter.md)
+   + [Twitter](send/twitter.md)
    + [異動訊息](send/transactional.md)
    + [傳送時間最佳化](send/predictive.md)
    + 失敗、邊界和隔離{#failures}
@@ -113,11 +113,11 @@ ht-degree: 98%
    + [外部帳戶](config/external-accounts.md)
 + 連結 {#connect}
    + [連結其他解決方案](connect/integration.md)
+   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign + Experience Cloud 觸發程式](connect/ac-triggers.md)
-   + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
    + Campaign + 您的 CRM {#ac-crm}

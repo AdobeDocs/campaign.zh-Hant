@@ -1,68 +1,71 @@
 ---
-title: 在市場活動中建立新架構
-description: 瞭解如何在市場活動中建立新架構
+title: 在Campaign中建立新結構
+description: 了解如何在Campaign中建立新結構
+feature: Schema Extension
+role: Developer
+level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# 建立新架構{#create-new-schema}
+# 建立新結構{#create-new-schema}
 
-要編輯、建立和配置方案，請按一下 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign客戶端控制台的節點。
+若要編輯、建立和設定結構，請按一下 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign用戶端主控台的節點。
 
 >[!NOTE]
 >
->內置資料架構只能由Adobe Campaign控制台的管理員刪除。
+>您的Adobe Campaign主控台管理員只能刪除內建資料結構。
 
 ![](assets/schema_navtree.png)
 
-的 **[!UICONTROL Edit]** 頁籤顯示架構的XML內容：
+此 **[!UICONTROL Edit]** 頁簽顯示架構的XML內容：
 
 ![](assets/schema_edition.png)
 
 >[!NOTE]
 >
->使用「名稱」編輯控制項可以輸入由名稱和命名空間組成的架構密鑰。 在架構的XML編輯區域中，將自動更新架構的根元素的&quot;name&quot;和&quot;namespace&quot;屬性。 請注意，某些命名空間僅是內部的。 [了解更多](schemas.md#reserved-namespaces)
+>「名稱」編輯控制項可讓您輸入由名稱和命名空間組成的架構金鑰。 架構的根元素的「name」和「namespace」屬性會在架構的XML編輯區域中自動更新。 請注意，有些命名空間僅為內部。 [了解更多](schemas.md#reserved-namespaces)
 
-的 **[!UICONTROL Preview]** 頁籤自動生成擴展模式：
+此 **[!UICONTROL Preview]** 頁簽自動生成擴展架構：
 
 ![](assets/schema_edition2.png)
 
 >[!NOTE]
 >
->保存源架構後，將自動啟動擴展架構的生成。
+>儲存來源架構時，會自動啟動延伸架構的產生。
 
-如果需要檢查架構的完整結構，可以使用 **[!UICONTROL Preview]** 頁籤。 如果已擴展了架構，則可以直觀顯示其所有擴展。 作為補充， **[!UICONTROL Documentation]** 頁籤顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤和說明）。 的 **[!UICONTROL Documentation]** 頁籤僅適用於生成的架構。
+如果您需要檢查架構的完整結構，可以使用 **[!UICONTROL Preview]** 標籤。 如果結構已擴充，您便能將其所有擴充功能視覺化。 作為補充， **[!UICONTROL Documentation]** 頁簽顯示所有架構屬性和元素及其屬性（SQL欄位、類型/長度、標籤、說明）。 此 **[!UICONTROL Documentation]** 索引標籤僅適用於產生的結構。
 
-## 用例：建立合同表 {#example--creating-a-contract-table}
+## 使用案例：建立合同表 {#example--creating-a-contract-table}
 
-在以下示例中，為 **合同** 的子菜單。 此表允許您為每個合同儲存持有者和共同持有者的名字和姓氏以及電子郵件地址。
+在以下範例中，您為 **合同** 在資料庫中。 此表格可讓您儲存每個合約的持有人和共同持有人的名字和姓氏以及電子郵件地址。
 
-為此，需要建立表的模式並更新資料庫結構以生成相應的表。 下面列出了詳細步驟。
+要執行此操作，需要建立表的架構並更新資料庫結構以生成相應的表。 以下列出詳細步驟。
 
-1. 編輯 **[!UICONTROL Administration > Configuration > Data schemas]** ，然後按一下 **[!UICONTROL New]**。
-1. 選擇 **[!UICONTROL Create a new table in the data template]** 選項 **[!UICONTROL Next]** 。
+1. 編輯 **[!UICONTROL Administration > Configuration > Data schemas]** 節點，然後按一下 **[!UICONTROL New]**.
+1. 選擇 **[!UICONTROL Create a new table in the data template]** 選項，然後按一下 **[!UICONTROL Next]** .
 
    ![](assets/create_new_schema.png)
 
-1. 為表和命名空間指定名稱。
+1. 指定表的名稱和命名空間。
 
    ![](assets/create_new_param.png)
 
    >[!NOTE]
    >
-   >預設情況下，由用戶建立的架構儲存在「cus」命名空間中。 有關此內容的詳細資訊，請參閱 [模式的標識](extend-schema.md#identification-of-a-schema)。
+   >依預設，使用者建立的結構會儲存在「自訂」命名空間中。 有關詳細資訊，請參閱 [方案的標識](extend-schema.md#identification-of-a-schema).
 
-1. 建立表的內容。 我們建議使用專用助理來確保不丟失任何設定。 要執行此操作，請按一下 **[!UICONTROL Insert]** 按鈕，選擇要添加的設定類型。
+1. 建立表格的內容。 建議您使用專用助理，確保未遺失任何設定。 若要這麼做，請按一下 **[!UICONTROL Insert]** 按鈕，然後選擇要添加的設定類型。
 
    ![](assets/create_new_content.png)
 
-1. 定義合同表的設定。
+1. 定義合約表格的設定。
 
-   作為最佳做法，通過添加 `dataSource="nms:extAccount:ffda"` 屬性。 建立新表時，預設情況下會添加此屬性。
+   最佳作法是在雲端資料庫中，新增 `dataSource="nms:extAccount:ffda"` 屬性。 建立新表格時，預設會新增此屬性。
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -82,7 +85,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   添加合同枚舉的類型。
+   新增合約分項清單的類型。
 
    ```
    <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
@@ -106,8 +109,8 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 保存架構，然後按一下 **[!UICONTROL Structure]** 的子菜單：
+1. 儲存結構，然後按一下 **[!UICONTROL Structure]** 頁簽生成結構：
 
    ![](assets/configuration_structure.png)
 
-1. 更新資料庫結構以建立模式將連結到的表。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。
+1. 更新資料庫結構以建立將連結架構的表。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。

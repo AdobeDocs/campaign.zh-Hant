@@ -1,24 +1,24 @@
 ---
-title: 開始部署Campaigment FDA
-description: 開始部署Campaigment FDA
-feature: Overview
-role: Data Engineer
-level: Beginner
+title: 開始部署Campaign FDA
+description: 開始部署Campaign FDA
+feature: Architecture, FFDA
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1019'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
 # [!DNL Campaign] FFDA部署{#gs-ac-ffda}
 
-通過利用 [[!DNL Snowflake]](https://www.snowflake.com/)、雲資料庫技術，Adobe Campaign企業完全聯合訪問(FFDA)部署可顯著提高其規模和速度，能夠管理更多客戶配置檔案，以及更高的每小時交付率和事務。
+透過善用 [[!DNL Snowflake]](https://www.snowflake.com/)，是雲端資料庫技術，Adobe Campaign企業完整同盟存取(FFDA)部署可大幅改善其規模和速度，並能管理更多客戶設定檔，以及更高的每小時傳送率和交易。
 
 ## 好處 {#ffda-benefits}
 
-市場活動v8企業版(FFDA)在流程的任何步驟（從目標到最終報告）都提供端到端的規模：
+Campaign v8 Enterprise(FFDA)可在程式的任何步驟（從定位到最終報告）提供端對端規模：
 
 * 擴充可處理的資料量 (至 8 TB)
 * 針對細分和目標定位以及資料擷取與匯出調整查詢的效能
@@ -34,62 +34,62 @@ ht-degree: 53%
 >
 > 客戶資料不會儲存在本機 [!DNL Campaign] 資料庫中。 因此，任何自訂表格都必須在雲端資料庫中建立。
 
-## 市場活動企業(FDA)體系結構{#ffda-archi}
+## Campaign Enterprise(FFDA)架構{#ffda-archi}
 
-在 [企業(FDA)部署](../architecture/enterprise-deployment.md)。 [!DNL Adobe Campaign] v8適用於兩個資料庫：當地 [!DNL Campaign] 用於用戶介面即時消息傳遞和統一查詢及通過API和雲寫入的資料庫 [!DNL Snowflake] 用於市場活動執行、批處理查詢和工作流執行的資料庫。
+在 [企業(FFDA)部署](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8可與兩個資料庫一起使用：本地 [!DNL Campaign] 資料庫，用於透過API和雲端的使用者介面即時訊息傳送和統一查詢與寫入 [!DNL Snowflake] 用於促銷活動執行、批次查詢和工作流程執行的資料庫。
 
-Campaig v8 Enterprise帶來了 **完全聯合資料存取** (FFDA):現在，雲資料庫上的所有資料都是遠程資料。
+Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。
 
 可利用特定 API 來管理本機和雲端資料庫之間的資料。 在[此頁面](new-apis.md)瞭解這些新 API 如何運作，以及如何使用它們。
 
-伺服器和進程之間的一般通信按照以下模式進行：
+伺服器和進程之間的一般通信根據以下模式執行：
 
 ![](assets/architecture.png)
 
-* 實例上禁用了執行和彈出管理模組。
-* 該應用程式配置為在使用SOAP調用（通過HTTP或HTTPS）驅動的遠程「中間源」伺服器上執行消息。
+* 執行和退信管理模組在執行個體上是停用的。
+* 應用程式可配置為在使用SOAP呼叫（通過HTTP或HTTPS）驅動的遠程「中源」伺服器上執行消息。
 
-的 [!DNL Snowflake] 市場營銷方面的資料庫用於：
+此 [!DNL Snowflake] 行銷端的資料庫用於：
 
-* 儲存所有客戶資料：配置檔案、自定義資料，如事務、產品、位置等。
-* 儲存市場活動生成或收集的所有事件和行為資料，如交貨日誌、跟蹤日誌、推送註冊等。
-* 儲存上述所有資料聚合。
-* 儲存引用表（如交貨、枚舉、國家等）的副本(h+1) 用於工作流、市場活動和報表。
+* 儲存所有客戶資料：設定檔、自訂資料，例如交易、產品、位置等。
+* 儲存Campaign產生或收集的所有事件和行為資料，例如傳送記錄、追蹤記錄、推播註冊等。
+* 儲存上述的所有資料匯總。
+* 儲存參考表的副本(h+1)（例如傳送、列舉、國家等） 用於工作流程、行銷活動和報表。
 * 運行所有批處理和工作負載
 
 
-市場營銷實例上的PostgreSQL資料庫用於：
+行銷實例上的PostgreSQL資料庫用於：
 
-* 執行某些工作負載，如低卷API。
-* 儲存所有市場活動資料，包括交貨和市場活動設定、工作流和服務定義。
-* 儲存所有內置引用表（枚舉、國家等） 複製到 [!DNL Snowflake]。
+* 執行某些工作負載，如低容量API。
+* 儲存所有促銷活動資料，包括傳遞和促銷活動設定、工作流程和服務定義。
+* 儲存所有內建的參考表（列舉、國家等） 複製到 [!DNL Snowflake].
 
-   但是，您不能：
-   * 為客戶資料建立自定義項，例如，不在PostgreSQL中建立家庭表，而只是在Snowflake中
-   * 儲存任何交貨日誌、跟蹤日誌等。 在FFDA目標維度上。
+   但您不能：
+   * 為客戶資料建立自定義項，例如，不要在PostgreSQL中建立家庭表，而只在Snowflake中
+   * 儲存任何傳送記錄、追蹤記錄等。 在FFDA目標維度上。
    * 儲存大量資料。
 
 
-中間採購實例上的PostgreSQL資料庫用於：
+中間來源實例上的PostgreSQL資料庫用於：
 
-* 執行批處理和即時(RT)交貨。
-* 發送傳遞和跟蹤日誌 — 請注意，傳遞和跟蹤日誌ID是UUID，不是32位ID。
-* 收集和儲存跟蹤資料。
+* 執行批次和即時(RT)傳送。
+* 傳送傳送和追蹤記錄檔 — 請注意，傳送和追蹤記錄檔ID是UUID，而非32位元ID。
+* 收集和儲存追蹤資料。
 
 
 ## 影響{#ffda-impacts}
 
 ### [!DNL Campaign] API 準備機制{#staging-api}
 
-與 [!DNL Campaign] 由於效能（延遲和併發），建議不要對雲資料庫、Blast統一調用進行處理。 批處理操作始終是首選的。 為了保證API的最佳效能，Campign會在本地資料庫級別處理API調用。
+使用 [!DNL Campaign] 由於效能（延遲和並行），不建議使用雲資料庫、blast統一調用。 總是首選批操作。 為保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
 
-![](../assets/do-not-localize/glass.png) [本頁詳細介紹了API暫存機制](staging.md)
+![](../assets/do-not-localize/glass.png) [本頁面詳細說明API中繼機制](staging.md)
 
 ### 新 API{#new-apis}
 
-新的API可用於管理之間的資料同步 [!DNL Campaign] 本地資料庫和雲資料庫。 此外，還引入了一種新機制來處理本地資料庫級別的API調用，以避免延遲並提高整體效能。
+新的API可用來管理 [!DNL Campaign] 本地資料庫和雲資料庫。 此外，也推出新機制，在本機資料庫層級處理API呼叫，以避免延遲並提升整體效能。
 
-![](../assets/do-not-localize/glass.png) [本頁詳細介紹了新API](new-apis.md)
+![](../assets/do-not-localize/glass.png) [本頁詳細說明新API](new-apis.md)
 
 
 ### 資料複製{#data-replication}

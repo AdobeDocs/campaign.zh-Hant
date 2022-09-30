@@ -1,27 +1,27 @@
 ---
-title: 市場活動v8已知問題
-description: 最新促銷活動版本中的已知問題
+title: Campaign v8已知問題
+description: 最新Campaign版本中的已知問題
 feature: Overview
 role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 3d84bb9493251afa7b7e89a07469d299ff412c24
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
 
 # 已知問題{#known-issues}
 
-此頁列出了在 **最新市場活動v8版本**。 此外，還列出了市場活動v8的限制 [此頁](ac-guardrails.md)。
+此頁面列出 **最新Campaign v8版本**. 此外，還列出Campaign v8的限制 [在本頁](ac-guardrails.md).
 
 
 >[!NOTE]
 >
->Adobe自行發佈已知問題清單。 它基於客戶報告的數量、嚴重性和變通辦法的可用性。 如果未列出您遇到的問題，則可能不符合此頁中發佈的條件。
+>Adobe自行發佈此已知問題清單。 它以客戶報表數量、嚴重性和解決方案可用性為基礎。 如果您遇到的問題未列出，則可能不符合本頁面中發佈的條件。
 
 <!--
 ## Change Data Source activity issue #1 {#issue-1}
@@ -56,28 +56,28 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
--->
 
 
-## 更改資料源活動問題 {#issue-2}
 
-### 說明{#issue-2-desc}
+## Change Data Source activity issue {#issue-2}
 
-將資料注入Snowflake雲資料庫時 **查詢** 和 **更改資料源** 活動，當資料中存在反斜線字元時，進程將失敗。 源字串未轉義，資料未在Snowflake上正確處理。
+### Description{#issue-2-desc}
 
-僅當反斜槓字元位於字串末尾時，才會出現此問題，例如： `Barker\`。
+When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
-
-### 複製步驟{#issue-2-repro}
-
-1. 連接到客戶端控制台並建立工作流。
-1. 添加 **查詢** 並配置。
-1. 選擇具有上述特徵的資料。
-1. 添加 **更改資料源** 活動，並將其配置為選擇Snowflake雲資料庫。
-1. 運行工作流並檢查工作流日誌以查看錯誤。
+This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
 
 
-### 錯誤消息{#issue-2-error}
+### Reproduction steps{#issue-2-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and configure it.
+1. Select data with the characteristics described above.
+1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
+1. Run the workflow and check the workflow logs to see the error.
+
+
+### Error message{#issue-2-error}
 
 ```sql
 Error:
@@ -85,48 +85,46 @@ Error:
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
 ```
 
-### 解決方法{#issue-2-workaround}
+### Workaround{#issue-2-workaround}
 
-解決方法是排除字串結尾處包含反斜線字元的資料，或將其從源檔案中刪除。
+Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
 
-<!--
-As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+
+### Internal reference{#issue-2-ref}
+
+Reference: NEO-45549
+
+
+## Data loading (file) activity failed to Upload file on server {#issue-3}
+
+### Description{#issue-3-desc}
+
+When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
+
+### Reproduction steps{#issue-3-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Data loading (file)** activity and configure it.
+1. Select the **Upload on server** option.
+1. Select the file on your local machine,
+1. Click **Upload**
+
+
+### Error message{#issue-3-error}
+
+The process never ends.
+
+### Workaround{#issue-3-workaround}
+
+The workaround is to use an older client console. You will then be able to upload the file on the server.
+
+As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+
+Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+
+Learn how to upgrade your client console [in this page](connect.md)
+
+### Internal reference{#issue-3-ref}
+
+Reference: NEO-47269
 -->
-
-### 內部引用{#issue-2-ref}
-
-參考：NEO-45549
-
-
-## 資料載入（檔案）活動無法在伺服器上上載檔案 {#issue-3}
-
-### 說明{#issue-3-desc}
-
-將檔案上載到市場活動伺服器上時 **資料載入（檔案）** 活動，該進程將在100%停止，但永不結束。
-
-### 複製步驟{#issue-3-repro}
-
-1. 連接到客戶端控制台並建立工作流。
-1. 添加 **資料載入（檔案）** 並配置。
-1. 選擇 **在伺服器上上載** 的雙曲餘切值。
-1. 選擇本地電腦上的檔案，
-1. 按一下 **上載**
-
-
-### 錯誤消息{#issue-3-error}
-
-這個過程永遠不會結束。
-
-### 解決方法{#issue-3-workaround}
-
-解決方法是使用較舊的客戶端控制台。 然後，您就可以在伺服器上上載該檔案。
-
-作為市場活動管理員，您可以在下載市場活動v8.3.1客戶端控制台 [Adobe軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3內容%2Fmetadata%2Fdc%3Rast&amp;1_group.propertyvalues.operation=等於&amp;1_group.propertyvalues.0_values=目標版本%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModifiedModied&amp;ordModied&amp;OrdSed&amp;Sed&amp;St.st&amp;St&amp;Sor&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
-
-瞭解如何訪問Adobe軟體分發 [此頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
-
-瞭解如何升級客戶端控制台 [此頁](connect.md)
-
-### 內部引用{#issue-3-ref}
-
-參考：NEO-47269

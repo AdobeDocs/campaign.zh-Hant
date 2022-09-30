@@ -1,156 +1,163 @@
 ---
-title: 在Twitter與Adobe Campaign發帖
-description: 瞭解如何使用Adobe Campaign社會營銷模組在Twitter上發佈消息並收集聯繫人資料
-role: Data Engineer
-level: Beginner
-hide: true
-hidefromtoc: true
+title: 使用Adobe Campaign在Twitter上發佈訊息
+description: 了解如何使用Adobe Campaign Social Marketing模組在Twitter上張貼訊息，並傳送直接訊息給您的追隨者
+role: User
+level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 8%
+source-wordcount: '829'
+ht-degree: 6%
 
 ---
 
 
-# 在Twitter與Adobe Campaign發帖 {#post-tw-messages}
+# 使用Adobe Campaign在Twitter上發佈訊息 {#post-tw-messages}
 
-Adobe Campaign **社會營銷** 模組，讓您通過Twitter與客戶和潛在客戶進行互動。
+Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶和潛在客戶互動。
 
-配置整合後，您可以：
+設定整合後，您可以：
 
-* 在Twitter發送消息：Adobe Campaign允許你直接將郵件發到twitter帳戶。 您還可以向所有關注者發送直接消息。
-* 收集新聯繫人：Adobe Campaign可以自動恢復個人資料資料，這使您能夠開展針對性活動，並盡可能實施跨渠道策略。 此操作需要用戶同意。
+* 透過Twitter傳送訊息：Adobe Campaign可讓您傳送直接訊息給追隨者。
+* 貼文推文：使用Adobe Campaign在您的Twitter帳戶上張貼推文。
+* 收集新聯繫人：Adobe Campaign可以自動復原設定檔資料，以便您執行定位促銷活動，並在可能時實施跨管道策略。 此動作需要使用者同意。
 
-有關將您的Twitter帳戶與Adobe Campaign整合的配置步驟，請參見 [此頁](../connect/ac-tw.md)。
+如需整合Twitter帳戶與Adobe Campaign的設定步驟，請參閱 [本頁](../connect/ac-tw.md).
 
-## 建立和發佈Twitter帖子 {#publish-on-tw}
+## 建立及發佈Twitter貼文 {#publish-on-tw}
 
-按照以下步驟在您的Twitter帳戶上發佈消息：
+請依照下列步驟，在您的Twitter帳戶上張貼訊息：
 
-1. 建立Twitter交貨
+1. 建立Twitter傳送
 
-   根據 **[!UICONTROL Tweet (twitter)]** 交貨模板。
+   根據 **[!UICONTROL Tweet (twitter)]** 傳遞範本。
 
-1. 選擇主目標
+   ![](assets/tw-new-delivery.png)
 
-   選擇要向其發送推文的帳戶。
+1. 選取主要目標
+
+   選取您要傳送推文的帳戶。
+
+   ![](assets/tw-define-target.png)
 
    1. 按一下&#x200B;**[!UICONTROL To]**&#x200B;連結。
    1. 按一下 **[!UICONTROL Add]** 按鈕。
    1. 選取 **[!UICONTROL A Twitter account]**。
-   1. 在 **[!UICONTROL Folder]** 欄位，選擇包含Twitter帳戶的服務資料夾。 然後選擇要將Twitter發送給的Twitter帳戶。
+   1. 在 **[!UICONTROL Folder]** 欄位，選取包含Twitter帳戶的服務資料夾。 然後選取您要將推文傳送至的Twitter帳戶。
 
-1. 選擇校樣目標
+1. 選取校樣目標
 
-   的 **[!UICONTROL Target of the proofs]** 頁籤，用於定義在最終交貨之前用於test交貨的Twitter帳戶。
+   此 **[!UICONTROL Target of the proofs]** 標籤可讓您定義Twitter帳戶，以在最終傳送之前測試傳送。
 
-   如 [配置步驟](../connect/ac-tw.md#tw-test-account)您必須建立專用於發送證據的Twitter私人帳戶。
+   如 [配置步驟](../connect/ac-tw.md#tw-test-account)，您必須建立專用於傳送校樣的私人測試Twitter帳戶。
 
    >[!NOTE]
    >
-   >如果您對所有交貨使用相同的Twittertest帳戶，則可以在 **[!UICONTROL Tweet]** 交付模板，通過 **[!UICONTROL Resources > Templates > Delivery templates]** 的下界。 然後，將預設為每個新交貨輸入證明目標。
+   >如果您的所有傳送都使用相同的Twitter測試帳戶，您可以在 **[!UICONTROL Tweet]** 傳遞範本，透過 **[!UICONTROL Resources > Templates > Delivery templates]** 節點。 之後，系統會預設為每個新傳送輸入校樣目標。
 
-1. 定義帖子的內容
+1. 定義貼文的內容
 
-   在 **[!UICONTROL Content]** 頁籤。
+   在 **[!UICONTROL Content]** 標籤。
+
+   ![](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
-   >在Twitter上發帖時，限制適用：
+   >在Twitter上張貼時，會套用限制：
    >
-   >* 消息不能超過140個字元。
-   >* HTML格式不受支援。
+   >* 訊息不能超過140個字元。
+   >* 不支援HTML格式。
 
 
-1. 預覽帖子
+1. 預覽您的貼文
 
-   瀏覽 **[!UICONTROL Preview]** 頁籤
+   瀏覽 **[!UICONTROL Preview]** 標籤來檢查貼文的呈現。
 
-   1. 按一下 **[!UICONTROL Preview]** 頁籤。
-   1. 按一下 **[!UICONTROL Test personalization]** 下拉菜單並選擇 **[!UICONTROL Service]**。
-   1. 在 **[!UICONTROL Folder]** 欄位中，選擇包含您的Twitter帳戶的服務資料夾。
-   1. 選擇要test預覽的Twitter帳戶。
+   ![](assets/tw-delivery-preview.png)
+
+   1. 按一下 **[!UICONTROL Preview]** 標籤。
+   1. 按一下 **[!UICONTROL Test personalization]** 下拉式功能表，然後選取 **[!UICONTROL Service]**.
+   1. 在 **[!UICONTROL Folder]** 欄位，選取包含您Twitter帳戶的服務資料夾。
 
 1. 傳送證明
 
-   在發佈推文之前，請確保通過發送發佈證明來驗證它：然後，您可以在私人Twittertest頁上獲得該出版物的準確呈現。
+   張貼推文之前，請務必傳送發佈證明以驗證推文：然後，您就可以在私人Twitter測試頁面上取得出版物的完全轉譯。
 
-   有關建立私人Twitter帳戶的詳細資訊，請參閱 [此部分](../connect/ac-tw.md#tw-test-account)。
+1. 張貼訊息
 
-   ![](../assets/do-not-localize/book.png) [瞭解驗證交付的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;
-
-1. 發佈消息
-
-   1. 內容獲得批准後，按一下 **[!UICONTROL Send]** 按鈕
-   1. 選擇 **[!UICONTROL Deliver as soon as possible]** 並按一下 **[!UICONTROL Analyze]** 按鈕
+   1. 內容核准後，按一下 **[!UICONTROL Send]** 按鈕。
+   1. 選擇 **[!UICONTROL Deliver as soon as possible]** 並按一下 **[!UICONTROL Analyze]** 按鈕。
    1. 分析完成後，檢查結果。
-   1. 按一下 **[!UICONTROL Confirm delivery]**，然後按一下 **[!UICONTROL Yes]**。
+   1. 按一下 **[!UICONTROL Confirm delivery]**，然後按一下 **[!UICONTROL Yes]**.
 
+## 傳送直接訊息給追隨者 {#direct-tw-messages}
 
-## 向關注者發送直接消息 {#direct-tw-messages}
+此 **[!UICONTROL Synchronize Twitter accounts]** 技術工作流程會復原Twitter追隨者的清單，以便您傳送直接訊息。 [了解更多](../connect/ac-tw.md#synchro-tw-accounts)
 
-的 **[!UICONTROL Synchronize Twitter accounts]** 技術工作流恢復了Twitter關注者的清單，以便您可以直接向他們發送消息。 [了解更多](../connect/ac-tw.md#synchro-tw-accounts)
+若要傳送直接訊息給您的追隨者，請遵循下列步驟：
 
-要將直接消息發送給您的追隨者，請執行以下步驟：
+1. 根據以下項目建立Twitter傳送： **[!UICONTROL Tweet (Direct Message)]** 內建的傳遞範本。
 
-1. 根據 **[!UICONTROL Tweet (Direct Message)]** 內置交付模板。
+1. 選取主要目標
 
-1. 選擇主目標
+   ![](assets/tw-dm-define-target.png)
 
-1. 選擇 **[!UICONTROL To]** 連結和 **[!UICONTROL Add]** 按鈕
+   1. 選取 **[!UICONTROL To]** 連結和 **[!UICONTROL Add]** 按鈕。
 
-1. 選擇目標類型
+   1. 選擇目標類型
 
-   * 選擇 **[!UICONTROL Twitter subscribers]** 向你的所有追隨者發送直接資訊。
+      * 選擇 **[!UICONTROL Twitter subscribers]** 向所有追隨者發送直接消息。
 
-   * 選擇 **[!UICONTROL Filter conditions]** 定義查詢並查看其結果。 此選項與電子郵件遞送相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/creating-queries/defining-filter-conditions.html){target=&quot;_blank&quot;} 深入瞭解。
+      * 選擇 **[!UICONTROL Filter conditions]** 定義查詢並查看其結果。 了解如何在 [本節](../audiences/create-filters.md#advanced-filters).
 
-1. 從 **[!UICONTROL Target of the proofs]** 頁籤，選擇將收到直接消息證明的從用戶。
+1. 從 **[!UICONTROL Target of the proofs]** 標籤：此帳戶會收到您直接訊息的證明。
+
+   如 [配置步驟](../connect/ac-tw.md#tw-test-account)，您必須建立專用於傳送校樣的私人測試Twitter帳戶。
+
 
    >[!NOTE]
    >
-   >如果要將所有直接消息校樣發送給同一Twitter跟隨者，可以將校樣目標保存在 **[!UICONTROL Tweet (Direct Message)]** 交付模板，通過 **[!UICONTROL Resources > Templates > Delivery templates]** 的下界。
+   >如果您想要將所有直接訊息校樣傳送至相同的Twitter帳戶，可以在 **[!UICONTROL Tweet (Direct Message)]** 傳遞範本，透過 **[!UICONTROL Resources > Templates > Delivery templates]** 節點。
 
-1. 在 **[!UICONTROL Content]** 頁籤。
+1. 在 **[!UICONTROL Content]** 標籤。
 
-   個性化欄位的使用方式與電子郵件遞送的使用方式相同，例如，在郵件正文中添加從機名稱。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/about-personalization.html){target=&quot;_blank&quot;} 深入瞭解。
+   ![](assets/tw-dm-content.png)
 
-1. 預覽您的郵件
+   個人化欄位的使用方式與電子郵件傳送相同，例如在訊息內文中新增追隨者的名稱。 深入了解 [本節](../start/create-message.md#personalization).
 
-   瀏覽 **[!UICONTROL Preview]** 頁籤
+1. 預覽訊息
 
-   1. 按一下 **[!UICONTROL Preview]** 頁籤。
-   1. 按一下 **[!UICONTROL Test personalization]** 下拉菜單並選擇 **[!UICONTROL Service]**。
-   1. 在 **[!UICONTROL Folder]** 欄位中，選擇包含您的Twitter帳戶的服務資料夾。
-   1. 選擇要test預覽的Twitter帳戶。
+   瀏覽 **[!UICONTROL Preview]** 標籤來檢查貼文的呈現。
+
+   ![](assets/tw-dm-preview.png)
+
+   1. 按一下 **[!UICONTROL Preview]** 標籤。
+   1. 按一下 **[!UICONTROL Test personalization]** 下拉式功能表，然後選取 **[!UICONTROL Visitor Subscription]**.
+   1. 選擇您要用來測試預覽的Twitter帳戶。
 
 1. 傳送證明
 
-   在發送郵件之前，請確保通過向test帳戶發送證據來驗證郵件：然後，您可以在Twitter的私人帳戶上獲得郵件的準確呈現，並檢查內容和個性化。
+   傳送訊息之前，請務必透過傳送校樣至測試帳戶來驗證訊息：然後，您就可以在私人Twitter帳戶上取得完全轉譯的訊息，並檢查內容和個人化。
 
-   有關建立私人Twitter帳戶的詳細資訊，請參閱 [此部分](../connect/ac-tw.md#tw-test-account)。
+   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}
 
-   ![](../assets/do-not-localize/book.png) [瞭解驗證交付的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;
+1. 傳送直接訊息
 
-1. 發送直接消息
-
-   1. 內容獲得批准後，按一下 **[!UICONTROL Send]** 按鈕
-   1. 選擇 **[!UICONTROL Deliver as soon as possible]** 並按一下 **[!UICONTROL Analyze]** 按鈕
+   1. 內容核准後，按一下 **[!UICONTROL Send]** 按鈕。
+   1. 選擇 **[!UICONTROL Deliver as soon as possible]** 並按一下 **[!UICONTROL Analyze]** 按鈕。
    1. 分析完成後，檢查結果。
-   1. 按一下 **[!UICONTROL Confirm delivery]**，然後按一下 **[!UICONTROL Yes]**。
+   1. 按一下 **[!UICONTROL Confirm delivery]**，然後按一下 **[!UICONTROL Yes]**.
 
 >[!CAUTION]
 >
->每天不能發送250條以上的直接消息。 為避免超過此閾值，您可以以波形傳送。 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}。
+>您每天不能傳送超過250個直接訊息。 為避免超過此臨界值，您可以分批傳送。 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}。
 
 
-## 訪問跟蹤資料 {#tw-tracking}
+## 存取追蹤資料 {#tw-tracking}
 
-內置 **[!UICONTROL Tweet]** 交貨模板，預設情況下啟用跟蹤。
+內建 **[!UICONTROL Tweet]** 傳送範本，預設會啟用追蹤。
 
-跟蹤資料可在交付報告和 **[!UICONTROL Edit > Tracking]** 的子菜單。
+追蹤資料可在傳送報表和 **[!UICONTROL Edit > Tracking]** 標籤。
 
-跟蹤配置與電子郵件傳遞相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;} 深入瞭解。
+追蹤設定與電子郵件傳送的相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;} 深入瞭解。
 

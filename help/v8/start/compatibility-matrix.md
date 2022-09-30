@@ -2,13 +2,13 @@
 title: Campaign v8 相容性對照表
 description: 瞭解與 Campaign v8 相容的系統和版本
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 93d990509af2f7c917775217e95ba40dd407d0c1
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 作業系統
 
 * **Microsoft Windows 伺服器** 2019、2016、2012
-* **Microsoft Windows** 11 (自 Campaign v8.3 開始)、10、8、
+* **Microsoft Windows** 11（自Campaign v8.3起）、10、8
 
 >[!NOTE]
 >
@@ -37,7 +37,26 @@ ht-degree: 100%
 
 ### 瀏覽器
 
-**Microsoft Internet Explorer** 11
+**Microsoft Edge**
+
+### Microsoft WebView 2 執行階段
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge WebView 2 執行階段
+</p>
+</td>
+<td>
+<p>最新版本</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw">從 Microsoft Developer 網站下載</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## CRM 連接器{#CRMconnectors}
 
@@ -60,7 +79,7 @@ ht-degree: 100%
 您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
 * **Android** 12 (自 Campaing v8.3 開始)、9.0、8.x、7.x，配備 Campaig Android SDK 版本編號 1.1.1。
-* **Apple iOS** 9 - 15 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8.3 開始支援 iOS 15。
+* **Apple iOS** 9 - 16 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8.3 開始支援 iOS 16。
 
 ## 網路存取
 

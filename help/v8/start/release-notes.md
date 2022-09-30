@@ -2,14 +2,14 @@
 title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: ht
-source-wordcount: '2160'
-ht-degree: 100%
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+workflow-type: tm+mt
+source-wordcount: '2758'
+ht-degree: 79%
 
 ---
 
@@ -17,12 +17,87 @@ ht-degree: 100%
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
 
+## 發行版本 8.4.0 {#release-8-4-0}
+
+_2022年9月28日_
+
+**有哪些新功能？**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Adobe Campaign與Adobe Experience Platform整合</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>現在提供新的目的地和來源連接器，可順暢地整合Adobe Campaign和Adobe Experience Platform:</p>
+<ul><li>使用Adobe Campaign Managed Cloud Sources連接器將Experience Platform區段傳送至Adobe Campaign以進行啟用，</li>
+<li>使用Adobe Campaign Managed Cloud Destination Connector將Adobe Campaign傳送和追蹤記錄檔傳送至Adobe Experience Platform。</li>
+</ul>
+<p>如需詳細資訊，請參閱<a href="privacy.md">詳細文件</a>以瞭解詳情。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter頻道可用性</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>此 <a href="../send/twitter.md">Twitter社交頻道</a> 現在可搭配Campaign v8使用。 您可以：</p>
+<ul> 
+<li><p>透過Twitter傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的twitter帳戶。 您也可以傳送直接訊息給所有追隨者。
+</p></li>
+<li><p>收集新聯繫人：Adobe Campaign可以自動復原設定檔資料，讓您執行定位促銷活動並實施跨通道策略。
+</p></li>
+</ul>
+<p>了解如何在 <a href="../connect/ac-tw.md">詳細檔案</a>.</p>
+<p>了解如何在 <a href="../connect/ac-tw.md">本頁</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**功能改進**
+
+* Microsoft Internet Explorer 11生命週期結束後，主控台中的HTML轉譯引擎現在正使用 **Microsoft Edge Chromium**. 此外，安裝 **Microsoft Edge WebView 2** 現在，任何用戶端主控台安裝都需要執行階段。 閱讀全文
+* 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **附註**:這項新功能僅在有限可用性中發行給一組客戶。
+* 隱私權要求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加GDPR/隱私權刪除請求的執行時間。 閱讀全文
+
+**相容性更新**
+
+* Campaign v8 SDK現在支援iOS 16推送通知。
+
+請參閱 [Campaign 相容性對照表](compatibility-matrix.md)。
+
+**修補程式**
+
+* 修正啟用FeatureFlag_GZIP_Compression選項時，影響MID例項上傳送記錄狀態更新的問題。 (NEO-49183)
+* 修正了可能導致傳遞持續存在的問題 **待定** 狀態，即使已達到聯絡日期亦然。 (NEO-48079)
+* 修正工作流程中，使用 **資料載入（檔案）** 活動。 程式100%停止，但從未結束。 (NEO-47269)
+* 修正日文環境升級後期間的問題。 (NEO-46640)
+* 修正了在MTA程式期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
+* 修正追蹤記錄無法傳回與收件者瀏覽器相關資料的問題。 (NEO-46612)
+* 修正使用外部傳送模式傳送SMS訊息時，導致個人化問題的問題。 (NEO-46415)
+* 修正了在追蹤記錄中可能產生重複項目的問題。 (NEO-46409)
+* 修正無法 **[!UICONTROL Replicate Staging data]** (fdaReplicateStagingData)技術工作流程即使在執行期間發生錯誤亦無法停止。 (NEO-46280)
+* 修正了在MTA程式期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
+* 為了防止向種子地址發送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
+* 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
+* 修正使用Campaign將資料插入Snowflake雲端資料庫的問題 **查詢** 活動與 **變更資料來源** 活動：資料中出現反斜線字元時，程式會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。 (NEO-45549)
+* 修正使用 **查詢** 活動和篩選表格。 當列名包含&quot;Update&quot;一詞時，出現編譯錯誤，標識符無效，並出現以下消息：&quot;更新的行數&quot;。 (NEO-46485)
+
+
 ## 發行版本 8.3.8 {#release-8-3-8}
 
 _2022 年 5 月 18 日_
 
 **有哪些新功能？**
-
 
 <table> 
 <thead>
@@ -53,7 +128,6 @@ _2022 年 5 月 18 日_
 </tr> 
 </tbody> 
 </table>
-
 
 <table>
 <thead>
@@ -177,29 +251,6 @@ _2021 年 10 月 28 日_
 </tbody> 
 </table>
 
-<!--
-<table> 
-<thead>
-<tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
-<ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-</p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
-</p></li>
-</ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
 
 **功能改善**
 

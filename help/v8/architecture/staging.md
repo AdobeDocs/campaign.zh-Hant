@@ -1,44 +1,44 @@
 ---
-title: 市場活動API登台機制
-description: 市場活動API登台機制
-feature: Overview
-role: Data Engineer
-level: Beginner
+title: 促銷活動API測試機制
+description: 促銷活動API測試機制
+feature: API, FFDA
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
 
 ---
 
-# 市場活動API登台機制
+# 促銷活動API測試機制
 
-在 [企業(FDA)部署](enterprise-deployment.md)，不建議對效能（延遲和併發）進行單調呼叫。 批處理操作始終是首選的。 為了提高效能，接收API被重定向到本地資料庫。
+在 [企業(FFDA)部署](enterprise-deployment.md)，不建議對效能（延遲和並行）進行單一呼叫。 批次處理操作一律為推薦操作。 為了改善效能，擷取API會重新導向至本機資料庫。
 
-預設情況下，在某些內置架構上啟用市場活動轉移功能。 我們還可以在任何自定義架構上啟用它。 簡要地說，分級機制：
+某些內建結構預設會啟用促銷活動測試功能。 我們也可以在任何自訂結構上啟用它。 一言以蔽之：
 
-* 資料架構結構複製到本地臨時表中
-* 專用於資料接收的新API直接流入本地臨時表。 [了解更多](new-apis.md)
-* 計畫的工作流每小時都會觸發一次，並將資料同步回雲資料庫。 [了解更多](replication.md)
+* 資料架構結構已複製到本機中繼表格
+* 專用於資料擷取的新API會直接匯入本機中繼表格。 [了解更多](new-apis.md)
+* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [了解更多](replication.md)
 
-預設情況下，某些內置架構會被轉移，如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
+某些內建結構預設會分段，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
 
-Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益：API調用直接流到雲資料庫。 Adobe建議盡可能使用新的轉移機制，以減少市場活動雲資料庫的總體壓力和延遲。
+Campaign Classicv7 API仍可供使用，但無法受益於此新的測試機制：API呼叫會直接流至雲端資料庫。 Adobe建議盡可能使用新的測試機制，以降低Campaign Cloud資料庫的整體壓力和延遲。
 
 >[!CAUTION]
 >
->* 利用此新機制，現在即可進行通道輸出、訂閱、取消訂閱或移動註冊的資料同步 **非同步**。
+>* 透過這種新機制，通道輸出、訂閱、取消訂閱或行動註冊的資料同步功能現已開放使用 **非同步**.
 >
->* 暫存僅適用於儲存在雲資料庫上的架構。 不在複製的架構上啟用暫存。 不在本地架構上啟用暫存。 不在轉移架構上啟用轉移
+>* 中繼僅適用於雲端資料庫上儲存的結構描述。 請勿在複製的架構上啟用中繼。 請勿啟用本機結構上的測試功能。 不啟用分段架構上的分段
 >
 
 
 ## 實施步驟{#implement-staging}
 
-要在特定表上實施市場活動轉移機制，請執行以下步驟：
+若要在特定表格上實作Campaign測試機制，請遵循下列步驟：
 
-1. 在市場活動雲資料庫上建立示例自定義架構。 此步驟未啟用轉移。
+1. 在Campaign Cloud資料庫上建立範例自訂結構。 此步驟未啟用測試。
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -53,11 +53,11 @@ Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益�
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) 瞭解有關在中建立自定義架構的詳細資訊 [此頁](../dev/create-schema.md)。
+   ![](../assets/do-not-localize/glass.png) 進一步了解自訂結構建立，位於 [本頁](../dev/create-schema.md).
 
-1. 保存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
+1. 保存和更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
 
-1. 通過添加 **autoStg=&quot;true&quot;** 的下界。
+1. 借由新增 **autoStg=&quot;true&quot;** 參數。
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
@@ -72,8 +72,8 @@ Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益�
    </srcSchema>
    ```
 
-1. 保存修改。 新的臨時架構可用，它是初始架構的本地副本。
+1. 儲存修改。 有新的中繼架構可用，此為初始架構的本機副本。
 
    ![](assets/staging-mechanism.png)
 
-1. 更新資料庫結構。 將在市場活動本地資料庫上建立臨時表。
+1. 更新資料庫結構。 中繼表格將建立在Campaign本機資料庫上。
