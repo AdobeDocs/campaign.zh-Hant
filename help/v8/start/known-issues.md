@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 96e9f5fe5f07ea0c476395d33efa4d6bcf10cf60
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -23,22 +23,23 @@ ht-degree: 2%
 >
 >Adobe自行發佈此已知問題清單。 它以客戶報表數量、嚴重性和解決方案可用性為基礎。 如果您遇到的問題未列出，則可能不符合本頁面中發佈的條件。
 
-<!--
-## Change Data Source activity issue #1 {#issue-1}
+## Campaign v8.3.8{#8.3-issues}
 
-### Description{#issue-1-desc}
+### 更改資料源活動問題#1 {#issue-1}
 
-The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
+#### 說明{#issue-1-desc}
 
-### Reproduction steps{#issue-1-repro}
+此 **變更資料來源** 將資料從Campaign本機資料庫傳輸至Snowflake雲端資料庫時，活動失敗。 切換方向時，活動可能會產生問題。
 
-1. Connect to the client console and create a workflow.
-1. Add a **Query** activity and a **Change Data Source** activity.
-1. Define a query on the **email**, which is a string.
-1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
-1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
+#### 再現步驟{#issue-1-repro}
 
-### Error message{#issue-1-error}
+1. 連線至用戶端主控台並建立工作流程。
+1. 新增 **查詢** 活動與 **變更資料來源** 活動。
+1. 在 **電子郵件**，即字串。
+1. 執行工作流程並以滑鼠右鍵按一下轉變以檢視母體：電子郵件記錄會以 `****`.
+1. 檢查工作流程記錄檔：the **變更資料來源** 活動會將這些記錄解譯為數值。
+
+#### 錯誤訊息{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -49,35 +50,35 @@ The **Change Data Source** activity is failing when transfering data from Campai
 04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
 ```
 
-### Workaround{#issue-1-workaround}
+#### 因應措施{#issue-1-workaround}
 
-To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
+若要讓資料從Snowflake雲端資料庫傳輸至Campaign本機資料庫，再傳回至Snowflake，您必須使用兩個不同的 **變更資料來源** 活動。
 
-### Internal reference{#issue-1-ref}
+#### 內部參考{#issue-1-ref}
 
-Reference: NEO-45549 
-
-
-
-## Change Data Source activity issue {#issue-2}
-
-### Description{#issue-2-desc}
-
-When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
-
-This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
+參考資料：NEO-45549
 
 
-### Reproduction steps{#issue-2-repro}
 
-1. Connect to the client console and create a workflow.
-1. Add a **Query** activity and configure it.
-1. Select data with the characteristics described above.
-1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
-1. Run the workflow and check the workflow logs to see the error.
+### 變更資料來源活動問題 {#issue-2}
+
+#### 說明{#issue-2-desc}
+
+使用Campaign將資料插入Snowflake雲端資料庫時 **查詢** 和 **變更資料來源** 活動中，當資料中出現反斜線字元時，程式會失敗。 來源字串未逸出，且資料在Snowflake時無法正確處理。
+
+只有反斜線字元位於字串結尾時才會發生此問題，例如： `Barker\`.
 
 
-### Error message{#issue-2-error}
+#### 再現步驟{#issue-2-repro}
+
+1. 連線至用戶端主控台並建立工作流程。
+1. 新增 **查詢** 活動並加以設定。
+1. 選擇具有上述特性的資料。
+1. 新增 **變更資料來源** 活動，並加以設定以選取「Snowflake雲端資料庫」。
+1. 執行工作流程並檢查工作流程記錄檔以查看錯誤。
+
+
+#### 錯誤訊息{#issue-2-error}
 
 ```sql
 Error:
@@ -85,46 +86,45 @@ Error:
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
 ```
 
-### Workaround{#issue-2-workaround}
+#### 因應措施{#issue-2-workaround}
 
-Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
-
-
-### Internal reference{#issue-2-ref}
-
-Reference: NEO-45549
+解決方法是排除字串結尾處包含反斜線字元的資料，或從來源檔案中移除該資料。
 
 
-## Data loading (file) activity failed to Upload file on server {#issue-3}
+#### 內部參考{#issue-2-ref}
 
-### Description{#issue-3-desc}
-
-When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
-
-### Reproduction steps{#issue-3-repro}
-
-1. Connect to the client console and create a workflow.
-1. Add a **Data loading (file)** activity and configure it.
-1. Select the **Upload on server** option.
-1. Select the file on your local machine,
-1. Click **Upload**
+參考資料：NEO-45549
 
 
-### Error message{#issue-3-error}
+### 資料載入（檔案）活動無法在伺服器上上載檔案 {#issue-3}
 
-The process never ends.
+#### 說明{#issue-3-desc}
 
-### Workaround{#issue-3-workaround}
+在Campaign伺服器上上傳檔案時， **資料載入（檔案）** 活動時，程式會在100%處停止，但永不結束。
 
-The workaround is to use an older client console. You will then be able to upload the file on the server.
+#### 再現步驟{#issue-3-repro}
 
-As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+1. 連線至用戶端主控台並建立工作流程。
+1. 新增 **資料載入（檔案）** 活動並加以設定。
+1. 選取 **在伺服器上傳** 選項。
+1. 在本地電腦上選擇檔案，
+1. 按一下 **上傳**
 
-Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
-Learn how to upgrade your client console [in this page](connect.md)
+#### 錯誤訊息{#issue-3-error}
 
-### Internal reference{#issue-3-ref}
+過程永遠不會結束。
 
-Reference: NEO-47269
--->
+#### 因應措施{#issue-3-workaround}
+
+因應措施是使用舊版用戶端主控台。 然後，您就可以在伺服器上傳檔案。
+
+身為Campaign管理員，您可以在 [Adobe軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Rosvation&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
+
+了解如何存取AdobeSoftware Distribution [在本頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+
+了解如何升級您的用戶端主控台 [在本頁](connect.md)
+
+#### 內部參考{#issue-3-ref}
+
+參考資料：NEO-47269
