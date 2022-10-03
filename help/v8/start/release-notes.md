@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
+source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 79%
+source-wordcount: '2833'
+ht-degree: 77%
 
 ---
 
@@ -62,6 +62,18 @@ _2022年9月30日_
 </tr> 
 </tbody> 
 </table>
+
+**安全性增強功能**
+
+為了最佳化安全性，已從Campaign產生的URL中移除安全性Token:
+
+* 此變更僅適用於GETURL。 其他類型(包括POSTURL)則不受影響。
+* 如果您使用自訂程式碼，則安全性Token不再從GETURL安全性Token參數中擷取。 您必須使用下列JSSP程式碼產生新的安全性代號：
+
+   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+
+   您也可以使用登入API來擷取安全權杖。
+* 工作階段權杖管理中沒有變更。
 
 **功能改進**
 
