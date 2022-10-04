@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
+source-git-commit: eb134a16e5289d6410ef9b0eae33a31839365f82
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2818'
 ht-degree: 77%
 
 ---
@@ -98,12 +98,10 @@ _2022年9月30日_
 * 修正使用外部傳送模式傳送SMS訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正了在追蹤記錄中可能產生重複項目的問題。 (NEO-46409)
 * 修正無法 **[!UICONTROL Replicate Staging data]** (fdaReplicateStagingData)技術工作流程即使在執行期間發生錯誤亦無法停止。 (NEO-46280)
-* 修正了在MTA程式期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
 * 為了防止向種子地址發送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
 * 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
 * 修正使用Campaign將資料插入Snowflake雲端資料庫的問題 **查詢** 活動與 **變更資料來源** 活動：資料中出現反斜線字元時，程式會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。 (NEO-45549)
 * 修正使用 **查詢** 活動和篩選表格。 當列名包含&quot;Update&quot;一詞時，出現編譯錯誤，標識符無效，並出現以下消息：&quot;更新的行數&quot;。 (NEO-46485)
-
 
 ## 發行版本 8.3.8 {#release-8-3-8}
 
