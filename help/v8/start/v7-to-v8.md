@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 94%
+source-wordcount: '638'
+ht-degree: 86%
 
 ---
 
@@ -66,27 +66,28 @@ Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保
 
 使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標母體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
 
-請注意，已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 以前對多維度資料集的限制不適用於 Campaign v8。
+使用 [企業(FFDA)部署](../architecture/enterprise-deployment.md),Adobe Campaign多維資料集報表會經過最佳化，並帶來比Campaign Classicv7更佳的縮放功能。 在該特定部署模型中，先前對多維資料集的限制不適用於Campaign v8。
 
 ## 未提供的功能{#gs-unavailable-features}
 
 請注意此 Campaign 版本尚未提供部分功能，例如：
 
 * 行銷資源管理
-* 混合/內部部署模型
+* 優惠券
+* 網路追蹤
+* 調查
 
 
 ## 不支援的功能{#gs-removed}
 
-為符合 Campaign v8 的新架構和部署模型，Campaign v8 中已不再提供一些 Campaign Classic v7 的歷史性功能。例如:
+Campaign v8不再支援某些歷史Campaign Classicv7功能，例如：
 
-* 優惠券
-* 網路追蹤
-* 調查
-* 社交行銷
+* 使用Facebook進行社交行銷
 * ACS 連接器 (主要優惠)
 * 與 LDAP 整合
 * 使用者/密碼登入
+* 混合/內部部署模型
+
 
 >[!NOTE]
 >
