@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Campaign Social Marketing模組在Twitter�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 6%
@@ -21,6 +21,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 * 傳送直接訊息給您的追隨者
 * 在您的Twitter帳戶上張貼推文
 * 透過恢復設定檔資料來收集新的聯絡人，這可讓您執行定位促銷活動，並在可能時實施跨通道策略。 此動作需要使用者同意。
+
 
 如需整合Twitter帳戶與Adobe Campaign的設定步驟，請參閱 [本頁](../connect/ac-tw.md).
 

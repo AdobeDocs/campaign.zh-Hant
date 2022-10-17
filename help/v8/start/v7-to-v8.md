@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。請在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}了解更多有關 Campaign Managed Cloud Services 的詳細資訊。
+Adobe Campaign Managed Cloud Services提供Managed Campaigns平台，用於設計跨管道Cloud Services體驗，並提供視覺化行銷活動策劃、即時互動管理和跨管道執行的環境。 請在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}了解更多有關 Campaign Managed Cloud Services 的詳細資訊。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 

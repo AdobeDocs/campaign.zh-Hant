@@ -5,7 +5,7 @@ feature: Web Apps
 role: User, Developer
 level: Beginner
 exl-id: a460c1b4-4266-46ff-8cca-748050afd579
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 64bdd8332d0cf76b3e15db58f8abf09fdf163bba
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 開始使用網路應用程式和網路表單{#gs-ac-web}
 
-Adobe Campaign整合了用於定義和發佈的圖形模組 **網路表單** 建立包含輸入和選擇欄位的頁，並且這些欄位可能包括資料庫中的資料。 這可讓您設計和發佈使用者可存取的網頁，以檢視或輸入資訊。
+Adobe Campaign整合了用於定義和發佈的圖形模組 **網路表單** 建立具有輸入和選擇欄位的頁，並可包括來自資料庫的資料。 這可讓您設計和發佈使用者可存取的網頁，以檢視或輸入資訊。
 
 ![](../assets/do-not-localize/book.png) 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content){target=&quot;_blank&quot;}
 

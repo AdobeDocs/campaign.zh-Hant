@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Campaign資料庫是作為持續性層，包含幾乎所有由Adobe Campaign管�
 
 Campaign邏輯應用程式層可輕鬆配置，以滿足複雜的業務需求。 您可以將Campaign作為具有不同應用程式的單一平台，結合這些應用程式來建立開放且可擴充的架構。 每個Campaign實例都是應用程式層中的程式集合，有些是共用的，有些是專用的。
 
-## Campaign Managed Services{#ac-managed-services}
+## Campaign管理的Cloud Services{#ac-managed-services}
 
 Adobe Campaign v8部署as a Managed Service:Adobe Campaign的所有元件（包括使用者介面、執行管理引擎和Campaign資料庫）都完全由Adobe托管，包括電子郵件執行、鏡像頁面、追蹤伺服器，以及對外的Web元件，例如取消訂閱頁面/偏好設定中心和登錄頁面。
 

@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6986f4eb017602632d11ce6e9ca9e156d94380ff
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2835'
+ht-degree: 98%
 
 ---
 
@@ -17,21 +17,23 @@ ht-degree: 0%
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
 
+
 ## 發行版本 8.4.1 {#release-8-4-1}
 
-_2022年9月30日_
+_2022 年 9 月 30 日_
+
 
 **有哪些新功能？**
 
 <table> 
 <thead>
 <tr> 
-<th> <strong>Adobe Campaign與Adobe Experience Platform整合</strong><br /> </th> 
+<th> <strong>Adobe Campaign 與 Adobe Experience Platform 整合</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td><p>現在提供新的目的地和來源連接器，可順暢地整合Adobe Campaign和Adobe Experience Platform:</p>
+<td><p>現在提供新的目標和來源連接器，可緊密整合 Adobe Campaign 和 Adobe Experience Platform：</p>
 <ul><li>使用Adobe Campaign Managed Cloud Services目的地連接器將Experience Platform區段傳送至Adobe Campaign以進行啟用，</li>
 <li>使用Adobe Campaign ManagedCloud Service來源連接器，將Adobe Campaign傳送和追蹤記錄檔傳送至Adobe Experience Platform。</li>
 </ul>
@@ -44,20 +46,20 @@ _2022年9月30日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Twitter頻道可用性</strong><br /> </th> 
+<th> <strong>Twitter 頻道可用性</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>此 <a href="../send/twitter.md">Twitter社交頻道</a> 現在可搭配Campaign v8使用。 您可以：</p>
+<td> <p>此 <a href="../send/twitter.md">Twitter 社交頻道</a> 現在可搭配 Campaign v8 使用。 您可以：</p>
 <ul> 
-<li><p>透過Twitter傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的twitter帳戶。 您也可以傳送直接訊息給所有追隨者。
+<li><p>透過 Twitter 傳送訊息：Adobe Campaign 可讓您直接將訊息張貼至您的 twitter 帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
-<li><p>收集新聯繫人：Adobe Campaign可以自動復原設定檔資料，讓您執行定位促銷活動並實施跨通道策略。
+<li><p>收集新聯絡人：Adobe Campaign 可以自動復原設定檔資料，讓您執行目標定位行銷活動並實施跨管道策略。
 </p></li>
 </ul>
-<p>了解如何在 <a href="../connect/ac-tw.md">詳細檔案</a>.</p>
-<p>了解如何在 <a href="../connect/ac-tw.md">本頁</a>.</p>
+<p>在<a href="../connect/ac-tw.md">詳細文件</a>中瞭解如何連結 Campaign 和 Twitter。</p>
+<p>在<a href="../connect/ac-tw.md">本頁</a>中瞭解如何發佈推文 (twitter) 及傳送訊息。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -65,80 +67,46 @@ _2022年9月30日_
 
 **安全性增強功能**
 
-為了最佳化安全性，已從Campaign產生的URL中移除安全性Token:
+為了最佳化安全性，已從 Campaign 產生的 URL 中移除安全性權杖：
 
-* 此變更僅適用於GETURL。 其他類型(包括POSTURL)則不受影響。
-* 如果您使用自訂程式碼，則安全性Token不再從GETURL安全性Token參數中擷取。 您必須使用下列JSSP程式碼產生新的安全性代號：
+* 此變更僅適用於 GET URL。 其他類型 (包括 POST URL) 則不受影響。
+* 如果您使用自訂程式碼，則安全性權杖不再從 GET URL 安全性權杖參數中擷取。 您必須使用下列 JSSP 程式碼產生新的安全性權杖：
 
    ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
-   您也可以使用登入API來擷取安全權杖。
+   您也可以使用登入 API 來擷取安全性權杖。
 * 工作階段權杖管理中沒有變更。
 
 **功能改進**
 
-* Microsoft Internet Explorer 11生命週期結束後，主控台中的HTML轉譯引擎現在正使用 **Microsoft Edge Chromium**. 此外，安裝 **Microsoft Edge WebView 2** 現在，任何用戶端主控台安裝都需要執行階段。
-* 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **附註**:這項新功能僅在有限可用性中發行給一組客戶。
-* 隱私權要求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加GDPR/隱私權刪除請求的執行時間。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，**Microsoft Edge WebView 2** 的安裝現在在任何用戶端主控台安裝都需要執行階段。
+* 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
+* 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 
 **相容性更新**
 
-* Campaign v8 SDK現在支援iOS 16推送通知。
+* Campaign v8 SDK 現在支援 iOS16 的推播通知。
 
 請參閱 [Campaign 相容性對照表](compatibility-matrix.md)。
 
 **修補程式**
 
-* 修正啟用FeatureFlag_GZIP_Compression選項時，影響MID例項上傳送記錄狀態更新的問題。 (NEO-49183)
-* 修正了可能導致傳遞持續存在的問題 **待定** 狀態，即使已達到聯絡日期亦然。 (NEO-48079)
-* 修正工作流程中，使用 **資料載入（檔案）** 活動。 程式100%停止，但從未結束。 (NEO-47269)
+* 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
+* 修正了可能導致傳遞持續存在&#x200B;**待定**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079)
+* 修正工作流程中，使用&#x200B;**資料載入 (檔案)** 活動可能阻止檔案更新的問題。 流程 100% 停止，但從未結束。 (NEO-47269)
 * 修正日文環境升級後期間的問題。 (NEO-46640)
-* 修正了在MTA程式期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
+* 修正了在 MTA 流程期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
 * 修正追蹤記錄無法傳回與收件者瀏覽器相關資料的問題。 (NEO-46612)
-* 修正使用外部傳送模式傳送SMS訊息時，導致個人化問題的問題。 (NEO-46415)
+* 修正使用外部傳送模式傳送 SMS 訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正了在追蹤記錄中可能產生重複項目的問題。 (NEO-46409)
-* 修正無法 **[!UICONTROL Replicate Staging data]** (fdaReplicateStagingData)技術工作流程即使在執行期間發生錯誤亦無法停止。 (NEO-46280)
-* 為了防止向種子地址發送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
+* 修正即使在執行期間發生錯誤，仍然阻止 **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) 技術工作流程停止的問題。 (NEO-46280)
+* 修正了在 MTA 程式期間，傳送達到精確大小時可能發生的問題。 (NEO-46097)
+* 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
 * 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
-* 修正使用Campaign將資料插入Snowflake雲端資料庫的問題 **查詢** 活動與 **變更資料來源** 活動：資料中出現反斜線字元時，程式會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。 (NEO-45549)
-* 修正使用 **查詢** 活動和篩選表格。 當列名包含&quot;Update&quot;一詞時，出現編譯錯誤，標識符無效，並出現以下消息：&quot;更新的行數&quot;。 (NEO-46485)
-* 此 **資料庫清理** 技術工作流程現在也可處理自訂的測試結構。 (NEO-48974)
-* 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
-* 改善在SOAP呼叫期間處理無效XML字串時的穩定性。 (NEO-48027)
-* 修正了當傳送使用日曆和分割模式時，導致建立不必要DeliveryPart的問題。 (NEO-48634)
-* 修正使用日曆波段時的效能問題。 (NEO-48451)
-* 修正在自訂架構上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
-* 修正了在測試工作流程錯誤且保留期已完全通過時，可能導致資料遺失的問題。 (NEO-48975)
+* 修正使用 Campaign 將資料插入 Snowflake 雲端資料庫的問題&#x200B;**查詢**&#x200B;活動與&#x200B;**變更資料來源**&#x200B;活動：資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在 Snowflake 時未正確處理。 (NEO-45549)
+* 修正使用&#x200B;**查詢**&#x200B;活動和篩選表格時的問題。 當欄名稱包含「更新」一詞時，出現編譯錯誤，且識別碼無效，並出現以下訊息：「更新的列數」。(NEO-46485)
 
-## 發行版本 8.3.9 {#release-8-3-9}
 
->[!CAUTION]
->
-> 用戶端主控台升級為強制。 透過此檔案了解如何升級您的用戶端主控台 [頁面](../start/connect.md#download-ac-console).
-
-_2022年10月7日_
-
-**功能改進**
-
-* 修正啟用FeatureFlag_GZIP_Compression選項時，影響MID例項上傳送記錄狀態更新的問題。 (NEO-49183)
-* 此 **資料庫清理** 技術工作流程現在也可處理自訂的測試結構。 (NEO-48974)
-* 修正了可能導致傳遞持續存在的問題 **待定** 狀態，即使已達到聯絡日期亦然。 (NEO-48079、NEO-48251)
-* 改善在SOAP呼叫期間處理無效XML字串時的穩定性。 (NEO-48027)
-* 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
-* 為了防止向種子地址發送校樣時速度變慢，現在種子成員的所有連續複製都分組為一個複製請求。 (NEO-44844)
-* 修正使用外部傳送模式傳送SMS訊息時，導致個人化問題的問題。 (NEO-46415)
-* 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
-* 修正工作流程中，使用 **資料載入（檔案）** 活動。 程式100%停止，但從未結束。 (NEO-47269)
-* 修正了當傳送使用日曆和分割模式時，導致建立不必要DeliveryPart的問題。 (NEO-48634)
-* 修正使用日曆波段時的效能問題。 (NEO-48451)
-* 修正在自訂架構上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
-* 修正了在MTA程式期間，傳送達到特定大小時可能發生的問題。 (NEO-46097)
-* 修正追蹤記錄無法傳回與收件者瀏覽器相關資料的問題。 (NEO-46612)
-* 修正日文環境升級後期間的問題。 (NEO-46640)
-* 修正使用 **查詢** 活動和篩選表格。 列名包含&quot;Update&quot;一詞時，出現編譯錯誤，標識符無效，並出現以下消息：&quot;更新的行數&quot;。 (NEO-46485)
-* 修正無法 **[!UICONTROL Replicate Staging data]** (fdaReplicateStagingData)技術工作流程即使在執行期間發生錯誤亦無法停止。 (NEO-46280)
-* 修正了在測試工作流程錯誤且保留期已完全通過時，可能導致資料遺失的問題。 (NEO-48975)
-* 修正使用Campaign將資料插入Snowflake雲端資料庫的問題 **查詢** 活動與 **變更資料來源** 活動：資料中出現反斜線字元時，程式會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。 (NEO-45549)
 
 ## 發行版本 8.3.8 {#release-8-3-8}
 

@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 請注意，您可以指派權限給資料夾，以限制對特定資料的存取。 [了解更多](#restrict-access-to-a-folder)
 
-## 使用資料夾時的最佳實務
+## 使用資料夾時的最佳實務{#best-practices-folders}
 
 * **使用內建資料夾** 讓參與項目的每個人都能更輕鬆地使用、維護和排除應用程式故障。 避免為收件者、清單、傳遞等建立自訂資料夾結構，但請使用標準資料夾，例如 **管理**, **設定檔與目標**, **行銷活動管理**.
 

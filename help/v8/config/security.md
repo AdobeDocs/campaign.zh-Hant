@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,30 @@ ht-degree: 1%
 * Protect可能包含個人資訊的頁面，例如鏡像頁面、網頁應用程式等。
 
 ![](../assets/do-not-localize/speech.png)  身為受管Cloud Services使用者，Adobe會與您合作，在您的環境中實作這些設定。
+
+
+## 存取管理
+
+訪問管理是加強安全性的重要環節。 以下是一些主要最佳實務：
+
+* 建立足夠的安全組
+* 檢查每個運算子是否擁有適當的存取權限
+* 請避免使用管理員運算子，並避免管理員群組中有太多運算子
+
+![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+
+## 編碼准則
+
+在Adobe Campaign中開發時（工作流程、Javascript、JSSP等），請一律遵循下列准則：
+
+* **指令碼**:嘗試避免SQL陳述式，使用參數化函式而不是字串串連接，通過將要使用的SQL函式添加到允許清單來避免SQL插入。
+
+* **保護資料模型**:使用命名權限來限制運算子操作，添加系統篩選器(sysFilter)
+
+* **在Web應用程式中新增擷取**:在您的公開登錄頁面和訂閱頁面中新增captcha。
+
+![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+
 
 ## 個人化
 
