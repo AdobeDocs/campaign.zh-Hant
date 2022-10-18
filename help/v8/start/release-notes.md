@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2835'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ _2022 年 9 月 30 日_
 <tbody> 
 <tr> 
 <td><p>現在提供新的目標和來源連接器，可緊密整合 Adobe Campaign 和 Adobe Experience Platform：</p>
-<ul><li>使用Adobe Campaign Managed Cloud Services目的地連接器將Experience Platform區段傳送至Adobe Campaign以進行啟用，</li>
-<li>使用Adobe Campaign ManagedCloud Service來源連接器，將Adobe Campaign傳送和追蹤記錄檔傳送至Adobe Experience Platform。</li>
+<ul><li>使用 Adobe Campaign Managed Cloud Services 目標連接器將 Experience Platform 區段傳送至 Adobe Campaign 以進行啟用，</li>
+<li>使用 Adobe Campaign Managed Cloud Services 來源連接器將 Adobe Campaign 傳送和追蹤記錄傳送至 Adobe Experience Platform。</li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../connect/ac-aep.md">詳細文件</a>以瞭解詳情。</p>
 </td> 
