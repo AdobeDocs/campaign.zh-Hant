@@ -1,18 +1,17 @@
 ---
 product: campaign
-title: webUI主題1
+title: webUI 主題 1
 description: webUI
 hide: true
 source-git-commit: 07010d0253637bce4df62f7bfa1fd37fb9fb8e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '19'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# webUI概念1主題1 {#c1t1}
+# webUI 概念 1 主題 1 {#c1t1}
 
-## 關於主題1
+## 關於主題 1
 
-了解概念2主題2(在 [本頁](../concept2/topic2.md).
-了解此其他主題 [此處](../../automation/workflow/about-workflows.md)
+在[本頁](../concept2/topic2.md)中了解概念 2 主題 2。在[此處](../../automation/workflow/about-workflows.md)了解此其他主題 
