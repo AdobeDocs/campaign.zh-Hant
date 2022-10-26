@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services提供Managed Campaigns平台，用於設計跨管道Cloud Services體驗，並提供視覺化行銷活動策劃、即時互動管理和跨管道執行的環境。 請在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}了解更多有關 Campaign Managed Cloud Services 的詳細資訊。
+Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。請在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}了解更多有關 Campaign Managed Cloud Services 的詳細資訊。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 
@@ -66,7 +66,7 @@ Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保
 
 使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標母體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
 
-使用 [企業(FFDA)部署](../architecture/enterprise-deployment.md),Adobe Campaign多維資料集報表會經過最佳化，並帶來比Campaign Classicv7更佳的縮放功能。 在該特定部署模型中，先前對多維資料集的限制不適用於Campaign v8。
+藉由 [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md)，Adobe Campaign 已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。
 
 ## 未提供的功能{#gs-unavailable-features}
 
@@ -80,9 +80,9 @@ Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保
 
 ## 不支援的功能{#gs-removed}
 
-Campaign v8不再支援某些歷史Campaign Classicv7功能，例如：
+Campaign v8 不再支援某些歷史性的 Campaign Classicv7 功能，例如：
 
-* 使用Facebook進行社交行銷
+* 使用 Facebook 進行社交行銷
 * ACS 連接器 (主要優惠)
 * 與 LDAP 整合
 * 使用者/密碼登入
