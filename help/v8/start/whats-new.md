@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '877'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視�
 >
 >* Campaign v8 目前&#x200B;**僅** 以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。 
 >
->* 尚無法從現有 Campaign Classic v7 環境進行移轉。
+>* 無法從現有 Campaign Classic V7 環境進行自動移轉。
 
 
 
