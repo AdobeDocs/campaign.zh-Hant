@@ -3,8 +3,8 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 07c73a6ab22962472bde431948386d0142d6732d
-workflow-type: ht
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 * [護欄和限制](start/ac-guardrails.md)
 * [架構](architecture/architecture.md)
-* [測量和追蹤](start/reporting.md)
+* [測量和追蹤](reporting/gs-reporting.md)
 * [連結其他解決方案](connect/integration.md)
 * [Campaign v8 常見問題集](start/campaign-faq.md)
 * [Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}

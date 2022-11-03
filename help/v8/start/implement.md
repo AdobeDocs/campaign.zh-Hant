@@ -5,7 +5,7 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%
@@ -125,7 +125,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    除了內建報告之外，透過使用 Adobe Campaign，可以讓您在不同工作環境中根據不同需求產生報告。本檔案詳細說明了使用原則和實施模式。
 
-   ![](../assets/do-not-localize/glass.png)在[本頁面](reporting.md)伸入瞭解 Campaign 的報告功能。
+   ![](../assets/do-not-localize/glass.png)在[本頁面](../reporting/gs-reporting.md)伸入瞭解 Campaign 的報告功能。
 
 
 ## 設定行銷活動自動化

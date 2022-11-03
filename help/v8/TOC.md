@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
+source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 87%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 87%
       + [瞭解 Campaign 介面](start/campaign-ui.md)
       + [自訂 Campaign 介面](start/customize-ui.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
-   + [從傳統v7到v8](start/v7-to-v8.md)
+   + [從 Classic v7 到 v8](start/v7-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
-   + [Campaign協調檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
+   + [Campaign 協調流程文件](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
    + 傳送訊息{#send}
       + [開始使用訊息](start/create-message.md)
       + 電子郵件 {#emails}
@@ -51,9 +51,9 @@ ht-degree: 87%
          + [傳遞失敗](send/delivery-failures.md)
       + [傳送時間最佳化](send/predictive.md)
       + [管理訂閱](start/subscriptions.md)
-+ 設定檔與受眾管理 {#audience}
++ 設定檔與對象管理 {#audience}
    + [開始使用設定檔和對象](audiences/gs-audiences.md)
-   + [配合受眾](start/audiences.md)
+   + [配合對象](start/audiences.md)
    + [存取設定檔](audiences/view-profiles.md)
    + 新增設定檔 {#add-profiles}
       + [手動建立設定檔](audiences/create-profiles.md)
@@ -64,7 +64,7 @@ ht-degree: 87%
    + 建立對象 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
-   + [與Adobe解決方案共用受眾](start/shared-audiences.md)
+   + [與 Adobe 解決方案共用對象](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
 + 內容管理 {#content}
    + [設計網頁應用程式和表單](dev/webapps.md)
@@ -89,16 +89,28 @@ ht-degree: 87%
       + [管理匿名互動](interaction/anonymous-interactions.md)
    + [報告和歷史記錄](interaction/interaction-tracking.md)
    + [使用案例](interaction/interaction-use-cases.md)
-+ Reporting and Analytics {#analytics}
++ 報告與分析 {#analytics}
    + [追蹤與監視](start/tracking.md)
-   + [指標與報吿](start/reporting.md)
+   + 使用報表{#reports}
+      + [開始使用報表](reporting/gs-reporting.md)
+      + 建立立方{#cubes}
+         + [開始使用 cubes](reporting/gs-cubes.md)
+         + [建立多維資料集](reporting/cube-indicators.md)
+         + [使用立方體來建立報表](reporting/cube-tables.md)
+         + [立方體的最佳作法](reporting/cube-best-practices.md)
+      + 內建報表{#ac-reports}
+         + [內建報表清單](reporting/built-in-reports.md)
+         + [全域報告](reporting/global-reports.md)
+         + [傳遞報告](reporting/delivery-reports.md)
+         + [內建量度計算](reporting/metrics-calculation.md)
+      + [自訂報表](reporting/custom-reports.md)
 + 資料管理{#data}
    + [開始使用工作流程](config/workflows.md)
    + [匯入資料](start/import.md)
-   + [工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [工作流程文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
-   + [將Campaign與其他解決方案連結](connect/integration.md)
-   + [促銷活動+Experience Platform](connect/ac-aep.md)
+   + [連結 Campaign 與其他解決方案](connect/integration.md)
+   + [Campaign + Experience Platform](connect/ac-aep.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
@@ -114,7 +126,7 @@ ht-degree: 87%
 + 管理員 {#admin}
    + [權限](start/permissions.md)
    + [控制面板](config/self-service.md)
-+ 架構和配置 {#config}
++ 架構和設定 {#config}
    + 架構 {#architecture}
       + [全域原則](architecture/general-architecture.md)
       + [架構](architecture/architecture.md)

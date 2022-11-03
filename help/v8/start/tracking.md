@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '880'
 ht-degree: 20%
 
 ---
@@ -109,7 +109,7 @@ Web應用程式追蹤選擇退出可讓您停止追蹤選擇退出行為追蹤�
 
 不同的表格會根據傳送類型，提供不同報表中使用的指標清單及其計算公式。
 
-[深入瞭解 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;} 
+[了解更多](../reporting/metrics-calculation.md)
 
 ## 監視指南
 

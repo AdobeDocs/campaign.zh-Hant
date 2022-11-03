@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 行銷活動報告功能有助於建立動態報告。 您可以利用可拖放的變數來自訂報告並分析行銷活動的成功與否。 根據查詢和計算的複雜性，資料可以彙總到清單檢視或透過便於產生行銷分析報告的格式加以存取。
 
 
-![](../assets/do-not-localize/glass.png)進一步瞭解[本節](reporting.md)中的報告和追蹤功能。
+![](../assets/do-not-localize/glass.png)進一步瞭解[本節](../reporting/gs-reporting.md)中的報告和追蹤功能。
 
 ## Adobe Experience Cloud 整合 {#adobe-experience-cloud-integrations}
 
