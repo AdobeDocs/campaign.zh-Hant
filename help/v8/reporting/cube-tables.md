@@ -3,7 +3,7 @@ product: campaign
 title: 使用立方體建立資料報表
 description: 了解如何使用立方體建立報表
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
    這些參數取決於所選維度的資料類型。
 
-   例如，日期可以有數個層級可用。 有關詳細資訊，請參閱 [顯示度量](cube-best-practices.md#display-measures).
+   例如，日期可以有數個層級可用。 有關詳細資訊，請參閱 [顯示度量](customize-cubes.md#display-measures).
 
    在這種情況下，可使用下列選項：
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   然後，您可以選擇是否顯示度量標籤。 [了解更多資訊](cube-best-practices.md#configure-the-display)。
+   然後，您可以選擇是否顯示度量標籤。 [了解更多資訊](customize-cubes.md#configure-the-display)。
 
 1. 您可以根據現有測量建立新測量。 要執行此操作，請按一下 **[!UICONTROL Create a measure]** 並加以設定。
 

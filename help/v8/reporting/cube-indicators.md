@@ -4,7 +4,7 @@ description: 了解如何建立立方體
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 2%
@@ -58,7 +58,7 @@ ht-degree: 2%
 1. 選擇工作表。 [了解更多資訊](#select-the-work-table)。
 1. 定義維度。 [了解更多資訊](#define-dimensions)。
 1. 定義測量。 [了解更多資訊](#build-indicators)。
-1. 建立匯總（選用）。 [了解更多資訊](cube-best-practices.md#calculate-and-use-aggregates)。
+1. 建立匯總（選用）。 [了解更多資訊](customize-cubes.md#calculate-and-use-aggregates)。
 
 在以下範例中，了解如何快速在報表中建立簡單多維資料集，以匯出其測量。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 1. 在此範例中，我們會選取收件者 **年齡**. 對於此欄位，您可以定義組合年齡，並讓資訊閱讀更輕鬆。 建議您在可能有數個個別值時使用捆綁。
 
-若要這麼做，請檢查 **[!UICONTROL Enable binning]** 選項。 [了解更多資訊](cube-best-practices.md#data-binning)。
+若要這麼做，請檢查 **[!UICONTROL Enable binning]** 選項。 [了解更多資訊](customize-cubes.md#data-binning)。
 
 1. 新增 **日期** 類型維度。 在此，我們要顯示收件者設定檔建立日期。 要執行此操作，請按一下 **[!UICONTROL Add]** ，然後選取 **[!UICONTROL Creation date]** 欄位。
 您可以自訂日期顯示模式。 要執行此操作，請選取要使用的階層以及要產生的層級：
@@ -109,7 +109,7 @@ ht-degree: 2%
 
 只會顯示分項清單中的值。 其他項目則會分組在 **[!UICONTROL Label of the other values]** 欄位。
 
-如需詳細資訊，請參閱[本章節](cube-best-practices.md#dynamically-manage-bins)。
+如需詳細資訊，請參閱[本章節](customize-cubes.md#dynamically-manage-bins)。
 
 ### 建立指標 {#build-indicators}
 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![](assets/cube-new-measure.png)
 
-   使用 **[!UICONTROL Filter the measure data...]** 僅連結到選擇女性。 [了解更多資訊](cube-best-practices.md#define-measures)。
+   使用 **[!UICONTROL Filter the measure data...]** 僅連結到選擇女性。 [了解更多資訊](customize-cubes.md#define-measures)。
 
    ![](assets/cube-filter-measure-data.png)
 

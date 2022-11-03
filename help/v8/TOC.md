@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '470'
 ht-degree: 93%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 93%
          + [開始使用 cubes](reporting/gs-cubes.md)
          + [建立多維資料集](reporting/cube-indicators.md)
          + [使用立方體來建立報表](reporting/cube-tables.md)
-         + [立方體的最佳作法](reporting/cube-best-practices.md)
+         + [自訂立方體](reporting/customize-cubes.md)
       + 內建報表{#ac-reports}
          + [內建報表清單](reporting/built-in-reports.md)
          + [全域報告](reporting/global-reports.md)
