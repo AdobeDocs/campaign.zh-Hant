@@ -1,28 +1,31 @@
 ---
 product: campaign
 title: 更新彙總
-description: 瞭解有關更新聚合工作流活動的詳細資訊
+description: 深入了解更新匯總工作流程活動
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+role: Data Engineer
+level: Beginner
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 3%
 
 ---
 
 # 更新彙總{#update-aggregate}
 
-聚合在多維資料集級別定義以用於報告目的。 A **[!UICONTROL Workflow]** 頁籤在配置聚合時可用。
+中定義的匯總 [立方體](../../v8/reporting/gs-cubes.md) 可更新特定活動以用於報告用途。 A **[!UICONTROL Workflow]** 標籤。
 
-有關在Adobe Campaign使用立方和聚合的詳細資訊，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}。
+進一步了解中的立方體和匯總 [本節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
+若要更新匯總，請編輯 **[!UICONTROL Update aggregate]** 活動，然後選取要更新的多維資料集和匯總。
 
-要更新聚合，請編輯 **[!UICONTROL Update aggregate]** 活動，然後選擇要更新的多維資料集和聚合。
+您可以設定 **完整更新** 或 **部分更新**.
 
-您可以執行 **完整更新** 或&#x200B;**部分更新**。
+![](assets/update-aggregate-details.png)
 
-預設情況下，在每次計算期間執行完整更新。 要啟用部分更新，請選擇相關選項並定義更新條件。
+預設情況下，每次計算期間都會執行完整更新。 要啟用部分更新，請選擇選項並定義更新條件。
 
-**良好做法**:a **[!UICONTROL Scheduler]** 活動可用於指定計算更新的頻率。
+![](assets/update-aggregate-partial.png)
 
-![](assets/scheduler-and-cube-aggregate.png)
+最佳作法是新增 **[!UICONTROL Scheduler]** 設定計算更新頻率的活動。
