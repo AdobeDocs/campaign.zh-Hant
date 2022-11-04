@@ -4,9 +4,9 @@ description: 了解如何建立立方體
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -20,11 +20,6 @@ Adobe Campaign隨附直覺式資料探索工具，可建立動態報表。
 您可以擴充資料庫的探索和分析能力，同時讓最終使用者更容易設定報告和表格：他們只需在建立其報告或表格時，選取現有的（全設定好的）多維度資料集，以處理計算、測量和統計數據。
 
 立方體可用來產生特定的內建報表，包括 [傳遞報告](delivery-reports.md) （傳遞追蹤、點按、開啟等）。
-
->[!CAUTION]
->
->在 [[!DNL Snowflake] FDA（預設）部署](../architecture/fda-deployment.md)，基於立方體的報告只能用於低於500萬條事實線的資料卷。
-
 
 建立並設定多維度資料集後，便可以用於報告查詢方塊和網頁應用程式；可以在樞紐分析表內使用及操作多維度資料集。
 
