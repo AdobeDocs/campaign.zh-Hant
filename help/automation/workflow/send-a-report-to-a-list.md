@@ -3,10 +3,10 @@ product: campaign
 title: 傳送報吿至清單
 description: 了解如何使用工作流程將報表傳送至清單
 feature: Workflows
-source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
+source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
    * 選取 **[!UICONTROL Advanced]** 標籤和檢查 **[!UICONTROL Script the name of the file name displayed in the mails sent]**. 在文字區域中，在最終傳送中輸入附件的名稱。
 
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## 步驟3:建立工作流程 {#step-3--creating-the-workflow}
 
