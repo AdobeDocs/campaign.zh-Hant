@@ -5,14 +5,14 @@ description: 了解如何在Campaign中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 7%
 
 ---
 
-# 使用傳遞範本{#creating-a-delivery-template}
+# 使用傳遞範本{#work-with-delivery-template}
 
 使用傳遞範本來標準化創意外觀和風格，以便更快執行和啟動行銷活動。
 
@@ -27,9 +27,12 @@ ht-degree: 7%
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
 
+
+## 建立範本{#create-a-delivery-template}
+
 若要建立傳遞範本，您可以複製內建的範本、將現有的傳遞轉換為範本，或從頭建立傳遞範本。
 
-## 複製現有範本{#copy-an-existing-template}
+### 複製現有範本{#copy-an-existing-template}
 
 Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播、簡訊、直接郵件等。
 
@@ -51,7 +54,7 @@ Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播
 
 ![](assets/select-the-new-template.png)
 
-## 將現有傳送轉換為範本 {#convert-an-existing-delivery}
+### 將現有傳送轉換為範本 {#convert-an-existing-delivery}
 
 傳送可轉換為範本，以執行新的重複傳送動作。
 
@@ -67,7 +70,7 @@ Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播
 
    ![](assets/template-select-folders.png)
 
-## 建立新範本 {#create-a-new-template}
+### 建立新範本 {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播
 1. 按一下 **儲存**. 您的範本現在已可用於傳送。
 
 
-## 使用範本建立傳遞{#create-a-delivery-from-a-template}
+## 使用範本{#use-a-delivery-template}
+
+### 使用範本建立傳遞{#create-a-delivery-from-a-template}
 
 若要根據現有範本建立傳送，請從可用的傳送範本清單中選取範本。
 
