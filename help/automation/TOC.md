@@ -1,24 +1,24 @@
 ---
 audience: user
-user-guide-title: 市場活動自動化指南
-user-guide-description: 市場活動自動化指南
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+user-guide-title: Campaign 自動化指南
+user-guide-description: Campaign 自動化指南
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
 
-# 市場活動自動化指南 {#automation}
+# Campaign自動化指南 {#automation}
 
-+ [市場活動自動化指南](home.md)
++ [Campaign 自動化指南](home.md)
 + 使用工作流程自動化{#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
-      + 工作流類型 {#wf-type}
+      + 工作流程類型 {#wf-type}
          + [目標定位工作流程](workflow/targeting-workflows.md)
-         + [市場活動工作流](workflow/campaign-workflows.md)
+         + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)
       + [建置工作流程](workflow/build-a-workflow.md)
       + [最佳實務](workflow/workflow-best-practices.md)
@@ -26,15 +26,15 @@ ht-degree: 83%
    + 執行工作流程 {#executing-a-workflow}
       + [開始工作流程](workflow/start-a-workflow.md)
       + [工作流程生命週期](workflow/workflow-life-cycle.md)
-      + [設定批准](workflow/define-approvals.md)
+      + [設定核准](workflow/define-approvals.md)
    + 監視工作流程 {#monitoring-workflows}
       + [監視工作流程的執行](workflow/monitor-workflow-execution.md)
       + [監視技術工作流程](workflow/monitor-technical-workflows.md)
       + [工作流程熱度圖](workflow/heatmap.md)
-   + 工作流活動 {#wf-activities}
-      + [開始活動](workflow/activities.md)
+   + 工作流程活動 {#wf-activities}
+      + [開始使用活動](workflow/activities.md)
       + 目標定位活動 {#targeting-activities}
-         + [目標活動清單](workflow/targeting-activities.md)
+         + [目標定位活動清單](workflow/targeting-activities.md)
          + [儲存格](workflow/cells.md)
          + [變更資料來源](workflow/change-data-source.md)
          + [變更維度](workflow/change-dimension.md)
@@ -56,7 +56,7 @@ ht-degree: 83%
          + [聯合](workflow/union.md)
          + [更新資料](workflow/update-data.md)
       + 流量控制活動 {#flow-control-activities}
-         + [流控制活動清單](workflow/flow-control-activities.md)
+         + [流量控制活動清單](workflow/flow-control-activities.md)
          + [警報](workflow/alert.md)
          + [AND-join](workflow/and-join.md)
          + [核准](workflow/approval.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
          + [SQL 資料管理](workflow/sql-data-management.md)
          + [更新彙總](workflow/update-aggregate.md)
       + 事件活動 {#event-activities}
-         + [活動清單](workflow/event-activities.md)
+         + [事件活動清單](workflow/event-activities.md)
          + [檔案收集器](workflow/file-collector.md)
          + [檔案傳輸](workflow/file-transfer.md)
          + [傳入電子郵件](workflow/inbound-emails.md)
@@ -117,13 +117,13 @@ ht-degree: 83%
       + 查詢和篩選器 {#designing-queries}
          + [查詢收件者表格](workflow/querying-recipient-table.md)
          + [查詢傳遞資訊](workflow/query-delivery-info.md)
-         + [計算聚合](workflow/compute-aggregates.md)
+         + [計算匯總](workflow/compute-aggregates.md)
          + [使用分組管理進行查詢](workflow/query-grouping-management.md)
          + [使用多對多關係進行查詢](workflow/query-many-to-many-relationship.md)
          + [新增分項清單類型計算欄位](workflow/adding-enumeration-type-calculated-field.md)
          + [建立篩選器](workflow/create-a-filter.md)
          + [篩選重複的收件者](workflow/filter-duplicated-recipients.md)
-   + 高級設定 {#advanced-management}
+   + 進階設定 {#advanced-management}
       + [工作流程屬性](workflow/workflow-properties.md)
       + [高級參數](workflow/advanced-parameters.md)
       + [JavaScript 指令碼和範本](workflow/javascript-scripts-and-templates.md)
@@ -134,24 +134,24 @@ ht-degree: 83%
       + [管理時區](workflow/managing-time-zones.md)
 + Campaign 策劃 {#campaign-orchestration}
    + [開始使用行銷活動](campaigns/set-up-campaigns.md)
-   + [建立計畫和市場活動](campaigns/marketing-campaign-create.md)
+   + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
    + [建立及設定範本](campaigns/marketing-campaign-templates.md)
    + [新增傳遞](campaigns/marketing-campaign-deliveries.md)
    + [選取對象](campaigns/marketing-campaign-target.md)
    + [管理文件和資產](campaigns/marketing-campaign-assets.md)
    + [設定及管理核准](campaigns/marketing-campaign-approval.md)
-   + [定期市場活動](campaigns/recurring-periodic-campaigns.md)
+   + [週期性和定期的促銷活動](campaigns/recurring-periodic-campaigns.md)
    + [監視您的行銷活動](campaigns/marketing-campaign-monitoring.md)
    + [供應商、庫存和預算](campaigns/providers--stocks-and-budgets.md)
-+ 市場活動優化（附加）{#campaign-optimization}
-   + [開始活動類型](campaign-opt/campaign-typologies.md)
++ 促銷活動最佳化（附加元件）{#campaign-optimization}
+   + [開始使用行銷活動類型](campaign-opt/campaign-typologies.md)
+   + [篩選規則](campaign-opt/filtering-rules.md)
+   + [控制規則](campaign-opt/control-rules.md)
    + [壓力規則](campaign-opt/pressure-rules.md)
    + [一致性規則](campaign-opt/consistency-rules.md)
-   + [控制規則](campaign-opt/control-rules.md)
-   + [篩選規則](campaign-opt/filtering-rules.md)
    + [套用規則](campaign-opt/apply-rules.md)
    + [Campaign 模擬](campaign-opt/campaign-simulations.md)
-+ 分佈式營銷（附加） {#distributed-marketing}
++ 分散式行銷（附加元件） {#distributed-marketing}
    + [關於分散式行銷](distributed-marketing/about-distributed-marketing.md)
    + [建立本機行銷活動](distributed-marketing/creating-a-local-campaign.md)
    + [建立協作行銷活動](distributed-marketing/creating-a-collaborative-campaign.md)
@@ -159,4 +159,4 @@ ht-degree: 83%
    + [存取行銷活動](distributed-marketing/accessing-campaigns.md)
    + [追蹤行銷活動](distributed-marketing/tracking-a-campaign.md)
    + [使用案例](distributed-marketing/examples.md)
-+ [市場活動v8文檔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant)
++ [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant)
