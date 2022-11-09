@@ -5,10 +5,10 @@ feature: Architecture, FFDA
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 55%
+source-wordcount: '1045'
+ht-degree: 54%
 
 ---
 
@@ -112,6 +112,16 @@ Campaign v8 物件現在使用&#x200B;**通用唯一 ID (UUID)**，此 UUID 允�
 在 Campaign Classic v7 及舊版中，對於方案 (即表格) 中的金鑰其唯一性在資料庫引擎層級處理。 更一般而言，PostgreSQL、Oracle 或 SQL Server 等傳統資料庫引擎包含本機機制，以防止透過主索引鍵和/或唯一索引，根據一列或一組列插入重複行。 在資料庫層級設定正確的索引和主索引鍵時，這些版本不會存在重複的 ID。
 
 Adobe Campaign v8 以 Snowflake 作為核心資料庫。 由於它顯著增加了查詢規模，Snowflake 資料庫的分散式架構不提供這樣的機制來管理並強制在表格內要求索引鍵的唯一性。 因此，使用 Adobe Campaign v8 時，將無法防止在表格中擷取重複的索引鍵。 終端使用者現在負責在 Adobe Campaign 資料庫內確保索引鍵的一致性。 [深入瞭解](keys.md)
+
+### 功能可用性 {#feature-availability}
+
+有些功能無法在Campaign的企業(FFDA)部署中使用，例如：
+
+* 行銷資源管理
+* 優惠券
+* 網路追蹤
+* 調查
+
 
 **相關主題**
 
