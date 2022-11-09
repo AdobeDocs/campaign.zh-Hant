@@ -5,7 +5,7 @@ title: Adobe Campaign自動化首頁
 feature: Overview
 description: 概覽
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: 612b3a4287a5ab880b7fd251cc2727586977fbde
+source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 38%
@@ -75,7 +75,6 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
     <div>
     <a href="campaign-opt/campaign-typologies.md">Campaign 最佳化</a>
     </div>
-    <br>
     <br>
     <div>
     <a href="mrm/about-marketing-resource-management.md">行銷資源管理(MRM)</a>
