@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Campaign 自動化指南
 user-guide-description: Campaign 自動化指南
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 85%
+source-wordcount: '447'
+ht-degree: 83%
 
 ---
 
@@ -151,8 +151,14 @@ ht-degree: 85%
    + [一致性規則](campaign-opt/consistency-rules.md)
    + [套用規則](campaign-opt/apply-rules.md)
    + [Campaign 模擬](campaign-opt/campaign-simulations.md)
++ 行銷資源管理 {#mrm}
+   + [開始使用行銷資源管理(MRM)](mrm/about-marketing-resource-management.md)
+   + [建立及管理設定檔](mrm/creating-and-managing-tasks.md)
+   + [控制成本](mrm/controlling-costs.md)
+   + [管理行銷資源](mrm/managing-marketing-resources.md)
+   + [論壇](mrm/discussion-forums.md)
 + 分散式行銷（附加元件） {#distributed-marketing}
-   + [關於分散式行銷](distributed-marketing/about-distributed-marketing.md)
+   + [開始使用分散式行銷](distributed-marketing/about-distributed-marketing.md)
    + [建立本機行銷活動](distributed-marketing/creating-a-local-campaign.md)
    + [建立協作行銷活動](distributed-marketing/creating-a-collaborative-campaign.md)
    + [發佈行銷活動套件](distributed-marketing/publishing-the-campaign-package.md)
