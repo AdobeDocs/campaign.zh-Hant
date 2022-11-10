@@ -2,10 +2,11 @@
 product: campaign
 title: 建立及管理任務
 description: 建立及管理任務
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
+source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
 workflow-type: tm+mt
-source-wordcount: '3703'
-ht-degree: 0%
+source-wordcount: '3740'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ Adobe Campaign 可讓您直接在應用程式中建立任務並管理其完整�
 
 它們可顯示在其所屬程式的排程中。
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## 存取任務 {#accessing-tasks}
 
@@ -29,113 +30,123 @@ Adobe Campaign 可讓您直接在應用程式中建立任務並管理其完整�
 
 任務將顯示在任務清單中，可通過 **[!UICONTROL Campaigns]** 標籤。
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-您可以在那裡查看連接操作員的所有任務。
+您可以檢視目前運算子的所有工作。
 
 有關詳細資訊，請參閱 [任務的執行狀態](#execution-status-of-a-task) 和 [任務的進度狀態](#progress-status-of-a-task).
 
 ### 篩選任務 {#filtering-tasks}
 
-當您顯示此檢視時，會自動篩選該檢視，以僅顯示 **[!UICONTROL operator tasks]**. 您也可以使用視窗上方區段的欄位來篩選工作。
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+當您顯示此檢視時，會自動篩選該檢視，以僅顯示 **當前操作員任務**. 您也可以使用視窗上方區段的欄位來篩選工作。
 
 ### 編輯任務 {#editing-tasks}
 
 按一下要編輯的任務。
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## 建立新任務 {#creating-a-new-task}
 
-要建立任務，請按一下 **[!UICONTROL Tasks]** 連結 **[!UICONTROL Campaigns]** 索引標籤和選取 **[!UICONTROL Create]**.
+要建立任務，請執行以下步驟：
 
-![](assets/s_ncs_user_task_create_new.png)
+1. 瀏覽至 **[!UICONTROL Tasks]** 連結 **[!UICONTROL Campaigns]** 按一下 **[!UICONTROL Create]**.
 
-請至少輸入任務的名稱，並選擇連結到的促銷活動。 您也必須指定開始和結束日期。 這三條資訊是強制性的。
+   ![](assets/create-a-task-from-dashboard.png)
 
-按一下 **[!UICONTROL Save]** 來建立任務。
+1. 輸入任務的名稱，並選擇連結到的促銷活動。
+1. 設定開始和結束日期。
+1. 按一下 **[!UICONTROL Save]** 來建立任務。
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 您也可以透過促銷活動的控制面板建立任務：在此情況下，會自動連結至從中建立的促銷活動。
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-建立任務後，會將其新增至促銷活動排程和任務清單。 要編輯任務，請從調度中選擇任務，或在任務概述中按一下其名稱，然後按一下 **[!UICONTROL Open]** 連結。
+建立任務後，任務會新增至促銷活動排程、促銷活動控制面板和任務清單。 若要編輯任務，請從任務清單中按一下其名稱，或從排程或促銷活動控制面板中選取該任務，然後按一下 **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+建立後，您可以定義：
 
-若要設定，您必須指出：
+* 經理和參與者。 [了解更多](#manager-and-participants)
+* 建立排程。 [了解更多](#execution-schedule)
+* 承付的成本。 [了解更多](#expenses-and-revenues)
 
-* 經理和參與者：請參閱 [經理和參與者](#manager-and-participants).
-* 建立排程：請參閱 [執行排程](#execution-schedule).
-* 承付成本：請參閱 [支出和收入](#expenses-and-revenues).
+您也可以新增 [審核者](#reviewers) 和 [參考檔案](#documents-referenced).
 
-廣告審核者也可以參閱 [審核者](#reviewers))和參考的檔案(請參閱 [引用的文檔](#documents-referenced))。
-
-任務生命週期在 [生命週期](#life-cycle).
+任務生命週期在 [本節](#life-cycle).
 
 ### 經理和參與者 {#manager-and-participants}
 
-只有負責任務的操作員才有權關閉該任務。
+預設情況下，該任務將分配給建立該任務的操作員。 當需要執行該任務的操作時，將通知此運算子。
 
-依預設，當Adobe Campaign運算子建立任務時，會自動將其指派給這些工作。 若要選取不同的運算子，請使用 **[!UICONTROL Assigned to]** 欄位。
+您可以從 **[!UICONTROL Assigned to]** 下拉式清單。
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >運算子管理在 [本節](../../v8/start/permissions.md).
+>
+>僅允許負責任務的操作員關閉該任務。
 
-您可以指定執行任務時涉及的操作員。 這些操作員無權關閉該任務。 他們只能批准指派給他們的任務。
+您可以指定執行任務時涉及的更多操作員。 不允許這些運算子關閉任務：他們只能批准分配給他們的任務。
 
-會使用 **[!UICONTROL Resources]** 表徵圖。 按一下 **[!UICONTROL Add]** 並選擇相關操作者。
+要添加任務運算子，請執行以下步驟：
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. 按一下 **[!UICONTROL Resources]** 表徵圖。
 
-按一下 **[!UICONTROL Ok]** 然後輸入使用率：這表示在任務執行期間分配給運算子的負載。 此比率僅為指示，以百分比表示。
+   ![](assets/add-task-resources.png)
 
-例如，對於執行時間表設定為10天的任務，其使用率為50%的操作員將在該任務上移動其10天半的工作時間。
+1. 按一下 **[!UICONTROL Add]** 並選擇相關操作者。
+1. 輸入使用率：這表示在任務執行期間分配給運算子的工作量。 此比率僅為指示，以百分比表示。
 
-對於每個運算子，您可以輸入計畫工作量和實際工作量。 這些持續時間也僅供參考。
+   ![](assets/define-operator-task-workload.png)
 
-可以配置提醒，該提醒將在任務結束日期之前自動發送給任務中涉及的所有操作員。
+   例如，對於執行時間表設定為10天的任務，其使用率為50%的操作員將在該任務上移動其10天半的工作時間。
 
-您可以透過 **[!UICONTROL Edit link]** 表徵圖。
+   對於每個運算子，您可以輸入計畫工作量和實際工作量。 這些持續時間也僅供參考。
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. 您可以從 **[!UICONTROL Add a reminder...]** 連結。 在任務結束日期之前，會向任務中涉及的所有操作員發送電子郵件通知。
+
+   ![](assets/task-op-add-a-reminder.png)
+
+1. 您也可以在任務開始之前傳送通知。 若要設定此設定，請選取 **[!UICONTROL Initial notification]** 欄位。
+1. 當到達結束日期且未關閉任務時，可以向受讓人或在 **[!UICONTROL Assignee]** 下拉式清單。
+
 
 操作員儀表板允許您檢查其工作負載（正在執行的其他任務）。
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### 審核者 {#reviewers}
+### 任務批准 {#reviewers}
 
-除了參與者之外，您還可以定義操作員，操作員將在任務被負責人關閉後複查任務。 若要這麼做，請按一下 **[!UICONTROL Enable task approval]** 選項 **[!UICONTROL Resources]** 窗口。 這可以是個別運算子、運算子群組或運算子清單。
+除了參與者，您還可以定義操作員，操作員將在任務關閉後複查任務。
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+若要這麼做，請按一下 **[!UICONTROL Enable task approval]** 選項 **[!UICONTROL Resources]** 窗口。 這可以是個別運算子、運算子群組或運算子清單。
 
 若要指定運算子清單，請按一下 **[!UICONTROL Edit...]** 連結至第一個審核者的右側，並視需要新增多個運算子，如下所示：
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-您可以在審核者配置窗口的下部定義任務的審批計畫。 依預設，審核者自提交日期起有三天時間批准任務。 可以配置提醒，提醒將在批准截止日期之前自動發送給相關操作員。
-
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
+您可以在配置窗口的下部定義任務的審批計畫。 依預設，審核者自提交日期起有三天時間批准任務。 您也可以新增提醒，提醒會在核准截止日期之前自動傳送給相關營運商。
 
 負責該任務的人員可以為自己分配批准該任務的任務，即使已分配了其他操作員來執行此操作。 如果未定義審核者，則通知將發送給負責任務的人員。 所有其他Adobe Campaign運算子(含 **[!UICONTROL Administrator]** 權限也可以核准任務。 不過，他們不會收到通知。
 
 ### 引用的文檔 {#documents-referenced}
 
-您可以新增 [檔案與行銷資源](managing-marketing-resources.md) 任務。 要執行此操作，請開啟任務並按一下 **[!UICONTROL Documents]** 表徵圖。
+您可以新增 [檔案與行銷資源](managing-marketing-resources.md) 任務。
 
-按一下 **[!UICONTROL Add]** 並選擇要添加到任務的文檔。 對行銷資源套用相同的程式。
+若要執行此動作：
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. 開啟任務，然後按一下 **[!UICONTROL Documents]** 表徵圖。
 
-被引用的文檔將出現在發送給任務中涉及的操作員的通知中，以及任務控制面板中。
+   ![](assets/add-documents-to-a-task.png)
+
+1. 按一下 **[!UICONTROL Add]** 並選擇要添加到任務的文檔。 對行銷資源套用相同的程式。
+
+
+將引用的文檔添加到發送給任務中涉及的操作員的通知中。 它們也會新增到任務控制面板上。
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
