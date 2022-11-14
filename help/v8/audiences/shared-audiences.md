@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 81%
 
 此整合支援兩種類型的 Adobe Experience Cloud ID：
 
-* **訪客ID**:此識別碼可協調Adobe Experience Cloud訪客與Adobe Campaign收件者。
-* **宣告ID**:此識別碼可與Adobe Campaign資料庫的元素協調所有類型的資料。 這是Adobe Campaign中預先定義的調解金鑰。
+* **訪客 ID**：此識別碼可協調 Adobe Experience Cloud 訪客與 Adobe Campaign 收件者。
+* **宣告 ID**：此識別碼可協調所有類型的資料與 Adobe Campaign 資料庫的元素。 這是 Adobe Campaign 預先定義的調解金鑰。
 
    >[!NOTE]
    >
-   > 宣告ID資料來源也可與People核心服務整合搭配使用。
+   > 已宣告的 ID 資料來源也可搭配 People 核心服務整合使用。
    >
    >如果您使用 People 核心服務整合，且想要新增 Audience Manager 整合，則需要 Adobe Audience Manager 顧問的協助，以避免在 Adobe Audience Manager 內容中轉換為使用此宣告 ID 資料來源時，所收集的 ID 同步全部遺失。
 
