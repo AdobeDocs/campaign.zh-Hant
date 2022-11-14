@@ -5,9 +5,9 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 92%
    + [Campaign 協調流程文件](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
    + 傳送訊息{#send}
       + [開始使用訊息](start/create-message.md)
-      + [使用傳遞範本](send/create-templates.md)
+      + [利用傳送範本](send/create-templates.md)
       + 電子郵件 {#emails}
          + [設計和驗證電子郵件](send/email.md)
          + [傳送和監視電子郵件](send/send.md)
@@ -92,19 +92,19 @@ ht-degree: 92%
    + [使用案例](interaction/interaction-use-cases.md)
 + 報告與分析 {#analytics}
    + [追蹤與監視](start/tracking.md)
-   + 使用報表{#reports}
-      + [開始使用報表](reporting/gs-reporting.md)
-      + 建立立方{#cubes}
-         + [開始使用 cubes](reporting/gs-cubes.md)
-         + [建立多維資料集](reporting/cube-indicators.md)
-         + [使用立方體來建立報表](reporting/cube-tables.md)
-         + [自訂立方體](reporting/customize-cubes.md)
-      + 內建報表{#ac-reports}
-         + [內建報表清單](reporting/built-in-reports.md)
+   + 使用報告{#reports}
+      + [開始使用報告](reporting/gs-reporting.md)
+      + 建立多維度資料集{#cubes}
+         + [開始使用多維度資料集](reporting/gs-cubes.md)
+         + [建立多維度資料集](reporting/cube-indicators.md)
+         + [利用多維度資料集來建立報告](reporting/cube-tables.md)
+         + [自訂多維度資料集](reporting/customize-cubes.md)
+      + 內建報告{#ac-reports}
+         + [內建報告清單](reporting/built-in-reports.md)
          + [全域報告](reporting/global-reports.md)
          + [傳遞報告](reporting/delivery-reports.md)
          + [內建量度計算](reporting/metrics-calculation.md)
-      + [自訂報表](reporting/custom-reports.md)
+      + [自訂報告](reporting/custom-reports.md)
 + 資料管理{#data}
    + [開始使用工作流程](config/workflows.md)
    + [匯入資料](start/import.md)
