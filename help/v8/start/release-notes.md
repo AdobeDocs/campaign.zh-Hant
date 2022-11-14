@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: ad5444284a3886f02c97e94952898e1836c6b7c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ _2022 年 10 月 28 日_
 
 **功能改進**
 
-* 修正使用Adobe Campaign Enhanced MTA時，無法正確更新成功傳送指標的問題。 (NEO-50462)
+* 當使用 Adobe Campaign Enhanced MTA 時，成功傳送指標無法正確更新，該問題已修正。 (NEO-50462)
 
 ## 發行版本 8.4.1 {#release-8-4-1}
 
