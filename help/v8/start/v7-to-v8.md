@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保
 
 使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標母體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
 
-使用Adobe Campaign v8，立方資料集報表已經過最佳化，並帶來比Campaign Classicv7更好的縮放功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。進一步了解中的立方體 [本節](../../v8/reporting/gs-cubes.md).
+Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。若要深入了解多維度資料集，請參閱[本節](../../v8/reporting/gs-cubes.md)。
 
 ## 未提供的功能{#gs-unavailable-features}
 
