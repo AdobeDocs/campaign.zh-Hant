@@ -1,11 +1,11 @@
 ---
 title: 在Campaign中管理訂閱和取消訂閱
-description: 了解如何管理 Campaign v8 的訂閱和取消訂閱
+description: 了解如何管理 Campaign v8 的訂閱和取消訂閱.
 feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 13%

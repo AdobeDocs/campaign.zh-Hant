@@ -1,14 +1,14 @@
 ---
 title: 開始使用 Campaign 資料模型
-description: 開始使用 Campaign 資料模型
+description: 開始使用Campaign資料模型，並運用來源的資料，讓您的通訊和行銷成果受益。
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: 開始使用Campaign架構
-description: 探索環境和部署基本知識
+description: 探索環境和部署基本知識，包括如何報告行銷活動環境。
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '706'
 ht-degree: 12%
 
 ---

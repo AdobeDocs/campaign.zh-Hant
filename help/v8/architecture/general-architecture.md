@@ -1,13 +1,13 @@
 ---
 title: 一般架構
-description: 進一步了解 Campaign 架構和元件
+description: 深入了解Adobe Campaign架構和元件。 了解有關個人化客戶端控制台和環境的詳細資訊。
 feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1078'
 ht-degree: 6%
 
 ---
