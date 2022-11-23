@@ -3,7 +3,7 @@ product: campaign
 title: 建立及管理任務
 description: 建立及管理任務
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
 workflow-type: tm+mt
 source-wordcount: '3740'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Adobe Campaign 可讓您直接在應用程式中建立任務並管理其完整�
 
 >[!NOTE]
 >
->運算子管理在 [本節](../../v8/start/permissions.md).
+>運算子管理在 [本節](../../v8/start/gs-permissions.md).
 >
 >僅允許負責任務的操作員關閉該任務。
 
@@ -192,7 +192,7 @@ Adobe Campaign 可讓您直接在應用程式中建立任務並管理其完整�
 
 在此窗口中，您還可以定義要達到的目標。 目標以任務的預測收入表示。
 
-### 服務提供商 {#service-providers}
+### 服務提供者 {#service-providers}
 
 外部服務提供商可以參與任務的管理。
 

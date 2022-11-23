@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,8 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 >[!CAUTION]
 >
 >在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理Campaign本機資料庫和雲端資料庫([!DNL Snowflake])。
-></br>作為「受管理Cloud Services」使用者，此外部帳戶會依Adobe為您的執行個體設定。 不得修改。
+>
+>作為「受管Cloud Services」用戶，外部帳戶是按Adobe配置的，不能修改。
 
 ## 促銷活動專用外部帳戶
 
@@ -117,34 +118,37 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 * **外部資料庫(FDA)**
 
-   使用 **外部資料庫** 輸入外部帳戶以透過FDA連線至外部資料庫。
+   此 **外部資料庫** 類型外部帳戶是用來透過同盟資料存取(FDA)連線至外部資料庫。
 
    與Adobe Campaign v8相容的外部資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)
 
    ![](../assets/do-not-localize/glass.png) 深入了解同盟資料存取(FDA)選項，位於 [本節](../connect/fda.md).
 
+* **Twitter**
+
+   此 **Twitter** 輸入外部帳戶可用來將Campaign連線至您的twitter帳戶，以代表您發佈訊息。
+
+   ![](../assets/do-not-localize/glass.png) 深入了解Twitter整合，位於 [本節](../connect/ac-tw.md).
+
 ## Adobe解決方案整合外部帳戶
 
 * **Adobe Experience Cloud**
 
-   此 **[!UICONTROL Adobe Experience Cloud]** 外部帳戶會實作Adobe IMS，以使用Adobe ID連線至Adobe Campaign主控台。
+   此 **[!UICONTROL Adobe Experience Cloud]** 外部帳戶是實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。
 
    ![](../assets/do-not-localize/glass.png) 進一步了解AdobeIdentity Management服務(IMS)，位於 [本節](../start/connect.md#connect-ims).
 
 * **網站分析**
 
-   使用 **[!UICONTROL Web Analytics (Adobe Analytics)]** 外部帳戶，以設定從Adobe Analytics到Adobe Campaign的資料傳輸。
+   此 **[!UICONTROL Web Analytics (Adobe Analytics)]** 外部帳戶可用來設定從Adobe Analytics到Adobe Campaign的資料傳輸。
 
    ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 將Adobe Analytics與Campaign整合。
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    此 **[!UICONTROL AEM]** 外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
 
    ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aem.md).
-
-   ![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 整合Adobe Experience Manager與Adobe Campaign。
 
 
 ## CRM連接器外部帳戶
