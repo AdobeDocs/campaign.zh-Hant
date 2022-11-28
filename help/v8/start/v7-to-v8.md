@@ -1,14 +1,14 @@
 ---
 title: 從 Campaign Classic v7 轉變到 Campaign v8
-description: 了解Campaign Classicv7和Campaign v8之間的差異。
+description: 了解 Campaign Classic v7 和 Campaign v8 之間的差異。
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign C
 
 ## 未提供的功能{#gs-unavailable-features}
 
-請注意，某些功能無法用於 [企業(FFDA)部署](../architecture/enterprise-deployment.md) 促銷活動的，例如：
+請注意，某些功能無法用於[企業 (FFDA) 部署](../architecture/enterprise-deployment.md) 促銷活動的內容，例如：
 
 * 行銷資源管理
 * 優惠券
@@ -79,7 +79,7 @@ Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign C
 
 ## 不支援的功能{#gs-removed}
 
-Campaign v8 不再支援某些歷史性的 Campaign Classicv7 功能，例如：
+Campaign v8 不再支援某些歷史性的 Campaign Classic v7 功能，例如：
 
 * 使用 Facebook 進行社交行銷
 * ACS 連接器 (主要優惠)
