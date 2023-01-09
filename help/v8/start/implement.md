@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
-source-wordcount: '1170'
+source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
+workflow-type: tm+mt
+source-wordcount: '1157'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您可以手動將使用者新增至 Campagin，並將他們與群組建立關聯，並使其與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
-![](../assets/do-not-localize/book.png)在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=zh-Hant#getting-started){target=&quot;_blank&quot;} 中瞭解如何新增使用者至 Adobe Campaign。
+![](../assets/do-not-localize/glass.png) 在[本節](../start/gs-permissions.md)瞭解如何新增使用者至 Adobe Campaign。
 
 ### 安裝 Campaign 用戶端控制台
 
