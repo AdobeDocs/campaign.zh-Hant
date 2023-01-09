@@ -5,9 +5,9 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 97%
    + 使用者與權限 {#permissions}
       + [開始使用權限](start/gs-permissions.md)
       + [管理使用者權限](start/manage-permissions.md)
-      + [新增資料夾的權限](start/folder-permissions.md)
+      + [新增資料夾權限](start/folder-permissions.md)
    + [控制面板](config/self-service.md)
 + 架構和設定 {#config}
    + 架構 {#architecture}
