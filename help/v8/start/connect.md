@@ -1,6 +1,6 @@
 ---
 title: 連線至Campaign v8
-description: 了解如何連線至Adobe Campaign v8，並在電腦上安裝主控台，以便更輕鬆存取。
+description: 了解如何連接到 Adobe Campaign v8 並在您的機器上安裝主控台以易於存取。
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
