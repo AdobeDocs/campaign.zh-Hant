@@ -6,25 +6,25 @@ role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
-workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
 # Campaign 實施方針{#gs-implementation}
 
-在本節中，了解如何根據貴公司的需求調整Adobe Campaign。 使用下列方針來建構並組織您的實施。
+在本節中瞭解如何根據貴公司的需求調整 Adobe Campaign。 使用下列方針來建構並組織您的實施。
 
 1. **定義設定**：授與存取權、共用用戶端控制台、設定頻道 (電子郵件、推播、簡訊).[了解更多](#implementation-ac-settings)
-1. **準備環境**：匯入設定檔、建立對象、設計工作流程和行銷活動範本，以及建立類型規則. [了解更多](#implementation-prepare-your-env)
-1. **自訂您的執行個體**：建立新資料欄位，新增表格/方案. [了解更多](#implementation-custom-your-instance)
-1. **自動化您的流程**:設定Adobe Campaign自動化功能。 [了解更多](#implementation-automation)
-1. **擴展您的部署**：連結至 Adobe 解決方案、其他產品和系統：連接器、多解決方案設定. [了解更多](#implementation-extend)
+1. **準備環境**：匯入設定檔、建立對象、設計工作流程和行銷活動範本，以及建立類型規則。[了解更多](#implementation-prepare-your-env)
+1. **自訂您的執行個體**：建立新資料欄位，新增表格/方案。[了解更多](#implementation-custom-your-instance)
+1. **自動化您的流程**：設定 Adobe Campaign 自動化功能。 [了解更多](#implementation-automation)
+1. **擴展您的部署**：連結至 Adobe 解決方案、其他產品和系統：連接器、多解決方案設定。[了解更多](#implementation-extend)
 
 >[!CAUTION]
 >
->使用 **Campaign管理的Cloud Services**，您的環境和初始設定會根據您的授權合約條款由Adobe設定。 您不得修改已安裝的內建套件、內建結構或報表。
+>若使用 **Campaign Managed Cloud Services**，您的環境與初始設定已根據您的授權合約條款由 Adobe 設定。您不得修改已安裝的內建套件、內建方案或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
 
@@ -38,11 +38,11 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 * **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。
 
-   深入瞭解 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition){target=&quot;_blank&quot;} 
+   在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition) 中深入瞭解{target="_blank"}
 
-* **使用者同意和資料保留**:您必須取得使用者同意、設定雙重加入訂閱機制、加速退出並設定資料保留。
+* **使用者同意與資料保留**：您必須取得使用者同意、設定雙重選擇加入訂閱機制、加速選擇退出並設定資料保留。
 
-   深入了解 [Campaign Classicv7隱私權檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target=&quot;_blank&quot;}
+   請參閱 [Campaign Classic v7 隱私權文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target="_blank"}深入瞭解
 
 * **隱私和資料保護法規**：請參考[此章節](privacy.md)關於隱私權請求的資訊，以及這些法規對您的組織和 Adobe Campaign 的影響。
 
@@ -68,7 +68,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 在開始傳送訊息和建立行銷活動之前，您需要：
 
-1. **匯入設定檔並建立閱聽眾**
+1. **匯入設定檔並建立對象**
 
    Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
@@ -87,7 +87,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    ![](../assets/do-not-localize/glass.png) 在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant)瞭解如何設定工作流程範本
 
-   在 [Campaign Classic v7 文件 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target=&quot;_blank&quot;}![](../assets/do-not-localize/book.png) 進一步瞭解電子郵件範本
+   如欲![](../assets/do-not-localize/book.png)深入瞭解電子郵件範本，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
 
 
 1. **設定類型規則**
@@ -137,11 +137,11 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 若要跨多頻道為不同的閱聽眾策劃複雜的行銷活動，請善用 Campaign 自動化功能。
 
-* 使用 **工作流程** 管理流程和資料。 深入了解 [本檔案](../../automation/workflow/about-workflows.md)
+* 利用&#x200B;**工作流程**&#x200B;管理流程與資料。 請參閱[本文件](../../automation/workflow/about-workflows.md)以深入瞭解。
 
-* 設定 **訂閱** 程式與 **登陸頁面**.  在[本頁](../start/subscriptions.md)中了解更多
+* 設定&#x200B;**訂閱**&#x200B;流程與&#x200B;**登陸頁面**。在[本頁](../start/subscriptions.md)中了解更多
 
-* 設定 **類型規則** 定義疲勞和控制管理。  深入了解 [本檔案](../../automation/campaign-opt/campaign-typologies.md)
+* 設定&#x200B;**類型規則**&#x200B;定義疲勞與控制管理。  請參閱[本文件](../../automation/campaign-opt/campaign-typologies.md)以深入瞭解。
 
 
 ## 擴展您的部署{#implementation-extend}
