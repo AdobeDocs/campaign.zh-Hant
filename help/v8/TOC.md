@@ -5,7 +5,7 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
-   + [Campaign 策劃 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
+   + [Campaign 協調流程 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
    + 傳送訊息{#send}
       + [開始使用訊息](start/create-message.md)
       + [利用傳送範本](send/create-templates.md)
