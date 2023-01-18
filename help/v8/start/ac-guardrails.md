@@ -6,22 +6,22 @@ role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
-workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
 # 產品護欄{#guardrails}
 
-權利、產品限制和效能護欄列於 [Adobe Campaign Managed Cloud Services 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}。
+權利、產品限制和效能護欄列於 [Adobe Campaign Managed Cloud Services 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 
 當使用 [!DNL Adobe Campaign] 時，您將找到下面其他護欄和限制。
 
 護欄及限制可識別此版本產品不支援的功能、架構或流程，或無法正確與其相互操作的功能、架構或流程。 請仔細檢閱這些限制。
 
 * Adobe Campaign v8 不適用於內部部署/混合部署，僅以 Adobe 管理的 Cloud Service 發行。
-* 現有客戶無法自動移轉至Adobe Campaign v8
+* 現有客戶無法自動移轉至 Adobe Campaign v8
 * 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，不提供雙向資料複製：只會從 Campaign 本機資料庫複製到雲端資料庫
 * [此區段](v7-to-v8.md#gs-unavailable-features)中列出的功能，不適用於目前的 Campaign v8 版本編號
 * 使用者介面中仍會顯示某些無法使用或已移除的功能
