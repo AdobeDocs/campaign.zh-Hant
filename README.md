@@ -1,8 +1,8 @@
 ---
 source-git-commit: d62a185eabf9536f7198d60702c02682af05e06d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # 投稿文章
@@ -16,13 +16,13 @@ ht-degree: 95%
 
 ## 關於您對 Adobe 內容的投稿
 
-請參閱 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
 您的投稿方式視您的身份，以及您想要投稿的變更類型而定：
 
 ### 小幅變更
 
-如果您是基於善意而投稿進行小幅更新，請瀏覽該文章，然後按一下文章中的&#x200B;**編輯**&#x200B;連結，該連結會前往文章的 GitHub 來源。之後，只要使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+如果您是基於善意而投稿進行小幅更新，請瀏覽該文章，然後按一下文章中的&#x200B;**編輯**&#x200B;連結，該連結會前往文章的 GitHub 來源。之後，只要使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
 「Adobe 使用條款」會涵蓋您針對本回購提交之文件及程式碼範例的小幅更正或釐清。
 
@@ -44,7 +44,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿者可使用 GitHub UI 進行基礎編輯，或是復刻存放庫以作出重大貢獻。
 
-如需詳細資訊，請參閱 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+如需詳細資訊，請參閱 [Adobe Docs 投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
 ## 如何使用 Markdown 以設定主題格式
 
