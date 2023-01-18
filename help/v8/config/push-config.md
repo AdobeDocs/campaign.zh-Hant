@@ -6,9 +6,9 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1281'
 ht-degree: 3%
 
 ---
@@ -794,7 +794,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
 
 變數可讓您在收到通知後定義行動應用程式行為。 這些變數必須在行動應用程式程式碼和Adobe Campaign主控台中，於 **[!UICONTROL Variables]** 頁簽。
 
-![](../assets/do-not-localize/book.png) 深入了解 **Campaign Classicv7檔案** 在行動應用程式上： [配置iOS的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}和 [Android的配置步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}。
+![](../assets/do-not-localize/book.png) 深入了解 **Campaign Classicv7檔案** 在行動應用程式上： [配置iOS的步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}.
 
 以下是可讓行動應用程式收集通知中任何新增變數的程式碼範例。 在範例中，我們使用「VAR」變數。
 

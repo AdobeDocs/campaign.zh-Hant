@@ -4,7 +4,7 @@ title: 建立行銷活動
 description: 了解如何建立和執行行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
+source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 4%
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 按一下 **[!UICONTROL OK]** 來建立促銷活動。 它會新增至方案排程和促銷活動清單中。
 
-然後，您可以編輯您剛建立的促銷活動並定義其參數。 若要開啟和設定此促銷活動，ypu可以：
+然後，您可以編輯您剛建立的促銷活動並定義其參數。 若要開啟和設定此促銷活動，您可以：
 
 1. 瀏覽促銷活動日曆，並選取您要顯示的促銷活動，然後按一下 **[!UICONTROL Open]** 連結。
 1. 瀏覽 **[!UICONTROL Schedule]** 方案的索引標籤，選取促銷活動並開啟它。
