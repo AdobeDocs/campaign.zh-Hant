@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
