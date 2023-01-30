@@ -3,28 +3,29 @@ product: campaign
 title: 儲存格
 description: 儲存格
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
 
 # 儲存格{#cells}
 
-的 **[!UICONTROL Cells]** 「活動」提供了各種子集的資料列視圖。 它方便了子集操作，還設計為利用個性化功能。
+此 **[!UICONTROL Cells]** 活動以資料欄的形式提供各種子集的視圖。 它可促進子集操作，也設計為善用個人化功能。
 
 ![](assets/wf_split_cells.png)
 
-可以根據用戶需要配置此活動以輸入特定參數。 預設情況下，每個子集的詳細資訊將通過 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 頁籤。
+可以根據用戶需求配置此活動以輸入特定參數。 依預設，每個子集的詳細資訊會透過 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 頁簽。
 
 ![](assets/wf_split_cells_with_customization.png)
 
-在下面的示例中，輸入表單已修改：a **[!UICONTROL Data]** 已添加頁籤，以啟用提供和每個子集的優先順序的關聯。
+在以下範例中，已修改輸入表單：a **[!UICONTROL Data]** 已新增索引標籤，以啟用選件與每個子集之優先順序層級的關聯。
 
 ![](assets/cells-activity-sample.png)
 
-對於此配置，以下資訊已添加到工作流表單中。 **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign瀏覽器節點：
+針對此設定，以下資訊已新增至工作流程表單中，位於 **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign explorer節點：
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
@@ -49,4 +50,4 @@ ht-degree: 2%
                 </container>
 ```
 
-Adobe Campaign的輸入表單個性化是專家用戶保留的。 有關此的詳細資訊，請參閱此。
+Adobe Campaign中的輸入表單個人化已保留給專家使用者。
