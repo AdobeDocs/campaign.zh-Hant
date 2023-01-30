@@ -3,9 +3,10 @@ product: campaign
 title: 查詢
 description: 進一步了解查詢工作流程活動
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -41,15 +42,13 @@ ht-degree: 0%
 
 1. 使用精靈定義母體。 要輸入的欄位可能因目標類型而異。 您可以使用 **[!UICONTROL Preview]** 標籤。
 
-   如需建立和使用篩選器或查詢的詳細資訊，請參閱此。
-
    ![](assets/query-sample.png)
 
 1. 如果您已選取 **[!UICONTROL Filtering conditions]** 在步驟1，或使用 **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** 選項，則您稍後必須手動新增篩選條件。
 
    您也可以核取對應方塊，以新增資料分組條件。 若要這麼做，篩選維度必須與查詢的目標維度不同。 有關分組的詳細資訊，請參閱 [節](query-grouping-management.md).
 
-   您也可以使用運算式產生器來新增更多條件，並將其與邏輯選項AND、OR和EXCEPT結合。 然後您就可以預**。
+   您也可以使用運算式產生器來新增更多條件，並將其與邏輯選項AND、OR和EXCEPT結合。
 
    如果您稍後想重新使用篩選器，請儲存篩選器。
 
@@ -182,8 +181,6 @@ ht-degree: 0%
 * 請留意 `Lower(...)`. 使用Lower函式時，不使用索引。
 * 使用「like」指令或「upper」或「lower」指令仔細檢查查詢。 在用戶輸入上應用「Upper」，而不是在資料庫欄位上。
 
-   有關函式的詳細資訊，請參閱。
-
 ### 篩選維度 {#filtering-dimensions}
 
 使用查詢的篩選維度，而非使用「exists sach」運算子。
@@ -212,7 +209,7 @@ SQL中的篩選維等效於內部連接：
    * 作業系統,
    * 版本,
    * 資料,
-   * 應用程式、
+   * 應用程式,
    * 卷。
 
    >[!NOTE]
