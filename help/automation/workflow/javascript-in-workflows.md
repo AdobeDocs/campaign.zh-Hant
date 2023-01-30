@@ -4,9 +4,9 @@ title: 工作流程中的 JavaScript 程式碼範例
 description: 這些範例說明如何在工作流程中使用JavaScript程式碼
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1752'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
    1. 呼叫 `Write` 方法 `xtk:session` 綱要。
 
       >[!IMPORTANT]
-      > 如果您使用Adobe Campaign v8，建議您將預備機制與 **擷取** 和 **資料更新/刪除** 適用於 `Write` 方法。 [了解詳情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}。
+      > 如果您使用Adobe Campaign v8，建議您將預備機制與 **擷取** 和 **資料更新/刪除** 適用於 `Write` 方法。 [深入了解](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. 將XML代碼作為寫入請求的參數傳遞。
 
@@ -78,7 +78,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 更新記錄
 
-使用 `_update` 操作。.
+使用 `_update` 操作。
 
 將此資訊指定為XML屬性：
 
@@ -171,7 +171,7 @@ xtk.session.Write(myXML)
 
 您可以使用下列操作：
 
-| 操作 | 結果 |
+| 作業 | 結果 |
 | --- | --- |
 | `select` | 零個或多個元素會以集合的形式傳回。 |
 | `getIfExists` | 會傳回一個元素。 如果不存在相符元素，則會傳回空白元素。 |
@@ -560,7 +560,7 @@ for each (var w in res.recipient)
 * 此 `delete` 操作
 
 >[!IMPORTANT]
-> 如果您使用Adobe Campaign v8，建議您將預備機制與 **擷取** 和 **資料更新/刪除** 適用於 `Write` 方法。 [了解詳情](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}。
+> 如果您使用Adobe Campaign v8，建議您將預備機制與 **擷取** 和 **資料更新/刪除** 適用於 `Write` 方法。 [深入了解](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### 範例1:插入或更新記錄
 
