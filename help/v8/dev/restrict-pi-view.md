@@ -5,7 +5,7 @@ feature: PI, Privacy
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 實作 {#implementation}
 
-可套用至任何元素或屬性的特定屬性已新增至結構，可補充現有屬性 **[!UICONTROL visibleIf]** . 此屬性為： **[!UICONTROL accessibleIf]** . 包含與目前使用者內容相關的XTK運算式時，可善用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]** ，例如。
+可套用至任何元素或屬性的特定屬性已新增至結構，可補充現有屬性 **[!UICONTROL visibleIf]**. 此屬性為： **[!UICONTROL accessibleIf]**. 包含與目前使用者內容相關的XTK運算式時，可善用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]**，例如。
 
 您可以找到收件者結構擴充功能的範例，其中顯示以下用法：
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 主要屬性為：
 
 * **[!UICONTROL visibleIf]** :會隱藏中繼資料中的欄位，因此無法在結構檢視、欄選取項目或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果在運算式中手動輸入欄位名稱，則會顯示值。
-* **[!UICONTROL accessibleIf]** :會隱藏資料（以空值取代），使其不會產生查詢。 如果visibleIf為空，則會獲得與 **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** :會隱藏資料（以空值取代），使其不會產生查詢。 如果visibleIf為空，則會獲得與 **[!UICONTROL accessibleIf]**.
 
 以下是在Campaign中使用此屬性的後果：
 
