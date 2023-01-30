@@ -3,22 +3,17 @@ product: campaign
 title: 建立篩選器
 description: 了解如何在執行查詢時建立篩選器
 feature: Query Editor, Workflows
-source-git-commit: 5cd75f18ac2f4e02f656fa016f61ba0c7c72670a
+exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
 
 # 建立篩選器 {#creating-a-filter}
 
-
-
 Adobe Campaign中可用的篩選器是透過篩選條件來定義，這些篩選條件是使用與查詢相同的作業模式建立。
-
->[!NOTE]
->
->如需建立篩選器的詳細資訊，請參閱。
 
 此 **[!UICONTROL Administration > Configuration > Predefined filters]** 節點包含清單和概述中使用的所有篩選器。
 
