@@ -1,53 +1,54 @@
 ---
 product: campaign
 title: 跨頻道傳遞
-description: 瞭解有關跨渠道交付的更多資訊
+description: 進一步了解跨通道傳遞
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 4%
 
 ---
 
 # 跨頻道傳遞{#cross-channel-deliveries}
 
-在中提供跨渠道交付 **[!UICONTROL Deliveries]** 頁籤 [活動工作流](campaign-workflows.md) 活動。
+在 **[!UICONTROL Deliveries]** 標籤 [行銷活動工作流程](campaign-workflows.md) 活動。
 
-選擇要作為交付基礎的模板並定義其內容。
+選取您要作為傳送基礎的範本，並定義其內容。
 
-您可以使用不同的目標活動為工作流上游的交付指定目標。
+您可以使用不同的定位活動，為工作流程上游的傳送指定目標。
 
-在下面的示例中，瞭解如何建立工作流以發送電子郵件或發送用於推送通知訂閱者的SMS，然後在一週後發送推送通知。 操作步驟：
+在以下範例中，了解如何建立工作流程，在一週後傳送電子郵件或簡訊給推播通知訂閱者，然後傳送推播通知。 操作步驟：
 
 1. 建立促銷活動.
-1. 在 **[!UICONTROL Targeting and workflows]** 頁籤，添加 **[!UICONTROL Query]** 的子菜單。
-1. 配置查詢：選擇訂閱推送通知的收件人作為目標維。
+1. 在 **[!UICONTROL Targeting and workflows]** 標籤，新增 **[!UICONTROL Query]** 活動。
+1. 配置查詢：選取訂閱推播通知的收件者作為目標維度。
 
    >[!NOTE]
    >
-   >對於推送通知，請使用 **訂戶應用程式** 目標維。
+   >對於推播通知，請使用 **訂閱應用程式** 目標維度。
 
    ![](assets/cross_channel_delivery_1.png)
 
-1. 將篩選條件添加到查詢。 在這種情況下，我們將選擇具有移動號碼或電子郵件地址的收件人。
+1. 將篩選條件新增至查詢。 在此情況下，我們將選取具有行動電話號碼或電子郵件地址的收件者。
 
    ![](assets/cross_channel_delivery_2.png)
 
-1. 添加 **[!UICONTROL Split]** 活動到您的工作流，以劃分具有移動號碼的收件人和具有電子郵件地址的收件人。
-1. 在 **[!UICONTROL Delivery]** 頁籤，為每個目標選擇交貨。
+1. 新增 **[!UICONTROL Split]** 活動來劃分具有行動號碼的收件者和具有電子郵件地址的收件者。
+1. 在 **[!UICONTROL Delivery]** 索引標籤，選取每個目標的傳送。
 
-   通過按兩下工作流中的傳遞活動，以與傳統傳遞嚮導相同的方式建立傳遞。 有關此的詳細資訊，請參閱此。
+   在工作流程中按兩下傳送活動，以傳統傳送精靈的相同方式建立您的傳送。
 
    ![](assets/cross_channel_delivery_3.png)
 
-1. 添加和配置 **[!UICONTROL Wait]** 活動，以便接收者不能同時接收太多交貨。
-1. 添加 **[!UICONTROL Split]** 分配iOS或安卓移動應用的用戶。
+1. 新增及設定 **[!UICONTROL Wait]** 活動，讓收件者不會一次收到太多傳送。
+1. 新增 **[!UICONTROL Split]** 活動來劃分iOS或Android行動應用程式的訂閱者。
 
-   為每個作業系統選擇服務。 有關建立服務的詳細資訊，請參閱此。
+   為每個作業系統選擇服務。
 
    ![](assets/cross_channel_delivery_4.png)
 
-1. 為每個作業系統選擇並配置移動應用程式交付。
+1. 為每個作業系統選取並設定行動應用程式傳送。
 
    ![](assets/cross_channel_delivery_5.png)
