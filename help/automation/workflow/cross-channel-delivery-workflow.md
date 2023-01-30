@@ -4,9 +4,9 @@ title: 跨頻道傳遞工作流程
 description: 進一步了解跨通道傳遞工作流程
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 若要定義目標，請建立查詢以識別收件者。
 
-1. 建立促銷活動. 有關詳細資訊，請參閱。
+1. 建立促銷活動. 在[本頁](../campaigns/marketing-campaign-create.md)中瞭解更多。
 1. 在 **[!UICONTROL Targeting and workflows]** 標籤，新增 **查詢** 活動。 有關使用此活動的詳細資訊，請參閱 [本節](query.md).
 1. 定義將接收您傳遞內容的收件者。 例如，選擇「金」成員作為目標維。
 1. 新增篩選條件至查詢。 在此範例中，選取具有電子郵件地址和行動電話號碼的收件者。
@@ -49,7 +49,7 @@ ht-degree: 4%
 
    ![](assets/wkf_cross-channel_1.png)
 
-   如需將優惠方案整合至訊息內文的詳細資訊，請參閱。
+   如需將優惠方案整合至訊息內文的詳細資訊，請參閱 [本頁](../../v8/send/email.md).
 
 1. 儲存您的變更。
 1. 以滑鼠右鍵按一下 **[!UICONTROL Email delivery]** 活動以開啟。
@@ -107,11 +107,8 @@ ht-degree: 4%
    * 新增 **[!UICONTROL Mobile delivery]** 傳送SMS訊息至第二子集的活動。
    * 新增 **[!UICONTROL List update]** 活動，將對應的收件者新增至資料庫。
 
-1. 連按兩下工作流程中的傳送活動以進行編輯。 如需建立電子郵件和簡訊的詳細資訊，請參閱。
+1. 連按兩下工作流程中的傳送活動以進行編輯。
 1. 按兩下 **[!UICONTROL List update]** 活動並選取 **[!UICONTROL Generate an outbound transition]** 選項。
-
-   然後，您可以將產生的收件者從Adobe Campaign匯出至Adobe Experience Cloud。 例如，您可以新增**來在Adobe Target中使用閱聽眾。
-
 1. 按一下 **開始** 按鈕，執行工作流。
 
 目標母體 **查詢** 活動將會分段，以根據收件者的行為接收電子郵件或簡訊傳送。 剩餘母體將使用 **[!UICONTROL List update]** 活動。
