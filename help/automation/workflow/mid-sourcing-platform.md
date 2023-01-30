@@ -3,10 +3,10 @@ product: campaign
 title: 中間來源平台
 description: 中間來源平台
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 15%
+source-wordcount: '43'
+ht-degree: 23%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 
 
-下面詳細介紹的工作流隨 **中間採購平台** 預設情況下為模組。 有關本模組的詳細資訊，請參閱本模組。
+以下詳述的工作流程會與 **中間來源平台** 模組。
 
 <table> 
  <tbody> 
@@ -25,9 +25,9 @@ ht-degree: 15%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">交付指標</span> <br /> </td> 
-   <td> <span class="uicontrol">交付指標</span> <br /> </td> 
-   <td> 此工作流更新交貨的交貨跟蹤指示符。 預設情況下，此工作流每小時觸發一次。<br /> </td> 
+   <td> <span class="uicontrol">傳送指標</span> <br /> </td> 
+   <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
+   <td> 此工作流程會更新傳送的傳送追蹤指標。 預設會每小時觸發此工作流程。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
