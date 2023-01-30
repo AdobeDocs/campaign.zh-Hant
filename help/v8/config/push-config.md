@@ -6,7 +6,7 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 使用iOS和Android適用的Campaign SDK，來促進行動應用程式與Adobe Campaign平台的整合。
 
-Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列於 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK) .
+Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列於 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
 
 >[!NOTE]
 >
