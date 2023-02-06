@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b783b1444457b3204fea35b613582642499acf65
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 5%
+source-wordcount: '1181'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign會根據傳送失敗的類型及其原因來管理隔離區。 �
 在隔離地址清單中， **[!UICONTROL Error reason]** 欄位指示所選地址被置於隔離區的原因。 [了解更多資訊](#identifying-quarantined-addresses-for-the-entire-platform)。
 
 
-如果使用者將電子郵件歸類為垃圾訊息，則訊息會自動重新導向至由Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指位址，而設定檔不在封鎖清單上，因此使用者會繼續收到SMS訊息和推播通知。 進一步了解 [傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target=&quot;_blank&quot;}。
+如果使用者將電子郵件歸類為垃圾訊息，則訊息會自動重新導向至由Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指位址，而設定檔不在封鎖清單上，因此使用者會繼續收到SMS訊息和推播通知。 進一步了解 [傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Adobe Campaign會根據傳送失敗的類型及其原因來管理隔離區。 �
 
 此外， **[!UICONTROL Non-deliverables and bounces]** 內建報表，可從 **報表** 區段中，顯示隔離中地址、遇到的錯誤類型以及按域劃分的故障資訊。 您可以篩選特定傳送的資料，或視需要自訂此報表。
 
-進一步了解 [傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target=&quot;_blank&quot;}。
+進一步了解 [傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### 隔離的電子郵件地址 {#quarantined-recipient}
 
@@ -112,8 +112,16 @@ Adobe Campaign會根據傳送失敗的類型及其原因來管理隔離區。 �
 
    ![](assets/tech-quarantine-status.png)
 
-* 將其狀態變更為 **[!UICONTROL Allowlisted]**:在此情況下，地址仍保留在隔離清單中，但將系統地定位該地址，即使遇到錯誤亦然。
+您可能需要在隔離清單上執行大量更新，例如，在ISP中斷期間，由於電子郵件無法成功傳送給收件者，因此電子郵件標示錯誤為退信。
 
->[!CAUTION]
->
->如果從隔離清單中刪除地址，則將重新開始向此地址發送。 這可能會對您的傳遞能力和IP信譽造成嚴重影響，最終可能導致您的IP位址或傳送網域遭到封鎖。 考慮從隔離區中移除任何地址時，請格外小心。 如果您需要協助，請聯絡Adobe支援。
+若要執行此動作，請建立工作流程，並在隔離表格上新增查詢，以篩選掉所有受影響的收件者，以便從隔離清單中移除收件者，並納入未來的Campaign電子郵件傳送中。
+
+以下是此查詢的建議准則：
+
+* **錯誤文本（隔離文本）** 包含&quot;Momen_Code10_InvalidRecipient&quot;
+* **電子郵件網域(@domain)** 等於domain1.com或 **電子郵件網域(@domain)** 等於domain2.com或 **電子郵件網域(@domain)** 等於domain3.com
+* **更新狀態(@lastModified)** MM/DD/YYYY HH時或之後:MM:SS AM
+* **更新狀態(@lastModified)** 在MM/DD/YYYY HH之前或之前:MM:SS PM
+
+取得受影響收件者的清單後，請新增 **[!UICONTROL Update data]** 活動將其狀態設定為 **[!UICONTROL Valid]** 以便將其從隔離清單中由 **[!UICONTROL Database cleanup]** 工作流程。 您也可以從隔離表格中刪除它們。
+
