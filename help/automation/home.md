@@ -5,10 +5,10 @@ title: Adobe Campaign自動化首頁
 feature: Overview
 description: 概覽
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: d8a009b1d6ea4f6921cef203d61c78032951f3ee
+source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campaign自動化</b>
+    <b>Campaign 協調流程</b>
     </div>
     <br>
     <div>
