@@ -1,19 +1,19 @@
 ---
-title: Campaign v8 2022發行說明
-description: 2022 Campaign v8版本隨附的功能與改進清單
+title: Campaign v8 2022 發行說明
+description: 2022 Campaign v8 版本隨附的功能與改進清單
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1839'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2022年發行說明{#2022-rn}
+# 2022 發行說明{#2022-rn}
 
-本頁列出隨附的新功能、改善和修正 **2022年Campaign v8版本**.
+本頁面列出 **2022 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。
 
 ## 發行版本 8.4.2 {#release-8-4-2}
 
