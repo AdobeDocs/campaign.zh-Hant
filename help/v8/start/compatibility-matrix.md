@@ -1,14 +1,14 @@
 ---
-title: Campaign v8 相容性對照表
-description: 探索與Campaign v8相容的系統和版本
+title: Campaign v8 相容性比較表
+description: 發現與 Campaign v8 相容的系統及版本
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
 ### 作業系統{#op-systems}
 
 * **Microsoft Windows 伺服器** 2019、2016、2012
-* **Microsoft Windows** 11, 10, 8
+* **Microsoft Windows** 11、10、8
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 89%
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**，最新版本。 從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}.
+* **Microsoft Edge WebView2**，最新版本。 從 [Microsoft 開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。
 
 ## CRM 連接器{#CRMconnectors}
 
@@ -61,8 +61,8 @@ ht-degree: 89%
 
 您可以使用 Campaign，透過相關聯的行動 SDK，在下列作業系統上傳送[推播通知](../send/push.md)。
 
-* **Android** 12、9.0、8.x、7.x，搭配Campaign Android SDK版本編號1.1.1。
-* **Apple iOS** 9 - 16 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。Apple iOS 16從Campaign v8.4開始即受支援。
+* **Android** 12、9.0、8.x、7.x (含 Campaign Android SDK 版本編號 1.1.1)。
+* **Apple iOS** 9 - 16 與 Campaign iOS SDK 版本編號 1.0.26 (32 位元 及 64 位元) 版本相容。自 Campaing v8.4 開始支援 Apple iOS 16。
 
 
 ## 網路存取{#web-access}
