@@ -1,19 +1,19 @@
 ---
-title: Campaign v8 2021發行說明
-description: 2021 Campaign v8版本隨附的功能與改進清單
+title: Campaign v8 2021 發行說明
+description: 2021 Campaign v8 版本隨附的功能與改進清單
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2021年發行說明{#2021-release}
+# 2021 發行說明{#2021-release}
 
-本頁列出隨附的新功能、改善和修正 **2021年Campaign v8發行版本**.
+本頁面列出 **2021 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。
 
 ## 第 8.2.8 發行版本 {#release-8-2-8}
 
