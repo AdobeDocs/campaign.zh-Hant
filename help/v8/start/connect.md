@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '817'
 ht-degree: 8%
 
 ---
@@ -27,7 +27,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 從Campaign Classic8.4版建置版本，安裝任何主控台都需要安裝Microsoft Edge Webview 2執行階段。
 
-預設情況下，Web視圖是Windows 11作業系統的一部分。 如果系統上尚未出現，Campaign主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target=&quot;_blank&quot;}。 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已不再支援。 請確定您使用不同的瀏覽器來存取連結。
+預設情況下，Web視圖是Windows 11作業系統的一部分。 如果系統上尚未出現，Campaign主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已不再支援。 請確定您使用不同的瀏覽器來存取連結。
 
 ## 下載並安裝客戶端控制台{#download-ac-console}
 
@@ -35,7 +35,7 @@ Campaign用戶端主控台是一個豐富用戶端，可讓您連線至您的Cam
 
 有兩個選項可用：
 
-1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;}並下載客戶端控制台安裝程式。 然後，您可以將其安裝在本機電腦上。
+1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} 下載客戶端控制台安裝程式。 然後，您可以將其安裝在本機電腦上。
 
 1. 身為一般使用者，Adobe可為您部署主控台：更新主控台後，系統會在快顯視窗中提示您下載最新的用戶端主控台版本。
 
@@ -102,7 +102,7 @@ Adobe Campaign可讓您定義及管理指派給各種運算子的權限。
 
 Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)連線至Adobe Campaign主控台。 所有Adobe解決方案都可使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。
 
-深入了解Adobe IMS，位於 [本頁](https://helpx.adobe.com/enterprise/using/identity.html){target=&quot;_blank&quot;}。
+深入了解Adobe IMS，位於 [本頁](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 ## 網路存取{#web-access}
 

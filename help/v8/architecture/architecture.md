@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '702'
 ht-degree: 12%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 您可以將套件從一個環境匯出並匯入至另一個環境。
 
-![](../assets/do-not-localize/book.png) 深入了解套件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 深入了解套件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## 部署模型{#ac-deployment}
 
@@ -74,4 +74,4 @@ ht-degree: 12%
 
 * 多個執行實例在負載平衡器後面具有多個執行實例的多單元執行體系結構中，外部應用程式調用的登錄方法正在通過負載平衡器：因此，無法使用以權杖為基礎的驗證。 需要基於用戶/密碼的身份驗證。
 
-![](../assets/do-not-localize/book.png) 進一步了解交易式訊息事件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 進一步了解交易式訊息事件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}

@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 ![](../assets/do-not-localize/glass.png) 了解如何在 [本節](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) 探索中內建收件者表格擴充功能的範例，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 探索中內建收件者表格擴充功能的範例，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target="_blank"}
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法有其限制，其說明於 [本節](custom-recipient.md).
 

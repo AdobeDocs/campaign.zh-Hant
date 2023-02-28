@@ -5,7 +5,7 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ ht-degree: 100%
    + [Campaign + Experience Cloud 觸發程式](connect/ac-triggers.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
-   + Campaign + 您的 CRM{#ac-crm}
+   + Campaign + 您的 CRM {#ac-crm}
       + [開始使用 CRM 連接器](connect/crm.md)
       + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
