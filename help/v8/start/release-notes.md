@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: ht
-source-wordcount: '454'
-ht-degree: 100%
+source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 91%
 
 ---
 
 # 最新發行版本{#latest-release}
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
+
+## 發行版本 8.4.4 {#release-8-4-4}
+
+>[!CAUTION]
+>
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
+
+_2023年3月8日_
+
+**安全性增強功能**
+
+* 為了改善安全性，已將Tomcat從8.5.81版更新至8.5.85版。 (NEO-50530)
+
+**修補程式**
+
+* 修正了無法捲動 **編輯** 數字內容編輯器(DCE)的頁簽。 (NEO-54474)
+* 修正復寫期間，可能導致Web伺服器當機的問題。 (NEO-53670)
 
 ## 發行版本 8.4.3 {#release-8-4-3}
 
