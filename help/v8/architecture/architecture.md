@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,48 @@ ht-degree: 12%
 
    Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
+## 分割傳送執行 {#split}
+
+>[!AVAILABILITY]
+>
+>此功能僅適用於具有多個MID執行個體設定的客戶。
+
+根據您的Campaign v8套件，您已布建特定數量的中間來源例項，負責執行傳送。
+
+依預設，所有管道的外部帳戶都使用 **[!UICONTROL Alternate]** 路由模式，表示每次會以交替的方式從每個中間執行個體傳送一個傳送。
+
+為確保在速度和規模上提供更佳效能，您可以允許傳送自動分割到中間來源執行個體，以便更快傳送給收件者。 從行銷執行個體執行傳送時，此操作是透明的：傳送後，所有記錄檔都會合併在一起，再傳回至行銷執行個體至單一傳送物件。
+
+若要這麼做，請使用 **[!UICONTROL Split]** 在為每個通道預配時建立路由模式：
+
+* 分割傳送 — 電子郵件(splitDeliveryEmail)
+* 分割傳送 — SMS(splitDeliverySMS)
+* 分割傳送 — iOS(splitDeliveryIOS)
+* 分割傳送 — Android(splitDeliveryAndroid)
+
+![](assets/splitted-delivery.png)
+
+>[!IMPORTANT]
+>
+>「分割傳送 — 電子郵件」帳戶預設會啟用分割路由模式。 對於所有其他管道外部帳戶，請連絡客戶服務以啟用選項。
+>
+>依預設，在多個mid之間分割傳送的臨界大小值為100K。 您可以在 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** 功能表。
+
+為了將分割的外部帳戶設為傳送傳遞的預設帳戶，您必須在傳遞範本中變更路由提供者。 要執行此操作，請依照下列步驟執行：
+
+1. 導覽至 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** 資料夾，並開啟所需的傳送範本。 在此範例中，我們要編輯電子郵件傳送範本。
+
+   ![](assets/split-default-list.png)
+
+1. 按一下 **[!UICONTROL Properties]** 按鈕，並將路由提供程式更改為相應的拆分傳送外部帳戶。
+
+   ![](assets/split-default-delivery.png)
+
+1. 儲存您的變更。使用範本傳送的所有傳送現在預設會使用分割路由模式。
+
+<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
+
+![](assets/split-default-options.png) -->
 
 ## 訊息中心架構{#transac-msg-archi}
 
