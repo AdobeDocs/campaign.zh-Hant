@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 91%
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
 
 ## 發行版本 8.4.4 {#release-8-4-4}
-
->[!CAUTION]
->
-> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
 
 _2023年3月8日_
 
@@ -34,11 +30,14 @@ _2023年3月8日_
 * 修正了無法捲動 **編輯** 數字內容編輯器(DCE)的頁簽。 (NEO-54474)
 * 修正復寫期間，可能導致Web伺服器當機的問題。 (NEO-53670)
 
-## 發行版本 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
+
+
+## 發行版本 8.4.3 {#release-8-4-3}
+
 
 _2023 年 1 月 27 日_
 
@@ -67,3 +66,6 @@ _2023 年 1 月 27 日_
 * 透過多次傳送來改善工作流程中追蹤 URL 的管理，以提升效能。(NEO-50894) <!--OKKKK-->
 * 修正可能導致使用 Xtkfolder 的結構複寫失敗的問題。(NEO-46787) <!--OKKKK-->
 * 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。(NEO-48402)
+
+
+**此版本強制進行用戶端主控台升級**  — 了解如何升級您的用戶端主控台，請參閱 [頁面](../start/connect.md#upgrade-ac-console).

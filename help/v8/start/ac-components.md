@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,15 @@ Adobe Campaign元件和全域架構於下方說明。
 
 * 富客戶端
 
-   Campaign Rich用戶端是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。
-
-   Campaign用戶端主控台會集中所有功能和設定，因需最低頻寬，因為它需仰賴本機快取。 Campaign用戶端主控台可從網際網路瀏覽器部署，且可自動更新，且不需要任何特定的網路設定，因為它只會產生HTTP(S)流量。
-
-   ![](../assets/do-not-localize/glass.png) [進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
+   Campaign Rich用戶端是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 [ 進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
 
 * 瘦客戶端
 
-   Adobe Campaign Web存取功能可讓您使用網頁瀏覽器，使用HTML使用者介面存取Campaign功能的子集。 使用此Web介面來存取報告、控制和驗證訊息、存取監控控制面板等。
-
-   ![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 網頁存取](../start/connect.md)。
+   Adobe Campaign Web存取功能可讓您使用網頁瀏覽器，使用HTML使用者介面存取Campaign功能的子集。 使用此Web介面來存取報告、控制和驗證訊息、存取監控控制面板等。  [ 深入瞭解 Campaign 網頁存取](../start/connect.md)。
 
 * 使用API的外部應用程式
 
-   在某些情況下，可使用透過SOAP通訊協定公開的網站服務API，從外部應用程式呼叫系統。
-
-   ![](../assets/do-not-localize/glass.png) [進一步了解Campaign API](../dev/api.md).
+   在某些情況下，可使用透過SOAP通訊協定公開的網站服務API，從外部應用程式呼叫系統。 [進一步了解Campaign API](../dev/api.md).
 
 ### 持久層{#persistance-layer}
 
