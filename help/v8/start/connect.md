@@ -5,16 +5,16 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 8%
 
 ---
 
 # 連線至Adobe Campaign v8{#gs-ac-connect}
 
-您必須安裝Campaign用戶端主控台，才能連線至您的Campaign應用程式伺服器。
+若要開始使用Campaign，您必須安裝並設定用戶端主控台。
 
 用戶端主控台是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign用戶端主控台會集中所有功能和設定，因需最低頻寬，因為它需仰賴本機快取。 Campaign用戶端主控台可從網際網路瀏覽器部署，且可自動更新，且不需要任何特定的網路設定，因為它只會產生HTTP(S)流量。
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 * 在 [相容性矩陣](compatibility-matrix.md)
 * 取得您的Campaign伺服器URL
-* 建立Adobe ID或從公司取得使用者認證
+* 建立Adobe ID，或從公司取得使用者認證
 * 在您的系統上安裝Microsoft Edge Webview2執行階段。 [了解更多](#webview)
 
 ## 安裝客戶端控制台{#download-ac-console}
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 從Campaign Classic8.4版本建置版本，安裝任何用戶端主控台都需要安裝Microsoft Edge Webview 2執行階段。
 
-預設情況下，Web視圖是Windows 11作業系統的一部分。 如果系統上尚未出現，Campaign主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已不再支援。 請確定您使用不同的瀏覽器來存取連結。
+預設情況下，Web視圖是Windows 11作業系統的一部分。 如果系統上尚未出現，Campaign用戶端主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已不再支援。 請確定您使用不同的瀏覽器來存取連結。
 
 ### 下載主控台{#install-ac-console}
 
@@ -49,11 +49,9 @@ ht-degree: 7%
 
 ## 建立連線{#create-your-connection}
 
-新安裝客戶端控制台後，請按照以下步驟建立與應用程式伺服器的連接：
+安裝客戶端控制台後，請按照以下步驟建立與應用程式伺服器的連接：
 
-1. 從Windows啟動Console **[!UICONTROL Start]** ，在 **Adobe Campaign** 方案組。
-
-1. 按一下認證欄位右上角的連結，以存取連線設定視窗。
+1. 啟動Console並瀏覽右角的連結以存取連線設定畫面。
 
 1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用程式伺服器的標籤和URL。
 
@@ -77,9 +75,7 @@ Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)�
 
 若要登入執行個體，請遵循下列步驟：
 
-1. 從Windows啟動Console **[!UICONTROL Start]** ，在 **Adobe Campaign** 方案組。
-
-1. 按一下認證欄位右上角的連結，以存取連線設定視窗。
+1. 啟動Console並瀏覽右角的連結以存取連線設定畫面。
 
    ![](assets/connectToCampaign.png)
 
@@ -87,13 +83,13 @@ Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)�
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-1. 然後，您可以使用 [您的Adobe ID](#connect-ims).
+然後，您可以使用 [您的Adobe ID](#connect-ims).
 
-   ![](assets/adobeID.png)
+![](assets/adobeID.png)
 
 >[!NOTE]
 >
->若為campaign classic 8.4組建版本，Adobe Campaign用戶端主控台可能會在Proxy驗證期間要求兩次Proxy憑證。 這是因為Microsoft Edge Webview2不會將Proxy憑證儲存在快取/密碼存放區，不像Internet Explorer。
+>由於Microsoft Edge Webview2不會儲存代理憑證，因此主控台可能會要求您在第一個連線時執行兩次驗證。
 
 ## 升級您的客戶端控制台{#upgrade-ac-console}
 
@@ -103,7 +99,7 @@ Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)�
 
 >[!CAUTION]
 >
->Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 未選取，以確保在有新版本的Console可用時，會提醒所有使用者。 如果選取此選項，系統不會通知使用者新的可用版本。
+>Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 未選取，以確保在有新版本的Console可用時收到警報。 如果選取此選項，系統不會通知使用者需要進行主控台升級。
 
 
 ## 授予使用者存取權{#grant-access}
