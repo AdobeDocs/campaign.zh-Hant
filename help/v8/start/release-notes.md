@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+source-wordcount: '519'
+ht-degree: 91%
 
 ---
 
@@ -68,4 +68,6 @@ _2023 年 1 月 27 日_
 * 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。(NEO-48402)
 
 
-**此版本強制進行用戶端主控台升級**  — 了解如何升級您的用戶端主控台，請參閱 [頁面](../start/connect.md#upgrade-ac-console).
+>[!CAUTION]
+>
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
