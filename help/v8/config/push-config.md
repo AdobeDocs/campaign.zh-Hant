@@ -6,16 +6,20 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: ea660ce993c2529d81e625e687c8a8254f1e9904
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 3%
+source-wordcount: '1311'
+ht-degree: 2%
 
 ---
 
 # 將 Campaign SDK 與您的應用程式整合 {#integrate-campaign-sdk}
 
-使用iOS和Android適用的Campaign SDK，來促進行動應用程式與Adobe Campaign平台的整合。
+您可以使用iOS和Android適用的Campaign SDK，來促進行動應用程式與Adobe Campaign平台的整合。
+
+>[!NOTE]
+>
+>您也可以在資料收集UI中設定Adobe Experience Platform擴充功能，以使用Adobe Campaign Mobile SDK。 [進一步了解開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列於 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
 
@@ -651,7 +655,7 @@ Android SDK是以JAVA撰寫的Jar程式庫。 它可讓Android開發人員與Ado
    | ACCRegisterDeviceStatusFailureUnknownUUID | 提供的UUID（整合金鑰）未知。 | 空白 |
    | ACCRegisterDeviceStatusFailureUnexcipedError | 傳回到ACC伺服器的錯誤。 | 傳回至ACC的錯誤訊息。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    **Neolane_SDKDelegate** 協定和 **registerDeviceStatus** 委派定義如下：
 
