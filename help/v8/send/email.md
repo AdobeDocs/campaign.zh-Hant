@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -69,7 +69,7 @@ ht-degree: 16%
 
    * 添加鏡像頁
 
-      若要允許收件者在網頁瀏覽器中檢視您的傳遞內容，請新增連結至訊息的鏡像頁面。
+      若要允許收件者在網頁瀏覽器中檢視您的傳遞內容，請新增連結至 [鏡像頁面](../send/mirror-page.md) 你的留言。
 
       將游標置於要插入此連結的位置，然後按一下工具欄中的最後一個表徵圖，然後按一下 **[!UICONTROL Include]** 選取 **[!UICONTROL link to mirror page]**.
    內容準備就緒後，按一下 **儲存**:它現在會顯示在您的傳送清單中， **[!UICONTROL Campaigns > Deliveries]** 標籤。 您的第一封電子郵件已就緒。 您現在需要定義對象、驗證傳送並傳送。
