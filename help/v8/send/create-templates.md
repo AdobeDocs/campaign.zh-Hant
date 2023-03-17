@@ -1,14 +1,15 @@
 ---
 product: campaign
-title: 使用傳遞範本
+title: 利用傳送範本
 description: 了解如何在Campaign中建立和使用傳遞範本
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
+exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
 * 類型
 * 寄件者和回覆地址
 * 基本個人化區塊
-* 鏡像頁面和取消訂閱的連結 連結
+* 連結至 [鏡像頁面](../send/mirror-page.md) 取消訂閱連結
 * 內容、公司標誌或簽名
 * 其他傳送屬性，例如資源有效性、重試參數或隔離設定。
 
@@ -85,7 +86,7 @@ Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播
 1. 從 **屬性** 按鈕，調整設定。
 1. 在 **一般** ，確認或變更 **執行資料夾**, **資料夾**，和 **路由** 下拉式功能表。
 1. 完成 **電子郵件參數** 類別，以及您的電子郵件主旨和目標母體。
-1. 新增 **HTML內容** 若要個人化您的範本，您可以顯示鏡像頁面連結和取消訂閱連結。
+1. 新增 **HTML內容** 若要個人化您的範本，您可以顯示 [鏡像頁面連結](../send/mirror-page.md) 和取消訂閱連結。
 1. 選取 **預覽** 標籤。 在 **測試個人化** 下拉式功能表，選取 **收件者** 將範本預覽為選取的設定檔。
 1. 按一下 **儲存**. 您的範本現在已可用於傳送。
 
@@ -141,4 +142,4 @@ Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-提供其他Campaign Classic作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant).
+提供其他Campaign作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

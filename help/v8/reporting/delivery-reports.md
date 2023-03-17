@@ -2,13 +2,13 @@
 title: Adobe Campaign內建的傳送報表
 description: Adobe Campaign內建的傳送報表
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
-
 
 # 傳遞報告 {#delivery-reports}
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 * **[!UICONTROL Distinct opens for the population reached]** :估計已至少開啟消息一次的目標接收者的數量。 由於必須開啟電子郵件才能點按連結，因此系統會考慮對追蹤URL的點按次數。
 * **[!UICONTROL Sum of opens for the population reached]** :目標收件者開啟總數的估計。
 * **[!UICONTROL Clicks on opt-out link]** :取消訂閱連結的點按次數。
-* **[!UICONTROL Clicks on the mirror page link]** :點擊鏡像頁面連結的次數。 若想納入考量，必須在傳送精靈（追蹤的URL）中將連結定義為。 <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL Clicks on the mirror page link]** :連結至的點按次數 [鏡像頁面](../send/mirror-page.md). 若想納入考量，必須在傳送精靈（追蹤的URL）中將連結定義為。
 * **[!UICONTROL Estimation of forwards]** :目標收件者轉送的電子郵件估計數。 此值的計算方式是減去不同人員的數量以及在電子郵件中點按的不同收件者數量。
 
    >[!NOTE]
@@ -83,7 +83,7 @@ ht-degree: 2%
 >
 >此報告中顯示的域名在多維資料集級別使用的明細清單中定義。 若要變更、新增或移除預設網域，請編輯 **[!UICONTROL Domains]** 逐項列出並修改值和別名。 此 **[!UICONTROL Others]** 類別包含不屬於分項清單任何值的網域名稱。
 >
->了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}。
+>了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -203,5 +203,3 @@ This chart shows the breakdown of cumulated clicks per day.
 若要從清單中選取非相鄰的傳送，請在選取時按住CTRL鍵。
 
 若要選取儲存在不同資料夾中的傳送，請按一下 **[!UICONTROL Display sub-levels]** 圖示，可在工具列中存取。 然後，它們會顯示在相同的清單中。
-
-
