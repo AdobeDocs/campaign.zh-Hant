@@ -1,17 +1,19 @@
 ---
 title: 向鏡像頁面添加連結
-description: 了解如何連結至鏡像頁面
+description: 了解如何新增和管理鏡像頁面的連結
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# 關於電子郵件鏡像頁面{#mirror-page}
+# 連結到鏡像頁{#mirror-page}
+
+## 關於鏡像頁面{#about-mirror-page}
 
 鏡像頁面是您電子郵件的線上版本。
 
@@ -24,11 +26,9 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
 ## 向鏡像頁面添加連結{#link-to-mirror-page}
 
-插入鏡像頁面的連結是一種好做法。 此連結可以是「在您的瀏覽器中檢視此電子郵件」，通常位於電子郵件的標題或注腳。
+插入鏡像頁面的連結是一種好做法。 例如，此連結可以是「在瀏覽器中檢視此電子郵件」或「線上閱讀此內容」。 它通常位於電子郵件的標題或注腳。
 
-在Adobe Campaign中，您可以使用專用 **個人化區塊**. 依預設，只有在將連結插入訊息內容中時，才會產生鏡像頁面。
-
-內建 **鏡像頁面的連結** 個人化區塊會在您的電子郵件內容中插入下列程式碼： `<%@ include view='MirrorPage' %>`.
+在Adobe Campaign中，您可以使用專用 **個人化區塊**. 內建 **鏡像頁面的連結** 個人化區塊會在您的電子郵件內容中插入下列程式碼： `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
