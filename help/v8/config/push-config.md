@@ -6,7 +6,7 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea660ce993c2529d81e625e687c8a8254f1e9904
+source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 2%
@@ -17,16 +17,14 @@ ht-degree: 2%
 
 您可以使用iOS和Android適用的Campaign SDK，來促進行動應用程式與Adobe Campaign平台的整合。
 
+Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列於 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
+
+身為Campaign管理員，您可以從 [Experience Cloud軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). 如需詳細資訊，請聯絡 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+
 >[!NOTE]
 >
 >您也可以在資料收集UI中設定Adobe Experience Platform擴充功能，以使用Adobe Campaign Mobile SDK。 [進一步了解開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列於 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
-
->[!NOTE]
->
->身為Campaign管理員，您可以從 [Experience Cloud軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). 如需詳細資訊，請聯絡 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
 
 ## 宣告整合設定 {#declaring-integration-settings}
 
