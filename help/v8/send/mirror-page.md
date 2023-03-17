@@ -4,9 +4,9 @@ description: 了解如何新增和管理鏡像頁面的連結
 feature: Email
 role: User
 level: Beginner
-source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
+source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,14 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
 ![](assets/mirror-page-link.png)
 
-
 ## 向鏡像頁面添加連結{#link-to-mirror-page}
 
 插入鏡像頁面的連結是一種好做法。 例如，此連結可以是「在瀏覽器中檢視此電子郵件」或「線上閱讀此內容」。 它通常位於電子郵件的標題或注腳。
 
 在Adobe Campaign中，您可以使用專用 **個人化區塊**. 內建 **鏡像頁面的連結** 個人化區塊會在您的電子郵件內容中插入下列程式碼： `<%@ include view='MirrorPage' %>`.
+
+![](assets/mirror-page-insert.png)
+
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
@@ -47,5 +49,19 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
 * **[!UICONTROL Force the generation of the mirror page]**:即使傳送中未插入鏡像頁面的連結，仍使用此模式來產生鏡像頁面。
 * **[!UICONTROL Do not generate the mirror page]**:使用此模式可避免產生鏡像頁面，即使傳送中有連結亦然。
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**:使用此選項可在傳送記錄視窗中啟用對鏡像頁面內容及個人化資料的存取。 要訪問此鏡像頁面：傳送後，請開啟傳送並瀏覽至其 **[!UICONTROL Delivery]** 標籤。 選取收件者，然後按一下 **[!UICONTROL Display the mirror page for this message...]** 連結。 鏡像頁面會顯示在新索引標籤中。
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**:當電子郵件內容中未出現鏡像頁面連結時，請使用此選項以在傳送記錄視窗中啟用對鏡像頁面內容的存取，如下所述。
+
+## 檢查收件者的鏡像頁面{#mirror-page-access}
+
+您可以使用個人化資料，存取傳遞之特定收件者的鏡像頁面內容。
+
+要訪問此鏡像頁面：
+
+1. 傳送後，請開啟傳送並瀏覽至其 **[!UICONTROL Delivery]** 標籤。
+
+1. 選取收件者，然後按一下 **[!UICONTROL Display the mirror page for this message...]** 連結。
+
+   ![](assets/mirror-page-display.png)
+
+   鏡像頁面會顯示在專用螢幕中，並包含所選收件者的個人化資料。
 
