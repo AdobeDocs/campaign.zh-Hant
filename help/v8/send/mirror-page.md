@@ -4,7 +4,7 @@ description: 了解如何新增和管理鏡像頁面的連結
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
+source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
-![鏡像連結示例](assets/mirror-page-link.png){width="300" align="center"}
+![鏡像連結示例](assets/mirror-page-link.png){width="500" align="left"}
 
 ## 向鏡像頁面添加連結{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
 在Adobe Campaign中，您可以使用專用 **個人化區塊**. 內建 **鏡像頁面的連結** 個人化區塊會在您的電子郵件內容中插入下列程式碼： `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png)
+![](assets/mirror-page-insert.png){width="500" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 1. 瀏覽至 **[!UICONTROL Validity]** 標籤。
 1. 在 **鏡像頁面管理** 部分，檢查 **[!UICONTROL Mode]** 下拉式清單。
 
-![](assets/mirror-page-generation.png)
+![](assets/mirror-page-generation.png){width="500" align="left"}
 
 除了預設模式外，還提供下列選項：
 
@@ -61,7 +61,7 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
 1. 選取收件者，然後按一下 **[!UICONTROL Display the mirror page for this message...]** 連結。
 
-   ![](assets/mirror-page-display.png)
+   ![](assets/mirror-page-display.png){width="500" align="left"}
 
    鏡像頁面會顯示在專用螢幕中，並包含所選收件者的個人化資料。
 
