@@ -4,9 +4,9 @@ description: 了解如何新增和管理鏡像頁面的連結
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
+source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 
-![](assets/mirror-page-link.png)
+![鏡像連結示例](assets/mirror-page-link.png){width="300" align="center"}
 
 ## 向鏡像頁面添加連結{#link-to-mirror-page}
 
