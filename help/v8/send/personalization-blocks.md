@@ -1,18 +1,18 @@
 ---
-title: 個人化區塊
+title: 使用個人化區塊
 description: 了解如何在訊息內容中使用內建的個人化區塊
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 1%
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
 
-# 個人化區塊{#personalization-blocks}
+# 使用個人化區塊{#personalization-blocks}
 
 個人化區塊是動態內容，包含您可插入至傳送的特定轉譯。 例如，您可以新增標誌、問候訊息或鏡像頁面的連結。
 

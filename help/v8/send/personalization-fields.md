@@ -1,18 +1,18 @@
 ---
-title: 個人化欄位
+title: 新增個人化欄位
 description: 了解如何在訊息內容中插入個人化資料
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 2%
 
 ---
 
 
-# 個人化欄位{#personalization-fields}
+# 新增個人化欄位{#personalization-fields}
 
 根據您為每個收件者設定的規則，使用個人化欄位以一對一方式提供個人化內容。
 
