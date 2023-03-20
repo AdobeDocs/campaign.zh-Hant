@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 98%
+source-wordcount: '512'
+ht-degree: 96%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 98%
          + [傳遞失敗](send/delivery-failures.md)
       + [傳送時間最佳化](send/predictive.md)
       + [管理訂閱](start/subscriptions.md)
+   + 個人化內容 {#personalize}
+      + [開始使用個人化](send/personalize.md)
+      + [個人化資料](send/personalization-data.md)
+      + [新增個人化欄位](send/personalization-fields.md)
+      + [使用個人化區塊](send/personalization-blocks.md)
+      + [建立條件](send/conditions.md)
 + 設定檔與對象管理 {#audience}
    + [開始使用設定檔和對象](audiences/gs-audiences.md)
    + [配合對象](start/audiences.md)

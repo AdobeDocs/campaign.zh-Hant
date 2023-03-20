@@ -1,113 +1,114 @@
 ---
 product: campaign
 title: 行銷活動傳遞
-description: 瞭解有關市場營銷活動交付的更多資訊
+description: 深入了解行銷活動傳遞
 feature: Campaigns, Resource Management, Cross Channel Orchestration
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
 
 # 行銷活動傳遞 {#marketing-campaign-deliveries}
 
-在市場活動中協調您的跨渠道交貨：通過個性化電子郵件、簡訊、推送通知和應用內消息簡化您與Adobe Campaign的通信。 您可以使用視頻、表情符號或GIF等富媒體，並直接將它們整合。
+在行銷活動中協調您的跨管道傳送：透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您可以使用多媒體，例如視訊、表情符號或GIF，並直接加以整合。
 
-可通過市場活動控制面板、市場活動工作流或直接通過交貨概覽建立交貨。 從市場活動建立交貨後，交貨將連結到此市場活動並在市場活動級別進行合併。
+傳遞可透過促銷活動控制面板、促銷活動工作流程或直接透過傳遞的概觀來建立。 從促銷活動建立傳遞時，傳遞將連結至此促銷活動，並在促銷活動層級進行整合。
 
 ## 建立傳遞 {#create-deliveries}
 
-您有兩種方法可將交貨添加到市場營銷活動：
+您有兩種方式可將傳送新增至行銷活動：
 
-* 從 **[!UICONTROL Add a delivery]** 連結。
+* 從 **[!UICONTROL Add a delivery]** 在促銷活動控制面板中的連結。
 
 ![](assets/campaign_op_add_delivery.png)
 
-保存後，交貨即添加到市場活動控制面板。
+儲存後，傳遞會新增至促銷活動控制面板。
 
-* 從市場活動工作流，在 **[!UICONTROL Targeting and workflows]** 按鈕。
+* 在促銷活動工作流程中， **[!UICONTROL Targeting and workflows]** 標籤，方法是新增傳送。
 
    ![](assets/campaign-wf-delivery.png)
 
-   啟動工作流後，交貨將添加到市場活動控制面板。
+   工作流程開始後，傳遞會新增至促銷活動控制面板。
 
-瞭解如何設定和執行交貨審批流 [此頁](marketing-campaign-approval.md)。
+了解如何設定及執行傳遞核准流程 [在本頁](marketing-campaign-approval.md).
 
-## 開始交貨 {#start-a-delivery}
+## 開始傳送 {#start-a-delivery}
 
-一旦獲得所有批准，就可以發送交貨。 交付執行過程取決於渠道。
+一旦所有核准都獲得授權，即可傳送。 傳送執行程式取決於通道。
 
-* 有關電子郵件或移動渠道交付，請參閱 [此部分](#start-an-online-delivery)
+* 如需電子郵件或行動通道傳送，請參閱 [本節](#start-an-online-delivery)
 
-* 有關直郵遞送，請參閱 [此部分](#start-an-offline-delivery)
+* 如需直接郵件傳送，請參閱 [本節](#start-an-offline-delivery)
 
-### 啟動電子郵件或移動交付 {#start-an-online-delivery}
+### 開始電子郵件或行動傳送 {#start-an-online-delivery}
 
-一旦授予所有批准請求，交貨狀態將更改為 **[!UICONTROL Pending confirmation]** 可以啟動。 可以啟動傳遞的審閱者會通知已準備啟動傳遞。
+所有核准請求一經授與，傳送狀態會變更為 **[!UICONTROL Pending confirmation]** 和即可開始。 可以開始傳送的審核者會收到傳送已準備好開始的通知。
 
 ![](assets/confirm-delivery.png)
 
-該資訊也顯示在市場活動控制面板上。 的 **[!UICONTROL Confirm delivery]** 連結可啟動交貨。
+資訊也會顯示在促銷活動控制面板上。 此 **[!UICONTROL Confirm delivery]** 連結可讓您開始傳送。
 
 ![](assets/confirm-delivery-from-dashboard.png)
 
-確認交付僅限於管理員以及在交付或市場活動屬性中明確提及的操作員或操作員組。 如果未設計操作員，管理員和市場活動所有者可以批准。
+確認傳送僅限於「管理員」，以及傳送或促銷活動屬性中明確提及的運算子或運算子群組。 如果未設計運算子，管理員和促銷活動擁有者即可核准。
 
 ![](assets/select-delivery-reviewers.png)
 
-但是，您也可以允許市場活動所有者確認發送，即使在交付屬性或市場活動屬性中定義了特定審核者。 要執行此操作，請以管理員身份建立 **NmsCampaign_Activate_OwnerConfirmation** 選項，並將其設定為 **1**。 這些選項是從 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 的子菜單。
+不過，您也可以允許行銷活動擁有者確認傳送，即使已在傳送或行銷活動屬性中定義特定審核者亦然。 若要這麼做，請以管理員身分，建立 **NmsCampaign_Activate_OwnerConfirmation** 選項，並將其設為 **1**. 選項可從 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** Campaign檔案總管的資料夾。
 
 
-### 啟動直接郵件傳遞 {#start-an-offline-delivery}
+### 開始直接郵件傳送 {#start-an-offline-delivery}
 
-一旦所有批准都獲得，交貨狀態將更改為 **[!UICONTROL Pending extraction]**。 提取檔案通過專用的 [技術工作流](../workflow/technical-workflows.md) 在預設配置中，當直郵遞送掛起提取時自動啟動。 當進程正在進行時，該進程將顯示在儀表板中，並可通過其連結進行編輯。
+一旦所有核准均獲得授權，傳送狀態會變更為 **[!UICONTROL Pending extraction]**. 解壓縮檔案會透過專用 [技術工作流程](../workflow/technical-workflows.md) 在預設設定中，當直接郵件傳送擱置提取時自動啟動。 進程進行中時，會顯示在控制面板中，並可透過其連結編輯。
 
-抽取工作流成功執行後，必須批准抽取檔案（前提是在傳遞設定中選擇了抽取檔案批准）。 [了解更多資訊](marketing-campaign-approval.md#approving-an-extraction-file)。
+擷取工作流程成功執行後，必須核准擷取檔案（前提是已在傳送設定中選取擷取檔案核准）。 [了解更多資訊](marketing-campaign-approval.md#approving-an-extraction-file)。
 
-按照以下步驟驗證內容並將檔案發送到提供程式：
+請依照下列步驟驗證內容，並將檔案傳送至提供者：
 
-1. 一旦提取檔案獲得批准，您就可以生成路由器通知電子郵件的證明。 此電子郵件消息基於傳遞模板構建。 必須批准。
+1. 提取檔案獲得批准後，您就可以生成路由器通知電子郵件的證明。 此電子郵件訊息是根據傳遞範本所建構。 必須獲得批准。
 
-   此步驟僅在 **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** 選項在中啟用 **[!UICONTROL Approvals]** 頁籤。
+   此步驟僅在 **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** 選項 **[!UICONTROL Approvals]** 進階促銷活動參數的標籤。
 
    ![](assets/enable-proof-validation.png)
 
-1. 按一下 **[!UICONTROL Send a proof]** 按鈕。
+1. 按一下 **[!UICONTROL Send a proof]** 按鈕來建立校樣。
 
-   證明目標必須事先確定。
+   必須預先定義校樣目標。
 
-   您可以根據需要建立盡可能多的校樣。 通過 **[!UICONTROL Direct mail...]** 交貨詳細資訊的連結。
+   您可以視需要建立任意數量的校樣。 這些項目可透過 **[!UICONTROL Direct mail...]** 傳送詳細資料的連結。
 
-1. 交貨狀態更改為 **[!UICONTROL To submit]**。 按一下 **[!UICONTROL Submit proofs]** 按鈕啟動審批流程。
+1. 傳送狀態變更為 **[!UICONTROL To submit]**. 按一下 **[!UICONTROL Submit proofs]** 按鈕，以啟動核准流程。
 
-1. 交貨狀態更改為 **[!UICONTROL Proof to validate]** 按鈕允許您接受或拒絕批准。
+1. 傳送狀態變更為 **[!UICONTROL Proof to validate]** 按鈕可讓您接受或拒絕核准。
 
-   您可以接受或拒絕此審批，或返回提取步驟。
+   您可以接受或拒絕此批准，或返回提取步驟。
 
-1. 證明獲得批准後，提取檔案將發送到路由器並完成傳送。
+1. 校樣獲得批准後，解壓檔案將發送到路由器並完成傳送。
 
 ### 預算和成本計算 {#compute-costs-and-stocks}
 
-檔案提取啟動兩個進程：預算計算和庫存計算。 將更新預算條目。
+檔案擷取會啟動兩個程式：預算計算和庫存計算。 預算條目會更新。
 
-* 的 **[!UICONTROL Budget]** 頁籤，用於管理市場活動的預算。 成本條目的合計顯示在 **[!UICONTROL Calculated cost]** 市場活動主頁籤的欄位及其所屬的程式。 金額也反映在市場活動預算中。
+* 此 **[!UICONTROL Budget]** 索引標籤可讓您管理促銷活動的預算。 成本分錄的合計顯示在 **[!UICONTROL Calculated cost]** 行銷活動主要標籤的欄位及其所屬方案。 這些金額也會反映在促銷活動預算中。
 
    ![](assets/campaign-budget-tab.png)
 
-   實際成本最終將由路由器提供的資訊計算。 只對實際發送的消息開票。
+   實際成本最終將根據路由器提供的資訊計算。 只有實際發送的郵件才會開具發票。
 
-* 股票於 **[!UICONTROL Administration > Campaign management > Stocks]** 的子目標。
+* 股票定義於 **[!UICONTROL Administration > Campaign management > Stocks]** 樹的節點。
 
    ![](assets/campaign-stocks.png)
 
-   中的成本結構 **[!UICONTROL Administration > Campaign management > Service providers]** 的下界。
+   成本結構 **[!UICONTROL Administration > Campaign management > Service providers]** 節點。
 
    ![](assets/campaign-service-providers.png)
 
-   坯件行在坯件部分中可見。 要定義初始庫存，請開啟一個庫存行。 每次交貨時，庫存都會減少。 您可以定義預警級別和通知。
+   庫存行在庫存區中。 要定義初始庫存，請開啟一條庫存線。 每次發生交貨時庫存都會減少。 您可以定義警報級別和通知。
 
 
    >[!NOTE]
    >
-   >瞭解有關預算的更多資訊 [此部分](providers--stocks-and-budgets.md)。
+   >深入了解預算 [在本節](providers--stocks-and-budgets.md).

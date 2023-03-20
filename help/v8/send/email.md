@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '576'
 ht-degree: 16%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 16%
 
 1. **個人化您的訊息**
 
-
    * 新增收件者的名字和姓氏
 
       若要在訊息內容中插入目標設定檔的名字和姓氏，請將游標置於您要插入設定檔的位置，然後按一下工具列中的最後一個圖示，然後按一下 **[!UICONTROL Include]** 選取 **[!UICONTROL Greetings]**.
@@ -58,6 +57,8 @@ ht-degree: 16%
       瀏覽至「預覽」標籤，透過選取收件者來檢查個人化。
 
       ![](assets/perso-check.png)
+
+      進一步了解中的個人化選項 [本節](personalize.md).
 
    * 插入追蹤連結
 

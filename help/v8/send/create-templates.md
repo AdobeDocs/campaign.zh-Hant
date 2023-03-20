@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 6%
+source-wordcount: '698'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 使用傳遞範本來標準化創意外觀和風格，以便更快執行和啟動行銷活動。
 
-範本可系統地包括：
+範本可以包括：
 
 * 類型
 * 寄件者和回覆地址
-* 基本個人化區塊
+* 基本 [個人化區塊](../send/personalization-blocks.md)
 * 連結至 [鏡像頁面](../send/mirror-page.md) 取消訂閱連結
 * 內容、公司標誌或簽名
 * 其他傳送屬性，例如資源有效性、重試參數或隔離設定。

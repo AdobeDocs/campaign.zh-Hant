@@ -4,7 +4,7 @@ title: 開始使用分散式行銷
 description: 開始使用分散式行銷
 feature: Distributed Marketing
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Adobe Campaign提供 **分散式行銷** 中央單位（總部、營銷部等）
 
    分散式行銷可讓本地實體擁有更多自主權，同時最佳化執行成本。
 
-* **本地化**
+* **本土化**
 
    本地化是本機實體修改促銷活動目標和內容的能力。 本地化的可能級別取決於促銷活動類型及其實施。
 
@@ -103,7 +103,7 @@ Adobe Campaign提供 **分散式行銷** 中央單位（總部、營銷部等）
 
 ### 組織實體 {#organizational-entities}
 
-若要建立組織實體，請按一下 **[!UICONTROL Administration > Access management > Organizational entities]** 節點，然後按一下 **[!UICONTROL New]** 表徵圖。
+若要建立組織實體，請按一下 **[!UICONTROL Administration > Access management > Organizational entities]** ，然後按一下 **[!UICONTROL New]** 表徵圖。
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 

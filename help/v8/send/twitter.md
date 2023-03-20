@@ -4,10 +4,10 @@ description: 了解如何使用Adobe Campaign Social Marketing模組在Twitter�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 5%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
    ![](assets/tw-dm-content.png)
 
-   個人化欄位的使用方式與電子郵件傳送相同，例如在訊息內文中新增追隨者的名稱。 深入了解 [本節](../start/create-message.md#personalization).
+   個人化欄位的使用方式與電子郵件傳送相同，例如在訊息內文中新增追隨者的名稱。 深入了解 [本節](../send/personalize.md).
 
 1. 預覽訊息
 
@@ -140,7 +140,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
    傳送訊息之前，請務必透過傳送校樣至測試帳戶來驗證訊息：然後，您就可以在私人Twitter帳戶上取得完全轉譯的訊息，並檢查內容和個人化。
 
-   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
 
 1. 傳送直接訊息
 
@@ -151,7 +151,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
 >[!CAUTION]
 >
->您每天不能傳送超過250個直接訊息。 為避免超過此臨界值，您可以分批傳送。 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}。
+>您每天不能傳送超過250個直接訊息。 為避免超過此臨界值，您可以分批傳送。 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
 
 
 ## 存取追蹤資料 {#tw-tracking}
@@ -160,5 +160,5 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
 追蹤資料可在傳送報表和 **[!UICONTROL Edit > Tracking]** 標籤。
 
-追蹤設定與電子郵件傳送的相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target=&quot;_blank&quot;} 深入瞭解。
+追蹤設定與電子郵件傳送的相同。 深入了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target="_blank"}.
 

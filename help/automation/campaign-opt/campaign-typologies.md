@@ -4,7 +4,7 @@ title: 開始使用行銷活動類型
 description: 了解如何設定和實作行銷活動類型
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 19%
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 行銷活動類型可包含數個類型規則，但傳送只能參考一個類型。
 
-內建的類型規則和類型可在 **[!UICONTROL Administration > Campaign management > Typology management]** 行銷活動總管的節點。
+內建的類型規則和類型可在 **[!UICONTROL Administration > Campaign management > Typology management]** Campaign檔案總管的資料夾。
 
 對於每個類型， **[!UICONTROL Rules]** 索引標籤可讓您新增、刪除或檢視要套用的類型規則。
 

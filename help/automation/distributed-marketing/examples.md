@@ -4,9 +4,9 @@ title: 分散式行銷範例
 description: 分散式行銷範例
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 #### 建立資料分送活動 {#creating-a-data-distribution-activity}
 
-1. 若要設定協作行銷活動（透過目標核准），您必須先建立 **[!UICONTROL Data distribution activity]**. 按一下 **[!UICONTROL New]** 圖示 **[!UICONTROL Resources > Campaign management > Data distribution]** 節點。
+1. 若要設定協作行銷活動（透過目標核准），您必須先建立 **[!UICONTROL Data distribution activity]**. 按一下 **[!UICONTROL New]** 圖示 **[!UICONTROL Resources > Campaign management > Data distribution]** Campaign檔案總管的資料夾。
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 #### 建立協作行銷活動 {#creating-a-collaborative-campaign}
 
-1. 從 **[!UICONTROL Campaign management > Campaign]** 節點，建立新 **[!UICONTROL collaborative campaign (by target approval)]**.
+1. 從 **[!UICONTROL Campaign management > Campaign]** Campaign檔案總管的資料夾，建立新 **[!UICONTROL collaborative campaign (by target approval)]**.
 1. 在 **[!UICONTROL Targeting and workflows]** 標籤，為促銷活動建立工作流程。 這必須包含 **分割** 其中 **[!UICONTROL Record count limitation]** 由 **[!UICONTROL Data distribution]** 活動。
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

@@ -4,9 +4,9 @@ description: 了解如何新增和管理鏡像頁面的連結
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaign產生的鏡像頁面包含所有個人化資料。
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+如需插入自訂內容區塊的詳細資訊，請參閱 [個人化區塊](personalization-blocks.md).
 
 ## 鏡像頁面生成{#mirror-page-generation}
 

@@ -2,7 +2,8 @@
 product: campaign
 title: 控制成本
 description: 了解如何控製成本
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Adobe Campaign可讓您控制已排程、已提交和已開票的行銷成本，
 
 要建立預算，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Campaign management > Budgets]** 行銷活動總管的節點。
+1. 瀏覽至 **[!UICONTROL Campaign management > Budgets]** Campaign檔案總管的資料夾。
 1. 按一下 **[!UICONTROL New]** 圖示，命名並儲存預算。
 1. 輸入初始金額：在相關欄位中指明分配的金額。 系統會自動輸入其他金額。 [了解更多資訊](#calculating-amounts)。
 1. 輸入開始和結束日期以定義有效期。 此資訊僅表示性。
