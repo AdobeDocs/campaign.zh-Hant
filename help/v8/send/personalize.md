@@ -1,17 +1,17 @@
 ---
-title: 個人化內容
+title: 開始使用個人化
 description: 了解如何個人化訊息內容
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 4885f15c71d2be27dc32a239fb22abc3a96503c7
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '471'
 ht-degree: 5%
 
 ---
 
-# 個人化內容 {#personalize-content}
+# 開始使用個人化 {#personalize-content}
 
 為了充分運用每個行銷活動，Adobe Campaign提供您一種方式，可提供對客戶層級的客戶講話的自訂內容。 根據設定檔資料，為不同群組和個人建立自訂體驗的個人化功能：您可以運用您擁有的相關資料和資訊，調整訊息以適應每個特定收件者。 這可以是他們的名字，興趣，住的地方，他們買的東西，等等。
 

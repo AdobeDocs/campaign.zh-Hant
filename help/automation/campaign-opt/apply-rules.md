@@ -4,10 +4,10 @@ title: 套用類型規則
 description: 了解如何套用類型規則
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 8%
+source-wordcount: '951'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 8%
 
 ## 套用類型至傳送 {#apply-a-typology-to-a-delivery}
 
-若要套用您建立的類型規則，您必須將其與類型建立關聯，然後在您的傳送中參考此類型。 操作步驟：
+若要套用您建立的類型規則，請將其關聯至類型，然後在您的傳送中參考此類型。
+
+要執行此操作，請遵循下列步驟：
 
 1. 建立行銷活動類型。
 
@@ -27,7 +29,7 @@ ht-degree: 8%
 
 1. 儲存類型：會新增至現有類型清單中。
 1. 開啟您要套用規則的傳送。
-1. 開啟傳送屬性並存取 **[!UICONTROL Typology]** 標籤。
+1. 瀏覽至傳送屬性並開啟 **[!UICONTROL Typology]** 標籤。
 1. 在下拉式清單中選取類型。
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -56,7 +58,7 @@ ht-degree: 8%
 
 每晚都會透過資料庫清除工作流程自動重新執行仲裁。 不過，值可儲存在此期間之後。
 
-事實上，有些計算使用的值並未每天改變。 因此，每天重新計算資料並無償超載資料庫將無關緊要。 例如，如果程式以每週的客戶傾向分數和購買資訊豐富行銷資料庫，則基於這些值的資料不需要每天重新計算。
+事實上，有些計算使用的值不會每天改變。 因此，每天重新計算資料並無償超載資料庫將無關緊要。 例如，如果程式以每週的客戶傾向分數和購買資訊豐富行銷資料庫，則基於這些值的資料不需要每天重新計算。
 
 若要這麼做， **[!UICONTROL Frequency]** 欄位 **[!UICONTROL General]** 索引標籤可讓您定義儲存定位的期間。 依預設，值 **0** 表示在下次執行每日重新仲裁之前，計算仍然有效。
 
@@ -91,11 +93,11 @@ ht-degree: 8%
 
 您可以使用 **[!UICONTROL General]** 標籤。 在相同的訊息處理階段期間執行數個規則時，您可以在 **[!UICONTROL Execution sequence]** 欄位。
 
-例如，執行順序為20的壓力規則將在執行順序為30的壓力規則之前執行。
+例如，執行順序為20的壓力規則在執行順序為30的壓力規則之前執行。
 
 ### 控制規則 {#control-rules}
 
-針對 **[!UICONTROL Control]** 規則，您可以決定要套用規則的傳送生命週期的哪個時間點（在鎖定目標之前或之後、在個人化開始時、在分析結束時）。 選取要在 **[!UICONTROL Phase]** 欄位，在 **[!UICONTROL General]** 標籤。
+針對 **[!UICONTROL Control]** 規則，您可以決定套用規則的傳送生命週期的哪個時間點：鎖定目標之前或之後、個人化開始時、分析結束時。 選取要在 **[!UICONTROL Phase]** 欄位，在 **[!UICONTROL General]** 標籤。
 
 ![](assets/campaign_opt_define_control_phase.png)
 
