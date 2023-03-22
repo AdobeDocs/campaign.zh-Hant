@@ -4,10 +4,10 @@ description: 了解如何整合您的Campaign環境與Twitter
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 3%
+source-wordcount: '1061'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 3%
 
 ## Twitter開發人員帳戶 {#dev-account}
 
-若要開始進行這項整合，您必須註冊 [Twitter開發人員帳戶](https://developer.twitter.com){target=&quot;_blank&quot;}。
+若要開始進行這項整合，您必須註冊 [Twitter開發人員帳戶](https://developer.twitter.com){target="_blank"}.
 
-Campaign使用1.1版的Twitter API。 若要使用此功能，您需要透過開發人員入口網站申請提升存取權。 進一步了解Twitter Elighed Access [在本頁](https://developer.twitter.com/en/portal/products/elevated){target=&quot;_blank&quot;}。
+Campaign使用1.1版的Twitter API。 若要使用此功能，您需要透過開發人員入口網站申請提升存取權。 進一步了解Twitter Elighed Access [在本頁](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## 在Twitter上建立應用程式 {#create-an-app-on-twitter}
 
@@ -111,7 +111,7 @@ Campaign與Twitter之間的同步是透過專屬的技術工作流程來管理�
 
 此 **[!UICONTROL Synchronization of Twitter accounts]** 技術工作流程會同步Adobe Campaign中的Twitter帳戶。 此工作流程會復原Twitter追隨者的清單，以便您傳送直接訊息。 [了解更多](../send/twitter.md#direct-tw-messages)
 
-依預設，此工作流程會在每星期四早上7:30觸發。 您可以使用 **[!UICONTROL Execute pending task(s) now]** 選項，在您實作此整合時隨時啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;} 深入瞭解。
+依預設，此工作流程會在每星期四早上7:30觸發。 您可以使用 **[!UICONTROL Execute pending task(s) now]** 選項，在您實作此整合時隨時啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 在[本頁](../../automation/workflow/scheduler.md)中瞭解更多。
 
 >[!CAUTION]
 >

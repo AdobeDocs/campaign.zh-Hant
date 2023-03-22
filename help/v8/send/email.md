@@ -5,18 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '466'
+ht-degree: 9%
 
 ---
 
 # 設計和傳送電子郵件
 
-電子郵件傳送可讓您傳送個人化電子郵件給目標人口。
-
-![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件 中深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target="_blank"}
+電子郵件傳送可讓您傳送個人化電子郵件給目標人口。 [了解更多資訊](../send/send.md)。
 
 ## 建立您的第一個電子郵件傳送
 
@@ -78,17 +76,12 @@ ht-degree: 16%
 
 了解如何在此匯入電子郵件內容 [使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
-深入了解 **Campaign Classicv7檔案**:
+進一步了解以下章節：
 
-* 在Campaign中設計電子郵件
-   ![](../assets/do-not-localize/book.png) [了解如何設計電子郵件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=zh-Hant){target="_blank"}
-* 建立和使用電子郵件範本
-   ![](../assets/do-not-localize/book.png) [深入瞭解電子郵件範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
-* 選取電子郵件的對象
-   ![](../assets/do-not-localize/book.png) [了解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
-* 驗證傳遞並傳送校樣
-   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
-* 新增 [種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+* [在Campaign中設計電子郵件](../send/email.md)
+* [建立和使用電子郵件範本](../send/create-templates.md)
+* [選取電子郵件的對象](../audiences/gs-audiences.md)
+* [驗證傳遞並傳送校樣](../send/preview-and-proof.md)
 
 ## 測試及驗證您的電子郵件
 
@@ -99,6 +92,5 @@ Campaign提供數種方式，可在將您的電子郵件傳送給您的對象之
 * 檢查傳遞分析記錄
 * 傳送校樣
 * 新增種子地址
-* 使用控制組
 
-![](../assets/do-not-localize/book.png) [在 Campaign Classic v7 文件 中深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
+[了解更多](../send/delivery-analysis.md)

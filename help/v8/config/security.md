@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
+source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -36,9 +36,8 @@ ht-degree: 1%
 
 * 建立足夠的安全組
 * 檢查每個運算子是否擁有適當的存取權限
-* 請避免使用管理員運算子，並避免管理員群組中有太多運算子
 
-![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+進一步了解權限，請參閱 [本節](../start/gs-permissions.md)
 
 ## 編碼准則
 
@@ -50,7 +49,7 @@ ht-degree: 1%
 
 * **在Web應用程式中新增擷取**:在您的公開登錄頁面和訂閱頁面中新增captcha。
 
-![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
 
 
 ## 個人化
@@ -132,9 +131,8 @@ ht-degree: 1%
 
 * 建立足夠的安全組
 * 檢查每個運算子是否擁有適當的存取權限
-* 請避免使用管理員運算子，並避免管理員群組中有太多運算子
 
-![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+進一步了解權限，請參閱 [在本節](../start/gs-permissions.md).
 
 ## 編碼准則
 
@@ -146,4 +144,4 @@ ht-degree: 1%
 
 * **在Web應用程式中新增擷取**:在您的公開登錄頁面和訂閱頁面中新增captcha。
 
-![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 深入了解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}

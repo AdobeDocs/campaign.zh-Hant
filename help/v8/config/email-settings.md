@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 8%
+source-wordcount: '411'
+ht-degree: 5%
 
 ---
 
@@ -66,7 +66,16 @@ Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選�
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**在 Campaign Classic v7 文件** 中深入瞭解
+**了解更多**
+
+在以下幾節中：
+
+* [使用電子郵件傳遞範本](../send/create-templates.md)
+
+* [瞭解傳遞失敗](../send/delivery-failures.md)
+
+
+在Campaign Classicv7檔案中：
 
 * [選擇電子郵件格式](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target="_blank"}
 
@@ -74,6 +83,3 @@ Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選�
 
 * [設定退信電子郵件地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target="_blank"}
 
-* [使用電子郵件傳遞範本](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
-
-* [瞭解傳遞失敗](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}
