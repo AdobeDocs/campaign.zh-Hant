@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 94%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 94%
          + [傳遞失敗](send/delivery-failures.md)
       + [傳送時間最佳化](send/predictive.md)
       + [管理訂閱](start/subscriptions.md)
-   + 個人化內容 {#personalize}
-      + [開始使用個人化](send/personalize.md)
-      + [個人化資料](send/personalization-data.md)
-      + [新增個人化欄位](send/personalization-fields.md)
-      + [使用個人化區塊](send/personalization-blocks.md)
-      + [建立條件](send/conditions.md)
-   + 驗證您的傳送 {#validate}
-      + [預覽和校樣](send/preview-and-proof.md)
-      + [傳遞分析](send/delivery-analysis.md)
+      + 個人化內容 {#personalize}
+         + [開始使用個人化](send/personalize.md)
+         + [個人化資料](send/personalization-data.md)
+         + [新增個人化欄位](send/personalization-fields.md)
+         + [使用個人化區塊](send/personalization-blocks.md)
+         + [建立條件](send/conditions.md)
+      + 驗證您的傳送 {#validate}
+         + [預覽和電子郵件校樣](send/preview-and-proof.md)
+         + [傳遞分析](send/delivery-analysis.md)
 + 設定檔與對象管理 {#audience}
    + [開始使用設定檔和對象](audiences/gs-audiences.md)
    + [配合對象](start/audiences.md)
