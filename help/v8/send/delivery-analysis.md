@@ -4,7 +4,7 @@ description: 了解如何準備和檢查您的傳遞內容
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 8f04981e38da79e69afc890311c559f9ffa136f4
+source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -47,11 +47,11 @@ ht-degree: 0%
    >
    >執行時，分析會凍結傳送（或校樣）。 傳送的任何變更（或證明）都必須先進行其他分析，才能適用。
 
-分析完成時，視窗的上方區段會指出傳送準備是否完成或是否發生任何錯誤。 列出所有驗證步驟、警告和錯誤。 彩色表徵圖顯示消息類型：
+   分析完成時，視窗的上方區段會指出傳送準備是否完成或是否發生任何錯誤。 列出所有驗證步驟、警告和錯誤。 彩色表徵圖顯示消息類型：
 
-* 藍色圖示表示資訊性訊息。
-* 黃色表徵圖表示非關鍵處理錯誤。
-* 紅色圖示表示無法傳送傳送的重大錯誤。
+   * 藍色圖示表示資訊性訊息。
+   * 黃色表徵圖表示非關鍵處理錯誤。
+   * 紅色圖示表示無法傳送傳送的重大錯誤。
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
