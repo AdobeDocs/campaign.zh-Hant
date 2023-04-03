@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
+source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 79%
 
 ---
 
 # 最新發行版本{#latest-release}
 
 本頁面列出&#x200B;**最新 Campaign v8 版本**&#x200B;的新功能、改善和修正。
+
+## 發行版本 8.4.5 {#release-8-4-5}
+
+_2023年4月3日_
+
+**修補程式**
+
+* 修正若將數個核准工作流程設為相同排程時，可能導致重複金鑰限制錯誤的問題。 (NEO-48968)
+* 修正NEO-54474(8.4.4)所導致在數位內容編輯器(DCE)中上傳影像時，內文標籤的樣式屬性有所變更的回歸問題。 (NEO-57697)
+* 修正了使用CRM連接器匯出資料時，如果臨時表格的主索引鍵定義為long而非uuid，則可能導致錯誤的問題。 (NEO-54153)
+* 修正8.4.1版中導入的回歸問題，此問題可能導致套件匯出、FDA over HTTP和報表出錯。 (NEO-57731)
+* 修正8.3.8版中導入的回歸問題，此問題會導致無法針對ID為負的傳送正確更新傳送狀態。 (NEO-54675)
+* 修正使用Big Query connector匯入資料時布林欄位的問題(NEO-49181)
+
+>[!CAUTION]
+>
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
 ## 發行版本 8.4.4 {#release-8-4-4}
 
