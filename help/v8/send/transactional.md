@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 這些通知是從資訊系統觸發的事件中產生的，可以是：發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單、網站帳戶建立等。
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;}，在您的環境中設定Campaign交易式訊息。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support){target="_blank"} 在您的環境中設定Campaign交易式訊息。
 
 交易式訊息用於傳送：
 
@@ -43,7 +43,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 1. [測試訊息](#test-message-template).
 1. [發佈訊息範本](#publish-message-template).
 
-在您設計並發佈交易式訊息範本後，如果觸發對應事件，則相關資料會透過PushEvent和PushEvents傳送至Campaign [SOAP方法](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;}，則傳送內容會傳送給目標收件者。
+在您設計並發佈交易式訊息範本後，如果觸發對應事件，則相關資料會透過PushEvent和PushEvents傳送至Campaign [SOAP方法](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}，則會傳送給目標收件者。
 
 ## 建立事件類型 {#create-event-types}
 
@@ -73,7 +73,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 >[!NOTE]
 >
->進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}。
+>進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 ## 定義交易式訊息範本 {#create-message-template}
 
@@ -199,7 +199,7 @@ This information enables you to personalize message content using personalizatio
 
 傳送校樣的程式與任何傳送的程式相同。
 
-![](../assets/do-not-localize/book.png) 進一步了解校樣，於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 進一步了解校樣，於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 

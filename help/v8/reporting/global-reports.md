@@ -2,7 +2,8 @@
 title: Adobe Campaign全域報表
 description: 了解如何存取和使用全域報表
 feature: Reporting, Monitoring
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 4%
@@ -291,7 +292,7 @@ The following indicators are used:
 * **[!UICONTROL Clicks]** :至少按一下傳送一次的人數百分比，與成功處理的訊息數量相比。
 * **[!UICONTROL Unsubscription]** :取消訂閱連結的點按次數與成功處理的訊息次數的百分比。
 
-## 開啟次數劃分 {#breakdown-of-opens}
+## 開啟次數的劃分 {#breakdown-of-opens}
 
 此報表依作業系統、裝置和瀏覽器顯示相關期間的開啟次數劃分。 對於每個類別，會使用兩個圖表。 第一個會顯示有關電腦和行動裝置上開啟的統計資料。 第二個則只顯示與行動裝置上開啟次數相關的統計資料。
 

@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 6%
    <td> 閱讀<br /> </td> 
   </tr> 
   <tr> 
-   <td> 分類<br /> </td> 
+   <td> 類型<br /> </td> 
    <td> 讀/寫<br /> </td> 
    <td> 閱讀<br /> </td> 
   </tr> 
@@ -96,7 +96,7 @@ ht-degree: 6%
    <td> 閱讀<br /> </td> 
   </tr> 
   <tr> 
-   <td> 優惠類別<br /> </td> 
+   <td> 優惠方案類別<br /> </td> 
    <td> 讀/寫<br /> </td> 
    <td> 閱讀<br /> </td> 
   </tr> 
@@ -141,7 +141,7 @@ ht-degree: 6%
    <td> 閱讀<br /> </td> 
   </tr> 
   <tr> 
-   <td> 分類<br /> </td> 
+   <td> 類型<br /> </td> 
    <td> 閱讀<br /> </td> 
    <td> 閱讀<br /> </td> 
   </tr> 
@@ -156,7 +156,7 @@ ht-degree: 6%
    <td> 閱讀<br /> </td> 
   </tr> 
   <tr> 
-   <td> 優惠類別<br /> </td> 
+   <td> 優惠方案類別<br /> </td> 
    <td> </td> 
    <td> 閱讀<br /> </td> 
   </tr> 

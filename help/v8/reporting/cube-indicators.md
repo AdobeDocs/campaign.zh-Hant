@@ -4,15 +4,15 @@ description: 了解如何建立立方體
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-
-# 建立多維資料集{#create-a-cube}
+# 建立多維度資料集{#create-a-cube}
 
 ## 多維資料集工作區 {#cube-workspace}
 

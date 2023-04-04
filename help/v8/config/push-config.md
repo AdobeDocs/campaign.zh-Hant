@@ -9,7 +9,7 @@ exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本列�
 
 >[!NOTE]
 >
->您也可以在資料收集UI中設定Adobe Experience Platform擴充功能，以使用Adobe Campaign Mobile SDK。 [進一步了解開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>您也可以在資料收集 UI 設定 Adobe Experience Platform 延伸功能，以便使用 Adobe Campaign Mobile SDK。[進一步了解開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 ## 宣告整合設定 {#declaring-integration-settings}
 

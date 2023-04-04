@@ -232,7 +232,7 @@ Adobe Campaign提供下列類型的篩選器：
 
    ![](assets/filter-on-age.png)
 
-## 進階篩選{#advanced-filters}
+## 進階篩選器{#advanced-filters}
 
 將複雜的條件合併至 **進階篩選**. 使用這些篩選器可建立複雜查詢或資料查詢的組合。 這些篩選器可以儲存並與其他Campaign使用者共用。
 
@@ -330,7 +330,7 @@ Adobe Campaign提供下列類型的篩選器：
 * 了解如何在中鎖定簡單的收件者屬性 [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 * 了解如何篩選過去7天未聯絡的收件者，位於 [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
 * 了解如何復原可依活動帳戶篩選的運算子清單，位於 [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* 了解如何在中建立生日電子郵件對象  [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
+* 了解如何在中建立生日電子郵件對象  [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant).
 
 
 ### 預先定義篩選器的進階參數 {#param-for-data-filters}

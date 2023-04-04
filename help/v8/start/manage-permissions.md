@@ -4,9 +4,10 @@ description: 了解如何將權限授予Campaign v8使用者
 feature: Permissions
 role: User, Admin
 level: Beginner
-source-git-commit: b63dc1616bc7ce1387a7bd0590c289b59f11b33f
+exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
+source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 若要新增使用者，請遵循下列步驟：
 
-1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;}首頁，請選擇 **新增使用者**.
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} 首頁，選擇 **新增使用者**.
 
    ![](assets/add-a-user.png)
 
@@ -34,7 +35,7 @@ ht-degree: 1%
 
 1. 按一下 **儲存**. 使用者隨即新增，並顯示在「使用者」清單中。 如果您指派管理員角色或產品設定檔給使用者，使用者會收到電子郵件通知。 使用者必須依循連結才能完成其設定檔。
 
-進一步了解在Admin Console中建立使用者的方式： [本頁](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target=&quot;_blank&quot;}。
+進一步了解在Admin Console中建立使用者的方式： [本頁](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
 新使用者時 [登入Campaign](connect.md) 透過其Adobe ID，這些使用者會新增至用戶端主控台的Campaign運算子清單。 促銷活動運算子儲存在 **[!UICONTROL Administration > Access management > Operators]** Campaign檔案總管的資料夾。
 
@@ -74,7 +75,7 @@ ht-degree: 1%
 
 #### 在Admin Console中建立產品設定檔{#create-profile-in-admin-console}
 
-1. 連線至 [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;}。
+1. 連線至 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. 從 **產品與服務** 在首頁的區段中，開啟Campaign產品。
 1. 按一下 **新設定檔** 並輸入要建立的產品設定檔名稱，且語法完全正確，如所說明 [此處](#product-profiles). 例如，我們輸入：行銷活動 —  `<your-instance-name>`  — 審核者
 
@@ -174,7 +175,7 @@ Adobe Campaign內建 **產品設定檔** 當Adobe啟用您的環境時定義。
 
 您可以使用Admin Console來建立使用者群組，並將使用者指派給他們。
 
-使用者群組是不同使用者的集合，這些使用者必須獲得一組共用權限。 了解如何在 [本節](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target=&quot;_blank&quot;}。
+使用者群組是不同使用者的集合，這些使用者必須獲得一組共用權限。 了解如何在 [本節](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 您可以將產品設定檔指派給使用者群組。 因此，該群組中的所有使用者都會收到相同的產品權限集。
 
@@ -212,7 +213,7 @@ Adobe Campaign中的預設命名權限為：
 
 * **[!UICONTROL LOCAL]**:當地管理權（分佈式行銷）。
 
-* **[!UICONTROL MERGE]**:將所選記錄合併為一個記錄的權限。 如果收件者存在為重複項目，則 **[!UICONTROL MERGE]** 右側允許用戶選擇重複項，並將它們合併到主收件人中。
+* **[!UICONTROL MERGE]**:將所選記錄合併為一個記錄的權限。 如果收件者存在為重複項目，則 **[!UICONTROL MERGE]** 右側允許用戶選擇重複項，並將它們合併到主要收件人中。
 
 * **[!UICONTROL PREPARE DELIVERIES]**:建立、編輯和儲存傳遞的權限。 具有 **[!UICONTROL PREPARE DELIVERIES]** 右側也可以啟動傳遞分析程式。
 

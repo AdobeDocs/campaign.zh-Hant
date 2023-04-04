@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![](assets/wf_split_cells.png)
 
-可以根據用戶需求配置此活動以輸入特定參數。 依預設，每個子集的詳細資訊會透過 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 頁簽。
+可以根據用戶需求配置此活動以輸入特定參數。 依預設，每個子集的詳細資訊會透過 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 標籤。
 
 ![](assets/wf_split_cells_with_customization.png)
 

@@ -4,10 +4,11 @@ description: 了解如何使用和建立目標對應
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -65,4 +66,3 @@ Adobe Campaign目標對應建立精靈可協助您建立使用自訂目標對應
    ![](assets/wf_new_mapping_define_extensions.png)
 
    按一下 **[!UICONTROL Save]** 啟動傳遞對應建立的按鈕：所有連結表都會根據所選參數自動建立。
-

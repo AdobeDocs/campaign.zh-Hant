@@ -13,7 +13,7 @@ ht-degree: 13%
 
 # 建立您的第一個行銷活動{#gs-marketing-campaigns}
 
-Adobe Campaign可讓您定義、最佳化、執行和分析通訊和行銷活動。 Adobe Campaign就像是行銷策略的統一訂單與執行中心。 透過拖放式視覺化工作流程介面，管理多個資料來源、定義您的受眾區段，以及規劃及執行多步驟、跨通道的促銷活動。
+Adobe Campaign可讓您定義、最佳化、執行和分析通訊與行銷活動。 Adobe Campaign就像是行銷策略的統一訂單與執行中心。 透過拖放式視覺化工作流程介面，管理多個資料來源、定義您的受眾區段，以及規劃及執行多步驟、跨通道的促銷活動。
 
 
 <!--In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](about-marketing-resource-management.md).

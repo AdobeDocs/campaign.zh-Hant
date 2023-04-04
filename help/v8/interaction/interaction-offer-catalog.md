@@ -1,6 +1,6 @@
 ---
-title: 市場活動交互活動優惠目錄
-description: 瞭解如何建立優惠目錄
+title: 促銷活動互動優惠方案目錄
+description: 了解如何建立優惠方案目錄
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,58 +14,58 @@ ht-degree: 2%
 
 # 建立優惠方案目錄
 
-作為 **服務經理**，您負責建立聘用目錄。
+作為 **優惠方案管理員**，您必須負責建立優惠方案目錄。
 
-服務目錄與單個預先存在的環境相關聯。 此目錄中的優惠只能與在此環境中指定的空間關聯。
+優惠方案目錄與單一預先存在的環境相關聯。 此目錄中的選件只能與在此相同環境中指定的空格相關聯。
 
-在建立聘用前，必須先指定 [環境](interaction-env.md) 它包含一組優惠的所有特徵（資格、目標約束、演示規則），按類別分類，以及其空格清單。
+建立優惠方案之前，您必須先指定 [環境](interaction-env.md) 包含一組優惠方案的所有特性（適用性、目標限制、展示規則），按類別排序，以及其空格清單。
 
 ## 建立優惠類別{#creating-offer-categories}
 
-服務分為類別/子類別。 類別在 **[!UICONTROL Design]** 並自動部署到 **[!UICONTROL Live]** 環境（即提供）。 的 **[!UICONTROL Design]** 環境包含預設類別以接收所有優惠。 可以建立子類別以將層次結構添加到目錄提供。
+優惠方案會組織為類別/子類別。 類別會在 **[!UICONTROL Design]** 環境，並自動部署於 **[!UICONTROL Live]** 環境（即可供使用）。 此 **[!UICONTROL Design]** 環境包含接收所有選件的預設類別。 可以建立子類別，將階層新增至目錄選件。
 
-對於每個類別，您可以定義 **資格日期**&#x200B;在此期間，類別中包含的要約可以呈現給其目標。 您還可以調整類別的權重以排定優惠演示的優先順序。
+對於每個類別，您可以定義 **適用日期**，即可向其目標顯示類別中包含選件的期間。 您也可以調整類別的權重，以排定優惠方案簡報的優先順序。
 
-要建立新類別，請執行以下步驟：
+若要建立新類別，請遵循下列步驟：
 
-1. 瀏覽到 **[!UICONTROL Offer catalog]** 的子菜單。
+1. 瀏覽器至 **[!UICONTROL Offer catalog]** 檔案夾。
 
    ![](assets/offer_cat_create_001.png)
 
-1. 按一下右鍵並選擇 **[!UICONTROL Create a new "Offer category" folder]** 從下拉清單中。
+1. 按一下右鍵並選擇 **[!UICONTROL Create a new "Offer category" folder]** 從下拉式清單中。
 
    ![](assets/offer_cat_create_002.png)
 
-1. 重新命名類別。 您以後可以使用 **[!UICONTROL General]** 頁籤。
+1. 重新命名類別。 您稍後可以使用 **[!UICONTROL General]** 標籤。
 
    ![](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
-   >重複這些步驟以根據需要建立任意多個類別。
+   >重複這些步驟，視需要建立任意數量的類別。
 
-   此後，您可以根據需要：
+   之後，您可視需要：
 
-   * 從 **[!UICONTROL Eligibility]** 頁籤。
+   * 從 **[!UICONTROL Eligibility]** 標籤。
 
       ![](assets/offer_cat_create_004.png)
 
-   * **[!UICONTROL Edit query]** 將篩選器應用到提供目標。
+   * **[!UICONTROL Edit query]** 將篩選器套用至選件目標。
 
-   * 資格規則的回顧。要查看這些規則，請按一下 **[!UICONTROL Schedule and eligibility rules of the offer]** 的子菜單。
+   * 適用性規則的回顧。若要檢視這些規則，請按一下 **[!UICONTROL Schedule and eligibility rules of the offer]** 連結。
 
-## 添加回退類別
+## 新增備援類別
 
-為了確保所有接受者都收到一個建議，可以系統地在建議中添加一個或多個建議類別。
+為確保所有收件者都收到優惠方案主張，您可以在建議中系統地新增一或多個優惠方案類別。
 
-這些備用優惠必須具有低（但非空）重量，因此只有在沒有較高重量優惠符合條件時才考慮這些優惠。
+這些備援優惠方案的權重必須較低（但非空值），因此只有在沒有較高權重優惠方案符合資格時，才會考慮這些優惠方案。
 
-此外，必須不對這些服務應用演示規則，以確保這些服務始終包含在建議中。 這意味著，在提議期間，如果沒有更高權重的報價，接收方將至少從此類別收到一份報價。
+此外，這些選件不得套用簡報規則，以確保建議一律包含這些選件。 這表示在主張期間，如果沒有較高權重的優惠方案可供使用，收件者將至少接收來自此類別的優惠方案。
 
-要在建議中包括回退類別，請執行以下步驟：
+若要在建議中納入備援類別，請遵循下列步驟：
 
-1. 瀏覽到您的優惠目錄。
-1. 按一下 **[!UICONTROL Eligibility]** 的子菜單。 **[!UICONTROL Always include this category in the recommendations]** 的雙曲餘切值。
+1. 瀏覽至優惠方案目錄。
+1. 按一下 **[!UICONTROL Eligibility]** 標籤，然後選取 **[!UICONTROL Always include this category in the recommendations]** 選項。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](assets/offer_cat_default_001.png)

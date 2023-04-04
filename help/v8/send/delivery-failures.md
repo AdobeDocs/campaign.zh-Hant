@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3009'
-ht-degree: 11%
+source-wordcount: '3005'
+ht-degree: 12%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 11%
 
 * **同步錯誤**:MTA會決定退信類型和資格，並將該資訊傳回至Campaign。 中的退信資格 **[!UICONTROL Delivery log qualification]** 表不用於 **同步** 傳遞失敗錯誤訊息。
 
-* **非同步錯誤**:Campaign用來限定非同步傳送失敗的規則列於 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 節點。 inMail程式會透過 **[!UICONTROL Inbound email]** 規則。 有關詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。
+* **非同步錯誤**:Campaign用來限定非同步傳送失敗的規則列於 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 節點。 inMail程式會透過 **[!UICONTROL Inbound email]** 規則。 有關詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -103,7 +103,7 @@ Bounce mails can have the following qualification status:
 >
 >Campaign不會使用傳送屬性中的重試設定。
 
-## 有效期
+## 有效期限
 
 您的Campaign傳送中的有效期設定限制為 **3.5天或更少**. 對於傳送，如果您在Campaign中定義的值超過3.5天，則不會考慮該值。
 
@@ -111,7 +111,7 @@ Bounce mails can have the following qualification status:
 
 當訊息在 MTA 佇列中停留 3.5 天且無法傳送時，訊息會逾時，其狀態會從傳送記錄檔中的 **[!UICONTROL Sent]** 更新為 **[!UICONTROL Failed]**。
 
-如需有效期的詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}。
+如需有效期的詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## 電子郵件錯誤類型 {#email-error-types}
@@ -133,7 +133,7 @@ Bounce mails can have the following qualification status:
    <td> 連結至該地址的帳戶已不再有效。 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶的帳戶。 之後無法傳送至使用者位址。 如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀態「有錯誤」，並再次嘗試帳戶，直到錯誤計數器達到5。 如果錯誤訊號表示帳戶已永久停用，則會直接將其設為隔離。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 隔離中的地址 </td> 
+   <td> 被隔離的地址 </td> 
    <td> 硬 </td> 
    <td> 9 </td> 
    <td> 地址被置於隔離區。<br /> </td> 
@@ -145,13 +145,13 @@ Bounce mails can have the following qualification status:
    <td> 未為收件人指定地址。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不良地址 </td> 
+   <td> 品質不良的地址 </td> 
    <td> 已忽略 </td> 
    <td> 14 </td> 
    <td> 此地址的質量評級太低。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 拒絕列出的地址 </td> 
+   <td> 已加入封鎖清單的地址 </td> 
    <td> 硬 </td> 
    <td> 8 </td> 
    <td> 地址已在發送時添加到封鎖清單中。 此狀態用於將外部清單和外部系統的資料匯入Adobe Campaign隔離清單。<br /> </td> 
@@ -163,13 +163,13 @@ Bounce mails can have the following qualification status:
    <td> 收件者的地址是控制組的一部分。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 雙精確度 </td> 
+   <td> 雙精度浮點數 </td> 
    <td> 已忽略 </td> 
    <td> 10 </td> 
    <td> 收件者的地址已在此傳遞中。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 忽略錯誤 </td> 
+   <td> 忽略的錯誤 </td> 
    <td> 已忽略 </td> 
    <td> 25 </td> 
    <td> 地址在允許清單中。 因此，會忽略錯誤，並傳送電子郵件。<br /> </td> 
@@ -181,7 +181,7 @@ Bounce mails can have the following qualification status:
    <td> 收件者被「仲裁」類型的促銷活動類型規則排除。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 由SQL規則排除 </td> 
+   <td> 已由 SQL 規則排除 </td> 
    <td> 已忽略 </td> 
    <td> 11 </td> 
    <td> 收件者被「SQL」類型的促銷活動類型規則排除。<br /> </td> 
@@ -211,7 +211,7 @@ Bounce mails can have the following qualification status:
    <td> 該地址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後，他們可以執行訊息分析，並透過 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法交付的管理</span> 樹結構中的節點。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不符合優惠方案的資格 </td> 
+   <td> 不符合優惠方案條件 </td> 
    <td> 已忽略 </td> 
    <td> 16 </td> 
    <td> 收件者不符合傳送中優惠方案的資格。<br /> </td> 
@@ -223,16 +223,16 @@ Bounce mails can have the following qualification status:
    <td> 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據錯誤，將再次嘗試該地址，直到錯誤計數器達到5，或直接將其傳送至隔離區。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 目標大小有限 </td> 
+   <td> 目標大小受限 </td> 
    <td> 已忽略 </td> 
    <td> 17 </td> 
    <td> 已達到收件者的最大傳送大小。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不合格地址 </td> 
+   <td> 不合格的地址 </td> 
    <td> 已忽略 </td> 
    <td> 15 </td> 
-   <td> 郵遞區號未限定。<br /> </td> 
+   <td> 郵寄地址不合格.<br /> </td> 
   </tr> 
   <tr> 
    <td> 無法聯繫 </td> 

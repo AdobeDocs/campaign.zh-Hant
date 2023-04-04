@@ -2,9 +2,10 @@
 product: campaign
 title: Technote - Adobe Campaign - Apache版本安全性更新
 description: Adobe Campaign - Apache版本安全性更新
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Adobe Campaign與協力廠商工具搭配使用，而相容性會定期更新，以僅實作支援的版本，並受益於最新的修正和改善。
 
-Adobe Campaign包含Apache Tomcat，可透過HTTP作為應用程式伺服器中的入口點，並與Apache Web伺服器整合。 Apache Software Foundation已發佈Apache HTTP Server 2.4.53。此版本解決了可能允許遠程攻擊者控制受影響系統的漏洞。 深入了解 [Apache 2.4.53公告](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}。
+Adobe Campaign包含Apache Tomcat，可透過HTTP作為應用程式伺服器中的入口點，並與Apache Web伺服器整合。 Apache Software Foundation已發佈Apache HTTP Server 2.4.53。此版本解決了可能允許遠程攻擊者控制受影響系統的漏洞。 深入了解 [Apache 2.4.53公告](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
 Adobe Campaign團隊將透過 **2022年6月15日** 以緩解此Apache漏洞，並讓您的執行個體環境更安全。 此升級適用於在有漏洞的Apache HTTP Server版本上執行的所有Campaign Classicv7受管Cloud Services客戶、Campaign v8和Campaign Standard客戶。 如果您受到影響，Adobe已與您聯絡，告知您此升級事宜。
 

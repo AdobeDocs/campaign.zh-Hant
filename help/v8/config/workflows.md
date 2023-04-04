@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 3%
+source-wordcount: '1570'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 進一步了解工作流程使用者介面，以及在下列頁面中執行：
 
-* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 
 * [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
@@ -152,9 +152,11 @@ ht-degree: 3%
 
 Campaign v7檔案中的這些頁面：
 
-* [自動建立、編輯和發佈內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;}了解如何使用Campaign Content Management附加元件自動建立和傳送內容區塊。
+* [自動建立、編輯和發佈內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target="_blank"}
+了解如何使用Campaign Content Management附加元件，自動建立和傳送內容區塊。
 
-* [A/B測試](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target=&quot;_blank&quot;}了解如何透過目標工作流程比較兩個電子郵件傳送內容。 訊息和文字在兩個傳送中都相同：只有版面會變更。 目標人口分為三個：兩個測試群組和剩餘母體。 傳送的不同版本會傳送至每個測試群組。
+* [A/B測試](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target="_blank"}
+了解如何透過目標工作流程比較兩個電子郵件傳送內容。 訊息和文字在兩個傳送中都相同：只有版面會變更。 目標人口分為三個：兩個測試群組和剩餘母體。 傳送的不同版本會傳送至每個測試群組。
 
 ### 監視 {#monitoring}
 
@@ -179,7 +181,7 @@ Campaign v7檔案中的這些頁面：
 * [建立摘要清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
 了解如何建立工作流程，此工作流程在收集檔案並執行數個擴充功能後，可讓您建立摘要清單。 此示例基於在商店中進行購買的聯繫人清單。
 
-* [豐富資料](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [豐富資料](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=zh-Hant)
 了解如何根據分數，將個人化傳遞傳送至參加最新競爭的設定檔。
 
 * [使用匯總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)

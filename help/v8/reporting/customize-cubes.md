@@ -1,18 +1,19 @@
 ---
 product: campaign
-title: 自訂立方體
+title: 自訂多維度資料集
 description: 了解在Adobe Campaign中實作多維度資料集時的最佳實務
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 自訂立方體{#cube-custom}
+# 自訂多維度資料集{#cube-custom}
 
 ## 資料綁定 {#data-binning}
 

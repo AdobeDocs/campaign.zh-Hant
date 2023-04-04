@@ -124,7 +124,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
    ![](assets/tw-dm-content.png)
 
-   個人化欄位的使用方式與電子郵件傳送相同，例如在訊息內文中新增追隨者的名稱。 深入了解 [本節](../send/personalize.md).
+   個人化欄位的使用方式與電子郵件傳送相同，例如在訊息內文中新增追隨者的名稱。 在[本節](../send/personalize.md)了解更多資訊。
 
 1. 預覽訊息
 

@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 5%
 
    ![](assets/template-activate-4.png)
 
-* **目標定位與工作流程**
+* **目標定位和工作流程**
 
    選取 **[!UICONTROL Targeting and workflows]** 模組中，系統會新增標籤，讓您根據此範本為促銷活動建立一或多個工作流程。 您也可以根據此範本為每個行銷活動個別設定工作流程。進一步了解行銷活動工作流程，請參閱 [本節](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 
@@ -167,7 +167,7 @@ ht-degree: 5%
 * 輸入 **標籤** 範本中：標籤是必填的，且是根據此範本所有促銷活動的預設標籤。
 * 選擇促銷活動 **性質** 從下拉式清單中。 此清單中可用的值是儲存在 **[!UICONTROL natureOp]** 枚舉。
 
-了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}。
+了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 * 選取 **促銷活動類型**:唯一、循環或週期。 依預設，促銷活動範本會套用至不重複的促銷活動。 循環和定期促銷活動在 [本節](recurring-periodic-campaigns.md).

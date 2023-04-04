@@ -1,6 +1,6 @@
 ---
-title: 與受眾接觸的最佳做法
-description: 與受眾一起學習最佳做法
+title: 受眾最佳實務
+description: 透過受眾了解最佳實務
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 ---
 
-# 與受眾接觸的最佳做法
+# 受眾最佳實務

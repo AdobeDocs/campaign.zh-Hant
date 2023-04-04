@@ -2,10 +2,11 @@
 title: 內建報表量度計算
 description: 內建報表量度計算
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -25,19 +26,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 開啟次數<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @開啟次數<br /> </td> 
    <td> URL主鍵@totalClicks為1的所有加總。<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 點擊次數<br /> </td> 
-   <td> @clicks<br /> </td> 
+   <td> @點按次數<br /> </td> 
    <td> URL類型等於「電@totalClicks點按」的所有加總。<br /> </td> 
    <td> sum(Iif([url/@type]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交易<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> 交易數<br /> </td> 
+   <td> @交易數<br /> </td> 
    <td> URL類型等於「交@totalClicks」的所有總和。<br /> </td> 
    <td> sum(Iif([url/@type]=5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -539,7 +540,7 @@ ht-degree: 4%
    <td> count(Iif([url/@type]=6, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 轉發估計<br /> </td> 
+   <td> 轉送次數估計<br /> </td> 
    <td> @forward<br /> </td> 
    <td> 不重複訪客的數量與至少按一下電子郵件一次的不重複收件者數量之間的差異。<br /> </td> 
    <td> @personClick - @recipientClick<br /> </td> 
@@ -581,7 +582,7 @@ ht-degree: 4%
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 累積點按次數<br /> </td> 
+   <td> 累計點按次數<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
    <td> URL類別等於@ids「電子郵件點按」時的所有計數。<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0))<br /> </td> 
@@ -605,7 +606,7 @@ ht-degree: 4%
    <td> count(Iif([url/@type]=4或[url/@type]=5, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交易<br /> </td> 
+   <td> 交易數<br /> </td> 
    <td> @transaction<br /> </td> 
    <td> URL類型等@ids於「交易」的所有計數。<br /> </td> 
    <td> count(Iif([url/@type]=5, @id, 0))<br /> </td> 
@@ -700,19 +701,19 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 反應性<br /> </td> 
+   <td> 反應度<br /> </td> 
    <td> @reactivity<br /> </td> 
    <td> 點按一次傳遞的目標收件者人數與至少開啟一次傳遞的目標收件者預估人數之比。<br /> </td> 
    <td> percent([指標/@recipientClick], [指標/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按<br /> </td> 
+   <td> 不同點按次數<br /> </td> 
    <td> @distinctClicks<br /> </td> 
    <td> 至少按一下傳送一次的不同訪客數量與成功傳送之訊息數量之比。<br /> </td> 
    <td> percent([指標/@personClick], [指標/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 累積點按次數<br /> </td> 
+   <td> 累計點按次數<br /> </td> 
    <td> @totalClicks<br /> </td> 
    <td> 目標收件者點按總次數與成功傳送訊息總數之比。<br /> </td> 
    <td> percent([指標/@totalRecipientClick], [指標/@success])<br /> </td> 
@@ -747,7 +748,7 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 初始母體<br /> </td> 
+   <td> 初始族群<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 傳遞鎖定的收件者總數。<br /> </td> 
    <td> sum([properties/@totalTarget]<br /> </td> 
@@ -806,20 +807,20 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 交易<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> 交易數<br /> </td> 
+   <td> @交易數<br /> </td> 
    <td> URL類型等於「交@totalClicks」的所有加總。<br /> </td> 
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 點擊次數<br /> </td> 
-   <td> @clicks<br /> </td> 
+   <td> @點按次數<br /> </td> 
    <td> URL類型等於「電@totalClicks點按」的所有加總。<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 開啟<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @開啟次數<br /> </td> 
    <td> URL主鍵@totalClicks為等於1的所有加總。<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -885,7 +886,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-## 開啟次數劃分 {#breakdown-of-opens-1}
+## 開啟次數的劃分 {#breakdown-of-opens-1}
 
 此報表以 **傳遞** (nms:delivery)和 **追蹤記錄** (nms:trackingLogRcp)表格。
 

@@ -6,8 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e873e945f7101c5c54b4b18a128951e08d329b87
-workflow-type: ht
+exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -21,14 +22,14 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
-> 用戶端主控台升級為強制。 透過此[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台 。
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
 
 _2022 年 10 月 7 日_
 
 **功能改進**
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
-* 此&#x200B;**資料庫清理**&#x200B;技術工作流程現在也可處理自訂的準備結構。 (NEO-48974)
+* 此 **資料庫清理** 技術工作流程現在也可處理自訂的準備結構。 (NEO-48974)
 * 修正了可能導致傳遞持續存在&#x200B;**待定**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079、NEO-48251)
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)

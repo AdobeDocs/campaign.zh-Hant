@@ -4,19 +4,19 @@ description: 測量促銷活動的成功，並分析使用者行為
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
-
 
 # 開始使用報告功能{#gs-ac-reports}
 
 Adobe Campaign提供本頁面中列出的一組報表工具。
 
-* **立方體**
+* **Cube**
 
    Adobe Campaign隨附直覺式資料探索工具，可建立動態報表。
 
@@ -28,7 +28,7 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
    如需詳細資訊，請參閱[本章節](gs-cubes.md)。
 
-* **內建報表**
+* **內建報告**
 
    Adobe Campaign隨附傳遞、行銷活動、平台活動、選用功能等相關報表。 這些報告可透過其相關的各種功能取得。 它們可適應您的特定需求。
 
@@ -46,10 +46,10 @@ Adobe Campaign提供本頁面中列出的一組報表工具。
 
    ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) 促銷活動描述性分析報告顯示在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) 促銷活動描述性分析報告顯示在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
-* **自訂報表**
+* **自訂報告**
 
    使用Adobe Campaign建立資料庫中資料的報表。 建立後，請在適當的內容中使其可存取。
 
-   ![](../assets/do-not-localize/book.png) 建立報表的步驟在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}。 個人化報表建立會保留給進階使用者。
+   ![](../assets/do-not-localize/book.png) 建立報表的步驟在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. 個人化報表建立會保留給進階使用者。

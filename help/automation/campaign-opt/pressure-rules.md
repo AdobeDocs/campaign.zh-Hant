@@ -7,7 +7,7 @@ exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
 source-wordcount: '3027'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 促銷活動是根據定義的臨界值和訊息權重而選取。
 
 * 臨界值是指定收件者在指定期間內所授權的最高傳送數量。 可設定或變數。 可在類型規則設定中設定或計算。 [了解更多資訊](#maximum-number-of-messages)。
-* 傳遞權重可讓您識別壓力管理框架內的最優先傳送。 權重最高的報文具有優先順序。 [了解更多資訊](#message-weight)。
+* 傳遞權重可讓您確認壓力管理架構內最優先的傳遞。權重最高的訊息具有優先順序。[了解更多資訊](#message-weight)。
 
 仲裁的目的在於確保其權重大於進行中促銷活動的已排程促銷活動不會導致過度的設定檔請求：若是如此，則會從傳送中排除設定檔。
 
@@ -89,7 +89,7 @@ ht-degree: 5%
 
 ## 定義臨界值和加權 {#define-thresholds-and-weights}
 
-### 最大消息數 {#maximum-number-of-messages}
+### 最大訊息數 {#maximum-number-of-messages}
 
 每個壓力規則定義一個閾值，即在給定時間段內可以發送到一個接收者的最大消息數。 一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程式可讓您在訊息超過設定的臨界值時，自動將收件者排除在傳送之外，以避免過度請求。
 

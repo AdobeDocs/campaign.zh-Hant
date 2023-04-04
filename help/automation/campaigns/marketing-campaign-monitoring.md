@@ -1,44 +1,45 @@
 ---
 product: campaign
-title: 監控市場營銷活動
-description: 監控市場營銷活動
+title: 監控行銷活動
+description: 監控行銷活動
 feature: Campaigns, Monitoring
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 2%
 
 ---
 
-# 監控市場營銷活動 {#monitor-marketing-campaigns}
+# 監控行銷活動 {#monitor-marketing-campaigns}
 
 ## 追蹤行銷活動 {#tracking-a-campaign}
 
-對於每次活動， **[!UICONTROL Tracking]** 頁籤，用於查看所有作業及其狀態。
+對於每個促銷活動， **[!UICONTROL Tracking]** 索引標籤可讓您檢視所有作業及其狀態。
 
-可通過此子頁籤訪問以下資訊：
+可透過此子標籤存取下列資訊：
 
-* 的 **[!UICONTROL Audit]** 子標籤顯示活動日記帳。 它包含在市場活動上執行的作業：工作流建立或啟動、審批、抽取、庫存管理等。
+* 此 **[!UICONTROL Audit]** 子索引標籤顯示活動日記帳。 它包含促銷活動上執行的作業：工作流建立或啟動、批准、提取、庫存管理等。
 
    ![](assets/campaign-audit-tab.png)
 
-* 的 **[!UICONTROL Deliveries]** 子標籤包含市場活動的所有交貨。 可以從此視圖編輯它們。 要執行此操作，請選擇交貨並按一下 **[!UICONTROL Detail]** 表徵圖
+* 此 **[!UICONTROL Deliveries]** 子索引標籤包含促銷活動的所有傳送。 可從此檢視加以編輯。 若要這麼做，請選取傳送，然後按一下 **[!UICONTROL Detail]** 表徵圖。
 
    ![](assets/campaign-delivery-tab.png)
 
-* 的 **[!UICONTROL Approvals]** 子標籤包含市場活動的所有審批流程。 您可以檢查詳細資訊和注釋
+* 此 **[!UICONTROL Approvals]** 子索引標籤包含促銷活動的所有核准程式。 您可以檢查詳細資訊和留言
 
-* 為為服務提供商生成消息而建立的工作流顯示在 **[!UICONTROL Jobs on service providers]** 的子菜單。 按一下 **[!UICONTROL Detail]** 表徵圖以顯示所選工作流。
+* 為產生服務提供者訊息而建立的工作流程顯示在 **[!UICONTROL Jobs on service providers]** 頁簽。 按一下 **[!UICONTROL Detail]** 圖示來顯示選取的工作流程。
 
-## 跟蹤交貨 {#delivery-tracking}
+## 追蹤傳遞 {#delivery-tracking}
 
-交貨清單可通過 **[!UICONTROL Deliveries]** 「市場活動」節點的連結。
+傳遞清單可透過 **[!UICONTROL Deliveries]** 行銷活動節點的連結。
 
 ![](assets/filter-deliveries-from-homepage.png)
 
-對於每個交貨，此清單允許您訪問以下關鍵指標：狀態、目標接收人數、連結的市場活動等。
+對於每個傳送，此清單可讓您存取關鍵指標：狀態、已鎖定的收件者數目、已連結的行銷活動等。
 
-要檢查交貨的狀態，請編輯它並查看其儀表板和頁籤。
+若要檢查傳送狀態，請編輯傳送並檢視其控制面板和標籤。
 
 <!--
 >[!NOTE]
@@ -46,8 +47,8 @@ ht-degree: 2%
 >Information concerning delivery details is available in [this section](../../delivery/using/about-message-tracking.md) section.
 -->
 
-## 跟蹤執行 {#execution-tracking}
+## 追蹤執行 {#execution-tracking}
 
-您可以通過按一下 **[!UICONTROL Deliveries]**，可通過Adobe Campaign首頁訪問。
+您可以按一下 **[!UICONTROL Deliveries]**，可透過Adobe Campaign首頁存取。
 
-有關在市場活動中執行的進程的詳細資訊，請在 **[!UICONTROL Edit > Audit]** 頁籤 您可以查看市場活動中的交貨清單。 [了解更多資訊](#tracking-a-campaign)。
+行銷活動中執行之程式的詳細資訊，會收集在 **[!UICONTROL Edit > Audit]** 標籤。 您可以檢視促銷活動中的傳送清單。 [了解更多資訊](#tracking-a-campaign)。

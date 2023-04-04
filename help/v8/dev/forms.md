@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '2554'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 依預設，每個欄位會顯示在單一行上，並根據資料類型佔據所有可用空間。
 
-![](../assets/do-not-localize/book.png) 所有表單屬性都列於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target=&quot;_blank&quot;}。
+![](../assets/do-not-localize/book.png) 所有表單屬性都列於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## 格式 {#formatting}
 

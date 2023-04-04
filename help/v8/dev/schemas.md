@@ -194,7 +194,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## 屬性（欄位） {#attributes--fields-}
 
-屬性可讓您定義組成資料物件的欄位。 您可以使用 **[!UICONTROL Insert]** 按鈕，將空屬性模板放入游標所在的XML中。 深入了解 [本節](create-schema.md).
+屬性可讓您定義組成資料物件的欄位。 您可以使用 **[!UICONTROL Insert]** 按鈕，將空屬性模板放入游標所在的XML中。 在[本節](create-schema.md)了解更多資訊。
 
 ![](assets/schemaextension_2.png)
 

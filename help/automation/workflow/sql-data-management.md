@@ -3,7 +3,8 @@ product: campaign
 title: SQL 資料管理
 description: 了解有關SQL資料管理工作流活動的更多資訊
 feature: Workflows
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
