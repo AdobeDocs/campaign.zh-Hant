@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ## 在工作流程中匯入設定檔
 
-設定檔匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。深入了解 [本節](../../automation/workflow/recurring-import-workflow.md).
+設定檔匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。在[本節](../../automation/workflow/recurring-import-workflow.md)了解更多資訊。
 
 ![](assets/import-wf.png)
 
@@ -33,7 +33,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/new-import.png)
 
-![](../assets/do-not-localize/book.png) 了解如何執行統一匯入工作，以在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target="_blank"}.
+![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant)中瞭解如何執行單一匯入作業，以供資料庫使用{target="_blank"}。
 
 ## 透過網頁應用程式收集設定檔
 
@@ -41,7 +41,7 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}.
+![](../assets/do-not-localize/book.png)在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}中瞭解如何建立網路表單。
 
 **相關主題**
 
