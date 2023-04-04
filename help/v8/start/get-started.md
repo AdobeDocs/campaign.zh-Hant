@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功�
 
 進階資料管理功能進一步擴充了資料處理能力。該功能透過包含未在資料超市中模組化的資料，來簡化及最佳化目標定位流程。
 
-![](../assets/do-not-localize/glass.png) 深入了解區段和受眾建立，位於 [本節](audiences.md).
+![](../assets/do-not-localize/glass.png)在[本節](audiences.md)中深入瞭解細分與對象建立。
 
 ## 跨頻道行銷活動策劃 {#cross-channel-campaign-orchestration}
 
