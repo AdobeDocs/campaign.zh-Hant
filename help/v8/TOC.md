@@ -5,9 +5,9 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
       + [利用傳送範本](send/create-templates.md)
       + 電子郵件 {#emails}
          + [設計和驗證電子郵件](send/email.md)
-         + [連結到鏡像頁](send/mirror-page.md)
+         + [連結至鏡像頁面](send/mirror-page.md)
          + [傳送和監視電子郵件](send/send.md)
       + [SMS](send/sms.md)
       + [推播通知](send/push.md)
@@ -56,13 +56,13 @@ ht-degree: 94%
          + [傳遞失敗](send/delivery-failures.md)
       + [傳送時間最佳化](send/predictive.md)
       + [管理訂閱](start/subscriptions.md)
-      + 個人化內容 {#personalize}
+      + 將內容個人化 {#personalize}
          + [開始使用個人化](send/personalize.md)
          + [個人化資料](send/personalization-data.md)
          + [新增個人化欄位](send/personalization-fields.md)
          + [使用個人化區塊](send/personalization-blocks.md)
          + [建立條件](send/conditions.md)
-      + 驗證您的傳送 {#validate}
+      + 驗證您的傳遞 {#validate}
          + [預覽和校樣](send/preview-and-proof.md)
          + [傳遞分析](send/delivery-analysis.md)
 + 設定檔與對象管理 {#audience}
