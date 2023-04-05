@@ -4,7 +4,7 @@ description: 了解如何在傳送前驗證傳遞內容
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
+source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 4%
@@ -63,7 +63,7 @@ ht-degree: 4%
    >
    >種子地址不屬於預設收件人表(nms:recipient)，它們將建立在單獨的表中。 如果使用新資料擴展收件者表，則必須擴展種子地址表以及使用相同資料擴展種子地址表。
 
-   進一步了解種子地址，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.htmll){target="_blank"}.
+   進一步了解種子地址，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
 * 使用 **[!UICONTROL Specific target and Seed addresses]** 選項來結合種子地址和特定電子郵件地址。 然後，在兩個不同的子標籤中定義相關配置。
 
