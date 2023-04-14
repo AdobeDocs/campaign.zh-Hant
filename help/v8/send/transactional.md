@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 * 客戶動作的個別即時回應
 * 非促銷內容
 
-![](../assets/do-not-localize/glass.png) 交易式訊息設定在 [本節](../config/transactional-msg-settings.md).
+交易式訊息設定在 [本節](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) 了解交易式訊息架構，位於 [本頁](../architecture/architecture.md#transac-msg-archi).
+了解交易式訊息架構，位於 [本頁](../architecture/architecture.md#transac-msg-archi).
 
 ## 交易式訊息傳遞操作原則 {#transactional-messaging-operating-principle}
 
