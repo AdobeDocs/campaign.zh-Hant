@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -24,10 +24,12 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 
 
 >[!CAUTION]
+>* 作為「受管Cloud Services」用戶，外部帳戶是按Adobe配置的，不能修改。
+
 >
->在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理Campaign本機資料庫和雲端資料庫([!DNL Snowflake])。
+>* >在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理Campaign本機資料庫和雲端資料庫([!DNL Snowflake])。
 >
->作為「受管Cloud Services」用戶，外部帳戶是按Adobe配置的，不能修改。
+
 
 ## 促銷活動專用外部帳戶
 
@@ -38,8 +40,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 ### 退回郵件 {#bounce-mails-external-account}
 
 >[!NOTE]
->
->自Campaign v8.3起，即可使用POP3功能的Microsoft Exchange Online OAuth 2.0驗證。若要檢查您的版本，請參閱 [本節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+自Campaign v8.3起，即可使用POP3功能的Microsoft Exchange Online OAuth 2.0驗證。若要檢查您的版本，請參閱 [本節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 此 **退回郵件** 外部帳戶指定用於連接到電子郵件服務的外部POP3帳戶。 所有為POP3訪問配置的伺服器都可用於接收返回郵件。
 
@@ -77,8 +78,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 ![](assets/bounce_external_2.png)
 
 >[!IMPORTANT]
->
->使用Microsoft OAuth 2.0設定POP3外部帳戶前，您必須先在Azure入口網站中註冊應用程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。
+使用Microsoft OAuth 2.0設定POP3外部帳戶前，您必須先在Azure入口網站中註冊應用程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 若要使用Microsoft OAuth 2.0設定POP3外部，請檢查 **[!UICONTROL Microsoft OAuth 2.0]** 選項並填寫下列欄位：
 
@@ -105,8 +105,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 此 **[!UICONTROL Routing]** 外部帳戶可讓您根據安裝的套件，設定Adobe Campaign中可用的每個管道。
 
 >[!CAUTION]
->
->此 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk)外部帳戶 **不能** 在Adobe Campaign v8中啟用。
+此 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk)外部帳戶 **不能** 在Adobe Campaign v8中啟用。
 
 ### 執行實例 {#execution-instance}
 
@@ -116,60 +115,30 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 ## 訪問外部系統外部帳戶
 
-* **外部資料庫(FDA)**
-
-   此 **外部資料庫** 類型外部帳戶是用來透過同盟資料存取(FDA)連線至外部資料庫。
+* **外部資料庫(FDA)** - **外部資料庫** 類型外部帳戶是用來透過同盟資料存取(FDA)連線至外部資料庫。 深入了解同盟資料存取(FDA)選項，位於 [本節](../connect/fda.md).
 
    與Adobe Campaign v8相容的外部資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)
 
-   ![](../assets/do-not-localize/glass.png) 深入了解同盟資料存取(FDA)選項，位於 [本節](../connect/fda.md).
-
-* **Twitter**
-
-   此 **Twitter** 輸入外部帳戶可用來將Campaign連線至您的twitter帳戶，以代表您發佈訊息。
-
-   ![](../assets/do-not-localize/glass.png) 深入了解Twitter整合，位於 [本節](../connect/ac-tw.md).
+* **Twitter** - **Twitter** 輸入外部帳戶可用來將Campaign連線至您的twitter帳戶，以代表您發佈訊息。 深入了解Twitter整合，位於 [本節](../connect/ac-tw.md).
 
 ## Adobe解決方案整合外部帳戶
 
-* **Adobe Experience Cloud**
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部帳戶是實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。 進一步了解AdobeIdentity Management服務(IMS)，位於 [本節](../start/connect.md#connect-ims).
 
-   此 **[!UICONTROL Adobe Experience Cloud]** 外部帳戶是實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。
+* **網站分析** - **[!UICONTROL Web Analytics (Adobe Analytics)]** 外部帳戶可用來設定從Adobe Analytics到Adobe Campaign的資料傳輸。 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/glass.png) 進一步了解AdobeIdentity Management服務(IMS)，位於 [本節](../start/connect.md#connect-ims).
-
-* **網站分析**
-
-   此 **[!UICONTROL Web Analytics (Adobe Analytics)]** 外部帳戶可用來設定從Adobe Analytics到Adobe Campaign的資料傳輸。
-
-   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aa.md).
-
-* **Adobe Experience Manager**
-
-   此 **[!UICONTROL AEM]** 外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。
-
-   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aem.md).
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容以及表單。 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aem.md).
 
 
 ## CRM連接器外部帳戶
 
-* **Microsoft Dynamics CRM**
+* **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** 外部帳戶可讓您將Microsoft Dynamics資料匯入和匯出至Adobe Campaign。 深入了解Adobe Campaign - Microsoft Dynamics CRM整合，位於 [本頁](../connect/ac-ms-dyn.md).
 
-   此 **[!UICONTROL Microsoft Dynamics CRM]** 外部帳戶可讓您將Microsoft Dynamics資料匯入和匯出至Adobe Campaign。
-
-   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Microsoft Dynamics CRM整合，位於 [本頁](../connect/ac-ms-dyn.md).
-
-* **Salesforce.com**
-
-   此 **[!UICONTROL Salesforce CRM]** 外部帳戶可讓您將Salesforce資料匯入和匯出至Adobe Campaign。
-
-   ![](../assets/do-not-localize/glass.png) 深入了解Adobe Campaign - Salesforce.com CRM整合，位於 [本頁](../connect/ac-sfdc.md).
+* **Salesforce.com** - **[!UICONTROL Salesforce CRM]** 外部帳戶可讓您將Salesforce資料匯入和匯出至Adobe Campaign。 深入了解Adobe Campaign - Salesforce.com CRM整合，位於 [本頁](../connect/ac-sfdc.md).
 
 ## 傳輸資料外部帳戶
 
-這些外部帳戶可用來匯入或匯出資料至Adobe Campaign，使用 **[!UICONTROL Transfer file]** 工作流程活動。
-
-進一步了解中的工作流程中的檔案傳輸 [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+這些外部帳戶可用來匯入或匯出資料至Adobe Campaign，使用 **[!UICONTROL Transfer file]** 工作流程活動。 進一步了解中的工作流程中的檔案傳輸 [本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP和SFTP**
 

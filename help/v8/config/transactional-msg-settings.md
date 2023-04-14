@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 6%
+source-wordcount: '600'
+ht-degree: 5%
 
 ---
 
 # 異動訊息設定
 
+交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 進一步了解交易式訊息 [本節](../send/transactional.md).
+
+了解 [本頁](../architecture/architecture.md#transac-msg-archi).
+
 ![](../assets/do-not-localize/speech.png) 作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 若要在您的環境中安裝及設定Campaign交易式訊息。
-
-![](../assets/do-not-localize/glass.png) 交易式訊息功能於 [本節](../send/transactional.md).
-
-![](../assets/do-not-localize/glass.png) 了解 [本頁](../architecture/architecture.md#transac-msg-archi).
 
 ## 定義權限
 
@@ -26,15 +26,11 @@ ht-degree: 6%
 
 ## 結構擴充功能
 
-對使用的結構進行的所有架構擴充功能 **訊息中心技術工作流程** 控制或執行例項必須重複於Adobe Campaign交易式訊息模組所使用的其他例項。
-
-![](../assets/do-not-localize/book.png) 深入了解訊息中心技術工作流程，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+對使用的結構進行的所有架構擴充功能 [訊息中心技術工作流程](#technical-workflows) 控制或執行例項必須重複於Adobe Campaign交易式訊息模組所使用的其他例項。
 
 ## 傳送交易式推播通知
 
-與行動應用程式通道模組結合時，交易式訊息可讓您透過行動裝置上的通知推送交易式訊息。
-
-![](../assets/do-not-localize/book.png) 行動應用程式頻道於 [本節](../send/push.md).
+結合時 [行動應用程式頻道模組](../send/push.md)，交易式訊息可讓您透過行動裝置上的通知推送交易式訊息。
 
 若要傳送交易式推播通知，您必須執行下列設定：
 
@@ -46,14 +42,14 @@ ht-degree: 6%
 
 1. 復寫 **行動應用程式** 執行例項上的服務及相關行動應用程式。
 
-為了讓Campaign傳送交易式推播通知，事件必須包含下列元素：
+此外，事件必須包含下列元素：
 
-* 行動裝置ID: **registrationId** 適用於Android和 **deviceToken** iOS。 此ID代表通知將傳送至的「位址」。
+* 行動裝置ID: **registrationId** 適用於Android和 **deviceToken** iOS。 此ID代表通知所要傳送到的「位址」。
 * 行動應用程式或整合金鑰的連結(**uid**)，可讓您擷取應用程式的特定連線資訊。
 * 將傳送通知的通道(**whiskChannel**):iOS為41,Android為42。
-* 用於個人化的其他資料。
+* 任何其他個人化資料。
 
-以下是包含此資訊的事件範例：
+以下是傳送交易式推播通知的事件設定範例：
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -76,14 +72,7 @@ ht-degree: 6%
 </SOAP-ENV:Envelope>
 ```
 
-## 監視臨界值 {#monitor-thresholds}
 
-您可以設定顯示在 **訊息中心服務層級** 和 **訊息中心處理時間** 報表。
-
-要執行此操作，請遵循下列步驟：
-
-1. 在 **執行實例**，並瀏覽至 **[!UICONTROL Message Center]** 頁面。
-1. 使用箭頭更改閾值。
 
 
 ## 清除事件 {#purge-events}

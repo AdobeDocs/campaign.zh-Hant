@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 96%
          + 事件管理 {#event}
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
-         + [傳送訊息](send/delivery-execution.md)
+         + [傳送及監控訊息](send/delivery-execution.md)
       + 失敗、邊界和隔離{#failures}
          + [隔離](send/quarantines.md)
          + [傳遞失敗](send/delivery-failures.md)
