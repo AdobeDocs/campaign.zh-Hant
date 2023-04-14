@@ -4,13 +4,13 @@ description: 了解如何在訊息內容中使用內建的個人化區塊
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
+exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 1%
 
 ---
-
 
 # 使用個人化區塊{#personalization-blocks}
 
@@ -80,5 +80,3 @@ ht-degree: 1%
 透過下列影片了解如何建立動態內容區塊，以及如何使用區塊將電子郵件傳送的內容個人化。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
-
-

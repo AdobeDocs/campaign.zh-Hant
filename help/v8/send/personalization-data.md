@@ -4,13 +4,13 @@ description: 了解可用於個人化的來源
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: 711256e2-ab77-404a-b052-6793a85da193
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
 
 ---
-
 
 # 個人化資料來源{#personalization-data}
 
@@ -71,7 +71,3 @@ ht-degree: 2%
 在工作流程內容中建立傳送時，您可以使用暫時工作流程表格中的資料。 儲存在工作流臨時工作表中的資料可用於個人化任務。 資料可用於個人化欄位。
 
 此資料會分組於 **[!UICONTROL Target extension]** 功能表。 如需詳細資訊，請參閱[本章節](../../automation/workflow/use-workflow-data.md#target-data)。
-
-
-
-

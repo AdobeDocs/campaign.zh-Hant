@@ -4,7 +4,8 @@ description: 了解如何準備和檢查您的傳遞內容
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -89,5 +90,3 @@ ht-degree: 0%
 * **[!UICONTROL Start job in a detached process]** :此選項可讓您以個別程式開始傳送分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器程式(web nlserver)。 通過選擇此選項，您確保即使在應用程式伺服器出現故障時也能完成分析。
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :此選項會在分析階段期間將SQL查詢日誌添加到傳遞日誌。
 * **[!UICONTROL Ignore personalization scripts during sending]** :此選項可讓您略過HTML內容中找到的JavaScript指令的解譯。 它們會如傳送內容中所示顯示。 這些指令與 `<%=` 標籤。
-
-

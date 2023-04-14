@@ -5,10 +5,10 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 3%
+source-wordcount: '1671'
+ht-degree: 4%
 
 ---
 
@@ -24,11 +24,12 @@ ht-degree: 3%
 
 ## 整合SDK {#push-sdk}
 
-您可以在資料收集UI中設定Adobe Experience Platform擴充功能，以使用Adobe Campaign Mobile SDK。 Adobe Experience Platform Mobile SDK可協助您在行動應用程式中支援Adobe的Experience Cloud解決方案和服務。 SDK設定可透過資料收集UI管理，以進行彈性的設定和可擴充的規則型整合。 [進一步了解Adobe Developer檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+若要透過Adobe Campaign傳送推播通知，您必須在Adobe Experience Platform Mobile SDK的資料收集UI中設定Adobe Campaign擴充功能。
 
-您也可以整合Campaign SDK，以促進行動應用程式與Adobe Campaign平台的整合。 相容的SDK版本列於 [Campaign相容性矩陣](../start/compatibility-matrix.md#MobileSDK).
+Adobe Experience Platform Mobile SDK可協助您在行動應用程式中支援Adobe的Experience Cloud解決方案和服務。 SDK設定可透過資料收集UI管理，以進行彈性的設定和可擴充的規則型整合。
 
-了解如何在中，將Campaign Android和iOS SDK與您的應用程式整合 [本頁](../config/push-config.md)
+[進一步了解Adobe Developer檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+
 
 ## 在Campaign中配置您的應用程式設定{#push-config}
 
@@ -77,10 +78,7 @@ ht-degree: 3%
 
    確保相同 **[!UICONTROL Integration key]** 是在Adobe Campaign中定義，並透過SDK在應用程式程式碼中定義。
 
-   如果您使用Campaign SDK，請前往[本頁](../config/push-config.md).
-
-
-   如果您使用Adobe Experience Platform SDK（資料收集），請前往 [本頁](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   深入了解 [開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -119,9 +117,7 @@ ht-degree: 3%
 
    確保相同 **[!UICONTROL Integration key]** 是在Adobe Campaign中定義，並透過SDK在應用程式程式碼中定義。
 
-   如果您使用Campaign SDK，請前往 [本頁](../config/push-config.md).
-
-   如果您使用Adobe Experience Platform SDK（資料收集），請前往 [本頁](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   深入了解 [開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
