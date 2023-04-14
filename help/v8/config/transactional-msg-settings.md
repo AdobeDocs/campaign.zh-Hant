@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 0%
+source-wordcount: '682'
+ht-degree: 6%
 
 ---
 
 # 異動訊息設定
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 若要在您的環境中安裝及設定Campaign交易式訊息。
+![](../assets/do-not-localize/speech.png) 作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support) 若要在您的環境中安裝及設定Campaign交易式訊息。
 
 ![](../assets/do-not-localize/glass.png) 交易式訊息功能於 [本節](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) 了解 [本頁](../architecture/architecture.md).
+![](../assets/do-not-localize/glass.png) 了解 [本頁](../architecture/architecture.md#transac-msg-archi).
 
 ## 定義權限
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 與行動應用程式通道模組結合時，交易式訊息可讓您透過行動裝置上的通知推送交易式訊息。
 
-![](../assets/do-not-localize/book.png) 行動應用程式頻道於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) 行動應用程式頻道於 [本節](../send/push.md).
 
 若要傳送交易式推播通知，您必須執行下列設定：
 
@@ -75,3 +75,49 @@ ht-degree: 0%
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
+## 監視臨界值 {#monitor-thresholds}
+
+您可以設定顯示在 **訊息中心服務層級** 和 **訊息中心處理時間** 報表。
+
+要執行此操作，請遵循下列步驟：
+
+1. 在 **執行實例**，並瀏覽至 **[!UICONTROL Message Center]** 頁面。
+1. 使用箭頭更改閾值。
+
+
+## 清除事件 {#purge-events}
+
+您可以調整部署嚮導設定，以配置資料儲存在資料庫中的時間。
+
+事件清除會由 **資料庫清理** 技術工作流程。 此工作流程會清除在執行執行個體上收到和儲存的事件，以及封存在控制執行個體上的事件。
+
+視需要使用箭頭來變更 **事件** （在執行執行個體上）和 **封存的事件** （在控制例項上）。
+
+
+## 技術工作流程 {#technical-workflows}
+
+部署任何交易式訊息範本之前，您必須確定控制和執行例項的技術工作流程已啟動。
+
+然後，您就可以從 **管理>生產>訊息中心** 檔案夾。
+
+### 控制執行個體工作流程 {#control-instance-workflows}
+
+在控制實例上，必須為每個實例建立一個存檔工作流 **[!UICONTROL Message Center execution instance]** 外部帳戶。 按一下 **[!UICONTROL Create the archiving workflow]** 按鈕來建立和啟動工作流。
+
+### 執行執行個體工作流程 {#execution-instance-workflows}
+
+在執行例項上，您必須啟動下列技術工作流程：
+
+* **[!UICONTROL Processing batch events]** (內部名稱： **[!UICONTROL batchEventsProcessing]** ):此工作流程可讓您在將批次事件連結至訊息範本之前，先劃分佇列中的批次事件。
+* **[!UICONTROL Processing real time events]** (內部名稱： **[!UICONTROL rtEventsProcessing]** ):此工作流程可讓您在將佇列中的即時事件連結至訊息範本之前，先加以劃分。
+* **[!UICONTROL Update event status]** (內部名稱： **[!UICONTROL updateEventStatus]** ):此工作流程可讓您將狀態歸因於事件。
+
+   可能的事件狀態包括：
+
+   * **[!UICONTROL Pending]**:事件在佇列中。 尚未為其指派訊息範本。
+   * **[!UICONTROL Pending delivery]**:事件在佇列中，已指派訊息範本給該事件，並由傳送處理。
+   * **[!UICONTROL Sent]**:此狀態是從傳送記錄檔複製而來。 這表示已傳送傳遞。
+   * **[!UICONTROL Ignored by the delivery]**:此狀態是從傳送記錄檔複製而來。 這表示會由傳送忽略。
+   * **[!UICONTROL Delivery failed]**:此狀態是從傳送記錄檔複製而來。 這表示傳送失敗。
+   * **[!UICONTROL Event not taken into account]**:無法將事件連結到消息模板。 將不會處理事件。
