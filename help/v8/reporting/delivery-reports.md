@@ -3,9 +3,9 @@ title: Adobe Campaign內建的傳送報表
 description: Adobe Campaign內建的傳送報表
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 2%
 >
 >此報告中顯示的域名在多維資料集級別使用的明細清單中定義。 若要變更、新增或移除預設網域，請編輯 **[!UICONTROL Domains]** 逐項列出並修改值和別名。 此 **[!UICONTROL Others]** 類別包含不屬於分項清單任何值的網域名稱。
 >
->了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>了解如何存取和設定您的分項清單，位於 [本頁](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
