@@ -4,13 +4,13 @@ description: 了解Campaign交易訊息如何收集和處理事件
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 1%
 
 ---
-
 
 # 事件處理 {#event-processing}
 
@@ -102,6 +102,3 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >此步驟只能使用工作流程執行，因此會保留給專家使用者。 如需詳細資訊，請連絡您的Adobe帳戶主管。
-
-
-
