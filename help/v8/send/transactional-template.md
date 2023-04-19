@@ -4,7 +4,8 @@ description: 了解如何建立和發佈交易式訊息的範本
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 1%
