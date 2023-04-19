@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '550'
+ht-degree: 94%
 
 ---
 
@@ -166,10 +166,11 @@ ht-degree: 0%
       + [實施步驟](start/implement.md)
       + [自訂您的執行個體](dev/customize.md)
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
-   + 設定 {#configuration}
+   + 設定與設定 {#configuration}
+      + [使用者介面設定](config/ui-settings.md)
       + [電子郵件設定](config/email-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
-      + [將 Campaign SDK 與您的應用程式整合](config/push-config.md)
+      + [將 Campaign SDK 與您的應用程式整合  — 已棄用頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
    + [促銷活動資料模型](dev/datamodel.md)
