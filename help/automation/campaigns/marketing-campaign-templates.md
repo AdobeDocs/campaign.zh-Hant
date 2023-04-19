@@ -4,9 +4,9 @@ title: 行銷活動範本
 description: 行銷活動範本
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '987'
 ht-degree: 5%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 5%
 * 輸入 **標籤** 範本中：標籤是必填的，且是根據此範本所有促銷活動的預設標籤。
 * 選擇促銷活動 **性質** 從下拉式清單中。 此清單中可用的值是儲存在 **[!UICONTROL natureOp]** 枚舉。
 
-了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+了解如何存取和設定您的分項清單，位於 [本頁](../../v8/config/ui-settings.md#enumerations).
 
 
 * 選取 **促銷活動類型**:唯一、循環或週期。 依預設，促銷活動範本會套用至不重複的促銷活動。 循環和定期促銷活動在 [本節](recurring-periodic-campaigns.md).
