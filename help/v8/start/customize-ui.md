@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 15%
+source-wordcount: '200'
+ht-degree: 16%
 
 ---
 
@@ -37,8 +37,7 @@ ht-degree: 15%
 
 針對 **開啟** 枚舉時，用戶也可以在值中輸入第一個字元，並顯示可能的值。
 
-了解如何存取和設定您的分項清單，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
-
+進一步了解 [本頁](../../v8/config/ui-settings.md#enumerations).
 
 ## 預設單位 {#default-units}
 
