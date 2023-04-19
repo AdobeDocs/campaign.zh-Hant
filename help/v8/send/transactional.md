@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
@@ -57,10 +57,8 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 若要建立Adobe Campaign將處理的事件類型，請遵循下列步驟：
 
-1. 前往 **[!UICONTROL Administration > Platform > Enumerations]** 樹的資料夾。
-
-1. 選擇 **[!UICONTROL Event type]** 從清單中。
-
+1. 瀏覽至 **[!UICONTROL Administration > Platform > Enumerations]** Campaign檔案總管的資料夾。
+1. 選取 **[!UICONTROL Event type]** 清單中的分項清單。
 1. 按一下 **[!UICONTROL Add]** 來建立分項清單。 這可以是訂單確認、密碼變更、訂單傳送變更等。
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 >[!NOTE]
 >
->進一步了解 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>進一步了解 [本頁](../../v8/config/ui-settings.md#enumerations).
+
 
 ## 定義交易式訊息範本 {#create-message-template}
 
