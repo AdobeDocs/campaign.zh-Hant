@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 92%
+source-wordcount: '385'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 92%
 ## 用戶端主控台{#ClientConsoleoperatingsystems}
 
 使用 Campaign 用戶端主控台時，需要下列作業系統和瀏覽器。[深入瞭解](connect.md)。
+
+>[!NOTE]
+>
+>請注意，8.5版本將淘汰32位元版本的用戶端主控台。 從8.6版開始，客戶端控制台將僅以64位元提供。 有關如何升級作業系統的詳細資訊，請參閱 [技術檔案](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
 ### 作業系統{#op-systems}
 
