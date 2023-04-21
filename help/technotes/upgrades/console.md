@@ -4,9 +4,9 @@ title: 32位客戶端控制台淘汰
 description: 32位客戶端控制台淘汰
 hide: true
 hidefromtoc: true
-source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
+source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 +++什麼版本的Campaign v8將不再支援32位作業系統？
 
-自8.5版開始，所有Campaign v8版本將不再支援32位元作業系統。
+自8.6版開始，所有Campaign v8版本將不再支援32位元作業系統。
 
 +++
 
@@ -47,15 +47,17 @@ ht-degree: 1%
 
 確保電腦處理器支援安裝64位作業系統。 從32位版本升級到64位版本的Windows要求您重新格式化硬碟、安裝64位版本的Windows，然後重新安裝設備上的其他所有內容。 如需詳細資訊，請參閱 [32位和64位Windows:常見問題](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
 
++++
+
 +++ 如何檢查我是使用32位電腦還是64位電腦？
 
 **WINDOWS 10和WINDOWS 8.1**
 
-1. 選擇「開始」按鈕，然後選擇 **設定** > **系統** > **關於**.
-1. 在右邊，下面 **裝置規格**，請參閱 **系統類型**.
+1. 按一下 **開始** 按鈕，然後選取 **設定** > **系統** > **關於**.
+1. 在 **裝置規格**，請參閱 **系統類型**.
 
 **WINDOWS 7**
-1. 選取 **開始** 按鈕，按一下右鍵 **電腦**，然後選取 **屬性**.
+1. 選取 **開始** 按鈕，按一下右鍵 **電腦** 選取 **屬性**.
 1. 在 **系統**，請參閱系統類型。
 
 如需詳細資訊，請參閱 [32位和64位Windows:常見問題](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
