@@ -4,20 +4,16 @@ title: 32位客戶端控制台淘汰
 description: 32位客戶端控制台淘汰
 hide: true
 hidefromtoc: true
-source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
+source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
 # 終止對32位作業系統的支援 | Adobe Campaign v8 {#console-eol}
 
-<!--
-The 32-bit version of Campaign v8 Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits.
--->
-
-自8.5版開始，Campaign v8將不再支援32位元作業系統，包括產品和安全性更新。 Adobe強烈建議您保持最新的安全性更新。
+8.5版將淘汰32位元版本的用戶端主控台。 自8.6版開始，Campaign v8將不再支援32位元作業系統，包括產品和安全性更新。 Adobe強烈建議您保持最新的安全性更新。
 
 ## 終止支援
 
