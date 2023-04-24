@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -83,7 +83,7 @@ Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)�
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-然後，您可以使用 [您的Adobe ID](#connect-ims).
+然後，您可以使用Adobe ID登入Campaign。
 
 ![](assets/adobeID.png)
 

@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 4%
@@ -101,7 +101,7 @@ Adobe Campaign會使用下列技術帳戶來啟用及執行特定程式。
 
 ## Adobe解決方案整合外部帳戶
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部帳戶是實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。 進一步了解AdobeIdentity Management服務(IMS)，位於 [本節](../start/connect.md#connect-ims).
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部帳戶是實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。 進一步了解AdobeIdentity Management服務(IMS)，位於 [本節](../start/connect.md#logon-to-ac).
 
 * **網站分析** - **[!UICONTROL Web Analytics (Adobe Analytics)]** 外部帳戶可用來設定從Adobe Analytics到Adobe Campaign的資料傳輸。 深入了解Adobe Campaign - Adobe Analytics在 [本頁](../connect/ac-aa.md).
 
