@@ -6,8 +6,8 @@ breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 94%
       + [直接郵件](send/direct-mail.md)
       + [Twitter](send/twitter.md)
       + 異動訊息 {#real-time}
-         + [開始使用交易式訊息](send/transactional.md)
+         + [開始使用異動訊息](send/transactional.md)
          + [建立並發佈範本](send/transactional-template.md)
          + 事件管理 {#event}
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
-         + [傳送及監控訊息](send/delivery-execution.md)
+         + [傳送和監視訊息](send/delivery-execution.md)
       + 失敗、邊界和隔離{#failures}
          + [隔離](send/quarantines.md)
          + [傳遞失敗](send/delivery-failures.md)

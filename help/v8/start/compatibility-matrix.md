@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 81%
 
 ## 行動 SDK{#MobileSDK}
 
-若要傳送 [推播通知](../send/push.md) 透過Campaign，在資料收集UI中設定Adobe Experience Platform擴充功能，以使用Adobe Campaign Classic Mobile SDK。
+若要透過 Campaign 傳送[推播通知](../send/push.md)，請在資料收集 UI 設定 Adobe Campaign Classic 擴充功能，以使用 Adobe Experience Platform Mobile SDK。
 
 
 ## 網路存取{#web-access}
