@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -31,7 +31,6 @@ ht-degree: 0%
    + [連結至 Campaign](start/connect.md)
    + Campaign UI {#ac-ui}
       + [瞭解 Campaign 介面](start/campaign-ui.md)
-      + [自訂 Campaign 介面](start/customize-ui.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
    + [從 Classic v7 到 v8](start/v7-to-v8.md)
    + [常見問答集](start/campaign-faq.md)

@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,10 +74,9 @@ Web訪問介面與控制台介麵類似。 在瀏覽器中，您可以使用與�
 
 左側區段顯示「促銷活動總管」樹狀結構，並可讓您根據您的權限，瀏覽執行個體的所有元件和設定。
 
-上部部分顯示當前資料夾中的記錄清單。 這些清單可完全自訂。 [了解更多](customize-ui.md)
+上部部分顯示當前資料夾中的記錄清單。 這些清單可完全自訂。 [了解更多](../config/ui-settings.md)
 
 下部顯示所選記錄的詳細資訊。
-
 
 ## 語言{#languages}
 
@@ -96,7 +95,6 @@ Campaign v8 使用者介面提供下列語言版本：
 >建立執行個體後無法變更語言。
 
 語言會影響日期和時間格式。
-
 
 英文 (US) 和英文 (EN) 的主要差異如下：
 
