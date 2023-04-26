@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1004'
 ht-degree: 9%
 
 ---
@@ -116,4 +116,4 @@ ht-degree: 9%
 
 * 多個執行實例在負載平衡器後面具有多個執行實例的多單元執行體系結構中，外部應用程式調用的登錄方法正在通過負載平衡器：因此，無法使用以權杖為基礎的驗證。 需要基於用戶/密碼的身份驗證。
 
-![](../assets/do-not-localize/book.png) 進一步了解交易式訊息事件，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}
+進一步了解交易式訊息事件，位於 [本頁](../send/event-processing.md).

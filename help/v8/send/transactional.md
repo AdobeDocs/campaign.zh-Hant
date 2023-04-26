@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 1. [測試訊息](#test-message-template).
 1. [發佈訊息範本](#publish-message-template).
 
-在您設計並發佈交易式訊息範本後，如果觸發對應事件，則相關資料會透過PushEvent和PushEvents傳送至Campaign [SOAP方法](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}，則會傳送給目標收件者。
+在您設計並發佈交易式訊息範本後，如果觸發對應事件，則相關資料會透過PushEvent和PushEvents傳送至Campaign [SOAP方法](../send/event-description.md)，則會傳送給目標收件者。
 
 ## 建立事件類型 {#create-event-types}
 
@@ -196,9 +196,7 @@ This information enables you to personalize message content using personalizatio
 
 您可以傳送校樣至先前建立的種子地址，以測試訊息傳送。
 
-傳送校樣的程式與任何傳送的程式相同。
-
-![](../assets/do-not-localize/book.png) 進一步了解校樣，於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+傳送校樣的程式與任何傳送的程式相同。 進一步了解校樣，於 [本節](../send/preview-and-proof.md).
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 

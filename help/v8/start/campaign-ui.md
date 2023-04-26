@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 20%
 
 ---
 
@@ -72,11 +72,11 @@ Web訪問介面與控制台介麵類似。 在瀏覽器中，您可以使用與�
 
 此工作區允許您訪問資源管理器樹以瀏覽所有功能和選項。
 
-左側區段顯示「促銷活動總管」樹狀結構，並可讓您根據您的權限，瀏覽執行個體的所有元件和設定。
+* 左側區段顯示「促銷活動總管」樹狀結構，並可讓您根據您的權限，瀏覽執行個體的所有元件和設定。 您可以新增和自訂資料夾，如 [本頁](../audiences/folders-and-views.md).
 
-上部部分顯示當前資料夾中的記錄清單。 這些清單可完全自訂。 [了解更多](../config/ui-settings.md)
+* 上部部分顯示當前資料夾中的記錄清單。 這些清單可完全自訂。 [了解更多](../config/ui-settings.md)
 
-下部顯示所選記錄的詳細資訊。
+* 下部顯示所選記錄的詳細資訊。
 
 ## 語言{#languages}
 

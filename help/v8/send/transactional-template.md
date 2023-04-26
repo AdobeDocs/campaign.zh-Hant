@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ This information enables you to personalize message content using personalizatio
 
 傳送校樣的程式與任何傳送的程式相同。
 
-![](../assets/do-not-localize/book.png) 進一步了解校樣，於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+進一步了解校樣，於 [本節](../send/preview-and-proof.md#proofs-send).
 
 不過，若要傳送交易式訊息的證明，您必須執行下列操作：
 

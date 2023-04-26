@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 title: Campaign v8 文件
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 58b2f850284b68c6d65773166b895f9520718385
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 0%
    + [主要功能](start/whats-new.md)
    + [元件與流程](start/ac-components.md)
    + [連結至 Campaign](start/connect.md)
-   + Campaign UI {#ac-ui}
-      + [瞭解 Campaign 介面](start/campaign-ui.md)
-      + [管理資料夾和檢視](audiences/folders-and-views.md)
+   + [Campaign介面](start/campaign-ui.md)
    + [從 Classic v7 到 v8](start/v7-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -167,6 +165,7 @@ ht-degree: 0%
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
    + 設定與設定 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
+      + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [電子郵件設定](config/email-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
       + [將 Campaign SDK 與您的應用程式整合  — 已棄用頁面](config/push-config.md)

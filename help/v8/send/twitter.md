@@ -4,10 +4,10 @@ description: 了解如何使用Adobe Campaign Social Marketing模組在Twitter�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 5%
+source-wordcount: '791'
+ht-degree: 4%
 
 ---
 
@@ -138,9 +138,7 @@ Adobe Campaign隨附 **社交行銷** 模組，可讓您透過Twitter與客戶�
 
 1. 傳送證明
 
-   傳送訊息之前，請務必透過傳送校樣至測試帳戶來驗證訊息：然後，您就可以在私人Twitter帳戶上取得完全轉譯的訊息，並檢查內容和個人化。
-
-   ![](../assets/do-not-localize/book.png) [了解驗證傳送的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
+   傳送訊息之前，請務必驗證 [傳送校樣至測試帳戶](../send/preview-and-proof.md):然後，您就可以在私人Twitter帳戶上取得完全轉譯的訊息，並檢查內容和個人化。
 
 1. 傳送直接訊息
 

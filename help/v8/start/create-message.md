@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 透過 Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、SMS、LINE 訊息、推播通知和直接郵件，並使用各種專屬報告來評估行銷成效。 這些訊息是透過傳遞進行設計和傳送，而且可針對每位收件者進行個人化。
 
 核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。 主要功能存取點是傳送助理。 此存取點可導向 Adobe Campaign 涵括的多種功能。
-
-在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=zh-Hant)中瞭解建立傳送的關鍵步驟。
 
 Adobe Campaign v8 提供下列傳送頻道：
 
@@ -79,11 +77,10 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一�
 
 異動訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
-![](../assets/do-not-localize/glass.png) 在[本節](../architecture/architecture.md#transac-msg-archi)進一步瞭解異動訊息功能
+在[本節](../architecture/architecture.md#transac-msg-archi)進一步瞭解異動訊息功能
 
-![](../assets/do-not-localize/glass.png)[ 本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
+[本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
 
-![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=zh-Hant)中瞭解此功能在端對端使用案例中的作用{target="_blank"}
 
 ## 傳送和追蹤記錄{#gs-tracking-logs}
 

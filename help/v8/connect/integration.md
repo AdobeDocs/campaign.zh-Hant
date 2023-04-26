@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -46,7 +46,7 @@ Campaign v8可以與：
 在跨通道通訊時啟動您的CRM資料：了解如何將連絡人從您的CRM系統傳遞至Adobe Campaign，以及將行銷活動資料從Adobe Campaign分享回您的CRM系統。
 CRM連接器可讓您快速輕鬆地整合資料：Adobe Campaign提供專屬助理，負責從CRM中可用的表格進行收集和選取。 並且可確保雙向同步處理，讓整個系統中的資料隨時保持最新。
 
-![](../assets/do-not-localize/glass.png) 了解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合，位於 [本頁](crm.md)
+了解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合，位於 [本頁](crm.md)
 
 ## 使用同盟資料存取連接第三方{#gs-fda}
 
@@ -64,6 +64,6 @@ CRM連接器可讓您快速輕鬆地整合資料：Adobe Campaign提供專屬助
 * 在您的Twitter帳戶上張貼推文
 * 收集新聯繫人
 
-![](../assets/do-not-localize/glass.png) 了解如何在 [本頁](../connect/ac-tw.md).
+了解如何在 [本頁](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) 了解如何建立Twitter貼文，以及傳送直接訊息給您的追隨者，位於 [本頁](../send/twitter.md).
+了解如何建立Twitter貼文，以及傳送直接訊息給您的追隨者，位於 [本頁](../send/twitter.md).

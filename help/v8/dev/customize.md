@@ -4,9 +4,9 @@ description: 了解如何自訂您的執行個體
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -33,12 +33,9 @@ Adobe Campaign利用資料結構來：
 
 * 透過介面，使用 **新欄位** 助理
 
-   ![](../assets/do-not-localize/book.png) 了解如何在中快速新增Campaign中的欄位 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target="_blank"}
+   了解如何在中快速新增Campaign中的欄位 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target="_blank"}
 
-* 以程式設計方式，借由擴充架構
-
-   ![](../assets/do-not-localize/glass.png) 了解如何在 [本節](../dev/extend-schema.md).
-
+* 以程式設計方式，借由擴充架構。 了解如何在 [本節](../dev/extend-schema.md).
 
 您也可以在Campaign資料庫中建立新表格，並擴充內建的資料模型。
 
@@ -55,33 +52,25 @@ Adobe Campaign利用資料結構來：
 
 Campaign輸入表單可適應您的實作。 您可以修改XML內容來新增或移除表單欄位。
 
-![](../assets/do-not-localize/glass.png) 了解如何修改現有的輸入表單或在 [本節](../dev/forms.md).
+了解如何修改現有的輸入表單或在 [本節](../dev/forms.md).
 
 ## 自訂控制面板{#gs-custom-dashboards}
 
 Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、傳遞、行銷活動、股票等項目，並與之互動。 在介面中，控制面板只會顯示一個頁面。
 
-現成的Web應用程式儲存在「管理>配置> Web應用程式」節點中。
+內建的Web應用程式儲存在 **管理>配置> Web應用程式** 檔案夾。
 
-![](../assets/do-not-localize/book.png) 了解如何在Campaign中建立概觀頁面，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target="_blank"}
+了解如何在Campaign中建立概觀頁面，位於 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target="_blank"}
 
 
 ## 自訂清單和建立篩選器 {#gs-lists-and-filters}
 
-### 從控制面板存取資料
-
 促銷活動清單隨附預先定義的篩選器，以促進導覽和資料視覺化。
-
-![](../assets/do-not-localize/book.png) 進一步了解中的篩選選項 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering){target="_blank"}
-
-
-### 從資源管理器訪問資料
 
 在Adobe Campaign資源管理器樹中導航時，資料庫中包含的資料將顯示在清單中。 您可以篩選這些清單、執行搜尋、新增資訊、篩選及排序資料。
 
-![](../assets/do-not-localize/book.png) 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started){target="_blank"}
-
+了解如何在 [本頁](../start/campaign-ui.md).
 
 您可以對這些清單套用篩選，以僅顯示運算子所需的資料。 然後，即可對篩選的資料執行動作。 篩選設定可讓您動態地從清單中選取資料。 如果修改了資料，則更新篩選的資料。
 
-![](../assets/do-not-localize/book.png) 了解如何在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters){target="_blank"}
+進一步了解中的篩選選項 [本頁](../audiences/create-filters.md).

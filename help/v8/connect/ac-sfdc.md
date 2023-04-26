@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Campaign中詳細說明了支援的SFDC版本 [相容性矩陣](../start/compatibility-matrix.md).
-
 
 請依照下列步驟設定專用的外部帳戶，以匯入和匯出Salesforce資料至Adobe Campaign。
 
@@ -73,8 +72,7 @@ ht-degree: 3%
 
 1. 按一下 **[!UICONTROL Next]** 然後 **[!UICONTROL Start]** 開始導入枚舉。
 
-1. 瀏覽 **[!UICONTROL Administration > Platform > Enumerations]** 要檢查導入值的節點。
-
+1. 瀏覽 **[!UICONTROL Administration > Platform > Enumerations]** 要檢查導入值的節點。 進一步了解 [本頁](../config/ui-settings.md#enumerations).
 
 Adobe Campaign和Salesforce.com現已連接。 您可以在兩個系統之間設定資料同步。
 
