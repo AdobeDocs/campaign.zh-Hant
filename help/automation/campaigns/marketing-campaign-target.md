@@ -4,9 +4,9 @@ title: 行銷活動目標對象
 description: 了解如何定義行銷活動的受眾
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1457'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,10 @@ To build the delivery target, you can define filtering criteria for the recipien
 此設定等同於 **[!UICONTROL Split]** 活動，可讓您將目標分割為子集。 控制組是這些子集之一。
 
 
-#### 教學課程影片 {#create-email-video}
+### 教學課程影片 {#create-email-video}
 
-此影片說明如何在Adobe Campaign中建立行銷活動和電子郵件。
+此影片說明如何新增控制組至促銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 提供其他Campaign作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
