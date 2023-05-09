@@ -1,0 +1,165 @@
+---
+title: 整合AEP SDK和Campaign
+description: 了解如何將Adobe Experience Platform行動SDK與您的應用程式整合
+version: v8
+feature: Push
+role: Admin, Developer
+level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
+source-git-commit: e3ea361cc486096fe6c19ac469e8a71b636371ac
+workflow-type: tm+mt
+source-wordcount: '1176'
+ht-degree: 2%
+
+---
+
+
+# AEP SDK + Campaign:設定推播通知通道 {#push-notification-configuration}
+
+開始透過Adobe Campaign傳送推播通知前，您必須確定行動應用程式和Adobe Experience Platform中的標籤已完成設定和整合……...........
+
+
+## 開始之前 {#before-starting}
+
+### 設定權限 {#setup-permissions}
+
+建立行動應用程式之前，您必須先確定您擁有或指派Adobe Experience Platform中標籤的正確使用者權限。 Adobe Experience Platform中標籤的使用者權限會透過Adobe Admin Console指派給使用者。 深入了解 [標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+
+>[!CAUTION]
+>
+>推播設定必須由專家使用者執行。 根據您的實作模式和此實作中涉及的角色，您可能需要將完整的權限集指派給單一產品設定檔，或在應用程式開發人員與 **Adobe Campaign** 管理員。
+
+要分配 **屬性** 和 **公司** 權限，請遵循下列步驟：
+
+1. 存取 **[!DNL Admin Console]**.
+1. 從 **[!UICONTROL Products]** 頁簽，選擇 **[!UICONTROL Adobe Experience Platform Data Collection]** 卡片。
+1. 選取現有 **[!UICONTROL Product Profile]** 或使用 **[!UICONTROL New profile]** 按鈕。 了解如何建立新 **[!UICONTROL New profile]** 在 [Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. 在&#x200B;**[!UICONTROL Permissions]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Property Rights]**。
+1. 按一下 **[!UICONTROL Add all]**。這會將下列內容新增至您的產品設定檔：
+   * **[!UICONTROL Approve]**
+   * **[!UICONTROL Develop]**
+   * **[!UICONTROL Edit Property]**
+   * **[!UICONTROL Manage Environments]**
+   * **[!UICONTROL Manage Extensions]**
+   * **[!UICONTROL Publish]**
+
+   若要安裝和發佈Adobe Campaign擴充功能，以及在中發佈應用程式屬性，必須具備下列權限 **Adobe Experience Platform Mobile SDK**.
+
+1. 然後，選取 **[!UICONTROL Company rights]** 的下一頁。
+1. 新增下列權限：
+
+   * **[!UICONTROL Manage App Configurations]**
+   * **[!UICONTROL Manage Properties]**
+
+   行動應用程式開發人員若要在 **Adobe Experience Platform資料收集**.
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+若要指派此 **[!UICONTROL Product profile]** 若為使用者，請遵循下列步驟：
+
+1. 存取 **[!DNL Admin Console]**.
+1. 從 **[!UICONTROL Products]** 頁簽，選擇 **[!UICONTROL Adobe Experience Platform Data Collection]** 卡片。
+1. 選取您先前設定的&#x200B;**[!UICONTROL Product profile]**。
+1. 在 **[!UICONTROL Users]** 索引標籤中，按一下 **[!UICONTROL Add user]**。
+1. 輸入您的使用者名稱或電子郵件地址，然後選取使用者。 然後，按一下 **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >如果使用者先前未在Admin Console中建立，請參閱 [新增使用者檔案](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+
+### 設定您的應用程式 {#configure-app}
+
+技術設定涉及應用程式開發人員與業務管理員之間的緊密協作。 開始傳送推播通知之前，請使用 [!DNL Adobe Campaign]，您需要在 [!DNL Adobe Experience Platform Data Collection] 以及整合您的行動應用程式與Adobe Experience Platform Mobile SDK。
+
+請遵循以下連結中詳述的實作步驟：
+
+* 針對 **AppleiOS**:了解如何使用APN註冊您的應用 [Apple檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* 針對 **Google Android**:了解如何在Android上設定Firebase雲端訊息用戶端應用程式，位於 [Google檔案](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
+
+### 將您的行動應用程式與Adobe Experience Platform SDK整合 {#integrate-mobile-app}
+
+Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的行動裝置提供用戶端整合API。 追隨 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 若要在應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
+
+到此結尾，您也應已在 [!DNL Adobe Experience Platform Data Collection]. 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+
+
+## 步驟1:在Adobe Experience Platform資料收集中新增您的應用程式推送憑證 {#push-credentials}
+
+授予正確的使用者權限後，您現在需要在Adobe Experience Platform資料收集中新增行動應用程式推送憑證。
+
+必須註冊行動應用程式推播憑證，才能授權Adobe代表您傳送推播通知。 請參閱以下詳細步驟：
+
+1. 從 [!DNL Adobe Experience Platform Data Collection]，瀏覽 **[!UICONTROL App Surfaces]** 在左側邊欄。
+
+1. 按一下 **[!UICONTROL Create App Surface]** 來建立新配置。
+
+1. 輸入 **[!UICONTROL Name]** ，以取得設定。
+
+1. 從 **[!UICONTROL Mobile Application Configuration]**，選擇作業系統：
+
+   * **針對iOS**
+
+      1. 輸入行動應用程式 **套件Id** 在 **[!UICONTROL App ID (iOS Bundle ID)]** 欄位。 可在 **一般** 中的主要目標標籤 **XCode**.
+
+      1. 已開啟 **[!UICONTROL Push Credentials]** 按鈕添加憑據。
+
+      1. 拖放.p8 Apple推播通知驗證金鑰檔案。 此金鑰可從 **憑證**, **識別碼** 和 **設定檔** 頁面。
+
+      1. 提供 **索引鍵ID**. 這是在建立p8驗證金鑰期間指派的10個字元字串。 可在下方找到 **金鑰** 標籤 **憑證**, **識別碼** 和 **設定檔** 頁面。
+
+      1. 提供 **團隊ID**. 這是字串值，可在「成員資格」頁簽下找到。
+   * **適用於Android**
+
+      1. 提供 **[!UICONTROL App ID (Android package name)]**:通常封裝名稱為 `build.gradle` 檔案。
+
+      1. 已開啟 **[!UICONTROL Push Credentials]** 按鈕添加憑據。
+
+      1. 拖放FCM推播憑證。 如需如何取得推送憑證的詳細資訊，請參閱 [Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+
+
+1. 按一下 **[!UICONTROL Save]** 來建立應用程式設定。
+
+
+## 步驟2:在Adobe Experience Platform資料收集中設定行動標籤屬性 {#launch-property}
+
+設定行動屬性可讓行動應用程式開發人員或行銷人員設定行動SDK屬性，例如工作階段逾時、 [!DNL Adobe Experience Platform] 要定位的沙箱和 **[!UICONTROL Adobe Experience Platform Datasets]** 供行動SDK用來傳送資料至。
+
+如需如何設定 **行動屬性** ，請參閱 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+
+若要取得推播通知運作所需的SDK，您需要下列SDK擴充功能，適用於Android和iOS:
+
+* **[!UICONTROL Mobile Core]** （自動安裝）
+* **[!UICONTROL Profile]** （自動安裝）
+* **[!UICONTROL Adobe Experience Platform Edge]**
+* **[!UICONTROL Adobe Experience Platform Assurance]**，選用，但建議除錯行動實作。
+
+深入了解 [!DNL Adobe Experience Platform Data Collection] 標籤 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
+
+建立後，開啟新的標籤屬性並建立程式庫。 操作步驟：
+
+1. 瀏覽至 **發佈流程** 在左側導覽中，並選取 **新增程式庫**.
+1. 輸入程式庫名稱並選取環境。
+1. 選擇 **新增所有已變更的資源**，和 **儲存並建置至開發環境**.
+1. 最後，將此程式庫設為您的工作程式庫，請從 **選取工作程式庫** 按鈕。
+
+
+## 步驟3:在您的行動屬性中設定Adobe Campaign擴充功能 {#configure-extension}
+
+此 **Adobe Campaign Classic擴充功能** 針對Adobe Experience Platform Mobile SDK可支援行動應用程式的推播通知，並協助您收集使用者推播代號，以及管理與Adobe Experience Platform服務的互動測量。
+
+此擴充功能已預先安裝在您的環境中，且必須進行設定。 若要設定行動標籤屬性的擴充功能，請執行下列步驟：
+
+1. 開啟您之前建立的標籤屬性。
+1. 從左側導覽器，瀏覽至 **擴充功能**，然後開啟 **目錄** 標籤。 使用搜尋欄位來尋找 **Adobe Campaign Classic** 擴充功能。
+1. 在Campaign Classic卡中，按一下 **安裝** 按鈕。
+1. 按中所述輸入設定 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
+
+您現在可以將Campaign新增至您的應用程式，如  [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
+
+## 步驟4:在Campaign中設定您的行動服務{#push-service}
+
+在 [!DNL Adobe Experience Platform Data Collection]，您需要建立兩個服務(一個用於iOS裝置，一個用於Android裝置)，才能從 **[!DNL Adobe Campaign]**.
+
+了解如何為iOS和Android推播通知建立和設定服務，於 [本節](../send/push.md#push-config).
