@@ -5,9 +5,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
    + [主要功能](start/whats-new.md)
    + [元件與流程](start/ac-components.md)
    + [連結至 Campaign](start/connect.md)
-   + [Campaign介面](start/campaign-ui.md)
+   + [Campaign 介面](start/campaign-ui.md)
    + [從 Classic v7 到 v8](start/v7-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -163,12 +163,12 @@ ht-degree: 98%
       + [實施步驟](start/implement.md)
       + [自訂您的執行個體](dev/customize.md)
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
-   + 設定與設定 {#configuration}
+   + 設定與組態 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [電子郵件設定](config/email-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
-      + [將 Campaign SDK 與您的應用程式整合  — 已棄用頁面](config/push-config.md)
+      + [將 Campaign SDK 與您的應用程式整合- 已棄用頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
    + [促銷活動資料模型](dev/datamodel.md)
