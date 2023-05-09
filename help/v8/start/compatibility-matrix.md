@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 61222c2b05f1346bd2560ff17b225153edf9e91e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->請注意，8.5版本將淘汰32位元版本的用戶端主控台。 從8.6版開始，客戶端控制台將僅以64位元提供。 有關如何升級作業系統的詳細資訊，請參閱 [技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+>請注意，8.5 版本將淘汰 32 位元版本的用戶端主控台。從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。深入了解如何升級作業系統，請參閱此[技術說明](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=zh-Hant)。
 
 ### 作業系統{#op-systems}
 
