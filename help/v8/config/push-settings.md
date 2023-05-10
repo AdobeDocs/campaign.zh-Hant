@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
+source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '958'
 ht-degree: 2%
 
 ---
@@ -23,16 +23,15 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 
 若要使用Adobe Experience Platform Mobile SDK設定您的應用程式，請遵循下列步驟：
 
-1. 檢查 [必要條件](#before-starting)
-1. 設定 [行動標籤屬性](#launch-property) 在Adobe Experience Platform資料收集
-1. 取得Adobe Experience Platform Mobile SDK，詳情請見 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
-1. （選用）啟用記錄和生命週期量度，如詳細所述 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
-1. （可選）新增 [Adobe Experience Platform對您應用程式的保證](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 驗證實作
+1. 檢查 [必要條件](#before-starting).
+1. 設定 [行動標籤屬性](#launch-property) Adobe Experience Platform資料收集。
+1. 取得Adobe Experience Platform Mobile SDK，詳情請見 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. （選用）啟用記錄和生命週期量度，如詳細所述 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. （可選）新增 [Adobe Experience Platform對您應用程式的保證](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 來驗證您的實作。
 1. 追隨 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 若要在應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
-1. 安裝和配置 [Adobe Campaign擴充功能](#configure-extension) 在行動屬性中
+1. 安裝和配置 [Adobe Campaign擴充功能](#configure-extension) 在行動屬性中。
 1. 在Adobe Campaign中設定您的iOS和Android行動服務，如詳細所述 [在本頁](../send/push.md#push-config).
 
-到此結尾，您也應已在 [!DNL Adobe Experience Platform Data Collection]. 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 ## 必要條件 {#before-starting}
 
@@ -132,9 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## 在Adobe Experience Platform資料收集中設定行動標籤屬性 {#launch-property}
 
-設定行動屬性可讓行動應用程式開發人員或行銷人員設定行動SDK屬性，例如工作階段逾時、 [!DNL Adobe Experience Platform] 要定位的沙箱和 **[!UICONTROL Adobe Experience Platform Datasets]** 供行動SDK用來傳送資料至。
-
-如需如何設定 **行動屬性** ，請參閱 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+設定行動屬性可讓行動應用程式開發人員或行銷人員設定行動SDK。 您通常會為要管理的每個行動應用程式建立行動屬性。 了解如何在 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 若要取得推播通知運作所需的SDK，您需要下列SDK擴充功能，適用於Android和iOS:
 
