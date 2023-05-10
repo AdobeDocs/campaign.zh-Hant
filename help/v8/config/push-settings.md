@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
+source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的�
 1. 設定 [行動標籤屬性](#launch-property) Adobe Experience Platform資料收集。
 1. 取得Adobe Experience Platform Mobile SDK，詳情請見 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. （選用）啟用記錄和生命週期量度，如詳細所述 [在本頁](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. （可選）新增 [Adobe Experience Platform對您應用程式的保證](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 來驗證您的實作。
+1. （可選）新增 [Adobe Experience Platform對您應用程式的保證](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. 追隨 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 若要在應用程式中使用Adobe Experience Platform Mobile SDK進行設定。
 1. 安裝和配置 [Adobe Campaign擴充功能](#configure-extension) 在行動屬性中。
 1. 在Adobe Campaign中設定您的iOS和Android行動服務，如詳細所述 [在本頁](../send/push.md#push-config).
