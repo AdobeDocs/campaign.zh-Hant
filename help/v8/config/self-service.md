@@ -5,10 +5,10 @@ feature: Control Panel
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
 
-![](../assets/do-not-localize/book.png) 深入了解 [Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}.
+![](../assets/do-not-localize/book.png) 瞭解詳情 [市場活動控制面板文檔](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}。
 
 ## 如何存取控制面板？
 
@@ -32,11 +32,11 @@ ht-degree: 96%
 
 ## 控制面板常見問答集
 
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=zh-Hant#control-panel){target="_blank"} 以存取 Campaign 控制面板常見問答集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} 以存取 Campaign 控制面板常見問答集。
 
 ## SFTP 管理
 
-在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management){target="_blank"}以獲得更多資訊。
+在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management){target="_blank"}以獲得更多資訊。
 
 ## 子網域和憑證
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 * [監視子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=zh-Hant){target="_blank"}
 * [設定新的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant){target="_blank"}
-* [監控子網域的SSL憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target="_blank"}
+* [監視子域的SSL證書](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target="_blank"}
 
 ## 效能監視
 

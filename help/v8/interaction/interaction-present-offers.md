@@ -1,31 +1,31 @@
 ---
 product: campaign
-title: 呈現選件（入站互動）
-description: 了解如何使用Campaign互動模組呈現最佳優惠方案
+title: 提供優惠（入站交互）
+description: 瞭解如何使用「活動交互」模組演示最佳優惠
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 9%
 
 ---
 
-# 提供最佳優惠方案{#interaction-present-offers}
+# 提供最佳優惠{#interaction-present-offers}
 
-優惠方案可在各種優惠方案空間中顯示，使用 [傳入或傳出頻道](interaction-architecture.md#interaction-types). 本章詳細說明傳入頻道的某些特定功能。
+可以使用 [入站或出站通道](interaction-architecture.md#interaction-types)。 本章詳細介紹了入站通道的某些特定功能。
 
 ![](assets/inbound-interactions.png)
 
-為了讓優惠方案引擎選取優惠方案，必須經過核准，並可在即時環境中使用。
+要讓優惠引擎選擇優惠，必須批准該優惠並在即時環境中提供。
 
-![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)
 
-在傳入連絡人的內容中，瀏覽頁面的使用者可由網站識別，或不可由網站識別。 選件引擎會針對已識別的設定檔和匿名設定檔顯示不同的選件。
+在入站聯繫人的上下文中，瀏覽該頁面的用戶可由網站識別或不識別。 「提供」引擎為已識別的配置檔案和匿名配置檔案提供不同的提供。
 
-您必須先設定優惠方案引擎呼叫，以便在其中顯示優惠方案，才能在入站管道上顯示優惠方案。 在傳入互動的大多數情況下，此為網頁。
+在能夠在入站渠道上演示優惠之前，必須配置優惠引擎呼叫，以便在其中顯示優惠。 在大多數入站交互的情況下，這是Web頁。
 
 >[!NOTE]
 >
->對於入站互動，您必須明確設定選件引擎以呈現和更新一或多個選件。
+>對於入站交互，您必須特別配置「優惠」引擎以呈現和更新一個或多個優惠。
 >
->您也必須在優惠方案空間上啟用統一模式。 如需詳細資訊，請參閱[此頁面](interaction-offer-spaces.md)。
+>您還必須在優惠空間上啟用統一模式。 如需詳細資訊，請參閱[此頁面](interaction-offer-spaces.md)。

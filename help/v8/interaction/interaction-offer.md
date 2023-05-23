@@ -1,125 +1,125 @@
 ---
-title: 促銷活動互動選件
-description: 了解如何建立優惠方案
+title: 市場活動互動優惠
+description: 瞭解如何建立優惠
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '914'
 ht-degree: 5%
 
 ---
 
 # 建立優惠優惠方案
 
-若要建立優惠方案，請遵循下列步驟：
+要建立優惠，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Offers]** 連結。
+1. 瀏覽到 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Offers]** 的子菜單。
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
 
-1. 變更標籤，並選取選件應屬於的類別。
+1. 更改標籤並選擇優惠應屬於的類別。
 
-1. 按一下 **[!UICONTROL Save]** 來建立選件。
+1. 按一下 **[!UICONTROL Save]** 建立報價。
 
-   此選件可在平台中使用，且可設定其內容。
+   該服務在平台中提供，其內容可以配置。
 
 ## 資格設定
 
-您現在可以使用 **[!UICONTROL Eligibility]** 標籤來定義：
+您現在可以使用 **[!UICONTROL Eligibility]** 頁籤：
 
-* 優惠方案的資格期。 [了解更多](#eligibility-period)
-* 選件目標母體的篩選。 [了解更多](#filters-on-the-target)
-* 選件權重。 [了解更多](#offer-weight)
+* 聘用的資格期。 [了解更多](#eligibility-period)
+* 提供目標群的篩選器。 [了解更多](#filters-on-the-target)
+* 報價的權重。 [了解更多](#offer-weight)
 
-### 優惠方案資格期間{#eligibility-period}
+### 提供資格期{#eligibility-period}
 
-在 **[!UICONTROL Eligibility]** 標籤，定義優惠方案的資格期間。 使用下拉式清單來選取日曆中的開始和結束日期。
+在 **[!UICONTROL Eligibility]** 的子菜單。 使用下拉清單在日曆中選擇起始日期和終止日期。
 
 ![](assets/offer_eligibility_create_002.png)
 
-在此期間之外，將不會選取優惠方案。 如果您也已設定優惠方案類別的資格日期，則會套用限制最嚴格的期間。
+在此期間之外，將不選擇要約。 如果您還配置了優惠類別的資格日期，則將應用限制最嚴格的期間。
 
-### 在目標上新增篩選器 {#filters-on-the-target}
+### 在目標上添加篩選器 {#filters-on-the-target}
 
-在 **[!UICONTROL Eligibility]** 標籤，將篩選器套用至選件目標。
+在 **[!UICONTROL Eligibility]** 頁籤。
 
-若要這麼做，請按一下 **[!UICONTROL Edit query]** 連結，然後選取您要套用的篩選器。
+要執行此操作，請按一下 **[!UICONTROL Edit query]** 連結，然後選擇要應用的篩選器。
 
 ![](assets/offer_eligibility_create_003.png)
 
-如果已建立預先定義的篩選器，您可以從使用者篩選器清單中選取這些篩選器。 [了解更多](interaction-predefined-filters.md)
+如果已建立預定義的篩選器，則可以從用戶篩選器清單中選擇它們。 [了解更多](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
-### 設定優惠方案權重 {#offer-weight}
+### 設定優惠權重 {#offer-weight}
 
-若要讓引擎在目標符合資格的多個選件之間做出決定，您需要為選件指派一或多個加權。 您也可以視需要將篩選器套用至目標，或限制權數要套用的選件空間。 較重量較輕的優惠方案，更偏好權重較重的優惠方案。
+要使引擎能夠在目標符合條件的多個優惠之間做出決定，您需要為優惠分配一個或多個權重。 如有必要，您還可以將篩選器應用於目標，或限制權重將應用於的聘用空間。 比較輕重的優先選擇權重較大的優惠。
 
-您可以為相同選件設定多個加權，例如區分特定期間、特定目標甚至選件空間。
+您可以為同一優惠配置多個權重，例如，以區分優惠期、特定目標甚至優惠空間。
 
-例如，對於年齡在18到25歲的接觸，選件可以具有A的重量，對於超過該範圍的接觸，可以具有B的重量。 如果優惠方案在整個夏天都符合資格，在7月也可以有A的權重，在8月有B的權重。
+例如，對於年齡在18到25歲之間的接觸，提供可以具有A的重量，對於超過該範圍的接觸，可以具有B的重量。 如果整個夏天都符合條件，7月份也可以有A,8月份可以有B。
 
 >[!NOTE]
 >
->您可以根據選件所屬類別的參數來暫時修改指派的加權。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)
+>可根據要約所屬類別的參數臨時修改指定權重。 [了解更多](interaction-offer-catalog.md#creating-offer-categories)
 
-若要在選件中建立權重，請套用下列步驟：
+要在優惠中建立重量，請應用以下步驟：
 
-1. 在 **[!UICONTROL Eligibility]** ，按一下 **[!UICONTROL Add]**.
+1. 在 **[!UICONTROL Eligibility]** 的子菜單。 **[!UICONTROL Add]**。
 
    ![](assets/offer_weight_create_001.png)
 
-1. 變更標籤並指派權數。 預設值為 1。
+1. 更改標籤並分配權重。 預設值為 1。
 
    ![](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
-   >如果未輸入權重(0)，則目標將不被視為符合優惠方案的資格。
+   >如果未輸入重量(0)，則目標將不被視為有資格獲得要約。
 
 1. 如果要將權重應用於指定期間，請定義資格日期。
 
    ![](assets/offer_weight_create_002.png)
 
-1. 如有必要，請限制特定優惠方案空間的權重。
+1. 如有必要，將重量限制為特定的優惠空間。
 
    ![](assets/offer_weight_create_003.png)
 
-1. 將篩選器套用至目標。
+1. 將篩選器應用於目標。
 
    ![](assets/offer_weight_create_004.png)
 
-1. 按一下 **[!UICONTROL OK]** 以節省重量。
+1. 按一下 **[!UICONTROL OK]** 來減輕體重。
 
    ![](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
-   >如果目標符合所選選件的多個加權，引擎會保留最佳（最高）加權。 呼叫優惠方案引擎時，每個連絡最多會選取一次優惠方案。
+   >如果目標符合選定優惠的多個權重，引擎將保持最佳（最高）權重。 在調用聘用引擎時，每個聯繫人最多選擇一次聘用。
 
-### 優惠方案適用性規則摘要 {#a-summary-of-offer-eligibility-rules}
+### 優惠資格規則摘要 {#a-summary-of-offer-eligibility-rules}
 
-完成設定後，優惠方案控制面板就會提供資格規則的摘要。
+配置完成後，優惠控制面板上將提供資格規則的摘要。
 
-若要檢視，請按一下 **[!UICONTROL Schedule and eligibility rules]** 連結。
+要查看它，請按一下 **[!UICONTROL Schedule and eligibility rules]** 的子菜單。
 
 ![](assets/offer_eligibility_create_005.png)
 
-## 建立優惠方案內容 {#creating-the-offer-content}
+## 建立優惠內容 {#creating-the-offer-content}
 
-使用 **[!UICONTROL Content]** 標籤來定義選件內容。
+使用 **[!UICONTROL Content]** 頁籤
 
 ![](assets/offer_content_create_001.png)
 
-1. 定義選件內容的各種參數。
+1. 定義服務內容的各種參數。
 
-   * **[!UICONTROL Title]** :指定您要在選件中顯示的標題。 警告：這並非指選件的標籤，此標籤定義於 **[!UICONTROL General]** 標籤。
-   * **[!UICONTROL Destination URL]** :指定您選件的URL。 它必須以&quot;http://&quot;或&quot;https://&quot;開頭。
-   * **[!UICONTROL Image URL]** :指定選件影像的URL或存取路徑。
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** :在您想要的索引標籤中輸入優惠方案的內文。 若要產生追蹤，請 **[!UICONTROL HTML content]** 必須由可封入 `<div>` 類型元素。 例如， `<table>` 「HTML」頁面中的元素將如下所示：
+   * **[!UICONTROL Title]** :指定要在優惠中顯示的標題。 警告：這不是指在 **[!UICONTROL General]** 頁籤。
+   * **[!UICONTROL Destination URL]** :指定您的聘用的URL。 它必須以&quot;http://&quot;或&quot;https://&quot;開頭。
+   * **[!UICONTROL Image URL]** :指定URL或訪問服務映像的路徑。
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** :在您想要的頁籤中輸入您的報價正文。 要生成跟蹤， **[!UICONTROL HTML content]** 必須由HTML元素組成，這些元素可以包含在 `<div>` 類型元素。 例如， `<table>` 「HTML」頁中的元素如下所示：
 
    ```
       <div> 
@@ -136,31 +136,31 @@ ht-degree: 5%
       </div>
    ```
 
-   了解如何在中定義接受URL [本節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   瞭解如何在中定義接受URL [此部分](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)。
 
    ![](assets/offer_content_create_002.png)
 
-   若要尋找在優惠方案空間設定期間所定義的必要欄位，請按一下 **[!UICONTROL Content definitions]** 連結以顯示清單。 [了解更多](interaction-offer-spaces.md)
+   要查找在服務空間配置期間定義的必填欄位，請按一下 **[!UICONTROL Content definitions]** 連結以顯示清單。 [了解更多](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
-   在此範例中，選件必須包含標題、影像、HTML內容和目的地URL。
+   在此示例中，聘用必須包括標題、影像、HTML內容和目標URL。
 
-## 預覽選件 {#previewing-the-offer}
+## 預覽優惠 {#previewing-the-offer}
 
-設定優惠方案內容後，您就可以預覽優惠方案在收件者看見時的顯示效果。
+一旦配置了優惠內容，您就可以按接收方的顯示方式預覽優惠。
 
 操作步驟：
 
-1. 按一下 **[!UICONTROL Preview]** 標籤。
+1. 按一下 **[!UICONTROL Preview]** 頁籤。
 
    ![](assets/offer_preview_create_001.png)
 
-1. 選取您要檢視之選件的表示法。
+1. 選擇要查看的優惠的表示形式。
 
    ![](assets/offer_preview_create_002.png)
 
-1. 如果您已個人化優惠方案內容，請選取優惠方案目標以檢視個人化。
+1. 如果您已個性化了聘用內容，請選擇聘用目標以查看個性化。
 
 <!--
 
@@ -180,20 +180,20 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## 核准並啟用優惠方案{#approve-offers}
 
-您現在可以核准和啟用優惠方案，以便在 **即時** 環境。
+現在，您可以批准並激活聘用，以便在 **實況** 環境。
 
-![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)
 
 ## 管理優惠方案簡報{#offer-presentation}
 
-Campaign可讓您使用簡報規則來控制優惠方案的流程。 這些是「促銷活動互動」專屬的規則 **類型規則**. 它們可讓您根據已向收件者提出的主張的歷史，排除優惠方案。 環境會參考這些參數。
+市場活動允許您使用演示規則控制提供建議的流。 這些特定於市場活動交互的規則是 **類型規則**。 它們允許您根據已向收件人提出的建議的歷史來排除優惠。 在環境中引用它們。
 
-![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+![](../assets/do-not-localize/book.png) 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers)
 
-## 優惠方案模擬
+## 提供模擬
 
-此 **模擬** 模組可讓您在將您的主張傳送給收件者之前，先測試屬於類別或環境的選件之分佈。
+的 **模擬** 模組允許您test屬於某個類別或環境的服務的分發，然後才將您的建議發送給收件人。
 
-模擬會考慮先前套用至優惠方案的內容和適用性規則及其呈現規則。 這可讓您測試和調整優惠方案主張的各種版本，而不實際使用優惠方案或過度/不斷索取目標，因為模擬對目標收件者沒有影響。
+模擬將先前應用於優惠的上下文和資格規則及其演示規則考慮在內。 這樣，您就可以test和改進您的服務建議的各種版本，而無需實際使用服務或在徵集目標時過多或過少，因為模擬對目標收件人沒有影響。
 
-![](../assets/do-not-localize/book.png) 如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+![](../assets/do-not-localize/book.png) 有關「Offer（提供）」模擬的詳細資訊，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html)
