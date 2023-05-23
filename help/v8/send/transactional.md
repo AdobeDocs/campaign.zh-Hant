@@ -1,6 +1,6 @@
 ---
-title: Campaign交易式訊息
-description: 開始使用異動訊息
+title: 市場活動事務性消息
+description: 開始事務性消息傳遞
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
@@ -12,153 +12,153 @@ ht-degree: 1%
 
 ---
 
-# 開始使用異動訊息{#send-transactional-messages}
+# 開始事務性消息傳遞{#send-transactional-messages}
 
-交易式訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 這些通知是從資訊系統觸發的事件中產生的，可以是：發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單、網站帳戶建立等。
+事務性消息傳遞（消息中心）是一個市場活動模組，用於管理觸發消息。 這些通知是從資訊系統觸發的事件生成的，可以是：發票、訂單確認、發運確認、密碼更改、產品不可用通知、帳戶對帳單、網站帳戶建立等。
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [連絡Adobe](../start/campaign-faq.md#support){target="_blank"} 在您的環境中設定Campaign交易式訊息。
+![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support){target="_blank"} 在您的環境中配置市場活動事務性消息傳遞。
 
-交易式訊息用於傳送：
+事務性消息用於發送：
 
-* 通知，例如訂單確認或密碼重設
-* 客戶動作的個別即時回應
+* 通知，例如訂單確認或密碼重置
+* 對客戶行為的單獨即時響應
 * 非促銷內容
 
-交易式訊息設定在 [本節](../config/transactional-msg-settings.md).
+事務性消息傳送設定在 [此部分](../config/transactional-msg-settings.md)。
 
-了解交易式訊息架構，位於 [本頁](../architecture/architecture.md#transac-msg-archi).
+瞭解事務性消息傳遞體系結構 [此頁](../architecture/architecture.md#transac-msg-archi)。
 
 ## 交易式訊息傳遞操作原則 {#transactional-messaging-operating-principle}
 
-Adobe Campaign交易式訊息模組整合至資訊系統，該資訊系統會傳回要變更為個人化交易式訊息的事件。 這些訊息可以個別傳送，或透過電子郵件、簡訊或推播通知分批傳送。
+Adobe Campaign事務性消息傳遞模組整合到資訊系統中，該資訊系統將要被更改的事件返回到個性化事務性消息。 這些消息可以單獨或通過電子郵件、簡訊或推式通知批量發送。
 
-例如，假設您是一家有網站的公司，客戶可在此購買產品。
+例如，假設您是一家擁有網站的公司，客戶可以在該網站上購買產品。
 
-Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的客戶。 當其中一個使用者離開您的網站而未進行購買時（觸發促銷活動事件的外部事件），購物車放棄率電子郵件會自動傳送給他們（交易式訊息傳送）。
+Adobe Campaign允許您向已將產品添加到購物車的客戶發送通知電子郵件。 當其中一個人離開您的網站而未完成其購買（觸發市場活動事件的外部事件）時，將自動向他們發送購物車放棄電子郵件（事務性消息傳遞）。
 
-實施此程式的主要步驟如下：
+實施此項措施的主要步驟如下：
 
-1. [建立事件類型](#create-event-types).
-1. [建立和設計訊息範本](#create-message-template). 在此步驟中，您必須將事件連結至訊息。
-1. [測試訊息](#test-message-template).
-1. [發佈訊息範本](#publish-message-template).
+1. [建立事件類型](#create-event-types)。
+1. [建立和設計消息模板](#create-message-template)。 在此步驟中，必須將事件連結到您的消息。
+1. [Test消息](#test-message-template)。
+1. [發佈消息模板](#publish-message-template)。
 
-在您設計並發佈交易式訊息範本後，如果觸發對應事件，則相關資料會透過PushEvent和PushEvents傳送至Campaign [SOAP方法](../send/event-description.md)，則會傳送給目標收件者。
+設計並發佈事務性消息模板後，如果觸發了相應的事件，則相關資料將通過PushEvent和PushEvents發送到Campaign [SOAP方法](../send/event-description.md)，並將傳遞發送到目標收件人。
 
 ## 建立事件類型 {#create-event-types}
 
-若要確保每個事件都可變更為個人化訊息，您必須先建立 **事件類型**.
+要確保每個事件都可以更改為個性化郵件，您首先需要建立 **事件類型**。
 
-當 [建立訊息範本](#create-message-template)，您將選取符合您要傳送之訊息的事件類型。
+當 [建立消息模板](#create-message-template)，您將選擇與要發送的消息匹配的事件類型。
 
 >[!CAUTION]
 >
->您必須先建立事件類型，才能在訊息範本中使用它們。
+>必須先建立事件類型，然後才能在消息模板中使用它們。
 
-若要建立Adobe Campaign將處理的事件類型，請遵循下列步驟：
+要建立將由Adobe Campaign處理的事件類型，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Administration > Platform > Enumerations]** Campaign檔案總管的資料夾。
-1. 選取 **[!UICONTROL Event type]** 清單中的分項清單。
-1. 按一下 **[!UICONTROL Add]** 來建立分項清單。 這可以是訂單確認、密碼變更、訂單傳送變更等。
+1. 瀏覽到 **[!UICONTROL Administration > Platform > Enumerations]** 市場活動瀏覽器的資料夾。
+1. 選擇 **[!UICONTROL Event type]** 清單中的枚舉。
+1. 按一下 **[!UICONTROL Add]** 建立枚舉值。 這可以是訂單確認、密碼更改、訂單交貨更改等。
 
    ![](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >
-   >每個事件類型都必須符合 **[!UICONTROL Event type]** 枚舉。
+   >每個事件類型都必須與 **[!UICONTROL Event type]** 枚舉。
 
-1. 建立分項清單值後，請登出再重新登入您的例項，讓建立生效。
+1. 建立明細化清單值後，註銷並返回實例以使建立生效。
 
 >[!NOTE]
 >
->進一步了解 [本頁](../../v8/config/ui-settings.md#enumerations).
+>瞭解有關中枚舉的詳細資訊 [此頁](../../v8/config/ui-settings.md#enumerations)。
 
 
-## 定義交易式訊息範本 {#create-message-template}
+## 定義事務性消息模板 {#create-message-template}
 
-每個事件都可觸發個人化訊息。 為了讓此情況發生，您需要建立訊息範本以符合每個事件類型。 範本包含個人化交易式訊息的必要資訊。 您也可以使用範本來測試訊息預覽，並在傳送至最終目標之前使用種子地址傳送校樣。
+每個事件都可觸發個性化消息。 為了實現此目的，您需要建立一個消息模板以匹配每個事件類型。 模板包含個性化事務性消息的必要資訊。 您還可以使用模板test消息預覽，並在傳送到最終目標之前使用種子地址發送校樣。
 
-### 建立範本
+### 建立模板
 
-若要建立訊息範本，請遵循下列步驟：
+要建立消息模板，請執行以下步驟：
 
-1. 前往 **[!UICONTROL Message Center >Transactional message templates]** 檔案夾中。
-1. 在交易式訊息範本清單中，按一下滑鼠右鍵並選取 **[!UICONTROL New]** 或按一下 **[!UICONTROL New]** 按鈕。
+1. 轉到 **[!UICONTROL Message Center >Transactional message templates]** 資料夾。
+1. 在事務性消息模板清單中，按一下右鍵並選擇 **[!UICONTROL New]** 或按一下 **[!UICONTROL New]** 按鈕。
 
    ![](assets/messagecenter_create_model_001.png)
 
-1. 在傳送視窗中，選取適合您要使用之通道的傳送範本。
+1. 在交貨窗口中，選擇適合要使用的渠道的交貨模板。
 
    ![](assets/messagecenter_create_model_002.png)
 
-1. 視需要變更其標籤。
-1. 選取符合您要傳送之訊息的事件類型。 必須預先建立Adobe Campaign要處理的事件類型。 [了解更多](#create-event-types)
+1. 如有必要，請更改其標籤。
+1. 選擇與您要發送的消息匹配的事件類型。 必須事先建立要由Adobe Campaign處理的事件類型。 [了解更多](#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
-   >事件類型絕不應連結至多個範本。
+   >事件類型永遠不應連結到多個模板。
 
-1. 輸入性質和說明，然後按一下 **[!UICONTROL Continue]** 以建立訊息內文。
+1. 輸入屬性和說明，然後按一下 **[!UICONTROL Continue]** 的子菜單。
 
 ### 建立內容{#create-message-content}
 
-交易式訊息內容的定義與Adobe Campaign中所有傳送的定義相同。 例如，對於電子郵件傳送，您可以建立HTML或文字格式的內容、新增附件或個人化傳送物件。 [了解更多資訊](../start/create-message.md)。
+事務性消息內容的定義與Adobe Campaign所有遞送的定義相同。 例如，對於電子郵件傳遞，您可以以HTML或文本格式建立內容、添加附件或個性化傳遞對象。 [了解更多](../start/create-message.md)。
 
 >[!CAUTION]
 >
->訊息中包含的影像必須可公開存取。 Adobe Campaign不提供任何交易式訊息的影像上傳機制。\
->與JSSP或webApp不同， `<%=` 沒有任何預設逸出。
+>郵件中包含的影像必須可以公開訪問。 Adobe Campaign沒有為事務性消息提供任何映像上載機制。\
+>與JSSP或WebApp不同， `<%=` 沒有任何預設轉義符。
 >
->您必須正確逸出來自事件的每個資料。 此逸出取決於此欄位的使用方式。 例如，在URL中，請使用encodeURIComponent。 要在HTML中顯示，可以使用escapeXMLString。
+>必須正確地從事件中轉移每個資料。 此轉義取決於此欄位的使用方式。 例如，在URL中，請使用encodeURIComponent。 要在HTML中顯示，可以使用escapeXMLString。
 
-定義訊息內容後，您可以將事件資訊整合至訊息內文，並加以個人化。 由於個人化標籤，事件資訊會插入文字內文。
+定義消息內容後，可以將事件資訊整合到消息正文中並對其進行個性化設定。 由於個性化標籤，事件資訊被插入文本正文中。
 
 ![](assets/messagecenter_create_content.png)
 
-* 所有個人化欄位皆來自有效負載。
-* 可以在交易式訊息中參考一或多個個人化區塊。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
+* 所有個性化欄位都來自負載。
+* 在事務性消息中可以引用一個或多個個性化塊。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
-若要將個人化標籤插入電子郵件訊息的內文，請套用下列步驟：
+要將個性化標籤插入電子郵件的正文中，請應用以下步驟：
 
-1. 在訊息範本中，按一下符合電子郵件格式(HTML或文字)的索引標籤。
-1. 輸入訊息的內文。
-1. 在文字內文中，使用 **[!UICONTROL Real time events>Event XML]** 功能表。
+1. 在消息模板中，按一下與電子郵件格式(HTML或文本)匹配的頁籤。
+1. 輸入消息的正文。
+1. 在文本正文中，使用 **[!UICONTROL Real time events>Event XML]** 菜單開啟它。
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. 使用下列語法填入標籤： **元素名稱**.@**屬性名稱** 如下所示。
+1. 使用以下語法填充標籤： **元素名稱**。@**屬性名稱** 如下所示。
 
    ![](assets/messagecenter_create_custo_2.png)
 
-## 測試交易式訊息範本 {#test-message-template}
+## Test事務性消息模板 {#test-message-template}
 
 ### 新增種子地址{#add-seeds}
 
-種子地址可讓您顯示訊息的預覽、傳送校樣，以及在傳送訊息之前測試訊息個人化。 種子地址連結至傳送，無法用於其他傳送。
+種子地址允許您在發送消息之前顯示消息的預覽、發送證明和test消息個性化。 種子地址連結到交貨，不能用於其他交貨。
 
-1. 在交易式訊息範本中，按一下 **[!UICONTROL Seed addresses]** ，然後按一下 **[!UICONTROL Add]** 按鈕。
+1. 在事務性消息模板中，按一下 **[!UICONTROL Seed addresses]** ，然後按一下 **[!UICONTROL Add]** 按鈕
 
    ![](assets/messagecenter_create_seed_1.png)
 
-1. 為標籤指派標籤以方便日後選取，然後輸入種子地址（根據通訊通道，電子郵件或行動電話）。
+1. 為標籤分配標籤，以便以後進行輕鬆選擇，然後輸入種子地址（根據通信通道的不同，電子郵件或行動電話）。
 
-1. 輸入外部標識符：此選用欄位可讓您輸入商業金鑰（唯一ID、名稱+電子郵件等） 網站上所有應用程式都通用的識別碼，用於識別您的設定檔。 如果此欄位也存在於Adobe Campaign行銷資料庫中，您就可以使用資料庫中的設定檔調解事件。
+1. 輸入外部標識符：此可選欄位允許您輸入業務密鑰（唯一ID、名稱+電子郵件等） 用於標識您的配置檔案的所有應用程式所共有的。 如果此欄位也存在於Adobe Campaign市場營銷資料庫中，則可以將事件與資料庫中的配置檔案協調起來。
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 插入測試資料。 請參閱[本節](#personalization-data)。
+1. 插入test資料。 請參閱[本節](#personalization-data)。
 
    ![](assets/messagecenter_create_custo_3.png)
 
 1. 按一下 **[!UICONTROL Ok]** 確認種子地址的建立。
 
-1. 重複此過程以建立所需的地址數。
+1. 重複該過程，以根據需要建立盡可能多的地址。
 
    ![](assets/messagecenter_create_seed_6.png)
 
-建立地址後，您就可以存取其預覽和個人化。
+建立地址後，您可以訪問其預覽和個性化。
 
 <!--
 
@@ -180,48 +180,48 @@ This information enables you to personalize message content using personalizatio
    ![](assets/messagecenter_create_custo_3.png)
 -->
 
-### 預覽交易式訊息{#transactional-message-preview}
+### 預覽事務性消息{#transactional-message-preview}
 
-建立一或多個種子地址和訊息內文後，您可以預覽訊息並檢查其個人化。
+建立一個或多個種子地址和消息正文後，可以預覽消息並檢查其個性化設定。
 
-1. 在訊息範本中，按一下 **[!UICONTROL Preview]** ，然後選取 **[!UICONTROL A seed address]** 中。
+1. 在消息模板中，按一下 **[!UICONTROL Preview]** ，然後選擇 **[!UICONTROL A seed address]** 的下界。
 
    ![](assets/messagecenter_preview_1.png)
 
-1. 選取先前建立的種子地址以顯示個人化訊息。
+1. 選擇以前建立的種子地址以顯示個性化消息。
 
    ![](assets/messagecenter_create_seed_7.png)
 
 ### 傳送證明
 
-您可以傳送校樣至先前建立的種子地址，以測試訊息傳送。
+您可以通過向先前建立的種子地址發送證明來test消息傳遞。
 
-傳送校樣的程式與任何傳送的程式相同。 進一步了解校樣，於 [本節](../send/preview-and-proof.md).
+發送證據涉及與任何交貨相同的流程。 瞭解有關中的校樣的詳細資訊 [此部分](../send/preview-and-proof.md)。
 
-不過，若要傳送交易式訊息的證明，您必須執行下列操作：
+但是，要發送事務性消息的證明，您需要執行以下操作：
 
-* 建立一或多個 [種子地址](#add-seeds) 使用個人化測試資料
-* 建立訊息內容
+* 建立一個或多個 [種子地址](#add-seeds) 具有個性化test資料
+* 建立郵件內容
 
-若要傳送校樣：
+要發送證明：
 
 1. 按一下 **[!UICONTROL Send a proof]** 按鈕。
-1. 分析傳送。
-1. 更正任何錯誤並確認傳送。
+1. 分析交貨。
+1. 更正所有錯誤並確認交貨。
 
    ![](assets/messagecenter_send_proof_001.png)
 
-1. 檢查訊息是否已傳送至種子地址，且其內容是否符合您的設定。
+1. 檢查郵件是否已發送到種子地址，其內容是否符合您的配置。
 
    ![](assets/messagecenter_send_proof_002.png)
 
-校樣可透過 **[!UICONTROL Audit]** 標籤。
+可通過 **[!UICONTROL Audit]** 頁籤。
 
 ![](assets/messagecenter_send_proof_003.png)
 
-## 發佈範本 {#publish-message-template}
+## 發佈模板 {#publish-message-template}
 
-建立訊息範本時<!-- on the control instance--> 完成後，您就可以發佈它，這可讓您傳送連結至即時和批次事件的訊息。
+建立消息模板時<!-- on the control instance--> 完成後，您可以發佈它，這將允許您發送連結到即時事件和批處理事件的消息。
 
 <!--This process will also publish it on all execution instances.
 
@@ -231,19 +231,19 @@ Publication lets you automatically create two message templates on the execution
 
 >[!CAUTION]
 >
->每當您對範本進行任何變更時，請務必再次發佈，讓這些變更在交易式訊息傳送期間生效。
+>無論何時對模板進行任何更改，請確保再次發佈該模板以使這些更改在事務性消息傳遞期間有效。
 
-1. 前往 **[!UICONTROL Message Center > Transactional message templates]** 樹的資料夾。
-1. 選取要發佈的範本<!--on your execution instances-->.
+1. 轉到 **[!UICONTROL Message Center > Transactional message templates]** 資料夾。
+1. 選擇要發佈的模板<!--on your execution instances-->。
 1. 按一下&#x200B;**[!UICONTROL Publish]**。
 
    ![](assets/messagecenter_publish_template.png)
 
-發佈完成後，要套用至批次和即時類型事件的訊息範本，都會在 **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** 檔案夾。
+發佈完成後，將在中建立要應用於批處理和即時類型事件的消息模板 **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** 的子菜單。
 
 ![](assets/messagecenter_deployed_model.png)
 
-範本發佈後，若觸發對應事件，則Adobe Campaign<!--execution instance--> 會收到事件，將其連結至交易式範本，並傳送對應的交易式訊息給每個收件者。
+模板發佈後，如果觸發了相應事件，Adobe Campaign<!--execution instance--> 將接收事件，將其連結到事務模板，並將相應的事務消息發送給每個收件人。
 
 <!--
 >[!NOTE]
@@ -253,33 +253,33 @@ Publication lets you automatically create two message templates on the execution
 >However, if you add a non-empty value, the corresponding field will be updated as usual after the next publication.
 -->
 
-## 取消發佈範本
+## 取消發佈模板
 
-發佈訊息範本後 <!--on the execution instances-->，則可取消發佈。
+發佈消息模板後 <!--on the execution instances-->可以取消發佈。
 
-* 事實上，如果觸發對應事件，仍可呼叫已發佈的範本：如果您不再使用訊息範本，建議取消發佈訊息範本。 這是為了避免錯誤傳送不需要的交易式訊息。
+* 事實上，如果觸發了相應事件，仍可調用已發佈模板：如果您不再使用消息模板，建議取消發佈該模板。 這樣可以避免錯誤地發送不需要的事務性消息。
 
-   例如，您發佈了訊息範本，而您只能用於聖誕促銷活動。 在聖誕節期間結束後，您可能會想要取消發佈，並在明年再次發佈。
+   例如，您發佈了一個僅用於聖誕節市場活動的消息模板。 你可能想在聖誕節期間結束後取消發佈，並在明年再次發佈。
 
-* 此外，您無法刪除具有 **[!UICONTROL Published]** 狀態。 您必須先取消發佈。
+* 此外，您不能刪除具有 **[!UICONTROL Published]** 狀態。 必須先取消發佈它。
 
-若要取消發佈交易式訊息範本，請遵循下列步驟。
+要取消發佈事務性消息模板，請執行以下步驟。
 
-1. 瀏覽至 **[!UICONTROL Message Center > Transactional message templates]** 檔案夾。
-1. 選取要取消發佈的範本。
+1. 瀏覽到 **[!UICONTROL Message Center > Transactional message templates]** 的子菜單。
+1. 選擇要取消發佈的模板。
 1. 按一下&#x200B;**[!UICONTROL Unpublish]**。
 1. 按一下&#x200B;**[!UICONTROL Start]**。
 
 ![](assets/message-center-unpublish.png)
 
-交易式訊息範本狀態會從 **[!UICONTROL Published]** to **[!UICONTROL Being edited]**.
+事務性消息模板狀態從 **[!UICONTROL Published]** 至 **[!UICONTROL Being edited]**。
 
-完成取消發佈後：
+一旦取消發佈完成：
 
-* 會刪除兩個訊息範本（套用至批次和即時類型事件）<!-- from each execution instance-->.
+* 將刪除兩個消息模板（應用於批處理和即時類型事件）<!-- from each execution instance-->。
 
-   它們不再出現在 **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** 檔案夾。
+   它們不再出現在 **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** 的子菜單。
 
-* 取消發佈範本後，您就可以將其刪除<!-- from the control instance-->.
+* 取消發佈模板後，您可以將其刪除<!-- from the control instance-->。
 
-   若要這麼做，請從清單中選取它，然後按一下 **[!UICONTROL Delete]** 按鈕。
+   為此，請從清單中選擇它，然後按一下 **[!UICONTROL Delete]** 按鈕。

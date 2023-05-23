@@ -1,6 +1,6 @@
 ---
-title: 使用Campaign和Adobe Experience Platform
-description: 了解如何使用Campaign和Adobe Experience Platform
+title: 與運動和Adobe Experience Platform合作
+description: 瞭解如何與Campaign和Adobe Experience Platform合作
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
@@ -12,28 +12,28 @@ ht-degree: 0%
 
 ---
 
-# 使用Campaign和Adobe Experience Platform
+# 與運動和Adobe Experience Platform合作
 
-Adobe Campaign受管Cloud Service目的地和來源連接器可順暢地整合Adobe Campaign和Adobe Experience Platform。
+Adobe Campaign管理的Cloud Service目的地和源介面使Adobe Campaign和Adobe Experience Platform之間能夠無縫整合。
 
-* 使用 **Adobe Campaign Managed Cloud Services目的地** 連線以將Experience Platform區段傳送至Adobe Campaign以進行啟用
+* 使用 **Adobe Campaign Managed Cloud Services目的地** 連接將Experience Platform段發送到Adobe Campaign以激活
 
    ![](assets/aep-destination.png)
 
-* 使用 **Adobe Campaign Managed Cloud Services來源** 連線將Adobe Campaign傳送和追蹤記錄檔傳送至Adobe Experience Platform
+* 使用 **Adobe Campaign Managed Cloud Services源** 將Adobe Campaign交付和跟蹤日誌發送到Adobe Experience Platform
 
    ![](assets/aep-logs.png)
 
-在Adobe Experience Platform中設定此整合的步驟如下：
+在Adobe Experience Platform配置此整合的步驟如下：
 
-1. 設定新的Adobe Campaign Managed Cloud Services目的地連線以啟用區段/對象，並將該資料傳送至Adobe Campaign。
+1. 配置新的Adobe Campaign Managed Cloud Services目標連接以激活段/受眾並將該資料發送到Adobe Campaign。
 
-   提供要使用的促銷活動例項的詳細資訊，選取要針對目的地啟用的區段，然後設定您要匯出至促銷活動的屬性。
+   提供要使用的市場活動實例的詳細資訊，選擇要為目標激活的段，然後配置要導出到市場活動的屬性。
 
-   [了解如何建立Adobe Campaign Managed Cloud Services目的地連線](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
+   [瞭解如何建立Adobe Campaign Managed Cloud Services目標連接](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. 設定新的Adobe Campaign Managed Cloud Services來源連線，將Campaign事件內嵌至Adobe Experience Platform。
+1. 配置新的Adobe Campaign Managed Cloud Services源連接，以將市場活動事件接收到Adobe Experience Platform。
 
-   提供Campaign執行個體和要使用的結構的詳細資訊，選取應匯入資料的資料集，然後設定要擷取的欄位。
+   提供有關市場活動實例和要使用的架構的詳細資訊，選擇應在其中接收資料的資料集，然後配置要檢索的欄位。
 
-   [了解如何建立Adobe Campaign Managed Cloud Services來源連線](https://www.adobe.com/go/sources-campaign-ui-en)
+   [瞭解如何建立Adobe Campaign Managed Cloud Services源連接](https://www.adobe.com/go/sources-campaign-ui-en)

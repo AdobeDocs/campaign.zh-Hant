@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 利用傳送範本
-description: 了解如何在Campaign中建立和使用傳遞範本
+description: 瞭解如何在市場活動中建立和使用交付模板
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -13,133 +13,133 @@ ht-degree: 5%
 
 ---
 
-# 使用傳遞範本{#work-with-delivery-template}
+# 使用交貨模板{#work-with-delivery-template}
 
-使用傳遞範本來標準化創意外觀和風格，以便更快執行和啟動行銷活動。
+使用交付模板來規範創意外觀，以便更快地執行和啟動活動。
 
-範本可以包括：
+模板可包括：
 
 * 類型
 * 寄件者和回覆地址
-* 基本 [個人化區塊](../send/personalization-blocks.md)
-* 連結至 [鏡像頁面](../send/mirror-page.md) 取消訂閱連結
-* 內容、公司標誌或簽名
-* 其他傳送屬性，例如資源有效性、重試參數或隔離設定。
+* 基本 [個性化塊](../send/personalization-blocks.md)
+* 指向 [鏡像頁](../send/mirror-page.md) 取消訂閱連結
+* 內容、公司徽標或簽名
+* 其他傳遞屬性，如資源有效性、重試參數或隔離設定。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
 
 
-## 建立範本{#create-a-delivery-template}
+## 建立模板{#create-a-delivery-template}
 
-若要建立傳遞範本，您可以複製內建的範本、將現有的傳遞轉換為範本，或從頭建立傳遞範本。
+要建立交貨模板，您可以複製內置模板、將現有交貨轉換為模板或從頭建立交貨模板。
 
-### 複製現有範本{#copy-an-existing-template}
+### 複製現有模板{#copy-an-existing-template}
 
-Campaign隨附一組適用於每個管道的內建範本：電子郵件、推播、簡訊、直接郵件等。
+市場活動附帶了一套適用於每個渠道的內置模板：電子郵件、推送、簡訊、直郵等。
 
-建立傳遞範本最簡單的方式是複製和自訂內建範本。
+建立交貨模板的最簡單方法是複製和自定義內置模板。
 
-若要複製傳送範本，請遵循下列步驟：
+要複製交貨模板，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Resources > Templates > Delivery templates]** 在Adobe Campaign探險家。
-1. 選取內建的傳遞範本。 內建範本會以粗體顯示在清單中。
-1. 按一下滑鼠右鍵並選取 **[!UICONTROL Duplicate]**.
+1. 瀏覽到 **[!UICONTROL Resources > Templates > Delivery templates]** Adobe Campaign探險家。
+1. 選擇內置交貨模板。 內置模板將在清單中加粗。
+1. 按一下右鍵並選擇 **[!UICONTROL Duplicate]**。
 
    ![](assets/duplicate-built-in-template.png)
 
-1. 定義範本設定並儲存新範本。
+1. 定義模板設定並保存新模板。
 
    ![](assets/delivery-template-new.png)
 
-範本會新增至傳遞範本清單。 您現在可以在建立新傳送時選取它。
+模板將添加到交貨模板清單。 現在，您可以在建立新交貨時選擇它。
 
 ![](assets/select-the-new-template.png)
 
-### 將現有傳送轉換為範本 {#convert-an-existing-delivery}
+### 將現有交貨轉換為模板 {#convert-an-existing-delivery}
 
-傳送可轉換為範本，以執行新的重複傳送動作。
+可以將交貨轉換為用於新的重複交貨操作的模板。
 
-若要將傳遞轉換為範本，請遵循下列步驟：
+要將交貨轉換為模板，請執行以下步驟：
 
-1. 從傳送清單中選取傳送，可透過 **[!UICONTROL Campaign management]** 行銷活動總管的節點。
+1. 從交貨清單中選擇可通過 **[!UICONTROL Campaign management]** 市場活動瀏覽器的節點。
 
-1. 按一下滑鼠右鍵並選取 **[!UICONTROL Actions > Save as template...]**.
+1. 按一下右鍵並選擇 **[!UICONTROL Actions > Save as template...]**。
 
    ![](assets/save-as-template.png)
 
-1. 編輯傳送屬性，並選取必須儲存新範本的資料夾(位於 **[!UICONTROL Folder]** 欄位)，以及必須建立根據此範本建立的傳送的資料夾(在 **[!UICONTROL Execution folder]** 欄位)。
+1. 編輯交貨屬性並選擇必須保存新模板的資料夾(位於 **[!UICONTROL Folder]** )，以及必須建立基於此模板建立的交貨的資料夾(在 **[!UICONTROL Execution folder]** )。
 
    ![](assets/template-select-folders.png)
 
-### 建立新範本 {#create-a-new-template}
+### 建立新模板 {#create-a-new-template}
 
 >[!NOTE]
 >
->為避免設定錯誤，Adobe建議您 [複製內建範本](#copy-an-existing-template) 和自訂其屬性，而非建立新範本。
+>為避免配置錯誤，Adobe建議您 [複製內置模板](#copy-an-existing-template) 並自定義其屬性，而不是建立新模板。
 
-若要從草稿開始設定傳送範本，請遵循下列步驟：
+要從頭配置交貨模板，請執行以下步驟：
 
-1. 瀏覽至 **資源** 資料夾，然後選取 **範本** then **傳遞範本**.
-1. 按一下 **新增** ，建立新的傳遞範本。
-1. 設定 **標籤** 和 **內部名稱** 的下限。
-1. 儲存範本並重新開啟。
-1. 從 **屬性** 按鈕，調整設定。
-1. 在 **一般** ，確認或變更 **執行資料夾**, **資料夾**，和 **路由** 下拉式功能表。
-1. 完成 **電子郵件參數** 類別，以及您的電子郵件主旨和目標母體。
-1. 新增 **HTML內容** 若要個人化您的範本，您可以顯示 [鏡像頁面連結](../send/mirror-page.md) 和取消訂閱連結。
-1. 選取 **預覽** 標籤。 在 **測試個人化** 下拉式功能表，選取 **收件者** 將範本預覽為選取的設定檔。
-1. 按一下 **儲存**. 您的範本現在已可用於傳送。
+1. 瀏覽到 **資源** 市場活動瀏覽器中的資料夾，然後選擇 **模板** 然後 **交貨模板**。
+1. 按一下 **新建** 的子菜單。
+1. 設定 **標籤** 和 **內部名稱** 的子菜單。
+1. 保存模板並重新開啟它。
+1. 從 **屬性** 按鈕，修改設定。
+1. 在 **常規** 頁籤，確認或更改在 **執行資料夾**。 **資料夾**, **路由** 的下界。
+1. 完成 **電子郵件參數** 與您的電子郵件主題和目標群體的類別。
+1. 添加 **HTML內容** 要個性化模板，可以顯示 [鏡像頁面連結](../send/mirror-page.md) 和取消訂閱連結。
+1. 選擇 **預覽** 頁籤。 在 **Test個性化** 下拉菜單，選擇 **收件人** 將模板作為所選配置檔案預覽。
+1. 按一下「**儲存**」。您的模板現在已準備好用於交貨。
 
 
 ## 使用範本{#use-a-delivery-template}
 
 ### 使用範本建立傳遞{#create-a-delivery-from-a-template}
 
-若要根據現有範本建立傳送，請從可用的傳送範本清單中選取範本。
+要基於現有模板建立交貨，請從可用交貨模板清單中選擇該模板。
 
 ![](assets/select-the-new-template.png)
 
-如果您看不到範本，請按一下 **[!UICONTROL Select link]** 資料夾，以瀏覽Campaign資料夾。
+如果看不到模板，請按一下 **[!UICONTROL Select link]** 資料夾，以瀏覽市場活動資料夾。
 
 ![](assets/browse-templates.png)
 
-從 **[!UICONTROL Folder]** 欄位，或按一下 **[!UICONTROL Display sub-levels]** 表徵圖，以顯示當前目錄的子樹中目錄的內容。
+從 **[!UICONTROL Folder]** ，或按一下 **[!UICONTROL Display sub-levels]** 表徵圖，顯示當前目錄子樹中目錄的內容。
 
-選取要使用的傳送範本，然後按一下 **[!UICONTROL Ok]**.
+選擇要使用的交貨模板，然後按一下 **[!UICONTROL Ok]**。
 
-### 執行範本 {#execute-a-template}
+### 執行模板 {#execute-a-template}
 
-您可以直接從範本清單啟動範本的執行，不需先建立傳送。
+您可以直接從模板清單啟動模板的執行，而無需先建立傳遞。
 
-要執行此操作，請選取要執行的範本，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions>Execute the delivery template...]**。
+為此，請選擇要執行的模板，然後按一下右鍵。 選取 **[!UICONTROL Actions>Execute the delivery template...]**。
 
-您也可以使用 **[!UICONTROL File>Actions>Execute the delivery template...]**.
+您還可以使用 **[!UICONTROL File>Actions>Execute the delivery template...]**。
 
 ![](assets/execute-delivery-template.png)
 
-輸入傳送參數，然後按一下 **[!UICONTROL Send]**.
+輸入交貨參數，然後按一下 **[!UICONTROL Send]**。
 
-此動作會在與範本相關聯的資料夾中產生傳送。 此傳送的名稱是建立傳送範本的傳送範本名稱。
+此操作將在與模板關聯的資料夾中生成交貨。 此傳遞的名稱是從中建立它的傳遞模板的名稱。
 
 
 ## 教學課程影片 {#delivery-template-video}
 
-### 如何設定傳遞範本
+### 如何配置傳遞模板
 
 下列影片示範如何設定隨選傳遞的範本。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
-### 如何設定傳遞範本屬性
+### 如何設定交貨模板屬性
 
-以下影片說明如何設定傳送範本屬性，並詳細說明每個屬性。
+以下視頻顯示如何設定交付模板屬性並詳細說明每個屬性。
 
 >[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
-### 如何部署臨機傳遞範本
+### 如何部署即席交付模板
 
-此影片說明如何部署隨選電子郵件傳送範本，並說明電子郵件傳送與傳送工作流程之間的差異。
+此視頻說明了如何部署即席電子郵件傳遞模板，並說明了電子郵件傳遞與傳遞工作流之間的區別。
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-提供其他Campaign作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+還提供了其他市場活動操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}。

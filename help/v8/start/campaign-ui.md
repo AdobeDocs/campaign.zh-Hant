@@ -1,6 +1,6 @@
 ---
-title: 探索促銷活動工作區
-description: 了解如何瀏覽及使用Campaign工作區
+title: 發現活動工作區
+description: 瞭解如何瀏覽和使用市場活動工作區
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
@@ -12,71 +12,71 @@ ht-degree: 20%
 
 ---
 
-# 探索Campaign使用者介面
+# 發現市場活動用戶介面
 
-## 存取Campaign UI{#ui-access}
+## 訪問市場活動UI{#ui-access}
 
 Campaign 工作區可在[用戶端主控台](../architecture/general-architecture.md)提供。
 
-了解如何在 [本節](../start/connect.md).
+瞭解如何在中安裝和配置市場活動客戶端控制台 [此部分](../start/connect.md)。
 
 ![](assets/home-page.png)
 
-您也可以使用網頁瀏覽器來存取Campaign。 在此情境中，僅有Campaign功能的子集可供使用。 [了解更多](#web-browser)
+您還可以使用Web瀏覽器訪問市場活動。 在此上下文中，只有市場活動功能的子集可用。 [了解更多](#web-browser)
 
 ## 瀏覽UI{#ui-browse}
 
-連線至Campaign後，即可存取首頁。 瀏覽連結以存取功能。 UI中可用的功能集取決於您的選項和權限。
+連接到「市場活動」後，即可訪問首頁。 瀏覽訪問權能的連結。 UI中可用的權能集取決於您的選項和權限。
 
-從首頁的中央區段，使用連結來存取Campaign說明資料、社群和支援網站。
+從首頁的中心部分，使用連結訪問市場活動幫助資料、社區和支援網站。
 
-使用上方區段的標籤來瀏覽Campaign索引鍵功能：
+使用上部分的頁籤瀏覽市場活動關鍵功能：
 
 ![](assets/overview-home.png)
 
 >[!NOTE]
 >
->您可以存取的核心功能清單取決於您的權限和實作。
+>您可以訪問的核心功能清單取決於您的權限和實施。
 
-對於每個功能，您可以存取 **[!UICONTROL Browsing]** 區段。 此 **[!UICONTROL More]** 連結可讓您存取所有其他元件。
+對於每種功能，您都可以訪問 **[!UICONTROL Browsing]** 的子菜單。 的 **[!UICONTROL More]** 連結允許您訪問所有其他元件。
 
-例如，瀏覽至 **[!UICONTROL Profiles and targets]** 索引標籤，您可以存取收件者清單、訂閱服務、現有目標工作流程，以及建立所有這些元件的捷徑。
+例如，瀏覽到 **[!UICONTROL Profiles and targets]** 頁籤，您可以訪問收件人清單、訂閱服務、現有目標工作流以及建立所有這些元件的快捷方式。
 
 ![](assets/overview-list.png)
 
-當您在畫面中選取元素時，元素會載入到新索引標籤中，以便您輕鬆瀏覽內容。
+在螢幕中選擇元素時，它將載入到新頁籤中，以便您可以輕鬆瀏覽內容。
 
 ![](assets/new-tab.png)
 
 ## 建立元素 {#create-an-element}
 
-在 **[!UICONTROL Create]** 區段以新增元素。 您也可以使用 **[!UICONTROL Create]** 按鈕，將新元素添加到當前清單。
+在 **[!UICONTROL Create]** 的子菜單。 您還可以使用 **[!UICONTROL Create]** 按鈕，將新元素添加到當前清單中。
 
 例如，在傳遞頁面上，使用 **[!UICONTROL Create]** 按鈕來建立新的傳遞。
 
 ![](assets/new-recipient.png)
 
-## 使用網頁瀏覽器 {#web-browser}
+## 使用Web瀏覽器 {#web-browser}
 
-您也可以透過網頁瀏覽器存取Campaign功能的子集。
+您還可以通過Web瀏覽器訪問市場活動功能的子集。
 
-Web訪問介面與控制台介麵類似。 在瀏覽器中，您可以使用與主控台相同的導覽和顯示功能，但您只能對行銷活動執行精簡的動作集。 例如，您可以檢視和取消促銷活動，但無法修改促銷活動。
+Web訪問介面與控制台介麵類似。 在瀏覽器中，您可以使用與控制台相同的導航和顯示功能，但只能對市場活動執行一組縮減的操作。 例如，您可以查看和取消市場活動，但不能修改市場活動。
 
-![](../assets/do-not-localize/glass.png) [深入了解Campaign網路存取](../start/connect.md#web-access).
+![](../assets/do-not-localize/glass.png) [瞭解有關活動Web訪問的詳細資訊](../start/connect.md#web-access)。
 
-## 存取Campaign Explorer {#ac-explorer-ui}
+## 訪問市場活動瀏覽器 {#ac-explorer-ui}
 
-瀏覽Campaign Explorer以存取所有Adobe Campaign功能和設定。
+瀏覽市場活動瀏覽器以訪問所有Adobe Campaign功能和設定。
 
 ![](assets/explorer.png)
 
-此工作區允許您訪問資源管理器樹以瀏覽所有功能和選項。
+此工作區允許您訪問瀏覽器樹以瀏覽所有功能和選項。
 
-* 左側區段顯示「促銷活動總管」樹狀結構，並可讓您根據您的權限，瀏覽執行個體的所有元件和設定。 您可以新增和自訂資料夾，如 [本頁](../audiences/folders-and-views.md).
+* 左部分顯示「市場活動瀏覽器」樹，允許您根據您的權限瀏覽實例的所有元件和設定。 您可以添加和自定義資料夾，如中所述 [此頁](../audiences/folders-and-views.md)。
 
-* 上部部分顯示當前資料夾中的記錄清單。 這些清單可完全自訂。 [了解更多](../config/ui-settings.md)
+* 上部部分顯示當前資料夾中的記錄清單。 這些清單完全可自定義。 [了解更多](../config/ui-settings.md)
 
-* 下部顯示所選記錄的詳細資訊。
+* 下部部分顯示選定記錄的詳細資訊。
 
 ## 語言{#languages}
 
@@ -94,7 +94,7 @@ Campaign v8 使用者介面提供下列語言版本：
 >
 >建立執行個體後無法變更語言。
 
-語言會影響日期和時間格式。
+語言影響日期和時間格式。
 
 英文 (US) 和英文 (EN) 的主要差異如下：
 

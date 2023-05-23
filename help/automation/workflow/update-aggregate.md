@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 更新彙總
-description: 深入了解更新匯總工作流程活動
+description: 瞭解有關更新聚合工作流活動的詳細資訊
 feature: Workflows
 role: Data Engineer
 level: Beginner
@@ -15,18 +15,18 @@ ht-degree: 3%
 
 # 更新彙總{#update-aggregate}
 
-中定義的匯總 [立方體](../../v8/reporting/gs-cubes.md) 可更新特定活動以用於報告用途。 A **[!UICONTROL Workflow]** 標籤。
+在中定義的聚合 [立方](../../v8/reporting/gs-cubes.md) 為了報告目的，可以使用特定活動進行更新。 A **[!UICONTROL Workflow]** 頁籤在配置聚合時可用。
 
-進一步了解中的立方體和匯總 [本節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
+瞭解有關中的立方和聚合的詳細資訊 [此部分](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)。
 
-若要更新匯總，請編輯 **[!UICONTROL Update aggregate]** 活動，然後選取要更新的多維資料集和匯總。
+要更新聚合，請編輯 **[!UICONTROL Update aggregate]** 並選擇要更新的多維資料集和聚合。
 
-您可以設定 **完整更新** 或 **部分更新**.
+可以配置 **完整更新** 或 **部分更新**。
 
 ![](assets/update-aggregate-details.png)
 
-預設情況下，每次計算期間都會執行完整更新。 要啟用部分更新，請選擇選項並定義更新條件。
+預設情況下，在每次計算期間執行完整更新。 要啟用部分更新，請選擇該選項並定義更新條件。
 
 ![](assets/update-aggregate-partial.png)
 
-最佳作法是新增 **[!UICONTROL Scheduler]** 設定計算更新頻率的活動。
+一個好的做法是 **[!UICONTROL Scheduler]** 設定計算更新頻率的活動。

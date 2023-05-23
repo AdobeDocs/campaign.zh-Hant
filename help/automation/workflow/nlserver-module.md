@@ -15,6 +15,6 @@ ht-degree: 27%
 
 
 
-安 **nlserver模組** 活動會使用中央視窗中指定的參數啟動nlserver模組。
+安 **nlserver模組** 活動啟動nlserver模組，其參數在中央窗口中指定。
 
 ![](assets/nlserver_module_edit.png)

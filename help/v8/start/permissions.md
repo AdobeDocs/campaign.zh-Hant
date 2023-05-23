@@ -1,6 +1,6 @@
 ---
-title: 將權限授予Campaign v8
-description: 了解如何授與Campaign v8的權限
+title: 授予市場活動v8的權限
+description: 瞭解如何授予市場活動v8的權限
 feature: Permissions
 role: User, Admin
 level: Beginner

@@ -1,28 +1,28 @@
 ---
-title: Adobe Campaign內建的傳送報表
-description: Adobe Campaign內建的傳送報表
+title: Adobe Campaign內置交付報告
+description: Adobe Campaign內置交付報告
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 # 傳遞報告 {#delivery-reports}
 
-您可以透過各種可從傳送概述存取的報表來追蹤傳送的執行。
+您可以通過從交貨概覽訪問的各種報表跟蹤交貨的執行。
 
-若要存取報表，請遵循下列步驟：
+要訪問報告，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Delivery]** 連結以顯示傳送清單。
-1. 按一下您要存取之報表的傳送名稱。
-1. 選取 **[!UICONTROL Summary]** ，然後按一下 **[!UICONTROL Reports]** 連結以存取傳送專屬的報表。
+1. 瀏覽到 **[!UICONTROL Campaigns]** ，然後按一下 **[!UICONTROL Delivery]** 連結以顯示交貨清單。
+1. 按一下要訪問的報告的傳遞的名稱。
+1. 選擇 **[!UICONTROL Summary]** ，然後按一下 **[!UICONTROL Reports]** 連結以訪問特定於傳遞的報告。
 
    ![](assets/detailed-report-2.png)
 
-   依預設，可使用下列報表：
+   預設情況下，以下報告可用：
 
    * **[!UICONTROL Delivery throughput]**
    * **[!UICONTROL Sharing to social networks]**
@@ -40,62 +40,62 @@ ht-degree: 2%
 
 ## 追蹤指標 {#tracking-indicators}
 
-此報表結合了在收到傳遞時追蹤收件者行為的關鍵指標。 它提供傳送和接收統計資料、開啟和點進率、產生的點按資料流、網路追蹤，以及分享活動至社交網路。
+此報表合併了用於跟蹤接收者在接收交貨時的行為的主要指標。 它可以存取傳遞和接收統計資料、開啟及點進率、產生的點按資料流、網頁追蹤以及與社交網路的分享活動。
 
 >[!NOTE]
 >
->根據訊息開啟次數計算的值一律會經過估計，因為以文字格式連結至電子郵件的錯誤邊界。 此 **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 指標會將此誤差幅度納入考量。 [了解更多資訊](metrics-calculation.md#tracking-opens-)。
+>基於消息開啟計算的值總是估計，因為以文本格式連結到電子郵件的錯誤邊距。 的 **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 指標將這一誤差範圍考慮在內。 [了解更多](metrics-calculation.md#tracking-opens-)。
 
 ![](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. Delivery statistics]**
 
-* **[!UICONTROL Messages to deliver]** :傳遞分析後要傳送的訊息總數。
+* **[!UICONTROL Messages to deliver]** :傳遞分析後要傳遞的郵件總數。
 * **[!UICONTROL Success]** : 已成功處理的訊息數.
 
 **[!UICONTROL 2. Reception statistics]**
 
 >[!NOTE]
 >
->相關百分比是根據成功轉送的訊息數量計算。
+>根據成功轉發的消息數計算相關百分比。
 
-* **[!UICONTROL Distinct opens for the population reached]** :估計已至少開啟消息一次的目標接收者的數量。 由於必須開啟電子郵件才能點按連結，因此系統會考慮對追蹤URL的點按次數。
-* **[!UICONTROL Sum of opens for the population reached]** :目標收件者開啟總數的估計。
-* **[!UICONTROL Clicks on opt-out link]** :取消訂閱連結的點按次數。
-* **[!UICONTROL Clicks on the mirror page link]** :連結至的點按次數 [鏡像頁面](../send/mirror-page.md). 若想納入考量，必須在傳送精靈（追蹤的URL）中將連結定義為。
-* **[!UICONTROL Estimation of forwards]** :目標收件者轉送的電子郵件估計數。 此值的計算方式是減去不同人員的數量以及在電子郵件中點按的不同收件者數量。
+* **[!UICONTROL Distinct opens for the population reached]** :至少一次開啟消息的目標接收者的數目的估計。 由於必須開啟電子郵件以按一下連結，因此將考慮對跟蹤的URL的按一下。
+* **[!UICONTROL Sum of opens for the population reached]** :目標接收者開啟總次數的估計。
+* **[!UICONTROL Clicks on opt-out link]** :取消訂閱連結上的按一下次數。
+* **[!UICONTROL Clicks on the mirror page link]** :指向的連結的按一下次數 [鏡像頁](../send/mirror-page.md)。 要考慮到這一點，必須在傳遞嚮導（跟蹤的URL）中將連結定義為這樣。
+* **[!UICONTROL Estimation of forwards]** :目標收件人轉發的電子郵件數的估計。 此值通過減去在電子郵件中按一下的不同人員的數量和不同收件人的數量來計算。
 
    >[!NOTE]
    >
-   >如需不同人員與目標收件者之間差異的詳細資訊，請參閱 [目標人員/收件者](metrics-calculation.md#targeted-persons---recipients).
+   >有關不同人員和目標收件人之間差異的詳細資訊，請參閱 [目標人員/收件人](metrics-calculation.md#targeted-persons---recipients)。
 
 **[!UICONTROL 3. Open and click-through rate]**
 
-此值表格顯示每個網際網路網域的傳送、開啟、點按和原始再活動的劃分。 已使用下列指標：
+此表顯示每個Internet域的交付、開啟、點擊和原始反應性的分解。 使用以下指標：
 
 * **[!UICONTROL Sent]** :在此域上發送的消息總數。
-* **[!UICONTROL Complaints]** :收件人報告為不希望的此域的消息數。 此速率是根據在此網域上傳送的訊息總數計算。
-* **[!UICONTROL Opens]** :此域中至少開啟一次郵件的不重複目標收件人數。 此速率是根據在此網域上傳送的訊息總數計算。
-* **[!UICONTROL Clicks]** :在相同傳送中至少按一下一次的不同目標收件者數目。 此速率是根據在此網域上傳送的訊息總數計算
-* **[!UICONTROL Raw reactivity]** :至少按一次傳遞的收件者人數，與至少開啟一次傳遞的收件者人數之比。
+* **[!UICONTROL Complaints]** :收件人報告為不希望接收的此域的郵件數。 該速率根據在此域上發送的消息總數計算。
+* **[!UICONTROL Opens]** :此域至少開啟一次郵件的不同目標收件人數。 該速率根據在此域上發送的消息總數計算。
+* **[!UICONTROL Clicks]** :按一下同一傳遞至少一次的不同目標收件人數。 此速率是根據在此域上發送的消息總數計算的
+* **[!UICONTROL Raw reactivity]** :在傳遞中按一下至少一次的收件人數與開啟傳遞至少一次的收件人數的百分比。
 
 >[!NOTE]
 >
->此報告中顯示的域名在多維資料集級別使用的明細清單中定義。 若要變更、新增或移除預設網域，請編輯 **[!UICONTROL Domains]** 逐項列出並修改值和別名。 此 **[!UICONTROL Others]** 類別包含不屬於分項清單任何值的網域名稱。
+>此報告中顯示的域名在多維資料集級別使用的明細清單中定義。 要更改、添加或刪除預設域，請編輯 **[!UICONTROL Domains]** 逐項列出並修改值和別名。 的 **[!UICONTROL Others]** 類別包括不屬於明細清單任何值的域名。
 >
->了解如何存取和設定您的分項清單，位於 [本頁](../config/ui-settings.md).
+>瞭解如何在中訪問和配置枚舉 [此頁](../config/ui-settings.md)。
 
 
 **[!UICONTROL 4. Generated click streams]**
 
 >[!NOTE]
 >
->相關百分比是根據成功轉送的訊息數量計算。
+>根據成功轉發的消息數計算相關百分比。
 
-* **[!UICONTROL Distinct clicks for the population reached]** :已點按至少一次傳遞的不重複人員數量。
-* **[!UICONTROL Cumulated clicks]** :目標收件者點按的總次數，不包括取消訂閱連結和鏡像頁面。
-* **[!UICONTROL Recipient clicks]** :在相同傳送中至少按一下一次的不同目標收件者數目。
-* **[!UICONTROL Estimated recipient reactivity]** :在傳遞中點擊至少一次的接收者數目與至少開啟傳遞一次的估計接收者數目的比率。 退出和鏡像頁面連結上的點按次數並未納入考量。
+* **[!UICONTROL Distinct clicks for the population reached]** :點擊遞送至少一次的不同人數。
+* **[!UICONTROL Cumulated clicks]** :按目標收件人（不包括未訂閱連結和鏡像頁）按一下的總數。
+* **[!UICONTROL Recipient clicks]** :按一下同一傳遞至少一次的不同目標收件人數。
+* **[!UICONTROL Estimated recipient reactivity]** :在遞送中點擊至少一次的收件人數目與開啟遞送至少一次的估計收件人數目之比。 按一下「選擇退出」和「鏡像」頁面連結時，不會考慮這些連結。
 <!--
 **[!UICONTROL 5. Web tracking]**
 
@@ -148,49 +148,49 @@ This chart shows the breakdown of cumulated clicks per day.
 
 ## 傳遞摘要 {#delivery-summary}
 
-此報告提供傳送的所有主要資訊。
+此報告提供有關交貨的所有主要資訊。
 
 ![](assets/user-report-summary.png)
 
 **[!UICONTROL Target population]**
 
-本節包含兩個指標：
+本節有兩個指標：
 
-* **[!UICONTROL Initial population]** :傳遞鎖定的收件者總數。
-* **[!UICONTROL Messages rejected by the rule]** :套用類型規則時，分析期間忽略的地址數：地址遺失、隔離、封鎖清單上等。 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL Initial population]** :傳遞目標的收件人總數。
+* **[!UICONTROL Messages rejected by the rule]** :應用類型規則時在分析期間忽略的地址數：地址丟失、隔離、拒絕清單等。 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 
-中圖顯示分析期間拒絕之訊息的每個規則劃分。
+中間圖表顯示分析期間拒絕的消息的每個規則的細分。
 
 **[!UICONTROL Delivery statistics]**
 
-本節包含下列指標：
+本節包括以下指標：
 
-* **[!UICONTROL Messages to be delivered]** :傳遞分析後要傳送的訊息總數。
-* **[!UICONTROL Success]** :已成功處理的郵件數。 關聯速率是要傳遞的報文數的比率。
-* **[!UICONTROL Errors]** :傳遞和自動反彈處理期間累積的錯誤總數。 關聯速率是要傳遞的報文數的比率。
-* **[!UICONTROL New quarantines]** :傳送失敗後隔離的地址數（用戶未知、無效域）。 關聯速率是要傳遞的報文數的比率。
+* **[!UICONTROL Messages to be delivered]** :傳遞分析後要傳遞的郵件總數。
+* **[!UICONTROL Success]** :成功處理的消息數。 關聯速率是要傳遞的消息數的比率。
+* **[!UICONTROL Errors]** :在交貨和自動回彈處理期間累積的錯誤總數。 關聯速率是要傳遞的消息數的比率。
+* **[!UICONTROL New quarantines]** :傳遞失敗後隔離的地址數（用戶未知，無效域）。 關聯速率是要傳遞的消息數的比率。
 
 ## 熱點點擊 {#hot-clicks}
 
-此報表顯示訊息內容(HTML和/或文字)，在每個連結上包含點按連結的百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和選件連結會納入累積點按總數中，但不會顯示在報表中。
+此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和優惠連結有計入總累計點按數，但不顯示在報告中。
 
 >[!NOTE]
 >
->如果您的傳送包含選件（互動），則報表上方會顯示一個方塊，顯示選件的點按百分比。
+>如果您的交貨包含優惠（交互），則報表上方會顯示一個框，其中顯示優惠的按一下百分比。
 
 
 ## 追蹤統計資料 {#tracking-statistics}
 
-此報表提供開啟、點按和交易的統計資料。
+此報表提供有關開啟、按一下和事務的統計資訊。
 
-它可讓您追蹤傳送對行銷的影響。 您可以透過變更時標（1小時、3小時或24小時檢視等），來設定值的顯示方式。 按一下 **[!UICONTROL Refresh]** 以確認您的選取。
+它讓您跟蹤交付對市場營銷的影響。 您可以通過更改時間刻度（1小時、3小時或24小時視圖等）來配置值的顯示方式。 按一下 **[!UICONTROL Refresh]** 以確認您的選取。
 
-此報表提供值表和排列圖，顯示傳送達到最高效率所需的時間。 已使用下列指標：
+此報表提供值表和帕累托圖，其中顯示交貨達到最高效率所需的時間。 使用以下指標：
 
-* **[!UICONTROL Opens]** :估計達到已開啟訊息總數百分比所需的時間。 未考慮文字格式的電子郵件。 [了解更多資訊](metrics-calculation.md#tracking-opens-)。
-* **[!UICONTROL Clicks]** :預估達到記錄點按總數百分比所需的時間。 點按選擇退出連結和鏡像頁面時不會納入考量。
+* **[!UICONTROL Opens]** :估計達到開啟郵件總數百分比所需的時間。 不考慮文本格式的電子郵件。 [了解更多](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL Clicks]** :估計達到記錄的點擊總數百分比所需的時間。 按一下「opt-out（選擇退出）」連結時，鏡像頁面不會被考慮在內。
 <!--
 * **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
@@ -198,8 +198,8 @@ This chart shows the breakdown of cumulated clicks per day.
 
 ## 累積報告 {#cumulated-reports}
 
-您可以顯示傳遞的累積報表。 若要這麼做，請選取要比較的傳送，以取得這些傳送的報表清單。
+您可以顯示交貨的累計報表。 為此，請選擇要比較的交貨，以獲取這些交貨的報表清單。
 
-若要從清單中選取非相鄰的傳送，請在選取時按住CTRL鍵。
+要從清單中選擇非相鄰交貨，請在進行選擇時按住CTRL鍵。
 
-若要選取儲存在不同資料夾中的傳送，請按一下 **[!UICONTROL Display sub-levels]** 圖示，可在工具列中存取。 然後，它們會顯示在相同的清單中。
+要選擇保存在其他資料夾中的交貨，請按一下 **[!UICONTROL Display sub-levels]** 表徵圖。 然後，它們將顯示在同一清單中。

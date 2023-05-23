@@ -1,5 +1,5 @@
 ---
-title: 連線至Campaign v8
+title: 連接到市場活動v8
 description: 了解如何連接到 Adobe Campaign v8 並在您的機器上安裝主控台以易於存取。
 feature: Client Console
 role: User
@@ -12,112 +12,112 @@ ht-degree: 8%
 
 ---
 
-# 連線至Adobe Campaign v8{#gs-ac-connect}
+# 連接到Adobe Campaignv8{#gs-ac-connect}
 
-若要開始使用Campaign，您必須安裝並設定用戶端主控台。
+要開始使用市場活動，必須安裝並配置客戶端控制台。
 
-用戶端主控台是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign用戶端主控台會集中所有功能和設定，因需最低頻寬，因為它需仰賴本機快取。 Campaign用戶端主控台可從網際網路瀏覽器部署，且可自動更新，且不需要任何特定的網路設定，因為它只會產生HTTP(S)流量。
+客戶端控制台是一個本機應用程式，它通過標準的Internet協定（如SOAP和HTTP）與Adobe Campaign應用程式伺服器通信。 市場活動客戶端控制台集中了所有功能和設定，並且由於它依賴本地快取而需要最小的頻寬。 為便於部署而設計的Campaign Client控制台可從Internet瀏覽器部署，並可自動更新，並且不需要任何特定的網路配置，因為它只生成HTTP(S)通信。
 
-開始之前，您需要：
+在開始之前，您需要：
 
-* 在 [相容性矩陣](compatibility-matrix.md)
-* 取得您的Campaign伺服器URL
-* 建立Adobe ID，或從公司取得使用者認證
-* 在您的系統上安裝Microsoft Edge Webview2執行階段。 [了解更多](#webview)
+* 檢查您的系統和工具與Adobe Campaign的相容性 [相容性矩陣](compatibility-matrix.md)
+* 獲取您的市場活動伺服器URL
+* 建立您的Adobe ID，或從您的公司獲取您的用戶憑據
+* 在系統上安裝Microsoft Edge Webview2運行時。 [了解更多](#webview)
 
 ## 安裝客戶端控制台{#download-ac-console}
 
-### Microsoft Edge Webview2執行階段 {#webview}
+### Microsoft邊緣Webview2運行時 {#webview}
 
-從Campaign Classic8.4版本建置版本，安裝任何用戶端主控台都需要安裝Microsoft Edge Webview 2執行階段。
+從Campaign Classic8.4生成版本，任何客戶端控制台安裝都需要安裝Microsoft邊緣Webview 2運行時。
 
-預設情況下，Web視圖是Windows 11作業系統的一部分。 如果系統上尚未出現，Campaign用戶端主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已不再支援。 請確定您使用不同的瀏覽器來存取連結。
+預設情況下，Web視圖作為Windows 11作業系統的一部分安裝。 如果系統上尚未存在該功能，則市場活動客戶端控制台安裝程式將提示您從下載 [Microsoft開發商網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}。 請注意，下載連結在Internet Explorer 11瀏覽器上不工作，因為Microsoft已棄用其支援。 確保使用其他瀏覽器訪問連結。
 
-### 下載主控台{#install-ac-console}
+### 下載控制台{#install-ac-console}
 
-第一次使用Campaign時，您需要下載用戶端主控台並加以安裝。
+首次使用市場活動時，您需要下載客戶端控制台並安裝它。
 
-下載用戶端主控台有兩個選項：
+下載客戶端控制台可使用以下兩個選項：
 
-1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
+1. 作為市場活動管理員，連接到Adobe [軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}。
 
-1. 身為一般使用者，您的Campaign管理員會為您部署用戶端主控台，並透過專用URL使用。
+1. 作為最終用戶，您的市場活動管理員為您部署客戶端控制台，並通過專用URL使其可用。
 
-下載客戶端控制台安裝程式後，將其安裝在本地電腦上。
+下載客戶端控制台安裝程式後，請將其安裝到本地電腦上。
 
-請注意，在安裝客戶端控制台語言後，您就無法更改該語言。
+請注意，安裝客戶端控制台語言後，您就無法更改該語言。
 
-## 建立連線{#create-your-connection}
+## 建立連接{#create-your-connection}
 
 安裝客戶端控制台後，請按照以下步驟建立與應用程式伺服器的連接：
 
-1. 啟動Console並瀏覽右角的連結以存取連線設定畫面。
+1. 啟動控制台並瀏覽右角的連結以訪問連接配置螢幕。
 
-1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用程式伺服器的標籤和URL。
+1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用伺服器的標籤和URL。
 
-1. 透過URL指定與Adobe Campaign應用程式伺服器的連線。 使用電腦的DNS、別名或IP地址。
+1. 通過URL指定到Adobe Campaign應用程式伺服器的連接。 使用DNS或電腦的別名或IP地址。
 
-   例如，您可以使用 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 類型URL。
+   例如，您可以使用 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 鍵。
 
-1. 核取選項 **[!UICONTROL Connect with an Adobe ID]**.
+1. 選中選項 **[!UICONTROL Connect with an Adobe ID]**。
 
-1. 按一下 **[!UICONTROL Ok]** 來儲存設定。
+1. 按一下 **[!UICONTROL Ok]** 的子菜單。
 
-例如，您可以視需要新增連線，以連線至您的測試、預備和生產環境。
+例如，您可以根據需要添加多個連接以連接到test、舞台和生產環境。
 
 >[!NOTE]
 >
->此 **[!UICONTROL Add]** 按鈕可讓您建立 **[!UICONTROL folders]** 來組織所有連線。 只需將每個連線拖放到資料夾中即可。
+>的 **[!UICONTROL Add]** 按鈕，您可以建立 **[!UICONTROL folders]** 來組織你的所有聯繫。 只需將每個連線拖放到資料夾中即可。
 
-## 登入Adobe Campaign {#logon-to-ac}
+## 登錄Adobe Campaign {#logon-to-ac}
 
-Campaign使用者使用其Adobe ID，透過AdobeIdentity Management系統(IMS)連線至Adobe Campaign主控台。 所有Adobe解決方案都可使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。 深入了解Adobe IMS，位於 [本頁](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+活動用戶通過AdobeIdentity Management系統(IMS)使用其Adobe ID連接到Adobe Campaign控制台。 他們可以使用相同的ID所有Adobe解決方案。 將Adobe Campaign與其他解決方案一起使用時，將保存連接。 瞭解有關Adobe IMS的詳細資訊 [此頁](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}。
 
-若要登入執行個體，請遵循下列步驟：
+要登錄到實例，請執行以下步驟：
 
-1. 啟動Console並瀏覽右角的連結以存取連線設定畫面。
+1. 啟動控制台並瀏覽右角的連結以訪問連接配置螢幕。
 
    ![](assets/connectToCampaign.png)
 
-1. 選取您需要登入的Campaign執行個體。
+1. 選擇要登錄的市場活動實例。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**。
 
-然後，您可以使用Adobe ID登入Campaign。
+然後，您可以使用您的Adobe ID登錄競選活動。
 
 ![](assets/adobeID.png)
 
 >[!NOTE]
 >
->由於Microsoft Edge Webview2不會儲存代理憑證，因此主控台可能會要求您在第一個連線時執行兩次驗證。
+>由於Microsoft邊緣Webview2不保存代理憑據，因此控制台可能會要求您在首次連接時進行兩次身份驗證。
 
-## 升級您的客戶端控制台{#upgrade-ac-console}
+## 升級客戶端控制台{#upgrade-ac-console}
 
-當您的系統升級到較新版本時，您必須將用戶端主控台更新為相同版本。 這是最佳實務，對於某些版本，此升級為強制性。 在此情況下， [發行說明](release-notes.md).
+將系統升級到較新的版本後，必須將客戶端控制台更新為同一版本。 這是最佳做法，對於某些版本，此升級是強制性的。 在這種情況下， [發行說明](release-notes.md)。
 
-作為「受管理的Cloud Services」用戶，Adobe會為您部署客戶端控制台。 當您連接到升級環境時，系統會提示您在彈出窗口中下載最新的客戶端控制台版本。 您必須接受此升級，並根據要求更新客戶端控制台。
+作為托管Cloud Services用戶，Adobe將為您部署客戶端控制台。 連接到升級的環境時，系統會提示您在彈出窗口中下載最新的客戶端控制台版本。 您必須接受此升級，並根據請求更新客戶端控制台。
 
 >[!CAUTION]
 >
->Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 未選取，以確保在有新版本的Console可用時收到警報。 如果選取此選項，系統不會通知使用者需要進行主控台升級。
+>Adobe建議保留 **[!UICONTROL No longer ask this question]** 未選定，以確保在有新版本的控制台可用時收到警報。 如果選擇此選項，則不會通知用戶需要Console升級。
 
 
-## 授予使用者存取權{#grant-access}
+## 授予用戶訪問權限{#grant-access}
 
-Adobe Campaign可讓您定義及管理指派給各種運算子的權限。
+Adobe Campaign允許您定義和管理分配給各種運算子的權限。
 
-身為Campaign管理員，您負責建立運算子，並與使用者共用其認證。
+作為市場活動管理員，您負責建立操作員並與用戶共用其憑據。
 
-進一步了解使用者，以及如何在 [本節](gs-permissions.md).
+瞭解有關用戶的詳細資訊以及如何在 [此部分](gs-permissions.md)。
 
 
 ## 網路存取{#web-access}
 
-應用程式的某些部分可通過Web瀏覽器使用HTML用戶介面進行訪問：報告、傳送核准、執行個體監控等。
+使用HTML用戶介面，可以通過Web瀏覽器訪問應用程式的某些部分：報告、交付審批、實例監控等。
 
 網路存取介面與主控台的介面類似，但是功能有所減少。
 
-例如，對於指定運算子，促銷活動在主控台中會顯示下列選項：
+例如，對於給定操作員，市場活動將在控制台中顯示以下選項：
 
 ![](assets/campaign-from-console.png)
 
@@ -125,6 +125,6 @@ Adobe Campaign可讓您定義及管理指派給各種運算子的權限。
 
 ![](assets/campaign-from-web.png)
 
-驗證程式中也會使用Web存取：運算子可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳送內容或預算。
+Web訪問也用於驗證過程：操作員可以按一下批准請求電子郵件並通過其web瀏覽器連接到市場活動，以驗證或拒絕交付內容或預算。
 
-若要從網路存取您的Campaign執行個體，URL為：  `https://<your adobe campaign server>:<port number>/view/home`.
+要從Web訪問您的Campaign實例，URL為：  `https://<your adobe campaign server>:<port number>/view/home`。

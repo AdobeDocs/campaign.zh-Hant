@@ -1,6 +1,6 @@
 ---
-title: 在Campaign中匯入設定檔
-description: 了解如何在Campaign中匯入連絡人
+title: 導入市場活動中的配置檔案
+description: 瞭解如何在市場活動中導入聯繫人
 feature: Audiences, Profiles
 role: User
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # 從檔案匯入設定檔{#create-profiles}
 
-若要填入您的Campaign資料庫，您可以 [手動新增設定檔](create-profiles.md) 或匯入設定檔，如下所述。 您也可以使用匯入的檔案來更新聯絡人資料。
+要填充市場活動資料庫，您可以 [手動添加配置檔案](create-profiles.md) 或導入配置式（如下所述）。 您還可以使用導入的檔案來更新聯繫人資料。
 
 ## 使用工作流程匯入設定檔 {#import-profiles-with-a-wf}
 
@@ -22,20 +22,20 @@ ht-degree: 24%
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 
-在檔案中準備和建構資料，以使用工作流程匯入資料。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)。
+準備並構建檔案中的資料，以使用工作流導入資料。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)。
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-工作流程中處理的資料可從結構化檔案中擷取，以便匯入至Adobe Campaign。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
+工作流中處理的資料可以從結構化檔案中提取，以便可以導入到Adobe Campaign。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
 
-收集完資料後，您就可以在工作流程中使用資料，例如擴充傳送或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)。
+收集資料後，您就可以在工作流中使用它，例如，用於豐富傳遞內容或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)。
 
 ## 一次性進口{#import-jobs}
 
-Adobe Campaign提供一般匯入功能，例如，可讓您擷取客戶或潛在客戶的清單，這些客戶或潛在客戶隨後將成為目標母體的一部分，或將外部檔案的資料提供給您的資料庫。
+Adobe Campaign提供通用導入功能，例如，允許您提取客戶或潛在客戶的清單，這些客戶或潛在客戶隨後將成為目標群體的一部分，或向資料庫提供來自外部檔案的資料。
 
-一般匯入會從 **[!UICONTROL Profiles and Targets > Jobs]** Adobe Campaign首頁的功能表。
+通用導入從 **[!UICONTROL Profiles and Targets > Jobs]** 菜單開啟它。
 
 ![](assets/new-import-job.png)
 
-執行一般匯入的步驟在 [Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target="_blank"}.
+執行泛型導入的步驟詳見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target="_blank"}。

@@ -1,6 +1,6 @@
 ---
-title: 在Campaign中建立設定檔
-description: 了解如何手動將聯絡人新增至Campaign
+title: 在市場活動中建立配置檔案
+description: 瞭解如何將聯繫人手動添加到市場活動
 feature: Audiences, Profiles
 role: User
 level: Beginner
@@ -14,21 +14,21 @@ ht-degree: 3%
 
 # 手動建立設定檔{#create-profiles-manual}
 
-若要填入您的Campaign資料庫，您可以 [匯入設定檔](import-profiles.md) 或手動新增，如下所述。
+要填充市場活動資料庫，您可以 [導入配置檔案](import-profiles.md) 或手動添加，如下所述。
 
-若要手動建立收件者，請執行下列步驟：
+要手動建立收件人，請執行以下步驟：
 
-1. 瀏覽至 **[!UICONTROL Profiles and targets]** 標籤，然後選取 **[!UICONTROL Recipients]** 類別。
+1. 瀏覽到 **[!UICONTROL Profiles and targets]** 的子菜單。 **[!UICONTROL Recipients]** 的子菜單。
 
    ![](assets/profiles-and-targets.png)
 
-   依預設，收件者會儲存在 **[!UICONTROL Profiles and Targets > Recipients]** 樹的節點。 您也可以從此檢視建立收件者。
+   預設情況下，收件人儲存在 **[!UICONTROL Profiles and Targets > Recipients]** 的子目標。 您也可以從此視圖建立收件人。
 
-1. 按一下 **[!UICONTROL Create button]**.
-1. 輸入設定檔的資料。
+1. 按一下 **[!UICONTROL Create button]**。
+1. 輸入配置檔案的資料。
 
    ![](assets/new-recipient.png)
 
-   進一步了解收件者的內建表單，位於 [本頁](view-profiles.md#edit-a-profiles).
+   瞭解有關中內置收件人表單的詳細資訊 [此頁](view-profiles.md#edit-a-profiles)。
 
-1. 按一下 **[!UICONTROL Save]**:設定檔會新增至Campaign的預設收件者資料夾中。
+1. 按一下 **[!UICONTROL Save]**:配置檔案將添加到預設收件人資料夾中的市場活動。

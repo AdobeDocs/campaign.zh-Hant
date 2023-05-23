@@ -38,7 +38,7 @@ ht-degree: 95%
 
    對於每個位寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 在這個數位世界中進行有效導覽，需要定期調整您的電子郵件策略，考量傳遞能力的重要趨勢，以便最能觸及您的對象。
 
-   ![](../assets/do-not-localize/book.png) 請參閱本指南以了解 [傳遞性最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target="_blank"}
+   ![](../assets/do-not-localize/book.png) 請參閱本指南以瞭解 [提供性最佳做法](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target="_blank"}
 
    ![](../assets/do-not-localize/book.png) 瞭解如何在 Campaign [實施本指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant)中的傳遞能力{target="_blank"}
 
@@ -70,9 +70,9 @@ ht-degree: 95%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   身為管理員使用者，可存取Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} 下載Adobe Campaign。
+   作為管理員用戶，訪問Adobe [軟體分發](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} 下載Adobe Campaign。
 
-   進一步了解發佈中心 [在本頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}.
+   瞭解有關分發中心的更多資訊 [此頁](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
