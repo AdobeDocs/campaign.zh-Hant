@@ -24,7 +24,7 @@ ht-degree: 92%
 
 您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
 
-![](../assets/do-not-localize/book.png) 瞭解詳情 [市場活動控制面板文檔](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}。
+![](../assets/do-not-localize/book.png) 進一步瞭解 [Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}.
 
 ## 如何存取控制面板？
 
@@ -44,7 +44,7 @@ ht-degree: 92%
 
 * [監視子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=zh-Hant){target="_blank"}
 * [設定新的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant){target="_blank"}
-* [監視子域的SSL證書](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target="_blank"}
+* [監視子網域的SSL憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target="_blank"}
 
 ## 效能監視
 

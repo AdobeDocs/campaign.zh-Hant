@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 電子郵件傳送能力
-description: 瞭解有關電子郵件可傳遞性包的詳細資訊
+title: 電子郵件傳遞能力
+description: 深入瞭解電子郵件傳遞能力套件
 feature: Workflows, Deliverability
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
@@ -11,9 +11,9 @@ ht-degree: 5%
 ---
 
 
-# 可交付性監視（電子郵件可交付性）{#email-deliverability}
+# 傳遞能力監控（電子郵件傳遞能力）{#email-deliverability}
 
-下面詳細介紹的工作流預設安裝在所有實例上，用於初始化退回郵件資格規則清單、域清單和MX清單。 一旦 **可交付性監視（電子郵件可交付性）** 已安裝軟體包，此工作流每晚運行。
+依預設，所有執行個體都會安裝以下詳細的工作流程，並讓您初始化退回郵件資格規則的清單、網域清單和MX清單。 一旦 **傳遞能力監控（電子郵件傳遞能力）** 安裝套件後，此工作流程會在夜間執行。
 <table> 
  <tbody> 
   <tr> 
@@ -22,9 +22,9 @@ ht-degree: 5%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>刷新可交付性</strong><br /> </td> 
+   <td> <strong>重新整理傳遞能力</strong><br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td>  一旦 <strong>可交付性監視（電子郵件可交付性）</strong> 已安裝軟體包，此工作流每晚運行以定期更新規則清單，並允許主動管理平台交付能力。<br /> </td> 
+   <td>  一旦 <strong>傳遞能力監控（電子郵件傳遞能力）</strong> 套件已安裝完成，此工作流程每晚執行以定期更新規則清單，並允許主動管理平台傳遞能力。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 建立市場營銷活動
-description: 瞭解如何建立和執行市場營銷活動
+title: 建立行銷活動
+description: 瞭解如何建立和執行行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
@@ -11,199 +11,199 @@ ht-degree: 4%
 
 ---
 
-# 建立計畫和市場活動{#create-programs-and-campaigns}
+# 建立方案和行銷活動{#create-programs-and-campaigns}
 
-市場活動業務流程元件位於 **[!UICONTROL Campaigns]** 頁籤：在這裡，您可以看到市場營銷計畫和市場活動及其關聯要素的概覽。
+Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在此處檢視行銷方案和行銷活動及其相關元素的概觀。
 
-營銷計畫由市場活動組成，市場活動由交付、資源等組成。 有關交貨、預算、審閱人和連結文檔的所有資訊均在市場活動中分組。
+行銷方案是由行銷活動所組成，而行銷活動是由傳遞、資源等所組成。 有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [在視頻中發現計畫和活動](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和行銷活動](#video)
 
-## 與方案和計畫合作{#work-with-plan-and-program}
+## 使用方案和計畫{#work-with-plan-and-program}
 
-### 建立計畫和方案層次結構 {#create-plan-and-program}
+### 建立計畫和方案階層 {#create-plan-and-program}
 
-每個市場活動都屬於屬於計畫的計畫。 所有計畫、方案和活動均可通過 **[!UICONTROL Campaign calendar]** 的 **市場活動** 頁籤。
+每個行銷活動都屬於屬於屬於計畫的方案。 所有計畫、方案和行銷活動都可透過 **[!UICONTROL Campaign calendar]** 功能表 **行銷活動** 標籤。
 
-在開始構建市場活動和交貨之前，請為市場營銷計畫和計畫配置資料夾層次結構。
+開始建立行銷活動和傳遞之前，請為行銷計畫和方案設定資料夾階層。
 
-1. 按一下 **瀏覽器** 表徵圖
-1. 按一下右鍵要在其中建立計畫的資料夾。
-1. 選擇 **添加新資料夾>Campaign Management>計畫**。
+1. 按一下 **總管** 圖示加以檢視。
+1. 以滑鼠右鍵按一下您要建立計畫的資料夾。
+1. 選取 **新增資料夾> Campaign Management >計畫**.
 
    ![](assets/create-new-plan-folder.png)
 
-1. 更名計畫。
-1. 按一下右鍵新建立的計畫並選擇 **屬性……**。
-1. 在 **常規** 頁籤 **內部名稱** 在包導出過程中避免重複。
+1. 重新命名計畫。
+1. 以滑鼠右鍵按一下新建立的計畫並選取 **屬性……**.
+1. 在 **一般** 標籤，修改 **內部名稱** 以避免在套件匯出期間出現重複專案。
 
    ![](assets/plan-properties.png)
 
 1. 按一下「**儲存**」。
-1. 按一下右鍵新建立的計畫並選擇 **新建「Program」資料夾**。
+1. 以滑鼠右鍵按一下新建立的計畫並選取 **建立新的&#39;Program&#39;資料夾**.
 
    ![](assets/program-folder.png)
 
-1. 重複上述步驟以更名新程式資料夾及其內部名稱。
+1. 重複上述步驟，重新命名新的程式資料夾及其內部名稱。
 
 
-### 配置程式 {#edit-a-program}
+### 設定程式 {#edit-a-program}
 
-編輯程式時，使用下面介紹的頁籤瀏覽和配置程式。
+編輯程式時，請使用下述標籤來瀏覽和設定程式。
 
-* 的 **計畫** 頁籤根據您在日曆標題中按一下的頁籤顯示月、周或日的程式日曆。 您可以從此頁建立市場活動、程式或任務。 [了解更多](#campaign-calendar)
+* 此 **排程** 索引標籤會根據您在日曆標題中按一下哪個索引標籤，顯示某月、周或日的計畫行事曆。 您可以從此頁面建立行銷活動、方案或任務。 [了解更多](#campaign-calendar)
 
-* 的 **編輯** 頁籤，您可以個性化程式：名稱、起始日期和終止日期、預算、連結文檔等。
+* 此 **編輯** 索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結的檔案等。
 
    ![](assets/new-program-edit-tab.png)
 
-## 使用市場活動{#work-with-campaigns}
+## 使用行銷活動{#work-with-campaigns}
 
 ### 建立促銷活動 {#create-a-campaign}
 
-您可以通過市場活動清單建立市場活動。 要顯示此視圖，請選擇 **[!UICONTROL Campaigns]** 的 **[!UICONTROL Campaigns]** 控制板，然後按一下 **[!UICONTROL Create]**。
+您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取 **[!UICONTROL Campaigns]** 功能表 **[!UICONTROL Campaigns]** 儀表板，然後按一下 **[!UICONTROL Create]**.
 
-的 **[!UICONTROL Program]** 欄位中，您可以選擇市場活動將附加到的方案。 此資訊是強制性的。
+此 **[!UICONTROL Program]** 欄位可讓您選取要附加行銷活動的方案。 此資訊是強制性的。
 
 ![](assets/new-campaign-settings.png)
 
-也可以通過市場活動日曆或方案日曆建立市場活動。 [了解更多](#campaign-calendar)
+行銷活動也可以透過行銷活動或方案行事曆來建立。 [了解更多](#campaign-calendar)
 
-在市場活動建立窗口中，選擇市場活動模板並添加市場活動的名稱和說明。 您還可以指定市場活動起始日期和終止日期。
+在行銷活動建立視窗中，選取行銷活動範本並新增行銷活動的名稱和說明。 您也可以指定行銷活動的開始和結束日期。
 
-按一下 **[!UICONTROL OK]** 建立市場活動。 它被添加到計畫日程和市場活動清單中。
+按一下 **[!UICONTROL OK]** 以建立行銷活動。 它會新增至方案排程和行銷活動清單。
 
-然後，您可以編輯剛剛建立的市場活動並定義其參數。 要開啟和配置此市場活動，您可以：
+然後，您可以編輯剛剛建立的行銷活動並定義其引數。 若要開啟並設定此行銷活動，您可以：
 
-1. 瀏覽市場活動日曆並選擇要顯示的市場活動，然後按一下 **[!UICONTROL Open]** 的子菜單。
-1. 瀏覽 **[!UICONTROL Schedule]** 頁籤，選擇市場活動並開啟它。
-1. 瀏覽市場活動清單，然後按一下要編輯的市場活動名稱。
+1. 瀏覽行銷活動行事曆，並選取您要顯示的行銷活動，然後按一下 **[!UICONTROL Open]** 連結。
+1. 瀏覽 **[!UICONTROL Schedule]** 索引標籤中，選取行銷活動並加以開啟。
+1. 瀏覽行銷活動清單，然後按一下要編輯的行銷活動名稱。
 
-所有這些操作都會將您帶到市場活動控制面板。
+所有這些動作都會將您帶往行銷活動控制面板。
 
 ![](assets/campaigns-dashboard-approve.png)
 
-訪問以下部分，瞭解如何配置市場活動：
+存取下列章節，瞭解如何設定行銷活動：
 
 * [新增傳遞](marketing-campaign-deliveries.md)
-* [管理資產和文檔](marketing-campaign-assets.md)
-* [構建目標受眾](marketing-campaign-target.md)
+* [管理資產和檔案](marketing-campaign-assets.md)
+* [建立目標對象](marketing-campaign-target.md)
 * [設定核准流程](marketing-campaign-approval.md)
 * [管理庫存和預算](providers--stocks-and-budgets.md)
 
 
-### 編輯市場活動設定 {#campaign-settings}
+### 編輯行銷活動設定 {#campaign-settings}
 
-市場活動通過市場活動模板建立。 您可以配置可重用模板，其中已為其選擇了某些選項，並且已保存了其他設定。
+行銷活動是透過行銷活動範本建立。 您可以設定已選取某些選項且已儲存其他設定的可重複使用範本。
 
-對於每個市場活動，都提供以下功能：
+對於每個行銷活動，都可使用下列功能：
 
-* 參考文檔和資源：您可以將文檔與市場活動（簡報、報表、影像等）關聯。 支援所有文檔格式。 [了解更多](marketing-campaign-deliveries.md#manage-associated-documents)。
-* 定義成本：對於每個市場活動，Adobe Campaign允許您定義成本分錄和成本計算結構，在建立市場營銷市場活動時可以使用這些結構。 例如：印刷成本、使用外部代理、租房等。 [了解更多](providers--stocks-and-budgets.md#defining-cost-categories)。
-* 定義目標：您可以為市場活動定義可量化的目標，例如訂戶數、業務量等。 此資訊稍後將用於市場活動報告。
+* 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多](marketing-campaign-deliveries.md#manage-associated-documents)。
+* 定義成本：對於每個促銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：印刷成本、使用外部機構、房間租賃等。 [了解更多](providers--stocks-and-budgets.md#defining-cost-categories)。
+* 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。 此資訊稍後會用於行銷活動報表中。
 * 管理種子地址和控制組。 [了解更多](marketing-campaign-deliveries.md#defining-a-control-group)。
-* 管理批准：您可以選擇要批准的處理，並根據需要選擇審閱運算子或運算子組。 [了解更多](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+* 管理核准：您可以選取要核准的處理方式，並視需要選取稽核操作員或操作員群組。 [了解更多](marketing-campaign-approval.md#checking-and-approving-deliveries)。
 
 >[!NOTE]
 >
->要訪問和更新市場活動設定，請瀏覽至 **[!UICONTROL Advanced campaign parameters...]** 連結 **[!UICONTROL Edit]** 頁籤。
+>若要存取和更新行銷活動設定，請瀏覽至 **[!UICONTROL Advanced campaign parameters...]** 中的連結 **[!UICONTROL Edit]** 標籤。
 
-### 監視市場活動 {#monitor-a-campaign}
+### 監視行銷活動 {#monitor-a-campaign}
 
-對於每個市場活動，任務、資源和交貨都集中在控制面板中。 此介面允許您管理和協調營銷活動。
+針對每個行銷活動，工作、資源和傳遞都會集中在控制面板中。 此介面可讓您管理和協調行銷動作。
 
-通過Adobe Campaign，您可以設定協作流程，以建立和批准您的市場活動的各個步驟：預算、目標、內容等的核准 此業務流程在 [此部分](marketing-campaign-approval.md)。
+透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。 此協調流程的詳細資訊請參閱 [本節](marketing-campaign-approval.md).
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->市場活動中可用的元件取決於其模板。 市場活動模板配置在 [此部分](marketing-campaign-templates.md#campaign-templates)。
+>行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示於 [本節](marketing-campaign-templates.md#campaign-templates).
 
-活動完成後，使用 **[!UICONTROL Reports]** 連結以訪問市場活動報表。
+行銷活動達成後，請使用 **[!UICONTROL Reports]** 存取行銷活動報告的連結。
 
 ![](assets/campaigns-reports-dashboard.png)
 
-## 市場活動日曆 {#campaign-calendar}
+## 行銷活動行事曆 {#campaign-calendar}
 
-市場活動日曆顯示所有方案、計畫、市場活動和交貨。
+行銷活動行事曆顯示所有方案、計畫、行銷活動和傳遞。
 
-要編輯計畫、方案、市場活動或交付，請瀏覽到日曆中的名稱，然後使用 **[!UICONTROL Open]** 的子菜單。 然後，它將顯示在新頁籤中，如下所示：
+若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用 **[!UICONTROL Open]** 連結。 然後會顯示在新標籤中，如下所示：
 
 ![](assets/campaign-calendar.png)
 
-您可以過濾市場活動日曆中顯示的資訊。 要執行此操作，請按一下 **[!UICONTROL Filter]** 連結並選擇篩選條件。
+您可以篩選行銷活動行事曆中顯示的資訊。 若要這麼做，請按一下 **[!UICONTROL Filter]** 連結並選取篩選條件。
 
 ![](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
->在日期篩選時，所有起始日期遲於指定日期和/或終止日期早於指定日期的市場活動都會顯示。 使用每個欄位右側的日曆選擇日期。
+>依日期篩選時，會顯示開始日期晚於指定日期及/或結束日期早於指定日期的所有行銷活動。 日期是使用每個欄位右側的行事曆來選取。
 
-您還可以使用 **[!UICONTROL Search]** 欄位以篩選顯示的項。
+您也可以使用 **[!UICONTROL Search]** 欄位以篩選顯示的專案。
 
-連結到每個項目的表徵圖允許您查看其狀態：已完成、正在進行、正在編輯等。
+連結至每個專案的圖示可讓您檢視其狀態：已完成、進行中、正在編輯等。
 
-要篩選要顯示的市場活動，請按一下 **[!UICONTROL Filter]** 連結並選擇要顯示的市場活動狀態。
+若要篩選要顯示的行銷活動，請按一下 **[!UICONTROL Filter]** 連結並選取要顯示的行銷活動狀態。
 
 ![](assets/calendar-filter-options.png)
 
-在瀏覽日曆時，您還可以建立程式或市場活動。
+瀏覽行事曆時，您也可以建立方案或行銷活動。
 
 ![](assets/campaign-create-from-calendar.png)
 
-當通過 **[!UICONTROL Schedule]** 頁籤，市場活動將自動連結到相關的計畫。 的 **[!UICONTROL Program]** 的下界。
+當您透過建立行銷活動時 **[!UICONTROL Schedule]** 標籤中，此行銷活動會自動連結至相關方案。 此 **[!UICONTROL Program]** 在此情況下，欄位會隱藏。
 
 
-## 使用Web介面 {#use-the-web-interface-}
+## 使用網頁介面 {#use-the-web-interface-}
 
-您可以通過Internet瀏覽器訪問Adobe Campaign控制台螢幕，以查看所有市場活動和交付以及資料庫中配置檔案的報告和資訊。 此訪問不啟用記錄建立。 根據操作員權限，您可以查看和/或對資料庫中的資料執行操作。 例如，您可以批准市場活動內容和目標、重新啟動或停止交付等。
+您可以透過網際網路瀏覽器存取Adobe Campaign主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或處理資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
-1. 如常登錄：https://`<your instance>:<port>/view/home`。
-1. 使用菜單訪問概覽。
+1. 照常透過https://登入`<your instance>:<port>/view/home`.
+1. 使用選單存取概觀。
 
    ![](assets/web-access-campaigns.png)
 
-除了在市場活動中導航和查看它們外，您還可以執行以下類型的任務：
+除了在行銷活動中導覽及檢視行銷活動外，您還可以執行下列型別的工作：
 
-* 監視實例上的活動
-* 參與驗證流程，例如批准或拒絕交付內容
-* 執行其他快速操作，例如暫停工作流
-* 訪問所有報告功能
-* 參加論壇討論
+* 監視執行個體上的活動
+* 參與驗證程式，例如，核准或拒絕傳遞內容
+* 執行其他快速動作，例如，暫停工作流程
+* 存取所有報告功能
+* 參與論壇討論
 
-此表匯總了您可以從瀏覽器對市場活動執行的操作：
+此表格總結列出您可以從瀏覽器對行銷活動採取的動作：
 
 | 頁面  | 動作 |
 | --- | --- |
-| 市場活動、交貨、優惠等清單 | 刪除清單項 |
-| Campaign | 取消市場活動 |
-| 傳遞 | 批准交付內容和目標<br/>提交交貨內容<br/>確認交貨<br/>暫停和停止交貨 |
-| 網頁應用程式 | 建立Web應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容另存為模板<br/>發佈應用程式 |
-| 優惠 | 批准聘用內容和資格<br/>禁用線上服務 |
+| 行銷活動、傳遞、優惠方案等清單。 | 刪除清單專案 |
+| Campaign | 取消行銷活動 |
+| 傳遞 | 核准傳遞內容和目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停和停止傳遞 |
+| 網頁應用程式 | 建立網頁應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容另存為範本<br/>發佈應用程式 |
+| 優惠 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
 | 任務 | 完成任務<br/>取消任務 |
-| 行銷資源 | 審核資源<br/>鎖定和解鎖資源 |
-| 行銷活動套件 | 提交包以供審批<br/>批准或拒絕包<br/>取消包 |
+| 行銷資源 | 核准資源<br/>鎖定及解除鎖定資源 |
+| 行銷活動套件 | 提交套件以供核准<br/>核准或拒絕套件<br/>取消封裝 |
 | 行銷活動訂單 | 建立訂單<br/>接受或拒絕訂單 |
 | 庫存 | 刪除庫存行 |
-| 提供模擬 | 啟動和停止模擬 |
-| 目標工作流 | 啟動、暫停和停止工作流 |
-| 報告 | 在報告歷史記錄中保存當前資料 |
-| 論壇 | 添加討論<br/>回復討論中的郵件<br/>關注討論並取消訂閱 |
+| 優惠方案模擬 | 開始和停止模擬 |
+| 目標定位工作流程 | 開始、暫停和停止工作流程 |
+| 報告 | 將目前的資料儲存在報告歷史記錄中 |
+| 論壇 | 新增討論<br/>回覆討論中的訊息<br/>關注討論並取消訂閱 |
 
 ### 管理核准
 
-目標或傳遞內容的批准可以通過web訪問進行。
+目標或傳遞內容的核准可透過網頁存取來執行。
 
 ![](assets/web-access-approval.png)
 
-您還可以使用通知消息中包含的連結。 如需詳細資訊，請參閱[本章節](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+您也可以使用通知訊息中包含的連結。 如需詳細資訊，請參閱[本章節](marketing-campaign-approval.md#checking-and-approving-deliveries)。
 
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-此視頻顯示如何建立營銷計畫、計畫和市場活動。
+本影片說明如何建立行銷計畫、方案和行銷活動。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

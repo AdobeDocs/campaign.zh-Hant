@@ -15,47 +15,47 @@ ht-degree: 4%
 
 
 
-安 **交集**-type活動從接收到的目標的交集建立目標。
+一個 **交集**-type活動會從接收目標的交集建立目標。
 
-交集讓您僅擷取所有傳入活動結果共有的母體。建立目標時會收到所有結果：因此，必須先完成所有先前的活動，然後才能執行交集。 要配置此活動，您需要輸入該活動的標籤以及與結果相關的選項。
+交集讓您僅擷取所有傳入活動結果共有的母體。建立目標時會收到所有結果：因此，必須先完成所有先前的活動，才能執行交集。 若要設定此活動，您必須輸入其標籤以及有關結果的選項。
 
 ![](assets/s_user_segmentation_inter.png)
 
-有關配置和使用交叉點活動的詳細資訊，請參閱 [提取接頭資料（交集）](targeting-workflows.md#extracting-joint-data--intersection-)。
+有關設定和使用交集活動的詳細資訊，請參閱 [擷取連線點資料（交集）](targeting-workflows.md#extracting-joint-data--intersection-).
 
-檢查 **[!UICONTROL Generate complement]** 頁籤 補碼將包含所有入站活動結果的聯合，並減去交叉點。 然後，將向活動添加一個額外的出站轉移，如下所示：
+檢查 **[!UICONTROL Generate complement]** 選項（如果要處理剩餘母體）。 補碼將包含所有入站活動結果減去交集的聯合。 然後，會將額外的出站轉變新增至活動，如下所示：
 
 ![](assets/s_user_segmentation_inter_compl.png)
 
-## 交集示例 {#intersection-example}
+## 交集範例 {#intersection-example}
 
-在下例中，交集的目的是計算三個簡單查詢的共用收件人，以便建立清單。
+在以下範例中，交集的目的是計算三個簡單查詢共用的收件者，以建立清單。
 
-1. 在三個簡單查詢後，插入 **[!UICONTROL Intersection]** -type活動。
+1. 在三個簡單查詢之後，插入 **[!UICONTROL Intersection]** -type活動。
 
-   在本例中；調查對象分別是男性、住在巴黎的收件人和18至30歲的收件人。
+   在此範例中，查詢分別針對男性、住在巴黎的收件者和年齡介於18至30歲的收件者。
 
-1. 配置交叉點。 要執行此操作，請選擇 **[!UICONTROL Keys only]** 協調方法，因為由查詢產生的總體包含一致的資料。
-1. 如果已為查詢輸入了附加資料，則您可以選擇通過選中相關框來僅保留由收件人共用的資料。
-1. 如果希望使用其餘的資料（與查詢有關，但不是其交集），請檢查 **[!UICONTROL Generate complement]** 框。
-1. 在交叉點結果後添加清單更新活動。 如果您也希望使用此功能，還可以將清單更新添加到補碼中。
-1. 執行工作流。 此處，兩個收件人同時應用於所有三個輸入查詢。 補碼由五個收件人組成，他們只應用於三個查詢中的一兩個。
+1. 設定交集。 若要這麼做，請選取 **[!UICONTROL Keys only]** 調解方法，因為查詢產生的母體包含一致的資料。
+1. 如果您已輸入查詢的其他資料，則可勾選相關方塊，選擇僅保留收件者共用的資料。
+1. 如果您想要使用其餘資料（關於查詢但不關於其交集），請核取 **[!UICONTROL Generate complement]** 方塊。
+1. 在交集結果後新增清單更新活動。 如果您也想要使用這個功能，您也可以將清單更新新增到補充功能。
+1. 執行工作流程。 在此，兩個收件者會同時套用至所有三個輸入的查詢。 補充由五個收件者組成，他們只套用至三個查詢中的一個或兩個。
 
-   交集結果被發送到第一個清單更新。 如果您選擇使用補碼，則還會將其發送到第二個清單更新。
+   交集結果會傳送給第一個清單更新。 如果您已選擇使用補充，也會將其傳送至第二個清單更新。
 
    ![](assets/intersection_example.png)
 
-## 輸入參數 {#input-parameters}
+## 輸入引數 {#input-parameters}
 
-* 表名
-* 架構
+* tableName
+* 綱要
 
-每個入站事件都必須指定由這些參數定義的目標。
+每個傳入事件都必須指定由這些引數定義的目標。
 
-## 輸出參數 {#output-parameters}
+## 輸出引數 {#output-parameters}
 
-* 表名
-* 架構
-* 記錄計數
+* tableName
+* 綱要
+* recCount
 
-這組三個值標識由交叉點生成的目標。 **[!UICONTROL tableName]** 是記錄目標標識符的表的名稱， **[!UICONTROL schema]** 是人口的架構(通常 **[!UICONTROL nms:recipient]**) **[!UICONTROL recCount]** 是表中的元素數。
+這組三個值會識別交集所產生的目標。 **[!UICONTROL tableName]** 是記錄目標識別碼的資料表名稱， **[!UICONTROL schema]** 是族群的結構描述(通常是 **[!UICONTROL nms:recipient]**)和 **[!UICONTROL recCount]** 是表格中的元素數量。

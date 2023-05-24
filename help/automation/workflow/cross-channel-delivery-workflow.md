@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 跨頻道傳遞工作流程
-description: 瞭解有關跨渠道交付工作流的詳細資訊
+description: 進一步瞭解跨頻道傳遞工作流程
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
@@ -13,102 +13,102 @@ ht-degree: 4%
 
 # 跨頻道傳遞工作流程{#cross-channel-delivery-workflow}
 
-此用例提供了涉及跨渠道交付工作流的示例。 在C+++++++++++++++++++++++++++++++++++++++++++ [此部分](cross-channel-deliveries.md)。
+此使用案例提供的範例涉及跨管道傳送工作流程。 跨頻道傳遞的一般概念在中闡述 [本節](cross-channel-deliveries.md).
 
-目標是將受眾從資料庫的收件人分割為不同的組，目的是向組發送電子郵件，向另一組發送SMS消息。
+目標在於將受眾從資料庫的收件者細分為不同的群組，以便傳送電子郵件給群組，並將簡訊訊息傳送給另一個群組。
 
 此使用案例的主要實施步驟如下：
 
-1. 建立 **[!UICONTROL Query]** 活動以針對您的受眾。
-1. 建立 **[!UICONTROL Email delivery]** 包含與優惠連結的活動。
-1. 使用 **[!UICONTROL Split]** 活動：
+1. 建立 **[!UICONTROL Query]** 活動，以鎖定您的對象。
+1. 建立 **[!UICONTROL Email delivery]** 包含優惠方案連結的活動。
+1. 使用 **[!UICONTROL Split]** 活動至：
 
-   * 向未開啟第一封電子郵件的收件人發送另一封電子郵件。
-   * 向開啟電子郵件但未按一下提供連結的收件人發送簡訊。
-   * 將開啟電子郵件並按一下連結的收件人添加到資料庫。
+   * 傳送另一封電子郵件給未開啟第一封電子郵件的收件者。
+   * 傳送SMS給已開啟電子郵件但未按一下選件連結的收件者。
+   * 將開啟電子郵件並按一下連結的收件者新增至資料庫。
 
 ![](assets/wkf_cross-channel_7.png)
 
-## 步驟1:構建受眾 {#step-1--build-the-audience}
+## 步驟1：建立對象 {#step-1--build-the-audience}
 
-要定義目標，請建立查詢以標識收件人。
+若要定義目標，請建立查詢以識別收件者。
 
 1. 建立促銷活動. 在[本頁](../campaigns/marketing-campaign-create.md)中瞭解更多。
-1. 在 **[!UICONTROL Targeting and workflows]** 頁籤，添加 **查詢** 活動。 有關使用本練習的詳細資訊，請參閱 [此部分](query.md)。
-1. 定義將接收您交貨的收件人。 例如，選擇「Gold」成員作為目標維。
-1. 將篩選條件添加到查詢。 在此示例中，選擇具有電子郵件地址和移動號碼的收件人。
+1. 在 **[!UICONTROL Targeting and workflows]** 索引標籤中，新增 **查詢** 活動至您的工作流程。 有關使用此活動的詳細資訊，請參閱 [本節](query.md).
+1. 定義將接收您傳遞的收件者。 例如，選取「金級」成員作為目標維度。
+1. 新增篩選條件至您的查詢。 在此範例中，選取擁有電子郵件地址和行動電話號碼的收件者。
 
    ![](assets/wkf_cross-channel_3.png)
 
 1. 儲存您的變更。
 
-## 步驟2:建立包含優惠的電子郵件 {#step-2--create-an-email-including-an-offer}
+## 步驟2：建立包含優惠方案的電子郵件 {#step-2--create-an-email-including-an-offer}
 
 1. 建立電子郵件傳遞.
-1. 設計消息並將包括優惠的連結插入內容。
+1. 設計訊息並將包含優惠方案的連結插入內容中。
 
    ![](assets/wkf_cross-channel_1.png)
 
-   有關將優惠整合到消息正文中的詳細資訊，請參閱 [此頁](../../v8/send/email.md)。
+   如需將優惠方案整合至訊息內文的詳細資訊，請參閱 [此頁面](../../v8/send/email.md).
 
 1. 儲存您的變更。
-1. 按一下右鍵 **[!UICONTROL Email delivery]** 的子菜單。
-1. 選擇 **[!UICONTROL Generate an outbound transition]** 選項以恢復填充和跟蹤日誌。
+1. 以滑鼠右鍵按一下 **[!UICONTROL Email delivery]** 活動以開啟它。
+1. 選取 **[!UICONTROL Generate an outbound transition]** 復原母體與追蹤記錄檔的選項。
 
    ![](assets/wkf_cross-channel_2.png)
 
-   這樣，您就可以根據收件人在收到第一封電子郵件時的行為使用此資訊來發送另一個遞送。
+   這可讓您在收到第一封電子郵件時，根據收件者的行為，使用此資訊來傳送其他傳遞。
 
-1. 添加 **[!UICONTROL Wait]** 活動，讓收件人用幾天時間開啟電子郵件。
+1. 新增 **[!UICONTROL Wait]** 活動，讓收件者有幾天時間開啟電子郵件。
 
    ![](assets/wkf_cross-channel_4.png)
 
-## 第3步：將所生成的受眾細分 {#step-3--segment-the-resulting-audience}
+## 步驟3：將產生的對象分段 {#step-3--segment-the-resulting-audience}
 
-一旦確定了目標並建立了第一次交付，您需要使用篩選條件將目標分割為不同的群。
+識別目標並建立第一個傳遞後，您需要使用篩選條件將目標區隔為不同母體。
 
-1. 添加 **拆分** 活動並將其開啟。 有關使用本練習的詳細資訊，請參閱 [此部分](split.md)。
-1. 從查詢上游計算的總量建立三個段。
+1. 新增 **Split** 活動以開啟工作流程。 有關使用此活動的詳細資訊，請參閱 [本節](split.md).
+1. 從查詢上游計算的母體建立三個區段。
 
    ![](assets/wkf_cross-channel_6.png)
 
-1. 對於第一個子集，選擇 **[!UICONTROL Add a filtering condition on the inbound population]** 選項 **[!UICONTROL Edit]**。
+1. 對於第一個子集，選取 **[!UICONTROL Add a filtering condition on the inbound population]** 選項並按一下 **[!UICONTROL Edit]**.
 
    ![](assets/wkf_cross-channel_8.png)
 
-1. 選擇 **[!UICONTROL Recipients of a delivery]** 作為限制篩選器，然後按一下 **[!UICONTROL Next]**。
+1. 選取 **[!UICONTROL Recipients of a delivery]** 做為限制篩選器，然後按一下 **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. 在篩選器設定中，選擇 **[!UICONTROL Recipients who have not opened or clicked (email)]** 從 **[!UICONTROL Behavior]** 下拉清單，然後從交貨清單中選擇包含您要發送的優惠的電子郵件。 按一下&#x200B;**[!UICONTROL Finish]**。
+1. 在篩選設定中，選取 **[!UICONTROL Recipients who have not opened or clicked (email)]** 從 **[!UICONTROL Behavior]** 下拉式清單，並從傳遞清單中選取包含您要傳送之優惠方案的電子郵件。 按一下&#x200B;**[!UICONTROL Finish]**。
 
    ![](assets/wkf_cross-channel_10.png)
 
-1. 類似地繼續第二個子集並選擇 **[!UICONTROL Recipients who have not clicked (email)]** 從 **[!UICONTROL Behavior]** 的子菜單。
+1. 對第二個子集以類似方式繼續並選取 **[!UICONTROL Recipients who have not clicked (email)]** 從 **[!UICONTROL Behavior]** 下拉式清單。
 
    ![](assets/wkf_cross-channel_11.png)
 
-1. 對於第三個子集，在選擇 **[!UICONTROL Add a filtering condition on the inbound population]** 按一下 **[!UICONTROL Edit]**，選擇 **[!UICONTROL Use a specific filtering dimension]** 的雙曲餘切值。
-1. 選擇 **[!UICONTROL Recipient tracking log]** 從 **[!UICONTROL Filtering dimension]** 下拉清單，突出顯示 **[!UICONTROL Filtering conditions]** 從 **[!UICONTROL List of restriction filters]** 按一下 **[!UICONTROL Next]**。
+1. 對於第三個子集，在選取 **[!UICONTROL Add a filtering condition on the inbound population]** 並按一下 **[!UICONTROL Edit]**，選取 **[!UICONTROL Use a specific filtering dimension]** 選項。
+1. 選取 **[!UICONTROL Recipient tracking log]** 從 **[!UICONTROL Filtering dimension]** 下拉式清單，反白顯示 **[!UICONTROL Filtering conditions]** 從 **[!UICONTROL List of restriction filters]** 並按一下 **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_12.png)
 
-1. 按如下方式選擇篩選條件：
+1. 選取篩選條件，如下所示：
 
    ![](assets/wkf_cross-channel_13.png)
 
-1. 按一下 **[!UICONTROL Finish]** 的子菜單。
+1. 按一下 **[!UICONTROL Finish]** 以儲存變更。
 
-## 第4步：完成工作流 {#step-4--finalize-the-workflow}
+## 步驟4：完成工作流程 {#step-4--finalize-the-workflow}
 
-1. 將相關活動添加到工作流中 **[!UICONTROL Split]** 活動：
+1. 在產生的三個子集之後，將相關活動新增至您的工作流程。 **[!UICONTROL Split]** 活動：
 
-   * 添加 **[!UICONTROL Email delivery]** 的子集。
-   * 添加 **[!UICONTROL Mobile delivery]** 活動，將SMS消息發送到第二子集。
-   * 添加 **[!UICONTROL List update]** 活動，將相應的收件人添加到資料庫。
+   * 新增 **[!UICONTROL Email delivery]** 活動，傳送提醒電子郵件給第一個子集。
+   * 新增 **[!UICONTROL Mobile delivery]** 活動以傳送SMS訊息至第二個子集。
+   * 新增 **[!UICONTROL List update]** 活動，將對應的收件者新增至資料庫。
 
-1. 按兩下工作流中的傳遞活動以編輯它們。
-1. 按兩下 **[!UICONTROL List update]** 活動，然後選擇 **[!UICONTROL Generate an outbound transition]** 的雙曲餘切值。
-1. 按一下 **開始** 按鈕。
+1. 在工作流程中按兩下傳送活動以進行編輯。
+1. 連按兩下 **[!UICONTROL List update]** 活動並選取 **[!UICONTROL Generate an outbound transition]** 選項。
+1. 按一下 **開始** 按鈕來執行工作流程。
 
-被調查者 **查詢** 活動將根據收件人的行為進行分段，以接收電子郵件或簡訊發送。 剩餘人口將使用 **[!UICONTROL List update]** 的子菜單。
+目標母體 **查詢** 活動會進行分段，以根據收件者的行為接收電子郵件或簡訊傳送。 剩餘母體將使用新增到資料庫 **[!UICONTROL List update]** 活動。

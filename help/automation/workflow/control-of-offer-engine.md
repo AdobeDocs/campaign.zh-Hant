@@ -16,7 +16,7 @@ ht-degree: 30%
 
 
 
-下面詳細介紹的工作流隨 **具有執行實例的供應引擎的控制** 預設情況下為模組。
+以下詳述的工作流程會隨 **透過執行例項控制優惠方案引擎** 模組（預設）。
 
 <table> 
  <tbody> 
@@ -26,9 +26,9 @@ ht-degree: 30%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">命題同步</span> <br /> </td> 
-   <td> <span class="uicontrol">命題同步</span> <br /> </td> 
-   <td> 此工作流將市場營銷實例和用於交互的執行實例之間的建議同步。<br /> </td> 
+   <td> <span class="uicontrol">主張同步</span> <br /> </td> 
+   <td> <span class="uicontrol">propositionSynch</span> <br /> </td> 
+   <td> 此工作流程會在行銷執行個體與用於互動的執行執行個體之間同步化主張。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

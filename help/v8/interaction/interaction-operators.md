@@ -1,6 +1,6 @@
 ---
-title: 運算子配置檔案
-description: 建立優惠管理運算子
+title: 運運算元設定檔
+description: 建立優惠方案管理運運算元
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -12,93 +12,93 @@ ht-degree: 8%
 
 ---
 
-# 運算子配置檔案 {#operator-profiles}
+# 運運算元設定檔 {#operator-profiles}
 
-兩種類型的運算子可以使用市場活動交互： **提供經理** 和 **交付經理**。 每個權限和限制都特定。 瞭解有關市場活動操作員和權限的詳細資訊 [此頁](../start/gs-permissions.md)。
+有兩種型別的運運算元可以使用Campaign互動： **優惠方案管理員** 和 **傳遞管理員**. 每個檔案都有特定的許可權和限制。 進一步瞭解Campaign運運算元和許可權 [此頁面](../start/gs-permissions.md).
 
-* 的 **[!UICONTROL Offer manager]** 建立和維護優惠。
-* 的 **[!UICONTROL Delivery manager]** 批准和使用優惠
+* 此 **[!UICONTROL Offer manager]** 建立和維護優惠方案。
+* 此 **[!UICONTROL Delivery manager]** 核准並使用優惠方案
 
-## 建立聘用管理器運算子{#offer-manager}
+## 建立優惠方案管理員運運算元{#offer-manager}
 
-1. 建立運算子。 [了解更多](../start/manage-permissions.md#add-users)
-1. 瀏覽到 **[!UICONTROL Groups and named rights]** 窗口，按一下 **[!UICONTROL Add]** 的 **[!UICONTROL Offer manager]** 組。
+1. 建立運運算元。 [了解更多](../start/manage-permissions.md#add-users)
+1. 瀏覽至 **[!UICONTROL Groups and named rights]** 視窗，按一下 **[!UICONTROL Add]** 並選取 **[!UICONTROL Offer manager]** 群組。
 
-描述了與聘用經理關聯的權限 [這裡](../start/manage-permissions.md#ootb-productprofiles)
+說明與優惠方案管理員相關的許可權 [此處](../start/manage-permissions.md#ootb-productprofiles)
 
-## 建立交貨管理器運算子 {#delivery-manager}
+## 建立傳遞管理員操作員 {#delivery-manager}
 
-1. 建立運算子。 [了解更多](../start/manage-permissions.md#add-users)
-1. 瀏覽到 **[!UICONTROL Groups and named rights]** 按鈕 **[!UICONTROL Add]** 的 **[!UICONTROL Delivery manager]** 組。
+1. 建立運運算元。 [了解更多](../start/manage-permissions.md#add-users)
+1. 瀏覽至 **[!UICONTROL Groups and named rights]** 標籤，按一下 **[!UICONTROL Add]** 並選取 **[!UICONTROL Delivery manager]** 群組。
 
-分配給交付經理的權限使他們能夠執行以下任務：
+指派給傳遞管理員的許可權可讓他們執行下列工作：
 
 * 顯示 **[!UICONTROL Live]** 環境。
-* 顯示和修改優惠類別。
-* 如果報價是其審核人，則批准報價。
+* 顯示和修改優惠方案類別。
+* 核准優惠方案（如果優惠方案是稽核者）。
 
    >[!NOTE]
    >
-   >**交付經理** 僅當在聘用配置中將其聲明為審閱者時，才能批准聘用。
+   >**傳遞管理員** 只有當優惠方案設定中已宣告為檢閱者時，才能核准優惠方案。
 
-## 每個交互運算子的權限矩陣 {#recap-of-rights-according-to-operator}
+## 每個互動運運算元的許可權矩陣 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>服務經理（設計環境）</strong><br /> </td> 
-   <td> <strong>服務經理（即時環境）</strong><br /> </td> 
+   <td> <strong>Offer Manager （設計環境）</strong><br /> </td> 
+   <td> <strong>Offer Manager （即時環境）</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>樹結構級別</strong><br /> </td> 
+   <td> <strong>樹狀結構層級</strong><br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 正在編輯的服務/即時服務<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 正在編輯的優惠/即時優惠<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 收件人 — 環境<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 收件者 — 環境<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 管理<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 空格<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 空間<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 預定義的服務篩選器<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 預先定義的優惠篩選器<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 類型<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 類型規則<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 優惠方案目錄<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 優惠方案類別<br /> </td> 
-   <td> 讀/寫<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取/寫入<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,23 +107,23 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>交付管理器（設計環境）</strong><br /> </td> 
-   <td> <strong>交付管理器(Live env.)</strong><br /> </td> 
+   <td> <strong>傳遞管理員（設計環境）</strong><br /> </td> 
+   <td> <strong>傳遞管理員（即時環境）</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>樹結構級別</strong><br /> </td> 
+   <td> <strong>樹狀結構層級</strong><br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 正在編輯的服務/即時服務<br /> </td> 
+   <td> 正在編輯的優惠/即時優惠<br /> </td> 
    <td> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 收件人 — 環境<br /> </td> 
+   <td> 收件者 — 環境<br /> </td> 
    <td> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 管理<br /> </td> 
@@ -131,34 +131,34 @@ ht-degree: 8%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 空格<br /> </td> 
+   <td> 空間<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 預定義的服務篩選器<br /> </td> 
-   <td> 閱讀<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 預先定義的優惠篩選器<br /> </td> 
+   <td> 讀取<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 類型<br /> </td> 
-   <td> 閱讀<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 類型規則<br /> </td> 
    <td> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 優惠方案目錄<br /> </td> 
-   <td> 閱讀<br /> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
    <td> 優惠方案類別<br /> </td> 
    <td> </td> 
-   <td> 閱讀<br /> </td> 
+   <td> 讀取<br /> </td> 
   </tr> 
  </tbody> 
 </table>

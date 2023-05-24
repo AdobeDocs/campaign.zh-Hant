@@ -1,6 +1,6 @@
 ---
-title: 授予市場活動v8的權限
-description: 瞭解如何授予市場活動v8的權限
+title: 授與Campaign v8的許可權
+description: 瞭解如何授與Campaign v8的許可權
 feature: Permissions
 role: User, Admin
 level: Beginner
@@ -14,30 +14,30 @@ ht-degree: 5%
 
 # 開始使用權限
 
-在Adobe Campaign，用戶 **運算子** 和 **運算子組** 表示用戶角色。
+在Adobe Campaign中，使用者是 **運運算元** 和 **運運算元群組** 代表使用者角色。
 
-操作員是具有登錄和執行操作權限的Adobe Campaign用戶。 預設情況下，運算子儲存在 **[!UICONTROL Administration > Access management > Operators]** 的下界。
+操作員是有許可權登入及執行動作的Adobe Campaign使用者。 根據預設，運運算元會儲存在 **[!UICONTROL Administration > Access management > Operators]** 節點。
 
-Adobe Campaign還配備了內置運營商組，如「活動經理」或「工作流主管」。 瞭解有關中權限的詳細資訊 [此部分](../start/gs-permissions.md)
+Adobe Campaign隨附內建運運算元群組，例如「行銷活動管理員」或「工作流程主管」。 進一步瞭解中的許可權 [本節](../start/gs-permissions.md)
 
-作為操作員組的成員，用戶有權執行名為「命名權限」的操作，並有權訪問包含在 **瀏覽器** 的子菜單。 運算子可以是多個運算子組的成員：權限和訪問權限是附加的。
+作為操作員群組的成員，使用者有權執行稱為「已命名的許可權」的操作，並且有權存取包含在 **總管** 檢視。 運運算元可以是多個運運算元群組的成員：許可權和存取許可權是可附加的。
 
-命名權限授予：
+已命名的許可權會將許可權授予：
 
-* 執行操作例如， **分析** 按鈕 **交貨操作員** 具有 **準備交付** 右命名
+* 執行作業例如： **分析** 「傳遞」編輯器中的按鈕已對以下專案的成員啟用： **傳遞操作員** 擁有下列專案的群組： **準備傳遞** 已命名的右側
 
-* 訪問資料夾操作員組的成員資格可以通過更改資料夾的安全設定來授予或限制對資料夾的訪問權限。 在[本頁](../start/folder-permissions.md)中瞭解更多。例如，它可能會影響： **寫入訪問** 建立新實體（如交貨、配置檔案等）, **讀取訪問** 使用實體， **刪除訪問權限** 的子菜單。
+* 存取資料夾操作員群組的成員資格可以透過變更資料夾的安全性設定來授予或限制資料夾的存取許可權。 在[本頁](../start/folder-permissions.md)中瞭解更多。例如，它可能影響： **寫入許可權** 若要建立新實體（例如傳送、設定檔等）， **讀取許可權** 若要使用實體， **刪除存取權** 刪除圖元。
 
-## 安全區域
+## 安全性區域
 
-每個操作員需要連結到區域才能登錄到實例，並且必須將操作員IP包括在安全區域中定義的地址或地址集中。 安全區域配置在Adobe Campaign伺服器的配置檔案中執行。
+每個運運算元都必須連結到區域才能登入執行個體，而且運運算元IP必須包含在安全性區域中定義的位址或位址集中。 在Adobe Campaign伺服器的設定檔案中執行安全區域設定。
 
-操作員從控制台中的配置檔案連結到安全區域，可在 **[!UICONTROL Administration > Access management > Operators]** 的下界。
+運運算元會從主控台中的設定檔連結至安全性區域，您可在以下位置存取： **[!UICONTROL Administration > Access management > Operators]** 節點。
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶，Adobe為您設定安全區域。 有關詳細資訊， [聯繫人Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}。
+![](../assets/do-not-localize/speech.png)  Adobe身為Managed Cloud Services使用者，會為您設定安全性區域。 如需詳細資訊， [連絡人Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **了解更多**
 
-* [內置命名權限](../start/gs-permissions.md)
+* [內建已命名許可權](../start/gs-permissions.md)
 
-* [設定權限的步驟](../start/manage-permissions.md)
+* [設定許可權的步驟](../start/manage-permissions.md)

@@ -1,6 +1,6 @@
 ---
 title: 變更資料來源
-description: 瞭解有關更改資料源活動的詳細資訊
+description: 深入瞭解變更資料來源活動
 feature: Workflows, Data Management, Federated Data Access
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
@@ -12,43 +12,43 @@ ht-degree: 3%
 
 # 變更資料來源 {#change-data-source}
 
-使用 **[!UICONTROL Change data source]** 更改資料源的活動 [工作流工作表](use-workflow-data.md#workflow-temporary-work-table)。 本練習為跨不同資料源(如聯合資料存取(FDA)、活動雲資料庫(FFDA)和活動本地資料庫)管理資料提供了更大的靈活性。
+使用 **[!UICONTROL Change data source]** 活動以變更的資料來源 [工作流程工作表](use-workflow-data.md#workflow-temporary-work-table). 此活動提供更大的彈性來管理不同資料來源的資料，例如同盟資料存取(FDA)、Campaign Cloud資料庫(FFDA)和Campaign本機資料庫。
 
-工作流 **[!UICONTROL Working table]** 用於處理和共用與工作流活動的資料。
+工作流程 **[!UICONTROL Working table]** 用於處理與工作流程活動共用資料。
 
-預設情況下， **[!UICONTROL Working table]** 建立的資料庫與要查詢的資料的源資料庫相同。
-例如，查詢 **[!UICONTROL Recipients]** 表，儲存在雲資料庫上，工作流將建立 **[!UICONTROL Working table]** 在同一雲資料庫上。
+根據預設， **[!UICONTROL Working table]** 會在與您要查詢之資料來源相同的資料庫中建立。
+例如，查詢 **[!UICONTROL Recipients]** 表格，儲存在雲端資料庫中，工作流程會建立 **[!UICONTROL Working table]** 在相同雲端資料庫上。
 
-使用 **[!UICONTROL Change Data Source]** 活動：為 **[!UICONTROL Working table]**。
+使用 **[!UICONTROL Change Data Source]** 使用其他資料來源的活動 **[!UICONTROL Working table]**.
 
-請注意，當使用 **[!UICONTROL Change Data Source]** 活動，您需要切換回雲資料庫以繼續執行工作流。
+請注意，使用時 **[!UICONTROL Change Data Source]** 活動，您必須切換回雲端資料庫才能繼續執行工作流程。
 
-使用 **[!UICONTROL Change Data Source]** 活動：
+若要使用 **[!UICONTROL Change Data Source]** 活動，您必須：
 
 1. 建立工作流程.
 
-1. 使用 **[!UICONTROL Query]** 的子菜單。
+1. 使用查詢目標收件者 **[!UICONTROL Query]** 活動。
 
-   有關 **[!UICONTROL Query]** 活動，請參閱 [頁](query.md#create-a-query)。
+   如需詳細資訊，請參閱 **[!UICONTROL Query]** 活動，請參閱此 [頁面](query.md#create-a-query).
 
-1. 添加 **[!UICONTROL Change data source]** 的子菜單。
+1. 新增 **[!UICONTROL Change data source]** 活動。
 
    ![](assets/change-data-source.png)
 
-1. 編輯 **[!UICONTROL Change data source]** 活動，選擇 **[!UICONTROL Default data source]**。
+1. 編輯您的 **[!UICONTROL Change data source]** 要選取的活動 **[!UICONTROL Default data source]**.
 
-   包含查詢結果的工作表隨後將移到預設的市場活動本地資料庫。
+   然後，包含查詢結果的工作表格會移至預設的Campaign Local資料庫。
 
    ![](assets/change-data-source_2.png)
 
-1. 添加 **[!UICONTROL JavaScript code]** 活動，以在工作表上執行單一操作。
+1. 新增 **[!UICONTROL JavaScript code]** 對工作表格執行單一作業的活動。
 
-   有關 **[!UICONTROL JavaScript code]** 活動，請參閱 [此頁](sql-code-and-javascript-code.md#javascript-code)。
+   如需詳細資訊，請參閱 **[!UICONTROL JavaScript code]** 活動，請參閱 [此頁面](sql-code-and-javascript-code.md#javascript-code).
 
-1. 添加其他 **[!UICONTROL Change data source]** 活動以切換回雲資料庫。
+1. 新增另一個 **[!UICONTROL Change data source]** 活動以切換回雲端資料庫。
 
-1. 編輯此活動並選擇 **[!UICONTROL Active FDA external account]**，以及相應 **[!UICONTROL External database]** 外部帳戶。
+1. 編輯此活動並選取 **[!UICONTROL Active FDA external account]**，以及對應的 **[!UICONTROL External database]** 外部帳戶。
 
    ![](assets/change-data-source_3.png)
 
-1. 現在可以啟動工作流。
+1. 您現在可以開始工作流程。

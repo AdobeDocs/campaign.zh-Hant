@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 配置控制規則
-description: 瞭解如何配置控制規則
+title: 設定控制規則
+description: 瞭解如何設定控制規則
 feature: Typology Rules
 exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -13,57 +13,57 @@ ht-degree: 1%
 
 # 控制規則{#control-rules}
 
-控制規則允許您在傳遞消息之前保證消息的有效性和質量：字元顯示、SMS大小、地址格式等。
+控制規則可讓您在傳送之前保證訊息的有效性和品質：字元顯示、SMS大小、位址格式等。
 
-一組現成的規則允許您執行常規檢查。 這些檢查（在介面中以粗體顯示）包括：
+一組現成的規則可讓您執行一般的檢查。 這些檢查（在介面中以粗體顯示）包括：
 
-* **[!UICONTROL Object approval]** （電子郵件）:檢查發件人對象和地址是否不包含可能導致某些郵件代理出現問題的特殊字元。
-* **[!UICONTROL URL label approval]** （電子郵件）:檢查每個跟蹤URL是否都有標籤。
-* **[!UICONTROL URL approval]** （電子郵件）:檢查跟蹤URL（「&amp;」字元的存在）。
-* **[!UICONTROL Message size approval]** （移動）:檢查簡訊的大小。
-* **[!UICONTROL Validity period check]** （電子郵件）:檢查傳遞的有效期是否足夠長以發送所有消息。
-* **[!UICONTROL Proof size check]** （所有頻道）:如果校樣目標總數超過100個收件人，則生成錯誤消息。
-* **[!UICONTROL Wave scheduling check]** （電子郵件）:檢查如果將交貨分解為多個波次，則最後一波交貨是否計畫在有效期結束之前開始。
-* **[!UICONTROL Unsubscription link approval]** （電子郵件）:檢查每個內容(HTML和文本)中是否存在至少一個未訂閱(opt-out)URL。
+* **[!UICONTROL Object approval]** （電子郵件）：檢查寄件者物件和地址是否不包含特殊字元，這可能造成某些郵件代理程式發生問題。
+* **[!UICONTROL URL label approval]** （電子郵件）：檢查每個追蹤URL是否都有標籤。
+* **[!UICONTROL URL approval]** （電子郵件）：檢查追蹤URL （存在「&amp;」字元）。
+* **[!UICONTROL Message size approval]** （行動）：檢查SMS訊息的大小。
+* **[!UICONTROL Validity period check]** （電子郵件）：檢查傳遞的有效期是否足夠長，足以傳送所有訊息。
+* **[!UICONTROL Proof size check]** （所有管道）：如果校樣目標母體超過100個收件者，則產生錯誤訊息。
+* **[!UICONTROL Wave scheduling check]** （電子郵件）：檢查最後一波傳送是否已排定在有效期間結束前開始（如果傳送會劃分為數個波段）。
+* **[!UICONTROL Unsubscription link approval]** （電子郵件）：檢查每個內容(HTML和文字)中是否存在至少一個取消訂閱（選擇退出） URL。
 
 ## 建立控制規則 {#create-a-control-rule}
 
-可以建立新的控制規則以滿足您的需要。 為此，請建立 **[!UICONTROL Control]** 類型規則，並在SQL中輸入控制公式 **[!UICONTROL Code]** 頁籤。
+您可以建立新的控制規則以符合您的需求。 若要這麼做，請建立 **[!UICONTROL Control]** 型別規則，並在SQL中輸入控制公式 **[!UICONTROL Code]** 標籤。
 
 **範例:**
 
-在以下示例中，我們將建立一個規則，以防止向100多個收件人發送SMS服務。 此規則將連結到市場活動類型，然後連結到有關服務的SMS交付。
+在下列範例中，我們將建立規則來防止將SMS選件傳送給超過100個收件者。 此規則將連結至行銷活動型別，然後連結至可使用相關選件的SMS傳送。
 
 應用以下步驟：
 
-1. 建立 **[!UICONTROL Control]** 分類規則。 選擇 **[!UICONTROL Warning]** 警報級別。
+1. 建立 **[!UICONTROL Control]** 型別規則。 選取 **[!UICONTROL Warning]** 警示等級。
 
    ![](assets/campaign_opt_create_control_01.png)
 
-1. 在 **[!UICONTROL Code]** 頁籤，輸入要應用所需閾值的指令碼，如下所示：
+1. 在 **[!UICONTROL Code]** 索引標籤中，輸入指令碼以套用所需的臨界值，如下所示：
 
    ![](assets/campaign_opt_create_control_02.png)
 
-   如果傳遞目標超過100個聯繫人，此指令碼將觸發警告：
+   如果傳送目標超過100個連絡人，此指令碼會觸發警告：
 
    ```
    if( delivery.FCP == false && delivery.properties.toDeliver > 100 ) { logWarning("Significant number of SMS to deliver (" + delivery.properties.toDeliver + "). Please make sure the target is correct.") return false; } return true
    ```
 
-1. 將此規則連結到活動類型，並參考相關SMS傳遞中的類型。
+1. 將此規則連結至行銷活動型別，並參考相關SMS傳送中的型別。
 
    ![](assets/campaign_opt_create_control_03.png)
 
-1. 在交貨分析期間，將應用規則並建立警告（如果適用）。
+1. 在傳遞分析期間，會套用規則並建立警告（如適用）。
 
    ![](assets/campaign_opt_create_control_04.png)
 
-   但是，交貨仍準備發送。
+   不過，傳遞仍可傳送。
 
-   如果增加警報級別，則會阻止傳遞。
+   如果您提高警示等級，這將會阻止傳送的開始。
 
    ![](assets/campaign_opt_create_control_05.png)
 
-   在分析結束時， **[!UICONTROL Confirm delivery]** 按鈕將不可用。
+   分析結束時， **[!UICONTROL Confirm delivery]** 按鈕將不可用。
 
    ![](assets/campaign_opt_create_control_06.png)

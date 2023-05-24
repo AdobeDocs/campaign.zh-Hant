@@ -1,6 +1,6 @@
 ---
-title: 與運動和Adobe Experience Manager合作
-description: 瞭解如何與Campaign和Adobe Experience Manager合作
+title: 使用Campaign和Adobe Experience Manager
+description: 瞭解如何使用Campaign和Adobe Experience Manager
 feature: Experience Manager Integration
 role: Admin, User
 level: Beginner, Intermediate
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# 與運動和Adobe Experience Manager合作
+# 使用Campaign和Adobe Experience Manager
 
-Adobe Campaign和Adobe Experience Manager的整合使您能夠直接在Adobe Experience Manager管理電子郵件遞送的內容和表單。
+Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容及表單。
 
-在Adobe Campaign編輯電子郵件或登錄頁時，您還可以直接插入Adobe Experience Manager資產庫中的資產。 此功能在Adobe Experience Manager資產中詳細介紹 [章](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html)。
+您也可以在Adobe Campaign中編輯電子郵件或登入頁面時，直接從Adobe Experience Manager資產資料庫插入資產。 Adobe Experience Manager資產中會詳細說明此功能 [章節](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
 
-這意味著您可以充分利用Adobe Experience Manager內容編輯功能和Adobe Campaign交付功能。
+這表示您可以充分利用Adobe Experience Manager內容編輯功能和Adobe Campaign傳送功能。
 
-![](../assets/do-not-localize/book.png) [在此文檔中瞭解更多資訊](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
+![](../assets/do-not-localize/book.png) [在本檔案中瞭解更多](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-![](../assets/do-not-localize/book.png) [在此端到端示例中發現此整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) [在此端對端範例中探索這項整合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png)  作為托管Cloud Services用戶， [聯繫人Adobe](../start/campaign-faq.md#support) 把Adobe Experience Manager和競選結合起來。
+![](../assets/do-not-localize/speech.png)  身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Adobe Experience Manager與Campaign整合。

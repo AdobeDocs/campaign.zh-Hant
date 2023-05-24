@@ -1,6 +1,6 @@
 ---
-title: 市場活動介面設定
-description: 瞭解如何自定義市場活動介面設定
+title: Campaign介面設定
+description: 瞭解如何自訂Campaign介面設定
 version: v8
 feature: Application Settings
 role: Admin, Developer
@@ -13,28 +13,28 @@ ht-degree: 23%
 
 ---
 
-# 市場活動用戶介面設定 {#ui-settings}
+# Campaign使用者介面設定 {#ui-settings}
 
 ## 預設單位 {#default-units}
 
-在Adobe Campaign，對於表示持續時間的欄位（例如資源的有效期、任務的批准期限等），值可以以下方式表示 **單位**:
+在Adobe Campaign中，對於表示持續時間的欄位（例如資源的有效期、任務的核准截止日期等），值可以表示為以下內容 **件數**：
 
-* **[!UICONTROL s]** 秒
-* **[!UICONTROL mn]** 幾分鐘
-* **[!UICONTROL h]** 數小時
-* **[!UICONTROL d]** 天
+* **[!UICONTROL s]** 代表秒數
+* **[!UICONTROL mn]** 代表分鐘
+* **[!UICONTROL h]** 代表小時
+* **[!UICONTROL d]** 代表天數
 
-## 自定義市場活動瀏覽器{#customize-explorer}
+## 自訂Campaign Explorer{#customize-explorer}
 
-您可以將資料夾添加到市場活動瀏覽器、建立視圖和分配權限。
+您可以將資料夾新增至Campaign Explorer、建立檢視及指派許可權。
 
-瞭解如何管理中的資料夾和視圖 [此頁](../audiences/folders-and-views.md)
+瞭解如何在中管理資料夾和檢視 [此頁面](../audiences/folders-and-views.md)
 
-## 管理和自定義清單{#customize-lists}
+## 管理和自訂清單{#customize-lists}
 
-在市場活動客戶端控制台中，資料顯示在清單中。 您可以根據需要調整這些清單。 例如，您可以添加列、篩選資料、計數記錄、保存和共用設定。
+在Campaign使用者端主控台中，資料會顯示在清單中。 您可以根據自己的需求調整這些清單。 例如，您可以新增欄、篩選資料、計算記錄、儲存和共用您的設定。
 
-此外，還可以建立和保存篩選器。  瞭解有關中篩選器的詳細資訊 [此頁](../audiences/create-filters.md)。
+此外，您也可以建立和儲存篩選器。  進一步瞭解中的篩選器 [此頁面](../audiences/create-filters.md).
 
 ### 記錄數 {#number-of-records}
 
@@ -44,49 +44,49 @@ ht-degree: 23%
 
 ![顯示清單中的記錄總數](assets/number-of-records.png)
 
-如果出現問號而不是右邊的數字，例如 `240/?`，按一下計數器啟動計算。
+如果出現問號而不是右側的數字，例如 `240/?`，按一下計數器以啟動計算。
 
-要載入和顯示其他記錄，請按一下 **[!UICONTROL Continue loading]**。 預設情況下，載入200條記錄。 要更改要載入的預設記錄數，請使用 **[!UICONTROL Configure list]** 表徵圖。 在清單配置窗口中，按一下 **[!UICONTROL Advanced parameters]** （左下）並更改要檢索的行數。
+若要載入及顯示其他記錄，請按一下 **[!UICONTROL Continue loading]**. 預設會載入200筆記錄。 若要變更要載入的預設記錄數，請使用 **[!UICONTROL Configure list]** 圖示填入清單的右下角。 在清單組態視窗中，按一下 **[!UICONTROL Advanced parameters]** （左下方）並變更要擷取的行數。
 
 若要載入所有記錄，請以滑鼠右鍵按一下清單，然後選取 **[!UICONTROL Load all]**。
 
 >[!CAUTION]
 >
->當清單包含大量記錄時，完全載入可能需要一些時間。
+>當清單包含大量記錄時，完整載入可能需要一些時間。
 
-### 添加和刪除列 {#add-columns}
+### 新增和移除欄 {#add-columns}
 
-對於每個清單，內置列配置可適於顯示更多資訊或隱藏未使用的列。
+對於每個清單，內建欄配置可以調整為顯示更多資訊或隱藏未使用的欄。
 
-當記錄的詳細資訊中顯示資料時，按一下右鍵該欄位並選擇 **[!UICONTROL Add in the list]**。
+當資料顯示在記錄的詳細資訊中時，以滑鼠右鍵按一下欄位並選取 **[!UICONTROL Add in the list]**.
 
-![在清單中添加欄位](assets/add-in-the-list.png)
+![在清單中新增欄位](assets/add-in-the-list.png)
 
 該欄會新增至現有欄的右邊。
 
-![添加欄位列](assets/add-a-column.png)
+![新增欄位欄](assets/add-a-column.png)
 
-也可以使用清單配置螢幕添加和刪除列：
+您也可以使用清單設定畫面來新增及移除欄：
 
-1. 在記錄清單中，按一下 **[!UICONTROL Configure list]** 表徵圖。
-1. 按兩下要添加到 **[!UICONTROL Available fields]** 清單：它們被添加到 **[!UICONTROL Output columns]** 清單框。
+1. 從記錄清單中，按一下 **[!UICONTROL Configure list]** 圖示加以檢視。
+1. 連按兩下要新增到中的欄位 **[!UICONTROL Available fields]** 清單：新增至 **[!UICONTROL Output columns]** 清單。
 
-   ![清單配置螢幕](assets/list-config-screen.png)
+   ![清單設定畫面](assets/list-config-screen.png)
 
 
    >[!NOTE]
    >
-   >預設情況下，不會顯示進階欄位。要顯示它們，請按一下 **顯示高級欄位** 表徵圖。
+   >預設情況下，不會顯示進階欄位。若要顯示，請按一下 **顯示進階欄位** 圖示，位於可用欄位清單的右下角。
    >
    >欄位採用特定圖示加以標識：SQL 欄位、連結的資料表、計算欄位等。可用欄位的清單下將顯示所選取的每個欄位的說明。
 
-1. 使用上/下箭頭修改 **顯示順序**。
+1. 使用上/下箭頭來修改 **顯示順序**.
 
 1. 按一下 **[!UICONTROL OK]** 確認設定並顯示結果。
 
-如果需要刪除列，請選擇該列並按一下 **垃圾** 表徵圖
+如果您需要移除欄，請選取該欄並按一下 **垃圾桶** 圖示。
 
-您可以使用 **[!UICONTROL Distribution of values]** 表徵圖，查看當前資料夾中選定欄位的值的重新分區。
+您可以使用 **[!UICONTROL Distribution of values]** 圖示來檢視目前資料夾中所選欄位的值重新分割。
 
 ![](assets/value-distribution.png)
 
@@ -95,11 +95,11 @@ ht-degree: 23%
 
 您可以建立新的欄來顯示清單中的其他欄位。
 
-要建立列，請執行以下步驟：
+若要建立欄，請遵循下列步驟：
 
-1. 在記錄清單中，按一下 **[!UICONTROL Configure list]** 表徵圖。
-1. 按一下 **[!UICONTROL Add]** 表徵圖以在清單中顯示新欄位。
-1. 配置要添加到列中的欄位。
+1. 從記錄清單中，按一下 **[!UICONTROL Configure list]** 圖示加以檢視。
+1. 按一下 **[!UICONTROL Add]** 圖示以在清單中顯示新欄位。
+1. 設定欄位以新增到欄中。
 
 
 ### 在子資料夾中顯示資料 {#display-sub-folders-records}
@@ -109,26 +109,26 @@ ht-degree: 23%
 * 所選資料夾中包含的所有記錄（預設）
 * 所選資料夾及其子資料夾中包含的所有記錄
 
-要從一個顯示模式切換到另一個顯示模式，請按一下 **[!UICONTROL Display sub-levels]** 的子菜單。
+若要從一個顯示模式切換至另一個顯示模式，請按一下 **[!UICONTROL Display sub-levels]** （在「促銷活動」工具列中）。
 
-### 保存清單配置 {#saving-a-list-configuration}
+### 儲存清單設定 {#saving-a-list-configuration}
 
-清單配置是為每個用戶本地定義的。 清除本機快取時，會停用本機設定。
+清單設定是在本機為每個使用者定義的。 清除本機快取時，會停用本機設定。
 
-預設情況下，設定參數應用於具有相應資料夾類型的所有清單。 修改從資料夾顯示收件人清單的方式時，此配置將應用於所有其他收件人資料夾。
+依預設，設定引數會套用至具有對應資料夾型別的所有清單。 當您修改從資料夾顯示收件者清單的方式時，此設定會套用至所有其他收件者資料夾。
 
-可以保存多個要應用於相同類型的不同資料夾的配置。 該設定會隨包含資料的資料夾屬性一起儲存，並可重新套用。
+您可以儲存多個要套用至相同型別之不同資料夾的設定。 該設定會隨包含資料的資料夾屬性一起儲存，並可重新套用。
 
-要保存清單配置以便可以重新使用，請執行以下步驟：
+若要儲存清單設定以便重複使用，請遵循下列步驟：
 
-1. 在瀏覽器中，按一下右鍵包含顯示資料的資料夾。
+1. 在檔案總管中，以滑鼠右鍵按一下包含所顯示資料的資料夾。
 1. 選取 **[!UICONTROL Properties]**。
-1. 按一下 **[!UICONTROL Advanced settings]** 然後在 **[!UICONTROL Configuration]** 的子菜單。
-1. 按一下 **[!UICONTROL OK]** 然後按一下 **[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Advanced settings]** 然後在中指定名稱 **[!UICONTROL Configuration]** 欄位。
+1. 按一下 **[!UICONTROL OK]** 然後按一下 **[!UICONTROL Save]**.
 
-然後，可以應用此配置任何其他同類型的資料夾。 瞭解有關中資料夾的詳細資訊 [此頁](../audiences/folders-and-views.md)。
+然後，您可以將此設定套用至相同型別的任何其他資料夾。 進一步瞭解中的資料夾 [此頁面](../audiences/folders-and-views.md).
 
-### 導出清單 {#exporting-a-list}
+### 匯出清單 {#exporting-a-list}
 
 若要匯出清單資料，您必須使用匯出精靈。若要使用此精靈，請從清單選取要匯出的元素，以滑鼠右鍵按一下後選取 **[!UICONTROL Export...]**。
 
@@ -146,7 +146,7 @@ ht-degree: 23%
 
 您也可以設定排序或合併排序準則。要執行此操作，請遵循下列步驟：
 
-1. **[!UICONTROL Configure list]** 清單右側。
+1. **[!UICONTROL Configure list]** 在清單右下方。
 1. 在清單設定視窗中，按一下 **[!UICONTROL Sorting]** 索引標籤。
 1. 選取要排序的欄位以及排序方向 (遞增或遞減)。
 1. 排序優先順序透過排序欄的順序定義。若要變更優先順序，請使用適當的圖示來變更欄的順序。
@@ -158,111 +158,111 @@ ht-degree: 23%
 
 
 
-## 使用枚舉 {#enumerations}
+## 使用分項清單 {#enumerations}
 
-枚舉（也稱為「明細清單」）是系統建議填充欄位的值清單。 使用枚舉來標準化這些欄位的值，幫助輸入資料或在查詢中使用資料。
+分項清單（也稱為「分項清單」）是系統建議用來填入欄位的值清單。 使用列舉來標準化這些欄位的值，有助於資料輸入或在查詢中使用。
 
-值清單將作為下拉清單顯示，您可以從中選擇要在欄位中輸入的值。 下拉清單還啟用預測輸入：輸入第一個字母，應用程式將填入其餘字母。
+值清單會以下拉式清單的形式顯示，您可以從中選取要在欄位中輸入的值。 下拉式清單也會啟用預測性輸入：輸入第一個字母，應用程式會填入其餘字母。
 
-定義此類型欄位的值，並通過 **[!UICONTROL Administration > Platform > Enumerations]** 的子目標。
+此類欄位的值已定義，透過 **[!UICONTROL Administration > Platform > Enumerations]** 樹狀結構的節點。
 
-![訪問枚舉](assets/enumerations-menu.png)
+![存取分項清單](assets/enumerations-menu.png)
 
-### 枚舉類型 {#types-of-enum}
+### 分項清單的型別 {#types-of-enum}
 
-枚舉儲存在 **[!UICONTROL Administration > Platform > Enumerations]** 資料夾。
+分項清單儲存在 **[!UICONTROL Administration > Platform > Enumerations]** 檔案夾。
 
-它們可以是：開啟、系統、表情或關閉。
+它們可以是：開放、系統、表情符號或封閉。
 
-* 安 **開啟** 枚舉允許用戶基於此枚舉直接在欄位中添加新值。
-* A **已關閉** 枚舉具有固定值清單，只能從 **[!UICONTROL Administration > Platform > Enumerations]** 資料夾。
-* 安 **表情** 枚舉用於更新emoticon清單。 了解更多
-* A **系統** 枚舉與系統欄位關聯，並帶有內部名稱。
+* 一個 **開啟** 列舉可讓使用者根據此列舉直接在欄位中新增值。
+* A **已關閉** 分項清單有固定的值清單，只能從 **[!UICONTROL Administration > Platform > Enumerations]** 檔案夾。
+* 一個 **表情符號** 列舉用於更新表情符號清單。 了解更多
+* A **系統** 分項清單與系統欄位相關聯，且帶有內部名稱。
 
-對於 **開啟** 和 **已關閉** 枚舉，可使用特定選項：
+對象 **開啟** 和 **已關閉** 列舉、特定選項可供使用：
 
-* **簡單枚舉** 為預設標準類型。
-* **別名清除** 枚舉用於協調儲存在資料庫中的枚舉值。 [了解更多](#alias-cleansing)
-* **保留用於綁定** 是一個選項，允許您將多維資料集值連結到此枚舉。 [了解更多](../reporting/gs-cubes.md)
+* **簡單分項清單** 是預設標準型別。
+* **別名清除** 列舉可用來協調資料庫中儲存的列舉值。 [了解更多](#alias-cleansing)
+* **保留供量化** 是可將立方體值連結至此分項清單的選項。 [了解更多](../reporting/gs-cubes.md)
 
 
 ### 別名清除 {#alias-cleansing}
 
-在枚舉欄位中，可以選擇一個值，或輸入一個在下拉清單中不可用的自定義值。 可將自定義值作為新值添加到現有枚舉值中。 **[!UICONTROL Open]** 選項。 可以使用別名清除功能清除這些自定義值。 例如，如果用戶輸入 `Adob` 而不是 `Adobe`，別名清除過程可以自動用正確的術語替換。
+在分項清單欄位中，您可以選取值，或輸入下拉式清單中無法使用的自訂值。 自訂值可以新增到現有的列舉值中，作為新的列舉值 — 在此案例中，是 **[!UICONTROL Open]** 必須選取選項。 可使用別名清除功能來清除這些自訂值。 例如，如果使用者輸入 `Adob` 而非 `Adobe`，別名清除程式可自動以正確的字詞取代。
 
 >[!CAUTION]
 >
->資料清理是影響資料庫中資料的關鍵過程。 Adobe Campaign進行大量資料更新，這可能導致某些值被刪除。 因此，此操作保留給專家用戶。
+>資料清除是影響資料庫中資料的重要程式。 Adobe Campaign會執行大量資料更新，這可能會導致某些值被刪除。 因此，這項操作是保留給專家使用者使用。
 
-啟用 **[!UICONTROL Alias cleansing]** 選項，用於為枚舉使用資料清除功能。 選中此選項時， **[!UICONTROL Alias]** 頁籤。
+啟用 **[!UICONTROL Alias cleansing]** 選項來使用列舉的資料清除功能。 選取此選項時， **[!UICONTROL Alias]** 標籤會顯示在視窗底部。
 
-當用戶輸入別名清除枚舉中不存在的值時，會將其添加到 **值** 清單框。 你可以 [從這些值建立別名](#convert-to-alias)或 [從頭開始建立新別名](#create-alias)。
+當使用者輸入的值不存在別名清除分項清單中時，則會將其新增到 **值** 清單。 您可以 [從這些值建立別名](#convert-to-alias)，或 [從頭開始建立新別名](#create-alias).
 
 #### 建立別名{#create-alias}
 
-要建立別名，請執行以下步驟：
+若要建立別名，請遵循下列步驟：
 
-1. 按一下 **[!UICONTROL Add]** 按鈕 **[!UICONTROL Alias]** 頁籤。
-1. 輸入要轉換的別名，然後在下拉清單中選擇要應用的值。
+1. 按一下 **[!UICONTROL Add]** 的按鈕 **[!UICONTROL Alias]** 標籤。
+1. 輸入您要轉換的別名，然後在下拉式清單中選取要套用的值。
 
    ![建立新別名](assets/new-alias.png)
 
-1. 按一下 **[!UICONTROL Ok]** 確認一下。
+1. 按一下 **[!UICONTROL Ok]** 並確認。
 
-1. 儲存您的變更。值的替換由 **別名清除** 工作流，每晚執行。 請參閱 [運行資料清理](#running-data-cleansing)。
+1. 儲存您的變更。值的取代是由 **別名清除** 每晚執行的工作流程。 請參閱 [執行資料清除](#running-data-cleansing).
 
-對於基於此枚舉的所有欄位，當用戶輸入值時 **阿多布** 在「company」欄位(在Adobe Campaign控制台中，在web窗體中)中，將自動替換為值 **Adobe**。
+對於所有根據此分項清單的欄位，當使用者輸入值時 **Adobe** 在「公司」欄位中(在Adobe Campaign主控台的Web表單中)，該值會自動被取代 **Adobe**.
 
 #### 將錯誤值轉換為別名{#convert-to-alias}
 
-也可以將現有枚舉值轉換為別名。 要執行此操作，請執行以下操作：
+您也可以將現有的列舉值轉換為別名。 若要執行此動作：
 
-1. 在枚舉值清單中，按一下右鍵並瀏覽到 **[!UICONTROL Actions... > Convert values into aliases...]**。
+1. 在分項清單的值清單中，按一下滑鼠右鍵並瀏覽至 **[!UICONTROL Actions... > Convert values into aliases...]**.
 
    ![將值轉換為別名](assets/convert-into-aliases.png)
 
-1. 選擇要以別名轉換的值，然後按一下 **[!UICONTROL Next]**。
-1. 按一下 **[!UICONTROL Start]** 的子菜單。
+1. 選取要轉換為別名的值，然後按一下 **[!UICONTROL Next]**.
+1. 按一下 **[!UICONTROL Start]** 以執行轉換。
 
-   執行完成後，別名將添加到清單中 **別名** 頁籤。 您可以關聯正確的值以替換錯誤的條目。 要執行此操作，請執行以下操作：
+   執行完成後，別名會新增到清單中 **別名** 標籤。 您可以關聯正確的值來取代錯誤的專案。 若要執行此動作：
 
-1. 選擇要清除的值。
-1. 按一下 **細節……** 按鈕
-1. 在下拉清單中選擇新值。
+1. 選取要清除的值。
+1. 按一下 **詳細資料……** 按鈕。
+1. 在下拉式清單中選取新值。
 
    ![建立新別名](assets/define-new-alias.png)
 
 
 >[!NOTE]
 >
->您可以跟蹤 **[!UICONTROL Hits]** 列 **[!UICONTROL Alias]** 的子菜單。 它可以顯示輸入此值的次數。  [了解更多](#calculate-entry-occurrences)。
+>您可以在下列位置追蹤別名的發生次數： **[!UICONTROL Hits]** 中的欄 **[!UICONTROL Alias]** 子標籤。 它可以顯示輸入此值的次數。  [了解更多](#calculate-entry-occurrences)。
 
-#### 運行資料清理 {#running-data-cleansing}
+#### 執行資料清除 {#running-data-cleansing}
 
-資料清理由 **[!UICONTROL Alias cleansing]** 技術工作流。 預設情況下，它每天執行。
+資料清除是由 **[!UICONTROL Alias cleansing]** 技術工作流程。 預設會每天執行。
 
-清洗也可以通過 **[!UICONTROL Cleanse values...]** 的子菜單。
+清除作業也可以透過以下方式觸發： **[!UICONTROL Cleanse values...]** 連結。
 
-的 **[!UICONTROL Advanced parameters...]** 連結用於設定將收集的值從其開始計算的日期。
+此 **[!UICONTROL Advanced parameters...]** 連結可讓您設定開始考慮所收集值的日期。
 
-按一下 **[!UICONTROL Start]** 按鈕以運行資料清除。
+按一下 **[!UICONTROL Start]** 按鈕以執行資料清除。
 
-##### 監視事件 {#calculate-entry-occurrences}
+##### 監視發生次數 {#calculate-entry-occurrences}
 
-的 **[!UICONTROL Alias]** 枚舉的子頁籤可以顯示在輸入的所有值中別名的出現次數。 此資訊是估計值，將顯示在 **[!UICONTROL Hits]** 的雙曲餘切值。
+此 **[!UICONTROL Alias]** 分項清單的子索引標籤可顯示輸入的所有值中別名出現的次數。 此資訊為預估值，會顯示在 **[!UICONTROL Hits]** 欄。
 
 >[!CAUTION]
 >
->計算別名條目出現可能需要很長時間。
+>計算別名專案發生次數可能需要很長的時間。
 
-您可以通過 **[!UICONTROL Cleanse values...]** 的子菜單。 要執行此操作，請按一下 **[!UICONTROL Advanced parameters...]** 連結並選擇選項。
+您可以透過以下方式手動執行點選計算 **[!UICONTROL Cleanse values...]** 連結。 若要這麼做，請按一下 **[!UICONTROL Advanced parameters...]** 連結並選取選項。
 
-* **[!UICONTROL Update the number of alias hits]**:這允許您根據輸入的日期更新已計算的命中數。
-* **[!UICONTROL Recalculate the number of alias hits from the start]**:讓你在整個Adobe Campaign平台上運行計算。
+* **[!UICONTROL Update the number of alias hits]**：這可讓您根據輸入的日期更新已計算的點選。
+* **[!UICONTROL Recalculate the number of alias hits from the start]**：可讓您在整個Adobe Campaign平台上執行計算。
 
-您還可以建立專用工作流，以便計算在給定期間自動運行，例如每週運行一次。
+您也可以建立專屬的工作流程，讓計算在指定的期間內自動執行，例如每週執行一次。
 
-為此，請建立 **[!UICONTROL Alias cleansing]** 工作流，更改計畫程式，並在 **[!UICONTROL Enumeration value cleansing]** 活動：
+若要這麼做，請建立 **[!UICONTROL Alias cleansing]** 工作流程，變更排程器，並在 **[!UICONTROL Enumeration value cleansing]** 活動：
 
-* **-updateHits** 更新別名命中數，
-* **-updateHits：完整** 重新計算所有別名命中。
+* **-updateHits** 若要更新別名點選數，
+* **-updateHits：full** 以重新計算所有別名點選。

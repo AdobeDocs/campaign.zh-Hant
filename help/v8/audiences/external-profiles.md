@@ -1,6 +1,6 @@
 ---
-title: 在市場活動中使用外部配置檔案
-description: 瞭解如何在外部檔案中選擇收件人
+title: 在Campaign中使用外部設定檔
+description: 瞭解如何在外部檔案中選取收件者
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 ---
 
-# 使用外部配置檔案
+# 使用外部設定檔

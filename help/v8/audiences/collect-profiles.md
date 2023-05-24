@@ -1,6 +1,6 @@
 ---
-title: 使用Web表單收集和更新配置檔案
-description: 瞭解如何使用Web表單收集和更新配置檔案
+title: 使用網路表單收集和更新設定檔
+description: 瞭解如何使用網路表單收集和更新設定檔
 feature: Audiences, Profiles, Web Forms
 role: Data Engineer
 level: Beginner
@@ -12,9 +12,9 @@ ht-degree: 43%
 
 ---
 
-# 使用Web表單收集和更新配置檔案
+# 使用網路表單收集和更新設定檔
 
-使用「市場活動」可以輕鬆高效地建立Web表單並收集和管理配置檔案資料。 您可以在您的網站共用這些表單，讓您的聯絡人輕鬆提供資訊。 資料將發送到市場活動以建立或更新其配置檔案。
+使用Campaign建立網路表單，輕鬆有效率地收集和管理設定檔資料。 您可以在您的網站共用這些表單，讓您的聯絡人輕鬆提供資訊。 資料會傳送至Campaign以建立或更新其設定檔。
 
 ![](assets/web-form-page.png)
 

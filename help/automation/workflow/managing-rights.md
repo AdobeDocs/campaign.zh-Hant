@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 管理工作流權限
-description: 瞭解如何管理工作流權限
+title: 管理工作流程許可權
+description: 瞭解如何管理工作流程許可權
 feature: Workflows
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
 source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
@@ -11,32 +11,32 @@ ht-degree: 1%
 
 ---
 
-# 管理工作流權限{#managing-rights}
+# 管理工作流程許可權{#managing-rights}
 
 
 
-如果它們不是管理員，則Adobe Campaign操作員需要建立、執行或修改工作流的訪問權限。
+如果不是管理員，Adobe Campaign操作員需要存取許可權才能建立、執行或修改工作流程。
 
-通常，對工作流執行操作的操作員需要訪問包含在各種活動（收件人、收件人清單、訂閱、遞送等）期間使用的資料的檔案，以及可能的子檔案。
+一般而言，執行工作流程的操作者需要存取包含各種活動（收件者、收件者清單、訂閱、傳遞等）期間使用之資料的檔案，並可能存取其子檔案。
 
-它們還必須映射到與工作流執行的操作（收件人導入、檔案訪問、融合、SQL指令碼執行等）相一致的命名權限。
+它們也必須對應至與工作流程所執行動作一致的已命名許可權，這些動作將會受到影響（收件者匯入、檔案存取、融合、SQL指令碼執行等）。
 
-有關管理運算子和權限的詳細資訊，請參閱 [此部分](../../v8/start/gs-permissions.md)。
+有關管理操作員和許可權的詳細資訊，請參閱 [本節](../../v8/start/gs-permissions.md).
 
 ## 運算子群組 {#operator-groups-wf}
 
-以下運算子組與工作流關聯：
+下列運運算元群組與工作流程相關聯：
 
-* 的 **[!UICONTROL Workflow execution]** 組用於控制目標工作流的執行和批准：名為right的工作流已映射到此組的運算子。 除了對資料檔案的訪問權限之外，工作流上的所有操作都需要此選項。 預設情況下， **[!UICONTROL Workflow execution]** 組具有對標準目標工作流檔案和工作流模板的只讀訪問權限。 此組中的操作員也具有對待處理批准檔案的讀寫權限。
-* 的 **[!UICONTROL Workflow supervisors]** 組允許操作員管理工作流批准。
-* 的 **[!UICONTROL Operation Managers]** 組以訪問市場活動工作流。
+* 此 **[!UICONTROL Workflow execution]** 群組可讓您控制目標工作流程的執行和核准：名為許可權的工作流程會對應至此群組的運運算元。 除了資料檔案的存取權之外，工作流程上的所有動作都需要它。 根據預設， **[!UICONTROL Workflow execution]** 群組對標準目標定位工作流程檔案和工作流程範本具有唯讀存取權。 此群組中的操作員也擁有擱置核准檔案的讀取和寫入存取權。
+* 此 **[!UICONTROL Workflow supervisors]** 群組可讓操作員管理工作流程核准。
+* 此 **[!UICONTROL Operation Managers]** 群組以存取行銷活動工作流程。
 
 ## 已命名的權限 {#named-rights}
 
-只有名為right的WORKFLOW特定於工作流：它允許您建立、啟動和停止工作流。 要適用命名權限，需要對工作流檔案進行讀取權限。 對於目標工作流， **[!UICONTROL Profiles and Targets]** 檔案。
+只有已命名許可權的WORKFLOW是工作流程專屬的：它可讓您建立、啟動和停止工作流程。 已命名的許可權需要工作流程檔案的讀取許可權才能適用。 針對目標工作流程，請閱讀以下文章中的 **[!UICONTROL Profiles and Targets]** 檔案為必要項。
 
-## 工作流執行帳戶 {#workflow-execution-account}
+## 工作流程執行帳戶 {#workflow-execution-account}
 
-您可以配置要在工作流模板級別使用的執行帳戶。 執行帳戶允許您直接將授權映射到工作流，而不管開始執行的Adobe Campaign操作員如何。 預設情況下，每個工作流都使用啟動該工作流的操作員的權限執行。
+您可以設定要在工作流程範本層級使用的執行帳戶。 執行帳戶可讓您將授權直接對應至工作流程，而不考慮Adobe Campaign運運算元開始執行。 依預設，每個工作流程都會以啟動它的操作員的許可權執行。
 
-要將執行帳戶映射到工作流，請轉到工作流模板清單並按一下右鍵連結到工作流的模板。 選擇 **[!UICONTROL Action > Change execution account...]** 然後選擇要使用的帳戶。
+若要將執行帳戶對應至工作流程，請前往工作流程範本清單，然後以滑鼠右鍵按一下連結至工作流程的範本。 選擇 **[!UICONTROL Action > Change execution account...]** 然後選取要使用的帳戶。

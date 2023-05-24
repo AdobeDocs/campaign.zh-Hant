@@ -1,6 +1,6 @@
 ---
-title: 授予和限制市場活動資料夾的權限
-description: 瞭解如何授予或限制資料夾的權限
+title: 授與和限制Campaign資料夾的許可權
+description: 瞭解如何授與或限制檔案夾的許可權
 feature: Permissions
 role: User, Admin
 level: Beginner
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 ---
 
-# 管理資料夾權限{#manage-folder-permissions}
+# 管理檔案夾許可權{#manage-folder-permissions}
 
-## 限制對資料夾的訪問{#restrict-access-to-a-folder}
+## 限制對資料夾的存取{#restrict-access-to-a-folder}
 
-使用對資料夾的權限來組織和控制對市場活動資料的訪問。
+使用資料夾的許可權來組織和控制Campaign資料的存取。
 
-資料夾管理的詳細資訊 [此頁](../audiences/folders-and-views.md)。
+檔案夾管理的詳細資訊，請參閱 [此頁面](../audiences/folders-and-views.md).
 
-要編輯特定市場活動資料夾的權限，請執行以下步驟：
+若要編輯特定Campaign資料夾的許可權，請遵循下列步驟：
 
-1. 按一下右鍵資料夾並選擇 **[!UICONTROL Properties...]**。
-1. 瀏覽到 **[!UICONTROL Security]** 頁籤，查看此資料夾的授權。
+1. 以滑鼠右鍵按一下資料夾並選取 **[!UICONTROL Properties...]**.
+1. 瀏覽至 **[!UICONTROL Security]** 標籤以檢視此資料夾的授權。
 
    ![](assets/folder-permissions.png)
 
-* 至 **授權組或操作員**，按一下 **[!UICONTROL Add]** 按鈕並選擇要為此資料夾分配授權的組或運算子。
-* 至 **禁止組或運算子**&#x200B;按一下 **[!UICONTROL Delete]** 並選擇要刪除此資料夾的授權的組或運算子。
-* 至 **選擇分配給組或運算子的權限**，選擇組或運算子，選擇要授予的訪問權限，然後取消選擇其他訪問權限。
+* 至 **授權群組或操作員**，按一下 **[!UICONTROL Add]** 按鈕並選取群組或運運算元，以指派此資料夾的授權。
+* 至 **禁止群組或操作員**，按一下 **[!UICONTROL Delete]** 並選取群組或運運算元，以移除此資料夾的授權。
+* 至 **選取指派給群組或操作員的許可權**，選取群組或操作員，選取您要授與的存取許可權，然後取消選取其他許可權。
 
-## 傳播權限 {#propagate-permissions}
+## 傳播許可權 {#propagate-permissions}
 
-要傳播授權和訪問權限，請選擇 **[!UICONTROL Propagate]** 的子菜單。
+若要傳播授權和存取許可權，請選取 **[!UICONTROL Propagate]** 資料夾屬性中的選項。
 
-然後，此窗口中定義的授權將應用於當前節點的所有子資料夾。 您始終可以使每個子資料夾的這些授權過載。
+然後此視窗中定義的授權將套用至目前節點的所有子資料夾。 您可以隨時為每個子資料夾多載這些授權。
 
 >[!NOTE]
 >
->取消檢查 **[!UICONTROL Propagate]** 資料夾的選項不清除子資料夾：必須為每個子資料夾明確清除它。
+>取消核取 **[!UICONTROL Propagate]** 資料夾的選項不會為子資料夾清除它：您必須為每個子資料夾明確清除它。
 
-## 授予對所有運算子的訪問權限 {#grant-access-to-all-operators}
+## 授與存取權給所有運運算元 {#grant-access-to-all-operators}
 
-在 **[!UICONTROL Security]** 頁籤 **[!UICONTROL System folder]** 允許訪問所有運算子，而不管其權限如何。
+在 **[!UICONTROL Security]** 索引標籤中，選取 **[!UICONTROL System folder]** 允許存取所有運運算元，無論其許可權為何。
 
-如果清除此選項，則必須將運算子（或其組）顯式添加回授權清單中，以便它們具有訪問權限。
+如果清除此選項，您必須明確地將運運算元（或其群組）新增回授權清單，才能讓運運算元存取許可權。

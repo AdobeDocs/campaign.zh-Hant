@@ -1,6 +1,6 @@
 ---
-title: 市場活動交互活動提供預定義的篩選器
-description: 瞭解如何建立預定義的篩選器
+title: 行銷活動互動提供預先定義的篩選器
+description: 瞭解如何建立預先定義的篩選器
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # 建立預先定義的篩選器{#creating-pre-defined-filters}
 
-建立預定義的篩選器，以定義目標總量的資格規則，這些規則在建立聘用期間可以輕鬆重複使用。 它們特定於每個環境，並考慮了提供參數。
+建立預先定義的篩選條件，定義目標群體的適用性規則，以便在建立優惠方案期間輕鬆重複使用。 它們是每個環境專屬的，並考慮到選件引數。
 
-要建立預定義的篩選器，請應用以下流程：
+若要建立預先定義的篩選，請套用下列程式：
 
-1. 瀏覽到 **[!UICONTROL Administration]** 資料夾和 **[!UICONTROL Pre-defined offer filters]**。
+1. 瀏覽至 **[!UICONTROL Administration]** 資料夾並選取 **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
@@ -26,18 +26,18 @@ ht-degree: 3%
 
    ![](assets/offer_filter_create_001.png)
 
-1. 將標籤更改為以後能夠識別篩選器。
+1. 變更標籤，以便稍後識別篩選器。
 
    ![](assets/offer_filter_create_002.png)
 
-1. 選擇篩選條件將涉及的欄位。
+1. 選取篩選條件將關注的欄位。
 
    ![](assets/offer_filter_create_003.png)
 
-1. 如果需要，請選擇運算子和值，然後保存查詢。
+1. 視需要選取運運算元和值，然後儲存查詢。
 
    ![](assets/offer_filter_create_004.png)
 
-1. 按一下 **[!UICONTROL Preview]** 的子菜單。
+1. 按一下 **[!UICONTROL Preview]** 以檢視篩選的結果。
 
    ![](assets/offer_filter_create_006.png)

@@ -1,6 +1,6 @@
 ---
-title: 市場活動API登台機制
-description: 市場活動API登台機制
+title: Campaign API準備機制
+description: Campaign API準備機制
 feature: API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -12,33 +12,33 @@ ht-degree: 2%
 
 ---
 
-# 市場活動API登台機制
+# Campaign API準備機制
 
-在 [企業(FDA)部署](enterprise-deployment.md)，不建議對效能（延遲和併發）進行單調呼叫。 批處理操作始終是首選的。 為了提高效能，接收API被重定向到本地資料庫。
+在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，不建議在效能（延遲和並行）方面引發單一呼叫。 批次處理作業一律為首選。 為了提高效能，擷取API會重新導向至本機資料庫。
 
-預設情況下，在某些內置架構上啟用市場活動轉移功能。 我們還可以在任何自定義架構上啟用它。 簡要地說，分級機制：
+根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上啟用它。 簡而言之，暫存機制：
 
-* 資料架構結構複製到本地臨時表中
-* 專用於資料接收的新API直接流入本地臨時表。 [了解更多](new-apis.md)
-* 計畫的工作流每小時都會觸發一次，並將資料同步回雲資料庫。 [了解更多](replication.md)
+* 資料結構描述結構會複製到本機中繼資料表中
+* 專用於資料擷取的新API會直接流入本機中繼表格。 [了解更多](new-apis.md)
+* 排程的工作流程每小時都會觸發一次，並將資料同步回雲端資料庫。 [了解更多](replication.md)
 
-預設情況下，某些內置架構會被轉移，如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
+某些內建結構依預設為暫存，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
 
-Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益：API調用直接流到雲資料庫。 Adobe建議盡可能使用新的轉移機制，以減少市場活動雲資料庫的總體壓力和延遲。
+Campaign Classicv7 API仍然可用，但無法從這個新的準備機制受益： API呼叫直接流向雲端資料庫。 Adobe建議儘可能使用新的準備機制，以減少Campaign Cloud資料庫的整體壓力和延遲。
 
 >[!CAUTION]
 >
->* 利用此新機制，現在即可進行通道輸出、訂閱、取消訂閱或移動註冊的資料同步 **非同步**。
+>* 透過此新機制，頻道選擇、訂閱、取消訂閱或行動註冊的資料同步現在已開始 **非同步**.
 >
->* 暫存僅適用於儲存在雲資料庫上的架構。 不在複製的架構上啟用暫存。 不在本地架構上啟用暫存。 不在轉移架構上啟用轉移
+>* 中繼僅適用於儲存在雲端資料庫上的結構描述。 請勿在復寫的結構描述上啟用暫存。 請勿在本機結構描述上啟用測試。 不要在已暫存綱要上啟用暫存
 >
 
 
 ## 實施步驟{#implement-staging}
 
-要在特定表上實施市場活動轉移機制，請執行以下步驟：
+若要在特定表格上實作Campaign準備機制，請遵循下列步驟：
 
-1. 在市場活動雲資料庫上建立示例自定義架構。 此步驟未啟用轉移。
+1. 在Campaign Cloud資料庫上建立範例自訂結構描述。 此步驟未啟用暫存。
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -53,11 +53,11 @@ Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益�
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) 瞭解有關在中建立自定義架構的詳細資訊 [此頁](../dev/create-schema.md)。
+   ![](../assets/do-not-localize/glass.png) 進一步瞭解在中建立自訂結構描述 [此頁面](../dev/create-schema.md).
 
-1. 保存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
+1. 儲存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
 
-1. 通過添加 **autoStg=&quot;true&quot;** 的下界。
+1. 在架構定義中啟用暫存機制，方法是新增 **autoStg=&quot;true&quot;** 引數。
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
@@ -72,8 +72,8 @@ Campaign Classicv7 API仍然可用，但無法從此新的轉移機制中獲益�
    </srcSchema>
    ```
 
-1. 保存修改。 新的臨時架構可用，它是初始架構的本地副本。
+1. 儲存修改。 有新的中繼結構描述可供使用，這是初始結構描述的本機副本。
 
    ![](assets/staging-mechanism.png)
 
-1. 更新資料庫結構。 將在市場活動本地資料庫上建立臨時表。
+1. 更新資料庫結構。 將在Campaign本機資料庫上建立臨時資料表。

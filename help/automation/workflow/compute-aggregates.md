@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 執行聚合計算
-description: 瞭解如何在查詢中執行聚合計算
+title: 執行彙總計算
+description: 瞭解如何在查詢中執行彙總計算
 feature: Workflows
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -11,40 +11,40 @@ ht-degree: 0%
 
 ---
 
-# 執行聚合計算 {#performing-aggregate-computing}
+# 執行彙總計算 {#performing-aggregate-computing}
 
-在本例中，我們想根據性別來計算在倫敦生活的受助人數。
+在此範例中，我們要根據性別統計居住在倫敦的收件者人數。
 
-* 需要選擇哪個表？
+* 需要選取哪個表格？
 
-   收件人表(**nms：收件人**)
+   收件者表格(**nms：recipient**)
 
-* 應在輸出列中選擇哪些欄位？
+* 應在輸出欄中選取哪些欄位？
 
-   主鍵（含計數）和性別
+   主索引鍵（含計數）和性別
 
-* 根據什麼條件過濾資訊？
+* 篩選資訊所依據的條件為何？
 
-   根據住在倫敦的收件人
+   根據居住在倫敦的收件者
 
-要建立此示例，請應用以下步驟：
+若要建立此範例，請套用下列步驟：
 
-1. 在 **[!UICONTROL Data to extract]**，定義主鍵的計數（如上例所示）。 添加 **[!UICONTROL Gender]** 的子菜單。 檢查 **[!UICONTROL Group]** 的上界 **[!UICONTROL Gender]** 的雙曲餘切值。 這樣，受援者將按性別分組。
+1. 在 **[!UICONTROL Data to extract]**，定義主索引鍵的計數（如上一個範例所示）。 新增 **[!UICONTROL Gender]** 欄中的欄位。 檢查 **[!UICONTROL Group]** 中的選項 **[!UICONTROL Gender]** 欄。 如此一來，收件者就會依性別分組。
 
    ![](assets/query_editor_nveau_27.png)
 
-1. 在 **[!UICONTROL Sorting]** 窗口，按一下 **[!UICONTROL Next]**:這裡不需要分揀。
-1. 配置資料篩選。 在此，您希望將選擇限制為住在倫敦的聯繫人。
+1. 在 **[!UICONTROL Sorting]** 視窗，按一下 **[!UICONTROL Next]**：這裡不需要排序。
+1. 設定資料篩選。 在這裡，您要將選取範圍限製為住在倫敦的連絡人。
 
    ![](assets/query_editor_22.png)
 
    >[!NOTE]
    >
-   >值區分大小寫。 如果「倫敦」值在沒有大寫字母的條件下輸入，並且收件人清單包含帶大寫字母的「倫敦」字樣，則查詢將失敗。
+   >值區分大小寫。 如果「London」值是在沒有大寫字母的條件中輸入，且收件者清單包含單字「London」及大寫字母，則查詢將失敗。
 
-1. 在 **[!UICONTROL Data formatting]** 窗口，按一下 **[!UICONTROL Next]**:此示例不需要格式設定。
-1. 在預覽窗口中，按一下 **[!UICONTROL Launch data preview]**。
+1. 在 **[!UICONTROL Data formatting]** 視窗，按一下 **[!UICONTROL Next]**：此範例不需要格式設定。
+1. 在預覽視窗中，按一下 **[!UICONTROL Launch data preview]**.
 
-   按性別分類的每種排序有三個不同的值： **2** 對於女性， **1** 為男性和 **0** 性別未知時。 在本例中，名單中有10名婦女、16名男子和2名性別不為人知的人。
+   依性別區分的每種排序有三個不同的值： **2** 對於女性， **1** 男士和 **0** 當性別不明時。 在此範例中，此清單包含10名女性、16名男性和2名性別不明的人。
 
    ![](assets/query_editor_agregat_04.png)

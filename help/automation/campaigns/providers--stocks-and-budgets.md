@@ -13,237 +13,237 @@ ht-degree: 1%
 
 # 供應商、庫存和預算{#providers-stocks-and-budgets}
 
-Adobe Campaign允許您定義服務提供商，這些服務提供商將參與市場活動中進行的工作。 有關服務提供者和相關費用結構的資訊由Adobe Campaign管理員從主要視角定義。 服務提供商從交貨中被引用，其成本結構允許計算與此交貨相關的成本以及管理相關庫存。
+Adobe Campaign可讓您定義將參與促銷活動內所執行工作的服務提供者。 Adobe Campaign管理員會從主要檢視定義服務提供者及相關成本結構的相關資訊。 服務提供者是從交貨中參考的，其成本結構允許計算與此交貨相關的成本以及相關的存貨管理。
 
-## 建立服務提供商及其成本結構 {#create-service-providers-and-their-cost-structures}
+## 建立服務提供者及其成本結構 {#create-service-providers-and-their-cost-structures}
 
-每個服務提供商都保存在包含聯繫人詳細資訊、服務模板和相關作業的檔案中。
+每個服務提供者都會儲存在檔案中，內含連絡人詳細資訊、服務範本和相關工作。
 
-在中配置服務提供程式 **[!UICONTROL Administration > Campaign management]** 市場活動瀏覽器的資料夾。
+服務供應商設定於 **[!UICONTROL Administration > Campaign management]** Campaign檔案總管的資料夾。
 
-在遞送期間執行的作業由服務提供商執行，特別是用於直接郵件和移動通道。 例如，這些服務提供商可以參與打印或分發消息。 這些作業涉及特定於每個服務提供商的配置和成本。 服務提供商的配置涉及四個階段：
+在傳送期間執行的工作由服務提供者執行，尤其是針對直接郵件和行動裝置頻道。 例如，這些服務提供者可以參與列印或分發訊息。 這些工作涉及每個服務提供者特有的設定和成本。 服務提供者的設定涉及四個階段：
 
-1. 在Adobe Campaign建立服務提供商。 [了解更多](#add-a-service-provider)
+1. 在Adobe Campaign中建立服務提供者。 [了解更多](#add-a-service-provider)
 
-1. 定義關聯服務模板的成本類別和結構。 [了解更多](#define-cost-categories)
+1. 定義相關服務樣版的成本分類與結構。 [了解更多](#define-cost-categories)
 
-1. 進程的配置。 [了解更多](#configure-processes-associated-with-a-service)。
+1. 流程的設定。 [了解更多](#configure-processes-associated-with-a-service)。
 
-1. 在市場活動級別引用服務提供商。 [了解更多](#associate-a-service-with-a-campaign)。
+1. 在行銷活動層級參考服務提供者。 [了解更多](#associate-a-service-with-a-campaign)。
 
-### 建立服務提供商及其成本類別 {#create-a-service-provider-and-its-cost-categories}
+### 建立服務提供者及其成本類別 {#create-a-service-provider-and-its-cost-categories}
 
-#### 添加服務提供程式 {#add-a-service-provider}
+#### 新增服務提供者 {#add-a-service-provider}
 
-您可以根據需要為交貨建立盡可能多的服務提供商。 添加服務提供程式的步驟如下：
+您可以視需要為傳遞建立儘可能多的服務提供者。 新增服務提供者的程式如下：
 
-1. 按一下 **[!UICONTROL New]** 按鈕
-1. 在窗口的下半部分，指定服務提供商的名稱和聯繫人詳細資訊。
+1. 按一下 **[!UICONTROL New]** 服務供應商清單上方的按鈕。
+1. 在視窗的下半部分，指定服務提供者的名稱和聯絡詳細資訊。
 
    ![](assets/add-a-supplier.png)
 
-1. 按一下 **[!UICONTROL Save]** 按鈕，將服務提供商添加到清單中。
+1. 按一下 **[!UICONTROL Save]** 按鈕以將服務提供者新增至清單。
 
 #### 定義成本類別 {#define-cost-categories}
 
-您現在可以將服務模板與每個服務提供商關聯。 在這些模板中，您必須首先確定成本類別和必要時確定相關庫存。 然後，您可以通過成本結構為每個類別建立成本計算規則。 [了解更多](#define-the-cost-structure)。
+您現在可以將服務範本與每個服務提供者建立關聯。 在這些範本中，您必須先識別成本類別，並視需要識別相關存貨。 然後，您可以透過成本結構，建立每個分類的成本計算規則。 [了解更多](#define-the-cost-structure)。
 
-成本類別是包含一組符合交付類型（電子郵件、直郵、簡訊等）條件的成本的實體。 成本類別在與服務提供商關聯的服務模板中分組。 每個服務提供商都可以引用一個或多個服務模板。
+成本類別是一個實體，其中包含一組符合傳送型別（電子郵件、直接郵件、簡訊等）的成本。 成本類別會分組在與服務提供者相關之服務的範本中。 每個服務提供者可參考一或多個服務範本。
 
-要建立服務模板並定義其內容，請執行以下步驟：
+若要建立服務範本並定義其內容，請遵循下列步驟：
 
-1. 在 **[!UICONTROL Services]** 頁籤，按一下 **[!UICONTROL Add]** 按鈕並輸入服務模板的名稱。
+1. 在 **[!UICONTROL Services]** 標籤中，按一下 **[!UICONTROL Add]** 按鈕並輸入服務範本的名稱。
 
    ![](assets/supplier-new-template.png)
 
-1. 為每種流程類型（通過直接郵件/電子郵件/等方式交付）建立成本類別。 或任務)。 要執行此操作，請按一下 **[!UICONTROL Cost categories]** 的 **[!UICONTROL Add]** 按鈕，然後輸入每個成本類別的參數。
+1. 為每種處理型別（直接郵件/電子郵件傳遞/等）建立成本類別。 或任務)。 若要這麼做，請按一下 **[!UICONTROL Cost categories]** 標籤然後按一下 **[!UICONTROL Add]** 按鈕，然後輸入每個成本分類的引數。
 
    ![](assets/add-cost-categories.png)
 
-   * 為此成本類別輸入標籤，然後選擇相關流程類型： **[!UICONTROL Direct mail]**。 **[!UICONTROL Email]**。 **[!UICONTROL Mobile]**&#x200B;的子菜單。
-   * 按一下 **[!UICONTROL Add]** 按鈕來定義與此類別關聯的成本類型。
-   * 如有必要，將庫存行與每種成本類型關聯，以便使用的數量將自動與現有庫存相關。
+   * 輸入此成本分類的標籤，並選取相關處理的型態： **[!UICONTROL Direct mail]**， **[!UICONTROL Email]**， **[!UICONTROL Mobile]**&#x200B;等。
+   * 按一下 **[!UICONTROL Add]** 按鈕，以定義與此分類相關的成本型態。
+   * 必要時，將存貨明細行與每種成本型態相關聯，以便使用的數量會自動與現有存貨相關聯。
 
       >[!NOTE]
       >
-      >在 **[!UICONTROL Stock management]** 的下界。 [了解更多](#stock-and-order-management)。
+      >坯件線定義於 **[!UICONTROL Stock management]** 節點。 [了解更多](#stock-and-order-management)。
 
-1. 您可以為此成本類別預選一個值，該值是服務提供商成本類別中的預設值（而不是空的）。 為此，請啟用 **是** 的上界 **[!UICONTROL Selected]** 類型的列：
+1. 您可以預先選取此成本類別的值，這是服務提供者成本類別的預設值（而非空白值）。 若要這麼做，請啟用 **是** 中的選項 **[!UICONTROL Selected]** 相關類別型別的欄：
 
    ![](assets/default-cost-type.png)
 
-   在交貨層，預設情況下將選擇該值。
+   在傳遞層級，預設會選取值。
 
 ### 定義成本結構 {#define-the-cost-structure}
 
-對於每種類型的成本，成本結構指定要應用的計算規則。
+對於每種成本型別，成本結構會指定要套用的計算規則。
 
-按一下 **[!UICONTROL Cost structure]** 頁籤，以配置每個成本類別和類型的成本計算。 按一下 **[!UICONTROL Add]** 並輸入成本結構。
+按一下 **[!UICONTROL Cost structure]** 標籤，以設定每個成本分類與型態的成本計算。 按一下 **[!UICONTROL Add]** 並輸入成本結構。
 
 ![](assets/add-cost-structure.png)
 
-* 要建立成本結構，請從下拉清單中選擇消息類型和有關的成本類別，以及將應用計算規則的成本類型。 這些下拉清單的內容來自通過 **[!UICONTROL Cost categories]** 頁籤。
+* 若要建立成本結構，請從下拉式清單中選取訊息型別和相關的成本類別，以及計算規則將套用的成本型別。 這些下拉式清單的內容來自透過 **[!UICONTROL Cost categories]** 標籤。
 
-   必須為成本結構分配標籤。 預設情況下，它具有以下交貨大綱： **成本類別 — 成本類型**。
+   您必須為成本結構指定標籤。 依預設，它具有下列傳遞大網： **成本分類 — 成本型別**.
 
-   但是，您可以更名它：在 **[!UICONTROL Label]** 的子菜單。
+   不過，您可以重新命名：直接在 **[!UICONTROL Label]** 欄位。
 
-* 成本計算公式在窗口的下部定義。
+* 成本計算公式定義於視窗的下半部。
 
-   此公式可以是固定的（對於任意數目的消息），也可以根據消息數計算。
+   此公式可固定（適用於任何數量的訊息）或根據訊息數量計算。
 
-   當它取決於消息數時，成本計算結構可以是 **[!UICONTROL Linear]**。 **[!UICONTROL Linear by threshold]**&#x200B;或 **[!UICONTROL Constant by threshold]**。
+   如果取決於訊息數量，成本計算結構可以是 **[!UICONTROL Linear]**， **[!UICONTROL Linear by threshold]**，或 **[!UICONTROL Constant by threshold]**.
 
 #### 線性結構 {#linear-structure}
 
-如果消息（或消息批）的金額始終相同，而不考慮消息總數，則選擇 **[!UICONTROL Linear]** 並輸入每條消息的成本。
+如果無論訊息總數為何，訊息（或訊息批次）的金額一律相同，請選取 **[!UICONTROL Linear]** 並輸入每則訊息的成本。
 
-如果此金額適用於郵件批，請指定 **[!UICONTROL for]** 的子菜單。
+如果此金額適用於一批訊息，請在 **[!UICONTROL for]** 欄位。
 
 ![](assets/supplier_cost_structure_calc.png)
 
 
-#### 依閾值劃分的線性結構 {#linear-structure-by-threshold}
+#### 線性結構（依臨界值） {#linear-structure-by-threshold}
 
-如果按閾值應用每個消息的金額，則必須定義 **[!UICONTROL Linear by threshold]** 計算結構。 在此類成本結構中，每條消息的成本為0.13，例如，如果消息總數介於1到100之間，則成本為0.12，從100到1000條消息，或0.11，超過1000條消息。
+如果金額依每個訊息的臨界值套用，您必須定義 **[!UICONTROL Linear by threshold]** 計算結構。 在此型別的成本結構中，每個訊息的成本為0.13 （舉例來說），如果訊息總數介於1到100之間，且從100到1000則訊息的成本為0.12 （或在1000則訊息之後0.11）。
 
-配置如下：
+設定如下：
 
 ![](assets/supplier-cost-structure-linear.png)
 
-要添加閾值，請按一下 **[!UICONTROL Add]** 按鈕。
+若要新增臨界值，請按一下 **[!UICONTROL Add]** 按鈕進行篩選。
 
-#### 按閾值劃分的常數結構 {#constant-structure-by-threshold}
+#### 依據臨界值的常數結構 {#constant-structure-by-threshold}
 
-最後，您可以根據消息總數配置成本計算。 要執行此操作，請選擇 **[!UICONTROL Constant by threshold]** 計算結構。 例如，將1到100封郵件的成本設定為固定金額12.00,100.00,101到1000封郵件的傳遞為100.00，超過1000封郵件的任何傳遞為500.00，不管總數是多少。
+最後，您可以根據訊息總數來設定成本計算。 若要這麼做，請選取 **[!UICONTROL Constant by threshold]** 計算結構。 例如，1到100則訊息的成本會設定為固定金額12.00,101到1000則訊息的成本則設定為100.00，超過1000則訊息的任何傳送的成本則設定為500.00，無論總數為何。
 
 ![](assets/supplier-cost-structure-constant.png)
 
-### 配置與服務關聯的作業 {#configure-processes-associated-with-a-service}
+### 設定與服務相關聯的工作 {#configure-processes-associated-with-a-service}
 
-您可以通過 **[!UICONTROL Jobs]** 頁籤。 本部分用於配置向路由器發送資訊的過程。
+您可以透過以下方式關聯與服務提供者關聯的程式資訊： **[!UICONTROL Jobs]** 標籤。 您可以在此段落設定傳送資訊給路由器。
 
 ![](assets/cost-supplier-jobs.png)
 
-* 的 **[!UICONTROL File extraction]** 部分指明選擇此服務時用於交貨的導出模板。 可以在 **[!UICONTROL Extraction file]** 的子菜單。 該欄位右側的按鈕允許您插入變數。
+* 此 **[!UICONTROL File extraction]** 區段會指出選取此服務時用於傳送的匯出範本。 您可以在中指定輸出檔案的名稱 **[!UICONTROL Extraction file]** 欄位。 欄位右側的按鈕可讓您插入變數。
 
-* 的 **[!UICONTROL Notification email]** 部分，用於指定在檔案發送後通知服務提供商的模板。 選擇用於建立警報消息的模板和收件人組。
+* 此 **[!UICONTROL Notification email]** 區段可讓您指定在傳送檔案後通知服務提供者的範本。 選取用來建立警示訊息和收件者群組的範本。
 
-   預設情況下，通知消息的傳遞模板將保存在 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 資料夾，可從常規視圖訪問。
+   依預設，通知訊息的傳遞範本會儲存在 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 資料夾，可從一般檢視存取。
 
-* 的 **[!UICONTROL Post-processing]** 部分，用於選擇在交貨獲得批准後要啟動的工作流。 如果輸入了工作流模板，將自動建立工作流實例，並在批准生效後立即啟動。 例如，此工作流可以將抽取檔案發送到外部服務提供商進行處理。
+* 此 **[!UICONTROL Post-processing]** 區段可讓您選取在核准傳遞後啟動的工作流程。 如果輸入了工作流程範本，則會自動建立工作流程例項，並在核准生效後立即啟動。 例如，此工作流程可將擷取檔案傳送至外部服務提供者進行處理。
 
-### 將服務與市場活動關聯 {#associate-a-service-with-a-campaign}
+### 將服務與行銷活動建立關聯 {#associate-a-service-with-a-campaign}
 
-服務提供商與市場活動交付相關聯。 在傳遞模板中引用這些模板，以便在通過此模板建立的傳遞中提供其服務。
+服務提供者與行銷活動傳遞相關聯。 在傳遞範本中會參考這些對象，以便在透過此範本建立的傳遞中提供其服務。
 
-選擇服務時，與遞送類型（直郵、電子郵件等）對應的成本類別 在中心表中自動指示，並且已定義的處理選項。
+選取服務時，與傳送型別（直接郵件、電子郵件等）相對應的成本類別 會連同已定義的處理選項自動在中央表格中標示。
 
 >[!NOTE]
 >
->如果在選擇服務時未顯示任何成本類別，則表示未為此類型的流程定義成本類別。 例如，對於電子郵件傳遞，如果沒有 **[!UICONTROL Email]** 類型成本類別已定義，將不顯示任何類別，選擇服務將無效。
+>如果選取服務時未顯示成本分類，則表示未針對此型別的處理定義成本分類。 例如，對於電子郵件傳送，如果否 **[!UICONTROL Email]** 型態成本分類已定義，不會顯示任何分類，且選取服務將不會生效。
 
-* 對於直郵遞送，您可以從配置窗口中選擇服務。
+* 如果是直接郵件傳送，您可以從設定視窗中選取服務。
 
    ![](assets/supplier-mail-delivery-select.png)
 
-* 對於在移動頻道或電話上傳送，應用相同的選擇模式。
-* 對於電子郵件傳遞，從 **[!UICONTROL Advanced]** 頁籤，如下例所示：
+* 對於行動裝置頻道或電話上的傳遞，會套用相同的選擇模式。
+* 對於電子郵件傳送，服務是從 **[!UICONTROL Advanced]** 標籤中選取「 」，如下列範例所示：
 
    ![](assets/supplier-email-delivery-select.png)
 
-的 **[!UICONTROL Amount to surcharge]** 列，您可以在交貨或相關任務的上下文中為此類別添加成本。
+此 **[!UICONTROL Amount to surcharge]** 欄可讓您在有關傳遞或任務的內容中為此類別新增成本。
 
-您可以在定義交貨的成本類別期間定義成本類型的必備選擇。 要執行此操作，請選擇 **[!UICONTROL A cost type must be selected]**。
+在定義交貨的成本類別時，您可以定義成本型態的必要選擇。 要執行此操作，請選取 **[!UICONTROL A cost type must be selected]**.
 
 ![](assets/cost-type-must-be-selected.png)
 
-## 庫存和訂單管理 {#stock-and-order-management}
+## 庫存與訂單管理 {#stock-and-order-management}
 
-成本類型可與庫存行關聯，以處理預警、跟蹤供應和發放訂單。
+成本型態可與存貨明細行相關聯，以處理警示、追蹤供給及啟動訂單。
 
-在Adobe Campaign建立庫存和訂單管理，並在供應不足時通知操作人員，以執行以下程式：
+在Adobe Campaign中設定存貨與訂單管理，以及在要執行交貨的供給不足時提醒操作員的程式如下：
 
-1. 關聯服務提供商的庫建立和引用。 [了解更多](#create-a-stock)。
+1. 建立庫存及參考相關服務提供者。 [了解更多](#create-a-stock)。
 
-1. 添加庫存行。 [了解更多](#add-stock-lines)。
+1. 新增坯件線。 [了解更多](#add-stock-lines)。
 
-1. 通知操作員發生警報。 [了解更多](#alert-operators)。
+1. 在警示事件中通知運運算元。 [了解更多](#alert-operators)。
 
-1. 訂單和供應。 [了解更多](#orders)。
+1. 訂單與供給。 [了解更多](#orders)。
 
-### 股票管理 {#stock-management}
+### 庫存管理 {#stock-management}
 
-如果庫存不足或達到最小閾值，Adobe Campaign可以通知一組運算子。 庫存水準可通過 **[!UICONTROL Stocks]** 連結 **[!UICONTROL Campaigns]** 頁籤 **[!UICONTROL Other choices]** 的子菜單。
+如果庫存耗盡或達到最小臨界值，Adobe Campaign可以提醒一組操作員。 庫存水準可透過 **[!UICONTROL Stocks]** 的連結 **[!UICONTROL Campaigns]** 透過Tab鍵 **[!UICONTROL Other choices]** 導覽區域的連結。
 
 ![](assets/stock-dashboard.png)
 
-#### 建立庫 {#creating-a-stock}
+#### 建立庫存 {#creating-a-stock}
 
-應用以下步驟建立新庫：
+套用下列步驟以建立新坯件：
 
-1. 按一下 **[!UICONTROL Create]** 按鈕。
-1. 輸入股票的標籤，然後從下拉清單中選擇與其關聯的服務提供商。 [了解更多](#create-service-providers-and-their-cost-structures)。
+1. 按一下 **[!UICONTROL Create]** 「庫存」清單上方的按鈕。
+1. 輸入庫存的標籤，並從下拉式清單中選取與其關聯的服務提供者。 [了解更多](#create-service-providers-and-their-cost-structures)。
 
-#### 添加庫存行 {#add-stock-lines}
+#### 新增庫存行 {#add-stock-lines}
 
-一種坯料，包括各種坯料線。 庫存行包含交貨將消耗的資源的初始數量。 每個庫存行均指明已衝減的數量、庫存數量和訂購數量。
+坯件包含各種坯件線。 庫存明細行包含交貨會沖銷的初始資源數量。 每個存貨明細行會指出已沖銷數量、庫存數量及訂購數量。
 
-建立庫時，按一下 **[!UICONTROL Stock lines]** 頁籤。
+建立坯件時，按一下 **[!UICONTROL Stock lines]** 標籤以新增行。
 
 ![](assets/stock-new-lines.png)
 
-建立庫存後，使用其操控板建立和監視庫存行。
+建立坯件後，請使用其圖示板來建立及監控坯件線。
 
-按一下 **[!UICONTROL Create]** 按鈕
+按一下 **[!UICONTROL Create]** 按鈕以新增庫存行。
 
 ![](assets/add-stock-lines.png)
 
-* 指示庫存中最初的數量 **[!UICONTROL Initial stock]** 的子菜單。 的 **[!UICONTROL Consumed]** 和 **[!UICONTROL In stock]** 欄位將自動計算並隨市場活動進展而更新。
+* 表示最初庫存的數量 **[!UICONTROL Initial stock]** 欄位。 此 **[!UICONTROL Consumed]** 和 **[!UICONTROL In stock]** 欄位會自動計算，並隨著行銷活動進行更新。
 
    ![](assets/create-new-stock-line.png)
 
-* 指示應從中向運算子發出訂單庫存警報的閾值 **[!UICONTROL Alert level]** 的子菜單。 當達到預警級別時，使用此庫存交貨的審批窗口中將顯示一則警告消息。
+* 指出應從哪個臨界值開始提醒操作員在下列位置訂購庫存： **[!UICONTROL Alert level]** 欄位。 達到警示等級時，使用此存貨的交貨的核准視窗中會顯示警告訊息。
 
-#### 將庫存與成本類別關聯 {#associate-a-stock-with-cost-categories}
+#### 將存貨與成本類別建立關聯 {#associate-a-stock-with-cost-categories}
 
-對於給定的服務提供商，在服務中，庫存行可以由成本類別之一引用，如下所示：
+對於指定的服務提供者，在服務中，存貨明細行可由成本類別之一參照，如下所示：
 
 ![](assets/select-stock-line-supplier.png)
 
-### 庫存跟蹤 {#stock-tracking}
+### 庫存追蹤 {#stock-tracking}
 
-#### 警報運算子 {#alert-operators}
+#### 警示運運算元 {#alert-operators}
 
-當交貨中引用的庫存不足時，將顯示警報。 例如，在批准抽取檔案時，將顯示以下警報：
+當傳遞中參考的庫存不足時，會顯示警報。 例如，在核准擷取檔案時，會顯示下列警報：
 
 ![](assets/stock-alert.png)
 
 #### 訂單 {#orders}
 
-的 **[!UICONTROL Orders]** 「子標籤」用於查看當前訂單並保存新訂單。
+此 **[!UICONTROL Orders]** 子頁標可讓您檢視目前訂單並儲存新訂單。
 
-要保存訂單，請編輯目標庫存行，按一下 **[!UICONTROL Add]** 按鈕並指定交貨日期和訂購數量。
+若要儲存訂單，請編輯目標庫存行，然後按一下 **[!UICONTROL Add]** 按鈕，並指定交貨日期與訂購數量。
 
 ![](assets/order-stocks.png)
 
 >[!NOTE]
 >
->一旦達到交貨日期，訂購的庫存行將自動消失，並且在 **[!UICONTROL Volume on order]** 欄位添加到 **[!UICONTROL Tracking]** 頁籤。 此數量將自動添加到庫存量。
+>一旦到達交貨日期，訂購的存量明細行就會自動消失，而數量輸入於 **[!UICONTROL Volume on order]** 欄位已新增至 **[!UICONTROL Tracking]** 標籤。 此數量會自動新增到庫存量中。
 
-的 **[!UICONTROL Consumptions]** 頁籤包含每個市場活動所消耗的卷。 根據執行的交貨自動輸入此標籤中的資訊。 按一下 **[!UICONTROL Edit]** 按鈕開啟與此相關的活動。
+此 **[!UICONTROL Consumptions]** 索引標籤包含每個行銷活動使用的數量。 此索引標籤的資訊會根據執行的傳遞自動輸入。 按一下 **[!UICONTROL Edit]** 按鈕以開啟相關行銷活動。
 
 ## 計算預算 {#calculate-budgets}
 
 ### 原則 {#principle}
 
-為交付和市場活動管理成本。 根據進度，這些費用將分配到預算。
+針對傳遞和行銷活動管理成本。 根據進度，這些成本會分配至預算。
 
-市場活動的交付成本在市場活動層合併，並且方案的所有市場活動的成本都傳遞到與其關聯的方案。 專用報告使您能夠跟蹤整個平台或每個計畫和每個計畫的預算。
+行銷活動的傳遞成本會在行銷活動層級合併，而方案的所有行銷活動的成本都會傳遞至與其關聯的方案。 專用報告可讓您追蹤整個平台或每個計畫與每個方案的預算。
 
 ### 實作 {#implementation}
 
-在市場活動中，選擇預算時，必須輸入初始金額。 計算的成本將根據輸入的金額（支出、預計、保留、承諾）的承付水準自動更新。
+在行銷活動中，當您選取預算時，必須輸入初始金額。 計算出的成本會根據所輸入金額的履約承諾層次自動更新（費用已產生、預期、預留、已確認）。
 
 
 <!--

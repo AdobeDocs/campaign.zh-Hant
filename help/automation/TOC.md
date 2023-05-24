@@ -10,13 +10,13 @@ ht-degree: 84%
 ---
 
 
-# 市場活動自動化指南 {#automation}
+# Campaign自動化指南 {#automation}
 
 + [Campaign 自動化指南](home.md)
 + 使用工作流程自動化{#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
-      + 工作流類型 {#wf-type}
+      + 工作流程型別 {#wf-type}
          + [目標定位工作流程](workflow/targeting-workflows.md)
          + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)
@@ -26,15 +26,15 @@ ht-degree: 84%
    + 執行工作流程 {#executing-a-workflow}
       + [開始工作流程](workflow/start-a-workflow.md)
       + [工作流程生命週期](workflow/workflow-life-cycle.md)
-      + [設定批准](workflow/define-approvals.md)
+      + [設定核准](workflow/define-approvals.md)
    + 監視工作流程 {#monitoring-workflows}
       + [監視工作流程的執行](workflow/monitor-workflow-execution.md)
       + [監視技術工作流程](workflow/monitor-technical-workflows.md)
       + [工作流程熱度圖](workflow/heatmap.md)
    + 工作流程活動 {#wf-activities}
-      + [開始活動](workflow/activities.md)
+      + [開始使用活動](workflow/activities.md)
       + 目標定位活動 {#targeting-activities}
-         + [目標活動清單](workflow/targeting-activities.md)
+         + [目標定位活動清單](workflow/targeting-activities.md)
          + [儲存格](workflow/cells.md)
          + [變更資料來源](workflow/change-data-source.md)
          + [變更維度](workflow/change-dimension.md)
@@ -56,7 +56,7 @@ ht-degree: 84%
          + [聯合](workflow/union.md)
          + [更新資料](workflow/update-data.md)
       + 流量控制活動 {#flow-control-activities}
-         + [流控制活動清單](workflow/flow-control-activities.md)
+         + [流量控制活動清單](workflow/flow-control-activities.md)
          + [警報](workflow/alert.md)
          + [AND-join](workflow/and-join.md)
          + [核准](workflow/approval.md)
@@ -70,7 +70,7 @@ ht-degree: 84%
          + [時間限制](workflow/time-constraint.md)
          + [等待](workflow/wait.md)
       + 動作活動 {#action-activities}
-         + [行動活動清單](workflow/action-activities.md)
+         + [動作活動清單](workflow/action-activities.md)
          + [內容管理](workflow/content-management.md)
          + [持續傳遞](workflow/continuous-delivery.md)
          + [跨頻道傳遞](workflow/cross-channel-deliveries.md)
@@ -87,7 +87,7 @@ ht-degree: 84%
          + [SQL 資料管理](workflow/sql-data-management.md)
          + [更新彙總](workflow/update-aggregate.md)
       + 事件活動 {#event-activities}
-         + [活動清單](workflow/event-activities.md)
+         + [事件活動清單](workflow/event-activities.md)
          + [檔案收集器](workflow/file-collector.md)
          + [檔案傳輸](workflow/file-transfer.md)
          + [傳入電子郵件](workflow/inbound-emails.md)
@@ -117,7 +117,7 @@ ht-degree: 84%
       + 查詢和篩選器 {#designing-queries}
          + [查詢收件者表格](workflow/querying-recipient-table.md)
          + [查詢傳遞資訊](workflow/query-delivery-info.md)
-         + [計算聚合](workflow/compute-aggregates.md)
+         + [計算彙總](workflow/compute-aggregates.md)
          + [使用分組管理進行查詢](workflow/query-grouping-management.md)
          + [使用多對多關係進行查詢](workflow/query-many-to-many-relationship.md)
          + [新增分項清單類型計算欄位](workflow/adding-enumeration-type-calculated-field.md)
@@ -134,35 +134,35 @@ ht-degree: 84%
       + [管理時區](workflow/managing-time-zones.md)
 + Campaign 策劃 {#campaign-orchestration}
    + [開始使用行銷活動](campaigns/set-up-campaigns.md)
-   + [建立計畫和市場活動](campaigns/marketing-campaign-create.md)
+   + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
    + [建立及設定範本](campaigns/marketing-campaign-templates.md)
    + [新增傳遞](campaigns/marketing-campaign-deliveries.md)
    + [選取對象](campaigns/marketing-campaign-target.md)
    + [管理文件和資產](campaigns/marketing-campaign-assets.md)
    + [設定及管理核准](campaigns/marketing-campaign-approval.md)
-   + [定期市場活動](campaigns/recurring-periodic-campaigns.md)
+   + [循環和定期行銷活動](campaigns/recurring-periodic-campaigns.md)
    + [監視您的行銷活動](campaigns/marketing-campaign-monitoring.md)
    + [供應商、庫存和預算](campaigns/providers--stocks-and-budgets.md)
-+ 市場活動優化（附加）{#campaign-optimization}
-   + [開始活動類型](campaign-opt/campaign-typologies.md)
++ 行銷活動最佳化（附加元件）{#campaign-optimization}
+   + [開始使用行銷活動型別](campaign-opt/campaign-typologies.md)
    + [篩選規則](campaign-opt/filtering-rules.md)
    + [控制規則](campaign-opt/control-rules.md)
    + [壓力規則](campaign-opt/pressure-rules.md)
    + [一致性規則](campaign-opt/consistency-rules.md)
    + [套用規則](campaign-opt/apply-rules.md)
    + [Campaign 模擬](campaign-opt/campaign-simulations.md)
-+ 市場營銷資源管理（附加項）{#mrm}
-   + [開始營銷資源管理](mrm/about-marketing-resource-management.md)
++ 行銷資源管理（附加元件）{#mrm}
+   + [開始使用行銷資源管理](mrm/about-marketing-resource-management.md)
    + [建立及管理設定檔](mrm/creating-and-managing-tasks.md)
    + [控制成本](mrm/controlling-costs.md)
    + [管理行銷資源](mrm/managing-marketing-resources.md)
    + [論壇](mrm/discussion-forums.md)
-+ 分佈式營銷（附加） {#distributed-marketing}
-   + [開始分佈式營銷](distributed-marketing/about-distributed-marketing.md)
++ 分散式行銷（附加元件） {#distributed-marketing}
+   + [開始使用分散式行銷](distributed-marketing/about-distributed-marketing.md)
    + [建立本機行銷活動](distributed-marketing/creating-a-local-campaign.md)
    + [建立協作行銷活動](distributed-marketing/creating-a-collaborative-campaign.md)
    + [發佈行銷活動套件](distributed-marketing/publishing-the-campaign-package.md)
    + [存取行銷活動](distributed-marketing/accessing-campaigns.md)
    + [追蹤行銷活動](distributed-marketing/tracking-a-campaign.md)
    + [使用案例](distributed-marketing/examples.md)
-+ [市場活動v8文檔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant)
++ [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant)

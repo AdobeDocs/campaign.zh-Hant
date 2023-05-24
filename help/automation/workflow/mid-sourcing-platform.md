@@ -15,7 +15,7 @@ ht-degree: 23%
 
 
 
-下面詳細介紹的工作流隨 **中間採購平台** 預設情況下為模組。
+以下詳述的工作流程會隨 **中間來源平台** 模組（預設）。
 
 <table> 
  <tbody> 
@@ -25,9 +25,9 @@ ht-degree: 23%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">交付指標</span> <br /> </td> 
-   <td> <span class="uicontrol">交付指標</span> <br /> </td> 
-   <td> 此工作流更新交貨的交貨跟蹤指示符。 預設情況下，此工作流每小時觸發一次。<br /> </td> 
+   <td> <span class="uicontrol">傳遞指標</span> <br /> </td> 
+   <td> <span class="uicontrol">deliveryIndicator</span> <br /> </td> 
+   <td> 此工作流程會更新傳送的傳送追蹤指標。 預設會每小時觸發此工作流程。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

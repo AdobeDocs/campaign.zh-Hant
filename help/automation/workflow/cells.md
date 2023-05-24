@@ -13,19 +13,19 @@ ht-degree: 2%
 
 # 儲存格{#cells}
 
-的 **[!UICONTROL Cells]** 「活動」提供了各種子集的資料列視圖。 它方便了子集操作，還設計為利用個性化功能。
+此 **[!UICONTROL Cells]** activity以資料欄的形式提供各種子集的檢視。 它有助於子集操控，並且也是專為利用個人化功能而設計。
 
 ![](assets/wf_split_cells.png)
 
-可以根據用戶需要配置此活動以輸入特定參數。 預設情況下，每個子集的詳細資訊將通過 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 頁籤。
+此活動可設定為根據使用者需求輸入特定引數。 依預設，每個子集的詳細資訊會透過在專用視窗中提供 **[!UICONTROL Cells]** 和 **[!UICONTROL Advanced]** 索引標籤。
 
 ![](assets/wf_split_cells_with_customization.png)
 
-在下面的示例中，輸入表單已修改：a **[!UICONTROL Data]** 已添加頁籤，以啟用提供和每個子集的優先順序的關聯。
+在以下範例中，已修改輸入表單： **[!UICONTROL Data]** 索引標籤已新增，以啟用每個子集的優惠方案與優先順序層級的關聯。
 
 ![](assets/cells-activity-sample.png)
 
-對於此配置，以下資訊已添加到工作流表單中。 **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign瀏覽器節點：
+針對此設定，已將以下資訊新增至工作流程表單的 **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign檔案總管的節點：
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
@@ -50,4 +50,4 @@ ht-degree: 2%
                 </container>
 ```
 
-Adobe Campaign的輸入表單個性化是專家用戶保留的。
+Adobe Campaign中的輸入表單個人化已保留給專家使用者。

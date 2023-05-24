@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 配置篩選規則
-description: 瞭解如何配置篩選規則
+title: 設定篩選規則
+description: 瞭解如何設定篩選規則
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
@@ -13,85 +13,85 @@ ht-degree: 1%
 
 # 篩選規則{#filtering-rules}
 
-使用篩選規則根據查詢中定義的條件選擇要排除的消息。 這些規則連結到目標維。
+使用篩選規則，根據查詢中定義的條件來選取要排除的訊息。 這些規則會連結至目標維度。
 
-過濾規則可以連結到其他類型的規則（控制、壓力等） 或按專用 **篩選** 類型學。 [了解更多](#create-and-use-a-filtering-typology)。
+篩選規則可以連結到其他型別的規則（控制、壓力等） 在型別中，或分組在專用的 **篩選** 型別。 [了解更多](#create-and-use-a-filtering-typology)。
 
 ## 建立篩選規則 {#create-a-filtering-rule}
 
-例如，您可以過濾新聞稿訂閱者，以防止將通信發送給未達到法定年齡的收件人。
+例如，您可以篩選新聞稿訂閱者，以防止將通訊傳送給未成年收件者。
 
-要定義此篩選器，請應用以下步驟：
+若要定義此篩選器，請套用下列步驟：
 
-1. 瀏覽到 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 市場活動展示器的資料夾，然後按一下 **新建** 表徵圖以建立類型規則。
-1. 建立 **[!UICONTROL Filtering]** 適用於所有渠道的類型規則。
+1. 瀏覽至 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** Campaign匯出程式的資料夾，然後按一下 **新增** 圖示以建立型別規則。
+1. 建立 **[!UICONTROL Filtering]** 適用於所有管道的型別規則。
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. 從 **篩選** 頁籤將預設目標維更改為 **訂閱** (**nms：訂閱**)。
+1. 從 **篩選** 索引標籤將預設目標維度變更為 **訂閱** (**nms：subscription**)。
 
    ![](assets/campaign_opt_create_filter_02.png)
 
-1. 使用 **[!UICONTROL Edit the query from the targeting dimension...]** 的子菜單。
+1. 使用建立篩選器 **[!UICONTROL Edit the query from the targeting dimension...]** 連結。
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. 在收件人年齡上篩選並保存篩選條件。
+1. 篩選收件者年齡並儲存篩選條件。
 
    ![](assets/campaign_opt_create_filter_03b.png)
 
-1. 從 **類型** 頁籤，將此規則連結到市場活動類型並保存。
+1. 從 **型別** 標籤，將此規則連結至行銷活動型別並儲存。
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-當此規則在交貨中使用時，未達到要求的訂戶將自動排除。 特定消息指明應用規則的時間：
+在傳送中使用此規則時，系統會自動排除未成年訂閱者。 特定訊息會指出何時套用規則：
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## 條件篩選規則 {#condition-a-filtering-rule}
+## 設定篩選規則的條件 {#condition-a-filtering-rule}
 
-您可以基於連結的交貨或交貨大綱來限制篩選規則的應用程式欄位。
+您可以根據連結的傳遞或傳遞大網限制篩選規則的應用程式欄位。
 
-要執行此操作，請轉到 **[!UICONTROL General]** 頁籤，選擇要應用的限制類型並建立篩選器。
+若要這麼做，請前往 **[!UICONTROL General]** 型別規則的索引標籤中，選取要套用的限制型別並建立篩選器。
 <!--
 ![](assets/campaign_opt_create_filter_06.png)
 -->
 
 
-在這種情況下，即使規則連結到所有交貨，它也將只應用於那些與定義的篩選器的標準相匹配的交貨。
+在此情況下，即使規則已連結至所有傳送，它只會套用至符合所定義篩選條件的那些傳送。
 
 >[!NOTE]
 >
->類型和篩選規則可用於工作流， **[!UICONTROL Delivery outline]** 的子菜單。 [了解更多](../workflow/delivery-outline.md)。
+>型別與篩選規則可用於工作流程中，位於 **[!UICONTROL Delivery outline]** 活動。 [了解更多](../workflow/delivery-outline.md)。
 
-## 建立和使用篩選類型 {#create-and-use-a-filtering-typology}
+## 建立和使用篩選型別 {#create-and-use-a-filtering-typology}
 
-您可以建立 **[!UICONTROL Filtering]** 類型：它們只包含過濾規則。
+您可以建立 **[!UICONTROL Filtering]** 型別：僅包含篩選規則。
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-選擇目標後，這些特定類型可以連結到傳遞：在交付嚮導中，按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Exclusions]** 頁籤。
+選取目標時，這些特定型別可以連結至傳遞：在傳遞精靈中，按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Exclusions]** 標籤。
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
-然後選擇要應用於遞送的過濾類型。 要執行此操作，請按一下 **[!UICONTROL Add]** 按鈕並選擇要應用的類型。
+然後選取要套用至傳遞的篩選型別。 若要這麼做，請按一下 **[!UICONTROL Add]** 按鈕並選取要套用的型別。
 
-您也可以通過此頁籤直接連結過濾規則，而不將其按類型分組。 為此，請使用窗口的下部。
+您也可以透過此索引標籤直接連結篩選規則，而不需將其歸類到型別中。 要執行此操作，請使用視窗的下半部。
 
 ![](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >
->選擇窗口中只有類型和篩選規則可用。
+>只有型別和篩選規則可在選取視窗中使用。
 >
->這些配置可以在交貨模板中定義，以便自動應用於使用該模板建立的所有新交貨。
+>這些設定可在傳遞範本中定義，以自動套用至使用範本建立的所有新傳遞。
 
-## 預設可交付性排除規則 {#default-deliverability-exclusion-rules}
+## 預設傳遞能力排除規則 {#default-deliverability-exclusion-rules}
 
-預設情況下，有兩個篩選規則可用： **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** )。 在電子郵件分析期間，這些規則將收件人電子郵件地址與包含在可傳送性實例中管理的加密全局禁止清單中的禁止地址或域名進行比較。 如果存在匹配項，則不會將消息發送到該收件人。
+預設提供兩種篩選規則： **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** )和 **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** )。 在電子郵件分析期間，這些規則會將收件者電子郵件地址與傳送能力執行個體中管理的加密全域隱藏清單中所包含的禁止地址或網域名稱進行比較。 如果有相符專案，則不會傳送訊息給該收件者。
 
-這是為了避免由於惡意活動而被添加到密鑰清單，特別是使用垃圾郵件陷阱。 例如，如果使用Spamtrap通過您的一個Web表單訂閱，則會自動向該Spamtrap發送確認電子郵件，這將導致您的地址被自動添加到密鑰清單中。
+這是為了避免因惡意活動（尤其是使用Spamtrap）而新增至封鎖清單。 例如，如果使用Spamtrap透過您的其中一個Web表單進行訂閱，則會自動傳送確認電子郵件給該Spamtrap，而您的地址會自動新增至封鎖清單中。
 
 >[!NOTE]
 >
->全局隱藏清單中包含的地址和域名將被隱藏。 在傳遞分析日誌中只指示排除的收件人數。
+>全域隱藏清單中包含的地址和網域名稱會隱藏。 傳遞分析記錄檔中只會指出已排除的收件者數目。

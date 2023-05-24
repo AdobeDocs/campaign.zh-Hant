@@ -1,6 +1,6 @@
 ---
-title: 市場活動安全最佳做法
-description: 開始使用活動安全最佳做法
+title: Campaign安全性最佳實務
+description: 開始使用Campaign安全性最佳做法
 feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -12,49 +12,49 @@ ht-degree: 1%
 
 ---
 
-# 市場活動安全最佳做法 {#ac-security}
+# Campaign安全性最佳實務 {#ac-security}
 
-在Adobe，我們非常重視您的數字型驗的安全性。 安全做法已深深紮根於我們的內部軟體開發以及操作流程和工具中，我們的跨職能團隊也嚴格遵循這些做法，以便以權宜的方式預防、檢測和響應事件。
+Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入我們的內部軟體開發和作業流程和工具，我們的跨職能團隊也嚴格遵循這些實務准則，以迅速預防、偵測和回應事件。
 
-此外，我們與合作夥伴、領先研究人員、安全研究機構和其他行業組織的協作有助於我們及時瞭解最新的威脅和漏洞，並且我們定期將先進的安全技術納入我們提供的產品和服務中。
+此外，我們與合作夥伴、領先的研究人員、安全性研究機構和其他產業組織締結合作關係，協助我們掌握最新的威脅和弱點，並定期將進階安全性技術整合至我們提供的產品和服務中。
 
 ## 隱私權
 
-隱私配置和強化是安全優化的關鍵。 以下是有關隱私的一些最佳做法：
+隱私權設定和強化是安全性最佳化的關鍵元素。 以下是隱私權方面的一些最佳實務：
 
-* Protect您的客戶個人資訊(PI)，使用HTTPS而不是HTTP
-* 使用 [PI視圖限制](../dev/restrict-pi-view.md) 保護隱私並防止資料被誤用
-* 確保加密密碼受限
-* Protect可能包含鏡像頁面、Web應用程式等個人資訊的頁面。
+* 使用HTTPS而非HTTPProtect您的客戶個人資訊(PI)
+* 使用 [PI檢視限制](../dev/restrict-pi-view.md) 以保護隱私權並防止資料被濫用
+* 請確定加密的密碼受到限制
+* Protect可能包含個人資訊的頁面，例如映象頁面、網頁應用程式等。
 
-![](../assets/do-not-localize/speech.png)  作為受管理Cloud Services用戶，Adobe將與您協作，在您的環境中實施這些配置。
+![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Services」使用者，Adobe將與您合作，在您的環境中實作這些設定。
 
 
 ## 存取管理
 
-訪問管理是加強安全性的一個重要部分。 以下是一些主要的最佳做法：
+存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
 
-* 建立足夠的安全組
-* 檢查每個操作員是否具有適當的訪問權限
+* 建立足夠的安全性群組
+* 檢查每個操作員是否有適當的存取許可權
 
-瞭解有關中權限的詳細資訊 [此部分](../start/gs-permissions.md)
+進一步瞭解中的許可權 [本節](../start/gs-permissions.md)
 
 ## 編碼准則
 
-在Adobe Campaign開發時（工作流、Javascript、JSSP等），請始終遵循以下准則：
+在Adobe Campaign中進行開發時（工作流程、Javascript、JSSP等），請務必遵循下列准則：
 
-* **指令碼**:嘗試避免使用SQL陳述式，使用參數化函式而不是字串連接，通過將要使用的SQL函式添加到允許清單來避免SQL注入。
+* **指令碼**：請嘗試避免SQL陳述式，使用引數化函式而非字串串串連，透過將要使用的SQL函式新增至允許清單來避免SQL插入。
 
-* **保護資料模型**:使用命名權限限制運算子操作，添加系統篩選器(sysFilter)
+* **保護資料模型**：使用已命名的許可權來限制運運算元動作、新增系統篩選器(sysFilter)
 
-* **在Web應用程式中添加捕獲**:在公共登錄頁和訂閱頁中添加captcha。
+* **在網頁應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增標題。
 
-![](../assets/do-not-localize/book.png) 瞭解詳情 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) 進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
 
 
 ## 個人化
 
-在向內容添加個性化連結時，始終避免在URL的主機名部分中出現任何個性化設定，以避免潛在的安全漏洞。 以下示例不應用於所有URL屬性&lt;`a href="">` 或 `<img src="">`:
+將個人化連結新增至您的內容時，請一律避免URL的主機名稱部分有任何個人化，以避免潛在的安全性缺口。 切勿在所有URL屬性中使用下列範例&lt;`a href="">` 或 `<img src="">`：
 
 * `<%= url >`
 * `https://<%= url >`
@@ -64,19 +64,19 @@ ht-degree: 1%
 
 ## 資料限制
 
-您必須確保低權限的經過身份驗證的用戶無法訪問加密的密碼。 要做到這一點，主要有兩種方式：僅限制對密碼欄位或對整個實體的訪問。
+您必須確保低許可權驗證的使用者無法存取加密的密碼。 要執行此操作，有兩個主要方法：限制僅存取密碼欄位或存取整個實體。
 
-此限制允許您刪除密碼欄位，但允許所有用戶從介面訪問外部帳戶。 在[本頁](../dev/restrict-pi-view.md)中瞭解更多。
+此限制可讓您移除密碼欄位，但讓所有使用者都可從介面存取外部帳戶。 在[本頁](../dev/restrict-pi-view.md)中瞭解更多。
 
-1. 進去 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
-1. 新建 **[!UICONTROL Extension of a schema]**。
+1. 建立新的 **[!UICONTROL Extension of a schema]**.
 
-1. 選擇 **[!UICONTROL External Account]** （分機帳戶）。
+1. 選擇 **[!UICONTROL External Account]** (extAccount)。
 
-1. 在最後一個螢幕中，您可以編輯新srcSchema以限制對所有密碼欄位的訪問：
+1. 在最後一個畫面中，您可以編輯新的srcSchema來限制存取所有密碼欄位：
 
-   可以替換主元素(`<element name="extAccount" ... >`)依據：
+   您可以取代主要元素(`<element name="extAccount" ... >`)方式：
 
    ```
    <element name="extAccount">
@@ -97,7 +97,7 @@ ht-degree: 1%
    </element>
    ```
 
-   因此，擴展的srcSchema可以是：
+   所以您的延伸srcSchema看起來可能像這樣：
 
    ```
    <...>
@@ -122,26 +122,26 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >可以替換 `$(loginId) = 0 or $(login) = 'admin'` 按 `hasNamedRight('admin')` 允許具有管理員權限的所有用戶查看這些密碼。
+   >您可以取代 `$(loginId) = 0 or $(login) = 'admin'` 作者： `hasNamedRight('admin')` 讓所有具有管理員許可權的使用者都能看到這些密碼。
 
 
 ## 存取管理
 
-訪問管理是加強安全性的一個重要部分。 以下是一些主要的最佳做法：
+存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
 
-* 建立足夠的安全組
-* 檢查每個操作員是否具有適當的訪問權限
+* 建立足夠的安全性群組
+* 檢查每個操作員是否有適當的存取許可權
 
-瞭解有關中權限的詳細資訊 [此部分](../start/gs-permissions.md)。
+進一步瞭解中的許可權 [在本節中](../start/gs-permissions.md).
 
 ## 編碼准則
 
-在Adobe Campaign開發時（工作流、Javascript、JSSP等），請始終遵循以下准則：
+在Adobe Campaign中進行開發時（工作流程、Javascript、JSSP等），請務必遵循下列准則：
 
-* **指令碼**:嘗試避免使用SQL陳述式，使用參數化函式而不是字串連接，通過將要使用的SQL函式添加到允許清單來避免SQL注入。
+* **指令碼**：請嘗試避免SQL陳述式，使用引數化函式而非字串串串連，透過將要使用的SQL函式新增至允許清單來避免SQL插入。
 
-* **保護資料模型**:使用命名權限限制運算子操作，添加系統篩選器(sysFilter)
+* **保護資料模型**：使用已命名的許可權來限制運運算元動作、新增系統篩選器(sysFilter)
 
-* **在Web應用程式中添加捕獲**:在公共登錄頁和訂閱頁中添加captcha。
+* **在網頁應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增標題。
 
-![](../assets/do-not-localize/book.png) 瞭解詳情 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) 進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}

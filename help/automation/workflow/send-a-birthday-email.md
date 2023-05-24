@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 傳送生日電子郵件
-description: 瞭解如何使用工作流發送生日電子郵件
+description: 瞭解如何使用工作流程傳送生日電子郵件
 feature: Workflows
 exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -13,43 +13,43 @@ ht-degree: 2%
 
 # 傳送生日電子郵件{#sending-a-birthday-email}
 
-此使用案例介紹如何計畫在收件人生日當天向其清單發送定期電子郵件。
+此使用案例說明如何規劃在收件者生日當天傳送循環電子郵件給收件者清單。
 
-要設定此用例，我們建立了以下目標工作流：
+為了設定此使用案例，我們建立了以下目標定位工作流程：
 
 ![](assets/birthday-workflow_usecase_1.png)
 
-此（每日運行）工作流選擇在當前日期具有其生日的所有收件人。
+此（每日執行）工作流程會選取在目前日期生日的所有收件者。
 
-為此，請建立市場活動並添加 [活動工作流](campaign-workflows.md)。
+若要這麼做，請建立行銷活動並新增 [行銷活動工作流程](campaign-workflows.md).
 
-然後，按照下面詳述的步驟操作。
+然後遵循以下詳述的步驟操作。
 
-## 標識生日的收件人 {#identifying-recipients-whose-birthday-it-is}
+## 識別其生日為的收件者 {#identifying-recipients-whose-birthday-it-is}
 
-配置 **[!UICONTROL Scheduler]** 活動，以便工作流每天啟動，確定其出生日期等於當前日期的所有收件人。
+設定之後 **[!UICONTROL Scheduler]** 活動讓工作流程每天開始，識別其出生日期等於目前日期的所有收件者。
 
 若要這麼做，請套用下列步驟：
 
-1. 拖放 **[!UICONTROL Query]** 並按兩下它。
-1. 按一下 **編輯查詢** 連結和選擇 **[!UICONTROL Filtering conditions]**。
+1. 拖放 **[!UICONTROL Query]** 活動並連按兩下工作流程。
+1. 按一下 **編輯查詢** 連結並選取 **[!UICONTROL Filtering conditions]**.
 
    ![](assets/s_ncs_user_create_exp_exple00.png)
 
-1. 按一下 **[!UICONTROL Expression]** 列，按一下 **[!UICONTROL Edit expression]** 開啟表達式編輯器。
+1. 按一下第一個儲存格 **[!UICONTROL Expression]** 欄並按一下 **[!UICONTROL Edit expression]** 以開啟運算式編輯器。
 
    ![](assets/s_ncs_user_create_exp_exple.png)
 
-1. 按一下 **[!UICONTROL Advanced selection]** 的子菜單。
+1. 按一下 **[!UICONTROL Advanced selection]** 以選取篩選模式。
 
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
-1. 選擇 **[!UICONTROL Edit the formula using an expression]** 按一下 **[!UICONTROL Next]** 顯示表達式編輯器。
-1. 在函式清單中，按兩下 **[!UICONTROL Day]**，可通過 **[!UICONTROL Date]** 的下界。 此函式返回表示與作為參數傳遞的日期相對應的日期的數字。
+1. 選取 **[!UICONTROL Edit the formula using an expression]** 並按一下 **[!UICONTROL Next]** 以顯示運算式編輯器。
+1. 在函式清單中，按兩下 **[!UICONTROL Day]**，可透過 **[!UICONTROL Date]** 節點。 此函式傳回的數字，代表以引數形式傳遞之日期對應的日期。
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. 在可用欄位清單中，按兩下 **[!UICONTROL Birth date]**。 然後，編輯器的上部分顯示以下公式：
+1. 在可用欄位清單中，按兩下 **[!UICONTROL Birth date]**. 然後編輯器的上方區段會顯示下列公式：
 
    ```
    Day(@birthDate)
@@ -57,17 +57,17 @@ ht-degree: 2%
 
    按一下 **[!UICONTROL Finish]** 確認。
 
-1. 在查詢編輯器中，在 **[!UICONTROL Operator]** 列，選擇 **[!UICONTROL equal to]**。
+1. 在查詢編輯器中， **[!UICONTROL Operator]** 欄，選取 **[!UICONTROL equal to]**.
 
    ![](assets/s_ncs_user_create_exp_exple02.png)
 
-1. 接下來，按一下第二列的第一個單元格(**[!UICONTROL Value]**)，然後按一下 **[!UICONTROL Edit expression]** 開啟表達式編輯器。
-1. 在函式清單中，按兩下 **[!UICONTROL Day]**，可通過 **[!UICONTROL Date]** 的下界。
-1. 按兩下 **[!UICONTROL GetDate]** 函式。
+1. 接著，按一下第二欄的第一個儲存格(**[!UICONTROL Value]**)，然後按一下 **[!UICONTROL Edit expression]** 以開啟運算式編輯器。
+1. 在函式清單中，按兩下 **[!UICONTROL Day]**，可透過 **[!UICONTROL Date]** 節點。
+1. 連按兩下 **[!UICONTROL GetDate]** 函式以擷取目前日期。
 
    ![](assets/s_ncs_user_create_exp_exple04.png)
 
-   編輯器的上部分顯示以下公式：
+   編輯器的上方區段會顯示下列公式：
 
    ```
    Day(GetDate())
@@ -75,49 +75,49 @@ ht-degree: 2%
 
    按一下 **[!UICONTROL Finish]** 確認。
 
-1. 重複此步驟以檢索與當前月份對應的出生月份。 要執行此操作，請按一下 **[!UICONTROL Add]** 按鈕並重複步驟3到10，替換 **[!UICONTROL Day]** 與 **[!UICONTROL Month]**。
+1. 重複此程式以擷取與目前月份對應的出生月份。 若要這麼做，請按一下 **[!UICONTROL Add]** 按鈕並重複步驟3至10，取代 **[!UICONTROL Day]** 替換為 **[!UICONTROL Month]**.
 
-   完整查詢如下所示：
+   完整的查詢如下：
 
    ![](assets/s_ncs_user_create_exp_exple03.png)
 
-連結 **[!UICONTROL Query]** 活動 **[!UICONTROL Email delivery]** 的子菜單。
+連結的結果 **[!UICONTROL Query]** 活動至 **[!UICONTROL Email delivery]** 活動，在您所有收件者的生日當天傳送電子郵件至其清單。
 
-## 包括2月29日出生的收件人（可選） {#including-recipients-born-on-february-29th--optional-}
+## 包含2月29日出生的收件者（選擇性） {#including-recipients-born-on-february-29th--optional-}
 
-如果要包括2月29日出生的所有收件人，此使用案例將介紹如何計畫將定期電子郵件發送到其生日收件人清單 — 無論這是否是閏年。
+如果您想要包含所有在2月29日出生的收件者，此使用案例會說明如何計畫傳送循環電子郵件給生日收件者清單 — 無論是否為閏年。
 
-此使用案例的主要實施步驟是：
+此使用案例的主要實施步驟為：
 
-* 選擇收件人
-* 選擇它是否是閏年
-* 選擇2月29日出生的任何收件人
+* 選取收件者
+* 選取是否為閏年
+* 選取2月29日出生的任何收件者
 
-要設定此用例，我們建立了以下目標工作流：
+為了設定此使用案例，我們建立了以下目標定位工作流程：
 
 
 
-如果當前年份 **不是閏年** 工作流在3月1日運行，我們需要選擇昨天（2月29日）已過生日的所有收件人，並將它們添加到收件人清單中。 在任何其他情況下，都不需要採取其他行動。
+若為本年度 **不是閏年** 而工作流程會在3月1日執行，因此我們需要選取昨日（2月29日）生日的所有收件者，並將其新增至收件者清單。 在任何其他情況下，都不需要執行其他動作。
 
-### 步驟1:選擇收件人 {#step-1--selecting-the-recipients}
+### 步驟1：選取收件者 {#step-1--selecting-the-recipients}
 
-配置 **[!UICONTROL Scheduler]** 活動，以便工作流每天啟動，確定其週年日為當天的所有收件人。
+設定之後 **[!UICONTROL Scheduler]** 活動以便工作流程每天開始，識別其週年是當天的所有收件者。
 
 >[!NOTE]
 >
->如果本年是閏年，則所有2月29日出生的受贈人都將自動包括在內。
+>如果今年是閏年，則會自動納入所有在2月29日出生的收件者。
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-選擇其生日與當前日期對應的收件人 [標識生日的收件人](#identifying-recipients-whose-birthday-it-is) 的子菜單。
+如果選取的收件者生日符合目前日期，系統會顯示在 [識別其生日為的收件者](#identifying-recipients-whose-birthday-it-is) 區段。
 
-### 步驟2:選擇它是否是閏年 {#step-2--select-whether-or-not-it-is-a-leap-year}
+### 步驟2：選取是否為閏年 {#step-2--select-whether-or-not-it-is-a-leap-year}
 
-的 **[!UICONTROL Test]** 活動允許您檢查它是否是閏年以及當前日期是否為3月1日。
+此 **[!UICONTROL Test]** 活動可讓您檢查是否為閏年，以及目前的日期是否為3月1日。
 
-如果test被證實（年不是閏年 — 沒有2月29日 — 而當前日期的確是3月1日）, **[!UICONTROL True]** 過渡已啟用，2月29日出生的收件人將添加到3月1日的遞送。 否則， **[!UICONTROL False]** 轉換已啟用，並且只有在當前日期出生的收件人才會收到遞送。
+如果測試通過驗證（該年不是閏年 — 沒有2月29日 — 並且目前日期確實是3月1日）， **[!UICONTROL True]** 轉換已啟用，並將於2月29日出生的收件者新增至3月1日的傳遞。 否則， **[!UICONTROL False]** 轉換已啟用，只有生於目前日期的收件者會收到傳遞。
 
-將下面的代碼複製並貼上到 **[!UICONTROL Initialization script]** 的下界 **[!UICONTROL Advanced]** 頁籤。
+將下列程式碼複製並貼到 **[!UICONTROL Initialization script]** 部分 **[!UICONTROL Advanced]** 標籤。
 
 ```
 function isLeapYear(iYear)
@@ -163,7 +163,7 @@ vars.firstOfMarch = 1;
 
 ![](assets/birthday-workflow_usecase_3.png)
 
-在 **[!UICONTROL Conditional forks]** 部分：
+將下列條件新增至 **[!UICONTROL Conditional forks]** 區段：
 
 ```
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
@@ -171,26 +171,26 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 ![](assets/birthday-workflow_usecase_4.png)
 
-### 第3步：選擇2月29日出生的所有收件人 {#step-3--select-any-recipients-born-on-february-29th}
+### 步驟3：選取2月29日出生的任何收件者 {#step-3--select-any-recipients-born-on-february-29th}
 
-建立 **[!UICONTROL Fork]** 活動並將其中一個出站轉換連結到 **[!UICONTROL Query]** 的子菜單。
+建立 **[!UICONTROL Fork]** 活動並將其中一個出站轉變連結至 **[!UICONTROL Query]** 活動。
 
-在此查詢中，選擇出生日期為2月29日的所有收件人。
+在此查詢中，選取出生日期為2月29日的所有收件者。
 
 ![](assets/birthday-workflow_usecase_5.png)
 
-將結果與 **[!UICONTROL Union]** 的子菜單。
+將結果與 **[!UICONTROL Union]** 活動。
 
-連結兩者的結果 **[!UICONTROL Test]** 活動分支到 **[!UICONTROL Email delivery]** 活動，在所有收件人的生日當天向清單發送電子郵件，甚至是在2月29日出生的那些人。
+連結兩個專案的結果 **[!UICONTROL Test]** 活動分支到 **[!UICONTROL Email delivery]** 活動，在收件者的生日當天傳送電子郵件給所有收件者清單，甚至包括在2月29日非閏年出生的收件者。
 
-## 建立循環交貨 {#creating-a-recurring-delivery-in-a-targeting-workflow}
+## 建立循環傳遞 {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
-添加 **循環交付** 基於要發送的生日電子郵件模板的活動。
+新增 **循環傳遞** 活動根據您要傳送的生日電子郵件範本。
 
 >[!CAUTION]
 >
->要執行工作流，必須啟動與市場活動包相關的技術工作流。 有關詳細資訊，請參閱 [技術工作流清單](technical-workflows.md) 的子菜單。
+>若要執行工作流程，必須啟動與Campaign套件相關的技術工作流程。 如需詳細資訊，請參閱 [技術工作流程清單](technical-workflows.md) 區段。
 >
->如果為市場活動啟用了審批步驟，則只有在確認這些步驟後才會發送交貨。 有關詳細資訊，請參閱一節。
+>如果已為行銷活動啟用核准步驟，則只有在確認這些步驟後，才會傳送傳送。 如需詳細資訊，請參閱區段。
 
 ![](assets/birthday-workflow_usecase_1.png)

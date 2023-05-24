@@ -90,6 +90,6 @@ Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視�
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [瞭解有關市場活動控制面板的詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
+![](../assets/do-not-localize/glass.png) [深入瞭解Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
 
 

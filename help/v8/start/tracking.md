@@ -1,6 +1,6 @@
 ---
-title: 開始使用跟蹤和監視功能
-description: 開始使用跟蹤和監視功能
+title: 開始使用追蹤和監控功能
+description: 開始使用追蹤和監控功能
 feature: Monitoring
 role: User
 level: Beginner, Intermediate
@@ -12,123 +12,123 @@ ht-degree: 18%
 
 ---
 
-# 跟蹤和監視消息{#gs-ac-reports}
+# 追蹤和監控訊息{#gs-ac-reports}
 
-## 市場活動中的跟蹤功能
+## Campaign中的追蹤功能
 
-市場活動跟蹤功能可跟蹤發送的郵件並幫助您分析收件人的行為：開啟、按一下連結、訂閱/取消訂閱等。 您可以訪問專用日誌、報告和度量、查詢資料庫以查看收集的資料等。
+行銷活動追蹤功能會追蹤傳送的訊息，並協助您分析收件者的行為：開啟、點選連結、訂閱/取消訂閱等。 您可以存取專用的記錄、報表和量度、查詢資料庫以檢閱收集的資料等。
 
 如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
 
-傳送控制板是監控傳送和發送消息過程中可能出現的問題的關鍵工具。
+傳遞儀表板是在傳送訊息期間監視傳遞和潛在問題的關鍵工具。
 
-有關詳細資訊，請參閱 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}。
+如需詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}.
 
-下面列出了市場活動中可用的關鍵跟蹤功能。
+以下列出Campaign中可用的重要追蹤功能。
 
 ### 訊息追蹤 {#message-tracking}
 
 <img src="assets/do-not-localize/icon-message-tracking.svg" width="60px">
 
-**跟蹤的連結**
+**追蹤的連結**
 
-您可以跟蹤消息的接收和消息內容中插入的連結的激活情況，以便更好地瞭解收件人的行為。
+您可以追蹤訊息是否收到，以及郵件內容中所插入連結的啟用情況，以便更清楚瞭解收件者的行為。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages) 中深入瞭解{target="_blank"}
 
-**URL跟蹤**
+**URL追蹤**
 
-可以通過激活或停用跟蹤的URL來配置跟蹤選項。
+追蹤選項可透過啟用或停用追蹤的URL來設定。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages) 中深入瞭解{target="_blank"}
 
 
-**跟蹤連結個性化**
+**追蹤的連結個人化**
 
-市場活動跟蹤功能允許您在電子郵件中添加可個性化且支援跟蹤的連結。
+行銷活動追蹤功能可讓您在電子郵件中新增可個人化且支援追蹤的連結。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages) 中深入瞭解{target="_blank"}
 
 **追蹤記錄**
 
-的 **跟蹤** 技術工作流在發送並激活跟蹤後檢索跟蹤資料。 此資料可在您交貨的「跟蹤」頁籤中找到。
+此 **追蹤** 傳送並啟用追蹤後，技術工作流程會擷取追蹤資料。 此資料可在傳遞的「追蹤」標籤中找到。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages) 中深入瞭解{target="_blank"}
 
 **測試追蹤**
 
-在通過跟蹤發送郵件之前，您可以在鏡像頁面、電子郵件日誌和連結上test跟蹤。
+在使用追蹤傳送訊息之前，您可以在映象頁面、電子郵件記錄檔和連結上測試追蹤。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages) 中深入瞭解{target="_blank"}
 
-### Web應用程式跟蹤 {#web-application-tracking}
+### 網路應用程式追蹤 {#web-application-tracking}
 
 <img src="assets/do-not-localize/icon-web-app.svg" width="60px">
 
 **追蹤 Web 應用程式**
 
-您還可以使用跟蹤標籤跟蹤和測量Web應用程式頁面上的訪問。 此功能可用於所有Web應用程式類型，如表單和線上調查。
+您也可以追蹤和測量具有追蹤標籤的網頁應用程式頁面上的造訪次數。 此功能可用於所有Web應用程式型別，例如表單和線上調查。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content) 中深入瞭解{target="_blank"}
 
 **網站應用程式追蹤選擇退出**
 
-Web應用程式跟蹤選擇退出使您能夠停止跟蹤選擇退出行為跟蹤的最終用戶的Web行為。 您可以將橫幅廣告顯示到Web應用程式或登錄頁中，從而允許用戶選擇退出。
+選擇退出網站應用程式追蹤可讓您停止追蹤選擇退出行為追蹤之一般使用者的網站行為。 您可以在網頁應用程式或登入頁面中加入顯示橫幅的功能，讓使用者選擇退出。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content) 中深入瞭解{target="_blank"}
 
-### 跟蹤報告 {#tracking-reports}
+### 追蹤報表 {#tracking-reports}
 
 <img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
 **追蹤統計資料**
 
-此報表提供有關開啟、按一下和交易記錄的統計資訊，並允許您跟蹤交貨的市場影響。
+此報表提供有關開啟、點按和交易的統計資料，並讓您追蹤傳送對行銷的影響。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports) 中深入瞭解{target="_blank"}
 
 **URL 和點按流**
 
-此報告顯示交貨後訪問的頁的清單。
+此報表顯示傳送後瀏覽的頁面清單。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams) 中深入瞭解{target="_blank"}
 
 **人員與收件者**
 
-通過此示例，更好地瞭解Adobe Campaign的人員/人員和接收者之間的跟蹤差異。
+透過此範例，更能瞭解Adobe Campaign中個人/人員與收件者之間的追蹤差異。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting) 中深入瞭解{target="_blank"}
 
 **追蹤指標**
 
-此報告合併了用於在接收到傳送時跟蹤收件人行為的主要指標，如開啟、點擊率和按一下流。
+此報表結合關鍵指標，用於追蹤收件者在收到傳遞時的行為，例如開啟、點進率和點進資料流。
 
 [在 Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting) 中深入瞭解{target="_blank"}
 
 **指示器計算**
 
-不同的表根據交貨類型為您提供不同報表中使用的指示符清單及其計算公式。
+不同的表格會根據傳遞型別，提供不同報告中使用的指標清單及其計算公式。
 
 [了解更多](../reporting/metrics-calculation.md)
 
 ## 監視指南
 
-Adobe Campaign提供了一組功能來監控您的流程和環境。
+Adobe Campaign提供一組可監控您的流程和環境的功能。
 
-### 監視您的交貨
+### 監視您的傳遞
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 
 
-瞭解有關發送交貨後可以監視的資訊的更多資訊，瞭解如何在中管理交貨失敗和隔離 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target="_blank"}
+深入瞭解傳送傳遞後可監控的資訊，並瞭解如何在中管理傳遞失敗和隔離 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target="_blank"}
 
-### 監視工作流
+### 監視您的工作流程
 
-瞭解如何在中監視工作流執行 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+瞭解如何在中監視工作流程執行 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-### 監視實例
+### 監視您的執行個體
 
-實例監視准則可在 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
+執行個體監視准則位於 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
 
-使用「審核跟蹤」自助服務介面監視在實例中所做的更改。 審核跟蹤即時捕獲在您的Adobe Campaign實例中發生的操作和事件的綜合清單。 您可以訪問資料歷史記錄以幫助回答以下問題：您的工作流發生了什麼，上次更新工作流的人員或用戶在實例中做了什麼。
+使用稽核軌跡自助式介面來監視執行處理中所做的變更。 稽核軌跡可以即時擷取Adobe Campaign執行個體中發生之動作和事件的完整清單。 您可以存取資料歷史記錄，以協助回答下列問題：您的工作流程有什麼改變、上次更新的人是誰，或您的使用者在執行個體中做了什麼。
 
-瞭解有關中的審核跟蹤的更多資訊  [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+進一步瞭解中的稽核軌跡  [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}

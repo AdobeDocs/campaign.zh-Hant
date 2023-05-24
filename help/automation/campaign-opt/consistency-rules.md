@@ -13,106 +13,106 @@ ht-degree: 4%
 
 # 一致性規則{#consistency-rules}
 
-Adobe Campaign通過競選類型中的一套規則，保證溝通一致。 其目的是控制送給接收者的遞送，如數量、性質、相關性等。
+Adobe Campaign藉由行銷活動型別中所包含的一組規則，確保通訊的一致性。 其目的是控制傳送給收件者的傳送內容，例如數量、性質、相關性等。
 
-**容量** 例如，規則可以避免消息傳遞所涉及的平台過載。 例如，不能同時將包含下載連結的特殊優惠發送給太多人，以免伺服器飽和；電話活動不得超過呼叫中心的處理能力等。
+**容量** 例如，規則可以避免訊息傳遞所關注的平台過載。 舉例來說，包含下載連結的特殊優惠方案不得一次傳送給太多人員，以免伺服器耗盡；電話促銷活動不得超出客服中心的處理能力等。
 
 ## 控制容量 {#control-capacity}
 
-在傳遞消息之前，您需要確保您的組織具有處理傳遞（物理基礎架構）、傳遞可能生成的響應（入站消息）以及要與訂閱者聯繫的呼叫數（呼叫中心處理能力）的能力。
+在傳遞訊息之前，您需要確保您的組織有能力處理傳遞（實體基礎結構）、傳遞可能產生的回應（傳入訊息），以及要聯絡訂閱者的通話次數（呼叫中心處理能力），例如。
 
-為此，您需要建立 **[!UICONTROL Capacity]** 分類規則。
+若要這麼做，您需要建立 **[!UICONTROL Capacity]** 型別規則。
 
-在以下示例中，我們為電話忠誠促銷活動建立了類型規則。 我們將消息數限制為每天20條，即呼叫中心的日處理能力。 一旦該規則應用於兩個交貨，我們就可以通過日誌來監控消耗量。
+在以下範例中，我們會為電話忠誠度行銷活動建立型別規則。 我們將訊息數量限製為每天20條，即客服中心的每日處理能力。 將規則套用至兩個傳送後，我們就能透過記錄檔監控耗用量。
 
-要設計新的容量規則，請執行以下步驟：
+若要設計新的容量規則，請遵循下列步驟：
 
-1. 在 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 資料夾，按一下 **[!UICONTROL New]**。
-1. 選擇 **[!UICONTROL Capacity]** 規則類型。
+1. 在 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 資料夾，按一下 **[!UICONTROL New]**.
+1. 選取 **[!UICONTROL Capacity]** 規則型別。
 
    ![](assets/campaign_opt_create_capacity_01.png)
 
-1. 在 **[!UICONTROL Capacity]** 頁籤，建立可用性行：在我們的示例中，這些是可進行調用的時間段。 選擇一個24小時的時段，並輸入初始數量150，這意味著呼叫中心每天可以處理150個呼叫。
+1. 在 **[!UICONTROL Capacity]** 標籤，建立可用性明細行：在我們的範例中，這些是可進行呼叫的時間期間。 選取24小時期間，並在初始數量中輸入150，這表示客服中心每天可以處理150個電話。
 
    ![](assets/campaign_opt_create_capacity_02.png)
 
    >[!NOTE]
    >
-   >可用性行僅供參考。 如果需要在達到容量限制時排除消息，請參閱 [此部分](#exclude-messages-when-capacity-limit-reached)。
+   >可用性明細行僅供參考。 如果您在達到容量限制時需要排除訊息，請參閱 [本節](#exclude-messages-when-capacity-limit-reached).
 
-1. 將此規則與類型關聯，然後將類型引用到交貨中以應用此容量規則。 如需詳細資訊，請參閱[本章節](apply-rules.md#apply-a-typology-to-a-delivery)。
-1. 您可以監視規則中的消耗量 **[!UICONTROL Consumptions]** 和 **[!UICONTROL Capacity]** 頁籤。
+1. 將此規則與型別建立關聯，然後將型別參考至您的傳遞以套用此容量規則。 如需詳細資訊，請參閱[本章節](apply-rules.md#apply-a-typology-to-a-delivery)。
+1. 您可以透過規則監控耗用量 **[!UICONTROL Consumptions]** 和 **[!UICONTROL Capacity]** 索引標籤。
 
-   在交貨中使用規則時， **[!UICONTROL Consumed]** 和 **[!UICONTROL Remaining]** 列提供有關負載的資訊，如下所示：
+   在傳送中使用規則時， **[!UICONTROL Consumed]** 和 **[!UICONTROL Remaining]** 欄會提供有關負載的資訊，如下所示：
 
    ![](assets/campaign_opt_create_capacity_03.png)
 
    如需詳細資訊，請參閱[本章節](#monitor-consumption)。
 
-## 定義最大載荷 {#define-the-maximum-load}
+## 定義最大負載 {#define-the-maximum-load}
 
-要定義最大負荷，需要定義可用性行。 為此，有兩個選項可用：您可以手動 [建立一個或多個可用性行](#add-availability-lines-one-by-one) 或建立可用性範圍。 這些時間段的頻率可以自動化。 [了解更多](#add-a-set-of-availability-lines)。
+若要定義最大負載，您必須定義可用性明細行。 要執行此操作，有兩個可用選項：您可以手動 [建立一或多個可用性行](#add-availability-lines-one-by-one) 或建立可用性範圍。 這些時段的頻率可以自動化。 [了解更多](#add-a-set-of-availability-lines)。
 
-### 逐行添加可用性行 {#add-availability-lines-one-by-one}
+### 逐一新增可用性行 {#add-availability-lines-one-by-one}
 
-要建立可用性行，請按一下 **[!UICONTROL Add]** 按鈕 **[!UICONTROL Add an availability line]**。 輸入可用期和可用負荷。
+若要建立可用性行，請按一下 **[!UICONTROL Add]** 按鈕並選取 **[!UICONTROL Add an availability line]**. 輸入可用性期間與可用載入。
 
 ![](assets/campaign_opt_create_capacity_02.png)
 
-根據需要添加多行以適應您的處理能力。
+視需要新增任意數量的明細行，以符合您的處理容量。
 
-### 添加一組可用性行 {#add-a-set-of-availability-lines}
+### 新增一組可用性行 {#add-a-set-of-availability-lines}
 
-要定義給定時間的可用性期間，請按一下 **[!UICONTROL Add]** 按鈕 **[!UICONTROL Add a set of availability lines]** 的雙曲餘切值。 指明每個時段的持續時間和要建立的時段數。
+若要定義指定時間的使用期間，請按一下 **[!UICONTROL Add]** 按鈕並選取 **[!UICONTROL Add a set of availability lines]** 選項。 指示每個時段的持續時間以及要建立的期間數。
 
-要自動化頁面建立頻率，請按一下 **[!UICONTROL Change]** 按鈕並定義時段計畫。
+若要自動建立頁面的頻率，請按一下 **[!UICONTROL Change]** 按鈕並定義期間排程。
 
 ![](assets/campaign_opt_create_capacity_07.png)
 
-例如，讓我們定義一個計畫，以每小時10次呼叫的速率在上午9點到下午5點之間為所有工作日建立可用性期間。 若要這麼做，請套用下列步驟：
+例如，我們定義一個排程，在上午9點至下午5點之間，以每小時10次呼叫的速率為所有工作日建立可用性期間。 若要這麼做，請套用下列步驟：
 
-1. 選擇週期類型及其有效的日期和時間：
+1. 選取週期型別以及有效天數與時數：
 
    ![](assets/campaign_opt_create_capacity_08.png)
 
-1. 指明有效日期：
+1. 指出有效日期：
 
    ![](assets/campaign_opt_create_capacity_09.png)
 
-1. 在批准前檢查計畫：
+1. 核准排程前，請先檢查該排程：
 
    ![](assets/campaign_opt_create_capacity_10.png)
 
-的 **[!UICONTROL Forecasting]** 工作流自動建立所有匹配行。
+此 **[!UICONTROL Forecasting]** 工作流程會自動建立所有相符行。
 
 ![](assets/campaign_opt_create_capacity_12.png)
 
 >[!NOTE]
 >
->我們建議通過檔案導入建立可用性行。 此標籤允許您查看和檢查衝減行。
+>建議您透過檔案匯入來建立可用性行。 此標籤可讓您檢視及檢查沖銷明細行。
 
-## 達到容量限制時排除消息 {#exclude-messages-when-capacity-limit-reached}
+## 達到容量限制時排除訊息 {#exclude-messages-when-capacity-limit-reached}
 
-可用性行僅供參考。 要排除多餘的消息，請檢查 **[!UICONTROL Exclude from the target messages in excess of capacity]** 的雙曲餘切值。 這防止超出容量。 對於與上例中相同的人口，消耗量和剩餘能力不得超過初始數量：
+可用性明細行僅供參考。 若要排除多餘的訊息，請檢查 **[!UICONTROL Exclude from the target messages in excess of capacity]** 選項。 這可防止超出容量。 對於與前一個範例相同的母體，沖銷與剩餘產能不可超過初始數量：
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-要處理的消息數將在定義的可用性範圍內平均細分。 這對呼叫中心尤其重要，因為其每天的最大呼叫數有限。 如果是電子郵件遞送， **[!UICONTROL Do not limit instantaneous delivery capacity]** 選項，您可以忽略此可用範圍並同時發送電子郵件。
+要處理的訊息數目會在定義的可用性範圍內平均劃分。 這尤其適用於客服中心，因為其每日的通話次數上限是有限的。 若是電子郵件傳送，請 **[!UICONTROL Do not limit instantaneous delivery capacity]** 選項可讓您忽略此可用性範圍，並同時傳送電子郵件。
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
 >[!NOTE]
 >
->在超載的情況下，根據在傳遞屬性中定義的公式來選擇保存的消息。
+>如果超載，系統會根據傳送屬性中定義的公式來選取已儲存的訊息。
 
 ![](assets/campaign_opt_create_capacity_06.png)
 
-## 監視消耗 {#monitoring-consumption}
+## 監控耗用量 {#monitoring-consumption}
 
-預設情況下，能力規則僅用於指示目的。 選擇 **[!UICONTROL Exclude messages in excess of capacity from the target]** 選項，以防止超出定義的負載。 在這種情況下，使用此類型規則將自動從交貨中排除多餘的消息。
+依預設，容量規則僅供指示之用。 選取 **[!UICONTROL Exclude messages in excess of capacity from the target]** 選項以防止超過定義的負載。 在此情況下，使用此型別規則的傳送會自動排除多餘的訊息。
 
-要監視消費，請查看在 **[!UICONTROL Consumed]** 列 **[!UICONTROL Capacity]** 的子菜單。
+若要監控消耗，請檢視以下專案中所顯示的值： **[!UICONTROL Consumed]** 的欄 **[!UICONTROL Capacity]** 索引標籤中選取的字元型別。
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-要查看衝減行，請按一下 **[!UICONTROL Consumptions]** 的子菜單。
+若要檢視沖銷明細行，請按一下 **[!UICONTROL Consumptions]** 標籤中選取「 」。

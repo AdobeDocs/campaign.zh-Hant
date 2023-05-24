@@ -13,98 +13,98 @@ ht-degree: 2%
 
 # 本地核准{#local-approval}
 
-整合到目標工作流時， **[!UICONTROL Local approval]** 「活動」(Activity)，用於在發送交貨之前設定收件人審批流程。
+整合至目標定位工作流程後， **[!UICONTROL Local approval]** 活動可讓您在傳送傳遞前設定收件者核准流程。
 
 ![](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
->要使用此活動，您需要購買「分佈式市場營銷」模組（即「市場活動」選項）。 請檢查您的授權合約。
+>若要使用此活動，您必須已購買分散式行銷模組，這是行銷活動選項。 請檢查您的授權合約。
 
-例如 **[!UICONTROL Local approval]** 包含分發模板的活動，請參閱 [使用本地審批活動](local-approval-activity.md)。
+例如 **[!UICONTROL Local approval]** 具有發佈範本的活動，請參閱 [使用本機核准活動](local-approval-activity.md).
 
-首先輸入活動和 **[!UICONTROL Action to execute]** 欄位：
+首先，輸入活動的標籤，然後 **[!UICONTROL Action to execute]** 欄位：
 
 ![](assets/local_validation_1.png)
 
-* 選擇 **[!UICONTROL Target approval notification]** 選項，在傳遞之前向本地主管發送電子郵件通知，要求他們批准分配給他們的收件人。
+* 選取 **[!UICONTROL Target approval notification]** 選項可在傳送前傳送通知電子郵件給本機主管，要求他們核准指派給他們的收件者。
 
-* **增量查詢**:允許您執行查詢並計畫其執行。 請參閱 [增量查詢](incremental-query.md) 的子菜單。
+* **增量查詢**：可讓您執行查詢並計畫其執行。 請參閱 [增量查詢](incremental-query.md) 區段。
 
    ![](assets/local_validation_intro_3.png)
 
 ## 目標核准通知 {#target-approval-notification}
 
-在這個例子中， **[!UICONTROL Local approval]** 活動位於上游目標和交貨之間：
+在此案例中， **[!UICONTROL Local approval]** 活動會放置在上游鎖定目標和傳送之間：
 
 ![](assets/local_validation_2.png)
 
-在目標審批通知時要輸入的欄位為：
+目標核准通知要輸入的欄位包括：
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Distribution context]**:選擇 **[!UICONTROL Specified in the transition]** 選項 **[!UICONTROL Split]** 類型活動以限制目標人口。 在這種情況下，分配模板將輸入到分解活動中。 如果不限制目標人口，請選擇 **[!UICONTROL Explicit]** 的子菜單。 **[!UICONTROL Data distribution]** 的子菜單。
+* **[!UICONTROL Distribution context]**：選取 **[!UICONTROL Specified in the transition]** 選項(如果您使用 **[!UICONTROL Split]** 輸入活動以限制目標母體。 在此情況下，會在分割活動中輸入發佈範本。 如果您未限制目標母體，請選取 **[!UICONTROL Explicit]** 在此選擇並在下列位置輸入發佈範本： **[!UICONTROL Data distribution]** 欄位。
 
-   有關建立資料分發模板的詳細資訊，請參閱 [限制每個資料分佈的子集記錄數](split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+   如需建立資料發佈範本的詳細資訊，請參閱 [限制每個資料分佈的子集記錄數](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 
-   * 選擇用於電子郵件通知的傳遞模板和主題。 預設模板可用： **[!UICONTROL Local approval notification]**。 您還可以添加將在審批和反饋通知中的收件人清單上方顯示的說明。
-   * 指定 **[!UICONTROL Approval type]** 與批准截止時間（從批准開始的日期或截止時間）相對應。 在此日期，工作流將再次啟動，目標中不會考慮尚未批准的收件人。 通知發送後，活動將排隊，以便本地主管可以批准其聯繫人。
+   * 選取傳遞範本和將用於電子郵件通知的主旨。 預設範本可供使用： **[!UICONTROL Local approval notification]**. 您也可以新增說明，此說明將顯示在核准和意見反應通知的收件者清單上方。
+   * 指定 **[!UICONTROL Approval type]** 與核准期限（從核准開始的日期或期限）相對應的日期。 在此日期，工作流程會再次開始，而未核准的收件者不會納入目標定位的考量。 傳送通知後，活動會排入佇列，以便本機主管可以核准其連絡人。
 
       >[!NOTE]
       >
-      >預設情況下，當啟動審批流程時，活動將暫停三天。
+      >依預設，開始核准程式時，活動會擱置三天。
 
-      您還可以添加一個或多個提醒以通知本地主管截止時間即將到來。 要執行此操作，請按一下 **[!UICONTROL Add a reminder]** 的子菜單。
+      您也可以新增一或多個提醒，通知本機主管截止日期已到。 若要這麼做，請按一下 **[!UICONTROL Add a reminder]** 連結。
 
-* **[!UICONTROL Complementary set]**:這樣 **[!UICONTROL Generate complement]** 選項，您可以生成包含所有未批准目標的第二個集。
+* **[!UICONTROL Complementary set]**：此 **[!UICONTROL Generate complement]** 選項可讓您產生第二個集合，其中包含所有未核准的目標。
 
    >[!NOTE]
    >
-   >預設情況下禁用此選項。
+   >此選項預設為停用。
 
 ## 傳遞回饋意見報告 {#delivery-feedback-report}
 
-在這個例子中， **[!UICONTROL Local approval]** 活動在交貨後放置：
+在此案例中， **[!UICONTROL Local approval]** 活動會放置在傳送之後：
 
 ![](assets/local_validation_4.png)
 
-如果是交貨反饋報告，則必須輸入以下欄位：
+若是傳送意見反應報告，必須輸入下列欄位：
 
 ![](assets/local_validation_workflow_4.png)
 
-* 選擇 **[!UICONTROL Specified in the transition]** 的子菜單。 選擇 **[!UICONTROL Explicit]** 指定本地審批活動中的交貨。
-* 選擇傳遞模板和通知電子郵件的對象。 有一個預設模板： **[!UICONTROL Local approval notification]**。
+* 選取 **[!UICONTROL Specified in the transition]** 選項（如果傳送是在前一個活動期間輸入）。 選取 **[!UICONTROL Explicit]** 以在本機核准活動中指定傳送。
+* 選取傳遞範本和通知電子郵件的物件。 有一個預設範本： **[!UICONTROL Local approval notification]**.
 
-## 示例：批准工作流交付 {#example--approving-a-workflow-delivery}
+## 範例：核准工作流程傳遞 {#example--approving-a-workflow-delivery}
 
-此示例說明如何設定工作流交付的審批流程。 有關建立交貨工作流的詳細資訊，請參閱 [示例：交付工作流](delivery.md#example--delivery-workflow) 的子菜單。
+此範例說明如何設定工作流程傳送的核准流程。 如需建立傳遞工作流程的詳細資訊，請參閱 [範例：傳遞工作流程](delivery.md#example--delivery-workflow) 區段。
 
-操作員可以通過以下兩種方式之一批准交貨：使用電子郵件中連結的網頁，或通過控制台。
+操作員可透過以下兩種方式之一核准傳遞：使用電子郵件訊息中連結的網頁，或透過主控台。
 
-* Web審批
+* 網頁核准
 
-   發送到管理員組的操作員的電子郵件允許您批准傳遞目標。 消息使用定義的文本，JavaScript表達式將替換為計算值（在本例中為「574」）
+   傳送給管理員群組操作員的電子郵件可讓您核准傳送目標。 訊息會使用定義的文字，而JavaScript運算式會由計算值取代（在此例中為「574」）
 
-   要批准交付，請按一下相關連結並登錄到Adobe Campaign控制台。
+   若要核准傳遞，請按一下相關連結，然後登入Adobe Campaign主控台。
 
    ![](assets/new-workflow-valid-webaccess.png)
 
-   選擇並按一下 **[!UICONTROL Submit]** 按鈕
+   進行選擇並按一下 **[!UICONTROL Submit]** 按鈕。
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* 通過控制台批准
+* 透過主控台核准
 
-   在樹結構中， **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 節點包含當前連接的操作員要批准的任務清單。 清單應顯示一行。 按兩下此行以響應。 將顯示以下窗口：
+   在樹狀結構中， **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 節點包含要由目前連線的運運算元核准的任務清單。 清單應顯示一行。 連按兩下此行以回應。 下列視窗隨即顯示：
 
 ![](assets/new-workflow-7.png)
 
-選擇 **是**，然後按一下 **[!UICONTROL Approve]**。 一條消息將通知您已記錄響應。
+選取 **是**，然後按一下 **[!UICONTROL Approve]**. 訊息會通知您已記錄回應。
 
-返回至工作流螢幕：大約10秒後，圖顯示如下：
+返回工作流程畫面：大約10秒後，圖表顯示如下：
 
 ![](assets/new-workflow-8.png)
 
-工作流已執行 **[!UICONTROL Delivery control]** 任務，在本例中，這意味著開始以前建立的傳遞。 工作流已完成，但無錯誤。
+工作流程已執行 **[!UICONTROL Delivery control]** 任務，在此例中，這表示開始傳遞先前建立的傳送。 工作流程已完成，沒有發生錯誤。

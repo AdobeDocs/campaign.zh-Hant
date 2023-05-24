@@ -1,6 +1,6 @@
 ---
-title: 市場活動架構結構
-description: 活動架構結構
+title: 行銷活動結構描述
+description: 行銷活動結構描述
 feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
@@ -54,7 +54,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-資料架構的XML文檔必須包含 **`<srcschema>`** 根元素 **名稱** 和 **命名空間** 用於填充架構名稱及其命名空間的屬性。
+資料結構描述的XML檔案必須包含 **`<srcschema>`** 根元素具有 **名稱** 和 **名稱空間** 屬性，以填入結構描述名稱及其名稱空間。
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -62,7 +62,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-讓我們使用以下XML內容來說明資料架構的結構：
+讓我們使用下列XML內容來說明資料結構描述的結構：
 
 ```
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
@@ -70,7 +70,7 @@ ht-degree: 1%
 </recipient>
 ```
 
-使用其相應的資料模式：
+與其對應的資料結構描述：
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -87,17 +87,17 @@ ht-degree: 1%
 
 ## 說明 {#description}
 
-架構的入口點是其主要元素。 易於識別，因為它與架構具有相同的名稱，並且它應是根元素的子級。 內容的說明以此元素開頭。
+結構描述的進入點是其主要元素。 它很容易識別，因為它與結構描述有相同的名稱，而且應該是根元素的子項。 內容的說明以此元素開頭。
 
-在本例中，主要元素由以下行表示：
+在我們的範例中，主要元素由以下行表示：
 
 ```
 <element name="recipient">
 ```
 
-元素 **`<attribute>`** 和 **`<element>`** 在主要元素後面，可以定義XML結構中資料項的位置和名稱。
+元素 **`<attribute>`** 和 **`<element>`** 位於主要元素後面的可讓您定義XML結構中資料專案的位置和名稱。
 
-在我們的示例架構中，以下是：
+在我們的範例結構描述中，這些範例包括：
 
 ```
 <attribute name="email"/>
@@ -108,46 +108,46 @@ ht-degree: 1%
 </element>
 ```
 
-必須遵守下列規則：
+必須遵循下列規則：
 
-* 每個 **`<element>`** 和 **`<attribute>`** 必須通過名稱標識 **名稱** 屬性。
+* 每個 **`<element>`** 和 **`<attribute>`** 必須透過名稱來識別 **名稱** 屬性。
 
    >[!CAUTION]
    >
-   >元素名稱應簡潔明瞭，最好用英文表示，並且僅包括符合XML命名規則的授權字元。
+   >元素的名稱應簡明，最好使用英文，並僅包含符合XML命名規則的授權字元。
 
-* 僅 **`<element>`** 元素 **`<attribute>`** 元素 **`<element>`** XML結構中的元素。
-* 安 **`<attribute>`** 元素在 **`<element>`**。
-* 使用 **`<elements>`** 建議在多行資料字串中。
+* 僅限 **`<element>`** 元素可包含 **`<attribute>`** 元素和 **`<element>`** XML結構中的元素。
+* 一個 **`<attribute>`** 元素在「 」內必須有唯一名稱， **`<element>`**.
+* 使用 **`<elements>`** 在多行資料字串中，建議使用。
 
 ## 資料類型 {#data-types}
 
-資料類型通過 **類型** 屬性 **`<attribute>`** 和 **`<element>`** 元素。
+資料型別是透過 **type** 中的屬性 **`<attribute>`** 和 **`<element>`** 元素。
 
-有關詳細清單，請參見 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic)。
+詳細清單位於 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
 
-如果未填充此屬性， **字串** 是預設資料類型，除非元素包含子元素。 如果確實如此，則僅用於分層結構元素(**`<location>`** 元素)。
+未填入此屬性時， **字串** 是預設的資料型別，除非元素包含子元素。 如果是，則僅用於以階層方式建構元素(**`<location>`** 元素)。
 
-架構支援以下資料類型：
+結構描述支援下列資料型別：
 
-* **字串**:字串。 示例：名字，鎮子等等。
+* **字串**：字元字串。 範例：名字、城鎮等。
 
-   可以通過 **長度** attribute（可選，預設值&quot;255&quot;）。
+   大小可透過 **長度** 屬性（選用，預設值為「255」）。
 
-* **布爾**:布爾欄位。 可能值的示例：true/false、0/1、yes/no等。
-* **位元組**。 **短**。 **長**:整數（1位元組、2位元組、4位元組）。 示例：年齡、帳號、點數等。
-* **雙**:雙精度浮點數。 示例：價格，價格等等。
-* **日期**。 **日期**:日期和日期+時間。 示例：出生日期、購買日期等。
-* **日期**:日期+時間，不包含時區資料。
-* **時隙**:持續時間。 示例：資歷。
-* **備忘錄**:長文本欄位（多行）。 示例：說明、注釋等。
-* **UU**:&quot;uniqueidentifier&quot;欄位
+* **布林值**：布林值欄位。 可能值的範例：true/false、0/1、yes/no等。
+* **位元組**， **短**， **long**：整數（1位元組、2位元組、4位元組）。 範例：年齡、帳號、點數等。
+* **兩次**：雙精確度浮點數。 範例：價格、費率等。
+* **日期**， **日期時間**：日期和日期+時間。 範例：出生日期、購買日期等。
+* **datetimenotz**：沒有時區資料的日期+時間。
+* **時間跨度**：持續時間。 範例：資歷。
+* **備忘錄**：長文字欄位（多行）。 範例：說明、註解等。
+* **uuid**：「uniqueidentifier」欄位
 
    >[!NOTE]
    >
-   >包含 **UU** 欄位中，必須添加並完成&quot;newuuid()&quot;函式及其預設值。
+   >若要包含 **uuid** 欄位中，必須以預設值新增及完成「newuuid()」函式。
 
-下面是我們輸入的類型的示例架構：
+以下是輸入型別的結構描述範例：
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -164,15 +164,15 @@ ht-degree: 1%
 
 ## 屬性 {#properties}
 
-的 **`<elements>`** 和 **`<attributes>`** 資料模式的元素可以用各種屬性進行豐富。 您可以填充標籤以描述當前元素。
+此 **`<elements>`** 和 **`<attributes>`** 資料結構描述的元素可以包含各種屬性。 您可以填入標籤來說明目前的元素。
 
 ### 標籤和說明 {#labels-and-descriptions}
 
-* 的 **標籤** 屬性，用於輸入簡要說明。
+* 此 **標籤** 屬性可讓您輸入簡短說明。
 
    >[!NOTE]
    >
-   >標籤與實例的當前語言關聯。
+   >標籤與執行個體的目前語言相關聯。
 
    **範例**:
 
@@ -180,17 +180,17 @@ ht-degree: 1%
    <attribute name="email" type="string" length="80" label="Email"/>
    ```
 
-   從Adobe Campaign客戶端控制台輸入表單中可以看到標籤：
+   您可以從Adobe Campaign使用者端主控台輸入表單中看到標籤：
 
    ![](assets/schema_label.png)
 
-* 的 **des** 屬性，用於輸入詳細說明。
+* 此 **desc** 屬性可讓您輸入詳細說明。
 
-   從Adobe Campaign客戶端控制台主窗口的狀態欄中的輸入表單中可以看到描述。
+   您可以從Adobe Campaign使用者端主控台主視窗狀態列上的輸入表單看到說明。
 
    >[!NOTE]
    >
-   >說明與實例的當前語言相關聯。
+   >說明與執行個體的目前語言相關聯。
 
    **範例**:
 
@@ -200,56 +200,56 @@ ht-degree: 1%
 
 ### 預設值 {#default-values}
 
-的 **預設** 屬性用於定義在內容建立時返回預設值的表達式。
+此 **預設** 屬性可讓您定義在內容建立時傳回預設值的運算式。
 
-該值必須是符合XPath語言的表達式。 如需詳細資訊，請參閱[本章節](#reference-with-xpath)。
+值必須是符合XPath語言的運算式。 如需詳細資訊，請參閱[本章節](#reference-with-xpath)。
 
 **範例**:
 
-* 當前日期： **default=&quot;GetDate()&quot;**
+* 目前日期： **default=&quot;GetDate()&quot;**
 * 計數器： **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   在本示例中，預設值是使用字串的串聯並調用 **計數器值** 函式。 每次插入時，返回的數字遞增1。
+   在此範例中，預設值是使用字串串串連並呼叫 **計數器值** 具有任意計數器名稱的函式。 傳回的數目會在每次插入時遞增1。
 
    >[!NOTE]
    >
-   >在Adobe Campaign客戶端控制台中， **[!UICONTROL Administration>Counters]** 節點用於管理計數器。
+   >在Adobe Campaign使用者端主控台中， **[!UICONTROL Administration>Counters]** 節點用於管理計數器。
 
-要將預設值連結到欄位，可以使用 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+若要將預設值連結至欄位，您可以使用 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` :允許您在建立圖元時用預設值預填充欄位。 該值將不是預設SQL值。
+`<default>` ：可讓您在建立實體時使用預設值預先填入欄位。 該值不會是預設SQL值。
 
-`<sqldefault>` :允許您在建立欄位時增加值。 此值顯示為SQL結果。 在模式更新期間，只有新記錄受此值影響。
+`<sqldefault>` ：可讓您在建立欄位時增加值。 此值會顯示為SQL結果。 在結構描述更新期間，只有新記錄會受此值影響。
 
 ### 分項清單 {#enumerations}
 
-#### 自由枚舉 {#free-enumeration}
+#### 可用分項清單 {#free-enumeration}
 
-的 **用戶枚舉** 屬性用於定義一個可用枚舉，以記住和顯示通過此欄位輸入的值。 語法如下：
+此 **userEnum** 屬性可讓您定義任意分項清單，以記憶和顯示透過此欄位輸入的值。 語法如下：
 
-**userEnum=&quot;枚舉名稱&quot;**
+**userEnum=&quot;列舉名稱&quot;**
 
-可以自由選擇指定給枚舉的名稱，並與其他欄位共用。
+為分項清單指定的名稱可以自由選擇，並與其他欄位共用。
 
-這些值顯示在輸入表單的下拉清單中：
+這些值會顯示在輸入表單的下拉式清單中：
 
 ![](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
->在Adobe Campaign客戶端控制台中， **[!UICONTROL Administration > Enumerations]** 節點用於管理枚舉。
+>在Adobe Campaign使用者端主控台中， **[!UICONTROL Administration > Enumerations]** 節點用於管理分項清單。
 
-#### 設定枚舉 {#set-enumeration}
+#### 設定分項清單 {#set-enumeration}
 
-的 **枚舉** 屬性用於定義在事先已知可能值清單時使用的固定枚舉。
+此 **列舉** 屬性可讓您定義預先知道可能值清單時所使用的固定分項清單。
 
-的 **枚舉** attribute是指在主元素外的架構中填充的枚舉類的定義。
+此 **列舉** attribute是指在主要元素以外的結構描述中填入的列舉類別定義。
 
-枚舉允許用戶從下拉清單中選擇值，而不是在常規輸入欄位中輸入值：
+列舉可讓使用者從下拉式清單中選取值，而不是在常規輸入欄位中輸入值：
 
 ![](assets/schema_enum.png)
 
-資料架構中枚舉聲明的示例：
+資料結構描述中的分項清單宣告範例：
 
 ```
 <enumeration name="gender" basetype="byte" default="0">    
@@ -259,35 +259,35 @@ ht-degree: 1%
 </enumeration>
 ```
 
-枚舉通過 **`<enumeration>`** 的子菜單。
+列舉會透過 **`<enumeration>`** 元素。
 
-枚舉屬性如下：
+列舉屬性如下：
 
-* **基本類型**:與值關聯的資料類型，
-* **標籤**:枚舉的描述，
-* **名稱**:枚舉的名稱，
-* **預設**:枚舉的預設值。
+* **基底型別**：與值相關聯的資料型別，
+* **標籤**：分項清單的說明，
+* **名稱**：分項清單的名稱，
+* **預設**：分項的預設值。
 
-枚舉值在 **`<value>`** 元素，具有以下屬性：
+列舉值會宣告於 **`<value>`** 具有下列屬性的元素：
 
-* **名稱**:內部儲存的值的名稱，
-* **標籤**:表徵圖。
+* **名稱**：儲存在內部的值的名稱，
+* **標籤**：透過圖形介面顯示的標籤。
 
-#### dbenum枚舉 {#dbenum-enumeration}
+#### Dbenum分項清單 {#dbenum-enumeration}
 
-* 的 **貝努姆** 屬性用於定義屬性與 **枚舉** 屬性。
+* 此 **Dbenum** 屬性可讓您定義其屬性類似於 **列舉** 屬性。
 
-   然而， **名稱** 屬性不在內部儲存值，它儲存一個代碼，該代碼允許您擴展相關表而不修改其架構。
+   不過， **名稱** attribute不會將值儲存在內部，而是儲存程式碼，可讓您擴充相關表格而不修改其綱要。
 
-   值通過 **[!UICONTROL Administration>Enumerations]** 的下界。
+   值是透過 **[!UICONTROL Administration>Enumerations]** 節點。
 
-   例如，此枚舉用於指定市場活動的性質。
+   例如，此列舉用於指定行銷活動的性質。
 
    ![](assets/schema_dbenum.png)
 
 ### 範例 {#example}
 
-下面是我們的示例架構，其中填充了以下屬性：
+以下是填入屬性的結構描述範例：
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -310,11 +310,11 @@ ht-degree: 1%
 
 ## 集合 {#collections}
 
-集合是具有相同名稱和相同分層級別的元素的清單。
+集合是具有相同名稱和相同階層層級的元素清單。
 
-的 **解除** 值為&quot;true&quot;的屬性允許您填充收集元素。
+此 **未繫結** 值為「true」的屬性可讓您填入收集元素。
 
-**示例**:定義 **`<group>`** 架構中的集合元素。
+**範例**：的定義 **`<group>`** 結構描述中的集合元素。
 
 ```
 <element name="group" unbound="true" label="List of groups">
@@ -322,62 +322,62 @@ ht-degree: 1%
 </element>
 ```
 
-通過投影XML內容：
+使用XML內容的投影：
 
 ```
 <group label="Group1"/>
 <group label="Group2"/>
 ```
 
-## 使用XPath的引用 {#reference-with-xpath}
+## 使用XPath的參考 {#reference-with-xpath}
 
-XPath語言在Adobe Campaign用於引用屬於資料模式的元素或屬性。
+XPath語言在Adobe Campaign中用於參照屬於資料結構描述的元素或屬性。
 
-XPath是一種語法，用於在XML文檔的樹中查找節點。
+XPath是一種語法，可讓您在XML檔案的樹狀結構中找出節點。
 
-元素由其名稱指定，屬性由前面帶有字元「@」的名稱指定。
+元素是以其名稱來指定，而屬性是以字元「@」開頭的名稱來指定。
 
 **範例**:
 
-* **@email**:選擇電子郵件，
-* **位置/@city**:在 **`<location>`** 元素
-* **../@email**:從當前元素的父元素中選擇電子郵件地址
-* **組`[1]/@label`**:選擇「label」屬性，該屬性是第一個 **`<group>`** 集合元素
-* **組`[@label='test1']`**:選擇「label」屬性，該屬性是 **`<group>`** 元素和包含值「test1」
+* **@email**：選取電子郵件，
+* **location/@city**：選取「 」底下的「city」屬性 **`<location>`** 元素
+* **../@email**：從目前元素的父元素選取電子郵件地址
+* **群組`[1]/@label`**：選取第一個的「label」子項 **`<group>`** collection element （收集要素）
+* **群組`[@label='test1']`**：選取「label」屬性，它是 **`<group>`** 元素並包含「test1」值
 
 >[!NOTE]
 >
->當路徑與子元素交叉時，將添加附加約束。 在這種情況下，以下表達式必須放在括弧之間：
+>當路徑穿過子元素時，會新增額外的限制。 在此情況下，下列運算式必須放在括弧中：
 >
->* **位置/@city** 無效；請使用 **`[location/@city]`**
->* **`[@email]`** 和 **@email** 等於
+>* **location/@city** 無效；請使用 **`[location/@city]`**
+>* **`[@email]`** 和 **@email** 相等
 >
 
 
-還可以定義複雜表達式，如以下算術運算：
+您也可以定義複雜的運算式，例如下列算術運算：
 
-* **@gender+1**:為 **性別** 屬性，
-* **@email + &#39;(&#39;+@created+&#39;&#39;**:通過在圓括弧之間為建立日期添加的電子郵件地址的值（對於字串類型，將常數置於引號中）來構建字串。
+* **@gender+1**：新增1至 **性別** 屬性，
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**：建構字串的方法為使用括弧之間新增至建立日期的電子郵件地址值（對於字串型別，請將常數放在引號中）。
 
-為了豐富這種語言的潛力，在表達式中增加了高級函式。
+已在運算式中新增高階函式，以豐富此語言的潛力。
 
-您可以通過Adobe Campaign客戶端控制台中的任何表達式編輯器訪問可用函式清單：
+您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器存取可用函式清單：
 
 ![](assets/schema_function.png)
 
 **範例**:
 
-* **GetDate()**:返回當前日期
-* **年(@created)**:返回「已建立」屬性中包含的日期的年份。
-* **GetEmailDomain(@email)**:返回電子郵件地址的域。
+* **GetDate()**：傳回目前日期
+* **年(@created)**：傳回「created」屬性中包含的日期年份。
+* **GetEmailDomain(@email)**：傳回電子郵件地址的網域。
 
-## 通過計算字串生成字串 {#building-a-string-via-the-compute-string}
+## 透過計算字串建立字串 {#building-a-string-via-the-compute-string}
 
-A **計算字串** 是XPath表達式，用於構建一個字串，該字串表示與架構關聯的表中的記錄。 **計算字串** 主要用在圖形介面中，以顯示選定記錄的標籤。
+A **計算字串** 是用於建構字串的XPath運算式，該字串代表與結構描述相關聯之表格中的記錄。 **計算字串** 主要用於圖形介面，以顯示所選記錄的標籤。
 
-的 **計算字串** 通過 **`<compute-string>`** 元素。 安 **EXPR** 屬性包含用於計算顯示的XPath表達式。
+此 **計算字串** 是透過 **`<compute-string>`** 資料結構描述的主要元素下的元素。 一個 **運算式** 屬性包含計算顯示的XPath運算式。
 
-**示例**:收件人表的計算字串。
+**範例**：收件者資料表的計算字串。
 
 ```
 <srcSchema name="recipient" namespace="nms">  
@@ -388,8 +388,8 @@ A **計算字串** 是XPath表達式，用於構建一個字串，該字串表�
 </srcSchema>
 ```
 
-收件人的計算字串的結果： **無名氏(john.doe@aol.com)**
+收件者的計算字串結果： **Doe John (john.doe@aol.com)**
 
 >[!NOTE]
 >
->如果架構不包含計算字串，則預設情況下會使用架構主鍵的值填充計算字串。
+>如果結構描述不包含計算字串，則計算字串預設會填入結構描述的主索引鍵值。

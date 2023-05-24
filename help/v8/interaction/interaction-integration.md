@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 在網頁中添加優惠
-description: 瞭解如何在網頁中添加優惠
+title: 在網頁中新增優惠方案
+description: 瞭解如何在網頁中新增優惠方案
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
@@ -10,43 +10,43 @@ ht-degree: 0%
 
 ---
 
-# 在網頁中添加優惠{#add-an-offer-in-web}
+# 在網頁中新增優惠方案{#add-an-offer-in-web}
 
-要在網頁中調用Offer引擎，請將對JavaScript代碼的調用直接插入該頁。 此呼叫返回目標元素中的聘用內容。
+若要在網頁中呼叫選件引擎，請直接在頁面中插入對JavaScript程式碼的呼叫。 此呼叫會傳回目標元素中的選件內容。
 
-調用URL的指令碼如下所示：
+指令碼呼叫URL看起來像這樣：
 
 ```
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
-「」**環境**&quot;參數接收專用於匿名交互的活動環境的內部名稱。
+「**環境**&quot;引數會接收專用於匿名互動的即時環境的內部名稱。
 
-要提供優惠，我們需要在Adobe Campaign建立一個環境和優惠空間，然後配置HTML頁。
+若要呈現優惠方案，我們需要在Adobe Campaign中建立環境和優惠方案空間，然後設定HTML頁面。
 
-以下使用案例詳細介紹了通過JavaScript整合服務的可能選項。
+下列使用案例詳細說明透過JavaScript整合選件的可能選項。
 
-## 選項1:HTML模式 {#html-mode}
+## 選項1：HTML模式 {#html-mode}
 
-### 提交匿名報價 {#presenting-an-anonymous-offer}
+### 提供匿名優惠 {#presenting-an-anonymous-offer}
 
-**步驟1:準備優惠引擎**
+**步驟1：準備優惠方案引擎**
 
 1. 開啟Adobe Campaign介面並準備匿名環境。
-1. 建立連結到匿名環境的聘用空間。
-1. 建立連結至聘用空間的聘用及其表示法。
+1. 建立連結至匿名環境的優惠方案空間。
+1. 建立連結至優惠方案空間的優惠方案及其表現。
 
-**步驟2:更新HTML頁的內容**
+**步驟2：更新HTML頁面的內容**
 
-「HTML」頁必須包含具有@id屬性的元素，該元素的值為所建立的提供空間的內部名稱(「i_internal name space」)。 此優惠將通過Interaction插入到此元素中。
+HTML頁面必須包含具有@id屬性的元素，並具有已建立選件空間（「i_internal名稱空間」）的內部名稱值。 優惠將由Interaction插入此元素中。
 
-在本例中，@id屬性將接收「i_SPC12」值，其中「SPC12」是先前建立的提供空間的內部名稱：
+在我們的範例中，@id屬性會收到「i_SPC12」值，其中「SPC12」是先前建立之優惠空間的內部名稱：
 
 ```
 <div id="i_SPC12"></div>
 ```
 
-在本例中，調用指令碼的URL如下（「OE3」是即時環境的內部名稱）:
+在我們的範例中，呼叫指令碼的URL如下（「OE3」是即時環境的內部名稱）：
 
 ```
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
@@ -54,15 +54,15 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->的 `<script>` 標籤不能是自閉。
+>此 `<script>` 標籤不得為自動結束。
 
-此靜態調用將自動生成包含提供引擎所需的所有參數的動態調用。
+此靜態呼叫會自動產生動態呼叫，其中包含優惠方案引擎所需的所有引數。
 
-此行為允許您在同一頁上使用多個提供空間，以便通過對提供引擎的一次調用進行管理。
+此行為可讓您在同一個頁面上使用數個優惠方案空間，以便透過對優惠方案引擎的單一呼叫來管理。
 
-**第3步：在HTML頁中顯示結果**
+**步驟3：在HTML頁面中顯示結果**
 
-優惠表示法的內容由優惠引擎返回到HTML頁：
+優惠方案引擎會將優惠方案呈現的內容傳回HTML頁面：
 
 ```
 <div id="banner_header">
@@ -86,11 +86,11 @@ ht-degree: 0%
 </div>
 ```
 
-### 提交已確定的服務 {#presenting-an-identified-offer}
+### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-要向已識別的聯繫人提供要約，該過程與詳細的過程類似 [此部分](#presenting-an-anonymous-offer)。
+若要向已識別的連絡人顯示優惠方案，其流程與詳細流程類似 [在本節中](#presenting-an-anonymous-offer).
 
-在網頁內容中，您需要添加以下指令碼，這些指令碼將在呼叫服務引擎期間標識聯繫人：
+在網頁內容中，您需要新增以下指令碼，以在呼叫優惠方案引擎期間識別連絡人：
 
 ```
 <script type="text/javascript">
@@ -98,15 +98,15 @@ ht-degree: 0%
 </script>
 ```
 
-1. 轉到網頁將調用的服務空間，按一下 **[!UICONTROL Advanced parameters]** 並添加一個或多個標識密鑰。
+1. 前往網頁將呼叫的優惠方案空間，按一下 **[!UICONTROL Advanced parameters]** 並新增一或多個識別鍵。
 
    ![](assets/interaction_htmlmode_001.png)
 
-   在本示例中，標識鍵是複合的，因為它既基於電子郵件又基於收件人名稱。
+   在此範例中，識別金鑰為複合金鑰，因為它同時以電子郵件和收件者名稱為基礎。
 
-1. 在網頁顯示過程中，指令碼評估允許您將收件人ID傳遞到提供引擎。 如果ID是複合的，則按與高級設定中使用的相同順序顯示鍵，並由 |。
+1. 在網頁顯示期間，指令碼評估可讓您將收件者ID傳遞至優惠方案引擎。 如果ID是複合的，則鍵值會以與進階設定相同的順序顯示，並以分隔 |.
 
-   在以下示例中，該聯繫人已登錄到該網站，並在呼叫「優惠」引擎時被識別，這要歸功於他們的電子郵件和姓名。
+   在下列範例中，該連絡人已登入網站，並在致電優惠方案引擎時被識別，這要歸功於他們的電子郵件和名稱。
 
    ```
    <script type="text/javascript">
@@ -114,43 +114,43 @@ ht-degree: 0%
    </script>
    ```
 
-### 使用HTML呈現功能 {#using-an-html-rendering-function}
+### 使用HTML演算函式 {#using-an-html-rendering-function}
 
-要自動生成HTML提供表示法，可以使用渲染函式。
+若要自動產生HTML選件表示，您可以使用演算函式。
 
-1. 轉到服務空間，然後按一下 **[!UICONTROL Edit functions]** 的子菜單。
+1. 前往優惠方案空間，然後按一下 **[!UICONTROL Edit functions]** 連結。
 1. 選取 **[!UICONTROL Overload the HTML rendering function]**。
-1. 轉到 **[!UICONTROL HTML rendering]** 頁籤，並插入與為聘用空間中的聘用內容定義的欄位匹配的變數。
+1. 前往 **[!UICONTROL HTML rendering]** 定位並插入與優惠方案空間中針對優惠方案內容定義的欄位相符的變數。
 
    ![](assets/interaction_htmlmode_002.png)
 
-   在此示例中，優惠以網頁中的標題的形式顯示，由可點擊影像和與優惠內容中定義的欄位相匹配的標題組成。
+   在此範例中，優惠方案會以橫幅的形式顯示在網頁中，且由可點按的影像和符合優惠方案內容中定義欄位的標題所組成。
 
-## 選項2:XML模式 {#xml-mode}
+## 選項2：XML模式 {#xml-mode}
 
-### 提供優惠 {#presenting-an-offer}
+### 呈現優惠方案 {#presenting-an-offer}
 
-活動 **交互** 模組用於將XML節點返回到HTML頁，該頁調用「提供」引擎。 該XML節點可通過在客戶端開發的函式進行處理。
+Campaign **互動** 模組可讓您將XML節點傳回至呼叫優惠方案引擎的HTML頁面。 此XML節點可由要在客戶端開發的函式來處理。
 
-對服務引擎的調用如下所示：
+對優惠方案引擎的呼叫看起來像這樣：
 
 ```
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
-* 「」**環境**&quot;參數接收即時環境的內部名稱。
+* 「**環境**&quot;引數會接收即時環境的內部名稱。
 
-* 「」**可**&quot;參數接收將讀取包含（回調）命題的引擎返回的XML節點的函式的名稱。 此參數是可選的。
+* 「**cb**&quot; parameter接收將讀取引擎傳回的XML節點(包含（回撥）主張)的函式名稱。 此引數為選用。
 
-* 「」**t**&quot;參數接收目標的值，僅用於已標識的交互。 此參數也可與 **交互目標** 變數。 此參數是可選的。
+* 「**t**&quot;引數只會針對已識別的互動接收目標的值。 此引數也可以透過 **interactionTarget** 變數。 此引數為選用。
 
-* 「」**c**&quot;參數接收類別的內部名稱清單。 此參數是可選的。
+* 「**c**&quot;引數會接收類別的內部名稱清單。 此引數為選用。
 
-* 「」**第**&quot;參數接收主題清單。 此參數是可選的。
+* 「**th**&quot;引數會接收主題清單。 此引數為選用。
 
-* 「」**格**&quot;參數將全局（上下文）調用資料接收到整個頁面。 此參數是可選的。
+* 「**gctx**&quot;引數會接收整個頁面的呼叫資料全域（內容）。 此引數為選用。
 
-返回的XML節點如下所示：
+傳回的XML節點如下所示：
 
 ```
 <propositions>
@@ -161,19 +161,19 @@ ht-degree: 0%
 </propositions>
 ```
 
-下面的使用案例詳細說明了在Adobe Campaign中執行的啟用XML模式的配置，然後在HTML頁中顯示對引擎的調用結果。
+以下使用案例詳細說明在Adobe Campaign中執行的設定，以啟用XML模式，然後在HTML頁面中顯示呼叫引擎的結果。
 
-1. **建立環境和提供空間**
+1. **建立環境和優惠方案空間**
 
-   有關建立環境的詳細資訊，請參閱 [此頁](interaction-env.md)。
+   有關建立環境的詳細資訊，請參閱 [此頁面](interaction-env.md).
 
-   有關建立聘用空間的詳細資訊，請參閱 [此頁](interaction-offer-spaces.md)。
+   如需建立優惠方案空間的詳細資訊，請參閱 [此頁面](interaction-offer-spaces.md).
 
-1. **擴展提供架構以添加新欄位**
+1. **擴充優惠方案結構以新增欄位**
 
-   此架構將定義以下欄位：標題2和價格。
+   此結構描述將定義下列欄位：標題編號2和價格。
 
-   示例中架構的名稱為 **定制：優惠**
+   範例中的結構描述名稱是 **cus：offer**
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -200,17 +200,17 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >每個元素需要定義兩次。 CDATA(&quot;_jst&quot;)類型元素可以包含個性化欄位。
+   >每個元素需要定義兩次。 CDATA (&quot;_jst&quot;)型別元素可包含個人化欄位。
    >
-   >不要忘記更新資料庫結構。
+   >別忘了更新資料庫結構。
 
-   您可以擴展提供方案以在批處理和統一模式下以及以任何格式(文本、HTML和XML)添加新欄位。
+   您可以擴充選件結構描述，以批次和單一模式以及任何格式(文字、HTML和XML)新增欄位。
 
-1. **擴展聘用公式以編輯新欄位和修改現有欄位**
+1. **擴充優惠方案公式以編輯新欄位並修改現有欄位**
 
-   編輯 **優惠(nsm)** 的下界。
+   編輯 **選件(nsm)** 輸入表單。
 
-   在「視圖」部分，插入包含以下內容的兩個新欄位：
+   在「檢視」區段中，插入兩個含有以下內容的新欄位：
 
    ```
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
@@ -235,45 +235,45 @@ ht-degree: 0%
     <input colspan="2" label="Prix" nolabel="true" type="number" xpath="price_jst"/>
    ```
 
-   注釋掉目標URL欄位：
+   註解目的地URL欄位：
 
    ![](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
-   >( `<input>`)表單必須指向在建立的架構中定義的CDATA類型元素。
+   >( `<input>`)表單必須指向已建立結構描述中定義的CDATA型別元素。
 
-   在「聘用表示」表單中的呈現如下所示：
+   優惠方案宣告表單中的呈現如下所示：
 
    ![](assets/interaction_xmlmode_form.png)
 
-   的 **[!UICONTROL Title 2]** 和 **[!UICONTROL Price]** 已添加欄位， **[!UICONTROL Destination URL]** 欄位不再顯示。
+   此 **[!UICONTROL Title 2]** 和 **[!UICONTROL Price]** 欄位和 **[!UICONTROL Destination URL]** 欄位不再顯示。
 
 1. **建立優惠方案**
 
-   有關建立優惠的詳細資訊，請參閱 [此頁](interaction-offer.md)。
+   如需建立優惠方案的詳細資訊，請參閱 [此頁面](interaction-offer.md).
 
-   在以下使用情形中，要約的輸入方式如下：
+   在下列使用案例中，系統如下所示輸入選件：
 
    ![](assets/interaction_xmlmode_offer.png)
 
-1. **批准聘用**
+1. **核准優惠方案**
 
-   批准聘用或讓他人批准聘用，然後在最後一步建立的聘用空間上將其激活，以便在連結的即時環境中可用。
+   核准優惠方案或由其他人核准，然後在最後一個步驟建立的優惠方案空間上啟用它，使其可在連結的即時環境中使用。
 
-1. **引擎調用和HTML頁上的結果**
+1. **HTML頁面上的引擎呼叫和結果**
 
-   在HTML頁中調用「優惠」引擎如下所示：
+   對HTML頁面中選件引擎的呼叫看起來像這樣：
 
    ```
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
-   「」的值&#x200B;**環境**&quot;參數是即時環境的內部名稱。
+   「 」的值&#x200B;**環境**&quot;引數是即時環境的內部名稱。
 
-   「」的值&#x200B;**可**&quot;參數是需要解釋引擎返回的XML節點的函式的名稱。 在本例中，調用的up函式開啟一個模式窗口(alert()函式)。
+   「 」的值&#x200B;**cb**&quot;parameter是需要解譯引擎傳回XML節點的函式名稱。 在我們的範例中，呼叫的函式會開啟強制回應視窗(alert()函式)。
 
-   提供引擎返回的XML節點如下所示：
+   選件引擎傳回的XML節點看起來像這樣：
 
    ```
    <propositions>
@@ -291,15 +291,15 @@ ht-degree: 0%
    </propositions>
    ```
 
-### 使用呈現函式 {#using-a-rendering-function-}
+### 使用演算函式 {#using-a-rendering-function-}
 
-可以使用XML呈現功能來建立提供演示文稿。 此函式將修改在調用提供引擎期間返回到HTML頁的XML節點。
+您可以使用XML演算函式來建立優惠方案簡報。 此函式將修改在呼叫優惠方案引擎期間傳回HTML頁面的XML節點。
 
-1. 轉到服務空間，然後按一下 **[!UICONTROL Edit functions]** 的子菜單。
+1. 前往優惠方案空間，然後按一下 **[!UICONTROL Edit functions]** 連結。
 1. 選取 **[!UICONTROL Overload the XML rendering function]**。
-1. 轉到 **[!UICONTROL XML rendering]** 的子菜單。
+1. 前往 **[!UICONTROL XML rendering]** 定位並插入所需的函式。
 
-   該函式可以如下所示：
+   函式看起來可能像這樣：
 
    ```
    function (proposition) {
@@ -312,41 +312,41 @@ ht-degree: 0%
 
 ## 設定SOAP整合
 
-為服務管理提供的SOAP Web服務與Adobe Campaign通常使用的服務不同。 您可以通過上一節中介紹的交互URL訪問它們，並讓您為給定聯繫人演示或更新優惠。
+為選件管理提供的SOAP Web服務與Adobe Campaign中常用的不同。 可透過上一節所述的互動URL存取優惠方案，並讓您提供或更新指定連絡人的優惠方案。
 
 ### 優惠方案主張 {#offer-proposition}
 
-要獲得通過SOAP提供的建議，請添加 **nms：命題#建議** 命令後跟以下參數：
+針對透過SOAP的優惠方案主張，新增 **nms：proposition#Propose** 命令後接下列引數：
 
-* **目標ID**:收件人的主鍵（可以是複合鍵）。
-* **最大計數**:指定聯繫人的要約建議數。
-* **上下文**:允許您在空間架構中添加上下文資訊。 如果使用的架構是 **nms：交互**。 **`<empty>`** 應添加。
-* **類別**:指定聘用必須屬於的類別/類別。
-* **主題**:指定要約必須屬於的主題。
-* **UU**:Adobe Campaign永久cookie的值(「uuid230」)。
-* **無**:Adobe Campaign會話cookie(「nlid」)的值。
-* **無道**:使用&quot;true&quot;值停用建議插入。
+* **targetId**：收件者的主鍵（可以是複合鍵）。
+* **maxCount**：指定聯絡人的優惠方案主張數量。
+* **內容**：可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是 **nms：interaction**， **`<empty>`** 應已新增。
+* **類別**：指定優惠方案必須所屬的類別。
+* **主題**：指定選件必須屬於的主題。
+* **uuid**：Adobe Campaign永久cookie的值(「uuid230」)。
+* **nli**：Adobe Campaign工作階段Cookie的值(「nlid」)。
+* **noProp**：使用「true」值來停用提案插入。
 
 >[!NOTE]
 >
->的 **目標ID** 和 **最大計數** 設定是強制的。 其他則是可選的。
+>此 **targetId** 和 **maxCount** 設定是強制性的。 其他則是選擇性的。
 
-響應查詢，SOAP服務將返回以下參數：
+為回應查詢，SOAP服務將傳回下列引數：
 
-* **交互ID**:交互的ID。
-* **命題**:XML元素，包含命題清單，每個命題都有自己的ID和HTML表示。
+* **interactionId**：互動的ID。
+* **主張**： XML元素，包含主張清單，每個主張都有自己的ID和HTML表示。
 
-### 提供更新 {#offer-update}
+### 優惠更新 {#offer-update}
 
-添加 **nms:interaction#UpdateStatus** 命令，然後是這些參數：
+新增 **nms：interaction#UpdateStatus** 命令前往URL，接著執行下列引數：
 
-* **命題**:一串字元，它包含在提供建議期間作為輸出給出的建議ID。 請參閱 [提供建議](#offer-proposition)。
-* **狀態**:字串類型，它指定聘用的新狀態。 可能的值列在 **命題狀態** 枚舉，在 **nms：公用** 架構。 例如，現成，數字3與 **已接受** 狀態。
-* **上下文**:XML元素，用於在空間架構中添加上下文資訊。 如果使用的架構是 **nms：交互**。 **`<empty>`** 應添加。
+* **主張**：字元字串，其中包含優惠方案主張期間作為輸出提供的主張ID。 請參閱 [優惠方案主張](#offer-proposition).
+* **狀態**：字串型別，它指定選件的新狀態。 可能的值會列在 **propositionStatus** 分項清單，在 **nms：common** 結構描述。 例如，數字3是現成可用的，會對應至 **已接受** 狀態。
+* **內容**：XML元素，可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是 **nms：interaction**， **`<empty>`** 應已新增。
 
-### 使用SOAP調用的示例 {#example-using-a-soap-call}
+### 使用SOAP呼叫的範例 {#example-using-a-soap-call}
 
-以下是SOAP調用的代碼示例：
+以下是SOAP呼叫的程式碼範例：
 
 ```
 <%

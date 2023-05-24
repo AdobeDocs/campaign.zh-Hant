@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 使用彙總
-description: 瞭解如何使用聚合
+description: 瞭解如何使用彙總
 feature: Workflows
 exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -15,68 +15,68 @@ ht-degree: 2%
 
 
 
-此使用案例詳細說明了如何自動標識添加到資料庫的最後一個收件人。
+此使用案例詳細說明如何自動識別新增至資料庫的最後一位收件者。
 
-使用以下過程，將資料庫中收件人的建立日期與使用聚合建立收件人的最後已知日期進行比較。 同一天建立的所有收件人也將被選中。
+使用下列程式，將資料庫中收件者的建立日期與使用彙總建立收件者的最後已知日期進行比較。 也會選取當天建立的所有收件者。
 
-執行 **建立日期=最大值（建立日期）** 在收件人上鍵入篩選器，必須運行工作流才能執行以下步驟：
+執行 **建立日期=上限（建立日期）** 在收件者上輸入篩選器，您必須執行工作流程才能遵循下列步驟：
 
-1. 使用基本查詢檢索資料庫收件人。 有關此步驟的詳細資訊，請參閱 [建立查詢](query.md#creating-a-query)。
-1. 使用從 **最大（建立日期）** 聚合函式。
-1. 將每個收件人連結到聚合函式，結果是同一架構。
-1. 通過編輯的架構篩選使用聚合的收件人。
+1. 使用基本查詢擷取資料庫收件者。 如需此步驟的詳細資訊，請參閱 [建立查詢](query.md#creating-a-query).
+1. 使用產生的結果計算上次建立收件者的已知日期。 **最大（建立日期）** 彙總函式。
+1. 將每個收件者連結至彙總函式會產生相同的結構描述。
+1. 透過已編輯的結構描述使用彙總來篩選收件者。
 
 ![](assets/datamanagement_usecase_1.png)
 
-## 步驟1:計算聚合結果 {#step-1--calculating-the-aggregate-result}
+## 步驟1：計算彙總結果 {#step-1--calculating-the-aggregate-result}
 
-1. 建立查詢。 在此，目標是計算資料庫中所有收件人的上次已知建立日期。 因此，查詢不包含篩選器。
+1. 建立查詢。 在此處，目標是計算資料庫中所有收件者的最後已知建立日期。 因此，查詢不包含篩選器。
 1. 選取 **[!UICONTROL Add data]**。
-1. 在開啟的窗口中，選擇 **[!UICONTROL Data linked to the filtering dimension]** 然後 **[!UICONTROL Filtering dimension data]**。
-1. 在 **[!UICONTROL Data to add]** 窗口，添加計算 **建立日期** 的子菜單。 可以使用表達式編輯器或輸入 **max(@created)** 直接進入一個 **[!UICONTROL Expression]** 的雙曲餘切值。 然後按一下 **[!UICONTROL Finish]** 按鈕
+1. 在開啟的視窗中，選取 **[!UICONTROL Data linked to the filtering dimension]** 則 **[!UICONTROL Filtering dimension data]**.
+1. 在 **[!UICONTROL Data to add]** 視窗，新增一個欄以計算 **建立日期** 收件者表格中的欄位。 您可以使用運算式編輯器或輸入 **max(@created)** 直接放入中的欄位 **[!UICONTROL Expression]** 欄。 然後按一下 **[!UICONTROL Finish]** 按鈕。
 
    ![](assets/datamanagement_usecase_2.png)
 
 1. 按一下 **[!UICONTROL Edit additional data]**，之後 **[!UICONTROL Advanced parameters...]**。核取 **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 選項。
 
-   此選項可確保不會因此顯示所有收件人，並且不會保留顯式添加的資料。 在本例中，它指的是建立收件人的最後日期。
+   此選項可確保不會顯示所有收件者，且不會保留明確新增的資料。 在此案例中，該日期是指上次建立收件者的日期。
 
    保留 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項為已核取狀態。
 
-## 步驟2:連結收件人和聚合函式結果 {#step-2--linking-the-recipients-and-the-aggregation-function-result}
+## 步驟2：連結收件者和彙總函式結果 {#step-2--linking-the-recipients-and-the-aggregation-function-result}
 
-要將處理收件人的查詢連結到執行聚合函式計算的查詢，必須使用方案編輯活動。
+若要將處理收件者的查詢連結至執行彙總函式計算的查詢，您必須使用結構描述編輯活動。
 
-1. 將收件人的查詢定義為主集。
-1. 在 **[!UICONTROL Links]** 頁籤中，添加新連結，並在窗口中輸入以下資訊：
+1. 將收件者的查詢定義為主集。
+1. 在 **[!UICONTROL Links]** 標籤，新增連結，並在開啟的視窗中輸入資訊，如下所示：
 
-   * 選擇與聚合相關的臨時架構。 此架構的資料將添加到主集的成員中。
-   * 選擇 **[!UICONTROL Use a simple join]** 將聚合結果連結到主集的每個收件人。
-   * 最後，指定連結為 **[!UICONTROL Type 11 simple link]**。
+   * 選取與彙總相關的暫存結構描述。 此結構描述的資料將新增至主要集的成員。
+   * 選取 **[!UICONTROL Use a simple join]** 將彙總結果連結至主集的每個收件者。
+   * 最後，指定連結為 **[!UICONTROL Type 11 simple link]**.
 
    ![](assets/datamanagement_usecase_3.png)
 
-因此，聚合結果連結到每個接收者。
+因此，彙總結果會連結至每個收件者。
 
-## 第3步：使用聚合篩選收件人。 {#step-3--filtering-recipients-using-the-aggregate-}
+## 步驟3：使用彙總篩選收件者。 {#step-3--filtering-recipients-using-the-aggregate-}
 
-建立連結後，聚合結果和接收方組成同一臨時架構的一部分。 因此，可以在架構上建立篩選器，以比較收件人的建立日期和由聚合函式表示的最後已知建立日期。 此篩選器使用拆分活動執行。
+建立連結後，彙總結果和收件者會成為相同臨時結構描述的一部分。 因此，可以在結構描述上建立篩選，以比較收件者的建立日期與最後已知建立日期（以彙總函式表示）。 使用分割活動執行此篩選。
 
-1. 在 **[!UICONTROL General]** 頁籤 **收件人** 作為目標維度和 **編輯架構** 作為篩選維（用於篩選入站轉換架構活動）。
-1. 在 **[!UICONTROL subsets]** 頁籤 **[!UICONTROL Add a filtering condition on the inbound population]** 按一下 **[!UICONTROL Edit...]**。
-1. 使用表達式編輯器，在收件人的建立日期和由聚合計算的建立日期之間添加一個相等條件。
+1. 在 **[!UICONTROL General]** 索引標籤，選取 **收件者** 作為目標維度和 **編輯結構描述** 作為篩選維度（以篩選入站轉變結構描述活動）。
+1. 在 **[!UICONTROL subsets]** 索引標籤，選取 **[!UICONTROL Add a filtering condition on the inbound population]** 然後按一下 **[!UICONTROL Edit...]**.
+1. 使用運算式編輯器，在收件者的建立日期與彙總計算的建立日期之間新增相等條件。
 
-   資料庫中的日期類型欄位通常保存到毫秒。 因此，您必須將這些內容延長一天，以避免檢索僅在毫秒內建立的收件人。
+   資料庫中的日期型別欄位通常會儲存到毫秒。 因此，您必須將這些延長一整天，以避免擷取僅建立該毫秒的收件者。
 
-   要執行此操作，請使用 **結束日期** 函式，可在表達式編輯器中使用，該編輯器可將日期和小時數轉換為簡單日期。
+   若要這麼做，請使用 **ToDate** 函式，可在運算式編輯器中取得，可將日期和時數轉換為簡單日期。
 
-   因此，要用於條件的表達式為：
+   因此，用於條件的運算式為：
 
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
-   * **[!UICONTROL Value]**: `toDate([datemax/expr####])`，其中expr###與聚合函式查詢中指定的聚合相關。
+   * **[!UICONTROL Value]**： `toDate([datemax/expr####])`，其中expr####與彙總函式查詢中指定的彙總有關。
 
    ![](assets/datamanagement_usecase_4.png)
 
-因此，拆分活動的結果與上次已知建立日期建立的同一天的收件人有關。
+因此，分割活動的結果會與最後一個已知建立日期當天建立的收件者相關。
 
-然後，您可以添加其他活動，如清單更新或交付，以豐富您的工作流。
+然後，您可以新增其他活動（例如清單更新或傳遞）以豐富您的工作流程。

@@ -167,7 +167,7 @@ ht-degree: 99%
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [電子郵件設定](config/email-settings.md)
-      + [推送設定](config/push-settings.md)
+      + [推播設定](config/push-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
       + [將 Campaign SDK 與您的應用程式整合- 已棄用頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)

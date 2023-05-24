@@ -1,6 +1,6 @@
 ---
 title: 限制 PI 檢視
-description: 瞭解如何限制PI視圖
+description: 瞭解如何限制PI檢視
 feature: PI, Privacy
 role: Developer
 level: Intermediate, Experienced
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 ## 概覽 {#overview}
 
-如果您需要市場營銷用戶能夠訪問資料記錄，但不希望他們看到收件人個人資訊(PI)，例如名、姓或電子郵件地址，請應用以下准則來保護隱私並防止常規市場活動操作員濫用資料。
+如果您需要行銷使用者能夠存取資料記錄，但不希望他們看到收件者個人資訊(PI)，例如名字、姓氏或電子郵件地址，請套用以下准則以保護隱私權，並防止資料被一般行銷活動操作員濫用。
 
 ## 實作 {#implementation}
 
-可應用於任何元素或屬性的特定屬性已添加到方案中，它補充了現有屬性 **[!UICONTROL visibleIf]**。 此屬性為： **[!UICONTROL accessibleIf]**。 當包含與當前用戶上下文相關的XTK表達式時，它可以利用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]**，例如
+可套用至任何元素或屬性的特定屬性已新增至結構描述，以補充現有屬性 **[!UICONTROL visibleIf]**. 此屬性是： **[!UICONTROL accessibleIf]**. 當包含與目前使用者內容相關的XTK運算式時，它可以利用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]**，例如。
 
-您可以找到以下顯示此用法的收件人架構擴展示例：
+收件者方案擴充功能的範例顯示以下用法：
 
 ```
 <srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="xxl:nmsRecipientXl"
@@ -37,27 +37,27 @@ ht-degree: 2%
 </srcSchema>
 ```
 
-主要屬性有：
+主要屬性包括：
 
-* **[!UICONTROL visibleIf]** :從元資料中隱藏欄位，因此在架構視圖、列選擇或表達式生成器中無法訪問這些欄位。 但這不會隱藏任何資料，如果欄位名稱是在表達式中手動輸入的，則值將顯示。
-* **[!UICONTROL accessibleIf]** :隱藏資料（用空值替換它），使其無法生成查詢。 如果visibleIf為空，則獲取與 **[!UICONTROL accessibleIf]**。
+* **[!UICONTROL visibleIf]** ：隱藏中繼資料中的欄位，因此無法在結構描述檢視、欄選擇或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果手動在運算式中輸入欄位名稱，則會顯示值。
+* **[!UICONTROL accessibleIf]** ：隱藏產生的查詢中的資料（以空白值取代）。 如果visibleIf空白，則會取得與相同的運算式 **[!UICONTROL accessibleIf]**.
 
-以下是在市場活動中使用此屬性的後果：
+在Campaign中使用此屬性的後果如下：
 
-* 在控制台中，不會使用通用查詢編輯器顯示資料，
-* 資料在概述清單和記錄清單（控制台）中不可見。
-* 資料將在詳細視圖中變為只讀。
-* 資料只能在篩選器內使用（這意味著使用某些二分法策略，您仍可以猜測值）。
-* 使用受限欄位生成的任何表達式也會受到限制：低(@email)與可訪問@email。
-* 在工作流中，您可以將受限制列作為過渡的額外列添加到目標人口中，但Adobe Campaign用戶仍無法訪問該列。
-* 當將目標群體儲存在組（清單）中時，所儲存欄位的特性與資料源相同。
-* 預設情況下，JS代碼無法訪問資料。
+* 資料將不會在主控台中使用一般查詢編輯器顯示。
+* 資料不會顯示在概述清單和記錄清單（主控台）中。
+* 詳細檢視中的資料將變成唯讀。
+* 資料只能在篩選器中使用（這表示使用某些二分法策略，您仍然可以猜測值）。
+* 使用限制欄位建立的任何運算式也會受到限制： lower(@email)會變得與@email一樣可存取。
+* 在工作流程中，您可以將受限制的欄新增至目標母體，作為轉變的額外欄，但Adobe Campaign使用者仍無法存取。
+* 將目標母體儲存在群組（清單）中時，所儲存欄位的特性與資料來源相同。
+* 依預設，JS程式碼無法存取資料。
 
 ## 建議 {#recommendations}
 
-在每個傳遞中，電子郵件地址都複製到 **[!UICONTROL broadLog]** 和 **[!UICONTROL forecastLog]** 表：因此，這些欄位也需要保護。
+每次傳送時，電子郵件地址都會複製到 **[!UICONTROL broadLog]** 和 **[!UICONTROL forecastLog]** 表格：因此，這些欄位也需要受到保護。
 
-下面是日誌表擴展的示例，用於實現此功能：
+以下為實作此專案的記錄表擴充功能範例：
 
 ```
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
@@ -88,4 +88,4 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此限制僅適用於非技術用戶，不會隔離資料：具有相關權限的技術用戶可以檢索資料。
+>此限制僅適用於非技術使用者，不會隔離資料：具有相關許可權的技術使用者可以擷取資料。

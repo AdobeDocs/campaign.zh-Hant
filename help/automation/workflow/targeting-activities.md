@@ -11,27 +11,27 @@ ht-degree: 9%
 
 ---
 
-# 針對工作流中的活動{#about-targeting-activities}
+# 在工作流程中鎖定目標活動{#about-targeting-activities}
 
 這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。
 
-* **[單元格](cells.md)**:以資料列的形式提供了各種子集的視圖，並便於在有許多子集時對這些子集進行操作。
-* **[CRM連接器](crm-connector.md)**:用於配置Adobe Campaign和CRM之間的同步。
-* **[更改資料源](change-data-source.md)**:允許您更改工作流的資料源 **[!UICONTROL Working table]**。 這為跨不同資料源（如FDA、FFDA和本地資料庫）管理資料提供了更大的靈活性。
-* **[更改維](change-dimension.md)**:允許您在工作流構建週期中更改目標維。
-* **[重複資料消除](deduplication.md)**:允許您從入站活動中刪除重複項。
-* **[交貨大綱](delivery-outline.md)** （僅在市場活動工作流中）:用於添加交貨大綱。
-* **[編輯架構](edit-schema.md)**:允許您轉換、標準化和在必要時豐富資料。
-* **[濃縮](enrichment.md)**:用於向工作表或工作流添加列。
-* **[排除](exclusion.md)**:允許您基於從中提取一個或多個其他目標的主目標建立目標。
-* **[增量查詢](incremental-query.md)**:允許您執行查詢並計畫其執行。
-* **[交集](intersection.md)**:允許您僅提取具有相同入站活動結果的人口。
-* **[清單更新](list-update.md)**:在清單中記錄入站活動的結果。
-* **[按單元格提供](offers-by-cell.md)**:讓您將不同的優惠連結到群體的每個子集。
-* **[提供引擎](offer-engine.md)**:允許您在工作流中調用交互提供引擎。
-* **[查詢](query.md)**:用於建立和運行查詢。
-* **[讀取清單](read-list.md)**:允許您使用清單中包含的資料。
-* **[拆分](split.md)**:允許您將目標拆分為多個子集。
-* **[訂閱服務](subscription-services.md)**:允許管理資訊服務的目標訂閱和取消訂閱。
-* **[聯合](union.md)**:允許您將多個活動的結果分組到單個目標中。
-* **[更新資料](update-data.md)**:讓您大量更新資料庫中的資料。
+* **[儲存格](cells.md)**：以資料欄的形式提供各種子集的檢視，並在存在許多子集時方便這些子集的操作。
+* **[CRM聯結器](crm-connector.md)**：可讓您設定Adobe Campaign與CRM之間的同步。
+* **[變更資料來源](change-data-source.md)**：可讓您變更工作流程的資料來源 **[!UICONTROL Working table]**. 這為管理不同資料來源（例如FDA、FFDA和本機資料庫）的資料提供更大的彈性。
+* **[變更維度](change-dimension.md)**：可讓您在工作流程建構週期期間變更目標維度。
+* **[重複資料刪除](deduplication.md)**：可讓您從入站活動中移除重複專案。
+* **[傳遞大網](delivery-outline.md)** （僅適用於行銷活動工作流程）：可讓您新增傳遞大網。
+* **[編輯結構描述](edit-schema.md)**：可讓您轉換、標準化資料，並在必要時擴充資料。
+* **[擴充](enrichment.md)**：可讓您將欄新增至工作表格或工作流程。
+* **[排除](exclusion.md)**：可讓您根據擷取一或多個其他目標的主要目標建立目標。
+* **[增量查詢](incremental-query.md)**：可讓您執行查詢並計畫其執行。
+* **[交集](intersection.md)**：可讓您僅擷取具有相同入站活動結果的母體。
+* **[清單更新](list-update.md)**：在清單中記錄入站活動的結果。
+* **[依儲存格列出的優惠方案](offers-by-cell.md)**：可讓您將不同的選件連結至母體的每個子集。
+* **[優惠方案引擎](offer-engine.md)**：可讓您在工作流程中呼叫互動優惠方案引擎。
+* **[查詢](query.md)**：可讓您建立和執行查詢。
+* **[讀取清單](read-list.md)**：可讓您使用清單中包含的資料。
+* **[Split](split.md)**：可讓您將目標分割成數個子集。
+* **[訂閱服務](subscription-services.md)**：可管理target訂閱和取消訂閱的資訊服務。
+* **[聯集](union.md)**：可讓您將數個活動的結果群組至單一目標。
+* **[更新資料](update-data.md)**：可讓您大量更新資料庫中的資料。

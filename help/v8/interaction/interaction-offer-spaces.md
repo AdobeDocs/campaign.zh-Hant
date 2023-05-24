@@ -1,6 +1,6 @@
 ---
-title: 市場活動交互活動提供空間
-description: 瞭解如何建立服務空間
+title: Campaign互動選件空間
+description: 瞭解如何建立優惠方案空間
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,66 +14,66 @@ ht-degree: 3%
 
 # 建立優惠方案空間{#creating-offer-spaces}
 
-服務目錄的內容在服務空間中配置。 預設情況下，內容可以包括以下欄位： **[!UICONTROL Title]**。 **[!UICONTROL Destination URL]**。 **[!UICONTROL Image URL]**。 **[!UICONTROL HTML content]** 和 **[!UICONTROL Text content]**。 欄位序列在提供空間中配置。
+優惠方案目錄的內容是在優惠方案空間中設定。 依預設，內容可包含以下欄位： **[!UICONTROL Title]**， **[!UICONTROL Destination URL]**， **[!UICONTROL Image URL]**， **[!UICONTROL HTML content]** 和 **[!UICONTROL Text content]**. 欄位序列是在選件空間中設定。
 
-作為 **技術管理員**，可在「設計」環境中建立提供空間。 您需要有權訪問聘用空間子資料夾。 一旦建立，這些服務空間將在服務審批期間自動複製到即時環境中。
+As a **技術管理員**，您可以在「設計」環境中建立優惠方案空間。 您需要具有優惠方案空間子資料夾的存取權。 建立後，這些優惠方案空間會在優惠方案核准期間自動複製到即時環境中。
 
-HTML渲染通過渲染功能建立。 呈現函式中定義的欄位序列必須與內容中配置的序列相同。
+HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必須與內容中設定的順序相同。
 
 ![](assets/offer_space_create_009.png)
 
-要建立新的聘用空間，請執行以下步驟：
+若要建立新的優惠方案空間，請遵循下列步驟：
 
-1. 在提供空間清單中，按一下 **[!UICONTROL New]**。
+1. 從優惠方案空間清單中，按一下 **[!UICONTROL New]**.
 
    ![](assets/offer_space_create_001.png)
 
-1. 選擇要使用的渠道並更改優惠空間的標籤。
+1. 選取您要使用的頻道，並變更優惠方案空間的標籤。
 
    ![](assets/offer_space_create_002.png)
 
-1. 檢查 **[!UICONTROL Enable unitary mode]** 選項
+1. 檢查 **[!UICONTROL Enable unitary mode]** option
 
-1. 轉到 **[!UICONTROL Content field]** 的 **[!UICONTROL Add]**。
+1. 前往 **[!UICONTROL Content field]** 視窗並按一下 **[!UICONTROL Add]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. 轉到 **[!UICONTROL Content]** ，然後按以下順序選擇欄位： **[!UICONTROL Title]**，則 **[!UICONTROL Image URL]**，則 **[!UICONTROL HTML content]**，則 **[!UICONTROL Destination URL]**。
+1. 前往 **[!UICONTROL Content]** 節點並按下列順序選取欄位： **[!UICONTROL Title]**，則 **[!UICONTROL Image URL]**，則 **[!UICONTROL HTML content]**，則 **[!UICONTROL Destination URL]**.
 
    ![](assets/offer_space_create_004.png)
 
-1. 檢查 **[!UICONTROL Required]** 的子菜單。
+1. 檢查 **[!UICONTROL Required]** 讓每個欄位成為必要欄位的選項。
 
    >[!NOTE]
    >
-   >此選項在預覽中使用，如果聘用中缺少一個強制欄位，則發佈時將聘用空間無效。 但是，如果某個報價已在某個報價空間上，則不會考慮這些標準。
+   >預覽時會使用此選項，如果選件中缺少其中一個必要欄位，發佈時就會讓選件空格無效。 但是，如果優惠方案已在優惠方案空間上線，則不會考慮這些條件。
 
    ![](assets/offer_space_create_005.png)
 
-1. 按一下 **[!UICONTROL Edit functions]** 的子菜單。
+1. 按一下 **[!UICONTROL Edit functions]** 以建立演算函式。
 
-   這些函式用於在提供空間上生成提供表示。 有幾種可能的格式：HTML或文本。
+   這些函式用於在優惠方案空間上產生優惠方案宣告。 有幾種可能的格式：HTML或文字。
 
-   **注釋** - XML格式僅限於此版本產品中不可用的入站交互。 [了解更多](../start/v7-to-v8.md#gs-unavailable-features)
+   **注意** - XML格式僅限於此版本產品中無法使用的輸入互動。 [了解更多](../start/v7-to-v8.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
-1. 轉到 **[!UICONTROL HTML rendering]** 頁籤 **[!UICONTROL Overload the HTML rendering function]**。
-1. 插入渲染函式。
+1. 前往 **[!UICONTROL HTML rendering]** 標籤並選取 **[!UICONTROL Overload the HTML rendering function]**.
+1. 插入您的演算函式。
 
    ![](assets/offer_space_create_007.png)
 
-## 提供命題狀態 {#offer-proposition-statuses}
+## 優惠方案主張狀態 {#offer-proposition-statuses}
 
-根據與目標群體的互動情況，服務提議狀態會有所不同。 「活動交互」模組附帶了一組值，可在其整個生命週期內應用於產品建議。 您需要配置平台，以便在建立和接受服務建議時狀態發生變化。
+優惠方案主張狀態會依與目標群體的互動而有所不同。 「促銷活動互動」模組隨附一組值，可在優惠方案主張的整個生命週期中套用這些值。 您需要設定平台，以便在建立及接受優惠方案主張時變更狀態。
 
 >[!NOTE]
 >
->狀態更新是 **非同步** 處理。 它由每小時觸發的跟蹤工作流執行。
+>狀態更新為 **非同步** 程式。 追蹤工作流程會每小時觸發一次。
 
-### 聘用狀態清單 {#status-list}
+### 優惠狀態清單 {#status-list}
 
-可用的聘用狀態包括：
+可用的優惠方案狀態為：
 
 * **[!UICONTROL Accepted]**
 * **[!UICONTROL Scheduled]**
@@ -82,78 +82,78 @@ HTML渲染通過渲染功能建立。 呈現函式中定義的欄位序列必須
 * **[!UICONTROL Presented]**
 * **[!UICONTROL Rejected]**
 
-預設情況下不應用這些值：必須配置。
+預設不會套用這些值：必須加以設定。
 
 >[!NOTE]
 >
->如果聘用連結到具有「已發送」狀態的交付，則聘用建議的狀態將自動更改為「已提交」。
+>如果優惠連結到狀態為「已傳送」的傳遞，優惠方案主張的狀態會自動變更為「已呈現」。
 
-### 建立提議時提供狀態 {#configuring-the-status-when-the-proposition-is-created}
+### 建立主張時的優惠方案狀態 {#configuring-the-status-when-the-proposition-is-created}
 
-當提議是 **建立**，其狀態將更新。
+當優惠方案主張為 **已建立**，其狀態會更新。
 
-在 **[!UICONTROL Design]** 環境中，根據要在聘用報告中顯示的資訊，為每個聘用空間配置建立建議時要應用的狀態。
+在 **[!UICONTROL Design]** 環境，請根據您要在優惠方案報表中顯示的資訊，為每個優惠方案空間設定建立主張時要套用的狀態。
 
 要執行此操作，請遵循下列步驟：
 
-1. 轉到 **[!UICONTROL Storage]** 的子菜單。
-1. 選擇建立命題時要應用的狀態。
+1. 前往 **[!UICONTROL Storage]** 標籤中指定位置的頁首。
+1. 選取建立時套用至主張的狀態。
 
    ![](assets/offer_update_status_001.png)
 
-### 接受提議時提供狀態 {#configuring-the-status-when-the-proposition-is-accepted}
+### 接受主張時的優惠狀態 {#configuring-the-status-when-the-proposition-is-accepted}
 
-一旦一個提議 **接受**，使用預設提供的值之一配置命題的新狀態。 當收件人按一下優惠中的連結時，將應用更新。
+一旦優惠方案主張已 **已接受**，使用預設提供的值之一來設定主張的新狀態。 當收件者按一下優惠方案中的連結時，就會套用更新。
 
 要執行此操作，請遵循下列步驟：
 
-1. 轉到 **[!UICONTROL Storage]** 的子菜單。
-1. 選擇在接受該提議時要應用於該建議的狀態。
+1. 前往 **[!UICONTROL Storage]** 標籤中指定位置的頁首。
+1. 選取您要在主張被接受時套用的狀態。
 
    ![](assets/offer_update_status_002.png)
 
 
-**入站交互**
+**傳入互動**
 
-的 **[!UICONTROL Storage]** 頁籤，您可以定義狀態 **提議** 和 **接受** 僅提供建議。 對於入站交互，應直接在URL中指定聘用建議的狀態，以調用聘用引擎，而不是通過介面。 這樣，您就可以指定在其它情況下（例如，如果聘用建議被拒絕）應用的狀態。
+此 **[!UICONTROL Storage]** 索引標籤可讓您定義狀態 **已建議** 和 **已接受** 僅限優惠方案主張。 針對傳入互動，應直接在呼叫優惠方案引擎的URL中指定優惠方案主張的狀態，而非透過介面。 如此一來，您將能夠指定在其他情況下要套用的狀態，例如優惠方案主張被拒絕時。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-例如，提議（標識符） **40004**) **家庭保險** 顯示在 **尼奧班克** 站點包含以下URL:
+例如，主張（識別碼） **40004**)，此引數符合 **家庭保險** 優惠方案顯示在 **Neobank** 網站包含下列URL：
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-只要訪問者按一下此服務，並因此按一下URL, **[!UICONTROL Accepted]** 狀態（值） **3**)，並將訪問者重定向到 **尼奧班克** 地點來簽保險合同。
+當訪客按一下選件，接著按一下URL，然後 **[!UICONTROL Accepted]** 狀態（值） **3**)套用至主張，而訪客會重新導向至的新頁面 **Neobank** 提出保險合約的網站。
 
 >[!NOTE]
 >
->如果要在url中指定其他狀態（例如，如果聘用建議被拒絕），請使用與所需狀態對應的值。 示例： **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** =「1」等。
+>如果您想在URL中指定其他狀態（例如，如果優惠方案主張被拒絕），請使用與所需狀態對應的值。 範例： **[!UICONTROL Rejected]** = &quot;5&quot;， **[!UICONTROL Presented]** = 「1」等。
 >
->可以在 **[!UICONTROL Offer propositions (nms)]** 資料架構。 如需詳細資訊，請參閱[此頁面](../dev/create-schema.md)。
+>狀態及其值可在下列位置擷取： **[!UICONTROL Offer propositions (nms)]** 資料結構描述。 如需詳細資訊，請參閱[此頁面](../dev/create-schema.md)。
 
-**出站交互**
+**傳出互動**
 
-您可以自動應用 **[!UICONTROL Interested]** 當交貨包含連結時，提供建議的狀態。 只需添加 **_urlType=&quot;11&quot;** 連結的值：
+您可以自動套用 **[!UICONTROL Interested]** 當傳遞包含連結時，優惠方案主張的狀態。 只需新增 **_urlType=&quot;11&quot;** 連結的值：
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
-## 按空間提供預覽 {#offer-preview-per-space}
+## 每個空間的優惠預覽 {#offer-preview-per-space}
 
-在 **[!UICONTROL Preview]** 頁籤中，您可以通過選擇的方法查看收件人有資格的優惠。 在下面的示例中，收件人有資格通過郵件獲得三個優惠建議。
+在 **[!UICONTROL Preview]** 索引標籤中，您可以透過選擇的方法檢視收件者符合資格的優惠方案。 在以下範例中，收件者有資格透過郵件獲得三個優惠方案書。
 
 ![](assets/offer_space_overview_002.png)
 
-如果收件人不符合任何聘用條件，則預覽中會顯示此內容。
+如果收件者不符合任何優惠方案的資格，便會在預覽中顯示。
 
 ![](assets/offer_space_overview_001.png)
 
 
-當上下文被限制到空間時，預覽可以忽略它們。 此時，交互模式已擴展為使用入站通道添加空間中引用的欄位。
+當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已擴展，以使用傳入頻道新增空間中參照的欄位時，就會發生這種情況。
 
-![](../assets/do-not-localize/book.png)  有關此內容的詳細資訊，請參閱中的此示例 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}。
+![](../assets/do-not-localize/book.png)  如需詳細資訊，請參閱此範例，位置如下： [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

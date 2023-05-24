@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 工作流中的事件活動
-description: 工作流中的事件活動清單
+title: 工作流程中的事件活動
+description: 工作流程中的事件活動清單
 feature: Workflows, Data Management
 exl-id: 0e8ab370-06bc-431e-a685-310ac54a1246
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 ---
 
-# 工作流中的事件活動{#about-event-activities}
+# 工作流程中的事件活動{#about-event-activities}
 
-這些活動的主要任務是等待事件。 例如，它可以是接收檔案、電子郵件或由第三方系統發送的信號。
+這些活動的主要工作包括等待事件。 例如，可以是接收檔案、電子郵件或協力廠商系統傳送的訊號。
 
-這些活動在中不可用 [市場活動特定工作流](campaign-workflows.md)。
+這些活動在中無法使用 [行銷活動專屬工作流程](campaign-workflows.md).
 
 
-* **[檔案收集器](file-collector.md)**:監視一個或多個檔案在目錄中的到達，並啟用每個接收檔案的轉換。
-* **[檔案傳輸](file-transfer.md)**:將檔案傳輸到伺服器。
-* **[入站電子郵件](inbound-emails.md)**:恢復和處理電子郵件。
-* **[入站SMS](inbound-sms.md)**:恢復和處理SMS
-* **[Web下載](web-download.md)**:從Web下載檔案。
+* **[檔案收集器](file-collector.md)**：監控一或多個檔案到達目錄，並為每個收到的檔案啟用轉換。
+* **[檔案傳輸](file-transfer.md)**：將檔案傳輸至伺服器。
+* **[傳入電子郵件](inbound-emails.md)**：復原及處理電子郵件。
+* **[傳入簡訊](inbound-sms.md)**：復原及處理簡訊。
+* **[網頁下載](web-download.md)**：從網路下載檔案。

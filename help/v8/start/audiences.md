@@ -1,6 +1,6 @@
 ---
-title: 在活動中與受眾協作
-description: 在活動中與受眾協作
+title: 在Campaign中使用對象
+description: 在Campaign中使用對象
 feature: Audiences
 role: User
 level: Beginner
@@ -12,38 +12,38 @@ ht-degree: 22%
 
 ---
 
-# 在活動中與受眾協作{#gs-ac-audiences}
+# 在Campaign中使用對象{#gs-ac-audiences}
 
-配置檔案是儲存在市場活動資料庫中的聯繫人。
+設定檔是儲存在Campaign資料庫中的連絡人。
 
-在Adobe Campaign, **收件人** 是用於發送遞送（電子郵件、SMS等）的預設配置檔案。 儲存在資料庫中的收件人資料使您能夠篩選將接收任何給定傳遞的目標，並在傳遞內容中添加個性化資料。 資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
+在Adobe Campaign中， **收件者** 是用於傳送傳遞（電子郵件、簡訊等）的預設設定檔。 資料庫中儲存的收件者資料可讓您篩選將接收任何指定傳遞的目標，並在傳遞內容中新增個人化資料。 資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
 
-瞭解如何導入、更新和管理配置檔案和受眾 [此部分](../audiences/gs-audiences.md)。
+瞭解如何匯入、更新及管理設定檔和對象 [在本節中](../audiences/gs-audiences.md).
 
 ## 建立清單{#create-lists}
 
-清單是一組靜態聯繫人，可以在交貨操作中針對這些聯繫人，或在導入或其他工作流操作期間更新這些聯繫人。 例如，通過查詢從資料庫提取的總體可以儲存為清單。
+清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可以儲存為清單。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理清單 [此頁](../audiences/create-audiences.md)。
+![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理清單 [此頁面](../audiences/create-audiences.md).
 
 ## 篩選資料庫{#filter-the-database}
 
-篩選器配置允許您從清單中選擇資料 **[!UICONTROL dynamically]**:當資料被修改時，過濾的資料被更新。 您可以建立自己的篩選器或使用內置篩選器來定義目標受眾。
+篩選設定可讓您從清單中選取資料 **[!UICONTROL dynamically]**：修改資料時，會更新篩選的資料。 您可以建立自己的篩選器，或使用內建篩選器來定義目標對象。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理篩選器 [此頁](../audiences/create-filters.md)。
+![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理篩選器 [此頁面](../audiences/create-filters.md).
 
-## 在工作流中建立訪問群體
+## 在工作流程中建立對象
 
-目標可以通過工作流中圖形序列中的查詢組合來建立。 您可以根據您的要求建立目標受眾。 要顯示工作流編輯器，請按一下 **[!UICONTROL Targeting and workflows]** 頁籤
+目標定位可透過工作流程中圖形順序的查詢組合來建立。 您可以建立受眾，並根據您的需求鎖定這些受眾。 若要顯示工作流程編輯器，請按一下 **[!UICONTROL Targeting and workflows]** 索引標籤進行標籤。
 
-瞭解如何在中的市場活動工作流中構建受眾 [此頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
+瞭解如何在的行銷活動工作流程中建立對象 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
 
 
 ## 使用中的設定檔案{#active-profiles}
 
-根據您的合同，您的每個市場活動實例都配置了特定數量的有效配置檔案，這些配置檔案被計為用於開單目的。 請參閱您的最新合約，以參考已購買作用中設定檔數目。
+根據您的合約，您的每個Campaign執行個體都會布建特定數量的作用中設定檔，且會計算這些設定檔數量以結算費用。 請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
-**配置檔案** 指資訊記錄(例如：記錄 [收件人表](../dev/datamodel.md) 或包含cookie ID、客戶ID、移動標識符或與特定渠道相關的其他資訊的外部表)，這些資訊代表最終客戶、潛在客戶或潛在客戶。 如果配置檔案在過去12個月內通過任何渠道成為目標或進行通信，則它們被視為活動。
+**設定檔** 表示資訊記錄(例如： [收件者表格](../dev/datamodel.md) 或包含Cookie ID、客戶ID、行動識別碼或與特定管道相關的其他資訊的外部表格)，代表最終客戶、潛在客戶或潛在客戶。 如果設定檔在過去12個月內透過任何管道被定位或通訊，則會視為作用中。
 
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
@@ -53,14 +53,14 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ## 隱私權與同意{#privacy-and-consent}
 
-Adobe Campaign是收集和處理大量資料（包括個人資訊和敏感資料）的強大工具。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
+Adobe Campaign是一款強大的工具，用於收集和處理包括個人資訊及敏感資料在內的大量資料。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-![](../assets/do-not-localize/book.png) 瞭解如何管理中的隱私和同意 [Adobe Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target="_blank"}。
+![](../assets/do-not-localize/book.png) 瞭解如何在中管理隱私權與同意 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target="_blank"}.
 
 **相關主題**
 
-* [設計和執行市場活動特定的工作流](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
+* [設計和執行行銷活動專屬的工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
 
-* [瞭解如何選擇市場活動的受眾](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
+* [瞭解如何選取行銷活動的對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
 
 * [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)

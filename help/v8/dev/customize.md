@@ -1,6 +1,6 @@
 ---
 title: 自訂您的執行個體
-description: 瞭解如何自定義實例
+description: 瞭解如何自訂您的執行個體
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
@@ -13,64 +13,64 @@ ht-degree: 1%
 
 # 自訂您的執行個體{#gs-ac-custom}
 
-瞭解如何 **自定義您的市場活動實例**。
+瞭解如何 **自訂您的Campaign執行個體**.
 
 >[!CAUTION]
 >
->Adobe Campaign定制只保留給專家用戶。
+>Adobe Campaign自訂功能僅供專家使用者使用。
 
-## 建立新資料欄位和方案
+## 建立新的資料欄位和結構描述
 
-Adobe Campaign利用資料架構：
+Adobe Campaign使用資料結構描述來：
 
-* 定義應用程式內的資料對象如何與基礎資料庫表關聯
-* 定義市場活動應用程式中不同資料對象之間的連結
-* 定義和描述每個對象中包括的各個欄位
+* 定義應用程式內的資料物件如何繫結至基礎資料庫表格
+* 定義Campaign應用程式內不同資料物件之間的連結
+* 定義並描述每個物件中包含的個別欄位
 
-例如，要將欄位添加到現有表(如收件人表(nms:recipient))，必須擴展該模式。
+例如，若要將欄位新增至現有表格(例如收件者表格(nms：recipient))，您必須擴充該綱要。
 
-有兩種表擴展模式可用：
+有兩種表格擴充功能模式可供使用：
 
-* 通過介面，使用 **新建欄位** 助理
+* 透過介面，透過使用 **新欄位** 助理
 
-   瞭解如何快速在市場活動中添加新欄位 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+   瞭解如何在Campaign中快速新增欄位 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
-* 通過以寫程式方式擴展架構。 瞭解如何在中擴展現有架構 [此部分](../dev/extend-schema.md)。
+* 以程式設計方式，透過擴充綱要。 瞭解如何在中擴充現有結構描述 [本節](../dev/extend-schema.md).
 
-您還可以在市場活動資料庫中建立新表並擴展內置資料模型。
+您也可以在Campaign資料庫中建立新表格，並擴充內建資料模型。
 
-要添加在Adobe Campaign（例如合同表）中不現成的全新類型資料，您可以直接建立自定義架構。 有關此內容的詳細資訊，請參閱 [此示例](../dev/create-schema.md#example--creating-a-contract-table)。
+若要新增不存在於Adobe Campaign中的現成全新資料型別（例如合約表格），您可以直接建立自訂結構描述。 有關詳細資訊，請參閱 [此範例](../dev/create-schema.md#example--creating-a-contract-table).
 
 **相關主題**
 
-![](../assets/do-not-localize/book.png) 中的架構版本示例 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) 中的結構描述版本範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) 用例：將欄位連結到中的現有引用表 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+![](../assets/do-not-localize/book.png) 使用案例：將欄位連結至中的現有參考表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## 修改輸入表單
 
-市場活動輸入表格可以適應您的實施。 可以通過修改XML內容來添加或刪除表單域。
+Campaign輸入表單可適應您的實施。 您可以修改XML內容，以新增或移除表單欄位。
 
-瞭解如何修改現有輸入表單或在 [此部分](../dev/forms.md)。
+瞭解如何修改現有的輸入表單或在中建立新表單 [本節](../dev/forms.md).
 
-## 自定義儀表板{#gs-custom-dashboards}
+## 自訂儀表板{#gs-custom-dashboards}
 
-Adobe Campaign介面使用許多Web應用程式來訪問、管理和與收件人、遞送、市場活動、庫存等進行交互。 在介面中，它們以僅包含一頁的儀表板的形式顯示。
+Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、傳送、行銷活動、庫存等，並與之互動。 在介面中，這些量度會以儀表板形式顯示，且只會有一個頁面。
 
-內置Web應用程式儲存在 **管理>配置> Web應用程式** 資料夾。
+內建的Web應用程式儲存在 **管理>設定> Web應用程式** 檔案夾。
 
-瞭解如何在中的市場活動中建立概覽頁 [Campaign Classicv7文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
+瞭解如何在中建立Campaign概觀頁面 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
 
 
-## 自定義清單並建立篩選器 {#gs-lists-and-filters}
+## 自訂清單並建立篩選器 {#gs-lists-and-filters}
 
-市場活動清單附帶了預定義的篩選器，以便於導航和資料可視化。
+行銷活動清單隨附預先定義的篩選器，以促進導覽和資料視覺化。
 
-在Adobe Campaign資源管理器樹中導航時，資料庫中包含的資料將顯示在清單中。 您可以過濾這些清單、運行搜索、添加資訊、過濾和排序資料。
+當您在Adobe Campaign Explorer樹狀結構中導覽時，資料庫中包含的資料會顯示於清單中。 您可以篩選這些清單、執行搜尋、新增資訊、篩選及排序資料。
 
-瞭解如何在中配置清單和保存清單配置 [此頁](../start/campaign-ui.md)。
+瞭解如何設定清單並儲存清單設定 [此頁面](../start/campaign-ui.md).
 
-您可以對這些清單應用篩選器，以僅顯示運算子所需的資料。 然後，可以對過濾的資料執行動作。 篩選器配置允許您動態地從清單中選擇資料。 如果資料被修改，則更新過濾的資料。
+您可以對這些清單套用篩選，以僅顯示運運算元所需的資料。 然後可以對篩選的資料執行動作。 篩選設定可讓您從清單中動態選取資料。 如果修改資料，則會更新篩選的資料。
 
-瞭解有關篩選選項的詳細資訊 [此頁](../audiences/create-filters.md)。
+進一步瞭解中的篩選選項 [此頁面](../audiences/create-filters.md).

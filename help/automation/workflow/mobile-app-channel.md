@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # 行動應用程式頻道{#mobile-app-channel}
 
-下面詳細介紹的工作流隨 **移動應用頻道** 預設情況下為模組。 有關本模組的詳細資訊，請參閱 [此部分](../../v8/send/push.md)。
+以下詳述的工作流程會隨 **行動應用程式頻道** 模組（預設）。 如需此模組的詳細資訊，請參閱 [本節](../../v8/send/push.md).
 
 <table> 
  <tbody> 
@@ -25,7 +25,7 @@ ht-degree: 21%
   <tr> 
    <td> <span class="uicontrol">NMAC選擇退出管理</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> 此工作流更新移動設備上的通知取消訂閱。 從凌晨1點到午夜，每6小時觸發一次。 有關詳細資訊，請參閱本節</a>。<br /> </td> 
+   <td> 此工作流程會更新行動裝置上的取消訂閱通知。 從上午1:00到午夜，每6小時觸發一次。 如需詳細資訊，請參閱本區段</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
