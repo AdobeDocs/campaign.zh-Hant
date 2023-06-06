@@ -4,11 +4,11 @@ description: 開始使用行銷活動
 feature: Audiences
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
+source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    Adobe Campaign 可讓您針對行銷活動的主要階段設定協作核准流程。 您可以針對每個行銷活動，核准傳遞目標、內容和成本。可以透過電子郵件形式通知負責核准的 Adobe Campaign 操作者，然後他們可透過主控台或網路連線核准或拒絕核准。
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration)瞭解如何設定及管理核准。
+   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=zh-Hant#campaign-orchestration)瞭解如何設定及管理核准。
 
 
 ## 分散式行銷附加內容{#distributed-marketing-add-on}
@@ -109,5 +109,4 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 >
 >此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) 瞭解如何在中設定和使用Campaign回應管理員 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}
-
+[](../assets/do-not-localize/book.png)了解如何在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中設定和使用行銷活動回應管理員
