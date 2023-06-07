@@ -3,14 +3,14 @@ title: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 description: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 7b4942b5334826adf27c8a31dbdb9a5bfb5d50eb
+source-git-commit: a598c37dac999c93fa50c9a243e7b9cbfbed3cda
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# 將技術使用者移轉至開發人員控制檯上的技術帳戶 {#migrate-tech-users-to-ims}
+# Campaign技術運運算元移轉至Adobe Developer主控台 {#migrate-tech-users-to-ims}
 
 自Campaign v8.5開始，改善對Campaign v8的驗證程式。 技術操作員必須使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 技術運運算元是為API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
 
@@ -23,9 +23,9 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 此變更適用於從Campaign v8.5開始，且將 **強制** 從Campaign v8.6開始。
 
 
-## 我是否受到影響？{#ims-imacts}
+## 您有受到影響嗎？{#ims-impacts}
 
-如果您使用Campaign API，您必須將技術運運算元移轉至Adobe Developer主控台，如下所述。
+如果您使用Campaign API，則需要將技術運運算元移轉至Adobe Developer主控台，如下所述。
 
 ## 如何移轉？{#ims-migration-procedure}
 
@@ -33,7 +33,7 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 在開始移轉程式之前，您必須聯絡您的Adobe代表，以便Adobe技術團隊可以移轉您現有的操作員群組和已命名的許可權來AdobeIdentity Management System (IMS)。
 
-### 步驟1 — 在Adobe Developer Console中建立專案{#ims-migration-step-1}
+### 步驟1 — 在Adobe Developer主控台中建立/更新Campaign專案{#ims-migration-step-1}
 
 整合是作為一部分建立的 **專案** 在Adobe Developer Console中。 進一步瞭解中的專案 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
@@ -68,7 +68,7 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 >[!CAUTION]
 >
->更新技術操作員的驗證型別後，與此技術操作員的所有API整合都將停止工作
+>更新技術操作員的驗證型別後，與此技術操作員的所有API整合都將停止工作。 您必須 [更新您的API整合](#ims-migration-step-6).
 
 若要將技術操作員驗證模式更新為IMS，請執行以下步驟：
 
@@ -89,7 +89,6 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
    ```
 
 1. 儲存您的變更。
-
 
 您也可以使用SQL指令碼或Campaign API，以程式設計方式更新技術運運算元。 這些模式可協助您自動執行將操作員姓名更新為相關技術帳戶電子郵件地址和/或驗證型別的步驟。
 
@@ -148,8 +147,12 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 若要嘗試連線，請依照以下詳細步驟操作： [Adobe Developer Console認證指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 以產生存取權杖並複製提供的範例cURL命令。
 
-如需API整合步驟的詳細資訊，請參閱 [Adobe Developer Console驗證檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### 步驟6 — 更新協力廠商API整合 {#ims-migration-step-6}
+
+您必須更新API與協力廠商系統的整合。
+
+如需API整合步驟的詳細資訊，包括順利整合的範常式式碼，請參閱 [Adobe Developer Console驗證檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Soap呼叫範例{#ims-migration-samples}
