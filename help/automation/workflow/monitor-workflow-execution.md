@@ -4,9 +4,9 @@ title: 監視工作流程的執行
 description: 監視工作流程的執行
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1935'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 2%
 
 ![](assets/wf-notification_error-msg.png)
 
-連結可讓您在Web模式下存取Adobe Campaign主控台，並在您登入後處理錯誤工作流程。
+連結可讓您在Web模式下存取Adobe Campaign使用者端主控台，並在您登入後處理錯誤工作流程。
 
 ![](assets/wf-notification_error-console.png)
 

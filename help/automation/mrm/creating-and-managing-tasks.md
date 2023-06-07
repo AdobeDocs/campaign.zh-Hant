@@ -3,9 +3,9 @@ product: campaign
 title: 建立及管理任務
 description: 建立及管理任務
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '3740'
+source-wordcount: '3743'
 ht-degree: 1%
 
 ---
@@ -466,7 +466,7 @@ A **[!UICONTROL Control task]** 連結至傳遞核准：目標定位、內容、
 1. 完成指派給他們的區段後，參與者可以核准任務：
 
    * 透過通知電子郵件。
-   * 透過主控台或Web介面，在任務儀表板中。
+   * 透過使用者端主控台或Web介面，在任務儀表板中。
 
       ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -480,7 +480,7 @@ A **[!UICONTROL Control task]** 連結至傳遞核准：目標定位、內容、
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. 一旦負責任務的人確定任務已完成，他們就可以使用任務啟動時傳送的通知電子郵件中的連結、主控台或介面來關閉任務。
+1. 一旦負責任務的人判斷任務已完成，他們可以使用任務啟動時傳送的通知電子郵件中的連結、使用者端主控台或介面將其關閉。
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -490,7 +490,7 @@ A **[!UICONTROL Control task]** 連結至傳遞核准：目標定位、內容、
 
 1. 任務狀態變更為 **[!UICONTROL To approve]**，系統會傳送通知給稽核者。
 
-   他們透過通知電子郵件、主控台或Web介面核准任務。
+   他們透過通知電子郵件、使用者端主控台或網頁介面核准任務。
 
    他們可以透過行銷活動儀表板採取行動：
 

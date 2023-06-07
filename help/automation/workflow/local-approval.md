@@ -4,9 +4,9 @@ title: 本地核准
 description: 本地核准
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -81,13 +81,13 @@ ht-degree: 2%
 
 此範例說明如何設定工作流程傳送的核准流程。 如需建立傳遞工作流程的詳細資訊，請參閱 [範例：傳遞工作流程](delivery.md#example--delivery-workflow) 區段。
 
-操作員可透過以下兩種方式之一核准傳遞：使用電子郵件訊息中連結的網頁，或透過主控台。
+操作員可透過以下兩種方式之一核准傳遞：使用電子郵件訊息中連結的網頁，或透過使用者端主控台。
 
 * 網頁核准
 
    傳送給管理員群組操作員的電子郵件可讓您核准傳送目標。 訊息會使用定義的文字，而JavaScript運算式會由計算值取代（在此例中為「574」）
 
-   若要核准傳遞，請按一下相關連結，然後登入Adobe Campaign主控台。
+   若要核准傳遞，請按一下相關連結，然後登入Adobe Campaign使用者端主控台。
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* 透過主控台核准
+* 透過使用者端主控台核准
 
    在樹狀結構中， **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 節點包含要由目前連線的運運算元核准的任務清單。 清單應顯示一行。 連按兩下此行以回應。 下列視窗隨即顯示：
 

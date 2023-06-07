@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ _2021 年 9 月 7 日_
 **功能改善**
 
 * Flash 的生命週期結束後，已從所有相關的 Campaign 功能和元件中移除，並更換為 HTML5。 **量測**&#x200B;類型圖表已移除。 (NEO-30330) [了解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant)
-* 在 Windows 上安裝客戶端控制台時，安裝程式現在會檢查是否有父代登錄節點，如果沒有，會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
+* 在Windows上安裝使用者端主控台時，安裝程式現在會檢查是否有父項登入節點，如果沒有，則會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
 * 追蹤簽章功能已經過改良，以防止連結至協力廠商工具 (電子郵件用戶端、網際網路瀏覽器等) 的錯誤 處理特殊字元。 URL 參數現在已編碼。
 
 **其他變更**

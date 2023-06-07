@@ -4,9 +4,9 @@ title: 核准
 description: 核准
 feature: Workflows, Approvals
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 此活動不會阻礙處理，且工作流程可在等待回覆時執行其他任務。
 
-操作員可以從控制檯核准指派給該操作員的任務。 具有管理員許可權的操作員可以檢視和刪除指派給任何操作員的任務，但不能回覆這些任務。
+操作員可以從使用者端主控台核准指派給該操作員的任務。 具有管理員許可權的操作員可以檢視和刪除指派給任何操作員的任務，但不能回覆這些任務。
 
 修改活動的標題或訊息本文並不會影響目前的工作，但另一方面，修改可能的選擇會直接影響目前的工作，這會自動繼承新的選擇清單。
 

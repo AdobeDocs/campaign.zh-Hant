@@ -4,16 +4,14 @@ title: 發佈行銷活動套件
 description: 發佈行銷活動套件
 feature: Distributed Marketing
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
 
 # 發佈行銷活動套件{#publishing-the-campaign-package}
-
-
 
 中央實體運運算元會發佈他們想要提供給中本地實體的行銷活動 **[!UICONTROL list of campaign packages]**.
 
@@ -43,19 +41,19 @@ ht-degree: 2%
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
-## 核准期間 {#approval-periods}
+## 核准時間表 {#approval-periods}
 
 依預設，稽核者可在提交日期起的三天內處理核准。
 
 在編輯稽核者視窗中，您也可以設定提醒，以在行銷活動套件未核準時傳送一或多則訊息。 若要這麼做，請按一下 **[!UICONTROL Add reminder]** 連結，然後 **[!UICONTROL Add]** 按鈕。
 
-可以在指定日期傳送提醒和/或 **x** 提交日期後幾天。 可以在提醒表的第一欄中設定提醒型別。 在以下範例中，稽核者將在2014年1月29日的收到提醒訊息，即在 **[!UICONTROL Date]** 欄，以及核准期結束前一天（即提交核准日期後兩天）的第二個提醒。
+可以在指定日期傳送提醒和/或 **x** 提交日期後幾天。 可以在提醒表的第一欄中設定提醒型別。 在以下範例中，檢閱者會在2023年1月11日收到提醒訊息，亦即在 **[!UICONTROL Date]** 欄，以及核准期結束前一天（即提交核准日期後兩天）的第二個提醒。
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 定義好封裝且提交封裝以供核准後，執行排程會顯示在 **[!UICONTROL Audit]** 標籤。 它會顯示根據先前設定計算出的處理截止日期，以及所有已設定提醒的日期。
 
-## 透過Adobe Campaign主控台核准 {#approving-via-the-adobe-campaign-console}
+## 透過使用者端主控台核准 {#approving-via-the-adobe-campaign-console}
 
 如果未指定稽核者或如果通知的操作者均未核准該套件，則 **[!UICONTROL Approve the package]** 按鈕可讓您直接從行銷活動套件進行核准 **[!UICONTROL Dashboard]** 或來自套件概觀。
 

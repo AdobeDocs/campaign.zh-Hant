@@ -4,9 +4,9 @@ title: 建立本機行銷活動
 description: 建立本機行銷活動
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 2%
 
 ---
@@ -295,9 +295,9 @@ Web介面對應於在訂購行銷活動時要由本機實體填寫的表單。
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### 透過Adobe Campaign主控台核准 {#approving-via-the-adobe-campaign-console}
+#### 透過使用者端主控台核准 {#approving-via-the-adobe-campaign-console}
 
-您也可以在行銷活動訂單總覽中，透過主控台核准訂單。 若要核准訂單，請選取訂單並按一下 **[!UICONTROL Approve the order]**.
+您也可以在行銷活動訂單總覽中，透過使用者端主控台核准訂單。 若要核准訂單，請選取訂單並按一下 **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ Web介面對應於在訂購行銷活動時要由本機實體填寫的表單。
 
 如果複查者拒絕訂單，系統會自動將相關通知傳送給相關的當地實體：它會顯示拒絕核准的運運算元所輸入的註解。
 
-資訊會顯示在行銷活動套件清單頁面或行銷活動訂單頁面上。 如果他們能存取Adobe Campaign主控台，本機實體就會收到此拒絕的通知。
+資訊會顯示在行銷活動套件清單頁面或行銷活動訂單頁面上。 如果他們能存取Adobe Campaign使用者端主控台，本機實體就會收到此拒絕的通知。
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

@@ -3,9 +3,9 @@ product: campaign
 title: 管理行銷資源
 description: 瞭解如何管理行銷資源
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 ![](assets/mkt-resouce-approve.png)
 
-然後，授權的操作員可以接受或拒絕核准。 此動作是可能的：透過傳送的電子郵件訊息（按一下通知訊息中的連結）或透過主控台(按一下 **[!UICONTROL Approve]** )按鈕。
+然後，授權的操作員可以接受或拒絕核准。 此動作是可能的：透過傳送的電子郵件訊息（按一下通知訊息中的連結），或透過使用者端主控台(按一下 **[!UICONTROL Approve]** )按鈕。
 
 核准視窗可讓您輸入註解。
 

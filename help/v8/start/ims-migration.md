@@ -3,7 +3,7 @@ title: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 description: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 若要將技術操作員驗證模式更新為IMS，請執行以下步驟：
 
-1. 從Campaign使用者端主控台總管，瀏覽至 **管理>存取管理>操作員**.
+1. 從Campaign Client Console檔案總管，瀏覽至 **管理>存取管理>操作員**.
 1. 編輯用於API的現有技術運運算元。
 1. 取代 **名稱（登入）** 技術帳戶電子郵件擷取的此技術操作員的ID。
 1. 瀏覽至 **編輯** 左上角的按鈕 **檔案**，並選取 **編輯XML來源**.

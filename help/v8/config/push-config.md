@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1262'
 ht-degree: 4%
 
 ---
@@ -796,7 +796,7 @@ Android SDK是以JAVA撰寫的jar程式庫。 它可讓Android開發人員與Ado
 
 ## 變數 {#variables}
 
-變數可讓您定義在收到通知後的行動應用程式行為。 這些變數必須在行動應用程式程式碼中，以及在Adobe Campaign主控台的 **[!UICONTROL Variables]** 標籤中指定的Mobile Application Service。
+變數可讓您定義在收到通知後的行動應用程式行為。 這些變數必須在行動應用程式程式碼中，以及在Adobe Campaign使用者端主控台的 **[!UICONTROL Variables]** 標籤中指定的Mobile Application Service。
 
 
 以下是程式碼範例，此程式碼可讓行動應用程式收集通知中新增的任何變數。 在我們的範例中，我們使用「VAR」變數。

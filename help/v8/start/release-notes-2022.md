@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ _2022 年 9 月 30 日_
 
 **功能改進**
 
-* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，**Microsoft Edge WebView 2** 的安裝現在在任何用戶端主控台安裝都需要執行階段。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，安裝 **Microsoft Edge WebView 2** 任何使用者端主控台安裝現在都需要執行階段。
 * 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
 * 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 

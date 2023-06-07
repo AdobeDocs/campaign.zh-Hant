@@ -3,7 +3,7 @@ title: Adobe Campaign內建報告
 description: 內建報告
 feature: Reporting
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Adobe Campaign內建報告{#ootb-reports}
 
-此頁面提供Adobe Campaign內建報告、其內容與內容的清單。 Adobe Campaign提供一系列內建報表，使用者端主控台或網際網路瀏覽器均可存取。
+此頁面提供Adobe Campaign內建報告、其內容與內容的清單。 Adobe Campaign提供一系列內建報表，使用者可在使用者端主控台或網際網路瀏覽器中存取。
 
 可用的報表型別如下：
 

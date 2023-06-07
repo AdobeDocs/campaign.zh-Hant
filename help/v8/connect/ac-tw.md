@@ -4,9 +4,9 @@ description: 瞭解如何將您的Campaign環境與Twitter整合
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Campaign使用Twitter API 1.1版。 若要使用它，您必須透過開發人�
 >
 >每個 **twitter** 服務也必須由MID執行個體上的Adobe建立。 請聯絡您的Adobe代表，以設定您的環境。
 
-若要輸入設定，您必須同時存取Adobe Campaign主控台和Twitter應用程式許可權。
+若要輸入設定，您必須同時存取Adobe Campaign使用者端主控台和Twitter應用程式許可權。
 
 1. 在 **Adobe Campaign**，瀏覽至 **[!UICONTROL Profiles and targets]** 標籤，然後選取 **[!UICONTROL Services and Subscriptions]** 連結
 1. 建立新服務。

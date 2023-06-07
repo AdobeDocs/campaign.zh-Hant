@@ -6,9 +6,9 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
 exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
-source-git-commit: 666dbdac8330cae17693142cf45cc3d3d2d187a9
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1846'
 ht-degree: 23%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 23%
 
 1. 儲存您的變更。值的取代是由 **別名清除** 每晚執行的工作流程。 請參閱 [執行資料清除](#running-data-cleansing).
 
-對於所有根據此分項清單的欄位，當使用者輸入值時 **Adobe** 在「公司」欄位中(在Adobe Campaign主控台的Web表單中)，該值會自動被取代 **Adobe**.
+對於所有根據此分項清單的欄位，當使用者輸入值時 **Adobe** 在「公司」欄位中(在Adobe Campaign使用者端主控台中，以Web表單顯示)，該值會自動取代為 **Adobe**.
 
 #### 將錯誤值轉換為別名{#convert-to-alias}
 

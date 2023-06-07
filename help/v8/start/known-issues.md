@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Error:
 
 瞭解如何存取Adobe軟體發佈 [在此頁面中](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}.
 
-瞭解如何升級使用者端主控台 [在此頁面中](connect.md)
+瞭解如何升級您的使用者端主控台 [在此頁面中](connect.md)
 
 #### 內部參考{#issue-3-ref}
 

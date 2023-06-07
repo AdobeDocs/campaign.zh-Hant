@@ -4,11 +4,11 @@ description: 發現與 Campaign v8 相容的系統及版本
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
-exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 61222c2b05f1346bd2560ff17b225153edf9e91e
+exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 您可存取下列資訊：
 
-* Campaign 用戶端控制台及應用程式伺服器的&#x200B;**版本**&#x200B;號碼。在上述例子中，客戶端主控台和應用程式伺服器的版本為 8.1.5。
+* 此 **版本** 使用者端主控台和應用程式伺服器的數目。 在上述範例中，使用者端主控台和應用程式伺服器的版本為8.1.5。
 * 括弧之間的 SHA 編號。
 * 聯絡 Adobe 客戶服務的連結.
 * 導覽至 Adobe 隱私權政策、使用條款與 Cookie 政策的連結.

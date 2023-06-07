@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%

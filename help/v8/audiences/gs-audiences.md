@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -31,7 +31,7 @@ ht-degree: 20%
 * [匯入資料檔案](../start/import.md) 來自外部資料來源（例如CRM系統或平面檔案）
 * [建立網路表單](../dev/webapps.md) 允許客戶輸入自己的資訊並建立自己的設定檔
 * [對應至外部資料庫](../connect/fda.md) 儲存設定檔的位置
-* 在「使用者端」主控台中手動輸入設定檔，如下所示：
+* 在「使用者端主控台」中手動輸入設定檔，如下所示：
 
 ![](assets/create-profile.png)
 

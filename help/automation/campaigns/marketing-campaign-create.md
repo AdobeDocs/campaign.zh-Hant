@@ -4,9 +4,9 @@ title: 建立行銷活動
 description: 瞭解如何建立和執行行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -159,7 +159,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ## 使用網頁介面 {#use-the-web-interface-}
 
-您可以透過網際網路瀏覽器存取Adobe Campaign主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或處理資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
+您可以透過網際網路瀏覽器存取Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或處理資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
 1. 照常透過https://登入`<your instance>:<port>/view/home`.
 1. 使用選單存取概觀。
