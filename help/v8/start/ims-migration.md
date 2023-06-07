@@ -3,9 +3,9 @@ title: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 description: 將技術使用者移轉至開發人員控制檯上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
+source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用其Adobe ID連線至Adobe Campaign主控台。 為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在會直接使用IMS技術帳戶權杖呼叫Campaign API。
 
-深入瞭解新的伺服器對伺服器驗證程式 [在Adobe Developer Console檔案中](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+深入瞭解中的新伺服器對伺服器驗證程式 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 此變更適用於從Campaign v8.5開始，且將 **強制** 從Campaign v8.6開始。
 
@@ -46,7 +46,7 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 ### 步驟2 — 使用「伺服器對伺服器」驗證新增API至您的專案{#ims-migration-step-2}
 
-在Adobe Developer主控台中建立專案後，請新增使用伺服器對伺服器驗證的API。 瞭解如何在中設定OAuth伺服器對伺服器認證 [在Adobe Developer Console檔案中](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+在Adobe Developer主控台中建立專案後，請新增使用伺服器對伺服器驗證的API。 瞭解如何在中設定OAuth伺服器對伺服器認證 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 成功連線API後，您可以存取新產生的認證（包括使用者端ID和使用者端密碼），並產生存取權杖。
 
