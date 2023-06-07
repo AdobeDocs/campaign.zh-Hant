@@ -4,10 +4,10 @@ title: 設定及管理核准流程
 description: 瞭解如何管理行銷活動的核准
 feature: Approvals, Campaigns
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 382f0b1c4ee014f6ae5d62eaf93f5ae8c72c06b1
 workflow-type: tm+mt
-source-wordcount: '2272'
-ht-degree: 2%
+source-wordcount: '2280'
+ht-degree: 1%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 ## 檢閱和核准傳遞 {#review-and-approve-deliveries}
 
-對於您可以核准傳遞目標的每個行銷活動， [傳遞內容](#approving-content) 和成本。 可以透過電子郵件形式通知負責核准的 Adobe Campaign 操作者，然後他們可透過主控台或網路連線核准或拒絕核准。[了解更多](#approving-processes)。
+對於您可以核准傳遞目標的每個行銷活動， [傳遞內容](#approving-content) 和成本。 可以透過電子郵件形式通知負責核准的Adobe Campaign操作者，然後他們可透過使用者端主控台或網路連線核准或拒絕核准。 [了解更多](#approving-processes)。
 
 如果是直接郵件傳送，Adobe Campaign操作員可在解壓縮檔案傳送至路由器前檢視解壓縮檔案，並可視需要變更格式及重新啟動解壓縮。 [了解更多](#approve-an-extraction-file)。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 ### 核准傳遞的步驟 {#approving-processes}
 
-需要核准的階段會出現在行銷活動控制面板上（透過主控台或網頁介面）。 它們也會顯示在傳送追蹤表格和傳送控制面板上。
+需要核准的階段會出現在行銷活動控制面板上（透過使用者端主控台或網頁介面）。 它們也會顯示在傳送追蹤表格和傳送控制面板上。
 
 ![](assets/delivery-approval-actions.png)
 
@@ -163,7 +163,7 @@ ht-degree: 2%
 
    * 透過通知電子郵件：通知電子郵件包含已傳送校樣的連結，並且如果 **傳遞能力** 此執行個體已啟用附加元件。
 
-   * 透過主控台或網頁介面、傳遞追蹤、傳遞控制面板或行銷活動控制面板。 此行銷活動儀表板可讓您按一下 **[!UICONTROL Inbox rendering...]** 連結。 若要檢視其內容，請按一下 **[!UICONTROL Detail]** 圖示加以顯示。
+   * 透過使用者端主控台或網頁介面、傳遞追蹤、傳遞控制面板或行銷活動控制面板。 此行銷活動儀表板可讓您按一下 **[!UICONTROL Inbox rendering...]** 連結。 若要檢視其內容，請按一下 **[!UICONTROL Detail]** 圖示加以顯示。
 
 1. 系統會傳送通知電子郵件給行銷活動的負責人，通知他們內容是否已核准。 行銷活動的負責人可以隨時重新開始內容核准週期。 若要這麼做，請按一下 **[!UICONTROL Content status]** 行銷活動控制面板的行（在傳遞層級），然後按一下 **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -175,7 +175,7 @@ ht-degree: 2%
 
 1. 負責內容編輯的人員會收到電子郵件，通知他們內容可用。
 
-1. 接著，他們可以登入主控台、開啟傳遞，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
+1. 接著，他們可以登入Client Console、開啟傳遞，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
 
    >[!NOTE]
    >
@@ -185,7 +185,7 @@ ht-degree: 2%
 
    要執行此操作，他們可使用：
 
-   * 此 **[!UICONTROL Available content]** Adobe Campaign主控台中的連結。
+   * 此 **[!UICONTROL Available content]** Adobe Campaign使用者端主控台中的連結。
    * 通知訊息中的連結。
 操作員可在將內容提交至行銷活動負責人之前新增註解。
 通知訊息可讓稽核者核准或拒絕內容。
@@ -197,7 +197,7 @@ ht-degree: 2%
 1. 外部內容管理員會收到通知電子郵件，告知他們內容已核准並請求外部核准。
 1. 通知電子郵件包含已傳送校樣的連結（可讓您檢視傳遞呈現），以及核准或拒絕傳遞內容的按鈕。
 
-只有在已傳送一或多個校樣時，才可使用這些連結。 否則，傳遞呈現只能透過主控台或Web介面使用。
+只有在已傳送一或多個校樣時，才可使用這些連結。 否則，只能透過使用者端主控台或Web介面進行傳遞呈現。
 
 ### 核准擷取檔案 {#approve-an-extraction-file}
 
@@ -217,7 +217,7 @@ ht-degree: 2%
 
 ### 在儀表板中核准 {#approval-via-the-dashboard}
 
-若要透過主控台或網頁介面核准工作，請按一下行銷活動控制面板上的適當連結。
+若要透過使用者端主控台或網頁介面核准工作，請按一下行銷活動控制面板上的適當連結。
 
 例如，執行傳遞分析後：
 
@@ -305,7 +305,7 @@ par
 
 ### 啟用/停用通知 {#enabling-disabling-notification}
 
-根據預設，如果在行銷活動範本、行銷活動或傳遞中啟用相關工作的核准，則會傳送通知訊息。 但是，可以停用通知，以便僅從主控台授權核准。
+根據預設，如果在行銷活動範本、行銷活動或傳遞中啟用相關工作的核准，則會傳送通知訊息。 但是，可以停用通知，以便僅從使用者端主控台授權核准。
 
 若要這麼做，請編輯行銷活動或行銷活動範本的核准視窗( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** 標籤)並選取 **[!UICONTROL Do not enable notification sending]**.
 
