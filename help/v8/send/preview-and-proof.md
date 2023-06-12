@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '703'
 ht-degree: 7%
 
 ---
@@ -51,20 +51,20 @@ ht-degree: 7%
 * 使用 **[!UICONTROL Substitution of the address]** 用於輸入電子郵件地址並使用目標收件者資料來驗證內容的選項。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
 預設會隨機執行替代，但您可以透過  **[!UICONTROL Detail]** 圖示。
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   選擇 **[!UICONTROL Select a profile (must be included in the target)]** 選項並選取收件者。
+  選擇 **[!UICONTROL Select a profile (must be included in the target)]** 選項並選取收件者。
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * 使用 **[!UICONTROL Seed addresses]**  使用種子地址作為校樣目標的選項。 這些位址可以從檔案匯入或手動輸入。
 
-   >[!NOTE]
-   >
-   >種子地址不屬於預設收件者表格(nms：recipient)，它們是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
+  >[!NOTE]
+  >
+  >種子地址不屬於預設收件者表格(nms：recipient)，它們是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
 
-   進一步瞭解中的種子地址 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+  進一步瞭解中的種子地址 [本節](../audiences/test-profiles.md).
 
 * 使用 **[!UICONTROL Specific target and Seed addresses]** 結合種子地址和特定電子郵件地址的選項。 然後，相關設定會在兩個單獨的子標籤中定義。
 

@@ -4,9 +4,9 @@ title: 行銷活動目標對象
 description: 瞭解如何定義行銷活動的對象
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 * 目標對象。 您可以將訊息傳送至 [收件者清單](#send-to-a-group) 或建置 [工作流程中的對象](#build-the-main-target-in-a-workflow)
 * 控制組。 您可以 [新增控制組](#add-a-control-group) 監視訊息傳遞後的收件者行為
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* 種子地址 — 瞭解更多 [本節](../../v8/audiences/test-profiles.md).—>
 
 此資訊中的部分內容可繼承自 [行銷活動範本](marketing-campaign-templates.md#campaign-templates).
 
@@ -109,9 +108,9 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    * 此 **[!UICONTROL Start]** 圖示可讓您啟動目標定位工作流程。 當您按一下此圖示時，所有沒有輸入轉變的活動都會啟動（端點跳轉除外）。
 
-      ![](assets/start.png)
+     ![](assets/start.png)
 
-      伺服器會將請求列入考量，如其狀態所示： **[!UICONTROL Start as soon as possible]**.
+     伺服器會將請求列入考量，如其狀態所示： **[!UICONTROL Start as soon as possible]**.
 
    * 您可以透過適當的工具列圖示重新啟動目標定位工作流程。 此指令在下列情況下可能很有用： **[!UICONTROL Start]** 圖示無法使用，例如，正在停止定位工作流程。 在此情況下，請按一下 **[!UICONTROL Restart]** 圖示以預期重新啟動。 伺服器會將請求列入考量，其狀態如下： **[!UICONTROL Restart requested]**.
 
@@ -119,51 +118,52 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    * 工具列圖示可讓您停止或暫停進行中的目標定位工作流程。
 
-      當您按一下 **[!UICONTROL Pause]**，作業進行中 **[!UICONTROL are not]** 已暫停，但在下次重新啟動前不會啟動其他活動。
+     當您按一下 **[!UICONTROL Pause]**，作業進行中 **[!UICONTROL are not]** 已暫停，但在下次重新啟動前不會啟動其他活動。
 
-      ![](assets/pause.png)
+     ![](assets/pause.png)
 
-      伺服器會考慮該命令，其狀態顯示如下： **[!UICONTROL Pause requested]**.
+     伺服器會考慮該命令，其狀態顯示如下： **[!UICONTROL Pause requested]**.
 
-      您也可以在執行達到特定活動時自動暫停目標定位工作流程。 若要這麼做，請以滑鼠右鍵按一下要暫停目標定位工作流程的活動，然後選取 **[!UICONTROL Enable but do not execute]**.
+     您也可以在執行達到特定活動時自動暫停目標定位工作流程。 若要這麼做，請以滑鼠右鍵按一下要暫停目標定位工作流程的活動，然後選取 **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/donotexecute.png)
+     ![](assets/donotexecute.png)
 
-      此設定會以特殊圖示顯示。
+     此設定會以特殊圖示顯示。
 
-      ![](assets/pause_activity.png)
+     ![](assets/pause_activity.png)
 
-      >[!NOTE]
-      >
-      >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
+     >[!NOTE]
+     >
+     >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
 
-      按一下 **[!UICONTROL Start]** 以繼續執行。
+     按一下 **[!UICONTROL Start]** 以繼續執行。
 
    * 按一下 **[!UICONTROL Stop]** 圖示可停止進行中的執行。
 
-      ![](assets/stop.png)
+     ![](assets/stop.png)
 
-      伺服器會考慮該命令，其狀態顯示如下： **[!UICONTROL Stop requested]**.
-   您也可以在執行到達活動時自動停止目標定位工作流程。 要執行此操作，請以滑鼠右鍵按一下將停止目標定位工作流程的活動，然後選取 **[!UICONTROL Do not activate]**.
+     伺服器會考慮該命令，其狀態顯示如下： **[!UICONTROL Stop requested]**.
 
-   ![](assets/donotactivate.png)
+  您也可以在執行到達活動時自動停止目標定位工作流程。 要執行此操作，請以滑鼠右鍵按一下將停止目標定位工作流程的活動，然後選取 **[!UICONTROL Do not activate]**.
 
-   此設定會以特殊圖示顯示。
+  ![](assets/donotactivate.png)
 
-   ![](assets/unactivation.png)
+  此設定會以特殊圖示顯示。
+
+  ![](assets/unactivation.png)
 
 
-   >[!NOTE]
-   >
-   >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
+  >[!NOTE]
+  >
+  >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
 
 * 無條件停止
 
-   在Explorer中選取 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 以存取及處理每個行銷活動工作流程。
+  在Explorer中選取 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 以存取及處理每個行銷活動工作流程。
 
-   您可以按一下「 」，無條件停止工作流程 **[!UICONTROL Actions]** 圖示並選取 **[!UICONTROL Unconditional]** 停止。 此動作會終止您的行銷活動工作流程。
+  您可以按一下「 」，無條件停止工作流程 **[!UICONTROL Actions]** 圖示並選取 **[!UICONTROL Unconditional]** 停止。 此動作會終止您的行銷活動工作流程。
 
-   ![](assets/stop_unconditional.png)
+  ![](assets/stop_unconditional.png)
 
 ## 新增控制組 {#add-a-control-group}
 
