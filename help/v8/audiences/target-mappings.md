@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '366'
 ht-degree: 4%
 
 ---
 
 # 使用目標對應{#gs-target-mappings}
 
-依預設，傳遞範本的目標為 **[!UICONTROL Recipients]**. 因此，其目標對應會使用 **nms：recipient** 表格。
+根據預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL Recipients]**. 因此，其目標對應會使用 **nms：recipient** 表格。
+
+對於推播通知，預設目標對應為 **訂閱者應用程式(nms：appSubscriptionRcp)**，會連結至收件者表格。
 
 您可以針對傳遞使用其他目標對應，或建立新的目標對應。
 
