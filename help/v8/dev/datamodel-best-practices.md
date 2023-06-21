@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,6 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 > * 此 **autouid** 屬性僅適用於 [企業(FFDA)部署](../architecture/enterprise-deployment.md).
 >
 
-
 ## 連結和基數 {#links-and-cardinality}
 
 ### 連結 {#links}
@@ -138,7 +137,7 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 
 當您設計連結時，請確保在宣告1-1關係時目標籤錄為唯一。 否則，當只預期一個記錄時，連線可能會傳回多個記錄。 當「查詢傳回的資料列多於預期」時，這會導致傳送準備期間發生錯誤。 將連結名稱設為與目標結構描述相同的名稱。
 
-在(1)側的結構描述中定義具有基數(1-N)的連結。 例如，應在交易結構描述中定義關係Recipient (1) - (N) Transaction。
+在(N)側的結構描述中定義具有基數(1-N)的連結。 例如，應在交易結構描述中定義關係Recipient (1) - (N) Transaction。
 
 請注意，依照預設，連結的反向基數是(N)。 您可以透過將屬性revCardinality=&#39;single&#39;新增至連結定義來定義連結(1-1)。
 
