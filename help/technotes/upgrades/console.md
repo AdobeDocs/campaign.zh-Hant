@@ -5,9 +5,9 @@ description: 使用者端主控台32位元淘汰
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,15 @@ ht-degree: 1%
 
 ## 建議
 
-為了利用最新的功能和改善的安全性，Adobe建議將電腦升級為64位元作業系統。
+為了使用最新功能和改善的安全性，Adobe建議將電腦升級至64位元作業系統。
 
 ## 常見問題集
+
++++如何從Campaign v8 32位元升級至Campaign v8 64位元？
+
+升級過程順暢無礙。 您只需要透過安裝程式安裝新版本，就像定期升級一樣。
+
++++
 
 +++64位元版本的Campaign v8使用者端主控台是否與32位元電腦相容？
 
