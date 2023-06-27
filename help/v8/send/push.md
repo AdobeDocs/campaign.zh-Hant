@@ -5,10 +5,10 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 4%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -16,143 +16,7 @@ ht-degree: 4%
 
 行動應用程式傳送可讓您傳送通知至iOS和Android裝置。
 
-若要在Adobe Campaign中傳送推播通知，您需要：
-
-1. 將SDK與應用程式整合。 [了解更多](#push-sdk)
-1. 為您的行動應用程式建立行動應用程式型別的資訊服務，並將應用程式的iOS和Android版本新增到該服務。 [了解更多](#push-config)
-1. 建立iOS和Android的傳遞。 [了解更多](#push-create)
-
-## 整合SDK {#push-sdk}
-
-若要使用Adobe Campaign傳送推播通知，您必須在Adobe Experience Platform Mobile SDK的資料收集UI中設定Adobe Campaign擴充功能。
-
-Adobe Experience Platform Mobile SDK有助於在行動應用程式中強化Adobe的Experience Cloud解決方案和服務。 SDK的設定可透過資料收集UI進行管理，以彈性設定和可擴充的規則型整合。
-
-[進一步瞭解Adobe Developer檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-
-## 在Campaign中設定應用程式設定{#push-config}
-
-在傳送推播通知之前，您必須在Adobe Campaign中定義iOS和Android應用程式設定。
-
-推播通知會透過專用服務傳送給您的應用程式使用者。 使用者安裝您的應用程式時，會訂閱此服務： Adobe Campaign仰賴此服務，僅鎖定您應用程式的訂閱者。 在此服務中，您需要新增iOS和Android應用程式，才能在iOS和Android裝置上傳送。
-
-若要建立服務以傳送推播通知，請遵循下列步驟：
-
-1. 瀏覽至 **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 標籤，然後按一下 **[!UICONTROL Create]**.
-
-   ![](assets/new-service-push.png){width="800" align="left"}
-
-1. 輸入 **[!UICONTROL Label]** 和 **[!UICONTROL Internal name]**，並選取 **[!UICONTROL Mobile application]** 型別。
-
-   >[!NOTE]
-   >
-   >預設 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 目標對應會連結至收件者表格。 如果您想使用不同的目標對應，您需要建立新的目標對應，並在 **[!UICONTROL Target mapping]** 服務的欄位。 進一步瞭解中的目標對應 [此頁面](../audiences/target-mappings.md).
-
-1. 然後使用 **[!UICONTROL Add]** 圖示來定義使用此服務的行動應用程式。
-
->[!BEGINTABS]
-
->[!TAB iOS]
-
-若要為iOS裝置建立應用程式，請遵循下列步驟：
-
-1. 選取 **[!UICONTROL Create an iOS application]** 並按一下 **[!UICONTROL Next]**。
-
-   ![](assets/new-ios-app.png){width="600" align="left"}
-
-1. 在中輸入應用程式的名稱 **[!UICONTROL Label]** 欄位。
-1. （選用）您可以使用一些專案豐富推送訊息內容 **[!UICONTROL Application variables]**. 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
-
-   在下列範例中， **mediaURl** 和 **mediaExt** 會新增變數來建立豐富推送通知，然後為應用程式提供要在通知內顯示的影像。
-
-   ![](assets/ios-app-parameters.png){width="600" align="left"}
-
-1. 瀏覽至 **[!UICONTROL Subscription parameters]** 標籤來定義副檔名為的對應 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 結構描述。
-
-1. 瀏覽至 **[!UICONTROL Sounds]** 索引標籤來定義要播放的聲音。 按一下 **[!UICONTROL Add]** 和填滿 **[!UICONTROL Internal name]** 欄位，必須包含內嵌於應用程式中的檔案名稱或系統聲音名稱。
-
-1. 按一下 **[!UICONTROL Next]** 以開始設定開發應用程式。
-
-1. 整合金鑰是每個應用程式專屬的。 它會將行動應用程式連結至Adobe Campaign。
-
-   請確定相同 **[!UICONTROL Integration key]** 是透過SDK在Adobe Campaign和應用程式程式碼中定義的。
-
-   進一步瞭解 [開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
-
-
-   >[!NOTE]
-   >
-   > 此 **[!UICONTROL Integration key]** 可完全自訂字串值，但必須與SDK中指定的值完全相同。
-   >
-   > 您不能對應用程式的開發版本（沙箱）和生產版本使用相同的憑證。
-
-1. 選取圖示，從 **[!UICONTROL Application icon]** 欄位來個人化您服務中的行動應用程式。
-
-1. 選取 **[!UICONTROL Authentication mode]**。提供兩種模式：
-
-   * （建議） **[!UICONTROL Token-based authentication]**：填寫APN連線設定 **[!UICONTROL Key Id]**， **[!UICONTROL Team Id]** 和 **[!UICONTROL Bundle Id]** 然後按一下「 」，選取您的p8憑證 **[!UICONTROL Enter the private key...]**. 有關詳細資訊 **[!UICONTROL Token-based authentication]**，請參閱 [Apple檔案](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
-
-   * **[!UICONTROL Certificate-based authentication]**：按一下 **[!UICONTROL Enter the certificate...]**  然後選取您的p12金鑰，並輸入行動應用程式開發人員提供的密碼。
-   您稍後可以在中變更您的驗證模式 **[!UICONTROL Certificate]** 行動應用程式的索引標籤。
-
-1. 使用 **[!UICONTROL Test the connection]** 按鈕來驗證您的設定。
-
-1. 按一下 **[!UICONTROL Next]** 以開始設定生產應用程式，並依照上述步驟操作。
-
-1. 按一下&#x200B;**[!UICONTROL Finish]**。
-
-您的iOS應用程式現在已準備好在Campaign中使用。
-
->[!TAB Android]
-
-若要為Android裝置建立應用程式，請執行下列步驟：
-
-1. 選取 **[!UICONTROL Create an Android application]** 並按一下 **[!UICONTROL Next]**。
-
-   ![](assets/new-android-app.png){width="600" align="left"}
-
-1. 在中輸入應用程式的名稱 **[!UICONTROL Label]** 欄位。
-1. 整合金鑰是每個應用程式專屬的。 它會將行動應用程式連結至Adobe Campaign。
-
-   請確定相同 **[!UICONTROL Integration key]** 是透過SDK在Adobe Campaign和應用程式程式碼中定義的。
-
-   進一步瞭解 [開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
-
-
-   >[!NOTE]
-   >
-   > 此 **[!UICONTROL Integration key]** 可完全自訂字串值，但必須與SDK中指定的值完全相同。
-
-1. 選取圖示，從 **[!UICONTROL Application icon]** 欄位來個人化您服務中的行動應用程式。
-1. 選取 **HTTP v1** 在  **[!UICONTROL API version]** 下拉式清單。
-1. 按一下 **[!UICONTROL Load project json file to extract project details...]** 連結以載入您的JSON金鑰檔案。 有關如何解壓縮JSON檔案的詳細資訊，請參閱 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
-   您也可以手動輸入下列詳細資訊：
-   * **[!UICONTROL Project Id]**
-   * **[!UICONTROL Private Key]**
-   * **[!UICONTROL Client Email]**
-
-1. 使用 **[!UICONTROL Test the connection]** 按鈕來驗證您的設定。
-
-   >[!CAUTION]
-   >
-   >此 **[!UICONTROL Test connection]** 按鈕不會檢查MID伺服器是否可存取FCM伺服器。
-
-1. （選用）您可以使用一些專案豐富推送訊息內容 **[!UICONTROL Application variables]** 視需要而定。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
-
-1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。您的Android應用程式現在已準備好在Campaign中使用。
-
-以下是FCM裝載名稱，可進一步個人化您的推播通知：
-
-| 訊息類型 | 可設定的訊息元素（FCM裝載名稱） | 可設定的選項（FCM裝載名稱） |
-|:-:|:-:|:-:|
-| 資料訊息 | N/A | validate_only |
-| 通知訊息 | title，內文， android_channel_id，圖示，聲音，標籤，顏色，點按動作，影像，提示，粘性，可見度， notification_priority， notification_count <br> | validate_only |
-
-
->[!ENDTABS]
-
+開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤的設定和整合已就緒。 [進一步瞭解推播設定。](push-settings.md)
 
 ## 建立您的第一個推播通知{#push-create}
 
@@ -212,9 +76,11 @@ Adobe Experience Platform Mobile SDK有助於在行動應用程式中強化Adobe
 
    * **[!UICONTROL Volume]**：音量從0到100。
 
-      >[!NOTE]
-      > 
-      >聲音必須包含在應用程式中，並在建立服務時定義。
+     >[!NOTE]
+     > 
+     >聲音必須包含在應用程式中，並在建立服務時定義。
+     >
+
    ![](assets/push_ios_5.png)
 
 1. 從 **[!UICONTROL Application variables]** 標籤，您的 **[!UICONTROL Application variables]** 會自動新增。 它們可讓您定義通知行為，例如，您可以設定當使用者啟動通知時顯示的特定應用程式畫面。
@@ -244,6 +110,7 @@ Adobe Experience Platform Mobile SDK有助於在行動應用程式中強化Adobe
       * **[!UICONTROL Time sensitive]** 系統會立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。
 
       * **[!UICONTROL Critical]** 系統會立即顯示通知、讓熒幕亮起，並略過靜音開關或聚焦模式。 請注意，此層級需要Apple的特殊許可權。
+
    * **[!UICONTROL Relevance score]**：將關聯性分數設定為0到100。 系統會使用此選項來排序通知摘要中的通知。
 
    ![](assets/push_ios_7.png)
@@ -282,7 +149,6 @@ Adobe Experience Platform Mobile SDK有助於在行動應用程式中強化Adobe
    <!--![](assets/push-android-preview.png)-->
 
 >[!ENDTABS]
-
 
 ## 測試、傳送及監控您的推播通知
 

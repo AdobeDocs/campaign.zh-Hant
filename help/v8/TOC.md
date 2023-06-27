@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 97%
 
 ---
 
@@ -44,8 +44,10 @@ ht-degree: 98%
          + [設計和驗證電子郵件](send/email.md)
          + [連結至鏡像頁面](send/mirror-page.md)
          + [傳送和監視電子郵件](send/send.md)
-      + [SMS](send/sms.md)
-      + [推播通知](send/push.md)
+      + [簡訊](send/sms.md)
+      + 推播通知 {#push}
+         + [建立和傳送推播通知](send/push.md)
+         + [設定推播通知頻道](config/push-settings.md)
       + [LINE 傳送訊息](send/line.md)
       + [直接郵件](send/direct-mail.md)
       + [Twitter](send/twitter.md)
@@ -170,7 +172,6 @@ ht-degree: 98%
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [電子郵件設定](config/email-settings.md)
-      + [推播設定](config/push-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
       + [將 Campaign SDK 與您的應用程式整合- 已棄用頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
