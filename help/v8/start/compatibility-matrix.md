@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 93%
+source-wordcount: '378'
+ht-degree: 89%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 93%
 
 使用 Campaign 用戶端主控台時，需要下列作業系統和瀏覽器。[深入瞭解](connect.md)。
 
->[!NOTE]
->
->請注意，8.5 版本將淘汰 32 位元版本的用戶端主控台。從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。深入了解如何升級作業系統，請參閱此[技術說明](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=zh-Hant)。
-
 ### 作業系統{#op-systems}
 
 * **Microsoft Windows 伺服器** 2019、2016、2012
 * **Microsoft Windows** 11、10、8
+
+>[!NOTE]
+>
+>請注意，從8.5版開始，32位元版本的使用者端主控台已過時。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
 
 ### 網頁瀏覽器{#web-browsers}
 
@@ -52,7 +52,8 @@ ht-degree: 93%
 
 與 Adobe Campaign 同盟資料存取 (FDA) 模組相容的外部資料庫列於下方。 [深入瞭解](../connect/fda.md)。
 
-* **Amazon Redshift**
+* **[!DNL Amazon Redshift]**
+* **[!DNL Azure Synapse]**, 自 Campaign v8.5 起
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

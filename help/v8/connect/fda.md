@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner, Intermediate
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 使用FDA聯結器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 以及處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。 然後您可以存取外部資料，而不需變更Adobe Campaign資料的結構。
 
-![](../assets/do-not-localize/speech.png)   身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將外部資料庫與Campaign連線。
+![](../assets/do-not-localize/speech.png) 身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將外部資料庫與Campaign連線。
 
 
 >[!NOTE]
@@ -25,7 +25,6 @@ ht-degree: 1%
 >
 >* 在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，您可使用特定的外部帳戶來管理Campaign本機資料庫與Snowflake雲端資料庫之間的通訊。 此外部帳戶是根據Adobe和為您設定的 **不得** 修改。
 >
-
 
 
 ## 最佳實務和限制
@@ -41,11 +40,12 @@ FDA選項受您使用的第三方資料庫系統限制。
    * 將Adobe Campaign資料庫匯出至外部資料庫，並僅從外部資料庫執行操作，然後再將結果重新匯入Adobe Campaign。
 
    * 從外部Adobe Campaign資料庫收集資料，並在本機執行操作。
-   如果您想要使用外部資料庫中的資料在傳遞中執行個人化，請收集要在工作流程中使用的資料，使其可在臨時表格中使用。 然後，使用臨時表格中的資料來個人化您的傳遞。 若要執行此作業，請使用在專用工作流程中預先處理訊息個人化 **[!UICONTROL Prepare the personalization data with a workflow]** 選項，可在 **[!UICONTROL Analysis]** 傳遞屬性的索引標籤。 在傳遞分析期間，此選項會自動建立並執行工作流程，將所有連結至目標的資料儲存在暫存表格中，包括連結至外部資料庫之表格的資料。
 
-   >[!CAUTION]
-   >
-   >此選項可大幅改善執行個人化步驟時的效能。
+  如果您想要使用外部資料庫中的資料在傳遞中執行個人化，請收集要在工作流程中使用的資料，使其可在臨時表格中使用。 然後，使用臨時表格中的資料來個人化您的傳遞。 若要執行此作業，請使用在專用工作流程中預先處理訊息個人化 **[!UICONTROL Prepare the personalization data with a workflow]** 選項，可在 **[!UICONTROL Analysis]** 傳遞屬性的索引標籤。 在傳遞分析期間，此選項會自動建立並執行工作流程，將所有連結至目標的資料儲存在暫存表格中，包括連結至外部資料庫之表格的資料。
+
+  >[!CAUTION]
+  >
+  >此選項可大幅改善執行個人化步驟時的效能。
 
 
 ## 在工作流程中使用外部資料

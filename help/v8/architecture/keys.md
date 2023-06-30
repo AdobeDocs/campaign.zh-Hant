@@ -5,9 +5,9 @@ feature: FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
@@ -74,19 +74,6 @@ Adobe Campaign會在傳送準備期間自動從對象中移除任何重複的UUI
 在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，您無法選取內部金鑰(UUID)作為欄位來更新工作流程中的資料。
 
 ![](assets/update-data-no-internal-key.png)
-
-使用明確調解金鑰時， **更新資料** 活動會根據此索引鍵自動確保目的地結構描述的唯一性，方法是：
-
-1. 刪除傳入資料的重複資料（從轉變）
-1. 使用目的地表格刪除重複資料（合併）
-
-
-![](assets/update-data-deduplicate.png)
-
->[!CAUTION]
->
->此護欄僅適用於option **[!UICONTROL Using reconciliation keys]**.
-
 
 ### 查詢包含重複專案的結構描述{#query-with-duplicates}
 

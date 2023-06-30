@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -100,6 +100,8 @@ Adobe身為Managed Cloud Services使用者，為您部署使用者端主控台�
 >[!CAUTION]
 >
 >Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 取消選取，以確保有新版的Console可用時收到警報。 如果選取此選項，則不會通知使用者需要升級Console。
+>
+
 
 
 ## 授予使用者存取許可權{#grant-access}

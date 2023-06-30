@@ -4,9 +4,9 @@ title: 技術工作流程
 description: 進一步瞭解Campaign可用的技術工作流程
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1667'
 ht-degree: 3%
 
 ---
@@ -84,6 +84,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 他們管理排定在�
 | **報告彙總** (reportingAggregates) | 傳遞 | 此工作流程會更新報告中使用的彙總。 預設會每天凌晨2:00觸發。 |
 | **傳送指標和行銷活動屬性** (webAnalyticsSendMetrics) | 網站分析聯結器 | 此工作流程可讓您透過Adobe® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至Adobe Experience Cloud套裝。 相關指標如下： Sent (iSent)、開啟總數(iTotalRecipientOpen)、點按的收件者總數(iTotalRecipientClick)、錯誤(iError)、選擇退出（選擇退出） (iOptOut)。 |
 | **庫存：訂單與警示** (stockMgt) | 預設安裝 | 此工作流程會啟動訂單明細行的庫存計算，並管理警告警示臨界值。 |
-| **追蹤** (追蹤 | 預設安裝 | 此工作流程會執行追蹤資訊的復原與合併。 此外，還可確保重新計算追蹤和傳遞統計資料，尤其是訊息中心封存工作流程所使用的資料。 預設會每小時觸發一次。 |
+| **從Adobe Experience Platform Data Collection同步行動應用程式** (syncWithLaunch) | 預設安裝，從v8.5開始 | 此工作流程會自動將行動屬性從資料收集同步至Adobe Campaign。 |
+| **追蹤** （追蹤） | 預設安裝 | 此工作流程會執行追蹤資訊的復原與合併。 此外，還可確保重新計算追蹤和傳遞統計資料，尤其是訊息中心封存工作流程所使用的資料。 預設會每小時觸發一次。 |
 | **更新事件狀態** (updateEventsStatus) | 異動訊息執行（訊息中心 — 執行） | 此工作流程可讓您為事件指派狀態。 事件狀態如下：<ul><li>擱置中：事件在佇列中。 尚未為其建立任何訊息範本的關聯。</li><li>擱置傳遞：事件在佇列中，訊息範本已與其建立關聯，且傳遞目前正在處理中。</li><li>已傳送：此狀態是從傳送記錄檔複製而來。 這表示傳遞已傳送。</li><li>已被傳送忽略：此狀態是從傳送記錄檔複製而來。 這表示已忽略傳遞。</li><li>傳送錯誤：此狀態是從傳送記錄檔複製而來。 這表示傳送失敗。</li><li>未涵蓋的事件：此事件無法與訊息範本建立關聯。 將不會重新處理事件。</li></ul> |
 | **傳遞能力更新** (deliverabilityUpdate) | 預設安裝 | 安裝傳遞能力監控（電子郵件傳遞能力）套件後，此工作流程會在夜間執行，並管理彈回電子郵件資格規則，以及網域和MX的清單。 這需要在平台上開啟HTTPS連線埠。 |

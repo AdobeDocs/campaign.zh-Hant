@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 97%
@@ -24,8 +24,6 @@ ht-degree: 97%
    + [護欄](start/ac-guardrails.md)
    + [已知問題](start/known-issues.md)
    + [相容性比較表](start/compatibility-matrix.md)
-   + 技術備註{#technotes}
-      + [將技術操作員移轉至開發人員主控台](start/ims-migration.md)
 + 開始使用{#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
    + [主要功能](start/whats-new.md)
@@ -48,6 +46,7 @@ ht-degree: 97%
       + 推播通知 {#push}
          + [建立和傳送推播通知](send/push.md)
          + [設定推播通知頻道](send/push-settings.md)
+         + [使用資料收集設定推播通知](send/push-data-collection.md)
       + [LINE 傳送訊息](send/line.md)
       + [直接郵件](send/direct-mail.md)
       + [Twitter](send/twitter.md)
