@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 97%
+source-wordcount: '569'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 97%
       + 電子郵件 {#emails}
          + [設計和驗證電子郵件](send/email.md)
          + [連結至鏡像頁面](send/mirror-page.md)
+         + [定義其他電子郵件引數](send/email-parameters.md)
          + [傳送和監視電子郵件](send/send.md)
       + [簡訊](send/sms.md)
       + 推播通知 {#push}
@@ -71,6 +72,7 @@ ht-degree: 97%
       + 驗證您的傳遞 {#validate}
          + [預覽和校樣](send/preview-and-proof.md)
          + [傳遞分析](send/delivery-analysis.md)
+      + [設定並傳送傳遞](send/configure-and-send.md)
 + 設定檔與對象管理 {#audience}
    + [開始使用設定檔和對象](audiences/gs-audiences.md)
    + [配合對象](start/audiences.md)

@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: b333db04dd10cc28956959a446f6567e2a89b2d4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 57%
+source-wordcount: '434'
+ht-degree: 56%
 
 ---
 
-# 連結至鏡像頁面{#mirror-page}
+# 連結至鏡像頁面 {#mirror-page}
 
-## 關於映象頁面{#about-mirror-page}
+## 關於映象頁面 {#about-mirror-page}
 
 鏡像頁面是您電子郵件的線上版本。
 
@@ -24,7 +24,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 ![鏡像連結範例](assets/mirror-page-link.png){width="600" align="left"}
 
-## 新增鏡像頁面連結{#link-to-mirror-page}
+## 新增鏡像頁面連結 {#link-to-mirror-page}
 
 插入鏡像頁面連結是很好的做法。例如，此連結可以是「在瀏覽器中檢視此電子郵件」或「線上閱讀」。它通常位於電子郵件的頁首或頁尾。
 
@@ -33,9 +33,9 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-如需自訂內容區塊插入的詳細資訊，請參閱 [個人化區塊](personalization-blocks.md).
+如需插入個人化內容區塊的詳細資訊，請參閱 [個人化區塊](personalization-blocks.md).
 
-## 鏡像頁面產生{#mirror-page-generation}
+## 管理映象頁面的產生 {#mirror-page-generation}
 
 依預設，如果電子郵件內容不是空的且包含鏡像頁面連結 (也稱為鏡像連結)，Adobe Campaign 會自動產生鏡像頁面。
 
@@ -52,7 +52,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 * **[!UICONTROL Do not generate the mirror page]**：使用此模式可避免產生映象頁面，即使連結存在於傳送中亦然。
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳送記錄視窗中啟用對映象頁面內容的存取，如下所述。
 
-## 檢查收件者的映象頁面{#mirror-page-access}
+## 檢查收件者的映象頁面 {#mirror-page-access}
 
 您可以存取傳送特定收件者的映象頁面內容，其中包含個人化資料。
 
