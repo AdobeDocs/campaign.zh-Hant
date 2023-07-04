@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Campaign中設定電子郵件。
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 21e251acd76f2bbb751f8e295934d597af336559
+source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 8%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 8%
    * 若要立即傳送傳遞，請選取 [**儘快傳遞**].
    * 若要排程傳送至之後的日期，請選取 **[!UICONTROL Postpone the delivery]**. [了解更多](#schedule-delivery-sending)
 
-1. 按一下 **[!UICONTROL Analyze]**。如需詳細資訊，請參閱 [啟動分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. 按一下 **[!UICONTROL Analyze]**。如需詳細資訊，請參閱[本節](delivery-analysis.md)。
 
    ![](assets/delivery-send-analyze.png)
 
