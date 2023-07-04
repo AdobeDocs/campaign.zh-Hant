@@ -5,20 +5,22 @@ feature: Push
 role: Data Engineer
 level: Beginner
 badge: label="Limited availability" type="Informative"
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
 
 # 修訂推播通知設定 {#push-notifications-config}
 
+Campaign v8.5推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。
+
 >[!AVAILABILITY]
 >
-> 自8.5版開始，新客戶將獨家存取此功能，並逐步向一組精選客戶推出。 如果您的環境是在2023年6月之前布建，您必須遵循詳細說明的程式 [在此頁面中](push-settings.md).
+> 自Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，則此頁面不適用於您，您必須遵循詳細說明的程式 [在此頁面中](push-settings.md).
 
-若要在Adobe Campaign中傳送推播通知，您需要：
+針對此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 
 1. [在Adobe Experience Platform Data Collection中建立應用程式表面](#create-app-surface)
 
