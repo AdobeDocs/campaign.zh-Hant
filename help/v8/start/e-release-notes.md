@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9736ebb3d2a60bfe23b135318b899acb657a580c
+source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 本頁介紹了下一個 Campaign v8 版本中包含的改善及修正。在發行日期前，此內容可能會有所變更，恕不另行通知。 本[頁面](../start/release-notes.md)提供正式發行說明。
 
-## 發行版本 8.5 {#release-8-5}
+## 發行版本 8.5.1 {#release-8-5}
 
 _2023年6月30日_
 
@@ -32,7 +32,7 @@ _2023年6月30日_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign 8.5隆重推出我們在v8的最新推播通知服務，並以現代尖端技術為基礎打造的強大架構為後盾。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。</p>
+<td><p>Campaign 8.5.1隆重推出我們在v8的最新推播通知服務，並以現代尖端技術為基礎打造的強大架構為後盾。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -46,7 +46,7 @@ _2023年6月30日_
 **功能改進**
 
 * 透過實施一系列最佳化，SMS吞吐量已大幅提升，進而改善SMS通訊的速度和效率。
-* 從Campaign v8.5開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。
+* 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。
 * 您現在可以善用目的地和來源連線來同步設定檔屬性，例如Adobe Experience Platform和Campaign v8資料庫之間的選擇退出資料
 * 已最佳化傳遞準備。
 * 已為SFTP外部帳戶新增基於金鑰的驗證選項，以及現有的使用者/密碼驗證方法。 使用者現在可以使用私密金鑰安全地驗證，增強安全性並為SFTP存取提供替代驗證機制。
