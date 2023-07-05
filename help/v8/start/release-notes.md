@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -20,7 +20,7 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 
 此外，身為客戶，請確定您使用的系統為 [相容性矩陣](compatibility-matrix.md).
 
-## 發行版本 8.5 {#release-8-5}
+## 發行版本 8.5.1 {#release-8-5}
 
 _2023年6月30日_
 
@@ -34,7 +34,7 @@ _2023年6月30日_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。</p>
+<td><p>Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。</p>
 <p>如需詳細資訊，請參閱<a href="../send/push-data-collection.md">詳細文件</a>以瞭解詳情。</p>
 
 </td> 
@@ -56,7 +56,7 @@ _2023年6月30日_
 
 **安全性改善功能**
 
-* 從Campaign v8.5開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何在中移轉您的現有技術帳戶 [此技術檔案](../../technotes/upgrades/ims-migration.md).
+* 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何在中移轉您的現有技術帳戶 [此技術檔案](../../technotes/upgrades/ims-migration.md).
 * 您無法再從Campaign使用者端主控台建立運運算元。 使用者介面已據此更新。 您現在必須使用Adobe Admin Console。 [了解更多](../start/gs-permissions.md)。
 * 已更新數個協力廠商工具，以最佳化安全性。
 
