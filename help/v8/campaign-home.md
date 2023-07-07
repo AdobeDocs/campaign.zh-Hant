@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 82%
+source-wordcount: '157'
+ht-degree: 80%
 
 ---
 
@@ -33,37 +33,53 @@ ht-degree: 82%
 
 ## 開始使用
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="start/connect.md">
-      <img alt="CONNECT" src="start/assets/do-not-localize/login.jpeg"/>
-    </a>
-    <div>
-    <a href="start/connect.md">連結至 Campaign</a>
-    </div>
-    <br>
-  </td>
 
-<td valign="bottom">
-      <a href="start/import.md">
-       <img alt="匯入" src="start/assets/do-not-localize/profiles.jpeg" />
-       </a>
-    <div><a href="start/import.md">匯入設定檔</a>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="start/create-message.md">
-      <img alt="電子郵件" src="start/assets/do-not-localize/email-design.jpeg" />
-    </a>
-    <div>
-    <a href="start/create-message.md">建立電子郵件</a>
-    </div>
-    <br>
-  </td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="start/connect.md">
+<img alt="連線至Campaign v8" src="start/assets/do-not-localize/login.jpeg">
+</a>
+<div><a href="start/connect.md"><strong>連結至 Campaign</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="start/import.md">
+<img alt="匯入設定檔" src="start/assets/do-not-localize/profiles.jpeg">
+</a>
+<div>
+<a href="start/import.md"><strong>匯入設定檔</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start/create-message.md">
+<img alt="建立電子郵件" src="start/assets/do-not-localize/email-design.jpeg">
+</a>
+<div>
+<a href="start/create-message.md"><strong>建立電子郵件</strong></a>
+</div>
+<p></td>
+<td>
+<a href="send/push.md">
+<img alt="傳送推播通知" src="start/assets/do-not-localize/push-send.jpeg">
+</a>
+<div>
+<a href="send/push.md"><strong>傳送推播通知</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../automation/workflow/about-workflows.md">
+<img alt="建立行銷活動" src="start/assets/do-not-localize/workflow.jpeg">
+</a>
+<div>
+<a href="../automation/workflow/about-workflows.md"><strong>建立工作流程</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
 
 ## 更多資源
 

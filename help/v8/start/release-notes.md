@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -42,12 +42,10 @@ _2023年6月30日_
 </tbody> 
 </table>
 
-**相容性更新**
-
-* 32位元版本的使用者端主控台現已棄用。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。使用者端主控台升級至64位元版本相當順暢。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
-* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。進一步瞭解 [Campaign相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 **功能改進**
+
+
+
 
 * 透過實施一系列最佳化，SMS吞吐量已大幅提升，進而改善SMS通訊的速度和效率。
 * 您現在可以運用Adobe Experience Platform目的地連線來同步設定檔屬性，例如Adobe Experience Platform與Campaign v8資料庫之間的選擇退出資料。
@@ -59,6 +57,13 @@ _2023年6月30日_
 * 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何在中移轉您的現有技術帳戶 [此技術檔案](../../technotes/upgrades/ims-migration.md).
 * 您無法再從Campaign使用者端主控台建立運運算元。 使用者介面已據此更新。 您現在必須使用Adobe Admin Console。 [了解更多](../start/gs-permissions.md)。
 * 已更新數個協力廠商工具，以最佳化安全性。
+
+**相容性更新**
+
+* 32位元版本的使用者端主控台現已棄用。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。使用者端主控台升級至64位元版本相當順暢。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
+* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。進一步瞭解 [Campaign相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+
 
 **修補程式**
 
