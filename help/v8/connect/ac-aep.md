@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 8f7c723b8ef7ab6c8449eaec8ff6c87b9ee5deec
+source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campa
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. 選取要傳送至Adobe行銷活動的區段。
+   1. 選取要傳送至Adobe Campaign的區段。
    1. 設定您要在對象中匯出的屬性。
    1. 設定好流量後，即可將選取的對象啟動至Adobe Campaign。
 
@@ -52,7 +52,7 @@ Adobe Campaign受管理的Cloud Service目標和來源聯結器可讓Adobe Campa
 
 >[!NOTE]
 >
->設定檔屬性同步可用於Adobe促銷活動資料庫中已存在的設定檔。
+>設定檔屬性同步可用於Adobe Campaign資料庫中已存在的設定檔。
 
 將Adobe Experience Platform設定檔屬性與Adobe Campaign同步的主要步驟如下：
 
