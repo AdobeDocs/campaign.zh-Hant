@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 57%
+source-wordcount: '1337'
+ht-degree: 56%
 
 ---
 
@@ -80,6 +80,7 @@ _2023年6月30日_
 * 修正在電子郵件內容編輯器中按一下影像時，導致快顯視窗開啟的問題。 (NEO-60752)
 * 修正在編輯傳遞內容時，可能導致錯誤並妨礙您捲動的問題。 (NEO-61364)
 * Adobe Analytics聯結器現在會匯出具有正確管道型別的量度。 它之前一律設定為「電子郵件」頻道。 (NEO-26340)
+* 修正搭配日期時間欄位使用Big Query聯結器時可能導致錯誤的問題。 (NEO-49768)
 
 
 ## 發行版本 8.4.5 {#release-8-4-5}
