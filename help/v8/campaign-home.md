@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: c42dfe96f1f18f1d9eab0a8761c1ea65479962b2
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '153'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 
 ## 有哪些新功能
 
-* **[[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"}**  — 瞭解如何建立工作流程與行銷活動
+* **[[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"}**  — 瞭解如何建立工作流程和行銷活動
 
 * **[什麼是 [!DNL Adobe Campaign]](start/get-started.md)** - 主要功能與使用案例
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 * **[從 v7 到 v8](start/v7-to-v8.md)** - 從 Campaign Classic v7 轉變到 v8？瞭解主要差異
 
-* **[Campaign v8的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}**  — 使用Campaign控制面板，自行執行重要的管理員工作
+* **[Campaign v8控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}**  — 使用Campaign控制面板，自行執行重要的管理員工作
 
 * **[發行說明](start/release-notes.md)** - 瞭解最新功能和改進
 
@@ -66,15 +66,6 @@ ht-degree: 80%
 </a>
 <div>
 <a href="send/push.md"><strong>傳送推播通知</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="../automation/workflow/about-workflows.md">
-<img alt="建立行銷活動" src="start/assets/do-not-localize/workflow.jpeg">
-</a>
-<div>
-<a href="../automation/workflow/about-workflows.md"><strong>建立工作流程</strong></a>
 </div>
 <p>
 </td>

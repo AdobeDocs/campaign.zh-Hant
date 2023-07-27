@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
+source-git-commit: 32d0264c03eb4ec6ab1959d0a66be78c06a0dccb
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 56%
+source-wordcount: '1453'
+ht-degree: 51%
 
 ---
 
@@ -24,61 +24,85 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 
 _2023年6月30日_
 
-**有哪些新功能？**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>增強推播通知服務</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充性，確保您的通知能夠以順暢的效率觸及更多對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更龐大的規模和可靠性，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。</p>
-<p>如需詳細資訊，請參閱<a href="../send/push-data-collection.md">詳細文件</a>以瞭解詳情。</p>
+**增強推播通知服務**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充能力，確保您的通知能夠以順暢的效率觸及更廣泛的對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更大規模且更可靠的服務，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。
 
-**功能改進**
+如需詳細資訊，請參閱[詳細文件](../send/push-data-collection.md)以瞭解詳情。
 
 
+**行動裝置頻道增加的輸送量**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="改善輸送量" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>新推出的推播通知服務顯示推播Android和推播iOS的輸送量比起先前版本(v8.4)有重大改善。 最新版本(v8.5)的升級服務可讓使用者體驗到更優異的效能。 </p>
+<ul>
+<li>推播通知(Android)：最多 <strong>5x</strong> 更快 </li>
+<li>推播通知(iOS)：最多 <strong>2.2倍</strong> 更快</li>
+</ul>
+<p>SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速度和效率顯著提高。 這些升級已導致從先前版本(v8.4)到最新版本(v8.5)的輸送量增加，包括傳送和意見更新兩者。 使用者現在可以體驗此增強型簡訊服務的好處。</p>
+<ul>
+<li>SMS輸送量：最高 <strong>5x</strong> 更快</li>
+</ul>
+<p><em>這些最大輸送量效能是由Adobe測試團隊在實驗室條件下測量的。</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* 透過實施一系列最佳化，SMS吞吐量已大幅提升，進而改善SMS通訊的速度和效率。
-* 您現在可以運用Adobe Experience Platform目的地連線來同步設定檔屬性，例如Adobe Experience Platform與Campaign v8資料庫之間的選擇退出資料。
-* 已最佳化傳遞準備。
-* 已為SFTP外部帳戶新增基於金鑰的驗證選項，以及現有的使用者/密碼驗證方法。 使用者現在可以使用私密金鑰安全地驗證，增強安全性並為SFTP存取提供替代驗證機制。 若要了解詳細資訊，請參閱[本章節](../config/external-accounts.md)。
+**一般改善**
+
+* 您現在可以利用Adobe Experience Platform目的地連線來同步設定檔屬性，例如Adobe Experience Platform與Campaign v8資料庫之間的選擇退出資料。
+* 已針對所有管道進行傳遞準備最佳化。
+* 除了現有的使用者/密碼驗證方法之外，還為SFTP外部帳戶新增了金鑰型驗證選項。 使用者現在可以使用私密金鑰安全地驗證，增強安全性並為SFTP存取提供替代驗證機制。 若要了解詳細資訊，請參閱[本章節](../config/external-accounts.md)。
 
 **安全性改善功能**
 
-* 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何在中移轉您的現有技術帳戶 [此技術檔案](../../technotes/upgrades/ims-migration.md).
-* 您無法再從Campaign使用者端主控台建立運運算元。 使用者介面已據此更新。 您現在必須使用Adobe Admin Console。 [了解更多](../start/gs-permissions.md)。
+* 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何移轉您現有的技術帳戶，於 [此技術檔案](../../technotes/upgrades/ims-migration.md).
+* 您無法再從Campaign使用者端主控台建立運運算元。 使用者介面已更新相應內容。 您現在必須使用Adobe Admin Console。 [了解更多](../start/gs-permissions.md)。
 * 已更新數個協力廠商工具，以最佳化安全性。
 
 **相容性更新**
 
-* 32位元版本的使用者端主控台現已棄用。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。使用者端主控台升級至64位元版本相當順暢。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
+* 使用者端主控台的32位元版本現已棄用。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。使用者端主控台可順暢升級至64位元版本。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
 * 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。進一步瞭解 [Campaign相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **修補程式**
 
-* 修正可能導致傳遞的HTML內容中的特殊字元在數個瀏覽器中編碼錯誤的問題。 (NEO-60081)
-* 修正無法在Campaign v8企業(FFDA)部署中儲存報表的問題。 (NEO-56836)
-* 修正透過更新資料工作流程活動將資料插入或更新至自訂FFDA結構描述時的問題。 (NEO-54708)
+* 修正可能導致傳遞的HTML內容在數個瀏覽器中編碼錯誤的特殊字元問題。 (NEO-60081)
+* 修正了無法在Campaign v8企業(FFDA)部署中儲存報表的問題。 (NEO-56836)
+* 修正透過更新資料工作流程活動將資料插入或更新至自訂FFDA結構描述中的問題。 (NEO-54708)
 * 修正資料庫清理工作流程無法移除FFDA上nms：address表格中的位址的問題。 (NEO-54460)
 * 修正計費工作流程可能因「編譯記憶體耗盡」錯誤而失敗的問題。 (NEO-51137)
 * 修正了GPG解密在資料載入（檔案）工作流程活動中無法正常運作的問題。 (NEO-50257)
 * 修正使 `JSPContext.sqlExecWithOneParam` 函式無法運作的問題。 (NEO-50066)
 * 修正在個人化欄位中使用無法列印的字元時，導致傳送失敗的問題。 (NEO-48588)
 * 修正插入Adobe Target動態影像時，可能導致傳送錯誤的問題。 (NEO-62689)
-* 修正在傳送中使用條件式內容時，瀏覽器無法新增額外空格的問題。 (NEO-62132)
-* 修正在電子郵件內容編輯器中按一下影像時，導致快顯視窗開啟的問題。 (NEO-60752)
-* 修正在編輯傳遞內容時，可能導致錯誤並妨礙您捲動的問題。 (NEO-61364)
+* 修正瀏覽器在傳送中使用條件式內容時無法新增額外空格的問題。 (NEO-62132)
+* 修正在電子郵件內容編輯器中按一下影像時，造成快顯視窗開啟的問題。 (NEO-60752)
+* 修正可能導致錯誤的問題，並防止您在編輯傳送內容時捲動。 (NEO-61364)
 * Adobe Analytics聯結器現在會匯出具有正確管道型別的量度。 它之前一律設定為「電子郵件」頻道。 (NEO-26340)
 * 修正搭配日期時間欄位使用Big Query聯結器時可能導致錯誤的問題。 (NEO-49768)
 
