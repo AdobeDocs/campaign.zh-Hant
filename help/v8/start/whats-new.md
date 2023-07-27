@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
+source-git-commit: f16fe79b8417a3fa146baf432f829c73fb839953
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 92%
@@ -32,7 +32,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
 
 ![](../assets/do-not-localize/glass.png)[進一步瞭解行銷活動工作流程](../config/workflows.md)
 
-## 個人化電子郵件行銷 {#perso-email-mkt}
+### 個人化電子郵件行銷 {#perso-email-mkt}
 
 建立與客戶其他體驗相一致的個人化和內容相關的電子郵件。
 
