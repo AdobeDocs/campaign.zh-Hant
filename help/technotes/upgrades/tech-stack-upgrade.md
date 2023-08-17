@@ -14,25 +14,26 @@ ht-degree: 11%
 
 # Adobe Campaign 2023環境升級 {#ac-system-upgrade}
 
-Campaign基礎架構仰賴協力廠商系統，且必須定期更新為最新版本和修正。 這些更新是強制性的，以確保服務的連續性並確保Campaign環境安全無虞。 此外，必須升級Campaign，以確保與第三方系統變更相容。
+Campaign基礎架構仰賴協力廠商系統，且必須定期以最新版本和修正更新。 這些更新是強制性的，可確保服務的連續性，並確保Campaign環境的安全不會受到安全風險的影響。 此外，需要升級Campaign，以確保與協力廠商系統變更相容。
 
-As a **Managed Cloud Services客戶**，Adobe會在您需要這些升級時通知您。 您的環境將需要根據建議升級，以確保法規遵循。
+作為 **Managed Cloud Service客戶**，Adobe會在需要這些升級時通知您。 您的環境將需要根據建議進行升級，以確保法規遵循。
 
-基於安全考量，Adobe必須 [安裝最新的Campaign版本編號](#ac-upgrade)，然後升級您的 [作業系統](#os-upgrade) 和/或您的 [關係資料庫管理系統(RDBMS)](#pg-upgrade).
+基於安全理由，Adobe必須 [安裝最新的Campaign版本編號](#ac-upgrade)，然後升級您的 [作業系統](#os-upgrade) 和/或您的 [關係資料庫管理系統(RDBMS)](#pg-upgrade).
 
 >[!NOTE]
 >
 >如對這些變更有任何疑問，請聯絡 [Adobe 客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+>
 
 ## Campaign版本編號升級 {#ac-upgrade}
 
 **您有受到影響嗎？**
 
-如果您受到 [作業系統升級](#os-upgrade) 和/或 [資料庫系統升級](#pg-upgrade) 如下所述，Adobe必須將您的Campaign環境升級至 [最新8.4.3版本](../../v8/start/release-notes.md)，這些系統相容。
+如果您受 [作業系統升級](#os-upgrade) 和/或 [資料庫系統升級](#pg-upgrade) 如下所述，Adobe必須將您的Campaign環境升級至 [最新8.4.3版本](../../v8/start/release-notes.md)，這些系統相容。
 
 **如何更新？**
 
-Adobe身為Managed Cloud Services客戶，將會聯絡您並升級您的Campaign版本。
+Adobe作為「受管理的Cloud Service」客戶，將會連絡您並升級您的Campaign版本。
 
 ## 作業系統升級 {#os-upgrade}
 
@@ -42,7 +43,7 @@ Adobe身為Managed Cloud Services客戶，將會聯絡您並升級您的Campaign
 
 **如何更新？**
 
-Adobe身為Managed Cloud Services客戶，將會聯絡您並升級您的環境。
+Adobe作為「受管理的Cloud Service」客戶，將會與您連絡並升級您的環境。
 
 ## 資料庫系統升級 {#pg-upgrade}
 
@@ -52,4 +53,4 @@ Adobe身為Managed Cloud Services客戶，將會聯絡您並升級您的環境�
 
 **如何更新？**
 
-作為「受管理的Cloud Services」客戶，Adobe將會與您連絡，並將您的資料庫系統從PostgreSQL 11升級至PostgreSQL 14。
+作為「受管理的Cloud Service」客戶，Adobe將會與您聯絡，並將您的資料庫系統從PostgreSQL 11升級至PostgreSQL 14。

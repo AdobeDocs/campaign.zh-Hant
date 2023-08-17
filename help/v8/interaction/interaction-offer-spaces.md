@@ -16,7 +16,7 @@ ht-degree: 3%
 
 優惠方案目錄的內容是在優惠方案空間中設定。 依預設，內容可包含以下欄位： **[!UICONTROL Title]**， **[!UICONTROL Destination URL]**， **[!UICONTROL Image URL]**， **[!UICONTROL HTML content]** 和 **[!UICONTROL Text content]**. 欄位序列是在選件空間中設定。
 
-As a **技術管理員**，您可以在「設計」環境中建立優惠方案空間。 您需要具有優惠方案空間子資料夾的存取權。 建立後，這些優惠方案空間會在優惠方案核准期間自動複製到即時環境中。
+作為 **技術管理員**&#x200B;中，您可以在設計環境中建立優惠方案空間。 您必須具備優惠方案空間子資料夾的存取權。 建立後，這些優惠方案空間會在優惠方案核准期間自動複製到即時環境中。
 
 HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必須與內容中設定的順序相同。
 
@@ -24,21 +24,21 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 若要建立新的優惠方案空間，請遵循下列步驟：
 
-1. 從優惠方案空間清單中，按一下 **[!UICONTROL New]**.
+1. 在選件空間清單中，按一下 **[!UICONTROL New]**.
 
    ![](assets/offer_space_create_001.png)
 
-1. 選取您要使用的頻道，並變更優惠方案空間的標籤。
+1. 選取您要使用的管道，並變更優惠方案空間的標籤。
 
    ![](assets/offer_space_create_002.png)
 
-1. 檢查 **[!UICONTROL Enable unitary mode]** option
+1. 檢查 **[!UICONTROL Enable unitary mode]** 選項
 
 1. 前往 **[!UICONTROL Content field]** 視窗並按一下 **[!UICONTROL Add]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. 前往 **[!UICONTROL Content]** 節點並按下列順序選取欄位： **[!UICONTROL Title]**，則 **[!UICONTROL Image URL]**，則 **[!UICONTROL HTML content]**，則 **[!UICONTROL Destination URL]**.
+1. 前往 **[!UICONTROL Content]** 節點並按下列順序選取欄位： **[!UICONTROL Title]**，然後 **[!UICONTROL Image URL]**，然後 **[!UICONTROL HTML content]**，然後 **[!UICONTROL Destination URL]**.
 
    ![](assets/offer_space_create_004.png)
 
@@ -46,7 +46,7 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
    >[!NOTE]
    >
-   >預覽時會使用此選項，如果選件中缺少其中一個必要欄位，發佈時就會讓選件空格無效。 但是，如果優惠方案已在優惠方案空間上線，則不會考慮這些條件。
+   >此選項用於預覽，如果選件中缺少其中一個必要欄位，會在發佈時讓選件空格無效。 但是，如果優惠方案空間中已上線，則不會考慮這些條件。
 
    ![](assets/offer_space_create_005.png)
 
@@ -92,12 +92,12 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 當優惠方案主張為 **已建立**，其狀態會更新。
 
-在 **[!UICONTROL Design]** 環境，請根據您要在優惠方案報表中顯示的資訊，為每個優惠方案空間設定建立主張時要套用的狀態。
+在 **[!UICONTROL Design]** 環境，請根據您想在優惠方案報表中顯示的資訊，為每個優惠方案空間設定建立主張時要套用的狀態。
 
 要執行此操作，請遵循下列步驟：
 
-1. 前往 **[!UICONTROL Storage]** 標籤中指定位置的頁首。
-1. 選取建立時套用至主張的狀態。
+1. 前往 **[!UICONTROL Storage]** 的索引標籤中。
+1. 選取建立主張時套用的狀態。
 
    ![](assets/offer_update_status_001.png)
 
@@ -107,7 +107,7 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 要執行此操作，請遵循下列步驟：
 
-1. 前往 **[!UICONTROL Storage]** 標籤中指定位置的頁首。
+1. 前往 **[!UICONTROL Storage]** 的索引標籤中。
 1. 選取您要在主張被接受時套用的狀態。
 
    ![](assets/offer_update_status_002.png)
@@ -115,19 +115,19 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 **傳入互動**
 
-此 **[!UICONTROL Storage]** 索引標籤可讓您定義狀態 **已建議** 和 **已接受** 僅限優惠方案主張。 針對傳入互動，應直接在呼叫優惠方案引擎的URL中指定優惠方案主張的狀態，而非透過介面。 如此一來，您將能夠指定在其他情況下要套用的狀態，例如優惠方案主張被拒絕時。
+此 **[!UICONTROL Storage]** 索引標籤可讓您定義狀態 **已建議** 和 **已接受** 僅限優惠方案主張。 針對傳入互動，應直接在呼叫優惠方案引擎的URL中指定優惠方案主張的狀態，而非透過介面。 如此一來，您將能夠指定在其他情況下要套用的狀態，例如在優惠方案主張被拒絕時。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-例如，主張（識別碼） **40004**)，此引數符合 **家庭保險** 優惠方案顯示在 **Neobank** 網站包含下列URL：
+例如，主張(識別碼 **40004**)的規則進行比對， **家庭保險** 優惠顯示在 **Neobank** 網站包含下列URL：
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-當訪客按一下選件，接著按一下URL，然後 **[!UICONTROL Accepted]** 狀態（值） **3**)套用至主張，而訪客會重新導向至的新頁面 **Neobank** 提出保險合約的網站。
+當訪客按一下選件，接著按一下URL，然後 **[!UICONTROL Accepted]** 狀態(值 **3**)套用至主張，而訪客會重新導向至的新頁面 **Neobank** 要取得保險合約的網站。
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 ## 每個空間的優惠預覽 {#offer-preview-per-space}
 
-在 **[!UICONTROL Preview]** 索引標籤中，您可以透過選擇的方法檢視收件者符合資格的優惠方案。 在以下範例中，收件者有資格透過郵件獲得三個優惠方案書。
+在 **[!UICONTROL Preview]** 索引標籤中，您可以透過所選方法檢視收件者符合資格的優惠方案。 在下列範例中，收件者有資格透過郵件取得三個優惠方案書。
 
 ![](assets/offer_space_overview_002.png)
 
@@ -154,6 +154,6 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 ![](assets/offer_space_overview_001.png)
 
 
-當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已擴展，以使用傳入頻道新增空間中參照的欄位時，就會發生這種情況。
+當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已延伸，以使用傳入頻道新增空間中所參照的欄位時，就會發生這種情況。
 
 ![](../assets/do-not-localize/book.png)  如需詳細資訊，請參閱此範例，位置如下： [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

@@ -1,6 +1,6 @@
 ---
 title: 運運算元設定檔
-description: 建立優惠方案管理運運算元
+description: 建立優惠方案管理操作者
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # 運運算元設定檔 {#operator-profiles}
 
-有兩種型別的運運算元可以使用Campaign互動： **優惠方案管理員** 和 **傳遞管理員**. 每個檔案都有特定的許可權和限制。 進一步瞭解Campaign運運算元和許可權 [此頁面](../start/gs-permissions.md).
+有兩種型別的運運算元可以使用Campaign互動： **優惠方案管理員** 和 **傳遞管理員**. 每一個都有特定的許可權和限制。 進一步瞭解Campaign運運算元和許可權，位於 [此頁面](../start/gs-permissions.md).
 
-* 此 **[!UICONTROL Offer manager]** 建立和維護優惠方案。
+* 此 **[!UICONTROL Offer manager]** 建立和維護選件。
 * 此 **[!UICONTROL Delivery manager]** 核准並使用優惠方案
 
 ## 建立優惠方案管理員運運算元{#offer-manager}
@@ -35,11 +35,11 @@ ht-degree: 8%
 
 * 顯示 **[!UICONTROL Live]** 環境。
 * 顯示和修改優惠方案類別。
-* 核准優惠方案（如果優惠方案是稽核者）。
+* 如果優惠方案為稽核者，則核准優惠方案。
 
-   >[!NOTE]
-   >
-   >**傳遞管理員** 只有當優惠方案設定中已宣告為檢閱者時，才能核准優惠方案。
+  >[!NOTE]
+  >
+  >**傳遞管理員** 只有在優惠方案設定中已宣告為檢閱者時，才能核准優惠方案。
 
 ## 每個互動運運算元的許可權矩陣 {#recap-of-rights-according-to-operator}
 
@@ -76,7 +76,7 @@ ht-degree: 8%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 預先定義的優惠篩選器<br /> </td> 
+   <td> 預先定義的選件篩選器<br /> </td> 
    <td> 讀取/寫入<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
@@ -136,7 +136,7 @@ ht-degree: 8%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 預先定義的優惠篩選器<br /> </td> 
+   <td> 預先定義的選件篩選器<br /> </td> 
    <td> 讀取<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 

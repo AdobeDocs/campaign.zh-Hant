@@ -21,17 +21,17 @@ A **傳遞控制**-type動作可讓您開始、暫停或停止傳遞。
 
 ![](assets/edit_diffusion_act.png)
 
-如果您選取 **[!UICONTROL Start]**，活動會執行開始傳送所需的所有步驟（目標計算、內容準備、傳送）。 如果先前的工作流程活動已執行這些步驟中的某些步驟，則不會再執行這些步驟。 例如，如果目標估計已經由 **[!UICONTROL Delivery]** 型別活動(請參閱 [傳遞](delivery.md))， **[!UICONTROL Act on the delivery]** 活動將啟動其餘步驟（內容準備和傳送）。
+如果您選取 **[!UICONTROL Start]**，活動會執行開始傳送所需的所有步驟（目標計算、內容準備、傳送）。 如果先前的工作流程活動已執行其中某些步驟，則不會再執行這些步驟。 例如，如果目標估計已經由 **[!UICONTROL Delivery]** 型別活動(請參閱 [傳遞](delivery.md))， **[!UICONTROL Act on the delivery]** 活動將啟動其餘步驟（內容準備和傳送）。
 
 可以使用以下選項：
 
 * **[!UICONTROL Generate an outbound transition]**
 
-   建立將在執行結束時啟用的出站轉變。 您可以選擇是否要擷取傳出傳遞的目標。
+  建立將在執行結束時啟用的出站轉變。 您可以選擇是否要擷取傳出傳遞的目標。
 
 * **[!UICONTROL Processing errors]**
 
-   請參閱 [處理錯誤](monitor-workflow-execution.md#processing-errors).
+  請參閱 [正在處理錯誤](monitor-workflow-execution.md#processing-errors).
 
 ## 輸入引數 {#input-parameters}
 

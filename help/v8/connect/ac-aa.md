@@ -1,5 +1,5 @@
 ---
-title: 使用Campaign和Adobe Analytics
+title: 合作使用Campaign與Adobe Analytics
 description: 瞭解如何整合Campaign與Analytics
 feature: Analytics Integration, Reporting
 role: Admin, User
@@ -12,13 +12,13 @@ ht-degree: 71%
 
 ---
 
-# 使用Campaign和Adobe Analytics
+# 合作使用Campaign與Adobe Analytics
 
 您可以設定Adobe Analytics以整合Campaign和Analytics。
 
 此整合可讓Adobe Campaign和Adobe Analytics透過 **網站分析聯結器** 附加元件。 此整合會將Adobe Campaign所傳送電子郵件行銷活動的指標和屬性傳送至Adobe Analytics。
 
-![](../assets/do-not-localize/speech.png)  身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support) 以連結Campaign與Adobe Experience Cloud服務和解決方案。 Web Analytics聯結器附加元件必須透過專用套件安裝在您的環境中。
+![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
@@ -191,7 +191,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理，可作為背景工作執行。
 
-此工作流程可從Campaign Explorer樹狀結構中的 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 資料夾。
+此工作流程可從Campaign Explorer樹狀結構的 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 資料夾。
 
 ![](assets/webanalytics_workflows.png)
 

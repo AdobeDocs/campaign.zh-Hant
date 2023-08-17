@@ -14,7 +14,7 @@ ht-degree: 9%
 
 此 **CRM聯結器** 活動可讓您設定Adobe Campaign與CRM系統之間的資料同步。
 
-透過此活動，您可以：
+使用此活動，您可以：
 
 * 從CRM匯入
 * 匯出為 CRM
@@ -23,7 +23,7 @@ ht-degree: 9%
 
 ![](assets/crm_task_select_op.png)
 
-選取符合您要設定同步化之CRM的外部帳戶，然後選取要同步的物件（帳戶、商機、聯絡人等）。
+選取符合您要設定同步之CRM的外部帳戶，然後選取要同步的物件（帳戶、商機、聯絡人等）。
 
 ![](assets/crm_task_select_obj.png)
 

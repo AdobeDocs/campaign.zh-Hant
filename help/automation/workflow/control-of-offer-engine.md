@@ -7,7 +7,7 @@ topic-tags: technical-workflows
 source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 30%
+ht-degree: 34%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 30%
   <tr> 
    <td> <span class="uicontrol">主張同步</span> <br /> </td> 
    <td> <span class="uicontrol">propositionSynch</span> <br /> </td> 
-   <td> 此工作流程會在行銷執行個體與用於互動的執行執行個體之間同步化主張。<br /> </td> 
+   <td> 此工作流程會在行銷執行個體與用於互動的執行執行個體之間同步建議。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

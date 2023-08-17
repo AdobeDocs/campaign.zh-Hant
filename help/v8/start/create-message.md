@@ -18,7 +18,7 @@ ht-degree: 100%
 
 核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。 主要功能存取點是傳送助理。 此存取點可導向 Adobe Campaign 涵括的多種功能。
 
-Adobe Campaign v8 提供下列傳送頻道：
+Adobe Campaign v8 提供下列傳遞管道：
 
 * **電子郵件頻道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。在[本頁](../send/email.md)中了解更多。
 
@@ -38,27 +38,27 @@ Adobe Campaign v8 提供下列傳送頻道：
 
 * 手動傳送訊息至主要目標
 
-   ![](assets/send-email.png)
+  ![](assets/send-email.png)
 
-   了解如何在[本節](../send/send.md)傳送訊息
+  了解如何在[本節](../send/send.md)傳送訊息
 
 * 傳送與[行銷活動](campaigns.md)相關的訊息
 
-   ![](assets/deliveries-in-a-campaign.png)
+  ![](assets/deliveries-in-a-campaign.png)
 
-   在[此章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)瞭解如何在行銷活動內容中傳送訊息。
+  在[此章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)瞭解如何在行銷活動內容中傳送訊息。
 
 * 透過[工作流程](../config/workflows.md)傳送訊息
 
-   ![](assets/send-in-a-wf.png)
+  ![](assets/send-in-a-wf.png)
 
-   在[此頁面](../../automation/workflow/delivery.md)瞭解如何自動傳遞電子郵件
+  在[此頁面](../../automation/workflow/delivery.md)瞭解如何自動傳遞電子郵件
 
 * 從事件[觸發訊息](../send/transactional.md) 
 
 * 排程您的訊息
 
-   ![](assets/schedule-send.png)
+  ![](assets/schedule-send.png)
 
 [使用案例：瞭解如何排程並傳送生日電子郵件](../../automation/workflow/send-a-birthday-email.md)
 

@@ -15,13 +15,13 @@ ht-degree: 2%
 
 Adobe Campaign中可用的篩選器是透過篩選條件來定義，這些條件是使用與查詢相同的作業模式建立的。
 
-此 **[!UICONTROL Administration > Configuration > Predefined filters]** node包含清單和概覽中使用的所有篩選器。
+此 **[!UICONTROL Administration > Configuration > Predefined filters]** 節點包含清單和概覽中使用的所有篩選器。
 
-例如，運運算元清單可篩選依據 **[!UICONTROL Active accounts]**：
+例如，運運算元清單可依據下列條件進行篩選 **[!UICONTROL Active accounts]**：
 
 ![](assets/query_editor_filter_sample_1.png)
 
-相符篩選器包含對下列專案的查詢： **[!UICONTROL Account disabled]** 的值 **[!UICONTROL Operators]** 綱要：
+相符的篩選器包含對 **[!UICONTROL Account disabled]** 的值 **[!UICONTROL Operators]** 綱要：
 
 ![](assets/query_editor_filter_sample_2.png)
 
@@ -33,20 +33,20 @@ Adobe Campaign中可用的篩選器是透過篩選條件來定義，這些條件
 
 ![](assets/query_editor_filter_sample_4.png)
 
-若要符合篩選條件，運運算元帳戶必須勾選下列條件之一：
+若要符合篩選條件，運運算元帳戶必須勾選下列其中一個條件：
 
-* 其標籤包含輸入欄位中輸入的字元。
-* 運運算元名稱包含輸入欄位中輸入的字元，
+* 其標籤包含在輸入欄位中輸入的字元，
+* 運運算元名稱包含輸入欄位中所輸入的字元。
 * 說明區域的內容包含在輸入欄位中輸入的字元。
 
 >[!NOTE]
 >
 >此 **[!UICONTROL Upper]** 函式可讓您停用區分大小寫的函式。
 
-此 **[!UICONTROL Taken into account if]** 欄可讓您定義這些篩選條件的應用程式條件。 在此， **$(/tmp/@text)** 字元代表連結至篩選器的輸入欄位內容：
+此 **[!UICONTROL Taken into account if]** 欄可讓您定義這些篩選條件的應用程式條件。 在此， **$(/tmp/@text)** 字元代表連結至篩選的輸入欄位內容：
 
 ![](assets/query_editor_filter_sample_5.png)
 
 此處， **$(/tmp/@text)=&#39;agency&#39;**
 
-此 **$(/tmp/@text)！=&quot;** 運算式會在輸入欄位非空白時套用每個條件。
+此 **$(/tmp/@text)！=&quot;** 運算式會套用輸入欄位非空白時的每個條件。

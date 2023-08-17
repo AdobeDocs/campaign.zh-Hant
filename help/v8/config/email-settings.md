@@ -1,6 +1,6 @@
 ---
-title: Campaign電子郵件頻道設定
-description: Campaign電子郵件頻道設定
+title: Campaign電子郵件通道設定
+description: Campaign電子郵件通道設定
 feature: Email
 role: User
 level: Intermediate, Experienced
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 ---
 
-# Campaign電子郵件頻道設定
+# Campaign電子郵件通道設定
 
 ## 電子郵件密件副本 {#email-bcc}
 
@@ -21,17 +21,17 @@ ht-degree: 5%
 >
 >This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
 
-您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件復本。
+您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。
 
-Adobe Campaign本身不會管理封存的檔案。 它可讓您選擇將訊息傳送至專用的密件副本（密件副本）電子郵件地址，您可使用外部系統進行處理和封存。 與已傳送電子郵件相對應的.eml檔案可以傳送到遠端伺服器，例如SMTP電子郵件伺服器。
+Adobe Campaign本身不會管理封存的檔案。 它可讓您選擇將訊息傳送至專用的密件副本（密件副本）電子郵件地址，您可在其中使用外部系統處理和封存。 與已傳送電子郵件相對應的.eml檔案可接著傳輸至遠端伺服器，例如SMTP電子郵件伺服器。
 
 >[!CAUTION]
 >
->基於隱私權考量，密件副本電子郵件必須由能夠安全儲存個人識別資訊(PII)的封存系統處理。
+>基於隱私權理由，密件副本電子郵件必須由能夠安全儲存個人識別資訊(PII)的封存系統處理。
 
 封存目的地是您選擇的密件副本電子郵件地址，傳遞收件者將看不到該地址。
 
-![](../assets/do-not-localize/speech.png)  身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 傳達要用於封存的密件副本電子郵件地址。
+![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 以傳達要用於封存的密件副本電子郵件地址。
 
 定義密件副本電子郵件地址後，您必須在傳送層級啟用專用選項。
 
@@ -43,7 +43,7 @@ Adobe Campaign本身不會管理封存的檔案。 它可讓您選擇將訊息�
 要執行此操作，請遵循下列步驟：
 
 1. 前往 **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**，或 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. 選取您選擇的傳遞專案或複製現成可用的傳遞專案 **[!UICONTROL Email delivery]** 範本，然後選取複製的範本。
+1. 選取您選擇的傳遞或複製現成可用的傳遞內容 **[!UICONTROL Email delivery]** 範本，然後選取複製的範本。
 1. 按一下 **[!UICONTROL Properties]** 按鈕。
 1. 選取 **[!UICONTROL Delivery]** 索引標籤。
 1. 核取 **[!UICONTROL Email BCC]** 選項。
@@ -52,17 +52,17 @@ Adobe Campaign本身不會管理封存的檔案。 它可讓您選擇將訊息�
 
 1. 選取 **[!UICONTROL Ok]**。
 
-系統會根據此範本，將每次傳遞的所有已傳送訊息副本傳送至已設定的電子郵件密件副本地址。
+系統會根據此範本，將每次傳遞的所有已傳送訊息復本傳送至已設定的電子郵件密件副本地址。
 
-請注意下列具體細節和建議：
+請注意下列特殊性和建議：
 
 * 您只能使用一個密件副本電子郵件地址。
 
-* 請確定密件副本位址有足夠的接收容量，可封存所有已傳送的電子郵件。
+* 請確定密件副本位址有足夠的接收容量來封存所有傳送的電子郵件。
 
-* 電子郵件密件副本 <!--with Enhanced MTA--> 會在傳遞給收件者之前傳遞給密件副本電子郵件地址，這可能會導致即使原始傳遞可能已跳出，仍會傳送密件副本訊息。 如需退信的詳細資訊，請參閱 [瞭解傳遞失敗](../send/delivery-failures.md).
+* 電子郵件密件副本 <!--with Enhanced MTA--> 會在傳遞給收件者之前傳遞給密件副本電子郵件地址，這會導致即使原始傳遞可能已跳出，仍會傳送密件副本訊息。 如需退信的詳細資訊，請參閱 [瞭解傳遞失敗](../send/delivery-failures.md).
 
-* 如果傳送至密件副本地址的電子郵件被開啟並按過，這將會在 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** 傳送分析，這可能會導致某些計算錯誤。
+* 如果傳送至密件副本地址的電子郵件被開啟並按過，這將在中列入考慮 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** 傳送分析，這可能會造成一些計算錯誤。
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 

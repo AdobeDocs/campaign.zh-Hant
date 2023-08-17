@@ -16,12 +16,12 @@ ht-degree: 4%
 
 # 已知問題{#known-issues}
 
-本頁列出 **最新Campaign v8版本**. 此外，也列出Campaign v8的限制 [在此頁面中](ac-guardrails.md).
+此頁面列出 **最新Campaign v8版本**. 此外，也列出Campaign v8的限制 [在此頁面中](ac-guardrails.md).
 
 
 >[!NOTE]
 >
->Adobe會自行發佈此已知問題清單。 這會根據客戶報告的數量、嚴重性和變通方案可用性。 如果您遇到的問題未列出，它可能不符合在此頁面中發佈的條件。
+>Adobe會自行發佈這份已知問題清單。 這會根據客戶報告的數量、嚴重程度以及因應措施的可用性。 如果您遇到的問題未列出，表示它可能不符合此頁面發佈的條件。
 
 ## Campaign v8.3.8{#8.3-issues}
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 #### 說明{#issue-2-desc}
 
-使用Campaign將資料插入Snowflake雲端資料庫時 **查詢** 和 **變更資料來源** 活動，則當資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。
+使用Campaign將資料插入Snowflake雲端資料庫時 **查詢** 和 **變更資料來源** 活動，當資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。
 
 只有在字串結尾有反斜線字元時，才會發生此問題，例如： `Barker\`.
 
@@ -53,7 +53,7 @@ Error:
 
 #### 因應措施{#issue-2-workaround}
 
-因應措施是排除字串結尾含有反斜線字元的資料，或從來源檔案中移除該資料。
+解決方法是排除字串結尾含有反斜線字元的資料，或是從來源檔案中移除該資料。
 
 
 #### 內部參考{#issue-2-ref}
@@ -65,7 +65,7 @@ Error:
 
 #### 說明{#issue-3-desc}
 
-使用在Campaign伺服器上傳檔案時 **資料載入（檔案）** 活動，則流程會在100%處停止，但永遠不會結束。
+在具有的Campaign伺服器上傳檔案時 **資料載入（檔案）** 活動，處理在100%停止，但永不結束。
 
 #### 重製步驟{#issue-3-repro}
 
@@ -84,7 +84,7 @@ Error:
 
 因應措施是使用舊版使用者端主控台。 然後，您就可以將檔案上傳至伺服器。
 
-身為Campaign管理員，您可以下載Campaign v8.3.1使用者端主控台，位置如下： [Adobe軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+身為Campaign管理員，您可以下載Campaign v8.3.1使用者端主控台，位置如下： [AdobeSoftware Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
 瞭解如何存取Adobe軟體發佈 [在此頁面中](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}.
 

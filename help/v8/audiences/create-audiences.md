@@ -16,13 +16,13 @@ ht-degree: 22%
 
 使用Campaign清單來建立及組織您的對象。
 
-清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可以儲存為清單。
+清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-清單是透過以下方式建立和管理的： **[!UICONTROL Lists]** 中的連結 **[!UICONTROL Profiles and targets]** 標籤。 這些清單是根據預設的Adobe Campaign設定檔表格(nms：recipient)。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
+清單是透過以下方式建立和管理的： **[!UICONTROL Lists]** 中的連結 **[!UICONTROL Profiles and targets]** 標籤。 這些清單以預設的Adobe Campaign設定檔表格(nms：recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
 
 ![](assets/list-dashboard.png)
 
-您可以使用 **更新清單** 活動的工作流程。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，透過在訪客資料表上查詢並更新清單，您可以建立訪客清單。[了解更多](#create-a-list-wf)。
+您可以使用以下專案建立清單 **更新清單** 活動的工作流程。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，透過在訪客資料表上查詢並更新清單，您可以建立訪客清單。[了解更多](#create-a-list-wf)。
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
@@ -57,9 +57,9 @@ ht-degree: 22%
 
 ## 將篩選的連絡人轉換為清單 {#convert-data-to-a-list}
 
-您可以選取設定檔並將其新增至清單。 若要執行此動作，請遵循下列步驟：
+您可以選取設定檔並將它們新增到清單中。 請依照下列步驟以執行此操作：
 
-1. 在Campaign Explorer中選取設定檔，然後按一下滑鼠右鍵。
+1. 在Campaign Explorer中，選取設定檔並按一下滑鼠右鍵。
 
    您可以篩選這些設定檔以符合特定條件。
 
@@ -77,7 +77,7 @@ ht-degree: 22%
 
 選取 **[!UICONTROL Recreate the list]** 從清單中刪除現有內容並最佳化清單建立的選項（無需查詢即可驗證設定檔是否已連結至清單）。
 
-如果您取消勾選 **[!UICONTROL No trace of this job is saved in the database]** 選項，您可以選取（或建立）執行資料夾，連結至此流程的資訊將儲存於此資料夾。
+如果您取消核取 **[!UICONTROL No trace of this job is saved in the database]** 選項，您可以選取（或建立）執行資料夾，其中會儲存連結至此流程的資訊。
 
 使用視窗的上方區域可監視執行情況。使用 **[!UICONTROL Stop]** 按鈕可停止程序。已處理的連絡人將連結至清單。
 
@@ -91,7 +91,7 @@ ht-degree: 22%
 在以下範例中，您會建立25到40歲之間所有收件者的清單。
 
 1. 選取 **[!UICONTROL Profiles and targets]**、和 **[!UICONTROL Targeting workflows]**，然後從建立新的工作流程 **[!UICONTROL Create]** 按鈕。
-1. 輸入此工作流程的標籤，例如「25-40位連絡人」、新增說明，然後按一下 **[!UICONTROL Next]**.
+1. 輸入此工作流程的標籤，例如「25-40個連絡人」、新增說明，然後按一下 **[!UICONTROL Next]**.
 
    ![](assets/targeting-wf-sample.png)
 
@@ -103,24 +103,24 @@ ht-degree: 22%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   瞭解如何在的工作流程中建立查詢 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   瞭解如何在的工作流程中建立查詢，位置如下： [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
-1. 新增此查詢的標籤並儲存變更。
+1. 為此查詢新增標籤並儲存您的變更。
 1. 新增 **[!UICONTROL List update]** 活動，並加以編輯。
 
    ![](assets/list-update-activity.png)
 
 1. 輸入活動的標籤。
-1. 選取 **[!UICONTROL Create the list if necessary (Computed name)]** 選項來顯示清單將在第一個工作流程執行後建立，然後使用以下執行進行更新。
+1. 選取 **[!UICONTROL Create the list if necessary (Computed name)]** 選項，顯示清單將在第一個工作流程執行後建立，然後使用以下執行進行更新。
 1. 選取資料夾並輸入清單的標籤。
 1. 選取 **[!UICONTROL Database of the targeting dimension]** 以儲存表格。
 1. 離開 **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** 選項已核取，以刪除不符合目標定位條件的收件者，並將新收件者插入清單中。
-1. 另外請將 **[!UICONTROL Create or use a list with its own table]** 選項已核取。
+1. 同時保留 **[!UICONTROL Create or use a list with its own table]** 選項已核取。
 1. 離開 **[!UICONTROL Generate an outbound transition]** 選項未勾選。
 1. 按一下 **[!UICONTROL Ok]**，並儲存工作流程。
 1. 啟動工作流程。
 
-   接著會建立相符的收件者清單。 您可從「 」存取此清單 **[!UICONTROL Lists]** 首頁的輸入項。
+   接著會建立相符的收件者清單。 您可從「 」存取此清單 **[!UICONTROL Lists]** 首頁的專案。
 
    ![](assets/access-new-list.png)
 
@@ -128,7 +128,7 @@ ht-degree: 22%
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 
-若要從清單中移除設定檔，請編輯清單，然後在 **[!UICONTROL Content]** 標籤，然後按一下 **[!UICONTROL Delete]** 圖示。
+若要從清單中移除設定檔，請編輯清單，在 **[!UICONTROL Content]** 標籤，然後按一下 **[!UICONTROL Delete]** 圖示。
 
 ## 刪除設定檔清單 {#delete-a-list-of-profiles}
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 工作流程使用案例
-description: 進一步瞭解您可以使用Campaign工作流程執行的使用案例
+description: 進一步瞭解您可以使用行銷活動工作流程執行的使用案例
 feature: Workflows, Data Management
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -32,7 +32,7 @@ ht-degree: 56%
 * [傳送報吿至清單](send-a-report-to-a-list.md)
 * [監督您的工作流程](workflow-supervision.md)
 * [傳送個人化警示給營運商](send-alerts-to-operators.md)
-* [在傳送傳遞前設定收件者核准流程](local-approval-activity.md)
+* [在傳送傳遞前設定收件者核准程式](local-approval-activity.md)
 
 ## 資料管理 {#management}
 

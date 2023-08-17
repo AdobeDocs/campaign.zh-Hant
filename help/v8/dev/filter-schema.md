@@ -1,6 +1,6 @@
 ---
-title: 篩選行銷活動結構描述
-description: 瞭解如何篩選Campaign結構描述
+title: 篩選行銷活動綱要
+description: 瞭解如何篩選Campaign綱要
 feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
@@ -24,47 +24,47 @@ ht-degree: 0%
 
 * **readAccess**：提供對結構描述資料的唯讀存取權。
 
-   **警告**  — 所有連結的表格都必須設定相同的限制。 此設定會影響效能。
+  **警告**  — 所有連結的資料表都必須設定相同的限制。 此設定可能會影響效能。
 
 * **writeAccess**：提供對結構描述資料的寫入許可權。
 
-這些篩選器輸入在主要 **元素** 如下列範例所示，可形成架構的層級和來限制存取。
+這些篩選器是在主要位置輸入的 **元素** 如下列範例所示，可形成架構的層級和來限制存取。
 
 * 限制寫入許可權
 
-   在此，篩選器用於在沒有ADMINISTRATION許可權的情況下禁止操作員在結構描述上執行WRITE許可權。 這表示只有管理員擁有此結構描述所說明之實體的寫入許可權。
+  在此，篩選器是用來在沒有ADMINISTRATION許可權的情況下禁止操作員在結構描述上使用WRITE許可權。 這表示只有管理員擁有此結構描述所說明之實體的寫入許可權。
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * 限制讀取和寫入許可權：
 
-   在此，篩選器用於禁止所有運運算元在結構描述上同時具有讀取和寫入許可權。 僅限 **內部** 帳號，由運算式「$(loginId)」表示！=0」擁有這些許可權。
+  在此處，篩選器用於禁止所有運運算元在結構描述上同時具有讀取和寫入許可權。 僅限 **內部** 帳號，由運算式「$(loginId)」表示！=0」擁有這些許可權。
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   可能 **運算式** 用來定義條件的屬性值是TRUE或FALSE。
+  可能 **運算式** 用來定義條件的屬性值是TRUE或FALSE。
 
 >[!NOTE]
 >
 >如果未指定篩選器，則所有運運算元都將具有結構描述的讀取和寫入許可權。
 
-## Protect內建結構描述
+## Protect內建方案
 
-依預設，只有具備管理員許可權的運運算元才可透過寫入許可權存取內建結構描述：
+依預設，只有具備管理員許可權的運運算元才可透過寫入許可權存取內建方案：
 
-* ncm：發佈
+* ncm：publishing
 * nl：monitoring
 * nms：calendar
 * xtk：builder
@@ -97,14 +97,14 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->的讀取和寫入許可權 **xtk：sessionInfo** 結構描述只能由Adobe Campaign執行個體的內部帳戶存取。
+>的讀寫許可權 **xtk：sessionInfo** 結構描述只能由Adobe Campaign執行個體的內部帳戶存取。
 
-## 修改內建結構描述的系統篩選器
+## 修改內建綱要的系統篩選器
 
 內建方案受到保護，以避免與舊版發生相容性問題。 Adobe建議您不要修改預設的結構描述引數，以確保最佳安全性。
 
-但是，在特定上下文中，您可能需要修改內建結構描述的系統篩選器。 若要執行此動作，請遵循下列步驟：
+但是，在特定內容中，您可能需要修改內建綱要的系統篩選器。 請依照下列步驟以執行此操作：
 
-1. 為內建方案建立擴充功能或開啟現有的擴充功能。
-1. 新增子元素 **`<sysfilter name="<filter name>" _operation="delete"/>`** 在內建結構描述中，忽略相同專案下的篩選器。
+1. 為內建方案建立擴充功能，或開啟現有的擴充功能。
+1. 新增子元素 **`<sysfilter name="<filter name>" _operation="delete"/>`** 在內建架構中，忽略相同下方的篩選器。
 1. 您可以新增篩選器，如 [系統篩選器](#system-filters) 區段。

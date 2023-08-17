@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 監控行銷活動
-description: 監控行銷活動
+title: 監視行銷活動
+description: 監視行銷活動
 feature: Campaigns, Monitoring
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -15,17 +15,17 @@ ht-degree: 2%
 
 ## 追蹤行銷活動 {#tracking-a-campaign}
 
-對於每個行銷活動， **[!UICONTROL Tracking]** 索引標籤可讓您檢視所有工作及其狀態。
+對於每個行銷活動， **[!UICONTROL Tracking]** 標籤可讓您檢視所有工作及其狀態。
 
-下列資訊可透過此子標籤存取：
+以下資訊可透過此子標籤存取：
 
-* 此 **[!UICONTROL Audit]** 子頁簽顯示活動分錄。 它包含行銷活動上執行的作業：工作流程建立或開始、核准、摘取、庫存管理等。
+* 此 **[!UICONTROL Audit]** 子標籤顯示活動日誌。 它包含行銷活動上執行的作業：工作流程建立或開始、核准、摘取、庫存管理等。
 
-   ![](assets/campaign-audit-tab.png)
+  ![](assets/campaign-audit-tab.png)
 
-* 此 **[!UICONTROL Deliveries]** 子索引標籤包含行銷活動的所有傳送。 可在此檢視中進行編輯。 若要這麼做，請選取傳遞，然後按一下 **[!UICONTROL Detail]** 圖示。
+* 此 **[!UICONTROL Deliveries]** 子索引標籤包含行銷活動的所有傳送。 可以從此檢視進行編輯。 若要這麼做，請選取傳送，然後按一下 **[!UICONTROL Detail]** 圖示。
 
-   ![](assets/campaign-delivery-tab.png)
+  ![](assets/campaign-delivery-tab.png)
 
 * 此 **[!UICONTROL Approvals]** 子頁簽包含行銷活動的所有核准流程。 您可以檢查詳細資訊和註解
 
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 您可以按一下 **[!UICONTROL Deliveries]**，可透過Adobe Campaign首頁存取。
 
-行銷活動中執行之處理程式的詳細資訊會收集在 **[!UICONTROL Edit > Audit]** 索引標籤進行識別。 您可以在行銷活動中檢視傳遞清單。 [了解更多](#tracking-a-campaign)。
+有關行銷活動中執行之流程的詳細資訊，請參閱 **[!UICONTROL Edit > Audit]** 行銷活動的索引標籤。 您可以在行銷活動中檢視傳遞清單。 [了解更多](#tracking-a-campaign)。

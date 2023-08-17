@@ -27,7 +27,7 @@ ht-degree: 92%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。進一步瞭解Campaign管理的Cloud Services，請參見 [產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。進一步瞭解Campaign管理的Cloud Service，請參見 [產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 

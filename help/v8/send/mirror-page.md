@@ -46,15 +46,15 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 ![](assets/mirror-page-generation.png){width="800" align="left"}
 
-除了預設模式之外，還提供下列選項：
+除了預設模式外，還提供下列選項：
 
 * **[!UICONTROL Force the generation of the mirror page]**：使用此模式可產生映象頁面，即使傳送中未插入映象頁面的連結亦然。
 * **[!UICONTROL Do not generate the mirror page]**：使用此模式可避免產生映象頁面，即使連結存在於傳送中亦然。
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳送記錄視窗中啟用對映象頁面內容的存取，如下所述。
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳送記錄視窗中啟用映象頁面內容的存取，如下所述。
 
 ## 檢查收件者的映象頁面 {#mirror-page-access}
 
-您可以存取傳送特定收件者的映象頁面內容，其中包含個人化資料。
+您可以存取傳送之特定收件者的映象頁面內容，其中包含個人化資料。
 
 若要存取此映象頁面：
 

@@ -1,6 +1,6 @@
 ---
-title: 技術使用者移轉至Adobe Developer主控台
-description: 瞭解如何在Adobe Developer主控台上將Campaign技術操作員移轉至技術帳戶
+title: 將技術使用者移轉至Adobe Developer主控台
+description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '779'
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # Campaign技術運運算元移轉至Adobe Developer主控台 {#migrate-tech-users-to-ims}
 
-自Campaign v8.5開始，改善對Campaign v8的驗證程式。 技術操作員必須使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 技術運運算元是為API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
+自Campaign v8.5開始，改善對Campaign v8的驗證流程。 技術操作員必須使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
 
 ## 哪些部分有所變更？{#ims-changes}
 
-Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用其Adobe ID連線至Adobe Campaign主控台。 為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在會直接使用IMS技術帳戶權杖呼叫Campaign API。
+Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線至Identity Management主控台。 為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。
 
 深入瞭解中的新伺服器對伺服器驗證程式 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
@@ -29,24 +29,24 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 
 ### 必要條件{#ims-migration-prerequisites}
 
-在開始移轉程式之前，您必須聯絡您的Adobe代表，以便Adobe技術團隊可以移轉您現有的操作員群組和已命名的許可權來AdobeIdentity Management System (IMS)。
+在開始移轉程式之前，您必須聯絡您的Adobe代表，以便Adobe技術團隊可以移轉您現有的操作員群組以及已命名的許可權，以便AdobeIdentity Management System (IMS)。
 
 ### 步驟1 — 在Adobe Developer主控台中建立/更新Campaign專案{#ims-migration-step-1}
 
-整合是作為一部分建立的 **專案** 在Adobe Developer Console中。 進一步瞭解中的專案 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+整合是在建立時，作為 **專案** 在Adobe Developer Console中。 進一步瞭解中的專案 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-身為Campaign v8使用者，您應已在Adobe Developer Console擁有專案。 如果沒有，則必須建立專案。 建立專案的步驟已詳細說明 [在Adobe Developer Console檔案中](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+身為Campaign v8使用者，您應已在Adobe Developer Console擁有專案。 如果沒有，則必須建立專案。 建立專案的步驟詳細說明 [在Adobe Developer Console檔案中](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-存取您的Campaign專案後，您可以新增服務，包括API、Adobe Campaign和I/O管理API。 針對此移轉，您必須在專案中新增以下API： **I/O管理API** 和 **Adobe Campaign**.
+存取您的Campaign專案後，您就可以新增服務，包括API、Adobe Campaign和I/O管理API。 針對此移轉，您必須在專案中新增以下API： **I/O管理API** 和 **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
 
-### 步驟2 — 使用「伺服器對伺服器」驗證新增API至您的專案{#ims-migration-step-2}
+### 步驟2 — 使用Server to Server驗證新增API至您的專案{#ims-migration-step-2}
 
 在Adobe Developer主控台中建立專案後，請新增使用伺服器對伺服器驗證的API。 瞭解如何在中設定OAuth伺服器對伺服器認證 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
-成功連線API後，您可以存取新產生的認證（包括使用者端ID和使用者端密碼），並產生存取權杖。
+當API成功連線時，您可以存取新產生的認證（包括使用者端ID和使用者端密碼），並產生存取權杖。
 
 ### 步驟3 — 將產品設定檔新增至專案{#ims-migration-step-3}
 
@@ -63,21 +63,21 @@ Campaign一般使用者已透過AdobeIdentity Management System (IMS)，使用�
 ### 步驟4 — 更新使用者端主控台中的技術運運算元 {#ims-migration-step-4}
 
 
-只有在已為此運運算元（而不是透過運運算元的群組）定義特定檔案夾許可權或命名許可權時，才需要執行此步驟。
+只有在已為此運運算元（而非透過運運算元的群組）定義特定檔案夾許可權或已命名許可權時，才需要執行此步驟。
 
-您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。 您必須將現有技術操作員檔案夾許可權套用至新的技術操作員。
-若要更新此運運算元，請遵循下列步驟：
+您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。 您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
+若要更新此運運算元，請執行下列步驟：
 
-1. 從Campaign Client Console檔案總管，瀏覽至 **管理>存取管理>操作員**.
+1. 從Campaign使用者端主控台總管，瀏覽至 **管理>存取管理>操作者**.
 1. 存取用於API的現有技術運運算元。
-1. 瀏覽至檔案夾許可權，然後檢查許可權。
-1. 將相同的許可權套用至新建立的技術操作員。 此操作員的電子郵件是 **技術帳戶電子郵件** 值先前已複製。
+1. 瀏覽至檔案夾許可權並檢查許可權。
+1. 將相同的許可權套用至新建立的技術運運算元。 此操作員的電子郵件為 **技術帳戶電子郵件** 值先前已複製。
 1. 儲存您的變更。
 
 
 >[!CAUTION]
 >
->新的技術操作員必須至少發出一個API呼叫，才能新增至Campaign使用者端主控台。
+>新的技術運運算元必須已發出至少一個API呼叫，才能新增至Campaign使用者端主控台。
 >
 
 <!--
@@ -162,7 +162,7 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 ### 步驟5 — 驗證設定 {#ims-migration-step-5}
 
-若要嘗試連線，請依照以下詳細步驟操作： [Adobe Developer Console認證指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 以產生存取權杖並複製提供的範例cURL命令。
+若要嘗試連線，請依照以下詳細步驟操作： [Adobe Developer Console憑證指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 以產生存取權杖並複製所提供的範例cURL命令。
 
 
 ### 步驟6 — 更新協力廠商API整合 {#ims-migration-step-6}
@@ -175,11 +175,11 @@ You can also update the technical operator programmatically, using SQL scripts o
 ### 步驟7 — 移除舊的技術操作員 {#ims-migration-step-7}
 
 
-移轉與技術帳戶使用者整合的所有API/自訂程式碼後。 您可以從Campaign使用者端主控台刪除舊的技術運運算元。
+移轉所有API/自訂程式碼與技術帳戶使用者的整合後。 您可以從Campaign使用者端主控台刪除舊的技術運運算元。
 
 ### Soap呼叫範例{#ims-migration-samples}
 
-實現並驗證移轉程式後，Soap呼叫會更新如下：
+實現並驗證移轉流程後，Soap呼叫會更新如下：
 
 * 移轉前
 

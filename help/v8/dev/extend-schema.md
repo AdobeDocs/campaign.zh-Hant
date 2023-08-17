@@ -16,16 +16,16 @@ ht-degree: 2%
 
 身為技術使用者，您可以自訂Campaign資料模型以符合實作需求：新增元素至現有結構描述、修改結構描述中的元素或刪除元素。
 
-自訂Campaign資料模型的重要步驟如下：
+自訂Campaign資料模型的主要步驟為：
 
 1. 建立擴充功能綱要
 1. 更新Campaign資料庫
 1. 調整輸入表單
 
 >[!CAUTION]
->不可直接修改內建結構描述。 如果您需要調整內建方案，則必須加以擴充。
+>不可直接修改內建結構描述。 如果您需要調整內建方案，必須擴充方案。
 
-![](../assets/do-not-localize/glass.png) 如需Campaign內建表格及其互動的詳細資訊，請參閱 [此頁面](datamodel.md). 另請參閱在中建立新結構描述時的建議 [此頁面](create-schema.md).
+![](../assets/do-not-localize/glass.png) 若要更瞭解Campaign內建表格及其互動，請參閱 [此頁面](datamodel.md). 另請參閱在中建立新結構描述時的建議 [此頁面](create-schema.md).
 
 若要擴充方案，請遵循下列步驟：
 
@@ -38,15 +38,15 @@ ht-degree: 2%
 
    ![](assets/extend-schema-select.png)
 
-   依照慣例，將擴充功能綱要命名為與內建綱要相同的名稱，並使用自訂名稱空間。  請注意，某些名稱空間僅供內部使用。 [了解更多](schemas.md#reserved-namespaces)
+   依照慣例，請將擴充功能綱要命名為與內建綱要相同的名稱，並使用自訂名稱空間。  請注意，某些名稱空間僅供內部使用。 [了解更多](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
-1. 在架構編輯器中，使用內容選單新增所需的元素並儲存。
+1. 在架構編輯器中，使用內容功能表新增所需的元素並儲存。
 
    ![](assets/extend-schema-edit.png)
 
-   在以下範例中，我們新增 **MembershipYear** 屬性，輸入姓氏的長度限制（此限制會覆寫預設值），並從內建結構描述中移除出生日期。
+   在以下範例中，我們新增 **MembershipYear** 屬性，輸入姓氏的長度限制（此限制會覆寫預設長度），並從內建方案中移除出生日期。
 
    ![](assets/extend-schema-sample.png)
 

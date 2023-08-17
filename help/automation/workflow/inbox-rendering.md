@@ -27,7 +27,7 @@ ht-degree: 6%
   <tr> 
    <td> <strong>更新收件匣轉譯的種子網路</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> 此工作流程會更新用於收件匣轉譯的電子郵件地址，而且只有在HTTPS連線埠開啟的情況下，才能運作。 <strong>deliverability.neolane.net</strong>.<br /> </td> 
+   <td> 此工作流程會更新用於收件匣轉譯的電子郵件地址，且僅適用於HTTPS連線埠開啟的情況。 <strong>deliverability.neolane.net</strong>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: 使用Adobe Campaign傳送直接LINE訊息
-description: 開始使用連線訊息
+description: 開始使用LINE訊息
 feature: Line App
 role: Data Engineer
 level: Beginner

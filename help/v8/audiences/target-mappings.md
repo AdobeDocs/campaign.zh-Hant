@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # 使用目標對應{#gs-target-mappings}
 
-根據預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL Recipients]**. 因此，其目標對應會使用 **nms：recipient** 表格。
+依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL Recipients]**. 因此，其目標對應會使用 **nms：recipient** 表格。
 
-對於推播通知，預設目標對應為 **訂閱者應用程式(nms：appSubscriptionRcp)**，會連結至收件者表格。
+對於推播通知，預設目標對應為 **訂閱者應用程式(nms：appSubscriptionRcp)**，此資訊會連結至收件者表格。
 
 您可以針對傳遞使用其他目標對應，或建立新的目標對應。
 
@@ -26,11 +26,11 @@ Adobe Campaign隨附下列內建目標對應：
 
 | 名稱 | 使用至 | 結構描述 |
 |---|---|---|
-| 收件者 | 傳遞給收件者（內建的收件者表格） | nms：recipient |
-| 訪客 | 傳遞給已透過轉介（病毒式行銷）收集設定檔的訪客，例如。 | mns：visitor |
+| 收件者 | 傳遞給收件者（內建收件者表格） | nms：recipient |
+| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns：visitor |
 | 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms：subscription |
-| 訪客訂閱 | 傳遞給已訂閱資訊服務的訪客 | nms：visitorSub |
-| 運算子 | 傳遞至Adobe Campaign運運算元 | nms：operator |
+| 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
+| 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
 | 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
 
 ## 建立目標對應 {#new-mapping}
@@ -38,13 +38,13 @@ Adobe Campaign隨附下列內建目標對應：
 您也可以建立目標對應。 例如，在下列情況下，您可能需要新增自訂目標對應：
 
 * 您使用自訂收件者表格，
-* 您可在目標對應畫面上設定與內建目標維度不同的篩選維度。
+* 您可以設定與目標對應畫面上內建目標維度不同的篩選維度。
 
 進一步瞭解中的自訂收件者表格 [此頁面](../dev/custom-recipient.md).
 
-Adobe Campaign目標對應建立精靈可協助您建立使用自訂目標對應所需的所有結構描述。
+Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應所需的所有結構描述。
 
-1. 瀏覽至 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 來自Adobe Campaign explorer。
+1. 瀏覽至 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 從Adobe Campaign explorer.
 
 1. 建立新的目標對應，並選取您的自訂結構描述作為目標維度。
 
@@ -55,13 +55,13 @@ Adobe Campaign目標對應建立精靈可協助您建立使用自訂目標對應
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 指定資訊儲存的引數，包括可輕鬆識別的擴充功能結構描述尾碼。
+1. 指定資訊儲存的引數，包括可輕鬆識別的擴充功能結構描述的尾碼。
 
    ![](assets/wf_new_mapping_define_names.png)
 
    您可以選擇是否儲存排除專案(**excludelog**)，包含訊息(**broadlog**)或是在另一個表格中。
 
-   您也可以選擇是否管理此傳遞對應的追蹤(**trackinglog**)。
+   您也可以選擇是否要管理此傳遞對應的追蹤(**trackinglog**)。
 
 1. 然後選取要考慮的擴充功能。 擴充功能型別取決於您的Campaign設定和附加元件。
 

@@ -6,14 +6,14 @@ feature: Workflows, Deliverability
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 
 # 傳遞能力監控（電子郵件傳遞能力）{#email-deliverability}
 
-依預設，所有執行個體都會安裝以下詳細的工作流程，並讓您初始化退回郵件資格規則的清單、網域清單和MX清單。 一旦 **傳遞能力監控（電子郵件傳遞能力）** 安裝套件後，此工作流程會在夜間執行。
+依預設，以下詳細描述的工作流程會安裝在所有執行個體上，並讓您初始化退回郵件限定規則清單、網域清單和MX清單。 一旦 **傳遞能力監控（電子郵件傳遞能力）** 套件已安裝，此工作流程會在夜間執行。
 <table> 
  <tbody> 
   <tr> 

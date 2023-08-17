@@ -1,5 +1,5 @@
 ---
-title: 使用Campaign和Adobe Target
+title: 合作使用Campaign與Adobe Target
 description: 瞭解如何使用Campaign和Adobe Target
 feature: Target Integration
 role: Admin, User
@@ -12,33 +12,33 @@ ht-degree: 1%
 
 ---
 
-# 使用Campaign和Adobe Target
+# 合作使用Campaign與Adobe Target
 
-連結Campaign和Target，在Adobe Campaign電子郵件傳遞中加入Adobe Target的優惠。
+連結Campaign和Target，在Adobe Campaign電子郵件傳遞中加入Adobe Target的選件。
 
-此整合可協助您實作如下的使用案例：當收件者開啟透過Adobe Campaign傳送的電子郵件時，呼叫Adobe Target可讓您顯示內容的動態版本。 此動態版本是根據建立電子郵件時預先指定的規則計算的。
+此整合可協助您實作如下的使用案例：收件者開啟透過Adobe Campaign傳送的電子郵件時，呼叫Adobe Target可讓您顯示內容的動態版本。 此動態版本是根據建立電子郵件時預先指定的規則計算。
 
 >[!NOTE]
 >整合僅支援靜態影像。 其他型別的內容無法個人化。
 
-![](../assets/do-not-localize/speech.png)  身為Managed Cloud Services使用者， [連絡人Adobe](../start/campaign-faq.md#support) 以使用Campaign實作Experience Cloud觸發程式。
+![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 透過Campaign實施Experience Cloud觸發程式。
 
-Adobe Target可使用下列資料型別：
+Adobe Target可使用下列型別的資料：
 
-* 來自Adobe Campaign資料庫的資料
+* Adobe Campaign資料庫的資料
 * 連結至Adobe Target中的訪客ID的區段，前提是使用的資料不受法律限制
 * Adobe Target資料：使用者代理、IP位址、地理本地化資料
 
 ## 插入動態內容
 
-在以下範例中，您將瞭解如何整合 **動態優惠方案** 從Adobe Target轉換為Adobe Campaign電子郵件。
+在下列範例中，您將瞭解如何整合 **動態優惠方案** 從Adobe Target傳入Adobe Campaign電子郵件。
 
-我們想要建立包含影像的訊息，此影像會根據收件者的國家/地區動態變更。 資料會隨每個mbox要求傳送，視訪客的IP位址而定。
+我們想要使用會根據收件者國家/地區動態變更的影像來建立訊息。 資料會隨每個mbox要求傳送，視訪客的IP位址而定。
 
-在此電子郵件中，我們希望其中一個影像會根據下列使用者體驗動態變化：
+在此電子郵件中，我們希望其中一個影像能根據下列使用者體驗動態變化：
 
-* 電子郵件會在法國開啟。
-* 此電子郵件於美國開啟。
+* 電子郵件已在法國開啟。
+* 此電子郵件在美國已開啟。
 * 如果這些條件都不適用，則會顯示預設影像。
 
 ![](assets/target_4.png)
@@ -59,32 +59,32 @@ Adobe Target可使用下列資料型別：
 
 在Adobe Campaign中，有兩種方式可將Target的動態影像插入電子郵件中：
 
-* 如果您使用數位內容編輯器，請選擇現有影像並選取 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** （從工具列）。
+* 如果您使用數位內容編輯器，請選擇現有影像並選取 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** 工具列中的。
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
-* 如果您使用標準編輯器，請將游標置於要插入影像的位置，然後選取 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** 從「個人化」下拉式功能表。
+* 如果您使用標準編輯器，請將游標置於您要插入影像的位置，然後選取 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** 從個人化下拉式功能表。
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 然後您可以定義影像引數：
 
-* 此 **[!UICONTROL Default image]**&#x200B;的URL是未滿足任何條件時所顯示的影像。 您也可以從「資產」資料庫中選取影像。
+* 此 **[!UICONTROL Default image]**&#x200B;的URL為不符合任何條件時所顯示的影像。 您也可以從資產庫中選取影像。
 * 此 **[!UICONTROL Target location]** 是動態選件位置的名稱。 您必須在Adobe Target活動中選取此位置。
-* 此 **[!UICONTROL Landing Page]** 可讓您將預設影像重新導向至預設登陸頁面。 此URL僅適用於最終電子郵件中顯示預設影像時。 這是選擇性的。
-* 此 **[!UICONTROL Additional decision parameters]**  定義Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，我們新增了「國家/地區」欄位。
+* 此 **[!UICONTROL Landing Page]** 可讓您將預設影像重新導向至預設登陸頁面。 此URL只適用於最終電子郵件中顯示預設影像時。 這是選擇性的。
+* 此 **[!UICONTROL Additional decision parameters]**  會定義Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，已新增「國家/地區」欄位。
 
-如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 若要深入瞭解Target企業許可權，請參閱 [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 前往進一步瞭解Target企業許可權： [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
 
 ![](assets/target_13.png)
 
 ### 建立重新導向選件 {#create-redirect-offers}
 
-在Adobe Target中，您可以建立不同版本的選件。 根據每個使用者體驗，可以建立重新導向選件，而且您可以指定要顯示的影像。
+在Adobe Target中，您可以建立不同版本的選件。 根據每位使用者體驗，您可以建立重新導向選件，並指定要顯示的影像。
 
-在我們的案例中，我們需要兩個重新導向選件，第三個選件（預設一個）將在Adobe Campaign中定義。
+在我們的案例中，我們需要兩個重新導向選件，第三個選件（預設值）將在Adobe Campaign中定義。
 
-1. 若要在Target Standard中建立新的重新導向選件，請從 **[!UICONTROL Content]** 標籤，按一下 **[!UICONTROL Code offers]**.
+1. 若要在Target Standard中建立新的重新導向選件，請前往 **[!UICONTROL Content]** 標籤，按一下 **[!UICONTROL Code offers]**.
 
 1. 按一下 **[!UICONTROL Create]**，之後 **[!UICONTROL Redirect Offer]**。
 
@@ -94,11 +94,11 @@ Adobe Target可使用下列資料型別：
 
    ![](assets/target_6.png)
 
-1. 對其餘的重新導向選件執行相同的程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences)。
+1. 對其餘的重新導向選件遵循相同程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences)。
 
 ### 建立對象 {#audiences-target}
 
-在Adobe Target中，您需要建立兩個受眾，造訪您選件的人員將針對要傳送的不同內容分類到這兩個受眾中。 針對每個對象，新增規則以定義能夠檢視選件的對象。
+在Adobe Target中，您需要建立兩個受眾，造訪您選件的人員將針對不同的內容進行分類。 針對每個對象，新增規則以定義能夠檢視選件的對象。
 
 1. 若要在Target中建立新對象，請從 **[!UICONTROL Audiences]** 標籤，按一下 **[!UICONTROL Create Audience]**.
 
@@ -108,13 +108,13 @@ Adobe Target可使用下列資料型別：
 
    ![](assets/audiences_2.png)
 
-1. 按一下 **[!UICONTROL Add a rule]** 並選取類別。 規則會使用特定條件來鎖定訪客。 您可以藉由新增條件或在其他類別中建立新規則來調整規則。
+1. 按一下 **[!UICONTROL Add a rule]** 並選取類別。 規則會使用特定條件來鎖定訪客。 您可以新增條件或在其他類別中建立新規則來調整規則。
 
 1. 對其餘對象執行相同的程式。
 
 ### 建立體驗鎖定目標活動 {#creating-targeting-activity}
 
-在Adobe Target中，我們需要建立體驗鎖定目標活動、定義不同的體驗，並將其與對應的選件建立關聯。
+在Adobe Target中，我們需要建立體驗鎖定目標活動、定義不同體驗，並將它們與對應的選件建立關聯。
 
 首先，您必須定義對象：
 
@@ -132,7 +132,7 @@ Adobe Target可使用下列資料型別：
 
    ![](assets/target_10_3.png)
 
-1. 按一下以建立其他體驗 **[!UICONTROL Add Experience Targeting]**.
+1. 按一下「 」以建立另一個體驗 **[!UICONTROL Add Experience Targeting]**.
 
 然後為每個對象新增內容：
 
@@ -150,7 +150,7 @@ Adobe Target可使用下列資料型別：
 
 1. 對第二個體驗執行相同的步驟。
 
-此 **[!UICONTROL Target]** 視窗會摘要列出您的活動。 如有需要，您可以新增其他體驗。
+此 **[!UICONTROL Target]** 視窗會摘要您的活動。 如有需要，您可以新增其他體驗。
 
 ![](assets/target_experience.png)
 
@@ -164,7 +164,7 @@ Adobe Target可使用下列資料型別：
 
 在Adobe Campaign中，您現在可以預覽電子郵件，並測試其對不同收件者的轉譯。
 
-您會注意到影像會根據建立的不同體驗而變更。
+您會發現影像會根據建立的不同體驗而變更。
 
 您現在已準備好傳送包含Target動態優惠方案的電子郵件。
 

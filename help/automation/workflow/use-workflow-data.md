@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # 使用工作流程資料{#how-to-use-workflow-data}
 
-您可以使用工作流程活動來執行多個任務。 請尋找以下使用範例，說明如何透過建立清單、管理訂閱、透過工作流程傳送訊息，或豐富您的傳送內容及其閱聽眾，來更新資料庫。
+您可以使用工作流程活動來執行多項工作。 尋找以下使用範例，說明如何透過建立清單、管理訂閱、透過工作流程傳送訊息，或豐富您的傳送內容及其閱聽眾，來更新資料庫。
 
 以下提供一組工作流程使用案例： [本節](workflow-use-cases.md).
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 ### 工作流程臨時工作表 {#work-table}
 
-在工作流程中，從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。
+在工作流程中，從某個活動傳輸到另一個活動的資料會儲存在臨時工作表中。
 
 在適當的轉變上按一下滑鼠右鍵，即可顯示和分析此資料。
 
@@ -30,23 +30,23 @@ ht-degree: 10%
 
 * **[!UICONTROL Display the target...]**
 
-   此功能表會顯示目標母體上的可用資料。
+  此功能表會顯示目標母體上的可用資料。
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   您可以在下列位置存取工作表結構： **[!UICONTROL Schema]** 標籤。
+  您可以在下列位置存取工作表的結構： **[!UICONTROL Schema]** 標籤。
 
-   ![](assets/wf-right-click-schema.png)
+  ![](assets/wf-right-click-schema.png)
 
-   如需詳細資訊，請參閱[本章節](monitor-workflow-execution.md#worktables-and-workflow-schema)。
+  如需詳細資訊，請參閱[本章節](monitor-workflow-execution.md#worktables-and-workflow-schema)。
 
 * **[!UICONTROL Analyze target...]**
 
-   此功能表可讓您存取描述性分析精靈，該精靈可讓您產生轉變資料的統計資料和報告。
+  此功能表可讓您存取描述性分析精靈，該精靈可讓您產生轉換資料的統計資料和報表。
 
-   如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  如需詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
-在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表都保持可存取狀態：檢查 **[!UICONTROL Keep the result of interim populations between two executions]** 工作流程屬性中的選項。
+在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：檢查 **[!UICONTROL Keep the result of interim populations between two executions]** 工作流程屬性中的選項。
 
 ![](assets/wf-purge-data-option.png)
 
@@ -59,17 +59,17 @@ ht-degree: 10%
 
 儲存在工作流程臨時工作表中的資料可用於個人化任務。 資料可用於 [個人化欄位](../../v8/send/personalization-fields.md).
 
-舉例來說，這可讓您使用透過傳送中的清單收集的資料。 要執行此操作，請使用下列語法：
+舉例來說，這可讓您在傳送中使用透過清單所收集的資料。 要執行此操作，請使用下列語法：
 
 ```
 %= targetData.FIELD %
 ```
 
-**[!UICONTROL Target extension]** (targetData)型別個人化元素不適用於目標工作流程。 必須在工作流程中建立傳遞目標，並在傳遞的入站轉變中指定。
+**[!UICONTROL Target extension]** (targetData)型別個人化元素不適用於目標工作流程。 必須在工作流程中建置傳遞目標，並在傳遞的入站轉變中指定。
 
 在以下範例中，您正在收集客戶資訊清單，以用於個人化電子郵件中。 應用以下步驟：
 
-1. 建立工作流程以收集資訊，將其與資料庫中已存在的資料進行調解，然後開始傳送。
+1. 建立工作流程以收集資訊，將其與資料庫中已存在的資料進行調解，然後開始傳遞。
 
    ![](assets/wf-targetdata-sample-1.png)
 
@@ -89,17 +89,17 @@ ht-degree: 10%
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. 設定 **[!UICONTROL Enrichment]** 調解收集到的資料與Adobe Campaign資料庫中現有資料的活動。 在此，調解金鑰是帳號：
+1. 設定 **[!UICONTROL Enrichment]** 協調收集之資料與Adobe Campaign資料庫中之資料的活動。 調解金鑰是帳號：
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. 然後設定 **[!UICONTROL Delivery]**：此變數根據範本建立，收件者則由入站轉變指定。
+1. 然後設定 **[!UICONTROL Delivery]**：此變數會根據範本建立，收件者則由入站轉變指定。
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >只能使用轉變中包含的資料來個人化傳遞。 **targetdata** 型別個人化欄位僅適用於 **[!UICONTROL Delivery]** 活動。
+   >只有轉換中包含的資料才可用來個人化傳遞。 **targetdata** 型別個人化欄位僅適用於 **[!UICONTROL Delivery]** 活動。
 
 1. 在傳遞範本中，使用在工作流程中收集的欄位。
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
    ![](assets/wf-targetdata-sample-5.png)
 
-   在此，我們要插入客戶最愛的音樂流派和媒體型別（CD或DVD），如工作流程收集的檔案中所述。
+   在此處，我們要插入客戶最愛的音樂流派和媒體型別（CD或DVD），如工作流程收集的檔案中所述。
 
    此外，我們將為熟客卡持有者（即「卡片」值等於1的收件者）新增優惠券。
 
@@ -118,24 +118,24 @@ ht-degree: 10%
 
 ## 更新資料庫 {#update-the-database}
 
-所有收集的資料都可用於更新資料庫或用於傳遞。 例如，您可以豐富訊息內容個人化的可能性（包括訊息中的合約數、指定去年的平均購物車數等） 或詳細母體目標定位（傳送訊息給合約共同持有者、目標定位線上服務的1,000個最佳訂閱者等）。 此資料也可以匯出或封存於清單中。
+所有收集的資料都可用於更新資料庫或用於傳送。 例如，您可以豐富訊息內容個人化的可能性（包括訊息中的合約數、指定去年的平均購物車數量等） 或詳細母體目標定位（傳送訊息給合約共同持有者，目標定位線上服務的1,000個最佳訂閱者等）。 此資料也可以匯出或封存於清單中。
 
 ### 更新清單  {#list-updates}
 
 Adobe Campaign資料庫和現有清單的資料可以使用兩個專用活動進行更新：
 
-* 此 **[!UICONTROL List update]** 活動可讓您將工作表儲存在資料表中。
+* 此 **[!UICONTROL List update]** 活動可讓您將工作表儲存在資料清單中。
 
-   您可以選取或建立現有清單。 在這種情況下，會計算記錄資料夾的名稱與可能。
+  您可以選取或建立現有清單。 在這種情況下，將計算名稱，並可能計算記錄資料夾。
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   請參閱 [清單更新](list-update.md).
+  請參閱 [清單更新](list-update.md).
 
 * 此 **[!UICONTROL Update data]** 活動會大量更新資料庫中的欄位。
 
-   有關詳細資訊，請參閱 [更新資料](update-data.md).
+  有關詳細資訊，請參閱 [更新資料](update-data.md).
 
 ### 管理訂閱 {#subscription-management}
 
-若要瞭解透過工作流程訂閱和取消訂閱資訊服務的收件者，請參閱 [訂閱服務](subscription-services.md).
+若要瞭解如何透過工作流程為收件者訂閱及取消訂閱資訊服務，請參閱 [訂閱服務](subscription-services.md).

@@ -33,39 +33,40 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 >[!CAUTION]
 >
 > 客戶資料不會儲存在本機 [!DNL Campaign] 資料庫中。 因此，任何自訂表格都必須在雲端資料庫中建立。
+>
 
 ## Campaign Enterprise (FFDA)架構{#ffda-archi}
 
-在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)， [!DNL Adobe Campaign] v8適用於兩個資料庫：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，以及透過API和雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
+在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，以及透過API和雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。
 
 可利用特定 API 來管理本機和雲端資料庫之間的資料。 在[此頁面](new-apis.md)瞭解這些新 API 如何運作，以及如何使用它們。
 
-伺服器與處理序之間的一般通訊會根據下列結構描述執行：
+伺服器與處理序之間的一般通訊會根據以下結構描述執行：
 
 ![](assets/architecture.png)
 
-* 執行個體上的執行和彈回管理模組已停用。
+* 執行個體上已停用執行和退回管理模組。
 * 應用程式設定為在使用SOAP呼叫（透過HTTP或HTTPS）驅動的遠端「中間來源」伺服器上執行訊息。
 
 此 [!DNL Snowflake] 行銷端的資料庫用於：
 
 * 儲存所有客戶資料：設定檔、交易、產品、位置等自訂資料。
-* 儲存Campaign產生或收集的所有事件和行為資料，例如傳送記錄、追蹤記錄、推播註冊等。
+* 儲存Campaign產生或收集的所有事件和行為資料，例如傳遞記錄、追蹤記錄、推播註冊等。
 * 儲存上述專案的所有資料彙總。
-* 儲存參考表格（例如傳送、分項清單、國家/地區等）的復本(h+1) 用於工作流程、行銷活動和報表。
-* 執行所有批次處理及工作負載
+* 儲存參考表格（例如傳送、分項清單、國家/地區等）的副本(h+1) 用於工作流程、行銷活動和報表。
+* 執行所有批次處理和工作負載
 
 
 行銷執行個體上的PostgreSQL資料庫用於：
 
 * 執行特定工作負載，例如低流量API。
 * 儲存所有Campaign資料，包括傳遞和行銷活動設定、工作流程和服務定義。
-* 儲存所有內建參考表（分項清單、國家/地區等） 已復寫至 [!DNL Snowflake].
+* 儲存所有內建參考表（分項清單、國家/地區等） 複製至 [!DNL Snowflake].
 
-   但是，您不能：
-   * 建立客戶資料的自訂專案，例如，不要在PostgreSQL中建立家用表格，而只在Snowflake中建立
+  不過，您無法：
+   * 建立客戶資料的自訂，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
    * 儲存任何傳遞記錄、追蹤記錄等。 FFDA目標維度。
    * 儲存大量資料。
 
@@ -81,15 +82,15 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 ### [!DNL Campaign] API 準備機制{#staging-api}
 
-替換為 [!DNL Campaign] 雲端資料庫，由於效能（延遲和並行），不建議使用Blast單一呼叫。 一律偏好使用批次作業。 為了保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
+替換為 [!DNL Campaign] 雲端資料庫，由於效能（延遲和並行），不建議使用Blast單一呼叫。 永遠偏好使用批次作業。 為了保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
 
-![](../assets/do-not-localize/glass.png) [本頁面會詳細說明API暫存機制](staging.md)
+![](../assets/do-not-localize/glass.png) [本頁面詳細說明API暫存機制](staging.md)
 
 ### 新 API{#new-apis}
 
-新的API可用於管理以下專案之間的資料同步： [!DNL Campaign] 本機資料庫和雲端資料庫。 此外也引入新機制，可在本機資料庫層級處理API呼叫，以避免延遲並提高整體效能。
+新API可用於管理之間的資料同步 [!DNL Campaign] 本機資料庫和雲端資料庫。 此外也引入新機制，可在本機資料庫層級處理API呼叫，以避免延遲並提高整體效能。
 
-![](../assets/do-not-localize/glass.png) [有關新API的詳情，請參閱本頁](new-apis.md)
+![](../assets/do-not-localize/glass.png) [新的API在此頁面有詳細說明](new-apis.md)
 
 
 ### 資料複製{#data-replication}
@@ -100,6 +101,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 >
 > 已根據表格 (XS、XL等) 的大小建立了多個複製策略。
 > 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有逐漸更新，有些則會進行完整更新。
+>
 
 [深入瞭解資料複製](replication.md)
 
@@ -115,7 +117,7 @@ Adobe Campaign v8 以 Snowflake 作為核心資料庫。 由於它顯著增加�
 
 ### 功能可用性 {#feature-availability}
 
-某些功能無法用於Campaign的企業(FFDA)部署內容，例如：
+某些功能無法用於企業(FFDA)部署促銷活動的內容，例如：
 
 * 行銷資源管理
 * 優惠券

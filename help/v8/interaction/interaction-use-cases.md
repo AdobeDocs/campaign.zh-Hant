@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 使用案例
 
-透過Campaign Classic v7檔案中提供的以下逐步使用案例，善用Campaign互動功能：
+透過Campaign Classic v7檔案中提供的這些逐步使用案例，善用Campaign互動功能：
 
 ![](../assets/do-not-localize/book.png) [建立並套用簡報規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 

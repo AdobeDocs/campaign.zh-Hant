@@ -13,13 +13,13 @@ ht-degree: 4%
 
 # 建立方案和行銷活動{#create-programs-and-campaigns}
 
-Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在此處檢視行銷方案和行銷活動及其相關元素的概觀。
+Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在此處檢視行銷方案和行銷活動的概覽，及其相關元素。
 
-行銷方案是由行銷活動所組成，而行銷活動是由傳遞、資源等所組成。 有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
+行銷方案由行銷活動組成，行銷活動由傳遞、資源等組成。 有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和行銷活動](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和宣傳活動](#video)
 
 ## 使用方案和計畫{#work-with-plan-and-program}
 
@@ -29,20 +29,20 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 開始建立行銷活動和傳遞之前，請為行銷計畫和方案設定資料夾階層。
 
-1. 按一下 **總管** 圖示加以檢視。
-1. 以滑鼠右鍵按一下您要建立計畫的資料夾。
+1. 按一下 **瀏覽器** 圖示加以存取。
+1. 在您要建立計畫的資料夾上按一下滑鼠右鍵。
 1. 選取 **新增資料夾> Campaign Management >計畫**.
 
    ![](assets/create-new-plan-folder.png)
 
 1. 重新命名計畫。
-1. 以滑鼠右鍵按一下新建立的計畫並選取 **屬性……**.
+1. 在新建立的計畫上按一下滑鼠右鍵，然後選取 **屬性……**.
 1. 在 **一般** 標籤，修改 **內部名稱** 以避免在套件匯出期間出現重複專案。
 
    ![](assets/plan-properties.png)
 
 1. 按一下「**儲存**」。
-1. 以滑鼠右鍵按一下新建立的計畫並選取 **建立新的&#39;Program&#39;資料夾**.
+1. 在新建立的計畫上按一下滑鼠右鍵，然後選取 **建立新的&#39;Program&#39;資料夾**.
 
    ![](assets/program-folder.png)
 
@@ -51,19 +51,19 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ### 設定程式 {#edit-a-program}
 
-編輯程式時，請使用下述標籤來瀏覽和設定程式。
+編輯程式時，請使用下述標籤來瀏覽及設定程式。
 
-* 此 **排程** 索引標籤會根據您在日曆標題中按一下哪個索引標籤，顯示某月、周或日的計畫行事曆。 您可以從此頁面建立行銷活動、方案或任務。 [了解更多](#campaign-calendar)
+* 此 **排程** 索引標籤會根據您在日曆標題中按一下哪個索引標籤，顯示某個月、周或天的方案行事曆。 您可以從此頁面建立行銷活動、方案或任務。 [了解更多](#campaign-calendar)
 
-* 此 **編輯** 索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結的檔案等。
+* 此 **編輯** 索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結檔案等。
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## 使用行銷活動{#work-with-campaigns}
 
 ### 建立促銷活動 {#create-a-campaign}
 
-您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取 **[!UICONTROL Campaigns]** 功能表 **[!UICONTROL Campaigns]** 儀表板，然後按一下 **[!UICONTROL Create]**.
+您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取 **[!UICONTROL Campaigns]** 功能表 **[!UICONTROL Campaigns]** 控制面板，然後按一下 **[!UICONTROL Create]**.
 
 此 **[!UICONTROL Program]** 欄位可讓您選取要附加行銷活動的方案。 此資訊是強制性的。
 
@@ -75,7 +75,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 按一下 **[!UICONTROL OK]** 以建立行銷活動。 它會新增至方案排程和行銷活動清單。
 
-然後，您可以編輯剛剛建立的行銷活動並定義其引數。 若要開啟並設定此行銷活動，您可以：
+然後，您可以編輯剛建立的行銷活動並定義其引數。 若要開啟並設定此行銷活動，您可以：
 
 1. 瀏覽行銷活動行事曆，並選取您要顯示的行銷活動，然後按一下 **[!UICONTROL Open]** 連結。
 1. 瀏覽 **[!UICONTROL Schedule]** 索引標籤中，選取行銷活動並加以開啟。
@@ -98,17 +98,17 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 行銷活動是透過行銷活動範本建立。 您可以設定已選取某些選項且已儲存其他設定的可重複使用範本。
 
-對於每個行銷活動，都可使用下列功能：
+對於每個行銷活動，都提供下列功能：
 
 * 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多](marketing-campaign-deliveries.md#manage-associated-documents)。
-* 定義成本：對於每個促銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：印刷成本、使用外部機構、房間租賃等。 [了解更多](providers--stocks-and-budgets.md#defining-cost-categories)。
-* 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。 此資訊稍後會用於行銷活動報表中。
+* 定義成本：對於每個行銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：列印成本、使用外部代理商、房間租賃等。 [了解更多](providers--stocks-and-budgets.md#defining-cost-categories)。
+* 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。 此資訊稍後會用於行銷活動報表。
 * 管理種子地址和控制組。 [了解更多](marketing-campaign-deliveries.md#defining-a-control-group)。
-* 管理核准：您可以選取要核准的處理方式，並視需要選取稽核操作員或操作員群組。 [了解更多](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+* 管理核准：您可以選取要核准的處理方式，並視需要選取複查操作員或操作員群組。 [了解更多](marketing-campaign-approval.md#checking-and-approving-deliveries)。
 
 >[!NOTE]
 >
->若要存取和更新行銷活動設定，請瀏覽至 **[!UICONTROL Advanced campaign parameters...]** 中的連結 **[!UICONTROL Edit]** 標籤。
+>若要存取及更新行銷活動設定，請瀏覽至 **[!UICONTROL Advanced campaign parameters...]** 中的連結 **[!UICONTROL Edit]** 標籤。
 
 ### 監視行銷活動 {#monitor-a-campaign}
 
@@ -122,7 +122,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 >
 >行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示於 [本節](marketing-campaign-templates.md#campaign-templates).
 
-行銷活動達成後，請使用 **[!UICONTROL Reports]** 存取行銷活動報告的連結。
+完成行銷活動後，請使用 **[!UICONTROL Reports]** 存取行銷活動報表的連結。
 
 ![](assets/campaigns-reports-dashboard.png)
 
@@ -130,7 +130,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 行銷活動行事曆顯示所有方案、計畫、行銷活動和傳遞。
 
-若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用 **[!UICONTROL Open]** 連結。 然後會顯示在新標籤中，如下所示：
+若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用 **[!UICONTROL Open]** 連結。 然後它會顯示在新的標籤中，如下所示：
 
 ![](assets/campaign-calendar.png)
 
@@ -154,48 +154,48 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ![](assets/campaign-create-from-calendar.png)
 
-當您透過建立行銷活動時 **[!UICONTROL Schedule]** 標籤中，此行銷活動會自動連結至相關方案。 此 **[!UICONTROL Program]** 在此情況下，欄位會隱藏。
+當您透過建立行銷活動時 **[!UICONTROL Schedule]** 索引標籤中，此行銷活動會自動連結至相關的方案。 此 **[!UICONTROL Program]** 欄位在此情況下是隱藏的。
 
 
 ## 使用網頁介面 {#use-the-web-interface-}
 
-您可以透過網際網路瀏覽器存取Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或處理資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
+您可以透過網際網路瀏覽器存取Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或操作資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
 1. 照常透過https://登入`<your instance>:<port>/view/home`.
-1. 使用選單存取概觀。
+1. 使用功能表存取概述。
 
    ![](assets/web-access-campaigns.png)
 
-除了在行銷活動中導覽及檢視行銷活動外，您還可以執行下列型別的工作：
+除了導覽和檢視行銷活動之外，您還可以執行下列型別的工作：
 
 * 監視執行個體上的活動
 * 參與驗證程式，例如，核准或拒絕傳遞內容
-* 執行其他快速動作，例如，暫停工作流程
+* 執行其他快速動作，例如暫停工作流程
 * 存取所有報告功能
 * 參與論壇討論
 
-此表格總結列出您可以從瀏覽器對行銷活動採取的動作：
+此表格總結列出您可從瀏覽器對行銷活動採取的動作：
 
 | 頁面  | 動作 |
 | --- | --- |
 | 行銷活動、傳遞、優惠方案等清單。 | 刪除清單專案 |
 | Campaign | 取消行銷活動 |
 | 傳遞 | 核准傳遞內容和目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停和停止傳遞 |
-| 網頁應用程式 | 建立網頁應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容另存為範本<br/>發佈應用程式 |
-| 優惠 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
+| 網頁應用程式 | 建立網站應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容另存為範本<br/>發佈應用程式 |
+| 優惠 | 核准優惠方案內容和資格<br/>停用線上選件 |
 | 任務 | 完成任務<br/>取消任務 |
 | 行銷資源 | 核准資源<br/>鎖定及解除鎖定資源 |
-| 行銷活動套件 | 提交套件以供核准<br/>核准或拒絕套件<br/>取消封裝 |
+| 行銷活動套件 | 提交套件以供核准<br/>核准或拒絕套件<br/>取消套裝 |
 | 行銷活動訂單 | 建立訂單<br/>接受或拒絕訂單 |
 | 庫存 | 刪除庫存行 |
 | 優惠方案模擬 | 開始和停止模擬 |
 | 目標定位工作流程 | 開始、暫停和停止工作流程 |
 | 報告 | 將目前的資料儲存在報告歷史記錄中 |
-| 論壇 | 新增討論<br/>回覆討論中的訊息<br/>關注討論並取消訂閱 |
+| 論壇 | 新增討論<br/>回覆討論中的訊息<br/>關注討論內容並取消訂閱 |
 
 ### 管理核准
 
-目標或傳遞內容的核准可透過網頁存取來執行。
+目標或傳遞內容的核准可透過Web存取執行。
 
 ![](assets/web-access-approval.png)
 

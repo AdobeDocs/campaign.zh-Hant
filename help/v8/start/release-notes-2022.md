@@ -77,14 +77,14 @@ _2022 年 9 月 30 日_
 * 此變更僅適用於 GET URL。 其他類型 (包括 POST URL) 則不受影響。
 * 如果您使用自訂程式碼，則安全性權杖不再從 GET URL 安全性權杖參數中擷取。 您必須使用下列 JSSP 程式碼產生新的安全性權杖：
 
-   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
-   您也可以使用登入 API 來擷取安全性權杖。
+  您也可以使用登入 API 來擷取安全性權杖。
 * 工作階段權杖管理中沒有變更。
 
 **功能改進**
 
-* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，安裝 **Microsoft Edge WebView 2** 任何使用者端主控台安裝現在都需要執行階段。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，安裝 **Microsoft Edge WebView 2** 現在，任何使用者端主控台安裝都需要執行階段。
 * 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
 * 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 
@@ -226,9 +226,8 @@ _2022 年 5 月 18 日_
 * Microsoft Exchange Online OAuth 2.0 在 Campaign 中支援 POP3 驗證。 [閱讀全文](../config/external-accounts.md#bounce-mails-external-account)
 * 已套用 Microsoft Dynamics 連接器網頁 API 的重要修正：
 * 已新增名稱為權限的新運算元和群組方案寫入 (operatorWrite)，以允許使用者插入、更新和刪除運算子 (xtk:operator) 和運算子組 (xtk:group) 方案。
-   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
-
-   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
+  <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
+  <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 現在，可以在單個中間來源設定多個 LINE 主要帳戶。
 * Web 流程的預設連接數已從 50 增加到 150。 
 * Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 [閱讀全文](../architecture/keys.md)

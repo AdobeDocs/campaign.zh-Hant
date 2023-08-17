@@ -24,16 +24,16 @@ ht-degree: 4%
 
    ![](assets/query_recipients_1.png)
 
-1. 定義下列篩選條件，以定位存在於傳遞記錄檔中的收件者。 選擇 **收件者傳遞記錄(broadlog)** 在 **運算式** 欄，選擇 **存在，例如** 在 **運運算元** 欄。
+1. 定義下列篩選條件，以定位存在於傳遞記錄的收件者。 選擇 **收件者傳遞記錄(broadlog)** 在 **運算式** 欄，選擇 **存在，例如** 在 **運運算元** 欄。
 
    ![](assets/query_recipients_2.png)
 
-1. 定義下列篩選條件，以定位您的傳遞。 選擇 **[!UICONTROL Internal name]** 在「運算式」欄中和 **[!UICONTROL equal to]** （在運運算元欄中）。
+1. 定義下列篩選條件來鎖定您的傳送。 選擇 **[!UICONTROL Internal name]** 在「運算式」欄與 **[!UICONTROL equal to]** （在運運算元欄中）。
 1. 在值欄中，新增目標傳送的內部名稱。
 
    ![](assets/query_recipients_3.png)
 
-1. 使用 **[!UICONTROL AND]** 運運算元，重複相同的操作來鎖定其他傳送。
+1. 使用 **[!UICONTROL AND]** 運運算元，重複相同的作業來鎖定其他傳送。
 
    ![](assets/query_recipients_4.png)
 

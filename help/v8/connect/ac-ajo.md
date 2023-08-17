@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# 使用Campaign和Adobe Journey Optimizer
+# 合作使用Campaign與Adobe Journey Optimizer
 
 Adobe Campaign與Adobe Journey Optimizer之間的整合可讓您在Adobe Journey Optimizer中協調客戶歷程，並使用Adobe Campaign異動訊息功能傳送電子郵件、推播通知及/或簡訊。
 
-基本步驟是在Campaign中建立交易式訊息範本，然後建立事件、動作，並在Adobe Journey Optimizer中設計歷程。
+基本步驟是在Campaign中建立異動訊息範本，然後在Adobe Journey Optimizer中建立事件、動作並設計歷程。
 
 
 ![](assets/ajo-integration.png)
@@ -24,4 +24,4 @@ Adobe Campaign與Adobe Journey Optimizer之間的整合可讓您在Adobe Journey
 ![](../assets/do-not-localize/book.png) [在此端對端範例中探索這項整合](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
 
 
-![](../assets/do-not-localize/book.png) [進一步瞭解Journey Optimizer檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) [在Journey Optimizer檔案中進一步瞭解](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.

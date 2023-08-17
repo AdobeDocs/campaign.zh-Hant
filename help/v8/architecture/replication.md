@@ -22,18 +22,18 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/glass.png) 完整的技術工作流程清單詳見 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
-除了這些技術工作流程外，Campaign v8還仰賴特定的技術工作流程來管理 [資料復寫](#data-replication).
+除了這些技術工作流程之外，Campaign v8還仰賴特定的技術工作流程來管理 [資料復寫](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-此工作流程會執行內建表格的自動復寫，這些表格需要出現在Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])。 排程為每小時、每天執行一次。 若 **lastModified** 欄位存在，復寫會遞增進行，否則會復寫整個表格。 以下陣列中的表格順序是複製工作流程使用的順序。
+此工作流程會執行內建表格的自動復寫，這些表格需要出現在Campaign本機資料庫(Postgres)和雲端資料庫([!DNL Snowflake])。 排程為每小時、每天執行。 如果 **lastModified** 欄位存在，會遞增複製，否則會複製整個表格。 以下陣列中的表格順序是復寫工作流程使用的順序。
 * **[!UICONTROL Replicate Staging data]**
-此工作流程會複製單一呼叫的分段資料。 排程為每小時、每天執行一次。
+此工作流程會複製單一呼叫的分段資料。 排程為每小時、每天執行。
 * **[!UICONTROL Deploy FFDA immediately]**\
-   此工作流程會執行雲端資料庫的立即部署。
+  此工作流程會執行雲端資料庫的立即部署。
 * **[!UICONTROL Replicate FFDA data immediately]**
 此工作流程會復寫指定外部帳戶的XS資料。
 
-這些技術工作流程可從 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** Campaign Explorer節點。 **不得更改它們。**
+這些技術工作流程可從 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** Campaign Explorer的節點。 **不得更改它們。**
 
 如有需要，您可以手動啟動資料同步處理。 若要執行此動作，請用滑鼠右鍵按一下 **排程器** 活動並選取 **立即執行擱置中的任務**.
 
@@ -48,9 +48,9 @@ ht-degree: 5%
 
 ### 資料複製原則{#data-replication-policies}
 
-複製原則是根據表格的大小。 有些表格會即時複製，有些表格則會每小時複製一次。 某些表格會有累加更新，而其他表格則會被取代。
+複製原則是根據表格的大小。 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有漸進式更新，而其他表格則會被取代。
 
-除了內建 **復寫參考資料表** 技術工作流程，您可以在工作流程中強制進行資料復寫。
+除了內建外， **復寫參考資料表** 技術工作流程，您可以在工作流程中強制進行資料復寫。
 
 您可以：
 

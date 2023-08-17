@@ -1,5 +1,5 @@
 ---
-title: 授與和限制Campaign資料夾的許可權
+title: 授予和限制Campaign資料夾的許可權
 description: 瞭解如何授與或限制檔案夾的許可權
 feature: Permissions
 role: User, Admin
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 管理檔案夾許可權{#manage-folder-permissions}
 
-## 限制對資料夾的存取{#restrict-access-to-a-folder}
+## 限制資料夾的存取權{#restrict-access-to-a-folder}
 
-使用資料夾的許可權來組織和控制Campaign資料的存取。
+使用檔案夾的許可權來組織和控制Campaign資料的存取。
 
-檔案夾管理的詳細資訊，請參閱 [此頁面](../audiences/folders-and-views.md).
+資料夾管理的詳細資訊，請參閱 [此頁面](../audiences/folders-and-views.md).
 
 若要編輯特定Campaign資料夾的許可權，請遵循下列步驟：
 
-1. 以滑鼠右鍵按一下資料夾並選取 **[!UICONTROL Properties...]**.
+1. 以滑鼠右鍵按一下資料夾，然後選取 **[!UICONTROL Properties...]**.
 1. 瀏覽至 **[!UICONTROL Security]** 標籤以檢視此資料夾的授權。
 
    ![](assets/folder-permissions.png)
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## 傳播許可權 {#propagate-permissions}
 
-若要傳播授權和存取許可權，請選取 **[!UICONTROL Propagate]** 資料夾屬性中的選項。
+若要傳播授權和存取許可權，請選取 **[!UICONTROL Propagate]** 檔案夾屬性中的選項。
 
-然後此視窗中定義的授權將套用至目前節點的所有子資料夾。 您可以隨時為每個子資料夾多載這些授權。
+此視窗中定義的授權將套用至目前節點的所有子資料夾。 您一律可以超載每個子資料夾的這些授權。
 
 >[!NOTE]
 >
@@ -43,6 +43,6 @@ ht-degree: 0%
 
 ## 授與存取權給所有運運算元 {#grant-access-to-all-operators}
 
-在 **[!UICONTROL Security]** 索引標籤中，選取 **[!UICONTROL System folder]** 允許存取所有運運算元，無論其許可權為何。
+在 **[!UICONTROL Security]** 索引標籤中，選取 **[!UICONTROL System folder]** 允許存取所有操作者，無論其許可權為何。
 
-如果清除此選項，您必須明確地將運運算元（或其群組）新增回授權清單，才能讓運運算元存取許可權。
+如果清除此選項，您必須明確將運運算元（或其群組）新增回授權清單，讓運運算元（或其群組）才能存取。

@@ -26,15 +26,15 @@ ht-degree: 24%
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-可在工作流程中處理的資料可從結構化檔案中擷取，以便將其匯入Adobe Campaign。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
+工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
 
 收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)。
 
 ## 一次性匯入{#import-jobs}
 
-Adobe Campaign提供一般匯入功能，例如，可讓您擷取隨後將成為目標人口一部分的客戶或潛在客戶清單，或從外部檔案向資料庫提供資料。
+Adobe Campaign提供一般匯入功能，例如可讓您擷取隨後將成為目標母體一部分的客戶或潛在客戶清單，或向您的資料庫提供外部檔案中的資料。
 
-一般匯入會從以下專案進行管理： **[!UICONTROL Profiles and Targets > Jobs]** Adobe Campaign首頁的功能表。
+一般匯入是從以下專案進行管理： **[!UICONTROL Profiles and Targets > Jobs]** Adobe Campaign首頁的功能表。
 
 ![](assets/new-import-job.png)
 

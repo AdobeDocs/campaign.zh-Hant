@@ -58,7 +58,7 @@ ht-degree: 84%
       + 流量控制活動 {#flow-control-activities}
          + [流量控制活動清單](workflow/flow-control-activities.md)
          + [警報](workflow/alert.md)
-         + [AND-join](workflow/and-join.md)
+         + [合併連結](workflow/and-join.md)
          + [核准](workflow/approval.md)
          + [外部訊號](workflow/external-signal.md)
          + [分支](workflow/fork.md)

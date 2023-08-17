@@ -14,31 +14,30 @@ ht-degree: 2%
 
 # Campaign API準備機制
 
-在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，不建議在效能（延遲和並行）方面引發單一呼叫。 批次處理作業一律為首選。 為了提高效能，擷取API會重新導向至本機資料庫。
+在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，不建議在效能（延遲和並行）方面引發單一呼叫。 永遠偏好使用批次處理作業。 為了改善效能，內嵌API會重新導向至本機資料庫。
 
-根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上啟用它。 簡而言之，暫存機制：
+根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上將其啟用。 簡述暫存機制：
 
 * 資料結構描述結構會複製到本機中繼資料表中
 * 專用於資料擷取的新API會直接流入本機中繼表格。 [了解更多](new-apis.md)
-* 排程的工作流程每小時都會觸發一次，並將資料同步回雲端資料庫。 [了解更多](replication.md)
+* 排程的工作流程每小時會觸發一次，並將資料同步回雲端資料庫。 [了解更多](replication.md)
 
-某些內建結構依預設為暫存，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
+部分內建結構依預設會分段，例如nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient。
 
-Campaign Classicv7 API仍然可用，但無法從這個新的準備機制受益： API呼叫直接流向雲端資料庫。 Adobe建議儘可能使用新的準備機制，以減少Campaign Cloud資料庫的整體壓力和延遲。
+Campaign Classicv7 API仍可使用，但無法從此新暫存機制受益： API呼叫直接流向雲端資料庫。 Adobe建議儘可能使用新的準備機制，以減少Campaign Cloud資料庫的整體壓力和延遲。
 
 >[!CAUTION]
 >
->* 透過此新機制，頻道選擇、訂閱、取消訂閱或行動註冊的資料同步現在已開始 **非同步**.
+>* 透過此新機制，現在可實現頻道選擇、訂閱、取消訂閱或行動註冊的資料同步 **非同步**.
 >
->* 中繼僅適用於儲存在雲端資料庫上的結構描述。 請勿在復寫的結構描述上啟用暫存。 請勿在本機結構描述上啟用測試。 不要在已暫存綱要上啟用暫存
+>* 中繼僅適用於儲存在雲端資料庫上的結構描述。 請勿在復寫的結構描述上啟用暫存。 請勿在本機結構描述上啟用分段。 不要在已暫存綱要上啟用暫存
 >
-
 
 ## 實施步驟{#implement-staging}
 
 若要在特定表格上實作Campaign準備機制，請遵循下列步驟：
 
-1. 在Campaign Cloud資料庫上建立範例自訂結構描述。 此步驟未啟用暫存。
+1. 在Campaign Cloud資料庫上建立範例自訂結構描述。 此步驟未啟用任何分段。
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -57,7 +56,7 @@ Campaign Classicv7 API仍然可用，但無法從這個新的準備機制受益�
 
 1. 儲存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
 
-1. 在架構定義中啟用暫存機制，方法是新增 **autoStg=&quot;true&quot;** 引數。
+1. 透過新增以下專案在架構定義中啟用暫存機制： **autoStg=&quot;true&quot;** 引數。
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
@@ -72,7 +71,7 @@ Campaign Classicv7 API仍然可用，但無法從這個新的準備機制受益�
    </srcSchema>
    ```
 
-1. 儲存修改。 有新的中繼結構描述可供使用，這是初始結構描述的本機副本。
+1. 儲存修改。 有新的分段結構描述可供使用，這是初始結構描述的本機副本。
 
    ![](assets/staging-mechanism.png)
 

@@ -28,7 +28,7 @@ ht-degree: 1%
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   此 **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 選項會新增額外的步驟來篩選彙總的最終結果，例如特定採購單型別、已訂購超過10次的客戶等。
+   此 **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 選項會新增額外步驟，以篩選彙總的最終結果，例如，針對指定的採購單型別、已訂購超過10次的客戶等。
 
 1. 如有必要，您可以將新欄新增至輸出檔案，例如計算或處理結果。 若要這麼做，請按一下 **[!UICONTROL Add]** 圖示。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
    ![](assets/s_advuser_extract_file_add_exp.png)
 
-   然後，您將存取選取視窗。 按一下 **[!UICONTROL Advanced selection]** 以選擇要套用至資料的程式。
+   然後，您將會存取選取視窗。 按一下 **[!UICONTROL Advanced selection]** 以選擇要套用至資料的程式。
 
    ![](assets/s_advuser_extract_file_advanced_selection.png)
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
-您可以定義要在資料擷取期間執行的後續程式，好讓您zip或加密檔案。 若要這麼做，必須將所需的命令新增至 **[!UICONTROL Script]** 活動索引標籤中的變數。
+您可以定義在資料擷取期間執行的後程式，以便您壓縮或加密檔案。 若要這麼做，必須將所需的命令新增至 **[!UICONTROL Script]** 索引標籤中。
 
 如需詳細資訊，請參閱本區段： [壓縮或加密檔案](use-workflow-data.md#zipping-or-encrypting-a-file).
 
@@ -56,11 +56,11 @@ ht-degree: 1%
 
 以下是可用的彙總函式清單：
 
-* **[!UICONTROL Count]** 若要計算要彙總之欄位的所有非空值，包括（彙總欄位）的重複值，
+* **[!UICONTROL Count]** 計算要彙總之欄位的所有非null值，包括（彙總欄位）的重複值。
 
-   **[!UICONTROL Distinct]** 若要計算要彙總之欄位的不同和非空值總數（計算前會排除重複值），
+  **[!UICONTROL Distinct]** 計算要彙總之欄位中不同和非null值的總數（計算前會排除重複值），
 
-* **[!UICONTROL Sum]** 若要計算數值欄位的值總和，
+* **[!UICONTROL Sum]** 若要計算數值欄位值的總和，
 * **[!UICONTROL Minimum value]** 若要計算欄位的最小值（數值或其他），
-* **[!UICONTROL Maximum value]** 若要計算欄位的最大值（數值或其他），
+* **[!UICONTROL Maximum value]** 計算欄位的最大值（數值或其他）：
 * **[!UICONTROL Average]** 計算數值欄位值的平均值。

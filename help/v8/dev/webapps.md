@@ -1,5 +1,5 @@
 ---
-title: Campaign網路應用程式和網路表單
+title: Campaign網路應用程式與網路表單
 description: 開始使用網路應用程式和網路表單
 feature: Web Apps
 role: User, Developer
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 開始使用網路應用程式和網路表單{#gs-ac-web}
 
-Adobe Campaign整合了圖形模組，用於定義和發佈 **網路表單** 以建立具有輸入和選取欄位的頁面，其中可能包含來自資料庫的資料。 這可讓您設計和張貼使用者可存取的網頁，以檢視或輸入資訊。
+Adobe Campaign整合了用於定義和發佈的圖形模組 **網路表單** 以建立具有輸入和選取欄位的頁面，其中可能包含來自資料庫的資料。 這可讓您設計和張貼使用者可存取的網頁，以檢視或輸入資訊。
 
 ![](../assets/do-not-localize/book.png) 瞭解如何在中建立和發佈網路表單 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html#designing-content){target="_blank"}
 
@@ -24,4 +24,4 @@ Adobe Campaign也可讓您建立和發佈動態的互動式 **網頁應用程式
 
 您可以建立頁面，例如外部網路上的編輯表單，或通知表單，其中包含來自資料庫的資料，以及表格、圖表、輸入表單等。 此功能可讓您設計和張貼網頁，讓使用者在其中查閱或輸入資訊。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中建立和發佈網頁應用程式 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}
+![](../assets/do-not-localize/book.png) 瞭解如何在中建立和發佈網站應用程式 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}

@@ -22,19 +22,19 @@ ht-degree: 0%
 
 本節詳細說明與異動訊息模組結構描述相關聯的SOAP方法。
 
-二 **推送事件** 或 **推送事件** SOAP方法連結至這兩種 **nms：rtEvent** 和 **nms：BatchEvent** 資料架構。 資訊系統可判斷事件是「批次」或「即時」型別。
+兩個 **推送事件** 或 **Pushevents** SOAP方法連結至兩個 **nms：rtEvent** 和 **nms：BatchEvent** 資料架構。 此資訊系統可判斷事件是「批次」或「即時」型別。
 
 * **推送事件** 可讓您在訊息中插入單一事件，
-* **推送事件** 可讓您在訊息中插入一系列事件。
+* **Pushevents** 可讓您在訊息中插入一系列事件。
 
 用於存取這兩種方法的WSDL路徑為：
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** 以存取即時型別結構描述。
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** 以存取批次型別結構描述。
 
-兩種方法都包含 **`<urn:sessiontoken>`** 用於登入交易式訊息模組的元素。 建議您透過受信任的IP位址來使用身分識別方法。 若要擷取工作階段權杖，請執行登入SOAP呼叫，然後執行get權杖和登出。 對多個RT呼叫使用相同的Token。 本節包含的範例使用工作階段權杖方法（建議使用）。
+兩種方法都包含 **`<urn:sessiontoken>`** 用於登入交易式訊息模組的元素。 我們建議您透過受信任的IP位址使用身分識別方法。 若要擷取工作階段權杖，請執行登入SOAP呼叫，然後執行get權杖和登出。 對多個RT呼叫使用相同的權杖。 本節包含的範例是使用工作階段權杖方法（建議使用）。
 
-如果您使用負載平衡伺服器，則可以使用使用者/密碼驗證（在RT訊息的層級）。 範例:
+如果您使用負載平衡的伺服器，則可以使用使用者/密碼驗證（在RT訊息的層級）。 範例:
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 此 **推送事件** 方法由 **`<urn:domevent>`** 包含事件的引數。
 
-此 **推送事件** 方法由 **`<urn:domeventcollection>`** 包含事件的引數。
+此 **Pushevents** 方法由 **`<urn:domeventcollection>`** 包含事件的引數。
 
-使用PushEvent範例：
+使用PushEvent的範例：
 
 ```
 <urn:PushEvent>
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果呼叫了 **推送事件** 方法，我們需要新增父XML元素以符合標準XML。 此XML元素會將 **`<rtevent>`** 事件中包含的元素。
+>若是呼叫 **Pushevents** 方法，我們需要新增父XML元素以符合標準XML。 此XML元素會將 **`<rtevent>`** 事件中包含的元素。
 
 使用PushEvents的範例：
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-在此範例中，提供兩個管道：電子郵件地址和行動電話號碼。 此 **Wisdechannel** 可讓您選取將事件轉換為訊息時要使用的頻道。 「0」值對應至電子郵件頻道、行動頻道的「1」值等。
+在此範例中，提供兩個管道：電子郵件地址和行動電話號碼。 此 **希望頻道** 可讓您選取將事件轉換為訊息時要使用的管道。 「0」值對應至電子郵件頻道、「1」值對應至行動裝置頻道等。
 
 如果您希望延遲事件傳送，請新增 **[!UICONTROL scheduled]** 欄位後跟偏好的日期。 此事件將於此日期轉換為訊息。
 
@@ -159,69 +159,69 @@ Adobe Campaign在收到事件時，會產生唯一的傳回ID。 這是已封存
 >
 >在接收SOAP呼叫時，Adobe Campaign會驗證電子郵件地址格式。 如果電子郵件地址的格式不正確，則會傳回錯誤。
 
-* 事件處理成功時，方法傳回的識別碼範例：
+* 事件處理成功時方法傳回的識別碼範例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">72057594037935966</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">72057594037935966</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 如果傳回識別碼的值嚴格地大於零，這表示事件已成功在Adobe Campaign中封存。
 
-不過，如果事件無法處理，方法會傳回錯誤訊息或等於零的值。
+但是，如果事件無法處理，則方法會傳回錯誤訊息或等於零的值。
 
-* 查詢不包含登入或指定的運運算元沒有必要許可權時失敗的事件處理範例：
+* 處理查詢不包含登入或指定的運運算元沒有必要許可權時失敗的事件範例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
-            <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
+           <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
-* 由於查詢中的錯誤而失敗的事件範例（不符合XML分類）：
+* 由於查詢中的錯誤而失敗的事件範例（不遵守XML分類）：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
-            <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
-   Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
-      <soapenv:Header/>
-      <soapenv:Body>
-         <urn:PushEvent>
-            <urn:sessiontoken>mc/</urn:sessiontoken>
-            <urn:domEvent>
-   <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
-         externalId="1596" language="english" country="EN" emailFormat="2"
-         mobilePhone="+447700123123">
-     <ctx>
-      <website name="eCommerce" url="http://www.eCo']]></detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
+           <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
+  Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
+     <soapenv:Header/>
+     <soapenv:Body>
+        <urn:PushEvent>
+           <urn:sessiontoken>mc/</urn:sessiontoken>
+           <urn:domEvent>
+  <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
+        externalId="1596" language="english" country="EN" emailFormat="2"
+        mobilePhone="+447700123123">
+    <ctx>
+     <website name="eCommerce" url="http://www.eCo']]></detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 失敗並傳回零識別碼（錯誤的方法名稱）的事件範例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">0</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">0</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

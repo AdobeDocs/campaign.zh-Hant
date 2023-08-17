@@ -15,11 +15,11 @@ ht-degree: 3%
 
 # 更新彙總{#update-aggregate}
 
-中定義的彙總 [立方體](../../v8/reporting/gs-cubes.md) 針對報表用途，可透過特定活動進行更新。 A **[!UICONTROL Workflow]** 索引標籤在設定彙總時可供使用。
+中定義的彙總 [立方體](../../v8/reporting/gs-cubes.md) 如需報表，可透過特定活動進行更新。 A **[!UICONTROL Workflow]** 標籤在設定彙總時可供使用。
 
 進一步瞭解中的立方結構和彙總 [本節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
-若要更新彙總，請編輯 **[!UICONTROL Update aggregate]** 活動並選取要更新的立方結構和聚總。
+若要更新彙總，請編輯 **[!UICONTROL Update aggregate]** 活動，並選取要更新的立方結構和聚總。
 
 您可以設定 **完整更新** 或 **部分更新**.
 
@@ -29,4 +29,4 @@ ht-degree: 3%
 
 ![](assets/update-aggregate-partial.png)
 
-好的做法是新增 **[!UICONTROL Scheduler]** 設定計算更新頻率的活動。
+好的做法是新增 **[!UICONTROL Scheduler]** 活動以設定計算更新的頻率。

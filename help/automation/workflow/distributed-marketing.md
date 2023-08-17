@@ -6,7 +6,7 @@ feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 
 
-以下詳述的工作流程會隨 **分散式行銷** 模組（預設）。 如需此模組的詳細資訊，請參閱 [本節](../distributed-marketing/about-distributed-marketing.md).
+以下詳述的工作流程會隨 **分散式行銷** 模組（預設）。 有關本模組的詳細資訊，請參閱 [本節](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 
@@ -25,8 +25,8 @@ ht-degree: 11%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">分散式行銷流程</span> <br /> </td> 
-   <td> <span class="uicontrol">centralLocalMgt</span> <br /> </td> 
+   <td> <span class="uicontrol">分散式行銷程序</span> <br /> </td> 
+   <td> <span class="uicontrol">Centrallocalmgt</span> <br /> </td> 
    <td> 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。<br /> </td> 
   </tr> 
  </tbody> 

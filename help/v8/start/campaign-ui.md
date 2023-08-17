@@ -28,7 +28,7 @@ Campaign 工作區可在[用戶端主控台](../architecture/general-architectur
 
 連線至Campaign後，您就可以存取首頁。 瀏覽連結以存取功能。 UI中可用的功能集取決於您的選項和許可權。
 
-從首頁的中央區段，使用連結來存取Campaign說明材料、社群和支援網站。
+從首頁的中央區段，使用連結來存取Campaign說明教材、社群和支援網站。
 
 使用上方區段中的標籤，瀏覽Campaign金鑰功能：
 
@@ -36,11 +36,11 @@ Campaign 工作區可在[用戶端主控台](../architecture/general-architectur
 
 >[!NOTE]
 >
->您可以存取的核心功能清單取決於您的許可權和實施。
+>您可存取的核心功能清單取決於您的許可權和實施。
 
-針對每項功能，您可以存取以下功能集的主要功能： **[!UICONTROL Browsing]** 區段。 此 **[!UICONTROL More]** 連結可讓您存取所有其他元件。
+對於每個功能，您都可以存取 **[!UICONTROL Browsing]** 區段。 此 **[!UICONTROL More]** 連結可讓您存取所有其他元件。
 
-例如，瀏覽至 **[!UICONTROL Profiles and targets]** 索引標籤中，您可以存取收件者清單、訂閱服務、現有的目標定位工作流程，以及建立所有這些元件的捷徑。
+例如，瀏覽至 **[!UICONTROL Profiles and targets]** 索引標籤中，您可以存取收件者清單、訂閱服務、現有的鎖定目標工作流程，以及建立所有這些元件的捷徑。
 
 ![](assets/overview-list.png)
 
@@ -50,7 +50,7 @@ Campaign 工作區可在[用戶端主控台](../architecture/general-architectur
 
 ## 建立元素 {#create-an-element}
 
-在「 」中使用捷徑 **[!UICONTROL Create]** 區段來新增元素。 您也可以使用 **[!UICONTROL Create]** 按鈕來將新元素新增至目前清單。
+在下列專案中使用捷徑： **[!UICONTROL Create]** 區段來新增元素。 您也可以使用 **[!UICONTROL Create]** 按鈕來將新元素新增至目前清單。
 
 例如，在傳遞頁面上，使用 **[!UICONTROL Create]** 按鈕來建立新的傳遞。
 
@@ -60,7 +60,7 @@ Campaign 工作區可在[用戶端主控台](../architecture/general-architectur
 
 您也可以透過網頁瀏覽器存取Campaign功能的子集。
 
-網頁存取介面與主控台介面類似。 在瀏覽器中，您可以使用與控制檯相同的導覽和顯示功能，但您只能在行銷活動上執行縮減的動作集。 例如，您可以檢視和取消行銷活動，但無法修改行銷活動。
+網頁存取介面與主控台介面類似。 在瀏覽器中，您可以使用與主控台相同的導覽和顯示功能，但您只能在行銷活動上執行一組精簡的動作。 例如，您可以檢視和取消行銷活動，但無法修改行銷活動。
 
 ![](../assets/do-not-localize/glass.png) [進一步瞭解Campaign網頁存取](../start/connect.md#web-access).
 
@@ -70,11 +70,11 @@ Campaign 工作區可在[用戶端主控台](../architecture/general-architectur
 
 ![](assets/explorer.png)
 
-此工作區可讓您存取Explorer樹狀結構以瀏覽所有功能和選項。
+此工作區可讓您存取瀏覽器樹狀結構以瀏覽所有功能和選項。
 
-* 左側區段顯示Campaign Explorer樹狀結構，並讓您根據您的許可權瀏覽執行個體的所有元件和設定。 您可以新增和自訂資料夾，如中所述 [此頁面](../audiences/folders-and-views.md).
+* 左側區段顯示Campaign Explorer樹狀結構，並讓您根據許可權瀏覽執行個體的所有元件和設定。 您可以新增及自訂資料夾，如中所述 [此頁面](../audiences/folders-and-views.md).
 
-* 上半部分顯示目前資料夾中的記錄清單。 這些清單是完全可自訂的。 [了解更多](../config/ui-settings.md)
+* 上半部分顯示目前資料夾中的記錄清單。 這些清單皆可完全自訂。 [了解更多](../config/ui-settings.md)
 
 * 下方區段會顯示所選記錄的詳細資訊。
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 資料載入 (RDBMS)
-description: 進一步瞭解資料載入(RDBMS)工作流程活動
+description: 深入瞭解資料載入(RDBMS)工作流程活動
 feature: Workflows, Data Management Activity
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
@@ -25,11 +25,11 @@ ht-degree: 3%
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   在對應欄位中輸入的表格名稱，會作為在外部資料庫中收集資料的範本。 工作流程處理的表格名稱，可由資料載入活動的入站轉變計算或傳送。 若要選取要使用的表格，請按一下 **[!UICONTROL Advanced..]**. 連結並選取 **[!UICONTROL Specified in the transition]** 或 **[!UICONTROL Explicit]** 選項。
+   在對應欄位中輸入的表格名稱會作為範本使用，以便在外部資料庫中收集資料。 工作流程處理的表格名稱，可由資料載入活動的入站轉變計算或傳送。 若要選取要使用的表格，請按一下 **[!UICONTROL Advanced..]**. 連結並選取 **[!UICONTROL Specified in the transition]** 或 **[!UICONTROL Explicit]** 選項。
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 
-1. 按一下 **[!UICONTROL Select the columns to extract...]** 用來選擇要收集到資料庫中的資料的連結。
+1. 按一下 **[!UICONTROL Select the columns to extract...]** 此連結可選擇要收集到資料庫中的資料。
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 

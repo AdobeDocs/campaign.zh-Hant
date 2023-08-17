@@ -28,13 +28,13 @@ ht-degree: 12%
 
    收件者設定檔必須至少包含其名稱和郵寄地址。
 
-   郵寄地址為計算欄位。 依預設，地址最多可包含六行：第一行包含名字和姓氏，下一行包含郵遞區號（道路等），最後一行包含郵遞區號和城鎮或城市。
+   郵寄地址為計算欄位。 依預設，地址最多可包含6行：第一行包含名字和姓氏，下一行包含郵遞區號（道路等），而最後一行包含郵遞區號和城鎮。
 
-   如果名稱、郵遞區號欄位和城鎮/城市欄位並非空白，則會視為完整的地址。
+   如果名稱、郵遞區號欄位和城鎮/城市欄位並非空白，則會將地址視為完整。
 
    ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件 中深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
-1. 定義檔案內容
+1. 定義檔案的內容
 
    使用擷取精靈來定義要匯出至輸出檔案的資訊（欄）。
 
@@ -46,12 +46,12 @@ ht-degree: 12%
 
    ![](../assets/do-not-localize/book.png) 在 [Campaign Classic v7 文件 中深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target="_blank"}
 
-   在行銷活動的內容中，在解壓縮日期，會建立解壓縮檔案。 您可以檢視解壓縮檔案的內容、核准解壓縮檔案，或變更格式，然後視需要重新啟動解壓縮。 一旦檔案獲得核准，您就可以將通知電子郵件傳送給路由器。 在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)中了解更多
+   在行銷活動的內容中，於解壓縮日期建立解壓縮檔案。 您可以檢視擷取的檔案內容、核准該檔案，或視需要變更格式並重新啟動擷取。 一旦檔案獲得核准，您就可以將通知電子郵件傳送給路由器。 在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)中了解更多
 
 1. 開始傳遞
 
    驗證解壓縮檔案後，請按一下 **確認傳遞** 確認訊息可讓您啟動傳送。
 
-   確認作業會開始擷取指定檔案中的資料。
+   確認會在指定的檔案中開始資料擷取。
 
-   在行銷活動的內容中，當所有核准皆已授與後，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動啟動。 進一步瞭解 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)
+   在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 進一步瞭解 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)

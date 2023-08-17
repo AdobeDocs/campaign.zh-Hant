@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 向匿名設定檔呈現優惠方案（傳入互動）
-description: 瞭解如何向匿名設定檔顯示優惠方案
+description: 瞭解如何向匿名設定檔呈現優惠方案
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## 匿名互動的環境 {#environment-for-anonymous-interactions}
 
-預設為Campaign **互動** 模組隨附預先設定的環境，以內建收件者表格（已識別的優惠）為目標。 如果您需要鎖定其他表格、匿名選件的訪客表格或自訂收件者表格等，則必須使用目標對應精靈來建立環境。 [進一步瞭解環境](interaction-env.md).
+依預設，Campaign **互動** 模組隨附預先設定的環境，可鎖定內建的收件者表格（已識別的優惠方案）。 如果您需要鎖定其他表格、匿名選件的訪客表格或自訂收件者表格等，則必須使用目標對應精靈來建立環境。 [進一步瞭解環境](interaction-env.md).
 
-當您透過對應建立精靈建立匿名環境時， **[!UICONTROL Environment dedicated to incoming anonymous interactions]** 方塊會自動在環境的 **[!UICONTROL General]** 標籤。
+當您透過對應建立精靈建立匿名環境時， **[!UICONTROL Environment dedicated to incoming anonymous interactions]** 方塊會在環境的 **[!UICONTROL General]** 標籤。
 
 此 **[!UICONTROL Targeting dimension]** 會自動完成。 依預設，它會連結至訪客表格。
 
@@ -26,30 +26,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要篩選數種型別的訪客，例如，針對一或多個品牌提供的匿名優惠，您需要為每個品牌建立環境，然後 **[!UICONTROL Visitors]** 輸入每個環境的資料夾。
+>如果您想要篩選數種型別的訪客，例如，當呈現一或多個品牌的匿名優惠方案時，您需要為每個品牌建立一個環境，然後 **[!UICONTROL Visitors]** 輸入每個環境的資料夾。
 
 ## 匿名互動的優惠方案目錄 {#offer-catalog-for-anonymous-interactions}
 
-就像對外互動一樣，傳入互動會整理在由類別和優惠方案組成的優惠方案目錄中。
+就像傳出互動一樣，傳入互動會整理在優惠方案目錄中，由類別和優惠方案組成。
 
 若要建立類別和空間，請套用與已識別訪客相同的程式。 請參閱 [建立優惠方案類別](interaction-offer-catalog.md#creating-offer-categories) 和 [建立優惠方案環境](interaction-env.md#creating-an-offer-environment))。
 
 ## 匿名訪客 {#anonymous-visitors}
 
-匿名訪客連線時，可能會提交至Cookie識別程式。 這種隱含的辨識是以訪客的瀏覽器記錄為基礎。
+匿名訪客在連線時，可能會提交至Cookie識別程式。 此隱含辨識是以訪客的瀏覽器記錄為基礎。
 
 在此步驟中，會比較Cookie復原的資料與資料庫中的資料。 在某些情況下，訪客會被識別（然後會以隱含方式識別），而在其他情況下，訪客不會被識別（因此會維持匿名）。
 
-若要執行此分析，請在選件空間中，核取 **[!UICONTROL Implicitly identify the individual based on their browser history]** 選項。
+若要執行此分析，請在選件空間中，檢查 **[!UICONTROL Implicitly identify the individual based on their browser history]** 選項。
 
 ![](assets/identification_anonymous_visitors.png)
 
-## 處理無法識別的匿名訪客 {#processing-unidentified-anonymous-visitors}
+## 處理未識別的匿名訪客 {#processing-unidentified-anonymous-visitors}
 
-分析後，如果未識別匿名訪客，您可以將他們的資料儲存在指定的空間中。 這可讓您根據指定的型別規則，針對這類訪客提出專屬優惠建議。
+分析之後，如果未識別匿名訪客，您可以將他們的資料儲存在指定的空間。 這可讓您根據指定的型別規則，建議專門針對這類訪客的優惠方案。
 
-如果沒有可讓您識別連絡人的元素，或如果您不想向可隱含識別的連絡人建議已識別的優惠，您可以選擇對匿名環境執行遞補。
+如果沒有可讓您識別連絡人的元素，或您不想向可隱含識別的連絡人建議已識別的優惠，您可以選擇對匿名環境執行遞補。
 
-若要這麼做，請核取 **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**，然後在「 」中指定這些未識別訪客的專屬環境 **[!UICONTROL Linked anonymous space]** 指定優惠方案空間時。
+要執行此操作，請核取 **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**，然後在「 」中指定這些未識別訪客專屬的環境 **[!UICONTROL Linked anonymous space]** 指定優惠方案空間時。
 
 ![](assets/anonymous_to_anonymous_environment.png)
