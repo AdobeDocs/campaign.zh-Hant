@@ -5,18 +5,18 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '448'
 ht-degree: 11%
 
 ---
 
 # 管理訂閱和取消訂閱{#optin-optout}
 
-使用Adobe Campaign建立及監控您的資訊服務（例如電子報），並管理這些服務的訂閱/取消訂閱。 數個服務可並行定義，例如：特定產品類別、網站主題或區域的專業電子報、各種警報訊息型別的訂閱和即時通知。 請參閱管理訂閱。
+使用Adobe Campaign建立及監控您的資訊服務（例如電子報），並管理這些服務的訂閱/取消訂閱。 數個服務可並行定義，例如：特定產品類別、網站主題或區域的專業電子報、各種警報訊息型別的訂閱和即時通知。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中建立資訊服務、傳送電子報及管理加入和退出 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+![](../assets/do-not-localize/book.png) 瞭解如何建立資訊服務、傳送Newsletter以及管理加入和退出 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
 若要訂閱（選擇加入）服務的設定檔，可用選項包括：
 
