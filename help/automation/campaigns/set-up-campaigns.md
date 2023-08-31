@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: 建立您的第一個行銷活動
+title: 開始使用行銷活動
 description: 瞭解如何開始行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ac4473625697d0fd545586a01868e3229bccc672
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 13%
+source-wordcount: '444'
+ht-degree: 16%
 
 ---
 
-# 建立您的第一個行銷活動{#gs-marketing-campaigns}
+# 開始使用行銷活動 {#gs-marketing-campaigns}
 
 Adobe Campaign可讓您定義、最佳化、執行和分析通訊與行銷活動。 Adobe Campaign就像行銷策略的統一訂單和執行中心。 管理多個資料來源、定義對象區段，以及透過拖放式視覺工作流程介面來規劃和執行多步驟、跨頻道行銷活動。
 
