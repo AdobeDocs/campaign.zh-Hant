@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
+source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 95%
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -35,44 +35,43 @@ ht-degree: 95%
 + Campaign Management {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
    + [Campaign 協調流程 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
-   + 傳送訊息{#send}
-      + [開始使用訊息](start/create-message.md)
-      + [使用傳遞範本](send/create-templates.md)
-      + 電子郵件 {#emails}
-         + [設計和驗證電子郵件](send/email.md)
-         + [連結至鏡像頁面](send/mirror-page.md)
-         + [定義其他電子郵件引數](send/email-parameters.md)
-         + [傳送和監視電子郵件](send/send.md)
-      + [簡訊](send/sms.md)
-      + 推播通知 {#push}
-         + [建立和傳送推播通知](send/push.md)
-         + [設定推播通知頻道](send/push-settings.md)
-         + [使用資料收集設定推播通知](send/push-data-collection.md)
-      + [LINE 傳送訊息](send/line.md)
-      + [直接郵件](send/direct-mail.md)
-      + [Twitter](send/twitter.md)
-      + 異動訊息 {#real-time}
-         + [開始使用異動訊息](send/transactional.md)
-         + [建立並發佈範本](send/transactional-template.md)
-         + 事件管理 {#event}
++ 傳送訊息{#send}
+   + [開始使用訊息](start/create-message.md)
+   + 電子郵件 {#emails}
+      + [設計和驗證電子郵件](send/email.md)
+      + [連結至鏡像頁面](send/mirror-page.md)
+      + [定義其他電子郵件引數](send/email-parameters.md)
+      + [傳送和監視電子郵件](send/send.md)
+   + [簡訊](send/sms.md)
+   + 推播通知 {#push}
+      + [建立和傳送推播通知](send/push.md)
+      + [設定推播通知頻道](send/push-settings.md)
+      + [使用資料收集設定推播通知](send/push-data-collection.md)
+   + [LINE 傳送訊息](send/line.md)
+   + [直接郵件](send/direct-mail.md)
+   + [Twitter](send/twitter.md)
+   + 將內容個人化 {#personalize}
+      + [開始使用個人化](send/personalize.md)
+      + [個人化資料](send/personalization-data.md)
+      + [新增個人化欄位](send/personalization-fields.md)
+      + [使用個人化區塊](send/personalization-blocks.md)
+      + [建立條件](send/conditions.md)
+   + 驗證並傳送您的傳遞 {#validate}
+   + [預覽和校樣](send/preview-and-proof.md)
+   + [傳遞分析](send/delivery-analysis.md)
+   + [設定並傳送傳遞](send/configure-and-send.md)
+   + [傳送時間最佳化](send/predictive.md)
+   + 失敗、邊界和隔離{#failures}
+      + [隔離](send/quarantines.md)
+      + [傳遞失敗](send/delivery-failures.md)
+   + [使用傳遞範本](send/create-templates.md)
+   + 異動訊息 {#real-time}
+      + [開始使用異動訊息](send/transactional.md)
+      + [建立並發佈範本](send/transactional-template.md)
+      + 事件管理 {#event}
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
          + [傳送和監視訊息](send/delivery-execution.md)
-      + 失敗、邊界和隔離{#failures}
-         + [隔離](send/quarantines.md)
-         + [傳遞失敗](send/delivery-failures.md)
-      + [傳送時間最佳化](send/predictive.md)
-      + [管理訂閱](start/subscriptions.md)
-      + 將內容個人化 {#personalize}
-         + [開始使用個人化](send/personalize.md)
-         + [個人化資料](send/personalization-data.md)
-         + [新增個人化欄位](send/personalization-fields.md)
-         + [使用個人化區塊](send/personalization-blocks.md)
-         + [建立條件](send/conditions.md)
-      + 驗證您的傳遞 {#validate}
-         + [預覽和校樣](send/preview-and-proof.md)
-         + [傳遞分析](send/delivery-analysis.md)
-      + [設定並傳送傳遞](send/configure-and-send.md)
 + 設定檔與對象管理 {#audience}
    + [開始使用設定檔和對象](audiences/gs-audiences.md)
    + [配合對象](start/audiences.md)
@@ -87,8 +86,9 @@ ht-degree: 95%
    + 建立對象 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
-   + [與 Adobe 解決方案共用對象](start/shared-audiences.md)
+      + [與Adobe解決方案共用對象](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
+   + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
    + [設計網頁應用程式和表單](dev/webapps.md)
 + 隱私權與安全管理 {#privacy}
