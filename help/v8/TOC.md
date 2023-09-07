@@ -6,8 +6,8 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
 source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
