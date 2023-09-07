@@ -3,9 +3,9 @@ title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
 hide: true
 hidefromtoc: true
-source-git-commit: 11128dcb26119383b86aa62561ec0ce1a3c138ad
+source-git-commit: a141ba08b9c40fb89cfdf63c3078082d32afd861
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ IMS移轉是確保環境安全和標準化的必要安全性事項，因為大�
 您現在可以根據以下基準規劃技術使用者移轉至IMS [此技術檔案](ims-migration.md)，並在完成後向您的Adobe轉變管理員確認。
 Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生使用者建立和原生使用者登入。
 
-## 常見問題集? {#ims-migration-faq}
+## 常見問題集 {#ims-migration-faq}
 
 ### 何時可以開始移轉？ {#ims-migration-start}
 
@@ -58,7 +58,7 @@ Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生
 
 升級到Campaign v8.5.2後，您可以在中繼環境中開始IMS移轉，並據此規劃生產環境。
 
-### 8.5.2版本編號升級後會發生什麼事？ {#ims-migration-after-upgrade}
+### 組建版本升級至Campaign v8.5.2後會發生什麼事？ {#ims-migration-after-upgrade}
 
 將環境升級至Campaign v8.5.2後，您可以執行AdobeIdentity Management系統(IMS)移轉。
 
@@ -90,3 +90,20 @@ Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生
 ### 如何透過IMS登入Campaign？ {#ims-migration-log}
 
 瞭解如何使用您的Adobe ID連線至Campaign，位於 [本節](../../v8/start/connect.md).
+
+### 此移轉期間是否會有停機時間？ {#ims-migration-downtime}
+
+為了完成移轉（移轉使用者和產品設定檔），Adobe需要一小時的時間，您的任何執行個體（工作流程等）都不會出現停機時間。
+
+在這段時間內，所有Campaign使用者都必須登出，並在完成移轉至IMS後使用Adobe ID登回。
+
+
+### 在IMS使用者移轉期間登入的使用者會發生什麼事？ {#ims-migration-log-off}
+
+Adobe強烈建議所有使用者在移轉期間登出。
+
+### 我組織中的使用者已在使用IMS，我仍需要執行IMS移轉嗎？
+
+此移轉包括兩個方面：非技術「人類」使用者移轉和技術使用者移轉（用於自訂程式碼中的API）。
+
+如果您的所有使用者（Campaign運運算元）都在IMS上，則不需要執行此移轉。 不過，您仍需要移轉可能已用於自訂程式碼中的技術使用者。 在[本頁](ims-migration.md)中瞭解更多。
