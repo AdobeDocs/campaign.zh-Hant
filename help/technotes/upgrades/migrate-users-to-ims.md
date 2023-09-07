@@ -1,0 +1,92 @@
+---
+title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
+description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
+hide: true
+hidefromtoc: true
+source-git-commit: 11128dcb26119383b86aa62561ec0ce1a3c138ad
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 1%
+
+---
+
+# 移轉Campaign運運算元至AdobeIdentity Management系統(IMS) {#migrate-users-to-ims}
+
+自Campaign v8.6開始，改善對Campaign v8的驗證流程。 所有運運算元將使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 僅連線至Campaign。 將不再允許與使用者/密碼連線。 Adobe建議在Campaign v8.5.2中執行此移轉，以便能夠順利移轉至Campaign v8.6。
+
+本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
+
+## 哪些部分有所變更？{#move-to-ims-changes}
+
+所有Campaign一般使用者應已透過AdobeAdobe Campaign System (IMS)，使用其Adobe ID連線至Identity Management使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 從Campaign v8.6開始將不再允許這樣做。
+
+此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術操作員移轉的詳細資訊可參閱以下專用文章： [此頁面](ims-migration.md).
+
+此變更適用於從Campaign v8.5.2開始，且將 **強制** 從Campaign v8.6開始。
+
+
+## 您有受到影響嗎？{#migrate-ims-impacts}
+
+如果貴組織中的操作員使用其登入/密碼（亦即）連線至Campaign使用者端主控台， 原生驗證)，您會受到影響，且必須將這些運運算元移轉至Adobe IMS，如下所述。
+
+IMS移轉是確保環境安全和標準化的必要安全性事項，因為大部分其他AdobeDX應用程式已在IMS上。
+
+## 如何移轉？{#ims-migration-procedure}
+
+### 必要條件{#ims-migration-prerequisites}
+
+在開始移轉程式之前，您必須聯絡您的Adobe代表（轉變經理），以便Adobe技術團隊可以移轉您現有的操作員群組和AdobeIdentity Management System (IMS)的已命名許可權。
+
+### 主要步驟 {#ims-migration-steps}
+
+以下列出此移轉的關鍵步驟：
+
+1. Adobe會將您的環境升級至Campaign v8.5.2。
+1. 升級後，您仍然可以透過兩種方法建立新使用者，以原生使用者身分或透過IMS。
+1. 您的內部Campaign管理員必須向Campaign使用者端主控台上的所有原生使用者新增唯一電子郵件，並在完成後向Adobe轉變管理員確認。 此步驟的詳細資訊，請參閱 [本節](#ims-migration-id).
+1. 與Adobe合作，確保Adobe的日期能夠執行自動的非技術使用者（操作員）和產品設定檔移轉。 此步驟需要一小時的時段，您的任何執行個體都沒有停機時間。
+1. 您的內部Campaign管理員會驗證這些變更，並提供登出服務。 移轉後，您再也不能建立任何以他的登入和密碼進行驗證的進一步運運算元。
+
+您現在可以根據以下基準規劃技術使用者移轉至IMS [此技術檔案](ims-migration.md)，並在完成後向您的Adobe轉變管理員確認。
+Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生使用者建立和原生使用者登入。
+
+## 常見問題集? {#ims-migration-faq}
+
+### 何時可以開始移轉？ {#ims-migration-start}
+
+移轉至Adobe Identity Management System (IMS)的先決條件是將您的環境升級至Campaign v8.5.2。
+
+升級到Campaign v8.5.2後，您可以在中繼環境中開始IMS移轉，並據此規劃生產環境。
+
+### 8.5.2版本編號升級後會發生什麼事？ {#ims-migration-after-upgrade}
+
+將環境升級至Campaign v8.5.2後，您可以執行AdobeIdentity Management系統(IMS)移轉。
+
+在IMS移轉完成之前，仍允許建立新的原生使用者。
+
+### 移轉何時完成？ {#ims-migration-end}
+
+終端使用者移轉及技術使用者移轉至AdobeIdentity Management系統(IMS)後，您必須聯絡Adobe轉換經理，讓Adobe將您的移轉標示為完成，並封鎖從使用者端主控台建立的使用者以及原生使用者登入。
+
+
+### 如何在移轉後建立使用者？ {#ims-migration-native}
+
+完整IMS移轉完成後，Adobe將套用會封鎖新原生使用者建立的限制。 在IMS移轉完成之前，不會套用這些限制。
+
+對於新客戶 — 不允許從頭開始建立新的原生使用者。
+
+身為Campaign管理員，您可以透過Adobe Admin Console和Campaign使用者端主控台將許可權授予組織的使用者。 使用者使用其Adobe ID登入Adobe Campaign。 進一步瞭解 [本檔案](../../v8/start/gs-permissions.md).
+
+### 如何為目前原生使用者新增電子郵件？ {#ims-migration-id}
+
+身為Campaign管理員，您必須從使用者端主控台新增電子郵件ID至所有原生使用者。 請依照下列步驟以執行此操作：
+
+1. 連線到使用者端主控台並瀏覽至 **管理>存取管理>操作者**
+1. 在運運算元清單中選取要更新的運運算元。
+1. 輸入操作員的電子郵件，在 **聯絡方式** 運運算元表單的區段。
+1. 儲存您的變更。
+
+
+### 如何透過IMS登入Campaign？ {#ims-migration-log}
+
+瞭解如何使用您的Adobe ID連線至Campaign，位於 [本節](../../v8/start/connect.md).
