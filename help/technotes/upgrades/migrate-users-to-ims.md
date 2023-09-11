@@ -3,9 +3,9 @@ title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
 hide: true
 hidefromtoc: true
-source-git-commit: 74d97c4c61a305aff1d2f108a8a24cb6943dea07
+source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 1%
 此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術操作員的移轉詳情請參閱中提供的專屬文章 [此頁面](ims-migration.md).
 
 此變更適用於從Campaign v8.5.2開始，且將 **強制** 從Campaign v8.6開始。
-
 
 ## 您有受到影響嗎？{#migrate-ims-impacts}
 
@@ -49,8 +48,9 @@ ht-degree: 1%
 1. 與Adobe合作，確保Adobe的日期，以針對您的非技術使用者（操作員）和產品設定檔執行自動移轉。 此步驟需要一小時的時段，您的任何執行個體都沒有停機時間。
 1. 您的內部Campaign管理員會驗證這些變更，並提供簽核服務。 移轉後，您再也不能建立任何以他的登入和密碼進行驗證的進一步運運算元。
 
-您現在可以根據以下基準規劃技術使用者移轉至IMS [此技術檔案](ims-migration.md)，並在完成後向您的Adobe轉變管理員確認。
-Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生使用者建立和原生使用者登入。
+您現在可以將技術運運算元移轉至Adobe Developer主控台，如所述 [此技術檔案](ims-migration.md). 如果您使用Campaign API，則此步驟為必要步驟。
+
+此移轉一旦完成，請向您的Adobe轉變管理員確認：Adobe接著將移轉標示為完成，並封鎖建立新的原生使用者和原生使用者登入。 接著您的環境就會受到保護並標準化。
 
 ## 常見問題集 {#ims-migration-faq}
 
@@ -105,10 +105,19 @@ Adobe會將移轉標示為完成，然後開啟「標幟」以封鎖新的原生
 
 Adobe強烈建議所有使用者在移轉期間登出。
 
-### 我組織中的使用者已在使用IMS，我仍需要執行IMS移轉嗎？
+### 我組織中的使用者已在使用IMS，我仍需要執行IMS移轉嗎？{#ims-migration-needed}
 
 此移轉包括兩個方面：一般使用者移轉和技術使用者移轉（用於自訂程式碼的API）。
 
 如果您的所有使用者（Campaign運運算元）都在IMS上，則不需要執行此移轉。 不過，您仍需要移轉可能已用於自訂程式碼中的技術使用者。 在[本頁](ims-migration.md)中瞭解更多。
 
 完成此移轉後，您必須聯絡Adobe轉換經理，讓Adobe完成移轉。
+
+## 有用的連結 {#ims-useful-links}
+
+* [將技術使用者移轉至Adobe Developer主控台](ims-migration.md)
+* [如何連線至Adobe Campaign v8](../../v8/start/connect.md)
+* [Adobe Campaign v8中的存取和許可權](../../v8/start/gs-permissions.md)
+* [Adobe Campaign v8發行說明](../../v8/start/release-notes.md)
+* [什麼是AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+
