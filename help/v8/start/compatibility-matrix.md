@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: bf846b4120885b56ef00c836922e22c7629f5510
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 89%
 
 ### 作業系統{#op-systems}
 
-* **Microsoft Windows 伺服器** 2019、2016、2012
-* **Microsoft Windows** 11、10、8
+* **Microsoft Windows Server** 2019、2016
+* **Microsoft Windows** 11， 10
 
 >[!NOTE]
 >
