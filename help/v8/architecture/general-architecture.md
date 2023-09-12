@@ -5,9 +5,9 @@ feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1129'
 ht-degree: 7%
 
 ---
@@ -78,6 +78,7 @@ Adobe Campaign模組分為三種型別：
 
 * **統計伺服器** (nlserver stat) — 此程式會維護連線數、每個郵件伺服器傳送的郵件數、郵件傳送目的地及其限制（同時連線數上限、每小時郵件數/和/或連線）的統計資料。 此外，如果多個執行個體或電腦共用相同的公用IP位址，您也可以聯合這些執行個體或電腦。
 
+
 ## 資料庫容器 {#db-containers}
 
 Adobe Campaign雲端資料庫仰賴 [!DNL Snowflake] 其中包含功能資料（設定檔、訂閱、內容等）、技術資料（傳遞工作和記錄、追蹤記錄等） 和解決方案的工作資料（購買、銷售機會）以及所有Adobe Campaign元件會與資料庫通訊，以執行其特定工作。
@@ -92,3 +93,9 @@ Adobe Campaign雲端資料庫仰賴 [!DNL Snowflake] 其中包含功能資料（
 >若使用 **Campaign Managed Cloud Services**，您的環境和初始設定已根據您的許可協定條款由 Adobe 設定。 您不得修改已安裝的內建套件、內建方案或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
+
+## 資料庫儲存 {#db-storage}
+
+總儲存容量可在主要資料庫與Snowflake倉儲之間分割。 應根據客戶特定的使用案例，在實施或升級時間決定儲存資料的位置。
+
+瞭解如何在中監視您的資料庫使用情況 [Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
