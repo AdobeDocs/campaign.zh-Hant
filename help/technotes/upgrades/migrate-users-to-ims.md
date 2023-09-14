@@ -1,11 +1,9 @@
 ---
 title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
-hide: true
-hidefromtoc: true
-source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
+source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -88,7 +86,7 @@ ht-degree: 1%
 1. 輸入操作員的電子郵件，在 **聯絡方式** 運運算元表單的區段。
 1. 儲存您的變更。
 
-您也可以匯入CSV檔案，以使用您的所有操作員電子郵件更新其設定檔。
+<!--You can also import a CSV file to update all your operator profiles with their email.-->
 
 
 ### 如何透過IMS登入Campaign？ {#ims-migration-log}
