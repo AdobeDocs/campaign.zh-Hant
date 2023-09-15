@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 758d542b353a2d784407954089586e761825d740
+source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 51%
+source-wordcount: '1489'
+ht-degree: 55%
 
 ---
 
@@ -38,7 +38,6 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 如需詳細資訊，請參閱[詳細文件](../send/push-data-collection.md)以瞭解詳情。
 
 
-**行動裝置頻道增加的輸送量**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -60,7 +59,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-
+<p><strong>行動裝置頻道增加的輸送量</strong></p>
 <p>新推出的推播通知服務顯示推播Android和推播iOS的輸送量比起先前版本(v8.4)有重大改善。 最新版本(v8.5)的升級服務可讓使用者體驗到更優異的效能。 </p>
 <ul>
 <li>推播通知(Android)：最多 <strong>5x</strong> 更快 </li>
@@ -85,8 +84,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **安全性改善功能**
 
-* 從Campaign v8.5.1開始，已改善Campaign v8的驗證流程。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何移轉您現有的技術帳戶，於 [此技術檔案](../../technotes/upgrades/ims-migration.md).
-* 您無法再從Campaign使用者端主控台建立運運算元。 使用者介面已更新相應內容。 您現在必須使用Adobe Admin Console。 [了解更多](../start/gs-permissions.md)。
+* 使用Campaign v8.5.1時，Campaign v8的驗證程式已改善並安全。 技術操作員現在必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何移轉您現有的技術帳戶，於 [此技術檔案](../../technotes/upgrades/ims-migration.md).
+* 從即將推出的v8.6開始，您將無法再從Campaign使用者端主控台建立運運算元。 如果您使用登入/密碼原生驗證，您必須將操作員移轉至AdobeIdentity Management System (IMS)。 瞭解如何在中移轉您的操作員 [此技術檔案](../../technotes/upgrades/migrate-users-to-ims.md).
 * 已更新數個協力廠商工具，以最佳化安全性。
 
 **相容性更新**
@@ -97,7 +96,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **修補程式**
 
-* 修正可能導致傳遞的HTML內容在數個瀏覽器中編碼錯誤的特殊字元問題。 (NEO-60081)
+* 已修正可能導致傳遞的 HTML 內容中的特殊字元在數種瀏覽器中編碼錯誤的問題。 (NEO-60081)
 * 修正了無法在Campaign v8企業(FFDA)部署中儲存報表的問題。 (NEO-56836)
 * 修正透過更新資料工作流程活動將資料插入或更新至自訂FFDA結構描述中的問題。 (NEO-54708)
 * 修正資料庫清理工作流程無法移除FFDA上nms：address表格中的位址的問題。 (NEO-54460)
@@ -106,9 +105,9 @@ These max throughput performances have been measured by Adobe testing teams, in 
 * 修正使 `JSPContext.sqlExecWithOneParam` 函式無法運作的問題。 (NEO-50066)
 * 修正在個人化欄位中使用無法列印的字元時，導致傳送失敗的問題。 (NEO-48588)
 * 修正插入Adobe Target動態影像時，可能導致傳送錯誤的問題。 (NEO-62689)
-* 修正瀏覽器在傳送中使用條件式內容時無法新增額外空格的問題。 (NEO-62132)
-* 修正在電子郵件內容編輯器中按一下影像時，造成快顯視窗開啟的問題。 (NEO-60752)
-* 修正可能導致錯誤的問題，並防止您在編輯傳送內容時捲動。 (NEO-61364)
+* 已修正瀏覽器使用傳遞中的條件式內容時，無法新增額外空格的問題。 (NEO-62132)
+* 已修正在電子郵件內容編輯器中按一下影像時，造成快顯視窗開啟的問題。 (NEO-60752)
+* 已修正可能導致發生錯誤，以及讓您無法在編輯傳遞內容時進行捲動的問題。 (NEO-61364)
 * Adobe Analytics聯結器現在會匯出具有正確管道型別的量度。 它之前一律設定為「電子郵件」頻道。 (NEO-26340)
 * 修正搭配日期時間欄位使用Big Query聯結器時可能導致錯誤的問題。 (NEO-49768)
 
