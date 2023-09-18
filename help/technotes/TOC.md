@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign Technotes
 description: Campaign技術檔案
 breadcrumb-title: Campaign技術檔案
-source-git-commit: 7430387df278644a1bc3b82ba193b37a76fa99a2
+source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 31%
+source-wordcount: '51'
+ht-degree: 27%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 31%
 + 升級{#tn-new}
    + [將使用者移轉至IMS](upgrades/migrate-users-to-ims.md)
    + [將技術操作員移轉至開發人員主控台](upgrades/ims-migration.md)
+   + [行銷活動傳送基礎架構移轉至AWS](upgrades/migrate-to-aws.md)
    + [升級Apache版本](upgrades/apache.md)
    + [網際網路瀏覽器](upgrades/browsers.md)
    + [2023 年系統升級](upgrades/tech-stack-upgrade.md)
