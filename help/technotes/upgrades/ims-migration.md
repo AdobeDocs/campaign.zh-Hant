@@ -1,9 +1,9 @@
 ---
 title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,16 @@ Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe 
 如果您使用Campaign API，則需要將技術運運算元移轉至Adobe Developer主控台，如下所述。
 
 ## 如何移轉？{#ims-migration-procedure}
+
+每個技術操作員應至少有一個技術帳戶。
+
+主要步驟為：
+
+1. 首先建立與技術操作員對應的技術帳戶。 例如，假設為技術運運算元(TO1)新建立的技術帳戶(TA1)。
+1. 執行以下技術帳戶TA1上的詳細步驟
+   [步驟4](#ims-migration-step-4) 是選用專案，且僅當技術操作員具有特定檔案夾許可權時才為必要。
+1. 將所有Campaign API整合實作移轉至新建立的技術帳戶TA1。
+1. 一旦所有面對客戶的API/整合在TA1上完全開始運作，請以技術帳戶TA1取代技術操作員TO1。
 
 ### 必要條件{#ims-migration-prerequisites}
 
@@ -61,7 +71,6 @@ Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe 
 1. 瀏覽至 **認證詳細資料** 標籤中，並複製 **技術帳戶電子郵件** 值。
 
 ### 步驟4 — 更新使用者端主控台中的技術運運算元 {#ims-migration-step-4}
-
 
 只有在已為此運運算元（而非透過運運算元的群組）定義特定檔案夾許可權或已命名許可權時，才需要執行此步驟。
 
@@ -181,7 +190,7 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 實現並驗證移轉流程後，Soap呼叫會更新如下：
 
-* 移轉前
+* 移轉前：不支援技術帳戶存取權杖。
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -204,7 +213,7 @@ You can also update the technical operator programmatically, using SQL scripts o
   </soapenv:Envelope>
   ```
 
-* 移轉後
+* 移轉後：支援技術帳戶存取權杖。 應該在中提供存取權杖 `Authorization` 標頭作為持有人權杖。 應在此忽略工作階段權杖的使用情況，如下方soap呼叫範例所示。
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
