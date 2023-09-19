@@ -1,7 +1,7 @@
 ---
 title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
-source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
+source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
