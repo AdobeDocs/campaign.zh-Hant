@@ -3,9 +3,9 @@ title: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 description: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 3a8fd0a0c721d03f1818dce45b58a841284bbb00
+source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 * **客戶移轉時是否需要任何動作？**
 
-  移轉將會由Adobe自動執行，因此不需要採取任何動作。
+  不需要採取任何動作，因為Adobe會自動執行移轉。
 
 * **客戶需要執行哪些驗證？**
 
