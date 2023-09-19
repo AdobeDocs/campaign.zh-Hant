@@ -3,10 +3,10 @@ title: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 description: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
+source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 5%
+source-wordcount: '401'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 5%
 
 ## 您有受到影響嗎？{#aws-impact}
 
-如果您是v8客戶或v7託管、混合或Managed Services Campaign客戶，即會受到影響。
+此變更會影響：
+
+* Campaign Classicv7託管和混合型客戶
+* Campaign Managed Services客戶
+* 所有Campaign v8客戶
 
 ## 何時進行此移轉？{#aws-timeline}
 
@@ -29,21 +33,43 @@ ht-degree: 5%
 
 生產環境移轉已排程在中開始 **2024年1月**. 隨著日期臨近，我們將提供更多詳細資訊。
 
-作為Campaign客戶，當移轉波段已排程時，您將收到其他通知。 移轉前至少七天會傳送通知。
+作為Campaign客戶，當移轉波段已排程時，您將收到其他通知。 中繼環境至少在移轉前7天會傳送通知，生產環境則至少在移轉前30天傳送。
 
 ## 會有什麼影響？{#impact}
 
 此步驟對客戶而言將是透明的：
 
-* 傳送IP和Campaign版本編號將維持與移動前相同的狀態。
+* 移轉時間預計在30分鐘到60分鐘之間
 
-* 在移轉期間，Campaign執行個體將無法傳送郵件。 其他Campaign功能不受影響。
-
-* 在維護期間之前排入傳遞佇列的任何郵件都必須重新傳送。
-
->[!NOTE]
->
->如對此移轉有任何疑問，請聯絡您的Adobe代表或聯絡 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+* Campaign執行個體在移轉期間將無法傳送郵件。 其他Campaign功能不受影響。
 
 
+## 常見問題集 {#aws-faq}
+
+* **為什麼這是強制升級？**
+
+  由Adobe Web Services (AWS)代管的全新Campaign傳送基礎建設，可為客戶提供更優異的品質和可靠性。 它還提供強大且現代的基礎架構，確保更優異的可用性和最佳傳輸量。
+
+* **此移轉鎖定哪些客戶？**
+
+  所有Campaign v8客戶和Campaign Classic v7混合、託管和Campaign Managed Services都將移轉其環境。
+
+* **預期的停機時間是多少？**
+
+  預計停機時間為30到60分鐘。
+
+* **客戶移轉時是否需要任何動作？**
+
+  移轉將會由Adobe自動執行，因此不需要採取任何動作。
+
+* **客戶需要執行哪些驗證？**
+
+  此安全性升級不需要任何特定測試。 如果發現任何問題，請聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+
+
+* **我可以要求變更排程安全性升級位置的日期/時間嗎？**
+
+  由於這是強制移轉，強烈建議您調整現有排程。
+
+
+如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support).
