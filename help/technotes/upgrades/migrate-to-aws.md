@@ -3,9 +3,9 @@ title: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 description: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
+source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 2%
 * Campaign Classicv7託管和混合型客戶
 * Campaign Managed Services客戶
 * 所有Campaign v8客戶
+* Campaign Standard客戶
 
 ## 何時進行此移轉？{#aws-timeline}
 
@@ -48,11 +49,13 @@ ht-degree: 2%
 
 * **為什麼這是強制升級？**
 
-  由Adobe Web Services (AWS)代管的全新Campaign傳送基礎建設，可為客戶提供更優異的品質和可靠性。 它還提供強大且現代的基礎架構，確保更優異的可用性和最佳傳輸量。
+  Adobe計畫淘汰舊版資料中心，在該處執行的Adobe Campaign執行個體必須轉移到新的參考資料中心Amazon Web Services (AWS)。
+
+  AdobeManaged Services雲端託管於Amazon Web Services (AWS)上，這是一個現代、安全且最佳化的環境。 [進一步瞭解Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **此移轉鎖定哪些客戶？**
 
-  所有Campaign v8客戶和Campaign Classic v7混合、託管和Campaign Managed Services都將移轉其環境。
+  所有Campaign v8客戶和Campaign Classic v7混合、託管和Campaign Managed Services都將移轉其環境。 Campaign Standard客戶也會受到影響。
 
 * **預期的停機時間是多少？**
 
@@ -64,7 +67,7 @@ ht-degree: 2%
 
 * **客戶需要執行哪些驗證？**
 
-  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **我可以要求變更排程安全性升級位置的日期/時間嗎？**
@@ -72,4 +75,4 @@ ht-degree: 2%
   由於這是強制移轉，強烈建議您調整現有排程。
 
 
-如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
