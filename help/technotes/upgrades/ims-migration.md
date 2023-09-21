@@ -1,9 +1,9 @@
 ---
 title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
-source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
+source-git-commit: 35263dc042642a6ba2f162461364b9399c30ad18
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -39,15 +39,15 @@ Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe 
 
 ### 必要條件{#ims-migration-prerequisites}
 
-在開始移轉程式之前，您必須聯絡您的Adobe代表，以便Adobe技術團隊可以移轉您現有的操作員群組以及已命名的許可權，以便AdobeIdentity Management System (IMS)。
+在開始移轉程式之前，您必須聯絡您的Adobe轉換經理，以便Adobe技術團隊可以移轉您現有的操作員群組和AdobeIdentity Management System (IMS)的已命名許可權。
 
 ### 步驟1 — 在Adobe Developer主控台中建立/更新Campaign專案{#ims-migration-step-1}
 
 整合是在建立時，作為 **專案** 在Adobe Developer Console中。 進一步瞭解中的專案 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-身為Campaign v8使用者，您應已在Adobe Developer Console擁有專案。 如果沒有，則必須建立專案。 建立專案的步驟詳細說明 [在Adobe Developer Console檔案中](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+您可以使用任何先前建立的專案，也可以建立新專案。 建立專案的步驟詳見 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-存取您的Campaign專案後，您就可以新增服務，包括API、Adobe Campaign和I/O管理API。 針對此移轉，您必須在專案中新增以下API： **I/O管理API** 和 **Adobe Campaign**.
+針對此移轉，您必須在專案中新增以下API： **I/O管理API** 和 **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
