@@ -3,9 +3,9 @@ title: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 description: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
+source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 此步驟對客戶而言將是透明的：
 
-* 移轉時間預計在30分鐘到60分鐘之間
+* 每個移轉波次的長度可能會因受影響的Campaign執行個體數目而異。 排程移轉波段時，通知將包含預期的持續時間。
 
 * Campaign執行個體在移轉期間將無法傳送郵件。 其他Campaign功能不受影響。
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 * **預期的停機時間是多少？**
 
-  預計停機時間為30到60分鐘。
+  移轉應在30分鐘到60分鐘之間，但每個移轉波動的長度可能會因受影響的Campaign執行個體數量而異。 排程移轉波段時，通知將包含預期的持續時間。
 
 * **客戶移轉時是否需要任何動作？**
 
@@ -72,7 +72,6 @@ ht-degree: 2%
 
 * **我可以要求變更排程安全性升級位置的日期/時間嗎？**
 
-  由於這是強制移轉，強烈建議您調整現有排程。
-
+  由於這是強制移轉，我們無法因應現有排程的修改。
 
 如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
