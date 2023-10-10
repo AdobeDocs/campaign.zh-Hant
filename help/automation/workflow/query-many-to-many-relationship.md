@@ -3,8 +3,9 @@ product: campaign
 title: 使用多對多關係進行查詢
 description: 瞭解如何使用多對多關係執行查詢
 feature: Query Editor
+role: User, Data Engineer
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%

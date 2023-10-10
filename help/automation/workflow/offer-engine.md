@@ -3,8 +3,9 @@ product: campaign
 title: 優惠引擎
 description: 優惠引擎
 feature: Workflows, Interaction
+role: User, Admin
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%

@@ -3,8 +3,9 @@ product: campaign
 title: 重複傳送
 description: 深入瞭解循環傳送工作流程活動
 feature: Workflows
+role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 12%

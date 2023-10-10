@@ -3,8 +3,9 @@ product: campaign
 title: 讀取清單
 description: 進一步了解讀取清單工作流程活動
 feature: Workflows, Targeting Activity
+role: User, Data Engineer
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%

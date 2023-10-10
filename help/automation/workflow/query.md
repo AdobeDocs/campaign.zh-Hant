@@ -3,8 +3,9 @@ product: campaign
 title: 查詢
 description: 進一步瞭解查詢工作流程活動
 feature: Workflows, Targeting Activity, Query Editor
+role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 1%
