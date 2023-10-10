@@ -2,11 +2,12 @@
 title: 內建報告量度計算
 description: 內建報告量度計算
 feature: Reporting
+role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -45,7 +46,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-此報表是根據 **[!UICONTROL Consolidated tracking]** 表格(nms：trackingStats)。 基於效能原因，在顯示報表時，會使用此彙總表格來取代 **[!UICONTROL Recipient tracking logs]** 資料表(nms：trackingLogRcp)且不會即時計算。 表格會在擷取追蹤記錄後的幾分鐘內產生。 如果指標是最新的，則結果將與的指標相同 **追蹤指標** 報告。 @totalclicks指標表示5分鐘內的點選總數。
+此報表是根據 **[!UICONTROL Consolidated tracking]** 表格(nms：trackingStats)。 基於效能原因，在顯示報表時，會使用此彙總表格來取代 **[!UICONTROL Recipient tracking logs]** 資料表(nms：trackingLogRcp)且不會即時計算。 此表會在擷取追蹤記錄後幾分鐘生成。如果指標是最新的，則結果將與的指標相同 **追蹤指標** 報告。 @totalclicks指標表示5分鐘內的點選總數。
 
 ## 傳遞失敗和退回次數 {#non-deliverables-and-bounces-1}
 
@@ -95,7 +96,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 帳戶已停用<br /> </td> 
-   <td> @disabled<br /> </td> 
+   <td> @已停用<br /> </td> 
    <td> 狀態等於「失敗」且原因等於「帳戶已停用」的所有訊息計數。<br /> </td> 
    <td> Count(@status=2且msg/@failureReason=4)<br /> </td> 
   </tr> 
@@ -181,7 +182,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 使用率<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @訪客<br /> </td> 
    <td> 每日使用此瀏覽器的訪客數與最多造訪的當日所測量訪客數的百分比。<br /> </td> 
    <td> 百分比(sum(@visitors)，max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -423,7 +424,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 使用率<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @訪客<br /> </td> 
    <td> 此作業系統上的每日訪客數與最多造訪的當日所測量訪客數的百分比。<br /> </td> 
    <td> percent(@visitors)， max(@visitorsOfTheDay)<br /> </td> 
   </tr> 
@@ -624,7 +625,7 @@ ht-degree: 7%
    <td> div(@amount， @transaction)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 專案<br /> </td> 
+   <td> 個項目<br /> </td> 
    <td> @article<br /> </td> 
    <td> URL型別等於「交易」的webTrackingLog/@articles總和。<br /> </td> 
    <td> Sum(Iif([url/@type]=5， webTrackingLog/@article， 0))<br /> </td> 
@@ -919,7 +920,7 @@ ht-degree: 7%
 
 ## 追蹤開啟次數 {#tracking-opens-}
 
-為了讓Adobe Campaign偵測郵件開啟，收件者必須下載電子郵件中的影像。 HTML和多部分/替代電子郵件包含0畫素影像，可讓您偵測已開啟的訊息。 由於文字格式的訊息不含任何影像，因此無法偵測其是否已開啟。 由於連結至影像顯示的錯誤邊界，根據訊息開啟計算出的值一律為預估值。
+為了讓Adobe Campaign偵測郵件開啟，收件者必須下載電子郵件中的影像。 HTML 和多重部分/替代的電子郵件包含一個 0 像素影像，讓您能夠檢測那些已開啟的訊息。由於文字格式的訊息不包含任何影像，因此無法檢測這類訊息是否已被開啟。由於與影像顯示相關的誤差範圍，根據訊息開啟次數計算的數值一定是估計值。
 
 ## 目標對象/收件者 {#targeted-persons---recipients}
 

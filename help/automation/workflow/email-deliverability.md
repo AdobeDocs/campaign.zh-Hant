@@ -3,7 +3,8 @@ product: campaign
 title: 電子郵件傳遞能力
 description: 深入瞭解電子郵件傳遞能力套件
 feature: Workflows, Deliverability
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+role: User
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 8%

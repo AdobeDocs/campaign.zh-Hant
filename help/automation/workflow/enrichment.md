@@ -3,8 +3,9 @@ product: campaign
 title: 擴充
 description: 進一步瞭解擴充工作流程活動
 feature: Workflows, Enrichment Activity, Targeting Activity
+role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%

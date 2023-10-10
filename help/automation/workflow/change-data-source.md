@@ -2,8 +2,9 @@
 title: 變更資料來源
 description: 進一步瞭解變更資料來源活動
 feature: Workflows, Data Management, Federated Data Access
+role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 3%

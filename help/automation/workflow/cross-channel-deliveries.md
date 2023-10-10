@@ -3,8 +3,9 @@ product: campaign
 title: 跨頻道傳遞
 description: 進一步瞭解跨頻道傳遞
 feature: Workflows, Channels Activity
+role: User
 exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 4%

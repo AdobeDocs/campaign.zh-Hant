@@ -3,8 +3,9 @@ product: campaign
 title: 行銷活動目標對象
 description: 瞭解如何定義行銷活動的對象
 feature: Campaigns, Audiences
+role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%

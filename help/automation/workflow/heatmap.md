@@ -3,8 +3,9 @@ product: campaign
 title: 行銷活動工作流程熱度圖
 description: 使用Workflow HeatMap監視您的工作流程
 feature: Workflows, Heatmap
+role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%

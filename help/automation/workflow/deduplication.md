@@ -3,8 +3,9 @@ product: campaign
 title: 去重複化
 description: 深入瞭解重複資料刪除工作流程活動
 feature: Workflows, Targeting Activity
+role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 11%

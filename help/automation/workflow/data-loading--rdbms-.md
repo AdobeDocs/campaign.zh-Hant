@@ -3,8 +3,9 @@ product: campaign
 title: 資料載入 (RDBMS)
 description: 深入瞭解資料載入(RDBMS)工作流程活動
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%

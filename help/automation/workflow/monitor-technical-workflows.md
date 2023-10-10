@@ -3,8 +3,9 @@ product: campaign
 title: 監視技術工作流程
 description: 監視技術工作流程
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
@@ -35,15 +36,15 @@ ht-degree: 5%
 
 若要進一步瞭解每個技術工作流程的作用，請參閱本節 [區段](technical-workflows.md).
 
-的 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**：
+的 **[!UICONTROL Database Cleanup workflow ('cleanup')]**：
 
 檢查日誌，驗證經過的時間在一段時間內相對穩定，不會干擾其他工作流程。
 
-的 **[!UICONTROL Tracking workflow (‘tracking’)]**：
+的 **[!UICONTROL Tracking workflow ('tracking')]**：
 
 檢查「追蹤」工作流程是否依排程執行（預設為每小時執行一次），以及分錄是否未反白顯示週期性錯誤。 如需詳細資訊，請參閱本[區段](delivery.md)。
 
-的 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**：
+的 **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**：
 
 1. 檢查 **[!UICONTROL Deliverability update]** 工作流程每天都會執行並成功完成。
 1. 在日誌中驗證規則是否定期更新。

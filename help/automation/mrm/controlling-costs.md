@@ -2,8 +2,9 @@
 product: campaign
 title: 控制成本
 description: 瞭解如何控制成本
+role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 1%

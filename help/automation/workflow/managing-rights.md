@@ -3,8 +3,9 @@ product: campaign
 title: 管理工作流程許可權
 description: 瞭解如何管理工作流程許可權
 feature: Workflows
+role: Admin
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%

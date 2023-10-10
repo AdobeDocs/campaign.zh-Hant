@@ -2,8 +2,9 @@
 product: campaign
 title: 管理行銷資源
 description: 瞭解如何管理行銷資源
+role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%

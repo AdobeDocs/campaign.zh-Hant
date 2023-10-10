@@ -3,8 +3,9 @@ product: campaign
 title: 監視行銷活動
 description: 監視行銷活動
 feature: Campaigns, Monitoring
+role: User
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 2%

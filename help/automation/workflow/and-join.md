@@ -3,8 +3,9 @@ product: campaign
 title: 合併連結
 description: 合併連結
 feature: Workflows
+role: User
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 21%

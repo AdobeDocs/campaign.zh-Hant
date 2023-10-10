@@ -3,8 +3,9 @@ product: campaign
 title: 檔案收集器
 description: 深入瞭解檔案收集器工作流程活動
 feature: Workflows, Data Management
+role: User
 exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%

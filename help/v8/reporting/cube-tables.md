@@ -3,8 +3,9 @@ product: campaign
 title: 使用多維度資料集建立資料報告
 description: 瞭解如何使用多維度資料集建立報告
 feature: Reporting
+role: User, Data Engineer
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%

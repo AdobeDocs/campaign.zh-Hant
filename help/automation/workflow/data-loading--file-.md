@@ -3,8 +3,9 @@ product: campaign
 title: 資料載入 (檔案)
 description: 進一步瞭解資料載入（檔案）工作流程活動
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: cf88140d1e8b71203729732163f66060423965a0
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 14%

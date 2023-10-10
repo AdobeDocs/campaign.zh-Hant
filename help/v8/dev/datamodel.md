@@ -5,10 +5,10 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '713'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 >[!NOTE]
 >
->若要存取每個表格的說明，請前往「管理員>設定>資料結構描述」，從清單中選取資源，然後按一下 **檔案** 標籤。
+>若要存取每個表格的說明，請瀏覽 **管理>設定>資料結構**，從清單中選取資源，然後按一下 **檔案** 標籤。
 
 開始使用Adobe Campaign時，您需要評估預設資料模型，以檢查哪個表格最適合儲存行銷資料。
 

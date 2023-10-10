@@ -2,10 +2,10 @@
 title: Campaign互動提供預先定義的篩選器
 description: 瞭解如何建立預先定義的篩選器
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%

@@ -3,8 +3,9 @@ product: campaign
 title: 工作流程中的 JavaScript 程式碼範例
 description: 這些範例說明如何在工作流程中使用JavaScript程式碼
 feature: Workflows
+role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 3%

@@ -3,8 +3,9 @@ product: campaign
 title: 篩選重複的收件者
 description: 瞭解如何篩選重複的收件者
 feature: Workflows
+role: User
 exl-id: cfa1f45c-e1ac-4055-996c-6e8d041889bb
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%

@@ -3,8 +3,9 @@ product: campaign
 title: 建立本機行銷活動
 description: 建立本機行銷活動
 feature: Distributed Marketing
+role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 2%
