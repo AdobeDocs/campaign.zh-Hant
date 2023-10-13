@@ -5,14 +5,14 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
+source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
 
 ---
 
-# 開始使用 [!DNL Campaign] API{#gs-ac-api}
+# 開始使用 [!DNL Campaign] API {#gs-ac-api}
 
 [!DNL Adobe Campaign] 隨附一組Javascript函式，您可使用：
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 >* [!DNL Adobe Campaign] v8包含我們API層的輸送量(TPS)限制。 超過上限會導致標準HTTP錯誤(429)。 作為「受管理的Cloud Service」使用者，您可以聯絡Adobe以調整每個API的節流。
 > 
 
-## 必要條件
+## 必要條件 {#ac-api-prerequisites}
 
 使用前 [!DNL Adobe Campaign] API時，您必須熟悉下列主題：
 
