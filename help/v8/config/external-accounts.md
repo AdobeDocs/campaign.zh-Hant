@@ -1,11 +1,11 @@
 ---
 title: Campaign外部帳戶
 description: Campaign外部帳戶
-feature: Application Settings
+feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 ---
 
 
-# 設定外部帳戶
+# 設定外部帳戶 {#config-external-accounts}
 
 Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部系統的連線，您可以建立新的外部帳戶。
 
@@ -31,7 +31,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 >* 在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，特定 **[!UICONTROL Full FDA]** (ffda)外部帳戶管理Campaign本機資料庫和雲端資料庫之間的連線([!DNL Snowflake])。
 >
 
-## 促銷活動特定外部帳戶
+## 促銷活動特定外部帳戶 {#ac-external-accounts}
 
 Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
@@ -91,7 +91,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 在交易式訊息環境中，執行例項會連結至控制例項並加以連結。 將異動訊息範本部署至執行例項。 瞭解更多關於訊息中心架構的資訊，請參閱 [此頁面](../architecture/architecture.md#transac-msg-archi).
 
-## 存取外部系統外部帳戶
+## 存取外部系統外部帳戶 {#external-syst-external-accounts}
 
 * **外部資料庫(FDA)** - **外部資料庫** 型別外部帳戶用於透過同盟資料存取(FDA)連線至外部資料庫。 進一步瞭解中的同盟資料存取(FDA)選項 [本節](../connect/fda.md).
 
@@ -99,7 +99,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 * **twitter** - **twitter** 型別外部帳戶用於將Campaign連線至您的twitter帳戶，以代表您張貼訊息。 進一步瞭解Twitter整合，於 [本節](../connect/ac-tw.md).
 
-## Adobe解決方案整合外部帳戶
+## Adobe解決方案整合外部帳戶 {#adobe-integration-external-accounts}
 
 * **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部帳戶用於實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。 進一步瞭解中的AdobeIdentity Management服務(IMS) [本節](../start/connect.md#logon-to-ac).
 
@@ -108,13 +108,13 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 * **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳遞內容以及表單。 進一步瞭解Adobe Campaign - Adobe Analytics整合，位於 [此頁面](../connect/ac-aem.md).
 
 
-## CRM聯結器外部帳戶
+## CRM聯結器外部帳戶 {#crm-external-accounts}
 
 * **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** 外部帳戶可讓您將Microsoft Dynamics資料匯入和匯出至Adobe Campaign。 進一步瞭解Adobe Campaign - Microsoft Dynamics CRM整合，位於 [此頁面](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com** - **[!UICONTROL Salesforce CRM]** 外部帳戶可讓您將Salesforce資料匯入和匯出至Adobe Campaign。 深入瞭解Adobe Campaign - Salesforce.com CRM整合，位於 [此頁面](../connect/ac-sfdc.md).
 
-## 傳輸資料外部帳戶
+## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
 這些外部帳戶可用於匯入或匯出資料至Adobe Campaign，使用如下 **[!UICONTROL Transfer file]** 工作流程活動。 進一步瞭解 **檔案傳輸** 在工作流程中 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 

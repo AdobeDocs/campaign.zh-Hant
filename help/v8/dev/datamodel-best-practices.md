@@ -5,14 +5,14 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2718'
 ht-degree: 4%
 
 ---
 
-# 資料模型最佳實務{#data-model-best-practices}
+# 資料模型最佳實務 {#data-model-best-practices}
 
 本檔案概述設計Adobe Campaign資料模型時的主要建議。
 
@@ -177,7 +177,7 @@ Adobe Campaign既不是Data Warehouse也不是報表工具。 因此，為了確
 
 ![](../assets/do-not-localize/speech.png)  身為「受管理的Cloud Service」使用者，請聯絡Adobe顧問或技術管理員，以進一步瞭解保留，或您是否需要設定自訂表格的保留。
 
-## 效能 {#performance}
+## 績效 {#performance}
 
 為了確保隨時提供更優異的效能，請遵循下列最佳實務。
 

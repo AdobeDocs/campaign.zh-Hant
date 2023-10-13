@@ -5,16 +5,16 @@ feature: Workflows, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 5%
 
 ---
 
-# 技術工作流程和資料複製
+# 技術工作流程和資料複製 {#wf-data-replication}
 
-## 技術工作流程{#tech-wf}
+## 技術工作流程 {#tech-wf}
 
 在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，Adobe Campaign隨附一組內建的技術工作流程。 技術工作流程會定期在伺服器上執行排程的流程或工作。
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 如有需要，您可以手動啟動資料同步處理。 若要執行此動作，請用滑鼠右鍵按一下 **排程器** 活動並選取 **立即執行擱置中的任務**.
 
-## 資料複製{#data-replication}
+## 資料複製 {#data-replication}
 
 有些內建表格會從Campaign本機資料庫複製到 [!DNL Snowflake] 透過上述專用工作流程建立雲端資料庫。
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### 資料複製原則{#data-replication-policies}
+### 資料複製原則 {#data-replication-policies}
 
 複製原則是根據表格的大小。 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有漸進式更新，而其他表格則會被取代。
 

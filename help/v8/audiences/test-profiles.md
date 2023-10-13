@@ -1,10 +1,11 @@
 ---
 title: 在Campaign中建立測試設定檔
 description: 瞭解如何在Adobe Campaign中建立和管理測試設定檔
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -103,4 +104,3 @@ Adobe Campaign也可讓您建立種子地址範本，這些範本會匯入至傳
 在這種情況下，若要將種子地址新增到傳送中，請直接在比對索引標籤中輸入適當的欄位，或匯入地址範本。
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->
-

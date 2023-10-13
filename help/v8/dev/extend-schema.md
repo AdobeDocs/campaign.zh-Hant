@@ -1,11 +1,11 @@
 ---
 title: 擴充行銷活動綱要
 description: 瞭解如何延伸Campaign綱要
-feature: Schema Extension
+feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%

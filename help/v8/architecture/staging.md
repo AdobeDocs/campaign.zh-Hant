@@ -1,11 +1,11 @@
 ---
 title: Campaign API準備機制
 description: Campaign API準備機制
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Campaign Classicv7 API仍可使用，但無法從此新暫存機制受益： API
 >* 中繼僅適用於儲存在雲端資料庫上的結構描述。 請勿在復寫的結構描述上啟用暫存。 請勿在本機結構描述上啟用分段。 不要在已暫存綱要上啟用暫存
 >
 
-## 實施步驟{#implement-staging}
+## 實施步驟 {#implement-staging}
 
 若要在特定表格上實作Campaign準備機制，請遵循下列步驟：
 

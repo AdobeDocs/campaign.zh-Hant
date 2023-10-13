@@ -1,17 +1,18 @@
 ---
 title: 更新資料庫結構
 description: 更新資料庫結構
+feature: Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# 更新資料庫結構{#updating-the-database-structure}
+# 更新資料庫結構 {#updating-the-database-structure}
 
 若要套用對結構描述所做的修改，請啟動資料庫更新精靈。 此助理的存取方式為 **[!UICONTROL Tools > Advanced > Update database structure]**. 它會檢查資料庫的實體結構是否符合其邏輯描述，並執行SQL更新指令碼。
 

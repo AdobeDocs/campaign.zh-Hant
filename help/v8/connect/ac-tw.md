@@ -2,16 +2,17 @@
 title: 合作使用行銷活動與Twitter
 description: 瞭解如何將您的Campaign環境與Twitter整合
 role: User, Admin
+feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 4%
 
 ---
 
-# 合作使用行銷活動與Twitter{#tw-ac-ovv}
+# 合作使用行銷活動與Twitter {#tw-ac-ovv}
 
 此 **管理社交網路（社交行銷）** 模組可讓您透過Twitter與客戶互動。 此功能可用於：
 

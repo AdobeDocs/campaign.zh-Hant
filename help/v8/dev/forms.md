@@ -1,18 +1,18 @@
 ---
 title: Campaign輸入表單
 description: 瞭解如何自訂輸入表單
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 0%
 
 ---
 
-# 開始使用輸入表單{#gs-ac-forms}
+# 開始使用輸入表單 {#gs-ac-forms}
 
 當您建立或擴充綱要時，需要建立或修改關聯的輸入表單，以使一般使用者可看見這些變更。
 

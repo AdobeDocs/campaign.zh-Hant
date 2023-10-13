@@ -5,14 +5,14 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 5%
 
 ---
 
-# 異動訊息設定
+# 異動訊息設定 {#mc-settings}
 
 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign模組。 進一步瞭解中的異動訊息傳送 [本節](../send/transactional.md).
 
@@ -20,15 +20,15 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/speech.png) 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 在您的環境中安裝和設定Campaign異動訊息。
 
-## 定義許可權
+## 定義許可權 {#mc-permissions}
 
 若要為Adobe Cloud上託管的訊息中心執行例項建立新使用者，您需要聯絡Adobe客戶服務。 訊息中心使用者是特定的操作者，需要專用許可權才能存取「即時事件」(nmsRtEvent)資料夾。
 
-## 結構描述延伸
+## 結構描述延伸  {#mc-schema-ext}
 
 在使用的結構描述上進行的所有結構描述延伸 [訊息中心技術工作流程](#technical-workflows) 在Adobe Campaign異動訊息模組使用的其他執行個體上，需要複製控制項或執行執行個體的執行個體。
 
-## 傳送異動推播通知
+## 傳送異動推播通知 {#mc-transactional-push}
 
 當結合使用 [行動應用程式頻道模組](../send/push.md)，異動訊息可讓您透過行動裝置上的通知推送異動訊息。
 
@@ -59,7 +59,7 @@ ht-degree: 5%
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -71,8 +71,6 @@ ht-degree: 5%
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
-
 
 ## 清除事件 {#purge-events}
 

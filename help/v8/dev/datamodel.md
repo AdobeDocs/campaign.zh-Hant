@@ -5,14 +5,14 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 5%
 
 ---
 
-# 開始使用 Campaign 資料模型{#gs-ac-datamodel}
+# 開始使用 Campaign 資料模型 {#gs-ac-datamodel}
 
 Adobe Campaign 附有預定義的資料模型。本節提供Adobe Campaign資料模型的內建表格及其互動的相關細節。 Adobe Campaign仰賴包含連結在一起之表格的雲端資料庫。
 

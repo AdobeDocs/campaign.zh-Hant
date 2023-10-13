@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 * 自動報告傳送
 * 觸發的事件
 
-## 設計和使用工作流程{#gs-ac-wf}
+## 設計和使用工作流程 {#gs-ac-wf}
 
 使用Adobe Campaign工作流程來提高行銷活動各方面的速度和規模，從建立區段和準備訊息到傳送。
 
