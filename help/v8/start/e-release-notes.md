@@ -1,16 +1,16 @@
 ---
 title: Campaign v8 早期發行說明
 description: 早期 Campaign v8 版本
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 20%
+ht-degree: 33%
 
 ---
 
@@ -58,7 +58,7 @@ _2023年6月30日_
 
 **修補程式**
 
-* 修正可能導致傳遞的HTML內容在數個瀏覽器中編碼錯誤的特殊字元問題。 (NEO-60081)
+* 已修正可能導致傳遞的 HTML 內容中的特殊字元在數種瀏覽器中編碼錯誤的問題。 (NEO-60081)
 * 修正了無法在Campaign v8企業(FFDA)部署中儲存報表的問題。 (NEO-56836)
 * 修正透過更新資料工作流程活動將資料插入或更新至自訂FFDA結構描述中的問題。 (NEO-54708)
 * 修正資料庫清理工作流程無法移除FFDA上nms：address表格中的位址的問題。 (NEO-54460)
@@ -67,6 +67,6 @@ _2023年6月30日_
 * 修正使 `JSPContext.sqlExecWithOneParam` 函式無法運作的問題。 (NEO-50066)
 * 修正在個人化欄位中使用無法列印的字元時，導致傳送失敗的問題。 (NEO-48588)
 * 修正插入Adobe Target動態影像時，可能導致傳送錯誤的問題。 (NEO-62689)
-* 修正瀏覽器在傳送中使用條件式內容時無法新增額外空格的問題。 (NEO-62132)
-* 修正在電子郵件內容編輯器中按一下影像時，造成快顯視窗開啟的問題。 (NEO-60752)
-* 修正可能導致錯誤的問題，並防止您在編輯傳送內容時捲動。 (NEO-61364)
+* 已修正瀏覽器使用傳遞中的條件式內容時，無法新增額外空格的問題。 (NEO-62132)
+* 已修正在電子郵件內容編輯器中按一下影像時，造成快顯視窗開啟的問題。 (NEO-60752)
+* 已修正可能導致發生錯誤，以及讓您無法在編輯傳遞內容時進行捲動的問題。 (NEO-61364)

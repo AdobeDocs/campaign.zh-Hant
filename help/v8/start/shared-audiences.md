@@ -1,16 +1,16 @@
 ---
 title: 與 Adobe Experience Cloud 解決方案共用對象
 description: 了解如何與 Adobe Experience Cloud 解決方案共用對象
-feature: Subscriptions
+feature: Audiences
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
   >
   > 已宣告的 ID 資料來源現在也可搭配 People 核心服務整合使用。
   >
-  >如果您使用 People 核心服務整合，且想要新增 Audience Manager 整合，則需要 Adobe Audience Manager 顧問的協助，以避免在 Adobe Audience Manager 內容中轉換為使用此宣告 ID 資料來源時，所收集的 ID 同步全部遺失。
+  >如果您使用People核心服務整合，且想要新增Audience Manager整合，則需要Adobe Audience Manager顧問的協助，以避免在Adobe Audience Manager內容中轉換為使用此宣告ID資料來源時，所收集的ID同步全部遺失。
 
 查看：
 
