@@ -1,10 +1,11 @@
 ---
 title: Campaign登陸頁面和設定檔屬性
 description: 瞭解如何同步Adobe Campaign登陸頁面和Adobe Experience Platform設定檔屬性
-feature: Platform Integration
+feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 79faf36db774239477089c13c98cbf48a66752a3
+exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
+source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 1%
@@ -49,7 +50,7 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
 
 ## 建立HTTP API來源連線 {#source}
 
-OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Experience Platform中的來源連線。 此連線可讓您使用API將資料串流到Adobe Experience Platform。 請按照以下步驟操作：
+OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Experience Platform中的來源連線。 此連線可讓您使用API將資料串流到Adobe Experience Platform。 請依照下列步驟操作：
 
 1. 導覽至Adobe Experience Platform **[!UICONTROL Sources]**，搜尋 **[!UICONTROL HTTP API]** 來源，然後按一下 **[!UICONTROL Add data]**.
 
@@ -122,7 +123,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 ## 在工作流程執行時新增選項 {#javacript}
 
-若要讓登入頁面與Adobe Experience Platform之間的資料同步，必須將自訂JavaScript程式碼新增至Adobe Campaign。 請按照以下步驟操作：
+若要讓登入頁面與Adobe Experience Platform之間的資料同步，必須將自訂JavaScript程式碼新增至Adobe Campaign。 請依照下列步驟操作：
 
 1. 導覽至 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** 功能表。
 1. 建立新的JavaScript程式碼並複製貼上以下程式碼片段。
