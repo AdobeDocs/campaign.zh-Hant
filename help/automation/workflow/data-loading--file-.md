@@ -5,9 +5,9 @@ description: 進一步瞭解資料載入（檔案）工作流程活動
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1060'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 14%
 一般檔案格式設定可讓您定義識別欄的方式（檔案編碼、使用的分隔符號等）。
 
 欄格式化可讓您定義每列的值處理：
+
+>[!NOTE]
+>
+>您可以視需要新增任意數目的欄。 每欄值的最大長度取決於所選的資料型別。
 
 * **[!UICONTROL Ignore column]**：不會在資料載入期間處理此欄。
 * **[!UICONTROL Data type]**：指定每欄所需的資料類型。
