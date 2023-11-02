@@ -3,9 +3,9 @@ title: 使用Campaign和您的CRM
 description: 瞭解如何使用Campaign和您的CRM
 feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 20%

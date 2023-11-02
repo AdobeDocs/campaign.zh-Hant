@@ -3,9 +3,9 @@ title: 開始使用 Campaign API
 description: 開始使用 Campaign API
 feature: API
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%

@@ -3,8 +3,9 @@ title: Adobe Campaign中的電子郵件引數
 description: 瞭解Adobe Campaign中專用於電子郵件傳送的選項和設定。
 feature: Email
 role: User
-level: Beginner, Intermediate, Experienced
-source-git-commit: 44f30f753e3ed75b7e56caf7bd8cdfa7cbee5c35
+level: Beginner
+exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 8%

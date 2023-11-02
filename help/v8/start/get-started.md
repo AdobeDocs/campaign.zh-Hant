@@ -2,10 +2,10 @@
 title: 開始使用 Campaign v8
 description: 不熟悉 Adobe Campaign？請參閱相關文件，了解如何啟動及執行您的軟體，以及從何處開始使用介面。
 feature: Overview, Cross Channel Orchestration
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 title: 從 Campaign Classic v7 轉變到 Campaign v8
 description: 了解 Campaign Classic v7 和 Campaign v8 之間的差異。
 feature: Overview
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 2d0c82df052c9b8c9f264c2ad15ac6050025f770
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 92%

@@ -2,10 +2,10 @@
 title: Campaign v8 2022 發行說明
 description: 2022 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 94%
@@ -97,7 +97,7 @@ _2022 年 9 月 30 日_
 **修補程式**
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
-* 修正了可能導致傳遞持續存在&#x200B;**待定**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079)
+* 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079)
 * 修正工作流程中，使用&#x200B;**資料載入 (檔案)** 活動可能阻止檔案更新的問題。 流程 100% 停止，但從未結束。 (NEO-47269)
 * 修正日文環境升級後期間的問題。 (NEO-46640)
 * 修正了在 MTA 流程期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
@@ -129,7 +129,7 @@ _2022 年 10 月 7 日_
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
 * 此 **資料庫清理** 技術工作流程現在也可處理自訂的準備結構。 (NEO-48974)
-* 修正了可能導致傳遞持續存在&#x200B;**待定**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079、NEO-48251)
+* 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。(NEO-48079、NEO-48251)
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
 * 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)

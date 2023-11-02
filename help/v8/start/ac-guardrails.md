@@ -3,9 +3,9 @@ title: Campaign v8 護欄
 description: Campaign v8 護欄
 feature: Configuration
 role: User
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 84%

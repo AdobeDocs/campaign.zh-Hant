@@ -3,9 +3,9 @@ title: CRM Connectors資料同步
 description: 管理Campaign與您的CRM之間的資料
 feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 1%

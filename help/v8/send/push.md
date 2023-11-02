@@ -2,10 +2,10 @@
 title: 使用Adobe Campaign傳送推播通知
 description: 開始使用Campaign中的推播通知
 feature: Push
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 5%
@@ -101,7 +101,7 @@ ht-degree: 5%
 
    * **[!UICONTROL Launch image]**：要顯示的啟動影像檔案名稱。 如果使用者選擇啟動您的應用程式，則會顯示選取的影像，而非您應用程式的啟動畫面。
 
-   * **[!UICONTROL Interruption level]**：
+   * **[!UICONTROL Interruption level]**:
 
       * **[!UICONTROL Active]**：預設情況下，系統會立即顯示通知、在熒幕上點亮，並可播放音效。 通知不會突破焦點模式。
 

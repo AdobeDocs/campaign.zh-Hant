@@ -3,9 +3,9 @@ title: 收集和處理事件
 description: 瞭解Campaign異動訊息如何收集和處理事件
 feature: Transactional Messaging
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 1%

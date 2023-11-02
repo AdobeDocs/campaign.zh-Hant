@@ -4,9 +4,9 @@ description: 瞭解如何自訂Campaign介面設定
 version: v8
 feature: Application Settings
 role: Admin, Developer
-level: Beginner, Intermediate, Experienced
-exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+level: Beginner
+exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1846'
 ht-degree: 23%

@@ -2,10 +2,10 @@
 title: Campaign中的隔離管理
 description: 瞭解Adobe Campaign中的隔離管理
 feature: Profiles, Monitoring
-role: User, Developer
-level: Beginner, Intermediate
+role: User, Data Engineer
+level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: b783b1444457b3204fea35b613582642499acf65
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 4%

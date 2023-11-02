@@ -2,10 +2,10 @@
 title: Campaign v8 常見問題
 description: 取得常見 Adobe Campaign 問題的解答。
 feature: Overview
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 93%
