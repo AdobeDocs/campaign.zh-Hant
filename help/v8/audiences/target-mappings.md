@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 5%
 
 ---
 
@@ -32,6 +32,8 @@ Adobe Campaign隨附下列內建目標對應：
 | 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
 | 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
 | 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
+| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms：appSubscriptionRcp |
+
 
 ## 建立目標對應 {#new-mapping}
 
