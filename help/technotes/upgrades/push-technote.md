@@ -4,24 +4,22 @@ title: 推播通知頻道近期變更
 description: 推播通知頻道近期變更
 hide: true
 hidefromtoc: true
-source-git-commit: 11330ed8e79ec256b158747914f178b8b6857a33
+source-git-commit: 70d1e7336cce7660890b13def5efcb614c0dc12e
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 1%
+source-wordcount: '699'
+ht-degree: 2%
 
 ---
 
 # 推播通知頻道近期變更 {#push-upgrade}
 
-本頁說明即將變更透過Adobe Campaign Classic中的Firebase雲端訊息推播通知頻道。
+Firebase Cloud Messaging (FCM)服務有重大變更，可能會影響您的Adobe Campaign Classic實施。
 
-Firebase Cloud Messaging (FCM)服務有哪些重要變更可能會影響您的Adobe Campaign Classic實施。
-
-作為Google持續努力改進其服務的一部分，舊版FCM API將於2024年6月終止服務(Firebase Cloud Messaging HTTP通訊協定：https://firebase.google.com/docs/cloud-messaging/http-server-ref)
+為Google持續改善服務，舊版FCM API將於2024年6月終止服務([Firebase雲端通訊HTTP通訊協定](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
 
 這些API目前與Adobe Campaign Classic整合，可傳送推播通知訊息。 我們瞭解許多客戶（例如您）仰賴這些服務來行銷活動和通訊需求，尤其是Android裝置。
 
-## 這對您有何影響？
+## 您有受到影響嗎？
 
 * **HTTP （舊版） API使用者**：如果您的任何作用中推播通知行銷活動使用HTTP （舊版） API，此變更將直接影響您的設定。 我們強烈建議您檢閱目前的設定，並為移轉至較新API做準備。
 
@@ -35,7 +33,7 @@ Firebase Cloud Messaging (FCM)服務有哪些重要變更可能會影響您的Ad
 
 * **支援**：我們的客戶支援團隊將全程協助您進行轉換。 我們可能也會舉辦網路研討會及賦權研討會，以涵蓋轉換的技術層面及最佳實務。
 
-## 這對您有何影響？
+## 我們希望您能提供什麼？
 
 * **隨時掌握最新資訊**：留意您的收件匣，以便與我們進一步通訊，包括詳細的轉換計畫。
 
@@ -53,7 +51,7 @@ Firebase Cloud Messaging (FCM)服務有哪些重要變更可能會影響您的Ad
 
 ### 版本編號升級
 
-* Campaign Classic： AC7 20.3.1版本已新增支援HTTPv1。 如果您使用舊版，必須先升級至最新的Campaign Classic版本編號。
+* Campaign Classic： 20.3.1版本已新增支援HTTPv1。 如果您使用舊版，必須先升級至最新的Campaign Classic版本編號。
 
 * Campaign v8：所有Campaign v8版本都支援HTTPv1。 不需要升級。
 
