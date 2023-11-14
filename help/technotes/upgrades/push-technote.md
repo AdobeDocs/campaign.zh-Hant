@@ -4,20 +4,20 @@ title: 推播通知頻道近期變更
 description: 推播通知頻道近期變更
 hide: true
 hidefromtoc: true
-source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
+source-git-commit: 5ed6a5c9c458381ef701428aeab146afe4788d58
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
 # 推播通知頻道近期變更 {#push-upgrade}
 
-您可以使用Campaign在Android裝置上傳送推播通知。 為此，Campaign需仰賴特定的Android外部帳戶和訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。
+您可以使用Campaign在Android裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。
 
 ## 哪些部分有所變更？ {#fcm-changes}
 
-為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年6月20日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年6月20日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播通知訊息。 不過，有些舊版實作仍需仰賴舊版API。 必須更新這些實作。
 
@@ -30,30 +30,33 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 ![](assets/filter-services-fcm.png)
 
 
-* 如果您的任何作用中推播通知行銷活動利用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照以下所述移轉至較新的API。
+* 如果您的任何使用中推播通知服務使用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照以下所述移轉至較新的API。
 
-* 如果您的設定僅使用 **HTTP v1** 適用於Android推播通知的API，則您已符合法規，不需要採取任何進一步動作。
+* 如果您的設定僅使用 **HTTP v1** Android推播通知的API，則表示您已符合法規，不需要採取任何進一步動作。
 
-## 如何移轉？{#fcm-migration-procedure}
+## 如何移轉？ {#fcm-migration-procedure}
 
-### 必要條件{#fcm-migration-prerequisites}
+### 必要條件 {#fcm-migration-prerequisites}
 
-* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於較舊的版本，移轉至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 對於Campaign v8，所有發行版本都支援HTTP v1。 不需要升級。
+* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於較舊的版本，移轉至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
-* 若要執行移轉，需要將行動應用程式移至HTTPv1，需要Android Firebase Admin SDK服務的帳戶JSON檔案。 請參閱此 [頁面](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 瞭解如何取得此檔案於 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* 針對混合、託管和Managed Services部署，請聯絡Adobe以更新您的即時(RT)執行伺服器。
+* 對於混合、託管和Managed Services部署，除了下列移轉程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
+
+* 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 
 ### 移轉程序 {#fcm-migration-steps}
 
-若要將環境移轉至HTTP v1，請在行銷和即時執行伺服器上執行下列步驟：
+若要將環境移轉至HTTP v1，請遵循下列步驟：
 
 1. 瀏覽至您的清單 **服務與訂閱**.
-1. 使用尋找所有行動應用程式 **HTTP （舊版）** API版本。
+1. 列出所有行動應用程式 **HTTP （舊版）** API版本。
 1. 針對這些行動應用程式，設定 **API版本** 至 **HTTP v1**.
 1. 按一下 **[!UICONTROL Load project json file to extract project details...]** 直接載入JSON金鑰檔案的連結。
 
    您也可以手動輸入下列明細：
+
    * **[!UICONTROL Project Id]**
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
