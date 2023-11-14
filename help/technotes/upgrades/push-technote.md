@@ -4,7 +4,7 @@ title: 推播通知頻道近期變更
 description: 推播通知頻道近期變更
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
+source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 1%
@@ -49,11 +49,8 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 若要將環境移轉至HTTP v1，請在行銷和即時執行伺服器上執行下列步驟：
 
 1. 瀏覽至您的清單 **服務與訂閱**.
-
 1. 使用尋找所有行動應用程式 **HTTP （舊版）** API版本。
-
 1. 針對這些行動應用程式，設定 **API版本** 至 **HTTP v1**.
-
 1. 按一下 **[!UICONTROL Load project json file to extract project details...]** 直接載入JSON金鑰檔案的連結。
 
    您也可以手動輸入下列明細：
@@ -64,9 +61,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
    ![](assets/android-http-v1-config.png)
 
 1. 按一下 **[!UICONTROL Test the connection]** 檢查您的設定是否正確，以及行銷伺服器是否擁有FCM的存取權。 請注意，對於中間來源部署， **[!UICONTROL Test connection]** 按鈕無法檢查伺服器是否可存取Android Firebase雲端通訊(FCM)服務。
-
 1. 或者，您也可以選擇擴充推送訊息的內容 **[!UICONTROL Application variables]** 如有需要。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
-
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
 以下是FCM裝載名稱，可進一步個人化您的推播通知。 這些選項會詳細說明 [此處](#fcm-apps).
