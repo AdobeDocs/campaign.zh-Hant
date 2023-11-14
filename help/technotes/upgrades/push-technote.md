@@ -4,9 +4,9 @@ title: 推播通知頻道近期變更
 description: 推播通知頻道近期變更
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
-以下是FCM裝載名稱，可進一步個人化您的推播通知：
+以下是FCM裝載名稱，可進一步個人化您的推播通知。 這些選項會詳細說明 [此處](#fcm-apps).
 
 | 訊息類型 | 可設定的訊息元素（FCM裝載名稱） | 可設定的選項（FCM裝載名稱） |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 >[!NOTE]
 >
->切換至HTTP v1 API會套用至所有新傳送。 重試、進行中及使用中的傳遞仍使用HTTP （舊版） API。
+>這些變更套用至您的所有伺服器後，所有傳送至Android裝置的新推播通知都會使用HTTP v1 API。 處於重試、進行中及使用中的現有推播傳送仍使用HTTP （舊版） API。
 
 ### 對我的Android應用程式有何影響？ {#fcm-apps}
 
@@ -89,6 +89,7 @@ Android行動應用程式的程式碼不需要特定變更，且通知行為不�
 
 ![](assets/android-push-additional-options.png)
 
+您可以：
 
 * 使用 **[!UICONTROL Ticker]** 欄位以設定通知的提示文字。
 * 使用 **[!UICONTROL Image]** 欄位來設定要在通知中顯示的影像URL。
