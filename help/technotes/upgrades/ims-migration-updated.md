@@ -3,7 +3,7 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 4863679106dec92d6b63f63cec0911738853dc04
+source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -66,9 +66,10 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 您可以使用 **編輯專案** 按鈕以重新命名此專案。
 
-從新建立的專案畫面中新增API的必要專案，以便能夠將此專案作為技術帳戶用於您對Adobe Campaign的API呼叫。
 
 ### 步驟2 — 將API新增至您的專案{#ims-migration-step-2}
+
+從新建立的專案畫面中新增API的必要專案，以便能夠將此專案作為技術帳戶用於您對Adobe Campaign的API呼叫。
 
 若要將API新增至專案，請依照下列步驟執行：
 
