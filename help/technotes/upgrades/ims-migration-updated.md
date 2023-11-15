@@ -3,9 +3,9 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
+source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -19,32 +19,32 @@ ht-degree: 0%
 
 ## 您有受到影響嗎？{#ims-impacts}
 
-從Campaign外部的系統將API呼叫移轉至其Campaign行銷執行個體或即時訊息中心執行個體的所有Campaign客戶，都必須透過Adobe Developer主控台將技術運運算元移轉至技術帳戶，如下所述。
+如果您從Campaign外部的系統將API呼叫移轉至其Campaign行銷執行個體或即時訊息中心執行個體，您必須透過Adobe Developer主控台將技術運運算元移轉至技術帳戶，如下所述。
 
 此變更適用於Campaign v8.5。
 
 
 ## 移轉程式 {#ims-migration-procedure}
 
-按照以下步驟，您將能夠在Adobe Developer控制檯中建立技術帳戶，然後使用這些新建立的帳戶，以便能夠變更在Adobe Campaign中進行API呼叫的所有外部系統的驗證方法。
+請依照下列步驟，在Adobe Developer主控台中建立技術帳戶，然後使用這些新建立的帳戶，以便能夠變更在Adobe Campaign中進行API呼叫的所有外部系統的驗證方法。
 
 這些步驟的概觀如下：
 
 * 在Adobe Developer Console中建立專案
 * 將適當的API指派給新建立的專案
 * 將所需的Campaign產品設定檔授與專案
-* 更新您的客戶端API以使用新建立的技術帳戶認證
-* 從Campaign執行個體移除舊版技術運運算元
+* 更新您的API以使用新建立的技術帳戶認證
+* 從您的Campaign執行個體移除舊版技術運運算元
 
 ### 移轉的必要條件{#ims-migration-prerequisites}
 
-若要建立技術帳戶來取代技術操作者，必須驗證所有Campaign執行個體的Admin Console中存在正確的Campaign產品設定檔。 您可以在Adobe控制檯中進一步瞭解產品設定檔，位置如下： [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+為了能夠建立技術帳戶來取代技術操作者，必須驗證所有Campaign執行個體的Admin Console中存在正確Campaign產品設定檔的先決條件。 您可以在Adobe控制檯中進一步瞭解產品設定檔，位置如下： [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-針對傳入訊息中心執行個體的API呼叫，在升級至Campaign v8.5期間或布建執行個體期間應已建立產品設定檔。 此產品設定檔將命名為：
+針對傳入訊息中心執行個體的API呼叫，在升級至Campaign v8.5期間或布建執行個體期間應已建立產品設定檔。 此產品設定檔名為：
 
 `campaign - <your campaign instance> - messagecenter`
 
-如果您已使用IMS型驗證讓使用者存取Campaign，則API呼叫所需的產品設定檔應已存在於Admin Console中。 如果您在Campaign中使用自訂運運算元群組對行銷執行個體進行API呼叫，則您將會想要在Admin Console中建立該產品設定檔。
+如果您已使用IMS型驗證讓使用者存取Campaign，則API呼叫所需的產品設定檔應已存在於Admin Console中。 如果您在Campaign中為行銷執行個體的API呼叫使用自訂運運算元群組，則必須在Admin Console中建立該產品設定檔。
 
 對於其他情況，您必須聯絡您的Adobe轉變經理，以便Adobe技術團隊能夠將您現有的操作員群組和已命名的許可權移轉至Admin Console內的產品設定檔。
 
@@ -67,7 +67,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 您可以使用 **編輯專案** 按鈕以重新命名此專案。
 
 
-### 步驟2 — 將API新增至您的專案{#ims-migration-step-2}
+### 步驟2 — 將API新增至您的專案 {#ims-migration-step-2}
 
 從新建立的專案畫面中新增API的必要專案，以便能夠將此專案作為技術帳戶用於您對Adobe Campaign的API呼叫。
 
@@ -111,7 +111,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
 
-### 步驟5 — 將I/O Management API新增至專案 {#ims-migration-step-5}
+### 步驟5 — 將I/O管理API新增至專案 {#ims-migration-step-5}
 
 
 在專案畫面中，按一下 **[!UICONTROL + Add to Project]** 並選擇 **[!UICONTROL API]** 在熒幕左上角新增I/O Management API至此專案。
@@ -131,7 +131,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 這會帶您回到新建立專案之I/O管理API中的專案畫面。 按一下畫面頂端階層連結中的專案名稱，即可返回主專案詳細資訊頁面。
 
 
-### 步驟6 — 驗證專案設定{#ims-migration-step-6}
+### 步驟6 — 驗證專案設定 {#ims-migration-step-6}
 
 請檢閱您的專案，確認其外觀類似於以下的 **I/O管理API** 和 **ADOBE CAMPAIGN API** 顯示在「產品與服務」區段及 **OAuth伺服器對伺服器** 在「證明資料」區段中。
 
@@ -203,16 +203,13 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 
 
-
-
-
-### 步驟9 — （選用）在Campaign使用者端主控台中更新「技術帳戶」運運算元 {#ims-migration-step-9}
+### 步驟9 - （選用）在Campaign使用者端主控台中更新技術帳戶運運算元 {#ims-migration-step-9}
 
 此步驟為選用步驟，且僅適用於行銷執行個體，不可用於任何Message Center執行個體。 如果已經為技術操作員定義了特定檔案夾許可權或已命名許可權，但未透過指派的操作員群組。 您現在需要更新Admin Console中新建立的技術帳戶使用者，以授予所需的檔案夾許可權或已命名許可權。
 
 請注意，對Campaign執行個體進行至少一個API呼叫之前，技術帳戶使用者不會存在於Adobe Campaign中，此時IMS將會在Campaign中建立使用者。 如果您在Campaign中找不到技術使用者，請確定您已能夠成功傳送API呼叫，如上所述 [在步驟7](#ims-migration-step-7).
 
-1. 若要套用新「技術帳戶使用者」所需的變更，請依電子郵件地址在Campaign使用者端主控台中找出這些變更。 此電子郵件地址是在上述專案建立和驗證步驟期間建立的。
+1. 若要套用新技術帳戶使用者所需的變更，請依電子郵件地址在Campaign使用者端主控台中找出這些變更。 此電子郵件地址是在上述專案建立和驗證步驟期間建立的。
 
    您可以按一下 **OAuth伺服器對伺服器** 標題在 **認證** 專案的區段。
 
@@ -238,7 +235,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 >新的技術運運算元必須已發出至少一個API呼叫，才能新增至Campaign使用者端主控台。
 >
 
-### 步驟10 — 從Adobe Campaign移除舊版技術操作員 {#ims-migration-step-10}
+### 步驟10 — 從Adobe Campaign移除舊版技術運運算元 {#ims-migration-step-10}
 
 在您移轉所有協力廠商系統以搭配IMS驗證使用新的技術帳戶後，即可從Campaign使用者端主控台刪除舊的技術運運算元。
 
