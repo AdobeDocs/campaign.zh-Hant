@@ -3,7 +3,7 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 hide: true
 hidefromtoc: true
-source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
+source-git-commit: d52744e1d798447bb6b90909607e42082f7eeaf5
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -118,7 +118,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ![](assets/do-not-localize/ims-updates-04.png)
 
-在 **新增API** 畫面，向下捲動以尋找 **I/O管理API** 卡片。 按一下將游標停留在卡片上時顯示的核取方塊，選取該專案。 然後按一下 **下一個** 在熒幕底部。
+在 **新增API** 畫面，向下捲動以尋找 **I/O管理API** 卡片。 按一下將游標停留在卡片上時顯示的核取方塊，選取該卡片。 然後按一下 **下一個** 在熒幕底部。
 
 ![](assets/do-not-localize/ims-updates-05.png)
 
