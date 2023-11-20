@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -158,6 +158,18 @@ This information enables you to personalize message content using personalizatio
 可透過以下方式存取每個範本中的校樣 **[!UICONTROL Audit]** 標籤。
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### 轉換自 [!DNL Campaign Classic] v7
+
+如果您是 [從Campaign Classic v7轉換](../start/v7-to-v8.md)，所有傳遞都會通過中間來源伺服器。
+
+但是，在建立異動訊息範本時，成功使用範本所需的路由是 **內部電子郵件傳遞**. 此路由可防止您傳送校樣。
+
+因此，若要傳送交易式訊息範本的校樣，您必須將路由從內部電子郵件傳送變更為 **中間來源路由帳戶**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+傳送校樣後，您必須先將路由變更為內部電子郵件傳送，然後再發佈異動訊息範本。
 
 ## 發佈範本 {#publish-message-template}
 
