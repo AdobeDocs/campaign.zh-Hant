@@ -4,9 +4,9 @@ title: 一致性規則
 description: 一致性規則
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '736'
 ht-degree: 4%
 
 ---
@@ -97,7 +97,7 @@ Adobe Campaign藉由行銷活動型別中所包含的一組規則，確保通訊
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-要處理的訊息數目會在定義的可用性範圍內平均劃分。 這尤其適用於客服中心，因為其每天的通話次數上限是有限的。 若是電子郵件傳遞，請 **[!UICONTROL Do not limit instantaneous delivery capacity]** 選項可讓您忽略此可用性範圍，並同時傳送您的電子郵件。
+可處理的最大訊息數會在定義的可用性範圍內平均劃分。 這尤其適用於客服中心，因為其每天的通話次數上限是有限的。 若是電子郵件傳遞，請 **[!UICONTROL Do not limit instantaneous delivery capacity]** 選項可讓您忽略此可用性範圍，並同時傳送您的電子郵件。
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
