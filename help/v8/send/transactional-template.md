@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -130,7 +130,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 傳送證明
+### 傳送證明 {#send-proof}
 
 您可以傳送證明至先前建立的種子地址，以測試訊息傳送。
 
@@ -159,7 +159,7 @@ This information enables you to personalize message content using personalizatio
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### 轉換自 [!DNL Campaign Classic] v7
+#### 轉換自 [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 如果您是 [從Campaign Classic v7轉換](../start/v7-to-v8.md)，所有傳遞都會通過中間來源伺服器。
 

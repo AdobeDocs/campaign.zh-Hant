@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 92%
+source-wordcount: '694'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,9 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 
 身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[!DNL Campaign]本章節[所列的一小部分功能外，也提供大部份](#gs-removed) v8 的功能。 
 
-Campaign v8依賴 **混合式架構**. 如果要從 Campaign Classic v7 進行轉換，請注意所有傳遞都會通過中間來源伺服器。 因此，內部路由&#x200B;**不可能**&#x200B;在 Campaign v8 中，且外部帳戶已據此停用。[了解更多](../architecture/architecture.md)。
+Campaign v8依賴 **混合式架構**. 如果要從 Campaign Classic v7 進行轉換，請注意所有傳遞都會通過中間來源伺服器。 因此，內部路由&#x200B;**不可能**&#x200B;在 Campaign v8 中，且外部帳戶已據此停用。
+
+![](../assets/do-not-localize/glass.png) 進一步瞭解從v7轉換至時傳送異動訊息校樣 [此頁面](../send/transactional-template.md#transition-from-v7).
 
 >[!NOTE]
 >
