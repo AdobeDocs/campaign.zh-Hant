@@ -1,18 +1,18 @@
 ---
 title: Campaign v8 的新增功能
-description: 探索 Adobe Campaign v8 中的重要功能、新增功能，以及最新版本所提供的內容。
-feature: Overview, Release Notes
+description: 探索Adobe Campaign v8中的重要功能
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 92%
+source-wordcount: '911'
+ht-degree: 91%
 
 ---
 
-# Adobe Campaign v8 有哪些新功能？ {#ac-gs-what-is-new}
+# Adobe Campaign v8重要功能 {#ac-gs-what-is-new}
 
 Adobe Campaign v8 專為需要同級最佳雲端解決方案的跨頻道行銷人員而設計，該解決方案適用於具有企業規模的跨頻道行銷活動管理。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其編排引擎為豐富的多點觸控行銷方案提供了支援，其核心是批次型處理的驅動歷程。 它還配備了可擴充的即時傳訊伺服器，使行銷團隊能夠基於來自任何 IT 系統的包含所有內容的有效負載來傳送預先定義的訊息，用於諸如重設密碼、訂單確認、電子收據等等。
 
