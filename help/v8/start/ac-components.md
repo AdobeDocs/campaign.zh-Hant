@@ -1,18 +1,18 @@
 ---
-title: 瞭解Campaign流程和元件
-description: 瞭解Campaign流程和元件
+title: 瞭解Campaign元件和流程
+description: 瞭解Campaign元件和流程
 feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
 
 ---
 
-# 瞭解Campaign流程和元件 {#components-and-processes}
+# 瞭解Campaign元件和流程 {#components-and-processes}
 
 Adobe Campaign是跨管道行銷解決方案，可自動化電子郵件、行動裝置、社交和離線行銷活動。 Adobe Campaign提供中央位置，可存取您的客戶資料和設定檔。 使用Adobe Campaign為客戶打造一致的體驗，跨管道設計、執行並個人化您的行銷，同時改善每個裝置和接觸點的客戶體驗。 透過Adobe Campaign，您可以透過拖放視覺工作流程介面管理多個資料來源、定義對象區段，以及規劃和執行多步驟、跨頻道行銷活動。
 
