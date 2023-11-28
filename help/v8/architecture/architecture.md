@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 10%
@@ -38,7 +38,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
   >[!NOTE]
   >
-  >在此部署模型中， [!DNL Snowflake] 次要資料庫僅在提出要求時才可供使用。 若要使用更新您的部署 [!DNL Snowflake]，請聯絡您的Adobe技術客戶經理。
+  >在此部署模型中， [!DNL Snowflake] 次要資料庫僅在提出要求時才可供使用。 若要使用更新您的部署 [!DNL Snowflake]，請聯絡您的Adobe轉變經理。
   >
 
 * **Campaign Enterprise (FFDA)部署**
@@ -70,7 +70,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 >[!IMPORTANT]
 >
->分割路由模式預設為「分割傳遞 — 電子郵件」帳戶啟用。 對於所有其他管道外部帳戶，請聯絡客戶服務以啟用選項。
+>分割路由模式預設為「分割傳遞 — 電子郵件」帳戶啟用。 對於所有其他管道外部帳戶，請聯絡您的Adobe轉變管理員以啟用此選項。
 >
 >預設情況下，在多個mid之間分割傳遞的臨界值大小值為100K。 您可以在 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** 功能表。
 

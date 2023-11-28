@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '598'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## 定義許可權 {#mc-permissions}
 
-若要為Adobe Cloud上託管的訊息中心執行例項建立新使用者，您需要聯絡Adobe客戶服務。 訊息中心使用者是特定的操作者，需要專用許可權才能存取「即時事件」(nmsRtEvent)資料夾。
+若要為Adobe雲端上託管的訊息中心執行例項建立新使用者，請聯絡您的Adobe轉換經理。 訊息中心使用者是特定的操作者，需要專用許可權才能存取「即時事件」(nmsRtEvent)資料夾。
 
 ## 結構描述延伸  {#mc-schema-ext}
 

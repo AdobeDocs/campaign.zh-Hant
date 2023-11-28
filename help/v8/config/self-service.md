@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+source-wordcount: '379'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 主要優點：
 
-* 自行快速變更設定，而不需聯絡客戶服務。
+* 自行快速變更設定，無需聯絡Adobe。
 * 根據不同時間的不同業務需求進行設定。
 * 根據需求控制存取設定，以加強安全性。
 
