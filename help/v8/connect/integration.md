@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 11%
 
 ---
@@ -56,14 +56,14 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 ## 使用社群媒體{#gs-social}
 
-使用Adobe Campaign透過Twitter與客戶和潛在客戶互動。
+使用Adobe Campaign透過X (先前稱為Twitter)與客戶和潛在客戶互動。
 
 您可以：
 
 * 傳送直接訊息給您的追隨者
-* 在您的Twitter帳戶上張貼推文
+* 在您的X帳戶上發佈
 * 收集新連絡人
 
-瞭解如何在中設定和使用Twitter整合 [此頁面](../connect/ac-tw.md).
+瞭解如何在中設定和使用X整合 [此頁面](../connect/ac-tw.md).
 
-瞭解如何建立Twitter貼文，並傳送直接訊息給您的關注者 [此頁面](../send/twitter.md).
+瞭解如何建立X貼文並將直接訊息傳送給您的關注者，位置在： [此頁面](../send/twitter.md).

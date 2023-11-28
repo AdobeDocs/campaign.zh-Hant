@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1839'
-ht-degree: 94%
+source-wordcount: '1847'
+ht-degree: 91%
 
 ---
 
@@ -51,20 +51,20 @@ _2022 年 9 月 30 日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Twitter 頻道可用性</strong><br /> </th> 
+<th> <strong>X (先前稱為Twitter)頻道可用性</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>此 <a href="../send/twitter.md">Twitter 社交頻道</a> 現在可搭配 Campaign v8 使用。 您可以：</p>
+<td> <p>此 <a href="../send/twitter.md">X社交頻道</a> 現在可搭配Campaign v8使用。 您可以：</p>
 <ul> 
-<li><p>透過 Twitter 傳送訊息：Adobe Campaign 可讓您直接將訊息張貼至您的 twitter 帳戶。 您也可以傳送直接訊息給所有追隨者。
+<li><p>在X (先前稱為Twitter)上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
 <li><p>收集新聯絡人：Adobe Campaign 可以自動復原設定檔資料，讓您執行目標定位行銷活動並實施跨管道策略。
 </p></li>
 </ul>
-<p>在<a href="../connect/ac-tw.md">詳細文件</a>中瞭解如何連結 Campaign 和 Twitter。</p>
-<p>在<a href="../connect/ac-tw.md">本頁</a>中瞭解如何發佈推文 (twitter) 及傳送訊息。</p>
+<p>瞭解如何在中連結Campaign和X <a href="../connect/ac-tw.md">詳細檔案</a>.</p>
+<p>瞭解如何在中使用Campaign建立貼文及傳送訊息 <a href="../connect/ac-tw.md">此頁面</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -102,7 +102,7 @@ _2022 年 9 月 30 日_
 * 修正日文環境升級後期間的問題。 (NEO-46640)
 * 修正了在 MTA 流程期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
 * 修正追蹤記錄無法傳回與收件者瀏覽器相關資料的問題。 (NEO-46612)
-* 修正使用外部傳送模式傳送 SMS 訊息時，導致個人化問題的問題。 (NEO-46415)
+* 修正使用外部傳送模式傳送簡訊訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正了在追蹤記錄中可能產生重複項目的問題。 (NEO-46409)
 * 修正即使在執行期間發生錯誤，仍然阻止 **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) 技術工作流程停止的問題。 (NEO-46280)
 * 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
@@ -133,7 +133,7 @@ _2022 年 10 月 7 日_
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
 * 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
-* 修正使用外部傳送模式傳送 SMS 訊息時，導致個人化問題的問題。 (NEO-46415)
+* 修正使用外部傳送模式傳送簡訊訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
 * 修正工作流程中，使用&#x200B;**資料載入 (檔案)** 活動可能阻止檔案更新的問題。 流程 100% 停止，但從未結束。 (NEO-47269)
 * 修正了當傳送使用日曆和分割模式時，導致建立不必要 DeliveryPart 的問題。 (NEO-48634)

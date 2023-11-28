@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1089'
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 此 **[!UICONTROL Routing]** 外部帳戶可讓您根據安裝的套件，設定Adobe Campaign中可用的每個管道。
 
-### 執行實例 {#execution-instance}
+### 執行執行個體 {#execution-instance}
 
 在交易式訊息環境中，執行例項會連結至控制例項並加以連結。 將異動訊息範本部署至執行例項。 瞭解更多關於訊息中心架構的資訊，請參閱 [此頁面](../architecture/architecture.md#transac-msg-archi).
 
@@ -97,7 +97,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
   與Adobe Campaign v8相容的外部資料庫列於 [相容性矩陣](../start/compatibility-matrix.md)
 
-* **twitter** - **twitter** 型別外部帳戶用於將Campaign連線至您的twitter帳戶，以代表您張貼訊息。 進一步瞭解Twitter整合，於 [本節](../connect/ac-tw.md).
+* **X (先前稱為Twitter)** - **twitter** 型別外部帳戶用於將Campaign連線至您的X帳戶，以代表您張貼訊息。 進一步瞭解X整合，於 [本節](../connect/ac-tw.md).
 
 ## Adobe解決方案整合外部帳戶 {#adobe-integration-external-accounts}
 

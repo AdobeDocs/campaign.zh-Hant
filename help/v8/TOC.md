@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 91%
+source-wordcount: '579'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 91%
       + [使用資料收集設定推播通知](send/push-data-collection.md)
    + [LINE 訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
+   + [X (Twitter)](send/twitter.md)
    + 將內容個人化 {#personalize}
       + [開始使用個人化](send/personalize.md)
       + [個人化資料](send/personalization-data.md)
@@ -141,7 +141,7 @@ ht-degree: 91%
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign + Experience Cloud 觸發程式](connect/ac-triggers.md)
-   + [Campaign + Twitter](connect/ac-tw.md)
+   + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
    + Campaign + 您的 CRM {#ac-crm}
       + [開始使用 CRM 連接器](connect/crm.md)

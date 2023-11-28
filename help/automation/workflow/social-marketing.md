@@ -3,9 +3,9 @@ product: campaign
 title: 社交行銷
 description: 進一步瞭解社交行銷技術工作流程
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '120'
 ht-degree: 18%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 18%
   <tr> 
    <td> <span class="uicontrol">Twitter 統計資料的計算</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> 此工作流程會計算與Twitter上的轉推和造訪相關聯的統計資料。<br /> </td> 
+   <td> 此工作流程會計算連結到X上的轉推和造訪的統計資料(先前稱為Twitter)。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">同步Twitter頁面</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> 此工作流程每天早上7:00將Twitter追蹤者匯入Adobe Campaign。<br /> </td> 
+   <td> 此工作流程每天早上7:00將X關注者匯入Adobe Campaign。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
