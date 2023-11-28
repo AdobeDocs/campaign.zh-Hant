@@ -1,20 +1,20 @@
 ---
-title: 開始使用Campaign FDASnowflake部署
-description: 開始使用Campaign FDASnowflake部署
+title: 開始使用Campaign FDA部署
+description: 開始使用Campaign FDA部署
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# [!DNL Campaign] FDA [!DNL Snowflake] 部署{#gs-fda-snowflake}
+# [!DNL Campaign] FDA部署{#gs-fda}
 
-在 [!DNL Snowflake] FDA （預設）部署， [!DNL Adobe Campaign] v8已連線至 [!DNL Snowflake] 以透過存取資料 [同盟資料存取](../connect/fda.md) 功能：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。
+在其Campaign FDA （預設）部署中， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 以透過存取資料 [同盟資料存取](../connect/fda.md) 功能：接著，您就可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。
 
 ## 好處{#fda-benefits}
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL是主要資料庫，而Snowflake是次要資料庫。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+PostgreSQL是主要資料庫，而Snowflake可以做為次要資料庫使用。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 90%
+source-wordcount: '690'
+ht-degree: 84%
 
 ---
 
@@ -47,9 +47,7 @@ Campaign v8依賴 **混合式架構**. 如果要從 Campaign Classic v7 進行�
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 可以與[!DNL Snowflake]使用。 
-
-在[企業 (FFDA) 部署](../architecture/enterprise-deployment.md)中，[!DNL Adobe Campaign] v8 可同時使用兩個資料庫：本機 [!DNL Campaign] 資料庫，用於使用者介面即時傳送訊息並透過 API 統一查詢及寫入，以及雲端 [!DNL Snowflake] 資料庫，用於行銷活動執行、批次查詢及工作流程執行。
+在其 [企業(FFDA)部署](../architecture/enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，並透過API及雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 

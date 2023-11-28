@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1032'
 ht-degree: 10%
 
 ---
@@ -32,9 +32,14 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 提供兩種部署模式：
 
-* **Campaign FDA [!DNL Snowflake] 部署**
+* **Campaign FDA部署**
 
-  在其 [[!DNL Snowflake] FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8已連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，而Snowflake是次要資料庫。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+  在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+
+  >[!NOTE]
+  >
+  >在此部署模型中， [!DNL Snowflake] 次要資料庫僅在提出要求時才可供使用。 若要使用更新您的部署 [!DNL Snowflake]，請聯絡您的Adobe技術客戶經理。
+  >
 
 * **Campaign Enterprise (FFDA)部署**
 

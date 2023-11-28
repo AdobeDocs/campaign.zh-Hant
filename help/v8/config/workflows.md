@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 4%
@@ -94,7 +94,7 @@ ht-degree: 4%
 
 進一步瞭解 **工作流程屬性** 在 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
-從 **[!UICONTROL Execution]** 工作流程的 **[!UICONTROL Properties]**，您可以選擇將您的工作流程連結至不同的倉儲，並最佳化您的工作負載管理。 如需詳細資訊，請參閱 **倉儲**，請參閱 [Snowflake檔案](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+從 **[!UICONTROL Execution]** 工作流程的 **[!UICONTROL Properties]**，您可以選擇將您的工作流程連結至不同的倉儲，並最佳化您的工作負載管理。 如需詳細資訊，請參閱 **倉儲**，請參閱 [Snowflake檔案](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 

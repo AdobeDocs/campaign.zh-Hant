@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign 概覽
-source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
       + [建立和傳送推播通知](send/push.md)
       + [設定推播通知頻道](send/push-settings.md)
       + [使用資料收集設定推播通知](send/push-data-collection.md)
-   + [LINE 傳送訊息](send/line.md)
+   + [LINE 訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
    + [Twitter](send/twitter.md)
    + 將內容個人化 {#personalize}
@@ -155,11 +155,10 @@ ht-degree: 92%
       + [新增資料夾權限](start/folder-permissions.md)
    + [控制面板](config/self-service.md)
 + 架構和設定 {#config}
-   + 架構 {#architecture}
+   + Campaign v8架構 {#architecture}
       + [全域原則](architecture/general-architecture.md)
-      + [架構](architecture/architecture.md)
-      + FDA Snowflake 部署 {#fda}
-         + [什麼是 FDA-Snowflake?](architecture/fda-deployment.md)
+      + [架構 模型](architecture/architecture.md)
+      + [Campaign FDA部署](architecture/fda-deployment.md)
       + 企業 (FFDA) 部署 {#ffda}
          + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
          + 特性 {#ffda-characteristics}
