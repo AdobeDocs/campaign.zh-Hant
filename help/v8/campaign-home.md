@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 09aacde1f06b679899ca8a736419f64a5cf46823
+source-git-commit: b0f5f5b4871752651c43c6f582d0f543be7bb5bd
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## 有哪些新功能
 
-瞭解Adobe Campaign v8的最新增強功能！ 如需功能、改良與修正的完整清單，請參閱詳細資訊 [發行說明](start/release-notes.md).
+快速一覽Adobe Campaign v8產品和檔案的最新增強功能！ 如需功能、改良與修正的完整清單，請參閱詳細資訊 [發行說明](start/release-notes.md).
 
 >[!BEGINTABS]
 
