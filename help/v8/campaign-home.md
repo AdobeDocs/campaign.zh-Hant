@@ -3,16 +3,14 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: b0f5f5b4871752651c43c6f582d0f543be7bb5bd
+source-git-commit: a242b4aad44b84cc3faf54e26a523b7f11b864ab
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 10%
+source-wordcount: '429'
+ht-degree: 5%
 
 ---
 
 # Adobe Campaign v8 文件 {#campaign-documentation}
-
-<!--![](assets/banner-documentationv8.png) -->
 
 ## 有哪些新功能
 
@@ -46,7 +44,7 @@ SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速�
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a></a>
+    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
     <div><strong>主要功能</strong><br/>探索Adobe Campaign v8的跨頻道行銷活動管理關鍵功能。</div>
     </td>
     <td>
@@ -62,6 +60,12 @@ SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速�
     <div><strong>匯入設定檔</strong><br/>在Adobe Campaign v8資料庫中輕鬆探索設定檔的建立。 手動或透過匯入新增設定檔、精簡客戶資料，以及輕鬆自訂行銷活動。</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/whats-new.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/connect.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/create-message.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="audiences/create-profiles.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## 探索檔案
@@ -69,40 +73,35 @@ SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速�
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="70px">
-    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
       <strong>開始使用</strong><br/><a href="start/campaign-ui.md">使用者介面</a> - <a href="start/ac-components.md">元件與流程</a> - <a href="start/v7-to-v8.md">從Classic v7到v8</a> - <a href="start/campaign-faq.md">常見問題集</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
       <strong>客戶體驗</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">使用工作流程自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Campaign策劃</a> - <a href="interaction/interaction.md">決定管理</a> - <a href="send/personalize.md">個人化</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-send.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-send.svg" width="35px">
+    <br/>
       <strong>傳送訊息</strong><br/><a href="start/create-message.md">開始使用</a> - <a href="send/preview-and-proof.md">預覽和校樣</a> - <a href="send/predictive.md">傳送時間最佳化</a> - <a href="reporting/gs-reporting.md">Reporting &amp; Analytics</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
       <strong>設定檔與對象</strong><br/><a href="audiences/create-profiles.md">新增設定檔</a> - <a href="audiences/create-audiences.md">建立對象</a> - <a href="start/subscriptions.md">管理訂閱</a> - <a href="start/privacy.md">隱私權</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
       <strong>架構與設定</strong><br/><a href="architecture/architecture.md">架構</a> - <a href="start/implement.md">Campaign v8實施</a> - <a href="connect/integration.md">與其他解決方案連結</a> - <a href="start/gs-permissions.md">使用者與許可權</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-dev.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-dev.svg" width="35px">
+    <br/>
       <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8資料模型</a> - <a href="dev/schemas.md">方案</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
@@ -110,8 +109,5 @@ SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速�
 
 ## 額外資源
 
-* [Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [教學課程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}
-* [[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"}
-* [Campaign v8控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
+[Adobe Campaign v8產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
 
