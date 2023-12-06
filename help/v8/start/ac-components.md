@@ -5,10 +5,10 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign是跨管道行銷解決方案，可自動化電子郵件、行動
 
 Adobe Campaign元件和全球架構說明如下。
 
-![](assets/ac-components.png)
+![](assets/do-not-localize//ac-components.png)
 
 ### 展示層{#presentation-layer}
 
@@ -30,11 +30,11 @@ Adobe Campaign元件和全球架構說明如下。
 
 * 豐富型使用者端
 
-  Campaign Rich client是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 [ 進一步瞭解 Campaign 用戶端主控台](../start/connect.md)。
+  Campaign Rich client是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 [深入瞭解Campaign使用者端主控台](../start/connect.md).
 
 * 精簡型使用者端
 
-  Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  [ 深入瞭解 Campaign 網頁存取](../start/connect.md)。
+  Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  [進一步瞭解Campaign網頁存取](../start/connect.md).
 
 * 外部應用程式與API
 
@@ -58,13 +58,13 @@ Adobe Campaign v8是as a Managed Service部署：Adobe Campaign的所有元件�
 
 Campaign網頁伺服器會控制Campaign網頁程式的存取權。 Javascript是用於核心產品功能和自訂的伺服器端語言。 Tomcat是後端引擎，並作為Web程式的一部分內嵌在Campaign產品中。 JSP或JSSP頁面會使用Javascript來呈現動態內容。
 
-![](assets/ac-processes.png)
+![](assets/do-not-localize/ac-processes.png)
 
 Campaign使用者端主控台會透過HTTP使用SOAP XML連線至Web伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，Campaign內部處理程式則使用SQL存取資料庫。
 
 Campaign流程之間的整體通訊如下獨立部署圖表所述：所有Campaign元件都安裝在同一部電腦中。
 
-![](assets/ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png)
 
 使用者會使用HTTP連線至Campaign應用程式伺服器。 所有資料和資訊都在Campaign資料庫中進行管理。 如果Campaign開發人員執行任何設定變更，則會擷取到資料庫中。 如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。 行銷人員執行行銷活動時，會透過SMTP伺服器將電子郵件傳遞從Campaign伺服器傳送至設定檔。 當設定檔與電子郵件傳送互動時（例如開啟電子郵件），追蹤資料會傳回至追蹤伺服器。
 

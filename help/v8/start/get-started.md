@@ -5,9 +5,9 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ Adobe Campaign 為跨頻道客戶體驗設計提供平台，並為視覺行銷�
 * 將電子郵件、行動裝置、線上和線下頻道&#x200B;**整合**&#x200B;至客戶歷程
 * **自動化傳送有意義的即時訊息和優惠方案**
 
-![](assets/ac-capabilities.png)
+![](assets/do-not-localize/ac-capabilities.png)
 
 ## 整合式客戶設定檔 {#integrated-customer-profile}
 
 設定檔集中在功能強大的雲端資料庫中。 要取得設定檔來建立此資料庫，有許多可行的機制：透過網路表單線上收集、手動或自動匯入文字檔、透過公司資料庫或其他資訊系統進行複寫。藉助 Adobe Campaign，您可以將行銷記錄、購買資訊、偏好、CRM 資料以及任何相關的 PII 資料融入整合視圖中，以進行分析並採取行動。
 
-在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、SMS 等) 的預設用戶檔案。有了資料庫中儲存的收件者資料，您能夠對接收任何給定內容的收件者進行篩選，並在交付內容中新增個人化資料。資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
+在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、簡訊等) 的預設用戶檔案。有了資料庫中儲存的收件者資料，您能夠對接收任何給定內容的收件者進行篩選，並在交付內容中新增個人化資料。資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
 
 ![](../assets/do-not-localize/glass.png)有關設定檔管理的基本資訊請參閱[本節](audiences.md)。
 
@@ -44,7 +44,7 @@ Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功�
 
 ## 跨頻道行銷活動策劃 {#cross-channel-campaign-orchestration}
 
-Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、SMS、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
+Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
 ![](../assets/do-not-localize/glass.png)在[本節](campaigns.md)中瞭解行銷活動的設計、排程及執行。
 

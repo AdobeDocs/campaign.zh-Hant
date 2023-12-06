@@ -5,9 +5,9 @@ description: Chrome、Firefox和Edge瀏覽器中的Campaign網頁元件和版本
 hide: true
 hidefromtoc: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe建議您測試Campaign網路應用程式（包括網路表單和調查）�
 1. 搜尋 `general.useragent.override`.
 1. 選取「字串」，然後按一下加號(+)。
 
-   ![](assets/force-user-agent-firefox.png)
+   ![](assets/do-not-localize/force-user-agent-firefox.png)
 
 1. 在欄位中輸入下列文字：
 
@@ -68,7 +68,7 @@ Adobe建議您測試Campaign網路應用程式（包括網路表單和調查）�
 1. 開啟Chrome，輸入 `chrome://flags` ，然後按Enter鍵。
 1. 搜尋 `Force major version to 100 in User-Agent` 在搜尋欄位中，並將其啟用，如下所示。
 
-   ![](assets/force-user-agent-chrome.png)
+   ![](assets/do-not-localize/force-user-agent-chrome.png)
 
 1. 重新啟動瀏覽器。
 1. 關閉 `chrome://flags` 標籤。
@@ -83,7 +83,7 @@ Adobe建議您測試Campaign網路應用程式（包括網路表單和調查）�
 1. 開啟Microsoft Edge，輸入 `edge://flags` ，然後按Enter鍵。
 1. 搜尋 `force-major-version-to-100` 欄位，並將其啟用，如下所示。
 
-   ![](assets/force-user-agent-edge.png)
+   ![](assets/do-not-localize/force-user-agent-edge.png)
 
 1. 重新啟動瀏覽器。
 1. 關閉 `edge://flags` 標籤。

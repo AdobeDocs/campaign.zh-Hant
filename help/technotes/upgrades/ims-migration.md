@@ -3,9 +3,10 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 feature: Technote
 role: Admin
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 ### 移轉的必要條件{#ims-migration-prerequisites}
 
-為了能夠建立技術帳戶來取代技術操作者，必須驗證所有Campaign執行個體的Admin Console中存在正確Campaign產品設定檔的先決條件。 您可以在Adobe控制檯中進一步瞭解產品設定檔，位置如下： [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 針對傳入訊息中心執行個體的API呼叫，在升級至Campaign v8.5期間或布建執行個體期間應已建立產品設定檔。 此產品設定檔名為：
 

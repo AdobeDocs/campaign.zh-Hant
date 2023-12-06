@@ -5,9 +5,9 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
@@ -124,7 +124,7 @@ Campaign與X之間的同步作業是透過專屬的技術工作流程來管理�
 
 Adobe Campaign會針對每位追隨者儲存下列資訊：
 
-* **[!UICONTROL Origin]**: Twitter
+* **[!UICONTROL Origin]**：Twitter
 * **[!UICONTROL External ID]**：使用者識別碼
 * **[!UICONTROL Username]**：使用者的帳戶名稱
 * **[!UICONTROL Full name]**：使用者名稱
@@ -141,6 +141,6 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 1. 存取帳戶  **設定**.
 1. 瀏覽至 **隱私權與安全性** 和 **對象與標籤** 並檢視 **Protect您的貼文** 選項。 您的貼文和其他帳戶資訊只會顯示給關注您的人。
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 如上所述，設定您的X應用程式和Campaign服務以搭配此測試帳戶使用。
