@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 的新增功能
-description: 探索Adobe Campaign v8中的重要功能
+description: 探索 Adobe Campaign v8 中的重要功能
 feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 89%
+source-wordcount: '904'
+ht-degree: 90%
 
 ---
 
