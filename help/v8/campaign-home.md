@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '348'
+ht-degree: 7%
 
 ---
 
@@ -18,24 +18,17 @@ ht-degree: 5%
 
 >[!BEGINTABS]
 
+>[!TAB 推播頻道近期變更]
+
+Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。 您已經可以檢查並採取行動。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB 增強推播通知服務]
 
 Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充能力，確保您的通知能夠以順暢的效率觸及更廣泛的對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更大規模且更可靠的服務，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
-
->[!TAB 行動裝置頻道增加的輸送量]
-
-新推出的推播通知服務顯示推播Android和推播iOS的輸送量比起先前版本(v8.4)有重大改善。 最新版本(v8.5)的升級服務可讓使用者體驗到更優異的效能。
-
-* 推播通知(Android)：最多 **5x** 更快
-* 推播通知(iOS)：最多 **2.2倍** 更快
-
-SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速度和效率顯著提高。 這些升級已導致從先前版本(v8.4)到最新版本(v8.5)的輸送量增加，包括傳送和意見更新兩者。 使用者現在可以體驗此增強型簡訊服務的好處。
-
-* SMS輸送量：最高 <strong>5x</strong> 更快</li>
-
-這些最大輸送量效能是由Adobe測試團隊在實驗室條件下測量的。
 
 >[!ENDTABS]
 

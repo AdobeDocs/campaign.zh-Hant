@@ -7,12 +7,11 @@ role: Admin
 level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
-hide: true
-hidefromtoc: true
-source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +40,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 ## 如何移轉？ {#fcm-migration-procedure}
 
-### 必要條件 {#fcm-migration-prerequisites}
+### 先決條件 {#fcm-migration-prerequisites}
 
 * 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於較舊的版本，移轉至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
@@ -51,7 +50,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 
-### 移轉程序 {#fcm-migration-steps}
+### 移轉程式 {#fcm-migration-steps}
 
 若要將環境移轉至HTTP v1，請遵循下列步驟：
 
@@ -102,4 +101,3 @@ Android行動應用程式的程式碼不需要特定變更，且通知行為不�
 * 設定 **[!UICONTROL Visibility]** 您向公開、私人或機密發出通知的層級。
 
 如需詳細資訊，請參閱 **[!UICONTROL HTTP v1 additional options]** 以及如何填寫這些欄位，請參閱 [FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-

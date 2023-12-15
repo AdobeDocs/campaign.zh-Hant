@@ -5,9 +5,9 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '866'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 5%
 行動應用程式傳送功能可讓您傳送通知至iOS和Android裝置。
 
 開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 [進一步瞭解推播設定。](push-settings.md)
+
+>[!CAUTION]
+>
+>Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。 您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
+
 
 ## 建立您的第一個推播通知{#push-create}
 
@@ -101,7 +106,7 @@ ht-degree: 5%
 
    * **[!UICONTROL Launch image]**：要顯示的啟動影像檔案名稱。 如果使用者選擇啟動您的應用程式，則會顯示選取的影像，而非您應用程式的啟動畫面。
 
-   * **[!UICONTROL Interruption level]**:
+   * **[!UICONTROL Interruption level]**：
 
       * **[!UICONTROL Active]**：預設情況下，系統會立即顯示通知、在熒幕上點亮，並可播放音效。 通知不會突破焦點模式。
 

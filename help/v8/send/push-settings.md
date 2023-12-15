@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 3%
+source-wordcount: '1631'
+ht-degree: 2%
 
 ---
 
 # 設定推播通知頻道 {#push-notification-configuration}
 
-開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。
+若要使用Adobe Campaign傳送推播通知，您必須先設定環境和應用程式，如本頁面所述。 在Adobe Campaign中，傳送推播通知的頻道是行動應用程式頻道。
 
-Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。
+>[!CAUTION]
+>
+>Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。 您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
+
+開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。
 
 若要使用Adobe Experience Platform Mobile SDK設定您的應用程式，請遵循下列步驟：
 
@@ -30,7 +34,7 @@ Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的�
 1. 安裝與設定 [Adobe Campaign擴充功能](#configure-extension) 在您的行動屬性中。
 1. 追隨 [Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 以使用應用程式中的Adobe Experience Platform Mobile SDK進行設定。
 
-## 必要條件 {#before-starting}
+## 先決條件 {#before-starting}
 
 ### 設定許可權 {#setup-permissions}
 
@@ -259,7 +263,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. （選用）您可以使用一些擴充推送訊息內容 **[!UICONTROL Application variables]** 如有需要。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
-1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。您的Android應用程式現在已準備好在Campaign中使用。
+1. 按一下 **[!UICONTROL Finish]** 則 **[!UICONTROL Save]**. 您的Android應用程式現在已準備好在Campaign中使用。
 
 以下是FCM裝載名稱，可進一步個人化您的推播通知：
 
