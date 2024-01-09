@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
-breadcrumb-title: Campaign 概覽
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+breadcrumb-title: Campaign v8檔案
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 90%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 90%
       + [建立優惠方案空間](interaction/interaction-offer-spaces.md)
    + [建立優惠方案目錄](interaction/interaction-offer-catalog.md)
    + [建立優惠優惠方案](interaction/interaction-offer.md)
-   + [傳送優惠方案(傳出)](interaction/interaction-send-offers.md)
+   + [傳送選件（傳出）](interaction/interaction-send-offers.md)
    + 呈現優惠方案 (傳入){#inbound}
       + [內容](interaction/interaction-present-offers.md)
       + [呼叫網頁中的優惠](interaction/interaction-integration.md)
@@ -133,7 +133,7 @@ ht-degree: 90%
    + [工作流程文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
-   + Campaign + Experience Platform {#ac-aep}
+   + 行銷活動+Experience Platform {#ac-aep}
       + [對象和設定檔屬性](connect/ac-aep.md)
       + [Campaign登陸頁面和設定檔屬性](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -143,7 +143,7 @@ ht-degree: 90%
    + [Campaign + Experience Cloud 觸發程式](connect/ac-triggers.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
-   + Campaign + 您的 CRM {#ac-crm}
+   + Campaign +您的CRM {#ac-crm}
       + [開始使用 CRM 連接器](connect/crm.md)
       + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -157,7 +157,7 @@ ht-degree: 90%
 + 架構和設定 {#config}
    + Campaign v8架構 {#architecture}
       + [全域原則](architecture/general-architecture.md)
-      + [架構 模型](architecture/architecture.md)
+      + [架構模型](architecture/architecture.md)
       + [Campaign FDA部署](architecture/fda-deployment.md)
       + 企業 (FFDA) 部署 {#ffda}
          + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
@@ -174,7 +174,7 @@ ht-degree: 90%
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [電子郵件設定](config/email-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
-      + [將 Campaign SDK 與您的應用程式整合- 已棄用頁面](config/push-config.md)
+      + [將Campaign SDK與您的應用程式整合 — 已棄用的頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
    + [促銷活動資料模型](dev/datamodel.md)
