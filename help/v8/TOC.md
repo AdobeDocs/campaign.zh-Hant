@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: 瞭解Adobe Campaign v8產品和檔案的最新增強功能。
+user-guide-description: Adobe Campaign v8的產品檔案。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8檔案
-source-git-commit: 7ab4fd76abb18a9d3d5acac7f4f0639bc4f1f346
+source-git-commit: 7151325bfd80e9780a317dcfcde4df549c2a8cb0
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 84%
+source-wordcount: '563'
+ht-degree: 85%
 
 ---
 
