@@ -4,7 +4,7 @@ title: 設定篩選規則
 description: 瞭解如何設定篩選規則
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
