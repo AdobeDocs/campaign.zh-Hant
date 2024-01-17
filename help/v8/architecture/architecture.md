@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1035'
 ht-degree: 10%
 
 ---
@@ -28,24 +28,30 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 ![](../assets/do-not-localize/book.png) 進一步瞭解中的套件 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
-## 部署模型{#ac-deployment}
+## 部署模型 {#ac-deployment}
 
-提供兩種部署模式：
+提供兩種部署模式： **Campaign FDA部署** (P1-P3)和 **Campaign Enterprise (FFDA)部署** (P4)。
 
-* **Campaign FDA部署**
+### Campaign FDA部署 {#ac-deployment-fda}
 
-  在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
-  >[!NOTE]
-  >
-  >在此部署模型中， [!DNL Snowflake] 次要資料庫僅在提出要求時才可供使用。 若要使用更新您的部署 [!DNL Snowflake]，請聯絡您的Adobe轉變經理。
-  >
 
-* **Campaign Enterprise (FFDA)部署**
+![](assets/P1-P3-architecture)
 
-  在的內容中 [企業(FFDA)部署](enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，以及透過API和雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
+>[!NOTE]
+>
+>在此部署模型中， [!DNL Snowflake] 次要資料庫僅在提出要求時才可供使用。 若要使用更新您的部署 [!DNL Snowflake]，請聯絡您的Adobe轉變經理。
+>
 
-  Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
+### Campaign Enterprise (FFDA)部署 {#ac-deployment-ffda}
+
+在的內容中 [企業(FFDA)部署](enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，以及透過API和雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
+
+Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
+
+![](assets/P4-architecture.png)
+
 
 ## 分割傳遞執行 {#split}
 

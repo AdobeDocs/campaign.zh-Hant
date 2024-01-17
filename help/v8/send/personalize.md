@@ -5,10 +5,10 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 47%
+source-wordcount: '473'
+ht-degree: 48%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 47%
 
 為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂內容，告訴客戶其層級的資訊。 根據設定檔資料、建立不同群組與個人自訂體驗的個人化功能：您可以運用您擁有的關於特定收件者的資料和資訊，根據每位收件者調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
 
-Adobe Campaign簡化了個人化：您可以使用單一畫面為每個收件者顯示不同型別的自訂內容 [電子郵件范](create-templates.md). 在您的交易式訊息（例如購買確認或購物車放棄電子郵件）中，在單一電子郵件範本中包含每個人的產品清單資訊。
+Adobe Campaign簡化了個人化：您可以使用單一畫面為每個收件者顯示不同型別的自訂內容 [訊息範本](create-templates.md). 在您的交易式訊息（例如購買確認或購物車放棄電子郵件）中，在單一電子郵件範本中包含每個人的產品清單資訊。
 
 
 ## 個人化策略 {#personalization-strategy}

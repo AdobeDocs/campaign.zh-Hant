@@ -5,7 +5,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 本節詳細說明iOS和Android通知傳送的特定元素。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，行動裝置註冊現在為 **非同步**. [了解更多](../architecture/staging.md)
 
