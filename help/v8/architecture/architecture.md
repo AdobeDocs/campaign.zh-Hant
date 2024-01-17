@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 10%
@@ -37,7 +37,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
 
-![](assets/P1-P3-architecture)
+![](assets/P1-P3-architecture.png)
 
 >[!NOTE]
 >
