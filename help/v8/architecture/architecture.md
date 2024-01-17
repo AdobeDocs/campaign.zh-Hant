@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
+source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 10%
 
 ---
@@ -37,7 +37,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
 
-![](assets/P1-P3-architecture.png)
+![](assets/P1-P3-architecture.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-![](assets/P4-architecture.png)
+![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
 
 
 ## 分割傳遞執行 {#split}
