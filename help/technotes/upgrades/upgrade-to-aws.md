@@ -2,10 +2,10 @@
 title: Campaign電子郵件傳送基礎架構升級
 description: Campaign電子郵件傳送基礎架構升級
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 2%
 
 ## 此升級將於何時進行？{#aws-timeline}
 
-開發和測試環境升級預計會在以下時段進行： **2023年10**.
+開發和測試環境升級開始於 **2023年10**.
 
-我們計畫於以下日期開始安排生產環境升級： **2024年1月**.
-
-作為Campaign客戶，您至少將提前三十(30)天收到有關生產升級的額外通知。
+生產環境升級開始於 **2024年1月**.
 
 ## 有何期望？{#impact}
 
@@ -41,7 +39,7 @@ ht-degree: 2%
 
 * **這是強制升級嗎？**
 
-  是. 身為Campaign客戶，您的電子郵件傳送功能需要使用電子郵件傳送基礎結構。
+  是。 身為Campaign客戶，您的電子郵件傳送功能需要使用電子郵件傳送基礎結構。
 
 * **此升級鎖定哪些客戶？**
 
