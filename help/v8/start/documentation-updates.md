@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 33%
+ht-degree: 89%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 33%
 
 ## 2024 年 1 月 {#jan-2024}
 
-* 已新增有關如何定義直接郵件的預設postalAddress欄位，以及確保地址完整的重要原因。 [深入了解](../send/direct-mail.md)
+* 已新增有關如何定義直接郵件的預設 postalAddress 欄位，以及確保地址完整的重要原因。 [深入了解](../send/direct-mail.md)
