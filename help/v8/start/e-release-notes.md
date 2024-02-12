@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: fefdf71acc921cdddcf5b3f4bf81dca594a84486
+source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 21%
@@ -30,7 +30,7 @@ _2024年2月14日_
 
 * Adobe Campaign v8現在已與 **Adobe Experience Manager as a Cloud Service**，可透過Adobe Campaign網頁使用者介面獨家製作。
 
-* 您現在可以使用 **Adobe Experience Manager Assets資料庫** 即使在您的Adobe Campaign執行個體上安裝與Adobe Experience Cloud套件的整合，仍會與您的Experience Cloud資產一併安裝。
+* 您現在可以使用 **Adobe Experience Manager Assets資料庫** 連同您的Experience Cloud資產，即使 **與Adobe Experience Cloud整合** 套件安裝在您的Adobe Campaign執行個體上。
 
 
 ### 一般改善 {#improvements-8-6-1}
