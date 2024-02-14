@@ -5,10 +5,10 @@ description: 進一步瞭解查詢工作流程活動
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 1%
+source-wordcount: '1553'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 查詢可讓您根據條件選取目標。 您可以將區段代碼與查詢結果相關聯，並插入其他資料。
 有關查詢範例的詳細資訊，請參閱以下內容 [本節](querying-recipient-table.md).
 
-![](assets/query-activity.png)
+![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 有關使用和管理其他資料的詳細資訊，請參閱 [新增資料](#adding-data).
 
@@ -35,15 +35,15 @@ ht-degree: 1%
 
    有關詳細資訊，請參閱 [目標定位和篩選維度](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-   ![](assets/targeting-filtering-dimensions.png)
+   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    如有需要，可透過選取「 」以入站轉變的資料為基礎進行查詢 **[!UICONTROL Temporary schema]** 選擇目標定位和篩選維度時。
 
-   ![](assets/query_temporary_table.png)
+   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 使用精靈定義母體。 要輸入的欄位可能會因目標型別而異。 您可以使用目前的條件預覽目標母體 **[!UICONTROL Preview]** 標籤。
 
-   ![](assets/query-sample.png)
+   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果您已選取 **[!UICONTROL Filtering conditions]** 在步驟1或使用 **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** 選項，之後您將必須手動新增篩選准則。
 
@@ -59,11 +59,11 @@ ht-degree: 1%
 
 此 **[!UICONTROL Add data...]** 連結可讓您選取要收集的其他資料。
 
-![](assets/wf_add_data_link.png)
+![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 首先，選取要新增的資料型別：
 
-![](assets/wf_add_data_1st_option.png)
+![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * 選取 **[!UICONTROL Data linked to the filtering dimension]** 以選取Adobe Campaign資料庫中的資料。
 * 選取 **[!UICONTROL External data]** 從外部資料庫新增資料。 此選項僅在您已購買 **同盟資料存取** 選項。 有關詳細資訊，請參閱 [存取外部資料庫(FDA)](accessing-an-external-database--fda-.md).
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 1. 選取您要新增的資料型別。 這可以是屬於篩選維度的資料，或是儲存在連結表格中的資料。
 
-   ![](assets/query_add_columns.png)
+   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果資料屬於查詢的篩選維度，只需在可用欄位清單中選取該資料，即可在輸出欄中顯示該資料。
 
-   ![](assets/wf_add_data_field_selection.png)
+   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    您可以新增：
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 1. 在精靈的第一步，選取 **[!UICONTROL Data linked to the filtering dimension]** 選項：
 1. 選取包含要收集資訊的表格，然後按一下 **[!UICONTROL Next]**.
 
-   ![](assets/wf_add_data_linked_table.png)
+   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 必要時，請選取下列其中一個值，以指定要保留的集合元素數目： **[!UICONTROL Data collected]** 欄位。 依預設，會復原集合的所有行，然後根據下列步驟指定的條件進行篩選。
 
@@ -108,11 +108,11 @@ ht-degree: 1%
    * 如果您選擇復原數行(**[!UICONTROL Limit the line count]**)您可以指定要收集的行數。
    * 如果收集的欄包含彙總，例如宣告的失敗次數、網站的平均費用性列管等。 您可以使用 **[!UICONTROL Aggregates]** 值。
 
-   ![](assets/query_add_collection_param.png)
+   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. 指定集合的子選取專案。
 
-   ![](assets/query_add_columns_collection_filter.png)
+   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果您已選取 **[!UICONTROL Limit the line count]** 選項，定義篩選收集資料的順序。 一旦收集的行數超過您指定要保留的行數時，篩選順序可讓您指定要保留的行。
 
@@ -133,20 +133,20 @@ ht-degree: 1%
    * 18歲以上的收件者。
    * 住在法國的收件者。
 
-   ![](assets/query_example.png)
+   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    您可以檢視符合條件組合的SQL：
 
-   ![](assets/query_example_sql.png)
+   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. 您可以在相關索引標籤中預覽符合您查詢的收件者，以檢查條件是否正確：
 
-   ![](assets/query_example_preview.png)
+   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. 儲存您的篩選器，以便日後透過按一下 **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
 1. 新增其他活動以繼續編輯工作流程。 一旦啟動且完成先前的查詢步驟後，就會顯示找到的收件者數目。 您可以使用滑鼠躍現式選單(在轉變上按一下滑鼠右鍵> **[!UICONTROL Display the target...]**)。
 
-   ![](assets/query_example_result.png)
+   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## 輸出引數 {#output-parameters}
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 
   確定您知道查詢的執行計畫。 避免進行完整的表格掃描，尤其是針對每分鐘執行的即時查詢或近乎即時查詢。
 
-### 函式 {#functions}
+### 函數 {#functions}
 
 * 請注意以下功能： `Lower(...)`. 使用Lower函式時，不會使用Index。
 * 仔細檢查使用「like」指示或「upper」或「lower」指示的查詢。 在使用者輸入上套用「Upper」，而不是在資料庫欄位上套用。
@@ -186,7 +186,7 @@ ht-degree: 1%
 
 使用查詢的篩選維度，而非使用「存在方式」運運算元。
 
-![](assets/optimize-queries-filtering.png)
+![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 在查詢中，篩選器中的「存在（例如）」條件無效。 它們等同於SQL中的子查詢：
 
@@ -194,7 +194,7 @@ ht-degree: 1%
 
 最佳實務建議改用查詢的篩選維度：
 
-![](assets/optimize-queries-filtering2.png)
+![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 SQL中篩選維度的對等項是內部聯結：
 
@@ -207,10 +207,10 @@ SQL中篩選維度的對等項是內部聯結：
 * 使用與生產平台類似的磁碟區、引數和架構來建置開發平台。
 * 在開發和生產環境中使用相同的值。 請儘可能使用相同專案：
 
-   * 作業系統,
-   * 版本,
-   * 資料,
-   * 應用程式,
+   * 作業系統，
+   * 版本，
+   * 資料，
+   * 應用程式，
    * 磁碟區。
 
   >[!NOTE]
