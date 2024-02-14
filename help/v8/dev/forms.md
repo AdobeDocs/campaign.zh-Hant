@@ -5,9 +5,9 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -666,7 +666,7 @@ SOAP方法執行可從填入的啟動 **`<leave>`** 標籤的後面。
 
 此 **exprIn** attribute包含要以引數形式傳遞的資料位置。
 
-**範例**:
+**範例**：
 
 ```
 <leave>

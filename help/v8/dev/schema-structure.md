@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 1%
   >
   >標籤與執行個體的目前語言相關聯。
 
-  **範例**:
+  **範例**：
 
   ```
   <attribute name="email" type="string" length="80" label="Email"/>
@@ -192,7 +192,7 @@ ht-degree: 1%
   >
   >說明與執行個體的目前語言相關聯。
 
-  **範例**:
+  **範例**：
 
   ```
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
@@ -204,7 +204,7 @@ ht-degree: 1%
 
 值必須是符合XPath語言的運算式。 如需詳細資訊，請參閱[本章節](#reference-with-xpath)。
 
-**範例**:
+**範例**：
 
 * 目前日期： **default=&quot;GetDate()&quot;**
 * 計數器： **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
@@ -337,7 +337,7 @@ XPath是一種語法，可讓您在XML檔案的樹狀結構中尋找節點。
 
 元素是以其名稱來指定，而屬性是以字元「@」開頭的名稱來指定。
 
-**範例**:
+**範例**：
 
 * **@email**：選取電子郵件，
 * **location/@city**：選取「城市」屬性於 **`<location>`** 元素
@@ -360,11 +360,11 @@ XPath是一種語法，可讓您在XML檔案的樹狀結構中尋找節點。
 
 已在運算式中新增高層級函式，以豐富此語言的潛力。
 
-您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器，存取可用函式清單：
+您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器，存取可用函式的清單：
 
 ![](assets/schema_function.png)
 
-**範例**:
+**範例**：
 
 * **GetDate()**：傳回目前日期
 * **年(@created)**：傳回「created」屬性中包含的日期年份。

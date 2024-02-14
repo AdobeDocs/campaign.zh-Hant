@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
+source-git-commit: eae364fb3d082c91022fee6bf29802c9eb6dfcf5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 21%
+source-wordcount: '464'
+ht-degree: 22%
 
 ---
 
@@ -27,16 +27,22 @@ _2024年2月14日_
 
 * 自此版本起，您即可存取新的 **Campaign Web使用者介面**，可透過中央Adobe Experience Cloud環境取得。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。瞭解如何連線至Adobe Experience Cloud及存取Adobe Campaign網頁介面 [在此頁面中](campaign-ui.md#ac-web-ui).
 
-
-* Adobe Campaign v8現在已與 **Adobe Experience Manager as a Cloud Service**，可透過Adobe Campaign網頁使用者介面獨家製作。
-
-* 您現在可以使用 **Adobe Experience Manager Assets資料庫** 連同您的Experience Cloud資產，即使 **與Adobe Experience Cloud整合** 套件安裝在您的Adobe Campaign執行個體上。
+* 使用者端主控台的32位元版本現已棄用。 從8.6版開始，使用者端主控台將僅提供64位元版本。 使用者端主控台可順暢升級至64位元版本。 深入了解如何升級作業系統，請參閱此[技術說明](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=zh-Hant)。
 
 
 ### 一般改善 {#improvements-8-6-1}
 
 * Campaign v8.6改善以下專案的輸送量： **電子郵件傳遞追蹤指標**. 透過我們的最佳化程式，追蹤擷取和運算時間得以減少，而且您可以更快檢查傳送的關鍵指標。
 
+* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。
+
+* Adobe Campaign v8現在已與 **Adobe Experience Manager as a Cloud Service**，可透過Adobe Campaign網頁使用者介面獨家製作。
+
+* 您現在可以使用 **Adobe Experience Manager Assets資料庫** 連同您的Experience Cloud資產，即使 **與Adobe Experience Cloud整合** 套件安裝在您的Adobe Campaign執行個體上。
+
+* 您無法再從使用者端主控台建立運運算元。 您現在需要使用Admin Console。 [了解更多](../start/gs-permissions.md)。
+
+* 已更新數個協力廠商工具，以最佳化安全性。
 
 ### 傳遞能力更新 {#deliverability-8-6-1}
 

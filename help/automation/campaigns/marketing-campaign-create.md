@@ -5,10 +5,10 @@ description: 瞭解如何建立和執行行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 4%
+source-wordcount: '1327'
+ht-degree: 3%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ## 使用行銷活動{#work-with-campaigns}
 
-### 建立促銷活動 {#create-a-campaign}
+### 建立行銷活動 {#create-a-campaign}
 
 您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取 **[!UICONTROL Campaigns]** 功能表 **[!UICONTROL Campaigns]** 控制面板，然後按一下 **[!UICONTROL Create]**.
 
@@ -158,9 +158,14 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 當您透過建立行銷活動時 **[!UICONTROL Schedule]** 索引標籤中，此行銷活動會自動連結至相關的方案。 此 **[!UICONTROL Program]** 欄位在此情況下是隱藏的。
 
 
-## 使用網頁介面 {#use-the-web-interface-}
+## 使用網頁瀏覽器存取Campaign {#use-the-web-interface}
 
-您可以透過網際網路瀏覽器存取Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或操作資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
+
+>[!AVAILABILITY]
+>
+>從Campaign v8.6開始，Campaign可在網頁使用者介面中使用。 大部分的行銷動作都可在此新介面中執行。 [了解更多](../../v8/start/campaign-ui.md#discover-the-user-interface)。
+
+您可以透過網際網路瀏覽器存取部分Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 您無法從此Web存取建立元件，但根據存取許可權，您可以檢視和/或處理資料庫中的資料。 通常，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
 1. 照常透過https://登入`<your instance>:<port>/view/home`.
 1. 使用功能表存取概述。

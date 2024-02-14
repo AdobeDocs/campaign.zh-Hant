@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 0%
+source-wordcount: '928'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 什麼是種子地址？ {#gs-seeds}
 
-測試設定檔會建立為種子地址。 它們用於鎖定不符合所定義目標條件的收件者。 種子地址可讓您透過傳送校樣，在傳送傳遞之前預覽和測試個人化和轉譯。
+測試設定檔為種子地址。它們用於鎖定不符合所定義目標條件的收件者。 種子地址可讓您透過傳送校樣，在傳送傳遞之前預覽和測試個人化和轉譯。
 
 種子地址的優點如下：
 
-* 使用從收件者設定檔中取得的資料隨機替代欄位：例如，您可以在種子地址區段中僅輸入電子郵件地址，並讓Campaign自動填寫設定檔的其他欄位。 進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
+* 使用從收件者設定檔中取得的資料隨機替代欄位：例如，您可以在種子地址區段中僅輸入電子郵件地址，並讓Campaign自動填寫設定檔的其他欄位。 進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 * 使用具有資料管理功能的工作流程時，可在種子地址層級輸入傳送中處理的其他資料，以強制執行值：這可作為隨機值替代的另一做法。
 * 系統會自動從下列傳遞統計資料的報表中排除種子地址： **[!UICONTROL Clicks]**， **[!UICONTROL Opens]**， **[!UICONTROL Unsubscriptions]**.
 

@@ -4,7 +4,7 @@ description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主�
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Campaign技術運運算元移轉至Adobe Developer主控台 {#migrate-tech-users-to-ims}
 
-自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明透過Adobe Developer主控台將技術運運算元移轉至技術帳戶所需的步驟。
 
@@ -238,6 +238,6 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### 步驟10 — 從Adobe Campaign移除舊版技術運運算元 {#ims-migration-step-10}
 
-在您移轉所有協力廠商系統以搭配IMS驗證使用新的技術帳戶後，即可從Campaign使用者端主控台刪除舊的技術運運算元。
+在您移轉所有協力廠商系統以搭配IMS驗證使用新的技術帳戶後，即可從Campaign使用者端主控台刪除舊的技術操作員。
 
 若要這麼做，請登入Campaign使用者端主控台，導覽至 **管理>存取管理>操作者** 並找到舊版技術使用者並將其刪除。

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 84%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -37,13 +37,21 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 
 身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[!DNL Campaign]本章節[所列的一小部分功能外，也提供大部份](#gs-removed) v8 的功能。 
 
-Campaign v8依賴 **混合式架構**. 如果要從 Campaign Classic v7 進行轉換，請注意所有傳遞都會通過中間來源伺服器。 因此，內部路由&#x200B;**不可能**&#x200B;在 Campaign v8 中，且外部帳戶已據此停用。
+>新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的Campaign v8環境隨附預先為您設定的專用虛擬私人雲端(VPC)。
+
+
+## 混合式架構 {#hybrid-archi}
+
+Campaign v8依賴 **混合式架構**. 如果您要從Campaign Classicv7進行轉換，請注意，所有傳遞都會通過中間來源伺服器。
+
+因此：
+
+* 內部路由為 **不可能** Campaign v8中，已據此停用外部帳戶，
+* 傳遞狀態不會立即更新 — 行銷執行個體上會執行技術流程，以便及時更新傳遞狀態。
+
 
 ![](../assets/do-not-localize/glass.png) 進一步瞭解從v7轉換至時傳送異動訊息校樣 [此頁面](../send/transactional-template.md#transition-from-v7).
 
->[!NOTE]
->
->新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的Campaign v8環境隨附預先為您設定的專用虛擬私人雲端(VPC)。
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}
 

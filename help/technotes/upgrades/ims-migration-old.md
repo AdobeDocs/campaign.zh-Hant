@@ -4,16 +4,16 @@ description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主�
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
 # Campaign技術運運算元移轉至Adobe Developer主控台 {#migrate-tech-users-to-ims}
 
-自Campaign v8.5開始，改善對Campaign v8的驗證流程。 技術操作員必須使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/cn/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
+自Campaign v8.5開始，改善對Campaign v8的驗證流程。 技術操作員必須使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
 
 ## 哪些部分有所變更？{#ims-changes}
 
@@ -40,7 +40,7 @@ Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe 
 1. 將所有Campaign API整合實作移轉至新建立的技術帳戶TA1。
 1. 一旦所有面對客戶的API/整合在TA1上完全開始運作，請以技術帳戶TA1取代技術操作員TO1。
 
-### 必要條件{#ims-migration-prerequisites}
+### 先決條件{#ims-migration-prerequisites}
 
 在開始移轉程式之前，您必須聯絡您的Adobe轉換經理，以便Adobe技術團隊可以移轉您現有的操作員群組和AdobeIdentity Management System (IMS)的已命名許可權。
 
@@ -100,7 +100,7 @@ Campaign一般使用者已透過AdobeAdobe Campaign系統(IMS)，使用其Adobe 
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

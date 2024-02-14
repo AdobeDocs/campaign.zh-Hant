@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1919'
 ht-degree: 91%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 _2022 年 10 月 28 日_
 
-**功能改進**
+**修正**
 
 * 當使用 Adobe Campaign Enhanced MTA 時，成功傳送指標無法正確更新，該問題已修正。 (NEO-50462)
 
@@ -84,7 +84,7 @@ _2022 年 9 月 30 日_
 
 **功能改進**
 
-* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，安裝 **Microsoft Edge WebView 2** 現在，任何使用者端主控台安裝都需要執行階段。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，**Microsoft Edge WebView 2** 的安裝現在在任何用戶端主控台安裝都需要執行階段。
 * 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
 * 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 
@@ -94,7 +94,7 @@ _2022 年 9 月 30 日_
 
 請參閱 [Campaign 相容性對照表](compatibility-matrix.md)。
 
-**修補程式**
+**修正**
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
 * 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079)
@@ -121,11 +121,11 @@ _2022 年 9 月 30 日_
 
 >[!CAUTION]
 >
-> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
+> 使用者端主控台升級為強制。 在此瞭解如何升級您的使用者端主控台 [頁面](../start/connect.md#download-ac-console).
 
 _2022 年 10 月 7 日_
 
-**功能改進**
+**修正**
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
 * 此 **資料庫清理** 技術工作流程現在也可處理自訂的準備結構。 (NEO-48974)
@@ -232,9 +232,9 @@ _2022 年 5 月 18 日_
 * Web 流程的預設連接數已從 50 增加到 150。 
 * Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 [閱讀全文](../architecture/keys.md)
 
-**修補程式**
+**修正**
 
-* 修復了使用種子和控制群組定期傳送時發生的問題。(NEO-41197)
+* 修復了使用種子和控制組定期傳送時發生的問題。(NEO-41197)
 * 修正 FFDA 上的一個問題，即當個人化區塊包含以下字元之一時，在傳送過程中 (最多256)，屬於同一個 deliveryPart 的電子郵件傳送被封鎖： `' & < > "`。 個人化區塊現在支援這些字元 (例如：firstname=&quot;Brian O&#39;Neil&quot;)。 (NEO-43184)
 * 修復了使用自訂方案作為目標對應時可能導致追蹤工作流程失敗的問題。 現在，我們透過目標對應精靈產生 broadLog 方案時，確保自訂目標方案的外部連結的類型正確。 (NEO-43506)
 * 修復了一個問題，該問題可能導致 FFDA 部署工作流程對於英文以外的語言失敗。 (NEO-44561)
@@ -243,7 +243,7 @@ _2022 年 5 月 18 日_
 
 _2022 年 2 月 2 日_
 
-**修補程式**
+**修正**
 
 * 修復在達到類型規則定義的最大訊息數時導致傳遞準備失敗的問題。
 * 修復在設定 Adobe Analytics 連接器期間，當電子郵件地址包含「s」字元時發生的問題。

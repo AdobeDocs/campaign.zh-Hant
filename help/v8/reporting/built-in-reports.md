@@ -5,21 +5,21 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 2%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
 # Adobe Campaign內建報告 {#ootb-reports}
 
-此頁面提供Adobe Campaign內建報告的清單、其內容與內容。 Adobe Campaign提供一系列內建報表，使用者可在使用者端主控台或網際網路瀏覽器中存取。
+此頁面提供Adobe Campaign內建報告的清單、其內容與內容。 Adobe Campaign提供一系列內建報表，可從使用者端主控台或網際網路瀏覽器存取。
 
 可用的報表型別如下：
 
 * 整個平台的報告。 [了解更多](global-reports.md)。
-* 傳遞報告. [了解更多](delivery-reports.md)。
+* 傳遞報告。 [了解更多](delivery-reports.md)。
 
 您可以從Campaign首頁、專用報告儀表板或傳遞清單存取內建報告。 報表在UI中的顯示方式取決於其內容。
 

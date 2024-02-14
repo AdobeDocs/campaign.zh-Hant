@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,7 @@ Adobe Campaign元件和全球架構說明如下。
 
 ![](assets/do-not-localize//ac-components.png)
 
-### 展示層{#presentation-layer}
 
-您可以透過Rich使用者端、Thin使用者端或API整合來存取Adobe Campaign。
-
-* 豐富型使用者端
-
-  Campaign Rich client是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 [深入瞭解Campaign使用者端主控台](../start/connect.md).
-
-* 精簡型使用者端
-
-  Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  [進一步瞭解Campaign網頁存取](../start/connect.md).
-
-* 外部應用程式與API
-
-  在某些情況下，可以使用透過SOAP通訊協定公開的網站服務API，從外部應用程式呼叫系統。 [進一步瞭解Campaign API](../dev/api.md).
 
 ### 持續層{#persistance-layer}
 

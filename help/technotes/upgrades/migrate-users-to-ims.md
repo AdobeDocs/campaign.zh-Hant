@@ -2,10 +2,10 @@
 title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
+source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 2%
+source-wordcount: '1345'
+ht-degree: 1%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 對於新客戶 — 不允許從頭開始建立新的原生使用者。
 
-身為Campaign管理員，您可以透過Adobe Admin Console和Campaign使用者端主控台將許可權授予組織的使用者。 使用者使用其Adobe ID登入Adobe Campaign。 進一步瞭解 [本檔案](../../v8/start/gs-permissions.md).
+身為Campaign管理員，您可以透過Adobe Admin Console和Campaign使用者端主控台將許可權授與組織的使用者。 使用者使用其Adobe ID登入Adobe Campaign。 進一步瞭解 [本檔案](../../v8/start/gs-permissions.md).
 
 ### 如何為目前原生使用者新增電子郵件？ {#ims-migration-id}
 
@@ -87,7 +87,41 @@ ht-degree: 2%
 1. 輸入操作員的電子郵件，在 **聯絡方式** 運運算元表單的區段。
 1. 儲存您的變更。
 
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
+身為工作流程主管或Campaign管理員，您也可以使用工作流程對操作員執行大量更新。
+
++++使用工作流程更新運運算元的關鍵步驟
+
+若要對原生運運算元執行大量更新，請遵循下列步驟：
+
+1. 建立工作流程，將您連線至具有原生驗證模式Campaign的所有運運算元擷取到CSV檔案。 使用 **查詢** 活動和 **資料擷取（檔案）** 建立CSV檔案的活動。 您可以根據每個運運算元的設定檔資料，匯出下列各欄： `Name, Label`.
+
+   進一步瞭解 **查詢** 中的活動 [此頁面](../../automation/workflow/query.md)
+
+   進一步瞭解 **資料擷取（檔案）** 中的活動 [此頁面](../../automation/workflow/extraction--file-.md)
+
+1. 以包含您操作員電子郵件的新欄更新CSV檔案。
+
+1. 建立工作流程以匯入更新的資料，使用 **資料載入（檔案）** 活動和 **更新資料** 活動。
+
+   ![](assets/update-operators-wf.png){width="70%"}
+
+1. 編輯 **資料載入（檔案）** 活動，並定義設定以載入更新的CSV檔案，如下面的範例所示。
+
+   ![](assets/data-loading-activity.png){width="70%"}
+
+   進一步瞭解 **資料載入（檔案）** 中的活動 [此頁面](../../automation/workflow/data-loading--file-.md)
+
+1. 編輯 **更新資料** 活動，並依照下列範例定義設定。 請注意 **已更新維度** 已變更為 `Operators (xtk)`.
+
+   ![](assets/update-data-activity.png){width="70%"}
+
+   進一步瞭解 **更新資料** 中的活動 [此頁面](../../automation/workflow/update-data.md)
+
+1. 執行工作流程並檢查結果。 電子郵件地址已新增到操作員的設定檔。
+
+   ![](assets/updated-operator.png){width="70%"}
+
++++
 
 
 ### 如何透過IMS登入Campaign？ {#ims-migration-log}

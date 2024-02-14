@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 2%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 1. 指派 **應用程式ID** 的 [您先前建立的應用程式](#get-client-id-microsoft).
 1. 按一下 **管理角色** 並選擇 **系統管理員** 角色至使用者。
 
-## 設定 Campaign {#configure-acc-for-microsoft}
+## 設定Campaign {#configure-acc-for-microsoft}
 
 ### 建立連線{#new-ms-dyn-external-account}
 

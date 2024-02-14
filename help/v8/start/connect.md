@@ -1,22 +1,20 @@
 ---
-title: 連線至Campaign v8
-description: 了解如何連接到 Adobe Campaign v8 並在您的機器上安裝主控台以易於存取。
+title: 使用使用者端主控台連線至Campaign
+description: 瞭解如何在電腦上安裝Campaign使用者端主控台，以及如何連線至Adobe Campaign
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '850'
+ht-degree: 5%
 
 ---
 
-# 連線至Adobe Campaign v8{#gs-ac-connect}
+# 使用使用者端主控台連線至Campaign{#gs-ac-connect}
 
-若要開始使用Campaign，您必須安裝並設定使用者端主控台。
-
-「使用者端主控台」是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign使用者端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign使用者端主控台專為輕鬆部署而設計，可從網際網路瀏覽器部署、自動更新，且不需要任何特定網路設定，因為它只會產生HTTP(S)流量。
+若要使用使用者端主控台連線至Campaign，您必須先安裝並設定它。
 
 開始之前，您需要：
 
@@ -25,13 +23,19 @@ ht-degree: 8%
 * 建立您的Adobe ID，或從您的公司取得使用者認證
 * 在您的系統上安裝Microsoft Edge Webview2執行階段。 [了解更多](#webview)
 
-## 安裝使用者端主控台{#download-ac-console}
+
+>[!NOTE]
+>
+>您也可以使用網頁瀏覽器連線至Campaign網頁使用者介面。 進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+
+## 安裝用戶端控制台{#download-ac-console}
 
 ### Microsoft Edge Webview2執行階段 {#webview}
 
 從Campaign Classic8.4建置版本開始，任何使用者端主控台安裝都需要安裝Microsoft Edge Webview 2執行階段。
 
-Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系統上尚未安裝該應用程式，Campaign使用者端主控台安裝程式會提示您從進行下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已停止支援。 請確定您使用不同的瀏覽器來存取連結。
+Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系統上尚未存在它，Campaign使用者端主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已停止支援。 請確定您使用不同的瀏覽器來存取連結。
 
 ### 下載主控台{#install-ac-console}
 
@@ -41,15 +45,15 @@ Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系�
 
 1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
 
-1. 身為一般使用者，您的Campaign管理員會為您部署使用者端主控台，並透過專用的URL提供使用。
+1. 身為一般使用者，您的Campaign管理員會為您部署使用者端主控台，並透過專用URL提供使用。
 
-下載Client Console安裝程式後，請將其安裝在您的本機電腦上。
+下載使用者端主控台安裝程式後，請將其安裝在您的本機電腦上。
 
 請注意，使用者端主控台語言安裝後，您就無法變更。
 
 ## 建立您的連線{#create-your-connection}
 
-安裝「使用者端主控台」後，請依照下列步驟建立與應用程式伺服器的連線：
+安裝使用者端主控台後，請依照下列步驟建立與應用程式伺服器的連線：
 
 1. 啟動Console並瀏覽右上角的連結以存取連線設定畫面。
 
@@ -71,7 +75,7 @@ Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系�
 
 ## 登入Adobe Campaign {#logon-to-ac}
 
-Campaign使用者透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線至Identity Management主控台。 他們可以在所有Adobe解決方案中使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。 進一步瞭解Adobe IMS，請參閱 [此頁面](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+Campaign使用者透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線至Identity Management主控台。 他們可以在所有Adobe解決方案中使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。 進一步瞭解Adobe IMS，請參閱 [此頁面](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}.
 
 若要登入執行個體，請遵循下列步驟：
 

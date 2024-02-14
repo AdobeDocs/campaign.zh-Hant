@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 Adobe Campaign中有以下型別的篩選器：
 
-## 預先定義的篩選{#predefined-filters}
+## 預先定義的篩選器{#predefined-filters}
 
 預先定義的篩選器可從 **篩選器** 按鈕來顯示每個清單的上方。
 
@@ -193,7 +193,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 新增後，快速篩選欄位會逐一顯示在資料清單上方。 它們可以各自獨立刪除。
 
-快速篩選是每個運運算元專屬的行為，每當運運算元清除其使用者端主控台的快取時，就會重新初始化。
+快速篩選器是每個運運算元所專屬，每當運運算元清除其使用者端主控台的快取時，就會重新初始化。
 
 如果您需要重複使用篩選器，請建立 **進階篩選** 並儲存。 [了解更多](#advanced-filters)。
 

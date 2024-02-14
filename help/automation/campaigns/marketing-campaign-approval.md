@@ -5,9 +5,9 @@ description: 瞭解如何管理行銷活動的核准
 feature: Approvals, Campaigns
 role: User
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 ## 檢閱及核准傳遞 {#review-and-approve-deliveries}
 
-您可以針對每個行銷活動核准傳遞目標， [傳遞內容](#approving-content) 和成本。 可以透過電子郵件形式通知負責核准的Adobe Campaign操作者，然後他們可透過使用者端主控台或網路連線核准或拒絕核准。 [了解更多](#approving-processes)。
+您可以針對每個行銷活動核准傳遞目標， [傳遞內容](#approving-content) 和成本。 可以透過電子郵件形式通知負責核准的Adobe Campaign操作者，然後他們可透過使用者端主控台或網頁瀏覽器核准或拒絕核准。 [了解更多](#approving-processes)。
 
 如果是直接郵件傳送，Adobe Campaign操作員可在解壓縮檔案傳送給路由器之前檢視解壓縮檔案，並可視需要變更格式及重新啟動解壓縮。 [了解更多](#approve-an-extraction-file)。
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ### 核准傳遞的步驟 {#approving-processes}
 
-需要核准的階段會出現在行銷活動控制面板上（透過使用者端主控台或網頁介面）。 它們也會出現在傳送追蹤表格和傳送控制面板上。
+需要核准的步驟會顯示在Campaign控制面板上（透過使用者端主控台或網頁瀏覽器）。 它們也會出現在傳送追蹤表格和傳送控制面板上。
 
 ![](assets/delivery-approval-actions.png)
 
@@ -165,7 +165,7 @@ ht-degree: 1%
 
    * 透過通知電子郵件：通知電子郵件包含已傳送校樣的連結，並且可能在以下情況下呈現各種網頁郵件的訊息： **傳遞能力** 已針對此執行個體啟用附加元件。
 
-   * 透過使用者端主控台或網頁介面、傳遞追蹤、傳遞控制面板或行銷活動控制面板。 此行銷活動儀表板可讓您按一下 **[!UICONTROL Inbox rendering...]** 連結。 若要檢視其內容，請按一下 **[!UICONTROL Detail]** 圖示加以儲存。
+   * 透過使用者端主控台或網頁瀏覽器、傳遞追蹤、傳遞控制面板或行銷活動控制面板。 此行銷活動儀表板可讓您按一下 **[!UICONTROL Inbox rendering...]** 連結。 若要檢視其內容，請按一下 **[!UICONTROL Detail]** 圖示加以儲存。
 
 1. 系統會傳送通知電子郵件給行銷活動的負責人，通知其內容是否已核准。 行銷活動的負責人可以隨時重新開始內容核准週期。 若要這麼做，請按一下 **[!UICONTROL Content status]** 行銷活動控制面板的行（在傳遞層級），然後按一下 **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 
 1. 負責內容編輯的人員會收到電子郵件，通知他們內容可用。
 
-1. 接著，他們可以登入Client Console、開啟傳遞，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
+1. 接著，他們可以登入使用者端主控台、開啟傳遞，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
 
    >[!NOTE]
    >
@@ -199,7 +199,7 @@ ht-degree: 1%
 1. 外部內容管理員會收到通知電子郵件，告知他們內容已核准並請求外部核准。
 1. 通知電子郵件包含已傳送校樣的連結（可讓您檢視傳遞呈現），以及核准或拒絕傳遞內容的按鈕。
 
-只有在已傳送一或多個校樣時，才可使用這些連結。 否則，傳遞呈現只能透過使用者端主控台或網頁介面使用。
+只有在已傳送一或多個校樣時，才可使用這些連結。 否則，傳遞呈現只能透過使用者端主控台或網頁瀏覽器取得。
 
 ### 核准擷取檔案 {#approve-an-extraction-file}
 
@@ -219,7 +219,7 @@ ht-degree: 1%
 
 ### 在儀表板中核准 {#approval-via-the-dashboard}
 
-若要透過使用者端主控台或網頁介面核准工作，請按一下行銷活動控制面板上的適當連結。
+若要透過使用者端主控台或使用網頁瀏覽器核准工作，請按一下行銷活動控制面板上的適當連結。
 
 例如，執行傳遞分析後：
 
@@ -249,7 +249,7 @@ ht-degree: 1%
 1. 登入Adobe Campaign。
 1. 檢查要核准的資訊
 1. 選取 **[!UICONTROL Accept]** 或 **[!UICONTROL Reject]** 並視需要輸入註解。
-1. 驗證. 您的選擇和註解會顯示在驗證記錄中。
+1. 驗證。 您的選擇和註解會顯示在驗證記錄中。
 
 >[!NOTE]
 >

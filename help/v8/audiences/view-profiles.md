@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '552'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 ![](assets/edit-a-profile.png)
 
-用戶檔案相關的資料會被歸類在索引標籤中。這些標籤及其內容取決於您的特定設定和已安裝的套件。
+有關設定檔的資料會分組在索引標籤中。 這些標籤及其內容取決於您的特定設定和已安裝的套件。
 
 對於典型的內建收件者，您可以存取下列標籤：
 
@@ -77,21 +77,19 @@ ht-degree: 16%
 * **傳遞**，以取得所選設定檔的所有傳送記錄。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
-* **追蹤**，以取得所選設定檔的所有追蹤記錄。 此資訊用於追蹤歸檔用戶於傳遞後的活動。此索引標籤顯示在傳遞中追蹤的所有 URL 累積數目。清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
+* **追蹤**，以取得所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
   進一步瞭解追蹤 [在本節中](../start/tracking.md).
 
 
 ## 使用中的設定檔案 {#active-profiles}
 
-有效用戶檔案指的是可計費開立帳單的用戶檔案。
+作用中設定檔是客戶在過去12個月嘗試透過任何通道與之通訊的設定檔。 授權量度以作用中設定檔為基礎。 進一步瞭解 [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-計費帳單僅會考慮&#x200B;**有效** 的用戶檔案。如果在過去 12 個月透過任何通路鎖定過用戶檔案或與其進行過通訊，那麼則該用戶檔案被視為有效。
-
-數個傳送所定位的設定檔只會計算一次。
-
-作用中設定檔計數可用於 **行銷例項** 僅限。 它不適用於執行例項，亦即MID (mid sourcing)和RT （Message Center/即時傳訊）例項。
-
->[!NOTE]
+>[!CAUTION]
 >
->您也可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>* 數個傳送所定位的設定檔只會計算一次。
+>
+>* 在X上的社交行銷內容(先前稱為Twitter)中鎖定的設定檔，不會視為作用中設定檔。
+
+您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.

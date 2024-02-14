@@ -5,10 +5,10 @@ description: 建立本機行銷活動
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 2%
+source-wordcount: '1553'
+ht-degree: 1%
 
 ---
 
@@ -46,17 +46,17 @@ ht-degree: 2%
 
 ![](assets/mkt_distr_4.png)
 
-### 網頁介面 {#web-interface}
+### 介面型別 {#web-interface}
 
-在 **分散式行銷** 標籤，您可以選擇Web介面的型別，並指定當本機實體下訂單時要輸入的預設值和引數。
+在 **分散式行銷** 標籤，您可以選擇介面型別，並指定當本機圖元下訂單時要輸入的預設值和引數。
 
-Web介面對應於由本機實體在訂購行銷活動時填寫的表單。
+介面對應於由本機實體在訂購行銷活動時填寫的表單。
 
-選取要套用至從範本建立之行銷活動的網頁介面型別：
+選取要套用至從範本建立之行銷活動的介面型別：
 
 ![](assets/mkt_distr_1.png)
 
-可用的網頁介面有四種型別：
+可用的介面型別有四種：
 
 * **[!UICONTROL By brief]** ：本機實體必須提供說明，以便說明行銷活動設定。 訂單獲得核准後，中央實體會設定並執行整個行銷活動。
 

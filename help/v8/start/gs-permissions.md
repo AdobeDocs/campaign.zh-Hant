@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 主要步驟為：
 
-* **步驟1**：在Campaign使用者端主控台中定義運運算元群組並指派許可權。 [了解更多](manage-permissions.md#create-product-profile).
+* **步驟1**：在Campaign使用者端主控台中定義運運算元群組並指派許可權。 [瞭解更多](manage-permissions.md#create-product-profile).
 請注意，您也可以使用內建運運算元群組作為開頭。 這些預設群組及其許可權列於 [本節](manage-permissions.md#ootb-productprofiles).
-* **步驟2**：在Adobe Admin Console中建立與這些群組相符的產品設定檔。 [了解更多](manage-permissions.md#create-product-profile).
+* **步驟2**：在Adobe Admin Console中建立與這些群組相符的產品設定檔。 [瞭解更多](manage-permissions.md#create-product-profile).
 一開始可以使用內建的產品設定檔。 [了解更多](manage-permissions.md#ootb-productprofiles)。
 * **步驟3**：在Adobe Admin Console中建立使用者，並將其指派至產品設定檔。 [了解更多](manage-permissions.md#add-users)。
 * **步驟4** （選用）：指派檔案夾的許可權。 [了解更多](manage-permissions.md#ootb-productprofiles)。

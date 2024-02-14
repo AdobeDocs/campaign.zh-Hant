@@ -5,9 +5,9 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '930'
 ht-degree: 98%
 
 ---
@@ -23,10 +23,10 @@ Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建�
 
 ![](../assets/do-not-localize/speech.png)若需了解&#x200B;**存取權限**&#x200B;與&#x200B;**被遺忘的權利** (刪除請求)，請參閱 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}。
 
-
+<!--
 >[!NOTE]
 >
->此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
 
 ## 定義命名空間 {#namespaces}
 
@@ -89,7 +89,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 儲存您的變更。
 
-您現在可以根據新的命名空間來建立隱私權要求。如果使用多個命名空間，請為每個命名空間相同的協調值建立一個隱私權請求。
+您現在可以根據新的命名空間來建立隱私權要求。如果使用多個命名空間，請為每個命名空間相同的調和值建立一個隱私權請求。
 
 ## 建立隱私權請求 {#create-privacy-request}
 

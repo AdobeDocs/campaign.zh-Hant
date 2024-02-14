@@ -2,19 +2,19 @@
 product: campaign
 title: 使用者端主控台32位元淘汰
 description: 使用者端主控台32位元淘汰
-exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
 
 # 停止支援32位元作業系統 {#console-eol}
 
-使用者端主控台的32位元版本已在8.5版本中淘汰。 使用者端主控台有新的64位元版本，可進行順暢的升級。
+使用者端主控台的32位元版本在8.5版本中已過時。 使用者端主控台有新的64位元版本，可進行順暢的升級。
 
-從8.6版開始，Campaign v8將停止支援32位元作業系統，包括產品和安全更新。 Adobe強烈建議您保持最新的安全性更新。
+自8.6發行版本開始，Campaign停止支援32位元作業系統，包括產品和安全更新。 Adobe強烈建議您保持最新的安全性更新。
 
 只有32位元版本的Windows 8或10，才會受到此變更的影響。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 +++是否有計畫停止新的Campaign v8 32位元使用者端主控台安裝？
 
-是. 自8.6發行版本開始，Campaign v8使用者端主控台將不再提供32位元版本。 只有64位元版本可用。
+是。 自8.6發行版本開始，Campaign v8使用者端主控台將不再提供32位元版本。 只有64位元版本可用。
 
 +++
 

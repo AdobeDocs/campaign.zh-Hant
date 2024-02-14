@@ -5,15 +5,15 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '808'
+ht-degree: 2%
 
 ---
 
 
-# 傳送及監視您的電子郵件
+# 傳送及監視您的電子郵件  {#send-and-monitor-emails}
 
 當傳送已設定好並準備好傳送時，請確定您已執行傳送分析。 [了解更多](delivery-analysis.md)
 
@@ -21,12 +21,18 @@ ht-degree: 3%
 
 從追蹤傳送的執行 **傳遞** 索引標籤，可透過此傳送的詳細資訊或傳送清單存取。
 
-## 監視您的電子郵件
+## 監視您的電子郵件 {#email-monitoring}
 
-傳送後，在傳送控制面板中檢查您的傳送狀態，並存取傳送記錄檔及報告，以確認訊息已正確傳送。
+傳送後，請在「 」中檢查您的傳送狀態 **傳遞儀表板** 和存取傳遞記錄及報告，以確認訊息已正確傳送。
 
-![](../assets/do-not-localize/book.png) [在 Campaign Classic v7 文件 中深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+從傳送控制面板中，您可以檢查已處理的訊息和傳送稽核記錄。 您也可以控制傳送記錄檔中訊息的狀態。
 
+>[!NOTE]
+>
+>傳遞狀態不會即時顯示。 進一步瞭解電子郵件回饋服務 [在本節中](#email-feedback-service).
+
+
+![](../assets/do-not-localize/book.png) [在Campaign Classic v7檔案中進一步瞭解傳遞監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -73,11 +79,9 @@ Domain Keys Identified Mail (DKIM)是一種用於偵測偽造的寄件者地址�
 
 ## 電子郵件回饋服務 {#email-feedback-service}
 
-使用電子郵件回饋服務(EFS)功能，可準確報告每個電子郵件的狀態，因為回饋會直接從MTA擷取。
+Campaign電子郵件回饋服務(EFS)會報告透過Adobe Campaign傳送的每個電子郵件傳遞的狀態。
 
-開始傳送後， **[!UICONTROL Success]** 訊息成功從Campaign轉送至MTA時的百分比。
-
-傳遞記錄顯示 **[!UICONTROL Taken into account by the service provider]** 每個目標地址的狀態。
+開始傳送後， **[!UICONTROL Success]** 訊息成功從Campaign轉送至MTA時的百分比。 傳遞記錄顯示 **[!UICONTROL Taken into account by the service provider]** 每個目標地址的狀態。
 
 當訊息實際傳送到目標設定檔時，一旦從MTA即時回報此資訊，傳送記錄會顯示 **[!UICONTROL Sent]** 成功接收訊息的每個位址的狀態。 此 **[!UICONTROL Success]** 百分比會隨著每次成功傳遞而增加。
 
@@ -95,7 +99,7 @@ Domain Keys Identified Mail (DKIM)是一種用於偵測偽造的寄件者地址�
 >
 >如需傳送暫時失敗後重試的詳細資訊，請參閱 [本節](delivery-failures.md#retries).
 
-下表顯示如何使用EFS功能在傳送程式的每個步驟更新KPI和傳送記錄檔狀態。
+下表顯示如何在傳送程式的每個步驟更新KPI和傳送記錄檔狀態。
 
 | 傳送程式中的步驟 | KPI摘要 | 傳送記錄檔狀態 |
 |--- |--- |--- |

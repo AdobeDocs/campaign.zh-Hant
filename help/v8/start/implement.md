@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 97%
+source-wordcount: '1146'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 在本節中瞭解如何根據貴公司的需求調整 Adobe Campaign。 使用下列方針來建構並組織您的實施。
 
-1. **定義設定**：授與存取權、共用用戶端控制台、設定頻道 (電子郵件、推播、簡訊).[了解更多](#implementation-ac-settings)
+1. **定義設定**：授與存取權、共用使用者端主控台、設定頻道（電子郵件、推播、簡訊）。 [了解更多](#implementation-ac-settings)
 1. **準備環境**：匯入設定檔、建立對象、設計工作流程和行銷活動範本，以及建立類型規則。[了解更多](#implementation-prepare-your-env)
 1. **自訂您的執行個體**：建立新資料欄位，新增表格/方案。[了解更多](#implementation-custom-your-instance)
 1. **自動化您的流程**：設定 Adobe Campaign 自動化功能。 [了解更多](#implementation-automation)
@@ -58,11 +58,11 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 ![](../assets/do-not-localize/glass.png) 在[本節](../start/gs-permissions.md)瞭解如何新增使用者至 Adobe Campaign。
 
-### 安裝 Campaign 用戶端控制台{#implementation-install-console}
+### 安裝Campaign使用者端主控台{#implementation-install-console}
 
-應用程式的主要使用者介面為豐富型客戶端，換言之，即僅與擁有標準網際網路通訊協定 (SOAP、HTTP 等) 的 Adobe Campaign 應用程式伺服器通訊的原生應用程式 (Windows)。Adobe Campaign 用戶端控制台提供絕佳使用便利性，可大幅提升生產力，而且使用的頻寬很少 (透過使用本機快取)，而且易於部署。 此控制台可從網路瀏覽器部署、可自動更新，且不需要任何特定網路組態，因為它只會產生 HTTP(S) 流量。
+應用程式的主要使用者介面為豐富型客戶端，換言之，即僅與擁有標準網際網路通訊協定 (SOAP、HTTP 等) 的 Adobe Campaign 應用程式伺服器通訊的原生應用程式 (Windows)。Adobe Campaign使用者端主控台提供絕佳的使用者便利性，可大幅提升生產力，而且使用的頻寬很少（透過使用本機快取），而且易於部署。 此控制台可從網路瀏覽器部署、可自動更新，且不需要任何特定網路組態，因為它只會產生 HTTP(S) 流量。
 
-![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 用戶端主控台](connect.md)。
+![](../assets/do-not-localize/glass.png) [深入瞭解Campaign使用者端主控台](connect.md).
 
 ## 準備您的環境{#implementation-prepare-your-env}
 
@@ -160,7 +160,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 * Campaign - Analytics 資料連接器
 
 
-您也可以使用單一登入 (SSO) 來連線至 Campaign。在[本頁](connect.md)瞭解更多。
+您只能使用單一登入(SSO)來連線至Campaign。 在[本頁](connect.md)中瞭解更多。
 
 ![](../assets/do-not-localize/glass.png) 在[本頁面](../connect/integration.md)瞭解可整合 Adobe Campaign 的完整 Adobe 解決方案清單。
 

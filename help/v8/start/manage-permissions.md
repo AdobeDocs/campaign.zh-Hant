@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
    瞭解如何在中建立使用者群組 [本節](#user-groups)
 
-1. 按一下「**儲存**」。會新增使用者，並顯示在使用者清單中。 如果您將管理員角色或產品設定檔指派給使用者，使用者會收到電子郵件通知。 使用者必須按照連結完成他們的設定檔。
+1. 按一下 **儲存**. 會新增使用者，並顯示在使用者清單中。 如果您將管理員角色或產品設定檔指派給使用者，使用者會收到電子郵件通知。 使用者必須按照連結完成他們的設定檔。
 
 在中進一步瞭解在Admin Console中建立使用者 [此頁面](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
@@ -104,7 +104,7 @@ Adobe Campaign內建有 **產品設定檔** 在Adobe啟用您的環境時定義�
 
    * **[!UICONTROL ADMINISTRATION]**：執行/建立/編輯/刪除任何物件的權利，例如工作流程、傳送、指令碼等
 
-1. **[!UICONTROL Delivery operators]** (配送)
+1. **[!UICONTROL Delivery operators]** （傳遞）
 
    此群組中的運運算元負責管理傳送：他們可讓您存取建立和準備傳送所需的主要資源（行銷活動型別、傳送對應、預設範本、個人化區塊等）。
 
@@ -146,7 +146,7 @@ Adobe Campaign內建有 **產品設定檔** 在Adobe啟用您的環境時定義�
 
    此群組中的使用者可以使用 **[!UICONTROL Distributed marketing]** 附加元件。
 
-1. **[!UICONTROL Offer managers]** (優惠)
+1. **[!UICONTROL Offer managers]** （選件）
 
    此群組中的運運算元在使用互動附加元件時，可以建立和維護優惠方案。 [了解更多](../interaction/interaction-operators.md)。
 
@@ -161,7 +161,7 @@ Adobe Campaign內建有 **產品設定檔** 在Adobe啟用您的環境時定義�
    * 檢視 **[!UICONTROL Live]** 環境。
    * 設定管理功能（預先定義的空格和篩選器）。
    * 建立和更新類別。
-   * 建立優惠.
+   * 建立優惠方案。
    * 設定優惠資格。
    * 核准優惠方案。
 

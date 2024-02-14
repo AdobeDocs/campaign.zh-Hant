@@ -5,7 +5,7 @@ description: 瞭解如何管理行銷資源
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ![](assets/mkt-resouce-approve.png)
 
-然後，授權的操作員可以接受或拒絕核准。 這個動作是可能的：透過傳送的電子郵件訊息（按一下通知訊息中的連結），或透過使用者端主控台(按一下 **[!UICONTROL Approve]** )按鈕。
+然後，授權的操作員可以接受或拒絕核准。 這個動作是可能的：透過已傳送的電子郵件訊息（按一下通知訊息中的連結），或透過使用者端主控台(按一下 **[!UICONTROL Approve]** )按鈕。
 
 核准視窗可讓您輸入註解。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 工作流程會執行：
 
 * 當檢閱者按一下 **[!UICONTROL Publish resource]** 連結（如果未定義稽核者，則為資源負責人）。
-* 如果資源是透過行銷資源建立任務進行管理，則會在任務設定為時執行 **[!UICONTROL Finished]**，只要 **[!UICONTROL Publish the marketing resource]** 方塊。 [了解更多](creating-and-managing-tasks.md#marketing-resource-creation-task))
+* 如果資源是透過行銷資源建立任務進行管理，則會在任務設定為時執行 **[!UICONTROL Finished]**，只要 **[!UICONTROL Publish the marketing resource]** 方塊。 [瞭解更多](creating-and-managing-tasks.md#marketing-resource-creation-task))
 
 如果未立即啟動工作流程（例如工作流程已停止），資源的狀態會變更為 **[!UICONTROL Pending publication]**. 工作流程啟動後，資源的狀態會變更為 **[!UICONTROL Published]**. 此狀態未考慮發佈程式中可能出現的錯誤。 檢查工作流程的狀態，確認工作流程已正確執行。
 
