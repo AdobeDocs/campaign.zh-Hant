@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: b267cb37a94bd389232ccfb9b8df69c9c2caa990
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -80,12 +80,30 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 1. 選取先前在中建立的AEM傳遞 [!DNL Adobe Experience Manager] 並按一下以確認 **[!UICONTROL Ok]**.
 
-1. 您可以直接從插入資產 [!DNL Adobe Experience Manager Assets] 或 [!DNL Adobe Experience Manager Assets Library] 在Adobe Campaign中編輯電子郵件時。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html)。
-
-   若要使用您的 **Adobe Experience Manager Assets資料庫**，存取 **[!UICONTROL Properties]** AEM ，並選取 **[!UICONTROL Advanced]** 標籤。 啟用 **[!UICONTROL Use above AEM instance as shared asset library]** 選項。
-
-   ![](assets/aem_authoring_9.png)
-
 1. 確定按一下 **[!UICONTROL Refresh content]** 按鈕，用於修改AEM傳遞。
 
 您的電子郵件現在已準備好傳送給您的對象。
+
+## 從Adobe Experience Manager Assets資料庫匯入資產 {#assets-library}
+
+您也可以直接從插入資產 [!DNL Adobe Experience Manager Assets Library] 在Adobe Campaign中編輯電子郵件或登入頁面時。 此功能詳見 [Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. 將您的資產上傳到 **Adobe Experience Manager Assets資料庫**. [進一步瞭解](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. 在Adobe Campaign中，瀏覽至 **行銷活動** 標籤，按一下 **傳遞** 並按一下 **建立** 按鈕。
+
+1. 選取 **傳遞範本**，然後為您的傳送命名。
+
+1. 定義及個人化訊息內容。 [了解更多](../send/email.md)
+
+1. 若要使用您的 **Adobe Experience Manager Assets資料庫**，存取 **[!UICONTROL Properties]** AEM ，並選取 **[!UICONTROL Advanced]** 標籤。 啟用 **[!UICONTROL Use above AEM instance as shared asset library]** 選項。
+
+   ![](assets/aem_authoring_9.png)
+
+1. 從 **影像** 圖示，存取 **[!UICONTROL Select a shared asset]** 功能表。
+
+   ![](assets/aem_authoring_10.png)
+
+1. 從選取範圍視窗中，選取影像 **Adobe Experience Manager Assets資料庫**，然後確認。
+
+您的電子郵件傳遞已準備就緒。 您現在可以指定目標對象、確認傳送，然後繼續傳送。
