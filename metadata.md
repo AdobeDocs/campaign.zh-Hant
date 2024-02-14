@@ -9,7 +9,7 @@ git-repo: https://github.com/AdobeDocs/campaign.zh-Hant
 mini-toc-levels: 2
 index: true
 source-git-commit: 61798baddbd6d05660a02549d378d863047fd165
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 100%
 
