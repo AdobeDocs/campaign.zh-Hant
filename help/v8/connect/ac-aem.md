@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
+source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 ![](../assets/do-not-localize/book.png) [在本檔案中進一步瞭解Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-## 使用Adobe Experience Manager製作 {#integrating-with-aem}
+## 從Adobe Experience Manager匯入內容 {#integrating-with-aem}
 
 ![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Adobe Experience Manager與Campaign整合。
 
@@ -80,7 +80,13 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 1. 選取先前在中建立的AEM傳遞 [!DNL Adobe Experience Manager] 並按一下以確認 **[!UICONTROL Ok]**.
 
+   ![](assets/aem_authoring_11.png)
+
 1. 確定按一下 **[!UICONTROL Refresh content]** 按鈕，用於修改AEM傳遞。
+
+   ![](assets/aem_authoring_12.png)
+
+1. 若要移除「Experience Manager」與「促銷活動」之間的連結，請按一下 **[!UICONTROL Desynchronize]**.
 
 您的電子郵件現在已準備好傳送給您的對象。
 
@@ -88,22 +94,42 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 您也可以直接從插入資產 [!DNL Adobe Experience Manager Assets Library] 在Adobe Campaign中編輯電子郵件或登入頁面時。 此功能詳見 [Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
 
-1. 將您的資產上傳到 **Adobe Experience Manager Assets資料庫**. [進一步瞭解](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+**從Adobe Experience Manager：**
+
+1. 導覽至 [!DNL Adobe Experience Manager] 編寫執行個體，然後按一下頁面左上角的Adobe體驗。 選擇 **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** 功能表中。
+
+   ![](assets/aem_assets_1.png)
+
+1. 按一下 **建立** 則 **檔案** 若要將您的資產匯入 **Adobe Experience Manager Assets資料庫**. [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+   ![](assets/aem_assets_2.png)
+
+1. 視需要重新命名您的資產，然後選取 **上傳**.
+
+您的資產現已上傳至 **Adobe Experience Manager Assets資料庫**.
+
+**從Adobe Campaign：**
 
 1. 在Adobe Campaign中，瀏覽至 **行銷活動** 標籤，按一下 **傳遞** 並按一下 **建立** 按鈕。
+
+   ![](assets/aem_assets_3.png)
 
 1. 選取 **傳遞範本**，然後為您的傳送命名。
 
 1. 定義及個人化訊息內容。 [了解更多](../send/email.md)
 
-1. 若要使用您的 **Adobe Experience Manager Assets資料庫**，存取 **[!UICONTROL Properties]** AEM ，並選取 **[!UICONTROL Advanced]** 標籤。 啟用 **[!UICONTROL Use above AEM instance as shared asset library]** 選項。
+1. 若要使用您的 **Adobe Experience Manager Assets資料庫**，存取 **[!UICONTROL Properties]** AEM ，並選取 **[!UICONTROL Advanced]** 標籤。
+
+   選擇您的 **AEM帳戶** 並啟用 **[!UICONTROL Use above AEM instance as shared asset library]** 選項。
 
    ![](assets/aem_authoring_9.png)
 
 1. 從 **影像** 圖示，存取 **[!UICONTROL Select a shared asset]** 功能表。
 
-   ![](assets/aem_authoring_10.png)
+   ![](assets/aem_assets_4.png)
 
-1. 從選取範圍視窗中，選取影像 **Adobe Experience Manager Assets資料庫**，然後確認。
+1. 從選取範圍視窗中，選取影像 **Adobe Experience Manager Assets資料庫**，然後 **選取**.
 
-您的電子郵件傳遞已準備就緒。 您現在可以指定目標對象、確認傳送，然後繼續傳送。
+   ![](assets/aem_assets_5.png)
+
+您的資產現在已上傳至您的電子郵件傳送。 您現在可以指定目標對象、確認傳送，然後繼續傳送。
