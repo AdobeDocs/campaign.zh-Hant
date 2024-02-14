@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 08a7a5f51d20068c31980e7b256e80c36ba6ff31
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 13%
+source-wordcount: '319'
+ht-degree: 15%
 
 ---
 
@@ -14,9 +14,23 @@ ht-degree: 13%
 
 ## 有哪些新功能
 
-快速一覽Adobe Campaign v8產品和檔案的最新增強功能！ 如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](start/release-notes.md)。請瀏覽 [檔案更新](start/documentation-updates.md) 頁面。
+快速一覽Adobe Campaign v8 （使用者端主控台）產品與檔案的最新增強功能！ 如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](start/release-notes.md)。請瀏覽 [檔案更新](start/documentation-updates.md) 頁面。
 
 >[!BEGINTABS]
+
+>[!TAB Campaign v8.6已上線]
+
+最新版Adobe Campaign現已上線。 閱讀版本注意事項以取得更多詳細資訊。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+
+
+>[!TAB 全新Campaign Web使用者介面]
+
+體驗新的Adobe Campaign使用者介面。 更現代、更直覺、更動態！
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
+
 
 >[!TAB 推播頻道近期變更]
 
@@ -24,11 +38,7 @@ Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年�
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
->[!TAB 增強推播通知服務]
 
-Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充能力，確保您的通知能夠以順暢的效率觸及更廣泛的對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更大規模且更可靠的服務，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
 >[!ENDTABS]
 
@@ -102,5 +112,5 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 
 ## 額外資源
 
-[Adobe Campaign v8產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
+[Adobe Campaign v8產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
 

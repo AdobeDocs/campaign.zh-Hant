@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Adobe Campaign v8 產品文件。
+user-guide-description: Adobe Campaign v8 （使用者端主控台）的產品檔案。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 05b911d0675fa69fb8041bbc6d5c465266d9f806
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 86%
+source-wordcount: '575'
+ht-degree: 83%
 
 ---
 
@@ -19,8 +19,10 @@ ht-degree: 86%
 + 版本和最新更新 {#releases}
    + [文件更新](start/documentation-updates.md)
    + [早期發行說明](start/e-release-notes.md)
+   + [版本和升級](start/upgrades.md)
    + [發行說明](start/release-notes.md)
    + 舊版發行說明{#previous-rn}
+      + [2023 年](start/release-notes-2023.md)
       + [2022 年](start/release-notes-2022.md)
       + [2021 年](start/release-notes-2021.md)
    + [護欄](start/ac-guardrails.md)
@@ -29,9 +31,9 @@ ht-degree: 86%
 + 開始使用{#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
    + [主要功能](start/whats-new.md)
+   + [探索使用者介面](start/campaign-ui.md)
+   + [連線至 Campaign](start/connect.md)
    + [元件與流程](start/ac-components.md)
-   + [連結至 Campaign](start/connect.md)
-   + [Campaign 介面](start/campaign-ui.md)
    + [從 Classic v7 到 v8](start/v7-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -42,6 +44,7 @@ ht-degree: 86%
    + 電子郵件 {#emails}
       + [設計和驗證電子郵件](send/email.md)
       + [連結至鏡像頁面](send/mirror-page.md)
+      + [新增密件副本地址](send/email-bcc.md)
       + [定義其他電子郵件引數](send/email-parameters.md)
       + [傳送和監視電子郵件](send/send.md)
    + [簡訊](send/sms.md)
@@ -174,7 +177,6 @@ ht-degree: 86%
    + 設定與組態 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
-      + [電子郵件設定](config/email-settings.md)
       + [異動訊息設定](config/transactional-msg-settings.md)
       + [將Campaign SDK與您的應用程式整合 — 已棄用的頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
