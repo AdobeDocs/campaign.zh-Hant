@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 22%
+source-wordcount: '453'
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 22%
 瞭解如何在的行銷活動工作流程中建立受眾 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
 
 
-## 使用中的設定檔案{#active-profiles}
+## 使用中的設定檔案 {#active-profiles}
 
-根據您的合約，您的每個Campaign執行個體都已布建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。 請參閱您的最新合約，以參考已購買作用中設定檔數目。
+作用中設定檔是客戶在過去12個月嘗試透過任何通道與之通訊的設定檔。 授權量度以作用中設定檔為基礎。 進一步瞭解 [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**個人資料** 表示資訊的記錄(例如： [收件者表格](../dev/datamodel.md) 或包含代表最終客戶、潛在客戶或潛在客戶之Cookie ID、客戶ID、行動識別碼或其他相關特定管道資訊的外部表格。 如果設定檔在過去12個月內透過任何通道而被設為目標或進行通訊，則會視為作用中。
+您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* 數個傳送所定位的設定檔只會計算一次。
+>
+>* 在X (Twitter)的社交行銷內容中定位的設定檔不會計為作用中設定檔。
 
 ## 隱私權與同意{#privacy-and-consent}
 

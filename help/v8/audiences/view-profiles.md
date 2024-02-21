@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '452'
 ht-degree: 4%
 
 ---
@@ -80,16 +80,3 @@ ht-degree: 4%
 * **追蹤**，以取得所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
   進一步瞭解追蹤 [在本節中](../start/tracking.md).
-
-
-## 使用中的設定檔案 {#active-profiles}
-
-作用中設定檔是客戶在過去12個月嘗試透過任何通道與之通訊的設定檔。 授權量度以作用中設定檔為基礎。 進一步瞭解 [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* 數個傳送所定位的設定檔只會計算一次。
->
->* 在X上的社交行銷內容(先前稱為Twitter)中鎖定的設定檔，不會視為作用中設定檔。
-
-您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
