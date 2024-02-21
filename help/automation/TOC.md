@@ -1,23 +1,23 @@
 ---
 audience: user
-user-guide-title: Campaign 自動化指南
-user-guide-description: Campaign 自動化指南
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+user-guide-title: Campaign自動化指南
+user-guide-description: Campaign自動化指南
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '442'
+ht-degree: 81%
 
 ---
 
 
 # Campaign自動化指南 {#automation}
 
-+ [Campaign 自動化指南](home.md)
++ [Campaign自動化指南](home.md)
 + 使用工作流程自動化{#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
       + 工作流程型別 {#wf-type}
-         + [目標定位工作流程](workflow/targeting-workflows.md)
+         + [目標工作流程](workflow/targeting-workflows.md)
          + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)
       + [建置工作流程](workflow/build-a-workflow.md)
@@ -62,7 +62,7 @@ ht-degree: 84%
          + [核准](workflow/approval.md)
          + [外部訊號](workflow/external-signal.md)
          + [分支](workflow/fork.md)
-         + [跳至 (起點和終點)](workflow/jump--start-point-and-end-point-.md)
+         + [跳至 (起點和終點)](workflow/jump-start-point-and-end-point.md)
          + [開始和結束](workflow/start-and-end.md)
          + [排程器](workflow/scheduler.md)
          + [子工作流程](workflow/sub-workflow.md)
@@ -74,9 +74,9 @@ ht-degree: 84%
          + [內容管理](workflow/content-management.md)
          + [持續傳遞](workflow/continuous-delivery.md)
          + [跨頻道傳遞](workflow/cross-channel-deliveries.md)
-         + [資料擷取 (檔案)](workflow/extraction--file-.md)
-         + [資料載入 (檔案)](workflow/data-loading--file-.md)
-         + [資料載入 (RDBMS)](workflow/data-loading--rdbms-.md)
+         + [資料擷取 (檔案)](workflow/extraction-file.md)
+         + [資料載入 (檔案)](workflow/data-loading-file.md)
+         + [資料載入 (RDBMS)](workflow/data-loading-rdbms.md)
          + [傳遞](workflow/delivery.md)
          + [傳遞控制](workflow/delivery-control.md)
          + [本地核准](workflow/local-approval.md)
@@ -128,7 +128,7 @@ ht-degree: 84%
       + [高級參數](workflow/advanced-parameters.md)
       + [JavaScript 指令碼和範本](workflow/javascript-scripts-and-templates.md)
       + [工作流程中的 JavaScript 程式碼範例](workflow/javascript-in-workflows.md)
-      + [存取外部資料庫](workflow/accessing-an-external-database--fda-.md)
+      + [存取外部資料庫](workflow/accessing-an-external-database-fda.md)
       + [管理權限](workflow/managing-rights.md)
       + [變更活動影像](workflow/change-activity-images.md)
       + [管理時區](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 84%
    + [設定及管理核准](campaigns/marketing-campaign-approval.md)
    + [循環和定期行銷活動](campaigns/recurring-periodic-campaigns.md)
    + [監視您的行銷活動](campaigns/marketing-campaign-monitoring.md)
-   + [供應商、庫存和預算](campaigns/providers--stocks-and-budgets.md)
+   + [供應商、庫存和預算](campaigns/providers-stocks-and-budgets.md)
 + 行銷活動最佳化（附加元件）{#campaign-optimization}
    + [開始使用行銷活動型別](campaign-opt/campaign-typologies.md)
    + [篩選規則](campaign-opt/filtering-rules.md)

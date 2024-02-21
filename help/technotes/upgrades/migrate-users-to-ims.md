@@ -2,7 +2,7 @@
 title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -97,7 +97,7 @@ ht-degree: 1%
 
    進一步瞭解 **查詢** 中的活動 [此頁面](../../automation/workflow/query.md)
 
-   進一步瞭解 **資料擷取（檔案）** 中的活動 [此頁面](../../automation/workflow/extraction--file-.md)
+   進一步瞭解 **資料擷取（檔案）** 中的活動 [此頁面](../../automation/workflow/extraction-file.md)
 
 1. 以包含您操作員電子郵件的新欄更新CSV檔案。
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   進一步瞭解 **資料載入（檔案）** 中的活動 [此頁面](../../automation/workflow/data-loading--file-.md)
+   進一步瞭解 **資料載入（檔案）** 中的活動 [此頁面](../../automation/workflow/data-loading-file.md)
 
 1. 編輯 **更新資料** 活動，並依照下列範例定義設定。 請注意 **已更新維度** 已變更為 `Operators (xtk)`.
 

@@ -5,7 +5,7 @@ description: 進一步瞭解行銷活動檔案和傳遞大網
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -120,4 +120,4 @@ ht-degree: 0%
 
 ![](assets/campaign-export-template.png)
 
-匯出模型必須與為相關傳遞選取的服務提供者相關聯。 請參閱[本節](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)。
+匯出模型必須與為相關傳遞選取的服務提供者相關聯。 另請參閱 [本節](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

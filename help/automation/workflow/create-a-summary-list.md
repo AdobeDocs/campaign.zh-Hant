@@ -5,10 +5,10 @@ description: 建立摘要清單
 feature: Workflows, Data Management
 role: User
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 2%
+source-wordcount: '975'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Phone;500;London 5
 
    此 **檔案收集器** 活動可讓您從Adobe Campaign伺服器收集檔案，並將檔案傳送至該伺服器。
 
-   此 **資料載入（檔案）** 活動可讓您使用收集的資料擴充工作流程的工作表。 有關本活動的詳細資訊，請參閱 [此頁面](data-loading--file-.md).
+   此 **資料載入（檔案）** 活動可讓您使用收集的資料擴充工作流程的工作表。 有關本活動的詳細資訊，請參閱 [此頁面](data-loading-file.md).
 
 1. 設定 **檔案收集器** 收集文字的活動(&#42;.txt)從選取的目錄中鍵入檔案。
 

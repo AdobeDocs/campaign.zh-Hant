@@ -5,7 +5,7 @@ description: 進一步瞭解查詢工作流程活動
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * 選取 **[!UICONTROL Data linked to the filtering dimension]** 以選取Adobe Campaign資料庫中的資料。
-* 選取 **[!UICONTROL External data]** 從外部資料庫新增資料。 此選項僅在您已購買 **同盟資料存取** 選項。 有關詳細資訊，請參閱 [存取外部資料庫(FDA)](accessing-an-external-database--fda-.md).
+* 選取 **[!UICONTROL External data]** 從外部資料庫新增資料。 此選項僅在您已購買 **同盟資料存取** 選項。 有關詳細資訊，請參閱 [存取外部資料庫(FDA)](accessing-an-external-database-fda.md).
 * 選取 **[!UICONTROL An offer proposition]** 用於新增一組欄的選項，可讓您儲存優惠方案引擎產生的最佳主張。 此選項僅在您已購買 **互動** 模組。
 
 如果平台上未安裝選用模組，則此階段不會顯示。 您將直接進入下一個階段。

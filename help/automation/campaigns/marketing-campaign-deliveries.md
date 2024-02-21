@@ -5,9 +5,9 @@ description: 進一步瞭解行銷活動傳遞
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -112,4 +112,4 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >進一步瞭解預算 [在本節中](providers--stocks-and-budgets.md).
+  >進一步瞭解預算 [在本節中](providers-stocks-and-budgets.md).

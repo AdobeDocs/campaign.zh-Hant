@@ -5,7 +5,7 @@ description: 關於動作活動
 feature: Workflows, Data Management
 role: User
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 * **[內容管理](content-management.md)**：可讓您建立或自訂內容。
 * **[持續傳遞](continuous-delivery.md)**：可讓您從活動中指定的案例開始傳送。
 * **[跨頻道傳遞](cross-channel-deliveries.md)** （僅限行銷活動工作流程）：可讓您在對應頻道上設定傳送：電子郵件、推播、行動裝置、直接郵件。
-* **[資料載入（檔案）](data-loading--rdbms-.md)**：可讓您存取外部資料來源以使用其資料。
-* **[資料載入(RDBMS)](data-loading--rdbms-.md)**：可讓您存取外部資料庫以取得資料。
+* **[資料載入（檔案）](data-loading-rdbms.md)**：可讓您存取外部資料來源以使用其資料。
+* **[資料載入(RDBMS)](data-loading-rdbms.md)**：可讓您存取外部資料庫以取得資料。
 * **[傳遞](delivery.md)**：可讓您設定傳送動作。
 * **[傳遞控制](delivery-control.md)**：可讓您開始、暫停或停止傳送。
-* **[擷取（檔案）](extraction--file-.md)**：可讓您從檔案中的表格擷取資料。
+* **[擷取（檔案）](extraction-file.md)**：可讓您從檔案中的表格擷取資料。
 * **[載入(SOAP)](loading-soap.md)**：可讓您透過SOAP呼叫收集資料。
 * **[本地核准](local-approval.md)**：可讓您在分散式行銷內容中執行核准和目標定位通知（選用模組）。
 * **[Nlserver模組](nlserver-module.md)**：使用引數啟動nlserver模組。

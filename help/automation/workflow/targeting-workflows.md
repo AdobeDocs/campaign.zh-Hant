@@ -3,9 +3,9 @@ title: 建立目標工作流程
 description: 瞭解如何在工作流程中建立目標對象
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2252'
 ht-degree: 6%
 
 ---
@@ -270,7 +270,7 @@ A **[!UICONTROL Query]** 活動可讓您選取基本資料以建置目標母體�
 
 為了實作這些作業，Adobe Campaign提供：
 
-* 資料收集活動： [檔案傳輸](file-transfer.md)， [資料載入（檔案）](data-loading--file-.md)， [資料載入(RDBMS)](data-loading--rdbms-.md)， [更新資料](update-data.md). 收集資料的第一個步驟是準備資料，以便在其他活動中處理。 為了確保工作流程正確執行並提供預期的結果，需要監控數個引數。 例如，當您匯入資料時，此資料的主索引鍵(Pkey)對於每個記錄必須是唯一的。
+* 資料收集活動： [檔案傳輸](file-transfer.md)， [資料載入（檔案）](data-loading-file.md)， [資料載入(RDBMS)](data-loading-rdbms.md)， [更新資料](update-data.md). 收集資料的第一個步驟是準備資料，以便在其他活動中處理。 為了確保工作流程正確執行並提供預期的結果，需要監控數個引數。 例如，當您匯入資料時，此資料的主索引鍵(Pkey)對於每個記錄必須是唯一的。
 * 目標定位活動已新增資料管理選項： [查詢](query.md)， [聯集](union.md)， [交集](intersection.md)， [Split](split.md). 這可讓您在數個不同目標維度的資料之間設定聯合或交集，前提是資料協調可行。
 * 資料轉換活動： [擴充](enrichment.md)， [變更維度](change-dimension.md).
 

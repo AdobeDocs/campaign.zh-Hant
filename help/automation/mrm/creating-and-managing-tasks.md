@@ -5,7 +5,7 @@ description: 建立及管理任務
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 >[!NOTE]
 >
->如需費用與預算的詳細資訊，請參閱 [本節](../campaigns/providers--stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>如需費用與預算的詳細資訊，請參閱 [本節](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
 
 在此視窗中，您也可以定義要達成的目標。 目標會以任務的預測收入表示。
 

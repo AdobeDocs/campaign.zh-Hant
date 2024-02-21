@@ -4,9 +4,9 @@ title: 子工作流程
 description: 進一步瞭解子工作流程活動
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以在單一工作流程中呼叫多個子工作流程。 子工作流程會同步執行。
 
-在以下範例中，主要工作流程是使用跳轉呼叫子工作流程。 有關跳轉型別圖形物件的詳細資訊，請參閱 [本節](jump--start-point-and-end-point-.md).
+在以下範例中，主要工作流程是使用跳轉呼叫子工作流程。 有關跳轉型別圖形物件的詳細資訊，請參閱 [本節](jump-start-point-and-end-point.md).
 
 1. 建立您會作為另一個工作流程中的子工作流程的工作流程。
 1. 插入 **[!UICONTROL Jump (end point)]** 在工作流程開頭具有優先順序1的活動。 如果您有多個「端點」型別跳轉，Adobe Campaign會使用數字最低的「端點」跳轉。

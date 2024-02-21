@@ -5,9 +5,9 @@ description: 瞭解如何控制成本
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2428'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 1. 定義預算。 [了解更多](#creating-a-budget)。
 
-1. 定義成本計算方法：為服務提供者定義成本結構。 [了解更多](../campaigns/providers--stocks-and-budgets.md)。
+1. 定義成本計算方法：為服務提供者定義成本結構。 [了解更多](../campaigns/providers-stocks-and-budgets.md)。
 
 1. 定義行銷活動成本（傳送/任務） ：傳送和任務產生的成本會針對行銷活動範本個別或全域輸入。 [了解更多](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
@@ -144,7 +144,7 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 >[!NOTE]
 >
->成本類別與結構顯示於 [此頁面](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>成本類別與結構顯示於 [此頁面](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## 成本承諾、計算及收費 {#cost-commitment--calculation-and-charging}
 
@@ -207,7 +207,7 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 #### 步驟2 — 設定服務提供者並定義成本結構 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. 從建立服務提供者及其成本結構的服務範本 **[!UICONTROL Administration > Campaigns]** 節點。 如需詳細資訊，請參閱[本章節](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)。
+1. 從建立服務提供者及其成本結構的服務範本 **[!UICONTROL Administration > Campaigns]** 節點。 如需詳細資訊，請參閱[本章節](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)。
 
    如果是直接郵件傳遞，請建立成本類別 **[!UICONTROL Envelopes]** （型別114x229和162x229）， **[!UICONTROL Postage]** 和 **[!UICONTROL Print]** （型別A3和A4）。 然後建立下列成本結構：
 
