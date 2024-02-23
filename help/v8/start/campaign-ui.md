@@ -4,9 +4,9 @@ description: 瞭解如何瀏覽及使用Campaign使用者介面
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 6%
 
 ---
@@ -23,17 +23,7 @@ ht-degree: 6%
 
   瞭解如何在中安裝和設定Campaign使用者端主控台 [本節](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **網頁使用者介面**  — 自8.6.1版開始，身為Campaign v8使用者，您現在可以透過Adobe Experience Cloud中央使用者介面存取網路環境。 接著，您就可以從網頁瀏覽器連線至Adobe Campaign。 此新介面可讓您建立、管理及執行重要的行銷動作。 不過，並非所有Campaign功能都可使用。 [了解更多](#ac-web-ui)。
-
-  Campaign Campaign網頁使用者介面可透過使用者端主控台首頁取得。
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >如果未顯示新的存取卡，請確定Adobe Experience Cloud外部帳戶中的下列欄位不會留空： **伺服器**， **租使用者**， **回呼伺服器**、和 **關聯標籤**.
 
 * **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  進一步瞭解Campaign網頁存取 [在本節中](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ ht-degree: 6%
 
 ## 使用使用者端主控台 {#ui-access}
 
-Campaign使用者端主控台是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign使用者端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign使用者端主控台專為輕鬆部署而設計，可從網際網路瀏覽器部署、自動更新，且不需要任何特定網路設定，因為它只會產生HTTP(S)流量。  [深入瞭解Campaign使用者端主控台](../start/connect.md).
+Campaign使用者端主控台是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign使用者端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign使用者端主控台專為輕鬆部署而設計，可從網際網路瀏覽器部署、自動更新，且不需要任何特定網路設定，因為它只會產生HTTP(S)流量。  [深入瞭解Campaign使用者端主控台](../start/connect.md). 您可以從使用者端主控台首頁的專用卡片切換至Campaign Web使用者介面。
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>如果未顯示新的存取卡，請確定Adobe Experience Cloud外部帳戶中的下列欄位不會留空： **伺服器**， **租使用者**， **回呼伺服器**、和 **關聯標籤**.
+
 
 您也可以使用網頁瀏覽器來存取Campaign。 在這種情況下，僅可使用Campaign功能的子集。 [了解更多](#web-browser)
 
