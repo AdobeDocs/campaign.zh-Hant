@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 16%
 
 ---
@@ -21,10 +21,19 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 此外，身為客戶，請確定您使用的系統為 [相容性矩陣](compatibility-matrix.md).
 
 
+## 發行版本8.6.2 {#release-8-6-2}
+
+_2024年2月23日_
+
+### 修正 {#fixes-8-6-2}
+
+此版本修正下列問題：
+
+* 修正了中間來源執行個體上可能發生的效能問題(NEO-72595)。
+
 ## 發行版本8.6.1 {#release-8-6-1}
 
 _2024年2月14日_
-
 
 ### 新功能 {#new-8-6-1}
 
@@ -42,9 +51,9 @@ _2024年2月14日_
 
 ### 傳遞能力更新 {#deliverability-8-6-1}
 
-* 到2024年2月，任何透過Google或Yahoo！傳送超過5,000則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性(DMARC)的驗證技術。 請務必為您搭配Adobe Campaign使用的所有子網域設定DMARC記錄。 [瞭解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
+* 到2024年2月，任何透過Google或Yahoo！傳送超過5,000則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性(DMARC)的驗證技術。 請務必為您搭配Adobe Campaign使用的所有子網域設定DMARC記錄。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
 
-* 2024年6月1日起，Google和Yahoo！ 要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign現在支援此選項。 [瞭解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+* 2024年6月1日起，Google和Yahoo！ 要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
 
 
 ### 修正 {#fixes-8-6-1}
