@@ -5,10 +5,10 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: c7bedcffeff59a5c3b631cde6c7df67057d4a483
+source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '994'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於視覺行銷活動協調流程、即時互動管理和跨管道執行的環境。
 
 Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件等各種行銷管道打造的新一代行銷活動工具。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其編排引擎為豐富的多點觸控行銷方案提供了支援，其核心是批次型處理的驅動歷程。 還配備可擴充的即時傳訊伺服器，讓行銷團隊能夠根據來自任何 IT 系統的全包式承載來傳送預先定義的訊息，進行諸如重設密碼、確認訂單、電子收據等通訊。
+
+Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視功能。 它可作為 **受管理的Cloud Service** 將服務與主動式監督和及時變動結合在一起。 進一步瞭解Campaign管理的Cloud Service [在此頁面中](whats-new.md#acms-desc).
 
 使用 Campaign 可以：
 
@@ -50,7 +52,7 @@ Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人�
 
 ![](../assets/do-not-localize/glass.png)在[本節](campaigns.md)中瞭解行銷活動的設計、排程及執行。
 
-## 工作流程
+## 工作流程 {#wf-gsv8}
 
 Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括細分、行銷活動執行、檔案處理等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮，然後將其中的記錄匯入 Adobe Campaign 資料庫。
 
