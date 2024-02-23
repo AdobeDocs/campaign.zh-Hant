@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 43b6ee223d0d6b6a0e2fd9f067378965274e63a4
+source-git-commit: c8eb0972226da40aae5def0518660f9297697eb2
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1029'
 ht-degree: 77%
 
 ---
@@ -72,7 +72,7 @@ Adobe Campaign v8是以ManagedCloud Service的形式提供，可提供主動預�
 
 受管服務方法可讓行銷人員利用雲端基礎建設的營運規模和經濟性，而不需要內部IT資源的大量支援。 Adobe諮詢與實作團隊會與您合作，評估您的行銷計畫、現有實務、資料需求和訊息量，然後他們就會建議最適當的服務、支援和傳遞能力套件。 Adobe Campaign Managed Cloud Services團隊可以監控並報告行銷活動績效、品牌信譽、客戶體驗量度等。
 
-[!BADGE PDF]{type=Informative}[閱讀此白皮書](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} 以進一步瞭解Adobe Campaign Managed Cloud Services的商業價值。
+[!BADGE PDF]{type=Informative}[閱讀此白皮書](https://experienceleague.adobe.com/docs/campaign/assets/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} 以進一步瞭解Adobe Campaign Managed Cloud Services的商業價值。
 
 請注意，新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的Campaign v8環境隨附預先為您設定的專用虛擬私人雲端(VPC)。
 
