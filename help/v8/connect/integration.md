@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 11%
+source-wordcount: '380'
+ht-degree: 10%
 
 ---
 
@@ -26,12 +26,13 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 Campaign v8可以與以下連線：
 
+* [Adobe Analytics](../connect/ac-aa.md)
+* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
+* [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Platform](../connect/ac-aep.md)
 * [Adobe Journey Optimizer](../connect/ac-ajo.md)
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
+* [Adobe Workfront](../connect/ac-workfront.md)
 
 您也可以合併 **對象** 和 **資產** 跨具有資產共用和受眾共用功能的Experience Cloud解決方案。
 
@@ -52,7 +53,7 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 使用FDA聯結器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 並處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。
 
-![](../assets/do-not-localize/glass.png) 在[本頁](fda.md)中了解更多
+![](../assets/do-not-localize/glass.png) 進一步瞭解 [此頁面](fda.md)
 
 ## 使用社群媒體{#gs-social}
 
