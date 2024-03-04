@@ -4,7 +4,7 @@ description: 瞭解Adobe Campaign結構描述中的連結管理
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
+source-git-commit: 6db351c8b5d30f722ddc4b0261af93cd8e3b72cd
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 * ![](assets/do-not-localize/join_fda_11.png) ：基數1-1
 * ![](assets/do-not-localize/join_fda_1m.png) ：基數1-N
 
-如需FDA表格的詳細資訊，請參閱 [存取外部資料庫](../../installation/using/about-fda.md).
+如需FDA表格的詳細資訊，請參閱 [存取外部資料庫](../connect/fda.md).
 
 在包含透過主要元素連結之表格外部索引鍵的結構描述中，必須宣告連結：
 
