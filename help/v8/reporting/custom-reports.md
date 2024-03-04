@@ -3,11 +3,10 @@ title: 建立自訂報表的關鍵步驟
 description: 瞭解建立自訂報表的關鍵步驟
 feature: Reporting
 role: User, Data Engineer
-exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c362e6ff932f5017530434c4b458070ec1a97abc
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +20,9 @@ ht-degree: 3%
 
 若要建立、發佈及傳遞資料的分析報表，請套用下列步驟：
 
-1. 建立新報表：請參閱 [建立新報告](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html){target="_blank"}，
+1. 建立新報表：請參閱 [建立新報告](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=zh-Hant){target="_blank"}，
 1. 收集資料以進行分析：請參閱 [收集資料以進行分析](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html){target="_blank"}, and [Use the context](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html){target="_blank"}，
 1. 定義包含活動及其容器的報表內容：請參閱 [建立表格](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-table.html){target="_blank"}, [Creating a chart](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant){target="_blank"} and [Element layout](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/element-layout.html){target="_blank"}，
-1. 設定顯示選項：顯示型別、共用報表：請參閱 [定義條件式內容](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}，
+1. 設定顯示選項：顯示型別、共用報表：請參閱 [定義條件式內容](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=zh-Hant){target="_blank"}，
 1. 發佈報表（發佈精靈）：請參閱 [發佈報表](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html#publishing-the-report){target="_blank"}，
 1. 轉換報告：匯出、記錄、在瀏覽器中顯示：請參閱 [針對報告的動作](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}.
