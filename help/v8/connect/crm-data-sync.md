@@ -5,9 +5,9 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign與您的CRM之間的資料同步是由 **CRM聯結器** 工作流
 >
 >此附註僅適用於類屬 **[!UICONTROL CRM Connector]** 活動。 對於其他CRM活動，此程式是自動的。
 >
->此選項必須手動建立並填入 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 它必須是文字選項，其值必須符合以下格式： **yyyy/MM/dd hh:mm:ss**.
+>此選項必須手動建立並填入 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 它必須是文字選項，其值必須符合以下格式： **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >您必須手動更新此選項才能進行進一步的匯入。
 
@@ -106,7 +106,7 @@ Adobe Campaign與您的CRM之間的資料同步是由 **CRM聯結器** 工作流
 
   >[!NOTE]
   >
-  >這些日期會以下列格式顯示： **yyyy/MM/dd hh:mm:ss**.
+  >這些日期會以下列格式顯示： **`yyyy/MM/dd hh:mm:ss`**.
 
 ### 篩選資料 {#filtering-data}
 
