@@ -4,7 +4,8 @@ description: 2023 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 57%
@@ -13,7 +14,7 @@ ht-degree: 57%
 
 # 2023 發行說明 {#2023-rn}
 
-本頁面列出 **2022 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。
+本頁面列出 **2023 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。
 
 ## 發行版本8.5.2 {#release-8-5-2}
 
@@ -151,5 +152,3 @@ _2023 年 1 月 27 日_
 * 透過多次傳送來改善工作流程中追蹤 URL 的管理，以提升效能。(NEO-50894) <!--OKKKK-->
 * 修正可能導致使用 Xtkfolder 的結構複寫失敗的問題。(NEO-46787) <!--OKKKK-->
 * 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。(NEO-48402)
-
-
