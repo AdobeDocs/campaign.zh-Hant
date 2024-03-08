@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
+source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -24,15 +24,15 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 ![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。
 
-Campaign v8可以與以下連線：
+Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](../connect/ac-ajo.md)
-* [Adobe Target](../connect/ac-at.md)
-* [Adobe Workfront](../connect/ac-workfront.md)
+* Adobe Analytics。[了解更多](../connect/ac-aa.md)
+* Adobe Experience Cloud觸發程式。 [了解更多](../connect/ac-triggers.md)
+* Adobe Experience Manager。[了解更多](../connect/ac-aem.md)
+* Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)
+* Adobe Journey Optimizer。 [了解更多](../connect/ac-ajo.md)
+* Adobe Target。 [了解更多](../connect/ac-at.md)
+* Adobe Workfront。 [了解更多](../connect/ac-workfront.md)
 
 您也可以合併 **對象** 和 **資產** 跨具有資產共用和受眾共用功能的Experience Cloud解決方案。
 
