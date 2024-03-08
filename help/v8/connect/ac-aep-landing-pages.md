@@ -1,20 +1,20 @@
 ---
-title: Campaign登陸頁面和設定檔屬性
+title: 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔
 description: 瞭解如何同步Adobe Campaign登陸頁面和Adobe Experience Platform設定檔屬性
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
 
-# 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔
+# 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔 {#ac-aep-lp}
 
-Adobe Campaign與Adobe Experience Platform的整合可讓您在Adobe Campaign登陸頁面與Adobe Experience Platform之間順暢地同步資料。 透過這項整合，您可以：
+Adobe Campaign與Adobe Experience Platform的整合可讓您在Adobe Campaign登陸頁面與Adobe Experience Platform之間無縫同步設定檔資料。 透過這項整合，您可以：
 
 * 擷取Adobe Experience Platform設定檔屬性，以便在Adobe Campaign登陸頁面中顯示更新的資訊。
 * 將更新的設定檔屬性傳回至Adobe Experience Platform，以根據登入頁面中已填寫和提交的內容來更新對應的屬性。
@@ -40,9 +40,9 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
 1. 使用Adobe Experience Platform API產品建立新的API連線。 如需有關如何取得OAuth 2.0存取權杖的詳細步驟，請參閱 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. 建立連線後，導覽至 **[!UICONTROL OAuth Server-to-Server]** 功能表並複製下列詳細資料（Campaign中需要這些詳細資料以進行驗證）：
 
-   * 使用者端ID
-   * 使用者端密碼
-   * 組織ID
+   * `CLIENT ID`
+   * `CLIENT SECRET`
+   * &#39;組織ID
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
@@ -102,7 +102,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
-    ```
+    ```javascript
     loadLibrary(&quot;xtk：shared/nl.js&quot;)；
     loadLibrary(&quot;xtk：shared/xtk.js&quot;)；
     loadLibrary(&quot;xtk：shared/json2.js&quot;)；
@@ -138,7 +138,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
    此程式碼會在載入登陸頁面之前，先檢查設定檔是否存在Adobe Experience Platform中。 它會擷取設定檔屬性，並在登入頁面的對應欄位中顯示這些屬性。
 
-   ```
+   ```javascript
    // API implementation to read profile from AEP
    function getProfileInfo(email)
    {
@@ -161,7 +161,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
    此程式碼會使用登陸頁面中提交的值更新Adobe Experience Platform中的設定檔屬性。
 
-   ```
+   ```javascript
    // API implementation to update profile in AEP
    loadLibrary("xtk:shared/nl.js");
    loadLibrary("xtk:shared/xtk.js");
@@ -215,7 +215,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 +++ 指令碼1 — 從Experience Platform載入設定檔屬性
 
-  ```
+  ```javascript
   // Script code to read profile from AEP.
   
   logInfo("Loading profile from AEP");
@@ -255,7 +255,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 +++ 指令碼2 — 更新Experience Platform設定檔屬性
 
-  ```
+  ```javascript
   // Script code to update profile in AEP and ACC.
   
   logInfo("Executing script to update AEP profile.");

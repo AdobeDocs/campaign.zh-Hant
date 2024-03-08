@@ -1,18 +1,18 @@
 ---
-title: 對象和設定檔屬性
+title: 與Adobe Experience Platform共用及同步對象和設定檔屬性
 description: 瞭解如何將Adobe Experience Platform對象和設定檔屬性與Campaign同步
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 6ebbdf2ab57577594a4f964e2cfcba46fcb7b4ca
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# 合作使用Campaign與Adobe Experience Platform
+# 與Adobe Experience Platform共用和同步受眾 {#gs-ac-aep}
 
 Adobe Campaign受管理的Cloud Service目標和來源聯結器可緊密整合Adobe Campaign和Adobe Experience Platform。 透過這項整合，您可以：
 

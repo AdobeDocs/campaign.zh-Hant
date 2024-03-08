@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 84%
+source-wordcount: '587'
+ht-degree: 83%
 
 ---
 
@@ -139,8 +139,8 @@ ht-degree: 84%
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
    + 行銷活動+Experience Platform {#ac-aep}
-      + [對象和設定檔屬性](connect/ac-aep.md)
-      + [Campaign登陸頁面和設定檔屬性](connect/ac-aep-landing-pages.md)
+      + [共用及同步對象和設定檔屬性](connect/ac-aep.md)
+      + [從Campaign登陸頁面更新AEP設定檔](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
