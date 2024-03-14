@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 8%
@@ -127,7 +127,7 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 
 進一步瞭解 [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
-### 網頁存取 {#web-access}
+### 網路存取 {#web-access}
 
 您可以透過HTML使用者介面的網頁瀏覽器，存取應用程式的某些部分：報告、傳遞核准、執行個體監控等。
 
