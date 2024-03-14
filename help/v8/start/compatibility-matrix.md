@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 63%
+source-wordcount: '406'
+ht-degree: 52%
 
 ---
 
@@ -26,14 +26,13 @@ ht-degree: 63%
 
 使用Campaign使用者端主控台時，需要使用下列作業系統和瀏覽器。 [深入瞭解](connect.md)。
 
-### 作業系統{#op-systems}
+### 作業系統 {#op-systems}
 
 * **Microsoft Windows Server** 2019、2016
 * **Microsoft Windows** 11， 10
 
 >[!NOTE]
->
->請注意，使用者端主控台的32位元版本自8.5版本以來已過時。 從8.6版本開始，使用者端主控台僅提供64位元版本。 有關如何升級系統的詳細資訊，請參閱此 [技術備註](../../technotes/upgrades/console.md).
+>使用者端主控台的32位元版本自8.5版本以來即已淘汰。 從8.6版本開始，使用者端主控台僅提供64位元版本。 有關如何升級系統的詳細資訊，請參閱此 [技術備註](../../technotes/upgrades/console.md).
 
 ### 網頁瀏覽器 {#web-browsers}
 
@@ -43,14 +42,14 @@ ht-degree: 63%
 
 ## CRM 連接器 {#CRMconnectors}
 
-與 Adobe Campaign 相容的客戶關係管理 (CRM) 系統列於下方。 [深入瞭解](../connect/crm.md)。
+與 Adobe Campaign 相容的客戶關係管理 (CRM) 系統列於下方。 深入瞭解CRM聯結器 [在此頁面中](../connect/crm.md).
 
 * **Salesforce** 連接器 API 49 版本
 * **Microsoft Dynamics** 連接器、Web API：Dynamics 365 內部部署與線上
 
 ## 同盟資料存取 (FDA){#FederatedDataAccessFDA}
 
-與 Adobe Campaign 同盟資料存取 (FDA) 模組相容的外部資料庫列於下方。 [深入瞭解](../connect/fda.md)。
+與 Adobe Campaign 同盟資料存取 (FDA) 模組相容的外部資料庫列於下方。 進一步瞭解FDA [在此頁面中](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**，自Campaign v8.5開始
@@ -62,14 +61,19 @@ ht-degree: 63%
 
 若要透過 Campaign 傳送[推播通知](../send/push.md)，請在資料收集 UI 設定 Adobe Campaign Classic 擴充功能，以使用 Adobe Experience Platform Mobile SDK。
 
-iOS和Android的相容版本詳見 [Adobe Developer檔案](https://developer.adobe.com/client-sdks/home/)
+iOS和Android的相容版本詳見 [Adobe Developer檔案](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+
+## 網頁使用者介面 {#web-ui}
+
+下列瀏覽器與Campaign Web使用者介面相容。 進一步瞭解Campaign網頁UI [在此頁面中](campaign-ui.md#ac-web-ui).
+
+* **Microsoft Edge**， **Google Chrome**， **Safari** （最新版本）
 
 ## 網路存取 {#web-access}
 
-下列瀏覽器與 Campaign for [Web Access](connect.md#web-access) 相容。
+下列瀏覽器與Campaign for Web Access相容。 進一步瞭解Campaign網頁存取 [在此頁面中](connect.md#web-access).
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** (最新版本)
-
 
 ## 額外資源 {#support}
 

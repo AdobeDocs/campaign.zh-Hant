@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 83%
+source-wordcount: '588'
+ht-degree: 82%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 83%
 # Adobe Campaign v8 文件 {#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
-+ 版本和最新更新 {#releases}
-   + [文件更新](start/documentation-updates.md)
++ 發行說明 {#releases}
    + [早期發行說明](start/e-release-notes.md)
    + [版本和升級](start/upgrades.md)
-   + [發行說明](start/release-notes.md)
+   + [最新版本](start/release-notes.md)
    + 舊版發行說明{#previous-rn}
-      + [2023 年](start/release-notes-2023.md)
-      + [2022 年](start/release-notes-2022.md)
-      + [2021 年](start/release-notes-2021.md)
+      + [2023 版本](start/release-notes-2023.md)
+      + [2022 版本](start/release-notes-2022.md)
+      + [2021 版本](start/release-notes-2021.md)
    + [護欄](start/ac-guardrails.md)
    + [已知問題](start/known-issues.md)
    + [相容性比較表](start/compatibility-matrix.md)
+   + [文件更新](start/documentation-updates.md)
 + 開始使用{#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
    + [主要功能](start/whats-new.md)

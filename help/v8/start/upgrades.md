@@ -4,7 +4,8 @@ description: 深入瞭解Campaign版本和升級
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 14%
@@ -21,7 +22,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 * **重大升級**，從主要版本升級至其他版本，例如從v7升級至v8。 這些升級帶來了新功能、改進、相容性和安全性更新以及修正。
 * **小幅升級**，從次要版本升級為其他版本，例如從v8.5到v8.6。這些升級帶來改進、相容性和安全性更新，以及修正。
-* **修補程式升級**，從修補程式版本改用其他版本，例如從v8.5.1到v8.5.2。這些升級包含安全性更新和修正。
+* **修補程式升級**，從修補程式版本更新至其他版本，例如從v8.5.1到v8.5.2。這些升級包含安全性更新和修正。
 
 有關每個新版本的詳細資訊，請參見 [發行說明](release-notes.md).
 
@@ -81,8 +82,3 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 身為v8客戶，如果您的帳戶被認定需要升級至新版本，Adobe會直接通知您。
 
 Adobe團隊將帶領並引導您的組織完成這個過程。 客戶服務代表、產品經理、工程師和 TechOps 專家以及產品顧問等專門的團隊，隨時樂意提供協助並確保順暢的體驗。
-
-
-
-
-

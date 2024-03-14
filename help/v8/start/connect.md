@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 7%
+source-wordcount: '937'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->您也可以使用網頁瀏覽器連線至Campaign網頁使用者介面。 進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>您也可以使用網頁瀏覽器連線至Campaign網頁使用者介面。 進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 安裝用戶端控制台{#download-ac-console}
@@ -117,7 +117,17 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 進一步瞭解使用者以及如何在中定義其許可權 [本節](gs-permissions.md).
 
 
-## 網路存取{#web-access}
+## 使用網頁瀏覽器存取Campaign {#connect-web-ac}
+
+### 網頁使用者介面 {#connect-web-ui}
+
+自Campaign v8.6發行版本開始，您可以存取新的 **Campaign Web使用者介面**，可透過中央Adobe Experience Cloud環境取得。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。透過其直覺式介面，您可以快速存取您的雲端應用程式、產品功能和服務。
+
+瞭解如何連線至Adobe Experience Cloud及存取Adobe Campaign網頁介面 [在此頁面中](campaign-ui.md#ac-web-ui).
+
+進一步瞭解 [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+
+### 網頁存取 {#web-access}
 
 您可以透過HTML使用者介面的網頁瀏覽器，存取應用程式的某些部分：報告、傳遞核准、執行個體監控等。
 
