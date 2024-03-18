@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
+source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 1%
@@ -33,32 +33,32 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 ### 您有受到影響嗎？ {#fcm-impact}
 
-如果您目前的實作支援使用舊版API連線至FCM的訂閱服務，則會受到影響。 您必須移轉至最新的API，才能避免服務中斷。 在這種情況下，Adobe團隊會與您聯絡。
+如果您目前的實作支援使用舊版API連線至FCM的訂閱服務，則會受到影響。 轉換至最新的API是必須的，這樣才能避免任何服務中斷。 在這種情況下，Adobe團隊會與您聯絡。
 
 若要檢查您是否受到影響，您可以篩選 **服務與訂閱** 根據以下篩選：
 
 ![](assets/filter-services-fcm.png)
 
 
-* 如果您的任何使用中推播通知服務使用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照以下所述移轉至較新的API。
+* 如果您的任何使用中推播通知服務使用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照下方所述移至較新的API。
 
 * 如果您的設定僅使用 **HTTP v1** Android推播通知的API，則表示您已符合法規，不需要採取任何進一步動作。
 
-### 如何移轉？ {#fcm-migration-procedure}
+### 如何更新？ {#fcm-transition-procedure}
 
-#### 先決條件 {#fcm-migration-prerequisites}
+#### 先決條件 {#fcm-transition-prerequisites}
 
-* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於較舊的版本，移轉至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
+* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
 * 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 瞭解如何取得此檔案於 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* 對於混合、託管和Managed Services部署，除了下列移轉程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
+* 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 
-#### 移轉程式 {#fcm-migration-steps}
+#### 轉換程式 {#fcm-transition-steps}
 
-若要將環境移轉至HTTP v1，請遵循下列步驟：
+若要將環境移至HTTP v1，請遵循下列步驟：
 
 1. 瀏覽至您的清單 **服務與訂閱**.
 1. 列出所有行動應用程式 **HTTP （舊版）** API版本。
@@ -129,7 +129,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 ### 您有受到影響嗎？ {#ios-impact}
 
-如果您目前的實施仰賴憑證式請求來連線至APN，則會受到影響。 建議移轉至權杖型連線。
+如果您目前的實施仰賴憑證式請求來連線至APN，則會受到影響。 建議轉換為權杖型連線。
 
 若要檢查您是否受到影響，您可以篩選 **服務與訂閱** 根據以下篩選：
 
@@ -140,21 +140,21 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 * 如果您的設定僅使用 **權杖型驗證** 模式使用iOS推播通知，則您的實作已處於最新狀態，不需要您採取進一步動作。
 
-### 如何移轉？ {#ios-migration-procedure}
+### 如何更新？ {#ios-transition-procedure}
 
-#### 先決條件 {#ios-migration-prerequisites}
+#### 先決條件 {#ios-transition-prerequisites}
 
 * 對於Campaign Classic v7，支援 **權杖型驗證** 模式已新增至20.2版本。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 對於Campaign v8， **權杖型驗證** 所有發行版本都支援模式，不需要升級。
 
 * 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如中所述，您需向Apple開發人員帳戶索取此金鑰 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-* 對於混合、託管和Managed Services部署，除了下列移轉程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
+* 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 
-#### 移轉程式 {#ios-migration-steps}
+#### 轉換程式 {#ios-transition-steps}
 
-若要將iOS行動應用程式移轉至權杖型驗證模式，請遵循下列步驟：
+若要將iOS行動應用程式移至權杖型驗證模式，請遵循下列步驟：
 
 1. 瀏覽至您的清單 **服務與訂閱**.
 1. 列出所有行動應用程式 **憑證式驗證** 模式。
