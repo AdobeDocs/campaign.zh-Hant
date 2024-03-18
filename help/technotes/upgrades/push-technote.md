@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
+source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 ![](assets/filter-services-ios.png)
 
 
-* 如果您的任何使用中推播通知服務使用 **憑證式驗證** 模式，則應檢閱您目前的實施並將其移至 **權杖型驗證** 模式，如下所述。
+* 如果您的任何使用中推播通知服務使用 **憑證式驗證** 模式(.p12)下，您目前的實施應檢閱並移至 **權杖型驗證** 模式(.p8)，如下所述。
 
 * 如果您的設定僅使用 **權杖型驗證** 模式使用iOS推播通知，則您的實作已處於最新狀態，不需要您採取進一步動作。
 
@@ -157,9 +157,9 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 若要將iOS行動應用程式移至權杖型驗證模式，請遵循下列步驟：
 
 1. 瀏覽至您的清單 **服務與訂閱**.
-1. 列出所有行動應用程式 **憑證式驗證** 模式。
+1. 列出所有行動應用程式 **憑證式驗證** 模式(.p12)。
 1. 編輯每個行動應用程式，並瀏覽至 **憑證/私密金鑰** 標籤。
-1. 從 **驗證模式** 下拉式清單，選取 **權杖型驗證**.
+1. 從 **驗證模式** 下拉式清單，選取 **權杖型驗證** 模式(.p8)。
 1. 填寫APNs連線設定 **[!UICONTROL Key Id]**， **[!UICONTROL Team Id]** 和 **[!UICONTROL Bundle Id]** 然後按一下「 」以選取您的p8憑證 **[!UICONTROL Enter the private key...]**.
 
    ![](assets/token-based-certif.png)
