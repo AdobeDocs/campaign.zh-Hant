@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8 文件
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 82%
       + [設計和驗證電子郵件](send/email.md)
       + [連結至鏡像頁面](send/mirror-page.md)
       + [新增密件副本地址](send/email-bcc.md)
-      + [定義其他電子郵件引數](send/email-parameters.md)
+      + [定義額外電子郵件參數](send/email-parameters.md)
       + [傳送和監視電子郵件](send/send.md)
    + [簡訊](send/sms.md)
    + 推播通知 {#push}
       + [建立和傳送推播通知](send/push.md)
       + [設定推播通知頻道](send/push-settings.md)
-      + [使用資料收集設定推播通知](send/push-data-collection.md)
+      + [設定資料收集的推播通知](send/push-data-collection.md)
    + [LINE 訊息](send/line.md)
    + [直接郵件](send/direct-mail.md)
    + [X (Twitter)](send/twitter.md)
@@ -61,7 +61,7 @@ ht-degree: 82%
       + [新增個人化欄位](send/personalization-fields.md)
       + [使用個人化區塊](send/personalization-blocks.md)
       + [建立條件](send/conditions.md)
-   + 驗證並傳送您的傳遞 {#validate}
+   + 驗證和傳送您的傳遞{#validate}
    + [預覽和校樣](send/preview-and-proof.md)
    + [傳遞分析](send/delivery-analysis.md)
    + [設定並傳送傳遞](send/configure-and-send.md)
@@ -70,7 +70,7 @@ ht-degree: 82%
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)
    + [使用傳遞範本](send/create-templates.md)
-   + 異動訊息 {#real-time}
+   + 交易型訊息{#real-time}
       + [開始使用異動訊息](send/transactional.md)
       + [建立並發佈範本](send/transactional-template.md)
       + 事件管理 {#event}
@@ -91,7 +91,7 @@ ht-degree: 82%
    + 建立對象 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
-      + [與Adobe解決方案共用對象](start/shared-audiences.md)
+      + [與 Adobe 解決方案共用對象](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
@@ -110,7 +110,7 @@ ht-degree: 82%
       + [建立優惠方案空間](interaction/interaction-offer-spaces.md)
    + [建立優惠方案目錄](interaction/interaction-offer-catalog.md)
    + [建立優惠優惠方案](interaction/interaction-offer.md)
-   + [傳送選件（傳出）](interaction/interaction-send-offers.md)
+   + [傳送優惠方案 (傳出)](interaction/interaction-send-offers.md)
    + 呈現優惠方案 (傳入){#inbound}
       + [內容](interaction/interaction-present-offers.md)
       + [呼叫網頁中的優惠](interaction/interaction-integration.md)
@@ -138,9 +138,9 @@ ht-degree: 82%
    + [工作流程文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
-   + 行銷活動+Experience Platform {#ac-aep}
+   + Campaign + Experience Platform{#ac-aep}
       + [共用及同步對象和設定檔屬性](connect/ac-aep.md)
-      + [從Campaign登陸頁面更新AEP設定檔](connect/ac-aep-landing-pages.md)
+      + [從 Campaign 登陸頁面更新 AEP 設定檔](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
@@ -149,7 +149,7 @@ ht-degree: 82%
    + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + 外部資料庫](connect/fda.md)
-   + Campaign +您的CRM {#ac-crm}
+   + Campaign + 您的 CRM{#ac-crm}
       + [開始使用 CRM 連接器](connect/crm.md)
       + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -161,10 +161,10 @@ ht-degree: 82%
       + [新增資料夾權限](start/folder-permissions.md)
    + [控制面板](config/self-service.md)
 + 架構和設定 {#config}
-   + Campaign v8架構 {#architecture}
+   + Campaign v8 架構{#architecture}
       + [全域原則](architecture/general-architecture.md)
       + [架構模型](architecture/architecture.md)
-      + [Campaign FDA部署](architecture/fda-deployment.md)
+      + [Campaign FDA 部署](architecture/fda-deployment.md)
       + 企業 (FFDA) 部署 {#ffda}
          + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
          + [金鑰管理和唯一性](architecture/keys.md)
@@ -178,8 +178,8 @@ ht-degree: 82%
    + 設定與組態 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
-      + [異動訊息設定](config/transactional-msg-settings.md)
-      + [將Campaign SDK與您的應用程式整合 — 已棄用的頁面](config/push-config.md)
+      + [交易型訊息設定](config/transactional-msg-settings.md)
+      + [將 Campaign SDK 與您的應用程式整合- DEPRECATED PAGE](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
    + [促銷活動資料模型](dev/datamodel.md)
@@ -190,7 +190,7 @@ ht-degree: 82%
       + [篩選結構](dev/filter-schema.md)
       + [方案結構](dev/schema-structure.md)
       + [資料庫對應](dev/database-mapping.md)
-      + [關鍵管理](dev/database-keys.md)
+      + [金鑰管理](dev/database-keys.md)
       + [連結管理](dev/database-links.md)
       + [限制 PI 檢視](dev/restrict-pi-view.md)
       + [使用自訂收件者表格](dev/custom-recipient.md)
