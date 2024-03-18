@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 2%
+source-wordcount: '1664'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。 您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
+>Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並可能影響 Adobe Campaign 實施。Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
 
 開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。
 
@@ -213,9 +213,7 @@ To get the SDKs needed for push notification to work you will need the following
 
    * （建議） **[!UICONTROL Token-based authentication]**：填入APNs連線設定 **[!UICONTROL Key Id]**， **[!UICONTROL Team Id]** 和 **[!UICONTROL Bundle Id]** 然後按一下「 」以選取您的p8憑證 **[!UICONTROL Enter the private key...]**. 有關詳細資訊 **[!UICONTROL Token-based authentication]**，請參閱 [Apple檔案](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
-   * **[!UICONTROL Certificate-based authentication]**：按一下 **[!UICONTROL Enter the certificate...]**  接著，選取您的p12金鑰並輸入行動應用程式開發人員提供的密碼。
-
-   您稍後可以在中變更您的驗證模式 **[!UICONTROL Certificate]** 行動應用程式的索引標籤。
+   * **[!UICONTROL Certificate-based authentication]**：按一下 **[!UICONTROL Enter the certificate...]**  接著，選取您的p12金鑰並輸入行動應用程式開發人員提供的密碼。 請注意，此憑證有到期日，必須每年更新。 為避免使用者的服務中斷，請在憑證過期前更新憑證。 憑證的有效期為一年，您必須更新憑證才能繼續與APN通訊。
 
 1. 使用 **[!UICONTROL Test the connection]** 按鈕以驗證您的設定。
 
