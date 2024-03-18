@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign 提供了設計跨管道客戶體驗的平台，以及適用於�
 
 Adobe Campaign v8 是專為電子郵件、推播通知、簡訊和直接郵件等各種行銷管道打造的新一代行銷活動工具。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其編排引擎為豐富的多點觸控行銷方案提供了支援，其核心是批次型處理的驅動歷程。 還配備可擴充的即時傳訊伺服器，讓行銷團隊能夠根據來自任何 IT 系統的全包式承載來傳送預先定義的訊息，進行諸如重設密碼、確認訂單、電子收據等通訊。
 
-Adobe Campaign v8 明顯改善基礎架構、安全性、可傳遞性和監視功能。 它可作為 **受管理的Cloud Service** 將服務與主動式監督和及時變動結合在一起。 進一步瞭解Campaign管理的Cloud Service [在此頁面中](whats-new.md#acms-desc).
+Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視功能。其可作為 **Managed Cloud Service** ，結合服務與主動預防性監督和即時警報。[在本頁中](whats-new.md#acms-desc)深入了解 Campaign Managed Cloud Services。
 
 使用 Campaign 可以：
 
@@ -94,5 +94,5 @@ Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施�
 
 * [Campaign 工作環境](campaign-ui.md)
 * [Campaign v8 相容性對照表](compatibility-matrix.md)
-* [連結至 Campaign](connect.md)
+* [連線至 Campaign](connect.md)
 * [常見問題集](campaign-faq.md)
