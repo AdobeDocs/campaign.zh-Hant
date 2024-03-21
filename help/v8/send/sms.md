@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 3%
+source-wordcount: '453'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 使用Adobe Campaign傳送個人化SMS訊息。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中開始使用簡訊頻道 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target="_blank"}
+瞭解如何在中開始使用簡訊頻道 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 引用此外部帳戶的傳遞範本。
 
-![](../assets/do-not-localize/book.png)  瞭解如何在中設定簡訊頻道 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#sending-messages){target="_blank"}
+瞭解如何在中設定簡訊頻道 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#sending-messages){target="_blank"}
 
 開始傳送SMS之前：
 
@@ -45,15 +45,15 @@ ht-degree: 3%
 
    ![](assets/delivery_step_1.png)
 
-   ![](../assets/do-not-localize/book.png) 如需如何建立傳送的全域資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html#sending-messages){target="_blank"}.
+   如需如何建立傳送的全域資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html#sending-messages){target="_blank"}.
 
 1. 選取參考相關外部帳戶的傳遞範本，以傳送SMS傳遞。
 
    ![](assets/sms-template-list.png)
 
-   ![](../assets/do-not-localize/book.png) 瞭解如何在中建立SMPP外部帳戶 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#creating-an-smpp-external-account){target="_blank"}
+   瞭解如何在中建立SMPP外部帳戶 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#creating-an-smpp-external-account){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) 瞭解如何建立傳遞範本以傳遞至中的行動裝置 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#changing-the-delivery-template){target="_blank"}
+   瞭解如何建立傳遞範本以傳遞至中的行動裝置 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#changing-the-delivery-template){target="_blank"}
 
 1. 使用標籤、程式碼和說明來識別您的傳遞。
 
@@ -69,17 +69,17 @@ ht-degree: 3%
 
 * 建立簡訊
 
-  ![](../assets/do-not-localize/book.png) [瞭解如何建立簡訊傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#sending-messages){target="_blank"}
+  [瞭解如何建立簡訊傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#sending-messages){target="_blank"}
 
 * 設計簡訊內容
 
-  ![](../assets/do-not-localize/book.png) [瞭解如何定義簡訊內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#defining-the-sms-content){target="_blank"}
+  [瞭解如何定義簡訊內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#defining-the-sms-content){target="_blank"}
 
 * 選取電子郵件的對象
 
-  ![](../assets/do-not-localize/book.png) [瞭解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
+  [瞭解如何定義目標母體](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
-![](../assets/do-not-localize/glass.png) 定義對象的步驟詳見 [此頁面](../start/audiences.md).
+定義對象的步驟詳見 [此頁面](../start/audiences.md).
 
 ## 測試您的簡訊
 
@@ -90,9 +90,9 @@ ht-degree: 3%
 若要傳送校樣，請參閱Campaign Classicv7檔案的下列章節：
 
 * 驗證傳遞並傳送校樣
-  ![](../assets/do-not-localize/book.png) [瞭解驗證傳遞的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
+  [瞭解驗證傳遞的關鍵步驟](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=zh-Hant){target="_blank"}
 * 新增種子地址
-  ![](../assets/do-not-localize/book.png) [瞭解種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+  [瞭解種子地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
 ## 傳送及監控簡訊傳遞
 
@@ -100,8 +100,8 @@ ht-degree: 3%
 
 * 傳送、監控和追蹤簡訊傳遞
 
-  ![](../assets/do-not-localize/book.png) [瞭解傳送、監控和追蹤簡訊的工具](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
+  [瞭解傳送、監控和追蹤簡訊的工具](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
 
 * 疑難排解簡訊傳遞
 
-  ![](../assets/do-not-localize/book.png) [瞭解簡訊疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}
+  [瞭解簡訊疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}

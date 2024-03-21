@@ -5,9 +5,9 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '705'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 * [擴充現有表格](extend-schema.md) 與新欄位。 例如，您可以新增「忠誠度」欄位至「收件者」表格。
 * [建立新表格](create-schema.md)例如，「購買」表格會列出資料庫中每個設定檔進行的所有購買，並將其連結至收件者表格。
 
-![](../assets/do-not-localize/glass.png) 在中使用Campaign資料模型時探索最佳實務 [本節](datamodel-best-practices.md).
+在中使用Campaign資料模型時探索最佳實務 [本節](datamodel-best-practices.md).
 
 ## 內建設定檔表格 {#ootb-profiles}
 
@@ -58,9 +58,9 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 您可以擴充收件者表格，但無法減少表格中的欄位或連結數量。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中擴充現有綱要 [本節](extend-schema.md).
+瞭解如何在中擴充現有綱要 [本節](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) 探索中內建收件者表格擴充功能的範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+探索中內建收件者表格擴充功能的範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，相關說明請參閱 [本節](custom-recipient.md).
 
@@ -68,9 +68,9 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 若要更瞭解Campaign v8中的表格管理，請注意 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，表格會在Campaign及其Snowflake雲端資料庫之間複製。
 
-![](../assets/do-not-localize/glass.png) 進一步瞭解中的復寫策略和機制 [本節](../architecture/replication.md).
+進一步瞭解中的復寫策略和機制 [本節](../architecture/replication.md).
 
 **相關主題**
 
-![](../assets/do-not-localize/glass.png) 探索如何在中匯入設定檔 [本節](../start/import.md)
-![](../assets/do-not-localize/glass.png) 進一步瞭解Campaign對象，位於 [本節](../start/audiences.md)
+探索如何在中匯入設定檔 [本節](../start/import.md)
+進一步瞭解Campaign對象，位於 [本節](../start/audiences.md)

@@ -5,10 +5,10 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '772'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign 提供一套解決方案，幫助您跨所有線上及離線頻�
 
 ## 跨頻道行銷活動策劃{#cross-channel-orchestration}
 
-Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、SMS、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
+Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
 ![](assets/campaign-tab.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
 ![](assets/calendar.png)
 
-在[此章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)![](../assets/do-not-localize/book.png)探索如何存取及實施行銷活動。
+瞭解如何在中存取及實施行銷活動 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant).
 
 ## 開始的關鍵步驟{#gs-ac-start}
 
@@ -56,7 +56,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    定義層次結構和計畫、設定預算、加入資源、選擇運算子。
 
-    在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant)![](../assets/do-not-localize/book.png)瞭解如何建立行銷計劃並設定行銷活動。
+   瞭解如何在中建立行銷計畫及設定行銷活動 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant).
 
    所有行銷活動都以儲存主要設定和功能的範本為基礎。 提供內建範本，以建立尚未定義特定設定的行銷活動。 您可以建立和設定行銷活動範本，然後從這些範本建立行銷活動。
 
@@ -78,11 +78,11 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-dashboard.png)
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)![](../assets/do-not-localize/book.png)瞭解如何建立及開始行銷活動傳遞。
+   瞭解如何在中建立及開始行銷活動傳遞 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant).
 
    您可以為行銷活動跟各種檔案建立關聯：報告、照片、網頁、圖表等。
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=zh-Hant)![](../assets/do-not-localize/book.png)深入瞭解相關文件。
+   進一步瞭解中的相關檔案 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=zh-Hant).
 
 1. **設定核准流程**
 

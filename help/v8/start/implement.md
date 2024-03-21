@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 92%
+ht-degree: 80%
 
 ---
 
@@ -56,13 +56,13 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您可以手動將使用者新增至 Campagin，並將他們與群組建立關聯，並使其與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
-![](../assets/do-not-localize/glass.png) 在[本節](../start/gs-permissions.md)瞭解如何新增使用者至 Adobe Campaign。
+瞭解如何在中新增使用者至Adobe Campaign [本節](../start/gs-permissions.md).
 
 ### 安裝Campaign使用者端主控台{#implementation-install-console}
 
 應用程式的主要使用者介面為豐富型客戶端，換言之，即僅與擁有標準網際網路通訊協定 (SOAP、HTTP 等) 的 Adobe Campaign 應用程式伺服器通訊的原生應用程式 (Windows)。Adobe Campaign使用者端主控台提供絕佳的使用者便利性，可大幅提升生產力，而且使用的頻寬很少（透過使用本機快取），而且易於部署。 此控制台可從網路瀏覽器部署、可自動更新，且不需要任何特定網路組態，因為它只會產生 HTTP(S) 流量。
 
-![](../assets/do-not-localize/glass.png) [深入瞭解Campaign使用者端主控台](connect.md).
+[深入瞭解Campaign使用者端主控台](connect.md).
 
 ## 準備您的環境{#implementation-prepare-your-env}
 
@@ -72,22 +72,22 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-   ![](../assets/do-not-localize/glass.png) [瞭解如何匯入設定檔](import.md)。
+   [瞭解如何匯入設定檔](import.md).
 
    對象會分組到清單中，並可透過工作流程建立。 然後，您就可以在跨頻道傳遞中鎖定這些目標。
 
-   ![](../assets/do-not-localize/glass.png) [瞭解如何定義對象](audiences.md)。
+   [瞭解如何定義對象](audiences.md).
 
 1. **使用範本**
 
    行銷活動、傳遞、工作或工作流程都以儲存關鍵設定和功能的範本為基礎。 系統會為每個元件提供內建範本，其尚未定義特定組態。 您需要設定並調整範本以符合您的需求，並讓終端使用者也能使用範本。
 
 
-   ![](../assets/do-not-localize/glass.png) 在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)瞭解如何使用行銷活動範本
+   瞭解如何使用中的行銷活動範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
 
-   ![](../assets/do-not-localize/glass.png) 在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant)瞭解如何設定工作流程範本
+   瞭解如何在中設定工作流程範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant)
 
-   如欲![](../assets/do-not-localize/book.png)深入瞭解電子郵件範本，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
+   進一步瞭解中的電子郵件範本 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
 
 
 1. **設定類型規則**
@@ -100,7 +100,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Adobe Campaign 附有預定義的資料模型。若要實施和自訂您的環境，您需要熟悉 Adobe Campaign 資料模型的內建表格以及它們之間的關係。
 
-   ![](../assets/do-not-localize/glass.png) [深入瞭解 Campaign 資料模型](../dev/datamodel.md)。
+   [深入瞭解Campaign資料模型](../dev/datamodel.md).
 
 ## 自訂您的執行個體{#implementation-custom-your-instance}
 
@@ -110,19 +110,19 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Adobe Campaign 提供了通用方案來識別資料，例如：收件者、傳遞記錄、訂閱及更多。
 
-   ![](../assets/do-not-localize/glass.png) 請參閱本節以深入瞭解 [Campaign 內建資料模型](../dev/datamodel.md)。
+   請參閱本節以深入瞭解 [Campaign內建資料模型](../dev/datamodel.md).
 
-   ![](../assets/do-not-localize/glass.png) 您可以擴充現有方案或從頭開始建立新方案。 在[本頁](../dev/customize.md)中瞭解更多。
+   您可以擴充現有方案或從頭開始建立新方案。 在[本頁](../dev/customize.md)中瞭解更多。
 
 1. **儀表板和清單**
 
    您可以輕鬆設定清單、新增和移除欄位，以及自訂欄位。
 
-   ![](../assets/do-not-localize/glass.png)在[本頁面](../dev/customize.md#gs-lists-and-filters)瞭解如何管理 Campaign 的篩選器和清單。
+   瞭解如何在Campaign中管理篩選器和清單 [此頁面](../dev/customize.md#gs-lists-and-filters).
 
    您也可以根據您的需求建立新的控制面板以顯示 Campaign 資料。
 
-   ![](../assets/do-not-localize/glass.png)在[本頁面](../dev/customize.md#gs-custom-dashboards)深入瞭解。
+   在[本頁](../dev/customize.md#gs-custom-dashboards)中瞭解更多。
 
 1. **報告**
 
@@ -130,7 +130,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    除了內建報告之外，透過使用 Adobe Campaign，可以讓您在不同工作環境中根據不同需求產生報告。本檔案詳細說明了使用原則和實施模式。
 
-   ![](../assets/do-not-localize/glass.png)在[本頁面](../reporting/gs-reporting.md)伸入瞭解 Campaign 的報告功能。
+   瞭解更多關於Campaign報告功能於 [此頁面](../reporting/gs-reporting.md).
 
 
 ## 設定行銷活動自動化{#implementation-automation}
@@ -160,24 +160,24 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 * Campaign - Analytics 資料連接器
 
 
-您只能使用單一登入(SSO)來連線至Campaign。 在[本頁](connect.md)中瞭解更多。
+您只能使用單一登入 (SSO) 來連線至 Campaign。在[本頁](connect.md)中瞭解更多。
 
-![](../assets/do-not-localize/glass.png) 在[本頁面](../connect/integration.md)瞭解可整合 Adobe Campaign 的完整 Adobe 解決方案清單。
+探索可與Adobe Campaign整合的Adobe解決方案完整清單 [在此頁面中](../connect/integration.md).
 
 ### 連接器{#implementation-connectors}
 
 將 Campaign 與協力廠商系統連結，以結合多種功能並自動化流程。
 
-![](../assets/do-not-localize/glass.png) 在[本節](../connect/integration.md)深入瞭解可用的連接器。
+進一步瞭解中的可用聯結器 [本節](../connect/integration.md).
 
 **將您的 CRM 連結至 Campaign**
 
 您可以將您的 Adobe Campaign 平台連接至 CRM 協力廠商系統，並同步資料：連絡人、帳戶、購買等。
 
-![](../assets/do-not-localize/glass.png) 在[本節](../connect/integration.md#gs-crm-connectors)瞭解如何將 CRM 系統連結至 Campaign
+瞭解如何在中將您的CRM系統連結至Campaign [本節](../connect/integration.md#gs-crm-connectors)
 
 **連結至外部資料庫**
 
 您可以透過同盟資料存取 (FDA) 模組，將 Campaign Cloud 資料庫連結至外部系統。
 
-![](../assets/do-not-localize/glass.png) 在[本節](../connect/integration.md#gs-fda)瞭解如何設定 Campaign FDA 模組，以定義存取參數
+瞭解如何設定Campaign FDA模組，以定義中的存取引數 [本節](../connect/integration.md#gs-fda)

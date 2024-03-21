@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 工作流程活動 {#wf-activities}
 
-進一步瞭解中的可用工作流程活動 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+進一步瞭解中的可用工作流程活動 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hant)
 
 工作流程活動會依類別分組。 有四種活動類別可供使用：
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 若要使用 **[!UICONTROL Change Data Source]** 活動：
 
-1. 建立工作流程.
+1. 建立工作流程。
 
 1. 使用查詢目標收件者 **[!UICONTROL Query]** 活動。
 
@@ -121,11 +121,11 @@ ht-degree: 4%
 
 使用Campaign異動訊息，自動化從資訊系統觸發的事件產生的訊息。 這些異動訊息可以是發票、訂單確認、出貨確認、密碼變更、產品無法使用通知、帳戶對帳單或網站帳戶建立等。 這些訊息可以個別傳送，或透過電子郵件、簡訊或推播通知批次傳送。
 
-![](../assets/do-not-localize/glass.png) 進一步瞭解中的異動訊息傳送功能 [本節](../send/transactional.md).
+進一步瞭解中的異動訊息傳送功能 [本節](../send/transactional.md).
 
 連線Adobe Campaign和Adobe Analytics以擷取使用者動作，並傳送近乎即時的個人化訊息。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何將Campaign與中的其他解決方案整合 [本節](../start/connect.md)
+瞭解如何將Campaign與中的其他解決方案整合 [本節](../start/connect.md)
 
 
 ## 工作流程端對端使用案例{#end-to-end-uc}

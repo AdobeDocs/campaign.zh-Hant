@@ -5,7 +5,7 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Campaign Classicv7 API仍可使用，但無法從此新暫存機制受益： API
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) 進一步瞭解在中建立自訂結構描述 [此頁面](../dev/create-schema.md).
+   進一步瞭解在中建立自訂結構描述 [此頁面](../dev/create-schema.md).
 
 1. 儲存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
 

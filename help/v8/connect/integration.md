@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -36,9 +36,9 @@ Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解
 
 您也可以合併 **對象** 和 **資產** 跨具有資產共用和受眾共用功能的Experience Cloud解決方案。
 
-![](../assets/do-not-localize/book.png) 進一步瞭解 **對象分享** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+進一步瞭解 **對象分享** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) 進一步瞭解 **資產共用** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+進一步瞭解 **資產共用** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## 與您的CRM聯結器整合{#gs-crm-connectors}
 
@@ -53,7 +53,7 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 使用FDA聯結器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 並處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。
 
-![](../assets/do-not-localize/glass.png) 進一步瞭解 [此頁面](fda.md)
+在[本頁](fda.md)中了解更多
 
 ## 使用社群媒體{#gs-social}
 

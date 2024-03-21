@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1250'
 ht-degree: 5%
 
 ---
@@ -100,11 +100,11 @@ Adobe Campaign採用資料結構描述來：
 
 若要將欄位或其他元素新增至Campaign的其中一個核心資料結構，例如收件者表格(nms：recipient)，您必須擴充該結構。
 
-![](../assets/do-not-localize/glass.png) 有關詳細資訊，請參閱 [擴充綱要](extend-schema.md).
+有關詳細資訊，請參閱 [擴充綱要](extend-schema.md).
 
 若要新增Adobe Campaign中不存在的全新資料型別（例如合約表格），您可以直接建立自訂結構描述。
 
-![](../assets/do-not-localize/glass.png) 有關詳細資訊，請參閱 [建立新結構描述](create-schema.md).
+有關詳細資訊，請參閱 [建立新結構描述](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -115,7 +115,7 @@ Adobe Campaign採用資料結構描述來：
 
 分項清單會先定義，在結構描述的主要元素之前。 它們可讓您在清單中顯示值，以限制使用者在指定欄位中的選擇。
 
-範例:
+例如：
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -176,7 +176,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 主索引鍵也可使用定義 **內部** 屬性。
 
-範例:
+例如：
 
 ```
 <key name="householdId" internal="true">
@@ -190,7 +190,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >建立新結構描述或在結構描述擴充期間，您需要為整個結構描述保留相同的主要索引鍵序列值(@pkSequence)。
 
-![](../assets/do-not-localize/glass.png) 進一步瞭解中的金鑰 [本節](database-mapping.md#management-of-keys).
+進一步瞭解中的金鑰 [本節](database-mapping.md#management-of-keys).
 
 ## 屬性（欄位） {#attributes--fields-}
 
@@ -200,7 +200,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 完整的屬性清單可在 `<attribute>` 中的元素區段 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). 以下是一些較常用的屬性： **@advanced**， **@dataPolicy**， **@default**， **@desc**， **@enum**， **@expr**， **@label**， **@length**， **@name**， **@notNull**， **@required**， **@ref**， **@xml**， **@type**.
 
-![](../assets/do-not-localize/book.png) 如需每個屬性的詳細資訊，請參閱中的屬性說明 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+如需每個屬性的詳細資訊，請參閱中的屬性說明 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
 
 ### 範例 {#examples}
 

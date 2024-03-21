@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -37,7 +37,7 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 
 身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[!DNL Campaign]本章節[所列的一小部分功能外，也提供大部份](#gs-removed) v8 的功能。 
 
->新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的Campaign v8環境隨附預先為您設定的專用虛擬私人雲端(VPC)。
+>新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的 Campaign v8 環境隨附預先為您設定的專用虛擬私人雲端 (VPC)。
 
 
 ## 混合式架構 {#hybrid-archi}
@@ -50,7 +50,7 @@ Campaign v8依賴 **混合式架構**. 如果您要從Campaign Classicv7進行�
 * 傳遞狀態不會立即更新 — 行銷執行個體上會執行技術流程，以便及時更新傳遞狀態。
 
 
-![](../assets/do-not-localize/glass.png) 進一步瞭解從v7轉換至時傳送異動訊息校樣 [此頁面](../send/transactional-template.md#transition-from-v7).
+進一步瞭解從v7轉換至時傳送異動訊息校樣 [此頁面](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ Campaign v8依賴 **混合式架構**. 如果您要從Campaign Classicv7進行�
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-![](../assets/do-not-localize/glass.png) 在本頁面了解更多 [!DNL Campaign] v8 [架構](../architecture/architecture.md)。
+進一步瞭解 [!DNL Campaign] 中的v8架構 [此頁面](../architecture/architecture.md).
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
 Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
 
-![](../assets/do-not-localize/glass.png)瞭解在[此頁面](connect.md)如何連結到[!DNL Campaign].。
+瞭解如何連結至 [!DNL Campaign] 在 [此頁面](connect.md).
 
 ## 使用多維度資料集分析資料{#adobe-reporting}
 

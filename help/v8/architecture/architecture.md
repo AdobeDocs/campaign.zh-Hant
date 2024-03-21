@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -26,13 +26,13 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 您可以將套件從一個環境匯出和匯入到另一個環境。
 
-![](../assets/do-not-localize/book.png) 進一步瞭解中的套件 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+進一步瞭解中的套件 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## 部署模型 {#ac-deployment}
 
 提供兩種部署模式： **Campaign FDA部署** (P1-P3)和 **Campaign Enterprise (FFDA)部署** (P4)。
 
-### Campaign FDA部署 {#ac-deployment-fda}
+### Campaign FDA 部署 {#ac-deployment-fda}
 
 在其 [FDA部署](fda-deployment.md)， [!DNL Adobe Campaign] v8可以連線至 [!DNL Snowflake] 若要透過同盟資料存取功能存取資料：您可以存取及處理儲存在 [!DNL Snowflake] 資料庫而不變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
@@ -100,7 +100,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 異動訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中傳送異動訊息 [本節](../send/transactional.md).
+瞭解如何在中傳送異動訊息 [本節](../send/transactional.md).
 
 為回應客戶在網站上的動作，會透過REST API傳送事件Campaign，並透過API呼叫提供的資訊或資料填入訊息範本，且會即時傳送交易式訊息給客戶。 這些訊息可透過電子郵件、簡訊或推播通知個別或批次傳送。
 
@@ -108,7 +108,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 * 此 **控制例項** 行銷人員和IT團隊會使用（或行銷執行個體）來建立、設定和發佈訊息範本。 此例項也會集中事件監控和歷史記錄。
 
-  ![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和發佈訊息範本 [本節](../send/transactional.md).
+  瞭解如何在中建立和發佈訊息範本 [本節](../send/transactional.md).
 
 * 此 **執行例項** 擷取傳入事件（例如密碼重設或網站的訂單）並傳送個人化訊息。 可以有多個執行例項可透過負載平衡器處理訊息，並調整要處理的事件數量以達最大可用性。
 

@@ -5,10 +5,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 6%
+source-wordcount: '308'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Adobe Campaign提供本頁面所列的一組報表工具。
 
-* **Cube**
+* **立方體**
 
   Adobe Campaign隨附直覺式資料探索工具，可用來建立動態報表。
 
@@ -46,10 +46,10 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   ![](assets/desc-analysis-report.png)
 
-  ![](../assets/do-not-localize/book.png) 行銷活動描述性分析報表顯示於 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+  行銷活動描述性分析報表顯示於 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}
 
-* **自訂報告**
+* **自訂報表**
 
   使用Adobe Campaign建立有關資料庫中資料的報告。 建立後，可在適當的前後關聯中加以存取。
 
-  ![](../assets/do-not-localize/book.png) 建立報告的步驟詳見 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. 「個人化報表」建立作業已保留給進階使用者。
+  建立報告的步驟詳見 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. 「個人化報表」建立作業已保留給進階使用者。

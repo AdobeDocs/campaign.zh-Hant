@@ -5,7 +5,7 @@ feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CAUTION]
 >不可直接修改內建結構描述。 如果您需要調整內建方案，必須擴充方案。
 
-![](../assets/do-not-localize/glass.png) 若要更瞭解Campaign內建表格及其互動，請參閱 [此頁面](datamodel.md). 另請參閱在中建立新結構描述時的建議 [此頁面](create-schema.md).
+若要更瞭解Campaign內建表格及其互動，請參閱 [此頁面](datamodel.md). 另請參閱在中建立新結構描述時的建議 [此頁面](create-schema.md).
 
 若要擴充方案，請遵循下列步驟：
 

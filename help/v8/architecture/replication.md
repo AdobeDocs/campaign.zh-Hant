@@ -5,10 +5,10 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: f807963a7640773ac18d49999b561f2f3b894d7f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: '365'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 這些工作流程會對資料庫執行維護操作、利用傳送記錄中的追蹤資訊、建立週期性行銷活動等。
 
-![](../assets/do-not-localize/glass.png) 完整的技術工作流程清單詳見 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+完整的技術工作流程清單詳見 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
 除了這些技術工作流程之外，Campaign v8還仰賴特定的技術工作流程來管理 [資料復寫](#data-replication).
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 * **[!UICONTROL Replicate FFDA data immediately]**
 此工作流程會復寫指定外部帳戶的XS資料。
 
-這些技術工作流程可從 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** Campaign Explorer的節點。 **不得更改它們。**
+這些技術工作流程可從 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** Campaign Explorer的節點。 **不可修改。**
 
 如有需要，您可以手動啟動資料同步處理。 若要執行此動作，請用滑鼠右鍵按一下 **排程器** 活動並選取 **立即執行擱置中的任務**.
 

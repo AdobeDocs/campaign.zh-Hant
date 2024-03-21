@@ -5,9 +5,9 @@ feature: Configuration, Application Settings
 role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Adobe Campaign使用資料結構描述來：
 
 **相關主題**
 
-![](../assets/do-not-localize/book.png) 中的結構描述版本範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+中的結構描述版本範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) 使用案例：將欄位連結至中的現有參考表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+使用案例：將欄位連結至中的現有參考表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## 修改輸入表單

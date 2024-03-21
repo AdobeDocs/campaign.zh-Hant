@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 73%
@@ -28,7 +28,7 @@ ht-degree: 73%
 
    您需要下載並安裝Campaign使用者端主控台，才能連線至Adobe Campaign。
 
-   ![](../assets/do-not-localize/glass.png)[按一下這裡以了解更多資訊](connect.md)。
+   [按一下這裡以瞭解更多資訊](connect.md)。
 
    自Campaign v8.6發行版本開始，您可以存取新的 **Campaign Web使用者介面**，可透過中央Adobe Experience Cloud環境取得。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。透過其直覺式介面，您可以快速存取您的雲端應用程式、產品功能和服務。
 
@@ -43,9 +43,9 @@ ht-degree: 73%
 
    對於每個位寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 在這個數位世界中進行有效導覽，需要定期調整您的電子郵件策略，考量傳遞能力的重要趨勢，以便最能觸及您的對象。
 
-   ![](../assets/do-not-localize/book.png) 請參閱本指南以瞭解 [可遞送性最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target="_blank"}
+   請參閱本指南以瞭解 [可遞送性最佳實務](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) 瞭解如何在Campaign實施傳遞能力 [本指南內容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target="_blank"}
+   瞭解如何在Campaign實施傳遞能力 [本指南內容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant){target="_blank"}
 
 1. **如何確定我的內容是否成功傳送無誤？**
 

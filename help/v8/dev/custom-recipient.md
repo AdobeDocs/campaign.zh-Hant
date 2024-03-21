@@ -5,9 +5,9 @@ feature: Custom Resources, Profiles, Configuration
 role: User, Developer
 level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -18,4 +18,4 @@ Adobe Campaign隨附內建的設定檔表格： **nmsRecipient**. 此表格有�
 
 內建表格擴充功能提供靈活性，但不允許移除某些未使用的欄位或連結。 因此，當您的資料模型與Campaign內建的收件者表格結構完全不同，或您有大量設定檔時，使用自訂收件者表格可能是很好的選項。  不過，此方法在實作時需要特別注意。
 
-![](../assets/do-not-localize/book.png) 瞭解如何設定您的執行個體以使用中的自訂收件者表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.
+瞭解如何設定您的執行個體以使用中的自訂收件者表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.

@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 16%
@@ -24,13 +24,13 @@ ht-degree: 16%
 
 清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理清單 [此頁面](../audiences/create-audiences.md).
+瞭解如何在中建立和管理清單 [此頁面](../audiences/create-audiences.md).
 
 ## 篩選資料庫{#filter-the-database}
 
 篩選設定可讓您從清單中選取資料 **[!UICONTROL dynamically]**：修改資料時，會更新篩選的資料。 您可以建立自己的篩選器，或使用內建篩選器來定義目標對象。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何在中建立和管理篩選器 [此頁面](../audiences/create-filters.md).
+瞭解如何在中建立和管理篩選器 [此頁面](../audiences/create-filters.md).
 
 ## 在工作流程中建立對象
 
@@ -55,7 +55,7 @@ ht-degree: 16%
 
 Adobe Campaign是一款強大的工具，用於收集和處理包括個人資訊及敏感資料在內的大量資料。 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-![](../assets/do-not-localize/book.png) 瞭解如何在中管理隱私權和同意 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target="_blank"}.
+瞭解如何在中管理隱私權和同意 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant){target="_blank"}.
 
 **相關主題**
 

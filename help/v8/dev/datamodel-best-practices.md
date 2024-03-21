@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2740'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ Adobe Campaign系統非常靈活，可擴充至初始實施以外的範圍。 �
 
 如要更瞭解Campaign內建表格以及它們之間的關係，請參閱 [本節](datamodel.md).
 
-![](../assets/do-not-localize/glass.png) 讀出 [本節](schemas.md) 以開始使用Campaign綱要。
+讀出 [本節](schemas.md) 以開始使用Campaign綱要。
 
-![](../assets/do-not-localize/glass.png) 瞭解如何設定擴充功能綱要，以擴充中的Adobe Campaign資料庫概念資料模型 [此頁面](extend-schema.md).
+瞭解如何設定擴充功能綱要，以擴充中的Adobe Campaign資料庫概念資料模型 [此頁面](extend-schema.md).
 
 ## 資料模型架構 {#data-model-architecture}
 

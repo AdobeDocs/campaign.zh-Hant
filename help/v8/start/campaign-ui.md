@@ -4,7 +4,8 @@ description: 瞭解如何瀏覽及使用Campaign使用者介面
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 6%
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->本檔案著重於Campaign使用者端主控台使用情形。 如果您使用Campaign Web使用者介面，請參閱 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>本檔案著重於Campaign使用者端主控台使用情形。 如果您使用Campaign Web使用者介面，請參閱 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}.
 
 * **使用者端主控台** - Campaign使用者端主控台是原生應用程式，可透過標準網際網路通訊協定（例如SOAP和HTTP）與Adobe Campaign應用程式伺服器通訊。 Campaign使用者端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign使用者端主控台專為輕鬆部署而設計，可從網際網路瀏覽器部署、自動更新，且不需要任何特定網路設定，因為它只會產生HTTP(S)流量。 [了解更多](#ui-access)
 
@@ -83,7 +84,7 @@ You can also access a subset of Campaign capabilities through the a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
+[Learn more about Campaign web access](../start/connect.md#web-access).-->
 
 ### 存取Campaign總管 {#ac-explorer-ui}
 
@@ -106,9 +107,9 @@ The web access interface is similar to the console interface. From a browser, yo
 
 ![Adobe Campaign Web使用者介面首頁](assets/ac-web-home.png)
 
-進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}.
 
-其他和進階功能、組態和設定只能在使用者端主控台中使用。 進一步瞭解這兩個使用者介面中可用的功能 [（在Campaign Web使用者介面檔案中）](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+其他和進階功能、組態和設定只能在使用者端主控台中使用。 進一步瞭解這兩個使用者介面中可用的功能 [（在Campaign Web使用者介面檔案中）](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 支援的語言 {#languages}

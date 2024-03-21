@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在Web應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-![](../assets/do-not-localize/book.png) 進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
 
 
 ## 個人化
@@ -144,4 +144,4 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在Web應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-![](../assets/do-not-localize/book.png) 進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}

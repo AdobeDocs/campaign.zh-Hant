@@ -5,10 +5,10 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 
 在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，以及透過API和雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
 
-Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。
+Campaign v8企業版帶來 **完整同盟資料存取** (FFDA)：所有資料現在都在雲端資料庫遠端處理。
 
 可利用特定 API 來管理本機和雲端資料庫之間的資料。 在[此頁面](new-apis.md)瞭解這些新 API 如何運作，以及如何使用它們。
 
@@ -80,17 +80,17 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 ## 影響{#ffda-impacts}
 
-### [!DNL Campaign] API 準備機制{#staging-api}
+### [!DNL Campaign] API準備機制{#staging-api}
 
 替換為 [!DNL Campaign] 雲端資料庫，由於效能（延遲和並行），不建議使用Blast單一呼叫。 永遠偏好使用批次作業。 為了保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
 
-![](../assets/do-not-localize/glass.png) [本頁面詳細說明API暫存機制](staging.md)
+[本頁面詳細說明API暫存機制](staging.md)
 
 ### 新 API{#new-apis}
 
 新API可用於管理之間的資料同步 [!DNL Campaign] 本機資料庫和雲端資料庫。 此外也引入新機制，可在本機資料庫層級處理API呼叫，以避免延遲並提高整體效能。
 
-![](../assets/do-not-localize/glass.png) [新的API在此頁面有詳細說明](new-apis.md)
+[新的API在此頁面有詳細說明](new-apis.md)
 
 
 ### 資料複製{#data-replication}
@@ -107,7 +107,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 ### ID 管理{#id-mgt-ffda}
 
-Campaign v8 物件現在使用&#x200B;**通用唯一 ID (UUID)**，此 UUID 允許無限制的唯一值來識別資料.
+Campaign v8物件現在使用 **通用唯一ID (UUID)**，可允許無限制的唯一值來識別資料。
 
 請注意此 ID 是字串且並非循序。主索引鍵不是 Campaign v8 中的數值，且您需要在結構中使用 **autouuid** 和 **autopk** 屬性。
 

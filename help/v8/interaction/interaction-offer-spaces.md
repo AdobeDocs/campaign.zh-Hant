@@ -5,9 +5,9 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 3%
 
 ---
@@ -156,4 +156,4 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已延伸，以使用傳入頻道新增空間中所參照的欄位時，就會發生這種情況。
 
-![](../assets/do-not-localize/book.png)  如需詳細資訊，請參閱此範例，位置如下： [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+如需詳細資訊，請參閱此範例，位置如下： [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
