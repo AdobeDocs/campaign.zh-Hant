@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 82%
+source-wordcount: '706'
+ht-degree: 73%
 
 ---
 
@@ -30,9 +30,14 @@ ht-degree: 82%
 
    ![](../assets/do-not-localize/glass.png)[按一下這裡以了解更多資訊](connect.md)。
 
+   自Campaign v8.6發行版本開始，您可以存取新的 **Campaign Web使用者介面**，可透過中央Adobe Experience Cloud環境取得。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。透過其直覺式介面，您可以快速存取您的雲端應用程式、產品功能和服務。
+
+   [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
+
+   進一步瞭解 [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Campaign v8 是否可安裝在內部部署或混合環境中？**
 
-   目前，Campaign v8 僅適用於受管理的 Cloud Services，完全由 Adobe 托管。
+   Campaign v8僅適用於受管理的Cloud Service，完全由Adobe託管。
 
 1. **如何改進電子郵件傳遞能力？**
 
@@ -60,11 +65,15 @@ ht-degree: 82%
 
    子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
 
-   ![](../assets/do-not-localize/speech.png) 請以 Managed Cloud Services 使用者身分，聯絡 Adobe 以委派您的子網域至 Adobe。
+   ![](../assets/do-not-localize/speech.png) 請以「受管理的Cloud Service」使用者身分聯絡Adobe以委派您的子網域至Adobe。
 
 1. **身為 Campaign Classic v7 使用者，我可以移轉至 Campaign v8 嗎？**
 
-   目前，Campaign v8 僅適用於新的實作。
+   無法從現有 Campaign Classic V7 環境進行自動移轉。
+
+   Campaign v8 目前&#x200B;**僅** 以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。 
+
+   ![](../assets/do-not-localize/speech.png) 如需移轉程式的詳細資訊，請洽詢您的Adobe代表。
 
 1. **如何下載 Campaign？**
 
@@ -85,4 +94,4 @@ ht-degree: 82%
 
    如要在該新系統中記錄問題或啟動聊天工作階段，請連線至 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
 
-   此系統要求每個使用者都需要有新的個別帳戶，並擁有正確權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 請求存取權限，客戶服務團隊會盡快為您設定。 [瞭解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+   此系統要求每個使用者都需要有新的個別帳戶，並擁有正確權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 請求存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
