@@ -5,7 +5,7 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 4%
@@ -175,7 +175,7 @@ Adobe Campaign既不是Data Warehouse也不是報表工具。 因此，為了確
 
 您可以在結構描述中宣告「deleteStatus」屬性。 將記錄標籤為已刪除，然後在清理任務中延遲刪除會更有效率。
 
-![](../assets/do-not-localize/speech.png)  身為「受管理的Cloud Service」使用者，請聯絡Adobe顧問或技術管理員，以進一步瞭解保留，或您是否需要設定自訂表格的保留。
+身為「受管理的Cloud Service」使用者，請聯絡Adobe顧問或技術管理員，以進一步瞭解保留，或您是否需要設定自訂表格的保留。
 
 ## 績效 {#performance}
 

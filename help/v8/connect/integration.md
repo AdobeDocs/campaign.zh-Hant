@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 12%
@@ -22,8 +22,6 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 結合Adobe Experience Cloud解決方案，匯入最新的實作方式。
 
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。
-
 Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
 * Adobe Analytics。[了解更多](../connect/ac-aa.md)
@@ -36,9 +34,14 @@ Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解
 
 您也可以合併 **對象** 和 **資產** 跨具有資產共用和受眾共用功能的Experience Cloud解決方案。
 
-進一步瞭解 **對象分享** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+進一步瞭解 **對象分享** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-進一步瞭解 **資產共用** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+進一步瞭解 **資產共用** 中的Campaign與Experience Cloud解決方案之間 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。
+
 
 ## 與您的CRM聯結器整合{#gs-crm-connectors}
 

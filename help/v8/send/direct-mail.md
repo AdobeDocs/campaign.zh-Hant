@@ -5,7 +5,7 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 11%
@@ -54,4 +54,4 @@ ht-degree: 11%
 
    確認會在指定的檔案中開始資料擷取。
 
-   在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 進一步瞭解 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)
+   在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 進一步瞭解 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}.

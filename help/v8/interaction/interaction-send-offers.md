@@ -5,9 +5,9 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1241'
 ht-degree: 3%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 3%
 
 ### 擴充 {#enrichment}
 
-此 **擴充** 活動可讓您將優惠或連結新增至傳遞收件者的優惠方案。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+此 **擴充** 活動可讓您將優惠或連結新增至傳遞收件者的優惠方案。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}。
 
 例如，您可以在傳遞前擴充收件者查詢的資料。
 
@@ -92,7 +92,7 @@ ht-degree: 3%
 設定您的 **查詢** 活動：
 
 1. 新增並開啟 **擴充** 活動。
-1. 在 **[!UICONTROL Enrichment]** 索引標籤中，選取 **[!UICONTROL Add data]**。
+1. 在 **[!UICONTROL Enrichment]** 索引標籤，選取 **[!UICONTROL Add data]**.
 1. 選取 **[!UICONTROL An offer proposition]** 在要新增的資料型別中。
 
    ![](assets/int_enrichment_offer2.png)
@@ -163,7 +163,7 @@ ht-degree: 3%
 
 此 **[!UICONTROL Offer engine]** 活動也可讓您指定在傳送前對優惠方案引擎的呼叫。
 
-如需詳細資訊，請參閱 **優惠方案引擎** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+如需詳細資訊，請參閱 **優惠方案引擎** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 此活動的運作原理與相同。 **擴充** 透過引擎呼叫的活動，在傳送前透過引擎計算的優惠來豐富入站母體資料。
 
@@ -186,7 +186,7 @@ ht-degree: 3%
 
 此 **[!UICONTROL Offers by cell]** 活動可讓您將入站母體（例如從查詢）分配至數個區段，並指定要針對每個區段呈現的選件。
 
-如需詳細資訊，請參閱 **依儲存格列出的優惠** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+如需詳細資訊，請參閱 **依儲存格列出的優惠** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 要執行此操作，請使用下列程式：
 

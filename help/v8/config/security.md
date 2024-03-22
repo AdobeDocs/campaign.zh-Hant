@@ -5,7 +5,7 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -27,7 +27,10 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 * 請確定加密的密碼受到限制
 * Protect中可能包含個人資訊的頁面，例如映象頁面、網頁應用程式等。
 
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者，Adobe將與您合作，在您的環境中實作這些設定。
+
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者，Adobe將與您合作，在您的環境中實作這些設定。
 
 
 ## 存取管理
@@ -49,7 +52,7 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在Web應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## 個人化
@@ -144,4 +147,4 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在Web應用程式中新增字幕**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+進一步瞭解 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.

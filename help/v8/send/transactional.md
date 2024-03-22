@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -16,7 +16,9 @@ ht-degree: 1%
 
 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 這些通知是從資訊系統觸發的事件產生，可以是：發票、訂單確認、出貨確認、密碼變更、產品無法使用通知、帳戶對帳單、網站帳戶建立等。
 
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 若要在環境中設定Campaign異動訊息。
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 若要在環境中設定Campaign異動訊息。
 
 交易式訊息用於傳送：
 
@@ -28,7 +30,7 @@ ht-degree: 1%
 
 瞭解上的異動訊息傳送架構 [此頁面](../architecture/architecture.md#transac-msg-archi).
 
-## 交易式訊息傳遞操作原則 {#transactional-messaging-operating-principle}
+## 異動訊息傳遞操作原則 {#transactional-messaging-operating-principle}
 
 Adobe Campaign異動訊息模組整合至資訊系統，可傳回要變更為個人化異動訊息的事件。 這些訊息可透過電子郵件、簡訊或推播通知個別或批次傳送。
 

@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 3%
@@ -20,7 +20,10 @@ ht-degree: 3%
 
 * 收集新連絡人 — Adobe Campaign社交行銷也可讓您輕鬆取得新連絡人：聯絡使用者並詢問他們是否要分享其設定檔資訊。 如果他們接受，Adobe Campaign會自動復原資料，讓您能夠執行目標定位行銷活動，並儘可能實施跨管道策略。
 
-![](../assets/do-not-localize/speech.png) 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 以連結Campaign與X。  **管理社交網路（社交行銷）** 附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
+
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 以連結Campaign與X。  **管理社交網路（社交行銷）** 附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
 
 
 若要設定Adobe Campaign將推文張貼至您的X帳戶，請委派這些帳戶的Adobe Campaign寫入許可權。 若要這麼做，您必須：
@@ -42,7 +45,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 核准您的「提升存取權」後，請建立X應用程式，讓Adobe Campaign能在您的X帳戶上建立貼文。 要執行此操作，請遵循下列步驟：
 
 1. 登入您的X帳戶。
-1. 連線到 [X開發人員入口網站](https://developer.twitter.com/en/apps).
+1. 連線到 [X開發人員入口網站](https://developer.twitter.com/en/apps){target="_blank"}.
 1. 選取 **建立應用程式**.
 1. 讓X助理引導您完成程式。
 1. 若要允許Adobe Campaign在您的帳戶上建立貼文，請編輯至 **應用程式許可權** 從應用程式的「使用者驗證設定」區段。 選取 **讀取、寫入和直接訊息**.

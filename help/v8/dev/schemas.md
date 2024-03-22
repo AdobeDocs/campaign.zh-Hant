@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 5%
@@ -198,9 +198,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-完整的屬性清單可在 `<attribute>` 中的元素區段 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). 以下是一些較常用的屬性： **@advanced**， **@dataPolicy**， **@default**， **@desc**， **@enum**， **@expr**， **@label**， **@length**， **@name**， **@notNull**， **@required**， **@ref**， **@xml**， **@type**.
+完整的屬性清單可在 `<attribute>` 中的元素區段 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. 以下是一些較常用的屬性： **@advanced**， **@dataPolicy**， **@default**， **@desc**， **@enum**， **@expr**， **@label**， **@length**， **@name**， **@notNull**， **@required**， **@ref**， **@xml**， **@type**.
 
-如需每個屬性的詳細資訊，請參閱中的屬性說明 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+如需每個屬性的詳細資訊，請參閱中的屬性說明 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### 範例 {#examples}
 

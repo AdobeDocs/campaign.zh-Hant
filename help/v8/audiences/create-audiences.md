@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 22%
+source-wordcount: '773'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 
 ![](assets/list-dashboard.png)
 
-您可以使用以下專案建立清單 **更新清單** 活動的工作流程。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，透過在訪客資料表上查詢並更新清單，您可以建立訪客清單。[了解更多](#create-a-list-wf)。
+您可以使用以下專案建立清單 **更新清單** 活動的工作流程。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，若您在訪客表格上使用查詢，然後更新清單，即可建立訪客清單。 [了解更多](#create-a-list-wf)。
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
@@ -37,27 +37,27 @@ ht-degree: 22%
 
    ![](assets/new-list.png)
 
-1. 在清單建立視窗的 **[!UICONTROL Edit]** 索引標籤中輸入資訊。
+1. 在 **[!UICONTROL Edit]** 清單建立視窗的標籤。
 
    ![](assets/list-details.png)
 
-   * 在 **[!UICONTROL Label]** 欄位中輸入清單名稱，並視需要變更內部名稱。
+   * 輸入清單名稱，在 **[!UICONTROL Label]** 欄位並在必要時變更內部名稱。
    * 新增此清單的描述。
    * 您可以指定到期日：達到此日期時，清單會被清除並自動刪除。
 
 
-1. 在 **[!UICONTROL Content]** 索引標籤中，按一下 **[!UICONTROL Add]** 以選取屬於清單的用戶檔案。
+1. 在 **[!UICONTROL Content]** 標籤，按一下 **[!UICONTROL Add]** 以選取屬於清單的設定檔。
 
    ![](assets/add-profiles-to-a-list.png)
 
    您可以使用建立新的設定檔，並直接從此視窗將其新增到清單中。 **[!UICONTROL Create]** 圖示。 該用戶檔案將新增至資料庫。
 
-1. 按一下 **[!UICONTROL Save]** 儲存清單。然後，清單便會新增至清單概要中。
+1. 按一下 **[!UICONTROL Save]** 以儲存清單。 然後，清單便會新增至清單概要中。
 
 
 ## 將篩選的連絡人轉換為清單 {#convert-data-to-a-list}
 
-您可以選取設定檔並將它們新增到清單中。 請依照下列步驟以執行此操作：
+您可以選取設定檔並將它們新增到清單中。 若要執行此作業，請依照下列步驟操作：
 
 1. 在Campaign Explorer中，選取設定檔並按一下滑鼠右鍵。
 
@@ -79,7 +79,7 @@ ht-degree: 22%
 
 如果您取消核取 **[!UICONTROL No trace of this job is saved in the database]** 選項，您可以選取（或建立）執行資料夾，其中會儲存連結至此流程的資訊。
 
-使用視窗的上方區域可監視執行情況。使用 **[!UICONTROL Stop]** 按鈕可停止程序。已處理的連絡人將連結至清單。
+視窗的上方區段可讓您監視執行。 此 **[!UICONTROL Stop]** 按鈕可讓您停止此程式。 已處理的連絡人將連結至清單。
 
 執行完成後，存取 **[!UICONTROL Profiles and Targets > Lists]** 功能表並選取清單： **[!UICONTROL Content]** 索引標籤會顯示連結至此清單的設定檔。
 
@@ -103,7 +103,7 @@ ht-degree: 22%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   瞭解如何在的工作流程中建立查詢，位置如下： [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   瞭解如何在的工作流程中建立查詢，位置如下： [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. 為此查詢新增標籤並儲存您的變更。
 1. 新增 **[!UICONTROL List update]** 活動，並加以編輯。
@@ -124,7 +124,7 @@ ht-degree: 22%
 
    ![](assets/access-new-list.png)
 
-   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html)。
+   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}。
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 

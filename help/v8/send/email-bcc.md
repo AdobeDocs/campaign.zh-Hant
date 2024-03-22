@@ -4,13 +4,13 @@ description: 瞭解如何在Adobe Campaign中啟用電子郵件密件副本
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 # 將郵件副本傳送至密件副本地址 {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 封存目的地是您選擇的密件副本電子郵件地址，傳遞收件者將看不到該地址。 定義密件副本電子郵件地址後，您必須在 [傳遞範本](create-templates.md) 層級。
 
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 以傳達要用於封存的密件副本電子郵件地址。
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 以傳達要用於封存的密件副本電子郵件地址。
 
 >[!CAUTION]
 >

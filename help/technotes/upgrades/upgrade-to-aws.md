@@ -2,7 +2,7 @@
 title: Campaign電子郵件傳送基礎架構升級
 description: Campaign電子郵件傳送基礎架構升級
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 4c41e5d1fef1dcb3279a26f6025338e41525e6b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -62,4 +62,4 @@ ht-degree: 1%
 
   沒有。我們無法因應現有排程的任何修改請求，因為這可能會中斷為其他客戶指派的升級事件。
 
-如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..
+如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

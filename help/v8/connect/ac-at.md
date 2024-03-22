@@ -5,10 +5,10 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 1%
+source-wordcount: '970'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 1%
 此整合可協助您實作如下的使用案例：收件者開啟透過Adobe Campaign傳送的電子郵件時，呼叫Adobe Target可讓您顯示內容的動態版本。 此動態版本是根據建立電子郵件時預先指定的規則計算。
 
 >[!NOTE]
->整合僅支援靜態影像。 其他型別的內容無法個人化。
-
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 透過Campaign實施Experience Cloud觸發程式。
+>* 整合僅支援靜態影像。 其他型別的內容無法個人化。
+>
+>* 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 透過Campaign實施Experience Cloud觸發程式。
 
 Adobe Target可使用下列型別的資料：
 
@@ -74,7 +74,7 @@ Adobe Target可使用下列型別的資料：
 * 此 **[!UICONTROL Landing Page]** 可讓您將預設影像重新導向至預設登陸頁面。 此URL只適用於最終電子郵件中顯示預設影像時。 這是選擇性的。
 * 此 **[!UICONTROL Additional decision parameters]**  會定義Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，已新增「國家/地區」欄位。
 
-如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 前往進一步瞭解Target企業許可權： [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 前往進一步瞭解Target企業許可權： [Adobe Target檔案](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ Adobe Target可使用下列型別的資料：
 
    ![](assets/target_6.png)
 
-1. 對其餘的重新導向選件遵循相同程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences)。
+1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此 [Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### 建立對象 {#audiences-target}
 

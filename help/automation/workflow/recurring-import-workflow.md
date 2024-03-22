@@ -5,9 +5,9 @@ description: 瞭解如何設定週期性匯入的工作流程範本。
 feature: Workflows, Data Management
 role: User, Data Engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 在 **[!UICONTROL Name of the file to load]** 區段，選取 **[!UICONTROL Upload a file from the local machine]** 並保留欄位空白。 每次從這個範本建立新工作流程時，只要檔案符合定義的結構，您就可以在此處指定所要的檔案。
 
-     您可以使用任何選項，但必須據以修改範本。 例如，如果您選取 **[!UICONTROL Specified in the transition]**，您可以新增 **[!UICONTROL File Transfer]** 活動，以擷取要從FTP/SFTP伺服器匯入的檔案。 透過S3或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 如需詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+     您可以使用任何選項，但必須據以修改範本。 例如，如果您選取 **[!UICONTROL Specified in the transition]**，您可以新增 **[!UICONTROL File Transfer]** 活動，以擷取要從FTP/SFTP伺服器匯入的檔案。 透過S3或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 有關詳細資訊，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
      ![](assets/import_template_example1.png)
 

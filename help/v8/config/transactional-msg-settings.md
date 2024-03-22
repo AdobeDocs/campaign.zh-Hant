@@ -5,20 +5,23 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '600'
+ht-degree: 4%
 
 ---
 
-# 異動訊息設定 {#mc-settings}
+# 交易型訊息設定 {#mc-settings}
 
 異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign模組。 進一步瞭解中的異動訊息傳送 [本節](../send/transactional.md).
 
 瞭解中的異動訊息傳送架構 [此頁面](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 在您的環境中安裝和設定Campaign異動訊息。
+
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 在您的環境中安裝和設定Campaign異動訊息。
 
 ## 定義許可權 {#mc-permissions}
 
@@ -51,7 +54,7 @@ ht-degree: 5%
 
 以下是傳送異動推播通知的事件設定範例：
 
-```
+```xml
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
      <urn:PushEvent>

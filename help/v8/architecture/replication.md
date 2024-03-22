@@ -5,7 +5,7 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 這些工作流程會對資料庫執行維護操作、利用傳送記錄中的追蹤資訊、建立週期性行銷活動等。
 
-完整的技術工作流程清單詳見 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+完整的技術工作流程清單詳見 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 除了這些技術工作流程之外，Campaign v8還仰賴特定的技術工作流程來管理 [資料復寫](#data-replication).
 
@@ -74,6 +74,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **相關主題**
 
-* [瞭解如何開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
+* [瞭解如何開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant){target="_blank"}
 
 * [資料保留期](../dev/datamodel-best-practices.md#data-retention)

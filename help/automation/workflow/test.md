@@ -4,10 +4,10 @@ title: 測試
 description: 進一步瞭解測試工作流程活動
 feature: Workflows
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '187'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ A **測試** type活動會啟動滿足與其相關的條件的第一個轉變。
 
 ![](assets/edit_test.png)
 
-如需透過工作流程JavaScript存取之應用程式伺服器的所有其他JavaScript函式和SOAP方法的詳細資訊，請參閱 [JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=zh-Hant).
+如需透過工作流程JavaScript存取之應用程式伺服器的所有其他JavaScript函式和SOAP方法的詳細資訊，請參閱 [JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=zh-Hant){target="_blank"}.
 
 您也可以從此編輯器直接插入變數。 有關如何使用變數的詳細資訊，請參閱 [本節](javascript-scripts-and-templates.md#variables).
 

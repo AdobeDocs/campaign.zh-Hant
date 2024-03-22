@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 1%
@@ -56,7 +56,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱 [Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱 [Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    在 **[!UICONTROL Authentication]** 步驟，開啟 **[!UICONTROL Enable authentication]** 使用透過OAuth整合產生的存取權杖進行驗證的選項。
 
@@ -98,7 +98,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請新增 **[!UICONTROL JavaScript code]** 使用下列程式碼將活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+若要在執行登入頁面工作流程時自動設定這些選項，請新增 **[!UICONTROL JavaScript code]** 使用下列程式碼將活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
@@ -344,5 +344,5 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 ### 更多資訊
 
 * [設定JavaScript程式碼活動](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [建立登入頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [管理訂閱和取消訂閱](../start/subscriptions.md)

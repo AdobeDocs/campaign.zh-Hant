@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 12%
+source-wordcount: '2990'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 此程式會防止系統繼續傳送無效的電子郵件地址。 跳出是ISP用來判斷IP信譽的關鍵資料之一。 留意此量度非常重要。 「已傳遞」與「已跳出」可能是衡量行銷訊息傳遞方式最常見的方式：傳遞百分比越高越好。
 
-如果訊息無法傳送至設定檔，遠端伺服器會自動傳送錯誤訊息至Adobe Campaign。 此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 另請參閱 [退回郵件管理](#bounce-mail-qualification).
+如果無法將訊息發送到設定檔，遠端伺服器會自動向Adobe Campaign 發送錯誤消息。此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 另請參閱 [退回郵件管理](#bounce-mail-qualification).
 
 傳送訊息後，您可以在傳送記錄檔中檢視每個設定檔的傳送狀態，以及相關失敗的型別和原因。
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
 此  **已忽略** 已知的錯誤型別是暫時性的，例如「不在辦公室」，或技術錯誤，例如，如果傳送者型別是&quot;postmaster&quot;。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址會新增至(**NmsAddress**)隔離表格而非(**NmsRecipient**)收件者表格，包含 **[!UICONTROL Denylisted]** 狀態。 進一步瞭解中的意見回圈機制 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址會新增至(**NmsAddress**)隔離表格而非(**NmsRecipient**)收件者表格，包含 **[!UICONTROL Denylisted]** 狀態。 進一步瞭解中的意見回圈機制 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -109,7 +109,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
 
 例如，如果有效期間在Campaign中設定為預設值5天，則軟退信訊息會進入MTA重試佇列，並從該訊息達到MTA時起最多只重試3.5天。 在此情況下，將不會使用Campaign中設定的值。
 
-當訊息在 MTA 佇列中停留 3.5 天且無法傳送時，訊息會逾時，其狀態會從傳送記錄檔中的 **[!UICONTROL Sent]** 更新為 **[!UICONTROL Failed]**。
+當訊息在MTA佇列中停留3.5天且無法傳送時，訊息會逾時，其狀態會從更新 **[!UICONTROL Sent]** 至 **[!UICONTROL Failed]** 傳送記錄檔中。
 
 如需有效期的詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
@@ -163,7 +163,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 收件者的地址是控制組的一部分。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 雙精度浮點數 </td> 
+   <td> 雙精度 </td> 
    <td> 已忽略 </td> 
    <td> 10 </td> 
    <td> 收件者的地址已在此傳遞中。<br /> </td> 
@@ -190,7 +190,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 無效的網域 </td> 
    <td> 柔光 </td> 
    <td> 2 </td> 
-   <td> 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。<br /> </td> 
+   <td> 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為隔離狀態，不會再重試。<br /> </td> 
   </tr> 
   <tr> 
    <td> 郵箱已滿 </td> 
@@ -208,7 +208,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。然後他們可以透過進行訊息分析，並確認此錯誤 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法傳遞的專案管理</span> 樹狀結構中的節點。<br /> </td> 
+   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 然後他們可以透過進行訊息分析，並確認此錯誤 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法傳遞的專案管理</span> 樹狀結構中的節點。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不符合優惠方案條件 </td> 
@@ -232,7 +232,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 不合格的地址 </td> 
    <td> 已忽略 </td> 
    <td> 15 </td> 
-   <td> 郵寄地址不合格.<br /> </td> 
+   <td> 郵寄地址不合格。<br /> </td> 
   </tr> 
   <tr> 
    <td> 無法聯繫 </td> 
@@ -267,7 +267,7 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> <strong>情境</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
-   <td> <strong>失敗類型</strong><br /> </td> 
+   <td> <strong>失敗型別</strong><br /> </td> 
    <td> <strong>失敗原因</strong><br /> </td> 
    <td> <strong>重試</strong><br /> </td> 
   </tr> 
@@ -324,7 +324,7 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> 失敗<br /> </td> 
    <td> 連線錯誤<br /> </td> 
    <td> 未定義<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
@@ -380,7 +380,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> <strong>情境</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
-   <td> <strong>失敗類型</strong><br /> </td> 
+   <td> <strong>失敗型別</strong><br /> </td> 
    <td> <strong>失敗原因</strong><br /> </td> 
    <td> <strong>重試</strong><br /> </td> 
   </tr> 
@@ -405,7 +405,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 失敗<br /> </td> 
    <td> 沒有來自Firebase Cloud Messaging服務對以下位址的回應： {1}<br /> </td> 
    <td> 柔光<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
@@ -413,7 +413,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 失敗<br /> </td> 
    <td> Firebase雲端傳訊服務暫時無法使用<br /> </td> 
    <td> 柔光<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
@@ -595,7 +595,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> <strong>情境</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
-   <td> <strong>失敗類型</strong><br /> </td> 
+   <td> <strong>失敗型別</strong><br /> </td> 
    <td> <strong>失敗原因</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -607,7 +607,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
   </tr> 
   <tr> 
    <td> 已在行動裝置上接收<br /> </td> 
-   <td> 已收到<br /> </td> 
+   <td> 已接收<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -617,21 +617,21 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 失敗<br /> </td> 
    <td> 接收資料時發生錯誤（SR或MO）<br /> </td> 
    <td> 柔光<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
   </tr> 
   <tr> 
    <td> 無效的MT通知<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 處理傳送查詢的認可框架時發生錯誤'{1}'<br /> </td> 
    <td> 柔光<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送MT時發生錯誤<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 傳送訊息時發生錯誤<br /> </td> 
    <td> 柔光<br /> </td> 
-   <td> 無法聯繫<br /> </td> 
+   <td> 無法聯絡<br /> </td> 
   </tr> 
  </tbody> 
 </table>

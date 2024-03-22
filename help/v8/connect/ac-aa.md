@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 71%
+source-wordcount: '1051'
+ht-degree: 66%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 71%
 
 此整合可讓Adobe Campaign和Adobe Analytics透過 **網站分析聯結器** 附加元件。 此整合會將Adobe Campaign所傳送電子郵件行銷活動的指標和屬性傳送至Adobe Analytics。
 
-![](../assets/do-not-localize/speech.png)  作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
+>[!NOTE]
+>
+>作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
@@ -37,7 +39,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. [在 Adobe Analytics 中建立報告套裝](#report-suite-analytics)
 1. [設定轉換變數和成功事件](#configure-conversion-success)
-1. [在 Adobe Campaign 中設定您的外部帳戶](#external-account-ac)
+1. [在Adobe Campaign中設定外部帳戶](#external-account-ac)
 
 ## 建立您的Analytics報表套裝 {#report-suite-analytics}
 
@@ -53,7 +55,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. 從&#x200B;**[!UICONTROL Report suite manager]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL Create new]**，然後按一下&#x200B;**[!UICONTROL Report suite]**。
 
-   有關建立&#x200B;**[!UICONTROL Report suite]**&#x200B;的詳細過程，請參閱本[節](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites)。
+   有關詳細程式，請參閱 **[!UICONTROL Report suite]** 建立，請參閱 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -83,7 +85,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. 按一下&#x200B;**[!UICONTROL Add new]**&#x200B;以建立測量電子郵件行銷活動影響所需的識別碼，即內部行銷活動名稱 (cid) 和 iNmsBroadlog (bid) 表格 ID。
 
-   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱本[節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools)。
+   若要瞭解如何編輯 **[!UICONTROL Conversion variables]**，請參閱此 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -106,7 +108,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱本[節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   若要瞭解如何設定 **[!UICONTROL Success events]**，請參閱此 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -120,7 +122,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 請注意，如果在設定外部帳戶時未顯示 **[!UICONTROL Report suite]**、**[!UICONTROL Conversion variables]** 或 **[!UICONTROL Success events]**&#x200B;之一，這表示您在與使用者相關聯的 **[!UICONTROL Product profile]** 中缺少此新建立元件的權限。
 
-如需詳細資訊，請參閱 [Adobe Analytics 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins)頁面。
+如需詳細資訊，請參閱 [Adobe Analytics的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} 頁面。
 
 1. 前往 Adobe Campaign 樹的 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 資料夾，然後按一下 **[!UICONTROL New]**。
 
@@ -180,7 +182,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. **[!UICONTROL Advanced]**&#x200B;標籤可讓您設定或修改更多技術設定。
 
-   * **[!UICONTROL Lifespan]**：可讓您 (以天為單位) 指定延遲，之後技術工作流程便可在 Adobe Campaign 中復原 Web 事件。預設值：180天。
+   * **[!UICONTROL Lifespan]**：可讓您指定延遲（以天為單位），之後技術工作流程便可在Adobe Campaign中復原Web事件。 預設值：180天。
    * **[!UICONTROL Persistence]**：可讓您將所有 Web 事件 (例如購買) 歸因於再次行銷活動的期間，預設值：7天。
 
 >[!NOTE]
@@ -236,7 +238,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 開啟傳送屬性。
-1. 前往&#x200B;**[!UICONTROL Web Analytics]**&#x200B;標籤，並選取先前建立的外部帳戶。 請參閱[在 Adobe Campaign 中設定外部帳戶](#external-account-ac)。
+1. 前往&#x200B;**[!UICONTROL Web Analytics]**&#x200B;標籤，並選取先前建立的外部帳戶。 請參閱 [在Adobe Campaign中設定外部帳戶](#external-account-ac).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

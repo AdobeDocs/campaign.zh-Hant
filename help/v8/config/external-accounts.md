@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1037'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 此 **退回郵件** 外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
 
-進一步瞭解中的傳入電子郵件 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
+進一步瞭解中的傳入電子郵件 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -68,7 +68,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 >[!CAUTION]
 >
->使用Microsoft OAuth 2.0設定POP3外部帳戶之前，您必須先在Azure入口網站中註冊應用程式。 如需關於此項目的詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>使用Microsoft OAuth 2.0設定POP3外部帳戶之前，您必須先在Azure入口網站中註冊應用程式。 如需詳細資訊，請參閱此 [頁面](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 >
 
 若要使用Microsoft OAuth 2.0設定POP3外部介面，請檢查 **[!UICONTROL Microsoft OAuth 2.0]** 並填入下列欄位：
@@ -116,7 +116,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
-這些外部帳戶可用於匯入或匯出資料至Adobe Campaign，使用如下 **[!UICONTROL Transfer file]** 工作流程活動。 進一步瞭解 **檔案傳輸** 在工作流程中 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
+這些外部帳戶可用於匯入或匯出資料至Adobe Campaign，使用如下 **[!UICONTROL Transfer file]** 工作流程活動。 進一步瞭解 **檔案傳輸** 在工作流程中 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP和SFTP** - **FTP** 外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器898）的連線，您可以建立自己的外部帳戶。
 
@@ -124,7 +124,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
   >[!NOTE]
   >
-  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
+  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon簡單儲存服務(S3)** - **AWS S3** 聯結器可用來匯入或匯出資料至Adobe Campaign，使用如下 **[!UICONTROL Transfer file]** 工作流程活動。 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 

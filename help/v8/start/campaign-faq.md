@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 73%
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 73%
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
 
-   ![](../assets/do-not-localize/speech.png) 作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。
+   >[!NOTE]
+   >
+   >作為「受管理的Cloud Service」使用者，您的執行個體會隨著每個新發行版本由Adobe升級。
 
 1. **如何連線至 Campaign v8？**
 
@@ -65,7 +67,9 @@ ht-degree: 73%
 
    子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
 
-   ![](../assets/do-not-localize/speech.png) 請以「受管理的Cloud Service」使用者身分聯絡Adobe以委派您的子網域至Adobe。
+   >[!NOTE]
+   >
+   >請以「受管理的Cloud Service」使用者身分聯絡Adobe以委派您的子網域至Adobe。
 
 1. **身為 Campaign Classic v7 使用者，我可以移轉至 Campaign v8 嗎？**
 
@@ -73,7 +77,7 @@ ht-degree: 73%
 
    Campaign v8 目前&#x200B;**僅** 以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。 
 
-   ![](../assets/do-not-localize/speech.png) 如需移轉程式的詳細資訊，請洽詢您的Adobe代表。
+   如需移轉程式的詳細資訊，請洽詢您的Adobe代表。
 
 1. **如何下載 Campaign？**
 

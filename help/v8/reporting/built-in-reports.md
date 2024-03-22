@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 首頁上提供主要報表的清單，可讓您快速存取傳遞資料。 您可以視需要變更此清單。 您也可以瞭解如何將自己的報告新增至 **[!UICONTROL Reports]** 標籤。
 
-如需這些自訂設定的詳細資訊，請參閱此 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+如需這些自訂設定的詳細資訊，請參閱此 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 存取內建報吿 {#access-ootb-reports}

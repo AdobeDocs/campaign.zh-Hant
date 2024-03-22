@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 * 匯入收件者並自動訂閱資訊服務。 若要這麼做，請選取匯入精靈最後一步中涉及的服務。
 
-  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients) 中深入瞭解{target="_blank"}
+  進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * 使用網路表單，讓收件者可以訂閱服務。
 
@@ -49,14 +49,14 @@ ht-degree: 13%
 
   ![](assets/web-app.png)
 
-  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in) 中深入瞭解{target="_blank"}
+  進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * 建立目標定位工作流程，並使用 **[!UICONTROL Subscription service]** 活動。
 
   ![](assets/wf-subscription.png)
 
-  在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)中瞭解更多。
+  進一步瞭解 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 
 若要取消訂閱（選擇退出）服務的設定檔，可用選項包括：
 
@@ -71,7 +71,7 @@ ht-degree: 13%
 * 指定資訊服務的期間限制：當有效期間過期時，收件者會自動取消訂閱。 此期間在服務屬性的[編輯]索引標籤中指定。 以天為單位表示。
 * 設定母體的取消訂閱工作流程。
 
-在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service) 中深入瞭解{target="_blank"}
+進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]

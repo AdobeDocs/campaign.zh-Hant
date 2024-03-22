@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1307'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -33,26 +33,26 @@ ht-degree: 2%
 
 在以下頁面中進一步瞭解工作流程使用者介面與執行：
 
-* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant){target="_blank"}
 
-* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
+* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
+* [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+* [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-* [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
+* [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}
 
 ## 工作流程活動 {#wf-activities}
 
-進一步瞭解中的可用工作流程活動 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hant)
+進一步瞭解中的可用工作流程活動 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=zh-Hant){target="_blank"}
 
 工作流程活動會依類別分組。 有四種活動類別可供使用：
 
-* [目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html)：查詢、讀取清單、擴充、聯合等
-* [流量控制活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html)：排程器、分支、警報、外部訊號等
-* [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html)：跨頻道傳送、Javascript程式碼、CRM活動、更新彙總等
-* [事件活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html)：檔案傳輸、網頁下載等
+* [目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}：查詢、讀取清單、擴充、聯合等
+* [流量控制活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}：排程器、分支、警報、外部訊號等
+* [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}：跨頻道傳送、Javascript程式碼、CRM活動、更新彙總等
+* [事件活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}：檔案傳輸、網頁下載等
 
 ### 變更資料來源活動 {#change-data-source-activity}
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. 使用查詢目標收件者 **[!UICONTROL Query]** 活動。
 
-   如需詳細資訊，請參閱 **[!UICONTROL Query]** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   如需詳細資訊，請參閱 **[!UICONTROL Query]** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. 從 **[!UICONTROL Targeting]** 標籤，新增 **[!UICONTROL Change data source]** 活動並連按兩下以選取 **[!UICONTROL Default data source]**.
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 1. 從 **[!UICONTROL Actions]** 標籤，拖放 **[!UICONTROL JavaScript code]** 在工作表上執行單一作業的活動。
 
-   如需詳細資訊，請參閱 **[!UICONTROL JavaScript code]** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
+   如需詳細資訊，請參閱 **[!UICONTROL JavaScript code]** 活動，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. 新增另一個 **[!UICONTROL Change data source]** 活動以切換回雲端資料庫。
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 建立工作流程後，您可以使用存取其他選項 **[!UICONTROL Properties]** 按鈕以取得進一步的設定。
 
-進一步瞭解 **工作流程屬性** 在 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
+進一步瞭解 **工作流程屬性** 在 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
 從 **[!UICONTROL Execution]** 工作流程的 **[!UICONTROL Properties]**，您可以選擇將您的工作流程連結至不同的倉儲，並最佳化您的工作負載管理。 如需詳細資訊，請參閱 **倉儲**，請參閱 [Snowflake檔案](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 設計循環工作流程，並在每次執行工作流程時建立新的傳遞執行個體。 例如，如果您的工作流程設計為每週執行一次，則在一年後會產生52個傳送。 這也表示每個傳送執行個體會分隔記錄檔。
 
-瞭解如何在中建立週期性行銷活動 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=zh-Hant)
+瞭解如何在中建立週期性行銷活動 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 利用觸發事件
@@ -137,17 +137,17 @@ ht-degree: 2%
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant)
+* [傳送生日電子郵件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant){target="_blank"}
 
   此使用案例說明如何計畫於收件者生日當天傳送定期電子郵件給收件者清單。
 
-* [載入傳遞內容](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+* [載入傳遞內容](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
 當您的傳送內容位於遠端伺服器上的HTML檔案中時，您可以輕鬆將此內容載入到Adobe Campaign傳送中。
 
-* [跨頻道傳遞工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+* [跨頻道傳遞工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
 瞭解如何建立跨通道傳遞工作流程。 目標在於將對象從資料庫的收件者細分為不同的群組，並傳送電子郵件給第一個群組，及簡訊給另一個群組。
 
-* [使用自訂日期欄位擴充電子郵件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+* [使用自訂日期欄位擴充電子郵件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target="_blank"}
 瞭解如何傳送包含自訂資料欄位的電子郵件給本月慶祝生日的設定檔。 電子郵件將包含優惠券，有效期限為生日前一週，生日後一週。
 
 Campaign v7檔案中的這些頁面：
@@ -162,54 +162,54 @@ Campaign v7檔案中的這些頁面：
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [傳送報告至清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
+* [傳送報告至清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
 瞭解如何以PDF格式產生每月內建的追蹤指標報告，並將其傳送給Campaign運運算元清單。
 
-* [監督您的工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+* [監督您的工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
 瞭解如何建立工作流程，以讓您監視一組「已暫停」、「已停止」或「發生錯誤」的工作流程的狀態。
 
-* [傳送個人化警示給營運商](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+* [傳送個人化警示給營運商](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
 瞭解如何傳送警報給運運算元，該警報會包含開啟電子報但未按一下電子報所含連結的設定檔名稱。
 
 ### 資料管理 {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [協調資料更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+* [協調資料更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html){target="_blank"}
 瞭解如何在執行另一個更新操作之前檢查更新流程是否已結束。 為此，我們將設定一個執行個體變數，並讓工作流程測試執行個體是否正在執行，以決定是否繼續執行工作流程並執行更新。
 
-* [建立摘要清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+* [建立摘要清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html){target="_blank"}
 瞭解如何建立工作流程，在收集檔案並完成數個擴充功能後，可讓您建立摘要清單。 此範例是根據在商店中進行購買的聯絡人清單。
 
-* [豐富資料](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=zh-Hant)
+* [豐富資料](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=zh-Hant){target="_blank"}
 瞭解如何根據分數將個人化傳送給參加最新競爭的個人檔案。
 
-* [使用彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+* [使用彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 瞭解如何識別上次新增至資料庫的收件者。
 
-* [使用增量查詢更新每季清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+* [使用增量查詢更新每季清單](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
 瞭解如何使用增量查詢自動更新收件者清單。
 
-* [設定週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+* [設定週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 瞭解如何設計可重複使用的工作流程，以匯入來自Adobe Campaign資料庫中CRM的設定檔。
 
 ### 目標定位 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [查詢收件者表格](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+* [查詢收件者表格](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html){target="_blank"}
 瞭解如何復原電子郵件網域為「orange.co.uk」且並非住在倫敦的收件者的名稱和電子郵件。
 
-* [查詢傳遞資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+* [查詢傳遞資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html){target="_blank"}
 瞭解如何定義傳送資訊的查詢以擷取設定檔的行為。
 
-* [計算彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+* [計算彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
 瞭解如何根據性別計算居住在倫敦的個人檔案數。
 
-* [使用多對多關係進行查詢](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+* [使用多對多關係進行查詢](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}
 瞭解如何尋找過去7天期間未聯絡的設定檔。
 
-* [呼叫查詢中的執行個體變數](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+* [呼叫查詢中的執行個體變數](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html){target="_blank"}
 瞭解如何使用執行個體變數，以動態方式計算要套用至母體的分割百分比。
 
 <!--

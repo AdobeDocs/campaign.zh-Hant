@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 可以透過工作流程中圖形順序的查詢組合來建立目標定位。 您可以建立根據需求定位的對象。 若要顯示工作流程編輯器，請按一下 **[!UICONTROL Targeting and workflows]** 索引標籤進行編輯。
 
-瞭解如何在的行銷活動工作流程中建立受眾 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
+瞭解如何在的行銷活動工作流程中建立受眾 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}.
 
 
 ## 使用中的設定檔案 {#active-profiles}
@@ -59,8 +59,8 @@ Adobe Campaign是一款強大的工具，用於收集和處理包括個人資訊
 
 **相關主題**
 
-* [設計和執行行銷活動專屬工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
+* [設計和執行行銷活動專屬工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
 
-* [瞭解如何選取行銷活動的對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant)
+* [瞭解如何選取行銷活動的對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}
 
-* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
+* [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant){target="_blank"}

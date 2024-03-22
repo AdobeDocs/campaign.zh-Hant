@@ -4,10 +4,10 @@ description: 瞭解如何存取及使用全域報告
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 8%
+source-wordcount: '1750'
+ht-degree: 6%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您也可以使用監控每小時傳送的傳遞數目 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
+>您也可以使用監控每小時傳送的傳遞數目 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取許可權的步驟已詳載於 [此頁面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}.
 >
 
 ## 使用者活動 {#user-activities}
@@ -118,7 +118,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯 **[!UICONTROL Delivery logs (broadlogrcp)]** 立方體。 如需詳細資訊，請參閱[本章節](gs-cubes.md)。此 **[!UICONTROL Others]** 類別包含不屬於特定類別的網域名稱。
+>此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯 **[!UICONTROL Delivery logs (broadlogrcp)]** 立方體。 有關詳細資訊，請參閱 [本節](gs-cubes.md). 此 **[!UICONTROL Others]** 類別包含不屬於特定類別的網域名稱。
 
 ## 瀏覽器 {#browsers}
 

@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign v8 提供下列傳遞管道：
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  在[此章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant)瞭解如何在行銷活動內容中傳送訊息。
+  瞭解如何在的行銷活動內容中傳送訊息 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}
 
 * 透過[工作流程](../config/workflows.md)傳送訊息
 

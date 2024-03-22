@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a08dd72a2be703e5e9cd3cdc20dbb3064b06b35d
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 9%
+source-wordcount: '510'
+ht-degree: 10%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 9%
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-在本檔案中瞭解如何匯入電子郵件內容 [使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+在本檔案中瞭解如何匯入電子郵件內容 [使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 請在下列章節中瞭解更多資訊：
 

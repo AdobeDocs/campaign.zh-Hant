@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,15 +16,13 @@ ht-degree: 1%
 
 使用FDA聯結器（同盟資料存取）將Campaign連線至一或多個 **外部資料庫** 並處理儲存在其中的資訊，而不會影響您的Campaign Cloud資料庫資料。 之後，您就可以存取外部資料，而不需變更Adobe Campaign資料的結構。
 
-![](../assets/do-not-localize/speech.png) 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將外部資料庫與Campaign連線。
-
-
 >[!NOTE]
 >
 >* 同盟資料存取的相容資料庫列於 [相容性矩陣](../start/compatibility-matrix.md).
 >
 >* 在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，特定外部帳戶可用於管理Campaign本機資料庫與Snowflake雲端資料庫之間的通訊。 此外部帳戶是根據Adobe和為您設定的 **不得** 修改。
 >
+>* 作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將外部資料庫與Campaign連線。
 
 
 ## 最佳實務和限制

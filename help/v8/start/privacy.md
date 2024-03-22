@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建�
 
 若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從 Privacy Service 推播至所有 Adobe Experience Cloud 解決方案的隱私權請求，會由 Campaign 透過專用工作流程自動處理。[了解更多](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png)若需了解&#x200B;**存取權限**&#x200B;與&#x200B;**被遺忘的權利** (刪除請求)，請參閱 [Adobe Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}。
+瞭解 **存取許可權** 和 **被遺忘權** （刪除請求）於 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]

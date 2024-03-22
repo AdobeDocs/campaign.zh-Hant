@@ -5,10 +5,10 @@ description: 這些範例說明如何在工作流程中使用JavaScript程式碼
 feature: Workflows
 role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 3%
+source-wordcount: '1683'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 * [使用靜態SOAP方法觸發工作流程](#trigger-example)
 * [使用非靜態SOAP方法與資料庫互動](#interact-example)
 
-[瞭解更多](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html) 關於靜態和非靜態SOAP方法。
+[瞭解更多](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"} 關於靜態和非靜態SOAP方法。
 
 在這些範例中，會使用ECMAScript for XML (E4X)擴充功能。 透過此擴充功能，您可以在相同的指令碼中合併JavaScript呼叫和XML原始專案。
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. 將JavaScript程式碼新增至活動。 [了解更多](advanced-parameters.md)。
 1. 儲存工作流程。
 1. 測試範例：
-   1. 開始工作流程. [了解更多](start-a-workflow.md)。
+   1. 啟動工作流程。 [了解更多](start-a-workflow.md)。
    1. 開啟日誌。 [了解更多](monitor-workflow-execution.md#displaying-logs)。
 
 ## 範例1：寫入資料庫{#write-example}
@@ -68,7 +68,7 @@ ht-degree: 3%
 * 要修改之資料表的綱要
 * 要填入的表格欄位
 
-範例:
+例如：
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -87,7 +87,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 * 要更新的表格欄位
 * 識別要更新的記錄所需的索引鍵引數
 
-範例:
+例如：
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -99,14 +99,14 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 刪除記錄
 
-使用 `DeleteCollection` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)。
+使用 `DeleteCollection` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}。
 
 指定此資訊：
 
 * 要修改之資料表的綱要
 * 此 `where` 以XML元素的形式識別要更新的記錄所需的子句
 
-範例:
+例如：
 
 ```javascript
 xtk.session.DeleteCollection(
@@ -154,7 +154,7 @@ xtk.session.Write(myXML)
 
 指定的XML程式碼 `queryDef` 實體。
 
-語法:
+語法：
 
 ```xml
 <queryDef schema="nms:recipient" operation="">
@@ -242,7 +242,7 @@ var query = xtk.queryDef.create(
 
 ### 步驟3：執行查詢
 
-請按照以下步驟操作：
+請依照下列步驟操作：
 
 1. 呼叫 `ExecuteQuery` 上的方法 `queryDef` 實體：
 
@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-回圈包含本機收件者變數。 對於收件者集合中傳回的每個收件者，都會列印出收件者的電子郵件。 [瞭解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html) 關於 `logInfo` 函式。
+回圈包含本機收件者變數。 對於收件者集合中傳回的每個收件者，都會列印出收件者的電子郵件。 [瞭解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"} 關於 `logInfo` 函式。
 
 #### 的結果 `getIfExists` 操作
 
@@ -359,7 +359,7 @@ for each (var rcp in res.recipient)
 
 工作流程觸發可透過使用事件來運作。 您可以對事件使用這些功能：
 
-* 若要張貼事件，您可使用靜態 `PostEvent` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)。
+* 若要張貼事件，您可使用靜態 `PostEvent` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}。
 * 若要接收事件，您可以使用 **[!UICONTROL External signal]** 活動。 [了解更多](external-signal.md)。
 
 您可以透過不同方式觸發工作流程：
@@ -422,14 +422,14 @@ xtk.workflow.PostEvent(
 * 建立執行SQL查詢的方法
 * 使用 `write` 插入、更新和刪除記錄的方法
 
-請按照以下步驟操作：
+請依照下列步驟操作：
 
 1. 定義查詢：
 
-   * 使用擷取實體 `create` 對應架構上的方法，例如 `xtk:workflow` 綱要。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)。
+   * 使用擷取實體 `create` 對應架構上的方法，例如 `xtk:workflow` 綱要。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}。
    * 使用 `queryDef` 發出SQL查詢的方法。
 
-1. 使用執行查詢 `ExecuteQuery` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)。
+1. 使用執行查詢 `ExecuteQuery` 方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}。
 
    使用 `for each` 回圈以擷取結果。
 
@@ -611,11 +611,11 @@ xtk.session.Write(
 
 ### API檔案
 
-* [SOAP呼叫範例](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
-* 方法:
-   * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
-   * [Executequery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
-   * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html)
-* [logInfo函式](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)
+* [SOAP呼叫範例](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
+* 方法：
+   * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
+   * [Executequery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
+   * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
+* [logInfo函式](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}

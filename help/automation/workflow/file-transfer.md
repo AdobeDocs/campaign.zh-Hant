@@ -5,17 +5,17 @@ description: 進一步瞭解檔案傳輸工作流程活動
 feature: Workflows, Data Management
 role: User
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 1%
 
 ---
 
 # 檔案傳輸{#file-transfer}
 
 此 **檔案傳輸** 活動可讓您接收或傳送檔案、測試檔案是否存在或列出伺服器上的檔案。 使用的通訊協定為Azure Blob儲存、Amazon Simple Storage Service (S3)、FTP或SFTP。
-透過S3、Azure Blob儲存或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 如需詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+透過S3、Azure Blob儲存或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 如需詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 ## 屬性 {#properties}
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    此 **[!UICONTROL Keep history of files sent]** 選項可讓您追蹤已傳送的檔案。 可從目錄存取此記錄。
 
-1. **測試以查看檔案是否存在**
+1. **測試以檢視檔案是否存在**
 
    若要測試檔案是否存在，請選取 **[!UICONTROL Test to see if file exists]** 中的選項 **[!UICONTROL Action]** 欄位。 遠端伺服器的設定與檔案下載的設定相同。 如需詳細資訊，請參閱此 [區段](#properties).
 

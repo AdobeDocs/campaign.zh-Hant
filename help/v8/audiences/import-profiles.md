@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 24%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 24%
 
 ## 使用工作流程匯入設定檔 {#import-profiles-with-a-wf}
 
-工作流程可以用來自動執行某些匯入過程。無論是從本地檔案還是從 SFTP 匯入資料，都可以使用工作流程來標準化資料管理過程。
+工作流程可能是自動化部分匯入流程的實用方式。 無論是從本地檔案還是從 SFTP 匯入資料，都可以使用工作流程來標準化資料管理過程。
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 
-在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)。
+在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}。
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
+工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}。
 
-收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)。
+收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 有關詳細資訊，請參閱 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
 
 ## 一次性匯入{#import-jobs}
 

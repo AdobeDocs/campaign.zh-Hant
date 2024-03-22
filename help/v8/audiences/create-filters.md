@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 1%
@@ -327,10 +327,10 @@ Adobe Campaign中有以下型別的篩選器：
 
 瞭解如何在這些端對端範例中建置進階查詢：
 
-* 瞭解如何在中鎖定簡單的收件者屬性 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
-* 瞭解如何篩選過去7天內未聯絡的收件者 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
-* 瞭解如何復原可由中的作用中帳戶篩選的運運算元清單 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* 瞭解如何在中建立生日電子郵件對象  [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant).
+* 瞭解如何在中鎖定簡單的收件者屬性 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* 瞭解如何篩選過去7天內未聯絡的收件者 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* 瞭解如何復原可由中的作用中帳戶篩選的運運算元清單 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* 瞭解如何在中建立生日電子郵件對象  [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant){target="_blank"}.
 
 
 ### 預先定義篩選器的進階引數 {#param-for-data-filters}

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -83,18 +83,18 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
    行銷活動、傳遞、工作或工作流程都以儲存關鍵設定和功能的範本為基礎。 系統會為每個元件提供內建範本，其尚未定義特定組態。 您需要設定並調整範本以符合您的需求，並讓終端使用者也能使用範本。
 
 
-   瞭解如何使用中的行銷活動範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant)
+   瞭解如何使用中的行銷活動範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant){target="_blank"}.
 
-   瞭解如何在中設定工作流程範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant)
+   瞭解如何在中設定工作流程範本 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"}.
 
-   進一步瞭解中的電子郵件範本 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}
+   進一步瞭解中的電子郵件範本 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}.
 
 
 1. **設定類型規則**
 
    運用 Campaign 類型規則來篩選、控制和監視傳遞。 例如，疲勞規則控制傳送訊息的頻率和數量，以避免收件者過度徵求。 實施後，在傳遞中會參考類型規則。
 
-   在[此章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant)進一步瞭解類型與疲勞管理。
+   進一步瞭解中的型別與疲勞管理 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=zh-Hant){target="_blank"}.
 
 1. **熟悉 Campaign 內建資料模型**
 
