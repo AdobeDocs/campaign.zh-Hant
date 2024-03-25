@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: adfde71faebf3cec7e7b730c9753e6765aeadab0
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 66%
+source-wordcount: '1308'
+ht-degree: 67%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 如需詳細資訊，請參閱 [Adobe Analytics的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} 頁面。
 
-1. 前往 Adobe Campaign 樹的 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 資料夾，然後按一下 **[!UICONTROL New]**。
+1. 瀏覽至 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** Adobe Campaign檔案總管樹的資料夾，然後按一下 **[!UICONTROL New]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -244,6 +244,25 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 1. 您現在可以傳送傳遞內容，並在 Adobe Analytics 中存取報告。
 
+
+## 建立再次行銷活動 {#create-a-re-marketing-campaign}
+
+若要準備再次行銷活動，只需建立要用於再次行銷類型行銷活動的傳送範本。 然後設定再次行銷活動，並將其連結至區段。 每個區段必須有不同的再次行銷活動。
+
+當 Adobe Campaign 完成分析初始行銷活動鎖定目標之人員的行為的區段後，就會自動開始再次行銷活動。 如果放棄購買或檢視產品而未進行購買，則會傳送傳遞內容給相關收件者，以供其網站瀏覽完成購買。
+
+Adobe Campaign 提供個人化傳送範本，供您自行使用或建立資料庫，以準備行銷活動。
+
+1. 從&#x200B;**[!UICONTROL Explorer]**，前往 Adobe Campaign 樹的&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;資料夾。
+1. 複製 Adobe Campaign 提供的&#x200B;**[!UICONTROL Email delivery (re-marketing)]**&#x200B;範本或再次行銷範本範例。
+1. 個人化範本以符合您的需求並加以儲存。
+1. 建立新行銷活動，並從下拉式清單中選取&#x200B;**[!UICONTROL Re-marketing campaign]**&#x200B;範本。
+1. 按一下&#x200B;**[!UICONTROL Configure...]**&#x200B;連結，以指定連結至行銷活動的區段和傳送範本。
+1. 選取Analytics e[外部帳戶](#external-account-ac)和相關的區段。
+1. 選取要用於此再次行銷活動的傳送範本，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以關閉視窗。
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉行銷活動視窗。
+
+**[!UICONTROL Re-marketing efficiency]**&#x200B;報告可透過全域報告頁面存取。它可讓您檢視與 Adobe Campaign 再次行銷活動後購物車放棄次數相關的轉換聯絡人數 (亦即已購買商品)。 轉換率是每週、每月或自Adobe Campaign與Adobe Analytics開始同步後計算。
 
 **相關主題**
 
