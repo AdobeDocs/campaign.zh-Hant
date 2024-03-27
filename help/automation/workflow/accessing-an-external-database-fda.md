@@ -8,7 +8,7 @@ exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -23,4 +23,4 @@ Adobe Campaign 提供同盟資料存取 (FDA) 選項，以處理儲存在一或�
 * 擴充
 * 資料載入中
 
-FDA選項的使用取決於您的Adobe Campaign授權。 詳細說明設定此選項以及使用此選項相關的最佳實務和限制 [在本節中](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}.
+FDA選項的使用取決於您的Adobe Campaign授權。 詳細說明設定此選項以及使用此選項相關的最佳實務和限制 [在本節中](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=zh-Hant){target="_blank"}.

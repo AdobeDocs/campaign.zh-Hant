@@ -6,7 +6,7 @@ exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 9%
 **[!UICONTROL 1. Delivery statistics]**
 
 * **[!UICONTROL Messages to deliver]** ：傳遞分析後要傳遞的訊息總數。
-* **[!UICONTROL Success]** : 已成功處理的訊息數.
+* **[!UICONTROL Success]** ：成功處理的訊息數。
 
 **[!UICONTROL 2. Reception statistics]**
 
@@ -168,9 +168,9 @@ This chart shows the breakdown of cumulated clicks per day.
 本節包含下列指標：
 
 * **[!UICONTROL Messages to be delivered]** ：傳遞分析後要傳遞的訊息總數。
-* **[!UICONTROL Success]** ：成功處理的訊息數。 相關比率是指要傳送之訊息數量的比率。
-* **[!UICONTROL Errors]** ：傳送期間累計的錯誤總數和自動復原處理次數。 相關比率是指要傳送之訊息數量的比率。
-* **[!UICONTROL New quarantines]** ：傳送失敗（使用者不明、網域無效）後隔離的地址數。 相關比率是指要傳送之訊息數量的比率。
+* **[!UICONTROL Success]** ：成功處理的訊息數。 關聯率是要傳遞訊息數量的比率。
+* **[!UICONTROL Errors]** ：傳送期間累計的錯誤總數和自動復原處理次數。 關聯率是要傳遞訊息數量的比率。
+* **[!UICONTROL New quarantines]** ：傳送失敗（使用者不明、網域無效）後隔離的地址數。 關聯率是要傳遞訊息數量的比率。
 
 ## 熱點點擊 {#hot-clicks}
 

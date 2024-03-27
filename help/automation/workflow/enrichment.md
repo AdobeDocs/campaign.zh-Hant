@@ -7,8 +7,8 @@ role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1297'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. 選取 **[!UICONTROL Link definition]** 選項，然後按一下 **[!UICONTROL Next]** 按鈕。 指定要建立的連結型別。 在此範例中，我們想將檔案收件者的國家/地區與資料庫專用表格中可用國家/地區清單中的國家/地區進行調解。 選取 **[!UICONTROL Define a link by searching for a reference among several options]** 選項。選取國家/地區表格 **[!UICONTROL Target schema]** 欄位。
+1. 選取 **[!UICONTROL Link definition]** 選項，然後按一下 **[!UICONTROL Next]** 按鈕。 指定要建立的連結型別。 在此範例中，我們想將檔案收件者的國家/地區與資料庫專用表格中可用國家/地區清單中的國家/地區進行調解。 選擇 **[!UICONTROL Define a link by searching for a reference among several options]** 選項。 選取國家/地區表格 **[!UICONTROL Target schema]** 欄位。
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
 選取 **[!UICONTROL Identify the targeting document based on work data]** 選項，指定您要建立連結的綱要並定義加入條件：若要這麼做，請選取要在工作資料中協調的欄位(**[!UICONTROL Source expression]**)和目標維度(**[!UICONTROL Destination expression]**)。
 
-您可以使用一或多個調解條件。
+您可以使用一個或多個調和標準。
 
 ![](assets/enrichment_reconciliations_tab_01.png)
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 設定查詢後(請參閱此 [區段](query.md))：
 
 1. 新增並開啟擴充活動。
-1. 在 **[!UICONTROL Enrichment]** 索引標籤中，選取 **[!UICONTROL Add data]**。
+1. 在 **[!UICONTROL Enrichment]** 索引標籤，選取 **[!UICONTROL Add data]**.
 1. 選取 **[!UICONTROL An offer proposition]** 在要新增的資料型別中。
 
    ![](assets/int_enrichment_offer2.png)

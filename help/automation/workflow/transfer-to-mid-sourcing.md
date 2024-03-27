@@ -6,7 +6,7 @@ feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 13%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">中間來源 (傳遞計數器)</span> <br /> </td> 
+   <td> <span class="uicontrol">中間來源（傳遞計數器）</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
    <td> <p>此工作流程會收集中間來源伺服器上傳遞的計數資訊。 計數資訊包括一般傳遞指標，例如已傳送的傳遞數量等。</p> <p>未包含開啟之類的追蹤資訊。</p> <p>預設會每十分鐘觸發一次。</p> </td> 
   </tr> 

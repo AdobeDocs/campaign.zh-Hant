@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '692'
 ht-degree: 33%
 
 ---
@@ -88,7 +88,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 完成 **電子郵件引數** 類別，以及您的電子郵件主題和目標母體。
 1. 新增您的 **HTML內容** 若要個人化您的範本，您可以顯示 [映象頁面連結](../send/mirror-page.md) 和取消訂閱連結。
 1. 選取 **預覽** 標籤。 在 **測試個人化** 下拉式功能表，選取 **收件者** 以預覽您所選設定檔的範本。
-1. 按一下「**儲存**」。您的範本現在已準備好用於傳遞。
+1. 按一下 **儲存**. 您的範本現在已準備好用於傳遞。
 
 
 ## 使用範本{#use-a-delivery-template}

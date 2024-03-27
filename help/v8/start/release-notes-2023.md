@@ -8,21 +8,21 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
-# 2023 發行說明 {#2023-rn}
+# 2023年發行說明 {#2023-rn}
 
 本頁面列出隨附的新功能、改善和修正 **2023 Campaign v8版本**.
 
-## 發行版本8.5.2 {#release-8-5-2}
+## 發行版本 8.5.2 {#release-8-5-2}
 
 _2023年8月2日_
 
 修正升級至8.5.1時可能發生的安全性問題。 (NEO-64767)
 
-## 發行版本8.5.1 {#release-8-5}
+## 發行版本 8.5.1 {#release-8-5}
 
 _2023年6月30日_
 

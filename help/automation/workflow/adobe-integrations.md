@@ -7,7 +7,7 @@ topic-tags: technical-workflows
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">從 Adobe Experience Cloud 匯入對象</span> <br /> </td> 
+   <td> <span class="uicontrol">從Adobe Experience Cloud匯入對象</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
    <td> 此工作流程可讓您將不同Adobe Experience Cloud解決方案的對象/區段匯入至Adobe Campaign。<br /> </td> 
   </tr> 

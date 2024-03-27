@@ -4,13 +4,13 @@ description: 瞭解Adobe Campaign結構描述中的連結管理
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 6db351c8b5d30f722ddc4b0261af93cd8e3b72cd
+exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
 
 ---
-
 
 # 連結管理 {#links--relation-between-tables}
 

@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 
 自Campaign v8.6發行版本開始，您可以存取新的 **Campaign Web使用者介面**，可透過中央Adobe Experience Cloud環境取得。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。透過其直覺式介面，您可以快速存取您的雲端應用程式、產品功能和服務。
 
-瞭解如何連線至Adobe Experience Cloud及存取Adobe Campaign網頁介面 [在此頁面中](campaign-ui.md#ac-web-ui).
+[在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
 進一步瞭解 [Adobe Campaign Web使用者介面檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 

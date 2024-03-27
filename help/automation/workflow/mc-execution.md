@@ -7,7 +7,7 @@ role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 11%
+ht-degree: 2%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 11%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">正在處理批次事件</span> <br /> </td> 
+   <td> <span class="uicontrol">處理批次事件</span> <br /> </td> 
    <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
    <td> 此工作流程可讓您在將批次事件與訊息範本產生關聯之前，先將批次事件放入佇列中。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">正在處理即時事件</span> <br /> </td> 
+   <td> <span class="uicontrol">處理即時事件</span> <br /> </td> 
    <td> <span class="uicontrol">rtEventsProcessing</span> <br /> </td> 
    <td> 此工作流程可讓您將即時事件放入佇列中，再將其與訊息範本建立關聯。 <br /> </td> 
   </tr> 

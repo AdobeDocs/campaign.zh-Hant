@@ -76,8 +76,8 @@ ht-degree: 4%
 
 行銷活動工作流程必須整合 **本地核准** 輸入活動。 活動引數如下：
 
-* **[!UICONTROL Action to perform]** : 目標核准通知.
-* **[!UICONTROL Distribution context]** : 明確.
+* **[!UICONTROL Action to perform]** ：目標核准通知。
+* **[!UICONTROL Distribution context]** ：明確。
 * **[!UICONTROL Data distribution]** ：本機實體發佈。
 
 **本機實體分佈** 必須建立型別資料分佈。 資料分佈範本可讓您限制分組值清單中的記錄數。 在 **[!UICONTROL Resources > Campaign management > Data distribution]**，按一下 **[!UICONTROL New]** 圖示以建立新的 **[!UICONTROL Data distribution]**. 如需資料發佈的詳細資訊，

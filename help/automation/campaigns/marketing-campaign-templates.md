@@ -8,7 +8,7 @@ exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
    ![](assets/campaign-template-create-wf.png)
 
-1. 按一下「**儲存**」。您的範本現在已準備好用來建立新的行銷活動。
+1. 按一下 **儲存**. 您的範本現在已準備好用來建立新的行銷活動。
 
 行銷活動範本的各種標籤和子標籤可讓您存取其設定，如所述 [一般設定](#general-configuration).
 
@@ -124,7 +124,7 @@ ht-degree: 5%
 
   ![](assets/template-activate-2.png)
 
-* **文件**
+* **檔案**
 
   選取此模組時，會將另一個索引標籤新增至 **[!UICONTROL Edit]** 索引標籤以及以此範本為依據的行銷活動。 可從範本新增附加檔案，或針對每個促銷活動個別新增。 進一步瞭解中的檔案 [本節](marketing-campaign-deliveries.md#manage-associated-documents).
 
@@ -152,7 +152,7 @@ ht-degree: 5%
 
   您可以選擇是否透過 **[!UICONTROL Approvals]** 「範本進階設定」區段的「 」標籤。
 
-* **費用和目標**
+* **費用與目標**
 
   選取此模組時， **[!UICONTROL Budget]** 索引標籤會新增至範本的詳細資訊，以及根據此範本的行銷活動，以便選取關聯的預算。
 

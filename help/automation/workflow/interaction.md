@@ -6,8 +6,8 @@ feature: Workflows, Interaction
 role: User, Admin
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">完整彙總計算 (propositionrcp 立方體)</span> <br /> </td> 
+   <td> <span class="uicontrol">完整彙總計算(propositionrcp cube)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
    <td> 此工作流程會更新 <strong>完整</strong> 彙總 <strong>優惠方案主張</strong> 立方體。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。<br /> 此 <strong>優惠方案主張</strong> 立方體接著可用來根據選件產生報表。<br /> </td> 
   </tr> 

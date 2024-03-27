@@ -51,7 +51,7 @@ ht-degree: 5%
 您可以選擇在特定電腦上強制執行工作流程或工作流程活動。 若要這麼做，您必須在工作流程或相關活動的層級定義一或多個屬性。
 
 
-## 最大. 執行期間 {#max--execution-period}
+## 最大 執行期間 {#max--execution-period}
 
 此欄位可讓您設定當任務花費太久時的警告。 這不會影響工作流程作業。 如果任務未在 **[!UICONTROL Max. execution period]** 結束， **[!UICONTROL Instance monitoring]** 頁面將顯示此工作流程的警告。 此頁面的存取方式為 **[!UICONTROL Monitoring]** 首頁的頁簽。
 

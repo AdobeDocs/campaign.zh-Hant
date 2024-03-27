@@ -8,7 +8,7 @@ exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 有關每個新版本的詳細資訊，請參見 [發行說明](release-notes.md).
 
-若要確保穩定設定，Adobe建議您安裝 **完全相同的版本** 在您所有的Campaign伺服器上。 此外，除 [發行說明](release-notes.md)，使用者端主控台必須開啟 **完全相同的版本** 做為伺服器執行個體。 瞭解如何升級您的使用者端主控台 [在此頁面中](../start/connect.md#upgrade-ac-console).
+若要確保穩定設定，Adobe建議您安裝 **完全相同的版本** 在您所有的Campaign伺服器上。 此外，除 [發行說明](release-notes.md)，使用者端主控台必須開啟 **完全相同的版本** 做為伺服器執行個體。 透過[本頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
 身為Campaign Managed Services客戶，當有新的Campaign版本可用時，您的基礎架構會由Adobe升級，無需採取任何進一步的動作。
 
@@ -52,7 +52,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 新版本及其帶來的變更會列在 [發行說明](release-notes.md). 新版本可用後，Adobe將會與您聯絡並升級您的環境。
 
-若要接收最新Experience Cloud解決方案發行版本的通知，請訂閱 [Adobe優先順序產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}.
+若要接收最新 Experience Cloud 解決方案發行版本的通知，請訂閱 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}。
 
 您也可以造訪 [Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} 以取得版本更新的相關資訊。
 

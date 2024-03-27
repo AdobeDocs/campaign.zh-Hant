@@ -8,7 +8,7 @@ exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ### 建立計畫和方案階層 {#create-plan-and-program}
 
-每個行銷活動都屬於屬於屬於計畫的方案。 所有計畫、方案和行銷活動都可透過 **[!UICONTROL Campaign calendar]** 功能表 **行銷活動** 標籤。
+每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。所有計畫、方案和行銷活動都可透過 **[!UICONTROL Campaign calendar]** 功能表 **行銷活動** 標籤。
 
 開始建立行銷活動和傳遞之前，請為行銷計畫和方案設定資料夾階層。
 

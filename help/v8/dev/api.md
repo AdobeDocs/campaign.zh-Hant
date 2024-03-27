@@ -1,14 +1,14 @@
 ---
-title: 開始使用 Campaign API
-description: 開始使用 Campaign API
+title: 開始使用Campaign API
+description: 開始使用Campaign API
 feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 8%
+source-wordcount: '263'
+ht-degree: 9%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->* 從Campaign v8.5.1開始，Campaign v8的驗證程式已變更。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 瞭解如何移轉您現有的技術帳戶，於 [此技術檔案](../../technotes/upgrades/ims-migration.md).
+>* 從Campaign v8.5.1開始，Campaign v8的驗證程式已變更。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 透過[此技術說明](../../technotes/upgrades/ims-migration.md)了解如何移轉您現有的技術帳戶。
 >
 >* [!DNL Adobe Campaign] v8包含我們API層的輸送量(TPS)限制。 超過上限會導致標準HTTP錯誤(429)。 作為「受管理的Cloud Service」使用者，您可以聯絡Adobe以調整每個API的節流。
 > 
 
-## 必要條件 {#ac-api-prerequisites}
+## 先決條件 {#ac-api-prerequisites}
 
 使用前 [!DNL Adobe Campaign] API時，您必須熟悉下列主題：
 

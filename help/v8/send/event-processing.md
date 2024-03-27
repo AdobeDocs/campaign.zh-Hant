@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 可能的狀態包括：
 
-* **待處理**
+* **擱置中**
 
    * 擱置事件可以是剛剛收集且尚未處理的事件。 此 **[!UICONTROL Number of errors]** 欄會顯示值0。 尚未連結電子郵件範本。
    * 擱置事件也可以是已處理但其確認錯誤的事件。 此 **[!UICONTROL Number of errors]** 欄會顯示不為0的值。 若要瞭解何時再次處理此事件，請參閱 **[!UICONTROL Process requested on]** 欄。

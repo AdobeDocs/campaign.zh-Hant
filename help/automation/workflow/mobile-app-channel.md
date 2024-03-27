@@ -6,8 +6,8 @@ feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 26%
+source-wordcount: '65'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NMAC 選擇退出管理</span> <br /> </td> 
+   <td> <span class="uicontrol">NMAC選擇退出管理</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
    <td> 此工作流程會更新行動裝置上的取消訂閱通知。 從上午1:00到午夜，每6小時觸發一次。 如需詳細資訊，請參閱本區段</a>.<br /> </td> 
   </tr> 

@@ -7,8 +7,8 @@ role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: '1135'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign提供 **分散式行銷** 中央實體（總部、行銷部門等
 
   分散式行銷可讓本地實體擁有更多自主權，同時最佳化執行成本。
 
-* **本土化**
+* **本地化**
 
   本地化是本機實體修改行銷活動目標和內容的能力。 本地化可能的等級取決於行銷活動的型別及其實作。
 
@@ -118,7 +118,7 @@ Adobe Campaign提供 **分散式行銷** 中央實體（總部、行銷部門等
 >
 >核准流程會顯示在中 [核准流程](creating-a-local-campaign.md#approval-process) 區段。
 
-## 實作 {#implementation}
+## 實施 {#implementation}
 
 分散式行銷活動由中央實體建立和發佈。 如有需要，本機實體和中央實體均可使用這些擴充功能。
 

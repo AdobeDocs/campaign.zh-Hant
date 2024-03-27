@@ -4,7 +4,7 @@ description: 開始使用Campaign中的推播通知
 feature: Push
 role: Data Engineer
 level: Intermediate
-badge: label="有限可用性" type="Informative"
+badge: label="限量版" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
 source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt

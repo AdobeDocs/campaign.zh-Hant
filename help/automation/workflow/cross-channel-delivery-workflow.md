@@ -7,8 +7,8 @@ role: User
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 4%
+source-wordcount: '592'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 若要定義您的目標，請建立查詢以識別收件者。
 
-1. 建立促銷活動. 在[本頁](../campaigns/marketing-campaign-create.md)中瞭解更多。
+1. 建立行銷活動。 在[本頁](../campaigns/marketing-campaign-create.md)中瞭解更多。
 1. 在 **[!UICONTROL Targeting and workflows]** 索引標籤中，新增 **查詢** 活動至您的工作流程。 有關使用此活動的詳細資訊，請參閱 [本節](query.md).
 1. 定義將接收您傳遞的收件者。 例如，選取「金級」成員作為目標維度。
 1. 新增篩選條件至您的查詢。 在此範例中，選取擁有電子郵件地址和行動電話號碼的收件者。
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 步驟2：建立包含優惠方案的電子郵件 {#step-2--create-an-email-including-an-offer}
 
-1. 建立電子郵件傳遞.
+1. 建立電子郵件傳遞。
 1. 設計訊息並將包含優惠方案的連結插入內容中。
 
    ![](assets/wkf_cross-channel_1.png)

@@ -7,7 +7,7 @@ role: Developer
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1247'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ logInfo("Start date: " + task.creationDate)
 
 變數是 **[!UICONTROL instance]**， **[!UICONTROL task]** 和 **[!UICONTROL event]** 物件。 為這些變數授權的JavaScript型別為 **[!UICONTROL string]**， **[!UICONTROL number]** 和 **[!UICONTROL Date]**.
 
-### 實例變數 {#instance-variables}
+### 執行個體變數 {#instance-variables}
 
 執行個體變數(**[!UICONTROL instance.vars.xxx]**)與全域變數的可比性。 所有活動都會共用這些區段。
 

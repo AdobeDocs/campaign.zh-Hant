@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 內建方案受到保護，以避免與舊版發生相容性問題。 Adobe建議您不要修改預設的結構描述引數，以確保最佳安全性。
 
-但是，在特定內容中，您可能需要修改內建綱要的系統篩選器。 請依照下列步驟以執行此操作：
+但是，在特定內容中，您可能需要修改內建綱要的系統篩選器。 若要執行此作業，請依照下列步驟操作：
 
 1. 為內建方案建立擴充功能，或開啟現有的擴充功能。
 1. 新增子元素 **`<sysfilter name="<filter name>" _operation="delete"/>`** 在內建架構中，忽略相同下方的篩選器。

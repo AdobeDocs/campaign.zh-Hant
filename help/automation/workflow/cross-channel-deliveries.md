@@ -8,7 +8,7 @@ exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 在以下範例中，瞭解如何建立工作流程，以傳送推播通知訂閱者的電子郵件或簡訊，然後在一週後傳送推播通知。 操作步驟：
 
-1. 建立促銷活動.
+1. 建立行銷活動。
 1. 在 **[!UICONTROL Targeting and workflows]** 索引標籤中，新增 **[!UICONTROL Query]** 活動。
 1. 設定查詢：選取訂閱推播通知的收件者作為目標維度。
 

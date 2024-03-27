@@ -8,13 +8,13 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
 # 預覽和測試您的電子郵件 {#preview-test}
 
-定義訊息內容後，您就可以使用測試設定檔進行預覽及測試。 如果您已插入 [個人化內容](personalize.md)，您可使用測試設定檔資料檢查此內容在訊息中的顯示方式。 此外，若要偵測訊息內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
+定義訊息內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入 [個人化內容](personalize.md)，您可使用測試設定檔資料檢查此內容在訊息中的顯示方式。 此外，若要偵測訊息內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
 
 ## 內容預覽{#preview-content}
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 ![](assets/proof-parameters.png){width="800" align="left"}
 
 
-## 作法影片 {#video-proof}
+## 操作說明影片 {#video-proof}
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 

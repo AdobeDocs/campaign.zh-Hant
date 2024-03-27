@@ -6,13 +6,13 @@ role: User
 feature: Workflows, Privacy
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 21%
+source-wordcount: '104'
+ht-degree: 2%
 
 ---
 
 
-# 隱私權資料保護法規{#general-data-protection-regulation-gdpr}
+# 隱私權資料保護規範{#general-data-protection-regulation-gdpr}
 
 
 以下詳述的工作流程會隨 **隱私權資料保護規範** 模組（預設）。 如需此模組的詳細資訊，請參閱此 [文章](https://helpx.adobe.com/tw/campaign/kb/acc-privacy.html).
@@ -35,7 +35,7 @@ ht-degree: 21%
    <td> 此工作流程會刪除收件者儲存在Adobe Campaign中的資料。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">隱私權請求清理</span> <br /> </td> 
+   <td> <span class="uicontrol">隱私權請求清除</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPrivacyRequests</span> <br /> </td> 
    <td> 此工作流程會清除90天以前的存取請求檔案。<br /> </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 8%
+ht-degree: 2%
 
 ---
 
@@ -81,12 +81,12 @@ ht-degree: 8%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 類型<br /> </td> 
+   <td> 型別<br /> </td> 
    <td> 讀取/寫入<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 類型規則<br /> </td> 
+   <td> 型別規則<br /> </td> 
    <td> 讀取/寫入<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
@@ -96,7 +96,7 @@ ht-degree: 8%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 優惠方案類別<br /> </td> 
+   <td> 優惠類別<br /> </td> 
    <td> 讀取/寫入<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
@@ -141,12 +141,12 @@ ht-degree: 8%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 類型<br /> </td> 
+   <td> 型別<br /> </td> 
    <td> 讀取<br /> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 類型規則<br /> </td> 
+   <td> 型別規則<br /> </td> 
    <td> </td> 
    <td> 讀取<br /> </td> 
   </tr> 
@@ -156,7 +156,7 @@ ht-degree: 8%
    <td> 讀取<br /> </td> 
   </tr> 
   <tr> 
-   <td> 優惠方案類別<br /> </td> 
+   <td> 優惠類別<br /> </td> 
    <td> </td> 
    <td> 讀取<br /> </td> 
   </tr> 

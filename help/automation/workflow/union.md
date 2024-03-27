@@ -7,7 +7,7 @@ exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ A **[!UICONTROL Union]** 將數個入站活動的結果分組至單一目標。 
    輸入最大收件者人數，並選取母體優先的查詢，以指定此最終數字。
 
 1. 核准 **[!UICONTROL Union]** 活動，然後設定 [清單更新](list-update.md) 活動。
-1. 開始工作流程. 會顯示結果數量，並建立或更新清單更新活動中定義的清單。 此清單包含兩個查詢的收件者集，或如適用，包含上一步驟中定義的號碼。
+1. 啟動工作流程。 會顯示結果數量，並建立或更新清單更新活動中定義的清單。 此清單包含兩個查詢的收件者集，或如適用，包含上一步驟中定義的號碼。
 
    ![](assets/union_example.png)
 

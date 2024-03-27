@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 載入傳遞內容
-description: 載入傳遞內容
+description: 正在載入傳遞內容
 feature: Workflows
 role: User
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 

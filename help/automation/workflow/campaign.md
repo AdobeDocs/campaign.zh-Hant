@@ -8,7 +8,7 @@ topic-tags: technical-workflows
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 15%
+ht-degree: 3%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 15%
    <td> 此工作流程會開始計算預算、計畫、方案、行銷活動、傳遞和任務的費用和成本行。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">庫存：訂單和警報</span> <br /> </td> 
+   <td> <span class="uicontrol">庫存：訂單與警示</span> <br /> </td> 
    <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
    <td> 此工作流程會啟動訂單明細行的庫存計算，並管理警告警示臨界值。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">行銷活動中傳遞上的工作</span> <br /> </td> 
+   <td> <span class="uicontrol">行銷活動中傳遞的工作</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
    <td> 此工作流程會觸發已核准的傳送，並開始為外部傳送對服務提供者進行後續處理。 也會傳送核准通知和提醒。<br /> </td> 
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 15%
    <td> 此工作流程管理行銷活動的工作（啟動目標定位、檔案擷取等）。 也會建立與循環和定期行銷活動相關的工作流程。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">服務提供者的工作</span> <br /> </td> 
+   <td> <span class="uicontrol">服務提供者上的工作</span> <br /> </td> 
    <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
    <td> 在核准傳遞後，此工作流程會開始處理提供者（傳送至路由器的電子郵件並進行後續處理）。 <br /> </td> 
   </tr> 

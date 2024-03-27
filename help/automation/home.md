@@ -8,7 +8,7 @@ exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campaign 協調流程</b>
+    <b>Campaign策劃</b>
     </div>
     <br>
     <div>
@@ -73,7 +73,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Campaign 最佳化</a>
+    <a href="campaign-opt/campaign-typologies.md">行銷活動最佳化</a>
     </div>
     <br>
     <div>

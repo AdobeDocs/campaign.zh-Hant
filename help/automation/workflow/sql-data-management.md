@@ -17,7 +17,7 @@ ht-degree: 3%
 
 此 **SQL資料管理** 活動可讓您撰寫自己的SQL指令碼，以建立和填入工作表。
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 在設定活動之前，請確定已符合下列必要條件：
 

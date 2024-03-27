@@ -58,7 +58,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 瞭解如何在中新增使用者至Adobe Campaign [本節](../start/gs-permissions.md).
 
-### 安裝Campaign使用者端主控台{#implementation-install-console}
+### 安裝 Campaign 用戶端控制台{#implementation-install-console}
 
 應用程式的主要使用者介面為豐富型客戶端，換言之，即僅與擁有標準網際網路通訊協定 (SOAP、HTTP 等) 的 Adobe Campaign 應用程式伺服器通訊的原生應用程式 (Windows)。Adobe Campaign使用者端主控台提供絕佳的使用者便利性，可大幅提升生產力，而且使用的頻寬很少（透過使用本機快取），而且易於部署。 此控制台可從網路瀏覽器部署、可自動更新，且不需要任何特定網路組態，因為它只會產生 HTTP(S) 流量。
 

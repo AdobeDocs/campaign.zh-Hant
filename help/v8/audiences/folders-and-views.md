@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 515520bb5b7131fc2ed2d1b2a843373f01af306a
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 
 1. 建立 **[!UICONTROL Deliveries]** 資料夾，並為其命名 **美國傳遞**.
 1. 以滑鼠右鍵按一下此資料夾，然後選取 **[!UICONTROL Properties...]**.
-1. 在 **[!UICONTROL Restriction]** 索引標籤中，選取 **[!UICONTROL This folder is a view]**。然後資料庫中的所有傳遞都會顯示。
+1. 在 **[!UICONTROL Restriction]** 索引標籤，選取 **[!UICONTROL This folder is a view]**. 然後資料庫中的所有傳遞都會顯示。
 
    ![](assets/this-folder-is-a-view.png)
 

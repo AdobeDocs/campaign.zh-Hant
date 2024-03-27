@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 13%
+source-wordcount: '1353'
+ht-degree: 11%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe建議您在專用資料夾中建立工作流程。
 ### 第一個和最後一個活動 {#first-and-last-activities}
 
 * 一律以開始您的工作流程 **[!UICONTROL Start]** 活動或 **[!UICONTROL Scheduler]** 活動。 相關時，您也可以使用 **[!UICONTROL External signal]** 活動。
-* 在建立工作流程時，僅使用一個 **[!UICONTROL Scheduler]** 每個分支的活動。 如果工作流程的同一分支有多個排程器（相互連結），則要執行的任務數量將呈指數倍增，這將使得資料庫大幅超載。此規則也適用所有具有的活動 **[!UICONTROL Scheduling & History]** 標籤。 進一步瞭解 [正在排程](scheduler.md).
+* 在建立工作流程時，僅使用一個 **[!UICONTROL Scheduler]** 每個分支的活動。 如果工作流程的同一分支有多個排程器（相互連結），則要執行的任務數量將呈指數倍增，這將使資料庫大幅超載。 此規則也適用所有具有的活動 **[!UICONTROL Scheduling & History]** 標籤。 進一步瞭解 [正在排程](scheduler.md).
 
   ![](assets/wf-scheduler.png)
 

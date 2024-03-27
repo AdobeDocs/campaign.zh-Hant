@@ -4,7 +4,8 @@ title: 技術檔案 — Adobe Campaign系統升級
 description: Adobe Campaign系統升級
 hide: true
 hidefromtoc: true
-source-git-commit: c362e6ff932f5017530434c4b458070ec1a97abc
+exl-id: cc64cce1-2473-4136-aadc-8b13e89ef7f9
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 9%

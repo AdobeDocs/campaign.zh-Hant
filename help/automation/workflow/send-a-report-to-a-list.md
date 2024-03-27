@@ -6,7 +6,7 @@ feature: Workflows
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 * 建立此報告的收件者清單。 [了解更多](#step-1--create-the-recipient-list)。
 * 建立傳遞範本，每次執行工作流程時都會建立新的傳遞。 [了解更多](#step-2--create-the-delivery-template)。
-* 建立工作流程，以PDF格式產生報表並傳送至收件者清單。 [了解更多](#step-3--create-the-workflow)).
+* 建立工作流程，以PDF格式產生報表並傳送至收件者清單。 [瞭解更多](#step-3--create-the-workflow))。
 
 ## 步驟1：建立收件者清單 {#step-1--create-the-recipient-list}
 

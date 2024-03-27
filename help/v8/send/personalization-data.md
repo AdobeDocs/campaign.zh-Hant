@@ -8,7 +8,7 @@ exl-id: 711256e2-ab77-404a-b052-6793a85da193
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 若要使用此選項，請遵循下列步驟：
 
-1. 建立促銷活動.
+1. 建立行銷活動。
 1. 在 **[!UICONTROL Targeting and workflows]** 索引標籤中，新增 **查詢** 活動至您的工作流程。
 1. 新增 **[!UICONTROL Email delivery]** 活動以開啟工作流程。
 1. 前往 **[!UICONTROL Analysis]** 的標籤 **[!UICONTROL Delivery properties]** 並選取 **[!UICONTROL Prepare the personalization data with a workflow]** 選項。
@@ -70,4 +70,4 @@ Adobe Campaign介面中看不到此工作流程。 其目的僅在於成為快�
 
 在工作流程內容中建立傳遞時，您可以使用暫時工作流程表格中的資料。 儲存在工作流程臨時工作表中的資料可用於個人化任務。 資料可用於個人化欄位。
 
-此資料會分組到 **[!UICONTROL Target extension]** 功能表。 如需詳細資訊，請參閱[本章節](../../automation/workflow/use-workflow-data.md#target-data)。
+此資料會分組到 **[!UICONTROL Target extension]** 功能表。 有關詳細資訊，請參閱  [本節](../../automation/workflow/use-workflow-data.md#target-data).

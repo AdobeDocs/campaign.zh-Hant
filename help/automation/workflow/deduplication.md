@@ -7,8 +7,8 @@ role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 11%
+source-wordcount: '1115'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 11%
 
 選取的主要記錄將結轉資料，不會將欄位資料與重複列中的其他相關資料進行任何合併。
 
-補充集:
+補充：
 
 | 日期 | 名字 | 姓氏 | 電子郵件 | 行動電話 | 電話 |
 -----|------------|-----------|-------|--------------|------

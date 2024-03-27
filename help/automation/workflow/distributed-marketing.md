@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 15%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 15%
    <td> <strong>說明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">分散式行銷程序</span> <br /> </td> 
+   <td> <span class="uicontrol">分散式行銷流程</span> <br /> </td> 
    <td> <span class="uicontrol">Centrallocalmgt</span> <br /> </td> 
    <td> 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。<br /> </td> 
   </tr> 

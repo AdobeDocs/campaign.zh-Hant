@@ -18,7 +18,7 @@ ht-degree: 2%
 
 如果您希望行銷使用者能夠存取資料記錄，但不希望他們看到收件者個人資訊(PI) （例如名字、姓氏或電子郵件地址），請套用以下准則來保護隱私權，並防止資料被一般行銷活動操作員濫用。
 
-## 實作 {#implementation}
+## 實施 {#implementation}
 
 可套用至任何元素或屬性的特定屬性已新增至結構描述，以補充現有屬性 **[!UICONTROL visibleIf]**. 此屬性是： **[!UICONTROL accessibleIf]**. 包含與目前使用者內容相關的XTK運算式時，它可以利用 **[!UICONTROL HasNamedRight]** 或 **[!UICONTROL $(login)]**，例如。
 
