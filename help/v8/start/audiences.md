@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 15%
+source-wordcount: '521'
+ht-degree: 17%
 
 ---
 
@@ -41,15 +41,20 @@ ht-degree: 15%
 
 ## 使用中的設定檔案 {#active-profiles}
 
-作用中設定檔是客戶在過去12個月嘗試透過任何通道與之通訊的設定檔。 授權量度以作用中設定檔為基礎。 進一步瞭解 [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+
+作用中設定檔是客戶在過去12個月嘗試透過任何通道與之通訊的設定檔。
+
+根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。 進一步瞭解 [Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
->[!CAUTION]
->
->* 數個傳送所定位的設定檔只會計算一次。
->
->* 在X (Twitter)的社交行銷內容中定位的設定檔不會計為作用中設定檔。
+
+以下護欄和限制在此適用：
+
+* 數個傳送所定位的設定檔只會計算一次。
+* 在X (Twitter)的社交行銷內容中定位的設定檔不會計為作用中設定檔。
+* 計數是以收件者主索引鍵為基礎。 因此，如果設定檔存在於兩個不同的收件者表格中，則可將其計算為作用中設定檔兩次。
+
 
 ## 隱私權與同意{#privacy-and-consent}
 
