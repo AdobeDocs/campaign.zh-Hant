@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
 
 Adobe Campaign 讓您的電子郵件更好、更個人化、更具經濟效益。 電子郵件建立簡單且傳送容易。 Campaign v8 讓您能夠靈活設計、個人化、測試、完善並改進您傳送的每封郵件。
 
-[進一步瞭解個人化功能](create-message.md)
+[瞭解個人化功能更多資訊](create-message.md)
 
 ### 客戶資料管理 {#customer-data-mgt}
 
@@ -63,7 +63,7 @@ Adobe Campaign v8 透過 Real-Time CDP 與 Adobe Experience Platform 支援資�
 
 您也可以使用 Journey AI 設定預測性傳送時間最佳化和預測性參與度評分，並提高開放率、點擊次數和收入。
 
-[進一步瞭解Campaign整合](../connect/integration.md)
+[進一步瞭解 Campaign 整合](../connect/integration.md)
 
 
 ### Managed Cloud Services {#acms-desc}
@@ -90,7 +90,7 @@ Adobe Campaign 現在可以利用雲端規模的資料庫技術，大幅提高�
 
 [Campaign v8 企業版](../architecture/enterprise-deployment.md) 帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。透過新產品，Campaign v8 可簡化資料管理：雲端資料庫無需索引。 您只需要建立表格、複製資料，即可開始。[!DNL Snowflake] 是 Campaign Cloud 資料庫，可為您帶來速度和耐力：系統活動峰值不會過載。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-[進一步瞭解企業(FFDA)部署](../architecture/enterprise-deployment.md)
+[進一步瞭解企業 (FFDA) 部署](../architecture/enterprise-deployment.md)
 
 
 ## 自助服務管理介面{#self-service-admin}
@@ -105,6 +105,6 @@ Adobe Campaign 現在可以利用雲端規模的資料庫技術，大幅提高�
 
 ![](assets/subdomain1.png)
 
-[深入瞭解Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
+[深入瞭解 Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
 
 

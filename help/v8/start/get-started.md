@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視�
 
 在 Adobe　Campaign 中，收件者是用於傳送內容 (電子郵件、簡訊等) 的預設用戶檔案。有了資料庫中儲存的收件者資料，您能夠對接收任何給定內容的收件者進行篩選，並在交付內容中新增個人化資料。資料庫中還存在其他類型的用戶檔案。這些用戶檔案是針對不同用途設計的。例如，種子用戶檔案用於在內容傳送給最終目標前測試內容。
 
-有關設定檔管理的基本資訊請參閱 [本節](audiences.md).
+有關設定檔管理的基本資訊請參閱[本節](audiences.md)。
 
-瞭解如何在中新增設定檔至Campaign [本節](import.md).
+在[本節](import.md)瞭解如何新增設定檔至 Campaign。
 
 ## 目標市場細分 {#targeted-segmentation}
 
@@ -44,13 +44,13 @@ Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功�
 
 進階資料管理功能進一步擴充了資料處理能力。該功能透過包含未在資料超市中模組化的資料，來簡化及最佳化目標定位流程。
 
-進一步瞭解中的細分和受眾建立 [本節](audiences.md).
+在[本節](audiences.md)深入瞭解細分與對象建立。
 
 ## 跨頻道行銷活動策劃 {#cross-channel-campaign-orchestration}
 
 Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
-瞭解如何在中設計、排程及執行行銷活動 [本節](campaigns.md).
+在[本章節](campaigns.md)瞭解行銷活動設計、排程及執行。
 
 ## 工作流程 {#wf-gsv8}
 
@@ -65,7 +65,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * 將資料匯入 Campaign 資料庫。
 * 技術流程，例如資料庫清理、復原追蹤資訊等。
 
-瞭解如何在中設計和執行工作流程 [本節](../config/workflows.md).
+在[本章節](../config/workflows.md)瞭解如何設計與執行工作流程。
 
 ## 報告與分析 {#analysis-and-reporting}
 
@@ -76,19 +76,19 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 行銷活動報告功能有助於建立動態報告。 您可以利用可拖放的變數來自訂報告並分析行銷活動的成功與否。 根據查詢和計算的複雜性，資料可以彙總到清單檢視或透過便於產生行銷分析報告的格式加以存取。
 
 
-進一步瞭解中的報告和追蹤功能 [本節](../reporting/gs-reporting.md).
+在[本節](../reporting/gs-reporting.md)進一步瞭解報告與追蹤功能。
 
 ## Adobe Experience Cloud 整合 {#adobe-experience-cloud-integrations}
 
 您可以將 Adobe Campaign 的傳遞功能和行銷活動管理進階功能，與協助您個人化使用者體驗的解決方案 (例如：Adobe Experience Manager、Adobe Analytics、Adobe Target 或 Adobe Experience Cloud 觸發程式) 相互結合。
 
-瞭解如何在中整合Adobe服務和解決方案 [本節](../connect/integration.md).
+在[本章節](../connect/integration.md)瞭解如何整合 Adobe 服務與解決方案。
 
 ## 關於 Campaign 功能的更多資訊 {#core-capabilities-and-add-ons}
 
 Adobe Campaign 提供了一系列功能，協助您根據需求和架構實施及最佳化對話式行銷功能。其中部分是核心功能，部分功能取決於套件的安裝和您的設定。此處提供了詳盡的產品說明：[Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)。
 
-已經熟悉Campaign Classic了嗎？ 在[本頁](v7-to-v8.md)中瞭解 Campaign Classic 與 Campaign v8 的主要差異。
+已經熟悉 Campaign Classic 嗎？在[本頁](v7-to-v8.md)中瞭解 Campaign Classic 與 Campaign v8 的主要差異。
 
 **另請參閱**
 
