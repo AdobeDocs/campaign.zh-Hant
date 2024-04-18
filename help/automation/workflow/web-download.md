@@ -4,9 +4,9 @@ title: 網頁下載
 description: 進一步瞭解網頁下載工作流程活動
 feature: Workflows
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 2%
 1. **高級參數**
 
    此 **[!UICONTROL Advanced parameters...]** 連結可讓您指定下列其他選項：
+
+   * **[!UICONTROL Follow redirections]**：檔案重新導向可讓您使用覆寫，將資料輸入或輸出導向不同型別的裝置。
+   * **[!UICONTROL Add the HTTP headers to the file]**：在某些情況下，您可能想要將其他HTTP標頭新增到檔案中。 最常見的情況是，這些標題將用於提供其他資訊以進行疑難排解，目的是 [跨原始資源共用(CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)，或來設定特定的快取指示。
+   * **[!UICONTROL Ignore the HTTP return code]**：HTTP傳回碼（也稱為HTTP狀態碼）會指出HTTP要求的結果。
 
    ![](assets/download_web_edit_advanced.png)
 
