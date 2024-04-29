@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: 19593cd689609515264aa2995e33e53f3bc95c95
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 99%
 
 ---
 
@@ -100,6 +100,7 @@ ht-degree: 100%
 + 隱私權與安全管理 {#privacy}
    + [管理隱私權請求](start/privacy.md)
    + [安全性方針](config/security.md)
+   + [增強式安全性](config/enhanced-security.md)
 + 決策管理 {#offers}
    + [開始使用即時互動](interaction/interaction.md)
    + [環境與架構](interaction/interaction-architecture.md)
