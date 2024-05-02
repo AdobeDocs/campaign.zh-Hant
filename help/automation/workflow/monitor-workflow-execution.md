@@ -5,9 +5,9 @@ description: 監視工作流程的執行
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 您也可以參閱以下使用案例，瞭解如何建立工作流程，以監控一組「已暫停」、「已停止」或「發生錯誤」的工作流程的狀態 [本節](workflow-supervision.md#supervising-workflows).
 
-此外，執行個體的管理員可以使用 **稽核軌跡** 若要檢查活動和對工作流程進行的最後修改，請檢查工作流程的狀態。 進一步瞭解中的稽核軌跡  [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
+此外，執行個體的管理員可以使用 **稽核軌跡** 若要檢查活動和對工作流程進行的最後修改，請檢查工作流程的狀態。 在此進一步瞭解稽核軌跡 [頁面](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## 顯示進度 {#displaying-progress}
 

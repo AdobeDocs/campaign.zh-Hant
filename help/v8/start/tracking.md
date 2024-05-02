@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '677'
 ht-degree: 19%
 
 ---
@@ -131,4 +131,4 @@ Adobe Campaign提供一組可監控您的流程和環境的功能。
 
 使用稽核軌跡自助式介面來監視執行處理中所做的變更。 稽核軌跡可以即時擷取Adobe Campaign執行個體中發生之動作和事件的完整清單。 您可以存取資料歷程記錄，以協助回答下列問題：您的工作流程發生什麼事、上次更新者是誰，或您的使用者在執行個體中做了什麼。
 
-進一步瞭解中的稽核軌跡  [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+在此進一步瞭解稽核軌跡 [頁面](../reporting/audit-trail.md){target="_blank"}

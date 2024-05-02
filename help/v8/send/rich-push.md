@@ -5,17 +5,19 @@ description: 瞭解如何使用Adobe Campaign Web設計Android豐富推送通知
 feature: Push
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 5f1ffd5d59791a0e6ff8a67feb08c8eed128cc1e
+source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1135'
 ht-degree: 5%
 
 ---
 
-# 設計Android豐富推送傳送 {#rich-push}
+# 設計 Android 豐富的推播傳遞 {#rich-push}
+
+>[!AVAILABILITY]
+>
+>此功能位於 **可用性限制** (LA)。
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 

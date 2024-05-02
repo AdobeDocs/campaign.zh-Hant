@@ -5,21 +5,58 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
+source-git-commit: 39a3412ab2fae2f45768598feffb7e5078c6acac
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 51%
 
 ---
 
 # 最新版本{#latest-release}
 
-Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。Adobe 強烈建議所有客戶升級至最新版本。[在本頁中](upgrades.md)進一步瞭解 Campaign 版本和建議。
+Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。Adobe強烈建議所有客戶升級至最新版本。
 
-作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 透過[本頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
+作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 在此瞭解如何升級您的使用者端主控台 [頁面](../start/connect.md#upgrade-ac-console).
 
-此外，身為客戶，請確定您使用的是列於[相容性矩陣](compatibility-matrix.md)的最新受支援系統版本。
+此外，身為客戶，請確定您使用的系統為 [相容性矩陣](compatibility-matrix.md).
 
+## 發行版本 8.7.1 {#release-8-7-1}
+
+_2024年4月30日_
+
+>[!AVAILABILITY]
+>
+>此版本位於 **可用性限制** (LA)。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
+>
+>請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 和 [Campaign Standard使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+### 新功能 {#new-8-7-1}
+
+* **豐富推送通知範本**  — 您現在可以透過Android傳送豐富推送通知。 豐富推播通知是行動通知的增強型形式，其不僅限於簡單的文字訊息，而是結合多媒體元素，例如影像、互動按鈕或其他豐富媒體內容。 [閱讀更多](../send/rich-push.md)
+
+* **品牌化**  — 作為Campaign Standard移轉的使用者，您的技術管理員現在可以定義一個或多個品牌，以集中影響品牌識別的引數。 這包括品牌標誌、登錄頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登入頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+
+* **Rest API**  — 身為Campaign Standard移轉使用者，您可以使用Rest API來建立Adobe Campaign的整合，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+
+* **動態報告**  — 作為Campaign Standard移轉的使用者，您可以存取動態報告，其提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（如性別、城市和年齡）進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+
+<!--
+* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
+-->
+
+### 相容性更新 {#comp-8-7-1}
+
+Databricks現在可支援為具有Adobe Campaign同盟資料存取(FDA)的外部資料庫。 在[本頁面](../connect/fda.md)中深入了解 FDA。
+
+### 一般改善 {#improvements-8-7-1}
+
+* 有幾個結構描述已從32位元變更為64位元。 這僅適用於從Campaign Standard移轉的客戶。 [顯示全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html)。
+
+* 在Campaign表格中，新標幟可讓您處理lastModified、createdBy-id屬性的修改。 當標幟開啟時，使用者提供給這些屬性的值會被忽略。 只會使用伺服器時間和使用者內容的ID。 當旗標關閉時，會使用這些屬性的使用者提供的值。 ignoreTimestampsID旗標位於「共用」節點下的serverConf.xml中。
+
+### 修正 {#fixes-8-7-1}
+
+此版本已修正下列問題： NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814、NEO-67702、NEO-67620、NEO-66022、NEO-65774、NEO-65633、NEO-64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575、NEO-60250， NEO-60192 58596 58314 58004 40054
 
 ## 發行版本 8.6.2 {#release-8-6-2}
 
