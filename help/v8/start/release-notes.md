@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c4a289e713d01297a7d38158b3cd4450ceef5276
+source-git-commit: b4f54deaf35c852012a88d1445268bce9be4e8c1
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 51%
 
 ---
@@ -28,7 +28,7 @@ _2024年5月2日_
 >
 >此版本位於 **可用性限制** (LA)。 僅限於移轉的客戶 **從Adobe Campaign Standard到Adobe Campaign v8**&#x200B;和無法部署在任何其他環境中。
 >
->請參閱下列檔案頁面： [Campaign Standard轉換至Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 和 [Campaign Standard使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>作為轉換至Campaign v8的Campaign Standard使用者，請參閱 [Campaign Standard轉換至Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 和 [Campaign Standard使用者的功能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 ### 新功能 {#new-8-7-1}
 
