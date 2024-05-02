@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '282'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 9%
 請注意，在其 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
 
 >[!CAUTION]
+>
+>* 作為從Campaign Standard轉換過來的Campaign使用者，您可以搭配Campaign v8使用REST API。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}。
 >
 >* 從Campaign v8.5.1開始，Campaign v8的驗證程式已變更。 技術操作員必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 透過[此技術說明](../../technotes/upgrades/ims-migration.md)了解如何移轉您現有的技術帳戶。
 >
