@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
+source-git-commit: c4a289e713d01297a7d38158b3cd4450ceef5276
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '907'
 ht-degree: 51%
 
 ---
@@ -46,7 +46,7 @@ _2024年5月2日_
 
 ### 相容性更新 {#comp-8-7-1}
 
-Databricks現在可支援為具有Adobe Campaign同盟資料存取(FDA)的外部資料庫。 在[本頁面](../connect/fda.md)中深入了解 FDA。
+Databricks現在可支援為具有Adobe Campaign同盟資料存取(FDA)的外部資料庫。 在[本頁](compatibility-matrix.md#FederatedDataAccessFDA)中深入瞭解。
 
 ### 一般改善 {#improvements-8-7-1}
 
