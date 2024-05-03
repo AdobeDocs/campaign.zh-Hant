@@ -5,15 +5,15 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: ca4c808571b66eb26d1dfaf608932128f42ce874
+source-git-commit: 574206bd243a2492e512ee62f057da940d29da6e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 99%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
 
-# Adobe Campaign v8 文件 {#campaign-v8}
+# Adobe Campaign v8 （主控台）檔案 {#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
 + 發行說明 {#releases}
