@@ -8,12 +8,12 @@ breadcrumb-title: Campaign v8 文件
 source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign v8 （主控台）檔案 {#campaign-v8}
+# Adobe Campaign v8 (主控台) 文件 {#campaign-v8}
 
 + [Campaign v8 文件](campaign-home.md)
 + 發行說明 {#releases}
