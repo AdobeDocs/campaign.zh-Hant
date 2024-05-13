@@ -5,9 +5,9 @@ description: 瞭解如何使用變更維度活動
 feature: Workflows, Targeting Activity
 role: User
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 使用 **[!UICONTROL Change dimension]** 活動，以在建立對象時變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，從「合約」維度切換至「客戶」維度。
 
 您也可以使用此活動來定義新目標的其他欄，並定義重複資料刪除的條件。
+
+>[!IMPORTANT]
+>
+>請注意 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROOL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
 若要設定 **[!UICONTROL Change dimension]** 活動，請套用下列步驟：
 

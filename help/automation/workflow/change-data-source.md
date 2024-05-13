@@ -4,9 +4,9 @@ description: 進一步瞭解變更資料來源活動
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 2%
 使用 **[!UICONTROL Change Data Source]** 使用其他資料來源的活動 **[!UICONTROL Working table]**.
 
 請注意，使用時 **[!UICONTROL Change Data Source]** 活動，您必須切換回雲端資料庫才能繼續執行工作流程。
+
+>[!IMPORTANT]
+>
+>請注意 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROOL 擴充]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
 若要使用 **[!UICONTROL Change Data Source]** 活動，您必須：
 
