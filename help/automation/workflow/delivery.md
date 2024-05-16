@@ -139,7 +139,7 @@ A **傳遞**-type活動可讓您建立傳遞動作。 可使用輸入元素來�
 
 * deliveryId
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
@@ -158,7 +158,7 @@ A **傳遞**-type活動可讓您建立傳遞動作。 可使用輸入元素來�
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值可識別傳送產生的目標。 **[!UICONTROL tableName]** 是記憶目標識別碼的表格名稱， **[!UICONTROL schema]** 是母體的綱要（通常是nms：recipient）和 **[!UICONTROL recCount]** 是表格中的元素數。

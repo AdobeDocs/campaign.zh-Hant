@@ -8,7 +8,7 @@ exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ A **持續傳遞** 型別動作可讓您將新收件者新增至現有傳遞。 
 ## 輸入引數 {#input-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
@@ -42,7 +42,7 @@ A **持續傳遞** 型別動作可讓您將新收件者新增至現有傳遞。 
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值會識別即時傳送中產生的目標。 **[!UICONTROL tableName]** 是記憶目標識別碼的表格名稱， **[!UICONTROL schema]** 是母體的綱要（通常是nms：recipient）和 **[!UICONTROL recCount]** 是表格中的元素數。

@@ -9,7 +9,7 @@ exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 ### 執行延遲 {#exec-delay}
 
-自第20.2發行版本開始，已新增執行延遲 **[!UICONTROL JavaScript code]** 和 **[!UICONTROL Advanced JavaScript code]** 活動。 依預設，執行階段不能超過1小時。 在此延遲後，流程將中止並顯示錯誤訊息，活動執行將失敗。
+自第20.2發行版本開始，已新增執行延遲 **[!UICONTROL JavaScript code]** 和 **[!UICONTROL Advanced JavaScript code]** 活動。 依預設，執行階段不能超過 1 小時。在此延遲後，流程將中止並顯示錯誤訊息，活動執行將失敗。
 
 您可以在以下位置變更此延遲： **[!UICONTROL Stop execution after]** 這些活動中可用的欄位。
 

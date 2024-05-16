@@ -162,14 +162,14 @@ ht-degree: 9%
 ## 輸入引數 {#input-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值可識別重複資料刪除所產生的目標。 **[!UICONTROL tableName]** 是儲存目標識別碼的表格名稱， **[!UICONTROL schema]** 是母體的綱要（通常是nms：recipient）和 **[!UICONTROL recCount]** 是表格中的元素數。

@@ -8,7 +8,7 @@ exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 24%
 
 ![](assets/web-form-page.png)
 
-瞭解如何在中建立網路表單 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}.
+在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}瞭解如何建立網路表單。

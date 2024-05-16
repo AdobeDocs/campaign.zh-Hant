@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 1857f0f40d554abededfaa0c1e3dec4b57ca23b7
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]** (自 Campaign v8.5 起)
-* **[!DNL Databricks]**，自Campaign v8.7開始
+* **[!DNL Databricks]** (自 Campaign v8.7 起)
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

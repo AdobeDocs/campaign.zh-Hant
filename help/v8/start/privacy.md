@@ -95,7 +95,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 **[!DNL Adobe Experience Platform Privacy Service]**&#x200B;整合可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權請求。Adobe Campaign 透過專用工作流程自動處理推播來自隱私權服務的請求。
 
-請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant) 文件，以瞭解如何從隱私權核心服務建立隱私權要求。{target="_blank"}
+請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target="_blank"} 文件，以瞭解如何從隱私權核心服務建立隱私權要求。
 
 依據正在使用的命名空間數量，在 Adobe Campaign 中每個 **[!DNL Privacy Service]** 工作都會分割為多個隱私權請求，而一個請求都會與一個命名空間相對應。
 

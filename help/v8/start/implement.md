@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 * **資料取得**：Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並管理收件者的同意。
 
-  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition) 中深入瞭解{target="_blank"}
+  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#data-acquisition){target="_blank"} 中深入瞭解
 
 * **使用者同意與資料保留**：您必須取得使用者同意、設定雙重選擇加入訂閱機制、加速選擇退出並設定資料保留。
 

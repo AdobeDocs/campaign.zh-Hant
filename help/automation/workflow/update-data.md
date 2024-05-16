@@ -7,7 +7,7 @@ exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 **[!UICONTROL Generate an outbound transition for the rejects]**
 
-建立外站轉變，其中包含更新後未正確處理的記錄（例如，如果有重複記錄）。 更新通常會標籤目標工作流程的結尾，因此預設不會啟用選項。
+建立外站轉變，其中包含更新後未正確處理的記錄（例如，如果有重複記錄）。 更新通常是標示目標定位工作流程的結束，因此預設不會啟動該選項。
 
 ## 更新及合併集合 {#updating-and-merging-collections}
 
@@ -121,6 +121,6 @@ ht-degree: 1%
 ## 輸入引數 {#input-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。

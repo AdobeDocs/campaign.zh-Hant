@@ -24,7 +24,7 @@ ht-degree: 6%
 
   ![](assets/subscribe-to-a-service.png)
 
-  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab) 中深入瞭解{target="_blank"}
+  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"} 中深入瞭解
 
 * 自動為一組收件者訂閱服務。 收件者清單可能來自篩選操作、群組、資料夾、匯入或直接手動選擇。 若要訂閱這些收件者，請選取設定檔，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions > Subscribe selection to a service...]**。
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
   ![](assets/subscribe-confirm.png)
 
-  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab) 中深入瞭解{target="_blank"}
+  在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"} 中深入瞭解
 
 
 * 匯入收件者並自動訂閱資訊服務。 若要這麼做，請選取匯入精靈最後一步中涉及的服務。

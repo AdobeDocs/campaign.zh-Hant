@@ -7,7 +7,7 @@ exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -41,14 +41,14 @@ A **[!UICONTROL Union]** 將數個入站活動的結果分組至單一目標。 
 ## 輸入引數 {#input-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值會識別聯合產生的目標。 **[!UICONTROL tableName]** 是記錄目標識別碼的資料表名稱， **[!UICONTROL schema]** 是母體的綱要（通常是nms：recipient）和 **[!UICONTROL recCount]** 是表格中的元素數。

@@ -8,7 +8,7 @@ exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
 source-wordcount: '1919'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,7 @@ _2022 年 9 月 30 日_
 
 >[!CAUTION]
 >
-> 使用者端主控台升級為強制。 在此瞭解如何升級您的使用者端主控台 [頁面](../start/connect.md#download-ac-console).
+> 使用者端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
 
 _2022 年 10 月 7 日_
 

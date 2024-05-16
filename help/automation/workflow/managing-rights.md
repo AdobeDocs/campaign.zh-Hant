@@ -24,7 +24,7 @@ ht-degree: 1%
 
 有關管理運運算元和許可權的詳細資訊，請參閱 [本節](../../v8/start/gs-permissions.md).
 
-## 運算子群組 {#operator-groups-wf}
+## 操作者群組 {#operator-groups-wf}
 
 下列運運算元群組與工作流程相關聯：
 

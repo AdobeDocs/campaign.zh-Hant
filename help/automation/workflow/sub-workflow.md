@@ -7,7 +7,7 @@ exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -62,14 +62,14 @@ ht-degree: 0%
 ## 輸入引數（選擇性） {#input-parameters--optional-}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值會識別查詢所定位的母體。 **[!UICONTROL tableName]** 是記錄目標識別碼的資料表名稱， **[!UICONTROL schema]** 是母體的綱要（通常是nms：recipient）和 **[!UICONTROL recCount]** 是表格中的元素數。

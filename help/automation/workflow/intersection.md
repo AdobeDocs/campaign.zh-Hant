@@ -8,7 +8,7 @@ exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 4%
 ## 輸入引數 {#input-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 
 每個傳入事件都必須指定由這些引數定義的目標。
 
 ## 輸出引數 {#output-parameters}
 
 * tableName
-* 綱要
+* 結構描述
 * recCount
 
 這組三個值會識別從交集產生的目標。 **[!UICONTROL tableName]** 是記錄目標識別碼的資料表名稱， **[!UICONTROL schema]** 是人口綱要(通常是 **[!UICONTROL nms:recipient]**)和 **[!UICONTROL recCount]** 是表格中的元素數。
