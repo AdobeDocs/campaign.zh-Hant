@@ -36,7 +36,7 @@ ht-degree: 100%
 
    [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
-   在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/zh-Hant/docs /campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+   在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 1. **Campaign v8 是否可安裝在內部部署或混合環境中？**
 
    Campaign v8 僅適用於 Managed Cloud Services，完全由 Adobe 託管。
