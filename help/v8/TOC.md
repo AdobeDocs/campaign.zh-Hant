@@ -203,5 +203,5 @@ ht-degree: 97%
    + [Campaign API](dev/api.md)
 + [Campaign 控制面板 >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
 + [Campaign 自動化指南 >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
-+ [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/zh-Hant/docs /campaign-web/v8/campaign-web-home)
++ [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
 
