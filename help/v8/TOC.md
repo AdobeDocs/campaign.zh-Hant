@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
+source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '605'
 ht-degree: 99%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 99%
    + [連線至 Campaign](start/connect.md)
    + [元件與流程](start/ac-components.md)
    + [從 Classic v7 到 v8](start/v7-to-v8.md)
+   + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
