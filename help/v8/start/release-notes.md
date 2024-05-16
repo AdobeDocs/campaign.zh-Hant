@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 97%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ _2024 年 5 月 2 日_
 
 * 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [顯示全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=zh-Hant)。
 
-* 在 Campaign 表格，新標幟可讓您針對 lastModified、created 以及 createdBy-id 屬性進行修改。 當標幟開啟時，會忽略使用者提供給這些屬性的值。 僅使用伺服器時間與使用者內容的 ID。 當標幟關閉時，會採用使用者提供給這些屬性的值。 ignoreTimestampsID 標幟位於「共用」節點下的 serverConf.xml。
+* 在Campaign表格中，下列屬性現在依預設會依伺服器日期和時間填入： lastModified、created、createdBy-id。 系統會忽略使用者在API呼叫中提供的值。 此設定可在Campaign伺服器設定檔案中變更。 身為受管理的Cloud Service客戶，您必須聯絡Adobe以變更此預設設定。
 
 ### 修正 {#fixes-8-7-1}
 
