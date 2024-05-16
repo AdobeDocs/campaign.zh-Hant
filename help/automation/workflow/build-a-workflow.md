@@ -5,7 +5,7 @@ description: 瞭解如何建立工作流程
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 1%
@@ -133,9 +133,7 @@ ht-degree: 1%
 
 您可以複製不同型別的工作流程。 複製之後，不會將工作流程的修改轉存到工作流程的副本中。
 
->[!CAUTION]
->
->工作流程中提供複製貼上功能，但建議您使用 **複製**. 活動複製後，會保留其整個設定。 對於傳送活動（電子郵件、簡訊、推播通知……），也會複製附加至活動的傳送物件，這可能會造成當機。
+Adobe建議複製工作流程，而非執行活動的複製/貼上。 複製活動時，會保留其所有設定。 若是管道活動，也會複製與活動相關聯的傳送物件，這可能會造成重大問題。
 
 1. 在工作流程上按一下右鍵。
 1. 按一下 **複製**.

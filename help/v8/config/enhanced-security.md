@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 安全可靠的客戶管理金鑰整合 {#secure-cmk-integration}
 
-此 **安全客戶自控金鑰(CMK)整合** 可讓您透過Amazon Web Services (AWS)帳戶，使用自己的金鑰加密執行個體和資料。
+此 **安全客戶自控金鑰(CMK)整合** 可讓您透過Amazon Web Services (AWS)帳戶，使用自己的金鑰為靜態資料加密。
 
 客戶管理的金鑰是您在AWS帳戶中建立、擁有和管理的KMS金鑰。 您可以完全控制這些KMS金鑰，並使用它們來加密和解密資料。 透過讓您負責產生和管理加密金鑰，此容量可讓您對金鑰擁有更多控制權，包括撤銷金鑰。
 
