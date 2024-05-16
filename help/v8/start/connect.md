@@ -125,7 +125,7 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 
 [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
-在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/zh-Hant/docs /campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
 ### 網路存取 {#web-access}
 
