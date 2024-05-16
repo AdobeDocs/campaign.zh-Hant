@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 控制面板常見問答集 {#ac-control-faq}
 
-[按一下這裡](https://experienceleague.adobe.com/docs/co ntrol-panel/using/faq.html?lang=zh-Hant#control-panel){target="_blank"}存取 Campaign 控制面板常見問答集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=zh-Hant#control-panel){target="_blank"}存取 Campaign 控制面板常見問答集。
 
 ## SFTP 管理 {#ac-control-sftp}
 
