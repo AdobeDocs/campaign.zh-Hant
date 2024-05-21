@@ -4,12 +4,10 @@ description: 開始使用Campaign Enhanced安全性附加元件
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -90,7 +88,7 @@ ht-degree: 3%
 
 支援三種使用案例：
 
-* 透過VPN同盟資料存取(FDA)<!--to access your on-premise database from the Campaign instance over VPN-->
+* 透過VPN同盟資料存取(FDA)，以透過VPN從Campaign執行個體存取您的內部部署資料庫
 
 * 執行個體從大型使用者端透過VPN登入
 
@@ -117,7 +115,7 @@ ht-degree: 3%
 
 下列護欄和限制適用於與Adobe Campaign v8的VPN通道整合：
 
-* 目前僅支援內部部署資料庫，例如<!--Richa to check the list with PM-->：
+* 僅支援內部部署資料庫，例如<!--Richa to check the list with PM-->：
 
    * MySQL
    * Netezza
