@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 247d687597c6784aec49b70f9e68f50e49d169dd
+source-git-commit: 74523cc93f694710e136b191fec3372872605ab6
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '996'
+ht-degree: 81%
 
 ---
 
@@ -46,13 +46,18 @@ _2024 年 5 月 2 日_
 
 ### 相容性更新 {#comp-8-7-1}
 
-現可支援 Databricks 作為外部資料庫，與 Adobe Campaign 同盟資料存取 (FDA) 搭配使用。 在[本頁](compatibility-matrix.md#FederatedDataAccessFDA)中深入瞭解。
+* 現可支援 Databricks 作為外部資料庫，與 Adobe Campaign 同盟資料存取 (FDA) 搭配使用。 在[本頁](compatibility-matrix.md#FederatedDataAccessFDA)中深入瞭解。
+
+* 自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
+
+  如果您已實作與Campaign的傳入整合，您必須移轉您的技術帳戶，如中所述 [本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 現有的服務帳戶(JWT)憑證將繼續有效，直到 **2025年1月27日**. 此外，開發人員控制檯將繼續支援建立新的服務帳戶(JWT)憑證，直到 **2024年6月3日**. 在此日期之後，無法建立新的服務帳戶(JWT)憑證或將其新增到專案。
+
 
 ### 一般改善 {#improvements-8-7-1}
 
 * 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=zh-Hant){target="_blank"}
 
-* 在Campaign表格中，下列屬性現在預設會依伺服器日期和時間填入： `lastModified` 和 `created`. 系統會忽略使用者在API呼叫中提供的值。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 在Campaign表格中，下列屬性現在預設會依伺服器日期和時間填入： `lastModified` 和 `created`. 此 `createdBy-id` 屬性值現在會依預設填入目前的登入ID。 系統會忽略使用者在API呼叫中提供的值。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正 {#fixes-8-7-1}
 
