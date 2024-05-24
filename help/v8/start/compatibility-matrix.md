@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 
 
 >[!AVAILABILITY]
->此外，使用 [增強式安全性附加元件](../config/enhanced-security.md)，您可以透過安全VPN通道存取內部部署資料庫。 [了解更多](../config/enhanced-security.md#vpn-callouts)
+>此外，使用[增強式安全性附加元件](../config/enhanced-security.md)，您可以透過安全 VPN 通道存取內部部署資料庫。 [了解更多](../config/enhanced-security.md#vpn-callouts)
 
 ## 行動 SDK {#MobileSDK}
 

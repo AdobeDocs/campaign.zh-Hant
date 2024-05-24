@@ -6,9 +6,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
    + [探索使用者介面](start/campaign-ui.md)
    + [連線至 Campaign](start/connect.md)
    + [元件與流程](start/ac-components.md)
-   + [從Campaign Classicv7到v8](start/v7-to-v8.md)
+   + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
    + [常見問答集](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -201,7 +201,7 @@ ht-degree: 97%
       + [更新資料庫](dev/update-database-structure.md)
       + [輸入表單](dev/forms.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 控制面板 >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
-+ [Campaign 自動化指南 >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
-+ [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
++ [Campaign 控制面板 >](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/control-panel-home)
++ [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)
++ [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
 
