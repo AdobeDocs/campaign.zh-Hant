@@ -8,7 +8,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -28,11 +28,11 @@ _2024 年 5 月 2 日_
 >
 >此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 >
->作為轉換至Campaign v8的Campaign Standard使用者，請在中進一步瞭解此轉換 [Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>作為轉換至 Campaign v8 的 Campaign Standard 使用者，請在 [Campaign v8 網頁使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}中進一步了解此轉換。
 
 ### 新功能 {#new-8-7-1}
 
-* **豐富推播通知範本** - 您現可透過 Android 傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [顯示全文](../send/rich-push.md)。
+* **豐富推播通知範本** - 您現可透過 Android 傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [閱讀全文](../send/rich-push.md)。
 
 * **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
 
@@ -56,7 +56,7 @@ _2024 年 5 月 2 日_
 
 * 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=zh-Hant){target="_blank"}
 
-* 在Campaign表格中，下列屬性現在預設會依伺服器日期和時間填入： `lastModified` 和 `created`. 此 `createdBy-id` 屬性值現在會依預設填入目前的登入ID。 系統會忽略使用者在API呼叫中提供的值。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 在 Campaign 表格中，下列屬性現在預設會依伺服器日期和時間填入：`lastModified` 和 `created`。此 `createdBy-id` 屬性值現在會依預設填入目前的登入ID。 系統會忽略使用者在 API 呼叫中提供的值。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正 {#fixes-8-7-1}
 
