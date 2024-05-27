@@ -5,14 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 9%
+source-wordcount: '1178'
+ht-degree: 8%
 
 ---
 
 # 設定並傳送傳遞 {#configure-delivery}
+
+存取傳遞引數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞 [優先順序](#delivery-priority)，設定 [波段](#sending-using-multiple-waves)，並測試您的傳送傳送。 完成此設定後，您可以依照中所述確認傳送 [本節](#confirm-delivery). 然後會立即傳送訊息，或根據傳送傳送傳送訊息 [排程](#schedule-delivery-sending).
 
 ## 設定其他引數 {#delivery-additional-parameters}
 
@@ -20,25 +22,27 @@ ht-degree: 9%
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**：此選項可透過設定傳送的優先順序層級，變更傳送的順序，從 **[!UICONTROL Very low]** 至 **[!UICONTROL Very high]** (預設值為 **[!UICONTROL Normal]**)。
+### 傳遞優先順序 {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**：使用此選項可定義在同一XML傳遞套件中分組的訊息數。 如果引數設為0，訊息會自動分組。 封裝大小由計算定義 `<delivery size>/1024`，每個套件最少8則訊息，最多256則訊息。
+使用 **[!UICONTROL Delivery priority]** 選項可透過設定您的傳送的優先順序層級，從變更傳送順序 **[!UICONTROL Very low]** 至 **[!UICONTROL Very high]** (預設值為 **[!UICONTROL Normal]**)。
 
-  >[!IMPORTANT]
-  >
-  >當透過複製現有傳遞建立傳遞時，此引數會重設。
+### 批次數量
 
-* **[!UICONTROL Send using multiple waves]**：使用此選項可批次傳送訊息，而非一次傳送給整個對象。 [了解更多](#sending-using-multiple-waves)。
+使用  **[!UICONTROL Message batch quantity]** 用於定義在同一個XML傳遞套件中分組的訊息數的選項。 如果引數設為0，訊息會自動分組。 封裝大小由計算定義 `<delivery size>/1024`，每個套件最少8則訊息，最多256則訊息。
 
-* **[!UICONTROL Test SMTP delivery]**：使用此選項來測試透過SMTP的傳送。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
+>[!IMPORTANT]
+>
+>當透過複製現有傳遞建立傳遞時，此引數會重設。
 
-  >[!NOTE]
-  >
-  >* 此選項不得在中間來源中設定。
-  >
-  >* 瞭解有關SMTP伺服器設定的詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### 測試您的傳送傳送
 
-* **[!UICONTROL Email BCC]**：使用此選項可透過密件副本將電子郵件儲存在外部系統上，只需將密件副本電子郵件地址新增至您的訊息目標即可。 [了解更多](email-parameters.md)。
+使用  **[!UICONTROL Test SMTP delivery]** 用於測試透過SMTP傳送的選項。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
+
+>[!NOTE]
+>
+>* 此選項不得在中間來源中設定。
+>
+>* 瞭解有關SMTP伺服器設定的詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## 使用多個波段傳送 {#sending-using-multiple-waves}
 
