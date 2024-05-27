@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 29%
@@ -114,7 +114,7 @@ A **持續傳遞** 可在工作流程的內容中使用。 它可讓您將新收
 
 例如，如果您每月執行一次這類活動，一年後最後會收到單一傳送（假設您未對傳送進行任何變更）。
 
-在工作流程中，透過以下方式建立持續傳遞： [持續傳遞活動](../../automation/workflow/contin).
+在工作流程中，透過以下方式建立持續傳遞： [持續傳遞活動](../../automation/workflow/continuous-delivery.md).
 
 
 ## 選擇如何傳送訊息{#gs-send-msg}
