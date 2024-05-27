@@ -5,7 +5,7 @@ description: 深入瞭解傳遞型別工作流程活動
 feature: Workflows, Channels Activity
 role: User
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 傳遞{#delivery}
-
-
 
 A **傳遞**-type活動可讓您建立傳遞動作。 可使用輸入元素來建構。
 

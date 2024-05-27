@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 27%
+source-wordcount: '165'
+ht-degree: 24%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 27%
 
 本頁面列出所有最新更新於 [!DNL Campaign] v8 （主控台）檔案。
 
+
 ## 2024 年 5 月 {#may-2024}
 
-已新增附註，以指定 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列，且必須具有 **[!UICONTROL Enrichement]** 兩者之間的活動。 請閱讀以下內容： [變更維度](../../automation/workflow/change-dimension.md) 和 [變更資料來源](../../automation/workflow/change-data-source.md) 區段。
+* 傳遞的管道和型別清單現在列於 [此頁面](create-message.md).
+* 已新增附註，以指定 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列，且必須具有 **[!UICONTROL Enrichement]** 兩者之間的活動。 請閱讀以下內容： [變更維度](../../automation/workflow/change-dimension.md) 和 [變更資料來源](../../automation/workflow/change-data-source.md) 區段。
 
 ## 2024年2月 {#feb-2024}
 
