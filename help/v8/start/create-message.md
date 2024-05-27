@@ -5,14 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1319'
 ht-degree: 29%
 
 ---
 
-# 開始使用訊息{#gs-ac-audiences}
+# 開始使用訊息 {#gs-ac-audiences}
+
+## 傳遞管道 {#gs-ac-channels}
 
 透過 Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知和直接郵件，並使用各種專屬報告來評估行銷成效。 這些訊息是透過傳遞進行設計和傳送，而且可針對每位收件者進行個人化。
 
@@ -35,7 +37,7 @@ Adobe Campaign v8 提供下列傳遞管道：
   >
   >可用管道的數量取決於您的合約。 請檢查您的授權合約。
 
-## 選擇您的頻道{#gs-channel}
+## 選擇您的頻道 {#gs-channel}
 
 ### 電子郵件管道 {#gs-channel-email}
 

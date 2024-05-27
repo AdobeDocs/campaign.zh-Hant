@@ -5,7 +5,7 @@ description: 深入瞭解重複資料刪除工作流程活動
 feature: Workflows, Targeting Activity
 role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 9%

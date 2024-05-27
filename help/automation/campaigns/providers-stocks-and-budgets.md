@@ -5,9 +5,9 @@ description: 供應商、庫存和預算
 feature: Budget Management, Campaigns
 role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
@@ -148,7 +148,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* 針對行動裝置頻道或電話上的傳遞，會套用相同的選取模式。
+* 針對行動裝置頻道上的傳遞，會套用相同的選取模式。
 * 對於電子郵件傳遞，服務是從 **[!UICONTROL Advanced]** 標籤進行標籤，如下列範例所示：
 
   ![](assets/supplier-email-delivery-select.png)

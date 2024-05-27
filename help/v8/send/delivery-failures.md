@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Bounce mails can have the following qualification status:
 >
 >Campaign不會使用傳遞屬性中的重試設定。
 
-## 有效期限
+## 有效期限 {#valid-period}
 
 Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳送，如果您在Campaign中定義的值超過3.5天，則不會將其列入考量。
 

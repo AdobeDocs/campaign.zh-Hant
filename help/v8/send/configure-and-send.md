@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1160'
 ht-degree: 9%
 
 ---
@@ -44,42 +44,45 @@ ht-degree: 9%
 
 若要平衡負載，您可以將傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例。
 
->[!NOTE]
->
->您只能定義兩個連續波段之間的大小和延遲。 無法設定每個波次的收件者選取條件。
+若要定義波段，請遵循下列步驟：
 
-1. 開啟傳送屬性視窗，然後按一下 **[!UICONTROL Delivery]** 標籤。
-1. 選取 **[!UICONTROL Send using multiple waves]** 選項，然後按一下 **[!UICONTROL Define waves...]** 連結。
+1. 開啟傳送屬性並瀏覽至 **[!UICONTROL Delivery]** 標籤。
+1. 啟用 **[!UICONTROL Send using multiple waves]** 選項，然後按一下 **[!UICONTROL Define waves...]** 連結。
 
    ![](assets/delivery-define-waves.png)
 
-1. 若要設定波段，您可以：
 
-   * 定義每個波段的大小。 例如，如果您輸入 **[!UICONTROL 30%]** 在對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
+1. 設定波段，如下所述。
 
-     在 **[!UICONTROL Period]** 欄位，指定兩個連續波段開始之間的延遲。 例如，如果您輸入 **[!UICONTROL 2d]**，第一波會立即開始，第二波會在兩天內開始，第三波會在四天內開始，以此類推。
-
-     ![](assets/delivery-waves-size.png)
-
-   * 定義傳送每個波次的行事曆。
-
-     在 **[!UICONTROL Start]** 欄，指定兩個連續波段開始之間的延遲。 在 **[!UICONTROL Size]** 欄，輸入固定數字或百分比。
-
-     在以下範例中，第一個波段代表傳遞中包含之訊息總數的25%，並會立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
-
-     ![](assets/delivery-waves-calendar.png)
-
-   特定的型別規則， **[!UICONTROL Wave scheduling check]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則，設定於 **[!UICONTROL Typology]** 傳遞屬性的索引標籤，顯示在 [本節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >請確定最後一個批次沒有超過傳遞期限，該期限定義於 **[!UICONTROL Validity]** 標籤。 否則，部分訊息可能不會傳送。
-   >
-   >在設定最後一個波段時，您也必須允許足夠的重試時間。 <!--See [this section]().-->
+   >您只能定義兩個連續波段之間的大小和延遲。 無法設定每個波次的收件者選取條件。
 
-1. 若要監視您的傳送，請前往傳送記錄檔。 請參閱[此頁面](send.md)<!--ref TBC-->。
+您可以定義：
 
-   您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL Sent]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL Pending]** 狀態)。
+    * **每個波段的大小**。 例如，如果您輸入**[!UICONTROL 30%]**對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
+    
+    在**中[!UICONTROL Period]**欄位中，指定兩個連續波段開始之間的延遲。 例如，如果您輸入**[!UICONTROL 2d]**時，第一個波段會立即開始，第二個波段會在兩天後開始，第三個波段會在四天後開始，依此類推。
+    
+    ！[](assets/delivery-waves-size.png)
+    
+    * **傳送每個波次的行事曆**。  例如，第一個波段代表傳遞中包含之訊息總數的25%，將立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
+    
+    在**中[!UICONTROL Start]**欄中，指定兩個連續波段開始之間的延遲。 在**中[!UICONTROL Size]在欄**，輸入固定數字或百分比。
+    
+    ！[](assets/delivery-waves-calendar.png)
+
+特定的型別規則， **[!UICONTROL Wave scheduling check]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則，設定於 **[!UICONTROL Typology]** 傳遞屬性的索引標籤，顯示在 [本節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+
+>[!IMPORTANT]
+>
+>請確定最後一個批次沒有超過傳遞期限，該期限定義於 **[!UICONTROL Validity]** 標籤。 否則，部分訊息可能不會傳送。 在中進一步瞭解傳遞的有效期 [本節](delivery-failures.md#valid-period).
+>
+>在設定最後一個波段時，您也必須設定足夠的重試時間。 進一步瞭解中的重試 [本節](delivery-failures.md#retries).
+
+若要監視您的傳送，請瀏覽至傳送記錄檔。 另請參閱 [此頁面](send.md)
+
+您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL Sent]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL Pending]** 狀態)。
 
 以下兩個範例是使用多個波段的最常見使用案例。
 
@@ -93,11 +96,11 @@ ht-degree: 9%
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **涉及客服中心的行銷活動**
+* **具有呼叫中心的行銷活動**
 
-  管理電話忠誠度行銷活動時，貴組織處理聯絡訂閱者之通話次數的能力有限。
+  透過電話管理忠誠度行銷活動時，貴組織處理聯絡訂閱者之通話次數的能力有限。
 
-  使用波段時，您可以將每天的訊息數量限製為20，這是客服中心的每日處理能力。
+  使用波段時，您可以將訊息數量限製為每天20則，例如考量客服中心的每日處理能力。
 
   若要這麼做，請選取 **[!UICONTROL Schedule multiple waves of the same size]** 選項。 輸入 **[!UICONTROL 20]** 作為波浪的大小和 **[!UICONTROL 1d]** 在 **[!UICONTROL Period]** 欄位。
 
