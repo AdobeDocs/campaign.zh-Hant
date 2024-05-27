@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '179'
 ht-degree: 24%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 24%
 ## 2024 年 5 月 {#may-2024}
 
 * 傳遞的管道和型別清單現在列於 [此頁面](create-message.md).
+* 傳遞設定和波段管理部分已重新組織和改善。 [閱讀全文](../send/configure-and-send.md)。
 * 已新增附註，以指定 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列，且必須具有 **[!UICONTROL Enrichement]** 兩者之間的活動。 請閱讀以下內容： [變更維度](../../automation/workflow/change-dimension.md) 和 [變更資料來源](../../automation/workflow/change-data-source.md) 區段。
 
 ## 2024年2月 {#feb-2024}
