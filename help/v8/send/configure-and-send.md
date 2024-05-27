@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
+source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1193'
 ht-degree: 8%
 
 ---
@@ -48,6 +48,8 @@ ht-degree: 8%
 
 若要平衡負載，您可以將傳送劃分為幾個批次。 設定批次數量及其相對於整個傳送的比例。
 
+### 啟用波段 {#enable-waves}
+
 若要定義波段，請遵循下列步驟：
 
 1. 開啟傳送屬性並瀏覽至 **[!UICONTROL Delivery]** 標籤。
@@ -55,26 +57,27 @@ ht-degree: 8%
 
    ![](assets/delivery-define-waves.png)
 
+### 設定波段 {#config-waves}
 
-1. 設定波段，如下所述。
+>[!NOTE]
+>
+>您只能定義兩個連續波段之間的大小和延遲。 無法設定每個波次的收件者選取條件。
 
-   >[!NOTE]
-   >
-   >您只能定義兩個連續波段之間的大小和延遲。 無法設定每個波次的收件者選取條件。
+您可以定義每個波段的大小，或將它們新增到行事曆中。
 
-您可以定義：
+* **定義每個波段的大小**. 例如，如果您輸入 **[!UICONTROL 30%]** 在對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
 
-    * **每個波段的大小**。 例如，如果您輸入**[!UICONTROL 30%]**對應欄位中，每個波段將代表傳送中所包含訊息的30%，但最後一個波段除外，這將代表訊息的10%。
-    
-    在**中[!UICONTROL Period]**欄位中，指定兩個連續波段開始之間的延遲。 例如，如果您輸入**[!UICONTROL 2d]**時，第一個波段會立即開始，第二個波段會在兩天後開始，第三個波段會在四天後開始，依此類推。
-    
-    ！[](assets/delivery-waves-size.png)
-    
-    * **傳送每個波次的行事曆**。  例如，第一個波段代表傳遞中包含之訊息總數的25%，將立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
-    
-    在**中[!UICONTROL Start]**欄中，指定兩個連續波段開始之間的延遲。 在**中[!UICONTROL Size]在欄**，輸入固定數字或百分比。
-    
-    ！[](assets/delivery-waves-calendar.png)
+  在 **[!UICONTROL Period]** 欄位，指定兩個連續波段開始之間的延遲。 例如，如果您輸入 **[!UICONTROL 2d]**，第一波會立即開始，第二波會在兩天內開始，第三波會在四天內開始，以此類推。
+
+  ![](assets/delivery-waves-size.png)
+
+* **定義傳送每個波次的行事曆**.  例如，第一個波段代表傳遞中包含之訊息總數的25%，將立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
+
+  在 **[!UICONTROL Start]** 欄，指定兩個連續波段開始之間的延遲。 在 **[!UICONTROL Size]** 欄，輸入固定數字或百分比。
+
+  ![](assets/delivery-waves-calendar.png)
+
+### 波段排程檢查 {#check-waves}
 
 特定的型別規則， **[!UICONTROL Wave scheduling check]**，確保最後一個波段是在傳遞效度限制之前計畫。 行銷活動型別及其規則，設定於 **[!UICONTROL Typology]** 傳遞屬性的索引標籤，顯示在 [本節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
@@ -84,9 +87,14 @@ ht-degree: 8%
 >
 >在設定最後一個波段時，您也必須設定足夠的重試時間。 進一步瞭解中的重試 [本節](delivery-failures.md#retries).
 
+### 監視波段 {#monitor-waves}
+
 若要監視您的傳送，請瀏覽至傳送記錄檔。 另請參閱 [此頁面](send.md)
 
 您可以檢視已在處理批次中傳送的傳遞(**[!UICONTROL Sent]** 狀態)和在剩餘波段中要傳送的傳遞(**[!UICONTROL Pending]** 狀態)。
+
+
+### 波段範例 {#samples-waves}
 
 以下兩個範例是使用多個波段的最常見使用案例。
 
