@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
+source-git-commit: 8621ad138d90fed92788d1b9753adeb2fe772a71
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 74%
+source-wordcount: '1097'
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,7 @@ _2024年5月28日_
 
 ### 移轉至OAuth伺服器對伺服器認證 {#change-8-5-3}
 
-* 自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
-
-  如果您已實作與Campaign的傳入整合，您必須移轉您的技術帳戶，如中所述 [本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 現有的服務帳戶(JWT)憑證將繼續有效，直到 **2025年1月27日**. 此外，開發人員控制檯將繼續支援建立新的服務帳戶(JWT)憑證，直到 **2024年6月3日**. 在此日期之後，無法建立新的服務帳戶(JWT)憑證或將其新增到專案。
-
+自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 [了解更多](#change-8-7-1)
 
 ### 修正 {#fixes-8-5-3}
 
@@ -62,9 +59,11 @@ _2024 年 5 月 2 日_
 
 * 現可支援 Databricks 作為外部資料庫，與 Adobe Campaign 同盟資料存取 (FDA) 搭配使用。 在[本頁](compatibility-matrix.md#FederatedDataAccessFDA)中深入瞭解。
 
-* 自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
+### 移轉至OAuth伺服器對伺服器認證 {#change-8-7-1}
 
-  如果您已實作與Campaign的傳入整合，您必須移轉您的技術帳戶，如中所述 [本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 現有的服務帳戶(JWT)憑證將繼續有效，直到 **2025年1月27日**. 此外，開發人員控制檯將繼續支援建立新的服務帳戶(JWT)憑證，直到 **2024年6月3日**. 在此日期之後，無法建立新的服務帳戶(JWT)憑證或將其新增到專案。
+自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
+
+如果您已實作與Campaign的傳入整合，您必須移轉您的技術帳戶，如中所述 [本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 現有的服務帳戶(JWT)憑證將繼續有效，直到 **2025年1月27日**. 此外，開發人員控制檯將繼續支援建立新的服務帳戶(JWT)憑證，直到 **2024年6月3日**. 在此日期之後，無法建立新的服務帳戶(JWT)憑證或將其新增到專案。
 
 
 ### 一般改善 {#improvements-8-7-1}
