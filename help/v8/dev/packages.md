@@ -4,9 +4,9 @@ description: 使用資料套件
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 8b537c723335ea98eb39bfbc3a4f1df09861aaea
+source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ XML檔案的開始和結尾必須是 `<package>` 元素。 任何 `<entities>` �
 
    >[!NOTE]
    >
-   >查詢編輯器的顯示位置為 [本節](../../platform/using/about-queries-in-campaign.md).
+   >查詢編輯器的顯示位置為 [本節](../../automation/workflow/query.md).
 
 1. 按一下 **[!UICONTROL Next]** 並選取匯出資料的排序順序。
 
@@ -191,13 +191,6 @@ template="xtk:folder" pkgAdmin="@id != 0">
 ## 管理封裝定義 {#manage-package-definitions}
 
 封裝定義可讓您建立封裝結構，在其中新增稍後將在單一封裝中匯出的實體。 然後，您就可以將此套件和所有新增的實體匯入另一個Campaign執行個體。
-
-**相關主題：**
-
-* [建立套件定義](#create-a-package-definition)
-* [將實體新增至封裝定義](#add-entities-to-a-package-definition)
-* [設定封裝定義產生](#configure-package-definitions-generation)
-* [從封裝定義匯出封裝](#export-packages-from-a-package-definition)
 
 ### 建立套件定義 {#create-a-package-definition}
 
