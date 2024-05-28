@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
+source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 74%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 
 _2024年5月28日_
 
-### 從服務帳戶(JWT)認證移轉至OAuth伺服器對伺服器認證  {#change-8-5-3}
+### 移轉至OAuth伺服器對伺服器認證 {#change-8-5-3}
 
 * 自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
 
