@@ -2,15 +2,13 @@
 title: Campaign v8 2021 發行說明
 description: 2021 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
-role: User
-level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
