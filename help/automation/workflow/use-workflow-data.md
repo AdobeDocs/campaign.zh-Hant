@@ -3,9 +3,9 @@ title: 使用工作流程資料
 description: 瞭解如何使用工作流程資料
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 8%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 8%
 
 * **[!UICONTROL Analyze target...]**
 
-  此功能表可讓您存取描述性分析精靈，該精靈可讓您產生轉換資料的統計資料和報表。
+  使用此功能表存取描述性分析精靈，讓您產生轉換資料的統計資料和報表。
 
-  有關詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}.
+  瞭解如何在中使用描述性分析精靈 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}.
 
 在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：檢查 **[!UICONTROL Keep the result of interim populations between two executions]** 工作流程屬性中的選項。
 
