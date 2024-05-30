@@ -4,7 +4,7 @@ description: 使用資料套件
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -93,7 +93,7 @@ XML檔案的開始和結尾必須是 `<package>` 元素。 任何 `<entities>` �
    >
    >如果您匯出 **[!UICONTROL Offer category]**， **[!UICONTROL Offer environment]**， **[!UICONTROL Program]** 或 **[!UICONTROL Plan]** 輸入資料夾，請勿選取 **xtk：folder** 因為您可能會遺失部分資料。 選取與資料夾對應的實體： **nms：offerCategory** 若為優惠方案類別， **nms：offerEnv** 若為優惠方案環境， **nms：program** 適用於計畫，以及 **nms：plan** 適用於計畫。
 
-   相依性機制會控制實體匯出順序。 有關詳細資訊，請參閱 [管理相依性](#managing-dependencies).
+   相依性機制會控制實體匯出順序。 有關詳細資訊，請參閱 [管理相依性](#manage-dependencies).
 
 1. 按一下 **[!UICONTROL Next]** 和定義要擷取之檔案型別的篩選查詢。 您必須設定資料擷取的篩選子句。
 

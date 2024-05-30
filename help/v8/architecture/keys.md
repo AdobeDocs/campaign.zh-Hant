@@ -5,7 +5,7 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 金鑰管理和唯一性 {#key-management}
 
-在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，主索引鍵是通用唯一識別碼(UUID)，這是字元上的字串。 若要建立此UUID，結構描述的主要元素必須包含 **autouid** 和 **autopk** 屬性設定為 **true**.
+在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，主索引鍵是通用唯一識別碼(UUID)，這是字元字串。 若要建立此UUID，結構描述的主要元素必須包含 **autouid** 和 **autopk** 屬性設定為 **true**.
 
 Adobe Campaign v8使用 [!DNL Snowflake] 作為核心資料庫。 分散式架構 [!DNL Snowflake] 資料庫不提供機制來確保表格內索引鍵的唯一性：終端使用者負責Adobe Campaign資料庫內的索引鍵一致性。
 
