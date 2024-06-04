@@ -4,27 +4,27 @@ description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # 最新版本 {#latest-release}
 
-Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。Adobe 強烈建議所有客戶升級至最新版本。本頁面列出Campaign v8 （主控台）最新版本的新功能、改善和修正。 在中進一步瞭解Campaign版本和更新 [此頁面](upgrades.md).
+Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。Adobe 強烈建議所有客戶升級至最新版本。本頁面列出 Campaign v8 (主控台) 最新版本中的新功能、改善和修正。[在本頁](upgrades.md)進一步了解 Campaign 版本和更新。
 
-作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 瞭解如何在中升級您的使用者端主控台 [此頁面](../start/connect.md#upgrade-ac-console).
+作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 透過[本頁](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
 此外，身為客戶，請確定您使用的是列於[相容性矩陣](compatibility-matrix.md)的最新受支援系統版本。
 
 ## 發行版本 8.5.3 {#release-8-5-3}
 
-_2024年5月28日_
+_2024 年 5 月 28 日_
 
-### 移轉至OAuth伺服器對伺服器認證 {#change-8-5-3}
+### 移轉至 OAuth 伺服器對伺服器認證 {#change-8-5-3}
 
-自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 [了解更多](#change-8-7-1)
+自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 [了解更多](#change-8-7-1)
 
 ### 修正 {#fixes-8-5-3}
 
@@ -52,25 +52,25 @@ _2024 年 5 月 2 日_
 
 * **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
 
-* **新的增強式安全性附加元件**：為了讓您的網路連線更安全，並為您的資源提供更佳的安全性，Adobe Campaign提供新的增強安全性附加功能，其中包括兩項功能：安全CMK整合和安全VPN通道。 [閱讀更多](../config/enhanced-security.md)
+* **新的增強式安全性附加元件**：為了讓您的網路連線更安全，並為您的資源提供更高的安全性，Adobe Campaign 提供新的增強安全性附加元件，其中包括兩項功能：安全 CMK 整合和安全 VPN 通道。 [閱讀更多](../config/enhanced-security.md)
 
 
 ### 相容性更新 {#comp-8-7-1}
 
 * 現可支援 Databricks 作為外部資料庫，與 Adobe Campaign 同盟資料存取 (FDA) 搭配使用。 在[本頁](compatibility-matrix.md#FederatedDataAccessFDA)中深入瞭解。
 
-### 移轉至OAuth伺服器對伺服器認證 {#change-8-7-1}
+### 移轉至 OAuth 伺服器對伺服器認證 {#change-8-7-1}
 
-自此版本開始，Adobe已棄用服務帳戶(JWT)認證，Campaign與Adobe解決方案和應用程式的輸出整合現在需依賴OAuth伺服器對伺服器認證。 Adobe會針對您的傳出整合(例如Campaign-Analytics整合或Experience Cloud觸發器整合)執行JWT到OAuth的移轉。
+自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 Adobe 會針對您的傳出整合執行 JWT 到 OAuth 的移轉，例如 Campaign-Analytics 整合或 Experience Cloud 觸發器整合。
 
-如果您已實作與Campaign的傳入整合，您必須移轉您的技術帳戶，如中所述 [本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 現有的服務帳戶(JWT)憑證將繼續有效，直到 **2025年1月27日**. 此外，開發人員控制檯將繼續支援建立新的服務帳戶(JWT)憑證，直到 **2024年6月3日**. 在此日期之後，無法建立新的服務帳戶(JWT)憑證或將其新增到專案。
+如果您已實施與 Campaign 的傳入整合，您必須按照[本文件](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}中詳細說明移轉您的技術帳戶。現有服務帳戶 (JWT) 認證將繼續有效至 **2025 年 1 月 27 日**。 此外，Developer Console 將繼續支援建立新的服務帳戶 (JWT) 認證，直至 **2024 年 6 月 3 日**。 在此日期之後，無法建立新的服務帳戶 (JWT) 認證或將其新增至專案。
 
 
 ### 一般改善 {#improvements-8-7-1}
 
 * 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=zh-Hant){target="_blank"}
 
-* 在 Campaign 表格中，下列屬性現在預設會依伺服器日期和時間填入：`lastModified` 和 `created`。此 `createdBy-id` 屬性值現在會依預設填入目前的登入ID。 系統會忽略使用者在 API 呼叫中提供的值。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 在 Campaign 表格中，下列屬性現在預設會依伺服器日期和時間填入：`lastModified` 和 `created`。此 `createdBy-id` 屬性值現在會依預設填入目前登入的 ID。 系統會忽略使用者在 API 呼叫中提供的值。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正 {#fixes-8-7-1}
 
