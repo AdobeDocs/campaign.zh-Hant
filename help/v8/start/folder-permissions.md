@@ -1,11 +1,11 @@
 ---
-title: 授予和限制Campaign資料夾的許可權
+title: 授與和限制Campaign資料夾的許可權
 description: 瞭解如何授與或限制檔案夾的許可權
 feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
+source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
