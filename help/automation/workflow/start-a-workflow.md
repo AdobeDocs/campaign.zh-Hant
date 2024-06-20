@@ -6,9 +6,9 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,16 @@ ht-degree: 0%
 * **[!UICONTROL Restart]**
 
   此動作會停止，然後重新啟動工作流程。 在大多數情況下，它可以讓您更快速地重新啟動。 當停止需要一定的時間時，自動重新啟動也很實用：這是因為當工作流程停止時，「停止」命令無法使用。
+
+  請注意 **重新啟動** 動作不會清除與比較的工作流程例項變數 **執行**， **停止**、和 **開始** 動作（執行個體變數在「開始」動作時清除）。 重新啟動工作流程時，執行個體變數仍可與保留值搭配使用。 若要清除這些專案，您可以：
+   * 執行 **停止** 和 **開始** 動作。
+   * 在工作流程執行結束時，新增以下javascript程式碼：
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
