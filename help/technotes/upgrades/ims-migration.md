@@ -4,16 +4,16 @@ description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主�
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
+source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
 
 # Campaign技術運運算元移轉至Adobe Developer主控台 {#migrate-tech-users-to-ims}
 
-自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} 以連線至Campaign。 深入瞭解中的新伺服器對伺服器驗證程式 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明透過Adobe Developer主控台將技術運運算元移轉至技術帳戶所需的步驟。
 
@@ -151,9 +151,13 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 以下範例SOAP呼叫顯示，第三方系統的移轉呼叫前後。
 
+使用AdobeIdentity Management系統(IMS)驗證時，若要產生WSDL檔案，您應新增 `Authorization: Bearer <IMS_Technical_Token_Token>` 在postman呼叫中：
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 實現並驗證移轉流程後，Soap呼叫會更新如下：
-
-
 
 * 移轉前：不支援技術帳戶存取權杖。
 
@@ -201,8 +205,6 @@ You can now add your Campaign product profile to the project, as detailed below:
   </soapenv:Body>
   </soapenv:Envelope>
   ```
-
-
 
 ### 步驟9 - （選用）在Campaign使用者端主控台中更新技術帳戶運運算元 {#ims-migration-step-9}
 

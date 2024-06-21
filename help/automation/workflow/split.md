@@ -4,9 +4,9 @@ title: 分割
 description: 進一步瞭解分割工作流程活動
 feature: Workflows, Targeting Activity
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ A **Split**-type活動可讓您將目標分割成數個子集。 使用所有接
 
 此活動不會觸發入站母體的聯合。 如果數個轉變位於一個分割活動中，建議插入 **[!UICONTROL Union]** 活動在它前面。
 
-如需所使用分割活動的範例，請參閱 [本節](targeting-workflows.md#create-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>無法對具有不同來源的資料表執行分割作業。 為此，您需要新增 **擴充** 之前的活動 **Split** 活動。
 
-有關說明如何使用「分割」活動，以使用篩選條件將目標分割為不同母體的範例，請參閱 [本節](cross-channel-delivery-workflow.md).
-
-以下提供如何在分割活動中使用執行個體變數的範例： [本節](javascript-scripts-and-templates.md).
+* 如需所使用分割活動的範例，請參閱 [本節](targeting-workflows.md#create-subsets-using-the-split-activity).
+* 有關說明如何使用「分割」活動，以使用篩選條件將目標分割為不同母體的範例，請參閱 [本節](cross-channel-delivery-workflow.md).
+* 以下提供如何在分割活動中使用執行個體變數的範例： [本節](javascript-scripts-and-templates.md).
 
 若要設定此活動，請在「 」中定義子集內容和標籤 **[!UICONTROL Subsets]** 標籤，然後在中選擇目標維度 **[!UICONTROL General]** 標籤。
 
