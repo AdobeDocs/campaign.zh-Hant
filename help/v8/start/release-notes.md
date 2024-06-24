@@ -4,9 +4,9 @@ description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ _2024 年 5 月 28 日_
 NEO-70263、NEO-64984、NEO-63657、NEO-63387、NEO-62964、NEO-62750、NEO-62686、NEO-59544、NEO-52542
 
 
-## 5月更新 {#may-updates}
+## 5 月更新 {#may-updates}
 
-下列變更已在5月發行，Campaign v8使用者現在可使用此變更：
+下列變更已在 5 月發行，現在已經可供 Campaign v8 使用者使用：
 
 * **新的增強式安全性附加元件**：為了讓您的網路連線更安全，並為您的資源提供更高的安全性，Adobe Campaign 提供新的增強安全性附加元件，其中包括兩項功能：安全 CMK 整合和安全 VPN 通道。 [閱讀更多](../config/enhanced-security.md)
 
