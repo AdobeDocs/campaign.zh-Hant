@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
+source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年�
 
 ### 哪些部分有所變更？ {#fcm-changes}
 
-為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年6月20日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年7月22日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播通知訊息。 不過，有些舊版實作仍需仰賴舊版API。 必須更新這些實作。
 
@@ -42,7 +42,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 如果您的任何使用中推播通知服務使用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照下方所述移至較新的API。
 
-* 如果您的設定僅使用 **HTTP v1** Android推播通知的API，則表示您已符合法規，不需要採取任何進一步動作。
+* 如果您的設定僅使用 **HTTP v1** 適用於Android推播通知的API，則您已符合法規，不需要採取任何進一步動作。
 
 ### 如何更新？ {#fcm-transition-procedure}
 
@@ -73,7 +73,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
    ![](assets/android-http-v1-config.png)
 
-1. 按一下 **[!UICONTROL Test the connection]** 檢查您的設定是否正確，以及行銷伺服器是否擁有FCM的存取權。 請注意，對於中間來源部署， **[!UICONTROL Test connection]** 按鈕無法檢查伺服器是否可存取Android Firebase雲端通訊(FCM)服務。
+1. 按一下 **[!UICONTROL Test the connection]** 檢查您的設定是否正確，以及行銷伺服器是否擁有FCM的存取權。 請注意，對於中間來源部署， **[!UICONTROL Test connection]** 按鈕無法檢查伺服器是否可存取Android Firebase Cloud Messaging (FCM)服務。
 1. 或者，您也可以選擇擴充推送訊息的內容 **[!UICONTROL Application variables]** 如有需要。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
@@ -91,7 +91,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 ### 對我的Android應用程式有何影響？ {#fcm-apps}
 
-Android行動應用程式的程式碼不需要特定變更，且通知行為不應變更。
+Android Mobile應用程式的程式碼不需要任何特定變更，通知行為也不應變更。
 
 不過，使用HTTP v1時，您可以透過進一步個人化推播通知 **[!UICONTROL HTTPV1 additional options]**.
 
