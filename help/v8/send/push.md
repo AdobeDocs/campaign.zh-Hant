@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 10%
+source-wordcount: '968'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +16,28 @@ ht-degree: 10%
 
 行動應用程式傳送功能可讓您傳送通知至iOS和Android裝置。
 
-開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 [進一步瞭解推播設定。](push-settings.md)
+開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 [進一步瞭解推播設定。](push-settings.md).
 
 >[!CAUTION]
 >
->Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並可能影響 Adobe Campaign 實施。Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
+>Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
 
 
-## 建立您的第一個推播通知{#push-create}
+## 建立您的第一個推播通知 {#push-create}
 
-本節詳細說明iOS和Android通知傳送的特定元素。
+本節詳細說明特定於iOS和Android通知傳送的元素。
 
 >[!IMPORTANT]
 >
 >在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，行動裝置註冊現在為 **非同步**. [了解更多](../architecture/staging.md)
 
+
 若要建立新傳遞，請瀏覽至 **[!UICONTROL Campaigns]** 標籤，按一下 **[!UICONTROL Deliveries]** 並按一下 **[!UICONTROL Create]** 按鈕。
 
 ![](assets/delivery_step_1.png)
+
+
+依預設，Adobe Campaign隨附兩個傳送範本：一個適用於iOS，一個適用於Android。 您可以複製它們以定義您自己的設定。 根據這些範本設定推播傳送的步驟詳述如下。
 
 >[!BEGINTABS]
 
@@ -133,6 +137,11 @@ ht-degree: 10%
 
    ![](assets/push-template-android.png)
 
+   >[!NOTE]
+   > 
+   >您必須使用最新的FCM API (HTTP v1)更新您的 **傳遞範本** 用於Android推播通知，以增加批次訊息的數量。 若要這麼做，請瀏覽至Android傳遞範本的屬性，並前往 **傳遞** 標籤，設定 [訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 至 **256**. 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
+
+
 1. 若要定義通知的目標，請按一下 **[!UICONTROL To]** 連結，然後按一下 **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
@@ -155,7 +164,8 @@ ht-degree: 10%
 
 >[!ENDTABS]
 
-## 測試、傳送及監控推播通知
+
+## 測試、傳送及監控推播通知 {#push-test}
 
 若要傳送證明並傳送最終傳遞，請使用與其他傳遞相同的程式。
 
