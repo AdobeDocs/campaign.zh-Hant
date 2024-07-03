@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
    | 資料訊息 | N/A | validate_only |
    | 通知訊息 | 標題，內文， android_channel_id，圖示，聲音，標籤，顏色，點選動作，影像，提示，粘性，可見度，通知優先順序，通知計數 <br> | validate_only |
 
-1. 轉換HTTP v1完成後，您必須更新您的 **傳遞範本** 用於Android推播通知，以增加批次訊息的數量。 若要這麼做，請瀏覽至Android傳遞範本的屬性，並前往 **傳遞** 標籤，設定 **訊息批次數量** 至 **256**. 將此變更套用至用於Android傳送的所有Android傳送範本，以及套用至所有現有的Android傳送。
+1. 轉換HTTP v1完成後，您必須更新您的 **傳遞範本** 用於Android推播通知，以增加批次訊息的數量。 若要這麼做，請瀏覽至Android傳遞範本的屬性，並前往 **傳遞** 標籤，設定 [訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 至 **256**. 將此變更套用至用於Android傳送的所有Android傳送範本，以及套用至所有現有的Android傳送。
 
 
 >[!NOTE]

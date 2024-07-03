@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 使用 **[!UICONTROL Delivery priority]** 選項可透過設定您的傳送的優先順序層級，從變更傳送順序 **[!UICONTROL Very low]** 至 **[!UICONTROL Very high]** (預設值為 **[!UICONTROL Normal]**)。
 
-### 批次數量
+### 批次數量 {#delivery-batch-quantity}
 
 使用  **[!UICONTROL Message batch quantity]** 用於定義在同一個XML傳遞套件中分組的訊息數的選項。 如果引數設為0，訊息會自動分組。 封裝大小由計算定義 `<delivery size>/1024`，每個套件最少8則訊息，最多256則訊息。
 
