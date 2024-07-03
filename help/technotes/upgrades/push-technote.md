@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 2%
+source-wordcount: '1422'
+ht-degree: 1%
 
 ---
 
@@ -77,12 +77,14 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 1. 或者，您也可以選擇擴充推送訊息的內容 **[!UICONTROL Application variables]** 如有需要。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
-以下是FCM裝載名稱，可進一步個人化您的推播通知。 這些選項會詳細說明 [此處](#fcm-apps).
+   以下是FCM裝載名稱，可進一步個人化您的推播通知。 這些選項會詳細說明 [此處](#fcm-apps).
 
-| 訊息類型 | 可設定的訊息元素（FCM裝載名稱） | 可設定的選項（FCM裝載名稱） |
-|:-:|:-:|:-:|
-| 資料訊息 | N/A | validate_only |
-| 通知訊息 | 標題，內文， android_channel_id，圖示，聲音，標籤，顏色，點選動作，影像，提示，粘性，可見度，通知優先順序，通知計數 <br> | validate_only |
+   | 訊息類型 | 可設定的訊息元素（FCM裝載名稱） | 可設定的選項（FCM裝載名稱） |
+   |:-:|:-:|:-:|
+   | 資料訊息 | N/A | validate_only |
+   | 通知訊息 | 標題，內文， android_channel_id，圖示，聲音，標籤，顏色，點選動作，影像，提示，粘性，可見度，通知優先順序，通知計數 <br> | validate_only |
+
+1. 轉換HTTP v1完成後，您必須更新您的 **傳遞範本** 用於Android推播通知，以增加批次訊息的數量。 若要這麼做，請瀏覽至Android傳遞範本的屬性，並前往 **傳遞** 標籤，設定 **訊息批次數量** 至 **256**. 將此變更套用至用於Android傳送的所有Android傳送範本，以及套用至所有現有的Android傳送。
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ Android Mobile應用程式的程式碼不需要任何特定變更，通知行為
 * 設定 **[!UICONTROL Visibility]** 您向公開、私人或機密發出通知的層級。
 
 如需詳細資訊，請參閱 **[!UICONTROL HTTP v1 additional options]** 以及如何填寫這些欄位，請參閱 [FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 
