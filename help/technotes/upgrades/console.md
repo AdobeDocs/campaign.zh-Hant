@@ -2,8 +2,10 @@
 product: campaign
 title: 使用者端主控台32位元淘汰
 description: 使用者端主控台32位元淘汰
+hide: true
+hidefromtoc: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%

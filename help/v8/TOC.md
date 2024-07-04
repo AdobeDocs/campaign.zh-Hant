@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 100%
    + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
    + [設計網頁應用程式和表單](dev/webapps.md)
++ 自動化和工作流程 {#automation}
+   + [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)
 + 隱私權與安全管理 {#privacy}
    + [管理隱私權請求](start/privacy.md)
    + [安全性方針](config/security.md)
@@ -203,7 +205,6 @@ ht-degree: 100%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 控制面板 >](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/control-panel-home)
-+ [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)
++ [Campaign技術檔案>](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
 
