@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Campaign自動化指南
 user-guide-description: Campaign自動化指南
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 81%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 81%
          + [本地核准](workflow/local-approval.md)
          + [載入 (SOAP)](workflow/loading-soap.md)
          + [Nlserver 模組](workflow/nlserver-module.md)
-         + [重複傳送](workflow/recurring-delivery.md)
+         + [週期性傳遞](workflow/recurring-delivery.md)
          + [SQL 程式碼和 JavaScript 程式碼](workflow/sql-code-and-javascript-code.md)
          + [SQL 資料管理](workflow/sql-data-management.md)
          + [更新彙總](workflow/update-aggregate.md)
@@ -165,4 +165,4 @@ ht-degree: 81%
    + [存取行銷活動](distributed-marketing/accessing-campaigns.md)
    + [追蹤行銷活動](distributed-marketing/tracking-a-campaign.md)
    + [使用案例](distributed-marketing/examples.md)
-+ [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant)
++ [&lt;返回Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
