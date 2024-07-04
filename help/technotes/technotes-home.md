@@ -5,7 +5,7 @@ title: Adobe Campaign技術文章
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: 0844a4fcd34220d825ae30368b284cbcaf93d02b
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 39%
@@ -23,14 +23,14 @@ ht-degree: 39%
 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。
 
 
-[![影像](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
+[![影像](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
 >[!TAB Identity Management系統(IMS)]
 
 自Campaign v8.6開始，改善對Campaign v8的驗證流程。 所有操作員僅會使用Adobe Identity Management System (IMS)連線至Campaign
 
-[![影像](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
+[![影像](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
 
