@@ -6,9 +6,9 @@ feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1157'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 5%
 * 此 **[!UICONTROL Notification message]**，會由FCM SDK自動處理。 FCM會自動代表使用者端應用程式在使用者裝置上顯示訊息。 通知訊息包含預先定義的一組引數和選項，但仍可使用自訂應用程式變數進一步個人化。
 
 ## 定義通知的內容 {#push-message}
+
+>[!IMPORTANT]
+>
+>在設計豐富推送通知之前，您必須先設定聯結器。 請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) 以取得詳細程式。
 
 建立推播傳送後，您就可以定義其內容。 有三個範本可供使用：
 
