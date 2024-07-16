@@ -5,17 +5,17 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
+source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 3%
+source-wordcount: '738'
+ht-degree: 2%
 
 ---
 
 
 # Campaign增強式安全性附加元件 {#enhanced-security}
 
-若要讓您的網路連線更安全，並為您的資源提供更優異的安全性， [!DNL Adobe Campaign] 提供新的 **增強式安全性** 附加元件。
+為了使您的網路連線更安全，並為您的資源提供更好的安全性，[!DNL Adobe Campaign]提供新的&#x200B;**增強式安全性**&#x200B;附加元件。
 
 此附加元件包含兩個生態系統功能：
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 安全可靠的客戶管理金鑰整合 {#secure-cmk-integration}
 
-此 **安全客戶自控金鑰(CMK)整合** 可讓您透過Amazon Web Services (AWS)帳戶，使用自己的金鑰為靜態資料加密。
+**Secure Customer-Managed Key (CMK)整合**&#x200B;可讓您透過Amazon Web Services (AWS)帳戶，使用您自己的金鑰加密靜態資料。
 
 客戶管理的金鑰是您在AWS帳戶中建立、擁有和管理的KMS金鑰。 您可以完全控制這些KMS金鑰，並使用它們來加密和解密資料。 透過讓您負責產生和管理加密金鑰，此容量可讓您對金鑰擁有更多控制權，包括撤銷金鑰。
 
@@ -45,13 +45,13 @@ ht-degree: 3%
 
 若要啟用CMK與Campaign的整合，請遵循下列步驟：
 
-1. 連線至您的 [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} 帳戶。
+1. 連線至您的[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。
 
-1. 使用AWS金鑰管理服務(KMS)產生具有自動循環的金鑰。 [瞭解如何](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
+1. 使用AWS金鑰管理服務(KMS)產生具有自動循環的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
-1. 將Adobe至您的AWS帳戶套用提供給您的原則，以授予對資源的存取權。 [瞭解更多](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
+1. 將Adobe至您的AWS帳戶套用提供給您的原則，以授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
-1. 共用您的 [Amazon資源名稱（索引鍵ARN）](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} 替換為 [!DNL Adobe Campaign]. 若要這麼做，請聯絡您的Adobe代表。 <!--or Adobe transition manager?-->
+1. 與[!DNL Adobe Campaign]共用您的[Amazon資源名稱（索引鍵ARN）](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}。 若要這麼做，請聯絡您的Adobe代表。<!--or Adobe transition manager?-->
 
 1. 建立並測試Amazon EventBridge規則，以啟用依Adobe監視金鑰&#x200B;。 [了解更多](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
@@ -60,15 +60,15 @@ ht-degree: 3%
 
 下列護欄和限制適用於與Adobe Campaign v8的CMK整合：
 
-* Adobe未提供 [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} 帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
+* Adobe未提供[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
 
-* 僅限 [AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} 支援(KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
+* 僅支援[AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
 
 * 首次設定期間預計會發生停機時間。&#x200B;URL停機時間長度取決於資料庫的大小。
 
 * 身為客戶，您擁有並維護金鑰。 萬一您的金鑰發生任何變更，您必須聯絡Adobe&#x200B;。
 
-* 您可以使用以下方式稽核您的金鑰 [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} 並視需要加以撤銷&#x200B;。
+* 您可以使用[AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"}稽核您的金鑰，並視需要加以撤銷。&#x200B;
 
 * 如果您撤銷、停用或刪除金鑰，則在您還原對應的動作之前，將無法存取加密的資源和執行個體。
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 ## 安全的虛擬私人網路通道 {#secure-vpn-tunneling}
 
-此 **安全的虛擬私人網路(VPN)通道** 是一種站台對站台VPN，可透過私人網路為傳輸中的資料(從您的設施到 [!DNL Adobe Campaign] 執行個體。
+**安全虛擬私人網路(VPN)通道**&#x200B;是站台對站台VPN，可透過私人網路，為傳輸中的資料提供安全存取，從您的場地到[!DNL Adobe Campaign]執行個體。
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->僅支援內部部署資料庫和符合AWS的VPN裝置。 [了解更多](#vpn-callouts)
+>僅支援內部部署資料庫和符合AWS的VPN裝置。 [了解更多](#vpn-databases)
 
 為確保正確使用此功能，請遵循以下准則：
 
@@ -110,24 +110,23 @@ ht-degree: 3%
 
 * 在端點設定重試機制，以防連線失敗。
 
+### 支援的資料庫和裝置 {#vpn-databases}
 
-### 護欄和限制 {#vpn-callouts}
+支援下列內部部署資料庫：
 
-下列護欄和限制適用於與Adobe Campaign v8的VPN通道整合：
+* MySQL
+* Netezza
+* Oracle
+* SAP HANA
+* SQL Server
+* Sybase
+* Teradata
+* 透過 HiveSQL 提供的 Hadoop
 
-* 僅支援內部部署資料庫，例如<!--Richa to check the list with PM-->：
+僅支援與AWS相容的VPN裝置。 [此頁面](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}上有相容裝置的清單。
 
-   * MySQL
-   * Netezza
-   * Oracle
-   * SAP HANA
-   * SQL Server
-   * Sybase
-   * Teradata
-   * 透過 HiveSQL 提供的 Hadoop
-
-* 僅支援與AWS相容的VPN裝置。 相容裝置的清單位於 [此頁面](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
-
-* 不支援第三方或外部廠商的VPN連線。
-
-* 不包括Adobe管理的其他VPN到私有雲端資料庫。
+>[!NOTE]
+>
+>* 不支援第三方或外部廠商的VPN連線。
+>
+>* 不包括Adobe管理的其他VPN到私有雲端資料庫。
