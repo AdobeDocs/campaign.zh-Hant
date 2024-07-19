@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 96%
+source-wordcount: '942'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建�
 
 若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從 Privacy Service 推播至所有 Adobe Experience Cloud 解決方案的隱私權請求，會由 Campaign 透過專用工作流程自動處理。[了解更多](#create-privacy-request)
 
-瞭解 **存取許可權** 和 **被遺忘權** （刪除請求）於 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}.
+在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}中瞭解&#x200B;**存取許可權**&#x200B;和&#x200B;**被遺忘的權利** （刪除要求）。
 
 <!--
 >[!NOTE]
@@ -109,7 +109,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 >[!CAUTION]
 >
->若要使用自訂名稱空間類型提交請求，請利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}提出請求。
+>若要使用自訂名稱空間型別提交請求，請善用[JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"}，並將namespaceId新增至請求，或使用[API呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}發出請求。
 >
 >僅透過[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target="_blank"}，利用標準命名空間類型提交請求。
 

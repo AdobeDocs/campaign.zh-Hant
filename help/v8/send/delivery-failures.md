@@ -18,7 +18,7 @@ ht-degree: 5%
 
 此程式會防止系統繼續傳送無效的電子郵件地址。 跳出是ISP用來判斷IP信譽的關鍵資料之一。 留意此量度非常重要。 「已傳遞」與「已跳出」可能是衡量行銷訊息傳遞方式最常見的方式：傳遞百分比越高越好。
 
-如果無法將訊息發送到設定檔，遠端伺服器會自動向Adobe Campaign 發送錯誤消息。此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 另請參閱 [退回郵件管理](#bounce-mail-qualification).
+如果無法將訊息發送到設定檔，遠端伺服器會自動向Adobe Campaign 發送錯誤消息。此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 請參閱[退回郵件管理](#bounce-mail-qualification)。
 
 傳送訊息後，您可以在傳送記錄檔中檢視每個設定檔的傳送狀態，以及相關失敗的型別和原因。
 
@@ -26,21 +26,21 @@ ht-degree: 5%
 
 ## 為什麼訊息傳遞失敗 {#delivery-failure-reasons}
 
-訊息失敗時有兩種型別的錯誤。 每個傳送失敗型別都會判斷地址是否傳送至 [隔離](quarantines.md#quarantine-reason) 也可能不會。
+訊息失敗時有兩種型別的錯誤。 每個傳送失敗型別都會判斷地址是否傳送至[隔離](quarantines.md#quarantine-reason)。
 
-* **硬跳出**
+* **硬退信**
 硬跳出是當ISP將寄送訂閱者位址的嘗試判斷為無法傳送後，產生的永久性失敗。 在Adobe Campaign中，分類為無法傳送的硬跳出會新增至隔離清單，這表示不會重新嘗試這些跳出。 在某些情況下，如果失敗的原因不明，則會忽略硬退信。
 
   以下是一些常見的硬跳出範例：地址不存在、帳戶已停用、語法錯誤、網域錯誤
 
 * **軟退信**
-軟跳出是ISP在難以傳遞郵件時產生的暫時性失敗。 軟性失敗會 [重試](#retries) 多次（如有差異，取決於使用自訂或現成可用的傳送設定），以嘗試成功傳送。 在嘗試重試次數上限之前（依設定而異），不會將持續軟跳出的位址新增至隔離。
+軟跳出是ISP在難以傳遞郵件時產生的暫時性失敗。 軟性失敗將[重試](#retries)多次（如有差異，取決於使用自訂或現成可用的傳送設定），以嘗試成功傳送。 在嘗試重試次數上限之前（依設定而異），不會將持續軟跳出的位址新增至隔離。
 
   軟跳出的常見原因包括：信箱已滿、接收電子郵件伺服器關閉、寄件者信譽問題
 
-此  **已忽略** 已知的錯誤型別是暫時性的，例如「不在辦公室」，或技術錯誤，例如，如果傳送者型別是&quot;postmaster&quot;。
+**Ignored**&#x200B;錯誤型別已知為暫時，例如「不在辦公室」，或技術錯誤，例如，如果寄件者型別為「郵遞員」。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址會新增至(**NmsAddress**)隔離表格而非(**NmsRecipient**)收件者表格，包含 **[!UICONTROL Denylisted]** 狀態。 進一步瞭解中的意見回圈機制 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
 這些型別的錯誤可管理如下：
 
-* **同步錯誤**：Adobe Campaign傳送伺服器連絡的遠端伺服器會立即傳回錯誤訊息。 不允許將傳遞傳送至設定檔的伺服器。 郵件傳輸代理程式(MTA)會判斷退信型別並限定錯誤，然後將該資訊傳回至Campaign，以判斷是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
+* **同步錯誤**：由Adobe Campaign傳遞伺服器連絡的遠端伺服器會立即傳回錯誤訊息。 不允許將傳遞傳送至設定檔的伺服器。 郵件傳輸代理程式(MTA)會判斷退信型別並限定錯誤，然後將該資訊傳回至Campaign，以判斷是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
 
 * **非同步錯誤**：接收伺服器稍後會重新傳送退回郵件或SR。 此錯誤以與錯誤相關的標籤限定。 傳送後一週內，可能會發生非同步錯誤。
 
@@ -64,9 +64,9 @@ ht-degree: 5%
 
 在Adobe Campaign中處理退信限定的方式取決於錯誤型別：
 
-* **同步錯誤**：MTA會判斷跳出型別和資格，並將該資訊傳回至Campaign。 中的退信資格 **[!UICONTROL Delivery log qualification]** 表格不用於 **同步** 傳遞失敗錯誤訊息。
+* **同步錯誤**： MTA會決定退信型別和資格，並將該資訊傳回至Campaign。 **[!UICONTROL Delivery log qualification]**&#x200B;資料表中的退信限定不用於&#x200B;**同步**&#x200B;傳遞失敗錯誤訊息。
 
-* **非同步錯誤**：Campaign用來限定非同步傳送失敗的規則列於 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 節點。 inMail程式會透過 **[!UICONTROL Inbound email]** 規則。 有關詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
+* **非同步錯誤**： Campaign用來限定非同步傳送失敗的規則列在&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**&#x200B;節點中。 inMail處理序會透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則來限定非同步退信。 如需詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}。
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -95,7 +95,7 @@ Bounce mails can have the following qualification status:
 
 ## 重試管理 {#retries}
 
-如果訊息傳送因暫時錯誤而失敗(**柔光** 或 **已忽略**)，Campaign會重試傳送。 可以執行這些重試，直到傳送持續時間結束。
+如果訊息傳遞因暫時錯誤（**Soft**&#x200B;或&#x200B;**Ignored**）而失敗，Campaign會重試傳送。 可以執行這些重試，直到傳送持續時間結束。
 
 軟退信重試次數和兩次之間的時間長度由MTA根據從訊息的電子郵件網域傳回的退信回應的型別和嚴重性決定。
 
@@ -105,13 +105,13 @@ Bounce mails can have the following qualification status:
 
 ## 有效期限 {#valid-period}
 
-Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳送，如果您在Campaign中定義的值超過3.5天，則不會將其列入考量。
+Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 對於傳送，如果您在Campaign中定義的值超過3.5天，則不會將其列入考量。
 
 例如，如果有效期間在Campaign中設定為預設值5天，則軟退信訊息會進入MTA重試佇列，並從該訊息達到MTA時起最多只重試3.5天。 在此情況下，將不會使用Campaign中設定的值。
 
-當訊息在MTA佇列中停留3.5天且無法傳送時，訊息會逾時，其狀態會從更新 **[!UICONTROL Sent]** 至 **[!UICONTROL Failed]** 傳送記錄檔中。
+訊息在MTA佇列中停留3.5天且無法傳送後，訊息會逾時，其狀態會從傳送記錄檔中的&#x200B;**[!UICONTROL Sent]**&#x200B;更新為&#x200B;**[!UICONTROL Failed]**。
 
-如需有效期的詳細資訊，請參閱 [Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
+如需有效期的詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}。
 
 
 ## 電子郵件錯誤型別 {#email-error-types}
@@ -130,13 +130,13 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 帳戶已停用 </td> 
    <td> 軟/硬 </td> 
    <td> 4 </td> 
-   <td> 連結至該地址的帳戶已失效。 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者的帳戶。 之後將無法傳遞至使用者的位址。 如果帳戶因為6個月的閒置而暫時停用，而且仍然可以啟動，則會指派狀態「發生錯誤」並再次嘗試帳戶，直到錯誤計數器達到5。 如果錯誤訊號指出帳戶已永久停用，則會直接將其設定為隔離。<br /> </td> 
+   <td> 連結至該地址的帳戶已失效。 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者的帳戶。 之後將無法傳遞至使用者的位址。 如果帳戶因為6個月的閒置而暫時停用，而且仍然可以啟動，則會指派狀態「發生錯誤」並再次嘗試帳戶，直到錯誤計數器達到5。 如果錯誤訊號表示帳戶已永久停用，則會直接將其設定為隔離。<br /> </td> 
   </tr> 
   <tr> 
    <td> 被隔離的地址 </td> 
    <td> 強烈 </td> 
    <td> 9 </td> 
-   <td> 地址被放入隔離區。<br /> </td> 
+   <td> 地址已放入隔離區。<br /> </td> 
   </tr> 
   <tr> 
    <td> 未指定地址 </td> 
@@ -172,7 +172,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 忽略的錯誤 </td> 
    <td> 已忽略 </td> 
    <td> 25 </td> 
-   <td> 地址在允許清單上。 因此，錯誤會被忽略，並會傳送電子郵件。<br /> </td> 
+   <td> 地址在允許清單上。 因此會忽略錯誤，並會傳送電子郵件。<br /> </td> 
   </tr> 
   <tr> 
    <td> 仲裁後排除 </td> 
@@ -196,7 +196,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 郵箱已滿 </td> 
    <td> 柔光 </td> 
    <td> 5 </td> 
-   <td> 此使用者的信箱已滿，無法接受更多郵件。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。<br /> 此類錯誤是由清理程式管理，地址會在30天後設為有效狀態。<br /> 警告：若要從隔離位址清單自動移除位址，必須啟動資料庫清理技術工作流程。<br /> </td> 
+   <td> 此使用者的信箱已滿，無法接受更多郵件。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。<br />此型別的錯誤是由清理程式管理，地址在30天後會設定為有效狀態。<br />警告：若要從隔離位址清單自動移除位址，必須啟動資料庫清理技術工作流程。<br /> </td> 
   </tr> 
   <tr> 
    <td> 未連線 </td> 
@@ -208,7 +208,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 然後他們可以透過進行訊息分析，並確認此錯誤 <span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法傳遞的專案管理</span> 樹狀結構中的節點。<br /> </td> 
+   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不符合優惠方案條件 </td> 
@@ -220,13 +220,13 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 已拒絕 </td> 
    <td> 軟/硬 </td> 
    <td> 20 </td> 
-   <td> 由於安全反饋為垃圾郵件報告，該地址已被置於隔離狀態。 根據錯誤，將再次嘗試該位址，直到錯誤計數器達到5，或直接將其傳送給隔離。<br /> </td> 
+   <td> 由於安全反饋為垃圾郵件報告，該地址已被置於隔離狀態。 根據錯誤，將再次嘗試此位址，直到錯誤計數器達到5，或直接傳送給隔離。<br /> </td> 
   </tr> 
   <tr> 
    <td> 目標大小受限 </td> 
    <td> 已忽略 </td> 
    <td> 17 </td> 
-   <td> 已達收件者的傳遞大小上限。<br /> </td> 
+   <td> 已達到收件者的傳遞大小上限。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不合格的地址 </td> 
@@ -238,7 +238,7 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
    <td> 無法聯繫 </td> 
    <td> 軟/硬 </td> 
    <td> 3 </td> 
-   <td> 訊息傳遞鏈結中發生錯誤。 可能是SMTP轉送上的事件、暫時無法連線的網域等。 根據錯誤，將再次嘗試該位址，直到錯誤計數器達到5，或直接將其傳送給隔離。<br /> </td> 
+   <td> 訊息傳遞鏈結中發生錯誤。 可能是SMTP轉送上的事件、暫時無法連線的網域等。 根據錯誤，將再次嘗試此位址，直到錯誤計數器達到5，或直接傳送給隔離。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用者不明 </td> 
@@ -257,14 +257,14 @@ Campaign傳送中的有效期間設定限製為 **3.5天或以下**. 對於傳�
 
 ### iOS隔離 {#ios-quarantine}
 
-HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果使用HTTP/V2通訊協定聯結器，則不再由呼叫回饋服務。 **[!UICONTROL mobileAppOptOutMgt]** 工作流程。 解除安裝或重新安裝行動應用程式時，Token會視為已解除註冊。
+HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果使用HTTP/V2通訊協定聯結器，**[!UICONTROL mobileAppOptOutMgt]**&#x200B;工作流程將不再呼叫意見回饋服務。 解除安裝或重新安裝行動應用程式時，Token會視為已解除註冊。
 
 同步時，如果APN針對訊息傳回「未註冊」狀態，則目標Token會立即置於隔離中。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>情境</strong><br /> </td> 
+   <td> <strong>案例</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
    <td> <strong>失敗型別</strong><br /> </td> 
@@ -280,7 +280,7 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 目標裝置電源已關閉<br /> </td> 
+   <td> 目標裝置已關閉<br /> </td> 
    <td> 確定<br /> </td> 
    <td> </td> 
    <td> </td> 
@@ -288,7 +288,7 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 使用者停用應用程式的通知<br /> </td> 
+   <td> 使用者停用應用程式<br />的通知 </td> 
    <td> 確定<br /> </td> 
    <td> </td> 
    <td> </td> 
@@ -299,23 +299,23 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> 訊息建立/分析階段 — 承載太大<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 承載太長<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
    <td> 訊息建立/分析階段 — 非預期的內容格式問題<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 根據錯誤的各種錯誤訊息<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 根據錯誤<br />的各種錯誤訊息 </td> 
+   <td> 軟式<br /> </td> 
    <td> 未定義<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
    <td> 憑證問題（密碼、損毀等） 並測試與APNs問題的連線<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 根據錯誤的各種錯誤訊息<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 根據錯誤<br />的各種錯誤訊息 </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
@@ -324,22 +324,22 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> 失敗<br /> </td> 
    <td> 連線錯誤<br /> </td> 
    <td> 未定義<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> 無法連線<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs訊息拒絕：取消註冊<br /> 使用者已移除應用程式或權杖已過期<br /> </td> 
+   <td> APN訊息拒絕：取消註冊<br />使用者已移除應用程式或權杖已過期<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 已取消註冊<br /> </td> 
-   <td> 強烈<br /> </td> 
+   <td> 已取消登入<br /> </td> 
+   <td> 硬式<br /> </td> 
    <td> 使用者不明<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
    <td> APNs訊息拒絕：所有其他錯誤<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 錯誤訊息中會出現錯誤拒絕原因<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 錯誤訊息<br />中出現錯誤拒絕原因 </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
@@ -348,36 +348,36 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
 
 ### Android隔離 {#android-quarantine}
 
-**適用於Android V1**
+適用於Android V1 **的**
 
 對於每個通知，Adobe Campaign會直接從FCM伺服器接收同步錯誤。 Adobe Campaign會即時處理這些錯誤，並根據錯誤的嚴重性產生硬錯誤或軟錯誤，且可執行重試：
 
-* 已超過承載長度，連線問題，服務可用性問題：已執行重試，軟錯誤，失敗原因為 **[!UICONTROL Refused]**.
-* 超過裝置配額：沒有重試、軟錯誤、失敗原因為 **[!UICONTROL Refused]**.
-* 無效或未登入的權杖、未預期的錯誤、寄件者帳戶問題：無重試、硬錯誤、失敗原因為 **[!UICONTROL Refused]**.
+* 已超過承載長度、連線問題、服務可用性問題：已執行重試、軟錯誤、失敗原因為&#x200B;**[!UICONTROL Refused]**。
+* 超過裝置配額：沒有重試、軟錯誤、失敗原因為&#x200B;**[!UICONTROL Refused]**。
+* 無效的或未登入權杖、未預期的錯誤、寄件者帳戶問題：無重試、硬錯誤、失敗原因為&#x200B;**[!UICONTROL Refused]**。
 
-此 **[!UICONTROL mobileAppOptOutMgt]** 工作流程每6小時執行一次，以更新 **AppSubscriptionRcp** 表格。 對於已宣告未註冊或不再有效的權杖，欄位 **已停用** 設為 **真** 而連結至該裝置Token的訂閱會自動從未來的傳送中排除。
+**[!UICONTROL mobileAppOptOutMgt]**&#x200B;工作流程每6小時執行一次，以更新&#x200B;**AppSubscriptionRcp**&#x200B;資料表。 對於宣告為未登入或不再有效的權杖，**Disabled**&#x200B;欄位設為&#x200B;**True**，而且連結至該裝置權杖的訂閱將會自動從未來的傳遞中排除。
 
-在傳遞分析期間，所有從目標中排除的裝置都會自動新增至 **excludeLogAppSubRcp** 表格。
+在傳遞分析期間，所有從目標排除的裝置都會自動新增至&#x200B;**excludeLogAppSubRcp**&#x200B;表格。
 
 >[!NOTE]
 >
 >對於使用百度聯結器的客戶，以下是不同型別的錯誤：
 >
->* 傳送開始時的連線問題：失敗型別 **[!UICONTROL Undefined]**，失敗原因 **[!UICONTROL Unreachable]**，會執行重試。
->* 傳遞期間連線中斷：軟錯誤、失敗原因 **[!UICONTROL Refused]**，會執行重試。
->* 百度在傳送期間傳回同步錯誤：硬錯誤、失敗原因 **[!UICONTROL Refused]**，不會執行重試。
+>* 傳遞開始時的連線問題：失敗型別&#x200B;**[!UICONTROL Undefined]**，失敗原因&#x200B;**[!UICONTROL Unreachable]**，已執行重試。
+>* 傳遞期間連線中斷：軟錯誤，失敗原因&#x200B;**[!UICONTROL Refused]**，已執行重試。
+>* 百度在傳送期間傳回同步錯誤：硬錯誤，失敗原因&#x200B;**[!UICONTROL Refused]**，不執行重試。
 >
->Adobe Campaign每10分鐘會連絡百度伺服器以擷取已傳送訊息的狀態，並更新broadlog。 如果訊息宣告為已傳送，則broadlogs中訊息的狀態會設為 **[!UICONTROL Received]**. 如果百度宣告錯誤，則狀態會設為 **[!UICONTROL Failed]**.
+>Adobe Campaign每10分鐘會連絡百度伺服器以擷取已傳送訊息的狀態，並更新broadlog。 如果訊息宣告為已傳送，broadlogs中訊息的狀態會設為&#x200B;**[!UICONTROL Received]**。 如果百度宣告錯誤，狀態會設為&#x200B;**[!UICONTROL Failed]**。
 
-**適用於Android V2**
+適用於Android V2 **的**
 
-Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱和排除專案更新。 如需詳細資訊，請參閱 [Android V1](#android-quarantine) 區段。
+Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱和排除更新。 如需詳細資訊，請參閱[Android V1](#android-quarantine)區段。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>情境</strong><br /> </td> 
+   <td> <strong>案例</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
    <td> <strong>失敗型別</strong><br /> </td> 
@@ -385,42 +385,42 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> <strong>重試</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> 訊息建立/分析階段：自訂欄位中使用的關鍵字不合法<br /> </td> 
+   <td> 訊息建立/分析階段：在自訂欄位<br />中使用的關鍵字不合法 </td> 
    <td> 失敗<br /> </td> 
    <td> 無法使用下列關鍵字： {1}<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 軟式<br /> </td> 
    <td> </td> 
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
    <td> 訊息建立/分析階段：承載太大<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 通知太重： {1}位元，而只有{2}位元獲得授權<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 通知太重： {1}位元，而只有{2}是授權的<br /> </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送期間網路連線中斷<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 沒有來自Firebase Cloud Messaging服務對以下位址的回應： {1}<br /> </td> 
-   <td> 柔光<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> 沒有來自位址{1}<br />上Firebase Cloud Messaging服務的回應 </td> 
+   <td> 軟式<br /> </td> 
+   <td> 無法連線<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM訊息拒絕： FCM伺服器暫時無法使用（例如逾時）。 <br /> </td> 
+   <td> FCM訊息拒絕： FCM伺服器暫時無法使用（例如逾時）。<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> Firebase雲端傳訊服務暫時無法使用<br /> </td> 
-   <td> 柔光<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> Firebase Cloud Messaging服務暫時無法使用<br /> </td> 
+   <td> 軟式<br /> </td> 
+   <td> 無法連線<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM訊息拒絕：驗證寄件者帳戶時發生錯誤<br /> </td> 
+   <td> FCM郵件拒絕：驗證寄件者帳戶<br />時發生錯誤 </td> 
    <td> 失敗<br /> </td> 
-   <td> 無法識別開發人員帳戶，請檢查您的ID和密碼<br /> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 無法識別開發人員帳戶，請檢查您的識別碼和密碼<br /> </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
@@ -428,7 +428,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> FCM訊息拒絕：超過裝置配額<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> </td> 
-   <td> 柔光<br /> </td> 
+   <td> 軟式<br /> </td> 
    <td> 已拒絕<br /> </td> 
    <td> 是<br /> </td> 
   </tr> 
@@ -436,7 +436,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> FCM訊息拒絕：註冊無效/未註冊<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> </td> 
-   <td> 強烈<br /> </td> 
+   <td> 硬式<br /> </td> 
    <td> 使用者不明<br /> </td> 
    <td> 否<br /> </td> 
   </tr> 
@@ -465,7 +465,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 是<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM訊息拒絕：寄件者識別碼不相符<br /> </td> 
+   <td> FCM訊息拒絕：寄件者識別碼不符<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> 柔光</td>
@@ -513,7 +513,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 是<br /> </td> 
   </tr>
     <tr> 
-   <td> 驗證：要求中未獲授權的使用者端或範圍。<br /> </td> 
+   <td> 驗證：要求中有未經授權的使用者端或範圍。<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 已忽略</td>
@@ -521,7 +521,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 否<br /> </td> 
   </tr>
     <tr> 
-   <td> 驗證：使用者端未獲授權使用此方法擷取存取權杖，或未獲授權使用任何請求範圍的使用者端。<br /> </td> 
+   <td> 驗證：使用者端未獲授權，無法使用此方法擷取存取權杖，或是使用者端未獲授權使用任何要求的範圍。<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 已忽略</td>
@@ -553,7 +553,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> 否<br /> </td> 
   </tr>
     <tr> 
-   <td> 驗證：無效的JWT簽名<br /> </td> 
+   <td> 驗證：無效的JWT簽章<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> invalid_grant </td> 
    <td> 已忽略</td> 
@@ -587,12 +587,12 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
 
 >[!NOTE]
 >
->此 **[!UICONTROL Delivery log qualification]** 表格不適用於 **擴充通用SMPP** 聯結器。
+>**[!UICONTROL Delivery log qualification]**&#x200B;資料表不適用於&#x200B;**Extended generic SMPP**&#x200B;聯結器。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>情境</strong><br /> </td> 
+   <td> <strong>案例</strong><br /> </td> 
    <td> <strong>狀態</strong><br /> </td> 
    <td> <strong>錯誤訊息</strong><br /> </td> 
    <td> <strong>失敗型別</strong><br /> </td> 
@@ -606,7 +606,7 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 已在行動裝置上接收<br /> </td> 
+   <td> 已在行動裝置<br />上收到 </td> 
    <td> 已接收<br /> </td> 
    <td> </td> 
    <td> </td> 
@@ -615,34 +615,34 @@ Android V2隔離機制使用與Android V1相同的程式，同樣適用於訂閱
   <tr> 
    <td> 提供者傳回的錯誤<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 接收資料時發生錯誤（SR或MO）<br /> </td> 
-   <td> 柔光<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> 接收資料（SR或MO）時發生錯誤<br /> </td> 
+   <td> 軟式<br /> </td> 
+   <td> 無法連線<br /> </td> 
   </tr> 
   <tr> 
    <td> 無效的MT通知<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 處理傳送查詢的認可框架時發生錯誤'{1}'<br /> </td> 
-   <td> 柔光<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> 處理傳送查詢<br />的認可框架時發生錯誤'{1}' </td> 
+   <td> 軟式<br /> </td> 
+   <td> 無法連線<br /> </td> 
   </tr> 
   <tr> 
-   <td> 傳送MT時發生錯誤<br /> </td> 
+   <td> 傳送MT<br />時發生錯誤 </td> 
    <td> 失敗<br /> </td> 
    <td> 傳送訊息時發生錯誤<br /> </td> 
-   <td> 柔光<br /> </td> 
-   <td> 無法聯絡<br /> </td> 
+   <td> 軟式<br /> </td> 
+   <td> 無法連線<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**用於擴充通用SMPP聯結器**
+延伸通用SMPP聯結器的&#x200B;****
 
 使用SMPP通訊協定傳送SMS訊息時，錯誤管理的處理方式不同。
 
-SMPP聯結器會擷取使用規則運算式（規則運算式）傳回之SR （狀態報告）訊息的資料，以篩選其內容。 然後，此資料會與中的資訊進行比對 **[!UICONTROL Delivery log qualification]** 表格(可透過 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** 功能表)。
+SMPP聯結器會擷取使用規則運算式（規則運算式）傳回之SR （狀態報告）訊息的資料，以篩選其內容。 然後，此資料會與&#x200B;**[!UICONTROL Delivery log qualification]**&#x200B;資料表中的資訊進行比對（可透過&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]**&#x200B;功能表取得）。
 
-在限定新型別的錯誤之前，失敗原因一律設為 **已拒絕** 依預設。
+在限定新型別的錯誤之前，失敗原因預設一律設為&#x200B;**已拒絕**。
 
 >[!NOTE]
 >
@@ -656,22 +656,22 @@ SMPP聯結器會擷取使用規則運算式（規則運算式）傳回之SR （�
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
-* 所有錯誤訊息的開頭為 **SR** 以區分SMS錯誤碼與電子郵件錯誤碼。
-* 第二部分(**通用** 在此範例中，錯誤訊息會參照SMSC實作的名稱，例如 **[!UICONTROL SMSC implementation name]** 簡訊外部帳戶的欄位。
+* 所有錯誤訊息都以&#x200B;**SR**&#x200B;開頭，以區分SMS錯誤碼與電子郵件錯誤碼。
+* 錯誤訊息的第二部分（**Generic**，在此範例中）參考SMSC實作的名稱，例如SMS外部帳戶的&#x200B;**[!UICONTROL SMSC implementation name]**&#x200B;欄位中定義的名稱。
 
   由於對於每個提供者，相同的錯誤碼可能有不同的含義，因此此欄位可讓您知道產生錯誤碼的提供者。 然後您可以在相關提供者的檔案中找到錯誤。
 
-* 第三部分(**傳遞** 在此範例中)的錯誤訊息會與使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取到的狀態代碼相對應。
+* 錯誤訊息的第三部分（此範例中為&#x200B;**DELIVRD**）對應於使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取的狀態代碼。
 
-  此規則運算式指定於 **[!UICONTROL SMSC specificities]** 外部帳戶的索引標籤。
-依預設，規則運算式會提取 **stat：** 由定義的欄位 **附錄B** 的區段 **SMPP 3.4規格**.
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**索引標籤中。
+依預設，規則運算式會擷取**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
 
-* 第四部分(**000** 在此範例中)的錯誤訊息會對應到使用SMS外部帳戶中定義的錯誤代碼擷取規則運算式從SR擷取的錯誤代碼。
+* 錯誤訊息的第四部分(**000**)對應於使用SMS外部帳戶中定義的錯誤碼擷取規則運算式從SR擷取的錯誤碼。
 
-  此規則運算式指定於 **[!UICONTROL SMSC specificities]** 外部帳戶的索引標籤。
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**&#x200B;索引標籤中。
 
-  依預設，規則運算式會提取 **錯誤：** 由定義的欄位 **附錄B** 的區段 **SMPP 3.4規格**.
+  依預設，規則運算式會擷取&#x200B;**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**err：**&#x200B;欄位。
 
-* 管路符號(|)後面的所有專案只會顯示在 **[!UICONTROL First text]** 的欄 **[!UICONTROL Delivery log qualification]** 表格。 此內容一律會取代為 **#MESSAGE#** 在訊息標準化之後。 此程式會避免因類似錯誤而出現多個專案，與電子郵件的情況相同。
+* 直立線符號(|)後面的所有專案只會顯示在&#x200B;**[!UICONTROL Delivery log qualification]**&#x200B;表格的&#x200B;**[!UICONTROL First text]**&#x200B;欄中。 訊息標準化之後，此內容一律會由&#x200B;**#MESSAGE#**&#x200B;取代。 此程式會避免因類似錯誤而出現多個專案，與電子郵件的情況相同。
 
-Extended generic SMPP聯結器會套用啟發式來尋找合理的預設值：如果狀態開頭為 **傳遞**，則視為成功，因為它符合常見狀態 **傳遞** 或 **已傳遞** 供大部分提供者使用。 任何其他狀態都會導致硬失敗。
+Extended generic SMPP聯結器會套用啟發式來尋找合理的預設值：如果狀態以&#x200B;**DELIV**&#x200B;開頭，則會被視為成功，因為它符合大多數提供者使用的一般狀態&#x200B;**DELIVRD**&#x200B;或&#x200B;**DELIVERED**。 任何其他狀態都會導致硬失敗。

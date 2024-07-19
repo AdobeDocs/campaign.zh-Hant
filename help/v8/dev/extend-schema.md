@@ -25,12 +25,12 @@ ht-degree: 2%
 >[!CAUTION]
 >不可直接修改內建結構描述。 如果您需要調整內建方案，必須擴充方案。
 
-若要更瞭解Campaign內建表格及其互動，請參閱 [此頁面](datamodel.md). 另請參閱在中建立新結構描述時的建議 [此頁面](create-schema.md).
+如需深入瞭解Campaign內建表格及其互動，請參閱[此頁面](datamodel.md)。 在[此頁面](create-schema.md)中建立新結構描述時，另請參閱建議。
 
 若要擴充方案，請遵循下列步驟：
 
-1. 導覽至 **[!UICONTROL Administration > Configuration > Data schemas]** 檔案夾。
-1. 按一下 **新增** 按鈕並選取 **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. 導覽至Explorer中的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;資料夾。
+1. 按一下「**新增**」按鈕並選取「**[!UICONTROL Extend the data in a table using an extension schema]**」。
 
    ![](assets/extend-schema-option.png)
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
    ![](assets/extend-schema-edit.png)
 
-   在以下範例中，我們新增 **MembershipYear** 屬性，輸入姓氏的長度限制（此限制會覆寫預設長度），並從內建方案中移除出生日期。
+   在下列範例中，我們新增&#x200B;**MembershipYear**&#x200B;屬性、設定姓氏的長度限制（此限制會覆寫預設值），並從內建結構描述中移除出生日期。
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,7 +62,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. 中斷連線並重新連線至Campaign，以檢查 **[!UICONTROL Structure]** 標籤。
+1. 中斷連線並重新連線至Campaign，以檢查&#x200B;**[!UICONTROL Structure]**&#x200B;索引標籤中的結構描述結構更新。
 
    ![](assets/extend-schema-structure.png)
 

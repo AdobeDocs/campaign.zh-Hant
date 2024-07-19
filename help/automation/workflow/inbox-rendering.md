@@ -16,7 +16,7 @@ ht-degree: 3%
 
 
 
-以下詳述的工作流程會隨 **收件匣轉譯(IR)** 模組（預設）。
+依預設，以下詳細的工作流程會與&#x200B;**收件匣轉譯(IR)**&#x200B;模組一併安裝。
 
 <table> 
  <tbody> 
@@ -28,7 +28,7 @@ ht-degree: 3%
   <tr> 
    <td> <strong>更新收件匣轉譯的種子網路</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> 此工作流程會更新用於收件匣轉譯的電子郵件地址，且僅適用於HTTPS連線埠開啟的情況。 <strong>deliverability.neolane.net</strong>.<br /> </td> 
+   <td> 此工作流程會更新用於收件匣轉譯的電子郵件地址，而且只有在<strong>deliverability.neolane.net</strong>.<br />的HTTPS連線埠開啟時才有效 </td> 
   </tr> 
  </tbody> 
 </table>

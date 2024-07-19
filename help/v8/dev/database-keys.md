@@ -26,7 +26,7 @@ ht-degree: 1%
 </key>
 ```
 
-當金鑰是結構描述中第一個要填入的金鑰，或金鑰包含 `internal` 屬性設為「true」。
+當索引鍵是結構描述中第一個要填入的索引鍵，或是包含設定為「true」的`internal`屬性時，就稱為「主索引鍵」。
 
 索引鍵可參考表格中的一或多個欄位。
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ## 主索引鍵 — 識別碼{#primary-key}
 
-在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，Adobe Campaign表格的主要索引鍵為 **通用唯一ID (UUID)** 由資料庫引擎自動產生。 在整個資料庫中，索引鍵值是唯一的。 索引鍵的內容會在插入記錄時自動產生。
+在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，Adobe Campaign資料表的主索引鍵是由資料庫引擎自動產生的&#x200B;**通用唯一識別碼(UUID)**。 在整個資料庫中，索引鍵值是唯一的。 索引鍵的內容會在插入記錄時自動產生。
 
 **範例**
 

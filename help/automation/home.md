@@ -47,7 +47,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campaign策劃</b>
+    <b>行銷活動協調流程</b>
     </div>
     <br>
     <div>
@@ -77,7 +77,7 @@ Adobe Campaign 透過單一、易用的促銷活動編程介面，讓您輕鬆�
     </div>
     <br>
     <div>
-    <a href="mrm/about-marketing-resource-management.md">行銷資源管理(RM)</a>
+    <a href="mrm/about-marketing-resource-management.md">行銷資源管理(MRM)</a>
     </div>
     <br>
   </td>

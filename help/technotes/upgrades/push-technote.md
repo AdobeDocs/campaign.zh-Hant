@@ -27,7 +27,7 @@ Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年�
 
 ### 哪些部分有所變更？ {#fcm-changes}
 
-為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年7月22日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+Google持續改善服務，其中舊版FCM API將於&#x200B;**2024年7月22日**&#x200B;終止服務。 在[Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}中進一步瞭解Firebase雲端通訊HTTP通訊協定。
 
 Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播通知訊息。 不過，有些舊版實作仍需仰賴舊版API。 必須更新這些實作。
 
@@ -35,22 +35,22 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 如果您目前的實作支援使用舊版API連線至FCM的訂閱服務，則會受到影響。 轉換至最新的API是必須的，這樣才能避免任何服務中斷。 在這種情況下，Adobe團隊會與您聯絡。
 
-若要檢查您是否受到影響，您可以篩選 **服務與訂閱** 根據以下篩選：
+若要檢查您是否受到影響，您可以依照以下篩選條件來篩選您的&#x200B;**服務與訂閱**：
 
 ![](assets/filter-services-fcm.png)
 
 
-* 如果您的任何使用中推播通知服務使用 **HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照下方所述移至較新的API。
+* 如果您的任何使用中推播通知服務使用&#x200B;**HTTP （舊版）** API，此變更將直接影響您的設定。 您必須檢閱目前的設定，並依照下方所述移至較新的API。
 
-* 如果您的設定僅使用 **HTTP v1** 適用於Android推播通知的API，則您已符合法規，不需要採取任何進一步動作。
+* 如果您的設定僅使用&#x200B;**HTTP v1** API來處理Android推播通知，則表示您已符合規範，不需要您採取任何進一步的動作。
 
 ### 如何更新？ {#fcm-transition-procedure}
 
 #### 先決條件 {#fcm-transition-prerequisites}
 
-* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
+* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至[最新的Campaign Classic組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
-* 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 瞭解如何取得此檔案於 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 在[Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}中瞭解如何取得此檔案。
 
 * 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
 
@@ -60,10 +60,10 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 若要將環境移至HTTP v1，請遵循下列步驟：
 
-1. 瀏覽至您的清單 **服務與訂閱**.
-1. 列出所有行動應用程式 **HTTP （舊版）** API版本。
-1. 針對這些行動應用程式，設定 **API版本** 至 **HTTP v1**.
-1. 按一下 **[!UICONTROL Load project json file to extract project details...]** 直接載入JSON金鑰檔案的連結。
+1. 瀏覽至您的&#x200B;**服務與訂閱**&#x200B;清單。
+1. 列出使用&#x200B;**HTTP （舊版）** API版本的所有行動應用程式。
+1. 針對這些行動應用程式的每一個，將&#x200B;**API版本**&#x200B;設定為&#x200B;**HTTP v1**。
+1. 按一下&#x200B;**[!UICONTROL Load project json file to extract project details...]**&#x200B;連結，直接載入您的JSON金鑰檔案。
 
    您也可以手動輸入下列明細：
 
@@ -73,18 +73,18 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
    ![](assets/android-http-v1-config.png)
 
-1. 按一下 **[!UICONTROL Test the connection]** 檢查您的設定是否正確，以及行銷伺服器是否擁有FCM的存取權。 請注意，對於中間來源部署， **[!UICONTROL Test connection]** 按鈕無法檢查伺服器是否可存取Android Firebase Cloud Messaging (FCM)服務。
-1. 或者，您也可以選擇擴充推送訊息的內容 **[!UICONTROL Application variables]** 如有需要。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
+1. 按一下&#x200B;**[!UICONTROL Test the connection]**&#x200B;以檢查您的設定是否正確，以及行銷伺服器是否具有存取FCM的許可權。 請注意，針對中間來源部署，**[!UICONTROL Test connection]**&#x200B;按鈕無法檢查伺服器是否擁有Android Firebase雲端通訊(FCM)服務的存取權。
+1. 您可以視需要以約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容，作為選項。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
-   以下是FCM裝載名稱，可進一步個人化您的推播通知。 這些選項會詳細說明 [此處](#fcm-apps).
+   以下是FCM裝載名稱，可進一步個人化您的推播通知。 [此處](#fcm-apps)提供這些選項的詳細資料。
 
    | 訊息類型 | 可設定的訊息元素（FCM裝載名稱） | 可設定的選項（FCM裝載名稱） |
    |:-:|:-:|:-:|
    | 資料訊息 | N/A | validate_only |
-   | 通知訊息 | 標題，內文， android_channel_id，圖示，聲音，標籤，顏色，點選動作，影像，提示，粘性，可見度，通知優先順序，通知計數 <br> | validate_only |
+   | 通知訊息 | title，內文， android_channel_id，圖示，聲音，標籤，顏色，點按動作，影像，提示，粘性，可見度，通知優先順序，通知計數<br> | validate_only |
 
-1. 轉換HTTP v1完成後，您必須更新您的 **傳遞範本** 用於Android推播通知，以增加批次訊息的數量。 若要這麼做，請瀏覽至Android傳遞範本的屬性，並前往 **傳遞** 標籤，設定 [訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 至 **256**. 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
+1. 轉換HTTP v1完成後，您必須為Android推播通知更新&#x200B;**傳遞範本**，以增加批次訊息的數量。 若要這麼做，請瀏覽至您的Android傳遞範本的屬性，並在&#x200B;**傳遞**&#x200B;索引標籤中，將[訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity)設定為&#x200B;**256**。 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
 
 
 >[!NOTE]
@@ -95,20 +95,20 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 Android Mobile應用程式的程式碼不需要任何特定變更，通知行為也不應變更。
 
-不過，使用HTTP v1時，您可以透過進一步個人化推播通知 **[!UICONTROL HTTPV1 additional options]**.
+不過，使用HTTP v1時，您可以使用&#x200B;**[!UICONTROL HTTPV1 additional options]**&#x200B;進一步個人化推播通知。
 
 ![](assets/android-push-additional-options.png)
 
 您可以：
 
-* 使用 **[!UICONTROL Ticker]** 欄位以設定通知的提示文字。
-* 使用 **[!UICONTROL Image]** 欄位來設定要在通知中顯示的影像URL。
-* 使用 **[!UICONTROL Notification Count]** 欄位來設定直接在應用程式圖示上顯示的新未讀取資訊數目。
-* 設定 **[!UICONTROL Sticky]** 選項設為false，如此一來，使用者按一下通知時，就會自動將其關閉。 如果設為true，則即使使用者按一下通知，仍會顯示通知。
-* 設定 **[!UICONTROL Notification Priority]** 您的通知層級為預設、最低、低或高。
-* 設定 **[!UICONTROL Visibility]** 您向公開、私人或機密發出通知的層級。
+* 使用&#x200B;**[!UICONTROL Ticker]**&#x200B;欄位來設定通知的提示字元文字。
+* 使用&#x200B;**[!UICONTROL Image]**&#x200B;欄位來設定要在通知中顯示的影像URL。
+* 使用&#x200B;**[!UICONTROL Notification Count]**&#x200B;欄位設定新未讀取資訊的數量，以直接顯示在應用程式圖示上。
+* 將&#x200B;**[!UICONTROL Sticky]**&#x200B;選項設為false，讓使用者按一下通知時，通知會自動關閉。 如果設為true，則即使使用者按一下通知，仍會顯示通知。
+* 將通知的&#x200B;**[!UICONTROL Notification Priority]**&#x200B;層級設定為預設、最低、低或高。
+* 將通知的&#x200B;**[!UICONTROL Visibility]**&#x200B;層級設定為公開、私人或機密。
 
-如需詳細資訊，請參閱 **[!UICONTROL HTTP v1 additional options]** 以及如何填寫這些欄位，請參閱 [FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+有關&#x200B;**[!UICONTROL HTTP v1 additional options]**&#x200B;以及如何填寫這些欄位的詳細資訊，請參閱[FCM檔案](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}。
 
 
 
@@ -124,7 +124,7 @@ Android Mobile應用程式的程式碼不需要任何特定變更，通知行為
 
 * 您可以使用一個Token為貴公司的所有應用程式散發通知。
 
-瞭解更多有關與APN的權杖型連線，位於 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+在[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}中進一步瞭解與APN的權杖型連線。
 
 Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型連線。 如果您的實施仰賴憑證式連線，Adobe強烈建議您將其更新為權杖式連線。
 
@@ -132,22 +132,22 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 如果您目前的實施仰賴憑證式請求來連線至APN，則會受到影響。 建議轉換為權杖型連線。
 
-若要檢查您是否受到影響，您可以篩選 **服務與訂閱** 根據以下篩選：
+若要檢查您是否受到影響，您可以依照以下篩選條件來篩選您的&#x200B;**服務與訂閱**：
 
 ![](assets/filter-services-ios.png)
 
 
-* 如果您的任何使用中推播通知服務使用 **憑證式驗證** 模式(.p12)下，您目前的實施應檢閱並移至 **權杖型驗證** 模式(.p8)，如下所述。
+* 如果您的任何使用中推播通知服務使用&#x200B;**憑證式驗證**&#x200B;模式(.p12)，則應檢閱您目前的實作，並將其移至&#x200B;**權杖式驗證**&#x200B;模式(.p8)，如下所述。
 
-* 如果您的設定僅使用 **權杖型驗證** 模式使用iOS推播通知，則您的實作已處於最新狀態，不需要您採取進一步動作。
+* 如果您的設定僅針對iOS推播通知使用&#x200B;**權杖式驗證**&#x200B;模式，則您的實作已經是最新的，不需要您採取任何進一步的動作。
 
 ### 如何更新？ {#ios-transition-procedure}
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 對於Campaign Classic v7，支援 **權杖型驗證** 模式已新增至20.2版本。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Classic建置](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. 對於Campaign v8， **權杖型驗證** 所有發行版本都支援模式，不需要升級。
+* 針對Campaign Classicv7，已在20.2發行版本中新增支援&#x200B;**權杖式驗證**&#x200B;模式。 如果您的環境執行於較舊的版本，此變更的先決條件是將您的環境升級至[最新的Campaign Classic組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 對於Campaign v8，所有發行版本都支援&#x200B;**權杖式驗證**&#x200B;模式，且不需要升級。
 
-* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如中所述，您需向Apple開發人員帳戶索取此金鑰 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您向您的Apple開發人員帳戶要求此金鑰。
 
 * 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
 
@@ -157,16 +157,16 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 若要將iOS行動應用程式移至權杖型驗證模式，請遵循下列步驟：
 
-1. 瀏覽至您的清單 **服務與訂閱**.
-1. 列出所有行動應用程式 **憑證式驗證** 模式(.p12)。
-1. 編輯每個行動應用程式，並瀏覽至 **憑證/私密金鑰** 標籤。
-1. 從 **驗證模式** 下拉式清單，選取 **權杖型驗證** 模式(.p8)。
-1. 填寫APNs連線設定 **[!UICONTROL Key Id]**， **[!UICONTROL Team Id]** 和 **[!UICONTROL Bundle Id]** 然後按一下「 」以選取您的p8憑證 **[!UICONTROL Enter the private key...]**.
+1. 瀏覽至您的&#x200B;**服務與訂閱**&#x200B;清單。
+1. 列出使用&#x200B;**憑證式驗證**&#x200B;模式(.p12)的所有行動應用程式。
+1. 編輯每個行動應用程式，並瀏覽至&#x200B;**憑證/私密金鑰**&#x200B;標籤。
+1. 從&#x200B;**驗證模式**&#x200B;下拉式清單中，選取&#x200B;**權杖型驗證**&#x200B;模式(.p8)。
+1. 填寫APNs連線設定&#x200B;**[!UICONTROL Key Id]**、**[!UICONTROL Team Id]**&#x200B;和&#x200B;**[!UICONTROL Bundle Id]**，然後按一下&#x200B;**[!UICONTROL Enter the private key...]**&#x200B;以選取您的p8憑證。
 
    ![](assets/token-based-certif.png)
 
-1. 按一下 **[!UICONTROL Test the connection]** 檢查您的設定是否正確，以及伺服器是否擁有APN的存取權。 請注意，對於中間來源部署， **[!UICONTROL Test connection]** 按鈕無法檢查伺服器是否具有APN的存取權。
-1. 按一下 **[!UICONTROL Next]** 以開始設定生產應用程式，並依照上述步驟進行。
+1. 按一下&#x200B;**[!UICONTROL Test the connection]**&#x200B;以檢查您的設定是否正確，以及伺服器是否具有APN的存取權。 請注意，對於中間來源部署，**[!UICONTROL Test connection]**&#x200B;按鈕無法檢查伺服器是否擁有APN的存取權。
+1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始設定生產應用程式，並依照上述步驟執行。
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
 您的iOS應用程式現在已移至權杖型驗證模式。

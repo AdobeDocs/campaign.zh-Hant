@@ -20,11 +20,11 @@ ht-degree: 21%
 
 根據您的許可權、實施以及設計工作流程的前後關聯，可用的活動可能會有所不同。
 
-例如，在行銷活動中建立的工作流程具有 **傳遞** 標籤，包含所有色版。 此標籤在中無法使用 [技術工作流程](technical-workflows.md).
+例如，在行銷活動中建立的工作流程具有特定&#x200B;**傳送**&#x200B;標籤，以及所有管道。 此索引標籤在[技術工作流程](technical-workflows.md)中無法使用。
 
 ![](assets/campaign-wf-activities.png)
 
-技術工作流程有特定的 **活動** 索引標籤中無法取得 [行銷活動工作流程](campaign-workflows.md).
+技術工作流程具有特定的&#x200B;**事件**&#x200B;標籤，在[行銷活動工作流程](campaign-workflows.md)中無法使用。
 
 ![](assets/tech-wf-activities.png)
 

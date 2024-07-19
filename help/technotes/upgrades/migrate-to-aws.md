@@ -30,9 +30,9 @@ ht-degree: 0%
 
 ## 何時進行此移轉？{#aws-timeline}
 
-開發和預備環境移轉作業將發生在 **2023年10**.
+開發和預備環境移轉將於&#x200B;**2023年10月**&#x200B;進行。
 
-生產環境移轉已排程在中開始 **2024年1月**. 隨著日期臨近，我們將提供更多詳細資訊。
+生產環境移轉已排程在&#x200B;**2024年1月**&#x200B;開始。 隨著日期臨近，我們將提供更多詳細資訊。
 
 作為Campaign客戶，當移轉波段已排程時，您將收到其他通知。 中繼環境至少在移轉前7天會傳送通知，生產環境則至少在移轉前30天傳送。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
   Adobe計畫淘汰舊版資料中心，在該處執行的Adobe Campaign執行個體必須轉移到新的參考資料中心Amazon Web Services (AWS)。
 
-  AdobeManaged Services雲端託管於Amazon Web Services (AWS)上，這是一個現代、安全且最佳化的環境。 [進一步瞭解Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
+  AdobeManaged Services雲端託管於Amazon Web Services (AWS)上，這是一個現代、安全且最佳化的環境。 [進一步瞭解Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
 
-* **此移轉鎖定哪些客戶？**
+* **此移轉的目標客戶為哪些客戶？**
 
   所有Campaign v8客戶和Campaign Classic v7混合、託管和Campaign Managed Services都將移轉其環境。 Campaign Standard客戶也會受到影響。
 
@@ -61,17 +61,17 @@ ht-degree: 0%
 
   移轉應在30分鐘到60分鐘之間，但每個移轉波動的長度可能會因受影響的Campaign執行個體數量而異。 排程移轉波段時，通知將包含預期的持續時間。
 
-* **客戶移轉時是否需要任何動作？**
+* **客戶移轉是否需要任何動作？**
 
   不需要採取任何動作，因為Adobe會自動執行移轉。
 
 * **客戶需要執行哪些驗證？**
 
-  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
-* **我可以要求變更排程安全性升級位置的日期/時間嗎？**
+* **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   由於這是強制移轉，我們無法因應現有排程的修改。
 
-如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

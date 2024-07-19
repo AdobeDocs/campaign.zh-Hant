@@ -27,7 +27,7 @@ ht-degree: 76%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。進一步瞭解Campaign管理的Cloud Service，請參見 [產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}中進一步瞭解Campaign ManagedCloud Service。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 
@@ -42,31 +42,31 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 
 ## 混合式架構 {#hybrid-archi}
 
-Campaign v8依賴 **混合式架構**. 如果您要從Campaign Classicv7進行轉換，請注意，所有傳遞都會通過中間來源伺服器。
+Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classicv7進行轉換，請注意，所有傳遞都會通過中間來源伺服器。
 
 因此：
 
-* 內部路由為 **不可能** Campaign v8中，已據此停用外部帳戶，
+* 內部路由在Campaign v8中是&#x200B;**不可能**，且外部帳戶已據此停用，
 * 傳遞狀態不會立即更新 — 行銷執行個體上會執行技術流程，以便及時更新傳遞狀態。
 
 
-進一步瞭解從v7轉換至時傳送異動訊息校樣 [此頁面](../send/transactional-template.md#transition-from-v7).
+深入瞭解從[此頁面](../send/transactional-template.md#transition-from-v7)上的v7轉換時傳送異動訊息校樣。
 
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}
 
-在其 [企業(FFDA)部署](../architecture/enterprise-deployment.md)， [!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機 [!DNL Campaign] 資料庫用於使用者介面即時傳送訊息和統一查詢，並透過API及雲端寫入 [!DNL Snowflake] 用於行銷活動執行、批次查詢和工作流程執行的資料庫。
+在其[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，[!DNL Adobe Campaign] v8可與兩個資料庫搭配使用：本機[!DNL Campaign]資料庫，用於使用者介面即時傳送訊息及透過API統一查詢及寫入，以及雲端[!DNL Snowflake]資料庫，用於行銷活動執行、批次查詢及工作流程執行。
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-進一步瞭解 [!DNL Campaign] 中的v8架構 [此頁面](../architecture/architecture.md).
+在[此頁面](../architecture/architecture.md)中進一步瞭解[!DNL Campaign] v8架構。
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
 Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
 
-瞭解如何連結至 [!DNL Campaign] 在 [此頁面](connect.md).
+瞭解如何在[此頁面](connect.md)中連線至[!DNL Campaign]。
 
 ## 使用多維度資料集分析資料{#adobe-reporting}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Campaign是跨管道行銷解決方案，可自動化電子郵件、行動裝置、社交和離線行銷活動。 Adobe Campaign提供中央位置，可存取您的客戶資料和設定檔。 使用Adobe Campaign為客戶打造一致的體驗，跨管道設計、執行並個人化您的行銷，同時改善每個裝置和接觸點的客戶體驗。 透過Adobe Campaign，您可以透過拖放視覺工作流程介面管理多個資料來源、定義對象區段，以及規劃和執行多步驟、跨頻道行銷活動。
 
-進一步瞭解Campaign的關鍵功能，在 [此頁面](../start/get-started.md).
+在[此頁面](../start/get-started.md)中進一步瞭解Campaign金鑰功能。
 
 ## 行銷活動元件 {#ac-components}
 
@@ -38,7 +38,7 @@ Campaign邏輯應用程式層可輕鬆設定，以符合複雜的業務需求。
 
 ## Campaign ManagedCloud Service{#ac-managed-services}
 
-Adobe Campaign v8是as a Managed Service部署：Adobe Campaign的所有元件（包括使用者介面、執行管理引擎和Campaign資料庫）都完全由Adobe託管，包括電子郵件執行、映象頁面、追蹤伺服器以及對外的Web元件（例如取消訂閱頁面/偏好設定中心和登陸頁面）。
+as a Managed Service部署Adobe Campaign v8：Adobe Campaign的所有元件（包括使用者介面、執行管理引擎和Campaign資料庫）都完全由Adobe託管，包括電子郵件執行、映象頁面、追蹤伺服器和對外的Web元件（例如取消訂閱頁面/偏好設定中心和登陸頁面）。
 
 ## 行銷活動程式
 
@@ -46,7 +46,7 @@ Campaign網頁伺服器會控制Campaign網頁程式的存取權。 Javascript�
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign使用者端主控台會透過HTTP使用SOAP XML連線至Web伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，Campaign內部處理程式則使用SQL存取資料庫。
+Campaign使用者端主控台會透過HTTP使用SOAP XML連線至網頁伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，Campaign內部處理程式則使用SQL存取資料庫。
 
 Campaign流程之間的整體通訊如下獨立部署圖表所述：所有Campaign元件都安裝在同一部電腦中。
 
@@ -54,4 +54,4 @@ Campaign流程之間的整體通訊如下獨立部署圖表所述：所有Campai
 
 使用者會使用HTTP連線至Campaign應用程式伺服器。 所有資料和資訊都在Campaign資料庫中進行管理。 如果Campaign開發人員執行任何設定變更，則會擷取到資料庫中。 如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。 行銷人員執行行銷活動時，會透過SMTP伺服器將電子郵件傳遞從Campaign伺服器傳送至設定檔。 當設定檔與電子郵件傳送互動時（例如開啟電子郵件），追蹤資料會傳回至追蹤伺服器。
 
-[進一步瞭解Campaign流程](../architecture/general-architecture.md#dev-env).
+[進一步瞭解行銷活動程式](../architecture/general-architecture.md#dev-env)。

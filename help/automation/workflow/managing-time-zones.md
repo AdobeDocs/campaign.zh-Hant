@@ -20,9 +20,9 @@ Adobe Campaign可讓您管理同一個執行個體所關注的不同國家/地�
 
 ## 執行排程 {#execution-scheduling}
 
-您可以使用排程器排程工作的執行(請參閱 [排程器](scheduler.md))。 您也可以使用提供此功能的活動中的可用排程選項。 這些活動提供 **[!UICONTROL Schedule]** 標籤： **[!UICONTROL File collector]**， **[!UICONTROL File transfer]**， **[!UICONTROL Web download]**， **[!UICONTROL Email reception]** &amp; **[!UICONTROL SMS]**&#x200B;等
+您可以使用排程器排程工作的執行（請參閱[排程器](scheduler.md)）。 您也可以使用提供此功能的活動中的可用排程選項。 這些活動提供&#x200B;**[!UICONTROL Schedule]**&#x200B;標籤： **[!UICONTROL File collector]**、**[!UICONTROL File transfer]**、**[!UICONTROL Web download]**、**[!UICONTROL Email reception]**&#x200B;與&#x200B;**[!UICONTROL SMS]**&#x200B;等。
 
-對於所有已排程的工作（即具有排程選項的所有活動），您可以選取要套用的時區。 時區是透過 **[!UICONTROL Advanced]** 相關活動的索引標籤：
+對於所有已排程的工作（即具有排程選項的所有活動），您可以選取要套用的時區。 已透過相關活動的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤選取時區：
 
 ![](assets/wf-timezone-in-a-box.png)
 
@@ -44,8 +44,8 @@ Adobe Campaign可讓您管理同一個執行個體所關注的不同國家/地�
 
   使用選取的時區。
 
-如果 **[!UICONTROL By default]** 選取、套用工作流程的時區，或應用程式伺服器的時區。
+如果選取&#x200B;**[!UICONTROL By default]**&#x200B;值，則會套用工作流程的時區，否則會套用應用程式伺服器的時區。
 
 ## 將時區連結至活動 {#linking-a-time-zone-to-an-activity}
 
-此 **[!UICONTROL Advanced]** 工作流程活動的索引標籤可讓您選取其時區。 雖然在大部分時間中，工作流程的時區已經足夠，但是可能需要針對特定活動（例如資料匯入）一次又一次地讓時區超載，才能將日期連結到其正確的時區。
+工作流程活動的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤可讓您選取其時區。 雖然在大部分時間中，工作流程的時區已經足夠，但是可能需要針對特定活動（例如資料匯入）一次又一次地讓時區超載，才能將日期連結到其正確的時區。

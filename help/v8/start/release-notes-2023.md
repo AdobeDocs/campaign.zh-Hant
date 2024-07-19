@@ -14,7 +14,7 @@ ht-degree: 57%
 
 # 2023年發行說明 {#2023-rn}
 
-本頁面列出隨附的新功能、改善和修正 **2023 Campaign v8版本**.
+此頁面列出&#x200B;**2023 Campaign v8版本**&#x200B;的新功能、改善和修正。
 
 
 ## 發行版本 8.5.2 {#release-8-5-2}
@@ -43,14 +43,14 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 <td>
 <div>
 <p><strong>行動裝置頻道增加的輸送量</strong></p>
-<p>新推出的推播通知服務顯示推播Android和推播iOS的輸送量比起先前版本(v8.4)有重大改善。 最新版本(v8.5)的升級服務可讓使用者體驗到更優異的效能。 </p>
+<p>新推出的推播通知服務顯示推播Android和推播iOS的輸送量比先前的版本(v8.4)有重大改善。 最新版本(v8.5)的升級服務可讓使用者體驗到更優異的效能。 </p>
 <ul>
-<li>推播通知(Android)：最多 <strong>5x</strong> 更快 </li>
-<li>推播通知(iOS)：最多 <strong>2.2倍</strong> 更快</li>
+<li>推播通知(Android)：快達<strong>5x</strong> </li>
+<li>推播通知(iOS)：快達<strong>2.2x</strong></li>
 </ul>
 <p>SMS輸送量已透過一系列最佳化而大幅提升，導致SMS通訊的速度和效率顯著提高。 這些升級已導致從先前版本(v8.4)到最新版本(v8.5)的輸送量增加，包括傳送和意見更新兩者。 使用者現在可以體驗此增強型簡訊服務的好處。</p>
 <ul>
-<li>SMS輸送量：最高 <strong>5x</strong> 更快</li>
+<li>SMS輸送量：快達<strong>5x</strong></li>
 </ul>
 <p><em>這些最大輸送量效能是由Adobe測試團隊在實驗室條件下測量的。</em></p>
 </div>
@@ -74,7 +74,7 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 **相容性更新**
 
 * 使用者端主控台的32位元版本現已棄用。 從8.6版開始，使用者端主控台將僅提供64位元版本。 使用者端主控台可順暢升級至64位元版本。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
-* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 進一步瞭解 [Campaign相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 深入瞭解[促銷活動相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)。
 
 
 **修正**

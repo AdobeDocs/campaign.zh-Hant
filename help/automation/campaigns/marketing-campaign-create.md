@@ -14,36 +14,36 @@ ht-degree: 4%
 
 # 建立方案和行銷活動{#create-programs-and-campaigns}
 
-Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在此處檢視行銷方案和行銷活動的概覽，及其相關元素。
+行銷活動協調元件可在&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤中找到：您可在此處檢視行銷方案與行銷活動及其相關元素的概觀。
 
 行銷方案由行銷活動組成，行銷活動由傳遞、資源等組成。 有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和宣傳活動](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和行銷活動](#video)
 
 ## 使用方案和計畫{#work-with-plan-and-program}
 
 ### 建立計畫和方案階層 {#create-plan-and-program}
 
-每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。所有計畫、方案和行銷活動都可透過 **[!UICONTROL Campaign calendar]** 功能表 **行銷活動** 標籤。
+每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。所有計畫、方案和行銷活動都可以透過&#x200B;**行銷活動**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Campaign calendar]**&#x200B;功能表取得。
 
 開始建立行銷活動和傳遞之前，請為行銷計畫和方案設定資料夾階層。
 
-1. 按一下 **瀏覽器** 圖示加以存取。
+1. 按一下首頁上的&#x200B;**總管**&#x200B;圖示。
 1. 在您要建立計畫的資料夾上按一下滑鼠右鍵。
-1. 選取 **新增資料夾> Campaign Management >計畫**.
+1. 選取&#x200B;**新增資料夾> Campaign Management >計畫**。
 
    ![](assets/create-new-plan-folder.png)
 
 1. 重新命名計畫。
-1. 在新建立的計畫上按一下滑鼠右鍵，然後選取 **屬性……**.
-1. 在 **一般** 標籤，修改 **內部名稱** 以避免在套件匯出期間出現重複專案。
+1. 在新建立的計畫上按一下滑鼠右鍵，然後選取&#x200B;**屬性……**。
+1. 在&#x200B;**一般**&#x200B;索引標籤中，修改&#x200B;**內部名稱**&#x200B;以避免在套件匯出期間重複。
 
    ![](assets/plan-properties.png)
 
 1. 按一下「**儲存**」。
-1. 在新建立的計畫上按一下滑鼠右鍵，然後選取 **建立新的&#39;Program&#39;資料夾**.
+1. 在新建立的計畫上按一下滑鼠右鍵，然後選取&#x200B;**建立新的「方案」資料夾**。
 
    ![](assets/program-folder.png)
 
@@ -54,9 +54,9 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 編輯程式時，請使用下述標籤來瀏覽及設定程式。
 
-* 此 **排程** 索引標籤會根據您在日曆標題中按一下哪個索引標籤，顯示某個月、周或天的方案行事曆。 您可以從此頁面建立行銷活動、方案或任務。 [了解更多](#campaign-calendar)
+* **排程**&#x200B;索引標籤會依據您在行事曆標題中按的索引標籤，顯示某個月、周或日的方案行事曆。 您可以從此頁面建立行銷活動、方案或任務。 [了解更多](#campaign-calendar)
 
-* 此 **編輯** 索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結檔案等。
+* **編輯**&#x200B;索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結檔案等。
 
   ![](assets/new-program-edit-tab.png)
 
@@ -64,9 +64,9 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ### 建立行銷活動 {#create-a-campaign}
 
-您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取 **[!UICONTROL Campaigns]** 功能表 **[!UICONTROL Campaigns]** 控制面板，然後按一下 **[!UICONTROL Create]**.
+您可以透過行銷活動清單建立行銷活動。 若要顯示此檢視，請選取&#x200B;**[!UICONTROL Campaigns]**&#x200B;儀表板中的&#x200B;**[!UICONTROL Campaigns]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-此 **[!UICONTROL Program]** 欄位可讓您選取要附加行銷活動的方案。 此資訊是強制性的。
+**[!UICONTROL Program]**&#x200B;欄位可讓您選取要附加行銷活動的方案。 此資訊是強制性的。
 
 ![](assets/new-campaign-settings.png)
 
@@ -74,12 +74,12 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 在行銷活動建立視窗中，選取行銷活動範本並新增行銷活動的名稱和說明。 您也可以指定行銷活動的開始和結束日期。
 
-按一下 **[!UICONTROL OK]** 以建立行銷活動。 它會新增至方案排程和行銷活動清單。
+按一下&#x200B;**[!UICONTROL OK]**&#x200B;以建立行銷活動。 它會新增至方案排程和行銷活動清單。
 
 然後，您可以編輯剛建立的行銷活動並定義其引數。 若要開啟並設定此行銷活動，您可以：
 
-1. 瀏覽行銷活動行事曆，並選取您要顯示的行銷活動，然後按一下 **[!UICONTROL Open]** 連結。
-1. 瀏覽 **[!UICONTROL Schedule]** 索引標籤中，選取行銷活動並加以開啟。
+1. 瀏覽行銷活動行事曆並選取您要顯示的行銷活動，然後按一下&#x200B;**[!UICONTROL Open]**&#x200B;連結。
+1. 瀏覽方案的&#x200B;**[!UICONTROL Schedule]**&#x200B;標籤，選取行銷活動並開啟。
 1. 瀏覽行銷活動清單，然後按一下要編輯的行銷活動名稱。
 
 所有這些動作都會將您帶往行銷活動控制面板。
@@ -109,21 +109,21 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 >[!NOTE]
 >
->若要存取及更新行銷活動設定，請瀏覽至 **[!UICONTROL Advanced campaign parameters...]** 中的連結 **[!UICONTROL Edit]** 標籤。
+>若要存取及更新行銷活動設定，請瀏覽至&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結。
 
 ### 監視行銷活動 {#monitor-a-campaign}
 
 針對每個行銷活動，工作、資源和傳遞都會集中在控制面板中。 此介面可讓您管理和協調行銷動作。
 
-透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。 此協調流程的詳細資訊請參閱 [本節](marketing-campaign-approval.md).
+透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。 此協調流程在[此區段](marketing-campaign-approval.md)中有詳細說明。
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示於 [本節](marketing-campaign-templates.md#campaign-templates).
+>行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示在[本節](marketing-campaign-templates.md#campaign-templates)中。
 
-完成行銷活動後，請使用 **[!UICONTROL Reports]** 存取行銷活動報表的連結。
+取得行銷活動後，請使用&#x200B;**[!UICONTROL Reports]**&#x200B;連結來存取行銷活動報告。
 
 ![](assets/campaigns-reports-dashboard.png)
 
@@ -131,11 +131,11 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 行銷活動行事曆顯示所有方案、計畫、行銷活動和傳遞。
 
-若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用 **[!UICONTROL Open]** 連結。 然後它會顯示在新的標籤中，如下所示：
+若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用&#x200B;**[!UICONTROL Open]**&#x200B;連結。 然後它會顯示在新的標籤中，如下所示：
 
 ![](assets/campaign-calendar.png)
 
-您可以篩選行銷活動行事曆中顯示的資訊。 若要這麼做，請按一下 **[!UICONTROL Filter]** 連結並選取篩選條件。
+您可以篩選行銷活動行事曆中顯示的資訊。 若要這麼做，請按一下&#x200B;**[!UICONTROL Filter]**&#x200B;連結並選取篩選條件。
 
 ![](assets/campaign_planning_filter.png)
 
@@ -143,11 +143,11 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 >
 >依日期篩選時，會顯示開始日期晚於指定日期及/或結束日期早於指定日期的所有行銷活動。 日期是使用每個欄位右側的行事曆來選取。
 
-您也可以使用 **[!UICONTROL Search]** 欄位以篩選顯示的專案。
+您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來篩選顯示的專案。
 
 連結至每個專案的圖示可讓您檢視其狀態：已完成、進行中、正在編輯等。
 
-若要篩選要顯示的行銷活動，請按一下 **[!UICONTROL Filter]** 連結並選取要顯示的行銷活動狀態。
+若要篩選要顯示的行銷活動，請按一下&#x200B;**[!UICONTROL Filter]**&#x200B;連結，並選取要顯示的行銷活動狀態。
 
 ![](assets/calendar-filter-options.png)
 
@@ -155,7 +155,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 ![](assets/campaign-create-from-calendar.png)
 
-當您透過建立行銷活動時 **[!UICONTROL Schedule]** 索引標籤中，此行銷活動會自動連結至相關的方案。 此 **[!UICONTROL Program]** 欄位在此情況下是隱藏的。
+當您透過方案的&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤建立行銷活動時，該行銷活動會自動連結到相關方案。 在這種情況下，**[!UICONTROL Program]**&#x200B;欄位是隱藏的。
 
 
 ## 使用網頁瀏覽器存取Campaign {#use-the-web-interface}
@@ -167,7 +167,7 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 
 您可以透過網際網路瀏覽器存取部分Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 您無法從此Web存取建立元件，但根據存取許可權，您可以檢視和/或處理資料庫中的資料。 通常，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
-1. 照常透過https://登入`<your instance>:<port>/view/home`.
+1. 如常透過https://`<your instance>:<port>/view/home`登入。
 1. 使用功能表存取概述。
 
    ![](assets/web-access-campaigns.png)
@@ -186,18 +186,18 @@ Campaign協調流程元件位於 **[!UICONTROL Campaigns]** 標籤：您可在�
 | --- | --- |
 | 行銷活動、傳遞、優惠方案等清單。 | 刪除清單專案 |
 | Campaign | 取消行銷活動 |
-| 傳遞 | 核准傳遞內容和目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停和停止傳遞 |
-| 網頁應用程式 | 建立網站應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容另存為範本<br/>發佈應用程式 |
-| 優惠 | 核准優惠方案內容和資格<br/>停用線上選件 |
-| 任務 | 完成任務<br/>取消任務 |
-| 行銷資源 | 核准資源<br/>鎖定及解除鎖定資源 |
-| 行銷活動套件 | 提交套件以供核准<br/>核准或拒絕套件<br/>取消套裝 |
+| 傳遞 | 核准傳遞內容及目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停並停止傳遞 |
+| 網頁應用程式 | 建立Web應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容儲存為範本<br/>將應用程式Publish |
+| 優惠 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
+| 任務 | 完成工作<br/>取消工作 |
+| 行銷資源 | 核准資源<br/>鎖定並解除鎖定資源 |
+| 行銷活動套件 | 送出封裝以供核准<br/>核准或拒絕封裝<br/>取消封裝 |
 | 行銷活動訂單 | 建立訂單<br/>接受或拒絕訂單 |
 | 庫存 | 刪除庫存行 |
 | 優惠方案模擬 | 開始和停止模擬 |
 | 目標定位工作流程 | 開始、暫停和停止工作流程 |
 | 報告 | 將目前的資料儲存在報告歷史記錄中 |
-| 論壇 | 新增討論<br/>回覆討論中的訊息<br/>關注討論內容並取消訂閱 |
+| 論壇 | 新增討論<br/>回覆討論中的訊息<br/>關注討論並取消訂閱 |
 
 ### 管理核准
 

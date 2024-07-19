@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # 開始使用行銷活動型別{#about-campaign-typologies}
 
-**行銷活動最佳化** 是Adobe Campaign模組，可讓您控制、篩選及監控傳送的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這樣可確保傳送的訊息符合客戶和公司通訊政策的需求及期望。
+**行銷活動最佳化**&#x200B;是Adobe Campaign模組，可讓您控制、篩選及監視傳遞的傳送。 為了避免行銷活動之間發生衝突，Adobe Campaign 可以套用特定限制規則來測試各種組合。這樣可確保傳送的訊息符合客戶和公司通訊政策的需求及期望。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#typologies-video)
 
@@ -29,29 +29,29 @@ ht-degree: 19%
 
 行銷活動型別可包含數個型別規則，但傳遞只能參考一個型別。
 
-內建型別規則和型別位於 **[!UICONTROL Administration > Campaign management > Typology management]** Campaign檔案總管的資料夾。
+Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Campaign management > Typology management]**&#x200B;資料夾中有內建型別規則和型別。
 
-對於每種型別， **[!UICONTROL Rules]** 索引標籤可讓您新增、刪除或檢視要套用的型別規則。
+對於每個型別，**[!UICONTROL Rules]**&#x200B;索引標籤可讓您新增、刪除或檢視要套用的型別規則。
 
 ![](assets/campaign_opt_rules_tab.png)
 
-建立型別規則後，即會依行銷活動分組 **型別** 在傳遞中參考的專案。 [了解更多](#apply-typologies)。
+一旦建立型別規則後，就會將型別規則分組到傳遞中參考的行銷活動&#x200B;**型別**。 [了解更多](#apply-typologies)。
 
 
-Campaign隨附一組預設值 **篩選** 和 **控制** 規則：
+行銷活動隨附一組預設&#x200B;**篩選**&#x200B;和&#x200B;**控制**&#x200B;規則：
 
-* **篩選** 規則是用來根據條件排除部分目標。 [了解更多](filtering-rules.md)。
-* **控制** 規則可讓您在傳送訊息之前檢查訊息是否有效。 [了解更多](control-rules.md)。
+* **篩選**&#x200B;規則是用來根據條件排除部分目標。 [了解更多](filtering-rules.md)。
+* **控制**&#x200B;規則可讓您在傳送訊息之前檢查訊息是否有效。 [了解更多](control-rules.md)。
 
-Campaign Optimization附加元件提供兩種其他型別 **型別規則**：
+Campaign Optimization附加元件提供另外兩種型別的&#x200B;**型別規則**：
 
-* **壓力** 可讓您控制行銷疲勞的規則。 [了解更多](pressure-rules.md)。
-* **容量** 可讓您限制載入以確保最佳處理條件的規則。 [了解更多](consistency-rules.md#controlling-capacity)。
+* 可讓您控制行銷疲勞的&#x200B;**壓力**&#x200B;規則。 [了解更多](pressure-rules.md)。
+* **容量**&#x200B;規則可讓您限制載入，以確保最佳處理條件。 [了解更多](consistency-rules.md#controlling-capacity)。
 
 
 >[!NOTE]
 >
->如果您使用 **互動** 用於管理優惠方案的模組，您也可以建立 **優惠方案簡報** 型別規則，使用簡報規則控制優惠方案主張的流程。 [了解更多](../../v8/interaction/interaction-offer.md#offer-presentation)。
+>如果您使用&#x200B;**互動**&#x200B;模組來管理優惠方案，您也可以建立&#x200B;**優惠方案簡報**&#x200B;型別規則，以使用簡報規則控制優惠方案主張的流程。 [了解更多](../../v8/interaction/interaction-offer.md#offer-presentation)。
 
 
 ## 建立及使用型別的重要步驟 {#apply-typologies}
@@ -71,7 +71,7 @@ Campaign Optimization附加元件提供兩種其他型別 **型別規則**：
 
 在準備傳遞期間，符合條件時會排除收件者。 您可以檢查日誌以監控排除。
 
-有關壓力型別規則的範例使用案例，請參閱 [此頁面](pressure-rules.md#use-cases-on-pressure-rules).
+在[此頁面](pressure-rules.md#use-cases-on-pressure-rules)中有提供壓力型別規則的範例使用案例。
 
 ## 教學課程影片 {#typologies-video}
 
@@ -83,6 +83,7 @@ Campaign Optimization附加元件提供兩種其他型別 **型別規則**：
 
 ### 使用預先定義的篩選器設定疲勞管理
 
-疲勞管理控制傳訊的頻率和數量，以避免過度向收件者發送請求。 如果您的行銷活動執行個體中沒有行銷活動最佳化模組，您可以設定預先定義的篩選器，以根據收到的訊息數量篩選目標母體。此影片說明如何使用篩選器在Adobe Campaign中實施疲勞管理。
+疲勞管理控制傳訊的頻率和數量，以避免過度向收件者發送請求。 如果您的行銷活動執行個體中沒有行銷活動最佳化模組，您可以設定預先定義的篩選器，以根據收到的訊息數量篩選目標母體
+此影片說明如何使用篩選器在Adobe Campaign中實施疲勞管理。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

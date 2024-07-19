@@ -21,8 +21,8 @@ ht-degree: 33%
 
 * 類型
 * 寄件者和回覆地址
-* 基本 [個人化區塊](../send/personalization-blocks.md)
-* 連結至 [映象頁面](../send/mirror-page.md) 和取消訂閱連結
+* 基本[個人化區塊](../send/personalization-blocks.md)
+* 連結至[映象頁面](../send/mirror-page.md)和取消訂閱連結
 * 內容、公司標誌或簽名
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
@@ -41,9 +41,9 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 若要複製傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽至 **[!UICONTROL Resources > Templates > Delivery templates]** 在Adobe Campaign explorer中。
+1. 在Adobe Campaign總管中瀏覽至&#x200B;**[!UICONTROL Resources > Templates > Delivery templates]**。
 1. 選取內建傳遞範本。 內建範本會以粗體顯示在清單中。
-1. 按一下右鍵並選取 **[!UICONTROL Duplicate]**.
+1. 按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Duplicate]**。
 
    ![](assets/duplicate-built-in-template.png)
 
@@ -61,13 +61,13 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 若要將傳遞轉換為範本，請依照以下步驟進行：
 
-1. 從傳遞清單中選取傳遞，存取方式為 **[!UICONTROL Campaign management]** Campaign總管的節點。
+1. 從傳遞清單選取傳遞，可透過Campaign總管的&#x200B;**[!UICONTROL Campaign management]**&#x200B;節點存取。
 
-1. 按一下右鍵並選取 **[!UICONTROL Actions > Save as template...]**.
+1. 按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Actions > Save as template...]**。
 
    ![](assets/save-as-template.png)
 
-1. 編輯傳送屬性，並選取必須儲存新範本的資料夾(在 **[!UICONTROL Folder]** 欄位)，以及根據此範本建立傳遞時所在的資料夾(位於 **[!UICONTROL Execution folder]** 欄位)。
+1. 編輯傳遞屬性，並選取必須儲存新範本的資料夾（在「**[!UICONTROL Folder]**」欄位中），以及必須建立根據此範本之傳遞的資料夾（在「**[!UICONTROL Execution folder]**」欄位中）。
 
    ![](assets/template-select-folders.png)
 
@@ -79,16 +79,16 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 若要從頭設定傳遞範本，請依照以下步驟進行：
 
-1. 瀏覽至 **資源** 資料夾，然後選取 **範本** 則 **傳遞範本**.
-1. 按一下 **新增** ，以建立新的傳遞範本。
-1. 設定 **標籤** 和 **內部名稱** 檔案夾的。
+1. 瀏覽至Campaign檔案總管中的&#x200B;**資源**&#x200B;資料夾，並選取&#x200B;**範本**&#x200B;然後&#x200B;**傳遞範本**。
+1. 按一下工具列中的「新增&#x200B;****」以建立新的傳遞範本。
+1. 設定資料夾的&#x200B;**標籤**&#x200B;和&#x200B;**內部名稱**。
 1. 儲存範本並重新開啟。
-1. 從 **屬性** 按鈕，調整設定。
-1. 在 **一般** 標籤，確認或變更 **執行資料夾**， **資料夾**、和 **路由** 下拉式功能表。
-1. 完成 **電子郵件引數** 類別，以及您的電子郵件主題和目標母體。
-1. 新增您的 **HTML內容** 若要個人化您的範本，您可以顯示 [映象頁面連結](../send/mirror-page.md) 和取消訂閱連結。
-1. 選取 **預覽** 標籤。 在 **測試個人化** 下拉式功能表，選取 **收件者** 以預覽您所選設定檔的範本。
-1. 按一下 **儲存**. 您的範本現在已準備好用於傳遞。
+1. 從&#x200B;**屬性**&#x200B;按鈕，調整設定。
+1. 在&#x200B;**一般**&#x200B;索引標籤中，確認或變更&#x200B;**執行資料夾**、**資料夾**&#x200B;及&#x200B;**路由**&#x200B;下拉式功能表中選取的位置。
+1. 使用您的電子郵件主旨和目標母體完成&#x200B;**電子郵件引數**&#x200B;類別。
+1. 新增您的&#x200B;**HTML內容**&#x200B;以個人化您的範本，您可以顯示[映象頁面連結](../send/mirror-page.md)和取消訂閱連結。
+1. 選取&#x200B;**預覽**&#x200B;索引標籤。 在&#x200B;**測試個人化**&#x200B;下拉式功能表中，選取&#x200B;**收件者**&#x200B;以預覽您的範本作為所選設定檔。
+1. 按一下&#x200B;**儲存**。 您的範本現在已準備好用於傳遞。
 
 
 ## 使用範本{#use-a-delivery-template}
@@ -99,13 +99,13 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ![](assets/select-the-new-template.png)
 
-如果您看不到範本，請按一下 **[!UICONTROL Select link]** 欄位右側的資料夾以瀏覽Campaign資料夾。
+如果您看不到範本，請按一下欄位右側的&#x200B;**[!UICONTROL Select link]**&#x200B;資料夾，以瀏覽Campaign資料夾。
 
 ![](assets/browse-templates.png)
 
-從中選擇所需的目錄 **[!UICONTROL Folder]** 欄位，或按一下 **[!UICONTROL Display sub-levels]** 圖示來顯示目前目錄之子樹狀結構中目錄的內容。
+從&#x200B;**[!UICONTROL Folder]**&#x200B;欄位選取所要的目錄，或按一下&#x200B;**[!UICONTROL Display sub-levels]**&#x200B;圖示以顯示目前目錄子樹狀結構中的目錄內容。
 
-選取要使用的傳遞範本，然後按一下 **[!UICONTROL Ok]**.
+選取要使用的傳遞範本，然後按一下&#x200B;**[!UICONTROL Ok]**。
 
 ### 執行範本 {#execute-a-template}
 
@@ -113,11 +113,11 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 若要這麼做，請選取要執行的範本，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions>Execute the delivery template...]**。
 
-您也可以使用 **[!UICONTROL File>Actions>Execute the delivery template...]**.
+您也可以使用&#x200B;**[!UICONTROL File>Actions>Execute the delivery template...]**。
 
 ![](assets/execute-delivery-template.png)
 
-輸入傳遞引數，然後按一下 **[!UICONTROL Send]**.
+輸入傳遞引數並按一下&#x200B;**[!UICONTROL Send]**。
 
 此動作會在與範本關聯的資料夾中產生傳遞。 此傳遞的名稱是從中建立其傳遞範本的名稱。
 
@@ -142,4 +142,4 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-提供其他Campaign操作說明影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

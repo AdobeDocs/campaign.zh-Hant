@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 使用方案{#gs-ac-schemas}
 
-並以 XML 描述了應用程式中資料的實體和邏輯結構。它會遵循Adobe Campaign特有的語法，稱為 **綱要**.
+並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**結構描述**。
 
 綱要是與資料庫表格相關聯的XML檔案。 它會定義資料結構，並描述表格的SQL定義：
 
@@ -38,17 +38,17 @@ Adobe Campaign採用資料結構描述來：
 * 定義 Campaign 應用程式中不同資料物件之間的連結。
 * 定義及描述每個物件中包含的個別欄位。
 
-若要更瞭解Campaign內建表格及其互動，請參閱 [本節](datamodel.md).
+如需深入瞭解Campaign內建表格及其互動，請參閱[本節](datamodel.md)。
 
 >[!CAUTION]
 >
->某些內建的Campaign方案在雲端資料庫上有關聯的方案。 這些結構描述的識別方式為 **Xxl** 名稱空間且不得修改或擴充。
+>某些內建的Campaign方案在雲端資料庫上有關聯的方案。 這些結構描述由&#x200B;**Xxl**&#x200B;名稱空間識別，不得修改或延伸。
 
 ## 結構描述的語法 {#syntax-of-schemas}
 
-結構的根元素為 **`<srcschema>`**. 它包含 **`<element>`** 和 **`<attribute>`** 子元素。
+結構描述的根專案是&#x200B;**`<srcschema>`**。 它包含&#x200B;**`<element>`**&#x200B;和&#x200B;**`<attribute>`**&#x200B;個子元素。
 
-第一個 **`<element>`** 子元素與實體的根一致。
+第一個&#x200B;**`<element>`**&#x200B;子元素與實體的根一致。
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -68,13 +68,13 @@ Adobe Campaign採用資料結構描述來：
 
 ![](assets/schema_and_entity.png)
 
-此 **`<element>`** 標籤定義圖元元素的名稱。 **`<attribute>`** 架構的標籤會定義 **`<element>`** 連結至的標籤。
+**`<element>`**&#x200B;標籤定義實體元素的名稱。 結構描述的&#x200B;**`<attribute>`**&#x200B;標籤會定義這些標籤所連結到&#x200B;**`<element>`**&#x200B;標籤中的屬性名稱。
 
 ## 結構描述的識別 {#identification-of-a-schema}
 
 資料結構是以其名稱和名稱空間來識別。
 
-名稱空間可讓您依感興趣的區域來分組一組結構描述。 例如， **cus** 名稱空間用於客戶特定的設定(**客戶**)。
+名稱空間可讓您依感興趣的區域來分組一組結構描述。 例如，**cus**&#x200B;名稱空間是用於客戶特定的組態（**客戶**）。
 
 >[!CAUTION]
 >
@@ -84,27 +84,27 @@ Adobe Campaign採用資料結構描述來：
 
 ## 保留的名稱空間 {#reserved-namespaces}
 
-系統會保留某些名稱空間，以說明Adobe Campaign應用程式運作所需的系統實體。 以下名稱空間 **不得使用** 若要識別任何大寫/小寫組合中的新結構描述：
+系統會保留某些名稱空間，以說明Adobe Campaign應用程式運作所需的系統實體。 下列名稱空間&#x200B;**不可在任何大寫/小寫組合中使用**&#x200B;來識別新的結構描述：
 
-* **xxl**：保留給雲端資料庫結構
+* **xxl**：保留給雲端資料庫結構描述
 * **xtk**：保留給平台系統資料
 * **nl**：保留給應用程式的整體使用
 * **nms**：保留給傳遞（收件者、傳遞、追蹤等）
 * **ncm**：保留給內容管理
-* **臨時**：保留給臨時結構描述
+* **temp**：保留給暫存的結構描述
 * **crm**：保留給CRM聯結器整合
 
-綱要的識別索引鍵是使用名稱空間和以冒號分隔的名稱所建立的字串；例如： **nms：recipient**.
+結構描述的識別索引鍵是使用名稱空間和名稱建置的字串，以冒號分隔；例如： **nms：recipient**。
 
 ## 建立或擴充Campaign綱要 {#create-or-extend-schemas}
 
 若要將欄位或其他元素新增至Campaign的其中一個核心資料結構，例如收件者表格(nms：recipient)，您必須擴充該結構。
 
-有關詳細資訊，請參閱 [擴充綱要](extend-schema.md).
+如需詳細資訊，請參閱[擴充結構描述](extend-schema.md)。
 
 若要新增Adobe Campaign中不存在的全新資料型別（例如合約表格），您可以直接建立自訂結構描述。
 
-有關詳細資訊，請參閱 [建立新結構描述](create-schema.md).
+如需詳細資訊，請參閱[建立新的結構描述](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
 
@@ -134,7 +134,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->您也可以使用使用者管理的分項清單(通常位於 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** )，指定指定欄位的值。 這些實際上是全域分項清單，如果您可在您使用的特定結構描述之外使用分項清單，這是較好的選擇。
+>您也可以使用使用者管理的列舉（通常在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]**&#x200B;下）來指定指定欄位的值。 這些實際上是全域分項清單，如果您可在您使用的特定結構描述之外使用分項清單，這是較好的選擇。
 
 <!--
 ## Index {#index} 
@@ -170,11 +170,11 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## 金鑰 {#keys}
 
-每個資料表都必須至少有一個索引鍵，而且通常會在結構描述的主要元素中使用 **autopk** 屬性設定為 **true**.
+每個資料表都必須至少有一個索引鍵，而且通常是使用設定為&#x200B;**true**&#x200B;的&#x200B;**autopk**&#x200B;屬性，在結構描述的主要元素中自動建立它。
 
-此外，在 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，使用 **@autouuid** 並將其設為 **true**.
+此外，在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，使用&#x200B;**@autouuid**&#x200B;並將其設定為&#x200B;**true**。
 
-主索引鍵也可使用定義 **內部** 屬性。
+主索引鍵也可以使用&#x200B;**internal**&#x200B;屬性來定義。
 
 例如：
 
@@ -184,23 +184,23 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 </key>
 ```
 
-在此範例中，請不要讓 **@autopk** 或 **@autouuid** 屬性會建立名為「id」的預設主索引鍵，我們指定自己的「householdId」主索引鍵。
+在此範例中，我們不是讓&#x200B;**@autopk**&#x200B;或&#x200B;**@autouuid**&#x200B;屬性建立名為「id」的預設主索引鍵，而是指定我們自己的「householdId」主索引鍵。
 
 >[!CAUTION]
 >
 >建立新結構描述或在結構描述擴充期間，您需要為整個結構描述保留相同的主要索引鍵序列值(@pkSequence)。
 
-進一步瞭解中的金鑰 [本節](database-mapping.md#management-of-keys).
+在[本節](database-mapping.md#management-of-keys)中進一步瞭解金鑰。
 
 ## 屬性（欄位） {#attributes--fields-}
 
-屬性可讓您定義組成資料物件的欄位。 您可以使用 **[!UICONTROL Insert]** 結構描述版本工具列中的按鈕，將空的屬性範本拖放至游標所在的XML中。 若要了解詳細資訊，請參閱[本章節](create-schema.md)。
+屬性可讓您定義組成資料物件的欄位。 您可以使用結構描述版本工具列中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空的屬性範本拖放到游標所在的XML中。 若要了解詳細資訊，請參閱[本章節](create-schema.md)。
 
 ![](assets/schemaextension_2.png)
 
-完整的屬性清單可在 `<attribute>` 中的元素區段 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. 以下是一些較常用的屬性： **@advanced**， **@dataPolicy**， **@default**， **@desc**， **@enum**， **@expr**， **@label**， **@length**， **@name**， **@notNull**， **@required**， **@ref**， **@xml**， **@type**.
+在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}的`<attribute>`元素區段中，有完整的屬性清單可供使用。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
 
-如需每個屬性的詳細資訊，請參閱中的屬性說明 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
+如需每個屬性的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中的屬性說明。
 
 ### 範例 {#examples}
 
@@ -216,13 +216,13 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-使用隱藏的計算欄位範例 **@advanced** 屬性：
+使用&#x200B;**@advanced**&#x200B;屬性隱藏的計算欄位範例：
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-同樣儲存在SQL欄位中的XML欄位範例，此欄位具有 **@dataPolicy** 屬性。
+同樣儲存在SQL欄位中且具有&#x200B;**@dataPolicy**&#x200B;屬性的XML欄位範例。
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -238,7 +238,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 連結是結構描述中主要元素的最後幾個元素。 它們定義您執行個體中所有不同的結構描述如何相互關聯。
 
-在包含下列專案的架構中宣告連結： **外部索引鍵** 連結至的資料表。
+在包含連結連結之資料表的&#x200B;**外部索引鍵**&#x200B;的結構描述中宣告連結。
 
 基數有三種型別：1-1、1-N和N-N。這是預設使用的1-N型別。
 
@@ -286,4 +286,4 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 >[!NOTE]
 >
->當修改不會影響資料庫結構時，您只需要重新產生結構描述。 若要這麼做，請選取要更新的結構描述，按一下滑鼠右鍵並選擇 **[!UICONTROL Actions > Regenerate selected schemas...]**.
+>當修改不會影響資料庫結構時，您只需要重新產生結構描述。 若要這麼做，請選取要更新的結構描述，按一下滑鼠右鍵並選擇&#x200B;**[!UICONTROL Actions > Regenerate selected schemas...]**。

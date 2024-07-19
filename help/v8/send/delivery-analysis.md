@@ -20,14 +20,14 @@ ht-degree: 5%
 
 若要準備傳遞，請確定已定義傳遞內容和目標，然後遵循下列步驟：
 
-1. 在傳送視窗中，按一下 **[!UICONTROL Send]** 按鈕。
-1. 選取 **[!UICONTROL Deliver as soon as possible]** 執行對象計算，以及即時傳送的內容準備。 您也可以將傳送延遲到較晚的日期，或是在未準備內容的情況下取得母體預估值。
+1. 在傳遞視窗中，按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
+1. 選取&#x200B;**[!UICONTROL Deliver as soon as possible]**&#x200B;以執行對象計算，並準備立即傳送的內容。 您也可以將傳送延遲到較晚的日期，或是在未準備內容的情況下取得母體預估值。
 
    ![](assets/delivery-analysis-start.png)
 
-1. 按一下 **[!UICONTROL Analyze]** 以手動啟動分析。 進度列會顯示分析的進度。
+1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;以手動啟動分析。 進度列會顯示分析的進度。
 
-   一組檢查規則會在傳遞分析期間套用。 這些規則定義於 **型別**，此專案選取於 **[!UICONTROL Typology]** 索引標籤進行標籤。 進一步瞭解中的型別 [本節](../../automation/campaign-opt/campaign-typologies.md).
+   一組檢查規則會在傳遞分析期間套用。 這些規則是在&#x200B;**型別**&#x200B;中定義，該型別是在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中選取的。 在[本節](../../automation/campaign-opt/campaign-typologies.md)中進一步瞭解型別。
 
    針對電子郵件，預設分析會涵蓋下列幾點：
 
@@ -40,7 +40,7 @@ ht-degree: 5%
    * 檢查波段排程
 
 
-1. 您可以隨時按一下 **[!UICONTROL Stop]** 按鈕。
+1. 您可以隨時按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕來停止分析。
 
    在準備階段期間不會傳送任何訊息。 因此，您可以開始或取消分析而不會有風險。
 
@@ -56,27 +56,27 @@ ht-degree: 5%
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
-1. 按一下 **[!UICONTROL Close]** 以更正錯誤（如果有的話）。 進行變更後，按一下以重新啟動分析 **[!UICONTROL Analyze]**.
+1. 按一下&#x200B;**[!UICONTROL Close]**&#x200B;以更正錯誤（如果有的話）。 進行變更後，按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;重新啟動分析。
 
    >[!NOTE]
    >
-   >按一下 **[!UICONTROL Change the main delivery target]** 如果傳送的訊息數量不符合您的預期，請連結此連結。 此選項可讓您變更目標母體的定義，並重新啟動分析。
+   >如果要傳送的訊息數目不符合您的預期，請按一下&#x200B;**[!UICONTROL Change the main delivery target]**&#x200B;連結。 此選項可讓您變更目標母體的定義，並重新啟動分析。
    >
 
-1. 檢查分析結果後，按一下 **[!UICONTROL Confirm delivery]** 以傳送訊息至主要目標。
+1. 檢查完分析結果後，按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;將訊息傳送至主要目標。
 
 
 ## 分析設定 {#analysis-settings}
 
-瀏覽至 **[!UICONTROL Analysis]** 傳遞屬性的索引標籤，以定義分析階段中訊息準備的設定。
+瀏覽至傳遞屬性的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤，以定義分析階段中訊息準備的設定。
 
 ![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
 
 此索引標籤提供下列選項的存取權：
 
-* **[!UICONTROL Label and code of the delivery]** ：此區段中的選項用於在傳送分析階段期間計算這些欄位的值。 此 **[!UICONTROL Compute the execution folder during the delivery analysis]** 欄位會計算分析階段將包含此傳遞動作的資料夾名稱。
+* **[!UICONTROL Label and code of the delivery]** ：此區段中的選項用於在傳遞分析階段期間計算這些欄位的值。 **[!UICONTROL Compute the execution folder during the delivery analysis]**&#x200B;欄位會在分析階段期間計算將包含此傳遞動作的資料夾名稱。
 
-* **[!UICONTROL Approval mode]** ：此欄位可讓您定義分析完成時的手動或自動傳送。
+* **[!UICONTROL Approval mode]** ：此欄位可讓您定義分析完成時的手動或自動傳遞。
 
   如果在分析期間產生警告（例如，如果傳送主題中的某些字元強調等），您可以設定傳送以定義是否仍應執行。 依預設，使用者必須在分析階段結束時確認傳送訊息：這是&#x200B;**手動**&#x200B;驗證。
 
@@ -84,10 +84,10 @@ ht-degree: 5%
 
   可使用下列核准模式：
 
-   * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳送才能開始傳送。 若要這麼做，請按一下 **[!UICONTROL Start]** 按鈕以啟動傳送。
-   * **[!UICONTROL Semi-automatic]**：如果分析階段未產生警告訊息，則傳送會自動開始。
+   * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳遞才能開始傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動傳遞。
+   * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
    * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
 
 * **[!UICONTROL Start job in a detached process]** ：此選項可讓您以個別程式啟動傳遞分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器處理序(web nlserver)。 選取此選項，即可確保即使應用程式伺服器發生故障，也能完成分析。
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** ：此選項會在分析階段將SQL查詢記錄檔新增至傳遞日誌。
-* **[!UICONTROL Ignore personalization scripts during sending]** ：此選項可讓您略過HTML內容中JavaScript指示詞的解譯。 它們將顯示為已傳送內容中的原樣。 這些指示詞是隨 `<%=` 標籤之間。
+* **[!UICONTROL Ignore personalization scripts during sending]** ：此選項可讓您略過HTML內容中JavaScript指示詞的解譯。 它們將顯示為已傳送內容中的原樣。 這些指示詞是隨`<%=`標籤匯入的。

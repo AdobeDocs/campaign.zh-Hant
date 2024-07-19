@@ -16,19 +16,19 @@ ht-degree: 3%
 
 若要建立選件，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL Campaigns]** 標籤並按一下 **[!UICONTROL Offers]** 連結。
+1. 瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Offers]**&#x200B;連結。
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
 
 1. 變更標籤，並選取優惠應屬於的類別。
 
-1. 按一下 **[!UICONTROL Save]** 以建立選件。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立選件。
 
    此選件可在平台中使用，且可設定其內容。
 
 ## 資格設定
 
-您現在可以使用 **[!UICONTROL Eligibility]** 標籤以定義：
+您現在可以使用&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤來定義：
 
 * 優惠方案的資格期間。 [了解更多](#eligibility-period)
 * 優惠目標母體上的篩選器。 [了解更多](#filters-on-the-target)
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 ### 優惠方案適用期間{#eligibility-period}
 
-在 **[!UICONTROL Eligibility]** 索引標籤中，定義優惠方案的資格期間。 使用下拉式清單選取行事曆中的開始和結束日期。
+在優惠方案的&#x200B;**[!UICONTROL Eligibility]**&#x200B;索引標籤中，定義優惠方案的適用期間。 使用下拉式清單選取行事曆中的開始和結束日期。
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -44,9 +44,9 @@ ht-degree: 3%
 
 ### 在目標上新增篩選器 {#filters-on-the-target}
 
-在 **[!UICONTROL Eligibility]** 索引標籤中，將篩選器套用至優惠目標。
+在優惠方案的&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤中，將篩選器套用至優惠方案目標。
 
-若要這麼做，請按一下 **[!UICONTROL Edit query]** 連結並選取您要套用的篩選器。
+若要這麼做，請按一下&#x200B;**[!UICONTROL Edit query]**&#x200B;連結，並選取您要套用的篩選器。
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 若要在選件中建立權數，請套用下列步驟：
 
-1. 在 **[!UICONTROL Eligibility]** 索引標籤中，按一下 **[!UICONTROL Add]**.
+1. 在選件的&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Add]**。
 
    ![](assets/offer_weight_create_001.png)
 
@@ -92,7 +92,7 @@ ht-degree: 3%
 
    ![](assets/offer_weight_create_004.png)
 
-1. 按一下 **[!UICONTROL OK]** 以節省重量。
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存重量。
 
    ![](assets/offer_weight_create_005.png)
 
@@ -104,22 +104,22 @@ ht-degree: 3%
 
 完成設定後，優惠方案控制面板上將提供適用性規則的摘要。
 
-若要檢視，請按一下 **[!UICONTROL Schedule and eligibility rules]** 連結。
+若要檢視，請按一下&#x200B;**[!UICONTROL Schedule and eligibility rules]**&#x200B;連結。
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## 建立選件內容 {#creating-the-offer-content}
 
-使用 **[!UICONTROL Content]** 索引標籤以定義選件內容。
+使用&#x200B;**[!UICONTROL Content]**&#x200B;標籤來定義優惠內容。
 
 ![](assets/offer_content_create_001.png)
 
 1. 定義選件內容的各種引數。
 
-   * **[!UICONTROL Title]** ：指定您要在選件中顯示的標題。 警告：這並非指優惠方案的標籤，其定義位於 **[!UICONTROL General]** 標籤。
+   * **[!UICONTROL Title]** ：指定您想要顯示在選件中的標題。 警告：這並非指的是&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義的選件標籤。
    * **[!UICONTROL Destination URL]** ：指定您選件的URL。 開頭必須是&quot;http://&quot;或&quot;https://&quot;。
-   * **[!UICONTROL Image URL]** ：指定選件影像的URL或存取路徑。
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** ：在想要的索引標籤中輸入優惠方案內文。 若要產生追蹤，請 **[!UICONTROL HTML content]** 必須由HTML元素組成，這些元素可包含在 `<div>` 輸入元素。 例如，的結果 `<table>` HTML頁面中的元素如下：
+   * **[!UICONTROL Image URL]** ：指定URL或選件影像的存取路徑。
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** ：在想要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別專案中的HTML專案組成。 例如，HTML頁面中`<table>`元素的結果將如下所示：
 
    ```
       <div> 
@@ -136,11 +136,11 @@ ht-degree: 3%
       </div>
    ```
 
-   瞭解如何在中定義接受URL [本節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   瞭解如何在[本節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)中定義接受URL。
 
    ![](assets/offer_content_create_002.png)
 
-   若要尋找在優惠方案空間設定期間定義的必填欄位，請按一下 **[!UICONTROL Content definitions]** 顯示清單的連結。 [了解更多](interaction-offer-spaces.md)
+   若要尋找優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [了解更多](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
@@ -152,7 +152,7 @@ ht-degree: 3%
 
 操作步驟：
 
-1. 按一下 **[!UICONTROL Preview]** 標籤。
+1. 按一下「**[!UICONTROL Preview]**」標籤。
 
    ![](assets/offer_preview_create_001.png)
 
@@ -180,20 +180,20 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## 核准並啟用優惠方案{#approve-offers}
 
-您現在可以核准並啟用優惠方案，以便在以下位置提供： **即時** 環境。
+您現在可以核准並啟用優惠方案，使其可在&#x200B;**即時**&#x200B;環境中使用。
 
-有關詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
+如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}。
 
 ## 管理優惠方案簡報{#offer-presentation}
 
-Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些專屬於Campaign互動的規則包括 **型別規則**. 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 環境會參照這些引數。
+Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些是行銷活動互動專屬的規則，是&#x200B;**型別規則**。 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 環境會參照這些引數。
 
-有關詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}.
+如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}。
 
 ## 優惠方案模擬
 
-此 **模擬** 模組可讓您在將您的主張傳送給收件者之前，測試屬於類別或環境的優惠方案分佈。
+**Simulation**&#x200B;模組可讓您在將您的主張傳送給收件者之前，先測試屬於類別或環境的優惠方案分佈。
 
 模擬會考量先前套用至優惠及其簡報規則的前後關聯和適用性規則。 這可讓您測試和調整優惠方案主張的各種版本，而無須實際使用優惠方案，或過度/過少向目標行銷，因為模擬不會對目標收件者造成影響。
 
-如需優惠方案模擬的詳細資訊，請參閱 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.
+如需優惠方案模擬的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}。

@@ -99,7 +99,7 @@ ht-degree: 99%
    + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
    + [設計網頁應用程式和表單](dev/webapps.md)
-+ 自動化和工作流程 {#automation}
++ 自動化和工作流程{#automation}
    + [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)
 + 隱私權與安全管理 {#privacy}
    + [管理隱私權請求](start/privacy.md)
@@ -205,6 +205,6 @@ ht-degree: 99%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign技術檔案>](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [行銷活動技術檔案>](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
 

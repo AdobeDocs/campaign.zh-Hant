@@ -33,7 +33,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-如需插入個人化內容區塊的詳細資訊，請參閱 [個人化區塊](personalization-blocks.md).
+如需插入個人化內容區塊的詳細資訊，請參閱[個人化區塊](personalization-blocks.md)。
 
 ## 管理映象頁面的產生 {#mirror-page-generation}
 
@@ -41,16 +41,16 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 您可以控制電子郵件鏡像頁面的產生模式。傳遞屬性中有提供相關選項。若要存取這些選項：
 
-1. 瀏覽至 **[!UICONTROL Validity]** 電子郵件屬性的索引標籤。
-1. 在 **映象頁面管理** 區段，核取 **[!UICONTROL Mode]** 下拉式清單。
+1. 瀏覽至電子郵件屬性的&#x200B;**[!UICONTROL Validity]**&#x200B;標籤。
+1. 在&#x200B;**映象頁面管理**&#x200B;區段中，檢查&#x200B;**[!UICONTROL Mode]**&#x200B;下拉式清單。
 
 ![](assets/mirror-page-generation.png){width="800" align="left"}
 
 除了預設模式外，還提供下列選項：
 
-* **[!UICONTROL Force the generation of the mirror page]**：使用此模式可產生映象頁面，即使傳送中未插入映象頁面的連結亦然。
-* **[!UICONTROL Do not generate the mirror page]**：使用此模式可避免產生映象頁面，即使連結存在於傳送中亦然。
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳送記錄視窗中啟用映象頁面內容的存取，如下所述。
+* **[!UICONTROL Force the generation of the mirror page]**：使用此模式來產生映象頁面，即使傳送中未插入任何映象頁面的連結。
+* **[!UICONTROL Do not generate the mirror page]**：使用此模式來避免產生映象頁面，即使連結存在於傳遞中亦然。
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳遞記錄視窗中啟用映象頁面內容的存取權，如下所述。
 
 ## 檢查收件者的映象頁面 {#mirror-page-access}
 
@@ -58,9 +58,9 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 若要存取此映象頁面：
 
-1. 傳送傳遞後，請開啟並瀏覽至其 **[!UICONTROL Delivery]** 標籤。
+1. 傳送傳遞後，請開啟並瀏覽至其&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 
-1. 選取收件者並按一下 **[!UICONTROL Display the mirror page for this message...]** 連結。
+1. 選取收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
 
    ![](assets/mirror-page-display.png){width="800" align="left"}
 

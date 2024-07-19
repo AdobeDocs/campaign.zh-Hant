@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # 與 Adobe Experience Cloud 解決方案整合{#integrations-with-adobe-experience-cloud-solutions}
 
-以下詳述的工作流程會隨 **與Adobe Experience Cloud整合** 模組（預設）。 有關本模組的詳細資訊，請參閱 [此頁面](../../v8/connect/integration.md).
+依預設，以下詳細描述的工作流程會與Adobe Experience Cloud **模組的**&#x200B;整合一起安裝。 如需此模組的詳細資訊，請參閱[此頁面](../../v8/connect/integration.md)。
 
 <table> 
  <tbody> 
@@ -26,12 +26,12 @@ ht-degree: 8%
   <tr> 
    <td> <span class="uicontrol">從Adobe Experience Cloud匯入對象</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
-   <td> 此工作流程可讓您將不同Adobe Experience Cloud解決方案的對象/區段匯入至Adobe Campaign。<br /> </td> 
+   <td> 此工作流程可讓您從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">將受眾匯出至Adobe Experience Cloud</span> <br /> </td> 
+   <td> <span class="uicontrol">將對象匯出至Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe Experience Cloud解決方案。<br /> </td> 
+   <td> 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您使用的不同Adobe Experience Cloud解決方案。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

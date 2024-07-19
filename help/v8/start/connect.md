@@ -18,7 +18,7 @@ ht-degree: 15%
 
 開始之前，您需要：
 
-* 檢查您的系統和工具是否與Adobe Campaign相容，在 [相容性矩陣](compatibility-matrix.md)
+* 在[相容性矩陣](compatibility-matrix.md)中檢查您的系統與工具與Adobe Campaign的相容性
 * 取得您的Campaign伺服器URL
 * 建立您的Adobe ID，或從您的公司取得使用者認證
 * 在您的系統上安裝Microsoft Edge Webview2執行階段。 [了解更多](#webview)
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->您也可以使用網頁瀏覽器連線至Campaign網頁使用者介面。 進一步瞭解中的全新Campaign網頁使用者介面 [本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}.
+>您也可以使用網頁瀏覽器連線至Campaign網頁使用者介面。 在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
 
 
 ## 安裝用戶端控制台{#download-ac-console}
@@ -35,7 +35,7 @@ ht-degree: 15%
 
 從Campaign Classic8.4建置版本開始，任何使用者端主控台安裝都需要安裝Microsoft Edge Webview 2執行階段。
 
-Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系統上尚未存在它，Campaign使用者端主控台安裝程式會提示您從下載 [Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}. 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已停止支援。 請確定您使用不同的瀏覽器來存取連結。
+Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系統尚未安裝該應用程式，Campaign使用者端主控台安裝程式會提示您從[Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。 請注意，下載連結在Internet Explorer 11瀏覽器上無法運作，因為Microsoft已停止支援。 請確定您使用不同的瀏覽器來存取連結。
 
 ### 下載主控台{#install-ac-console}
 
@@ -43,7 +43,7 @@ Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系�
 
 下載使用者端主控台有兩個選項：
 
-1. 身為Campaign管理員，請連線至Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
+1. 以Campaign系統管理員身分，連線至Adobe[軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}。
 
 1. 身為一般使用者，您的Campaign管理員會為您部署使用者端主控台，並透過專用URL提供使用。
 
@@ -57,25 +57,25 @@ Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系�
 
 1. 啟動Console並瀏覽右上角的連結以存取連線設定畫面。
 
-1. 按一下 **[!UICONTROL Add > Connection]** 並輸入Adobe Campaign應用程式伺服器的標籤和URL。
+1. 按一下&#x200B;**[!UICONTROL Add > Connection]**&#x200B;並輸入Adobe Campaign應用程式伺服器的標籤和URL。
 
 1. 指定透過URL連線至您的Adobe Campaign應用程式伺服器。 請使用電腦的DNS或別名，或您的IP位址。
 
-   例如，您可以使用 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 輸入URL。
+   例如，您可以使用[`https://<machine>.<domain>.com`](https://myserver.adobe.com)型別URL。
 
-1. 核取選項 **[!UICONTROL Connect with an Adobe ID]**.
+1. 核取選項&#x200B;**[!UICONTROL Connect with an Adobe ID]**。
 
-1. 按一下 **[!UICONTROL Ok]** 以儲存您的設定。
+1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;儲存您的設定。
 
 例如，您可以視需要新增許多連線，以連線至您的測試、中繼和生產環境。
 
 >[!NOTE]
 >
->此 **[!UICONTROL Add]** 按鈕可讓您建立 **[!UICONTROL folders]** 以組織所有連線。 只需將每個連線拖放到資料夾中即可。
+>「**[!UICONTROL Add]**」按鈕可讓您建立&#x200B;**[!UICONTROL folders]**&#x200B;以組織所有連線。 只需將每個連線拖放到資料夾中即可。
 
 ## 登入Adobe Campaign {#logon-to-ac}
 
-Campaign使用者透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線至Identity Management主控台。 他們可以在所有Adobe解決方案中使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。 進一步瞭解Adobe IMS，請參閱 [此頁面](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}.
+Campaign使用者透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線至Identity Management主控台。 他們可以在所有Adobe解決方案中使用相同的ID。 將Adobe Campaign與其他解決方案搭配使用時，會儲存連線。 在[此頁面](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}中進一步瞭解Adobe IMS。
 
 若要登入執行個體，請遵循下列步驟：
 
@@ -97,13 +97,13 @@ Campaign使用者透過AdobeAdobe Campaign系統(IMS)，使用其Adobe ID連線�
 
 ## 升級您的使用者端主控台{#upgrade-ac-console}
 
-當您的系統升級至較新版本時，您必須將使用者端主控台更新至相同版本。 此為最佳實務，且對於某些版本，此升級為強制性。 在此情況下，它會在以下連結中提及： [發行說明](release-notes.md).
+當您的系統升級至較新版本時，您必須將使用者端主控台更新至相同版本。 此為最佳實務，且對於某些版本，此升級為強制性。 在這種情況下，[發行說明](release-notes.md)中會提及它。
 
 作為「受管理的Cloud Service」使用者，Adobe會為您部署使用者端主控台。 當您連線到升級後的環境時，系統會提示您從快顯視窗中下載最新的使用者端主控台版本。 您必須接受此升級，並根據要求更新使用者端主控台。
 
 >[!CAUTION]
 >
->Adobe建議保留選項 **[!UICONTROL No longer ask this question]** 取消選取，以確保有新版的Console可供使用時收到警報。 如果選取此選項，則不會通知使用者需要升級Console。
+>Adobe建議取消選取選項&#x200B;**[!UICONTROL No longer ask this question]**，以確保在新版本的主控台可用時通知您。 如果選取此選項，則不會通知使用者需要升級Console。
 >
 
 
@@ -114,7 +114,7 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 
 身為Campaign管理員，您必須負責建立操作者，並與使用者共用其認證。
 
-進一步瞭解使用者以及如何在中定義其許可權 [本節](gs-permissions.md).
+在[本節](gs-permissions.md)中進一步瞭解使用者以及如何定義其許可權。
 
 
 ## 使用網頁瀏覽器存取Campaign {#connect-web-ac}
@@ -143,4 +143,4 @@ Adobe Campaign可讓您定義並管理指派給各種運運算元的許可權。
 
 Web存取也用於驗證程式：操作員可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳遞內容或預算。
 
-若要從網頁存取您的Campaign執行個體，URL為：  `https://<your adobe campaign server>:<port number>/view/home`.
+若要從網頁存取您的Campaign執行個體，URL為： `https://<your adobe campaign server>:<port number>/view/home`。

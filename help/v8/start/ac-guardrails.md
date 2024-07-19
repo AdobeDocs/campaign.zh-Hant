@@ -26,6 +26,6 @@ ht-degree: 84%
 * [此區段](v7-to-v8.md#gs-unavailable-features)中列出的功能，不適用於目前的 Campaign v8 版本編號
 * 使用者介面中仍會顯示某些無法使用或已移除的功能
 * 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。每小時都會透過特定的技術工作流程處理請求。 [深入瞭解](../architecture/replication.md#tech-wf)
-* 在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，重複專案需要由一般使用者手動處理。 [了解更多](../architecture/keys.md)
+* 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，重複專案需要由一般使用者手動處理。 [了解更多](../architecture/keys.md)
 * Adobe Campaign v8 不支援 API 和 Web 應用程式的額外輸送量 — 若有特定需求，請聯絡 Adobe 以取得指引
-* 在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，Adobe Campaign行銷活動最佳化模組沒有將壓力型別規則中已排程的傳遞考慮在內。 在[本頁](../../automation/campaign-opt/pressure-rules.md)中了解更多
+* 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，Adobe Campaign行銷活動最佳化模組未考量壓力型別規則中已排程的傳遞。 在[本頁](../../automation/campaign-opt/pressure-rules.md)中了解更多

@@ -22,9 +22,9 @@ ht-degree: 4%
 
 ## 語法
 
-個人化標籤一律會使用以下語法： `<%=table.field%>`.
+個人化標籤一律使用下列語法： `<%=table.field%>`。
 
-例如，若要插入儲存在收件者表格中的收件者名稱，個人化欄位會使用 `<%= recipient.lastName %>` 語法。
+例如，若要插入儲存在收件者表格中的收件者名稱，個人化欄位會使用`<%= recipient.lastName %>`語法。
 
 >[!CAUTION]
 >
@@ -38,9 +38,9 @@ ht-degree: 4%
 
 已插入個人化欄位，並準備好由Adobe Campaign進行解譯：在訊息準備期間，欄位將取代為指定收件者的值。
 
-![電子郵件中的個人化欄位](assets/perso-fields-in-msg.png)
+電子郵件中的![個人化欄位](assets/perso-fields-in-msg.png)
 
-然後可以在以下位置測試此替代方案： **[!UICONTROL Preview]** 標籤。
+然後可以在&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤中測試此取代。
 
 <!--Learn more about message preview in [this page]().-->
 
@@ -49,14 +49,14 @@ ht-degree: 4%
 在下列使用案例中，瞭解如何使用收件者資料個人化電子郵件主旨與內文：
 
 1. 建立新傳遞或開啟現有的電子郵件傳遞。
-1. 瀏覽至 **[!UICONTROL Subject]** 編輯訊息主旨的連結。
-1. 輸入&quot; **特別優惠** 」並使用工具列中的按鈕插入個人化欄位。 選取 **[!UICONTROL Recipients>Title]**。
+1. 瀏覽至&#x200B;**[!UICONTROL Subject]**&#x200B;連結以編輯郵件主旨。
+1. 輸入&#x200B;**的**&#x200B;特殊優惠方案，並使用工具列中的按鈕插入個人化欄位。 選取 **[!UICONTROL Recipients>Title]**。
 1. 重複操作以插入收件者的名稱。 在所有個人化欄位之間插入空格。
-1. 按一下 **[!UICONTROL OK]** 以進行驗證。
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;進行驗證。
 1. 在訊息本文中插入個人化。 若要這麼做，請按一下訊息內容中的，然後按一下欄位插入按鈕。
 1. 選取 **[!UICONTROL Recipient>Other...]**。
-1. 選取包含要顯示的資訊的欄位，然後按一下 **[!UICONTROL OK]**.
-1. 按一下 **[!UICONTROL Preview]** 標籤以檢視個人化結果。 您必須選取收件者以顯示該收件者的訊息。
+1. 選取包含要顯示之資訊的欄位，然後按一下&#x200B;**[!UICONTROL OK]**。
+1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視個人化結果。 您必須選取收件者以顯示該收件者的訊息。
 
 
 

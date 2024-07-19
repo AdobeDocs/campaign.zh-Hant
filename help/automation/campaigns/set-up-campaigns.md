@@ -30,27 +30,28 @@ Adobe Campaign可讓您定義、最佳化、執行和分析通訊與行銷活動
 
 以下列出在Adobe Campaign中建立及執行行銷活動的關鍵步驟：
 
-1. **設定您的計畫和方案** 排程，設定策劃行銷活動的邏輯方案是為期間定義的一組行銷活動。 每個方案都包含連結至日曆的行銷活動，可提供整體檢視。 行銷計畫可包含多個方案。 它定義一段時間的策略目標，包括分配的預算、可衡量的目標和相關檔案。 瞭解如何建立計畫和方案 [在本節中](marketing-campaign-create.md#create-plan-and-program).
+1. **設定您的計畫和方案**排程、設定邏輯以協調行銷活動
+方案是為期間定義的一組行銷活動。 每個方案都包含連結至日曆的行銷活動，可提供整體檢視。 行銷計畫可包含多個方案。 它定義一段時間的策略目標，包括分配的預算、可衡量的目標和相關檔案。 在本節](marketing-campaign-create.md#create-plan-and-program)中瞭解如何建立計畫和方案[。
 
 1. **建立您的第一個行銷活動**
-行銷活動會集中與行銷活動相關的所有元素：傳送、目標定位規則、成本、匯出檔案、相關檔案等。 每個行銷活動都會附加至一個方案。 瞭解如何建立行銷活動 [在本節中](marketing-campaign-create.md#create-a-campaign).
+行銷活動會集中與行銷活動相關的所有元素：傳送、目標定位規則、成本、匯出檔案、相關檔案等。 每個行銷活動都會附加至一個方案。 在本節](marketing-campaign-create.md#create-a-campaign)中瞭解如何建立行銷活動[。
 
 1. **選取對象**
-您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 瞭解如何定義行銷活動的目標對象 [在本節中](marketing-campaign-target.md#select-the-target-population).
+您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 在本節](marketing-campaign-target.md#select-the-target-population)中瞭解如何定義行銷活動[的目標對象。
 
 1. **建立傳遞**
-在行銷活動中協調跨通道傳遞。 透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您也可以新增直接郵件傳送。 瞭解如何在行銷活動中建立、驗證和監控傳遞 [在本節中](marketing-campaign-deliveries.md).
+在行銷活動中協調跨通道傳遞。 透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您也可以新增直接郵件傳送。 在本節](marketing-campaign-deliveries.md)中瞭解如何在行銷活動[中建立、驗證及監視傳遞。
 
-1. **設定處理流程**
-定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 瞭解如何設定核准 [在本節中](marketing-campaign-approval.md).
+1. **設定程式流程**
+定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 在本節](marketing-campaign-approval.md)中瞭解如何設定核准[。
 
-1. **監視傳遞**.
+1. **監視傳遞**。
 從控制面板追蹤行銷活動、從Campaign UI檢查傳遞狀態和執行。 [了解更多](marketing-campaign-monitoring.md)。
 
-1. **追蹤預算、庫存和相關成本**.
+1. **追蹤預算、庫存和相關成本**。
 使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。 [了解更多](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
-完成這些步驟後，您可以 [開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳送相關的資料、流程和資訊，並在必要時檢查和 [管理相關檔案](marketing-campaign-deliveries.md#manage-associated-documents). 您也可以 [追蹤及監控執行](marketing-campaign-monitoring.md) 行銷活動和傳遞內容。
+完成這些步驟後，您可以[開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳遞相關的資料、流程和資訊，並在必要時[管理相關檔案](marketing-campaign-deliveries.md#manage-associated-documents)。 您也可以[追蹤並監視行銷活動和傳遞的執行](marketing-campaign-monitoring.md)。
 
 
 ## 影片中的重要概念 {#key-concepts-video}

@@ -56,7 +56,7 @@ ht-degree: 1%
 
 +++如何從Windows （32位元）升級至Windows （64位元）作業系統？
 
-請確定您的電腦處理器支援安裝64位元作業系統。 從32位元版本升級為64位元版本的Windows需要您重新格式化硬碟、安裝64位元版本的Windows，然後重新安裝裝置上的其他所有專案。 如需詳細資訊，請參閱 [32位元和64位元Windows：常見問題](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+請確定您的電腦處理器支援安裝64位元作業系統。 從32位元版本升級為64位元版本的Windows需要您重新格式化硬碟、安裝64位元版本的Windows，然後重新安裝裝置上的其他所有專案。 如需詳細資訊，請參閱[32位元和64位元Windows：常見問題](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}。
 
 +++
 

@@ -16,19 +16,19 @@ ht-degree: 67%
 
 您可以設定Adobe Analytics以整合Campaign和Analytics。
 
-此整合可讓Adobe Campaign和Adobe Analytics透過 **網站分析聯結器** 附加元件。 此整合會將Adobe Campaign所傳送電子郵件行銷活動的指標和屬性傳送至Adobe Analytics。
+此整合可讓Adobe Campaign和Adobe Analytics透過&#x200B;**Web Analytics聯結器**&#x200B;附加元件互動。 此整合會將Adobe Campaign所傳送電子郵件行銷活動的指標和屬性傳送至Adobe Analytics。
 
 >[!NOTE]
 >
->作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support) 將Campaign與Adobe Experience Cloud服務和解決方案連結。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
+>作為「受管理的Cloud Service」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
 每個工具的動作周長如下：
 
-* **Adobe Analytics** 標籤透過Adobe Campaign啟動的電子郵件行銷活動
+* **Adobe Analytics**&#x200B;標籤使用Adobe Campaign啟動的電子郵件行銷活動
 
-* **Adobe Campaign** 將指標和行銷活動屬性傳送至聯結器，聯結器再將它們轉送至網頁分析工具
+* **Adobe Campaign**&#x200B;將指標和行銷活動屬性傳送至聯結器，聯結器再將它們轉送至網頁分析工具
 
 
 >[!CAUTION]
@@ -43,7 +43,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 ## 建立您的Analytics報表套裝 {#report-suite-analytics}
 
-若要建立 **[!UICONTROL Report suite]** 在 [!DNL Adobe Analytics]，請遵循下列步驟：
+若要在[!DNL Adobe Analytics]中建立您的&#x200B;**[!UICONTROL Report suite]**，請遵循下列步驟：
 
 1. 從 [!DNL Adobe Analytics] 中，選擇&#x200B;**[!UICONTROL Admin tab]**，然後按一下&#x200B;**[!UICONTROL All admin]**。
 
@@ -55,7 +55,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. 從&#x200B;**[!UICONTROL Report suite manager]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL Create new]**，然後按一下&#x200B;**[!UICONTROL Report suite]**。
 
-   有關詳細程式，請參閱 **[!UICONTROL Report suite]** 建立，請參閱 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
+   如需&#x200B;**[!UICONTROL Report suite]**&#x200B;建立的詳細程式，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}。
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 1. 按一下&#x200B;**[!UICONTROL Add new]**&#x200B;以建立測量電子郵件行銷活動影響所需的識別碼，即內部行銷活動名稱 (cid) 和 iNmsBroadlog (bid) 表格 ID。
 
-   若要瞭解如何編輯 **[!UICONTROL Conversion variables]**，請參閱此 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
+   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}。
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,13 +108,13 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   若要瞭解如何設定 **[!UICONTROL Success events]**，請參閱此 [Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-設定報表套裝後，您需要設定 **[!UICONTROL External accounts]** 在Adobe Campaign中。
+設定報表套裝後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
 
 ## 設定您的Campaign外部帳戶 {#external-account-ac}
 
@@ -122,9 +122,9 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 請注意，如果在設定外部帳戶時未顯示 **[!UICONTROL Report suite]**、**[!UICONTROL Conversion variables]** 或 **[!UICONTROL Success events]**&#x200B;之一，這表示您在與使用者相關聯的 **[!UICONTROL Product profile]** 中缺少此新建立元件的權限。
 
-如需詳細資訊，請參閱 [Adobe Analytics的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} 頁面。
+如需詳細資訊，請參閱[Adobe Analytics的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}頁面。
 
-1. 瀏覽至 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** Adobe Campaign檔案總管樹的資料夾，然後按一下 **[!UICONTROL New]**.
+1. 瀏覽至Adobe Campaign總管樹狀目錄的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL New]**。
 
    ![](assets/analytics_connnector_9.png)
 
@@ -193,11 +193,11 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路對象 (Web 
 
 Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理，可作為背景工作執行。
 
-此工作流程可從Campaign Explorer樹狀結構的 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 資料夾。
+此工作流程可從Campaign Explorer樹狀結構中的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**&#x200B;資料夾下使用。
 
 ![](assets/webanalytics_workflows.png)
 
-此 **[!UICONTROL Sending of indicators and campaign attributes]** 工作流程可讓您使用Adobe Analytics Connector，透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
+**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector，透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
 
 請注意，不應重新啟動此工作流程，否則會重新傳送所有可能扭曲 Analytics 結果的先前資料。
 
@@ -238,7 +238,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 開啟傳送屬性。
-1. 前往&#x200B;**[!UICONTROL Web Analytics]**&#x200B;標籤，並選取先前建立的外部帳戶。 請參閱 [在Adobe Campaign中設定外部帳戶](#external-account-ac).
+1. 前往&#x200B;**[!UICONTROL Web Analytics]**&#x200B;標籤，並選取先前建立的外部帳戶。 請參閱[在Adobe Campaign中設定外部帳戶](#external-account-ac)。
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
@@ -258,7 +258,7 @@ Adobe Campaign 提供個人化傳送範本，供您自行使用或建立資料�
 1. 個人化範本以符合您的需求並加以儲存。
 1. 建立新行銷活動，並從下拉式清單中選取&#x200B;**[!UICONTROL Re-marketing campaign]**&#x200B;範本。
 1. 按一下&#x200B;**[!UICONTROL Configure...]**&#x200B;連結，以指定連結至行銷活動的區段和傳送範本。
-1. 選取Analytics e[外部帳戶](#external-account-ac)和相關的區段。
+1. 選取Analytics e[外部帳戶](#external-account-ac)及相關區段。
 1. 選取要用於此再次行銷活動的傳送範本，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以關閉視窗。
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉行銷活動視窗。
 

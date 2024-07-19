@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # 從檔案匯入設定檔{#create-profiles}
 
-若要填入Campaign資料庫，您可以 [手動新增設定檔](create-profiles.md) 或匯入設定檔，如下所述。 您也可以使用匯入的檔案來更新聯絡資料。
+若要填入您的Campaign資料庫，您可以[手動新增設定檔](create-profiles.md)或匯入設定檔，如下所述。 您也可以使用匯入的檔案來更新聯絡資料。
 
 ## 使用工作流程匯入設定檔 {#import-profiles-with-a-wf}
 
@@ -28,14 +28,14 @@ ht-degree: 15%
 
 工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}。
 
-收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 有關詳細資訊，請參閱 [本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
+收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}。
 
 ## 一次性匯入{#import-jobs}
 
 Adobe Campaign提供一般匯入功能，例如可讓您擷取隨後將成為目標母體一部分的客戶或潛在客戶清單，或向您的資料庫提供外部檔案中的資料。
 
-一般匯入是從以下專案進行管理： **[!UICONTROL Profiles and Targets > Jobs]** Adobe Campaign首頁的功能表。
+從Adobe Campaign首頁的&#x200B;**[!UICONTROL Profiles and Targets > Jobs]**&#x200B;功能表管理一般匯入。
 
 ![](assets/new-import-job.png)
 
-執行一般匯入的步驟詳見 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target="_blank"}.
+[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=zh-Hant){target="_blank"}中詳細說明了執行一般匯入的步驟。

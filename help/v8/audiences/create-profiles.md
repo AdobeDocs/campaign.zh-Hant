@@ -14,21 +14,21 @@ ht-degree: 3%
 
 # 手動建立設定檔{#create-profiles-manual}
 
-若要填入Campaign資料庫，您可以 [匯入設定檔](import-profiles.md) 或手動新增，如下所述。
+若要填入您的Campaign資料庫，您可以[匯入設定檔](import-profiles.md)或手動新增設定檔，如下所述。
 
 若要手動建立收件者，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL Profiles and targets]** 標籤並選取 **[!UICONTROL Recipients]** 類別。
+1. 瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤並選取&#x200B;**[!UICONTROL Recipients]**&#x200B;類別。
 
    ![](assets/profiles-and-targets.png)
 
-   依預設，收件者會儲存在 **[!UICONTROL Profiles and Targets > Recipients]** 樹狀結構的節點。 您也可以從此檢視建立收件者。
+   依預設，收件者會儲存在樹狀結構的&#x200B;**[!UICONTROL Profiles and Targets > Recipients]**&#x200B;節點中。 您也可以從此檢視建立收件者。
 
-1. 按一下 **[!UICONTROL Create button]**.
+1. 按一下&#x200B;**[!UICONTROL Create button]**。
 1. 輸入設定檔的資料。
 
    ![](assets/new-recipient.png)
 
-   進一步瞭解中的收件者內建表單 [此頁面](view-profiles.md#edit-a-profiles).
+   在[此頁面](view-profiles.md#edit-a-profiles)中進一步瞭解收件者內建表單。
 
-1. 按一下 **[!UICONTROL Save]**：設定檔會新增至Campaign的預設收件者資料夾。
+1. 按一下&#x200B;**[!UICONTROL Save]**：設定檔已新增至預設收件者資料夾中的Campaign。

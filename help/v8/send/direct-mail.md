@@ -20,7 +20,7 @@ ht-degree: 11%
 
 1. 建立傳遞
 
-   根據範本建立直接郵件傳遞。 您可以複製並設定 **[!UICONTROL Deliver by direct mail (paper)]** 內建範本。
+   根據範本建立直接郵件傳遞。 您可以複製並設定&#x200B;**[!UICONTROL Deliver by direct mail (paper)]**&#x200B;內建範本。
 
    在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"} 中深入瞭解
 
@@ -50,8 +50,8 @@ ht-degree: 11%
 
 1. 開始傳遞
 
-   驗證解壓縮檔案後，請按一下 **確認傳遞** 確認訊息可讓您啟動傳送。
+   驗證解壓縮檔案後，按一下&#x200B;**確認傳遞**&#x200B;確認訊息可讓您啟動傳遞。
 
    確認會在指定的檔案中開始資料擷取。
 
-   在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 進一步瞭解 [本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}.
+   在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 在[本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}中瞭解更多資訊。

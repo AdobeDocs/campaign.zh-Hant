@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 自訂您的執行個體 {#gs-ac-custom}
 
-瞭解如何 **自訂您的Campaign執行個體**.
+瞭解如何&#x200B;**自訂您的Campaign執行個體**。
 
 >[!CAUTION]
 >
@@ -32,36 +32,36 @@ Adobe Campaign使用資料結構描述來：
 
 提供兩種表格擴充模式：
 
-* 透過介面，透過使用 **新欄位** 助理
+* 透過介面，使用&#x200B;**新欄位**&#x200B;小幫手
 
-  瞭解如何在Campaign中快速新增欄位 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}中瞭解如何在Campaign中快速新增欄位
 
-* 以程式設計方式，擴充綱要。 瞭解如何在中擴充現有綱要 [本節](../dev/extend-schema.md).
+* 以程式設計方式，擴充綱要。 在[本節](../dev/extend-schema.md)中瞭解如何擴充現有結構描述。
 
 您也可以在Campaign資料庫中建立新表格，並擴充內建資料模型。
 
-若要新增不存在於Adobe Campaign中的現成全新資料型別（例如合約表格），您可以直接建立自訂結構描述。 有關詳細資訊，請參閱 [此範例](../dev/create-schema.md#example--creating-a-contract-table).
+若要新增不存在於Adobe Campaign中的現成全新資料型別（例如合約表格），您可以直接建立自訂結構描述。 如需詳細資訊，請參閱[此範例](../dev/create-schema.md#example--creating-a-contract-table)。
 
 **相關主題**
 
-中的結構描述版本範例 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}中的結構描述版本範例
 
-使用案例：將欄位連結至中的現有參考表格 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+使用案例：將欄位連結至[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}中的現有參考表格
 
 
 ## 修改輸入表單
 
 Campaign輸入表單可進行調整以適合您的實施。 您可以藉由修改XML內容來新增或移除表單欄位。
 
-瞭解如何修改現有的輸入表單或在中建立新表單 [本節](../dev/forms.md).
+瞭解如何在[本節](../dev/forms.md)中修改現有的輸入表單或建立新表單。
 
 ## 自訂儀表板{#gs-custom-dashboards}
 
 Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、傳遞、行銷活動、庫存等，並與之互動。 在介面中，這些區段會以儀表板形式顯示，且只有一個頁面。
 
-內建的Web應用程式儲存在 **管理>組態> Web應用程式** 檔案夾。
+內建的Web應用程式儲存在Explorer的&#x200B;**管理>組態> Web應用程式**&#x200B;資料夾中。
 
-瞭解如何在Campaign中建立概觀頁面 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}中瞭解如何在Campaign中建立概觀頁面
 
 
 ## 自訂清單並建立篩選器 {#gs-lists-and-filters}
@@ -70,8 +70,8 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 當您在Adobe Campaign Explorer樹狀結構中導覽時，資料庫中包含的資料會顯示於清單中。 您可以篩選這些清單、執行搜尋、新增資訊、篩選及排序資料。
 
-瞭解如何設定清單並儲存清單設定 [此頁面](../start/campaign-ui.md).
+瞭解如何在[此頁面](../start/campaign-ui.md)中設定清單並儲存清單設定。
 
 您可以對這些清單套用篩選，以僅顯示運運算元所需的資料。 接著，您就可以針對篩選的資料執行動作。 篩選器設定可讓您從清單中動態選取資料。 如果修改資料，則會更新篩選的資料。
 
-進一步瞭解中的篩選選項 [此頁面](../audiences/create-filters.md).
+在[此頁面](../audiences/create-filters.md)中進一步瞭解篩選選項。

@@ -18,11 +18,11 @@ ht-degree: 10%
 
 ## 使用電子郵件密件副本 {#email-bcc}
 
-您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項的詳細資訊，請參閱 [此頁面](email-bcc.md).
+您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項在[此頁面](email-bcc.md)中有詳細說明。
 
 ## 選取訊息格式 {#selecting-message-formats}
 
-您可以變更已傳送電子郵件訊息的格式。 若要這麼做，請編輯傳送屬性，然後按一下 **[!UICONTROL Delivery]** 標籤。
+您可以變更已傳送電子郵件訊息的格式。 若要這麼做，請編輯傳遞屬性，然後按一下&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 
 ![](assets/email-message-format.png)
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 * **[!UICONTROL Use recipient preferences]** （預設模式）
 
-  訊息格式會根據儲存在收件者設定檔中的資料定義，並預設會儲存在 **[!UICONTROL email format]** 欄位(@emailFormat)。 如果收件者希望以特定格式接收郵件，則此格式為傳送的格式。如果未填入欄位，則會傳送替代的多重部分訊息（請參閱下文）。
+  訊息格式是根據儲存在收件者設定檔中的資料定義，並預設儲存在&#x200B;**[!UICONTROL email format]**&#x200B;欄位(@emailFormat)中。 如果收件者希望以特定格式接收郵件，則此格式為傳送的格式。如果未填入欄位，則會傳送替代的多重部分訊息（請參閱下文）。
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
@@ -51,35 +51,35 @@ ht-degree: 10%
 
 ## 設定字元編碼 {#character-encoding}
 
-在 **[!UICONTROL SMTP]** 的標籤中， **[!UICONTROL Character encoding]** 區段可讓您設定特定編碼。
+在傳遞引數的&#x200B;**[!UICONTROL SMTP]**&#x200B;標籤中，**[!UICONTROL Character encoding]**&#x200B;區段可讓您設定特定編碼。
 
 預設編碼為UTF-8。 如果部分收件者的電子郵件提供者不支援UTF-8標準編碼，您可能想要設定特定編碼，以正確向電子郵件的收件者顯示特殊字元。
 
 例如，您想要傳送包含日文字元的電子郵件。 為確保所有字元都能正確顯示給在日本的收件者，您可能想要使用可支援日文字元的編碼，而非標準UTF-8。
 
-若要這麼做，請選取 **[!UICONTROL Force the encoding used for messages]** 中的選項 **[!UICONTROL Character encoding]** 區段，並從顯示的下拉式清單中選擇編碼。
+若要這麼做，請選取「**[!UICONTROL Character encoding]**」區段中的「**[!UICONTROL Force the encoding used for messages]**」選項，然後從顯示的下拉式清單中選擇編碼。
 
 ![](assets/email-smtp-encoding.png)
 
 ## 管理退信電子郵件 {#managing-bounce-emails}
 
-此 **[!UICONTROL SMTP]** 傳遞屬性的索引標籤也可讓您設定退回郵件的管理。
+傳遞屬性的&#x200B;**[!UICONTROL SMTP]**&#x200B;標籤可讓您設定退回郵件的管理。
 
-* **[!UICONTROL Errors-to-address]**：依預設，會在平台的預設錯誤方塊中接收跳出的電子郵件，但您可以定義傳送的特定錯誤地址。
+* **[!UICONTROL Errors-to-address]**：依預設，會在平台的預設錯誤方塊中接收退信電子郵件，但您可以定義傳遞的特定錯誤位址。
 
-* **[!UICONTROL Bounce address]**：您也可以定義另一個地址，未處理的退回電子郵件會轉寄至該地址。 此位址可讓您在應用程式無法自動限定電子郵件時，調查退回的原因。
+* **[!UICONTROL Bounce address]**：您也可以定義其他未處理退信電子郵件轉寄到的地址。 此位址可讓您在應用程式無法自動限定電子郵件時，調查退回的原因。
 
-每個欄位都可以使用專用圖示進行個人化。 進一步瞭解中的個人化欄位 [本節](personalization-fields.md).
+每個欄位都可以使用專用圖示進行個人化。 在[本節](personalization-fields.md)中進一步瞭解個人化欄位。
 
 ![](assets/email-smtp-bounce.png)
 
-有關退回郵件管理的詳細資訊，請參閱 [本節](delivery-failures.md#bounce-mail-management).
+有關退回郵件管理的詳細資訊，請參閱[本節](delivery-failures.md#bounce-mail-management)。
 
 ## 新增SMTP標頭 {#adding-smtp-headers}
 
-您可以新增SMTP標頭至您的傳遞。 若要這麼做，請使用 **[!UICONTROL SMTP]** 索引標籤進行標籤。
+您可以新增SMTP標頭至您的傳遞。 若要這麼做，請使用傳送中&#x200B;**[!UICONTROL SMTP]**&#x200B;索引標籤的相關區段。
 
-在此視窗中輸入的指令碼必須參考下清單單中每行的一個標題： **name：value**.
+在此視窗中輸入的指令碼必須參考以下格式的每行一個標題： **name：value**。
 
 如有必要，會自動對值編碼。
 
@@ -96,4 +96,4 @@ ht-degree: 10%
 
 鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與電子郵件相同。如果您的收件者嘗試在收件匣中檢視您的電子郵件時遇到轉譯問題或影像損毀，此功能會很有用。
 
-瞭解如何在中插入映象頁面的連結 [本節](mirror-page.md)
+瞭解如何在[本節](mirror-page.md)中插入映象頁面的連結

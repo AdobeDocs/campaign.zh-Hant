@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # 全域報告 {#global-reports}
 
-這些報表會說明整個資料庫中的資料活動。 若要檢視報表控制面板，請前往 **[!UICONTROL Reports]** 標籤。
+這些報表會說明整個資料庫中的資料活動。 若要檢視報告儀表板，請前往&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
 ![](assets/reports-tab.png)
 
@@ -25,19 +25,19 @@ ht-degree: 6%
 >
 >本區段僅顯示連結至傳遞的報告。
 
-* **[!UICONTROL Delivery throughput]** ：請參閱 [傳遞總處理能力](#delivery-throughput).
-* **[!UICONTROL Browsers]** ：請參閱 [瀏覽器](#browsers).
-* **[!UICONTROL Sharing to social networks]** ：請參閱 [分享至社交網路](#sharing-to-social-networks).
-* **[!UICONTROL Statistics on sharing activities]** ：請參閱 [共用活動的統計資料](#statistics-on-sharing-activities).
-* **[!UICONTROL Operating systems]** ：請參閱 [作業系統](#operating-systems).
-* **[!UICONTROL URLs and click streams]** ：請參閱 [URL和點按流量](delivery-reports.md#urls-and-click-streams).
-* **[!UICONTROL Tracking indicators]** ：請參閱 [追蹤指標](delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]** ：請參閱 [無法傳遞的專案和退信](#non-deliverables-and-bounces).
-* **[!UICONTROL User activities]** ：請參閱 [使用者活動](#user-activities).
-* **[!UICONTROL Subscription tracking]** ：請參閱 [訂閱追蹤](#subscription-tracking).
-* **[!UICONTROL Delivery summary]** ：請參閱 [傳遞摘要](delivery-reports.md#delivery-summary).
-* **[!UICONTROL Delivery statistics]** ：請參閱 [傳遞統計資料](#delivery-statistics).
-* **[!UICONTROL Breakdown of opens]** ：請參閱 [開啟的劃分](#breakdown-of-opens).
+* **[!UICONTROL Delivery throughput]** ：請參閱[傳遞輸送量](#delivery-throughput)。
+* **[!UICONTROL Browsers]** ：請參閱[瀏覽器](#browsers)。
+* **[!UICONTROL Sharing to social networks]** ：請參閱[分享至社交網路](#sharing-to-social-networks)。
+* **[!UICONTROL Statistics on sharing activities]** ：請參閱[共用活動的統計資料](#statistics-on-sharing-activities)。
+* **[!UICONTROL Operating systems]** ：請參閱[作業系統](#operating-systems)。
+* **[!UICONTROL URLs and click streams]** ：參考[URL並按一下串流](delivery-reports.md#urls-and-click-streams)。
+* **[!UICONTROL Tracking indicators]** ：請參閱[追蹤指標](delivery-reports.md#tracking-indicators)。
+* **[!UICONTROL Non-deliverables and bounces]** ：請參閱[無法傳遞的專案和退信](#non-deliverables-and-bounces)。
+* **[!UICONTROL User activities]** ：請參閱[使用者活動](#user-activities)。
+* **[!UICONTROL Subscription tracking]** ：請參閱[訂閱追蹤](#subscription-tracking)。
+* **[!UICONTROL Delivery summary]** ：請參閱[傳遞摘要](delivery-reports.md#delivery-summary)。
+* **[!UICONTROL Delivery statistics]** ：請參閱[傳遞統計資料](#delivery-statistics)。
+* **[!UICONTROL Breakdown of opens]** ：請參閱[開啟的劃分](#breakdown-of-opens)。
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
@@ -45,13 +45,13 @@ ht-degree: 6%
 
 ![](assets/report-toolbar.png)
 
-您可以透過變更時程來設定顯示的值：1小時檢視、3小時檢視、24小時檢視等。 按一下 **[!UICONTROL Refresh]** 以確認您的選取。
+您可以透過變更時程來設定顯示的值：1小時檢視、3小時檢視、24小時檢視等。 按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以確認您的選擇。
 
 >[!NOTE]
 >
->您也可以使用監控每小時傳送的傳遞數目 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}來監視每小時傳送的傳遞數目。
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取許可權的步驟已詳載於 [此頁面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}.
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取許可權的步驟已詳載於[此頁面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}。
 >
 
 ## 使用者活動 {#user-activities}
@@ -70,13 +70,13 @@ ht-degree: 6%
 
 此報表顯示無法傳遞的劃分以及每個網域退信的劃分。
 
-此 **[!UICONTROL Number of messages processed]** 代表傳遞伺服器處理的訊息總數。 此值低於某些傳遞已停止或暫停（在伺服器處理之前）時要傳遞的訊息數。
+**[!UICONTROL Number of messages processed]**&#x200B;代表傳遞伺服器處理的郵件總數。 此值低於某些傳遞已停止或暫停（在伺服器處理之前）時要傳遞的訊息數。
 
 **[!UICONTROL Breakdown of errors by type]**
 
 >[!NOTE]
 >
->此報告中顯示的錯誤會觸發隔離程式。 有關隔離管理的詳細資訊，請參閱 [隔離管理](../send/quarantines.md).
+>此報告中顯示的錯誤會觸發隔離程式。 如需隔離管理的詳細資訊，請參閱[隔離管理](../send/quarantines.md)。
 
 此報表的第一區段以值表格和圖表的形式顯示無法傳遞專案的劃分。
 
@@ -88,19 +88,19 @@ ht-degree: 6%
 
 使用下列指標：
 
-* **[!UICONTROL User unknown]** ：傳送期間產生的錯誤型別，用以指出電子郵件地址無效。
-* **[!UICONTROL Invalid domain]** ：傳送傳遞時產生的錯誤型別，用以指出電子郵件地址的網域錯誤或不存在。
-* **[!UICONTROL Inbox full]** ：在嘗試傳送五次後產生的錯誤型別，以指出收件者的收件匣包含太多訊息。
-* **[!UICONTROL Account disabled]** ：傳送傳遞時產生的錯誤型別，用以指出地址已不存在。
-* **[!UICONTROL Rejected]** ：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
-* **[!UICONTROL Unreachable]** ：訊息發佈字串中發生的錯誤型別：SMTP轉送上的事件、暫時無法連線網域等
-* **[!UICONTROL Not connected]** ：錯誤型別，表示收件者的行動電話在傳送時已關閉或已中斷與網路的連線。
+* **[!UICONTROL User unknown]** ：傳送期間產生錯誤型別，指出電子郵件地址無效。
+* **[!UICONTROL Invalid domain]** ：傳送傳遞時產生的錯誤型別，指出電子郵件地址的網域錯誤或不存在。
+* **[!UICONTROL Inbox full]** ：在五次傳遞嘗試後產生的錯誤型別，以指出收件者的收件匣包含太多郵件。
+* **[!UICONTROL Account disabled]** ：傳送傳遞時產生錯誤型別，表示地址已不存在。
+* **[!UICONTROL Rejected]** ：當IAP （網際網路存取提供者）拒絕位址時產生的錯誤型別，例如，在應用安全性規則（反垃圾郵件軟體）之後。
+* **[!UICONTROL Unreachable]** ：訊息發佈字串中發生的錯誤型別： SMTP轉送上的事件、暫時無法連線網域等
+* **[!UICONTROL Not connected]** ：錯誤型別，表示收件者的行動電話在傳送時已關閉或與網路中斷連線。
 
   >[!NOTE]
   >
-  >此指標與上的傳遞相關 [行動裝置頻道](../send/send.md) 僅限。
+  >此指標僅與[行動裝置頻道](../send/send.md)上的傳遞有關。
 
-  您可以按一下 `[+]` 符號。 對於每個錯誤型別，您可以依網域顯示錯誤訊息的劃分。
+  您可以按一下`[+]`符號來開啟數值表格的每一行。 對於每個錯誤型別，您可以依網域顯示錯誤訊息的劃分。
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -112,13 +112,13 @@ ht-degree: 6%
 * 這個網域發生錯誤的訊息佔這個網域處理的訊息總數百分比，
 * 此網域的錯誤訊息佔錯誤訊息總數的百分比。
 
-您可以按一下 [+] 符號。 對於每個網域型別，您可以依錯誤型別顯示錯誤訊息的劃分。
+您可以按一下[+]符號來開啟數值表格的每一行。 對於每個網域型別，您可以依錯誤型別顯示錯誤訊息的劃分。
 
 ![](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯 **[!UICONTROL Delivery logs (broadlogrcp)]** 立方體。 有關詳細資訊，請參閱 [本節](gs-cubes.md). 此 **[!UICONTROL Others]** 類別包含不屬於特定類別的網域名稱。
+>此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯&#x200B;**[!UICONTROL Delivery logs (broadlogrcp)]** Cube。 如需詳細資訊，請參閱[本節](gs-cubes.md)。 **[!UICONTROL Others]**&#x200B;類別包含不屬於特定類別的網域名稱。
 
 ## 瀏覽器 {#browsers}
 
@@ -136,11 +136,11 @@ ht-degree: 6%
 
 使用下列指標：
 
-* **[!UICONTROL Visitors]** ：已鎖定目標（每個網際網路瀏覽器）並已至少點按一次傳送的收件者總數。
-* **[!UICONTROL Pages viewed]** ：所有傳遞的在傳遞中點按連結總數（每個網際網路瀏覽器）。
-* **[!UICONTROL Usage rate]** ：此比率代表訪客（每個網際網路瀏覽器）相對於訪客總數的劃分。
+* **[!UICONTROL Visitors]** ：已鎖定目標（每個網際網路瀏覽器）並已至少點按一次傳遞的收件者總數。
+* **[!UICONTROL Pages viewed]** ：針對所有傳遞，在傳遞（每個網際網路瀏覽器）中對連結的點按總數。
+* **[!UICONTROL Usage rate]** ：此比率代表相對於訪客總數的訪客劃分（每個網際網路瀏覽器）。
 
-**每個瀏覽器的統計資料**
+每個瀏覽器的&#x200B;**統計資料**
 
 在全域統計值表格中，您可以按一下每個瀏覽器名稱來檢視其使用統計值。
 
@@ -148,9 +148,9 @@ ht-degree: 6%
 
 統計資料會以曲線、圖表和值表的形式呈現。
 
-此 **[!UICONTROL History]** 曲線代表此瀏覽器每日的出勤率。 此比率是每日訪客數（在此瀏覽器上）與出席率最高的當日所測量訪客數之間的比率。
+**[!UICONTROL History]**&#x200B;曲線代表此瀏覽器每天的出勤率。 此比率是每日訪客數（在此瀏覽器上）與出席率最高的當日所測量訪客數之間的比率。
 
-此 **[!UICONTROL Breakdown per version]** 圖表代表每個版本的訪客與訪客總數（在此瀏覽器上）的比較。
+**[!UICONTROL Breakdown per version]**&#x200B;圖表代表每個版本的訪客與訪客總數（在此瀏覽器上）的比較。
 
 值表使用以下指標：
 
@@ -226,11 +226,11 @@ The following indicators are used:
 
 使用下列指標：
 
-* **[!UICONTROL Visitors]** ：在傳遞中至少點按一次的目標收件者總數（每個作業系統）每日平均數。
+* **[!UICONTROL Visitors]** ：在傳遞中至少點按一次的目標收件者（每個作業系統）每日平均總數。
 * **[!UICONTROL Pages viewed]** ：所有傳遞的傳遞連結（每個作業系統）每日平均點按總數。
 * **[!UICONTROL Rate of use]** ：此比率代表相對於訪客總數的訪客劃分（每個作業系統）。
 
-**每個作業系統的統計資料**
+每個作業系統的&#x200B;**統計資料**
 
 在全域統計值表格中，按一下每個作業系統的名稱，即可檢視每個作業系統的統計值。
 
@@ -238,9 +238,9 @@ The following indicators are used:
 
 統計資料會以曲線、圖表和值表的形式呈現。
 
-此 **[!UICONTROL History]** 曲線代表每日使用此作業系統的速率。 此比率是每日訪客數（在此作業系統上）與出席人數最多當日所測量訪客數的比率。
+**[!UICONTROL History]**&#x200B;曲線代表每天使用此作業系統的速率。 此比率是每日訪客數（在此作業系統上）與出席人數最多當日所測量訪客數的比率。
 
-此 **[!UICONTROL Breakdown by version]** 圖表代表每個版本與此作業系統上的訪客總數相關的訪客劃分。
+**[!UICONTROL Breakdown by version]**&#x200B;圖表代表每個版本的訪客與此作業系統上的訪客總數之間的劃分。
 
 值表使用以下指標：
 
@@ -253,11 +253,11 @@ The following indicators are used:
 
 ![](assets/service-report.png)
 
-按一下 **[!UICONTROL Profiles and targets > Services and subscriptions]** 首頁或檔案總管的節點。 選取所需的訂閱，然後按一下 **[!UICONTROL Reports]** 標籤。 此 **[!UICONTROL Subscriptions tracking]** 報告預設為可用。 它可讓您檢視一段時間內的訂閱和取消訂閱趨勢以及熟客率。 您可以透過下拉式清單設定此資料的表示方式。 按一下 **[!UICONTROL Refresh]** 以驗證選取的組態。
+按一下首頁或總管的&#x200B;**[!UICONTROL Profiles and targets > Services and subscriptions]**&#x200B;節點，即可顯示訂閱的連結。 選取所需的訂閱，然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。 **[!UICONTROL Subscriptions tracking]**&#x200B;報告預設為可用。 它可讓您檢視一段時間內的訂閱和取消訂閱趨勢以及熟客率。 您可以透過下拉式清單設定此資料的表示方式。 按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以驗證選取的組態。
 
 如需詳細資訊，請參閱[本頁面](../start/subscriptions.md)。
 
-此 **[!UICONTROL Number subscribed to date]** 代表目前訂閱的總人數。
+**[!UICONTROL Number subscribed to date]**&#x200B;代表目前訂閱的總人數。
 
 **[!UICONTROL Overall evolution of subscriptions]**
 
@@ -282,23 +282,23 @@ The following indicators are used:
 使用下列指標：
 
 * **[!UICONTROL Emails processed]** ：傳遞伺服器處理的訊息總數。
-* **[!UICONTROL Delivered]** ：成功處理的訊息數與已處理的訊息總數相比的百分比。
-* **[!UICONTROL Hard bounces]** ：與已處理的訊息總數相比的「硬」退回次數百分比。
-* **[!UICONTROL Soft bounces]** ：與已處理的訊息總數相比的「軟」退回次數百分比。
+* **[!UICONTROL Delivered]** ：與已處理的訊息總數相較之下，成功處理的訊息數百分比。
+* **[!UICONTROL Hard bounces]** ：與已處理的訊息總數相比的「硬」退回數百分比。
+* **[!UICONTROL Soft bounces]** ：相對於已處理訊息總數的「軟」退回數百分比。
 
   >[!NOTE]
   >
-  >有關硬跳出和軟跳出的詳細資訊，請參閱 [此頁面](../send/quarantines.md).
+  >如需硬退信和軟退信的詳細資訊，請參閱[此頁面](../send/quarantines.md)。
 
-* **[!UICONTROL Opens]** ：與成功處理的訊息數相比，至少開啟過一次訊息的目標收件者人數的百分比。
-* **[!UICONTROL Clicks]** ：與成功處理的訊息數相比，至少一次點按傳送的人員數百分比。
+* **[!UICONTROL Opens]** ：與成功處理的訊息數相比，至少開啟過一次訊息的目標收件者數目百分比。
+* **[!UICONTROL Clicks]** ：與成功處理的訊息數相比至少點按一次傳遞的人員數百分比。
 * **[!UICONTROL Unsubscription]** ：與成功處理的訊息數相比的取消訂閱連結點選數百分比。
 
 ## 開啟次數的劃分 {#breakdown-of-opens}
 
 此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。
 
-開啟次數與開啟的訊息總數相對應。 不計入文字格式的電子郵件。 有關追蹤開啟的詳細資訊，請參閱 [本節](metrics-calculation.md#tracking-opens-).
+開啟次數與開啟的訊息總數相對應。 不計入文字格式的電子郵件。 如需追蹤開啟的詳細資訊，請參閱[本節](metrics-calculation.md#tracking-opens-)。
 
 ![](assets/user-agent-report.png)
 

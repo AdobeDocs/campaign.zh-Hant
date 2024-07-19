@@ -16,7 +16,7 @@ ht-degree: 81%
 + 使用工作流程自動化{#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
-      + 工作流程型別 {#wf-type}
+      + 工作流程{#wf-type}的型別
          + [目標工作流程](workflow/targeting-workflows.md)
          + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)
@@ -31,7 +31,7 @@ ht-degree: 81%
       + [監視工作流程的執行](workflow/monitor-workflow-execution.md)
       + [監視技術工作流程](workflow/monitor-technical-workflows.md)
       + [工作流程熱度圖](workflow/heatmap.md)
-   + 工作流程活動 {#wf-activities}
+   + 工作流程活動{#wf-activities}
       + [開始使用活動](workflow/activities.md)
       + 目標定位活動 {#targeting-activities}
          + [目標定位活動清單](workflow/targeting-activities.md)
@@ -123,7 +123,7 @@ ht-degree: 81%
          + [新增分項清單類型計算欄位](workflow/adding-enumeration-type-calculated-field.md)
          + [建立篩選器](workflow/create-a-filter.md)
          + [篩選重複的收件者](workflow/filter-duplicated-recipients.md)
-   + 進階設定 {#advanced-management}
+   + 進階設定{#advanced-management}
       + [工作流程屬性](workflow/workflow-properties.md)
       + [高級參數](workflow/advanced-parameters.md)
       + [JavaScript 指令碼和範本](workflow/javascript-scripts-and-templates.md)

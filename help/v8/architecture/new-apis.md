@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 特定FFDA Campaign API{#gs-new-api}
 
-在的內容中 [企業(FFDA)部署](enterprise-deployment.md)，Campaign v8提供兩種特定API，用於管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些功能的先決條件是在架構上啟用準備機制。 [了解更多](staging.md)
+在[企業(FFDA)部署](enterprise-deployment.md)的內容中，Campaign v8提供兩個特定API，用於管理Campaign本機資料庫和雲端資料庫之間的資料。 使用這些功能的先決條件是在架構上啟用準備機制。 [了解更多](staging.md)
 
 * 擷取API： **xtk.session.ingest**
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 ## 插入資料{#data-insert-api}
 
-此 **xtk.session.ingest** API僅供資料插入專用。 無更新/刪除。
+**xtk.session.ingest** API僅專用於「資料插入」。 無更新/刪除。
 
 ### 插入但不進行調解{#insert-no-reconciliation}
 
 **在工作流程中**
 
-在中使用下列程式碼 **Javascript程式碼** 在雲端資料庫中插入資料而不進行調解的活動：
+在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼，將資料插入雲端資料庫而不進行調解：
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -48,7 +48,7 @@ logInfo(strUuid);
 
 執行工作流程後，會依預期提供暫存表格。
 
-**從SOAP呼叫**
+**來自SOAP呼叫**
 
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
@@ -91,7 +91,7 @@ logInfo(strUuid);
 
 **在工作流程中**
 
-在中使用下列程式碼 **Javascript程式碼** 使用調解在雲端資料庫中插入資料的活動：
+在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼，以使用調解方式將資料插入雲端資料庫：
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -108,7 +108,7 @@ logInfo(strUuid);
 ![](assets/with-reconciliation.png)
 
 
-**從SOAP呼叫**
+**來自SOAP呼叫**
 
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
@@ -147,13 +147,13 @@ logInfo(strUuid);
 
 ## 更新或刪除資料{#data-update-api}
 
-此 **xtk.session.IngestExt** API已針對資料更新/刪除而最佳化。 僅供插入，偏好設定 **xtk.session.ingest**. 無論記錄索引鍵是否不在臨時資料表中，插入都正常運作。
+已針對資料更新/刪除最佳化&#x200B;**xtk.session.IngestExt** API。 僅供插入，偏好使用&#x200B;**xtk.session.ingest**。 無論記錄索引鍵是否不在臨時資料表中，插入都正常運作。
 
 ### 插入/更新
 
 **在工作流程中**
 
-在中使用下列程式碼 **Javascript程式碼** 更新雲端資料庫中資料的活動：
+在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼來更新雲端資料庫中的資料：
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -168,7 +168,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ![](assets/updated-data.png)
 
-**從SOAP呼叫**
+**來自SOAP呼叫**
 
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
@@ -205,9 +205,9 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 訂閱管理 {#sub-apis}
 
-中說明Campaign的訂閱管理 [此頁面](../start/subscriptions.md).
+Campaign的訂閱管理在[此頁面](../start/subscriptions.md)中說明。
 
-插入訂閱和取消訂閱資料仰賴 [暫存機制](staging.md) 於Campaign本機資料庫。 訂閱者資訊會暫時儲存在本機資料庫的臨時資料表中，而同步工作流程會將此資料從本機資料庫傳送至雲端資料庫。 因此，訂閱和取消訂閱程式會 **非同步**. 每小時都會透過特定的技術工作流程處理選擇加入和選擇退出請求。 [了解更多](replication.md#tech-wf)
+訂閱和取消訂閱資料的插入依賴Campaign本機資料庫中的[暫存機制](staging.md)。 訂閱者資訊會暫時儲存在本機資料庫的臨時資料表中，而同步工作流程會將此資料從本機資料庫傳送至雲端資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 每小時都會透過特定的技術工作流程處理選擇加入和選擇退出請求。 [了解更多](replication.md#tech-wf)
 
 
 **相關主題**

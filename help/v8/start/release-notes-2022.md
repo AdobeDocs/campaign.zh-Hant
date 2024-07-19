@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1919'
+ht-degree: 92%
 
 ---
 
@@ -54,15 +54,15 @@ _2022 年 9 月 30 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>此 <a href="../send/twitter.md">X社交頻道</a> 現在可搭配Campaign v8使用。 您可以：</p>
+<td> <p><a href="../send/twitter.md">X社交頻道</a>現在可搭配Campaign v8使用。 您可以：</p>
 <ul> 
 <li><p>在X (先前稱為Twitter)上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
 <li><p>收集新聯絡人：Adobe Campaign 可以自動復原設定檔資料，讓您執行目標定位行銷活動並實施跨管道策略。
 </p></li>
 </ul>
-<p>瞭解如何在中連結Campaign和X <a href="../connect/ac-tw.md">詳細檔案</a>.</p>
-<p>瞭解如何在中使用Campaign建立貼文及傳送訊息 <a href="../connect/ac-tw.md">此頁面</a>.</p>
+<p>在<a href="../connect/ac-tw.md">詳細檔案</a>中瞭解如何連結Campaign和X。</p>
+<p>在<a href="../connect/ac-tw.md">此頁面</a>中瞭解如何建立貼文，以及使用Campaign傳送訊息。</p>
 </td> 
 </tr> 
 </tbody> 

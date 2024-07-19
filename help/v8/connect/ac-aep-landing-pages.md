@@ -24,21 +24,21 @@ Adobe Campaign與Adobe Experience Platform的整合可讓您在Adobe Campaign登
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon-connection.svg" width="60px"><p><a href="#oauth">設定OAuth連線</a></p></td>
-<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">建立HTTP API來源連線</a></p></td>
+<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">建立HTTP API Source連線</a></p></td>
 <td><img src="../assets/do-not-localize/icon-options.svg" width="60px"><p><a href="#xtk">在Campaign新增驗證選項</a></p></td>
-<td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">在Campaign中新增JavaScript程式碼</a></p></td>
+<td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">在Campaign中新增JavaScript代碼</a></p></td>
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">設定登入頁面工作流程</a></p></td>
 </table>
 
 ## 設定Oauth連線 {#oauth}
 
-Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若要使用API呼叫將Adobe Experience Platform連線至Adobe Campaign，您需要使用在Adobe Developer主控台中建立的OAuth整合來產生存取權杖。
+Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若要使用API呼叫將Adobe Experience Platform連線至Adobe Campaign，您需要使用Adobe Developer Console中建立的OAuth整合來產生存取權杖。
 
 要執行此操作，請依照下列步驟執行：
 
 1. 存取Adobe Developer Console。
-1. 使用Adobe Experience Platform API產品建立新的API連線。 如需有關如何取得OAuth 2.0存取權杖的詳細步驟，請參閱 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
-1. 建立連線後，導覽至 **[!UICONTROL OAuth Server-to-Server]** 功能表並複製下列詳細資料（Campaign中需要這些詳細資料以進行驗證）：
+1. 使用Adobe Experience Platform API產品建立新的API連線。 [Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/)提供了有關如何取得OAuth 2.0存取權杖的詳細步驟。
+1. 建立連線後，請導覽至&#x200B;**[!UICONTROL OAuth Server-to-Server]**&#x200B;功能表並複製下列詳細資料（Campaign中需要這些詳細資料以進行驗證）：
 
    * `CLIENT ID`
    * `CLIENT SECRET`
@@ -46,19 +46,19 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-現在您的Oauth連線已設定完畢，請建立和設定新的 **[!UICONTROL HTTP API]** 將Adobe Campaign與Adobe Experience Platform連結的來源連線。
+現在您的Oauth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
 
-## 建立HTTP API來源連線 {#source}
+## 建立HTTP API Source連線 {#source}
 
-OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Experience Platform中的來源連線。 此連線可讓您使用API將資料串流到Adobe Experience Platform。 請依照下列步驟操作：
+OAuth連線就緒後，下一步就是在Adobe Experience Platform中建立&#x200B;**[!UICONTROL HTTP API]** Source連線。 此連線可讓您使用API將資料串流到Adobe Experience Platform。 請依照下列步驟操作：
 
-1. 導覽至Adobe Experience Platform **[!UICONTROL Sources]**，搜尋 **[!UICONTROL HTTP API]** 來源，然後按一下 **[!UICONTROL Add data]**.
+1. 導覽至Adobe Experience Platform **[!UICONTROL Sources]**，搜尋&#x200B;**[!UICONTROL HTTP API]**&#x200B;來源，然後按一下&#x200B;**[!UICONTROL Add data]**。
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱 [Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}。
 
-   在 **[!UICONTROL Authentication]** 步驟，開啟 **[!UICONTROL Enable authentication]** 使用透過OAuth整合產生的存取權杖進行驗證的選項。
+   在&#x200B;**[!UICONTROL Authentication]**&#x200B;步驟中，開啟&#x200B;**[!UICONTROL Enable authentication]**&#x200B;選項，以使用先前透過OAuth整合產生的存取權杖進行驗證。
 
    ![](assets/ac-lp-source-authentication.png){width="70%"}
 
@@ -66,15 +66,15 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
    ![](assets/ac-lp-endpoint.png){width="70%"}
 
-   您也可以從以下位置開啟新建立的資料流，以存取內嵌至Adobe Experience Platform的資料格式範例： **[!UICONTROL Dataflows]** 標籤。
+   您也可以從&#x200B;**[!UICONTROL Dataflows]**&#x200B;索引標籤開啟新建立的資料流，以存取擷取到Adobe Experience Platform的資料格式範例。
 
    ![](assets/ac-lp-schema.png){width="70%"}
 
-現在已設定HTTP API來源連線，您需要在Adobe Campaign中新增特定選項，才能啟用與Adobe Experience Platform的連線。
+HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定選項，才能啟用Adobe Experience Platform連線。
 
 ## 在Adobe Campaign中新增驗證選項 {#xtk}
 
-設定HTTP API來源連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign「管理」功能表中或透過新增特定專案來執行登入頁面工作流程時執行此操作 **[!UICONTROL JavaScript code]** 活動。
+設定HTTP API Source連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign管理功能表中或透過新增特定&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動來執行登入頁面工作流程時完成此作業。
 
 瀏覽下列索引標籤，以探索下列兩種方法：
 
@@ -82,8 +82,8 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 >[!TAB 從管理功能表新增選項]
 
-1. 導覽至 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**  功能表。
-1. 從Adobe Developer主控台將以下選項與對應值新增：
+1. 導覽至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**&#x200B;功能表。
+1. 使用Adobe Developer Console中的對應值新增以下選項：
 
    * IMS_CLIENT_ID = cryptString（使用者端ID）
    * IMS_CLIENT_SECRET = cryptString（使用者端密碼）
@@ -98,7 +98,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請新增 **[!UICONTROL JavaScript code]** 使用下列程式碼將活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
@@ -108,14 +108,14 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
     loadLibrary(&quot;xtk：shared/json2.js&quot;)；
     loadLibrary(&quot;xtk：common.js&quot;)；
     
-    函式setAuthCredentials()
+    function setAuthCredentials()
     {
-    setOption(&quot;IMS_CLIENT_ID&quot;， cryptString(&#39;CLIENT ID&#39;))；
-    setOption(&quot;IMS_CLIENT_SECRET&quot;， cryptString(&#39;CLIENT SECRET&#39;))；
+    setOption(&quot;IMS_CLIENT_ID&quot;， cryptString(&#39;CLIENT ID&#39;)))；
+    setOption(&quot;IMS 「」， cryptString(&#39;CLIENT SECRET&#39;))；
     setOption(&quot;IMS_ORG_ID&quot;， cryptString(&#39;ORGANIZATION ID&#39;))；
     setOption(&quot;IMS_CLIENT_API_KEY&quot;， cryptString(&#39;CLIENT ID&#39;))；
     }
-    ```
+    &quot;&#39;
 
 >[!ENDTABS]
 
@@ -125,7 +125,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 若要讓登入頁面與Adobe Experience Platform之間的資料同步，必須將自訂JavaScript程式碼新增至Adobe Campaign。 請依照下列步驟操作：
 
-1. 導覽至 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** 功能表。
+1. 導覽至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]**&#x200B;功能表。
 1. 建立新的JavaScript程式碼並複製貼上以下程式碼片段。
 
    >[!NOTE]
@@ -209,9 +209,9 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 ## 設定登入頁面工作流程 {#script}
 
-新增JavaScript程式碼至Adobe Campaign後，您可使用將其運用至登陸頁面工作流程 **[!UICONTROL JavaScript code]** 活動：
+將JavaScript程式碼新增至Adobe Campaign後，您就可以使用&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動將這些程式碼運用到您的登陸頁面工作流程中：
 
-* 若要在載入登入頁面之前從Experience Platform載入資料，請新增 **[!UICONTROL JavaScript code]** 活動，並複製貼上指令碼1。
+* 若要在載入登入頁面之前從Experience Platform載入資料，請在登入頁面活動之前新增&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動，並複製貼上指令碼1。
 
 +++ 指令碼1 — 從Experience Platform載入設定檔屬性
 
@@ -251,7 +251,7 @@ OAuth連線就緒後，下一步就是建立 **[!UICONTROL HTTP API]** Adobe Exp
 
 +++
 
-* 若要使用在登入頁面中提交的資料更新Experience Platform設定檔屬性，請新增 **[!UICONTROL JavaScript code]** 活動，並複製貼上指令碼2。
+* 若要使用在登入頁面中提交的資料更新Experience Platform設定檔屬性，請在登入頁面活動後新增&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動，並複製貼上指令碼2。
 
 +++ 指令碼2 — 更新Experience Platform設定檔屬性
 

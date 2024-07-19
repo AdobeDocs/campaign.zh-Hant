@@ -25,9 +25,9 @@ ht-degree: 1%
 
 ## 此升級將於何時進行？{#aws-timeline}
 
-開發和測試環境升級開始於 **2023年10**.
+開發和測試環境升級已於&#x200B;**2023年10月**&#x200B;開始。
 
-生產環境升級開始於 **2024年1月**.
+生產環境升級已於&#x200B;**2024年1月**&#x200B;開始。
 
 ## 有何期望？{#impact}
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 ## 常見問題集 {#aws-faq}
 
-* **這是強制升級嗎？**
+* **此升級是否為必要？**
 
   是。 身為Campaign客戶，您的電子郵件傳送功能需要使用電子郵件傳送基礎結構。
 
-* **此升級鎖定哪些客戶？**
+* **此升級的目標客戶為哪些客戶？**
 
   以上提及的所有Campaign客戶都會升級其環境。
 
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 * **客戶需要哪些測試？**
 
-  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
-* **我可以要求變更排程安全性升級位置的日期/時間嗎？**
+* **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   沒有。我們無法因應現有排程的任何修改請求，因為這可能會中斷為其他客戶指派的升級事件。
 
-如有任何其他問題，您可以聯絡 [Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

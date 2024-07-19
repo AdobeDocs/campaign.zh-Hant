@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # 使用目標對應{#gs-target-mappings}
 
-依預設，電子郵件和簡訊傳遞範本的目標為 **[!UICONTROL Recipients]**. 因此，其目標對應會使用 **nms：recipient** 表格。
+根據預設，電子郵件和簡訊傳遞範本的目標為&#x200B;**[!UICONTROL Recipients]**。 因此，它們的目標對應使用&#x200B;**nms：recipient**&#x200B;資料表的欄位。
 
-對於推播通知，預設目標對應為 **訂閱者應用程式(nms：appSubscriptionRcp)**，此資訊會連結至收件者表格。
+對於推播通知，預設的目標對應是連結到收件者表格的&#x200B;**訂閱者應用程式(nms：appSubscriptionRcp)**。
 
 您可以針對傳遞使用其他目標對應，或建立新的目標對應。
 
@@ -42,11 +42,11 @@ Adobe Campaign隨附下列內建目標對應：
 * 您使用自訂收件者表格，
 * 您可以設定與目標對應畫面上內建目標維度不同的篩選維度。
 
-進一步瞭解中的自訂收件者表格 [此頁面](../dev/custom-recipient.md).
+在[此頁面](../dev/custom-recipient.md)中進一步瞭解自訂收件者表格。
 
 Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應所需的所有結構描述。
 
-1. 瀏覽至 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** 從Adobe Campaign explorer.
+1. 從Adobe Campaign總管瀏覽至&#x200B;**[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]**。
 
 1. 建立新的目標對應，並選取您的自訂結構描述作為目標維度。
 
@@ -61,12 +61,12 @@ Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   您可以選擇是否儲存排除專案(**excludelog**)，包含訊息(**broadlog**)或是在另一個表格中。
+   您可以選擇是否要儲存排除專案(**excludelog**)、包含訊息(**broadlog**)或是在個別的資料表中。
 
-   您也可以選擇是否要管理此傳遞對應的追蹤(**trackinglog**)。
+   您也可以選擇是否要管理此傳遞對應(**trackinglog**)的追蹤。
 
 1. 然後選取要考慮的擴充功能。 擴充功能型別取決於您的Campaign設定和附加元件。
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   按一下 **[!UICONTROL Save]** 啟動傳遞對應建立的按鈕：所有連結的表格都會根據選取的引數自動建立。
+   按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以啟動傳遞對應建立：所有連結表格都會根據選取的引數自動建立。

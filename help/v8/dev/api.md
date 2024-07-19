@@ -12,19 +12,19 @@ ht-degree: 9%
 
 ---
 
-# 開始使用 [!DNL Campaign] API {#gs-ac-api}
+# 開始使用[!DNL Campaign] API {#gs-ac-api}
 
-[!DNL Adobe Campaign] 隨附一組Javascript函式，您可使用：
+[!DNL Adobe Campaign]隨附了一組Javascript函式，您可以：
 
-* 在指令碼中 — 在 [!DNL Adobe Campaign] 工作流程
+* 在指令碼中 — 在[!DNL Adobe Campaign]工作流程中
 * 透過API — 來自外部系統
 
 您可以使用JavaScript API在Campaign雲端資料庫中寫入或讀取資料庫：
 
-* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* 用於查詢資料模型資料的一般資料存取API。 進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}。
+* 用於查詢資料模型資料的一般資料存取API。 深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}。
 
-請注意，在其 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
+請注意，在其[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
 
 >[!CAUTION]
 >
@@ -37,13 +37,13 @@ ht-degree: 9%
 
 ## 先決條件 {#ac-api-prerequisites}
 
-使用前 [!DNL Adobe Campaign] API時，您必須熟悉下列主題：
+使用[!DNL Adobe Campaign] API前，您必須熟悉下列主題：
 
 * JavaScript
 * SOAP通訊協定
-* [!DNL Adobe Campaign] 資料模型
+* [!DNL Adobe Campaign]資料模型
 
-為了使用API並與 [!DNL Adobe Campaign]時，您也必須熟悉您的資料模型。
+若要使用API並與[!DNL Adobe Campaign]互動，您也必須熟悉您的資料模型。
 
 >[!NOTE]
 >您可以產生資料模型的完整說明。 在[本頁](datamodel.md)中瞭解更多。

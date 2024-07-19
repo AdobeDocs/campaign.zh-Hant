@@ -38,6 +38,6 @@ ht-degree: 73%
 
 查看：
 
-[Adobe Audience Manager知識庫](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant){target="_blank"}.
+[Adobe Audience Manager知識庫](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant){target="_blank"}。
 
-[Adobe Experience Cloud中央介面元件指南](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hant){target="_blank"}.
+[Adobe Experience Cloud中央介面元件指南](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hant){target="_blank"}。

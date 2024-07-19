@@ -17,6 +17,6 @@ ht-degree: 30%
 LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。Adobe Campaign可讓您傳送LINE訊息。
 
 
-進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=zh-Hant){target="_blank"}.
+深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=zh-Hant){target="_blank"}。
 
-請參閱此 [端對端範例](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} 在Campaign Classic v7檔案中建立並傳送您的第一個LINE傳遞。
+請參閱Campaign Classic v7檔案中的此[端對端範例](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"}，以建立並傳送您的第一個LINE傳遞。

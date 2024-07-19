@@ -16,10 +16,10 @@ ht-degree: 48%
 
 為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂內容，告訴客戶其層級的資訊。 根據設定檔資料、建立不同群組與個人自訂體驗的個人化功能：您可以運用您擁有的關於特定收件者的資料和資訊，根據每位收件者調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
 
-Adobe Campaign簡化了個人化：您可以使用單一畫面為每個收件者顯示不同型別的自訂內容 [訊息範本](create-templates.md). 在您的交易式訊息（例如購買確認或購物車放棄電子郵件）中，在單一電子郵件範本中包含每個人的產品清單資訊。
+Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-templates.md)，顯示針對每個收件者自訂的不同內容型別。 在您的交易式訊息（例如購買確認或購物車放棄電子郵件）中，在單一電子郵件範本中包含每個人的產品清單資訊。
 
 
-## 個人化策略 {#personalization-strategy}
+## Personalization策略 {#personalization-strategy}
 
 使用 Campaign 建立動態內容並傳送個人化訊息。可合併個人化功能以改善您的訊息並建立自訂的使用者體驗。
 
@@ -47,11 +47,11 @@ Adobe Campaign簡化了個人化：您可以使用單一畫面為每個收件者
 
 ## 護欄和建議{#perso-guardrails}
 
-### 個人化逾時{#perso-timeout}
+### Personalization逾時{#perso-timeout}
 
 若要改善傳送保護，您可以設定個人化階段的逾時期間。
 
-在 **[!UICONTROL Delivery]** 的標籤 **[!UICONTROL Delivery properties]**，選取最大值（以秒為單位） **[!UICONTROL Maximum personalization run time]** 選項。
+在&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Maximum personalization run time]**&#x200B;選項的最大值（以秒為單位）。
 
 在預覽或傳送期間，如果個人化階段超過您在此欄位中設定的最大時間，流程將中止，並出現錯誤訊息，傳送將失敗。
 
@@ -62,7 +62,7 @@ Adobe Campaign簡化了個人化：您可以使用單一畫面為每個收件者
 
 ### 內部變數{#internal-variables}
 
-下列變數是可用於個人化的內部變數，但不得修改： **傳遞**， **message**， **資料來源**， **targetdata**， **提供者**， **抵用券**， **抵用券值**， **主張**.
+下列變數是可用於個人化的內部變數，但不可修改： **傳遞**、**訊息**、**資料來源**、**targetData**、**提供者**、**抵用券**、**抵用券值**、**主張**。
 
 
 ## 教學課程影片 {#personalization-video}

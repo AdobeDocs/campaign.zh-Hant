@@ -25,15 +25,15 @@ ht-degree: 1%
 
 ### 步驟1 — 根據立方體建立報表 {#step-1---create-a-report-based-on-a-cube}
 
-一旦 [已設定多維度資料集](cube-indicators.md)，可作為建立新報告的範本。
+設定[Cube](cube-indicators.md)後，便可作為建立新報告的範本。
 
 若要根據現有的立方結構建立報告，請遵循下列步驟：
 
-1. 按一下 **[!UICONTROL Create]** 的按鈕 **[!UICONTROL Reports]** 頁簽並選取您剛建立的立方結構。
+1. 按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，然後選取您剛建立的Cube。
 
    ![](assets/new-report-based-on-cube.png)
 
-1. 按一下 **[!UICONTROL Create]** 按鈕以確認：這會將您帶往報告設定和檢視頁面。
+1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕以確認：這會將您導向至報告設定和檢視頁面。
 
    依預設，前兩個可用尺寸以行和欄提供，但表格中不顯示任何值。 若要產生表格，請按一下主圖示：
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 預設顯示會顯示立方結構的前兩個維度（在此例中是年齡和城市）。
 
-此 **[!UICONTROL Add]** 每個軸上的按鈕可讓您新增維度。
+每個軸上的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕可讓您新增維度。
 
 ![](assets/cube-switch.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    這些引數取決於所選維度的資料型別。
 
-   例如，日期有數個層級可供使用。 有關詳細資訊，請參閱 [顯示量值](customize-cubes.md#display-measures).
+   例如，日期有數個層級可供使用。 如需詳細資訊，請參閱[顯示量值](customize-cubes.md#display-measures)。
 
    在這種情況下，可使用下列選項：
 
@@ -77,9 +77,9 @@ ht-degree: 1%
    * 以遞增(a-z、0-9)或遞減(z-a、9-0)順序顯示值。
    * 變更載入時顯示的欄數（預設為： 200）。
 
-1. 按一下 **[!UICONTROL Ok]** 確認：將維度新增至現有維度。
+1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以確認：維度已新增至現有維度。
 
-   表格上方的黃色橫幅顯示您已進行變更：按一下 **[!UICONTROL Save]** 按鈕以儲存它們。
+   表格上方的黃色橫幅顯示您已進行變更：按一下「**[!UICONTROL Save]**」按鈕以儲存變更。
 
    ![](assets/cube-in-report.png)
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![](assets/cube-measure-button.png)
 
-1. 使用 **[!UICONTROL Use a measure]** 按鈕，選取其中一個現有的測量。
+1. 使用&#x200B;**[!UICONTROL Use a measure]**&#x200B;按鈕，選取其中一個現有的測量。
 
    ![](assets/cube-add-measure.png)
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
    ![](assets/cube-measure-options.png)
 
-   整體測量組態也可透過 **[!UICONTROL Edit the configuration of the pivot table]** 圖示來識別。
+   整體量值設定也可透過標頭中的&#x200B;**[!UICONTROL Edit the configuration of the pivot table]**&#x200B;圖示取得。
 
    ![](assets/cube-pivot-table-config.png)
 
    然後，您可以選擇是否要顯示測量標籤。 [了解更多](customize-cubes.md#configure-the-display)。
 
-1. 您可以根據現有測量來建置新測量。 若要這麼做，請按一下 **[!UICONTROL Create a measure]** 並加以設定。
+1. 您可以根據現有測量來建置新測量。 若要這麼做，請按一下&#x200B;**[!UICONTROL Create a measure]**&#x200B;並加以設定。
 
    ![](assets/cube-create-new-measure.png)
 
@@ -125,9 +125,9 @@ ht-degree: 1%
 
    ![](assets/cube-display-new-measure.png)
 
-   建立測量之後，即可編輯並變更其組態。 若要這麼做，請按一下 **[!UICONTROL Measures]** 按鈕，然後瀏覽至要編輯之測量的標籤。
+   建立測量之後，即可編輯並變更其組態。 若要這麼做，請按一下&#x200B;**[!UICONTROL Measures]**&#x200B;按鈕，然後瀏覽至要編輯之量值的索引標籤。
 
-   然後按一下 **[!UICONTROL Edit the dynamic measure]** 以存取設定功能表。
+   然後按一下&#x200B;**[!UICONTROL Edit the dynamic measure]**&#x200B;以存取設定功能表。
 
 ## 建立目標母體 {#build-a-target-population}
 
@@ -135,23 +135,23 @@ ht-degree: 1%
 
 若要將母體分組到清單中，請遵循下列步驟：
 
-1. 按一下包含要收集之母體的儲存格加以選取，然後按一下 **[!UICONTROL Add to cart]** 圖示。
+1. 按一下包含要收集之母體的儲存格以選取它們，然後按一下&#x200B;**[!UICONTROL Add to cart]**&#x200B;圖示。
 
    ![](assets/cube-add-to-cart.png)
 
    收集各種設定檔所需的時間
 
-1. 按一下 **[!UICONTROL Show cart]** 按鈕以在執行匯出之前檢視其內容。
+1. 在執行匯出之前，按一下&#x200B;**[!UICONTROL Show cart]**&#x200B;按鈕以檢視其內容。
 
    ![](assets/cube-show-cart.png)
 
-1. 使用 **[!UICONTROL Export]** 按鈕將購物車中的專案分組到清單中。
+1. 使用&#x200B;**[!UICONTROL Export]**&#x200B;按鈕將購物車中的專案分組到清單中。
 
    輸入清單名稱，並選取要執行的匯出型別。
 
    ![](assets/cube-export-report.png)
 
-   按一下 **[!UICONTROL Start]** 以執行匯出。
+   按一下&#x200B;**[!UICONTROL Start]**&#x200B;以執行匯出。
 
 1. 匯出完成後，訊息會確認其執行以及已處理的記錄數。
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
    您可以儲存購物車的內容或將其清空。
 
-   新清單可透過 **[!UICONTROL Profiles and targets]** 標籤。
+   新清單可透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤取得。
 
    ![](assets/cube-list-available.png)
 
@@ -171,8 +171,8 @@ ht-degree: 1%
 
    ![](assets/cube-insert-in-report.png)
 
-1. 在 **[!UICONTROL Data]** 頁簽中，選取立方結構以處理其所包含的維度，並顯示計算的計量。
+1. 在頁面的&#x200B;**[!UICONTROL Data]**&#x200B;頁簽中，選取要處理其所包含維度的Cube，並顯示計算的計量。
 
    ![](assets/cube-selected-in-report.png)
 
-   這可讓您建立要顯示的報表。 有關詳細資訊，請參閱 [步驟2 — 選取行和欄](#step-2---select-lines-and-columns).
+   這可讓您建立要顯示的報表。 如需詳細資訊，請參閱[步驟2 — 選取行和欄](#step-2---select-lines-and-columns)。

@@ -16,11 +16,11 @@ ht-degree: 6%
 
 使用Adobe Campaign建立及監控您的資訊服務（例如電子報），並管理這些服務的訂閱/取消訂閱。 數個服務可並行定義，例如：特定產品類別、網站主題或區域的專業電子報、各種警報訊息型別的訂閱和即時通知。
 
-瞭解如何建立資訊服務、傳送Newsletter以及管理加入和退出 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}中瞭解如何建立資訊服務、傳送Newsletter及管理選擇加入和選擇退出
 
 若要訂閱（選擇加入）服務的設定檔，可用選項包括：
 
-* 手動將服務新增至收件者設定檔：若要這麼做，請從 **[!UICONTROL Subscriptions]** 索引標籤中，按一下 **[!UICONTROL Add]** 並選取相關的資訊服務。
+* 手動將服務新增至收件者設定檔：若要這麼做，請從其設定檔的&#x200B;**[!UICONTROL Subscriptions]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取相關的資訊服務。
 
   ![](assets/subscribe-to-a-service.png)
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 * 匯入收件者並自動訂閱資訊服務。 若要這麼做，請選取匯入精靈最後一步中涉及的服務。
 
-  進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
+  深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}。
 
 * 使用網路表單，讓收件者可以訂閱服務。
 
@@ -49,14 +49,14 @@ ht-degree: 6%
 
   ![](assets/web-app.png)
 
-  進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
+  深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}。
 
 
-* 建立目標定位工作流程，並使用 **[!UICONTROL Subscription service]** 活動。
+* 建立目標工作流程並使用&#x200B;**[!UICONTROL Subscription service]**&#x200B;活動。
 
   ![](assets/wf-subscription.png)
 
-  進一步瞭解 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
+  在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}瞭解更多資訊。
 
 若要取消訂閱（選擇退出）服務的設定檔，可用選項包括：
 
@@ -71,12 +71,12 @@ ht-degree: 6%
 * 指定資訊服務的期間限制：當有效期間過期時，收件者會自動取消訂閱。 此期間在服務屬性的[編輯]索引標籤中指定。 以天為單位表示。
 * 設定母體的取消訂閱工作流程。
 
-進一步瞭解 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
+深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}。
 
 
 >[!CAUTION]
 >
->在的內容中 [企業(FFDA)部署](../architecture/enterprise-deployment.md)，訂閱和取消訂閱為 **非同步** 程式。 每小時都會處理選擇加入和選擇退出請求。 [了解更多](../architecture/new-apis.md#sub-apis)
+>在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，訂閱和取消訂閱是&#x200B;**非同步**&#x200B;程式。 每小時都會處理選擇加入和選擇退出請求。 [了解更多](../architecture/new-apis.md#sub-apis)
 
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 

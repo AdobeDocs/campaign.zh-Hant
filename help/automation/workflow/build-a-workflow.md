@@ -18,19 +18,19 @@ ht-degree: 1%
 
 工作流程建立流程取決於工作流程的型別。 您可以：
 
-* 建立 [目標工作流程](#targeting-workflows) 從 **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** 瀏覽器的節點或從 **[!UICONTROL Profiles and Targets]** 首頁的索引標籤，透過 **[!UICONTROL Targeting workflows]** 子標籤。
+* 從Explorer的&#x200B;**[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**&#x200B;節點或首頁的&#x200B;**[!UICONTROL Profiles and Targets]**&#x200B;索引標籤，透過&#x200B;**[!UICONTROL Targeting workflows]**&#x200B;子索引標籤建立[目標工作流程](#targeting-workflows)。
 
   ![](assets/create-targeting-wf.png)
 
-* 建立 [行銷活動工作流程](#campaign-workflows) 從 **[!UICONTROL Targeting and workflows]** 行銷活動的標籤
+* 從行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤建立[行銷活動工作流程](#campaign-workflows)
 
-* 建立 [技術工作流程](#technical-workflows) 從 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** Explorer節點。 最佳實務是建立特定的工作流程資料夾，以儲存您的技術工作流程。
+* 從總管的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**&#x200B;節點建立[技術工作流程](#technical-workflows)。 最佳實務是建立特定的工作流程資料夾，以儲存您的技術工作流程。
 
-按一下 **[!UICONTROL New]** 按鈕的工作流程清單上方。
+按一下位於工作流程清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 
 ![](assets/create_a_wf_icon.png)
 
-輸入標籤並按一下 **[!UICONTROL Save]**.
+輸入標籤並按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 新增和連結活動 {#add-and-link-activities}
 
@@ -44,20 +44,20 @@ ht-degree: 1%
 
 活動會依浮動視窗的不同標籤中的類別分組。 可用的標籤和活動會依工作流程型別（技術、目標定位或行銷活動工作流程）而有所不同。
 
-* 第一個標籤包含定位和資料操作活動。 這些活動的詳細資訊，請參見 [目標定位活動](targeting-activities.md).
-* 第二個索引標籤包含排程活動，主要用於協調其他活動。 這些活動的詳細資訊，請參見 [流量控制活動](flow-control-activities.md).
-* 第三個標籤包含可用於工作流程的工具和動作。 這些活動的詳細資訊，請參見 [動作活動](action-activities.md).
-* 第四個索引標籤包含取決於指定事件的活動，例如收到電子郵件或檔案抵達伺服器。 這些活動的詳細資訊，請參見 [事件活動](event-activities.md).
+* 第一個標籤包含定位和資料操作活動。 [目標定位活動](targeting-activities.md)中會詳細說明這些活動。
+* 第二個索引標籤包含排程活動，主要用於協調其他活動。 在[流量控制活動](flow-control-activities.md)中會詳細說明這些活動。
+* 第三個標籤包含可用於工作流程的工具和動作。 在[動作活動](action-activities.md)中會詳細說明這些活動。
+* 第四個索引標籤包含取決於指定事件的活動，例如收到電子郵件或檔案抵達伺服器。 [事件活動](event-activities.md)中會詳細說明這些活動。
 
 建立圖表
 
 1. 在浮動視窗中選取活動，並使用拖放操作將其移至圖表，以新增活動。
 
-   新增 **開始** 活動，然後是 **傳遞** 活動在圖表上。
+   在圖表上新增&#x200B;**開始**&#x200B;活動，然後新增&#x200B;**傳遞**&#x200B;活動。
 
    ![](assets/new-workflow-3.png)
 
-1. 拖曳「 」，將活動連結在一起 **開始** 活動轉換並將其放置到 **傳遞** 活動。
+1. 將&#x200B;**開始**&#x200B;活動轉變拖曳至&#x200B;**傳遞**&#x200B;活動，將活動連結在一起。
 
    ![](assets/new-workflow-4.png)
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->您可以在相同的工作流程中複製和貼上活動。 不過，我們不建議跨不同的工作流程複製貼上活動。 某些附加至傳送和排程器等活動的設定，在執行目標工作流程時可能會導致衝突和錯誤。 我們建議您  **複製** 工作流程。 如需詳細資訊，請參閱 [複製工作流程](#duplicate-workflows).
+>您可以在相同的工作流程中複製和貼上活動。 不過，我們不建議跨不同的工作流程複製貼上活動。 某些附加至傳送和排程器等活動的設定，在執行目標工作流程時可能會導致衝突和錯誤。 我們建議您&#x200B;**複製**&#x200B;工作流程。 如需詳細資訊，請參閱[重複的工作流程](#duplicate-workflows)。
 
 您可以使用下列元素來變更圖表的顯示和版面配置：
 
@@ -90,23 +90,23 @@ ht-degree: 1%
 
 * **物件對齊方式**
 
-  若要對齊圖示，請選取圖示並按一下 **[!UICONTROL Align vertically]** 或 **[!UICONTROL Align horizontally]** 圖示。
+  若要對齊圖示，請選取圖示並按一下&#x200B;**[!UICONTROL Align vertically]**&#x200B;或&#x200B;**[!UICONTROL Align horizontally]**&#x200B;圖示。
 
-  使用 **CTRL** 鍵可選取數個分散的活動，或取消選取一或多個活動。 按一下圖表背景以取消選取所有專案。
+  使用&#x200B;**CTRL**&#x200B;鍵選取數個分散的活動，或取消選取一或多個活動。 按一下圖表背景以取消選取所有專案。
 
 * **影像管理**
 
-  您可以自訂圖表的背景影像以及與各種活動相關的影像。 請參閱 [變更活動影像](change-activity-images.md).
+  您可以自訂圖表的背景影像以及與各種活動相關的影像。 請參閱[變更活動影像](change-activity-images.md)。
 
 ## 設定活動 {#configure-activities}
 
-連按兩下活動以進行設定，或按一下右鍵並選取 **[!UICONTROL Open...]**.
+連按兩下活動以進行設定，或按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Open...]**。
 
 >[!NOTE]
 >
->行銷活動工作流程活動的詳情，請參閱 [本節](activities.md).
+>行銷活動工作流程活動在[本節](activities.md)中有詳細說明。
 
-第一個索引標籤包含基本設定。 此 **[!UICONTROL Advanced]** tab包含其他引數，這些引數專用於定義發生錯誤時的行為、指定活動的執行持續時間以及輸入初始化指令碼。
+第一個索引標籤包含基本設定。 **[!UICONTROL Advanced]**&#x200B;索引標籤包含其他引數，這些引數特別用於定義發生錯誤時的行為、指定活動的執行持續時間以及輸入初始化指令碼。
 
 為了更清楚瞭解活動及改善工作流程易讀性，您可以在活動中輸入註解。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 您可以根據現有範本建立新的工作流程範本，或直接將工作流程變更為範本。
 
-工作流程範本儲存在 **[!UICONTROL Resources > Templates > Workflow templates]** Explorer節點。
+工作流程範本儲存在總管的&#x200B;**[!UICONTROL Resources > Templates > Workflow templates]**&#x200B;節點中。
 
 除了一般的工作流程屬性外，範本屬性可讓您為根據此範本建立的工作流程指定執行檔案。
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 Adobe建議複製工作流程，而非執行活動的複製/貼上。 複製活動時，會保留其所有設定。 若是管道活動，也會複製與活動相關聯的傳送物件，這可能會造成重大問題。
 
 1. 在工作流程上按一下右鍵。
-1. 按一下 **複製**.
+1. 按一下&#x200B;**複製**。
 
    ![](assets/duplicate-workflows.png)
 

@@ -33,12 +33,12 @@ ht-degree: 0%
 
 檔案可以在行銷活動層級（內容檔案）或方案層級（一般檔案）相關聯。
 
-對於行銷活動， **[!UICONTROL Documents]** 索引標籤包含：
+對於行銷活動，**[!UICONTROL Documents]**&#x200B;索引標籤包含：
 
 * 內容所需的所有檔案清單（範本、影像等） 這些軟體可由具有適當許可權的Adobe Campaign運運算元在本機下載，
 * 包含路由器資訊的檔案（如果有的話）。
 
-檔案透過連結至方案或行銷活動 **[!UICONTROL Edit > Documents]** 標籤。
+檔案透過&#x200B;**[!UICONTROL Edit > Documents]**&#x200B;索引標籤連結至方案或行銷活動。
 
 ![](assets/op_add_document.png)
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 ![](assets/add_a_document_in_op.png)
 
-按一下 **[!UICONTROL Detail...]** 圖示可檢視檔案內容並新增資訊：
+按一下&#x200B;**[!UICONTROL Detail...]**&#x200B;圖示以檢視檔案內容並新增資訊：
 
 ![](assets/add_document_details.png)
 
-在控制面板中，與行銷活動相關聯的檔案會分組在 **[!UICONTROL Document(s)]** 區段，如下列範例所示：
+在控制面板中，與行銷活動相關聯的檔案會分組到&#x200B;**[!UICONTROL Document(s)]**&#x200B;區段，如下列範例所示：
 
 ![](assets/edit_documents.png)
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 傳遞大網是結構化的元素集（檔案、商店、促銷優惠券等） 由公司針對特定行銷活動所建立。 它用於直接郵件傳遞的情境下。
 
-這些元素會分組在傳遞大網中，而每個傳遞大網都會與一個傳遞相關聯；其將在傳送至的擷取檔案中參考 **服務提供者** 以便附加至傳遞。 例如，您可以建立參考單位及其使用之行銷手冊的傳遞大網。
+這些元素會分組在傳遞大網中，而每個傳遞大網都會與一個傳遞相關聯；在傳送至&#x200B;**服務提供者**&#x200B;的擷取檔案中會參考該專案，以便附加至該傳遞。 例如，您可以建立參考單位及其使用之行銷手冊的傳遞大網。
 
 對於行銷活動，傳遞概要可讓您根據特定條件來建構要與傳遞關聯的外部元素：相關單位、已授與的促銷優惠、本機活動的邀請等。
 
@@ -70,30 +70,30 @@ ht-degree: 0%
 
 ### 建立傳遞大網 {#create-an-outline}
 
-若要建立傳遞大網，請按一下 **[!UICONTROL Delivery outlines]** 中的子標籤 **[!UICONTROL Edit > Documents]** 相關行銷活動的標籤。
+若要建立傳遞大網，請按一下相關行銷活動&#x200B;**[!UICONTROL Edit > Documents]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Delivery outlines]**&#x200B;子索引標籤。
 
 ![](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
 >
->如果您看不到此標籤，表示此功能無法用於此行銷活動，或您的執行個體中未啟用直接郵件傳送。 請參閱 [行銷活動範本設定](marketing-campaign-templates.md#campaign-templates) 或您的授權合約。
+>如果您看不到此標籤，表示此功能無法用於此行銷活動，或您的執行個體中未啟用直接郵件傳送。 請參閱[行銷活動範本組態](marketing-campaign-templates.md#campaign-templates)或您的授權合約。
 
-接下來，按一下 **[!UICONTROL Add a delivery outline]** 並為行銷活動建立大綱階層：
+接著，按一下&#x200B;**[!UICONTROL Add a delivery outline]**&#x200B;並建立行銷活動的大綱階層：
 
-1. 以滑鼠右鍵按一下樹狀結構的根目錄，然後選取 **[!UICONTROL New > Delivery outlines]**.
-1. 用滑鼠右鍵按一下您剛建立的大綱，然後選取 **[!UICONTROL New > Item]** 或 **[!UICONTROL New > Personalization fields]**.
+1. 以滑鼠右鍵按一下樹狀結構的根並選取&#x200B;**[!UICONTROL New > Delivery outlines]**。
+1. 用滑鼠右鍵按一下您剛建立的大綱，然後選取&#x200B;**[!UICONTROL New > Item]**&#x200B;或&#x200B;**[!UICONTROL New > Personalization fields]**。
 
 ![](assets/del-outline-add-new-item.png)
 
 大綱可包含專案、個人化欄位和選件：
 
 * 專案可以是實體檔案，例如，此處會參照和說明，且會附加至傳遞。
-* 個人化欄位可讓您建立與傳送相關的個人化元素，而非收件者。 因此，您可以建立用於特定目標之傳送的值（歡迎優惠、折扣等） 它們是在Adobe Campaign中建立，並透過匯入大綱 **[!UICONTROL Import personalization fields...]** 連結。
+* 個人化欄位可讓您建立與傳送相關的個人化元素，而非收件者。 因此，您可以建立用於特定目標之傳送的值（歡迎優惠、折扣等） 它們是在Adobe Campaign中建立並透過&#x200B;**[!UICONTROL Import personalization fields...]**&#x200B;連結匯入大綱。
 
   ![](assets/del-outline-perso-field.png)
 
-  也可以直接在大綱中建立，方法是按一下 **[!UICONTROL Add]** 圖示加以顯示。
+  也可以按一下清單區域右邊的&#x200B;**[!UICONTROL Add]**&#x200B;圖示，直接在大綱中建立它們。
 
   ![](assets/add-del-outline-button.png)
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 ![](assets/delivery-outline-selected.png)
 
-此 **[!UICONTROL Summary]** 傳遞的索引標籤也會顯示此資訊：
+傳遞的&#x200B;**[!UICONTROL Summary]**&#x200B;標籤也會顯示這項資訊：
 
 ![](assets/delivery-outline-in-dashboard.png)
 
@@ -120,4 +120,4 @@ ht-degree: 0%
 
 ![](assets/campaign-export-template.png)
 
-匯出模型必須與為相關傳遞選取的服務提供者相關聯。 另請參閱 [本節](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+匯出模型必須與為相關傳遞選取的服務提供者相關聯。 請參閱[此節](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)。

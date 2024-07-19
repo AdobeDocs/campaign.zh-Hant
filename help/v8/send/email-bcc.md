@@ -24,11 +24,11 @@ ht-degree: 1%
 您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項可讓您以密件副本（密件副本）專用的電子郵件地址傳送訊息，以便使用外部系統處理和封存訊息。
 Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相對應的.eml檔案可接著傳輸至遠端伺服器，例如SMTP電子郵件伺服器。
 
-封存目的地是您選擇的密件副本電子郵件地址，傳遞收件者將看不到該地址。 定義密件副本電子郵件地址後，您必須在 [傳遞範本](create-templates.md) 層級。
+封存目的地是您選擇的密件副本電子郵件地址，傳遞收件者將看不到該地址。 定義密件副本電子郵件地址後，您必須在[傳遞範本](create-templates.md)層級啟用專用選項。
 
 >[!NOTE]
 >
->作為「受管理的Cloud Service」使用者， [連絡人Adobe](../start/campaign-faq.md#support){target="_blank"} 以傳達要用於封存的密件副本電子郵件地址。
+>作為Managed Cloud Service使用者，[連絡Adobe](../start/campaign-faq.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
 
 >[!CAUTION]
 >
@@ -37,12 +37,12 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 ## 啟用電子郵件密件副本 {#enable-bcc}
 
-啟用特定密件副本的方式 [傳遞範本](create-templates.md)，請遵循下列步驟：
+若要啟用特定[傳遞範本](create-templates.md)的密件副本，請遵循下列步驟：
 
-1. 從Campaign檔案總管瀏覽至傳遞範本資料夾。 依預設，傳遞範本會儲存在 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 資料夾。
+1. 從Campaign檔案總管瀏覽至傳遞範本資料夾。 依預設，傳遞範本會儲存在&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;資料夾中。
 1. 編輯傳遞範本以使用密件副本進行更新。
 1. 按一下 **[!UICONTROL Properties]** 按鈕。
-1. 從 **[!UICONTROL Delivery]** 索引標籤，核取 **[!UICONTROL Email BCC]** 選項。
+1. 從&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤，核取&#x200B;**[!UICONTROL Email BCC]**&#x200B;選項。
 
    ![](assets/email-bcc.png)
 
@@ -58,8 +58,8 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 * 請確定密件副本位址有足夠的接收容量來封存所有傳送的電子郵件。
 
-* 電子郵件密件副本 <!--with Enhanced MTA--> 會在傳遞給收件者之前傳遞給密件副本電子郵件地址，這會導致即使原始傳遞可能已跳出，仍會傳送密件副本訊息。 如需退信的詳細資訊，請參閱 [瞭解傳遞失敗](delivery-failures.md).
+* 電子郵件BCC <!--with Enhanced MTA-->在傳遞給收件者之前會傳遞到BCC電子郵件地址，這可能會導致即使原始傳遞可能已退回，仍會傳送BCC訊息。 如需退信的詳細資訊，請參閱[瞭解傳遞失敗](delivery-failures.md)。
 
-* 傳送至密件副本位址的電子郵件不可開啟或點進，因為這些活動會在中列入考量 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** 傳送分析可能會造成計算錯誤。
+* 傳送至密件副本位址的電子郵件不可開啟或點進，因為傳送分析的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;會考慮這些活動，所以可能會導致計算錯誤。
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

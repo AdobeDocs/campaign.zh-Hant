@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 移轉Campaign運運算元至AdobeIdentity Management系統(IMS) {#migrate-users-to-ims}
 
-自Campaign v8.6開始，改善對Campaign v8的驗證流程。 所有運運算元將使用 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} **僅限** 以連線至Campaign。 不再允許以使用者/密碼（亦稱為原生驗證）連線。 Adobe建議在Campaign v8.5.2中執行此移轉，以便能夠順利移轉至Campaign v8.6。
+自Campaign v8.6開始，改善對Campaign v8的驗證流程。 所有操作員都將使用[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} **only**&#x200B;連線至Campaign。 不再允許以使用者/密碼（亦稱為原生驗證）連線。 Adobe建議在Campaign v8.5.2中執行此移轉，以便能夠順利移轉至Campaign v8.6。
 
 身為Campaign Classic v7 Managed Services客戶，如果您要移轉至Campaign v8，此程式也適用於您。
 
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 ## 哪些部分有所變更？{#move-to-ims-changes}
 
-透過Campaign v8，所有一般使用者應該已透過AdobeAdobe Campaign System (IMS)，使用其Adobe ID連線至Identity Management使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 **從Campaign v8.6開始將不再允許這樣做。**
+透過Campaign v8，所有一般使用者應該已透過AdobeAdobe Campaign System (IMS)，使用其Adobe ID連線至Identity Management使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 **從Campaign v8.6開始，將不再允許這樣做。**
 
-此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術操作員的移轉詳情請參閱中提供的專屬文章 [此頁面](ims-migration.md).
+此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術運運算元的移轉作業在專用文章中有詳細說明，可在[此頁面](ims-migration.md)取得。
 
-此變更適用於從Campaign v8.5.2開始，且將 **強制** 從Campaign v8.6開始。
+此變更適用於Campaign v8.5.2開始，且自Campaign v8.6開始將是&#x200B;**強制性**。
 
 ## 您有受到影響嗎？{#migrate-ims-impacts}
 
 如果貴組織中的操作員使用其登入/密碼（亦即）連線至Campaign使用者端主控台， 原生驗證)，您會受到影響，且必須將這些運運算元移轉至Adobe IMS，如下所述。
 
-移轉至 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} 是確保環境安全且標準化的安全性必要條件，因為大部分其他Adobe Experience Cloud解決方案和應用程式皆已在IMS上。
+移轉至[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}是安全必要條件，可讓您的環境安全且標準化，因為大部分其他Adobe Experience Cloud解決方案和應用程式已位於IMS上。
 
 ## 如何移轉？{#ims-migration-procedure}
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 
 1. Adobe會將您的環境升級至Campaign v8.5.2。
 1. 升級後，您仍然可以透過兩種方法建立新使用者，以原生使用者身分或透過IMS。
-1. 您的內部Campaign管理員必須向Campaign使用者端主控台上的所有原生使用者新增唯一電子郵件，並在完成後向Adobe轉變管理員確認。 此步驟的詳細資訊，請參閱 [本節](#ims-migration-id).
+1. 您的內部Campaign管理員必須向Campaign使用者端主控台上的所有原生使用者新增唯一電子郵件，並在完成後向Adobe轉變管理員確認。 此步驟在[此區段](#ims-migration-id)中有詳細說明。
 1. 與Adobe合作，確保Adobe的日期，以針對您的非技術使用者（操作員）和產品設定檔執行自動移轉。 此步驟需要一小時的時段，您的任何執行個體都沒有停機時間。
 1. 您的內部Campaign管理員會驗證這些變更，並提供簽核服務。 移轉後，您再也不能建立任何以他的登入和密碼進行驗證的進一步運運算元。
 
-您現在可以將技術運運算元移轉至Adobe Developer主控台，如所述 [此技術檔案](ims-migration.md). 如果您使用Campaign API，則此步驟為必要步驟。
+您現在可以將技術操作員移轉至Adobe Developer Console，如[此技術檔案](ims-migration.md)所詳述。 如果您使用Campaign API，則此步驟為必要步驟。
 
 此移轉一旦完成，請向您的Adobe轉變管理員確認：Adobe接著將移轉標示為完成，並封鎖建立新的原生使用者和原生使用者登入。 接著您的環境就會受到保護並標準化。
 
@@ -55,13 +55,13 @@ ht-degree: 1%
 
 ### 何時可以開始移轉？ {#ims-migration-start}
 
-移轉至「 」的先決條件 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"} 是將您的環境升級至Campaign v8.5.2。
+移轉至[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}的先決條件是將您的環境升級至Campaign v8.5.2。
 
 升級到Campaign v8.5.2後，您可以在中繼環境中開始IMS移轉，並據此規劃生產環境。
 
 ### 組建版本升級至Campaign v8.5.2後會發生什麼事？ {#ims-migration-after-upgrade}
 
-環境升級至Campaign v8.5.2後，您就可以開始轉變至 [AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}.
+環境升級至Campaign v8.5.2後，您就可以開始轉換至[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 
 在IMS移轉完成之前，仍允許建立新的原生使用者。
 
@@ -76,15 +76,15 @@ ht-degree: 1%
 
 對於新客戶 — 不允許從頭開始建立新的原生使用者。
 
-身為Campaign管理員，您可以透過Adobe Admin Console和Campaign使用者端主控台將許可權授與組織的使用者。 使用者使用其Adobe ID登入Adobe Campaign。 進一步瞭解 [本檔案](../../v8/start/gs-permissions.md).
+身為Campaign管理員，您可以透過Adobe Admin Console和Campaign使用者端主控台將許可權授與組織的使用者。 使用者使用其Adobe ID登入Adobe Campaign。 深入瞭解[此檔案](../../v8/start/gs-permissions.md)。
 
 ### 如何為目前原生使用者新增電子郵件？ {#ims-migration-id}
 
 身為Campaign管理員，您必須從使用者端主控台新增電子郵件ID至所有原生使用者。 若要執行此作業，請依照下列步驟操作：
 
-1. 連線到使用者端主控台並瀏覽至 **管理>存取管理>操作者**.
+1. 連線到使用者端主控台，並瀏覽至&#x200B;**管理>存取管理>操作員**。
 1. 在運運算元清單中選取要更新的運運算元。
-1. 輸入操作員的電子郵件，在 **聯絡方式** 運運算元表單的區段。
+1. 在操作員表單的&#x200B;**聯絡點**&#x200B;區段中，輸入操作員的電子郵件。
 1. 儲存您的變更。
 
 身為工作流程主管或Campaign管理員，您也可以使用工作流程對操作員執行大量更新。
@@ -93,29 +93,29 @@ ht-degree: 1%
 
 若要對原生運運算元執行大量更新，請遵循下列步驟：
 
-1. 建立工作流程，將您連線至具有原生驗證模式Campaign的所有運運算元擷取到CSV檔案。 使用 **查詢** 活動和 **資料擷取（檔案）** 建立CSV檔案的活動。 您可以根據每個運運算元的設定檔資料，匯出下列各欄： `Name, Label`.
+1. 建立工作流程，將您連線至具有原生驗證模式Campaign的所有運運算元擷取到CSV檔案。 使用&#x200B;**查詢**&#x200B;活動和&#x200B;**資料擷取（檔案）**&#x200B;活動來建立CSV檔案。 對於每個運運算元，根據它們的設定檔資料，您可以匯出下列資料行： `Name, Label`。
 
-   進一步瞭解 **查詢** 中的活動 [此頁面](../../automation/workflow/query.md)
+   在[此頁面](../../automation/workflow/query.md)中進一步瞭解&#x200B;**查詢**&#x200B;活動
 
-   進一步瞭解 **資料擷取（檔案）** 中的活動 [此頁面](../../automation/workflow/extraction-file.md)
+   深入瞭解[此頁面](../../automation/workflow/extraction-file.md)中的&#x200B;**資料擷取（檔案）**&#x200B;活動
 
 1. 以包含您操作員電子郵件的新欄更新CSV檔案。
 
-1. 建立工作流程以匯入更新的資料，使用 **資料載入（檔案）** 活動和 **更新資料** 活動。
+1. 建立工作流程以匯入更新的資料，在工作流程中有&#x200B;**資料載入（檔案）**&#x200B;活動和&#x200B;**更新資料**&#x200B;活動。
 
    ![](assets/update-operators-wf.png){width="70%"}
 
-1. 編輯 **資料載入（檔案）** 活動，並定義設定以載入更新的CSV檔案，如下面的範例所示。
+1. 編輯&#x200B;**資料載入（檔案）**&#x200B;活動，並定義設定以載入更新的CSV檔案，如以下範例所示。
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   進一步瞭解 **資料載入（檔案）** 中的活動 [此頁面](../../automation/workflow/data-loading-file.md)
+   深入瞭解[此頁面](../../automation/workflow/data-loading-file.md)中的&#x200B;**資料載入（檔案）**&#x200B;活動
 
-1. 編輯 **更新資料** 活動，並依照下列範例定義設定。 請注意 **已更新維度** 已變更為 `Operators (xtk)`.
+1. 編輯&#x200B;**更新資料**&#x200B;活動，並根據下列範例定義設定。 請注意，**已更新的維度**&#x200B;已變更為`Operators (xtk)`。
 
    ![](assets/update-data-activity.png){width="70%"}
 
-   進一步瞭解 **更新資料** 中的活動 [此頁面](../../automation/workflow/update-data.md)
+   在[此頁面](../../automation/workflow/update-data.md)中進一步瞭解&#x200B;**更新資料**&#x200B;活動
 
 1. 執行工作流程並檢查結果。 電子郵件地址已新增到操作員的設定檔。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 ### 如何透過IMS登入Campaign？ {#ims-migration-log}
 
-瞭解如何使用您的Adobe ID連線至Campaign，位於 [本節](../../v8/start/connect.md).
+在[本節](../../v8/start/connect.md)中瞭解如何使用您的Adobe ID連線至Campaign。
 
 ### 此移轉期間是否會有停機時間？ {#ims-migration-downtime}
 
@@ -150,17 +150,17 @@ Adobe強烈建議所有使用者在移轉期間登出。
 
 瞭解如何在Campaign中檢視您的操作員驗證型別：
 
-1. 從 **瀏覽器**，存取 **管理** `>` **存取管理** `>` **運運算元**.
+1. 從&#x200B;**總管**，存取&#x200B;**管理** `>` **存取管理** `>` **操作員**。
 
-1. 以滑鼠右鍵按一下標題列並選取 **設定清單** 功能表。
+1. 以滑鼠右鍵按一下標題列，並選取&#x200B;**設定清單**&#x200B;功能表。
 
    ![](assets/ims_2.png)
 
-1. 新增 **帳戶已停用** 和 **驗證型別** 作為 **輸出欄**.
+1. 將&#x200B;**已停用的帳戶**&#x200B;和&#x200B;**驗證型別**&#x200B;新增為&#x200B;**輸出資料行**。
 
    ![](assets/ims_1.png)
 
-您現在可以看到您的 **運運算元** 及其 **驗證型別**.
+您現在可以看到&#x200B;**操作員**&#x200B;及其&#x200B;**驗證型別**&#x200B;的清單。
 
 ![](assets/ims_3.png)
 

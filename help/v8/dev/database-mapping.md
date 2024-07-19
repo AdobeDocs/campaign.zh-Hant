@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明 {#description}
 
-結構描述的根元素已不存在 **`<srcschema>`**，但 **`<schema>`**.
+結構描述的根專案不再是&#x200B;**`<srcschema>`**，而是&#x200B;**`<schema>`**。
 
 這會將我們帶到另一種型別的檔案，該檔案是從來源結構描述自動產生的，簡稱為結構描述。 Adobe Campaign應用程式將使用此結構描述。
 
@@ -47,7 +47,7 @@ SQL命名規則如下：
 
 * 表格：串連綱要名稱空間和名稱
 
-  在我們的範例中，表格的名稱是透過以下結構描述的主要元素輸入： **sqltable** 屬性：
+  在我們的範例中，資料表的名稱是透過&#x200B;**sqltable**&#x200B;屬性中結構描述的主要元素輸入的：
 
   ```sql
   <element name="recipient" sqltable="CusRecipient">
@@ -55,7 +55,7 @@ SQL命名規則如下：
 
 * 欄位：前面有根據型別定義之前置詞的元素名稱（&#39;i&#39;代表整數，&#39;d&#39;代表雙精度浮點數，&#39;s&#39;代表字串，&#39;ts&#39;代表日期等）
 
-  欄位名稱是透過 **sqlname** 每個型別的屬性 **`<attribute>`** 和 **`<element>`**：
+  欄位名稱是透過每個型別&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;的&#x200B;**sqlname**&#x200B;屬性輸入的：
 
   ```sql
   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -82,9 +82,9 @@ SQL欄位限制如下：
 
 ## XML欄位 {#xml-fields}
 
-依預設，任何輸入的 **`<attribute>`** 和 **`<element>`** 元素對應至資料結構描述表格的SQL欄位。 不過，您可以用XML來參照此欄位，而非SQL，這表示資料會儲存在包含所有XML欄位值的表格之備忘錄欄位(「mData」)中。 這些資料的儲存是觀察結構描述結構的XML檔案。
+依預設，任何型別的&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;專案都會對應到資料結構描述表格的SQL欄位。 不過，您可以用XML來參照此欄位，而非SQL，這表示資料會儲存在包含所有XML欄位值的表格之備忘錄欄位(「mData」)中。 這些資料的儲存是觀察結構描述結構的XML檔案。
 
-若要以XML填入欄位，您必須新增 **xml** 對相關元素具有「true」值的屬性。
+若要在XML中填入欄位，您必須將值為「true」的&#x200B;**xml**&#x200B;屬性新增到相關專案。
 
 **範例**
 

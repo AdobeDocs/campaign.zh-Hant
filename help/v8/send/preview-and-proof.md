@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 預覽和測試您的電子郵件 {#preview-test}
 
-定義訊息內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入 [個人化內容](personalize.md)，您可使用測試設定檔資料檢查此內容在訊息中的顯示方式。 此外，若要偵測訊息內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
+定義訊息內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入[個人化內容](personalize.md)，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。 此外，若要偵測訊息內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
 
 ## 內容預覽{#preview-content}
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 若要預覽訊息內容，請遵循下列步驟：
 
-1. 瀏覽至 **預覽** 傳遞的索引標籤。
-1. 按一下 **[!UICONTROL Test personalization]** 按鈕以選取要填入個人化資料的設定檔。 您可以在資料庫中選擇特定的收件者、種子地址，或從目標母體中選取設定檔（如果已經定義）。 您也可以檢查內容而不進行個人化。
+1. 瀏覽至傳遞的&#x200B;**預覽**&#x200B;標籤。
+1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;按鈕以選取設定檔以填入個人化資料。 您可以在資料庫中選擇特定的收件者、種子地址，或從目標母體中選取設定檔（如果已經定義）。 您也可以檢查內容而不進行個人化。
 
    ![](assets/test-personalization.png)
 
@@ -41,46 +41,46 @@ ht-degree: 3%
 
 ### 校訂收件者 {#proofs-recipients}
 
-校樣目標可以在傳遞範本中定義，或專用於傳遞。 在這兩種情況下，請從瀏覽至目標定義畫面 **[!UICONTROL To]** 連結，然後選取 **[!UICONTROL Target of the proofs]** 標籤。
+校樣目標可以在傳遞範本中定義，或專用於傳遞。 在這兩種情況下，都從&#x200B;**[!UICONTROL To]**&#x200B;連結瀏覽至目標定義畫面，並選取&#x200B;**[!UICONTROL Target of the proofs]**&#x200B;標籤。
 
 ![](assets/target-of-proofs.png)
 
-校樣目標的型別是從 **[!UICONTROL Targeting mode]** 下拉式清單。
+已從&#x200B;**[!UICONTROL Targeting mode]**&#x200B;下拉式清單中選取校訂目標的型別。
 
-* 使用 **[!UICONTROL Definition of a specific proof target]** 在資料庫中選取收件者作為校訂目標的選項。
-* 使用 **[!UICONTROL Substitution of the address]** 用於輸入電子郵件地址並使用目標收件者資料來驗證內容的選項。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
-預設會隨機執行替代，但您可以透過  **[!UICONTROL Detail]** 圖示。
+* 使用&#x200B;**[!UICONTROL Definition of a specific proof target]**&#x200B;選項選取資料庫中的收件者作為校訂目標。
+* 使用&#x200B;**[!UICONTROL Substitution of the address]**選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
+預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-  選擇 **[!UICONTROL Select a profile (must be included in the target)]** 選項並選取收件者。
+  選擇&#x200B;**[!UICONTROL Select a profile (must be included in the target)]**&#x200B;選項並選取收件者。
 
   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
-* 使用 **[!UICONTROL Seed addresses]**  使用種子地址作為證明目標的選項。 這些位址可從檔案匯入或手動輸入。
+* 使用&#x200B;**[!UICONTROL Seed addresses]**&#x200B;選項以使用種子地址作為證明目標。 這些位址可從檔案匯入或手動輸入。
 
   >[!NOTE]
   >
   >種子地址不屬於預設收件者表格(nms：recipient)，這些地址是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
 
-  進一步瞭解中的種子地址 [本節](../audiences/test-profiles.md).
+  在[本節](../audiences/test-profiles.md)中進一步瞭解種子地址。
 
-* 使用 **[!UICONTROL Specific target and Seed addresses]** 結合種子地址和特定電子郵件地址的選項。 相關設定隨後會在兩個單獨的子標籤中定義。
+* 使用&#x200B;**[!UICONTROL Specific target and Seed addresses]**&#x200B;選項結合種子地址和特定的電子郵件地址。 相關設定隨後會在兩個單獨的子標籤中定義。
 
 ### 傳送證明{#proofs-send}
 
 若要傳送訊息校樣，請遵循下列步驟：
 
-1. 在訊息定義畫面中，按一下 **[!UICONTROL Send a proof]** 按鈕。
-1. 從 **[!UICONTROL Send a proof]** 視窗，檢查校樣收件者。
-1. 按一下 **[!UICONTROL Analyze]** 以開始準備校樣訊息。
+1. 在訊息定義畫面中，按一下&#x200B;**[!UICONTROL Send a proof]**&#x200B;按鈕。
+1. 從&#x200B;**[!UICONTROL Send a proof]**&#x200B;視窗，檢查證明收件者。
+1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;開始準備校訂訊息。
 
    ![](assets/send-proof-analyze.png){width="800" align="left"}
 
-1. 傳送準備完成後，請使用 **[!UICONTROL Confirm delivery]** 以開始傳送校樣訊息。
+1. 傳遞準備完成後，請使用&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;開始傳送證明訊息。
 
-瀏覽至 **[!UICONTROL Audit]** 傳遞的索引標籤，以檢查證明副本的傳遞。
+瀏覽至傳遞的&#x200B;**[!UICONTROL Audit]**&#x200B;索引標籤，以檢查證明復本的傳遞。
 
 建議在每次修改訊息內容後傳送校樣。
 
@@ -90,13 +90,13 @@ ht-degree: 3%
 
 ### 校訂屬性{#proofs-properties}
 
-校訂屬性設定在 **[!UICONTROL Advanced]** 傳遞屬性視窗的索引標籤。 瀏覽至 **[!UICONTROL Proof properties...]** 定義引數和校樣標籤的連結。 您可以選擇保留：
+已在傳遞屬性視窗的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中設定校訂屬性。 瀏覽至&#x200B;**[!UICONTROL Proof properties...]**&#x200B;連結以定義引數和校訂的標籤。 您可以選擇保留：
 
 * 證明中的重複地址
 * 校訂中的已加入封鎖清單的地址
 * 證明中的隔離地址
 
-依預設，校樣訊息由 `Proof #N` 在主題中提及，其中 `N` 是校訂號碼。 此數字會隨著每個證明傳遞分析而增加。 您可以變更 `proof` 前置詞（視需要）。
+根據預設，主旨中的`Proof #N`提及可識別校訂訊息，其中`N`為校訂號碼。 此數字會隨著每個證明傳遞分析而增加。 您可以視需要變更`proof`首碼。
 
 ![](assets/proof-parameters.png){width="800" align="left"}
 

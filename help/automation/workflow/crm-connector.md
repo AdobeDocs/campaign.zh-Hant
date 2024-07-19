@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # CRM 連結器{#crm-connector}
 
-此 **CRM聯結器** 活動可讓您設定Adobe Campaign與CRM系統之間的資料同步。
+**CRM聯結器**&#x200B;活動可讓您設定Adobe Campaign與CRM系統之間的資料同步。
 
 使用此活動，您可以：
 
@@ -28,4 +28,4 @@ ht-degree: 10%
 
 ![](assets/crm_task_select_obj.png)
 
-如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱 [本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.
+如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}。

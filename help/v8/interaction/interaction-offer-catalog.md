@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # 建立優惠方案目錄
 
-作為 **優惠方案管理員**，即由您負責建立優惠方案目錄。
+作為&#x200B;**優惠方案管理員**，您負責建立優惠方案目錄。
 
 優惠方案目錄與單一預先存在的環境相關聯。 此目錄中的選件只能與此相同環境中指定的空間相關聯。
 
-在建立優惠方案之前，您必須先指定 [環境](interaction-env.md) 包含一組優惠方案的所有特性（適用性、目標限制、簡報規則），並依類別及其空間清單排序。
+建立優惠方案之前，您必須先指定一個[環境](interaction-env.md)，其中包含一組優惠方案的所有特性（適用性、目標限制、簡報規則），並依類別排序，以及其空格清單。
 
 ## 建立優惠類別{#creating-offer-categories}
 
-選件會整理成類別/子類別。 類別建立於 **[!UICONTROL Design]** 環境，並自動部署於 **[!UICONTROL Live]** 環境（亦即提供使用）中的優惠方案獲核準時。 此 **[!UICONTROL Design]** 環境包含接收所有優惠方案的預設類別。 可以建立子類別以將階層新增至目錄優惠方案。
+選件會整理成類別/子類別。 類別是在&#x200B;**[!UICONTROL Design]**&#x200B;環境中建立，並在其包含的優惠方案獲得核準時自動部署在&#x200B;**[!UICONTROL Live]**&#x200B;環境中（亦即可供使用）。 **[!UICONTROL Design]**&#x200B;環境包含接收所有優惠方案的預設類別。 可以建立子類別以將階層新增至目錄優惠方案。
 
-您可以為每個類別定義 **適用日期**，即可將類別中包含的優惠方案顯示給其目標的期間。 您也可以調整類別的權重，以排定優惠方案簡報的優先順序。
+對於每個類別，您可以定義&#x200B;**適用日期**，這是類別中包含的優惠方案可以呈現給其目標的期間。 您也可以調整類別的權重，以排定優惠方案簡報的優先順序。
 
 若要建立新類別，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL Offer catalog]** 資料夾。
+1. 瀏覽器至&#x200B;**[!UICONTROL Offer catalog]**&#x200B;資料夾。
 
    ![](assets/offer_cat_create_001.png)
 
-1. 按一下右鍵並選取 **[!UICONTROL Create a new "Offer category" folder]** 下拉式清單中的。
+1. 按一下滑鼠右鍵並從下拉式清單中選取&#x200B;**[!UICONTROL Create a new "Offer category" folder]**。
 
    ![](assets/offer_cat_create_002.png)
 
-1. 重新命名類別。 您稍後可以使用 **[!UICONTROL General]** 標籤。
+1. 重新命名類別。 您稍後可以使用&#x200B;**[!UICONTROL General]**&#x200B;索引標籤來編輯標籤。
 
    ![](assets/offer_cat_create_003.png)
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 
    此後，您可以視需要：
 
-   * 從以下日期指派適用日期： **[!UICONTROL Eligibility]** 標籤。
+   * 從&#x200B;**[!UICONTROL Eligibility]**&#x200B;索引標籤指派適用日期。
 
      ![](assets/offer_cat_create_004.png)
 
-   * **[!UICONTROL Edit query]** 將篩選器套用至優惠方案目標。
+   * **[!UICONTROL Edit query]**&#x200B;將篩選器套用至優惠目標。
 
-   * 適用性規則的回顧。若要檢視，請按一下 **[!UICONTROL Schedule and eligibility rules of the offer]** 連結。
+   * 資格規則的回顧。若要檢視，請按一下&#x200B;**[!UICONTROL Schedule and eligibility rules of the offer]**&#x200B;連結。
 
 ## 新增遞補類別
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 若要在建議中包含遞補類別，請遵循下列步驟：
 
 1. 瀏覽至優惠方案目錄。
-1. 按一下 **[!UICONTROL Eligibility]** 標籤並選取 **[!UICONTROL Always include this category in the recommendations]** 選項。
+1. 按一下「**[!UICONTROL Eligibility]**」索引標籤並選取&#x200B;**[!UICONTROL Always include this category in the recommendations]**&#x200B;選項。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](assets/offer_cat_default_001.png)

@@ -14,7 +14,7 @@ ht-degree: 8%
 
 您可以使用工作流程活動來執行多項工作。 尋找以下使用範例，說明如何透過建立清單、管理訂閱、透過工作流程傳送訊息，或豐富您的傳送內容及其閱聽眾，來更新資料庫。
 
-以下提供一組工作流程使用案例： [本節](workflow-use-cases.md).
+[此區段](workflow-use-cases.md)提供一組工作流程使用案例。
 
 ## 資料生命週期 {#data-life-cycle}
 
@@ -34,7 +34,7 @@ ht-degree: 8%
 
   ![](assets/wf-right-click-display.png)
 
-  您可以在下列位置存取工作表的結構： **[!UICONTROL Schema]** 標籤。
+  您可以在&#x200B;**[!UICONTROL Schema]**&#x200B;索引標籤中存取工作表結構。
 
   ![](assets/wf-right-click-schema.png)
 
@@ -44,9 +44,9 @@ ht-degree: 8%
 
   使用此功能表存取描述性分析精靈，讓您產生轉換資料的統計資料和報表。
 
-  瞭解如何在中使用描述性分析精靈 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}.
+  在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}中瞭解如何使用描述性分析精靈。
 
-在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：檢查 **[!UICONTROL Keep the result of interim populations between two executions]** 工作流程屬性中的選項。
+在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：核取工作流程屬性中的&#x200B;**[!UICONTROL Keep the result of interim populations between two executions]**&#x200B;選項。
 
 ![](assets/wf-purge-data-option.png)
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 ### 善用目標資料 {#target-data}
 
-儲存在工作流程臨時工作表中的資料可用於個人化任務。 資料可用於 [個人化欄位](../../v8/send/personalization-fields.md).
+儲存在工作流程臨時工作表中的資料可用於個人化任務。 資料可用於[個人化欄位](../../v8/send/personalization-fields.md)。
 
 舉例來說，這可讓您在傳送中使用透過清單所收集的資料。 要執行此操作，請使用下列語法：
 
@@ -85,25 +85,25 @@ ht-degree: 8%
    [...]
    ```
 
-   若要載入檔案，請設定 **[!UICONTROL Data loading (file)]** 活動如下：
+   若要載入檔案，請設定&#x200B;**[!UICONTROL Data loading (file)]**&#x200B;活動，如下所示：
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. 設定 **[!UICONTROL Enrichment]** 協調收集之資料與Adobe Campaign資料庫中之資料的活動。 調解金鑰是帳號：
+1. 設定&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動，將收集的資料與Adobe Campaign資料庫中已存在的資料進行調解。 調解金鑰是帳號：
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. 然後設定 **[!UICONTROL Delivery]**：此變數會根據範本建立，收件者則由入站轉變指定。
+1. 然後設定&#x200B;**[!UICONTROL Delivery]**：它是根據範本建立的，收件者是由入站轉變所指定。
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >只有轉換中包含的資料才可用來個人化傳遞。 **targetdata** 型別個人化欄位僅適用於 **[!UICONTROL Delivery]** 活動。
+   >只有轉換中包含的資料才可用來個人化傳遞。 **targetData**&#x200B;型別個人化欄位僅適用於&#x200B;**[!UICONTROL Delivery]**&#x200B;活動的傳入母體。
 
 1. 在傳遞範本中，使用在工作流程中收集的欄位。
 
-   要執行此操作，請插入 **[!UICONTROL Target extension]** 輸入個人化欄位。
+   若要這麼做，請插入&#x200B;**[!UICONTROL Target extension]**&#x200B;型別個人化欄位。
 
    ![](assets/wf-targetdata-sample-5.png)
 
@@ -113,7 +113,7 @@ ht-degree: 8%
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   **[!UICONTROL Target extension]** (targetData)型別資料會使用與所有個人化欄位相同的特性，插入傳遞中。 它們也可用於主旨、連結標籤或連結本身。
+   **[!UICONTROL Target extension]** (targetData)型別資料是使用與所有個人化欄位相同的特性插入傳遞。 它們也可用於主旨、連結標籤或連結本身。
 
 
 ## 更新資料庫 {#update-the-database}
@@ -124,18 +124,18 @@ ht-degree: 8%
 
 Adobe Campaign資料庫和現有清單的資料可以使用兩個專用活動進行更新：
 
-* 此 **[!UICONTROL List update]** 活動可讓您將工作表儲存在資料清單中。
+* **[!UICONTROL List update]**&#x200B;活動可讓您將工作表儲存在資料清單中。
 
   您可以選取或建立現有清單。 在這種情況下，將計算名稱，並可能計算記錄資料夾。
 
   ![](assets/s_user_create_list.png)
 
-  請參閱 [清單更新](list-update.md).
+  請參閱[清單更新](list-update.md)。
 
-* 此 **[!UICONTROL Update data]** 活動會大量更新資料庫中的欄位。
+* **[!UICONTROL Update data]**&#x200B;活動會大量更新資料庫中的欄位。
 
-  有關詳細資訊，請參閱 [更新資料](update-data.md).
+  如需詳細資訊，請參閱[更新資料](update-data.md)。
 
 ### 管理訂閱 {#subscription-management}
 
-若要瞭解如何透過工作流程為收件者訂閱及取消訂閱資訊服務，請參閱 [訂閱服務](subscription-services.md).
+若要瞭解透過工作流程訂閱及取消訂閱收件者資訊服務的相關資訊，請參閱[訂閱服務](subscription-services.md)。

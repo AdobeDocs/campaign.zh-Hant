@@ -14,17 +14,17 @@ ht-degree: 1%
 
 # 變更維度{#change-dimension}
 
-使用 **[!UICONTROL Change dimension]** 活動，以在建立對象時變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，從「合約」維度切換至「客戶」維度。
+在建立對象時，請使用&#x200B;**[!UICONTROL Change dimension]**&#x200B;活動來變更目標維度。 此活動會根據資料範本和輸入維度移動軸。 例如，從「合約」維度切換至「客戶」維度。
 
 您也可以使用此活動來定義新目標的其他欄，並定義重複資料刪除的條件。
 
 >[!IMPORTANT]
 >
->請注意 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增為一列。 如果您需要連續使用兩個活動，請務必加入 **[!UICONTROL Enrichement]** 兩者之間的活動。 這可確保正確執行並防止潛在的衝突或錯誤。
+>請注意，不應將&#x200B;**[!UICONTROL Change Dimension]**&#x200B;和&#x200B;**[!UICONTROL Change Data source]**&#x200B;活動新增到一列。 如果您需要連續使用兩個活動，請務必在它們之間包含&#x200B;**[!UICONTROL Enrichement]**&#x200B;活動。 這可確保正確執行並防止潛在的衝突或錯誤。
 
-若要設定 **[!UICONTROL Change dimension]** 活動，請套用下列步驟：
+若要設定&#x200B;**[!UICONTROL Change dimension]**&#x200B;活動，請套用下列步驟：
 
-1. 透過以下方式選取新的目標維度 **[!UICONTROL Change dimension]** 欄位。
+1. 透過&#x200B;**[!UICONTROL Change dimension]**&#x200B;欄位選取新的目標維度。
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
    當您選擇只保留一個記錄時，會在工作結構描述中顯示集合：此集合代表最終結果中未鎖定目標的所有記錄（因為只保留一個記錄）。 如同其他所有集合，這個集合可讓您計算彙總或復原欄中的資訊。
 
-   例如，如果您變更 **[!UICONTROL Customers]** 的維度 **[!UICONTROL Recipients]** 維度時，將可以鎖定特定商店的客戶，同時新增購買的次數。
+   例如，如果您將&#x200B;**[!UICONTROL Customers]**&#x200B;維度變更為&#x200B;**[!UICONTROL Recipients]**&#x200B;維度，則可將目標鎖定在特定商店的客戶，同時新增購買的次數。
 
 1. 如果您選擇不保留所有這些資訊，您可以設定重複管理模式。
 
@@ -44,23 +44,23 @@ ht-degree: 1%
 
    在上述範例中，收件者會先在其電子郵件地址上刪除重複專案，然後視需要在其帳號上刪除重複專案。
 
-1. 此 **[!UICONTROL Result]** 索引標籤可讓您新增其他資訊。
+1. **[!UICONTROL Result]**&#x200B;索引標籤可讓您新增其他資訊。
 
-   例如，您可以使用根據郵遞區號復原縣 **子字串** type函式。 操作步驟：
+   例如，您可以使用&#x200B;**Substring**&#x200B;型別函式，根據郵遞區號復原縣。 操作步驟：
 
-   * 按一下 **[!UICONTROL Add data...]** 連結並選取 **[!UICONTROL Data linked to the filtering dimension]**.
+   * 按一下&#x200B;**[!UICONTROL Add data...]**&#x200B;連結並選取&#x200B;**[!UICONTROL Data linked to the filtering dimension]**。
 
      ![](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
-     >有關建立和管理其他欄的資訊，請參閱 [新增資料](query.md#add-data).
+     >如需建立和管理其他資料行的詳細資訊，請參閱[新增資料](query.md#add-data)。
 
-   * 選取上一個目標維度（在軸切換前），並選取 **[!UICONTROL Zip Code]** 在收件者的 **[!UICONTROL Location]** 子樹，然後按一下 **[!UICONTROL Edit expression]**.
+   * 選取前一個目標維度（在軸切換前），並在收件者的&#x200B;**[!UICONTROL Location]**&#x200B;子樹狀結構中選取&#x200B;**[!UICONTROL Zip Code]**，然後按一下&#x200B;**[!UICONTROL Edit expression]**。
 
      ![](assets/wf_change-dimension_sample_02.png)
 
-   * 按一下 **[!UICONTROL Advanced selection]** 並選擇 **[!UICONTROL Edit the formula using an expression]**.
+   * 按一下&#x200B;**[!UICONTROL Advanced selection]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit the formula using an expression]**。
 
      ![](assets/wf_change-dimension_sample_03.png)
 

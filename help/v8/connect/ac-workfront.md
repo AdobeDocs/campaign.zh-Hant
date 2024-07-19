@@ -19,4 +19,4 @@ ht-degree: 0%
 Adobe Workfront檔案中會詳細說明設定這項整合的步驟。
 
 
-[Adobe Workfront中的Adobe Campaign模組](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.
+Adobe Workfront中的[Adobe Campaign模組](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}。

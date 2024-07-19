@@ -27,7 +27,7 @@ ht-degree: 10%
 
 1. **建立傳遞**
 
-   若要建立新傳遞，請瀏覽至 **行銷活動** 標籤，按一下 **傳遞** 並按一下 **建立** 按鈕。
+   若要建立新傳遞，請瀏覽至&#x200B;**行銷活動**&#x200B;標籤，按一下&#x200B;**傳遞**，然後按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。
 
    ![](assets/delivery_step_1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 1. **匯入您的內容**
 
-   按一下 **來源** 標籤貼上HTML內容。
+   按一下&#x200B;**Source**&#x200B;索引標籤，貼上您的HTML內容。
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    * 新增收件者的名字和姓氏
 
-     若要在訊息內容中插入目標設定檔的名字和姓氏，請將游標置於您要插入的位置，然後按一下工具列中的最後一個圖示，然後按一下 **[!UICONTROL Include]** 並選取 **[!UICONTROL Greetings]**.
+     若要在訊息內容中插入目標設定檔的名字和姓氏，請將游標置於您要插入的位置，然後按一下工具列中的最後一個圖示，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選取&#x200B;**[!UICONTROL Greetings]**。
 
      ![](assets/include-greetings.png)
 
@@ -59,31 +59,31 @@ ht-degree: 10%
 
      ![](assets/perso-check.png)
 
-     進一步瞭解中的個人化選項 [本節](personalize.md).
+     在[本節](personalize.md)中進一步瞭解個人化選項。
 
    * 插入追蹤連結
 
-     若要透過影像或文字將傳遞收件者帶往外部地址，請選取該地址，然後按一下 **[!UICONTROL Add a link]** 圖示加以儲存。
+     若要透過影像或文字將傳遞收件者帶往外部地址，請選取該地址，然後按一下工具列中的&#x200B;**[!UICONTROL Add a link]**&#x200B;圖示。
 
-     在「 」中輸入連結的URL **URL** 欄位使用下列格式 **https://www.myURL.com**，然後確認。
+     在&#x200B;**URL**&#x200B;欄位中，使用以下格式&#x200B;**https://www.myURL.com**&#x200B;輸入連結的URL，然後確認。
 
      ![](assets/add-a-link.png)
 
    * 新增映象頁面
 
-     若要允許收件者在網頁瀏覽器中檢視您的傳遞內容，請新增以下內容的連結： [映象頁面](mirror-page.md) 您的訊息的。
+     若要允許收件者在網頁瀏覽器中檢視您的傳遞內容，請新增郵件之[映象頁面](mirror-page.md)的連結。
 
-     將游標置於您要插入此連結的位置，然後按一下工具列中的最後一個圖示，然後按一下 **[!UICONTROL Include]** 並選取 **[!UICONTROL link to mirror page]**.
+     將游標放在您要插入此連結的位置，然後按一下工具列中的最後一個圖示，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選取&#x200B;**[!UICONTROL link to mirror page]**。
 
-     在中進一步瞭解管理映象頁面 [本節](mirror-page.md#link-to-mirror-page).
+     在[本節](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
 1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至BBC地址、變更訊息格式、設定特定編碼等。 若要了解詳細資訊，請參閱[本章節](email-parameters.md)。
 
-1. 內容準備就緒後，按一下 **儲存**：它現在會顯示在您的傳送清單中，位於 **[!UICONTROL Campaigns > Deliveries]** 標籤。
+1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-在本檔案中瞭解如何匯入電子郵件內容 [使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中匯入電子郵件內容。
 
 請在下列章節中瞭解更多資訊：
 
@@ -95,7 +95,7 @@ ht-degree: 10%
 
 ## 測試及驗證您的電子郵件
 
-Campaign提供數種方式，可在將電子郵件傳送給受眾之前測試和驗證電子郵件。 瞭解如何在中預覽和測試您的電子郵件內容 [本節](../send/preview-and-proof.md).
+Campaign提供數種方式，可在將電子郵件傳送給受眾之前測試和驗證電子郵件。 在[本節](../send/preview-and-proof.md)中瞭解如何預覽和測試您的電子郵件內容。
 
 您可以：
 

@@ -16,7 +16,7 @@ ht-degree: 64%
 
 Adobe Campaign的傳送時間最佳化和預測性參與計分功能採用AI和機器學習，可以根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。
 
-Adobe Campaign提供兩種新的機器學習模型： [預測性傳送時間最佳化](#predictive-send) 和 [預測性參與計分](#predictive-scoring). 這兩種模型是機器學習模型，專門用於設計和提供更好的客戶歷程。
+Adobe Campaign提供兩種新的機器學習模型： [預測性傳送時間最佳化](#predictive-send)和[預測性參與計分](#predictive-scoring)。 這兩種模型是機器學習模型，專門用於設計和提供更好的客戶歷程。
 
 >[!CAUTION]
 >

@@ -2,16 +2,17 @@
 title: Campaign v8 （主控台） 2023年發行說明
 description: 2023 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 77%
 
 ---
 
 # 2024年發行說明 {#2024-rn}
 
-本頁面列出隨附的新功能、改善和修正 **2024 Campaign v8版本**.
+此頁面列出&#x200B;**2024 Campaign v8版本**&#x200B;的新功能、改善和修正。
 
 
 ## 發行版本 8.6.2 {#release-8-6-2}

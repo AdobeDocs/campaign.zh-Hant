@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 更新資料庫結構 {#updating-the-database-structure}
 
-若要套用對結構描述所做的修改，請啟動資料庫更新精靈。 此助理的存取方式為 **[!UICONTROL Tools > Advanced > Update database structure]**. 它會檢查資料庫的實體結構是否符合其邏輯描述，並執行SQL更新指令碼。
+若要套用對結構描述所做的修改，請啟動資料庫更新精靈。 此助理可以透過&#x200B;**[!UICONTROL Tools > Advanced > Update database structure]**&#x200B;存取。 它會檢查資料庫的實體結構是否符合其邏輯描述，並執行SQL更新指令碼。
 
 ![](assets/schema_update.png)
 

@@ -16,27 +16,27 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->這些功能僅可線上上顯示，並且僅可供 **傳遞管理員**.
+>這些功能只會線上上顯示，而且只有&#x200B;**傳遞管理員**&#x200B;可以看到。
 
 ## 優惠主張歷史記錄{#offer-proposition-history}
 
 提出優惠方案主張後，即可檢視簡報歷史記錄。
 
-* 在選件層級的 **[!UICONTROL Edit]** 標籤，按一下 **[!UICONTROL Propositions]**.
+* 在選件層級的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Propositions]**。
 
   ![](assets/offer_followup_006.png)
 
-* 在收件者的設定檔中，按一下 **[!UICONTROL Propositions]** 標籤。
+* 在收件者的設定檔中，按一下「**[!UICONTROL Propositions]**」標籤。
 
   ![](assets/offer_followup_002.png)
 
-* 在選件空間層級，按一下 **[!UICONTROL Propositions]** 標籤。
+* 在優惠方案空間層級，按一下&#x200B;**[!UICONTROL Propositions]**&#x200B;標籤。
 
   ![](assets/offer_space_prop_001_b.png)
 
 ## 優惠分析報告{#offer-analysis-report}
 
-此 **[!UICONTROL Offer analysis]** 報表提供已接受或已拒絕建議數目的概觀。
+**[!UICONTROL Offer analysis]**&#x200B;報告提供您接受或拒絕建議數目的概觀。
 
 統計資料會根據三個條件排序：
 
@@ -52,4 +52,4 @@ ht-degree: 4%
 
   ![](assets/offer_report_perdeliveries.png)
 
-您可以根據報表上方區段中提供的各種條件來篩選資料。 選取想要的條件後，按一下 **[!UICONTROL Refresh]** 連結以將其套用至報表。
+您可以根據報表上方區段中提供的各種條件來篩選資料。 選取想要的條件後，按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;連結以將其套用至報表。

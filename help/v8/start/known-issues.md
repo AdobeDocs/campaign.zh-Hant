@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 已知問題{#known-issues}
 
-此頁面列出 **最新Campaign v8版本**. 此外，也列出Campaign v8的限制 [在此頁面中](ac-guardrails.md).
+此頁面列出&#x200B;**最新Campaign v8版本**&#x200B;中發現的已知問題。 此外，Campaign v8的限制[已列於本頁](ac-guardrails.md)。
 
 
 >[!NOTE]
@@ -25,21 +25,21 @@ ht-degree: 2%
 
 ## Campaign v8.3.8{#8.3-issues}
 
-### 變更資料來源活動問題 {#issue-2}
+### 變更資料Source活動問題 {#issue-2}
 
 #### 說明{#issue-2-desc}
 
-使用Campaign將資料插入Snowflake雲端資料庫時 **查詢** 和 **變更資料來源** 活動，當資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。
+當使用Campaign **查詢**&#x200B;和&#x200B;**變更資料Source**&#x200B;活動將資料插入Snowflake雲端資料庫時，當資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。
 
-只有在字串結尾有反斜線字元時，才會發生此問題，例如： `Barker\`.
+只有反斜線字元位於字串結尾時，才會發生此問題，例如： `Barker\`。
 
 
 #### 重製步驟{#issue-2-repro}
 
 1. 連線至使用者端主控台並建立工作流程。
-1. 新增 **查詢** 活動並進行設定。
+1. 新增&#x200B;**查詢**&#x200B;活動並加以設定。
 1. 選取具有上述特性的資料。
-1. 新增 **變更資料來源** 活動，並將其設定為選取Snowflake雲端資料庫。
+1. 新增&#x200B;**變更資料Source**&#x200B;活動，並將其設定為選取Snowflake雲端資料庫。
 1. 執行工作流程並檢查工作流程記錄檔以檢視錯誤。
 
 
@@ -65,15 +65,15 @@ Error:
 
 #### 說明{#issue-3-desc}
 
-在具有的Campaign伺服器上傳檔案時 **資料載入（檔案）** 活動，處理在100%停止，但永不結束。
+在具有&#x200B;**資料載入（檔案）**&#x200B;活動的Campaign伺服器上傳檔案時，處理程式會在100%停止，但永不結束。
 
 #### 重製步驟{#issue-3-repro}
 
 1. 連線至使用者端主控台並建立工作流程。
-1. 新增 **資料載入（檔案）** 活動並進行設定。
-1. 選取 **上傳至伺服器** 選項。
+1. 新增&#x200B;**資料載入（檔案）**&#x200B;活動並加以設定。
+1. 選取&#x200B;**在伺服器**&#x200B;上載選項。
 1. 選取本機電腦上的檔案，
-1. 按一下 **上傳**
+1. 按一下&#x200B;**上傳**
 
 
 #### 錯誤訊息{#issue-3-error}
@@ -84,11 +84,11 @@ Error:
 
 因應措施是使用舊版使用者端主控台。 然後，您就可以將檔案上傳至伺服器。
 
-身為Campaign管理員，您可以下載Campaign v8.3.1使用者端主控台，位置在： [AdobeSoftware Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+身為Campaign管理員，您可以在[Adobe軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}中下載Campaign v8.3.1使用者端主控台。
 
-瞭解如何存取Adobe軟體發佈 [在此頁面中](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}.
+在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈[。
 
-瞭解如何升級您的使用者端主控台 [在此頁面中](connect.md)
+在本頁](connect.md)瞭解如何升級您的使用者端主控台[
 
 #### 內部參考{#issue-3-ref}
 
