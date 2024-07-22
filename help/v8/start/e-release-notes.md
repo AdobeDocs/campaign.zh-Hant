@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 80b1bfbf23a0e8c03e00af282762fc5405b0963b
+source-git-commit: dfc86ebaa2acc0b7777843b2d1d370939b6bfcc2
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 49%
@@ -60,7 +60,7 @@ _2024年7月30日_
 
 * 為了提高應用程式之間所有通訊的安全性，外部API呼叫現在支援mTLS。
 
-### 修正 {#fixes-8-7-2}
+### 修正 {#fixes-8-6-3}
 
 此版本已修正下列問題：
 
