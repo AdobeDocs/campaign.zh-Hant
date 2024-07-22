@@ -115,7 +115,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
     setOption(&quot;IMS_ORG_ID&quot;， cryptString(&#39;ORGANIZATION ID&#39;))；
     setOption(&quot;IMS_CLIENT_API_KEY&quot;， cryptString(&#39;CLIENT ID&#39;))；
     }
-    &quot;&#39;
+    ```
 
 >[!ENDTABS]
 
