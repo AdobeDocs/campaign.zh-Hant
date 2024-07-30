@@ -3,10 +3,10 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: bd53d04791af91afffe683ca92fa78562640170a
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,33 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 透過[本頁](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
 此外，身為客戶，請確定您使用的是列於[相容性矩陣](compatibility-matrix.md)的最新受支援系統版本。
+
+
+
+## 發行版本 8.6.3 {#release-8-6-3}
+
+_2024年7月30日_
+
+### 新功能 {#new-8-6-3}
+
+* **豐富推送通知** — 您現在可以傳送豐富推送通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 此版本中，豐富推送通知的一組範本現在可供您的iOS和Android應用程式使用。 [閱讀全文](../send/rich-push.md)。
+
+* 自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 [了解更多](release-notes.md#change-8-7-1)
+
+### 一般改善 {#improvements-8-6-3}
+
+* 為了提高應用程式之間所有通訊的安全性，外部 API 呼叫現在支援 mTLS。
+
+### 修正 {#fixes-8-6-3}
+
+此版本已修正下列問題：
+
+NEO-79328、NEO-78843、NEO-77795、NEO-77014、NEO-76958、NEO-76097、NEO-75898、NEO-72504、NEO-70263、NEO-67620、NEO-63197、NEO-58596、NEO-56832。
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
 
 ## 發行版本 8.5.3 {#release-8-5-3}
 
