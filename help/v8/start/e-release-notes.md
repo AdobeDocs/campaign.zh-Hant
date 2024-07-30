@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: aadf47ccc7b014416064b7c1318cd1b35077d0fb
+source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 74%
@@ -34,7 +34,7 @@ _July 30, 2024_
 
 * **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector.
 
-* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push.md). 
+* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
 
 * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
 
@@ -52,7 +52,7 @@ _2024年7月30日_
 
 ### 新功能 {#new-8-6-3}
 
-* **豐富推送通知** — 您現在可以傳送豐富推送通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 此版本中，豐富推送通知的一組範本現在可供您的iOS和Android應用程式使用。 [閱讀全文](../send/rich-push.md)。
+* **豐富推送通知** — 您現在可以傳送豐富推送通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 此版本中，豐富推送通知的一組範本現在可供您的iOS和Android應用程式使用。 [閱讀全文](../send/rich-push-android.md)。
 
 * 自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 [了解更多](release-notes.md#change-8-7-1)
 
