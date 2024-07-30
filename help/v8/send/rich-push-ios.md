@@ -5,7 +5,7 @@ description: 瞭解如何使用Adobe Campaign Web設計iOS豐富推送通知傳�
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 0c13ee22a7d40aaa9a8c27d3450ec3275a02748f
+source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 4%
@@ -187,3 +187,4 @@ ht-degree: 4%
 | **[!UICONTROL Click action]** | 設定與使用者點按您的通知相關聯的動作。 |
 | **[!UICONTROL Interruption level]** | <ul><li>作用中：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。</li><li>被動：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。</li><li> 有時效性：系統立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。</li><li>嚴重：系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或聚焦模式。 請注意，此層級需要Apple的特殊許可權。</li></ul> |
 | **[!UICONTROL Relevance score]** | 將關聯性分數從0設定為100。 系統會使用此選項來排序通知摘要中的通知。 |
+
