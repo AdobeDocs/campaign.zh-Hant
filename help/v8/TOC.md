@@ -6,9 +6,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 98%
    + [簡訊](send/sms.md)
    + 推播通知 {#push}
       + [建立和傳送推播通知](send/push.md)
-      + 豐富推送{#rich-push}
+      + 豐富推播 {#rich-push}
          + [設計 Android 豐富的推播傳遞](send/rich-push-android.md)
-         + [設計iOS豐富推送傳送](send/rich-push-ios.md)
+         + [設計 iOS 豐富的推播傳遞](send/rich-push-ios.md)
       + [設定推播通知頻道](send/push-settings.md)
       + [設定資料收集的推播通知](send/push-data-collection.md)
    + [LINE 訊息](send/line.md)
