@@ -47,7 +47,7 @@ Adobe Target可使用下列型別的資料：
 
 1. [在電子郵件中插入動態優惠方案](#inserting-dynamic-offer)
 1. [建立重新導向選件](#create-redirect-offers)
-1. [建立對象](#audiences-target)
+1. [建立客群](#audiences-target)
 1. [建立體驗鎖定目標活動](#creating-targeting-activity)
 1. [預覽和傳送訊息](#preview-send-email)
 
@@ -96,7 +96,7 @@ Adobe Target可使用下列型別的資料：
 
 1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}。
 
-### 建立對象 {#audiences-target}
+### 建立客群 {#audiences-target}
 
 在Adobe Target中，您需要建立兩個受眾，造訪您選件的人員將針對不同的內容進行分類。 針對每個對象，新增規則以定義能夠檢視選件的對象。
 

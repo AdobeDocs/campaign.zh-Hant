@@ -34,7 +34,7 @@ Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人�
 
 * **計劃**：行銷計劃可包含多個方案。它連結至日曆期間、已分配預算，也可連結至文件和目標。
 
-* **行銷活動工作流程**：行銷活動工作流程包含建立行銷活動邏輯的活動。使用行銷活動工作流程來定義對象並為所有可用頻道建立傳送。
+* **行銷活動工作流程**：行銷活動工作流程包含建立行銷活動邏輯的活動。使用行銷活動工作流程來定義客群並為所有可用頻道建立傳送。
 
 * **循環行銷活動**：循環行銷活動是從定義要執行的工作流程範本和執行排程的特定範本建立。
 
@@ -64,13 +64,13 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=zh-Hant){target="_blank"}瞭解週期性行銷活動以及如何進行設定。
 
-1. **定義對象**
+1. **定義客群**
 
-   您可以在工作流程中建立對象，或選取現有群組，例如收件者清單、電子報訂閱者、先前傳遞的收件者或任何篩選條件。
+   您可以在工作流程中建立客群，或選取現有群組，例如收件者清單、電子報訂閱者、先前傳遞的收件者或任何篩選條件。
 
    ![](assets/campaign-wf.png)
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}瞭解如何定義訊息對象。
+   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}瞭解如何定義訊息客群。
 
 1. **建立傳遞**
 

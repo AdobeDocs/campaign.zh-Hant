@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 關於工作流程
-description: 使用工作流程自動化程序、管理資料和對象、傳送訊息等。
+description: 使用工作流程自動化程序、管理資料和客群、傳送訊息等。
 feature: Workflows
 role: User
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8

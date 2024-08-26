@@ -6,7 +6,7 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -82,9 +82,9 @@ ht-degree: 100%
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
          + [傳送和監視訊息](send/delivery-execution.md)
-+ 設定檔與對象管理 {#audience}
-   + [開始使用設定檔和對象](audiences/gs-audiences.md)
-   + [配合對象](start/audiences.md)
++ 輪廓與客群管理 {#audience}
+   + [開始使用輪廓和客群](audiences/gs-audiences.md)
+   + [配合客群](start/audiences.md)
    + [存取設定檔](audiences/view-profiles.md)
    + 新增設定檔 {#add-profiles}
       + [手動建立設定檔](audiences/create-profiles.md)
@@ -93,10 +93,10 @@ ht-degree: 100%
       + [在網路表單中收集設定檔資料](audiences/collect-profiles.md)
       + [使用目標對應](audiences/target-mappings.md)
       + [建立測試設定檔](audiences/test-profiles.md)
-   + 建立對象 {#create-audiences}
+   + 建立客群 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
-      + [與 Adobe 解決方案共用對象](start/shared-audiences.md)
+      + [與 Adobe 解決方案共用客群](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
@@ -148,7 +148,7 @@ ht-degree: 100%
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
    + Campaign + Experience Platform{#ac-aep}
-      + [共用及同步對象和設定檔屬性](connect/ac-aep.md)
+      + [共用及同步客群和輪廓屬性](connect/ac-aep.md)
       + [從 Campaign 登陸頁面更新 AEP 設定檔](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)

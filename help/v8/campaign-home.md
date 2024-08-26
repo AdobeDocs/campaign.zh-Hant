@@ -95,7 +95,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>設定檔與對象</strong><br/><a href="audiences/create-profiles.md">新增設定檔</a> - <a href="audiences/create-audiences.md">建立對象</a> - <a href="start/subscriptions.md">管理訂閱</a> - <a href="start/privacy.md">隱私權</a>
+      <strong>輪廓與客群</strong><br/><a href="audiences/create-profiles.md">新增輪廓</a> - <a href="audiences/create-audiences.md">建立客群</a> - <a href="start/subscriptions.md">管理訂閱</a> - <a href="start/privacy.md">隱私權</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

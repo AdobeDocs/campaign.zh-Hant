@@ -8,11 +8,11 @@ level: Beginner
 source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 設計iOS豐富推送傳送 {#rich-push}
+# 設計 iOS 豐富的推播傳遞 {#rich-push}
 
 >[!IMPORTANT]
 >

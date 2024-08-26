@@ -190,7 +190,7 @@ ht-degree: 1%
 
 ![](assets/s_advuser_mkg_dist_local_notif.png)
 
-### 對象 {#audience}
+### 客群 {#audience}
 
 對於本機行銷活動，中央實體可以透過檢查&#x200B;**[!UICONTROL Limit the package to a set of local entities]**&#x200B;來指定涉及的本機實體。
 

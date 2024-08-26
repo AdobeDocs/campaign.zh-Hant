@@ -24,7 +24,7 @@ ht-degree: 11%
 
    在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"} 中深入瞭解
 
-1. 定義對象
+1. 定義客群
 
    收件者設定檔必須至少包含其名稱和郵寄地址。
 

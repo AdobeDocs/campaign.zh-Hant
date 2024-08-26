@@ -8,7 +8,7 @@ exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 * 存取特定功能
 * 存取特定資料
-* 存取特定動作（建立、修改、刪除）
+* 存取特定動作 (建立、修改、刪除)
 
 這些許可權是透過結合操作員群組許可權、已命名的許可權和檔案夾許可權來定義。
 

@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
 
-開始使用[對象](audiences.md)
+開始使用[客群](audiences.md)
 
 瞭解 Campaign [資料模型](../dev/datamodel.md)
 
@@ -45,6 +45,6 @@ Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔�
 
 **相關主題**
 
-* [建立對象](audiences.md)
+* [建立客群](audiences.md)
 * [重複設定檔](../../automation/workflow/deduplication-merge.md)
 * [豐富設定檔資料](../../automation/workflow/enrich-data.md)

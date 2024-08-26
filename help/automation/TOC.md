@@ -137,7 +137,7 @@ ht-degree: 81%
    + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
    + [建立及設定範本](campaigns/marketing-campaign-templates.md)
    + [新增傳遞](campaigns/marketing-campaign-deliveries.md)
-   + [選取對象](campaigns/marketing-campaign-target.md)
+   + [選取客群](campaigns/marketing-campaign-target.md)
    + [管理文件和資產](campaigns/marketing-campaign-assets.md)
    + [設定及管理核准](campaigns/marketing-campaign-approval.md)
    + [循環和定期行銷活動](campaigns/recurring-periodic-campaigns.md)
