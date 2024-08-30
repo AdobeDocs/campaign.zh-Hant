@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 20ca1c162ea35c4d054ddc09da5898349a1ad5d4
+source-git-commit: 695c481596271feef35c630c68d9bc52cbe1b6f8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 ## 發行版本 8.7.2 {#release-8-7-2}
 
-_2024 年 7 月 30 日_
+_2024年9月3日_
 
 >[!AVAILABILITY]
 >
