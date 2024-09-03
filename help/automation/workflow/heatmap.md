@@ -5,7 +5,7 @@ description: 使用Workflow HeatMap監視您的工作流程
 feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%
@@ -69,10 +69,10 @@ Campaign Workflow HeatMap包含目前執行的所有工作流程，並以色彩�
    >
    >已套用&#x200B;**[!UICONTROL Min duration]**&#x200B;篩選器。 如果找不到特定工作流程，請將最短持續期間重設為0，以便所有工作流程都顯示在清單中。
 
-1. 您也可以在&#x200B;**[!UICONTROL Workflow type]**&#x200B;上篩選：
+1. 您也可以篩選&#x200B;**[!UICONTROL Workflow type]**：
 
-   * **[!UICONTROL Technical]** ：只顯示[內建的技術工作流程](technical-workflows.md)和[資料管理工作流程](targeting-workflows.md#data-management)。
-   * **[!UICONTROL Marketing]** ：只會顯示連結至行銷活動的工作流程（稱為[行銷活動工作流程](campaign-workflows.md)）。
+   * **[!UICONTROL Technical]**：只顯示[內建的技術工作流程](technical-workflows.md)和[資料管理工作流程](targeting-workflows.md#data-management)。
+   * **[!UICONTROL Marketing]**：僅顯示連結至行銷活動的工作流程，稱為[行銷活動工作流程](campaign-workflows.md)。
 
 1. 若要依名稱搜尋特定工作流程，您也可以使用&#x200B;**[!UICONTROL Workflow name filter]**&#x200B;欄位。
 

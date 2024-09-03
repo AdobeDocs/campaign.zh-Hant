@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -217,9 +217,9 @@ ht-degree: 1%
 
 若要將預設值連結至欄位，您可以使用`<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` ：可讓您在建立實體時，使用預設值預先填寫欄位。 此值不會是預設SQL值。
+`<default>`：可讓您在建立實體時，使用預設值預先填入欄位。 此值不會是預設SQL值。
 
-`<sqldefault>` ：可讓您在建立欄位時增加值。 此值會顯示為SQL結果。 在結構描述更新期間，只有新記錄會受此值影響。
+`<sqldefault>`：可讓您在建立欄位時增加值。 此值會顯示為SQL結果。 在結構描述更新期間，只有新記錄會受此值影響。
 
 ### 分項清單 {#enumerations}
 

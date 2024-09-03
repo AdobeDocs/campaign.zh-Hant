@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 5%
@@ -74,9 +74,9 @@ ht-degree: 5%
 
 此索引標籤提供下列選項的存取權：
 
-* **[!UICONTROL Label and code of the delivery]** ：此區段中的選項用於在傳遞分析階段期間計算這些欄位的值。 **[!UICONTROL Compute the execution folder during the delivery analysis]**&#x200B;欄位會在分析階段期間計算將包含此傳遞動作的資料夾名稱。
+* **[!UICONTROL Label and code of the delivery]**：此區段中的選項是用來在傳遞分析階段計算這些欄位的值。 **[!UICONTROL Compute the execution folder during the delivery analysis]**&#x200B;欄位會在分析階段期間計算將包含此傳遞動作的資料夾名稱。
 
-* **[!UICONTROL Approval mode]** ：此欄位可讓您定義分析完成時的手動或自動傳遞。
+* **[!UICONTROL Approval mode]**：此欄位可讓您定義分析完成時的手動或自動傳遞。
 
   如果在分析期間產生警告（例如，如果傳送主題中的某些字元強調等），您可以設定傳送以定義是否仍應執行。 依預設，使用者必須在分析階段結束時確認傳送訊息：這是&#x200B;**手動**&#x200B;驗證。
 
@@ -88,6 +88,6 @@ ht-degree: 5%
    * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
    * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
 
-* **[!UICONTROL Start job in a detached process]** ：此選項可讓您以個別程式啟動傳遞分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器處理序(web nlserver)。 選取此選項，即可確保即使應用程式伺服器發生故障，也能完成分析。
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** ：此選項會在分析階段將SQL查詢記錄檔新增至傳遞日誌。
-* **[!UICONTROL Ignore personalization scripts during sending]** ：此選項可讓您略過HTML內容中JavaScript指示詞的解譯。 它們將顯示為已傳送內容中的原樣。 這些指示詞是隨`<%=`標籤匯入的。
+* **[!UICONTROL Start job in a detached process]**：此選項可讓您以個別程式啟動傳遞分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器處理序(web nlserver)。 選取此選項，即可確保即使應用程式伺服器發生故障，也能完成分析。
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]**：此選項會在分析階段將SQL查詢記錄檔新增至傳遞日誌。
+* **[!UICONTROL Ignore personalization scripts during sending]**：此選項可讓您略過HTML內容中JavaScript指示詞的解譯。 它們將顯示為已傳送內容中的原樣。 這些指示詞是隨`<%=`標籤匯入的。

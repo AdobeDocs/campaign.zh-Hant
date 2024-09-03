@@ -5,7 +5,7 @@ description: 瞭解如何建立合作行銷活動
 feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 4%
@@ -76,9 +76,9 @@ ht-degree: 4%
 
 行銷活動工作流程必須整合&#x200B;**本機核准**&#x200B;型別活動。 活動引數如下：
 
-* **[!UICONTROL Action to perform]** ：目標核准通知。
-* **[!UICONTROL Distribution context]** ：明確。
-* **[!UICONTROL Data distribution]** ：本機實體發佈。
+* **[!UICONTROL Action to perform]**：目標核准通知。
+* **[!UICONTROL Distribution context]**：明確。
+* **[!UICONTROL Data distribution]**：本機實體發佈。
 
 必須建立&#x200B;**本機實體發佈**&#x200B;型別資料發佈。 資料分佈範本可讓您限制分組值清單中的記錄數。 在&#x200B;**[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;中，按一下&#x200B;**[!UICONTROL New]**&#x200B;圖示以建立新的&#x200B;**[!UICONTROL Data distribution]**。 如需資料發佈的詳細資訊，
 

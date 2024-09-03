@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 1%
@@ -118,8 +118,8 @@ ht-degree: 1%
 * **套利**：選取要顯示在環境上的優惠方案（符合條件的優惠方案）。 套利原則會根據類別、優惠方案和內容優惠方案中定義的條件，依優先順序排列優惠方案。
 * **連絡人**：來自傳入互動的連絡人。 在引擎呼叫處理期間，聯絡人與目標維度相關聯。 有兩種連絡人型別：
 
-   * **[!UICONTROL Identified contact]** ：已在頻道上自願識別的連絡人。 在對外互動中，會自動識別聯絡人。
-   * **[!UICONTROL Anonymous contact]** ：未透過頻道自願訂閱，但可透過Cookie隱含識別的連絡人。 此術語僅用於傳入的互動。
+   * **[!UICONTROL Identified contact]**：已在頻道上自願識別的連絡人。 在對外互動中，會自動識別聯絡人。
+   * **[!UICONTROL Anonymous contact]**：尚未透過頻道自願訂閱，但可透過Cookie隱含識別的連絡人。 此術語僅用於傳入的互動。
 
      >[!NOTE]
      >
@@ -131,9 +131,9 @@ ht-degree: 1%
 * **單一模式**：一次處理單一連絡人。 此模式通常適用於傳入互動和異動訊息。
 * **識別模式**：參考連絡人的狀態：
 
-   * **[!UICONTROL explicit]** ：連絡人是以登入通道介面來識別。
-   * **[!UICONTROL implicit]** ：連絡人以Cookie識別（永久或工作階段）。 可將它處理為匿名或識別的連絡人。
-   * **[!UICONTROL anonymous]** ：無法識別連絡人。
+   * **[!UICONTROL explicit]**：連絡人是以登入通道介面來識別。
+   * **[!UICONTROL implicit]**：連絡人由Cookie識別（永久或工作階段）。 可將它處理為匿名或識別的連絡人。
+   * **[!UICONTROL anonymous]**：無法識別連絡人。
 
 * **符合資格的優惠**：優惠符合上游定義的限制，且可一致地提供給目標。
 * **簡報規則**：優惠方案環境中參考的型別規則，可讓您考慮主張歷程記錄來排除部分優惠方案。

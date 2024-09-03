@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 3%
@@ -116,10 +116,10 @@ ht-degree: 3%
 
 1. 定義選件內容的各種引數。
 
-   * **[!UICONTROL Title]** ：指定您想要顯示在選件中的標題。 警告：這並非指的是&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義的選件標籤。
-   * **[!UICONTROL Destination URL]** ：指定您選件的URL。 開頭必須是&quot;http://&quot;或&quot;https://&quot;。
-   * **[!UICONTROL Image URL]** ：指定URL或選件影像的存取路徑。
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** ：在想要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別專案中的HTML專案組成。 例如，HTML頁面中`<table>`元素的結果將如下所示：
+   * **[!UICONTROL Title]**：指定您要顯示在優惠方案中的標題。 警告：這並非指的是&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義的選件標籤。
+   * **[!UICONTROL Destination URL]**：指定您選件的URL。 開頭必須是&quot;http://&quot;或&quot;https://&quot;。
+   * **[!UICONTROL Image URL]**：指定您選件影像的URL或存取路徑。
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**：在您要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別專案中的HTML專案組成。 例如，HTML頁面中`<table>`元素的結果將如下所示：
 
    ```
       <div> 

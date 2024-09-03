@@ -5,7 +5,7 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: b6f7b8a6652034145602d9949fa196eae929fb95
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -39,8 +39,8 @@ ht-degree: 1%
 
 主要屬性為：
 
-* **[!UICONTROL visibleIf]** ：隱藏中繼資料中的欄位，因此無法在結構描述檢視、欄選擇或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果手動在運算式中輸入欄位名稱，則會顯示值。
-* **[!UICONTROL accessibleIf]** ：隱藏產生的查詢中的資料（以空白值取代）。 如果visibleIf空白，則會取得與&#x200B;**[!UICONTROL accessibleIf]**&#x200B;相同的運算式。
+* **[!UICONTROL visibleIf]**：隱藏中繼資料中的欄位，因此無法在結構描述檢視、資料行選取範圍或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果手動在運算式中輸入欄位名稱，則會顯示值。
+* **[!UICONTROL accessibleIf]**：隱藏產生的查詢中的資料（以空白值取代）。 如果visibleIf空白，則會取得與&#x200B;**[!UICONTROL accessibleIf]**&#x200B;相同的運算式。
 
 在Campaign中使用此屬性的後果如下：
 

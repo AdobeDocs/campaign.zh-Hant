@@ -5,7 +5,7 @@ description: 瞭解如何控制成本
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 1. 定義成本計算方法：為服務提供者定義成本結構。 [了解更多](../campaigns/providers-stocks-and-budgets.md)。
 
-1. 定義行銷活動成本（傳送/任務） ：傳送和任務產生的成本會針對行銷活動範本個別或全域輸入。 [了解更多](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
+1. 定義行銷活動成本（傳送/任務）：傳送和任務產生的成本會針對行銷活動範本個別或全域輸入。 [了解更多](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
 1. 合併：根據任務、傳遞和行銷活動的進度狀態，將計算成本並傳遞至對應的預算。 當行銷活動的建立已足夠進階時，行銷活動預算的進度狀態可以變更為&#x200B;**[!UICONTROL Specified]**。 然後會自動輸入方案的已計算成本，以及促銷活動上已計算的成本。 [了解更多](#cost-commitment--calculation-and-charging)。
 

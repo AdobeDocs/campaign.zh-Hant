@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 3%
@@ -59,12 +59,12 @@ ht-degree: 3%
 
 ### 優惠方案引擎的引數 {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** ：必須選取優惠方案環境的空間，才能啟用優惠方案引擎。
-* **[!UICONTROL Category]** ：優惠排序的特定資料夾。 如果未指定類別，則優惠方案引擎將會考慮環境中包含的所有優惠方案，除非選取了主題。
-* **[!UICONTROL Themes]** ：類別中上游定義的關鍵字。 這些當作篩選，可讓您在一組類別中選取優惠方案，以縮小要呈現的優惠方案數量。
-* **[!UICONTROL Number of propositions]** ：引擎傳回的可插入傳遞主體的選件數目。 如果它們未插入訊息中，仍會產生，但不會顯示優惠方案。
-* **[!UICONTROL Exclude non-eligible recipients]** ：此選項可讓您針對沒有足夠的合格優惠方案，來啟用或停用收件者排除功能。 合格主張的數量可能低於要求的主張數量。 如果核取此方塊，則沒有足夠主張的收件者將會從傳遞中排除。 如果您未選取此選項，這些收件者將不會被排除，但他們不會擁有要求的建議數量。
-* **[!UICONTROL Do not display anything if no offer is selected]** ：此選項可讓您選擇當其中一個主張不存在時，如何處理訊息。 核取此方塊時，不會顯示缺少主張的表示，且不會出現此主張的訊息內容。 如果未核取此方塊，則訊息本身會在傳送期間取消，收件者將不再接收任何訊息。
+* **[!UICONTROL Space]**：必須選取優惠方案環境的空間，才能啟用優惠方案引擎。
+* **[!UICONTROL Category]**：用來排序優惠的特定資料夾。 如果未指定類別，則優惠方案引擎將會考慮環境中包含的所有優惠方案，除非選取了主題。
+* **[!UICONTROL Themes]**：在類別中上游定義的關鍵字。 這些當作篩選，可讓您在一組類別中選取優惠方案，以縮小要呈現的優惠方案數量。
+* **[!UICONTROL Number of propositions]**：引擎傳回的可插入傳遞主體的選件數目。 如果它們未插入訊息中，仍會產生，但不會顯示優惠方案。
+* **[!UICONTROL Exclude non-eligible recipients]**：此選項可讓您針對沒有足夠的合格優惠方案，來啟用或停用收件者排除功能。 合格主張的數量可能低於要求的主張數量。 如果核取此方塊，則沒有足夠主張的收件者將會從傳遞中排除。 如果您未選取此選項，這些收件者將不會被排除，但他們不會擁有要求的建議數量。
+* **[!UICONTROL Do not display anything if no offer is selected]**：此選項可讓您選擇當其中一個主張不存在時，如何處理訊息。 核取此方塊時，不會顯示缺少主張的表示，且不會出現此主張的訊息內容。 如果未核取此方塊，則訊息本身會在傳送期間取消，收件者將不再接收任何訊息。
 
 ## 在工作流程中傳送優惠方案{#offer-via-wf}
 
@@ -100,11 +100,11 @@ ht-degree: 3%
 1. 指定要新增之主張的識別碼和標籤。
 1. 指定優惠方案選取專案。 對此有兩種可能的選項：
 
-   * **[!UICONTROL Search for the best offer in a category]** ：核取此選項，並指定優惠方案引擎呼叫引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數目）。 引擎將根據這些引數自動計算要新增的選件。 我們建議完成&#x200B;**[!UICONTROL Category]**&#x200B;或&#x200B;**[!UICONTROL Theme]**&#x200B;欄位，而不是同時完成兩者。
+   * **[!UICONTROL Search for the best offer in a category]**：核取此選項，並指定優惠方案引擎呼叫引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數目）。 引擎將根據這些引數自動計算要新增的選件。 我們建議完成&#x200B;**[!UICONTROL Category]**&#x200B;或&#x200B;**[!UICONTROL Theme]**&#x200B;欄位，而不是同時完成兩者。
 
      ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A pre-defined offer]** ：核取此選項，並指定優惠方案空間、特定優惠方案和聯絡日期，以直接設定您要新增的優惠方案，而不呼叫優惠方案引擎。
+   * **[!UICONTROL A pre-defined offer]**：核取此選項，並指定優惠方案空間、特定優惠方案和連絡日期，以直接設定您要新增的優惠方案，而不呼叫優惠方案引擎。
 
      ![](assets/int_enrichment_offer4.png)
 

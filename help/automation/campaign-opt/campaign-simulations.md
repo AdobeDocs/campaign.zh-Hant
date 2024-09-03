@@ -4,7 +4,7 @@ title: 開始使用行銷活動模擬
 description: 瞭解如何設定行銷活動模擬
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -153,9 +153,9 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 預設會提供下列報表：
 
-* **[!UICONTROL Detail of simulation exclusions]** ：此報表提供所有相關傳遞的排除原因詳細圖表。
-* **[!UICONTROL Simulation summary]** ：此報表會顯示從各種傳送的模擬中排除的母體。
-* **[!UICONTROL Summary of exclusions linked to the simulation]** ：此報表顯示模擬導致的排除圖表、套用的型別規則，以及顯示每個規則的排除率的圖表。
+* **[!UICONTROL Detail of simulation exclusions]**：此報表提供所有相關傳遞的排除原因詳細圖表。
+* **[!UICONTROL Simulation summary]**：此報表顯示從各種傳送的模擬中排除的母體。
+* **[!UICONTROL Summary of exclusions linked to the simulation]**：此報表顯示模擬所導致的排除圖表、套用的型別規則，以及顯示每個規則的排除率的圖表。
 
 <!--
 >[!NOTE]

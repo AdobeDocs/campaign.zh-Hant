@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,23 @@ ht-degree: 100%
       + [新增密件副本地址](send/email-bcc.md)
       + [定義額外電子郵件參數](send/email-parameters.md)
       + [傳送和監視電子郵件](send/send.md)
-   + [簡訊](send/sms.md)
+   + 簡訊 {#sms}
+      + [開始使用簡訊](send/sms/sms.md)
+      + 設定簡訊頻道{#config-sms}
+         + [SMPP外部帳戶設定](send/sms/smpp-external-account.md)
+         + [SMS頻道特性](send/sms/sms-channel.md)
+         + [正在驗證SMPP連線](send/sms/smpp-connection.md)
+         + [獨立執行個體](send/sms/sms-standalone-instance.md)
+         + [中間來源基礎結構](send/sms/sms-mid-sourcing.md)
+         + [SMPP聯結器說明](send/sms/smpp-connector-delivery.md)
+      + 建立簡訊{#create-sms}
+         + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
+         + [定義內容](send/sms/sms-content.md)
+         + [選取客群](send/sms/sms-audience.md)
+      + 驗證並傳送簡訊{#validate-sms}
+         + [傳送SMS校樣](send/sms/sms-proofs.md)
+         + [傳送給對象](send/sms/sms-send.md)
+      + [監視和追蹤簡訊](send/sms/sms-monitor.md)
    + 推播通知 {#push}
       + [建立和傳送推播通知](send/push.md)
       + 豐富推播 {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 100%
       + [使用個人化區塊](send/personalization-blocks.md)
       + [建立條件](send/conditions.md)
    + 驗證和傳送您的傳遞{#validate}
-   + [預覽和校樣](send/preview-and-proof.md)
-   + [傳遞分析](send/delivery-analysis.md)
-   + [設定並傳送傳遞](send/configure-and-send.md)
-   + [傳送時間最佳化](send/predictive.md)
+      + [預覽和校樣](send/preview-and-proof.md)
+      + [傳遞分析](send/delivery-analysis.md)
+      + [設定並傳送傳遞](send/configure-and-send.md)
+      + [傳送時間最佳化](send/predictive.md)
    + 失敗、邊界和隔離{#failures}
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)

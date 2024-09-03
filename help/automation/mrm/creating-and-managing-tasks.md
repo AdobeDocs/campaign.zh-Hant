@@ -5,7 +5,7 @@ description: 建立及管理任務
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -374,10 +374,10 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 建立期間，必須在任務中輸入下列元素：
 
-* **[!UICONTROL Assigned to]** ：將收到電子郵件的操作員或操作員群組。 如果您在傳送電子郵件後重新指派任務，則不會將電子郵件傳送給新運運算元（若要這樣做，您需要重新初始化任務並變更其開始日期）。
+* **[!UICONTROL Assigned to]**：將接收電子郵件的操作員或操作員群組。 如果您在傳送電子郵件後重新指派任務，則不會將電子郵件傳送給新運運算元（若要這樣做，您需要重新初始化任務並變更其開始日期）。
 * **任務開始日期**：傳送通知電子郵件的日期。 此日期必須在未來錄製任務時發生。
 * **任務結束日期**：任務狀態變更為&#x200B;**[!UICONTROL Finished]**&#x200B;的日期。 依預設，結束日期與開始日期相同。 不過，為任務指派工期可讓您在必要時象徵運運算元必須在排程中執行的時間量。
-* **[!UICONTROL Description]** ：此處輸入的文字會出現在通知電子郵件的內文中。
+* **[!UICONTROL Description]**：此處輸入的文字會出現在通知電子郵件的內文中。
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 

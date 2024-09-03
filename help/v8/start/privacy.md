@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -101,7 +101,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
-檔案名稱的模式是：`<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
+檔案名稱的模式是： `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
 * **InstanceName**：Campaign 執行個體名稱
 * **NamespaceId**：所使用命名空間的身份識別服務命名空間 ID

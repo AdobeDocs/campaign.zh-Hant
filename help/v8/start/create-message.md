@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 100%
@@ -24,11 +24,11 @@ Adobe Campaign v8 提供下列傳遞管道：
 
 * **電子郵件管道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。[了解更多](#gs-channel-email)
 
-* **行動裝置管道**：行動裝置管道的傳遞可讓您傳送個人化訊息給目標族群。[了解更多](#gs-channel-sms)
+* **行動裝置管道**：行動裝置管道的傳遞可讓您傳送個人化訊息給目標群體。[了解更多](#gs-channel-sms)
 
 * **行動應用程式管道**：行動應用程式傳遞可讓您傳送通知至 iOS 和 Android 裝置。[了解更多](#gs-channel-push)
 
-* **直接郵件管道**：直接郵件傳遞可讓您產生擷取檔案，其中包含目標族群的資料。[了解更多](#gs-channel-direct)
+* **直接郵件管道**：直接郵件傳遞可讓您產生擷取檔案，其中包含目標群體的資料。[了解更多](#gs-channel-direct)
 
 
   其他管道的描述見[本節](#other-channels)。
@@ -55,7 +55,7 @@ Adobe Campaign v8 提供下列傳遞管道：
 
 ### 行動裝置頻道 {#gs-channel-sms}
 
-Adobe Campaign 可讓您在行動裝置上傳送[簡訊](../send/sms.md)和 [LINE](../send/line.md) 訊息。
+Adobe Campaign 可讓您在行動裝置上傳送[簡訊](../send/sms/sms.md)和 [LINE](../send/line.md) 訊息。
 
 對於 SMS 訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在傳送簡訊之前先預覽簡訊。
 

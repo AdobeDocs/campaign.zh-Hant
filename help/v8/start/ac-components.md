@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Campaign網頁伺服器會控制Campaign網頁程式的存取權。 Javascript�
 
 Campaign使用者端主控台會透過HTTP使用SOAP XML連線至網頁伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，Campaign內部處理程式則使用SQL存取資料庫。
 
-Campaign流程之間的整體通訊如下獨立部署圖表所述：所有Campaign元件都安裝在同一部電腦中。
+<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png) -->
 
 使用者會使用HTTP連線至Campaign應用程式伺服器。 所有資料和資訊都在Campaign資料庫中進行管理。 如果Campaign開發人員執行任何設定變更，則會擷取到資料庫中。 如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。 行銷人員執行行銷活動時，會透過SMTP伺服器將電子郵件傳遞從Campaign伺服器傳送至設定檔。 當設定檔與電子郵件傳送互動時（例如開啟電子郵件），追蹤資料會傳回至追蹤伺服器。
 

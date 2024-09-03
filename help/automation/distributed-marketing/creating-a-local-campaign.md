@@ -5,7 +5,7 @@ description: 建立本機行銷活動
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 可用的介面型別有四種：
 
-* **[!UICONTROL By brief]** ：本機實體必須提供說明，以便說明行銷活動設定。 訂單獲得核准後，中央實體會設定並執行整個行銷活動。
+* **[!UICONTROL By brief]**：本機實體必須提供說明，以說明行銷活動設定。 訂單獲得核准後，中央實體會設定並執行整個行銷活動。
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** ：本機實體可存取網路表單，其中他們可以使用個人化欄位編輯內容、目標、其大小上限，以及建立和擷取日期（視使用的範本而定）。 本機實體可以評估目標並預覽此網路表單的內容。
+* **[!UICONTROL By form]**：本機實體可存取網路表單，其中他們可以使用個人化欄位編輯內容、目標、其大小上限，以及建立和擷取日期（視使用的範本而定）。 本機實體可以評估目標並預覽此網路表單的內容。
 
   ![](assets/mkt_distr_8.png)
 
@@ -74,8 +74,8 @@ ht-degree: 1%
 
   ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** ：本機實體可存取其外部網路(非Adobe Campaign)中的行銷活動引數。 這些引數與&#x200B;**本機行銷活動（依表單）**&#x200B;的引數相同。
-* **[!UICONTROL Pre-set]** ：本機實體使用預設表單訂購行銷活動，但不進行當地語系化。
+* **[!UICONTROL By external form]**：本機實體可存取其外部網路(非Adobe Campaign)中的行銷活動引數。 這些引數與&#x200B;**本機行銷活動（依表單）**&#x200B;的引數相同。
+* **[!UICONTROL Pre-set]**：本機實體使用預設表單訂購行銷活動，而不進行當地語系化。
 
   ![](assets/mkt_distr_5.png)
 

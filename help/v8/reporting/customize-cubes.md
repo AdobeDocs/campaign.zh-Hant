@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -70,7 +70,7 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 
 您可以根據所需的間隔將值分組為範圍。
 
-若要手動定義範圍，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL Define a range]** ：
+若要手動定義範圍，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL Define a range]**：
 
 然後指定下限和上限，並按一下&#x200B;**[!UICONTROL Ok]**&#x200B;確認。
 

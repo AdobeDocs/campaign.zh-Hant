@@ -5,7 +5,7 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 對於與Campaign資料表/資料庫的聯結關係：
 
-* ![](assets/do-not-localize/join_with_campaign11.png) ：基數1-1。 例如，在收件者和目前訂單之間。 收件者一次只能與目前訂單表格的一個執行個體相關。
-* ![](assets/do-not-localize/externaljoin11.png) ：基數1-1、外部聯結。 例如，在收件者與其國家/地區之間。 收件者只能與表格國家/地區的一個執行個體相關。 將不會儲存國家表格的內容。
-* ![](assets/do-not-localize/join_with_campaign1n.png) ：基數1-N。例如，在收件者和訂閱表格之間。 收件者可與訂閱表格上的數個相符專案建立關聯。
+* ![](assets/do-not-localize/join_with_campaign11.png)：基數1-1。 例如，在收件者和目前訂單之間。 收件者一次只能與目前訂單表格的一個執行個體相關。
+* ![](assets/do-not-localize/externaljoin11.png)：基數1-1，外部聯結。 例如，在收件者與其國家/地區之間。 收件者只能與表格國家/地區的一個執行個體相關。 將不會儲存國家表格的內容。
+* ![](assets/do-not-localize/join_with_campaign1n.png)：基數1-N。例如，在收件者和訂閱表格之間。 收件者可與訂閱表格上的數個相符專案建立關聯。
 
 對於使用同盟資料庫存取(FDA)的加入關係：
 
-* ![](assets/do-not-localize/join_fda_11.png) ：基數1-1
-* ![](assets/do-not-localize/join_fda_1m.png) ：基數1-N
+* ![](assets/do-not-localize/join_fda_11.png)：基數1-1
+* ![](assets/do-not-localize/join_fda_1m.png)：基數1-N
 
 如需FDA表格的詳細資訊，請參閱[存取外部資料庫](../connect/fda.md)。
 
