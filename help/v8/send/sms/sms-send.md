@@ -4,10 +4,11 @@ description: 瞭解如何傳送SMS傳送給對象
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 24a6d56a79995cd0113d8438d1bd3314a3872e35
+badge: label="有限可用性" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 0%
+source-wordcount: '113'
+ht-degree: 1%
 
 ---
 

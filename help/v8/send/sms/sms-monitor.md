@@ -4,9 +4,10 @@ description: 關於SMS傳送的監控和追蹤
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+badge: label="有限可用性" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
