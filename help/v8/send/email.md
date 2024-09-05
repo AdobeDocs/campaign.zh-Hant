@@ -1,6 +1,6 @@
 ---
 title: 使用Adobe Campaign傳送電子郵件
-description: 開始使用 Adobe Campaign 中的電子郵件。向目標族群寄送個人化電子郵件。
+description: 開始使用 Adobe Campaign 中的電子郵件。向目標群體寄送個人化電子郵件。
 feature: Email
 role: User
 level: Beginner
