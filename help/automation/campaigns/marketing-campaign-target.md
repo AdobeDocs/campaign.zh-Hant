@@ -5,9 +5,9 @@ description: 瞭解如何定義行銷活動的對象
 feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1470'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,10 @@ To build the delivery target, you can define filtering criteria for the recipien
   您可以按一下&#x200B;**[!UICONTROL Actions]**&#x200B;圖示並選取&#x200B;**[!UICONTROL Unconditional]**&#x200B;停止，無條件停止工作流程。 此動作會終止您的行銷活動工作流程。
 
   ![](assets/stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >管理員使用者僅限無條件停止。
 
 ## 新增控制組 {#add-a-control-group}
 
