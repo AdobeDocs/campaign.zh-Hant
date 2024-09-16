@@ -4,9 +4,9 @@ description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 07e0bfdade0356eedb24641259aa754fdb1c6155
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握�
 
 ## 發行版本 8.7.2 {#release-8-7-2}
 
-_2024年9月3日_
+_2024 年 9 月 3 日_
 
 >[!AVAILABILITY]
 >
@@ -31,11 +31,11 @@ _2024年9月3日_
 
 ### 新功能 {#new-8-7-2}
 
-* **新的SMS傳送聯結器** - SMS傳送聯結器已經過現代化及改善，可啟用收發器模式SMPP連線、啟用永久性SMPP連線，並確保轉換自Adobe Campaign Standard的環境有更好的相容性。 新的SMS外部帳戶現在可用於所有新的SMS實施。 仍支援現有的實施，但建議改用此新的現代化及擴充聯結器。 [閱讀全文](../send/sms/sms.md)。
+* **新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。仍支援現有的實施，但建議改用此新的現代化及擴充連接器。[閱讀全文](../send/sms/sms.md)。
 
-* **豐富推送通知(GA)** — 您現在可以傳送豐富推送通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。[閱讀全文](../send/rich-push-android.md)。
+* **豐富推播通知 (GA)** - 您現在可以傳送豐富推播通知。豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。[閱讀全文](../send/rich-push-android.md)。
 
-* **品牌化** — 品牌化選項現在可供所有管道使用，包括SMS和直接郵件。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-hant){target="_blank"}
+* **品牌化** - 品牌化選項現在可供所有管道使用，包括 SMS 和直接郵件。[閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=zh-hant){target="_blank"}
 
 
 ### 修正 {#fixes-8-7-2}
