@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1633'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 >
 >這些變更套用至您的所有伺服器後，所有傳送至Android裝置的&#x200B;**新**&#x200B;推播通知都會使用HTTP v1 API。 處於重試、進行中及使用中的現有推播傳送仍使用HTTP （舊版） API。 請在以下章節瞭解如何更新。
 
-### 更新現有範本 {#fcm-transition-update}
+#### 更新現有範本 {#fcm-transition-update}
 
 轉換HTTP v1完成後，您必須為Android推播通知更新&#x200B;**傳遞範本**，以增加批次訊息的數量。 若要這麼做，請瀏覽至您的Android傳遞範本的屬性，並在&#x200B;**傳遞**&#x200B;索引標籤中，將[訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity)設定為&#x200B;**256**。 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
 
@@ -99,16 +99,16 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 若為「受管理的Cloud Service」或「託管」客戶，請聯絡Adobe以更新您現有的Android傳遞範本。
 
-* 針對內部部署環境，請下載並執行`fcm-httpv1-migration.js`指令碼，如下所述。
+* 若為內部部署環境，請下載`fcm-httpv1-migration.js`指令碼並執行，如下所述。
 
-  下載[fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+  下載[fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip)
 
   >[!CAUTION]
   >
   >指令碼必須在行銷、中間來源和即時環境中執行。
 
 
-  +++更新現有傳遞和範本的步驟
+  +++更新現有傳遞和範本的步驟（僅限內部部署）
 
   若要修補在升級至支援HTTP v1的版本之前建立的所有傳遞和傳遞範本，請遵循下列步驟：
 
