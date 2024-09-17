@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="有限可用性" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 簡訊傳送設定 {#sms-settings}
 
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 * **[!UICONTROL Transmission mode]**
 
-此欄位會指出您要傳輸的SMS型別：一般或快閃訊息，儲存在行動裝置或SIM卡上。 此設定會在SUBMIT_SM PDU的dest_addr_subunit選擇性欄位中傳輸。
+  此欄位會指出您要傳輸的SMS型別：一般或快閃訊息，儲存在行動裝置或SIM卡上。 此設定會在SUBMIT_SM PDU的dest_addr_subunit選擇性欄位中傳輸。
 
-* **Flash**&#x200B;將值設為1。 它會傳送快閃訊息，該訊息會在行動裝置上彈出，且不會儲存在記憶體中。
-* **Normal**&#x200B;將值設為0。 它會傳送一般訊息。
-* **在行動裝置上儲存**&#x200B;將值設為2。 它會告訴手機將簡訊儲存在內部記憶體中。
-* **儲存於終端機**&#x200B;會將值設為3。 它會告訴手機將簡訊儲存在SIM卡中。
+   * **Flash**&#x200B;將值設為1。 它會傳送快閃訊息，該訊息會在行動裝置上彈出，且不會儲存在記憶體中。
+   * **Normal**&#x200B;將值設為0。 它會傳送一般訊息。
+   * **在行動裝置上儲存**&#x200B;將值設為2。 它會告訴手機將簡訊儲存在內部記憶體中。
+   * **儲存於終端機**&#x200B;會將值設為3。 它會告訴手機將簡訊儲存在SIM卡中。
 
 * **[!UICONTROL Priority, Communication type]**
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 例如，從&#x200B;**[!UICONTROL Explorer]**&#x200B;的傳遞儀表板或傳遞資料夾中建立新的傳遞。  預設會標示為「電子郵件傳送」。
 
-1. 選取您為SMS傳送建立的傳送範本。 [在這裡瞭解更多](sms-mid-sourcing.md#sms-delivery-template)。
+1. 選取您為SMS傳送建立的傳送範本。 [如需更多詳情，請參閱此處](sms-mid-sourcing.md#sms-delivery-template)。
 
    ![](assets/sms_create.png){zoomable="yes"}
 
