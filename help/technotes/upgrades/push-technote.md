@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
+source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1630'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,8 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 
+* 作為Campaign Classic v7內部部署或混合使用者，請檢查您的Android路由外部帳戶是否已設定`androidPushConnectorV2.js`。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+
 #### 轉換程式 {#fcm-transition-steps}
 
 若要將環境移至HTTP v1，請遵循下列步驟：
@@ -84,12 +86,73 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
    | 資料訊息 | N/A | validate_only |
    | 通知訊息 | title，內文， android_channel_id，圖示，聲音，標籤，顏色，點按動作，影像，提示，粘性，可見度，通知優先順序，通知計數<br> | validate_only |
 
-1. 轉換HTTP v1完成後，您必須為Android推播通知更新&#x200B;**傳遞範本**，以增加批次訊息的數量。 若要這麼做，請瀏覽至您的Android傳遞範本的屬性，並在&#x200B;**傳遞**&#x200B;索引標籤中，將[訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity)設定為&#x200B;**256**。 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
-
 
 >[!NOTE]
 >
->這些變更套用至您的所有伺服器後，所有傳送至Android裝置的新推播通知都會使用HTTP v1 API。 處於重試、進行中及使用中的現有推播傳送仍使用HTTP （舊版） API。
+>這些變更套用至您的所有伺服器後，所有傳送至Android裝置的&#x200B;**新**&#x200B;推播通知都會使用HTTP v1 API。 處於重試、進行中及使用中的現有推播傳送仍使用HTTP （舊版） API。 請在以下章節瞭解如何更新。
+
+### 更新現有範本 {#fcm-transition-update}
+
+轉換HTTP v1完成後，您必須為Android推播通知更新&#x200B;**傳遞範本**，以增加批次訊息的數量。 若要這麼做，請瀏覽至您的Android傳遞範本的屬性，並在&#x200B;**傳遞**&#x200B;索引標籤中，將[訊息批次數量](../../v8/send/configure-and-send.md#delivery-batch-quantity)設定為&#x200B;**256**。 將此變更套用至Android傳遞使用的所有傳遞範本，以及所有現有的Android傳遞。
+
+您也可以更新在升級至支援HTTP v1的版本之前建立的現有傳遞和傳遞範本。 若要執行此動作：
+
+* 若為「受管理的Cloud Service」或「託管」客戶，請聯絡Adobe以更新您現有的Android傳遞範本。
+
+* 針對內部部署環境，請下載並執行`fcm-httpv1-migration.js`指令碼，如下所述。
+
+  下載[fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+
+  >[!CAUTION]
+  >
+  >指令碼必須在行銷、中間來源和即時環境中執行。
+
+
+  +++更新現有傳遞和範本的步驟
+
+  若要修補在升級至支援HTTP v1的版本之前建立的所有傳遞和傳遞範本，請遵循下列步驟：
+
+   1. 將您現有的傳遞和傳遞範本匯出至套件中，以便在修補期間發生未預期的問題時能夠還原它們。
+   1. 在Posgresql中執行以下命令：
+
+      ```sql
+      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+      ```
+
+   1. 根據預設，指令碼處於`dryrun`模式，您可以在該模式中啟動它，以檢查是否需要修補某些傳遞。
+
+      命令
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+      ```
+
+      輸出
+
+      ```sql
+      ...
+      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      ...
+      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+      HH:MM:SS >   - Y had androidCheckParams formula patched.
+      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+      ```
+
+      >[!NOTE]
+      >
+      >需要手動更新`not patchable`傳遞。 可在紀錄中找到其ID。
+
+   1. 在執行模式中以下列方式執行指令碼以更新傳送：
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+      ```
+
++++
 
 ### 對我的Android應用程式有何影響？ {#fcm-apps}
 
