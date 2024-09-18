@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f25f793c85d1af26f2e36e28830c6192bfbe4ca3
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8 資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
+      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 93%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 93%
       + [將 Campaign SDK 與您的應用程式整合- DEPRECATED PAGE](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
-   + [促銷活動資料模型](dev/datamodel.md)
+   + [Campaign資料模型](dev/datamodel.md)
    + 方案和表單{#shemas-forms}
       + [使用方案](dev/schemas.md)
       + [建立方案](dev/create-schema.md)
