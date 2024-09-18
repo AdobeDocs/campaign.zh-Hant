@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="也適用於Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="套用至Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
+source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1665'
 ht-degree: 1%
 
 ---
@@ -105,11 +105,11 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 若為內部部署環境，請下載`fcm-httpv1-migration.js`指令碼並執行，如下所述。
 
-  下載[fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)
+  下載[fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)。
 
   >[!CAUTION]
   >
-  >指令碼必須在行銷執行個體上執行。
+  >指令碼必須在您的內部部署行銷執行個體上執行。
 
 
   +++更新現有傳遞和範本的步驟（僅限內部部署）
