@@ -5,16 +5,16 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
 # Campaign API準備機制
 
-在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 永遠偏好使用批次處理作業。 為了改善效能，內嵌API會重新導向至本機資料庫。
+在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的磁碟量極低，否則必須使用批次作業&#x200B;****。 為了改善效能，內嵌API會重新導向至本機資料庫。
 
 根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上將其啟用。 簡述暫存機制：
 

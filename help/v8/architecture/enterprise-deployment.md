@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 50%
 
 ---
@@ -24,7 +24,7 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 * 針對細分和目標定位以及資料擷取與匯出調整查詢的效能
 * 調整傳送準備規模 (從小時到分鐘)
 
-這是軟體架構的重大變更。 資料現在是遠端的，而 Campaign 會聯合所有資料，包括設定檔。 [!DNL Campaign] 流程現在可以調整端對端規模，包含從目標定位到訊息執行：資料擷取、細分、目標定位、查詢、傳送，現在通常只需幾分鐘即可完成。此新版本可解決拓展規模的整體挑戰，同時維持相同彈性和擴充性。 設定檔的數量幾乎不受限制，資料保留期也可以延長。
+這是軟體架構的重大變更。 資料現在是遠端的，而 Campaign 會聯合所有資料，包括輪廓。 [!DNL Campaign] 流程現在可以調整端對端規模，包含從目標定位到訊息執行：資料擷取、細分、目標定位、查詢、傳送，現在通常只需幾分鐘即可完成。此新版本可解決拓展規模的整體挑戰，同時維持相同彈性和擴充性。 輪廓的數量幾乎不受限制，資料保留期也可以延長。
 
 在 **[!DNL Snowflake]** 中執行雲端儲存空間：新的內建 **外部帳戶** 可確保與雲端資料庫的連線。由 Adobe 設定，且不得修改。 [深入瞭解](../config/external-accounts.md)
 
@@ -82,7 +82,7 @@ Campaign v8企業版帶來&#x200B;**完整同盟資料存取** (FFDA)的概念�
 
 ### [!DNL Campaign] API暫存機制{#staging-api}
 
-使用[!DNL Campaign]雲端資料庫時，由於效能（延遲和並行），不建議使用Blast單一呼叫。 永遠偏好使用批次作業。 為了保證API的最佳效能，Campaign會持續在本機資料庫層級處理API呼叫。
+使用[!DNL Campaign]雲端資料庫時，由於效能（延遲和並行），不建議使用Blast單一呼叫。 除非您傳送的傳送量極大，否則必須使用批次作業來保證API的最佳效能，否則Campaign會持續在本機資料庫層級處理API呼叫。
 
 [本頁面詳細說明API暫存機制](staging.md)
 

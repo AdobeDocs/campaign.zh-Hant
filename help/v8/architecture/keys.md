@@ -5,9 +5,9 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '572'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Unicity Service隨附專屬的&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;�
 ![](assets/wf-alert-activity.png)
 
 
-## 其他護欄{#duplicates-guardrails}
+## 其他護欄 {#duplicates-guardrails}
 
 Campaign提供一組新護欄，以防止在[!DNL Snowflake]資料庫中插入重複的金鑰。
 
@@ -63,19 +63,19 @@ Campaign提供一組新護欄，以防止在[!DNL Snowflake]資料庫中插入�
 >
 >從Campaign v8.3開始提供這些護欄。若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-### 傳遞準備{#remove-duplicates-delivery-preparation}
+### 傳遞準備 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID。 此機制可防止在準備傳送時發生任何錯誤。 身為一般使用者，您可以在傳送記錄中檢查此資訊：由於金鑰重複，某些收件者可從主要目標中排除。 在這種情況下，會顯示下列警告： `Exclusion of duplicates (based on the primary key or targeted records)`。
 
 ![](assets/exclusion-duplicates-log.png)
 
-### 更新工作流程中的資料{#duplicates-update-data}
+### 更新工作流程中的資料 {#duplicates-update-data}
 
 在[Enterprise (FFDA)部署](enterprise-deployment.md)的內容中，您無法選取內部金鑰(UUID)作為欄位來更新工作流程中的資料。
 
 ![](assets/update-data-no-internal-key.png)
 
-### 查詢包含重複專案的結構描述{#query-with-duplicates}
+### 查詢包含重複專案的結構描述 {#query-with-duplicates}
 
 當工作流程開始在結構描述上執行查詢時，Adobe Campaign會檢查是否在[稽核唯一性表格](#unicity-wf)中報告任何重複記錄。 若是如此，工作流程會記錄警告，因為對重複資料的後續操作可能會影響工作流程結果。
 
@@ -86,3 +86,8 @@ Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID�
 * 查詢
 * 增量查詢
 * 讀取清單
+
+
+>[!NOTE]
+>
+>如果您的從其他Campaign版本進行轉換，請務必移除重複專案、疑難排解並清理資料，以避免影響轉換。
