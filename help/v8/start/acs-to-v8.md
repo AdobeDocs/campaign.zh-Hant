@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
-source-git-commit: f0fc5dfdde4fa9a238c0f07aa2bd35da28eead3c
+source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 8%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -18,4 +18,11 @@ ht-degree: 8%
 
 身為Campaign v8使用者，您現在可以存取新的Campaign網頁使用者介面和v8使用者端主控台。 資料和設定則會從一個環境同步至另一個環境。從Explorer左側導覽的Campaign Web使用者介面中，可以看到使用者端主控台中可用的所有資料和設定。
 
-在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
+開始使用的實用連結：
+
+* 在[此採用指南](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}中瞭解主要差異以及如何開始使用。
+
+* 在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
+
+* Campaign v8已新增Campaign Standard功能，以協助您進行轉換。 這些功能僅限從Campaign Standard轉換的客戶使用，並在本[此檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}中說明。
+

@@ -3,14 +3,14 @@ title: Campaign v8 （主控台） 2023年發行說明
 description: 2023 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 07e0bfdade0356eedb24641259aa754fdb1c6155
+source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 91%
 
 ---
 
-# 2024年發行說明 {#2024-rn}
+# 2024 年發行說明 {#2024-rn}
 
 此頁面列出&#x200B;**2024 Campaign v8版本**&#x200B;的新功能、改善和修正。
 
@@ -46,7 +46,7 @@ _2024 年 5 月 2 日_
 >
 >此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 >
->作為轉換至 Campaign v8 的 Campaign Standard 使用者，請在 [Campaign v8 網頁使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}中進一步了解此轉換。
+>作為轉換至 Campaign v8 的 Campaign Standard 使用者，請在 [Campaign v8 網頁使用者介面文件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}中進一步了解此轉換。
 
 ### 新功能 {#new-8-7-1}
 
@@ -56,7 +56,7 @@ _2024 年 5 月 2 日_
 
 * **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=zh-hant){target="_blank"}
 
-* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對設定檔資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依設定檔維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hant){target="_blank"}
+* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。[閱讀全文](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-hant){target="_blank"}
 
 ### 相容性更新 {#comp-8-7-1}
 
