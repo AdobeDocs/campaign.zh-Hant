@@ -5,7 +5,7 @@ description: 瞭解如何查詢收件者表格
 feature: Query Editor
 role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -84,6 +84,6 @@ ht-degree: 3%
 
    ![](assets/query_editor_nveau_13.png)
 
-   **[!UICONTROL Generated QSL queries]**&#x200B;索引標籤以SQL格式顯示查詢結果。
+   **[!UICONTROL Generated SQL queries]**&#x200B;索引標籤以SQL格式顯示查詢結果。
 
    ![](assets/query_editor_nveau_14.png)
