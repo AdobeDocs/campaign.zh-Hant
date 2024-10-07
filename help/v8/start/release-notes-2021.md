@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
 source-wordcount: '1581'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ _2021 年 10 月 28 日_
 * 修正了導致網路逾時問題錯誤記錄為指令碼中斷問題，而非網路錯誤的問題。 在 JavaScript 活動中包含的 HTTP 要求中，會發生此問題。
 * 修正無法將優惠複製到 Snowflake 上即時優惠環境的問題。
 * 修正了忽略非擴充內建結構之「autoStg」屬性的問題。
-* 修正了使用者無法選取 **[!UICONTROL Country/Region]** 預覽設定檔時的連結的問題。
+* 修正了使用者無法選取 **[!UICONTROL Country/Region]** 預覽輪廓時的連結的問題。
 * 修正了自訂報告中的日期選擇器導致指令碼錯誤的問題。 (NEO-36345)
 * 修正了在重新產生設定時，如果設定檔案錯誤，會導致系統當機的問題。
 * 修正了無法成功升級行銷和控制執行個體的問題。
@@ -121,10 +121,11 @@ _2021 年 9 月 7 日_
 
 **其他變更**
 
-* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=zh-Hant#configure-acc-for-microsoft)
+* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
+
 * 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正了 IIS 整合問題。 (NEO-31019)
 * 已新增護欄，僅允許[帳單技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=zh-Hant#billing-report)在行銷執行個體上執行。
-* 已在工作流程轉變&#x200B;**檢視母體**&#x200B;視窗的資料和架構標籤中改善資料來源識別。
+* 已在工作流程轉變&#x200B;**檢視群體**&#x200B;視窗的資料和架構標籤中改善資料來源識別。
 * 已將缺少的資料庫索引添加到以下架構中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **修補程式**
@@ -160,7 +161,7 @@ _2021 年 7 月 23 日_
 <td>
 <p>新的<b>變更資料來源</b>工作流程活動可讓您變更工作流程工作表格的資料來源。 這為管理不同資料來源 (FDA、FFDA &amp; 本機資料庫) 的資料提供更強大的彈性。</p>
 <p>在 Adobe Campaign 工作流程中，使用工作 (或暫時) 表格來管理資料。 工作流程執行時，工作表格會在各工作流程活動中共用資料。 在預設情況下，工作表格與我們查詢的資料來源建立在同一資料庫上。</p>
-<p>使用 Campaign v8 時，主要設定檔表格會直接儲存在雲端資料庫中。 因此，查詢設定檔表格也會在雲端資料庫上建立工作表格。 在某些情況下，將工作表格移動到其他資料來源以執行特定操作是很合理的。</p>
+<p>使用 Campaign v8 時，主要輪廓表格會直接儲存在雲端資料庫中。 因此，查詢輪廓表格也會在雲端資料庫上建立工作表格。 在某些情況下，將工作表格移動到其他資料來源以執行特定操作是很合理的。</p>
 <p>如需詳細資訊，請參閱<a href="../config/workflows.md#change-data-source-activity">詳細文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
@@ -193,5 +194,5 @@ _2021 年 7 月 23 日_
 
 * 修正了無法針對特定傳遞顯示&#x200B;**熱點點選**&#x200B;報告的問題。
 * 修正&#x200B;**重複資料刪除**&#x200B;工作流程活動可能導致錯誤重複計數的問題。
-* 修正搭配「ID不是空白」篩選使用工作流程查詢時，可能導致轉變母體中顯示空白項目的問題。
+* 修正搭配「ID不是空白」篩選使用工作流程查詢時，可能導致轉變群體中顯示空白項目的問題。
 * 修正無法在新目標對應中建立其他欄位的問題。

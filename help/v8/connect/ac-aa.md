@@ -5,7 +5,7 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: adfde71faebf3cec7e7b730c9753e6765aeadab0
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 67%
@@ -108,7 +108,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 

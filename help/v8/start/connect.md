@@ -5,9 +5,9 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 15%
 
 ---
@@ -61,7 +61,7 @@ Web View預設會安裝為Windows 11作業系統的一部分。 如果您的系�
 
 1. 指定透過URL連線至您的Adobe Campaign應用程式伺服器。 請使用電腦的DNS或別名，或您的IP位址。
 
-   例如，您可以使用[`https://<machine>.<domain>.com`](https://myserver.adobe.com)型別URL。
+   例如，您可以使用`https://<machine>.<domain>.com`型別URL。
 
 1. 核取選項&#x200B;**[!UICONTROL Connect with an Adobe ID]**。
 
