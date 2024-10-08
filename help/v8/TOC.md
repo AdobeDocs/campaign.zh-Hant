@@ -6,9 +6,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,19 +52,19 @@ ht-degree: 93%
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
       + 設定簡訊頻道{#config-sms}
-         + [SMPP外部帳戶設定](send/sms/smpp-external-account.md)
-         + [SMS頻道特性](send/sms/sms-channel.md)
-         + [正在驗證SMPP連線](send/sms/smpp-connection.md)
+         + [SMPP 外部帳戶設定](send/sms/smpp-external-account.md)
+         + [簡訊管道特性](send/sms/sms-channel.md)
+         + [驗證 SMPP 連線](send/sms/smpp-connection.md)
          + [獨立執行個體](send/sms/sms-standalone-instance.md)
          + [中間來源基礎結構](send/sms/sms-mid-sourcing.md)
-         + [SMPP聯結器說明](send/sms/smpp-connector-delivery.md)
-      + 建立簡訊{#create-sms}
+         + [SMPP 連接器說明](send/sms/smpp-connector-delivery.md)
+      + 建立簡訊 {#create-sms}
          + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
          + [定義內容](send/sms/sms-content.md)
          + [選取客群](send/sms/sms-audience.md)
-      + 驗證並傳送簡訊{#validate-sms}
-         + [傳送SMS校樣](send/sms/sms-proofs.md)
-         + [傳送給對象](send/sms/sms-send.md)
+      + 驗證和傳送簡訊 {#validate-sms}
+         + [傳送簡訊證明](send/sms/sms-proofs.md)
+         + [傳送給客群](send/sms/sms-send.md)
       + [監視和追蹤簡訊](send/sms/sms-monitor.md)
    + 推播通知 {#push}
       + [建立和傳送推播通知](send/push.md)
@@ -101,14 +101,14 @@ ht-degree: 93%
 + 輪廓與客群管理 {#audience}
    + [開始使用輪廓和客群](audiences/gs-audiences.md)
    + [配合客群](start/audiences.md)
-   + [存取設定檔](audiences/view-profiles.md)
-   + 新增設定檔 {#add-profiles}
-      + [手動建立設定檔](audiences/create-profiles.md)
-      + [從檔案匯入設定檔](audiences/import-profiles.md)
-      + [使用外部設定檔](audiences/external-profiles.md)
-      + [在網路表單中收集設定檔資料](audiences/collect-profiles.md)
+   + [存取輪廓](audiences/view-profiles.md)
+   + 新增輪廓 {#add-profiles}
+      + [手動建立輪廓](audiences/create-profiles.md)
+      + [從檔案匯入輪廓](audiences/import-profiles.md)
+      + [使用外部輪廓](audiences/external-profiles.md)
+      + [在網路表單中收集輪廓資料](audiences/collect-profiles.md)
       + [使用目標對應](audiences/target-mappings.md)
-      + [建立測試設定檔](audiences/test-profiles.md)
+      + [建立測試輪廓](audiences/test-profiles.md)
    + 建立客群 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
       + [建立及管理篩選器](audiences/create-filters.md)
@@ -165,7 +165,7 @@ ht-degree: 93%
    + [連結 Campaign 與其他解決方案](connect/integration.md)
    + Campaign + Experience Platform{#ac-aep}
       + [共用及同步客群和輪廓屬性](connect/ac-aep.md)
-      + [從 Campaign 登陸頁面更新 AEP 設定檔](connect/ac-aep-landing-pages.md)
+      + [從 Campaign 登陸頁面更新 AEP 輪廓](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
@@ -207,7 +207,7 @@ ht-degree: 93%
       + [將 Campaign SDK 與您的應用程式整合- DEPRECATED PAGE](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
-   + [Campaign資料模型](dev/datamodel.md)
+   + [Campaign 資料模型](dev/datamodel.md)
    + 方案和表單{#shemas-forms}
       + [使用方案](dev/schemas.md)
       + [建立方案](dev/create-schema.md)

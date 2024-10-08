@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,9 +70,9 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 1. **匯入輪廓並建立客群**
 
-   Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入設定檔資訊。
+   Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
 
-   [瞭解如何匯入設定檔](import.md)。
+   [瞭解如何匯入輪廓](import.md)。
 
    客群會分組到清單中，並可透過工作流程建立。 然後，您就可以在跨頻道傳遞中鎖定這些目標。
 
@@ -100,7 +100,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Adobe Campaign 附有預定義的資料模型。若要實施和自訂您的環境，您需要熟悉 Adobe Campaign 資料模型的內建表格以及它們之間的關係。
 
-   [進一步瞭解Campaign資料模型](../dev/datamodel.md)。
+   [深入了解 Campaign 資料模型](../dev/datamodel.md)。
 
 ## 自訂您的執行個體{#implementation-custom-your-instance}
 
@@ -110,7 +110,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    Adobe Campaign 提供了通用方案來識別資料，例如：收件者、傳遞記錄、訂閱及更多。
 
-   請參閱本節以深入瞭解[Campaign內建資料模型](../dev/datamodel.md)。
+   請參閱本節以深入了解 [Campaign 內建資料模型](../dev/datamodel.md)。
 
    您可以擴充現有方案或從頭開始建立新方案。 在[本頁](../dev/customize.md)中瞭解更多。
 
