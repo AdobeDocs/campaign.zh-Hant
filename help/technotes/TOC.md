@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign Technotes
 description: Campaign技術檔案
 breadcrumb-title: Campaign技術檔案
-source-git-commit: a9a376e1726bf92ddce937d5598314cbfd744f1f
+source-git-commit: ccd60b7ff54bb538ae21693eff41a3943f1c6c88
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 23%
+source-wordcount: '77'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 23%
    + [網際網路瀏覽器](upgrades/browsers.md)
    + [2023 年系統升級](upgrades/tech-stack-upgrade.md)
    + [使用者端主控台32位元淘汰](upgrades/console.md)
+   + [從Campaign Standard到Campaign V8的使用者存取管理](upgrades/user-management-acs.md)
    + 安全性{#security}
       + [客戶憑證輪換](security/credential-rotation-guide.md)
 + [&lt;返回Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
