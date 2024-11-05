@@ -1,177 +1,203 @@
 ---
-title: 開始使用訊息
-description: 開始使用訊息
+title: 建立您的第一個傳遞
+description: 建立您的第一個傳遞
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
-workflow-type: ht
-source-wordcount: '1319'
-ht-degree: 100%
+source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+workflow-type: tm+mt
+source-wordcount: '1525'
+ht-degree: 4%
 
 ---
 
-# 開始使用訊息 {#gs-ac-audiences}
+# 建立您的第一個傳遞 {#create-a-msg}
 
-## 傳遞管道 {#gs-ac-channels}
+在本頁面中，您將瞭解如何建立單次傳送。 您可以建立其他型別的傳送，以解決您的使用案例。 在[本頁面](gs-message.md)中進一步瞭解不同型別的傳遞以及如何建立它們。
 
-透過 Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知和直接郵件，並使用各種專屬報告來評估行銷成效。 這些訊息是透過傳遞進行設計和傳送，而且可針對每位收件者進行個人化。
+建立單次傳送的關鍵步驟如下：
 
-核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。 主要功能存取點是傳送助理。 此存取點可導向 Adobe Campaign 涵括的多種功能。
+1. **建立新傳遞**。 [閱讀更多](#create-the-delivery)
 
-Adobe Campaign v8 提供下列傳遞管道：
+1. **定義傳遞內容**。 [閱讀更多](#content-of-the-delivery)
 
-* **電子郵件管道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。[了解更多](#gs-channel-email)
+1. **選取目標母體**。 [閱讀更多](#target-population)
 
-* **行動裝置管道**：行動裝置管道的傳遞可讓您傳送個人化訊息給目標群體。[了解更多](#gs-channel-sms)
-
-* **行動應用程式管道**：行動應用程式傳遞可讓您傳送通知至 iOS 和 Android 裝置。[了解更多](#gs-channel-push)
-
-* **直接郵件管道**：直接郵件傳遞可讓您產生擷取檔案，其中包含目標群體的資料。[了解更多](#gs-channel-direct)
-
-
-  其他管道的描述見[本節](#other-channels)。
-
-  >[!NOTE]
-  >
-  >可用管道的數量取決於您的合約。 請檢查您的授權合約。
-
-## 選擇您的管道 {#gs-channel}
-
-### 電子郵件管道 {#gs-channel-email}
-
-[電子郵件管道](../send/direct-mail.md)是 Adobe Campaign 的核心管道之一，可讓您排程個人化電子郵件並將其傳送到特定目標。
-
-您可以傳送不同類型的電子郵件：
-
-* 單次傳送電子郵件：您可以向指定目標傳送一次性的電子郵件。 它們通常用於宣傳僅準備傳送一次的特定內容 (電子報、促銷電子郵件等)。
-* 定期電子郵件：在行銷活動中，定期傳送同一封電子郵件，並定期彙總每次傳送的電子郵件及其報告。 傳送相同的電子郵件，但通常傳送到不同的目標，具體取決於傳送當日的合格目標。 一個常見的例子是生日電子郵件。如需詳細資訊，請參閱[定期傳遞](../../automation/workflow/recurring-delivery.md)。
-* 交易型電子郵件：根據客戶行為觸發的單一電子郵件。 請參閱[交易型訊息傳送](../send/transactional.md)。
-
-要了解有關傳送使用和建議的資訊，請參閱 Adobe Campaign Classic [傳送最佳做法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant#sending-messages){target="_blank"}
-
-有關不同類型傳送的詳細資訊，請參閱[本節](#types-of-deliveries)。
-
-### 行動裝置頻道 {#gs-channel-sms}
-
-Adobe Campaign 可讓您在行動裝置上傳送[簡訊](../send/sms/sms.md)和 [LINE](../send/line.md) 訊息。
-
-對於 SMS 訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在傳送簡訊之前先預覽簡訊。
-
-對於 LINE 訊息，您可以傳送文字或影像與連結。
-
-若要將簡訊或 LINE 訊息傳送至行動電話，您需要：
-
-* 在&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;管道或在&#x200B;**[!UICONTROL LINE]**&#x200B;管道設定外部帳戶。
-* 正確連結至此外部帳戶的簡訊或 LINE 傳遞範本。
-
-
-### 推播通知管道 {#gs-channel-push}
-
-您可以使用 Adobe Campaign 透過專用應用程式在 iOS 和 Android 行動裝置上傳送個人化和分段[推播通知](../send/push.md)。 執行設定和整合步驟後，即可透過 Adobe Campaign 建立並傳送 iOS 和 Android 傳遞。 您也可以設計包含影像或影片的豐富通知，並傳送至 Android 裝置。
-
-### 直接郵件管道 {#gs-channel-direct}
-
-[直接郵件](../send/direct-mail.md)是一種離線管道，可讓您建立、個人化並產生外部檔案以與您的直接郵件提供者共用。使用此管道在您的客戶歷程中協調線上和離線管道。
-
-當您準備直接郵件傳遞時，Adobe Campaign 會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給您的直接郵件提供者，由他們負責實際傳送。
-
-
-### 其他管道 {#other-channels}
-
-Adobe Campaign 還隨附電話傳遞範本，可用來建立外部傳遞。 使用此管道表示您實施專用方法來處理輸出檔案。 設定步驟與[直接郵件管道](../send/direct-mail.md)相同。
+然後，您可以準備、測試、傳送及監控您的訊息。
 
 >[!NOTE]
 >
->電話管道不是內建管道。實施需要 Adobe Consulting 或 Adobe 合作夥伴的參與。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>本節所述的步驟假設所有目標收件者及其設定檔都儲存在資料庫中，外部傳遞除外（請參閱[選取外部收件者](steps-defining-the-target-population.md#selecting-external-recipients)）。
 
-「其他」類型傳遞使用不執行流程的特定技術範本：這可讓他們管理在 Adobe Campaign 平台外部執行的行銷活動。
+## 建立傳遞 {#create-the-delivery}
 
-此管道沒有特定機制。 、此一般管道有其專屬的外部帳戶路由選項、傳送範本類型和行銷活動工作流程活動，就像 Adobe Campaign 提供的任何其他通訊管道一樣。 此管道專為描述性用途而設計，例如，定義您想要對其在 Adobe Campaign 以外的工具執行之行銷活動目標保持追蹤的傳送。
+若要建立傳送，請遵循下列步驟：
 
-## 選擇傳遞類型 {#types-of-deliveries}
+1. 按一下傳遞清單上方的&#x200B;**[!UICONTROL Create]**。 建立新傳送時，必須選取傳送通道。 若要這麼做，請從&#x200B;**[!UICONTROL Delivery template]**&#x200B;欄位的下拉式清單中選取適當的傳遞範本。
 
-Campaign 的傳遞物件有三種：
+   ![](../send/assets/select-the-new-template.png)
 
-### 單次傳遞 {#single-delivery}
+   隨附內建範本，供您安裝的每個管道使用：直接郵件、電子郵件、電話、行動裝置管道(SMS)、X (Twitter)等。 清單中可用的管道取決於您的授權合約。
 
- **傳遞**&#x200B;是執行一次的獨立傳送物件。 它可以複製、重新準備，但只要處於最終狀態 (取消、停止、完成)，就無法重複使用。
+   您可以建立新的傳遞範本，以預先設定特定引數以符合您的需求。 如需範本的詳細資訊，請參閱[本節](about-templates.md)。
 
-您可以從傳遞清單建立傳遞，或透過在工作流程中建立[傳遞](../../automation/workflow/delivery.md)活動。
+1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入傳遞的名稱。
 
-工作流程也會根據您想使用的管道類型，提供特定的傳遞活動。 有關這些活動的詳細資訊，請參閱[本節](../../automation/workflow/cross-channel-deliveries.md)。
+   （選用）傳遞代碼也可指派給傳遞。 傳遞的名稱及其程式碼會顯示在傳遞清單中，但不會向收件者公開。
 
-### 週期性傳遞 {#recurring-delivery}
+1. （選用）在&#x200B;**[!UICONTROL Description]**&#x200B;欄位中新增說明。
+1. （選擇性）在相關欄位中選取傳遞性質。 此資訊對於傳送追蹤很有用：您可以在傳送清單中根據此條件進行篩選，或使用此選擇條件建立查詢。
+1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以確認此資訊並顯示訊息設定視窗。
 
-**定期傳遞**&#x200B;可在工作流程的內容中使用。 它可讓您每次執行活動時，建立新的傳送。這可避免您必須為週期性任務建立新的傳送。例如，如果您每月執行一次這類活動，一年後最終將有 12 次傳遞。
+## 定義傳遞內容 {#content-of-the-delivery}
 
-定期傳遞是透過在工作流程中建立[定期傳遞活動](../../automation/workflow/recurring-delivery.md)。本節將介紹此活動使用方式的範例：[在目標工作流程中建立定期傳送](../../automation/workflow/send-a-birthday-email.md)。
+傳遞內容已準備好進行設定。 每個管道都有專屬的傳遞內容定義。 如需詳細資訊，請參閱專屬區段：
 
-### 持續傳遞 {#continuous-delivery}
-
-**持續傳遞**&#x200B;可在工作流程的內容中使用。它可讓您將新收件者新增至現有傳遞，避免每次執行時都必須建立新傳遞。
-
-如果傳送中的資訊變更 (內容、名稱等)，則會在傳送執行時建立新的傳送物件。如果未變更任何資訊，則會重複使用相同的傳遞對象，並將傳送和追蹤記錄新增至相同的物件中。
-
-例如，如果您每月執行一次這類活動，一年後會收到單一傳送 (前提是您未對傳送進行任何變更)。
-
-持續傳遞在工作流程中，透過[持續傳遞活動](../../automation/workflow/continuous-delivery.md)建立。
+* [定義電子郵件內容](../send/email.md)
+* [定義簡訊內容](../send/sms/sms-content.md)
+* [定義直接郵件內容](../send/direct-mail.md)
+* [定義推播通知內容](../send/push.md)
 
 
-## 選擇如何傳送訊息{#gs-send-msg}
+## 定義目標對象 {#target-population}
 
-當您的訊息建立完成且其內容經過設計和測試後，您就可以選擇要如何傳送。 Campaign 提供一組功能，可以：
+對於每個傳送，您可以定義數種目標對象：
 
-* 手動傳送訊息至主要目標
+* **主要對象**：接收訊息的設定檔。 [了解更多](#select-the-main-target)
+* **證明目標**：接收證明訊息的設定檔。 校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。[了解更多](#select-the-proof-target)
 
-  ![](assets/send-email.png)
+此外，在行銷活動的內容中，您可以新增：
 
-  了解如何在[本節](../send/send.md)傳送訊息
+* **種子地址**：不在傳遞目標但收到傳遞的收件者。 [了解更多](../audiences/test-profiles.md)
+* **控制組**：未接收傳遞的母體，用於追蹤行為和行銷活動影響。 [了解更多](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)。
 
-* 傳送與[行銷活動](campaigns.md)相關的訊息
+### 選取傳遞的主要收件者 {#select-the-main-target}
 
-  ![](assets/deliveries-in-a-campaign.png)
+在大多數情況下，主要目標會從Adobe Campaign資料庫（預設模式）擷取。 不過，收件者也可以儲存在[外部檔案](steps-defining-the-target-population.md#selecting-external-recipients)中。
 
-  在[本章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}瞭解如何在行銷活動內容之中傳送訊息。
+若要選取傳遞的收件者，請遵循下列步驟：
 
-* 透過[工作流程](../config/workflows.md)傳送訊息
+1. 在傳遞編輯器中，選取&#x200B;**[!UICONTROL To]**。
+1. 如果收件者儲存在資料庫中，請選擇第一個選項。
 
-  ![](assets/send-in-a-wf.png)
+   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
 
-  在[此頁面](../../automation/workflow/delivery.md)瞭解如何自動傳遞電子郵件
+1. 在&#x200B;**[!UICONTROL Target mapping]**&#x200B;下拉式清單中選取[目標對應](../audiences/target-mappings.md)。
+1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以定義限制篩選器。
 
-* 從事件[觸發訊息](../send/transactional.md) 
+   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
 
-  交易型訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
+   選取篩選型別並按一下&#x200B;**[!UICONTROL Next]**&#x200B;以定義條件。 您可以從&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤顯示篩選的收件者。 視目標型別而定，**[!UICONTROL Refine target]**&#x200B;按鈕可讓您合併多個鎖定目標條件。
 
-  在[本節](../architecture/architecture.md#transac-msg-archi)進一步瞭解異動訊息功能
+   可用的目標型別如下：
 
-  [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
+   * **[!UICONTROL Filtering conditions]**：使用此選項來定義查詢並顯示結果。 瞭解如何在[本節](../../automation/workflow/query.md)中設計查詢。
+   * **[!UICONTROL A list of recipients]**：使用此選項來鎖定設定檔清單。 在[本節](../audiences/create-audiences.md)中進一步瞭解清單。
+   * **[!UICONTROL A recipient]**：使用此選項來選取資料庫中的特定設定檔。
+   * **[!UICONTROL Recipients included in a folder]**：使用此選項來鎖定特定資料夾中包含的所有設定檔。
+   * **[!UICONTROL Recipients of a delivery]**：使用此選項從傳遞的收件者建立目標。 之後，您必須在清單中選取傳送：
 
-* 排程您的訊息
+     ![](assets/target-recipient-delivery.png)
 
-  ![](assets/schedule-send.png)
+   * **[!UICONTROL Delivery recipients belonging to a folder]**：使用此選項從包含於特定資料夾中的收件者傳遞建立目標。
 
-  在[此頁](../send/configure-and-send.md)了解如何排程傳送
+     ![](assets/target-delivery-folder.png)
 
-  另請參閱此[使用案例：了解如何排程及傳送生日電子郵件](../../automation/workflow/send-a-birthday-email.md)
+     您可以從下拉式清單中選取，以篩選收件者的行為：
+
+     ![](assets/target-filter-behavior.png)
+
+     >[!NOTE]
+     >
+     >**[!UICONTROL Include sub-folders]**&#x200B;選項也可讓您定位在所選節點下方的樹狀結構資料夾中所包含的傳送。
+
+   * **[!UICONTROL Subscribers of an information service]** ：此選項可讓您選取收件者必須訂閱的Newsletter，才能由正在建立的傳遞定位。
+
+     ![](assets/target-service.png)
+
+   * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫中設定檔的篩選條件。 預先設定的篩選器會顯示在[此區段](../audiences/create-filters.md#default-filters)中。
+   * **[!UICONTROL Exclude recipients from this segment]**&#x200B;選項可讓您鎖定不符合已定義目標條件的收件者。 若要使用此選項，請選取適當的方塊，然後套用定位（如先前所定義）以排除產生的設定檔。
+
+1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入此定位的名稱。 依預設，標籤是第一個鎖定目標條件的標籤。 結合篩選條件時，建議使用明確的名稱。
+1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以驗證鎖定目標選項。
+
+   主要目標設定索引標籤的中央區段中會摘要說明已定義的鎖定目標條件。 按一下條件以檢視其內容（設定和預覽）。 若要刪除條件，請按一下位於其標籤後面的十字形。
+
+   ![](assets/target-remove-criterion.png)
+
+#### 選取外部收件者 {#selecting-external-recipients}
+
+您可以傳送訊息給未儲存在資料庫中，但儲存在外部檔案中的設定檔。 例如，若要傳送傳遞內容給從文字檔匯入的收件者，請遵循下列步驟：
+
+1. 按一下&#x200B;**[!UICONTROL To]**&#x200B;連結以選取傳遞的收件者。
+1. 選取&#x200B;**[!UICONTROL Defined in an external file]**&#x200B;選項。
+1. 選取包含收件者的檔案。
+1. 匯入收件者時，按一下&#x200B;**[!UICONTROL File format definition...]**&#x200B;連結以選取並設定外部檔案。
+
+   如需資料匯入的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}。
+
+1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;並將您的傳遞設定為標準傳遞。
+
+>[!CAUTION]
+>
+>定義電子郵件傳送的訊息內容時，請勿包含映象頁面的連結：此傳送模式無法產生此連結。
+
+#### 定義排除設定 {#define-exclusion-settings}
+
+定義傳遞的目標時，**[!UICONTROL Exclusions]**&#x200B;索引標籤可用來限制訊息數目。 建議使用預設引數，但您可以根據需求調整設定。 不過，這些選項僅應由專家使用者變更，以避免任何誤用和錯誤。
+
+您可以選擇排除已達到特定連續錯誤數或品質評等低於此視窗中所指定臨界值的地址。 您也可以選擇是否授權未傳回任何資料的非限定地址。
+
+按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結以修改預設設定。
+
+![](assets/target-exclusion-settings.png)
+
+可以使用以下選項：
+
+* **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項依預設為使用中，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因Adobe Campaign的使用方式及資料庫中的資料型別而異。 可為每個傳遞範本設定選項的值。
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** ，即電子郵件地址位於封鎖清單上的收件者（「選擇退出」）。 為了遵守電子行銷的職業道德，必須保持選取此選項。
+* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 在[本節](understanding-quarantine-management.md)中進一步瞭解隔離管理。
+* **[!UICONTROL Limit delivery]**&#x200B;至指定數目的訊息。 此選項可讓您輸入要傳送的訊息數目上限。 如果目標對象超過指示的訊息數，則會隨機選取專案套用至目標。 若要傳送所有訊息，請將此值保持為&#39;0&#39;。
+* **[!UICONTROL Keep duplicate records (same identifier)]**：此選項允許傳送多個傳遞給符合數個目標定位條件的收件者。
+
+### 選取校樣訊息的收件者 {#select-the-proof-target}
+
+針對電子郵件傳遞，您可以傳送校樣以驗證訊息內容。 傳送校樣可讓您檢查選擇退出連結、映象頁面和任何其他連結、驗證訊息、驗證影像是否已顯示、偵測可能的錯誤等。 您可能也會想要檢查您在不同裝置上的設計和演算。
+
+校樣是一種特定訊息，可讓您在將訊息傳送給主要對象之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+
+有關證明收件者和傳送的詳細資訊，請參閱[本節](../send/preview-and-proof.md#send-proofs)。
+
+![](../send/assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#seeds-and-proofs-video)
 
 
-## 新增個人化{#personalization}
+#### 教學課程影片 {#seeds-and-proofs-video}
 
-Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一步瞭解個人化功能](../send/personalize.md)
+在本影片中，您將瞭解如何新增種子和校樣到現有電子郵件以及如何傳送它。
 
-您可以：
-
-* 插入動態的個人化欄位。[了解更多](../send/personalization-fields.md)
-* 插入預先定義的個人化區塊。[了解更多](../send/personalization-blocks.md)
-* 建立有條件的內容。[了解更多](../send/conditions.md)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 
-## 傳送和追蹤記錄{#gs-tracking-logs}
+[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Classic操作說明影片。
 
-傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
+## 準備並驗證您的傳遞 {#validate-the-delivery}
 
-在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target="_blank"}瞭解如何監視傳遞
+建立並設定傳送後，您必須先驗證傳送內容，才能將其傳送至主要目標。
 
+操作步驟：
+
+1. **分析傳遞**：此步驟可讓您準備要傳遞的訊息。 [了解更多](../send/delivery-analysis.md)。
+
+1. **傳送校樣**：此步驟可讓您控制內容、URL、個人化等。 [了解更多](../send/preview-and-proof.md)。
+
+>[!IMPORTANT]
+>
+>每次修改訊息內容後，都必須執行上述兩個步驟。
+
+
+## 設定並傳送傳遞 {#configuring-and-sending-the-delivery}
+
+存取傳遞引數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞優先順序、設定傳送波段、設定重試設定，以及測試您的傳遞傳送。 完成此設定後，您可以確認傳送。 然後會立即傳送訊息，或根據傳送排程傳送訊息。
+
+瞭解如何在[此頁面](../send/configure-and-send.md)中設定您的傳遞設定。
