@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->本節所述的步驟假設所有目標收件者及其設定檔都儲存在資料庫中，外部傳遞除外（請參閱[選取外部收件者](steps-defining-the-target-population.md#selecting-external-recipients)）。
+>本節所述的步驟假設所有目標收件者及其設定檔都儲存在資料庫中，外部傳遞則除外。 請參閱[選取外部收件者](#selecting-external-recipients)。
 
 ## 建立傳遞 {#create-the-delivery}
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
    隨附內建範本，供您安裝的每個管道使用：直接郵件、電子郵件、電話、行動裝置管道(SMS)、X (Twitter)等。 清單中可用的管道取決於您的授權合約。
 
-   您可以建立新的傳遞範本，以預先設定特定引數以符合您的需求。 如需範本的詳細資訊，請參閱[本節](about-templates.md)。
+   您可以建立新的傳遞範本，以預先設定特定引數以符合您的需求。 如需範本的詳細資訊，請參閱[本節](../send/create-templates.md)。
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入傳遞的名稱。
 
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ### 選取傳遞的主要收件者 {#select-the-main-target}
 
-在大多數情況下，主要目標會從Adobe Campaign資料庫（預設模式）擷取。 不過，收件者也可以儲存在[外部檔案](steps-defining-the-target-population.md#selecting-external-recipients)中。
+在大多數情況下，主要目標會從Adobe Campaign資料庫（預設模式）擷取。 不過，收件者也可以儲存在[外部檔案](#selecting-external-recipients)中。
 
 若要選取傳遞的收件者，請遵循下列步驟：
 
@@ -157,7 +157,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項依預設為使用中，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因Adobe Campaign的使用方式及資料庫中的資料型別而異。 可為每個傳遞範本設定選項的值。
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** ，即電子郵件地址位於封鎖清單上的收件者（「選擇退出」）。 為了遵守電子行銷的職業道德，必須保持選取此選項。
-* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 在[本節](understanding-quarantine-management.md)中進一步瞭解隔離管理。
+* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 在[本節](../send/quarantines.md)中進一步瞭解隔離管理。
 * **[!UICONTROL Limit delivery]**&#x200B;至指定數目的訊息。 此選項可讓您輸入要傳送的訊息數目上限。 如果目標對象超過指示的訊息數，則會隨機選取專案套用至目標。 若要傳送所有訊息，請將此值保持為&#39;0&#39;。
 * **[!UICONTROL Keep duplicate records (same identifier)]**：此選項允許傳送多個傳遞給符合數個目標定位條件的收件者。
 
