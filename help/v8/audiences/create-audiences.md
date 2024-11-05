@@ -5,14 +5,14 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 13%
 
 ---
 
-# 在清單中建立對象{#create-segments}
+# 在清單中建立對象 {#create-segments}
 
 使用Campaign清單來建立及組織您的對象。
 

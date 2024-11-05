@@ -5,14 +5,14 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 92%
 
 ---
 
-# 開始使用行銷活動{#gs-ac-campaigns}
+# 開始使用行銷活動 {#gs-ac-campaigns}
 
 Adobe Campaign 提供一套解決方案，幫助您跨所有線上及離線頻道個人化並傳遞行銷活動。 您可以建立、設定、執行及分析行銷活動。 所有行銷活動都可從統一的控制中心進行管理。 在此章節中探索如何瀏覽及建立行銷活動。
 
@@ -78,11 +78,9 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-dashboard.png)
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}瞭解如何建立及開始行銷活動傳遞。
+   在[此頁面](../../automation/campaigns/marketing-campaign-deliveries.md)中瞭解如何建立及開始行銷活動傳遞。
 
-   您可以為行銷活動與各種文件建立關聯：報告、照片、網頁、圖表等。
-
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=zh-Hant){target="_blank"}深入瞭解相關文件。
+   您可以將各種檔案與行銷活動建立關聯：報告、照片、網頁、圖表等。 在[此頁面](../../automation/campaigns/marketing-campaign-assets.md)中進一步瞭解相關檔案。
 
 1. **設定核准流程**
 
@@ -93,7 +91,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
 ## 分散式行銷附加內容{#distributed-marketing-add-on}
 
-Adobe Campaign 提供&#x200B;**分散式行銷**，為中心實體之間 (總部、行銷部門等) 實施合作活動的附加內容 和地方實體 (商店、地區機構等)。 此協作基於共用工作區，稱為&#x200B;**[!UICONTROL List of campaign packages]**，由中心實體設計行銷活動範本給本地實體。
+Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;附加功能，可在中央實體（總部、行銷部門等）與當地實體（商店、地區代理等）之間實作合作行銷活動。 此協作基於共用工作區，稱為&#x200B;**[!UICONTROL List of campaign packages]**，由中心實體設計行銷活動範本給本地實體。
 
 >[!NOTE]
 >

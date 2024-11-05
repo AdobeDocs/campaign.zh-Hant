@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,8 @@ ht-degree: 100%
    + [開始使用行銷活動](start/campaigns.md)
    + [Campaign 協調流程 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
 + 傳送訊息{#send}
-   + [開始使用訊息](start/create-message.md)
+   + [開始使用訊息](start/gs-message.md)
+   + [建立您的第一個傳遞](start/create-message.md)
    + 電子郵件 {#emails}
       + [設計和驗證電子郵件](send/email.md)
       + [連結至鏡像頁面](send/mirror-page.md)

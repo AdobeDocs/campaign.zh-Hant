@@ -5,7 +5,7 @@ description: 進一步瞭解行銷活動傳遞
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 * 從行銷活動控制面板中的&#x200B;**[!UICONTROL Add a delivery]**&#x200B;連結。
 
-![](assets/campaign_op_add_delivery.png)
+  ![](assets/campaign_op_add_delivery.png)
 
-儲存後，傳送會新增至行銷活動控制面板。
+  儲存後，傳送會新增至行銷活動控制面板。
 
 * 在行銷活動工作流程的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，透過新增傳遞來建立。
 

@@ -5,18 +5,18 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 1%
 
 ---
 
-# 建立和管理測試設定檔 {#create-test-profiles}
+# 建立和管理測試輪廓 {#create-test-profiles}
 
 ## 什麼是種子地址？ {#gs-seeds}
 
-測試設定檔為種子地址。它們用於鎖定不符合所定義目標條件的收件者。 種子地址可讓您透過傳送校樣，在傳送傳遞之前預覽和測試個人化和轉譯。
+測試輪廓為種子地址。它們用於鎖定不符合所定義目標條件的收件者。 種子地址可讓您透過傳送校樣，在傳送傳遞之前預覽和測試個人化和轉譯。
 
 種子地址的優點如下：
 
@@ -31,8 +31,6 @@ ht-degree: 1%
 >種子地址不會建立在收件人表格中，而是會在單獨的表格中。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。 否則，種子地址不會考慮這些擴展欄位。
 >
 >[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}中提供了如何擴充種子位址表格的範例。
-
-
 
 ## 建立種子地址
 

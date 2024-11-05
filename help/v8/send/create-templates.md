@@ -6,20 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 33%
+source-wordcount: '714'
+ht-degree: 25%
 
 ---
 
-# 使用傳遞範本{#work-with-delivery-template}
+# 使用傳遞範本 {#work-with-delivery-template}
 
-使用傳遞範本將創意外觀和風格標準化，以便更快速地執行和啟動行銷活動。
+每個傳遞都是根據範本建立的。 每個管道都有內建範本可用。 您可以自訂這些設定，以將相同的設定套用至一組傳送。
 
-範本可能包括：
+範本包括：
 
-* 類型
+* 類型規則
 * 寄件者和回覆地址
 * 基本[個人化區塊](../send/personalization-blocks.md)
 * 連結至[映象頁面](../send/mirror-page.md)和取消訂閱連結
@@ -28,10 +28,9 @@ ht-degree: 33%
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
 
+## 建立範本 {#create-a-delivery-template}
 
-## 建立範本{#create-a-delivery-template}
-
-若要建立傳遞範本，您可以複製內建範本、將現有傳遞轉換為範本或從頭開始建立傳遞範本。
+若要建立傳遞範本，您可以複製內建範本或將現有傳遞轉換為範本。 您也可以從頭開始建立傳遞範本，但不建議這麼做。 這些方法的詳細資訊如下。
 
 ### 複製現有範本{#copy-an-existing-template}
 
@@ -91,9 +90,9 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 按一下&#x200B;**儲存**。 您的範本現在已準備好用於傳遞。
 
 
-## 使用範本{#use-a-delivery-template}
+## 使用範本 {#use-a-delivery-template}
 
-### 使用範本建立傳遞{#create-a-delivery-from-a-template}
+### 使用範本建立傳遞 {#create-a-delivery-from-a-template}
 
 若要根據現有範本建立傳遞，請從可用傳遞範本清單中選取範本。
 

@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 定義訊息內容後，您就可以使用測試設定檔來預覽及測試。 如果您已插入[個人化內容](personalize.md)，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。 此外，若要偵測訊息內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
 
-## 內容預覽{#preview-content}
+## 內容預覽 {#preview-content}
 
 在傳送校樣之前，最佳實務是在傳送視窗的預覽區段中檢查訊息內容。
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 * 使用&#x200B;**[!UICONTROL Specific target and Seed addresses]**&#x200B;選項結合種子地址和特定的電子郵件地址。 相關設定隨後會在兩個單獨的子標籤中定義。
 
-### 傳送證明{#proofs-send}
+### 傳送證明 {#proofs-send}
 
 若要傳送訊息校樣，請遵循下列步驟：
 
@@ -88,7 +88,7 @@ ht-degree: 3%
 >
 >在傳送的校樣中，指向映象頁面的連結未啟用。 它僅在最終訊息中啟用。
 
-### 校訂屬性{#proofs-properties}
+### 校訂屬性 {#proofs-properties}
 
 已在傳遞屬性視窗的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中設定校訂屬性。 瀏覽至&#x200B;**[!UICONTROL Proof properties...]**&#x200B;連結以定義引數和校訂的標籤。 您可以選擇保留：
 

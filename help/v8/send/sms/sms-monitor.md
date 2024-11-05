@@ -4,14 +4,13 @@ description: 關於SMS傳送的監控和追蹤
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="有限可用性" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # 監視和追蹤簡訊
 
@@ -52,4 +51,3 @@ ht-degree: 0%
 簡訊的失敗型別和失敗原因與電子郵件的相同。
 
 深入瞭解[傳送失敗](../delivery-failures.md)，尤其是關於[SMS隔離](../delivery-failures.md#sms-quarantines)。
-
