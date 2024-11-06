@@ -6,10 +6,10 @@ role: User
 level: Beginner, Intermediate
 badge: label="有限可用性" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,12 @@ ht-degree: 1%
 
 簡訊傳送所需的技術設定如下：
 
-* 路由： [SMPP外部帳戶](smpp-external-account.md#smpp-connection-settings)
-
-* [此 ](#sms-tab)
+* 郵件路由的SMPP外部帳戶。 [了解更多](smpp-external-account.md#smpp-connection-settings)
+* 設定簡訊標籤。 [了解做法](#sms-tab)
 
 您可以在傳送範本中設定所有這些專案，以避免針對每個SMS傳送建立進行設定。
 
-## 設定&#x200B;**[!UICONTROL SMS]**&#x200B;索引標籤 {#sms-tab}
+## 設定簡訊標籤 {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ ht-degree: 1%
   >
   >二進位格式一律會編碼為big-endian格式。
 
-## 建立簡訊傳遞 {#sms-delivery}
-
-若要建立新的SMS傳送，請遵循下列步驟：
-
-1. 例如，從&#x200B;**[!UICONTROL Explorer]**&#x200B;的傳遞儀表板或傳遞資料夾中建立新的傳遞。  預設會標示為「電子郵件傳送」。
-
-1. 選取您為SMS傳送建立的傳送範本。 [如需更多詳情，請參閱此處](sms-mid-sourcing.md#sms-delivery-template)。
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中重新命名您的傳遞，並視需要在&#x200B;**[!UICONTROL Delivery code]**&#x200B;欄位和&#x200B;**[!UICONTROL Nature]**&#x200B;清單中新增資訊，以進行追蹤。 您也可以新增&#x200B;**[!UICONTROL Description]**&#x200B;至您的傳遞。
-
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;按鈕。 現在，您的傳送中已有範本的所有設定。
-
-1. 您可以簽入&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，確認所有專案都已視需要設定。 [進一步瞭解SMS索引標籤](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-您現在可以設定您的[簡訊內容](sms-content.md)。

@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '685'
 ht-degree: 99%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 99%
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
       + 設定簡訊頻道{#config-sms}
+         + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部帳戶設定](send/sms/smpp-external-account.md)
          + [簡訊管道特性](send/sms/sms-channel.md)
          + [驗證 SMPP 連線](send/sms/smpp-connection.md)
@@ -60,7 +61,7 @@ ht-degree: 99%
          + [中間來源基礎結構](send/sms/sms-mid-sourcing.md)
          + [SMPP 連接器說明](send/sms/smpp-connector-delivery.md)
       + 建立簡訊 {#create-sms}
-         + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
+         + [建立簡訊傳遞](send/sms/create-sms.md)
          + [定義內容](send/sms/sms-content.md)
          + [選取客群](send/sms/sms-audience.md)
       + 驗證和傳送簡訊 {#validate-sms}
