@@ -5,7 +5,7 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: bb77b915f50b31d8d91e25da6fa86aa15b03bba4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 17%
@@ -14,13 +14,13 @@ ht-degree: 17%
 
 # 開始使用簡訊 {#gs-sms-channel}
 
-Adobe Campaign可讓您在行動裝置上傳遞個人化的[簡訊](../send/sms/sms.md)。
+Adobe Campaign可讓您在行動裝置上傳送個人化簡訊。
 
 對於 SMS 訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在傳送簡訊之前先預覽簡訊。
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign來傳送[LINE](../send/line.md)訊息，其中包含文字和/或影像與連結。
+>您也可以使用Adobe Campaign來傳送[LINE](../../send/line.md)訊息，其中包含文字和/或影像與連結。
 
 若要透過Adobe Campaign傳送簡訊至行動電話，您需要：
 
