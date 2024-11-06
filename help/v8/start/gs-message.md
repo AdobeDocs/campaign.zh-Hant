@@ -4,9 +4,9 @@ description: 開始使用訊息
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
+source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1291'
 ht-degree: 87%
 
 ---
@@ -25,31 +25,21 @@ ht-degree: 87%
 >
 >建立傳遞時，您必須選取範本。 每個管道都可使用預設範本。 在[此頁面](../send/create-templates.md)中進一步瞭解傳遞範本。
 
-### 一次性訊息 {#msg-single}
+1. 一次性訊息 — 您可以傳送一次性訊息給對象。 在[本節](create-message.md)中瞭解如何傳送您的第一封郵件。
 
-您可以手動傳送一次性訊息至主要目標。 在[本節](create-message.md)中瞭解如何傳送您的第一封郵件
+   ![](assets/send-email.png)
 
-![](assets/send-email.png)
+1. 行銷活動中的訊息 — 您可以在[行銷活動](campaigns.md)的內容中傳送訊息、定義核准程式、在整合的儀表板中傳送及追蹤訊息。 在[本節](../../automation/campaigns/marketing-campaign-deliveries.md)中瞭解如何操作。
 
-### 行銷活動中的訊息 {#msg-campaign}
+   ![](assets/deliveries-in-a-campaign.png)
 
-您可以在[行銷活動](campaigns.md)的內容中傳送訊息、定義核准程式、在合併的控制面板中傳送及追蹤訊息。 在[本節](../../automation/campaigns/marketing-campaign-deliveries.md)中進一步瞭解
+1. 工作流程中的訊息 — 您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 在[此頁面](../../automation/workflow/delivery.md)中瞭解如何操作。
 
-![](assets/deliveries-in-a-campaign.png)
+   ![](assets/send-in-a-wf.png)
 
-### 工作流程中的訊息 {#msg-wf}
+1. 觸發訊息 — 您可從事件[觸發訊息](../send/transactional.md)。 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
 
-您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 在[此頁面](../../automation/workflow/delivery.md)中瞭解如何
-
-![](assets/send-in-a-wf.png)
-
-### 觸發訊息 {#msg-trigger}
-
-您可從事件[觸發訊息](../send/transactional.md)。 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。  在[本節](../architecture/architecture.md#transac-msg-archi)進一步瞭解異動訊息功能
-
-[本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
-
-## 選擇您的管道 {#gs-channel}
+## 通訊頻道 {#gs-channel}
 
 Adobe Campaign v8 提供下列傳遞管道：
 
@@ -60,7 +50,6 @@ Adobe Campaign v8 提供下列傳遞管道：
 * **行動應用程式管道**：行動應用程式傳遞可讓您傳送通知至 iOS 和 Android 裝置。[了解更多](#gs-channel-push)
 
 * **直接郵件管道**：直接郵件傳遞可讓您產生擷取檔案，其中包含目標群體的資料。[了解更多](#gs-channel-direct)
-
 
   其他管道的描述見[本節](#other-channels)。
 
@@ -119,7 +108,7 @@ Adobe Campaign 還隨附電話傳遞範本，可用來建立外部傳遞。 使�
 
 此管道沒有特定機制。 、此一般管道有其專屬的外部帳戶路由選項、傳送範本類型和行銷活動工作流程活動，就像 Adobe Campaign 提供的任何其他通訊管道一樣。 此管道專為描述性用途而設計，例如，定義您想要對其在 Adobe Campaign 以外的工具執行之行銷活動目標保持追蹤的傳送。
 
-## 選擇傳遞類型 {#types-of-deliveries}
+## 傳遞型別 {#types-of-deliveries}
 
 Campaign 的傳遞物件有三種：
 
@@ -147,7 +136,7 @@ Campaign 的傳遞物件有三種：
 
 持續傳遞在工作流程中，透過[持續傳遞活動](../../automation/workflow/continuous-delivery.md)建立。
 
-## 新增個人化 {#personalization}
+## Personalization功能 {#personalization}
 
 Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一步瞭解個人化功能](../send/personalize.md)
 
@@ -158,7 +147,7 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一�
 * 建立有條件的內容。[了解更多](../send/conditions.md)
 
 
-## 傳送及追蹤 {#gs-tracking-logs}
+## 追蹤和監視 {#gs-tracking-logs}
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
 
