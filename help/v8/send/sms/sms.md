@@ -5,9 +5,9 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
+source-git-commit: c95bdc13237e67b885b6f9aa495a4753ca72a90e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 12%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 12%
 </td>
 <td>
 <a href="sms-content.md">
-<img alt="簡訊內容" src="../../assets/do-not-localize/sms.jpg">
+<img alt="簡訊內容" src="../../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
 <a href="sms-content.md"><strong>定義您的SMS內容</strong></a>
@@ -48,7 +48,7 @@ ht-degree: 12%
 <p></td>
 <td>
 <a href="sms-audience.md">
-<img alt="客群" src="../../assets/do-not-localize/sms-opt-out.jpg">
+<img alt="簡訊對象" src="../../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
 <a href="sms-audience.md"><strong>選取客群</strong></a>
@@ -57,7 +57,7 @@ ht-degree: 12%
 </td>
 <td>
 <a href="smpp-external-account.md">
-<img alt="設定" src="../../assets/do-not-localize/sms-config.jpg">
+<img alt="簡訊設定" src="../../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
 <a href="smpp-external-account.md"><strong>設定簡訊頻道</strong></a>
