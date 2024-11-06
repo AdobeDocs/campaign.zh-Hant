@@ -4,10 +4,10 @@ description: 開始使用訊息
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 87%
+source-wordcount: '1002'
+ht-degree: 74%
 
 ---
 
@@ -25,88 +25,44 @@ ht-degree: 87%
 >
 >建立傳遞時，您必須選取範本。 每個管道都可使用預設範本。 在[此頁面](../send/create-templates.md)中進一步瞭解傳遞範本。
 
-1. 一次性訊息 — 您可以傳送一次性訊息給對象。 在[本節](create-message.md)中瞭解如何傳送您的第一封郵件。
+1. **一次性訊息** — 您可以傳送一次性訊息給對象。 在[本節](create-message.md)中瞭解如何傳送您的第一封郵件。
 
    ![](assets/send-email.png)
 
-1. 行銷活動中的訊息 — 您可以在[行銷活動](campaigns.md)的內容中傳送訊息、定義核准程式、在整合的儀表板中傳送及追蹤訊息。 在[本節](../../automation/campaigns/marketing-campaign-deliveries.md)中瞭解如何操作。
+1. **行銷活動中的訊息** — 您可以在[行銷活動的內容中傳送訊息](campaigns.md)、定義核准程式、在合併的控制面板中傳送及追蹤訊息。 在[本節](../../automation/campaigns/marketing-campaign-deliveries.md)中瞭解如何操作。
 
    ![](assets/deliveries-in-a-campaign.png)
 
-1. 工作流程中的訊息 — 您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 在[此頁面](../../automation/workflow/delivery.md)中瞭解如何操作。
+1. **工作流程中的訊息** — 您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 在[此頁面](../../automation/workflow/delivery.md)中瞭解如何操作。
 
    ![](assets/send-in-a-wf.png)
 
-1. 觸發訊息 — 您可從事件[觸發訊息](../send/transactional.md)。 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
+1. **觸發訊息** — 您可從事件[觸發訊息](../send/transactional.md)。 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
 
-## 通訊頻道 {#gs-channel}
+## 通訊通道 {#gs-channel}
 
-Adobe Campaign v8 提供下列傳遞管道：
+Adobe Campaign v8隨附下列傳送管道。 您環境中可用的管道取決於您的合約。 請檢查您的授權合約。
 
-* **電子郵件管道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。[了解更多](#gs-channel-email)
+* **電子郵件管道**：電子郵件傳遞功能可讓您傳送個人化電子郵件給目標群體。[了解更多](../send/email.md)
 
-* **行動裝置管道**：行動裝置管道的傳遞可讓您傳送個人化訊息給目標群體。[了解更多](#gs-channel-sms)
+* **行動裝置管道**：行動裝置管道的傳遞可讓您傳送個人化訊息給目標群體。您可以在行動裝置上傳送[簡訊](../send/sms/sms.md)和[LINE](../send/line.md)訊息。
 
-* **行動應用程式管道**：行動應用程式傳遞可讓您傳送通知至 iOS 和 Android 裝置。[了解更多](#gs-channel-push)
+* **行動應用程式頻道**：您可以使用Adobe Campaign，透過專用應用程式在iOS和Android行動裝置上傳送個人化和分段的[推播通知](../send/push.md)。 執行設定和整合步驟後，即可透過 Adobe Campaign 建立並傳送 iOS 和 Android 傳遞。 您也可以設計包含影像或影片的豐富通知，並傳送至 Android 裝置。
 
-* **直接郵件管道**：直接郵件傳遞可讓您產生擷取檔案，其中包含目標群體的資料。[了解更多](#gs-channel-direct)
+* **直接郵件頻道**： [直接郵件](../send/direct-mail.md)是離線頻道，可讓您建立、個人化並產生外部檔案，以與直接郵件提供者共用。 使用此管道在您的客戶歷程中協調線上和離線管道。
 
-  其他管道的描述見[本節](#other-channels)。
+  當您準備直接郵件傳遞時，Adobe Campaign 會產生一個檔案，其中包含所有目標輪廓和選取的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給您的直接郵件提供者，由他們負責實際傳送。
+
+
+* **其他管道**： Adobe Campaign也隨附電話傳遞範本，此範本可用來建立外部傳遞。 使用此管道表示您實施專用方法來處理輸出檔案。 設定步驟與[直接郵件管道](../send/direct-mail.md)相同。
 
   >[!NOTE]
   >
-  >可用管道的數量取決於您的合約。 請檢查您的授權合約。
+  >電話管道不是內建管道。實施需要 Adobe Consulting 或 Adobe 合作夥伴的參與。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-### 電子郵件管道 {#gs-channel-email}
+  「其他」類型傳遞使用不執行流程的特定技術範本：這可讓他們管理在 Adobe Campaign 平台外部執行的行銷活動。
 
-[電子郵件管道](../send/direct-mail.md)是 Adobe Campaign 的核心管道之一，可讓您排程個人化電子郵件並將其傳送到特定目標。
-
-您可以傳送不同類型的電子郵件：
-
-* 單次傳送電子郵件：您可以向指定目標傳送一次性的電子郵件。 它們通常用於宣傳僅準備傳送一次的特定內容 (電子報、促銷電子郵件等)。
-* 定期電子郵件：在行銷活動中，定期傳送同一封電子郵件，並定期彙總每次傳送的電子郵件及其報告。 傳送相同的電子郵件，但通常傳送到不同的目標，具體取決於傳送當日的合格目標。 一個常見的例子是生日電子郵件。如需詳細資訊，請參閱[定期傳遞](../../automation/workflow/recurring-delivery.md)。
-* 交易型電子郵件：根據客戶行為觸發的單一電子郵件。 請參閱[交易型訊息傳送](../send/transactional.md)。
-
-要了解有關傳送使用和建議的資訊，請參閱 Adobe Campaign Classic [傳送最佳做法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant#sending-messages){target="_blank"}
-
-有關不同類型傳送的詳細資訊，請參閱[本節](#types-of-deliveries)。
-
-### 行動裝置頻道 {#gs-channel-sms}
-
-Adobe Campaign 可讓您在行動裝置上傳送[簡訊](../send/sms/sms.md)和 [LINE](../send/line.md) 訊息。
-
-對於 SMS 訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在傳送簡訊之前先預覽簡訊。
-
-對於 LINE 訊息，您可以傳送文字或影像與連結。
-
-若要將簡訊或 LINE 訊息傳送至行動電話，您需要：
-
-* 在&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;管道或在&#x200B;**[!UICONTROL LINE]**&#x200B;管道設定外部帳戶。
-* 正確連結至此外部帳戶的簡訊或 LINE 傳遞範本。
-
-
-### 推播通知管道 {#gs-channel-push}
-
-您可以使用 Adobe Campaign 透過專用應用程式在 iOS 和 Android 行動裝置上傳送個人化和分段[推播通知](../send/push.md)。 執行設定和整合步驟後，即可透過 Adobe Campaign 建立並傳送 iOS 和 Android 傳遞。 您也可以設計包含影像或影片的豐富通知，並傳送至 Android 裝置。
-
-### 直接郵件管道 {#gs-channel-direct}
-
-[直接郵件](../send/direct-mail.md)是一種離線管道，可讓您建立、個人化並產生外部檔案以與您的直接郵件提供者共用。使用此管道在您的客戶歷程中協調線上和離線管道。
-
-當您準備直接郵件傳遞時，Adobe Campaign 會產生一個檔案，其中包含所有目標輪廓和選取的聯絡資訊 (例如，郵遞區號)。然後，您就可以將此檔案傳送給您的直接郵件提供者，由他們負責實際傳送。
-
-
-### 其他管道 {#other-channels}
-
-Adobe Campaign 還隨附電話傳遞範本，可用來建立外部傳遞。 使用此管道表示您實施專用方法來處理輸出檔案。 設定步驟與[直接郵件管道](../send/direct-mail.md)相同。
-
->[!NOTE]
->
->電話管道不是內建管道。實施需要 Adobe Consulting 或 Adobe 合作夥伴的參與。 如需詳細資訊，請聯絡您的 Adobe 代表。
-
-「其他」類型傳遞使用不執行流程的特定技術範本：這可讓他們管理在 Adobe Campaign 平台外部執行的行銷活動。
-
-此管道沒有特定機制。 、此一般管道有其專屬的外部帳戶路由選項、傳送範本類型和行銷活動工作流程活動，就像 Adobe Campaign 提供的任何其他通訊管道一樣。 此管道專為描述性用途而設計，例如，定義您想要對其在 Adobe Campaign 以外的工具執行之行銷活動目標保持追蹤的傳送。
+  此管道沒有特定機制。 、此一般管道有其專屬的外部帳戶路由選項、傳送範本類型和行銷活動工作流程活動，就像 Adobe Campaign 提供的任何其他通訊管道一樣。 此管道專為描述性用途而設計，例如，定義您想要對其在 Adobe Campaign 以外的工具執行之行銷活動目標保持追蹤的傳送。
 
 ## 傳遞型別 {#types-of-deliveries}
 

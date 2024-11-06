@@ -5,27 +5,27 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '248'
+ht-degree: 17%
 
 ---
 
 # 開始使用簡訊 {#gs-sms-channel}
 
-使用Adobe Campaign傳送個人化SMS訊息。
+Adobe Campaign可讓您在行動裝置上傳遞個人化的[簡訊](../send/sms/sms.md)。
+
+對於 SMS 訊息，您只能以文字格式建立、修改和個人化訊息。 您也可以在傳送簡訊之前先預覽簡訊。
 
 >[!NOTE]
 >
->Adobe Campaign也可讓您透過其&#x200B;**Adobe Campaign行動應用程式頻道(NMAC)**&#x200B;選項，在行動裝置上提交推播通知。 若要了解詳細資訊，請參閱[本章節](../push.md)。
+>您也可以使用Adobe Campaign來傳送[LINE](../send/line.md)訊息，其中包含文字和/或影像與連結。
 
-SMS的簡易性和易用性使其成為非常寶貴的通訊通道，此外還有其穩健性和在數十億台終端機上無與倫比的相容性。
+若要透過Adobe Campaign傳送簡訊至行動電話，您需要：
 
-傳送SMS的主要方式有2種：
-
-* 從電話手動傳送。 這是您用來直接在人與人之間通訊的常見方式。
-* 從網際網路傳送。 這是Adobe Campaign用來傳送訊息的方式。 為此，您需要一個SMS服務提供者，從網際網路建立橋接至行動網路。
+* 在&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;管道或在&#x200B;**[!UICONTROL LINE]**&#x200B;管道設定外部帳戶。
+* 已正確連結至此外部帳戶的SMS傳送範本。
 
 您可以在本檔案中檢視設定、傳送和監控SMS傳送的步驟：
 
