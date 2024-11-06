@@ -4,10 +4,10 @@ description: 瞭解如何建立簡訊傳遞
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 若要建立新的SMS傳送，請遵循下列步驟：
 
-1. 建立新的傳送，並選取您為SMS傳送建立的SMS傳送範本。 [如需更多詳情，請參閱此處](sms-mid-sourcing.md#sms-delivery-template)。
+1. 建立新的傳遞，並選取您為簡訊傳送建立的[簡訊傳遞範本](sms-mid-sourcing.md#sms-delivery-template)。
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   在[此頁面](../../start/create-message.md)中進一步瞭解傳遞建立步驟。
+   傳遞建立步驟在[此頁面](../../start/create-message.md)中有詳細說明。
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 1. 您可以簽入&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，確認所有專案都已視需要設定。 [進一步瞭解SMS索引標籤](sms-delivery-settings.md#sms-tab)
 
-![](assets/sms_settings.png){zoomable="yes"}
+   ![](assets/sms_settings.png){zoomable="yes"}
 
 1. [定義傳遞的內容](sms-content.md)。
 

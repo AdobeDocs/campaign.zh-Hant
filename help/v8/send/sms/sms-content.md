@@ -1,38 +1,40 @@
 ---
-title: 簡訊定義內容
-description: 瞭解如何設定SMS傳送的內容
+title: 定義及個人化簡訊內容
+description: 瞭解如何定義及個人化SMS傳送內容
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# 簡訊內容 {#sms-content}
+# 定義簡訊內容 {#sms-content}
 
 若要設定SMS傳送的內容：
 
-1. 在&#x200B;**[!UICONTROL Text content]**&#x200B;精靈中輸入訊息的內容
+1. 在&#x200B;**[!UICONTROL Text content]**&#x200B;索引標籤中輸入訊息的內容。
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. 您可以插入個人化欄位（例如新增名字）或插入預先定義的個人化區塊（例如新增問候語），以個人化您的訊息。 您可以按一下個人化按鈕以新增下列專案：
+1. 您可以插入個人化欄位（例如新增名字）或插入預先定義的個人化區塊（例如新增問候語），以個人化您的訊息。 按一下個人化按鈕以新增下列專案：
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
-   按一下「**[!UICONTROL Recipient]** > **[!UICONTROL First name]**」後，您的個人化設定如下：
+   例如，按一下&#x200B;**[!UICONTROL Recipient]** > **[!UICONTROL First name]**&#x200B;後，SMS內容會以個人化欄位更新，如下所示：
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. 您可以前往&#x200B;**[!UICONTROL Preview]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式清單，並在&#x200B;**[!UICONTROL Recipient]**&#x200B;表格中選擇收件者，以預覽您的傳遞。
+   在[本節](../personalize.md)中進一步瞭解Adobe Campaign中的個人化。
+
+1. 您可以從&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤預覽傳遞內容。 若要檢查您的個人化設定，請按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式清單，然後選取收件者。
 
    ![](assets/sms_preview.png){zoomable="yes"}
 
-   您將擁有包含個人化的SMS預覽：
+   您可以使用個人化來檢查簡訊預覽：
 
    ![](assets/sms_preview_phone.png){zoomable="yes"}
 

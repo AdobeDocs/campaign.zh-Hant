@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 19c5a15a0f42285fc3b1a448f3cbf474d741e6e2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 10%
+source-wordcount: '156'
+ht-degree: 12%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 10%
 <img alt="簡訊內容" src="../../assets/do-not-localize/sms.jpg">
 </a>
 <div>
-<a href="sms-content.md"><strong>定義及個人化內容</strong></a>
+<a href="sms-content.md"><strong>定義您的SMS內容</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ ht-degree: 10%
 <img alt="客群" src="../../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-audience.md"><strong>選擇退出管理</strong></a>
+<a href="sms-audience.md"><strong>選取客群</strong></a>
 </div>
 <p>
 </td>
