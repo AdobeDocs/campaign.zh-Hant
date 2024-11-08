@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 2%
@@ -71,7 +71,7 @@ SMS服務提供者端的網路裝置通常稱為SMSC。
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
-### 授權字元音譯
+### 授權字元音譯 {#smpp-transliteration}
 
 音譯是尋找與遺失字元相當的字元的程式。 例如，GSM編碼中缺少法文「e」（帶有抑揚符號）字元，但可將其取代為「e」，而不會太影響可讀性。
 

@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 48%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 * 建立&#x200B;**條件式內容**
 
-  例如，設定條件式內容以根據收件者的設定檔新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](conditions.md)。
+  例如，設定條件式內容以根據收件者的輪廓新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](conditions.md)。
 
 <!--* Add **personalized offers**
     
@@ -47,13 +47,13 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 ## 護欄和建議{#perso-guardrails}
 
-### Personalization逾時{#perso-timeout}
+### Personalization逾時 {#perso-timeout}
 
 若要改善傳送保護，您可以設定個人化階段的逾時期間。
 
 在&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Maximum personalization run time]**&#x200B;選項的最大值（以秒為單位）。
 
-在預覽或傳送期間，如果個人化階段超過您在此欄位中設定的最大時間，流程將中止，並出現錯誤訊息，傳送將失敗。
+在預覽或傳送期間，如果個人化階段超過您在此欄位中設定的最大時間，則會中止程式並顯示錯誤訊息，且傳送失敗。
 
 預設值為5秒。
 
