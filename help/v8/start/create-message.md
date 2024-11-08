@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1530'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 1. **選取目標母體**。 [閱讀更多](#target-population)
 
-然後，您可以準備、測試、傳送及監控您的訊息。
+接著，您可以使用Adobe Campaign準備、測試、傳送及監控訊息。
 
 >[!NOTE]
 >
@@ -34,13 +34,14 @@ ht-degree: 4%
 
 若要建立傳送，請遵循下列步驟：
 
-1. 按一下傳遞清單上方的&#x200B;**[!UICONTROL Create]**。 建立新傳送時，必須選取傳送通道。 若要這麼做，請從&#x200B;**[!UICONTROL Delivery template]**&#x200B;欄位的下拉式清單中選取適當的傳遞範本。
+1. 瀏覽至傳遞清單，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 選取傳遞管道。 若要這麼做，請從下拉式清單中選擇適當的傳遞範本。
 
    ![](../send/assets/select-the-new-template.png)
 
-   隨附內建範本，供您安裝的每個管道使用：直接郵件、電子郵件、電話、行動裝置管道(SMS)、X (Twitter)等。 清單中可用的管道取決於您的授權合約。
+   隨附內建範本，供您安裝的每個管道使用：電子郵件、電話、行動裝置管道（推播/簡訊）、直接郵件、X (Twitter)等。 清單中可用的管道取決於您的授權合約。
 
-   您可以建立新的傳遞範本，以預先設定特定引數以符合您的需求。 如需範本的詳細資訊，請參閱[本節](../send/create-templates.md)。
+   您可以建立新的傳遞範本，以預先設定特定引數以符合您的需求。  [了解更多](../send/create-templates.md)。
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入傳遞的名稱。
 
@@ -48,7 +49,7 @@ ht-degree: 4%
 
 1. （選用）在&#x200B;**[!UICONTROL Description]**&#x200B;欄位中新增說明。
 1. （選擇性）在相關欄位中選取傳遞性質。 此資訊對於傳送追蹤很有用：您可以在傳送清單中根據此條件進行篩選，或使用此選擇條件建立查詢。
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以確認此資訊並顯示訊息設定視窗。
+1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以顯示訊息內容視窗。
 
 ## 定義傳遞內容 {#content-of-the-delivery}
 
@@ -126,7 +127,7 @@ ht-degree: 4%
 
    ![](assets/target-remove-criterion.png)
 
-#### 選取外部收件者 {#selecting-external-recipients}
+### 選取外部收件者 {#selecting-external-recipients}
 
 您可以傳送訊息給未儲存在資料庫中，但儲存在外部檔案中的設定檔。 例如，若要傳送傳遞內容給從文字檔匯入的收件者，請遵循下列步驟：
 
@@ -141,25 +142,31 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->定義電子郵件傳送的訊息內容時，請勿包含映象頁面的連結：此傳送模式無法產生此連結。
+>定義要傳送電子郵件給外部收件者的郵件內容時，請勿包含映象頁面的連結：此傳送模式無法產生此連結。
 
-#### 定義排除設定 {#define-exclusion-settings}
+### 排除設定 {#define-exclusion-settings}
 
-定義傳遞的目標時，**[!UICONTROL Exclusions]**&#x200B;索引標籤可用來限制訊息數目。 建議使用預設引數，但您可以根據需求調整設定。 不過，這些選項僅應由專家使用者變更，以避免任何誤用和錯誤。
+定義傳遞](#target-population)的[對象時，**[!UICONTROL Exclusions]**&#x200B;索引標籤會用來限制訊息數量。 建議使用預設引數，但您可以根據需求調整設定。 不過，這些選項僅應由專家使用者變更，以避免任何誤用和錯誤。
 
-您可以選擇排除已達到特定連續錯誤數或品質評等低於此視窗中所指定臨界值的地址。 您也可以選擇是否授權未傳回任何資料的非限定地址。
+>[!CAUTION]
+>
+>身為資深使用者，針對特定使用案例，您可以變更這些設定，但Adobe建議保留預設設定。
 
-按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結以修改預設設定。
+您可以排除已達到特定連續錯誤數或品質評等低於此視窗中所指定臨界值的地址。 您也可以選擇是否授權未傳回任何資料的非限定地址。
+
+若要修改預設設定，請按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。
 
 ![](assets/target-exclusion-settings.png)
 
-可以使用以下選項：
++++ 檢視可用選項
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項依預設為使用中，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因Adobe Campaign的使用方式及資料庫中的資料型別而異。 可為每個傳遞範本設定選項的值。
+* **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項預設為使用中，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因Adobe Campaign的使用方式及資料庫中的資料型別而異。 可為每個傳遞範本設定選項的值。
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** ，即電子郵件地址位於封鎖清單上的收件者（「選擇退出」）。 為了遵守電子行銷的職業道德，必須保持選取此選項。
 * **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 在[本節](../send/quarantines.md)中進一步瞭解隔離管理。
 * **[!UICONTROL Limit delivery]**&#x200B;至指定數目的訊息。 此選項可讓您輸入要傳送的訊息數目上限。 如果目標對象超過指示的訊息數，則會隨機選取專案套用至目標。 若要傳送所有訊息，請將此值保持為&#39;0&#39;。
 * **[!UICONTROL Keep duplicate records (same identifier)]**：此選項允許傳送多個傳遞給符合數個目標定位條件的收件者。
++++
+
 
 ### 選取校樣訊息的收件者 {#select-the-proof-target}
 
