@@ -4,7 +4,7 @@ description: 瞭解使用Adobe Campaign設計和傳送傳遞時的最佳實務
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 2%
@@ -151,7 +151,7 @@ var brand = "xxx"
 
 **秘訣**：因為人因錯誤永遠可能發生，在您每次傳送前，請先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且`No longer contact this recipient `欄位已變更為`Yes`。
 
-瞭解如何在本節](personalization-blocks.md#personalization-blocks-example)中插入選擇退出連結[。
+瞭解如何在本節](../send/personalization-blocks.md)中插入選擇退出連結[。
 
 ### 電子郵件大小
 
@@ -328,7 +328,7 @@ Learn more [in this section](get-started-a-b-testing.md).-->
 
 #### 使用波段
 
-您可以逐步增加使用波段傳送的容量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 在本節](../send/configure-and-send.mdsending-using-multiple-waves)瞭解更多[。
+您可以逐步增加使用波段傳送的容量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 在本節](../send/configure-and-send.md#sending-using-multiple-waves)瞭解更多[。
 
 #### 排定訊息的優先順序
 
