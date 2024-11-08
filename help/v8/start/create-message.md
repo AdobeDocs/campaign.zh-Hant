@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1525'
+ht-degree: 3%
 
 ---
 
@@ -176,15 +176,12 @@ ht-degree: 4%
 
 有關證明收件者和傳送的詳細資訊，請參閱[本節](../send/preview-and-proof.md#send-proofs)。
 
-![](../send/assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#seeds-and-proofs-video)
-
 
 #### 教學課程影片 {#seeds-and-proofs-video}
 
 在本影片中，您將瞭解如何新增種子和校樣到現有電子郵件以及如何傳送它。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 [此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Classic操作說明影片。
 
@@ -200,7 +197,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->每次修改訊息內容後，都必須執行上述兩個步驟。
+>每次修改訊息內容後，必須執行以上&#x200B;**的兩個步驟**。
 
 
 ## 設定並傳送傳遞 {#configuring-and-sending-the-delivery}
