@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
+source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2934'
 ht-degree: 2%
 
 ---
@@ -66,11 +66,11 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 傳遞範本提供最常見活動型別的現成案例，有助於提高效率。 透過範本，行銷人員可以在較短的時間內以最小的自訂部署新行銷活動。 [進一步瞭解傳遞範本](../send/create-templates.md)。
 
-### 品牌
+### 子網域和品牌 {#subdomains-and-branding}
 
 當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
 
-### 設定地址
+### 設定地址 {#configure-addresses}
 
 請務必套用下列准則：
 
@@ -79,7 +79,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 * 地址必須明確識別寄件者。 網域必須屬於寄件者且已註冊給寄件者。
 * Adobe建議建立對應至傳送和回覆所指定地址的電子郵件帳戶。 請洽詢您的傳訊系統管理員。
 
-+++ 在Campaign UI中設定&#x200B;**位址**
++++ **在Campaign UI中設定位址的步驟**
 
 若要在Campaign介面中設定地址，請遵循下列步驟：
 
@@ -91,15 +91,15 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 1. 在&#x200B;**[!UICONTROL Reply address text]**&#x200B;欄位中，預設會使用寄件者的地址來回覆。 不過，Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
 
-### 設定控制組
+### 設定控制組 {#set-up-control-group}
 
 傳送傳遞後，您可以將排除的收件者與收到傳遞的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 深入瞭解控制群組[本節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)。
 
-### 使用型別來套用篩選器或控制規則
+### 使用型別來套用篩選器或控制規則 {#create-typologies}
 
 型別包含在傳送任何訊息之前，在分析階段套用的檢查規則。
 
-在範本屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;標籤中，根據您的需求變更預設型別。
+在範本屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;標籤中，您可以視需要選取自訂型別。
 
 例如，為了更能控制傳出流量，您可以定義要使用的IP位址，方法為為每個子網域定義一個相似性，並為每個相似性建立一種型別。 相似性是在執行個體的組態檔案中定義。 請連絡您的Adobe Campaign管理員。
 
@@ -111,17 +111,20 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 若要個人化您的訊息，您可以使用儲存在資料庫中的收件者資料，或是透過追蹤、登陸頁面、訂閱等收集的資料。 在[本節](../send/personalize.md)中提供Personalization基本知識。
 
-請確定您的訊息內容已妥善設計，以避免任何與個人化相關的錯誤。 Adobe Campaign個人化標籤一律採用下列形式： `<%=table.field%>`。 個人化區塊中引數的使用不正確可能是個問題。 例如，JavaScript中的變數使用方式如下：
++++ **閱讀一些最佳實務**
 
-``
-<%
-var brand = "xxx"
-%>
-``
+* 檢查您的個人化設定 — 確認您的訊息內容經過適當設計，以避免任何與個人化相關的錯誤。 Adobe Campaign個人化標籤一律採用下列形式： `<%=table.field%>`。 個人化區塊中引數的使用不正確可能是個問題。 例如，JavaScript中的變數使用方式如下：
 
-如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
+  ``
+  <%
+  var brand = "xxx"
+  %>
+  ``
 
-您可以在工作流程中準備個人化資料，以改善傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則應特別使用此專案。 此[本章節](../send/personalization-data.md#optimize-personalization)中說明此選項
+  如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
+
+* 準備個人化資料 — 您可以在工作流程中準備個人化資料，以改進傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則應特別使用此專案。 此[本章節](../send/personalization-data.md#optimize-personalization)中說明此選項
++++
 
 ### 建置最佳化內容 {#build-optimized-content}
 
@@ -142,7 +145,7 @@ var brand = "xxx"
 +++
 
 
-### 主旨列
+### 主旨列  {#subject-line-check}
 
 處理電子郵件[主旨列](../send/personalization-fields.md#personalization-fields-uc)以提高開啟率。
 
@@ -154,15 +157,17 @@ var brand = "xxx"
 
 * 避免使用重複性的字詞，例如「free」或「offer」，這些字詞可能會被視為垃圾訊息
 
-* 避免使用大寫字母和「！」、「£」、「€」、「$」等特殊字元
+* 避免使用大寫字母
+
+* 請勿使用「！」、「£」、「€」、「$」等特殊字元
 
 +++
 
-### 鏡像頁面
+### 鏡像頁面 {#mirror-page-check}
 
 一律包含映象頁面連結。 偏好位置是電子郵件的頂端。 在[此頁面](../send/mirror-page.md)中進一步瞭解映象頁面
 
-### 取消訂閱連結
+### 取消訂閱連結 {#unsub-link-check}
 
 取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 依預設，分析訊息時，內建&#x200B;**[!UICONTROL Unsubscription link approval]** [型別規則](../../automation/campaign-opt/control-rules.md)會檢查是否包含選擇退出連結，如果缺少該連結，則會產生警告。
 
@@ -174,7 +179,7 @@ var brand = "xxx"
 
 +++
 
-### 電子郵件大小
+### 電子郵件大小 {#email-size-check}
 
 為避免效能或傳遞能力問題，建議的最大電子郵件大小約為&#x200B;**35KB**。 若要檢查訊息大小，請瀏覽&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤並選擇測試設定檔。 產生後，訊息大小會顯示在右上角。
 
@@ -192,17 +197,18 @@ var brand = "xxx"
 +++
 
 
-### 簡訊長度
+### 簡訊長度 {#sms-length-check}
 
 根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。 使用 GSM 編碼的簡訊訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個簡訊的簡訊訊息最多只能有 153 個字元。
 
-音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
 
 +++ **閱讀一些最佳實務**
 
 * 若要保留SMS訊息中的所有字元原樣，例如不要變更正確名稱，請勿啟用音譯。
 
 * 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。 在本節](../send/sms/smpp-external-account.md#smpp-transliteration)瞭解更多[。
+
+* 您可以套用SMS音譯，包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 身為Campaign管理員，您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP頻道設定索引標籤中對應的方塊，以啟用字母音譯。 [了解更多](../send/sms/smpp-external-account.md#smpp-transliteration)
 
 +++
 
@@ -221,26 +227,28 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
-
 ## 管理影像 {#manage-images}
 
 以下是一些針對電子郵件行銷活動最佳化影像的特定准則。
 
-### 避免影像封鎖
+### 避免影像封鎖 {#image-blocking}
 
-有些電子郵件使用者端依預設會封鎖影像，有些使用者則變更其設定以封鎖影像，以儲存資料使用量。 因此，如果未下載影像，可能會遺失整個訊息。 若要避免此情況：
+有些電子郵件使用者端預設會封鎖影像，使用者可能會變更其設定以封鎖影像，以便儲存資料使用量。  因此，如果未下載影像，可能會遺失整個訊息。
 
-* 平衡您的內容與影像與文字。 避免使用完全以影像為基礎的電子郵件。
++++ 若要避免此問題，您可以套用這些最佳實務
+
+* 避免使用完全以影像為基礎的電子郵件。 平衡您的內容與影像與文字。
 
 * 如果文字必須包含在影像中，請使用替代文字和標題文字來確認訊息是否傳入。 設定替代/標題文字的樣式，以改善其外觀。
 
 * 避免使用背景影像，因為有些電子郵件使用者端不支援這些影像。
++++
 
-### 讓影像回應
+### 讓影像回應 {#responsive-images}
 
-嘗試讓影像回應靈敏且可調整大小。 請注意，這可能會造成成本影響，因為建置時間較長。
+嘗試使影像回應且可調整大小，使其在所有內容與裝置中皆可見。 請注意，這可能會造成成本影響，因為建置時間較長。
 
-### 使用絕對影像參照
+### 使用絕對影像參照 {#absolute-images}
 
 若要從外部存取，連結至行銷活動的電子郵件和公共資源中所使用的影像，必須存在於外部可存取的伺服器上。
 
