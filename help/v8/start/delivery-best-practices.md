@@ -4,9 +4,10 @@ description: 瞭解使用Adobe Campaign設計和傳送傳遞時的最佳實務
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
+source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
 workflow-type: tm+mt
-source-wordcount: '2869'
+source-wordcount: '2890'
 ht-degree: 2%
 
 ---
@@ -44,7 +45,7 @@ ht-degree: 2%
 技術建議列於[此區段](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}中。
 
 
-**提示**
++++ **閱讀一些最佳實務**
 
 * 如果您有無效地址清單，Adobe建議透過&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**，將其匯入隔離表格。
 
@@ -52,6 +53,9 @@ ht-degree: 2%
 Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭解隔離](../send/quarantines.md)
 
 * 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。 因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
+
++++
+
 
 
 ### 雙重加入機制 {#double-opt-in}
@@ -74,6 +78,8 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 * 格式錯誤的位址可能會導致接收伺服器拒絕該位址。 您必須確定已提供正確的地址。
 * 地址必須明確識別寄件者。 網域必須屬於寄件者且已註冊給寄件者。
 * Adobe建議建立對應至傳送和回覆所指定地址的電子郵件帳戶。 請洽詢您的傳訊系統管理員。
+
++++ 在Campaign UI中設定&#x200B;**位址**
 
 若要在Campaign介面中設定地址，請遵循下列步驟：
 
@@ -119,7 +125,9 @@ var brand = "xxx"
 
 ### 建置最佳化內容 {#build-optimized-content}
 
-建立電子郵件時，請記住以下一般最佳實務：
+建立電子郵件時，請套用電子郵件內容的一般最佳實務。
+
++++ **閱讀一些最佳實務**
 
 * 讓設計保持簡單
 
@@ -131,15 +139,24 @@ var brand = "xxx"
 
 * 編碼特殊字元
 
++++
+
+
 ### 主旨列
 
-處理[主旨列](../send/personalization-fields.md#personalization-fields-uc)以改善開啟率：
+處理電子郵件[主旨列](../send/personalization-fields.md#personalization-fields-uc)以提高開啟率。
+
+
++++ **閱讀一些最佳實務**
+
 
 * 避免主題過長。 最多使用50個字元
 
 * 避免使用重複性的字詞，例如「free」或「offer」，這些字詞可能會被視為垃圾訊息
 
 * 避免使用大寫字母和「！」、「£」、「€」、「$」等特殊字元
+
++++
 
 ### 鏡像頁面
 
@@ -149,15 +166,20 @@ var brand = "xxx"
 
 取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 依預設，分析訊息時，內建&#x200B;**[!UICONTROL Unsubscription link approval]** [型別規則](../../automation/campaign-opt/control-rules.md)會檢查是否包含選擇退出連結，如果缺少該連結，則會產生警告。
 
-**秘訣**：因為人因錯誤永遠可能發生，在您每次傳送前，請先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且`No longer contact this recipient `欄位已變更為`Yes`。
-
 瞭解如何在本節](../send/personalization-blocks.md)中插入選擇退出連結[。
+
++++ **套用此最佳實務**
+
+因為人因錯誤永遠是可能的，在您每次傳送前都必須檢查選擇退出連結是否正確運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且`No longer contact this recipient `欄位已變更為`Yes`。
+
++++
 
 ### 電子郵件大小
 
 為避免效能或傳遞能力問題，建議的最大電子郵件大小約為&#x200B;**35KB**。 若要檢查訊息大小，請瀏覽&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤並選擇測試設定檔。 產生後，訊息大小會顯示在右上角。
 
-若要將您的電子郵件保持在限制以下，請考慮以下事項：
+
++++ **閱讀一些最佳實務**
 
 * 移除多餘或未使用的樣式
 
@@ -167,19 +189,22 @@ var brand = "xxx"
 
 請務必在最終傳送前測試任何變更。
 
++++
+
+
 ### 簡訊長度
 
 根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。 使用 GSM 編碼的簡訊訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個簡訊的簡訊訊息最多只能有 153 個字元。
 
 音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
 
-**提示**
++++ **閱讀一些最佳實務**
 
 * 若要保留SMS訊息中的所有字元原樣，例如不要變更正確名稱，請勿啟用音譯。
 
-* 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。
+* 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。 在本節](../send/sms/smpp-external-account.md#smpp-transliteration)瞭解更多[。
 
-在本節](../send/sms/smpp-external-account.md#smpp-transliteration)瞭解更多[。
++++
 
 ### 避免附件
 
@@ -385,8 +410,7 @@ You can:
 
 為了更清楚瞭解收件者的行為，您可以追蹤他們對傳送的反應：接收、開啟、點選連結、取消訂閱等。 在Campaign中，此資訊會顯示在傳遞所目標定位的收件者的&#x200B;**追蹤**&#x200B;索引標籤中，以及傳遞的Tracking索引標籤中。
 
-**提示**：訊息追蹤預設為啟用。 若要設定URL，請選取傳送助理員下方區段中的「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟動追蹤。
+訊息追蹤預設為啟用。 若要設定URL，請選取傳送助理員下方區段中的「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟動追蹤。
 
 
 [在Campaign Classic v7檔案中進一步瞭解追蹤功能](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
-
