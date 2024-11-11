@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 8%
@@ -83,9 +83,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->請確定最後一個批次沒有超過在&#x200B;**[!UICONTROL Validity]**&#x200B;索引標籤中定義的傳送期限。 否則，部分訊息可能不會傳送。 在[本節](delivery-failures.md#valid-period)中進一步瞭解傳遞的有效期。
+>* 請確定最後一個批次沒有超過在&#x200B;**[!UICONTROL Validity]**&#x200B;索引標籤中定義的傳送期限。 否則，部分訊息可能不會傳送。 在[本節](delivery-failures.md#valid-period)中進一步瞭解傳遞的有效期。
 >
->在設定最後一個波段時，您也必須設定足夠的重試時間。 在[本節](delivery-failures.md#retries)中進一步瞭解重試。
+>* 在設定最後一個波段時，您也必須設定足夠的重試時間。 在[本節](delivery-failures.md#retries)中進一步瞭解重試。
 
 ### 監視波段 {#monitor-waves}
 

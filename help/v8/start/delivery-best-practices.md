@@ -1,20 +1,20 @@
 ---
 title: 關於傳遞的最佳實務
 description: 瞭解使用Adobe Campaign設計和傳送傳遞時的最佳實務
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2936'
 ht-degree: 2%
 
 ---
 
 # 關於傳遞的最佳實務 {#delivery-best-practices}
 
-閱讀Campaign傳送功能的最佳實務。
+閱讀下列Campaign傳送功能最佳實務。
 
 ## 最佳化傳遞 {#optimize-delivery}
 
