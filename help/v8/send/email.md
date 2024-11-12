@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 11%
+source-wordcount: '528'
+ht-degree: 10%
 
 ---
 
 # 設計和傳送電子郵件
 
-電子郵件傳遞可讓您傳送個人化電子郵件給目標群體。 [了解更多](../send/send.md)
+使用Adobe Campaign建立電子郵件傳遞，以傳送個人化電子郵件給目標群體。 [了解更多](../send/send.md)
 
 瞭解在[此頁面](../start/create-message.md)中建立和設定傳遞的關鍵步驟。
 
@@ -85,15 +85,16 @@ ht-degree: 11%
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中匯入電子郵件內容。
+瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中建立工作流程以匯入電子郵件內容。
 
-請在下列章節中瞭解更多資訊：
-
-<!--[Design an email in Campaign]-->
-* [建立及使用電子郵件範本](../send/create-templates.md)
-* [選取電子郵件的對象](../audiences/gs-audiences.md)
-* [驗證傳遞並傳送校樣](preview-and-proof.md)
-* [設定並傳送傳遞](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [建立傳遞](../start/create-message.md)
+>* [建立並使用電子郵件範本](create-templates.md)
+>* [選取您電子郵件的對象](../audiences/gs-audiences.md)
+>* [驗證傳遞並傳送證明](preview-and-proof.md)
+>* [設定並傳送傳遞](configure-and-send.md)
+>* [傳遞最佳實務](../start/delivery-best-practices.md)
 
 ## 測試及驗證您的電子郵件
 
