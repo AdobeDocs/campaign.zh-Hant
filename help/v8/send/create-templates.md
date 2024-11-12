@@ -6,20 +6,22 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 25%
+source-wordcount: '939'
+ht-degree: 19%
 
 ---
 
 # 使用傳遞範本 {#work-with-delivery-template}
 
-每個傳遞都是根據範本建立的。 每個管道都有內建範本可用。 您可以自訂這些設定，以將相同的設定套用至一組傳送。
+## 開始使用傳遞範本
 
-範本包括：
+每個傳遞都是根據範本建立的。 範本是一種可重複使用的設定，可促進並標準化您的實施。 您可以使用內建或自訂範本。
 
-* 類型規則
+範本可包含部分或完整組態設定，例如：
+
+* [類型規則](../../automation/campaign-opt/campaign-typologies.md)
 * 寄件者和回覆地址
 * 基本[個人化區塊](../send/personalization-blocks.md)
 * 連結至[映象頁面](../send/mirror-page.md)和取消訂閱連結
@@ -27,6 +29,17 @@ ht-degree: 25%
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
+
+在Adobe Campaign中，您可以使用兩種型別的範本：
+
+1. Adobe Campaign **內建**&#x200B;傳遞範本 — 每個管道都可使用內建範本。 這些檔案不得修改或刪除。 每個傳遞管道都包含基本設定。 身為管理員，您可以設定預設值，或限制使用者的特定功能，例如修改追蹤引數、寄件者電子郵件地址等。 內建範本在範本清單中以粗體顯示。
+
+1. **自訂**&#x200B;傳遞範本 — 身為Adobe Campaign管理員，您可以建立新的傳遞範本。 最佳實務是複製和更新內建範本，而非從頭開始建立範本。 例如，您可以設定電子郵件傳遞範本，當使用者從此範本建立傳遞時，他們只需輸入文字或HTML內容即可。 所有其他設定均已定義。
+
+>[!NOTE]
+>
+>可用的範本取決於存取權、執行個體設定和上下文。 例如，當您建立資訊服務時，可以連結確認訊息的傳遞範本：然後您只能存取其目標對應為訂閱對應的範本。 其他範本在此內容中不可見。 如需詳細資訊，請參閱[選取目標對應](../audiences/target-mappings.md)和[服務與訂閱](../start/subscriptions.md)。
+
 
 ## 建立範本 {#create-a-delivery-template}
 
