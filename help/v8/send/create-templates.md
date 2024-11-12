@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->可用的範本取決於存取權、執行個體設定和上下文。 例如，當您建立資訊服務時，可以連結確認訊息的傳遞範本：然後您只能存取其目標對應為訂閱對應的範本。 其他範本在此內容中不可見。 如需詳細資訊，請參閱[選取目標對應](../audiences/target-mappings.md)和[服務與訂閱](../start/subscriptions.md)。
+>可用的範本取決於存取權、執行個體設定和上下文。 例如，當您建立資訊服務時，可以連結確認訊息的傳遞範本：然後您只能存取其目標對應為訂閱對應的範本。 其他範本在此內容中不可見。 如需詳細資訊，請參閱[使用目標對應](../audiences/target-mappings.md)和[管理訂閱和取消訂閱](../start/subscriptions.md)。
 
 
 ## 建立範本 {#create-a-delivery-template}
