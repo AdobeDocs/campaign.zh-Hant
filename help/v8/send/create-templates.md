@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
+source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '989'
 ht-degree: 18%
 
 ---
@@ -121,7 +121,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ### 執行範本 {#execute-a-template}
 
-您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](../../automation/workflow/deliveries.md)所述。
+您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)所述。
 
 若要手動執行範本，請執行下列步驟：
 
