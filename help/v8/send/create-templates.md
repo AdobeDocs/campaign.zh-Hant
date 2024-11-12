@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
+source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
