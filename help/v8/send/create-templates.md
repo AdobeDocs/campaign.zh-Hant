@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 19%
+source-wordcount: '988'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 19%
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
 
-在Adobe Campaign中，您可以使用兩種型別的範本：
+傳遞範本儲存在檔案總管的&#x200B;**[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;資料夾中。 在Adobe Campaign中，您可以使用兩種型別的範本：
 
 1. Adobe Campaign **內建**&#x200B;傳遞範本 — 每個管道都可使用內建範本。 這些檔案不得修改或刪除。 每個傳遞管道都包含基本設定。 身為管理員，您可以設定預設值，或限制使用者的特定功能，例如修改追蹤引數、寄件者電子郵件地址等。 內建範本在範本清單中以粗體顯示。
 
@@ -121,18 +121,19 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ### 執行範本 {#execute-a-template}
 
-您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。
+您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](../../automation/workflow/deliveries.md)所述。
 
-若要這麼做，請選取要執行的範本，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions>Execute the delivery template...]**。
+若要手動執行範本，請執行下列步驟：
 
-您也可以使用&#x200B;**[!UICONTROL File>Actions>Execute the delivery template...]**。
+1. 選取要執行的範本，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions>Execute the delivery template...]**。
 
-![](assets/execute-delivery-template.png)
+   您也可以使用&#x200B;**[!UICONTROL File>Actions>Execute the delivery template...]**。
 
-輸入傳遞引數並按一下&#x200B;**[!UICONTROL Send]**。
+   ![](assets/execute-delivery-template.png)
+
+1. 輸入傳遞引數並按一下&#x200B;**[!UICONTROL Send]**。
 
 此動作會在與範本關聯的資料夾中產生傳遞。 此傳遞的名稱是從中建立其傳遞範本的名稱。
-
 
 ## 教學課程影片 {#delivery-template-video}
 
