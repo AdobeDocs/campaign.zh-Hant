@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
 
 # 建立您的第一個傳遞 {#create-a-msg}
 
-在本頁面中，您將瞭解如何建立單次傳送。 您可以建立其他型別的傳送，以解決您的使用案例。 在[本頁面](gs-message.md)中進一步瞭解不同型別的傳遞以及如何建立它們。
+在本頁面中，瞭解如何建立單次傳送。 您可以建立其他型別的傳送，以建置您的使用案例。 在[本頁面](gs-message.md)中進一步瞭解不同型別的傳遞以及如何建立它們。
 
 建立單次傳送的關鍵步驟如下：
 
