@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 此頁面列出[!DNL Campaign] v8 （主控台）檔案中的所有最新更新。
+
+## 2024 年 11 月 {#october-2024}
+
+**ffdaUnsuscribe**&#x200B;工作流程已新增至技術工作流程清單。[閱讀更多](../../automation/workflow/technical-workflows.md)
 
 ## 2024 年 6 月 {#june-2024}
 

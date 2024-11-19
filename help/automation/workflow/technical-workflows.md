@@ -5,9 +5,9 @@ description: 進一步瞭解Campaign可用的技術工作流程
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 他們管理排程在�
 | **分散式行銷程式** (centralLocalMgt) | 中央/地方行銷（分散式行銷） | 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。 |
 | **事件清除** (webAnalyticsPurgeWebEvents) | 網站分析聯結器 | 此工作流程可讓您根據生命週期欄位中設定的期間，從資料庫欄位中刪除每個事件。 |
 | **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe Experience Cloud解決方案。 |
+| **ffdaUnsuscribe** | 預設安裝 | 此工作流程會處理以退回郵件形式收到的取消訂閱（透過使用`<mailto>` List-Unsubscribe方法）。 它每隔1小時會執行一次，而且只會在具有企業(FFDA)部署的行銷執行個體上執行。<br/><br/>工作流程會檢查inMail模組（在NmsBroadLog表格的iFlags欄中設定標籤）標示為取消訂閱退回的特定時間範圍（上次處理時間和目前時間）的broadlog，並根據broadlog服務是否設定而處理取消訂閱：<ul><li>如果serviceId為0 （未定義），收件者將會加入封鎖清單。</li><li>如果serviceId不是0 （連結至現有服務），收件者將會取消訂閱該服務。</li></ul><br/>注意：此工作流程只會處理退信取消訂閱；透過選擇退出連結和一鍵取消訂閱（URL方法）完成的取消訂閱會在此工作流程之外單獨處理。 |
 | **預測** （預測） | 傳遞 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
 | **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[本節](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
 | **已轉換連絡人的識別碼** (webAnalyticsFindConverted) | 網站分析聯結器 | 此工作流程會針對在再次行銷活動後完成購買的網站訪客建立索引。 此工作流程復原的資料可在再行銷效率報表中存取（請參閱本頁面）。 |
