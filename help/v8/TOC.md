@@ -6,9 +6,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
