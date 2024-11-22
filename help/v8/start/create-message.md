@@ -6,15 +6,15 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 建立您的第一個傳遞 {#create-a-msg}
 
-在本頁面中，瞭解如何建立單次傳送。 您可以建立其他型別的傳送，以建置您的使用案例。 在[本頁面](gs-message.md)進一步瞭解不同類型的傳遞以及建立方法。
+在本頁面，了解如何建立一次性傳遞。 您可以建立其他類型的傳遞，來建置您的使用案例。 在[本頁面](gs-message.md)進一步瞭解不同類型的傳遞以及建立方法。
 
 建立一次性傳遞的關鍵步驟如下：
 
