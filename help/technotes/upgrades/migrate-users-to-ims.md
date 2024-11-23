@@ -2,9 +2,9 @@
 title: 移轉Campaign運運算元至AdobeIdentity Management系統(IMS)
 description: 瞭解如何將Campaign運運算元移轉至AdobeIdentity Management系統(IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## 哪些部分有所變更？{#move-to-ims-changes}
 
-透過Campaign v8，所有一般使用者應該已透過AdobeAdobe Campaign System (IMS)，使用其Adobe ID連線至Identity Management使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 **從Campaign v8.6開始，將不再允許這樣做。**
+透過Campaign v8，所有一般使用者應該已透過AdobeAdobe Campaign System (IMS)，使用其Adobe ID連線至Identity Management使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 **從Campaign v8.6開始不再允許此專案。**
 
 此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術運運算元的移轉作業在專用文章中有詳細說明，可在[此頁面](ims-migration.md)取得。
 
-此變更適用於Campaign v8.5.2開始，且自Campaign v8.6開始將是&#x200B;**強制性**。
+此變更適用於Campaign v8.5.2開始，且為Campaign v8.6開始的&#x200B;**強制性**。
 
 ## 您有受到影響嗎？{#migrate-ims-impacts}
 

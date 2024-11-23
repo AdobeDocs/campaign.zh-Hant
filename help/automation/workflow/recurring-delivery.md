@@ -5,9 +5,9 @@ description: 深入瞭解循環傳送工作流程活動
 feature: Workflows
 role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 13%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 13%
 
 ![循環傳遞](assets/delivery_recurring.jpg)
 
-如果您想要停止執行週期性傳送，您應該完全取消行銷活動或停止執行它的工作流程。 停止來自Campaign控制面板的傳送只會停止傳送專案：循環傳送的下一個例項將繼續在每個工作流程執行時建立。
+如果您想要停止執行週期性傳送，您應該完全取消行銷活動或停止執行它的工作流程。 從Campaign控制面板停止傳送只會停止傳送發生：循環傳送的下一個例項將繼續在每個工作流程執行時建立。
 
 >[!NOTE]
 >

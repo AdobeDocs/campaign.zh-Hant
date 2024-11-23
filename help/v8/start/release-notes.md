@@ -3,21 +3,16 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 97%
 
 ---
 
 # 最新版本 {#latest-release}
 
-Adobe Campaign 會定期更新。此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。Adobe 強烈建議所有客戶升級至最新版本。本頁面列出 Campaign v8 (主控台) 最新版本中的新功能、改善和修正。[在本頁](upgrades.md)進一步了解 Campaign 版本和更新。
-
-作為 Managed Cloud Services 使用者，您的執行個體會隨著每個新發行版本由 Adobe 升級。Adobe 將會聯絡您並升級您的環境。Campaign 用戶端主控台&#x200B;**必須升級至與 Campaign 伺服器相同的版本**。 透過[本頁](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
-
-此外，身為客戶，請確定您使用的是列於[相容性矩陣](compatibility-matrix.md)的最新受支援系統版本。
-
+本頁面列出 Campaign v8 (主控台) 最新版本中的新功能、改善和修正。在[本頁面](upgrades.md)中進一步瞭解Campaign的發行、版本和升級。
 
 ## 發行版本 8.7.2 {#release-8-7-2}
 

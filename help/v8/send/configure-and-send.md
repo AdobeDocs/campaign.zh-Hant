@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 8%
+source-wordcount: '1188'
+ht-degree: 10%
 
 ---
 
 # 設定並傳送傳遞 {#configure-delivery}
 
-存取傳遞引數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞[優先順序](#delivery-priority)、設定[波段](#sending-using-multiple-waves)，並測試您的傳遞傳送。 完成此設定後，您可以確認傳送，如[此區段](#confirm-delivery)所述。 然後立即傳送訊息，或根據傳遞[排程](#schedule-delivery-sending)傳送訊息。
+存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞[優先順序](#delivery-priority)、設定[波段](#sending-using-multiple-waves)，並測試您的傳遞傳送。 完成此設定後，您可以確認傳送，如[此區段](#confirm-delivery)所述。 然後立即傳送訊息，或根據傳遞[排程](#schedule-delivery-sending)傳送訊息。
 
 ## 設定其他引數 {#delivery-additional-parameters}
 
@@ -126,7 +126,7 @@ ht-degree: 8%
 
 1. 按一下&#x200B;**[!UICONTROL Send]**，選取所需的動作。
 
-   * 若要立即傳送傳遞，請選取&#x200B;[**儘快傳送**]。
+   * 若要立即傳送傳遞，請選取&#x200B;**[!UICONTROL Deliver as soon as possible]**。
    * 若要排程傳送至之後的日期，請選取&#x200B;**[!UICONTROL Postpone the delivery]**。 [了解更多](#schedule-delivery-sending)
 
 1. 按一下 **[!UICONTROL Analyze]**。如需詳細資訊，請參閱[本節](delivery-analysis.md)。

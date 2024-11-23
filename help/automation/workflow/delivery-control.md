@@ -5,7 +5,7 @@ description: 進一步瞭解傳遞控制工作流程活動
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 5%
@@ -13,8 +13,6 @@ ht-degree: 5%
 ---
 
 # 傳遞控制{#delivery-control}
-
-
 
 **傳遞控制**&#x200B;型別動作可讓您開始、暫停或停止傳遞。
 
@@ -38,4 +36,4 @@ ht-degree: 5%
 
 * deliveryId
 
-傳遞識別碼（如果選取的動作是&#x200B;**[!UICONTROL Specified in the transition]**）。
+  傳遞識別碼（如果選取的動作是&#x200B;**[!UICONTROL Specified in the transition]**）。
