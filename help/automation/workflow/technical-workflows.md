@@ -5,48 +5,41 @@ description: 進一步瞭解Campaign可用的技術工作流程
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
+source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
 # 技術工作流程{#about-technical-workflows}
 
-Adobe Campaign隨附一組內建的技術工作流程。 他們管理排程在伺服器上定期執行的作業和工作。 它們可讓您對資料庫進行維護、轉送傳遞的追蹤資訊，或設定傳遞的臨時流程。 技術工作流程是透過&#x200B;**[!UICONTROL Administration > Production > Technical workflows]**&#x200B;節點設定。
-
-![](assets/navtree.png)
-
-原生範本可用於建立技術工作流程。 可依您的需求加以設定。
-
-**[!UICONTROL Campaign process]**&#x200B;子資料夾集中了執行行銷活動內處理程式所需的工作流程：任務通知、庫存管理、成本計算等。
-
-![](assets/campaign-processes-wf.png)
-
-
->[!NOTE]
->
->與每個模組一起安裝的技術工作流程清單可在[專屬區段](technical-workflows.md)中取得。
-
-您可以在樹狀結構的&#x200B;**[!UICONTROL Administration > Production > Technical workflows]**&#x200B;節點中建立其他技術工作流程。 不過，此程式僅供專家使用者使用。
-
-提供的活動與定位工作流程相同。 [了解更多](targeting-workflows.md)
-
-本節中詳述的工作流程會隨不同的Adobe Campaign內建套件安裝。 這些套件和相關的技術工作流程取決於您的授權合約。
+Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定在伺服器上定期執行的作業和工作。 技術工作流程會對Campaign資料庫執行維護操作、管理傳遞的追蹤資料，以及設定傳遞的臨時流程。
 
 依預設，技術工作流程可在下列節點的子資料夾中使用： **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**。
 
-請注意，技術工作流程只能由具有管理許可權的運運算元啟動和修改。
+![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->與訊息中心附加元件相關的技術工作流程預設可在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**&#x200B;節點中使用。
+>* [本節](#list-technical-workflows)提供每個模組所安裝的技術工作流程清單。
+>
+>* 與訊息中心附加元件相關的技術工作流程預設會儲存在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**&#x200B;節點中。
 
-在此[專屬區段](monitor-technical-workflows.md)中瞭解如何監視技術工作流程。
+**[!UICONTROL Campaign process]**&#x200B;子資料夾集中了執行行銷活動內處理程式所需的工作流程：任務通知、庫存管理、成本計算等。
 
+![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
+
+
+## 管理和建立技術工作流程 {#manage-tech-workflows}
+
+行銷活動技術工作流程只能由具有&#x200B;**管理**&#x200B;許可權的運運算元啟動和修改。 在此[專屬區段](monitor-technical-workflows.md)中瞭解如何監視技術工作流程。
+
+您可以在樹狀結構的&#x200B;**[!UICONTROL Administration > Production > Technical workflows]**&#x200B;節點中建立自訂的技術工作流程。 原生範本可用於建立技術工作流程。 可依您的需求加以設定。 不過，此程式僅供專家使用者使用。 技術工作流程中可用的活動與定位工作流程相同。 [了解更多](targeting-workflows.md)。
 
 ## 技術工作流程清單 {#list-technical-workflows}
+
+此頁面中詳細的工作流程會隨Adobe Campaign內建套件安裝。 這些套件和相關的技術工作流程取決於您的授權合約和附加元件。
 
 | 技術工作流程 | 套件 | 說明 |
 |------|--------|-----------|
@@ -59,12 +52,12 @@ Adobe Campaign隨附一組內建的技術工作流程。 他們管理排程在�
 | **資料庫清理** （清理） | 預設安裝 | 此工作流程是資料庫維護工作流程：它會根據統計和程式進行不同的計算，並根據部署助理員中定義的組態從資料庫刪除過時的資料。 預設會每天凌晨4:00觸發。 |
 | **刪除封鎖的LINE使用者** (deleteBlockedLineUsersV2) | LINE 管道 | 此工作流程確保LINE V2使用者的資料在封鎖LINE正式帳戶180天後會被刪除。 |
 | **刪除隱私權請求資料** (deletePrivacyRequestsData) | 隱私權資料保護規範 | 此工作流程會刪除收件者儲存在Adobe Campaign中的資料。 |
-| **傳遞指標** (deliveryIndicators) | 中間來源平台 | 此工作流程會更新傳送的傳送追蹤指標。 預設會每小時觸發此工作流程。 |
+| **傳遞指標** (deliveryIndicators) | 預設安裝 | 此工作流程會更新傳送的傳送追蹤指標。 預設會每小時觸發此工作流程。 |
 | **分散式行銷程式** (centralLocalMgt) | 中央/地方行銷（分散式行銷） | 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。 |
 | **事件清除** (webAnalyticsPurgeWebEvents) | 網站分析聯結器 | 此工作流程可讓您根據生命週期欄位中設定的期間，從資料庫欄位中刪除每個事件。 |
 | **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe Experience Cloud解決方案。 |
 | **ffdaUnsuscribe** | 預設安裝 | 此工作流程會處理以退回郵件形式收到的取消訂閱（透過使用`<mailto>` List-Unsubscribe方法）。 它每隔1小時會執行一次，而且只會在具有企業(FFDA)部署的行銷執行個體上執行。<br/><br/>工作流程會檢查inMail模組（在NmsBroadLog表格的iFlags欄中設定標籤）標示為取消訂閱退回的特定時間範圍（上次處理時間和目前時間）的broadlog，並根據broadlog服務是否設定而處理取消訂閱：<ul><li>如果serviceId為0 （未定義），收件者將會加入封鎖清單。</li><li>如果serviceId不是0 （連結至現有服務），收件者將會取消訂閱該服務。</li></ul><br/>注意：此工作流程只會處理退信取消訂閱；透過選擇退出連結和一鍵取消訂閱（URL方法）完成的取消訂閱會在此工作流程之外單獨處理。 |
-| **預測** （預測） | 傳遞 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
+| **預測** （預測） | 預設安裝 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
 | **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[本節](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
 | **已轉換連絡人的識別碼** (webAnalyticsFindConverted) | 網站分析聯結器 | 此工作流程會針對在再次行銷活動後完成購買的網站訪客建立索引。 此工作流程復原的資料可在再行銷效率報表中存取（請參閱本頁面）。 |
 | **從Adobe Experience Cloud** (importSharedAudience)匯入對象 | 與Adobe Experience Cloud整合 | 此工作流程可讓您將不同Adobe Experience Cloud解決方案的對象/區段匯入至Adobe Campaign。 |
