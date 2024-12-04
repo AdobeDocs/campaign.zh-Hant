@@ -5,9 +5,9 @@ description: 進一步瞭解Campaign可用的技術工作流程
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
+source-git-commit: e8546d56232c50dbf4aedf054a7d63838e3fd957
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 
 依預設，技術工作流程可在下列節點的子資料夾中使用： **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**。
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -28,8 +28,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 
 **[!UICONTROL Campaign process]**&#x200B;子資料夾集中了執行行銷活動內處理程式所需的工作流程：任務通知、庫存管理、成本計算等。
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## 管理和建立技術工作流程 {#manage-tech-workflows}
 
@@ -37,7 +36,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 
 您可以在樹狀結構的&#x200B;**[!UICONTROL Administration > Production > Technical workflows]**&#x200B;節點中建立自訂的技術工作流程。 原生範本可用於建立技術工作流程。 可依您的需求加以設定。 不過，此程式僅供專家使用者使用。 技術工作流程中可用的活動與定位工作流程相同。 [了解更多](targeting-workflows.md)。
 
-## 技術工作流程清單 {#list-technical-workflows}
+## 內建的技術工作流程 {#list-technical-workflows}
 
 此頁面中詳細的工作流程會隨Adobe Campaign內建套件安裝。 這些套件和相關的技術工作流程取決於您的授權合約和附加元件。
 
