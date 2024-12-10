@@ -4,15 +4,15 @@ description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 最新版本 {#latest-release}
 
-本頁面列出 Campaign v8 (主控台) 最新版本中的新功能、改善和修正。在[本頁面](upgrades.md)中進一步瞭解Campaign的發行、版本和升級。
+本頁面列出 Campaign v8 (主控台) 最新版本中的新功能、改善和修正。在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。
 
 ## 發行版本 8.7.2 {#release-8-7-2}
 
