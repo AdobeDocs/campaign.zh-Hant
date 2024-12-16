@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 67%
+source-wordcount: '1333'
+ht-degree: 65%
 
 ---
 
@@ -143,6 +143,10 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 
 1. 從 **[!UICONTROL eVars]** 類別中，對應在 [!DNL Adobe Analytics] 中設定的兩個 **[!UICONTROL Conversion variables]**。
+
+   >[!NOTE]
+   >
+   >促銷活動ID和Broadload ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
