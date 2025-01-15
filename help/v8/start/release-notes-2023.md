@@ -5,17 +5,25 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 57%
+source-wordcount: '1496'
+ht-degree: 56%
 
 ---
 
-# 2023年發行說明 {#2023-rn}
+# 2023 年發行說明 {#2023-rn}
 
 此頁面列出&#x200B;**2023 Campaign v8版本**&#x200B;的新功能、改善和修正。
 
+>[!BEGINSHADEBOX]
+
+**在此頁面**
+
+* Campaign v8.5 - [版本8.5.1](#release-8-5-1) | [版本8.5.2](#release-8-5-2)
+* Campaign v8.4 - [版本8.4.3](#release-8-4-3) | [版本8.4.4](#release-8-4-4) | [版本8.4.5](#release-8-4-5)
+
+>[!ENDSHADEBOX]
 
 ## 發行版本 8.5.2 {#release-8-5-2}
 
@@ -32,7 +40,7 @@ _2023年6月30日_
 
 Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術為基礎的強大架構提供支援。 此服務旨在解鎖全新等級的擴充能力，確保您的通知能夠以順暢的效率觸及更廣泛的對象。 透過我們增強的基礎架構和最佳化程式，您可以期待更大規模且更可靠的服務，讓您以前所未有的方式與行動應用程式使用者互動和交流。 此功能僅適用於選取的客戶群組（可用性限制）。
 
-如需詳細資訊，請參閱[詳細文件](../send/push-data-collection.md)以瞭解詳情。
+如需詳細資訊，請參閱[詳細說明文件](../send/push-data-collection.md)。
 
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
@@ -139,7 +147,7 @@ _2023 年 1 月 27 日_
 * 改善網站應用程式的安全性，以防止 DDoS 攻擊。 (NEO-50757) <!--OKKKK-->
 * **[!UICONTROL Consolidated tracking]**(nms:trackingStats) FFDA 表中對合併追蹤資料的管理已得到改善，以避免重複。(NEO-46409)
 * 修正在邏輯運算子條件下使用`enableIf`時工作流程查詢中的邏輯運算問題。已覆寫先前的邏輯條件。 (NEO-45815)  <!--OKKKK-->
-* 帳單工作流程中已最佳化作用中設定檔的產生，以改善效能。(NEO-47658) <!--OKKKK-->
+* 帳單工作流程中已最佳化活躍輪廓的產生，以改善效能。(NEO-47658) <!--OKKKK-->
 * 修正當影像節點 (img) 包含具有個人化欄位的 URL 時，HTML 檔案匯入的問題。 (NEO-48396)
 * 修正在&#x200B;**分割**&#x200B;工作流程活動中使用排序參數時 Snowflake (所有部署) 的問題。(NEO-45899) <!--OKKKK-->
 * 修正了當 nmsDeliveryMapping 資料夾上具有讀取存取權限的使用者嘗試執行行銷活動或工作流程時，導致錯誤的問題。 (NEO-48230)

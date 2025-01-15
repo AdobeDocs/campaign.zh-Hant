@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]** (自 Campaign v8.5 起)
-* **[!DNL Databricks]** (自 Campaign v8.7 起)
+* **[!DNL Databricks]**，從Campaign v8.6.4 / v8.7開始
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

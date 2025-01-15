@@ -3,16 +3,28 @@ title: Campaign v8 2022 發行說明
 description: 2022 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 92%
+source-wordcount: '1943'
+ht-degree: 89%
 
 ---
 
 # 2022 發行說明{#2022-rn}
 
 本頁面列出 **2022 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。
+
+>[!BEGINSHADEBOX]
+
+**在此頁面**
+
+* Campaign v8.4 - [版本8.4.1](#release-8-4-1) | [版本8.4.2](#release-8-4-2)
+* Campaign v8.3 - [版本8.3.8](#release-8-3-8) | [版本8.3.9](#release-8-3-9)
+* Campaign v8.2 - [版本8.2.10](#release-8-2-10)
+
+>[!ENDSHADEBOX]
+
+
 
 ## 發行版本 8.4.2 {#release-8-4-2}
 
@@ -40,7 +52,7 @@ _2022 年 9 月 30 日_
 <ul><li>使用 Adobe Campaign Managed Cloud Services 目標連接器將 Experience Platform 區段傳送至 Adobe Campaign 以進行啟用，</li>
 <li>使用 Adobe Campaign Managed Cloud Services 來源連接器將 Adobe Campaign 傳送和追蹤記錄傳送至 Adobe Experience Platform。</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../connect/ac-aep.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../connect/ac-aep.md">詳細說明文件</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -58,7 +70,7 @@ _2022 年 9 月 30 日_
 <ul> 
 <li><p>在X (先前稱為Twitter)上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
-<li><p>收集新聯絡人：Adobe Campaign 可以自動復原設定檔資料，讓您執行目標定位行銷活動並實施跨管道策略。
+<li><p>收集新聯絡人：Adobe Campaign 可以自動復原輪廓資料，讓您執行目標選擇行銷活動並實施跨管道策略。
 </p></li>
 </ul>
 <p>在<a href="../connect/ac-tw.md">詳細檔案</a>中瞭解如何連結Campaign和X。</p>
@@ -103,7 +115,7 @@ _2022 年 9 月 30 日_
 * 修正使用外部傳送模式傳送簡訊訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正了在追蹤記錄中可能產生重複項目的問題。 (NEO-46409)
 * 修正即使在執行期間發生錯誤，仍然阻止 **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) 技術工作流程停止的問題。 (NEO-46280)
-* 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
+* 為了防止向種子地址傳送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
 * 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
 * 修正使用 Campaign 將資料插入 Snowflake 雲端資料庫的問題&#x200B;**查詢**&#x200B;活動與&#x200B;**變更資料來源**&#x200B;活動：資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在 Snowflake 時未正確處理。 (NEO-45549)
 * 修正使用&#x200B;**查詢**&#x200B;活動和篩選表格時的問題。 當欄名稱包含「更新」一詞時，出現編譯錯誤，且識別碼無效，並出現以下訊息：「更新的列數」。 (NEO-46485)
@@ -130,7 +142,7 @@ _2022 年 10 月 7 日_
 * 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。(NEO-48079、NEO-48251)
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
-* 為了防止向種子地址傳送證明時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
+* 為了防止向種子地址傳送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
 * 修正使用外部傳送模式傳送簡訊訊息時，導致個人化問題的問題。 (NEO-46415)
 * 修正嘗試在任何「訊息中心」封存事件中預覽傳遞時，顯示錯誤的問題。 (NEO-43620)
 * 修正工作流程中，使用&#x200B;**資料載入 (檔案)** 活動可能阻止檔案更新的問題。 流程 100% 停止，但從未結束。 (NEO-47269)
@@ -205,7 +217,7 @@ _2022 年 5 月 18 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign 分散式行銷使您能夠在中心實體 (總部、行銷部門、等) 之間實施協作行銷活動 。本地實體 (銷售地點、地區代理等)。 透過共用工作區域 (促銷活動套件)，您可以建立促銷活動範本並將其建議給本地實體。 </p>
+<td> <p>Campaign分散式行銷可讓您在中央實體（總部、行銷部門等）與地方實體（銷售點、地區機構等）之間實施合作行銷活動。 透過共用工作區域 (促銷活動套件)，您可以建立促銷活動範本並將其建議給本地實體。 </p>
 <p>如需詳細資訊，請參閱<a href="../start/campaigns.md#distributed-marketing-add-on">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 

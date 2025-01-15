@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1029'
 ht-degree: 8%
 
 ---
@@ -106,6 +106,10 @@ The web access interface is similar to the console interface. From a browser, yo
 自8.6.1版開始，身為Campaign v8使用者端主控台使用者，您現在可以透過Adobe Experience Cloud中央使用者介面存取網頁環境。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
 
 ![Adobe Campaign Web使用者介面首頁](assets/ac-web-home.png)
+
+>[!AVAILABILITY]
+>Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+>
 
 在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
 
