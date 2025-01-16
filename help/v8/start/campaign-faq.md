@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
@@ -37,6 +37,7 @@ ht-degree: 100%
    [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
    在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+
 1. **Campaign v8 是否可安裝在內部部署或混合環境中？**
 
    Campaign v8 僅適用於 Managed Cloud Services，完全由 Adobe 託管。

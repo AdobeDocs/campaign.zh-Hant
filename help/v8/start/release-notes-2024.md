@@ -3,10 +3,10 @@ title: Campaign v8 （主控台） 2024年發行說明
 description: 2024 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 3bf433f3125183001d9f2a02a6a91011de1aa6ad
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 90%
+source-wordcount: '1217'
+ht-degree: 88%
 
 ---
 
@@ -121,6 +121,10 @@ _2024 年 2 月 14 日_
 
 * 自此版本起，您即可存取可透過中央 Adobe Experience Cloud 環境使用的新的 **Campaign Web 使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。[在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
+  >[!AVAILABILITY]
+  >
+  >Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+  >
 
 * Adobe Campaign v8 現在已與 **Adobe Experience Manager as a Cloud Service** 整合，可透過 Adobe Campaign Web 使用者介面獨家製作。[了解更多](../connect/ac-aem.md)
 

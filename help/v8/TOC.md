@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 100%
       + [傳遞失敗](send/delivery-failures.md)
    + [使用傳遞範本](send/create-templates.md)
    + 交易型訊息{#real-time}
-      + [開始使用異動訊息](send/transactional.md)
+      + [開始使用交易型訊息](send/transactional.md)
       + [建立並發佈範本](send/transactional-template.md)
       + 事件管理 {#event}
          + [收集和處理事件](send/event-processing.md)
@@ -119,6 +119,7 @@ ht-degree: 100%
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
 + 內容管理 {#content}
+   + [建立登陸頁面](dev/landing-pages.md)
    + [設計網頁應用程式和表單](dev/webapps.md)
 + 自動化和工作流程{#automation}
    + [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1055'
 ht-degree: 8%
 
 ---
@@ -25,6 +25,11 @@ ht-degree: 8%
   在[本節](../start/connect.md)中瞭解如何安裝和設定Campaign使用者端主控台。
 
 * **網頁使用者介面** — 作為Campaign v8使用者，自v8.6.1發行版本開始，您現在可以透過中央Adobe Experience Cloud使用者介面存取網頁環境。 接著，您就可以從網頁瀏覽器連線至Adobe Campaign。 此新介面可讓您建立、管理及執行重要的行銷動作。 不過，並非所有Campaign功能都可使用。 [了解更多](#ac-web-ui)。
+
+  >[!AVAILABILITY]
+  >
+  >Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+  >
 
 * **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  在本節](../start/connect.md#web-access)中進一步瞭解Campaign網頁存取[。
 
@@ -108,6 +113,7 @@ The web access interface is similar to the console interface. From a browser, yo
 ![Adobe Campaign Web使用者介面首頁](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
+>
 >Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 >
 
