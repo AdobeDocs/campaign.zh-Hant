@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -121,7 +121,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 現在Campaign中已設定驗證選項，您需要建立自訂JavaScript程式碼，以允許從您的登陸頁面在Campaign和Adobe Experience Platform之間同步資料。
 
-## 在工作流程執行時新增選項 {#javacript}
+## 在工作流程執行時新增選項 {#javascript}
 
 若要讓登入頁面與Adobe Experience Platform之間的資料同步，必須將自訂JavaScript程式碼新增至Adobe Campaign。 請依照下列步驟操作：
 
