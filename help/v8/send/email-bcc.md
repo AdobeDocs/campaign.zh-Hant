@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -22,6 +22,11 @@ ht-degree: 1%
 ## 關於電子郵件密件副本 {#gs-bcc}
 
 您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項可讓您以密件副本（密件副本）專用的電子郵件地址傳送訊息，以便使用外部系統處理和封存訊息。
+
+>[!CAUTION]
+>
+>基於隱私權理由，密件副本電子郵件必須由能夠安全儲存個人識別資訊(PII)的封存系統處理。
+
 Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相對應的.eml檔案可接著傳輸至遠端伺服器，例如SMTP電子郵件伺服器。
 
 封存目的地是您選擇的密件副本電子郵件地址，傳遞收件者將看不到該地址。 定義密件副本電子郵件地址後，您必須在[傳遞範本](create-templates.md)層級啟用專用選項。
@@ -29,11 +34,6 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 >[!NOTE]
 >
 >作為Managed Cloud Service使用者，[連絡Adobe](../start/campaign-faq.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
-
->[!CAUTION]
->
->基於隱私權理由，密件副本電子郵件必須由能夠安全儲存個人識別資訊(PII)的封存系統處理。
-
 
 ## 啟用電子郵件密件副本 {#enable-bcc}
 
