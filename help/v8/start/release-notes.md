@@ -3,9 +3,9 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0c11cdd3c0b623333e6a7cff66c734f18e3d3985
+source-git-commit: 4a4bcb0b540d6e8a426839e77bf81ad30eb93653
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '558'
 ht-degree: 51%
 
 ---
@@ -22,7 +22,7 @@ _2025年1月15日_
 
 * 在[企業(FFDA)部署](../../v8/architecture/enterprise-deployment.md)內容中的傳遞分析期間，已改善行銷活動應用程式穩定性。
 * 此版本隨附改善及增強的FFDA架構機制，包括金鑰管理、測試和資料複製。
-* 已為[企業(FFDA)部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行復寫請求，以復寫傳遞和相關資料。 這些工作流程以`Replicate nms`開始。
+* 已為[企業(FFDA)部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行復寫請求，以復寫傳遞和相關資料。 這些工作流程以`Replicate nms`開始。 [閱讀更多](../architecture/replication.md)
 * 新的&#x200B;**啟用監督員以保持工作流程永久執行**&#x200B;選項現在可在工作流程屬性中使用。 啟用此選項後，工作流程會在發生錯誤時自動重新啟動。 如果工作流程仍然錯誤，預設會每30秒重新啟動一次。 若要調整此間隔，您可以建立新的`XtkWorkflow_WatchdogTimerTimeout`選項，並設定Integer資料型別以指定新的延遲。 此選項只應在技術工作流程中啟用。 [閱讀更多](../../automation/workflow/workflow-properties.md#execution)
 
 ### 安全性改善 {#security-8-6-4}
