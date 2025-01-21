@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 30%
+source-wordcount: '246'
+ht-degree: 29%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 此頁面列出[!DNL Campaign] v8 （主控台）檔案中的所有最新更新。
+
+## 2025 年 1 月 {#january-2025}
+
+已重新整理FFDA部署的資料復寫頁面，並新增詳細資訊。 [閱讀更多](../architecture/replication.md)
 
 ## 2024 年 11 月 {#october-2024}
 
