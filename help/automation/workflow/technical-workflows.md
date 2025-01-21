@@ -5,9 +5,9 @@ description: 進一步瞭解Campaign可用的技術工作流程
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 0a074b2ef84e89e67363b722372718e4c46d65e5
+source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **刪除封鎖的LINE使用者** (deleteBlockedLineUsersV2) | LINE 管道 | 此工作流程確保LINE V2使用者的資料在封鎖LINE正式帳戶180天後會被刪除。 |
 | **刪除隱私權請求資料** (deletePrivacyRequestsData) | 隱私權資料保護規範 | 此工作流程會刪除收件者儲存在Adobe Campaign中的資料。 |
 | **傳遞指標** (deliveryIndicators) | 預設安裝 | 此工作流程會更新傳送的傳送追蹤指標。 預設會每小時觸發此工作流程。 |
+| **立即部署FFDA** (ffdaDeploy) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 執行雲端資料庫的立即部署。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
 | **分散式行銷程式** (centralLocalMgt) | 中央/地方行銷（分散式行銷） | 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。 |
 | **事件清除** (webAnalyticsPurgeWebEvents) | 網站分析聯結器 | 此工作流程可讓您根據生命週期欄位中設定的期間，從資料庫欄位中刪除每個事件。 |
 | **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe Experience Cloud解決方案。 |
@@ -74,6 +75,13 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **正在處理即時事件** (rtEventsProcessing) | 異動訊息執行（訊息中心 — 執行） | 此工作流程可讓您將即時事件放入佇列中，再將其與訊息範本建立關聯。 |
 | **主張同步** (propositionSynch) | 透過執行例項控制優惠方案引擎 | 此工作流程會在行銷執行個體與用於互動的執行執行個體之間同步建議。 |
 | **復原Web事件** (webAnalyticsGetWebEvents) | 網站分析聯結器 | 每小時，此工作流程會下載指定網站之網際網路使用者行為的區段，將其放入Adobe Campaign資料庫並啟動再次行銷工作流程。 |
+| **立即復寫FFDA資料** (ffdaReplicate) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 復寫指定外部帳戶的XS資料。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫nmsDelivery佇列** (ffdaReplicateQueueDelivery) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | `nms:delivery`資料表的佇列。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫nmsDlvExclusion佇列** (ffdaReplicateQueueDlvExclusion) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | `nms:dlvExclusion`資料表的佇列。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫nmsDlvMidRemoteIdRel佇列** (ffdaReplicateQueueDlvMidRemoteIdRel) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | `nms:dlvRemoteIdRel`資料表的佇列。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫nmsTrackingUrl佇列** (ffdaReplicateQueueTrackingUrl)<br/>**以並行方式復寫nmsTrackingUrl佇列** (ffdaReplicateQueueTrackingUrl_2) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | `nms:trackingUrl`資料表的並行佇列，利用兩個工作流程根據不同的優先順序處理請求，以提高效率。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫參考資料表** (ffdaReplicateReferenceTables) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 執行需要存在於Campaign本機資料庫(PostgreSQL)和雲端資料庫([!DNL Snowflake])上的內建資料表的自動復寫。 排程為每小時、每天執行。 如果存在&#x200B;**lastModified**&#x200B;欄位，則會遞增進行復寫，否則會復寫整個資料表。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
+| **復寫暫存資料** (ffdaReplicateStagingData) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 復寫單一呼叫的中繼資料。 排程為每小時、每天執行。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
 | **報告彙總** (reportingAggregates) | 傳遞 | 此工作流程會更新報告中使用的彙總。 預設會每天凌晨2:00觸發。 |
 | **傳送指標和行銷活動屬性** (webAnalyticsSendMetrics) | 網站分析聯結器 | 此工作流程可讓您透過Adobe® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至Adobe Experience Cloud套裝。 相關指標如下：已傳送(iSent)、開啟總數(iTotalRecipientOpen)、點按的收件者總數(iTotalRecipientClick)、錯誤(iError)、選擇退出（選擇退出） (iOptOut)。 |
 | **Stock：訂單與警示** (stockMgt) | 預設安裝 | 此工作流程會啟動訂單明細行的庫存計算，並管理警告警示臨界值。 |
