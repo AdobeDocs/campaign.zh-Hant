@@ -6,7 +6,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 12%
@@ -30,7 +30,7 @@ ht-degree: 12%
 
 瞭解如何在[此頁面](../audiences/folders-and-views.md)中管理資料夾和檢視
 
-## 管理和自訂清單{#customize-lists}
+## 管理和自訂清單 {#customize-lists}
 
 在Campaign使用者端主控台中，資料會顯示在清單中。 您可以根據自己的需求調整這些清單。 例如，您可以新增欄、篩選資料、計算記錄、儲存和共用您的設定。
 

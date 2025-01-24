@@ -4,16 +4,19 @@ description: 開始使用登陸頁面
 feature: Landing Pages
 role: User, Developer
 level: Beginner
-source-git-commit: 45999f56c2d9e4417c6a54987d8395b69cdd2b2f
+exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 24%
 
 ---
 
 # 建立和管理登陸頁面 {#ac-gs-lp}
 
-[Adobe Campaign v8網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)提供重新想像的使用者登陸頁面體驗。 Campaign可讓您建立、設計和共用登入頁面。 登入頁面可讓您將使用者導向至線上表單，以便他們更新資料、選擇加入/退出接收您的通訊，或訂閱電子報等特定服務。 身為Campaign v8使用者，您可以存取此新使用者介面來執行工作，並簡化您使用Adobe Campaign的體驗。 進一步瞭解
+登陸頁面可讓您引導使用者至線上表單，他們可在此更新資料、針對接收您的通訊選擇加入/退出，或訂閱電子報等特定服務。
+
+若要建立登入頁面，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)。 Adobe Campaign重新構想了登陸頁面的使用者體驗，僅適用於Web使用者介面。
 
 
 >[!AVAILABILITY]
