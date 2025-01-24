@@ -5,19 +5,18 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 24%
+source-wordcount: '294'
+ht-degree: 7%
 
 ---
 
 # 建立和管理登陸頁面 {#ac-gs-lp}
 
-登陸頁面可讓您引導使用者至線上表單，他們可在此更新資料、針對接收您的通訊選擇加入/退出，或訂閱電子報等特定服務。
+登入頁面是根據特定行銷目標設計的專用網頁。 訪客通常在按一下電子郵件、社群媒體貼文或搜尋引擎結果中的連結後到達登陸頁面。 不同於一般網站頁面，登陸頁面著重於推動單一、定義明確的動作，例如購買、訂閱/取消訂閱服務或下載資源。 透過Adobe Campaign，建立登入頁面，將您的使用者導向至線上表單，以便他們可以在其中更新資料、選擇加入/退出接收您的通訊，或訂閱電子報等特定服務。
 
 若要建立登入頁面，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)。 Adobe Campaign重新構想了登陸頁面的使用者體驗，僅適用於Web使用者介面。
-
 
 >[!AVAILABILITY]
 >
