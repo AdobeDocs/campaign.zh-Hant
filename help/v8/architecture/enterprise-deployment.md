@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1053'
 ht-degree: 50%
 
 ---
@@ -28,7 +28,7 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 
 在 **[!DNL Snowflake]** 中執行雲端儲存空間：新的內建 **外部帳戶** 可確保與雲端資料庫的連線。由 Adobe 設定，且不得修改。 [深入瞭解](../config/external-accounts.md)
 
-任何需要在雲端資料庫中移動或複製的內建方案/表格都在 **xxl** 命名空間下包含內建方案擴充功能。這些擴充功能包含將內建方案從 [!DNL Campaign] 本機資料庫移至 [!DNL Snowflake] 雲端資料庫，並據以調整其結構所需的任何修改：新的 UUID、更新的連結等。
+任何需要在雲端資料庫中移動或複製的內建結構描述/表格都在 **xxl** 命名空間下包含內建結構描述擴充功能。這些擴充功能包含將內建方案從 [!DNL Campaign] 本機資料庫移至 [!DNL Snowflake] 雲端資料庫，並據以調整其結構所需的任何修改：新的 UUID、更新的連結等。
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ Campaign v8企業版帶來&#x200B;**完整同盟資料存取** (FFDA)的概念�
 * 儲存所有客戶資料：設定檔、交易、產品、位置等自訂資料。
 * 儲存Campaign產生或收集的所有事件和行為資料，例如傳遞記錄、追蹤記錄、推播註冊等。
 * 儲存上述專案的所有資料彙總。
-* 儲存參考表格（例如傳送、分項清單、國家/地區等）的副本(h+1) 用於工作流程、行銷活動和報表。
+* 儲存用於工作流程、行銷活動和報告的參考表格（例如傳送、分項清單、國家/地區等）的副本(h+1)。
 * 執行所有批次處理和工作負載
 
 
@@ -63,7 +63,7 @@ Campaign v8企業版帶來&#x200B;**完整同盟資料存取** (FFDA)的概念�
 
 * 執行特定工作負載，例如低流量API。
 * 儲存所有Campaign資料，包括傳遞和行銷活動設定、工作流程和服務定義。
-* 儲存所有內建參考表（分項清單、國家/地區等） 已復寫至[!DNL Snowflake]的專案。
+* 儲存所有復寫至[!DNL Snowflake]的內建參考表格（分項清單、國家/地區等）。
 
   不過，您無法：
    * 建立客戶資料的自訂，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
@@ -82,9 +82,7 @@ Campaign v8企業版帶來&#x200B;**完整同盟資料存取** (FFDA)的概念�
 
 ### [!DNL Campaign] API暫存機制{#staging-api}
 
-使用[!DNL Campaign]雲端資料庫時，由於效能（延遲和並行），不建議使用Blast單一呼叫。 除非您傳送的傳送量極大，否則必須使用批次作業來保證API的最佳效能，否則Campaign會持續在本機資料庫層級處理API呼叫。
-
-[本頁面詳細說明API暫存機制](staging.md)
+使用[!DNL Campaign]雲端資料庫時，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的流量極低，否則必須使用批次作業來保證最佳的API效能。 為了改善效能，內嵌API會重新導向至本機資料庫。 [進一步瞭解Campaign API準備機制](staging.md)
 
 ### 新 API{#new-apis}
 
@@ -111,7 +109,7 @@ Campaign v8物件現在使用&#x200B;**通用唯一識別碼(UUID)**，允許無
 
 請注意此 ID 是字串且並非循序。主索引鍵不是 Campaign v8 中的數值，且您需要在結構中使用 **autouuid** 和 **autopk** 屬性。
 
-在 Campaign Classic v7 及舊版中，對於方案 (即表格) 中的金鑰其唯一性在資料庫引擎層級處理。 更一般而言，PostgreSQL、Oracle 或 SQL Server 等傳統資料庫引擎包含本機機制，以防止透過主索引鍵和/或唯一索引，根據一列或一組列插入重複行。 在資料庫層級設定正確的索引和主索引鍵時，這些版本不會存在重複的 ID。
+在 Campaign Classic v7 及舊版中，對於結構描述 (即表格) 中的金鑰其唯一性在資料庫引擎層級處理。 更一般而言，PostgreSQL、Oracle 或 SQL Server 等傳統資料庫引擎包含本機機制，以防止透過主索引鍵和/或唯一索引，根據一列或一組列插入重複行。 在資料庫層級設定正確的索引和主索引鍵時，這些版本不會存在重複的 ID。
 
 Adobe Campaign v8 以 Snowflake 作為核心資料庫。 由於它顯著增加了查詢規模，Snowflake 資料庫的分散式架構不提供這樣的機制來管理並強制在表格內要求索引鍵的唯一性。 因此，使用 Adobe Campaign v8 時，將無法防止在表格中擷取重複的索引鍵。 終端使用者現在負責在 Adobe Campaign 資料庫內確保索引鍵的一致性。 [深入瞭解](keys.md)
 
