@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '692'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [版本和升級](start/upgrades.md)
    + [最新版本](start/release-notes.md)
    + 先前版本 {#previous-rn}
+      + [2025](start/release-notes-2025.md)
       + [2024](start/release-notes-2024.md)
       + [2023 年](start/release-notes-2023.md)
       + [2022 年](start/release-notes-2022.md)
@@ -135,13 +136,13 @@ ht-degree: 99%
       + [建立運算子](interaction/interaction-operators.md)
       + [建立環境](interaction/interaction-env.md)
       + [建立預先定義的篩選器](interaction/interaction-predefined-filters.md)
-      + [建立優惠方案空間](interaction/interaction-offer-spaces.md)
-   + [建立優惠方案目錄](interaction/interaction-offer-catalog.md)
-   + [建立優惠優惠方案](interaction/interaction-offer.md)
-   + [傳送優惠方案 (傳出)](interaction/interaction-send-offers.md)
-   + 呈現優惠方案 (傳入){#inbound}
+      + [建立產品建議空間](interaction/interaction-offer-spaces.md)
+   + [建立產品建議目錄](interaction/interaction-offer-catalog.md)
+   + [建立產品建議產品建議](interaction/interaction-offer.md)
+   + [傳送產品建議 (傳出)](interaction/interaction-send-offers.md)
+   + 呈現產品建議 (傳入){#inbound}
       + [內容](interaction/interaction-present-offers.md)
-      + [呼叫網頁中的優惠](interaction/interaction-integration.md)
+      + [呼叫網頁中的產品建議](interaction/interaction-integration.md)
       + [管理匿名互動](interaction/anonymous-interactions.md)
    + [報告和歷史記錄](interaction/interaction-tracking.md)
    + [使用案例](interaction/interaction-use-cases.md)
@@ -212,10 +213,10 @@ ht-degree: 99%
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源{#developer}
    + [Campaign 資料模型](dev/datamodel.md)
-   + 方案和表單{#shemas-forms}
-      + [使用方案](dev/schemas.md)
-      + [建立方案](dev/create-schema.md)
-      + [擴充方案](dev/extend-schema.md)
+   + 結構描述和表單{#shemas-forms}
+      + [使用結構描述](dev/schemas.md)
+      + [建立結構描述](dev/create-schema.md)
+      + [擴充結構描述](dev/extend-schema.md)
       + [篩選結構](dev/filter-schema.md)
       + [方案結構](dev/schema-structure.md)
       + [資料庫對應](dev/database-mapping.md)
