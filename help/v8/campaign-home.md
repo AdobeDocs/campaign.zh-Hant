@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 說明中心
 title: Adobe Campaign v8 產品文件
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 11614d555aa250adfcabce40dedb455328845eaa
+source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 98%
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 最新版本 Adobe Campaign 現已上線。 閱讀發行說明，取得更多詳細資料。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+[![影像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md#release-8-6-4)
 
 
 >[!TAB Campaign Web 新使用者介面]
