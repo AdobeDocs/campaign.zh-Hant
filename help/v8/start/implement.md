@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 1. **定義設定**：授與存取權、共用用戶端控制台、設定頻道 (電子郵件、推播、簡訊)。 [了解更多](#implementation-ac-settings)
 1. **準備環境**：匯入輪廓、建立客群、設計工作流程和行銷活動範本，以及建立類型規則。[了解更多](#implementation-prepare-your-env)
-1. **自訂您的執行個體**：建立新資料欄位，新增表格/方案。[了解更多](#implementation-custom-your-instance)
+1. **自訂您的執行個體**：建立新資料欄位，新增表格/結構描述。[了解更多](#implementation-custom-your-instance)
 1. **自動化您的流程**：設定 Adobe Campaign 自動化功能。 [了解更多](#implementation-automation)
 1. **擴展您的部署**：連結至 Adobe 解決方案、其他產品和系統：連接器、多解決方案設定。[了解更多](#implementation-extend)
 
 >[!CAUTION]
 >
->若使用 **Campaign Managed Cloud Services**，您的環境與初始設定已根據您的授權合約條款由 Adobe 設定。您不得修改已安裝的內建套件、內建方案或報告。
+>若使用 **Campaign Managed Cloud Services**，您的環境與初始設定已根據您的授權合約條款由 Adobe 設定。您不得修改已安裝的內建套件、內建結構描述或報告。
 >
 >如果您需要使用 Campaign 附加元件或尚未佈建的特定功能，您必須聯絡 **Adobe 客戶服務**。
 
@@ -106,13 +106,13 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您可以自訂許多不同的 Campaign 區域和功能。 我們的大部份客戶都會自訂三件事：
 
-1. **表格和方案**
+1. **表格和結構描述**
 
-   Adobe Campaign 提供了通用方案來識別資料，例如：收件者、傳遞記錄、訂閱及更多。
+   Adobe Campaign 提供了通用結構描述來識別資料，例如：收件者、傳遞記錄、訂閱及更多。
 
    請參閱本節以深入了解 [Campaign 內建資料模型](../dev/datamodel.md)。
 
-   您可以擴充現有方案或從頭開始建立新方案。 在[本頁](../dev/customize.md)中瞭解更多。
+   您可以擴充現有結構描述或從頭開始建立新結構描述。 在[本頁](../dev/customize.md)中瞭解更多。
 
 1. **儀表板和清單**
 
