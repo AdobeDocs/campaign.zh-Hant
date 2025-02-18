@@ -5,16 +5,21 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
+source-git-commit: a76d2c30d3e1c723bcd4881f28980d346aade3dc
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 10%
+source-wordcount: '565'
+ht-degree: 9%
 
 ---
 
 # 設計和傳送電子郵件
 
 使用Adobe Campaign建立電子郵件傳遞，以傳送個人化電子郵件給目標群體。 [了解更多](../send/send.md)
+
+>[!NOTE]
+>
+>若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
+
 
 瞭解在[此頁面](../start/create-message.md)中建立和設定傳遞的關鍵步驟。
 
