@@ -3,9 +3,9 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 15faa6850c035d2d26dd43dc221e0128c33999c2
+source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '560'
 ht-degree: 21%
 
 ---
@@ -75,7 +75,6 @@ _2025年1月15日_
 
    * 新的聯結器以ODBC介面為基礎，與我們最新的FDA聯結器一致。 這可確保長期支援。
    * 此外也引進了使用s3貯體的新資料載入機制，大幅改善效能。
-   * 新增Redshift Spectrum支援。
 
   仍可使用舊版聯結器。 如果您想要試用新版應用程式，請洽詢您的Adobe代表。
 
