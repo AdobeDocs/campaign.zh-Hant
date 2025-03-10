@@ -1,14 +1,14 @@
 ---
 title: 整合AEP SDK和Campaign
-description: 瞭解如何將Adobe Experience Platform Mobile SDK與您的應用程式整合
+description: 瞭解如何將Adobe Experience Platform行動SDK與您的應用程式整合
 version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1681'
 ht-degree: 4%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 4%
 >
 >Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並可能影響 Adobe Campaign 實施。Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取行動。 [了解更多](../../technotes/upgrades/push-technote.md)。
 
-開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 Adobe Experience Platform Mobile SDK透過Android和iOS相容的SDK，為您的行動裝置提供使用者端整合API。
+開始使用Adobe Campaign傳送推播通知之前，您需要確保行動應用程式上和Adobe Experience Platform中的標籤已具備設定和整合。 Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。
 
 若要使用Adobe Experience Platform Mobile SDK設定您的應用程式，請遵循下列步驟：
 
 1. 檢查[必要條件](#before-starting)。
 1. 在Adobe Experience Platform資料彙集中設定[行動標籤屬性](#launch-property)。
-1. 取得此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中詳細的Adobe Experience Platform Mobile SDK [。
+1. 在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中取得詳細的[Adobe Experience Platform Mobile SDK。
 1. （選擇性）啟用記錄與生命週期量度，在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}中有詳細的[。
-1. （選用）將[Adobe Experience Platform保證新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}瞭解如何實作Adobe Experience Platform保證擴充功能[。
+1. （選用）將[Adobe Experience Platform Assurance新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}中瞭解如何實作Adobe Experience Platform Assurance擴充功能[。
 1. 在Adobe Campaign中設定您的iOS和Android Mobile Services，如本頁面](#push-service)所述。[
 1. 在您的行動屬性中安裝並設定[Adobe Campaign擴充功能](#configure-extension)。
-1. 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示在您的應用程式中設定Adobe Experience Platform Mobile SDK。
+1. 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示，在您的應用程式中設定Adobe Experience Platform Mobile SDK。
 
 ## 先決條件 {#before-starting}
 
@@ -257,7 +257,7 @@ To get the SDKs needed for push notification to work you will need the following
 
    >[!CAUTION]
    >
-   >**[!UICONTROL Test connection]**&#x200B;按鈕不會檢查MID伺服器是否可存取FCM伺服器。
+   >**[!UICONTROL Test connection]**&#x200B;按鈕不會檢查中間來源(MID)伺服器是否具有FCM伺服器的存取權。
 
 1. （選擇性）如有需要，您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
@@ -281,7 +281,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 開啟您之前建立的標籤屬性。
 1. 從左側導覽列瀏覽至&#x200B;**擴充功能**，然後開啟&#x200B;**目錄**&#x200B;標籤。 使用搜尋欄位來尋找&#x200B;**Adobe Campaign Classic**&#x200B;擴充功能。
-1. 從Campaign Classic卡中，按一下&#x200B;**安裝**&#x200B;按鈕。
+1. 從Campaign Classic卡片，按一下&#x200B;**安裝**&#x200B;按鈕。
 1. 如[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}中所述，輸入設定。
 
-如[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}所詳述，您現在可將Campaign新增至您的應用程式。
+您現在可以將Campaign新增至您的應用程式，如[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}所詳述。

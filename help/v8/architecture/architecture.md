@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 您可以將套件從一個環境匯出和匯入到另一個環境。
 
-在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}中進一步瞭解套件
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}中進一步瞭解套件
 
 ## 部署模型 {#ac-deployment}
 
@@ -34,7 +34,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 ### Campaign FDA 部署 {#ac-deployment-fda}
 
-在其[FDA部署](fda-deployment.md)中，[!DNL Adobe Campaign] v8可連線至[!DNL Snowflake]，以透過同盟資料存取功能存取資料：您可以存取及處理儲存在[!DNL Snowflake]資料庫中的外部資料與資訊，而不需要變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充您的資料模型，並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+在其[FDA部署](fda-deployment.md)中，[!DNL Adobe Campaign] v8可連線至[!DNL Snowflake]，以透過同盟資料存取功能存取資料：您可以存取及處理儲存在[!DNL Snowflake]資料庫中的外部資料與資訊，而不需要變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充資料模型並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
 
 ![](assets/P1-P3-architecture.png){zoomable="yes"}
@@ -57,11 +57,11 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!AVAILABILITY]
 >
->此功能僅適用於擁有多個MID執行個體設定的客戶。
+>此功能僅適用於擁有多個中間來源(MID)執行個體設定的客戶。
 
 根據您的Campaign v8套件，系統會為您布建特定數量的中間來源執行個體，負責執行傳送。
 
-依預設，所有管道的外部帳戶都使用&#x200B;**[!UICONTROL Alternate]**&#x200B;路由模式，這表示一次會以交替方式從每個中間執行個體傳送一個傳遞。
+依預設，所有管道的外部帳戶都使用&#x200B;**[!UICONTROL Alternate]**&#x200B;路由模式，這表示一次會以交替方式從每個中間來源(MID)執行個體傳送一個傳遞。
 
 為了確保速度和規模兩方面皆能有較佳的效能，您可以允許傳遞內容在中間來源執行個體之間自動分割，以更快傳送給收件者。 從行銷執行個體執行傳送時，此操作是透明的：傳送後，所有記錄會合併在一起，然後傳回行銷執行個體成為單一傳送物件。
 
@@ -76,9 +76,9 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!IMPORTANT]
 >
->分割路由模式預設為「分割傳遞 — 電子郵件」帳戶啟用。 對於所有其他管道外部帳戶，請聯絡您的Adobe轉變管理員以啟用此選項。
+>分割路由模式預設為「分割傳遞 — 電子郵件」帳戶啟用。 對於所有其他管道外部帳戶，請聯絡您的Adobe轉換管理員以啟用此選項。
 >
->預設情況下，在多個mid之間分割傳遞的臨界值大小值為100K。 您可以在&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**&#x200B;功能表的「NmsDelivery_MultiMidSplitThreshold」選項中變更此值。
+>根據預設，在多個中間來源(MID)執行個體之間分割傳遞的臨界值是100K。 您可以在&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**&#x200B;功能表的「NmsDelivery_MultiMidSplitThreshold」選項中變更此值。
 
 若要將分割外部帳戶設為傳送傳遞的預設帳戶，您必須變更傳遞範本中的路由提供者。 要執行此操作，請依照下列步驟執行：
 
@@ -123,8 +123,8 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 若要使用這些功能，Adobe Campaign使用者會登入控制執行個體來建立異動訊息範本、使用種子清單產生訊息預覽、顯示報告並監視執行個體。
 
 * 單一執行例項
-與Adobe託管的訊息中心執行例項互動時，外部系統可以先擷取工作階段權杖（預設於24小時後到期），方法是使用提供的帳戶登入及密碼對工作階段登入方法進行API呼叫。
-接著，透過執行例項回應上述呼叫而提供的sessionToken，外部應用程式可進行SOAP api叫用（rtEvents或batchEvents）以傳送通訊，而不需在每個SOAP呼叫中包含帳戶登入和密碼。
+與Adobe代管的訊息中心執行例項互動時，外部系統可使用提供的帳戶登入及密碼，先對工作階段登入方法進行API呼叫，擷取工作階段權杖（預設於24小時後到期）。
+然後，透過執行執行例項回應上述呼叫提供的sessionToken，外部應用程式可進行SOAP api叫用（rtEvents或batchEvents）以傳送通訊，而不需要在每個SOAP呼叫中包含帳戶登入和密碼。
 
 * 多個執行例項
 在負載平衡器後面有多個執行例項的多儲存格執行架構中，外部應用程式叫用的登入方法會通過負載平衡器：因此，無法使用權杖型驗證。 需要以使用者/密碼為基礎的驗證。

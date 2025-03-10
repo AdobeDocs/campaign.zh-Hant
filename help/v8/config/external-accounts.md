@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1049'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 
 >[!CAUTION]
 >
->* 作為Managed Cloud Service使用者，外部帳戶是根據Adobe為您的執行個體設定的，且不得修改。
+>* 作為Managed Cloud Services使用者，外部帳戶已由Adobe針對您的執行個體進行設定，且不得修改。
 >
 >* 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，特定的&#x200B;**[!UICONTROL Full FDA]** (ffda)外部帳戶管理Campaign本機資料庫與雲端資料庫([!DNL Snowflake])之間的連線。
 >
@@ -87,6 +87,8 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 **[!UICONTROL Routing]**&#x200B;外部帳戶可讓您根據安裝的套件，設定Adobe Campaign中可用的每個管道。
 
+在[本節](../architecture/architecture.md#split)中進一步瞭解外部帳戶管理和傳遞執行。
+
 ### 執行執行個體 {#execution-instance}
 
 在交易式訊息環境中，執行例項會連結至控制例項並加以連結。 將異動訊息範本部署至執行例項。 在[此頁面](../architecture/architecture.md#transac-msg-archi)中進一步瞭解Message Center架構。
@@ -97,11 +99,11 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
   與Adobe Campaign v8相容的外部資料庫列在[相容性矩陣](../start/compatibility-matrix.md)中
 
-* **X (先前稱為Twitter)** - **Twitter**&#x200B;型別外部帳戶用於將Campaign連線至您的X帳戶，以代表您張貼訊息。 在[本節](../connect/ac-tw.md)中進一步瞭解X整合。
+* **X （先前稱為Twitter）** - **Twitter**&#x200B;型別外部帳戶可用來將Campaign連線至您的X帳戶，以代表您張貼訊息。 在[本節](../connect/ac-tw.md)中進一步瞭解X整合。
 
 ## Adobe解決方案整合外部帳戶 {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶用於實作AdobeIdentity Management服務(IMS)以連線至Adobe Campaign。 在[本節](../start/connect.md#logon-to-ac)中進一步瞭解AdobeIdentity Management服務(IMS)。
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶用於實作Adobe Identity Management Service (IMS)以連線至Adobe Campaign。 在[本節](../start/connect.md#logon-to-ac)中進一步瞭解Adobe Identity Management服務(IMS)。
 
 * **網站分析** - **[!UICONTROL Web Analytics (Adobe Analytics)]**&#x200B;外部帳戶用於設定從Adobe Analytics到Adobe Campaign的資料傳輸。 在[此頁面](../connect/ac-aa.md)中進一步瞭解Adobe Campaign - Adobe Analytics整合。
 
@@ -112,7 +114,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 * **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部帳戶可讓您將Microsoft Dynamics資料匯入及匯出至Adobe Campaign。 在[此頁面](../connect/ac-ms-dyn.md)中進一步瞭解Adobe Campaign - Microsoft Dynamics CRM整合。
 
-* **Salesforce.com** - **[!UICONTROL Salesforce CRM]**&#x200B;外部帳戶可讓您匯入Salesforce資料並將其匯出至Adobe Campaign。 深入瞭解Adobe Campaign - Salesforce.com CRM整合於[此頁面](../connect/ac-sfdc.md)。
+* **Salesforce.com** - **[!UICONTROL Salesforce CRM]**&#x200B;外部帳戶可讓您將Salesforce資料匯入及匯出至Adobe Campaign。 深入瞭解Adobe Campaign - Salesforce.com CRM整合於[此頁面](../connect/ac-sfdc.md)。
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 

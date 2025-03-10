@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 指派標籤給它以便稍後輕鬆選取，然後輸入種子地址（電子郵件或行動電話，視通訊通道而定）。
 
-1. 輸入外部識別碼：此選擇性欄位可讓您輸入商業金鑰（唯一ID、名稱+電子郵件等） 這是您網站上所有應用程式通用的功能，用來識別您的設定檔。 如果此欄位也出現在Adobe Campaign行銷資料庫中，您可以接著將事件與資料庫中的設定檔進行調解。
+1. 輸入外部識別碼：此選擇性欄位可讓您輸入網站上的所有應用程式通用的商業金鑰（唯一ID、名稱+電子郵件等），用於識別您的設定檔。 如果此欄位也出現在Adobe Campaign行銷資料庫中，您可以接著將事件與資料庫中的設定檔進行調解。
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -130,7 +130,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 傳送證明 {#send-proof}
+### 傳送校樣 {#send-proof}
 
 您可以傳送證明至先前建立的種子地址，以測試訊息傳送。
 
@@ -161,7 +161,7 @@ This information enables you to personalize message content using personalizatio
 
 #### 從[!DNL Campaign Classic] v7轉換 {#transition-from-v7}
 
-如果您[正在從Campaign Classicv7](../start/v7-to-v8.md)進行轉換，所有傳遞都會通過中間來源伺服器。
+如果您[要從Campaign Classic v7](../start/v7-to-v8.md)進行轉換，所有傳遞都會通過中間來源(MID)伺服器。
 
 但是，建立交易式訊息範本時，成功使用範本所需的路由是&#x200B;**內部電子郵件傳遞**。 此路由可防止您傳送校樣。
 
@@ -171,7 +171,7 @@ This information enables you to personalize message content using personalizatio
 
 傳送校樣後，您必須先將路由變更為內部電子郵件傳送，然後再發佈異動訊息範本。
 
-## Publish範本 {#publish-message-template}
+## 發佈範本 {#publish-message-template}
 
 當建立的訊息範本<!-- on the control instance-->完成時，您可以發佈它，這可讓您傳送連結到即時和批次事件的訊息。
 

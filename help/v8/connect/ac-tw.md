@@ -1,20 +1,20 @@
 ---
-title: 合作使用Campaign與X (Twitter)
-description: 瞭解如何將您的Campaign環境與X (先前稱為Twitter)整合
+title: 使用Campaign和X (Twitter)
+description: 瞭解如何將您的Campaign環境與X （先前稱為Twitter）整合
 role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 3%
 
 ---
 
-# 合作使用Campaign與X (Twitter) {#tw-ac-ovv}
+# 使用Campaign和X (Twitter) {#tw-ac-ovv}
 
-**管理社交網路（社交行銷）**&#x200B;模組可讓您透過X (先前稱為Twitter)與客戶互動。 此功能可用於：
+**管理社交網路（社交行銷）**&#x200B;模組可讓您透過X （先前稱為Twitter）與客戶互動。 此功能可用於：
 
 * 張貼訊息並傳送DM — 使用Adobe Campaign社交行銷在X上張貼訊息。您也可以傳送直接訊息給所有追隨者。
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Cloud Service作為Managed Campaign使用者，[連絡Adobe](../start/campaign-faq.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
+>作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
 
 
 若要設定Adobe Campaign將推文張貼至您的X帳戶，請委派這些帳戶的Adobe Campaign寫入許可權。 若要這麼做，您必須：
@@ -56,7 +56,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 
    ![](assets/tw-app-type.png)
 
-1. 回到您的應用程式儀表板，選取您的應用程式並瀏覽至&#x200B;**金鑰和代號**&#x200B;索引標籤。 在&#x200B;**存取Token和密碼**&#x200B;底下，如果未提及&#x200B;**讀取、寫入和直接訊息**&#x200B;許可權，您必須重新產生應用程式的權杖和密碼。 請注意，所有金鑰和權杖在建立後即必須儲存。 您需要他們來設定您的CampaignTwitter服務。
+1. 回到您的應用程式儀表板，選取您的應用程式並瀏覽至&#x200B;**金鑰和代號**&#x200B;索引標籤。 在&#x200B;**存取Token和密碼**&#x200B;底下，如果未提及&#x200B;**讀取、寫入和直接訊息**&#x200B;許可權，您必須重新產生應用程式的權杖和密碼。 請注意，所有金鑰和權杖在建立後即必須儲存。 您需要他們來設定您的Campaign Twitter服務。
 
    ![](assets/tw-permissions-check.png)
 
@@ -74,7 +74,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 >
 >為每個X帳戶建立一個&#x200B;**Twitter**&#x200B;服務。 因此，您必須建立另一個測試服務，以將校樣傳送至您的[測試帳戶](#tw-test-account)。
 >
->每個&#x200B;**Twitter**&#x200B;服務也必須在您的MID執行個體上由Adobe建立。 請聯絡您的Adobe代表來設定您的環境。
+>每個&#x200B;**Twitter**&#x200B;服務也必須由Adobe在中間來源(MID)執行個體上建立。 請聯絡您的Adobe代表來設定您的環境。
 >
 
 若要輸入設定，您必須同時存取Adobe Campaign使用者端主控台和X應用程式許可權。
@@ -97,7 +97,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
    >
    >**[!UICONTROL Synchronize subscriptions]**&#x200B;選項預設為啟用：此選項會自動復原您的X關注者清單，因此您可以[傳送直接訊息給他們](../send/twitter.md#direct-tw-messages)。 同步處理是由[專屬的技術工作流程](#synchro-tw-accounts)執行。
 
-1. 從您的X應用程式中，複製&#x200B;**API金鑰**&#x200B;和&#x200B;**[API金鑰機密]**&#x200B;欄位的內容，並將其貼到促銷活動&#x200B;**Twitter**&#x200B;服務的&#x200B;**[!UICONTROL Consumer key]**&#x200B;和&#x200B;**[!UICONTROL Consumer secret]**&#x200B;欄位中。
+1. 從您的X應用程式中，複製&#x200B;**API金鑰**&#x200B;和&#x200B;**[API金鑰機密]**&#x200B;欄位的內容，並將其貼到您的行銷活動&#x200B;**Twitter**&#x200B;服務的&#x200B;**[!UICONTROL Consumer key]**&#x200B;和&#x200B;**[!UICONTROL Consumer secret]**&#x200B;欄位中。
 
 1. 從您的X應用程式中，複製&#x200B;**存取權杖**&#x200B;和&#x200B;**存取權杖密碼**&#x200B;欄位的內容，並將其貼到您的行銷活動&#x200B;**Twitter**&#x200B;服務的&#x200B;**[!UICONTROL Access token]**&#x200B;和&#x200B;**[!UICONTROL Access token secret]**&#x200B;欄位中。
 
@@ -106,7 +106,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該顯示您的Twitter帳戶。
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
   ![](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}
@@ -127,7 +127,7 @@ Campaign與X之間的同步作業是透過專屬的技術工作流程來管理�
 
 Adobe Campaign會針對每位追隨者儲存下列資訊：
 
-* **[!UICONTROL Origin]**：Twitter
+* **[!UICONTROL Origin]**： Twitter
 * **[!UICONTROL External ID]**：使用者識別碼
 * **[!UICONTROL Username]**：使用者的帳戶名稱
 * **[!UICONTROL Full name]**：使用者的名稱
@@ -142,7 +142,7 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 
 1. 建立新的X帳戶。
 1. 存取帳戶&#x200B;**設定**。
-1. 瀏覽至&#x200B;**隱私權與安全**&#x200B;和&#x200B;**對象與標籤**，並檢查&#x200B;**Protect您的貼文**&#x200B;選項。 您的貼文和其他帳戶資訊只會顯示給關注您的人。
+1. 瀏覽至&#x200B;**隱私權與安全**&#x200B;和&#x200B;**對象與標籤**，並勾選&#x200B;**保護您的貼文**&#x200B;選項。 您的貼文和其他帳戶資訊只會顯示給關注您的人。
 
 ![](assets/do-not-localize/social_tw_test_page.png)
 
