@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 這些許可權是透過結合操作員群組許可權、已命名的許可權和檔案夾許可權來定義。
 
-在Adobe Campaign中，使用者是&#x200B;**操作員**，而&#x200B;**操作員群組**&#x200B;代表使用者角色。 運運算元是有許可權登入及執行動作的Adobe Campaign使用者。 會在Admin Console中建立使用者。 許可權適用於使用者設定檔或使用者群組。 您可授與兩種型別的許可權：
+在Adobe Campaign中，使用者是&#x200B;**操作員**，而&#x200B;**操作員群組**&#x200B;代表使用者角色。 運運算元是有許可權登入及執行動作的Adobe Campaign使用者。 使用者是在Admin Console中建立。 許可權適用於使用者設定檔或使用者群組。 您可授與兩種型別的許可權：
 
 * 您可以定義您賦予許可權的運運算元群組，然後將運運算元與一或多個群組建立關聯。 這可讓您重複使用許可權，並讓運運算元設定檔更加一致。 它還有助於管理和維護使用者設定檔。
 * 您可以直接將已命名的許可權指派給使用者，在某些情況下，這會使透過群組配置的許可權超載。
@@ -44,7 +44,7 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 Adobe Admin Console是管理整個組織中Adobe許可權的中央位置。 僅產品管理員可存取。
 
-使用Admin Console可新增使用者、建立及指派產品設定檔（操作員角色群組）。
+使用Admin Console新增使用者、建立及指派產品設定檔（操作員角色群組）。
 
 瞭解如何在[此頁面](manage-permissions.md#add-users)中新增使用者。
 
