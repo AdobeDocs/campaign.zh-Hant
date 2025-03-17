@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 >[!NOTE]
 >
->作為Managed Cloud Service使用者，[連絡Adobe](../start/campaign-faq.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
+>作為Managed Cloud Services使用者，[聯絡Adobe](../start/campaign-faq.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
 
 ## 啟用電子郵件密件副本 {#enable-bcc}
 
@@ -42,7 +42,7 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 1. 從Campaign檔案總管瀏覽至傳遞範本資料夾。 依預設，傳遞範本會儲存在&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;資料夾中。
 1. 編輯傳遞範本以使用密件副本進行更新。
 1. 按一下 **[!UICONTROL Properties]** 按鈕。
-1. 從&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤，核取&#x200B;**[!UICONTROL Email BCC]**&#x200B;選項。
+1. 從&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤，核取&#x200B;**[!UICONTROL Email BCC with enhanced Momentum]**&#x200B;選項。
 
    ![](assets/email-bcc.png)
 
