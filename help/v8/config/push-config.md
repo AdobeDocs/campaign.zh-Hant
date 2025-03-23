@@ -1,14 +1,13 @@
 ---
 title: 將 Campaign SDK 與您的應用程式整合
 description: 瞭解如何將Campaign Android和iOS SDK與您的應用程式整合
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中列出Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本。
 
-身為Campaign管理員，您可以從[Experience Cloud軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)下載Campaign SDK。 如需詳細資訊，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+身為Campaign管理員，您可以從[Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)下載Campaign SDK。 如需詳細資訊，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 
 >[!NOTE]
@@ -31,7 +30,7 @@ ht-degree: 1%
 
 ## 宣告整合設定 {#declaring-integration-settings}
 
-若要將Campaign SDK整合至行動應用程式，功能管理員必須向開發人員提供下列資訊：
+若要將Campaign SDK整合至行動應用程式，功能管理員必須提供下列資訊給開發人員：
 
 * **整合索引鍵**：啟用Adobe Campaign平台以識別行動應用程式。
 
@@ -61,7 +60,7 @@ ht-degree: 1%
 
 ## 整合Android SDK
 
-Android SDK是以JAVA撰寫的jar程式庫。 它可讓Android開發人員與Adobe Campaign整合：註冊新裝置、將裝置與使用者連結、追蹤行為等。
+Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與Adobe Campaign整合：註冊新裝置、將裝置與使用者連結、追蹤行為等。
 
 在本節中，瞭解如何在實作[Android Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/)的Android應用程式中使用Google SDK。
 
@@ -87,7 +86,7 @@ Android SDK是以JAVA撰寫的jar程式庫。 它可讓Android開發人員與Ado
 
 1. **初始化SDK**
 
-   在使用Android SDK之前，您必須先初始化它。 SDK初始化可在活動的`onCreate`函式中完成。
+   在使用Android SDK之前，您必須先初始化它。 可在活動的`onCreate`函式中完成SDK初始化。
 
    ```sql
    /** Called when the activity is first created. */
@@ -499,7 +498,7 @@ Android SDK是以JAVA撰寫的jar程式庫。 它可讓Android開發人員與Ado
    對於通知訊息，追蹤接收必須在兩個層級設定：
 
    * `onMessageReceived` （不在背景中的應用程式）：實作已在上一節中完成
-   * `onCreate`啟動活動（若使用`click_action`函式，則為目標活動）。 （應用程式不在背景中）。
+   * 啟動活動的`onCreate` （若使用`click_action`函式，則為目標活動。） （應用程式不在背景中）。
 
    它必須與開啟/點選追蹤同時完成。
 
@@ -843,7 +842,7 @@ Android SDK是以JAVA撰寫的jar程式庫。 它可讓Android開發人員與Ado
 
 >[!CAUTION]
 >
->Adobe建議選擇短變數名稱，因為通知大小在iOS和Android限製為4kB。
+>Adobe建議您選擇短的變數名稱，因為通知大小在iOS和Android的上限為4kB。
 
 ## 通知服務延伸模組 {#notification-service-extension}
 

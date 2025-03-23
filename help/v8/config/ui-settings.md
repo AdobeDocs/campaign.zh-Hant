@@ -1,15 +1,14 @@
 ---
 title: Campaign介面設定
 description: 瞭解如何自訂Campaign介面設定
-version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -162,7 +161,7 @@ ht-degree: 12%
 
 ## 使用分項清單 {#enumerations}
 
-分項清單（也稱為「分項清單」）是系統建議用來填入欄位的值清單。 使用列舉來標準化這些欄位的值，有助於資料輸入或在查詢中使用。
+分項清單（也稱為「分項清單」）是系統建議用來填入欄位的值清單。 使用列舉來標準化這些欄位的值，以協助資料輸入或在查詢中使用。
 
 值清單會以下拉式清單的形式顯示，您可以從中選取要在欄位中輸入的值。 下拉式清單也會啟用預測性輸入：輸入第一個字母，應用程式會填入其餘字母。
 
