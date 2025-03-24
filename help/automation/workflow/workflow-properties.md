@@ -4,7 +4,7 @@ title: 工作流程屬性
 description: 進一步瞭解Campaign工作流程屬性
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
+source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 34%
@@ -55,7 +55,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 
-  此選項會強制工作流程在錯誤發生時自動重新啟動。 啟用後，重新啟動將每隔30秒檢查工作流程的狀態，並在需要時重新啟動。 若要調整30秒間隔，您可以建立`XtkWorkflow_WatchdogTimerTimeout`技術選項，並使用整數資料型別來指定所要的延遲。
+  此選項會強制工作流程在錯誤發生時自動重新啟動。 啟用後，重新啟動將每隔30秒檢查工作流程的狀態，並在需要時重新啟動。 若要調整30秒間隔，您可以建立`XtkWorkflow_WatchdogRestartTimerTimeout`技術選項，並使用整數資料型別來指定所要的延遲。
 
   >[!NOTE]
   >
