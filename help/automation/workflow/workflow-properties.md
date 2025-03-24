@@ -4,7 +4,7 @@ title: 工作流程屬性
 description: 進一步瞭解Campaign工作流程屬性
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 13723ebda8daf57c6885a05a2d583c0c38c86441
+source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 33%
@@ -63,7 +63,7 @@ ht-degree: 33%
   >
   >* 此選項是針對進階使用者，應該僅針對&#x200B;**技術工作流程**&#x200B;啟用。
   >
-  >* 此選項預設為[企業(FFDA)部署](enterprise-deployment.md)的集中式復寫工作流程可用內容啟用。 [了解更多](../../v8/architecture/replication.md)
+  >* 此選項預設為[企業(FFDA)部署](../../v8/architecture/enterprise-deployment.md)的集中式復寫工作流程可用內容啟用。 [了解更多](../../v8/architecture/replication.md)
 
 ### 錯誤管理 {#error-management}
 
