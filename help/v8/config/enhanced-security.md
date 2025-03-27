@@ -5,9 +5,9 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 2%
 
 本頁面列出與增強式安全性功能相關的一些護欄和限制。 此外，您必須確定所有Secure CMK整合/Secure VPN通道使用案例都運作正常。
 
-實作這些功能後，Adobe會監視：
+這些功能實作後，Adobe會監視：
 
 * 您的執行個體可用性，如果金鑰無法使用，則繼續發出警報。
 
 * VPN通道，並在出現任何問題時繼續發出警報。
 
-## 安全可靠的客戶管理金鑰整合 {#secure-cmk-integration}
+## 安全的客戶自控金鑰整合 {#secure-cmk-integration}
 
 **Secure Customer-Managed Key (CMK)整合**&#x200B;可讓您透過Amazon Web Services (AWS)帳戶，使用您自己的金鑰加密靜態資料。
 
@@ -49,24 +49,24 @@ ht-degree: 2%
 
 1. 使用AWS金鑰管理服務(KMS)產生具有自動循環的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
-1. 將Adobe至您的AWS帳戶套用提供給您的原則，以授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
+1. 將Adobe為您提供的原則套用至您的AWS帳戶，以便授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
 1. 與[!DNL Adobe Campaign]共用您的[Amazon資源名稱（索引鍵ARN）](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}。 若要這麼做，請聯絡您的Adobe代表。<!--or Adobe transition manager?-->
 
-1. 建立並測試Amazon EventBridge規則，以啟用依Adobe監視金鑰&#x200B;。 [了解更多](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
+1. 建立並測試Amazon EventBridge規則，以啟用Adobe監控金鑰&#x200B;。 [了解更多](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
 
 ### 護欄和限制 {#cmk-callouts}
 
 下列護欄和限制適用於與Adobe Campaign v8的CMK整合：
 
-* Adobe未提供[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
+* Adobe不提供[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
 
 * 僅支援[AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
 
 * 首次設定期間預計會發生停機時間。&#x200B;URL停機時間長度取決於資料庫的大小。
 
-* 身為客戶，您擁有並維護金鑰。 萬一您的金鑰發生任何變更，您必須聯絡Adobe&#x200B;。
+* 身為客戶，您擁有並維護金鑰。 如果金鑰發生任何變更，您必須聯絡Adobe&#x200B;。
 
 * 您可以使用[AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"}稽核您的金鑰，並視需要加以撤銷。&#x200B;
 
@@ -129,4 +129,4 @@ ht-degree: 2%
 >
 >* 不支援第三方或外部廠商的VPN連線。
 >
->* 不包括Adobe管理的其他VPN到私有雲端資料庫。
+>* 不包括Adobe管理的其他VPN到私人雲端資料庫。
