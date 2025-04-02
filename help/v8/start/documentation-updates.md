@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 29%
+source-wordcount: '275'
+ht-degree: 27%
 
 ---
 
 # 文件更新 {#latest-updates}
 
 此頁面列出[!DNL Campaign] v8 （主控台）檔案中的所有最新更新。
+
+## 2025 年 4 月 {#april-2025}
+
+新增變更&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動的排程時間後重新啟動工作流程的最佳實務，以確保工作流程根據更新的排程執行。 [閱讀更多](../../automation/workflow/scheduler.md)
 
 ## 2025 年 1 月 {#january-2025}
 

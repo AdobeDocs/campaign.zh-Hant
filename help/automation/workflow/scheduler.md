@@ -5,10 +5,10 @@ description: 深入瞭解排程器工作流程活動
 feature: Workflows
 role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 10%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 10%
 
 ## 最佳實務 {#best-practices}
 
-* 請勿將工作流程排程為每15分鐘執行一次，因為這樣可能會阻礙整體系統效能並在資料庫中建立區塊。
+**在變更排程器時間後重新啟動工作流程** — 變更&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動的排程時間時，請務必重新啟動工作流程。 這可確保工作流程將在更新時執行。 如果不重新啟動，工作流程將繼續根據舊排程執行。
 
-* 請勿在工作流程中的每個分支使用超過一個&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動。 請參閱[使用活動](workflow-best-practices.md#using-activities)。
+**限制排程器頻率** — 避免排程工作流程的執行頻率超過每15分鐘一次。 更頻繁地執行它們可能會降低系統效能並導致資料庫阻塞。
 
-* 使用排程器活動可能會導致同時執行多個工作流程。 例如，您可以讓排程器每小時觸發一次工作流程執行，但有時整個工作流程的執行需要超過一小時。
+**每個分支使用一個排程器** — 工作流程的每個分支應該只能有一個&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動。 如需在工作流程中使用活動的最佳實務的詳細資訊，請參閱[工作流程最佳實務頁面](workflow-best-practices.md#using-activities)。
 
-  如果工作流程已在執行中，您可能會想要略過執行。 有關如何防止同時執行工作流程的詳細資訊，請參閱[此頁面](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions)。
+**防止工作流程並行執行** — 如果工作流程是由排程器觸發，請注意工作流程的多個執行個體可能同時執行。 例如，如果排程器每小時觸發工作流程，但工作流程執行超過一小時，您最終可能會遇到重複執行。為避免這種情況，請考慮設定檢查以防止多個同時執行。 [瞭解如何防止同時執行多個工作流程](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions)。
 
-* 請注意，如果工作流程正在執行長期任務（例如匯入），或wfserver模組已停止一段時間，則可以在數小時後啟動轉變。 在這種情況下，可能需要將排程器啟動的工作執行限制在特定時間範圍內。
+**解決延遲的轉換** — 如果工作流程正在執行長時間執行的工作（如匯入），或如果wfserver模組已暫時停止，排程器所觸發的轉換可能會延遲。 若要緩解此問題，請限制排程器的啟動時間，以確保工作會在定義的時間範圍內執行。
 
 ## 設定排程器活動 {#configuring-scheduler-activity}
 
