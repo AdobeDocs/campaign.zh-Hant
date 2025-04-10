@@ -3,10 +3,10 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
+source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 20%
+source-wordcount: '597'
+ht-degree: 16%
 
 ---
 
@@ -45,29 +45,6 @@ _2025年4月10日_
 此版本已修正下列問題：
 
 NEO-80245， NEO-83559
-
-## 發行版本 8.7.3 {#release-8-7-3}
-
-_2025 年 2 月 14 日_
-
->[!AVAILABILITY]
->
->此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
->
->身為Campaign Standard使用者轉換至Campaign v8，請在[Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/acs-migration){target="_blank"}中進一步瞭解此轉換。
-
-### 新功能 {#features-8-7-3}
-
-* **異動訊息的動態報告** — 您現在可以在動態報告使用者介面中監視異動訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
-
-* **異動訊息REST API** — 事件型異動API現在可用於電子郵件。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
-
-### 修正 {#fixes-8-7-3}
-
-此版本已修正下列問題：
-
-NEO-79373， NEO-81908， NEO-83081。
-
 
 ## 發行版本 8.6.4 {#release-8-6-4}
 
