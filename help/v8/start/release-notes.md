@@ -3,10 +3,10 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 18%
+source-wordcount: '737'
+ht-degree: 20%
 
 ---
 
@@ -18,11 +18,33 @@ ht-degree: 18%
 
 **在此頁面**
 
-* Campaign v8.6 - [版本8.6.4](#release-8-6-4)
-* Campaign v8.7 - [版本8.7.3](#release-8-7-3)
+* [發行版本 8.7.4](#release-8-7-4)
+* [版本8.7.3](#release-8-7-3)
+* [發行版本 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## 發行版本 8.7.4 {#release-8-7-4}
+
+_2025年4月10日_
+
+>[!AVAILABILITY]
+>
+>此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
+>
+>身為Campaign Standard使用者轉換至Campaign v8，請在[Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/acs-migration){target="_blank"}中進一步瞭解此轉換。
+
+### 新功能 {#features-8-7-4}
+
+* **SMS REST API支援** — 異動訊息REST API現在可用於SMS頻道。 當電子郵件和行動電話都出現在有效負載中時，您可以使用「widedChannel」欄位來指定頻道。 如果未提供，則預設會使用電子郵件，除非widedChannel明確要求SMS。
+
+* **多語言傳送** — 從4月發行的Campaign Web使用者介面開始，您將能夠以不同語言傳送多封電子郵件，並存取相關的動態報告。 此功能僅於4月底在Adobe Campaign網頁使用者介面中提供，且需要伺服器更新至Campaign v8.7.4。
+
+### 修正 {#fixes-8-7-4}
+
+此版本已修正下列問題：
+
+NEO-80245， NEO-83559
 
 ## 發行版本 8.7.3 {#release-8-7-3}
 
@@ -32,13 +54,13 @@ _2025 年 2 月 14 日_
 >
 >此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 >
->作為轉換至 Campaign v8 的 Campaign Standard 使用者，請在 [Campaign v8 網頁使用者介面文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/acs-migration){target="_blank"}中進一步了解此轉換。
+>身為Campaign Standard使用者轉換至Campaign v8，請在[Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/acs-migration){target="_blank"}中進一步瞭解此轉換。
 
 ### 新功能 {#features-8-7-3}
 
-* **異動訊息的動態報告** — 您現在可以在動態報告使用者介面中監視異動訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀全文](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **異動訊息的動態報告** — 您現在可以在動態報告使用者介面中監視異動訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-* **異動訊息REST API** — 事件型異動API現在可用於電子郵件。 [閱讀全文](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **異動訊息REST API** — 事件型異動API現在可用於電子郵件。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 
 ### 修正 {#fixes-8-7-3}
 
@@ -60,7 +82,7 @@ _2025年1月15日_
 
 ### 安全性改善 {#security-8-6-4}
 
-透過&#x200B;**[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶與Adobe解決方案和應用程式的連線已更新，以加強安全性。
+透過 **[!UICONTROL Adobe Experience Cloud]** 外部帳戶與 Adobe 解決方案和應用程式的連線已更新，以加強安全性。
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
