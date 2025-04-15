@@ -5,16 +5,21 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 7%
 
 ---
 
 # 建立預先定義的篩選器{#creating-pre-defined-filters}
 
 建立預先定義的篩選器，以定義目標群體的適用性規則，以便在建立優惠方案期間輕鬆重複使用。 它們是每個環境專屬的行為，並將優惠方案引數列入考量。
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI提供使用者易用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存，即可供未來使用。若要深入瞭解預先定義的Web UI篩選器，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}。
+
 
 若要建立預先定義的篩選，請套用下列程式：
 
