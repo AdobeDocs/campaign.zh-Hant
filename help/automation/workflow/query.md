@@ -5,9 +5,9 @@ description: 進一步瞭解查詢工作流程活動
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 71bad190894243f8c4dd82792dcc379faa947e04
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 1%
 
 查詢可讓您根據條件選取目標。 您可以將區段代碼與查詢結果相關聯，並插入其他資料。
 如需查詢範例的詳細資訊，請參閱此[此區段](querying-recipient-table.md)。
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI具有強大的查詢建模器，可簡化篩選資料庫的程式，以根據各種條件選取特定目標，讓您更輕鬆地建立和管理查詢。 若要進一步瞭解Web UI的查詢模型工具，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}。
+
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
