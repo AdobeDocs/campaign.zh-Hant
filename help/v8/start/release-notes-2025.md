@@ -3,16 +3,26 @@ title: Campaign v8 （主控台） 2025年發行說明
 description: 2025 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 67%
+source-wordcount: '428'
+ht-degree: 65%
 
 ---
 
 # 2025 年發行說明 {#2025-rn}
 
 此頁面列出&#x200B;**2025 Campaign v8版本**&#x200B;的新功能、改善和修正。 最新發行版本列於[此頁面](release-notes.md)。
+
+>[!BEGINSHADEBOX]
+
+**在此頁面**
+
+* Campaign v8.7 - [版本8.7.2](#release-8-7-2) | [版本8.7.3](#release-8-7-3)
+
+
+>[!ENDSHADEBOX]
+
 
 ## 發行版本 8.7.3 {#release-8-7-3}
 
