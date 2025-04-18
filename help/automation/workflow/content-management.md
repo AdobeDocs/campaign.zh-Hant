@@ -5,9 +5,9 @@ description: 內容管理
 feature: Workflows, Data Management
 role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 9014c2d235fd3dde4afb961ef970334e4e909778
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 >[!CAUTION]
 >
 >內容管理是選用的Adobe Campaign模組。 請檢查您的授權合約。
+
+>[!NOTE]
+>
+>Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建置多個自訂內容區塊，這歸功於可在一或多個訊息中參考的可重複使用元件，並可讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 活動的屬性分為三個步驟：
 
