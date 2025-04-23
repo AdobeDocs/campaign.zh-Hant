@@ -4,8 +4,9 @@ title: 供應商、庫存和預算
 description: 供應商、庫存和預算
 feature: Budget Management, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 1%
@@ -138,7 +139,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 服務提供者與行銷活動傳遞相關聯。 在傳遞範本中會參考這些對象，以便在透過此範本建立的傳遞中提供其服務。
 
-選取服務時，與傳送型別（直接郵件、電子郵件等）相對應的成本類別 會連同已定義的處理選項自動在中央表格中標示。
+選取服務時，與傳送型別（直接郵件、電子郵件等）相對應的成本類別會與已定義的處理選項一起自動在中央表格中標示。
 
 >[!NOTE]
 >

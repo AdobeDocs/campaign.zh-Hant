@@ -4,8 +4,9 @@ title: 設定及管理核准流程
 description: 瞭解如何管理行銷活動的核准
 feature: Approvals, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '2281'
 ht-degree: 1%
@@ -177,7 +178,7 @@ ht-degree: 1%
 
 1. 負責內容編輯的人員會收到電子郵件，通知他們內容可用。
 
-1. 接著，他們可以登入使用者端主控台、開啟傳遞，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
+1. 接著，他們可以登入使用者端主控台、開啟傳遞內容，並使用簡化的精靈進行編輯，以變更主題、HTML和文字內容，以及傳送校樣。
 
    >[!NOTE]
    >

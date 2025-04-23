@@ -4,8 +4,9 @@ title: 行銷活動範本
 description: 行銷活動範本
 feature: Campaigns, Templates
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 4%
@@ -59,7 +60,7 @@ ht-degree: 4%
 
 ![](assets/campaign-template-select-modules.png)
 
-如果未選取功能，則與流&#39;b5&#39;7b有關的元素（選單、圖示、選項、標籤、子標籤等） 不會顯示在範本的介面或根據此範本的行銷活動中。 行銷活動詳細資訊左側的標籤，以及可用的標籤，與範本中選取的功能一致。 例如，**費用和目標**&#x200B;功能未啟用，根據此範本的行銷活動中不會顯示相對應的&#x200B;**[!UICONTROL Budget]**&#x200B;標籤。
+如果未選取功能，則與流程相關的元素（功能表、圖示、選項、標籤、子標籤等）不會出現在範本的介面或根據此範本的行銷活動中。 行銷活動詳細資訊左側的標籤，以及可用的標籤，與範本中選取的功能一致。 例如，**費用和目標**&#x200B;功能未啟用，根據此範本的行銷活動中不會顯示相對應的&#x200B;**[!UICONTROL Budget]**&#x200B;標籤。
 
 此外，設定視窗的捷徑會新增至行銷活動控制面板。 啟用功能時，直接連結可讓您從Campaign控制面板存取功能。
 

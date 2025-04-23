@@ -4,8 +4,9 @@ title: 建立行銷活動
 description: 瞭解如何建立和執行行銷活動
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 4%
@@ -32,7 +33,7 @@ ht-degree: 4%
 
 1. 按一下首頁上的&#x200B;**總管**&#x200B;圖示。
 1. 在您要建立計畫的資料夾上按一下滑鼠右鍵。
-1. 選取&#x200B;**新增資料夾> Campaign Management >計畫**。
+1. 選取&#x200B;**新增資料夾>行銷活動管理>計畫**。
 
    ![](assets/create-new-plan-folder.png)
 
@@ -187,7 +188,7 @@ ht-degree: 4%
 | 行銷活動、傳遞、優惠方案等清單。 | 刪除清單專案 |
 | Campaign | 取消行銷活動 |
 | 傳遞 | 核准傳遞內容及目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停並停止傳遞 |
-| 網頁應用程式 | 建立Web應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容儲存為範本<br/>將應用程式Publish |
+| 網頁應用程式 | 建立Web應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容儲存為範本<br/>發佈應用程式 |
 | 優惠 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
 | 任務 | 完成工作<br/>取消工作 |
 | 行銷資源 | 核准資源<br/>鎖定並解除鎖定資源 |

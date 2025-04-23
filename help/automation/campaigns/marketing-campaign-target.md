@@ -4,8 +4,9 @@ title: 行銷活動目標對象
 description: 瞭解如何定義行銷活動的對象
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 1%
@@ -101,7 +102,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 可以按照排程（排程器）或事件（外部訊號、檔案匯入等）將目標設定為自動執行。
 
-與執行目標定位工作流程相關的動作（啟動、停止、暫停等） 是&#x200B;**非同步**&#x200B;處理序：命令已儲存，一旦伺服器可供套用就會生效。
+與執行目標工作流程相關的動作（啟動、停止、暫停等）為&#x200B;**非同步**&#x200B;程式：命令已儲存，一旦伺服器可供套用命令就會生效。
 
 工具列圖示可讓您執行定位工作流程的相關動作。
 
@@ -185,7 +186,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    ![](assets/enable-control-group.png)
 
-1. 選取&#x200B;**[!UICONTROL Enable and edit control group configuration]**&#x200B;選項。
+1. 選取 **[!UICONTROL Enable and edit control group configuration]** 選項。
 1. 按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;設定控制組。
 
    ![](assets/edit-control-group.png)
