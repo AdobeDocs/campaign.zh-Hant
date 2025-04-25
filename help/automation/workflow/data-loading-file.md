@@ -5,9 +5,9 @@ description: 進一步瞭解資料載入（檔案）工作流程活動
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。
+>僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
@@ -93,7 +93,7 @@ ht-degree: 14%
 
 1. 檔案收集器可讓您根據指定的頻率，復原儲存在目錄中的檔案。
 
-   **[!UICONTROL Directory]**&#x200B;索引標籤包含要復原的檔案資訊。 在我們的範例中，將會復原名稱包含&#39;customers&#39;字詞且儲存在伺服器的tmp/Adobe/Data/files目錄中的所有文字格式檔案。
+   **[!UICONTROL Directory]**&#x200B;索引標籤包含要復原的檔案資訊。 在我們的範例中，將會復原名稱包含&#39;customers&#39;一字且儲存在伺服器的tmp/Adobe/Data/files目錄中的所有文字格式檔案。
 
    [檔案收集器](file-collector.md)區段中詳細說明使用&#x200B;**[!UICONTROL File collector]**。
 

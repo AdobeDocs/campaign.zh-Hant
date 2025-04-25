@@ -4,9 +4,9 @@ title: 設定壓力規則
 description: 瞭解如何設定壓力規則
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3126'
 ht-degree: 7%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 7%
 ## 建立壓力規則 {#create-a-pressure-rule}
 
 若要使用Adobe Campaign設定行銷活動之間的仲裁，請先建立行銷活動型別並定義連結型別規則（**壓力**&#x200B;規則）。
+
+>[!NOTE]
+>
+>若要正確套用壓力規則，規則的目標維度必須符合傳遞對應的目標維度。
 
 若要建立與設定 **[!UICONTROL Pressure]** 類型規則，請套用下列步驟：
 
