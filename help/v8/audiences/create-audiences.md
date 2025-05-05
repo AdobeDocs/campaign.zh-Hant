@@ -26,7 +26,7 @@ ht-degree: 13%
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426467?quality=12&captions=chi_hant)
 
 
 ## 建立連絡人清單 {#create-a-list-of-contacts}
