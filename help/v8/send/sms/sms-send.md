@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您的SMS通過驗證後，您現在可以將其傳送給對象。
 
-1. 按一下&#x200B;**[!UICONTROL Send]**按鈕。
+1. 按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
 在開啟的視窗中，選擇適合您的正確動作。
 
    在以下範例中，我們選擇&#x200B;**[!UICONTROL Deliver it as soon as possible]**，**[!UICONTROL Analyze]**&#x200B;按鈕出現。 我們按一下該&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。

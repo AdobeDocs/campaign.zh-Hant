@@ -46,10 +46,10 @@ ht-degree: 1%
 如需與行動服務相關的私密金鑰和憑證的輪換，請參閱以下連結。
 
 * 若為Android，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}。
-瀏覽至**建立Android行動應用程式>設定API版本**&#x200B;區段。
+瀏覽至&#x200B;**建立Android行動應用程式>設定API版本**&#x200B;區段。
 
 * 若為iOS，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}。
-瀏覽至**建立iOS行動應用程式 — >驗證模式**&#x200B;區段。
+瀏覽至&#x200B;**建立iOS行動應用程式 — >驗證模式**&#x200B;區段。
 
 ## GPG 金鑰 {#ac-gpg-credentials}
 

@@ -17,7 +17,7 @@ ht-degree: 1%
 
 在行銷活動中，您可以針對每次傳送定義：
 
-* 目標對象。 您可以傳送訊息給收件者](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立[對象
+* 目標對象。 您可以傳送訊息給收件者[&#128279;](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立對象
 * 控制組。 您可以[新增控制群組](#add-a-control-group)，以監視郵件傳遞後的收件者行為
 * 種子地址 — 在[本節](../../v8/audiences/test-profiles.md)中瞭解更多。—>
 

@@ -29,7 +29,7 @@ ht-degree: 2%
 * 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。 行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 為避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
-* 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案](../../automation/workflow/workflow-best-practices.md#execution-and-performance)中列出的准則[。
+* 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案[&#128279;](../../automation/workflow/workflow-best-practices.md#execution-and-performance)中列出的准則。
 
 * 連線至您的[Campaign控制面板功能](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}，以使用[效能監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}功能來監視您的平台。
 
@@ -115,11 +115,11 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 * 檢查您的個人化設定 — 確認您的訊息內容經過適當設計，以避免任何與個人化相關的錯誤。 Adobe Campaign個人化標籤一律採用下列形式： `<%=table.field%>`。 個人化區塊中引數的使用不正確可能是個問題。 例如，JavaScript中的變數使用方式如下：
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
 
@@ -171,7 +171,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 依預設，分析訊息時，內建&#x200B;**[!UICONTROL Unsubscription link approval]** [型別規則](../../automation/campaign-opt/control-rules.md)會檢查是否包含選擇退出連結，如果缺少該連結，則會產生警告。
 
-瞭解如何在本節](../send/personalization-blocks.md)中插入選擇退出連結[。
+瞭解如何在本節[&#128279;](../send/personalization-blocks.md)中插入選擇退出連結。
 
 +++ **套用此最佳實務**
 
@@ -206,7 +206,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 * 若要保留SMS訊息中的所有字元原樣，例如不要變更正確名稱，請勿啟用音譯。
 
-* 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。 在本節](../send/sms/smpp-external-account.md#smpp-transliteration)瞭解更多[。
+* 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。 在本節[&#128279;](../send/sms/smpp-external-account.md#smpp-transliteration)瞭解更多。
 
 * 您可以套用SMS音譯，包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 身為Campaign管理員，您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP頻道設定索引標籤中對應的方塊，以啟用字母音譯。 [了解更多](../send/sms/smpp-external-account.md#smpp-transliteration)
 
@@ -281,11 +281,11 @@ Adobe建議預覽您的訊息，以檢查其個人化傾向以及收件者看到
 
 在Campaign中，預設的傳遞範本目標為&#x200B;**收件者**。 Adobe Campaign為您的傳送提供其他目標對應，您可以視需求加以變更。 例如，您可以傳送給已透過社交網路收集設定檔的訪客，或訂閱資訊服務的訪客。
 
-這些對應會顯示在此區段](../audiences/target-mappings.md)中的[。
+這些對應會顯示在此區段[&#128279;](../audiences/target-mappings.md)中的。
 
 ### 外部收件者 {#external-recipients}
 
-您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 在本節](create-message.md#select-external-recipients-selecting-external-recipients)瞭解更多[。
+您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 在本節[&#128279;](create-message.md#select-external-recipients-selecting-external-recipients)瞭解更多。
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -319,7 +319,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 訊息就緒後，請確定內容在所有裝置上皆正確顯示，且未包含任何錯誤，例如錯誤的個人化或中斷的連結。 在傳送訊息之前，也請確定引數和設定與傳送一致。
 
-本節](../send/preview-and-proof.md)中顯示了驗證傳遞的步驟[。
+本節[&#128279;](../send/preview-and-proof.md)中顯示了驗證傳遞的步驟。
 
 <!--
 ### Inbox rendering {#inbox-and-email-rendering}
@@ -357,11 +357,11 @@ Learn more [in this section](get-started-a-b-testing.md).-->
 
 #### 進行驗證程式
 
-您可以定義涉及Adobe Campaign運運算元和群組的完整驗證程式，以驗證目標和訊息內容。 這將確保完全監控和控制行銷活動的各種流程：目標定位、內容、預算、摘錄和傳送證明。 根據使用者的許可權，使用者會收到通知、收到校樣並能夠驗證或拒絕訊息。 在本節](../../automation/campaigns/marketing-campaign-approval.md)瞭解更多[。
+您可以定義涉及Adobe Campaign運運算元和群組的完整驗證程式，以驗證目標和訊息內容。 這將確保完全監控和控制行銷活動的各種流程：目標定位、內容、預算、摘錄和傳送證明。 根據使用者的許可權，使用者會收到通知、收到校樣並能夠驗證或拒絕訊息。 在本節[&#128279;](../../automation/campaigns/marketing-campaign-approval.md)瞭解更多。
 
 #### 使用波段
 
-您可以逐步增加使用波段傳送的容量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 在本節](../send/configure-and-send.md#sending-using-multiple-waves)瞭解更多[。
+您可以逐步增加使用波段傳送的容量。 這可避免您的郵件被標示為垃圾郵件，或您想要限制每天的郵件數。 使用波段您可以將傳送劃分為幾個批次，而不是同時傳送大量訊息。 在本節[&#128279;](../send/configure-and-send.md#sending-using-multiple-waves)瞭解更多。
 
 #### 排定訊息的優先順序
 
@@ -398,7 +398,7 @@ You can:
 
 #### 使用型別
 
-您可以使用型別規則，根據特定條件排除部分目標。 這可確保在遵守公司通訊政策的同時，傳送最符合客戶需求及期望的訊息。 例如，您可以從電子報的目標篩選未成年的收件者。 在此範例](../../automation/campaign-opt/filtering-rules.md)中瞭解更多[。
+您可以使用型別規則，根據特定條件排除部分目標。 這可確保在遵守公司通訊政策的同時，傳送最符合客戶需求及期望的訊息。 例如，您可以從電子報的目標篩選未成年的收件者。 在此範例[&#128279;](../../automation/campaign-opt/filtering-rules.md)中瞭解更多。
 
 
 ## 追蹤和監視 {#track-and-monitor}

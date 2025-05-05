@@ -26,10 +26,10 @@ ht-degree: 4%
 
 1. 檢查[必要條件](#before-starting)。
 1. 在Adobe Experience Platform資料彙集中設定[行動標籤屬性](#launch-property)。
-1. 在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中取得詳細的[Adobe Experience Platform Mobile SDK。
-1. （選擇性）啟用記錄與生命週期量度，在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}中有詳細的[。
-1. （選用）將[Adobe Experience Platform Assurance新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}中瞭解如何實作Adobe Experience Platform Assurance擴充功能[。
-1. 在Adobe Campaign中設定您的iOS和Android Mobile Services，如本頁面](#push-service)所述。[
+1. 在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中取得詳細的Adobe Experience Platform Mobile SDK。
+1. （選擇性）啟用記錄與生命週期量度，在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}中有詳細的。
+1. （選用）將[Adobe Experience Platform Assurance新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}中瞭解如何實作Adobe Experience Platform Assurance擴充功能。
+1. 在Adobe Campaign中設定您的iOS和Android Mobile Services，如本頁面[&#128279;](#push-service)所述。
 1. 在您的行動屬性中安裝並設定[Adobe Campaign擴充功能](#configure-extension)。
 1. 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示，在您的應用程式中設定Adobe Experience Platform Mobile SDK。
 

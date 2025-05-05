@@ -17,7 +17,7 @@ ht-degree: 81%
 + 使用工作流程自動化{#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
-      + 工作流程{#wf-type}的型別
+      + 工作流程的型別{#wf-type}
          + [目標工作流程](workflow/targeting-workflows.md)
          + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)

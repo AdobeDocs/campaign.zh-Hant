@@ -17,8 +17,8 @@ ht-degree: 2%
 
 工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;用於處理與工作流程活動共用資料。
 
-根據預設，**[!UICONTROL Working table]**會建立在與您查詢所需資料來源相同的資料庫中。
-例如，當查詢儲存在雲端資料庫上的**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+根據預設，**[!UICONTROL Working table]**&#x200B;會建立在與您查詢所需資料來源相同的資料庫中。
+例如，當查詢儲存在雲端資料庫上的&#x200B;**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
 
 使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動以使用您&#x200B;**[!UICONTROL Working table]**&#x200B;的不同資料來源。
 
