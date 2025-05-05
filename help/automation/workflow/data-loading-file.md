@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

@@ -103,7 +103,7 @@ ht-degree: 13%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   瞭解如何在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}的工作流程中建立查詢。
+   瞭解如何在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}的工作流程中建立查詢。
 
 1. 為此查詢新增標籤並儲存您的變更。
 1. 新增&#x200B;**[!UICONTROL List update]**&#x200B;活動並加以編輯。
@@ -124,7 +124,7 @@ ht-degree: 13%
 
    ![](assets/access-new-list.png)
 
-   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}。
+   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 

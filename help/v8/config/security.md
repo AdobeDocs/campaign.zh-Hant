@@ -52,7 +52,7 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}中進一步瞭解。
+在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}中進一步瞭解。
 
 
 ## 個人化
@@ -147,4 +147,4 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 
 * **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}中進一步瞭解。
+在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}中進一步瞭解。

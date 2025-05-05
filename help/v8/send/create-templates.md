@@ -121,7 +121,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ### 執行範本 {#execute-a-template}
 
-您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)所述。
+您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)所述。
 
 若要手動執行範本，請執行下列步驟：
 
@@ -155,4 +155,4 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。

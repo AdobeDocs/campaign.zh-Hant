@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >本檔案適用於Adobe Campaign v8.7.2和更新版本。
 >
->若為舊版，請閱讀[Campaign Classicv7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol)。
+>若為舊版，請閱讀[Campaign Classicv7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol)。
 
 
 ## 簡訊型別 {#sms-types}

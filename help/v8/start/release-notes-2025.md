@@ -36,9 +36,9 @@ _2025 年 2 月 14 日_
 
 ### 新功能 {#features-8-7-3}
 
-* **異動訊息的動態報告** — 您現在可以在動態報告使用者介面中監視異動訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **異動訊息的動態報告** — 您現在可以在動態報告使用者介面中監視異動訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-* **異動訊息REST API** — 事件型異動API現在可用於電子郵件。 [閱讀更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **異動訊息REST API** — 事件型異動API現在可用於電子郵件。 [閱讀更多](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 
 ### 修正 {#fixes-8-7-3}
 

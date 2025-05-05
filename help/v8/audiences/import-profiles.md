@@ -22,13 +22,13 @@ ht-degree: 15%
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 
-在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}。
+在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=zh-Hant){target="_blank"}。
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}。
+工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=zh-Hant){target="_blank"}。
 
-收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}。
+收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=zh-Hant){target="_blank"}。
 
 ## 一次性匯入{#import-jobs}
 

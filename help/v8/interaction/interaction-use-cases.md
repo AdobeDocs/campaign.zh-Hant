@@ -16,10 +16,10 @@ ht-degree: 4%
 
 透過Campaign Classic v7檔案中提供的這些逐步使用案例，善用Campaign互動功能：
 
-[建立並套用簡報規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
+[建立並套用簡報規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=zh-Hant){target="_blank"}
 
-[傳送電子郵件選件傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[傳送電子郵件選件傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}
 
-[向匿名訪客呈現優惠方案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[向匿名訪客呈現優惠方案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}
 
-[執行優惠方案模擬](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[執行優惠方案模擬](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}

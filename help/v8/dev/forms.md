@@ -87,7 +87,7 @@ ht-degree: 0%
 
 依預設，每個欄位都會顯示在一行上，並依據資料型別佔用所有可用空間。
 
-所有表單屬性都列在[Campaign Classicv7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}中。
+所有表單屬性都列在[Campaign Classicv7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=zh-Hant){target="_blank"}中。
 
 ## 格式 {#formatting}
 

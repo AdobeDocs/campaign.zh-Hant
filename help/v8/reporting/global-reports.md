@@ -49,7 +49,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}來監視每小時傳送的傳遞數目。
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=zh-Hant){target="_blank"}來監視每小時傳送的傳遞數目。
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取許可權的步驟已詳載於[此頁面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}。
 >

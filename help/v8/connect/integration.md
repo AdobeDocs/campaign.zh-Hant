@@ -34,9 +34,9 @@ Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解
 
 您也可以結合跨Experience Cloud解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**，以及資產共用和對象共用功能。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
 
 >[!NOTE]
 >

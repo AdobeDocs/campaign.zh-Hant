@@ -149,7 +149,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
 
 >[!CAUTION]
 >
->您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}。
+>您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#sending-using-multiple-waves){target="_blank"}。
 
 
 ## 存取追蹤資料 {#tw-tracking}

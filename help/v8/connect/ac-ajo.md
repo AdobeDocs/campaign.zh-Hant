@@ -22,7 +22,7 @@ Adobe Campaign與Adobe Journey Optimizer之間的整合可讓您在Adobe Journey
 ![](assets/ajo-integration.png)
 
 
-[在此端對端範例中探索此整合](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}。
+[在此端對端範例中探索此整合](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}。
 
 
-[在Journey Optimizer檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}。
+[在Journey Optimizer檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}。

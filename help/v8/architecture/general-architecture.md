@@ -98,4 +98,4 @@ Adobe Campaign模組分為三種型別：
 
 總儲存容量可在主要資料庫與（選擇性）Snowflake次要資料庫之間分割。 應根據客戶特定的使用案例，在實施或升級時間決定儲存資料的位置。
 
-在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}中瞭解如何監視您的資料庫使用情況。
+在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}中瞭解如何監視您的資料庫使用情況。
