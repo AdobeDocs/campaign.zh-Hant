@@ -3,7 +3,7 @@ title: 開始使用自訂外部管道
 description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂外部通道傳遞
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
