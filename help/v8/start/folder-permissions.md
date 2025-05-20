@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,12 @@ ht-degree: 0%
 * 若要&#x200B;**授權群組或操作員**，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後選取群組或操作員以指派此資料夾的授權。
 * 若要&#x200B;**禁止群組或運運算元**，請按一下&#x200B;**[!UICONTROL Delete]**&#x200B;並選取群組或運運算元以移除此資料夾的授權。
 * 若要&#x200B;**選取指派給群組或運運算元的許可權**，請選取群組或運運算元，選取您要授與的存取許可權，然後取消選取其他許可權。
+
+>[!NOTE]
+>
+>您應該無法建立物件，因為您沒有至少一個具有寫入許可權的資料夾。
+>
+>您不需要是管理員就能建立片段，但您必須擁有至少一個「內容視覺片段」資料夾的寫入許可權。 否則，您將無法建立視覺化片段。
 
 ## 傳播許可權 {#propagate-permissions}
 
