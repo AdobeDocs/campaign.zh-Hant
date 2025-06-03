@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Adobe Campaign內建報告 {#ootb-reports}
 
-此頁面提供Adobe Campaign內建報告的清單、其內容與內容。 Adobe Campaign提供一系列內建報表，可從使用者端主控台或網際網路瀏覽器存取。
+此頁面提供Adobe Campaign內建報告的清單、其內容與內容。 Adobe Campaign提供一系列內建報表，使用者可在使用者端主控台或網際網路瀏覽器中存取。
 
 可用的報表型別如下：
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 首頁上提供主要報表的清單，可讓您快速存取傳遞資料。 您可以視需要變更此清單。 您也可以瞭解如何將自己的報告新增至「**[!UICONTROL Reports]**」索引標籤。
 
-如需這些自訂設定的詳細資訊，請參閱此[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=zh-Hant){target="_blank"}。
+如需這些自訂設定的詳細資訊，請參閱此[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=zh-Hant){target="_blank"}。
 
 
 ## 存取內建報吿 {#access-ootb-reports}
@@ -381,7 +381,7 @@ Web應用程式的報表涉及&#x200B;**nms：WebApp**&#x200B;資料表中的資
   </tr> 
   <tr> 
    <td> 社交潛在客戶贏取的歷史記錄(socialVisitorStatistics)<br /> </td> 
-   <td> X (先前稱為Twitter)和Facebook潛在客戶收購的歷史記錄取決於Social行銷附加元件。<br /> </td> 
+   <td> X （先前稱為Twitter）和Facebook潛在客戶贏取的歷史記錄取決於社交行銷附加元件。<br /> </td> 
    <td> nms：visitor<br /> </td> 
   </tr> 
   <tr> 

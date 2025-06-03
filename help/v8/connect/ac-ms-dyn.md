@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 合作使用Campaign與Microsoft Dynamics 365{#crm-ms-dynamics}
 
-在跨頻道通訊上啟用您的CRM資料：瞭解如何將聯絡人從&#x200B;**Microsoft Dynamics 365**&#x200B;傳遞到Adobe Campaign，並從Adobe Campaign將行銷活動效能資料（傳送、開啟、點按和退回）分享回Microsoft Dynamics 365。
+在跨頻道通訊上啟用您的CRM資料：瞭解如何將聯絡人從&#x200B;**Microsoft Dynamics 365**&#x200B;傳遞到Adobe Campaign，並從Adobe Campaign將行銷活動績效資料（傳送、開啟、點按和退回）分享回Microsoft Dynamics 365。
 
 完成設定後，會透過專用工作流程活動在系統之間執行資料同步。 [了解更多](crm-data-sync.md)。
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >支援的Microsoft Dynamics版本在Campaign [相容性矩陣](../start/compatibility-matrix.md)中詳細說明。
 
-請依照下列步驟設定專用的外部帳戶，將Microsoft Dynamics 365資料匯入及匯出至Adobe Campaign。
+請依照下列步驟，設定專用的外部帳戶，將Microsoft Dynamics 365資料匯入及匯出至Adobe Campaign。
 
 對於每個系統，這些步驟需要由管理員執行。
 
@@ -185,7 +185,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Dynamics 365列舉的Adobe Campaign列舉。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。
 
@@ -193,11 +193,11 @@ Adobe Campaign和Microsoft Dynamics 365現已連線。 您可以設定兩個系�
 
 若要在Adobe Campaign資料和Microsoft CRM之間同步資料，請建立工作流程並使用&#x200B;**[!UICONTROL CRM connector]**&#x200B;活動。
 
-在此頁面[&#128279;](crm-data-sync.md)中進一步瞭解資料同步處理。
+在此頁面](crm-data-sync.md)中進一步瞭解資料同步處理[。
 
 ### 支援的欄位資料型別 {#ms-dyn-supported-types}
 
-對於Microsoft Dynamics 365，支援/不支援的屬性型別列於下方：
+Microsoft Dynamics 365支援/不支援的屬性型別列於下方：
 
 
 | 屬性型別 | 支援 |

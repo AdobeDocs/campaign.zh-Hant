@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
 source-wordcount: '1581'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ _2021 年 10 月 28 日_
 <tbody>
 <tr>
 <td>
-<p>傳入頻道現在可使用 Real-time Interaction Management。 使用 Campaign 傳入互動模組，在客戶造訪您的網站或聯絡您的呼叫中心時，向客戶呈現最佳優惠。 此功能作為 Campaign v8 提供的選項之一，且需要您執行個體的特定設定。 請洽詢您的 Adobe 代表，以存取傳入互動模組。</p>
+<p>傳入頻道現在可使用 Real-time Interaction Management。 使用 Campaign 傳入互動模組，在客戶造訪您的網站或聯絡您的呼叫中心時，向客戶呈現最佳產品建議。 此功能作為 Campaign v8 提供的選項之一，且需要您執行個體的特定設定。 請洽詢您的 Adobe 代表，以存取傳入互動模組。</p>
 <p>如需詳細資訊，請參閱<a href="../interaction/interaction-architecture.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -77,7 +77,7 @@ _2021 年 10 月 28 日_
 
 **其他變更**
 
-* 此 **[!UICONTROL Encrypted identifier]** 欄位已新增至訪客方案 (`nms:visitor`)。 此欄位已經過計算，將用於網路應用程式。
+* 此 **[!UICONTROL Encrypted identifier]** 欄位已新增至訪客結構描述 (`nms:visitor`)。 此欄位已經過計算，將用於網路應用程式。
 * 修正部分中間來源容器 (非所有) 中存在某些 IP 相關性時，導致傳遞分析失敗的問題。 現在，IP 相關性都會儲存在資料庫中，因此任何容器都可以存取其他所有容器中呈現的相關性。 (NEO-37564)
 * 您現在可以匯入包含多個結構和導覽樹節點的套件。
 
@@ -85,12 +85,12 @@ _2021 年 10 月 28 日_
 
 * 移除使用者後，在資料結構中，`<autoStg>`表格定義元素的屬性，或將其值從 `true` 變更為 `false`，將不會刪除相關的中繼表格。此問題已修正。
 * 修正 FFDA 資料來源的 ID 管理以專用表單建立記錄時發生錯誤的問題。
-* 如果優惠是由工作流程中的擴充活動管理，修正了此情況下無法將優惠插入至傳遞的問題。
+* 如果產品建議是由工作流程中的擴充活動管理，修正了此情況下無法將產品建議插入至傳遞的問題。
 * 修正了可能會拖慢套件匯入速度的問題。
 * 修正了無法傳送含種子地址之電子郵件的問題。
-* 修正了無法將建議儲存在優惠提案表格中的問題。
+* 修正了無法將建議儲存在產品建議提案表格中的問題。
 * 修正了導致網路逾時問題錯誤記錄為指令碼中斷問題，而非網路錯誤的問題。 在 JavaScript 活動中包含的 HTTP 要求中，會發生此問題。
-* 修正無法將優惠複製到 Snowflake 上即時優惠環境的問題。
+* 修正無法將產品建議複製到 Snowflake 上即時產品建議環境的問題。
 * 修正了忽略非擴充內建結構之「autoStg」屬性的問題。
 * 修正了使用者無法選取 **[!UICONTROL Country/Region]** 預覽輪廓時的連結的問題。
 * 修正了自訂報告中的日期選擇器導致指令碼錯誤的問題。 (NEO-36345)
@@ -98,7 +98,7 @@ _2021 年 10 月 28 日_
 * 修正了無法成功升級行銷和控制執行個體的問題。
 * 修正了行銷執行個體上，計費工作流程可能當機的問題。
 * 修正了 FFDA Snowflake 現成可用表格中可能重複金鑰的問題。 (NEO-38583)
-* 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時方案遺失的問題。 (NEO-34063)
+* 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時結構描述遺失的問題。 (NEO-34063)
 * 修正了在嘗試提取時間元件時，執行 Amazon Redshift HoursDiff 和 MinutesDiff 函式時傳回錯誤結果的問題。(NEO-31673)
 * 修正了由於 Proxy 組態問題，使用者無法登入主控台的問題。 (NEO-38388)
 * 修正了妨礙&#x200B;**清除資料夾**&#x200B;功能正常運作的問題。 (NEO-37459)
@@ -116,21 +116,21 @@ _2021 年 9 月 7 日_
 **功能改善**
 
 * Flash 的生命週期結束後，已從所有相關的 Campaign 功能和元件中移除，並更換為 HTML5。 **量測**&#x200B;類型圖表已移除。 (NEO-30330) [了解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant)
-* 在 Windows 上安裝客戶端控制台時，安裝程式現在會檢查是否有父代登錄節點，如果沒有，會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
-* 追蹤簽章功能已經過改良，以防止連結至協力廠商工具 (電子郵件用戶端、網際網路瀏覽器等) 的錯誤 處理特殊字元。 URL 參數現在已編碼。
+* 在Windows上安裝使用者端主控台時，安裝程式現在會檢查是否有父代登入節點，如果缺少該節點，則會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
+* 追蹤簽章功能已經過改良，以防止連結至第三方工具 (電子郵件用戶端、網際網路瀏覽器等) 的錯誤 URL 參數現在已編碼。
 
 **其他變更**
 
-* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=zh-Hant#configure-acc-for-microsoft)
+* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正了 IIS 整合問題。 (NEO-31019)
 * 已新增護欄，僅允許[帳單技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=zh-Hant#billing-report)在行銷執行個體上執行。
-* 已在工作流程轉變&#x200B;**檢視群體**&#x200B;視窗的資料和架構標籤中改善資料來源識別。
-* 已將缺少的資料庫索引添加到以下架構中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* 已在工作流程轉變&#x200B;**檢視群體**&#x200B;視窗的資料和結構描述標籤中改善資料來源識別。
+* 已將缺少的資料庫索引添加到以下結構描述中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **修補程式**
 
-* 修正當優惠連結至傳遞時，**熱點擊**&#x200B;報告無法運作的問題。 (NEO-26295)
+* 修正當產品建議連結至傳遞時，**熱點擊**&#x200B;報告無法運作的問題。 (NEO-26295)
 * 修正&#x200B;**子工作流程**&#x200B;活動執行未產生輸出表格時的問題。 (NEO-36242)
 * 修正將&#x200B;**描述性分析**&#x200B;報表匯出為 PDF 時的各種問題。 (NEO-25847)
 * 修正使用外部郵件傳遞時，可能導致傳遞失敗的問題。 (NEO-37435)

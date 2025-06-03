@@ -5,7 +5,7 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 依預設，每個欄位都會顯示在一行上，並依據資料型別佔用所有可用空間。
 
-所有表單屬性都列在[Campaign Classicv7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=zh-Hant){target="_blank"}中。
+所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}中。
 
 ## 格式 {#formatting}
 
-控制項的版面配置看起來類似於HTML表格中使用的版面，可能會將控制項分割成數個欄、交錯元素或指定可用空間的佔用。 不過，請記住，格式僅可讓您以比例將區域分割；您無法指定物件的固定維度。
+控制項的配置看起來像HTML表格中使用的配置，可能會將控制項劃分為數欄、交錯元素或指定可用空間的佔用。 不過，請記住，格式僅可讓您以比例將區域分割；您無法指定物件的固定維度。
 
 若要以兩欄顯示上述範例的控制項：
 
@@ -638,7 +638,7 @@ ht-degree: 0%
 
 ### SOAP方法 {#soap-methods}
 
-SOAP方法執行可從頁面結尾的填入&#x200B;**`<leave>`**&#x200B;標籤啟動。
+可以從頁面結尾的填入&#x200B;**`<leave>`**&#x200B;標籤啟動SOAP方法執行。
 
 **`<soapcall>`**&#x200B;標籤包含方法的呼叫，並具有下列輸入引數：
 

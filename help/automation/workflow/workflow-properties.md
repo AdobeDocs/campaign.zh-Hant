@@ -4,7 +4,7 @@ title: 工作流程屬性
 description: 進一步瞭解Campaign工作流程屬性
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 33%
@@ -86,6 +86,6 @@ ht-degree: 33%
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  **[!UICONTROL Notification to a workflow supervisor]**&#x200B;預設範本包含一個連結，可透過網頁存取Adobe Campaign使用者端主控台，讓收件者可以在登入後處理問題。
+  **[!UICONTROL Notification to a workflow supervisor]**&#x200B;預設範本包含一個連結，可透過網頁存取Adobe Campaign使用者端主控台，這樣收件者就可以在登入後處理問題。
 
   若要建立個人化範本，請移至&#x200B;**[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**。

@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe會自行發佈這份已知問題清單。 這會根據客戶報告的數量、嚴重程度以及因應措施的可用性。 如果您遇到的問題未列出，表示它可能不符合此頁面發佈的條件。
+>Adobe會自行發佈此已知問題清單。 這會根據客戶報告的數量、嚴重程度以及因應措施的可用性。 如果您遇到的問題未列出，表示它可能不符合此頁面發佈的條件。
 
 ## Campaign v8.3.8{#8.3-issues}
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 #### 說明{#issue-2-desc}
 
-當使用Campaign **查詢**&#x200B;和&#x200B;**變更資料Source**&#x200B;活動將資料插入Snowflake雲端資料庫時，當資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake時未正確處理。
+使用Campaign **查詢**&#x200B;和&#x200B;**變更資料Source**&#x200B;活動將資料插入Snowflake雲端資料庫時，資料中出現反斜線字元時，流程會失敗。 來源字串未逸出，且資料在Snowflake上未正確處理。
 
 只有反斜線字元位於字串結尾時，才會發生此問題，例如： `Barker\`。
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 1. 連線至使用者端主控台並建立工作流程。
 1. 新增&#x200B;**查詢**&#x200B;活動並加以設定。
 1. 選取具有上述特性的資料。
-1. 新增&#x200B;**變更資料Source**&#x200B;活動，並將其設定為選取Snowflake雲端資料庫。
+1. 新增&#x200B;**變更資料Source**&#x200B;活動並將其設定為選取Snowflake雲端資料庫。
 1. 執行工作流程並檢查工作流程記錄檔以檢視錯誤。
 
 
@@ -58,7 +58,7 @@ Error:
 
 #### 內部參考{#issue-2-ref}
 
-參考資料： NEO-45549
+參考： NEO-45549
 
 
 ### 資料載入（檔案）活動無法在伺服器上傳檔案 {#issue-3}
@@ -86,11 +86,11 @@ Error:
 
 身為Campaign管理員，您可以在[Adobe軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}中下載Campaign v8.3.1使用者端主控台。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈。
+在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈[。
 
-在本頁[&#128279;](connect.md)瞭解如何升級您的使用者端主控台
+在本頁](connect.md)瞭解如何升級您的使用者端主控台[
 
 #### 內部參考{#issue-3-ref}
 
-參考資料： NEO-47269
+參考： NEO-47269
 

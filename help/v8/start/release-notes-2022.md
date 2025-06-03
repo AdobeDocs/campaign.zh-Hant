@@ -3,7 +3,7 @@ title: Campaign v8 2022 發行說明
 description: 2022 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 89%
@@ -61,14 +61,14 @@ _2022 年 9 月 30 日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>X (先前稱為Twitter)頻道可用性</strong><br /> </th> 
+<th> <strong>X （先前稱為Twitter）頻道可用性</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td> <p><a href="../send/twitter.md">X社交頻道</a>現在可搭配Campaign v8使用。 您可以：</p>
 <ul> 
-<li><p>在X (先前稱為Twitter)上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
+<li><p>在X （先前稱為Twitter）上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
 <li><p>收集新聯絡人：Adobe Campaign 可以自動復原輪廓資料，讓您執行目標選擇行銷活動並實施跨管道策略。
 </p></li>
@@ -94,7 +94,7 @@ _2022 年 9 月 30 日_
 
 **功能改進**
 
-* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，**Microsoft Edge WebView 2** 的安裝現在在任何用戶端主控台安裝都需要執行階段。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，任何使用者端主控台安裝現在都需要安裝&#x200B;**Microsoft Edge WebView 2**&#x200B;執行階段。
 * 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
 * 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 
@@ -124,14 +124,14 @@ _2022 年 9 月 30 日_
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正了當傳送使用日曆和分割模式時，導致建立不必要 DeliveryPart 的問題。 (NEO-48634)
 * 修正使用日曆波段時的效能問題。 (NEO-48451)
-* 修正在自訂架構上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
+* 修正在自訂結構描述上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
 * 修正了在測試工作流程錯誤且保留期已完全通過時，可能導致資料遺失的問題。 (NEO-48975)
 
 ## 發行版本 8.3.9 {#release-8-3-9}
 
 >[!CAUTION]
 >
-> 使用者端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
+> 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#download-ac-console)了解如何升級您的用戶端主控台。
 
 _2022 年 10 月 7 日_
 
@@ -148,7 +148,7 @@ _2022 年 10 月 7 日_
 * 修正工作流程中，使用&#x200B;**資料載入 (檔案)** 活動可能阻止檔案更新的問題。 流程 100% 停止，但從未結束。 (NEO-47269)
 * 修正了當傳送使用日曆和分割模式時，導致建立不必要 DeliveryPart 的問題。 (NEO-48634)
 * 修正使用日曆波段時的效能問題。 (NEO-48451)
-* 修正在自訂架構上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
+* 修正在自訂結構描述上建立新目標對應後，傳送清單畫面中可能顯示錯誤訊息的問題。 (NEO-49237)
 * 修正了在 MTA 流程期間，如果傳送達到精確大小時可能發生的問題。 (NEO-46097)
 * 修正追蹤記錄無法傳回與收件者瀏覽器相關資料的問題。 (NEO-46612)
 * 修正日文環境升級後期間的問題。 (NEO-46640)
@@ -202,7 +202,7 @@ _2022 年 5 月 18 日_
 <tbody>
 <tr>
 <td>
-<p>Campaign 回應管理允許您評估行銷活動的成功和 ROI，或提供跨各種管道的優惠方案：電子郵件、手機、直接郵件等。</p>
+<p>Campaign 回應管理允許您評估行銷活動的成功和 ROI，或提供跨各種管道的產品建議：電子郵件、手機、直接郵件等。</p>
 <p>如需詳細資訊，請參閱<a href="../start/campaigns.md#response-manager-add-on">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
@@ -235,7 +235,7 @@ _2022 年 5 月 18 日_
 
 * Microsoft Exchange Online OAuth 2.0 在 Campaign 中支援 POP3 驗證。 [閱讀全文](../config/external-accounts.md#bounce-mails-external-account)
 * 已套用 Microsoft Dynamics 連接器網頁 API 的重要修正：
-* 已新增名稱為權限的新運算元和群組方案寫入 (operatorWrite)，以允許使用者插入、更新和刪除運算子 (xtk:operator) 和運算子組 (xtk:group) 方案。
+* 已新增名稱為權限的新運算元和群組結構描述寫入 (operatorWrite)，以允許使用者插入、更新和刪除運算子 (xtk:operator) 和運算子組 (xtk:group) 結構描述。
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 現在，可以在單個中間來源設定多個 LINE 主要帳戶。
@@ -246,7 +246,7 @@ _2022 年 5 月 18 日_
 
 * 修復了使用種子和控制組定期傳送時發生的問題。(NEO-41197)
 * 修正 FFDA 上的一個問題，即當個人化區塊包含以下字元之一時，在傳送過程中 (最多256)，屬於同一個 deliveryPart 的電子郵件傳送被封鎖： `' & < > "`。 個人化區塊現在支援這些字元 (例如：firstname=&quot;Brian O&#39;Neil&quot;)。 (NEO-43184)
-* 修復了使用自訂方案作為目標對應時可能導致追蹤工作流程失敗的問題。 現在，我們透過目標對應精靈產生 broadLog 方案時，確保自訂目標方案的外部連結的類型正確。 (NEO-43506)
+* 修復了使用自訂結構描述作為目標對應時可能導致追蹤工作流程失敗的問題。 現在，我們透過目標對應精靈產生 broadLog 結構描述時，確保自訂目標結構描述的外部連結的類型正確。 (NEO-43506)
 * 修復了一個問題，該問題可能導致 FFDA 部署工作流程對於英文以外的語言失敗。 (NEO-44561)
 
 ## 發行版本 8.2.10 {#release-8-2-10}

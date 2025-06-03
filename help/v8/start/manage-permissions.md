@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 在[此頁面](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}中進一步瞭解在Admin Console中建立使用者。
 
-當新使用者[使用其Adobe ID登入Campaign](connect.md)時，他們會被新增到使用者端主控台的Campaign運運算元清單中。 行銷活動運運算元儲存在Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Access management > Operators]**&#x200B;資料夾中。
+當新使用者[使用其Adobe ID登入Campaign](connect.md)時，他們就會新增到使用者端主控台的Campaign運運算元清單中。 行銷活動運運算元儲存在Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Access management > Operators]**&#x200B;資料夾中。
 
 ## 使用產品設定檔{#product-profiles}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 這些產品設定檔與儲存在Campaign檔案總管&#x200B;**[!UICONTROL Administration > Access management > Operator groups]**&#x200B;資料夾中的運運算元群組相符。
 
-在Admin Console中，產品設定檔會使用下列語法：
+在Admin Console中，產品設定檔會使用以下語法：
 
 行銷活動 — `<your instance>` — 操作員群組的內部名稱
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 ### 建立產品設定檔{#create-product-profile}
 
-若要將產品設定檔新增至Adobe，您必須先在Campaign使用者端主控台中建立設定檔，然後將其新增至Admin Console。
+若要將產品設定檔新增至Adobe，您必須先在Campaign使用者端主控台中建立該設定檔，然後將其新增至Admin Console。
 
 例如，若要建立「稽核者」產品設定檔，請遵循下列步驟。
 
@@ -115,7 +115,7 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
 
 1. **[!UICONTROL Campaign managers]** （作業）
 
-   此群組中的操作員可以管理行銷活動：它可讓您存取連結至行銷活動的物件（計畫、方案、工作流程、預算等） 在&#x200B;**[!UICONTROL Campaign]**&#x200B;的架構中(選擇性的Adobe Campaign模組)。
+   此群組中的操作者可以管理行銷活動：這可讓您存取&#x200B;**[!UICONTROL Campaign]** (選用Adobe Campaign模組)架構中連結至行銷活動的物件（計畫、方案、工作流程、預算等）。
 
    此群組包含下列已命名的許可權：
 
@@ -175,7 +175,7 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
 
 您可以使用Admin Console來建立使用者群組，並將使用者指派給他們。
 
-使用者群組是必須獲授一組共用許可權的不同使用者的集合。 瞭解如何在[本節](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}中建立使用者群組。
+使用者群組是必須獲授一組共用許可權的不同使用者的集合。 在[本節](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}中瞭解如何建立使用者群組。
 
 您可以將產品設定檔指派給使用者群組。 因此，該群組中的所有使用者都會獲得相同的產品許可權集。
 
@@ -186,7 +186,7 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 已命名的許可權會將許可權授予：
 
 * 執行作業
-例如，已針對具有&#x200B;**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
+例如，已針對具有**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 存取資料夾
 操作員群組的成員資格可以透過變更資料夾的安全性設定，來授予或限制資料夾的存取權。 [了解更多](folder-permissions.md#restrict-access-to-a-folder)。

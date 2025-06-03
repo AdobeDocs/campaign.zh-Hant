@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 13%
@@ -212,7 +212,7 @@ ht-degree: 13%
 
 1. 儲存您的變更。值取代是由每晚執行的&#x200B;**別名清理**&#x200B;工作流程所執行。 請參閱[執行資料清除](#running-data-cleansing)。
 
-對於以此分項清單為基礎的所有欄位，當使用者在「公司」欄位(在Adobe Campaign使用者端主控台的Web表單中)中輸入值&#x200B;**Adobe**&#x200B;時，它會自動被值&#x200B;**Adobe**&#x200B;取代。
+對於以此分項清單為基礎的所有欄位，當使用者在「公司」欄位中輸入值&#x200B;**Adobe** (在Adobe Campaign使用者端主控台中，以Web形式顯示)時，該值將自動被值&#x200B;**Adobe**&#x200B;取代。
 
 #### 將錯誤值轉換為別名{#convert-to-alias}
 

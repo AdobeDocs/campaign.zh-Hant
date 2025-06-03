@@ -5,9 +5,9 @@ description: 建立本機行銷活動
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 1. 發佈行銷活動套件。
 1. 正在核准訂單。
 
-本機實體的&#x200B;**&#x200B;**
+本機實體的&#x200B;****
 
 1. 訂購行銷活動。
 1. 執行行銷活動。
@@ -46,17 +46,17 @@ ht-degree: 1%
 
 ![](assets/mkt_distr_4.png)
 
-### 介面型別 {#web-interface}
+### 網頁介面 {#web-interface}
 
-在&#x200B;**分散式行銷**&#x200B;標籤中，您可以選擇介面型別，並指定當本機實體下訂單時要輸入的預設值和引數。
+在&#x200B;**分散式行銷**&#x200B;標籤中，您可以選擇Web介面的型別，並指定當本機實體下訂單時要輸入的預設值和引數。
 
-介面對應於由本機實體在訂購行銷活動時填寫的表單。
+Web介面對應於由本機實體在訂購行銷活動時填寫的表單。
 
-選取要套用至從範本建立之行銷活動的介面型別：
+選取要套用至從範本建立之行銷活動的網頁介面型別：
 
 ![](assets/mkt_distr_1.png)
 
-可用的介面型別有四種：
+可用的網頁介面有四種型別：
 
 * **[!UICONTROL By brief]**：本機實體必須提供說明，以說明行銷活動設定。 訂單獲得核准後，中央實體會設定並執行整個行銷活動。
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ### 文件 {#documents}
 
-您可以允許本機實體運運算元連結檔案（文字檔案、試算表、影像、行銷活動說明等） 至本機行銷活動。 **[!UICONTROL Advanced parameters for campaign entry...]**&#x200B;連結可讓您限制檔案數目。 若要這麼做，只要在&#x200B;**[!UICONTROL Number of documents]**&#x200B;欄位中輸入允許的最大數目即可。
+建立訂單時，您可以允許本機實體運運算元將檔案（文字檔、試算表、影像、行銷活動說明等）連結至本機行銷活動。 **[!UICONTROL Advanced parameters for campaign entry...]**&#x200B;連結可讓您限制檔案數目。 若要這麼做，只要在&#x200B;**[!UICONTROL Number of documents]**&#x200B;欄位中輸入允許的最大數目即可。
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

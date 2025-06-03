@@ -5,7 +5,7 @@ description: 瞭解如何管理行銷資源
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
    ![](assets/add-a-mkt-resource.png)
-1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**&#x200B;連結。
+1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**連結。
    ![](assets/mkt-resource-creation.png)
 
 上傳完成後，資源會新增至可用資源清單中。
@@ -113,7 +113,7 @@ ht-degree: 1%
 >
 >除了為每個行銷資源指定的檢閱者之外，具有管理員許可權的操作者和資源管理員也被授權核准行銷資源。
 
-### Publish資源 {#publishing-a-resource}
+### 發佈資源 {#publishing-a-resource}
 
 核准後，必須發佈行銷資源。 發佈程式必須根據公司需求進行特定實施。 這表示資源可發佈至外部網路或任何其他伺服器，特定資訊可傳送至外部服務提供者等。
 

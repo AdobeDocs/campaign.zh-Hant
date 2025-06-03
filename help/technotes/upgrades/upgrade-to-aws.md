@@ -2,7 +2,7 @@
 title: Campaign電子郵件傳送基礎架構升級
 description: Campaign電子郵件傳送基礎架構升級
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 開發和測試環境升級已於&#x200B;**2023年10月**&#x200B;開始。
 
-生產環境升級已於&#x200B;**2024年1月**&#x200B;開始。
+生產環境升級於&#x200B;**2024年1月**&#x200B;日開始。
 
 ## 有何期望？{#impact}
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 * **客戶升級是否需要任何動作？**
 
-  不需要採取任何動作。 Adobe將管理升級流程，該流程會自動執行。
+  不需要採取任何動作。 Adobe將管理升級程式，該程式會自動執行。
 
 * **客戶需要哪些測試？**
 
-  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   沒有。我們無法因應現有排程的任何修改請求，因為這可能會中斷為其他客戶指派的升級事件。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

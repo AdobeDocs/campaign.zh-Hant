@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 雲端資料庫([!DNL Snowflake])已針對處理大型資料批次（例如更新100萬個位址）進行最佳化。 同時，Campaign本機資料庫(PostgreSQL)更適合用於個別或小型磁碟區作業，例如更新單一種子位址。 同步會在背景自動且透明地進行，確保Campaign本機資料庫(PostgreSQL)中的資料在雲端資料庫([!DNL Snowflake])中即時複製，讓兩個資料庫保持同步。 資料同步涉及結構和表格以及資料。
 
-➡️[探索資料復寫在視訊中的運作方式](#video)
+➡️ [探索資料復寫在視訊中的運作方式](#video)
 
 ## 複製模式 {#modes}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這些技術工作流程可從Campaign Explorer的&#x200B;**[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]**&#x200B;節點取得。 **它們不可修改。**
 
-技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}中詳細列出完整的技術工作流程。
+技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}中詳細列出完整的技術工作流程。
 
 確保資料複製的技術工作流程如下：
 
@@ -87,7 +87,7 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
 
 API可將自訂和現成可用的資料從Campaign本機資料庫(PostgreSQL)復寫至雲端資料庫([!DNL Snowflake])。 這些API可讓您略過預先定義的工作流程，並根據特定需求自訂複製，例如複製自訂表格。
 
-例如：
+範例：
 
 ```
 var dataSource = "nms:extAccount:ffda";
@@ -117,4 +117,4 @@ var xml = xtk.builder.CopyXxlData(
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-[此處](https://experienceleague.adobe.com/zh-hant/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。
+[此處](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。

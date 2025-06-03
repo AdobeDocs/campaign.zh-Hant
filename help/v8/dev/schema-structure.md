@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 資料型別是透過&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;元素中的&#x200B;**type**&#x200B;屬性輸入的。
 
-詳細清單可在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中取得。
+詳細清單可在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中取得。
 
 若未填入此屬性，除非元素包含子元素，否則&#x200B;**字串**&#x200B;為預設資料型別。 如果是，則僅用於階層式建構元素（範例中為&#x200B;**`<location>`**&#x200B;元素）。
 
@@ -360,7 +360,7 @@ XPath是一種語法，可讓您在XML檔案的樹狀結構中尋找節點。
 
 已在運算式中新增高層級函式，以豐富此語言的潛力。
 
-您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器，存取可用函式的清單：
+您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器，存取可用函式清單：
 
 ![](assets/schema_function.png)
 

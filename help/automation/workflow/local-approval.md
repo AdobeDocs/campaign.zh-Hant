@@ -5,7 +5,7 @@ description: 本地核准
 feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 3%
@@ -88,7 +88,7 @@ ht-degree: 3%
 
   傳送給管理員群組操作員的電子郵件可讓您核准傳遞目標。 訊息會使用定義的文字，而JavaScript運算式會由計算值取代（在此案例中為「574」）
 
-  若要核准傳送，請按一下相關連結，並登入Adobe Campaign使用者端主控台。
+  若要核准傳遞，請按一下相關連結，並登入Adobe Campaign使用者端主控台。
 
   ![](assets/new-workflow-valid-webaccess.png)
 

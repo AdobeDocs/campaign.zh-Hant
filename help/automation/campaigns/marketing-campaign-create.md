@@ -6,9 +6,9 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -159,14 +159,9 @@ ht-degree: 4%
 當您透過方案的&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤建立行銷活動時，該行銷活動會自動連結到相關方案。 在這種情況下，**[!UICONTROL Program]**&#x200B;欄位是隱藏的。
 
 
-## 使用網頁瀏覽器存取Campaign {#use-the-web-interface}
+## 使用網頁介面 {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->從Campaign v8.6開始，Campaign可在網頁使用者介面中使用。 大部分的行銷動作都可在此新介面中執行。 [了解更多](../../v8/start/campaign-ui.md#discover-the-user-interface)。
-
-您可以透過網際網路瀏覽器存取部分Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 您無法從此Web存取建立元件，但根據存取許可權，您可以檢視和/或處理資料庫中的資料。 通常，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
+您可以透過網際網路瀏覽器存取Adobe Campaign使用者端主控台畫面，以檢視所有行銷活動和傳送，以及資料庫中設定檔的報告和資訊。 此存取權不會啟用記錄建立。 根據操作員的許可權，您可以檢視和/或操作資料庫中的資料。 例如，您可以核准行銷活動內容和目標定位、重新啟動或停止傳送等。
 
 1. 如常透過https://`<your instance>:<port>/view/home`登入。
 1. 使用功能表存取概述。
@@ -189,7 +184,7 @@ ht-degree: 4%
 | Campaign | 取消行銷活動 |
 | 傳遞 | 核准傳遞內容及目標<br/>提交傳遞內容<br/>確認傳遞<br/>暫停並停止傳遞 |
 | 網頁應用程式 | 建立Web應用程式<br/>編輯應用程式內容和屬性<br/>將應用程式內容儲存為範本<br/>發佈應用程式 |
-| 優惠 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
+| 產品建議 | 核准優惠方案內容和資格<br/>停用線上優惠方案 |
 | 任務 | 完成工作<br/>取消工作 |
 | 行銷資源 | 核准資源<br/>鎖定並解除鎖定資源 |
 | 行銷活動套件 | 送出封裝以供核准<br/>核准或拒絕封裝<br/>取消封裝 |
@@ -213,4 +208,4 @@ ht-degree: 4%
 
 本影片說明如何建立行銷計畫、方案和行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426483?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

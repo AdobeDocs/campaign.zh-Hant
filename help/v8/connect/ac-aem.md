@@ -5,25 +5,25 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # 合作使用Campaign與Adobe Experience Manager {#ac-aem}
 
-Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容及表單。 您可以選擇將您的&#x200B;**Adobe Experience Manager**&#x200B;內容匯入Campaign，或連線您的&#x200B;**Adobe Experience Manager as a Cloud Service**&#x200B;帳戶，讓您直接在Web介面中編輯內容。
+Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容及表單。
 
-[探索如何在Campaign網頁介面中編輯您的Adobe Experience Manager作為Cloud Service內容](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=zh-Hant){target="_blank"}。
+[探索如何在Campaign網頁介面中編輯您的Adobe Experience Manager as Cloud Service內容](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}。
 
-[在本檔案中進一步瞭解Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=zh-Hant#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
+[在本檔案中進一步瞭解Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
 
 
 >[!NOTE]
 >
->作為「受管理的Cloud Service」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以整合Adobe Experience Manager與Campaign。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以將Adobe Experience Manager與Campaign整合。
 
 ## 從Adobe Experience Manager匯入內容 {#integrating-with-aem}
 
@@ -31,7 +31,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
 來自Adobe Experience Manager的&#x200B;**：**
 
-1. 導覽至您的[!DNL Adobe Experience Manager]作者執行個體，然後按一下頁面左上角的Adobe體驗。 從功能表選擇&#x200B;**[!UICONTROL Sites]**。
+1. 導覽至您的[!DNL Adobe Experience Manager]作者執行個體，然後按一下頁面左上角的Adobe Experience 。 從功能表選擇&#x200B;**[!UICONTROL Sites]**。
 
    ![](assets/aem_authoring_1.png)
 
@@ -47,7 +47,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_authoring_3.png)
 
-1. 透過新增元件來自訂您的電子郵件內容，例如Adobe Campaign的個人化欄位。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant#editing-email-content){target="_blank"}。
+1. 透過新增元件來自訂您的電子郵件內容，例如Adobe Campaign的個人化欄位。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}。
 
 1. 電子郵件準備就緒後，請瀏覽至&#x200B;**[!UICONTROL Page information]**&#x200B;功能表並按一下&#x200B;**[!UICONTROL Start workflow]**。
 
@@ -85,25 +85,25 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_authoring_11.png)
 
-1. 確保每次對您的AEM傳遞進行修改時，按一下&#x200B;**[!UICONTROL Refresh content]**&#x200B;按鈕。
+1. 請確保在對AEM傳遞進行修改時按一下&#x200B;**[!UICONTROL Refresh content]**&#x200B;按鈕。
 
    ![](assets/aem_authoring_12.png)
 
-1. 若要移除Experience Manager與促銷活動之間的連結，請按一下&#x200B;**[!UICONTROL Desynchronize]**。
+1. 若要移除Experience Manager與Campaign之間的連結，請按一下&#x200B;**[!UICONTROL Desynchronize]**。
 
 您的電子郵件現在已準備好傳送給您的對象。
 
 ## 從Adobe Experience Manager Assets資料庫匯入資產 {#assets-library}
 
-您也可以在Adobe Campaign中編輯電子郵件或登入頁面時，直接從[!DNL Adobe Experience Manager Assets Library]插入資產。 [Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=zh-Hant){target="_blank"}中會詳細說明此功能。
+您也可以在Adobe Campaign中編輯電子郵件或登入頁面時，直接從[!DNL Adobe Experience Manager Assets Library]插入資產。 [Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}中會詳細說明此功能。
 
 來自Adobe Experience Manager的&#x200B;**：**
 
-1. 導覽至您的[!DNL Adobe Experience Manager]作者執行個體，然後按一下頁面左上角的Adobe體驗。 從功能表選擇&#x200B;**[!UICONTROL Assets]** `>` **[!UICONTROL Files]**。
+1. 導覽至您的[!DNL Adobe Experience Manager]作者執行個體，然後按一下頁面左上角的Adobe Experience 。 從功能表選擇&#x200B;**[!UICONTROL Assets]** `>` **[!UICONTROL Files]**。
 
    ![](assets/aem_assets_1.png)
 
-1. 按一下&#x200B;**「建立」**，然後按&#x200B;**「檔案」**，將您的資產匯入至&#x200B;**Adobe Experience Manager Assets資料庫**。 深入瞭解[AdobeExperience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=zh-Hant#uploading-assets){target="_blank"}。
+1. 按一下&#x200B;**「建立」**，然後按&#x200B;**「檔案」**，將您的資產匯入至&#x200B;**Adobe Experience Manager Assets資料庫**。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}中進一步瞭解。
 
    ![](assets/aem_assets_2.png)
 

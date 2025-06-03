@@ -5,9 +5,9 @@ description: 建立及管理任務
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3757'
 ht-degree: 0%
 
 ---
@@ -467,7 +467,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 1. 完成指派給他們的區段後，參與者可以核准任務：
 
    * 透過通知電子郵件。
-   * 透過使用者端主控台或Web存取，在任務控制面板中。
+   * 透過使用者端主控台或Web介面，在任務控制面板中。
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -481,7 +481,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. 一旦負責任務的人確定任務已完成，他們可以使用任務啟動時傳送的通知電子郵件中的連結、使用者端主控台或介面將其關閉。
+1. 一旦負責任務的人確定任務已完成，他們就可以使用任務啟動時傳送的通知電子郵件中的連結、「使用者端主控台」或介面將其關閉。
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -491,7 +491,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 1. 工作狀態變更為&#x200B;**[!UICONTROL To approve]**，並傳送通知給檢閱者。
 
-   他們透過通知電子郵件、使用者端主控台或網頁瀏覽器核准工作。
+   他們透過通知電子郵件、使用者端主控台或網頁介面核准任務。
 
    他們可以透過行銷活動儀表板採取行動：
 

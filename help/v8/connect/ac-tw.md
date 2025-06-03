@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 3%
@@ -38,14 +38,14 @@ ht-degree: 3%
 
 若要開始進行這項整合，您必須註冊[X開發人員帳戶](https://developer.twitter.com){target="_blank"}。
 
-Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面[&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權。
+Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權[。
 
 ## 在X上建立應用程式 {#create-an-app-on-twitter}
 
 核准您的「提升存取權」後，請建立X應用程式，讓Adobe Campaign能在您的X帳戶上建立貼文。 要執行此操作，請遵循下列步驟：
 
 1. 登入您的X帳戶。
-1. 連線至[X開發人員入口網站](https://developer.twitter.com/en/apps){target="_blank"}。
+1. 連線到[X開發人員入口網站](https://developer.twitter.com/en/apps){target="_blank"}。
 1. 選取&#x200B;**建立應用程式**。
 1. 讓X助理引導您完成程式。
 1. 若要允許Adobe Campaign在您的帳戶上建立貼文，請從應用程式的[使用者驗證設定]區段編輯至&#x200B;**應用程式許可權**。 選取&#x200B;**讀取、寫入和直接訊息**。
@@ -106,7 +106,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**&#x200B;標籤：應該會顯示您的Twitter帳戶。
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
   ![](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}
