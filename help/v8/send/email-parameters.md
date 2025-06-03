@@ -4,8 +4,9 @@ description: 瞭解Adobe Campaign中專用於電子郵件傳送的選項和設�
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 10%
@@ -34,7 +35,7 @@ ht-degree: 10%
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-  訊息包含兩種格式：文字和HTML。 接收時顯示的格式取決於收件者郵件軟體的設定（替代的多重部分）。
+  此訊息包含兩種格式：文字和HTML。 接收時顯示的格式取決於收件者郵件軟體的設定（替代的多重部分）。
 
   >[!IMPORTANT]
   >

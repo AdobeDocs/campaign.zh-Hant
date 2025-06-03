@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2976'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 此程式會防止系統繼續傳送無效的電子郵件地址。 跳出是ISP用來判斷IP信譽的關鍵資料之一。 留意此量度非常重要。 「已傳遞」與「已跳出」可能是衡量行銷訊息傳遞方式最常見的方式：傳遞百分比越高越好。
 
-如果無法將訊息發送到設定檔，遠端伺服器會自動向Adobe Campaign 發送錯誤消息。此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 請參閱[退回郵件管理](#bounce-mail-qualification)。
+如果無法將訊息發送到輪廓，遠端伺服器會自動向 Adobe Campaign 發送錯誤消息。此錯誤適用於判斷應隔離電子郵件地址、電話號碼或裝置。 請參閱[退回郵件管理](#bounce-mail-qualification)。
 
 傳送訊息後，您可以在傳送記錄檔中檢視每個設定檔的傳送狀態，以及相關失敗的型別和原因。
 
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 **Ignored**&#x200B;錯誤型別已知為暫時，例如「不在辦公室」，或技術錯誤，例如，如果寄件者型別為「郵遞員」。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -48,13 +48,13 @@ ht-degree: 5%
 
 這些型別的錯誤可管理如下：
 
-* **同步錯誤**：由Adobe Campaign傳遞伺服器連絡的遠端伺服器會立即傳回錯誤訊息。 不允許將傳遞傳送至設定檔的伺服器。 郵件傳輸代理程式(MTA)會判斷退信型別並限定錯誤，然後將該資訊傳回至Campaign，以判斷是否應隔離相關電子郵件地址。 請參閱[退信資格](#bounce-mail-qualification)。
+* **同步錯誤**：由Adobe Campaign傳遞伺服器連絡的遠端伺服器會立即傳回錯誤訊息。 不允許將傳遞傳送至設定檔的伺服器。 郵件傳輸代理程式(MTA)會判斷退信型別並限定錯誤，然後將該資訊傳回至Campaign，以判斷是否應隔離相關電子郵件地址。 請參閱[退回電子郵件鑑定](#bounce-mail-qualification)。
 
 * **非同步錯誤**：接收伺服器稍後會重新傳送退回郵件或SR。 此錯誤以與錯誤相關的標籤限定。 傳送後一週內，可能會發生非同步錯誤。
 
 >[!NOTE]
 >
->作為「受管理的Cloud Service」使用者，Adobe會執行退回信箱的設定。
+>作為「受管理的Cloud Services」使用者，跳出信箱的設定是由Adobe執行。
 
 ## 退回郵件資格 {#bounce-mail-qualification}
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 * **同步錯誤**： MTA會決定退信型別和資格，並將該資訊傳回至Campaign。 **[!UICONTROL Delivery log qualification]**&#x200B;資料表中的退信限定不用於&#x200B;**同步**&#x200B;傳遞失敗錯誤訊息。
 
-* **非同步錯誤**： Campaign用來限定非同步傳送失敗的規則列在&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**&#x200B;節點中。 inMail處理序會透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則來限定非同步退信。 如需詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=zh-Hant#bounce-mail-qualification){target="_blank"}。
+* **非同步錯誤**： Campaign用來限定非同步傳送失敗的規則列在&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**&#x200B;節點中。 inMail處理序會透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則來限定非同步退信。 如需詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}。
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 
 訊息在MTA佇列中停留3.5天且無法傳送後，訊息會逾時，其狀態會從傳送記錄檔中的&#x200B;**[!UICONTROL Sent]**&#x200B;更新為&#x200B;**[!UICONTROL Failed]**。
 
-如需有效期的詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}。
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 電子郵件錯誤型別 {#email-error-types}
@@ -190,13 +190,13 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
    <td> 無效的網域 </td> 
    <td> 柔光 </td> 
    <td> 2 </td> 
-   <td> 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為隔離狀態，不會再重試。<br /> </td> 
+   <td> 電子郵件地址的網域不正確或已不存在。 此輪廓將再次定位，直到錯誤計數達到5。之後，記錄將設定為隔離狀態，不會再重試。<br /> </td> 
   </tr> 
   <tr> 
    <td> 郵箱已滿 </td> 
    <td> 柔光 </td> 
    <td> 5 </td> 
-   <td> 此使用者的信箱已滿，無法接受更多郵件。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。<br />此型別的錯誤是由清理程式管理，地址在30天後會設定為有效狀態。<br />警告：若要從隔離位址清單自動移除位址，必須啟動資料庫清理技術工作流程。<br /> </td> 
+   <td> 此使用者的信箱已滿，無法接受更多郵件。 此輪廓將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。<br />此型別的錯誤是由清理程式管理，地址在30天後會設定為有效狀態。<br />警告：若要從隔離位址清單自動移除位址，必須啟動資料庫清理技術工作流程。<br /> </td> 
   </tr> 
   <tr> 
    <td> 未連線 </td> 
@@ -208,10 +208,10 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
+   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">行銷活動管理</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不符合優惠方案條件 </td> 
+   <td> 不符合產品建議條件 </td> 
    <td> 已忽略 </td> 
    <td> 16 </td> 
    <td> 收件者不符合傳遞中的優惠方案條件。<br /> </td> 
@@ -312,7 +312,7 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
    <td> 否<br /> </td> 
   </tr> 
   <tr> 
-   <td> 憑證問題（密碼、損毀等） 並測試與APNs問題的連線<br /> </td> 
+   <td> 憑證問題（密碼、損毀等）和測試與APNs的連線問題<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 根據錯誤<br />的各種錯誤訊息 </td> 
    <td> 軟式<br /> </td> 
@@ -636,7 +636,7 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
  </tbody> 
 </table>
 
-延伸通用SMPP聯結器的&#x200B;**&#x200B;**
+延伸通用SMPP聯結器的&#x200B;****
 
 使用SMPP通訊協定傳送SMS訊息時，錯誤管理的處理方式不同。
 
@@ -663,8 +663,8 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 錯誤訊息的第三部分（此範例中為&#x200B;**DELIVRD**）對應於使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取的狀態代碼。
 
-  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**&#x200B;索引標籤中。
-依預設，規則運算式會擷取&#x200B;**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**索引標籤中。
+依預設，規則運算式會擷取**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
 
 * 錯誤訊息的第四部分(**000**)對應於使用SMS外部帳戶中定義的錯誤碼擷取規則運算式從SR擷取的錯誤碼。
 

@@ -4,8 +4,9 @@ description: 瞭解如何傳送簡訊傳遞的校樣
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Adobe強烈建議您設定傳遞驗證週期。 將內容傳送給對象之前�
 
    * **[!UICONTROL Definition of a specific proof target]**：可讓您以篩選條件查詢資料庫中作為證明目標的地址
    * **[!UICONTROL Substitution of the address]**：可讓您輸入測試地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉為&#x200B;**[!UICONTROL Substitution address (rcpAddress)]**。
-預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
    * **[!UICONTROL Seed addresses]**：可讓您存取種子地址以作為證明目標。 這些位址可從檔案匯入或手動輸入。
    * **[!UICONTROL Specific target and Seed addresses]**：可讓您合併來自收件者的種子地址和地址。
 
@@ -36,7 +37,7 @@ Adobe強烈建議您設定傳遞驗證週期。 將內容傳送給對象之前�
 
    ![](assets/proof_recipient.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。
+1. 按一下&#x200B;**[!UICONTROL Analyze]**按鈕。
 Adobe Campaign會在驗證證明傳送之前執行所有控制。 分析結束時，**[!UICONTROL Confirm delivery]**&#x200B;按鈕將可供點按。
 
    ![](assets/proof_analyze.png){zoomable="yes"}

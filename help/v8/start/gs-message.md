@@ -4,10 +4,12 @@ description: 開始使用訊息
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+version: Campaign v8, Campaign Classic v7
+exl-id: a523e76d-776c-47d3-9c15-34241cee1092
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -39,7 +41,7 @@ ht-degree: 74%
 
 1. **觸發訊息** — 您可從事件[觸發訊息](../send/transactional.md)。 異動訊息（訊息中心）是專為管理觸發訊息而設計的Campaign模組。 [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
 
-## 通訊通道 {#gs-channel}
+## 通訊管道 {#gs-channel}
 
 Adobe Campaign v8隨附下列傳送管道。 您環境中可用的管道取決於您的合約。 請檢查您的授權合約。
 
@@ -107,5 +109,4 @@ Adobe Campaign 傳送的資訊可以透過多種方式實現個人化。[進一�
 
 傳送傳遞後進行監視是確保行銷活動效率並與客戶溝通的關鍵步驟。 您可以在傳送傳遞後進行監視，並瞭解傳送失敗和隔離的管理方式。
 
-在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target="_blank"}瞭解如何監視傳遞
-
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages){target="_blank"}中瞭解如何監視傳遞

@@ -4,11 +4,12 @@ description: 瞭解如何設定SMS傳送的對象
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: e0603a4d-cde1-4199-a164-bf0c992ba937
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 1%
 
    有其他目標對應可供使用，其中一些可能與您的特定設定相關。 如需目標對應的詳細資訊，請參閱[使用目標對應](../../audiences/target-mappings.md)。
 
-1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以定義限制篩選器。
+1. 按一下 **[!UICONTROL Add]** 按鈕來定義限制篩選器。
 
    然後，您可以選取要套用的篩選型別：
 
@@ -51,7 +52,7 @@ ht-degree: 1%
    * **[!UICONTROL Subscribers of an information service]**：此選項可讓您選取收件者必須訂閱的Newsletter，才能由正在建立的傳遞定位。
    * **[!UICONTROL User filters]**：可讓您使用預先定義的篩選器。
 
-   選項&#x200B;**[!UICONTROL Exclude recipients from this segment]**&#x200B;可讓您鎖定不符合已定義之目標條件的收件者。 若要使用此選項，請選取適當的方塊，然後套用定位（如先前所定義）以排除產生的設定檔。
+   選項&#x200B;**[!UICONTROL Exclude recipients from this segment]**&#x200B;可讓您鎖定不符合已定義之目標條件的收件者。 若要使用此選項，請選取適當的方框，然後套用定位 (如先前所定義) 以排除產生的設定檔。
 
 1. 在標籤欄位中輸入對象名稱，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;按鈕以驗證對象。
 

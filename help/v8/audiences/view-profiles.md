@@ -5,7 +5,8 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 4%
@@ -30,7 +31,7 @@ ht-degree: 4%
 >內建的收件者畫面是透過XML結構描述及其相關表單來定義。 XML結構描述儲存在Adobe Campaign總管樹狀結構的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點中。 只有資深使用者可以變更這些結構描述。
 >
 
-## 編輯設定檔{#edit-a-profiles}
+## 編輯輪廓{#edit-a-profiles}
 
 選取設定檔，以在新的索引標籤中顯示詳細資訊。
 
@@ -72,11 +73,11 @@ ht-degree: 4%
 
   ![](assets/subscription-tab.png)
 
-  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
+  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[&#128279;](../start/tracking.md)中進一步瞭解追蹤。
+  在本節](../start/tracking.md)中進一步瞭解追蹤[。

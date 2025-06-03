@@ -4,11 +4,12 @@ description: 建立您的第一個傳遞
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -111,7 +112,7 @@ ht-degree: 100%
 
      >[!NOTE]
      >
-     >**[!UICONTROL Include sub-folders]** 選項也可讓您定位於所選節點下方的樹狀結構資料夾所包含的傳遞。
+     >**[!UICONTROL Include sub-folders]** 選項也可讓您鎖定於所選節點下方的樹狀結構資料夾所包含的傳遞。
 
    * **[!UICONTROL Subscribers of an information service]**：此選項可讓您選取收件者必須訂閱的電子報，才能成為正在建立的傳遞目標。
 
@@ -136,7 +137,7 @@ ht-degree: 100%
 1. 選取包含收件者的檔案。
 1. 匯入收件者時，按一下 **[!UICONTROL File format definition...]** 連結以選取並設定外部檔案。
 
-   有關資料匯入的詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}。
+   如需資料匯入的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}。
 
 1. 按一下 **[!UICONTROL Finish]** 並將您的傳遞設定為標準傳遞。
 
@@ -181,7 +182,7 @@ ht-degree: 100%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 

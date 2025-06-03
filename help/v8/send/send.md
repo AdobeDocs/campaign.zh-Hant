@@ -4,8 +4,9 @@ description: 瞭解使用Adobe Campaign傳送電子郵件的範圍和特性
 feature: Email
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
@@ -29,10 +30,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->傳遞狀態不會即時顯示。 在本節[&#128279;](#email-feedback-service)中進一步瞭解電子郵件回饋服務。
+>傳遞狀態不會即時顯示。 在本節](#email-feedback-service)中進一步瞭解電子郵件回饋服務[。
 
 
-[在Campaign Classic v7檔案中進一步瞭解傳遞監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=zh-Hant){target="_blank"}
+[在Campaign Classic v7檔案中進一步瞭解傳遞監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -71,11 +72,11 @@ MTA有自己的MX規則，可讓它根據您過去的電子郵件信譽，以及
 
 ### DKIM簽署
 
-Domain Keys Identified Mail (DKIM)是一種用於偵測偽造的寄件者地址（通常稱為欺騙）的驗證方法。
+Domain Keys Identified Mail (DKIM)是一種驗證方法，用來偵測偽造的寄件者地址（通常稱為欺騙）。
 
 在Adobe Campaign中，DKIM電子郵件驗證簽署是由MTA執行。
 
-在[Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
 
 ## 電子郵件回饋服務 {#email-feedback-service}
 
@@ -87,7 +88,7 @@ Campaign電子郵件回饋服務(EFS)會報告透過Adobe Campaign傳送的每�
 
 當從MTA回報硬退信時，其記錄狀態會從&#x200B;**[!UICONTROL Taken into account by the service provider]**&#x200B;變更為&#x200B;**[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。
 
-當從MTA回報軟退信訊息時，其記錄狀態維持不變(**[!UICONTROL Taken into account by the service provider]**)：只有[錯誤原因](delivery-failures.md#delivery-failure-reasons)更新<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。 **[!UICONTROL Success]**&#x200B;百分比保持不變。 然後，會在整個傳遞[有效期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}重試軟退信訊息：
+當從MTA回報軟退信訊息時，其記錄狀態維持不變(**[!UICONTROL Taken into account by the service provider]**)：只有[錯誤原因](delivery-failures.md#delivery-failure-reasons)更新<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。 **[!UICONTROL Success]**&#x200B;百分比保持不變。 然後，會在整個傳遞[有效期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}重試軟退信訊息：
 
 * 如果在有效期間結束前重試成功，則訊息狀態會變更為&#x200B;**[!UICONTROL Sent]**，而&#x200B;**[!UICONTROL Success]**&#x200B;百分比會相應增加。
 

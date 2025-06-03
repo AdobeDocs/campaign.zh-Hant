@@ -4,8 +4,9 @@ description: 瞭解如何傳送SMS傳送給對象
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 您的SMS通過驗證後，您現在可以將其傳送給對象。
 
-1. 按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
+1. 按一下&#x200B;**[!UICONTROL Send]**按鈕。
 在開啟的視窗中，選擇適合您的正確動作。
 
    在以下範例中，我們選擇&#x200B;**[!UICONTROL Deliver it as soon as possible]**，**[!UICONTROL Analyze]**&#x200B;按鈕出現。 我們按一下該&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。

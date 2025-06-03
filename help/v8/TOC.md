@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '712'
 ht-degree: 89%
 
 ---
@@ -48,10 +48,14 @@ ht-degree: 89%
    + [關於傳遞的最佳實務](start/delivery-best-practices.md)
    + 電子郵件 {#emails}
       + [設計和驗證電子郵件](send/email.md)
+      + [定義電子郵件內容](send/defining-the-email-content.md)
+      + [定義互動式內容](send/defining-interactive-content.md)
       + [連結至鏡像頁面](send/mirror-page.md)
       + [新增密件副本地址](send/email-bcc.md)
       + [定義額外電子郵件參數](send/email-parameters.md)
       + [傳送和監視電子郵件](send/send.md)
+      + [在日文的行動裝置上傳送電子郵件](send/sending-emails-on-japanese-mobiles.md)
+      + [將檔案附加至電子郵件](send/attaching-files.md)
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
       + 設定簡訊頻道 {#config-sms}
