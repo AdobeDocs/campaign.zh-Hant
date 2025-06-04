@@ -4,8 +4,9 @@ title: 載入傳遞內容
 description: 正在載入傳遞內容
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 
 # 載入傳遞內容{#loading-delivery-content}
 
-如果您的傳送內容位於Amazon S3、FTP或SFTP伺服器上的HTML檔案中，則可輕鬆將此內容載入到Adobe Campaign傳送中。
+如果您的傳送內容位於Amazon S3、FTP或SFTP伺服器上的HTML檔案中，可以輕鬆將此內容載入到Adobe Campaign傳送中。
 
 操作步驟：
 

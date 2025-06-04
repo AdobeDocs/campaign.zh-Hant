@@ -5,8 +5,9 @@ description: 瞭解如何啟動工作流程，並探索工作流程動作工具�
 feature: Workflows
 level: Beginner
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 工作流程一律以手動方式啟動。 但是，啟動後，它會根據透過排程器（請參閱[排程器](scheduler.md)）或活動排程指定的資訊，保持非使用中。
 
-與目標工作流程執行相關的動作（啟動、停止、暫停等） 是&#x200B;**非同步**&#x200B;處理序：已記錄此順序，一旦伺服器可供套用時，此順序就會生效。
+與目標工作流程執行（啟動、停止、暫停等）相關的動作為&#x200B;**非同步**&#x200B;程式：此順序會記錄下來，而且會在伺服器可供套用時立即生效。
 
 工具列可讓您啟動及追蹤工作流程的執行。
 
@@ -79,7 +80,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Start in simulation mode]**
 
-  此選項可讓您以模擬模式（而非實際模式）啟動工作流程。 這表示當您啟用此模式時，只會執行不會影響資料庫或檔案系統的活動（例如&#x200B;**[!UICONTROL Query]**、**[!UICONTROL Union]**、**[!UICONTROL Intersection]**&#x200B;等）。 有影響的活動（例如&#x200B;**[!UICONTROL Export]**、**[!UICONTROL Import]**&#x200B;等） 以及之後的專案（在相同分支中）都不會執行。
+  此選項可讓您以模擬模式（而非實際模式）啟動工作流程。 這表示當您啟用此模式時，只會執行不會影響資料庫或檔案系統的活動（例如&#x200B;**[!UICONTROL Query]**、**[!UICONTROL Union]**、**[!UICONTROL Intersection]**&#x200B;等）。 有影響的活動（例如&#x200B;**[!UICONTROL Export]**、**[!UICONTROL Import]**&#x200B;等）及其後的活動（在相同分支中）不會執行。
 
 * **[!UICONTROL Execute pending tasks now]**
 

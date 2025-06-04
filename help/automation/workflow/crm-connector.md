@@ -3,8 +3,9 @@ title: CRM聯結器活動
 description: 深入瞭解CRM聯結器並設定資料同步
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 10%
@@ -28,4 +29,4 @@ ht-degree: 10%
 
 ![](assets/crm_task_select_obj.png)
 
-如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=zh-Hant){target="_blank"}。
+如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}。

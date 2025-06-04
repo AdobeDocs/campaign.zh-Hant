@@ -3,8 +3,9 @@ product: campaign
 title: 與Adobe Experience Cloud解決方案工作流程的整合
 description: 深入瞭解與Adobe Experience Cloud解決方案工作流程的整合
 role: User
+version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 8%

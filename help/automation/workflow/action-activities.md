@@ -4,8 +4,9 @@ title: 工作流程中的動作活動
 description: 關於動作活動
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%

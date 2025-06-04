@@ -4,8 +4,9 @@ title: JavaScript 指令碼和範本
 description: JavaScript 指令碼和範本
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-source-git-commit: 25663b475514736f64e7216c798536d8c23e0983
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 2%
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 
 
-指令碼可讓您計算值、在流程中不同工作之間交換資料，以及使用SOAP呼叫執行特定作業。
+指令碼可讓您計算值、在程式中的不同工作之間交換資料，以及使用SOAP呼叫執行特定作業。
 
 指令碼在工作流程圖表中隨處可見：
 

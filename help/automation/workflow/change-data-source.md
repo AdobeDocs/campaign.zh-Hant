@@ -3,8 +3,9 @@ title: 變更資料來源
 description: 進一步瞭解變更資料來源活動
 feature: Workflows, Data Management, Federated Data Access
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -17,8 +18,8 @@ ht-degree: 2%
 
 工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;用於處理與工作流程活動共用資料。
 
-根據預設，**[!UICONTROL Working table]**&#x200B;會建立在與您查詢所需資料來源相同的資料庫中。
-例如，當查詢儲存在雲端資料庫上的&#x200B;**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+根據預設，**[!UICONTROL Working table]**會建立在與您查詢所需資料來源相同的資料庫中。
+例如，當查詢儲存在雲端資料庫上的**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
 
 使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動以使用您&#x200B;**[!UICONTROL Working table]**&#x200B;的不同資料來源。
 

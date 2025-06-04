@@ -4,8 +4,9 @@ title: 使用增量查詢更新每季清單
 description: 在此使用案例中，增量查詢用於自動更新收件者清單。
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 5%

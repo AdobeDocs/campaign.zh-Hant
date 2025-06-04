@@ -4,11 +4,12 @@ title: 工作流程中的 JavaScript 程式碼範例
 description: 這些範例說明如何在工作流程中使用JavaScript程式碼
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 2%
 * [使用靜態SOAP方法觸發工作流程](#trigger-example)
 * [使用非靜態SOAP方法與資料庫互動](#interact-example)
 
-[深入瞭解](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=zh-Hant){target="_blank"}靜態和非靜態SOAP方法。
+[進一步瞭解](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}靜態和非靜態SOAP方法。
 
 在這些範例中，會使用ECMAScript for XML (E4X)擴充功能。 透過此擴充功能，您可以在相同指令碼中合併JavaScript呼叫和XML原始專案。
 
@@ -51,7 +52,7 @@ ht-degree: 2%
    1. 呼叫`xtk:session`結構描述上的`Write`方法。
 
       >[!IMPORTANT]
-      > 如果您使用Adobe Campaign v8，建議您針對Snowflake表格中的`Write`方法，搭配&#x200B;**擷取**&#x200B;和&#x200B;**資料更新/刪除** API使用預備機制。 [深入了解](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=zh-Hant){target="_blank"}.
+      > 如果您使用Adobe Campaign v8，建議您針對Snowflake表格中的`Write`方法，搭配&#x200B;**擷取**&#x200B;和&#x200B;**資料更新/刪除** API使用預備機制。 [閱讀全文](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}。
 
    1. 傳遞XML程式碼作為寫入要求的引數。
 
@@ -68,7 +69,7 @@ ht-degree: 2%
 * 要修改之資料表的綱要
 * 要填入的表格欄位
 
-例如：
+範例：
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -87,7 +88,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 * 要更新的表格欄位
 * 識別要更新的記錄所需的索引鍵引數
 
-例如：
+範例：
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -99,14 +100,14 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 刪除記錄
 
-使用`DeleteCollection`方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=zh-Hant){target="_blank"}。
+使用`DeleteCollection`方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}。
 
 指定此資訊：
 
 * 要修改之資料表的綱要
 * 以XML元素的形式識別要更新的記錄所需的`where`子句
 
-例如：
+範例：
 
 ```javascript
 xtk.session.DeleteCollection(
@@ -273,7 +274,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-回圈包含本機收件者變數。 對於收件者集合中傳回的每個收件者，都會列印出收件者的電子郵件。 [深入瞭解](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=zh-Hant){target="_blank"} `logInfo`函式。
+回圈包含本機收件者變數。 對於收件者集合中傳回的每個收件者，都會列印出收件者的電子郵件。 [深入瞭解](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}有關`logInfo`函式的資訊。
 
 #### `getIfExists`作業的結果
 
@@ -359,7 +360,7 @@ for each (var rcp in res.recipient)
 
 工作流程觸發可透過使用事件來運作。 您可以對事件使用這些功能：
 
-* 若要張貼事件，您可以使用靜態`PostEvent`方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=zh-Hant){target="_blank"}。
+* 若要張貼事件，您可以使用靜態`PostEvent`方法。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}。
 * 若要接收事件，您可以使用&#x200B;**[!UICONTROL External signal]**&#x200B;活動。 [了解更多](external-signal.md)。
 
 您可以透過不同方式觸發工作流程：
@@ -426,10 +427,10 @@ xtk.workflow.PostEvent(
 
 1. 定義查詢：
 
-   * 使用對應結構描述上的`create`方法擷取實體，例如`xtk:workflow`結構描述。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=zh-Hant){target="_blank"}。
+   * 使用對應結構描述上的`create`方法擷取實體，例如`xtk:workflow`結構描述。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}。
    * 使用`queryDef`方法發出SQL查詢。
 
-1. 使用`ExecuteQuery`方法執行查詢。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}。
+1. 使用`ExecuteQuery`方法執行查詢。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}。
 
    使用`for each`回圈來擷取結果。
 
@@ -561,7 +562,7 @@ for each (var w in res.recipient)
 * `delete`作業
 
 >[!IMPORTANT]
-> 如果您使用Adobe Campaign v8，建議您針對Snowflake表格中的`Write`方法，搭配&#x200B;**擷取**&#x200B;和&#x200B;**資料更新/刪除** API使用預備機制。 [深入了解](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=zh-Hant){target="_blank"}.
+> 如果您使用Adobe Campaign v8，建議您針對Snowflake表格中的`Write`方法，搭配&#x200B;**擷取**&#x200B;和&#x200B;**資料更新/刪除** API使用預備機制。 [閱讀全文](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}。
 
 #### 範例1：插入或更新記錄
 
@@ -611,11 +612,11 @@ xtk.session.Write(
 
 ### API檔案
 
-* [SOAP呼叫範例](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=zh-Hant){target="_blank"}
+* [SOAP呼叫範例](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
 * 方法：
-   * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=zh-Hant){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=zh-Hant){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=zh-Hant){target="_blank"}
-   * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=zh-Hant){target="_blank"}
-* [logInfo函式](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=zh-Hant){target="_blank"}
+   * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
+   * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
+* [logInfo函式](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}

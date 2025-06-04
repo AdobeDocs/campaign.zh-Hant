@@ -4,8 +4,9 @@ title: 資料載入 (檔案)
 description: 進一步瞭解資料載入（檔案）工作流程活動
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 14%
@@ -26,7 +27,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
+>僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

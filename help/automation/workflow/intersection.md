@@ -4,8 +4,9 @@ title: 交集
 description: 交集
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 5%
@@ -24,7 +25,7 @@ ht-degree: 5%
 
 如需設定及使用交集活動的詳細資訊，請參閱[擷取聯合資料（交集）](targeting-workflows.md#extracting-joint-data--intersection-)。
 
-如果要處理剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 此補充集會包含所有傳入活動減去交集的聯合結果。然後，會將額外的出站轉變新增至活動，如下所示：
+如果要處理剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 此補集會包含所有傳入活動減去交集的聯合結果。然後，會將額外的出站轉變新增至活動，如下所示：
 
 ![](assets/s_user_segmentation_inter_compl.png)
 

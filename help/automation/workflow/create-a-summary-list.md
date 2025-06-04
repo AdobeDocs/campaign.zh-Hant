@@ -4,11 +4,12 @@ title: 建立摘要清單
 description: 建立摘要清單
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +85,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich2.png)
 
-1. 選取&#x200B;**[!UICONTROL Define a collection]**&#x200B;選項。
+1. 選取 **[!UICONTROL Define a collection]** 選項。
 1. 選取「儲存」結構描述作為目標。
 
    ![](assets/uc2_enrich_enrich3.png)
@@ -169,7 +170,7 @@ Phone;500;London 5
 最後一個步驟涉及將所有擴充資料寫入清單。
 
 1. 將&#x200B;**清單更新**&#x200B;活動新增至工作流程。 此活動必須連結至第二個擴充活動的出站轉變。
-1. 選取&#x200B;**[!UICONTROL Create the list if necessary (Calculated name)]**&#x200B;選項。
+1. 選取 **[!UICONTROL Create the list if necessary (Calculated name)]** 選項。
 1. 選取計算名稱的值。 為清單選擇的標籤為目前日期： &lt;%= formatDate(new Date()， &quot;%2D/%2M/%2Y&quot;) %>。
 
 執行工作流程後，清單將包含：

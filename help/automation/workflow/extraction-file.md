@@ -4,8 +4,9 @@ title: 資料擷取 (檔案)
 description: 進一步瞭解資料擷取（檔案）工作流程活動
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: 014743172e09d46cb83b2fe2befaa8f3c54669b1
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 1%

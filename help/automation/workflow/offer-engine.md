@@ -1,18 +1,19 @@
 ---
 product: campaign
-title: 優惠引擎
-description: 優惠引擎
+title: 產品建議引擎
+description: 產品建議引擎
 feature: Workflows, Interaction
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%
 
 ---
 
-# 優惠引擎{#offer-engine}
+# 產品建議引擎{#offer-engine}
 
 **[!UICONTROL Offer engine]**&#x200B;活動可讓您在傳遞前定義對優惠方案引擎的呼叫。
 

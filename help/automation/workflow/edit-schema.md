@@ -1,18 +1,19 @@
 ---
 product: campaign
-title: 編輯方案
+title: 編輯結構描述
 description: 進一步瞭解編輯結構描述工作流程活動
 feature: Workflows, Targeting Activity
 role: User, Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 16fb1aa5-cf99-4461-a1a4-7a68d97e2a74
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-# 編輯方案{#edit-schema}
+# 編輯結構描述{#edit-schema}
 
 
 

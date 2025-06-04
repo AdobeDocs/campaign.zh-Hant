@@ -2,8 +2,9 @@
 title: 使用工作流程資料
 description: 瞭解如何使用工作流程資料
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 8%
@@ -44,7 +45,7 @@ ht-degree: 8%
 
   使用此功能表存取描述性分析精靈，讓您產生轉換資料的統計資料和報表。
 
-  在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}中瞭解如何使用描述性分析精靈。
+  在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}中瞭解如何使用描述性分析精靈。
 
 在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：核取工作流程屬性中的&#x200B;**[!UICONTROL Keep the result of interim populations between two executions]**&#x200B;選項。
 
@@ -118,7 +119,7 @@ ht-degree: 8%
 
 ## 更新資料庫 {#update-the-database}
 
-所有收集的資料都可用於更新資料庫或用於傳送。 例如，您可以豐富訊息內容個人化的可能性（包括訊息中的合約數、指定去年的平均購物車數量等） 或詳細母體目標定位（傳送訊息給合約共同持有者，目標定位線上服務的1,000個最佳訂閱者等）。 此資料也可以匯出或封存於清單中。
+所有收集的資料都可用於更新資料庫或用於傳送。 例如，您可以豐富訊息內容個人化的可能性（包括訊息中的合約數、指定去年的平均購物車等）或詳細人口目標定位（傳送訊息給合約共同持有者、目標定位線上服務的1,000個最佳訂閱者等）。 此資料也可以匯出或封存於清單中。
 
 ### 更新清單  {#list-updates}
 

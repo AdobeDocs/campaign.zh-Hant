@@ -4,8 +4,9 @@ title: 新增分項清單型別計算欄位
 description: 瞭解如何新增列舉型別計算欄位
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -79,6 +80,6 @@ ht-degree: 1%
 
    ![](assets/query_editor_nveau_79.png)
 
-   再舉一個例子，說明沒有輸入列舉值「2」。 選取&#x200B;**[!UICONTROL Generate an error and reject the line]**&#x200B;函式：所有性別「2」收件者會在行中提出異常和其他資訊（名字和姓氏等） 將不會匯出。 資料預覽視窗的&#x200B;**[!UICONTROL Logs generated during export]**&#x200B;欄位中顯示錯誤記錄。 此記錄表示未輸入列舉值「2」。
+   再舉一個例子，說明沒有輸入列舉值「2」。 選取&#x200B;**[!UICONTROL Generate an error and reject the line]**&#x200B;函式：所有性別「2」收件者都會提出異常，且行中的其他資訊（名字和姓氏等）不會匯出。 資料預覽視窗的&#x200B;**[!UICONTROL Logs generated during export]**&#x200B;欄位中顯示錯誤記錄。 此記錄表示未輸入列舉值「2」。
 
    ![](assets/query_editor_nveau_80.png)

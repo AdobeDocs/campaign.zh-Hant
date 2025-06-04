@@ -3,8 +3,9 @@ product: campaign
 title: 工作流程使用案例
 description: 進一步瞭解您可以使用行銷活動工作流程執行的使用案例
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 55%

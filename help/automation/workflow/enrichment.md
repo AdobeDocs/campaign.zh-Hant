@@ -4,8 +4,9 @@ title: 擴充
 description: 進一步瞭解擴充工作流程活動
 feature: Workflows, Enrichment Activity, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 1%
@@ -41,7 +42,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Define a collection]**：可讓您定義表格之間具有1-N基數的連結。
 * **[!UICONTROL Define a link whose target is still available]**：可讓您定義表格之間具有1-1基數的連結。 連線條件必須由目標表格中的單一記錄定義。
-* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**：可讓您定義表格之間具有0-1基數的連結。 連線條件必須由0或1 （最大值）定義 記錄。
+* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**：可讓您定義表格之間具有0-1基數的連結。 連線條件必須由目標表格中的0或1 （最大）記錄定義。
 
   此選項設定於&#x200B;**[!UICONTROL Simple Join]**&#x200B;索引標籤中，可透過&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動的&#x200B;**[!UICONTROL Edit additional data]**&#x200B;連結存取。
 

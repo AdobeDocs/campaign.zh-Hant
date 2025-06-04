@@ -3,8 +3,9 @@ product: campaign
 title: 測試
 description: 進一步瞭解測試工作流程活動
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%

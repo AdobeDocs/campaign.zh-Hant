@@ -4,8 +4,9 @@ title: 變更活動影像
 description: 瞭解如何變更活動影像
 feature: Workflows
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: f5580401-3305-4915-88a2-3400a32aa7aa
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
