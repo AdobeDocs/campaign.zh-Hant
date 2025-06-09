@@ -17,7 +17,7 @@ Adobe Campaign可讓您建立與第三方整合的自訂外部管道。 然後�
 
 傳遞的建立和傳送可在使用者端主控台和網頁UI中執行。 不過，自訂外部通道只能在使用者端主控台中執行。
 
-若要瞭解如何根據自訂外部通道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html)。
+若要瞭解如何根據自訂外部通道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=zh-Hant)。
 
 以下是在使用者端主控台中建立新外部自訂頻道的步驟：
 

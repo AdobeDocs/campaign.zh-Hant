@@ -45,19 +45,19 @@ ht-degree: 1%
 
 如需與行動服務相關的私密金鑰和憑證的輪換，請參閱以下連結。
 
-* 若為Android，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}。
+* 若為Android，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}。
 瀏覽至&#x200B;**建立Android行動應用程式>設定API版本**&#x200B;區段。
 
-* 若為iOS，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}。
+* 若為iOS，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}。
 瀏覽至&#x200B;**建立iOS行動應用程式 — >驗證模式**&#x200B;區段。
 
 ## GPG 金鑰 {#ac-gpg-credentials}
 
 若要旋轉GPG金鑰，必須執行下列步驟：
 
-1. 使用現有金鑰解密現有資料。 [了解更多](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
+1. 使用現有金鑰解密現有資料。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
 
-1. 建立新的GPG金鑰組。 在[本檔案](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}中進一步瞭解GPG金鑰管理。
+1. 建立新的GPG金鑰組。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}中進一步瞭解GPG金鑰管理。
 
 1. 以新建立的金鑰取代所有工作流程中的現有GPG金鑰使用方式。
 

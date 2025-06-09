@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 活動的屬性分為三個步驟：
 

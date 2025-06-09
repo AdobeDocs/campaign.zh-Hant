@@ -24,5 +24,5 @@ ht-degree: 7%
 
 * 在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
 
-* Campaign v8已新增Campaign Standard功能，以協助您進行轉換。 這些功能僅限從Campaign Standard轉換的客戶使用，相關說明請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}。
+* Campaign v8已新增Campaign Standard功能，以協助您進行轉換。 這些功能僅限從Campaign Standard轉換的客戶使用，相關說明請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}。
 

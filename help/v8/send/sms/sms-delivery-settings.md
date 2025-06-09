@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >本檔案適用於Adobe Campaign v8.7.2和更新版本。
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
 
 簡訊傳送所需的技術設定如下：
 

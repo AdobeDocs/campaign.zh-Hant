@@ -18,11 +18,11 @@ ht-degree: 20%
 
 行銷活動追蹤功能會追蹤傳送的訊息，並協助您分析收件者的行為：開啟、點按連結、訂閱/取消訂閱等。 您可以存取專用日誌、報告和度量，查詢資料庫以檢閱收集的資料等。
 
-如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}。
+如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=zh-Hant#tracking-tab){target="_blank"}。
 
 傳遞儀表板是監視傳遞的重要工具，在傳送訊息期間可能會發生問題。
 
-如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}。
+如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=zh-Hant#sending-messages){target="_blank"}。
 
 以下列出Campaign中可用的重要追蹤功能。
 
@@ -69,13 +69,13 @@ ht-degree: 20%
 
 您也可以追蹤和測量具有追蹤標籤的網頁應用程式頁面上的造訪次數。 此功能可用於所有Web應用程式型別，例如表單和線上調查。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
+[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=zh-Hant#designing-content){target="_blank"}
 
 **網站應用程式追蹤選擇退出**
 
 網站應用程式追蹤選擇退出可讓您停止追蹤選擇退出行為追蹤之一般使用者的網站行為。 您可以在網頁應用程式或登入頁面中加入顯示橫幅的功能，讓使用者選擇退出。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
+[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=zh-Hant#designing-content){target="_blank"}
 
 ### 追蹤報表 {#tracking-reports}
 
@@ -91,19 +91,19 @@ ht-degree: 20%
 
 此報表顯示傳遞後造訪的頁面清單。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
+[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#urls-and-click-streams){target="_blank"}
 
 **人員與收件者**
 
 透過此範例，更能瞭解Adobe Campaign中個人/人員與收件者之間的追蹤差異。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=zh-Hant#reporting){target="_blank"}
 
 **追蹤指標**
 
 此報表結合關鍵指標，用於追蹤收件者在接收傳遞時的行為，例如開啟、點進率及點按資料流。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
+[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#reporting){target="_blank"}
 
 **指示器計算**
 
@@ -123,11 +123,11 @@ Adobe Campaign提供一組可監控您的流程和環境的功能。
 
 ### 監視您的工作流程
 
-瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)中監視工作流程執行
+瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant)中監視工作流程執行
 
 ### 監視您的執行個體
 
-[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}中提供執行個體監視准則
+[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=zh-Hant#monitoring-campaign-classic){target="_blank"}中提供執行個體監視准則
 
 使用稽核軌跡自助式介面來監視執行處理中所做的變更。 稽核軌跡可以即時擷取Adobe Campaign執行個體中發生之動作和事件的完整清單。 您可以存取資料歷程記錄，以協助回答下列問題：您的工作流程發生什麼事、上次更新者是誰，或您的使用者在執行個體中做了什麼。
 

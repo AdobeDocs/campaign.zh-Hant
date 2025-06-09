@@ -27,7 +27,7 @@ _2024 年 9 月 3 日_
 >
 >此版本為&#x200B;**有限可用性** (LA)。僅限&#x200B;**從 Adobe Campaign Standard 移轉至 Adobe Campaign v8** 的客戶，且無法部署於任何其他環境。
 >
->身為Campaign Standard使用者轉換至Campaign v8，請在[Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html){target="_blank"}中進一步瞭解此轉換。
+>身為Campaign Standard使用者轉換至Campaign v8，請在[Campaign v8網頁使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=zh-Hant){target="_blank"}中進一步瞭解此轉換。
 
 ### 新功能 {#new-8-7-2}
 

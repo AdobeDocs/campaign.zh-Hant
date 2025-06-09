@@ -21,14 +21,14 @@ ht-degree: 14%
 
 您可以使用JavaScript API在Campaign雲端資料庫中寫入或讀取資料庫：
 
-* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}中進一步瞭解。
-* 用於查詢資料模型資料的一般資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}中進一步瞭解。
+* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* 用於查詢資料模型資料的一般資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 請注意，在其[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
 
 >[!CAUTION]
 >
->* 作為從Campaign Standard轉換的Campaign使用者，您可以搭配Campaign v8使用REST API。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}。
+>* 作為從Campaign Standard轉換的Campaign使用者，您可以搭配Campaign v8使用REST API。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}。
 >
 >* 從Campaign v8.5.1開始，Campaign v8的驗證程式已變更。 技術操作員必須使用Adobe Identity Management System (IMS)來連線至Campaign。 透過[此技術說明](../../technotes/upgrades/ims-migration.md)了解如何移轉您現有的技術帳戶。
 >

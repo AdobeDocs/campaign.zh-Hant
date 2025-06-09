@@ -26,7 +26,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 您可以將套件從一個環境匯出和匯入到另一個環境。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}中進一步瞭解套件
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=zh-Hant){target="_blank"}中進一步瞭解套件
 
 ## 部署模型 {#ac-deployment}
 

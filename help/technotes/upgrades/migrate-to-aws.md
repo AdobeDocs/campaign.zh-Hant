@@ -67,11 +67,11 @@ ht-degree: 0%
 
 * **客戶需要執行哪些驗證？**
 
-  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
+  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   由於這是強制移轉，我們無法因應現有排程的修改。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
