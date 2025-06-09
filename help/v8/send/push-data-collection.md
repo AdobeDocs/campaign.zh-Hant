@@ -19,7 +19,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!AVAILABILITY]
 >
-> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[&#128279;](push-settings.md)中詳述的程式。
+> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面](push-settings.md)中詳述的程式[。
 
 關於此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 
@@ -29,9 +29,9 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. [在Adobe Experience Platform Data Collection中建立及設定行動屬性](#create-mobile-property)
 
-1. [新增AdobeAdobe Experience Platform保證延伸](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}（建議）
+1. [新增Adobe Adobe Experience Platform Assurance擴充功能](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}（建議）
 
-1. [新增Campaign Classic至您的行動應用程式](#campaign-mobile-ap)
+1. [將Campaign Classic新增至您的行動應用程式](#campaign-mobile-ap)
 
 1. [建立iOS和Android的傳遞](##push-create)
 
@@ -145,7 +145,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
    請確定透過SDK在Adobe Campaign和應用程式程式碼中定義了相同的&#x200B;**[!UICONTROL Integration key]**。
 
-   深入瞭解[開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   在[開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}中進一步瞭解
 
 
    >[!NOTE]
@@ -180,7 +180,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
    請確定透過SDK在Adobe Campaign和應用程式程式碼中定義了相同的&#x200B;**[!UICONTROL Integration key]**。
 
-   深入瞭解[開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   在[開發人員檔案](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}中進一步瞭解
 
    >[!NOTE]
    >
@@ -244,7 +244,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 您的行動屬性現在將自動與&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]**&#x200B;技術工作流程同步。 [了解更多](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
-## 新增Campaign Classic至您的行動應用程式 {#campaign-mobile-app}
+## 將Campaign Classic新增至您的行動應用程式 {#campaign-mobile-app}
 
 Adobe Experience Platform Mobile SDK 有助於在行動應用程式中，強化 Adobe Experience Cloud 解決方案與服務。 SDK的設定可透過資料收集UI進行管理，以進行靈活設定和可擴充的規則型整合。
 

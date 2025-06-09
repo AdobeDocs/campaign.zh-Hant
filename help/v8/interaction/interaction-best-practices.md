@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
-如果您在傳送中選取的優惠方案空間未設定HTML演算功能，您會在傳送功能表中看到該空間，且將無法選取。 這與&#x200B;**擴充**&#x200B;活動中選取的優惠方案空間無關。
+如果您在傳送中選取的優惠方案空間未設定HTML演算函式，您會在傳送功能表中看到該空間，且將無法選取。 這與&#x200B;**擴充**&#x200B;活動中選取的優惠方案空間無關。
 
 在下列範例中，下拉式清單提供HTML轉譯函式，因為傳送中選取的選件空間具有轉譯函式：
 
@@ -71,11 +71,11 @@ ht-degree: 0%
 
 當您選取主張時，**[!UICONTROL view]**&#x200B;屬性的值如下：
 * &quot;rendering/html&quot;： html rendering. 它會使用HTML演算函式。
-* &quot;offer/view/html&quot;： html內容。 它不會使用HTML演算函式。 它只包含HTML欄位。
+* &quot;offer/view/html&quot;： html內容。 不使用HTML演算函式。 它只包含HTML欄位。
 
 當您在單一電子郵件傳遞中包含多個選件空間時，如果部分選件具有轉譯函式，而部分選件沒有該函式，您必須記住哪些選件使用哪些選件空間，以及哪些選件空間具有轉譯函式。
 
-因此，為避免任何問題，建議所有選件空間都定義有HTML轉譯函式，即使您的選件空間只需要HTML內容亦然。
+因此，為避免任何問題，建議所有選件空間皆已定義HTML轉譯函式，即使您的選件空間只需要HTML內容亦然。
 
 ### 在主張記錄表中設定排名 {#rank-proposition-log-table}
 

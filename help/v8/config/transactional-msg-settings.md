@@ -21,11 +21,11 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Cloud Service作為Managed Campaign使用者，[聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定Campaign交易訊息。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以在您的環境中安裝和設定Campaign異動訊息。
 
 ## 定義許可權 {#mc-permissions}
 
-若要為Adobe雲端上託管的訊息中心執行例項建立新使用者，請聯絡您的Adobe轉換經理。 訊息中心使用者是特定的操作者，需要專用許可權才能存取「即時事件」(nmsRtEvent)資料夾。
+若要為Adobe Cloud上託管的訊息中心執行例項建立新使用者，請聯絡您的Adobe轉換經理。 訊息中心使用者是特定的操作者，需要專用許可權才能存取「即時事件」(nmsRtEvent)資料夾。
 
 ## 結構描述延伸  {#mc-schema-ext}
 

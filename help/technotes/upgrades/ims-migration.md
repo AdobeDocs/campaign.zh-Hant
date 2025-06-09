@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Campaign技術運運算元移轉至Adobe Developer Console {#migrate-tech-users-to-ims}
 
-自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}來連線至Campaign。 在[Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}中進一步瞭解新的伺服器對伺服器驗證程式。
+自Campaign v8.5開始，為了強化安全性和驗證流程，我們一直在改善Campaign v8的驗證流程。 技術操作員現在可以使用[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}連線至Campaign。 在[Adobe Developer Console檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}中進一步瞭解新的伺服器對伺服器驗證程式。
 
 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明透過Adobe Developer主控台將技術運運算元移轉至技術帳戶所需的步驟。
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 `campaign - <your campaign instance> - messagecenter`
 
-如果您已使用IMS型驗證讓使用者存取Campaign，則API呼叫所需的產品設定檔應已存在於Admin Console中。 如果您在Campaign中為行銷執行個體的API呼叫使用自訂運運算元群組，則必須在Admin Console中建立該產品設定檔。
+如果您已使用IMS型驗證讓使用者存取Campaign，則API呼叫所需的產品設定檔應已存在於Admin Console中。 如果您在Campaign中使用自訂運運算元群組對行銷執行個體進行API呼叫，必須在Admin Console中建立該產品設定檔。
 
-對於其他情況，您必須聯絡您的Adobe轉變經理，以便Adobe技術團隊能夠將您現有的操作員群組和已命名的許可權移轉至Admin Console內的產品設定檔。
+對於其他情況，您必須聯絡您的Adobe轉換經理，以便Adobe技術團隊能夠將您現有的操作員群組和「已命名」許可權移轉至Admin Console中的產品設定檔。
 
 
 ### 步驟1 — 在Adobe Developer Console中建立Campaign專案 {#ims-migration-step-1}
@@ -74,7 +74,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 若要將API新增至專案，請依照下列步驟執行：
 
-1. 按一下&#x200B;**新增API**&#x200B;以選取要新增至專案的API。
+1. 按一下&#x200B;**新增API**以選取要新增至專案的API。
    ![](assets/do-not-localize/ims-updates-01.png)
 1. 勾選Adobe Campaign卡片右上角的方塊，選取Adobe Campaign API並將其新增至您的專案，當您將滑鼠停留在卡片上時，就會顯示這個方塊
    ![](assets/do-not-localize/ims-updates-02.png)
@@ -95,7 +95,7 @@ When the API has been successfully connected, you can access the newly generated
 
 如先決條件一節中所述，您必須指派適當的產品設定檔以供專案使用。 在此步驟中，您必須選取要由正在建立的技術帳戶使用的產品設定檔。
 
-如果此技術帳戶用於對Message Center執行個體進行API呼叫，請務必選取以`messagecenter`結尾的Adobe建立產品設定檔。
+如果此技術帳戶用於對Message Center執行個體進行API呼叫，請務必選取Adobe建立產品設定檔，其結尾為`messagecenter`。
 
 針對行銷執行個體的API呼叫，選取與執行個體和操作員群組對應的產品設定檔。
 
@@ -149,9 +149,9 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 如需API整合步驟的詳細資訊，包括順利整合的範常式式碼，請參閱[Adobe Developer Console驗證檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}。
 
-以下是範例SOAP呼叫，顯示協力廠商系統的移轉前和移轉後的呼叫。
+以下是顯示協力廠商系統移轉之前和之後的SOAP呼叫範例。
 
-使用AdobeIdentity Management系統(IMS)驗證時，若要產生WSDL檔案，您應該在Postman呼叫中新增`Authorization: Bearer <IMS_Technical_Token_Token>`：
+使用Adobe Identity Management System (IMS)驗證時，若要產生WSDL檔案，您應該在Postman呼叫中新增`Authorization: Bearer <IMS_Technical_Token_Token>`：
 
 ```
 curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
@@ -210,7 +210,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
 此步驟為選用步驟，且僅適用於行銷執行個體，不可用於任何Message Center執行個體。 如果已經為技術操作員定義了特定檔案夾許可權或已命名許可權，但未透過指派的操作員群組。 您現在需要更新Admin Console中新建立的技術帳戶使用者，以授予所需的檔案夾許可權或已命名許可權。
 
-請注意，對Campaign執行個體進行至少一個API呼叫之前，技術帳戶使用者不會存在於Adobe Campaign中，此時IMS將會在Campaign中建立使用者。 如果您在Campaign內找不到技術使用者，請確定您已能夠成功傳送API呼叫，如步驟7[&#128279;](#ims-migration-step-7)中所述。
+請注意，對Campaign執行個體進行至少一個API呼叫之前，技術帳戶使用者不會存在於Adobe Campaign中，此時IMS將會在Campaign中建立使用者。 如果您在Campaign內找不到技術使用者，請確定您已能夠成功傳送API呼叫，如步驟7](#ims-migration-step-7)中所述[。
 
 1. 若要套用新技術帳戶使用者所需的變更，請依電子郵件地址在Campaign使用者端主控台中找出這些變更。 此電子郵件地址是在上述專案建立和驗證步驟期間建立的。
 
@@ -218,7 +218,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   在[認證]畫面中，向下捲動以找到&#x200B;**Technical Account Email &#x200B;**，然後按一下&#x200B;**複製**&#x200B;按鈕。
+   在[認證]畫面中，向下捲動以找到**Technical Account Email **，然後按一下&#x200B;**複製**&#x200B;按鈕。
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

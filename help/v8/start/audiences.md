@@ -18,7 +18,7 @@ ht-degree: 17%
 
 在Adobe Campaign中，**位收件者**&#x200B;是傳送內容（電子郵件、簡訊等）時定位的預設設定檔。 儲存在資料庫中的收件者資料可讓您篩選將接收任何指定傳遞的目標，並在傳遞內容中新增個人化資料。 資料庫中還存在其他類型的輪廓。這些用戶檔案是針對不同用途設計的。例如，種子輪廓用於在內容傳送給最終目標前測試內容。
 
-在本節[&#128279;](../audiences/gs-audiences.md)中瞭解如何匯入、更新及管理設定檔與對象。
+在本節](../audiences/gs-audiences.md)中瞭解如何匯入、更新及管理設定檔與對象[。
 
 ## 建立清單{#create-lists}
 
@@ -45,13 +45,13 @@ ht-degree: 17%
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的活躍輪廓，而且會計算這些輪廓數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。 深入瞭解[Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 
-您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hant){target="_blank"}。
+您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}。
 
 
 以下護欄和限制在此適用：
 
 * 數個傳送所定位的設定檔只會計算一次。
-* 在X (Twitter)的社交行銷內容中定位的設定檔不會計為作用中設定檔。
+* 在X (Twitter)上的社交行銷內容中鎖定的設定檔不會計為作用中設定檔。
 * 計數是以收件者主索引鍵為基礎。 因此，如果設定檔存在於兩個不同的收件者表格中，則可將其計算為作用中設定檔兩次。
 
 ## 隱私權與同意{#privacy-and-consent}

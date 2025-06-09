@@ -34,7 +34,7 @@ ht-degree: 18%
 
 1. Adobe Campaign **內建**&#x200B;傳遞範本 — 每個管道都可使用內建範本。 這些檔案不得修改或刪除。 每個傳遞管道都包含基本設定。 身為管理員，您可以設定預設值，或限制使用者的特定功能，例如修改追蹤引數、寄件者電子郵件地址等。 內建範本在範本清單中以粗體顯示。
 
-1. **自訂**&#x200B;傳遞範本 — 身為Adobe Campaign管理員，您可以建立新的傳遞範本。 最佳實務是複製和更新內建範本，而非從頭開始建立範本。 例如，您可以設定電子郵件傳遞範本，當使用者從此範本建立傳遞時，他們只需輸入文字或HTML內容即可。 所有其他設定均已定義。
+1. **自訂**&#x200B;傳遞範本 — 身為Adobe Campaign管理員，您可以建立新的傳遞範本。 最佳實務是複製和更新內建範本，而非從頭開始建立範本。 例如，您可以設定電子郵件傳遞範本，當使用者從此範本建立傳遞時，他們只需輸入文字或HTML內容。 所有其他設定均已定義。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 若要從頭設定傳遞範本，請依照以下步驟進行：
 
 1. 瀏覽至Campaign檔案總管中的&#x200B;**資源**&#x200B;資料夾，並選取&#x200B;**範本**&#x200B;然後&#x200B;**傳遞範本**。
-1. 按一下工具列中的「新增&#x200B;**&#x200B;**」以建立新的傳遞範本。
+1. 按一下工具列中的「新增&#x200B;****」以建立新的傳遞範本。
 1. 設定資料夾的&#x200B;**標籤**&#x200B;和&#x200B;**內部名稱**。
 1. 儲存範本並重新開啟。
 1. 從&#x200B;**屬性**&#x200B;按鈕，調整設定。
@@ -121,7 +121,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 ### 執行範本 {#execute-a-template}
 
-您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)所述。
+您可以直接從範本清單中啟動範本執行，而不需要先建立傳遞。 傳遞範本可以手動執行（如下所述），或由事件觸發（在設定時間執行，當伺服器中有檔案可用時，等等），如[本節](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)所述。
 
 若要手動執行範本，請執行下列步驟：
 
@@ -147,12 +147,12 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 以下影片說明如何設定傳遞範本屬性，並詳細說明每個屬性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443412?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### 如何部署隨選傳遞範本
 
 此影片說明如何部署隨選電子郵件傳遞範本，並說明電子郵件傳遞與傳遞工作流程之間的差異。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444968?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

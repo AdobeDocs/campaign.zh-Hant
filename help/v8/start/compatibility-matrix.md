@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**，最新版本。 從 [Microsoft 開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。
+* **Microsoft Edge WebView2**，最新版本。 從[Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。
 
 ## CRM 連接器 {#CRMconnectors}
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 若要透過 Campaign 傳送[推播通知](../send/push.md)，請在資料收集 UI 設定 Adobe Campaign Classic 擴充功能，以使用 Adobe Experience Platform Mobile SDK。
 
-iOS 與 Android 的相容版本詳見 [Adobe Developer 文件](https://developer.adobe.com/client-sdks/home/){target="_blank"}。
+在[iOS檔案](https://developer.adobe.com/client-sdks/home/){target="_blank"}中詳細說明Adobe Developer和Android的相容版本。
 
 ## 網頁使用者介面 {#web-ui}
 

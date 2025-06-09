@@ -8,7 +8,7 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 3%
 
 ## 傳送校樣 {#send-proofs}
 
-針對電子郵件傳遞，您可以傳送校樣以驗證訊息內容。 傳送校樣可讓您檢查選擇退出連結、映象頁面和任何其他連結、驗證訊息、驗證影像是否已顯示、偵測可能的錯誤等。 您可能也會想要檢查您在不同裝置上的設計和演算。
+針對電子郵件傳遞，您可以傳送校樣以驗證訊息內容。 傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、驗證影像是否顯示、偵測可能的錯誤等。 您可能也會想要在不同裝置檢查您的設計和轉譯。
 
-校樣是一種特定訊息，可讓您在將訊息傳送給主要對象之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
 ### 校訂收件者 {#proofs-recipients}
 
@@ -48,8 +48,8 @@ ht-degree: 3%
 已從&#x200B;**[!UICONTROL Targeting mode]**&#x200B;下拉式清單中選取校訂目標的型別。
 
 * 使用&#x200B;**[!UICONTROL Definition of a specific proof target]**&#x200B;選項選取資料庫中的收件者作為校訂目標。
-* 使用&#x200B;**[!UICONTROL Substitution of the address]**&#x200B;選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
-預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+* 使用&#x200B;**[!UICONTROL Substitution of the address]**選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
+預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 * 使用&#x200B;**[!UICONTROL Specific target and Seed addresses]**&#x200B;選項結合種子地址和特定的電子郵件地址。 相關設定隨後會在兩個單獨的子標籤中定義。
 
-### 傳送證明 {#proofs-send}
+### 傳送校樣 {#proofs-send}
 
 若要傳送訊息校樣，請遵循下列步驟：
 
@@ -105,4 +105,4 @@ ht-degree: 3%
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 使用篩選規則，根據查詢中定義的條件來選取要排除的訊息。 這些規則會連結至目標維度。
 
-篩選規則可以連結到其他型別的規則（控制、壓力等） 在型別中，或分組在專用的&#x200B;**篩選**&#x200B;型別中。 [了解更多](#create-and-use-a-filtering-typology)。
+篩選規則可以連結到型別中的其他規則型別（控制、壓力等），或分組到專用的&#x200B;**篩選**&#x200B;型別。 [了解更多](#create-and-use-a-filtering-typology)。
 
 ## 建立篩選規則 {#create-a-filtering-rule}
 

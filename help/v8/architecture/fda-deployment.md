@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL是主要資料庫，而Snowflake可以做為次要資料庫使用。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
+PostgreSQL是主要資料庫，Snowflake可作為次要資料庫使用。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。

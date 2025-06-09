@@ -100,6 +100,6 @@ SQL欄位限制如下：
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
-  「html」型別可讓您將HTML內容儲存在CDATA標籤中，並在Adobe Campaign使用者端介面中顯示特殊的HTML編輯檢查。
+  「html」型別可讓您將HTML內容儲存在CDATA標籤中，並在HTML使用者端介面中顯示特殊的Adobe Campaign編輯檢查。
 
 使用XML欄位可讓您新增欄位，而不需要修改資料庫的實體結構。 另一個優點是，您使用的資源較少（配置給SQL欄位的大小、限制每個表格的欄位數等）。

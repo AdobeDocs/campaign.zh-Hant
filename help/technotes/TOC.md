@@ -8,7 +8,7 @@ breadcrumb-title: Campaign技術檔案
 source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 23%
    + [網際網路瀏覽器](upgrades/browsers.md)
    + [2023 年系統升級](upgrades/tech-stack-upgrade.md)
    + [使用者端主控台32位元淘汰](upgrades/console.md)
-   + 安全性{#security}
+   + 安全性 {#security}
       + [客戶憑證輪換](security/credential-rotation-guide.md)
 + [&lt;返回Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

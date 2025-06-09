@@ -1,20 +1,20 @@
 ---
-title: 透過Adobe Campaign在X (Twitter)上張貼訊息
-description: 瞭解如何使用Adobe Campaign社交行銷模組在X (先前稱為Twitter)上發佈訊息，並傳送直接訊息給您的追隨者
+title: 透過Adobe Campaign在X (Twitter)上發佈訊息
+description: 瞭解如何使用Adobe Campaign社交行銷模組在X （先前稱為Twitter）上發佈訊息，並傳送直接訊息給您的追隨者
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 透過Adobe Campaign在X (Twitter)上張貼訊息 {#post-tw-messages}
+# 透過Adobe Campaign在X (Twitter)上發佈訊息 {#post-tw-messages}
 
-Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (先前稱為Twitter)與客戶和潛在客戶互動。
+Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X （先前稱為Twitter）與客戶和潛在客戶互動。
 
 設定整合後，您可以：
 
@@ -80,7 +80,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
    1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式功能表並選取&#x200B;**[!UICONTROL Service]**。
    1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;欄位中，選取包含您X帳戶的服務資料夾。
 
-1. 傳送證明
+1. 傳送校樣
 
    在張貼推文之前，請務必傳送出版物的證明來驗證推文：您可以在私人X測試頁面上取得出版物的精確轉譯。
 
@@ -124,7 +124,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
 
    ![](assets/tw-dm-content.png)
 
-   個人化欄位的使用方式與電子郵件傳遞相同，例如，在訊息本文中新增追隨者的名稱。 若要了解詳細資訊，請參閱[本章節](../send/personalize.md)。
+   個人化欄位的使用方式與電子郵件傳遞相同，例如，在訊息本文中新增追隨者的名稱。 若要了解更多資訊，請參閱[此區段](../send/personalize.md)。
 
 1. 預覽您的訊息
 
@@ -136,7 +136,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
    1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式功能表並選取&#x200B;**[!UICONTROL Visitor Subscription]**。
    1. 選擇您要用來測試預覽的X帳戶。
 
-1. 傳送證明
+1. 傳送校樣
 
    在傳送郵件之前，請確定先以[傳送證明給測試帳戶](../send/preview-and-proof.md)來驗證郵件：您之後可以在私人X帳戶上取得郵件的精確轉譯，並檢查內容與個人化。
 
@@ -149,7 +149,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
 
 >[!CAUTION]
 >
->您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#sending-using-multiple-waves){target="_blank"}。
+>您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}。
 
 
 ## 存取追蹤資料 {#tw-tracking}
@@ -158,5 +158,5 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X (�
 
 可在傳遞報告及傳遞與服務的&#x200B;**[!UICONTROL Edit > Tracking]**&#x200B;標籤中檢視追蹤資料。
 
-追蹤設定與電子郵件傳遞的設定相同。 深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target="_blank"}。
+追蹤設定與電子郵件傳遞的設定相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 

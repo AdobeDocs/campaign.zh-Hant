@@ -28,10 +28,10 @@ ht-degree: 0%
 若要建立週期性行銷活動的範本，請遵循下列步驟：
 
 1. 開啟Campaign檔案總管並瀏覽至&#x200B;**[!UICONTROL Resources > Templates > Campaign templates]**。
-1. 複製內建&#x200B;**[!UICONTROL Recurring campaign]**&#x200B;範本。
+1. 複製內建&#x200B;**[!UICONTROL Recurring campaign]**範本。
    ![](assets/recurring-campaign-duplicate.png)
 1. 輸入範本名稱和行銷活動的持續時間。
-1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。 使用此索引標籤可根據此範本定義行銷活動的執行日期。
+1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**索引標籤以建立範本執行排程。 使用此索引標籤可根據此範本定義行銷活動的執行日期。
    ![](assets/recurring-campaign-schedule.png)
 
    執行排程的設定模式與工作流程的&#x200B;**[!UICONTROL Scheduler]**&#x200B;物件一致。 [了解更多](../workflow/scheduler.md)。

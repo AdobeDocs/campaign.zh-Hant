@@ -55,7 +55,7 @@ ht-degree: 10%
 在下列範例中，瞭解如何建立多語言電子郵件。 內容會根據收件者偏好的語言，以一種或另一種語言顯示。
 
 1. 建立電子郵件並選取目標母體。 在此範例中，顯示一個版本或另一個版本的條件將依據收件者設定檔的&#x200B;**語言**&#x200B;值。 這些值設定為&#x200B;**EN**、**FR**、**ES**。
-1. 在電子郵件HTML內容中，按一下「**[!UICONTROL Source]**」標籤，然後貼上下列程式碼：
+1. 在電子郵件HTML內容中，按一下「**[!UICONTROL Source]**」索引標籤並貼上下列程式碼：
 
    ```
    <% if (language == "EN" ) { %>
@@ -86,4 +86,4 @@ ht-degree: 10%
 
 此影片以多語言電子報為範例，示範如何新增條件式內容至傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426541?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

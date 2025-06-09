@@ -8,13 +8,13 @@ exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 84%
+ht-degree: 77%
 
 ---
 
 # 產品護欄{#guardrails}
 
-權利、產品限制和效能護欄列於 [Adobe Campaign Managed Cloud Services 產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
+權利、產品限制和效能護欄列於[Adobe Campaign Managed Cloud Services產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 
 當使用 [!DNL Adobe Campaign] 時，您將找到下面其他護欄和限制。
 

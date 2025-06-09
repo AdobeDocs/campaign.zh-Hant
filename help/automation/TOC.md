@@ -6,7 +6,7 @@ feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 81%
 # Campaign自動化指南 {#automation}
 
 + [Campaign自動化指南](home.md)
-+ 使用工作流程自動化{#workflows}
++ 使用工作流程自動化 {#workflows}
    + 開始使用工作流程 {#introduction}
       + [關於工作流程](workflow/about-workflows.md)
-      + 工作流程的型別{#wf-type}
+      + 工作流程型別 {#wf-type}
          + [目標工作流程](workflow/targeting-workflows.md)
          + [行銷活動工作流程](workflow/campaign-workflows.md)
          + [技術工作流程](workflow/technical-workflows.md)
@@ -32,7 +32,7 @@ ht-degree: 81%
       + [監視工作流程的執行](workflow/monitor-workflow-execution.md)
       + [監視技術工作流程](workflow/monitor-technical-workflows.md)
       + [工作流程熱度圖](workflow/heatmap.md)
-   + 工作流程活動{#wf-activities}
+   + 工作流程活動 {#wf-activities}
       + [開始使用活動](workflow/activities.md)
       + 目標定位活動 {#targeting-activities}
          + [目標定位活動清單](workflow/targeting-activities.md)
@@ -40,23 +40,23 @@ ht-degree: 81%
          + [變更資料來源](workflow/change-data-source.md)
          + [變更維度](workflow/change-dimension.md)
          + [CRM 連結器](workflow/crm-connector.md)
-         + [去重複化](workflow/deduplication.md)
+         + [重複資料刪除](workflow/deduplication.md)
          + [傳遞大綱](workflow/delivery-outline.md)
-         + [編輯方案](workflow/edit-schema.md)
+         + [編輯結構描述](workflow/edit-schema.md)
          + [擴充](workflow/enrichment.md)
          + [排除](workflow/exclusion.md)
          + [增量查詢](workflow/incremental-query.md)
          + [交集](workflow/intersection.md)
          + [清單更新](workflow/list-update.md)
-         + [依儲存格列出的優惠](workflow/offers-by-cell.md)
-         + [優惠引擎](workflow/offer-engine.md)
+         + [依儲存格列出的產品建議](workflow/offers-by-cell.md)
+         + [產品建議引擎](workflow/offer-engine.md)
          + [查詢](workflow/query.md)
          + [讀取清單](workflow/read-list.md)
          + [分割](workflow/split.md)
          + [訂閱服務](workflow/subscription-services.md)
          + [聯合](workflow/union.md)
          + [更新資料](workflow/update-data.md)
-      + 流量控制活動 {#flow-control-activities}
+      + 流程控制活動 {#flow-control-activities}
          + [流量控制活動清單](workflow/flow-control-activities.md)
          + [警報](workflow/alert.md)
          + [合併連結](workflow/and-join.md)
@@ -94,7 +94,7 @@ ht-degree: 81%
          + [傳入電子郵件](workflow/inbound-emails.md)
          + [傳入簡訊](workflow/inbound-sms.md)
          + [網頁下載](workflow/web-download.md)
-   + 使用實例 {#use-cases}
+   + 使用案例 {#use-cases}
       + [關於工作流程使用實例](workflow/workflow-use-cases.md)
       + 傳遞 {#deliveries}
          + [使用本地核准活動](workflow/local-approval-activity.md)
@@ -115,7 +115,7 @@ ht-degree: 81%
          + [設定週期性匯入工作流程](workflow/recurring-import-workflow.md)
       + 設計查詢 {#designing-queries}
          + [使用增量查詢更新每季清單](workflow/quarterly-list-update.md)
-      + 查詢和篩選器 {#designing-queries}
+      + 查詢和篩選 {#designing-queries}
          + [查詢收件者表格](workflow/querying-recipient-table.md)
          + [查詢傳遞資訊](workflow/query-delivery-info.md)
          + [計算彙總](workflow/compute-aggregates.md)
@@ -124,7 +124,7 @@ ht-degree: 81%
          + [新增分項清單類型計算欄位](workflow/adding-enumeration-type-calculated-field.md)
          + [建立篩選器](workflow/create-a-filter.md)
          + [篩選重複的收件者](workflow/filter-duplicated-recipients.md)
-   + 進階設定{#advanced-management}
+   + 進階設定 {#advanced-management}
       + [工作流程屬性](workflow/workflow-properties.md)
       + [高級參數](workflow/advanced-parameters.md)
       + [JavaScript 指令碼和範本](workflow/javascript-scripts-and-templates.md)
@@ -133,7 +133,7 @@ ht-degree: 81%
       + [管理權限](workflow/managing-rights.md)
       + [變更活動影像](workflow/change-activity-images.md)
       + [管理時區](workflow/managing-time-zones.md)
-+ Campaign 策劃 {#campaign-orchestration}
++ Campaign策劃 {#campaign-orchestration}
    + [開始使用行銷活動](campaigns/set-up-campaigns.md)
    + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
    + [建立及設定範本](campaigns/marketing-campaign-templates.md)

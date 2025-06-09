@@ -70,8 +70,8 @@ ht-degree: 17%
    * 輸入區塊的標籤。 此標籤會顯示在個人化欄位插入視窗中。
    * 選取&#x200B;**傳遞**&#x200B;內容型別。
    * 啟用&#x200B;**[!UICONTROL Visible in the customization menus]**&#x200B;選項，讓此區塊可從個人化欄位插入圖示存取。
-   * 必要時，請啟用&#x200B;**[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;選項，為HTML和文字電子郵件定義兩個不同的區塊。
-   * 輸入內容(HTML、文字、JavaScript等) 個人化區塊的，然後按一下&#x200B;**[!UICONTROL Save]**。
+   * 如有必要，請啟用&#x200B;**[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;選項，為HTML和文字電子郵件定義兩個不同的區塊。
+   * 輸入個人化區塊的內容(在HTML、文字、JavaScript等)，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 儲存後，新的個人化區塊便可在傳遞編輯器中使用。
 
@@ -79,4 +79,4 @@ ht-degree: 17%
 
 在以下影片中瞭解如何建立動態內容區塊，以及如何使用這些區塊來個人化您的電子郵件傳送內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449017?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

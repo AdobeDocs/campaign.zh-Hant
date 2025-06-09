@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# 傳送優惠方案{#send}
+# 傳送產品建議{#send}
 
 為了讓優惠方案引擎選取優惠方案，優惠方案已經過核准，並可在&#x200B;**即時**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
 
@@ -71,12 +71,12 @@ ht-degree: 3%
 數個工作流程活動可讓您定義優惠的顯示方式：
 
 * 擴充
-* 優惠引擎
-* 依儲存格列出的優惠
+* 產品建議引擎
+* 依儲存格列出的產品建議
 
 ### 擴充 {#enrichment}
 
-**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=zh-Hant){target="_blank"}。
+**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}。
 
 例如，您可以在傳遞前擴充收件者查詢的資料。
 
@@ -159,11 +159,11 @@ ht-degree: 3%
 
 傳遞會自動儲存優惠方案的排名和權重。 此資訊會顯示在傳遞的&#x200B;**[!UICONTROL Offers]**&#x200B;標籤中。
 
-### 優惠引擎 {#offer-engine}
+### 產品建議引擎 {#offer-engine}
 
 **[!UICONTROL Offer engine]**&#x200B;活動也可讓您指定在傳遞前對優惠方案引擎的呼叫。
 
-如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}。
 
 此活動的運作原則與引擎呼叫的&#x200B;**擴充**&#x200B;活動相同，方法是在傳遞前，使用引擎計算的優惠擴充入站母體資料。
 
@@ -182,11 +182,11 @@ ht-degree: 3%
 
 1. 然後，設定與您所選管道對應的傳送活動。 [了解更多](#inserting-an-offer-proposition-into-a-delivery)
 
-### 依儲存格列出的優惠 {#offers-by-cell}
+### 依儲存格列出的產品建議 {#offers-by-cell}
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分配至數個區段，並指定要針對每個區段呈現的選件。
 
-如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}。
 
 要執行此操作，請使用下列程式：
 

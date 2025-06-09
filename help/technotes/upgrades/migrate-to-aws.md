@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此變更會影響：
 
-* Campaign Classicv7託管和混合型客戶
+* Campaign Classic v7託管和混合型客戶
 * Campaign Managed Services客戶
 * 所有Campaign v8客戶
 * Campaign Standard客戶
@@ -51,7 +51,7 @@ ht-degree: 0%
 
   Adobe計畫淘汰舊版資料中心，在該處執行的Adobe Campaign執行個體必須轉移到新的參考資料中心Amazon Web Services (AWS)。
 
-  AdobeManaged Services雲端託管於Amazon Web Services (AWS)上，這是一個現代、安全且最佳化的環境。 [進一步瞭解Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
+  Adobe Managed Services雲端託管於Amazon Web Services (AWS)上，這是現代、安全且最佳化的環境。 [進一步瞭解Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
 
 * **此移轉的目標客戶為哪些客戶？**
 
@@ -63,15 +63,15 @@ ht-degree: 0%
 
 * **客戶移轉是否需要任何動作？**
 
-  不需要採取任何動作，因為Adobe會自動執行移轉。
+  移轉作業將由Adobe自動執行，因此無需執行任何動作。
 
 * **客戶需要執行哪些驗證？**
 
-  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   由於這是強制移轉，我們無法因應現有排程的修改。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

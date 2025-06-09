@@ -25,7 +25,7 @@ Adobe Campaign隨附內建運運算元群組，例如「行銷活動管理員」
 已命名的許可權會將許可權授予：
 
 * 執行作業
-例如，已針對具有&#x200B;**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
+例如，已針對具有**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 存取資料夾
 操作員群組的成員資格可以透過變更資料夾的安全性設定，來授予或限制資料夾的存取權。 在[此頁面](../start/folder-permissions.md)瞭解更多資訊。 例如，它可以影響： **寫入存取權**&#x200B;以建立新實體（例如傳送、設定檔等）、**讀取存取權**&#x200B;以使用實體、**刪除存取權**&#x200B;以刪除實體。
@@ -38,7 +38,7 @@ Adobe Campaign隨附內建運運算元群組，例如「行銷活動管理員」
 
 >[!NOTE]
 >
->Adobe身為「受管理的Cloud Service」使用者，會為您設定安全性區域。 如需詳細資訊，[連絡Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}。
+>Adobe以「受管理的Cloud Services」使用者的身分為您設定安全性區域。 如需詳細資訊，[請連絡Adobe](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}。
 
 **了解更多**
 

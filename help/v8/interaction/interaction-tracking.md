@@ -18,7 +18,7 @@ ht-degree: 4%
 >
 >這些功能只會線上上顯示，而且只有&#x200B;**傳遞管理員**&#x200B;可以看到。
 
-## 優惠主張歷史記錄{#offer-proposition-history}
+## 產品建議提議歷史記錄{#offer-proposition-history}
 
 提出優惠方案主張後，即可檢視簡報歷史記錄。
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
   ![](assets/offer_space_prop_001_b.png)
 
-## 優惠分析報告{#offer-analysis-report}
+## 產品建議分析報告{#offer-analysis-report}
 
 **[!UICONTROL Offer analysis]**&#x200B;報告提供您接受或拒絕建議數目的概觀。
 

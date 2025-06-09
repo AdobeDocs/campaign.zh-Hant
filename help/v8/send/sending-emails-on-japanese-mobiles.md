@@ -5,7 +5,8 @@ description: 瞭解如何設定、設計和傳送將在日文行動裝置上閱�
 feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Adobe Campaign針對行動裝置上的電子郵件管理三種特定的日文格
 
 不過，如果您保留&#x200B;**[!UICONTROL Email format]**&#x200B;選項為&#x200B;**[!UICONTROL Unknown]**、**[!UICONTROL HTML]**&#x200B;或&#x200B;**[!UICONTROL Text]**，Adobe Campaign會自動偵測（傳送電子郵件時）要使用的日文格式，以便正確顯示訊息。
 
-此自動偵測系統以&#x200B;**[!UICONTROL Management of Email Formats]**&#x200B;郵件規則集中定義的預先定義網域清單為基礎。 如需管理電子郵件格式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=zh-Hant#managing-email-formats)。
+此自動偵測系統以&#x200B;**[!UICONTROL Management of Email Formats]**&#x200B;郵件規則集中定義的預先定義網域清單為基礎。 如需管理電子郵件格式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats)。
 
 ## 限制和建議 {#limitations-and-recommendations}
 

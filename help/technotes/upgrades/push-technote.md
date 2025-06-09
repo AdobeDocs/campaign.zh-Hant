@@ -11,7 +11,7 @@ exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。
 
-此外，Adobe強烈建議改用權杖式連線來連線APN，而非更安全、更可擴充的憑證式連線。
+此外，Adobe強烈建議改用權杖式連線至APN，而非憑證式連線，因為後者更安全、更可擴充。
 
 ## Google Android Firebase Cloud Messaging (FCM)服務 {#fcm-push-upgrade}
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 ### 您有受到影響嗎？ {#fcm-impact}
 
-如果您目前的實作支援使用舊版API連線至FCM的訂閱服務，則會受到影響。 轉換至最新的API是必須的，這樣才能避免任何服務中斷。 在這種情況下，Adobe團隊會與您聯絡。
+如果您目前的實作支援使用舊版API連線至FCM的訂閱服務，則會受到影響。 轉換至最新的API是必須的，這樣才能避免任何服務中斷。 在這種情況下，Adobe團隊將會與您聯絡。
 
 若要檢查您是否受到影響，您可以依照以下篩選條件來篩選您的&#x200B;**服務與訂閱**：
 
@@ -50,17 +50,17 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 在[Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}中瞭解如何取得此檔案。
 
-* 針對Campaign Classic v7,20.3.1版本已新增支援HTTP v1。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至[最新的Campaign Classic組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant){target="_blank"}。 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
+* 針對Campaign Classic v7,20.3.1版本已新增HTTP v1支援。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。
 
-* 對於混合、託管和受管理的Cloud Service部署，除了下面的轉換程式外，請聯絡Adobe以更新您的即時(RT)執行伺服器。
+* 對於混合、託管和受管理的Cloud Services部署，除了下列轉換程式外，請聯絡Adobe以更新您的即時(RT)執行伺服器。
 
 * 關於Android路由外部帳戶：
 
-   * 作為Campaign Classic v7內部部署或混合使用者，請檢查您的Android路由外部帳戶是否已設定`androidPushConnectorV2.js`。 深入瞭解[Campaign Classicv7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}。
+   * 身為Campaign Classic v7內部部署或混合使用者，請檢查您的Android路由外部帳戶是否已設定`androidPushConnectorV2.js`。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}中進一步瞭解。
 
-   * 對於混合、託管和受管理的Cloud Service部署，您還必須與Adobe客戶服務團隊連線，以驗證在Android路由您中間來源伺服器的外部帳戶中選取`androidPushConnectorV2.js (nms)`聯結器。
+   * 對於混合、託管及受管理的Cloud Services部署，您還必須連線Adobe客戶服務團隊，以驗證在Android路由您的中間來源伺服器的外部帳戶中選取`androidPushConnectorV2.js (nms)`聯結器。
 
 #### 轉換程式 {#fcm-transition-steps}
 
@@ -101,7 +101,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 您也可以更新在升級至支援HTTP v1的版本之前建立的現有傳遞和傳遞範本。 若要執行此動作：
 
-* 若為「受管理的Cloud Service」或「託管」客戶，請聯絡Adobe以更新您現有的Android傳遞範本。
+* 請以「受管理的Cloud Services」或「託管」客戶身分，聯絡Adobe以更新您現有的Android傳遞範本。
 
 * 若為內部部署環境，請下載`fcm-httpv1-migration.js`指令碼並執行，如下所述。
 
@@ -156,7 +156,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-  +++
++++
 
 ### 對我的Android應用程式有何影響？ {#fcm-apps}
 
@@ -212,11 +212,11 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 針對Campaign Classicv7，已在20.2發行版本中新增支援&#x200B;**權杖式驗證**&#x200B;模式。 如果您的環境執行於較舊的版本，此變更的先決條件是將您的環境升級至[最新的Campaign Classic組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant){target="_blank"}。 對於Campaign v8，所有發行版本都支援&#x200B;**權杖式驗證**&#x200B;模式，且不需要升級。
+* 針對Campaign Classic v7，已在20.2發行版本中新增支援&#x200B;**權杖式驗證**&#x200B;模式。 如果您的環境執行於舊版，此變更的先決條件是將您的環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 對於Campaign v8，所有發行版本都支援&#x200B;**權杖式驗證**&#x200B;模式，且不需要升級。
 
-* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您向您的Apple開發人員帳戶要求此金鑰。
+* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您需向Apple開發人員帳戶索取此金鑰。
 
-* 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新即時(RT)執行伺服器。 中間來源伺服器不受影響。
+* 對於混合、託管和Managed Services部署，除了下列轉換程式外，請聯絡Adobe以更新您的即時(RT)執行伺服器。 中間來源伺服器不受影響。
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。 中間來源伺服器不受影響。
 

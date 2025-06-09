@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# 建立優惠方案空間{#creating-offer-spaces}
+# 建立產品建議空間{#creating-offer-spaces}
 
 優惠方案目錄的內容是在優惠方案空間中設定。 依預設，內容可以包含以下欄位： **[!UICONTROL Title]**、**[!UICONTROL Destination URL]**、**[!UICONTROL Image URL]**、**[!UICONTROL HTML content]**&#x200B;和&#x200B;**[!UICONTROL Text content]**。 欄位序列是在選件空間中設定。
 
 作為&#x200B;**技術管理員**，您可以在設計環境中建立優惠方案空間。 您必須具備優惠方案空間子資料夾的存取權。 建立後，這些優惠方案空間會在優惠方案核准期間自動複製到即時環境中。
 
-HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必須與內容中設定的順序相同。
+HTML呈現會透過呈現函式建立。 轉譯函式中定義的欄位順序必須與內容中設定的順序相同。
 
 ![](assets/offer_space_create_009.png)
 
@@ -156,4 +156,4 @@ HTML演算會透過演算函式建立。 轉譯函式中定義的欄位順序必
 
 當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已延伸，以使用傳入頻道新增空間中所參照的欄位時，就會發生這種情況。
 
-如需詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=zh-Hant){target="_blank"}中的範例。
+如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}中的範例。

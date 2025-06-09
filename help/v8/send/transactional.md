@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->作為Managed Cloud Service使用者，[請聯絡Adobe](../start/campaign-faq.md#support){target="_blank"}以在您的環境中設定Campaign異動訊息。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support){target="_blank"}以在您的環境中設定Campaign異動訊息。
 
 交易式訊息用於傳送：
 
@@ -43,7 +43,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 1. [建立事件型別](#create-event-types)。
 1. [建立並設計訊息範本](transactional-template.md#create-message-template)。 您必須在此步驟將事件連結至訊息。
 1. [測試訊息](transactional-template.md#test-message-template)。
-1. [Publish訊息範本](transactional-template.md#publish-message-template)。
+1. [發佈訊息範本](transactional-template.md#publish-message-template)。
 
 設計和發佈異動訊息範本後，如果觸發了對應的事件，則會透過PushEvent和PushEvents [SOAP方法](../send/event-description.md)將相關資料傳送至Campaign，並將傳遞傳送至目標收件者。
 

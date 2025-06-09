@@ -60,7 +60,7 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 <ul>
 <li>SMS輸送量：快達<strong>5x</strong></li>
 </ul>
-<p><em>這些最大輸送量效能是由Adobe測試團隊在實驗室條件下測量的。</em></p>
+<p><em>Adobe測試團隊已在實驗室條件下測量這些最大輸送量效能。</em></p>
 </div>
 <p></p>
 </td>
@@ -71,18 +71,18 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 
 * 您現在可以利用Adobe Experience Platform目的地連線來同步設定檔屬性，例如Adobe Experience Platform與Campaign v8資料庫之間的選擇退出資料。
 * 已針對所有管道進行傳遞準備最佳化。
-* 除了現有的使用者/密碼驗證方法之外，還為SFTP外部帳戶新增了金鑰型驗證選項。 使用者現在可以使用私密金鑰安全地驗證，增強安全性並為SFTP存取提供替代驗證機制。 若要了解詳細資訊，請參閱[本章節](../config/external-accounts.md)。
+* 除了現有的使用者/密碼驗證方法之外，還為SFTP外部帳戶新增了金鑰型驗證選項。 使用者現在可以使用私密金鑰安全地驗證，增強安全性並為SFTP存取提供替代驗證機制。 若要了解更多資訊，請參閱[此區段](../config/external-accounts.md)。
 
 **安全性改善功能**
 
-* 使用Campaign v8.5.1時，Campaign v8的驗證程式已改善並安全。 技術操作員現在必須使用AdobeIdentity Management系統(IMS)來連線至Campaign。 透過[此技術說明](../../technotes/upgrades/ims-migration.md)了解如何移轉您現有的技術帳戶。
-* 從即將推出的v8.6開始，您將無法再從Campaign使用者端主控台建立運運算元。 如果您使用登入/密碼原生驗證，您必須將操作員移轉至AdobeIdentity Management System (IMS)。 閱讀此[技術說明](../../technotes/upgrades/migrate-users-to-ims.md)，了解如何移轉操作者。
+* 使用Campaign v8.5.1時，Campaign v8的驗證程式已改善並安全。 技術操作員現在必須使用Adobe Identity Management System (IMS)來連線至Campaign。 透過[此技術說明](../../technotes/upgrades/ims-migration.md)了解如何移轉您現有的技術帳戶。
+* 從即將推出的v8.6開始，您將無法再從Campaign使用者端主控台建立運運算元。 如果您使用登入/密碼原生驗證，您必須將操作員移轉至Adobe Identity Management System (IMS)。 閱讀此[技術說明](../../technotes/upgrades/migrate-users-to-ims.md)，了解如何移轉操作者。
 * 已更新數個協力廠商工具，以最佳化安全性。
 
 **相容性更新**
 
 * 使用者端主控台的32位元版本現已棄用。 從8.6版開始，使用者端主控台將僅提供64位元版本。 使用者端主控台可順暢升級至64位元版本。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
-* 您現在可以將Campaign v8執行個體連線至Azure synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 深入瞭解[促銷活動相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)。
+* 您現在可以將Campaign v8執行個體連線至Azure Synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 深入瞭解[促銷活動相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)。
 
 
 **修正**
@@ -140,9 +140,9 @@ _2023 年 1 月 27 日_
 
 * 修正行銷伺服器與中間來源伺服器之間的傳送指標同步問題。(NEO-50724) <!--OKKKK-->
 * 修正匯出工作流程時可能導致錯誤的問題。(NEO-50555) <!--OKKKK-->
-* 修正延伸以前延伸之架構時出現的問題。(NEO-49118) <!--OKKKK-->
+* 修正延伸以前延伸之結構描述時出現的問題。(NEO-49118) <!--OKKKK-->
 * 修正在連結定義中使用兩個具有相同識別碼的擴充活動時出現的問題。(NEO-48851)
-* 修正兩個傳送準備失敗問題。當操作的潛在優惠方案數量太多時，傳送準備可能會失敗。 當影像 URL 定義為要在文字格式傳送中追蹤的 URL 時，會出現第二個問題。(NEO-48807) <!--OKKKK-->
+* 修正兩個傳送準備失敗問題。當操作的潛在產品建議數量太多時，傳送準備可能會失敗。 當影像 URL 定義為要在文字格式傳送中追蹤的 URL 時，會出現第二個問題。(NEO-48807) <!--OKKKK-->
 * 修正可能導致工作流程失敗的問題，即工作流程會覆寫非 FFDA 帳戶外部帳戶中定義的倉儲名稱。(NEO-43209) <!--OKKKK-->
 * 改善網站應用程式的安全性，以防止 DDoS 攻擊。 (NEO-50757) <!--OKKKK-->
 * **[!UICONTROL Consolidated tracking]**(nms:trackingStats) FFDA 表中對合併追蹤資料的管理已得到改善，以避免重複。(NEO-46409)

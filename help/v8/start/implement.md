@@ -8,7 +8,7 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 * **使用者同意與資料保留**：您必須取得使用者同意、設定雙重選擇加入訂閱機制、加速選擇退出並設定資料保留。
 
-  請參閱 [Campaign Classic v7 隱私權文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target="_blank"}深入瞭解
+  進一步瞭解[Campaign Classic v7隱私權檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target="_blank"}
 
 * **隱私和資料保護法規**：請參考[此章節](privacy.md)關於隱私權請求的資訊，以及這些法規對您的組織和 Adobe Campaign 的影響。
 
@@ -85,9 +85,9 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=zh-Hant){target="_blank"}瞭解如何使用行銷活動範本。
 
-   在[本頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"}瞭解如何設定工作流程範本。
+   瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"}中設定工作流程範本。
 
-   如欲深入瞭解電子郵件範本，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}。
+   若要深入瞭解電子郵件範本，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}。
 
 
 1. **設定類型規則**

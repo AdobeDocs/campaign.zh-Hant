@@ -8,13 +8,13 @@ exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 開始使用分散式行銷{#about-distributed-marketing}
 
-Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在中央實體（總部、行銷部門等）之間實施合作行銷活動 本地實體 (銷售地點、地區代理等)。 此合作是以稱為&#x200B;**[!UICONTROL list of campaign packages]**&#x200B;的共用工作區為基礎，集中式建立的行銷活動範本和執行個體會提供給本機實體。
+Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在中央實體（總部、行銷部門等）與當地實體（銷售點、地區代理等）之間實施合作行銷活動。 此合作是以稱為&#x200B;**[!UICONTROL list of campaign packages]**&#x200B;的共用工作區為基礎，集中式建立的行銷活動範本和執行個體會提供給本機實體。
 
 中央實體提供當地實體可使用的行銷活動。 行銷活動由代表本機或合作行銷活動的套件具體化。 若要使用行銷活動，當地實體必須對其進行訂購，並且訂單必須獲得核准。
 
@@ -108,7 +108,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-每個組織實體都包含識別資訊（標籤、內部名稱、聯絡資訊等） 與訂單核准流程中涉及的群組。 這些是在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Notifications and approvals]**&#x200B;區段中定義的。
+每個組織實體都包含訂單核准流程中涉及的識別資訊（標籤、內部名稱、聯絡資訊等）和群組。 這些是在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Notifications and approvals]**&#x200B;區段中定義的。
 
 * 定義套件通知群組：此群組中的操作員將在每次將新套件新增到行銷活動套件清單和每次行銷活動可用時收到通知。
 * 選取負責核准訂單的稽核者群組，即負責核准本地實體所訂購行銷活動的稽核者。
@@ -150,7 +150,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 1. 使用行銷活動本地化所用的欄位更新表單。
 1. 從適當的行銷活動範本（合作行銷活動）建立執行個體或複製行銷活動範本（本機行銷活動）。
 1. 使用本地化欄位和表單參考來設定行銷活動。
-1. Publish促銷活動。
+1. 發佈行銷活動。
 
 ### 本地操作員任務 {#local-operator-side}
 

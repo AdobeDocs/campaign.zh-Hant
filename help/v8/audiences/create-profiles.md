@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# 手動建立設定檔{#create-profiles-manual}
+# 手動建立輪廓{#create-profiles-manual}
 
 若要填入您的Campaign資料庫，您可以[匯入設定檔](import-profiles.md)或手動新增設定檔，如下所述。
 

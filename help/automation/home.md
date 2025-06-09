@@ -3,7 +3,7 @@ keywords: Campaign Automation；首頁；熱門主題
 product: campaign
 title: Adobe Campaign自動化首頁
 feature: Overview
-description: 概覽
+description: 概觀
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt

@@ -60,13 +60,13 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 在[本節](extend-schema.md)中瞭解如何擴充現有結構描述。
 
-在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，在[此區段](custom-recipient.md)中說明。
 
 ## Campaign表格和雲端資料庫
 
-若要更瞭解Campaign v8中的資料表管理，請注意，在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，資料表會在Campaign與其Snowflake雲端資料庫之間復寫。
+如需深入瞭解Campaign v8中的表格管理，請注意，在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，表格會在Campaign與其Snowflake雲端資料庫之間復寫。
 
 在[本節](../architecture/replication.md)中進一步瞭解復寫策略和機制。
 

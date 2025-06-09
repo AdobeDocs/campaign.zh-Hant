@@ -35,7 +35,7 @@ ht-degree: 1%
 
   工作流程開始後，傳送會新增至行銷活動控制面板。
 
-在此頁面[&#128279;](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程。
+在此頁面](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程[。
 
 ## 開始傳遞 {#start-a-delivery}
 
@@ -113,4 +113,4 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >在本節[&#128279;](providers-stocks-and-budgets.md)中進一步瞭解預算。
+  >在本節](providers-stocks-and-budgets.md)中進一步瞭解預算[。

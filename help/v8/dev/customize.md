@@ -34,7 +34,7 @@ Adobe Campaign使用資料結構描述來：
 
 * 透過介面，使用&#x200B;**新欄位**&#x200B;小幫手
 
-  在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中瞭解如何在Campaign中快速新增欄位
+  在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}中瞭解如何在Campaign中快速新增欄位
 
 * 以程式設計方式，擴充綱要。 在[本節](../dev/extend-schema.md)中瞭解如何擴充現有結構描述。
 
@@ -44,9 +44,9 @@ Adobe Campaign使用資料結構描述來：
 
 **相關主題**
 
-[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中的結構描述版本範例
+[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}中的結構描述版本範例
 
-使用案例：將欄位連結至[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#uc-link){target="_blank"}中的現有參考表格
+使用案例：將欄位連結至[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}中的現有參考表格
 
 
 ## 修改輸入表單
@@ -61,7 +61,7 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 內建的Web應用程式儲存在Explorer的&#x200B;**管理>組態> Web應用程式**&#x200B;資料夾中。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=zh-Hant#creating-a-single-page-web-application){target="_blank"}中瞭解如何在Campaign中建立概觀頁面
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}中瞭解如何在Campaign中建立概觀頁面
 
 
 ## 自訂清單並建立篩選器 {#gs-lists-and-filters}

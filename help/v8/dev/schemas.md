@@ -12,7 +12,7 @@ ht-degree: 5%
 
 ---
 
-# 使用方案{#gs-ac-schemas}
+# 使用結構描述{#gs-ac-schemas}
 
 並以 XML 描述了應用程式中資料的實體和邏輯結構。它遵循Adobe Campaign特有的語法，稱為&#x200B;**結構描述**。
 
@@ -115,7 +115,7 @@ Adobe Campaign採用資料結構描述來：
 
 分項清單會先定義，在結構描述的主要元素之前。 它們可讓您在清單中顯示值，以限制使用者在指定欄位中的選擇。
 
-例如：
+範例：
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -168,7 +168,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 -->
 
-## 金鑰 {#keys}
+## 索引鍵 {#keys}
 
 每個資料表都必須至少有一個索引鍵，而且通常是使用設定為&#x200B;**true**&#x200B;的&#x200B;**autopk**&#x200B;屬性，在結構描述的主要元素中自動建立它。
 
@@ -176,7 +176,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 主索引鍵也可以使用&#x200B;**internal**&#x200B;屬性來定義。
 
-例如：
+範例：
 
 ```
 <key name="householdId" internal="true">
@@ -194,13 +194,13 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## 屬性（欄位） {#attributes--fields-}
 
-屬性可讓您定義組成資料物件的欄位。 您可以使用結構描述版本工具列中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空的屬性範本拖放到游標所在的XML中。 若要了解詳細資訊，請參閱[本章節](create-schema.md)。
+屬性可讓您定義組成資料物件的欄位。 您可以使用結構描述版本工具列中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空的屬性範本拖放到游標所在的XML中。 若要了解更多資訊，請參閱[此區段](create-schema.md)。
 
 ![](assets/schemaextension_2.png)
 
-在[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=zh-Hant#content-model){target="_blank"}的`<attribute>`元素區段中，有完整的屬性清單可供使用。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
 
-如需每個屬性的詳細資訊，請參閱[Campaign Classicv7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中的屬性說明。
+如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中的屬性說明。
 
 ### 範例 {#examples}
 

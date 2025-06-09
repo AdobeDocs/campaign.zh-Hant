@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
 ![](assets/calendar.png)
 
-在[本章節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant){target="_blank"}探索如何存取及實施行銷活動。
+在[本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant){target="_blank"}中瞭解如何存取及實施行銷活動。
 
 ## 開始的關鍵步驟{#gs-ac-start}
 
@@ -56,7 +56,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    定義層次結構和計畫、設定預算、加入資源、選擇運算子。
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant){target="_blank"}瞭解如何建立行銷計劃並設定行銷活動。
+   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=zh-Hant){target="_blank"}中瞭解如何建立行銷計畫及設定行銷活動。
 
    所有行銷活動都以儲存主要設定和功能的範本為基礎。 提供內建範本，以建立尚未定義特定設定的行銷活動。 您可以建立和設定行銷活動範本，然後從這些範本建立行銷活動。
 
@@ -70,7 +70,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    ![](assets/campaign-wf.png)
 
-   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}瞭解如何定義訊息客群。
+   在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}瞭解如何定義訊息的客群。
 
 1. **建立傳遞**
 
@@ -97,7 +97,7 @@ Adobe Campaign 提供&#x200B;**分散式行銷**&#x200B;附加元件，為中心
 >
 >此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}瞭解如何設定並使用 Campaign 分散式行銷功能。
+瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}中設定及使用Campaign分散式行銷功能。
 
 ## 回應管理附加內容{#response-manager-add-on}
 
@@ -107,4 +107,4 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 >
 >此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png)瞭解如何在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}設定並使用行銷活動回應管理員。
+[](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。

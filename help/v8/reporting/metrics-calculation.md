@@ -234,13 +234,13 @@ ht-degree: 3%
    <td> Sum(iIf([url/@category]='email'，@totalClicks，0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> facebook<br /> </td> 
+   <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
    <td> URL類別等於「facebook」的所有@totalClicks數總和。<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook'，@totalClicks，0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> twitter<br /> </td> 
+   <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
    <td> URL類別等於「twitter」的所有@totalClicks數總和。<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter'，@totalClicks，0))<br /> </td> 
@@ -368,7 +368,7 @@ ht-degree: 3%
    <td> 共用<br /> </td> 
    <td> @shared<br /> </td> 
    <td> 包含在「電子郵件」、「facebook」、「twitter」、「delicious」、「digg」、「google」、「linkedin」中的URL類別數<br />所有URL類別等於「email」、「facebook」、「twitter」、「delicious」、「digg」、「google」或「linkedin」的@totalClicks數。<br /> </td> 
-   <td> count (Iif([url/@category] IN (email' ， 'facebook' ， 'twitter' ， 'delicious' ， 'digg' ， 'google' ， 'linkedin')， @totalClicks， 0))<br /> </td> 
+   <td> 計數(Iif([url/@category] IN (email' ， 'facebook' ， 'twitter' ， 'delicious' ， 'digg' ， 'google' ， 'linkedin')， @totalClicks， 0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -649,13 +649,13 @@ ht-degree: 3%
    <td> Sum(iIf([url/@category]='email'，@totalClicks，0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> facebook<br /> </td> 
+   <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
    <td> URL類別等於「facebook」的所有@totalClicks數總和。<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook'，@totalClicks，0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> twitter<br /> </td> 
+   <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
    <td> URL類別等於「twitter」的所有@totalClicks數總和。<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter'，@totalClicks，0))<br /> </td> 
@@ -723,7 +723,7 @@ ht-degree: 3%
    <td> 點按<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL主索引鍵與1<br />不同的所有@totalClicks數 </td> 
-   <td> count(Iif([@url-id]&rbrack; ！= 1， @totalClicks， 0))<br /> </td> 
+   <td> count(Iif([@url-id]] ！= 1， @totalClicks， 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 點按次數(%)<br /> </td> 

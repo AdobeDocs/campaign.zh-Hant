@@ -28,12 +28,12 @@ ht-degree: 8%
 
   >[!AVAILABILITY]
   >
-  >Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+  >Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
   >
 
-* **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  在本節[&#128279;](../start/connect.md#web-access)中進一步瞭解Campaign網頁存取。
+* **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此Web介面存取報告、控制和驗證訊息、存取監控儀表板等。  在本節](../start/connect.md#web-access)中進一步瞭解Campaign網頁存取[。
 
-* **API** — 若要解決更多使用案例，可以使用透過SOAP通訊協定公開的網站服務API，從外部應用程式呼叫系統。 在此頁面[&#128279;](../dev/api.md)中進一步瞭解Campaign API 。
+* **API** — 若要解決更多使用案例，可使用透過SOAP通訊協定公開的網站服務API，從外部應用程式呼叫系統。 在此頁面](../dev/api.md)中進一步瞭解Campaign API [。
 
 
 ## 使用使用者端主控台 {#ui-access}
@@ -114,12 +114,12 @@ The web access interface is similar to the console interface. From a browser, yo
 
 >[!AVAILABILITY]
 >
->Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[AdobeIdentity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
+>Campaign Web使用者介面僅適用於使用Adobe ID連線至Adobe Campaign的使用者。 深入瞭解[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 >
 
-在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。 您也可以瀏覽Campaign Web使用者介面檔案中的專屬[常見問題頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/faq){target="_blank"}。
+在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。 您也可以在Campaign網頁使用者介面檔案中瀏覽專屬的[常見問題集](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}。
 
-其他和進階功能、組態和設定只能在使用者端主控台中使用。 在Campaign Web使用者介面檔案[&#128279;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=zh-Hant){target="_blank"}中進一步瞭解兩種使用者介面中可用的功能。
+其他和進階功能、組態和設定只能在使用者端主控台中使用。 在Campaign Web使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=zh-Hant){target="_blank"}中進一步瞭解兩種使用者介面[中可用的功能。
 
 
 ## 支援的語言 {#languages}
@@ -139,7 +139,7 @@ The web access interface is similar to the console interface. From a browser, yo
   >
   >語言是在安裝過程中選取的，之後無法變更。
 
-* 若為Campaign Web使用者介面支援的語言，[請參考此頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=zh-Hant#language-pref){target="_blank"}。
+* 若為Campaign Web使用者介面支援的語言，[請參考此頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}。
 
 
 語言會影響日期和時間格式。

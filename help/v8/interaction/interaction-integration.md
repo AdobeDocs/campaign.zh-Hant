@@ -62,9 +62,9 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 此行為可讓您在同一個頁面上使用數個優惠方案空間，以便透過對優惠方案引擎的單一呼叫來管理。
 
-**步驟3：在HTML頁面**&#x200B;中顯示結果
+**步驟3：在HTML頁面中顯示結果**
 
-優惠方案引擎會將優惠方案表示的內容傳回HTML頁面：
+優惠方案引擎會將優惠方案呈現的內容傳回HTML頁面：
 
 ```
 <div id="banner_header">
@@ -90,7 +90,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-若要將優惠方案呈現給已識別的連絡人，程式與本區段[&#128279;](#presenting-an-anonymous-offer)中詳細的類似。
+若要將優惠方案呈現給已識別的連絡人，程式與本區段](#presenting-an-anonymous-offer)中詳細的[類似。
 
 在網頁內容中，您需要新增下列指令碼，以在呼叫優惠方案引擎期間識別聯絡人：
 
@@ -118,7 +118,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 使用HTML演算函式 {#using-an-html-rendering-function}
 
-若要自動產生HTML選件表示，您可以使用演算功能。
+若要自動產生HTML選件表示，您可以使用演算函式。
 
 1. 前往優惠方案空間並按一下&#x200B;**[!UICONTROL Edit functions]**&#x200B;連結。
 1. 選取 **[!UICONTROL Overload the HTML rendering function]**。
@@ -251,7 +251,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    已新增&#x200B;**[!UICONTROL Title 2]**&#x200B;及&#x200B;**[!UICONTROL Price]**&#x200B;欄位，且不再顯示&#x200B;**[!UICONTROL Destination URL]**&#x200B;欄位。
 
-1. **建立優惠方案**
+1. **建立產品建議**
 
    如需建立優惠方案的詳細資訊，請參閱[此頁面](interaction-offer.md)。
 
@@ -263,9 +263,9 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    核准優惠或由其他人核准，然後在最後一個步驟建立的優惠方案空間上啟用它，以便在連結的即時環境中可用。
 
-1. 在HTML頁面&#x200B;**上執行**&#x200B;引擎呼叫和結果
+1. 在HTML頁面上執行&#x200B;**引擎呼叫和結果**
 
-   在HTML頁面中呼叫優惠方案引擎看起來像這樣：
+   在HTML頁面中呼叫選件引擎看起來像這樣：
 
    ```
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
@@ -295,7 +295,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 使用演算函式 {#using-a-rendering-function-}
 
-您可以使用XML演算函式來建立優惠方案簡報。 此函式將修改在呼叫優惠方案引擎期間傳回至HTML頁面的XML節點。
+您可以使用XML演算函式來建立優惠方案簡報。 此函式將修改在呼叫優惠方案引擎期間傳回HTML頁面的XML節點。
 
 1. 前往優惠方案空間並按一下&#x200B;**[!UICONTROL Edit functions]**&#x200B;連結。
 1. 選取 **[!UICONTROL Overload the XML rendering function]**。
@@ -316,9 +316,9 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 為Offer Management提供的SOAP Web服務與Adobe Campaign中通常使用的服務不同。 可透過上一節所述的互動URL存取優惠方案，並讓您提供或更新指定聯絡人的優惠方案。
 
-### 產品建議主張 {#offer-proposition}
+### 產品建議提議 {#offer-proposition}
 
-對於透過SOAP的優惠方案主張，請新增&#x200B;**nms：proposition#Propose**&#x200B;命令，後面接著下列引數：
+若要透過SOAP提出優惠方案，請新增&#x200B;**nms：proposition#Propose**&#x200B;命令，後面接著下列引數：
 
 * **targetId**：收件者的主索引鍵（可以是複合索引鍵）。
 * **maxCount**：指定連絡人的優惠方案主張數目。
@@ -336,7 +336,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 為回應查詢，SOAP服務將傳回下列引數：
 
 * **interactionId**：互動識別碼。
-* **主張**： XML元素，包含主張清單，每個都具有自己的ID和HTML表示。
+* **主張**： XML元素，包含主張清單，每個都具有自己的ID和HTML表示法。
 
 ### 優惠更新 {#offer-update}
 

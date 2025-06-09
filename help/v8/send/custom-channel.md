@@ -3,13 +3,13 @@ title: 開始使用自訂外部管道
 description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂外部通道傳遞
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
+exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
+source-git-commit: f94074d954137c4db39b2ef9f85141b79fe3356b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # 開始使用自訂外部管道 {#gs-custom-channel}
 
@@ -17,7 +17,7 @@ Adobe Campaign可讓您建立與第三方整合的自訂外部管道。 然後�
 
 傳遞的建立和傳送可在使用者端主控台和網頁UI中執行。 不過，自訂外部通道只能在使用者端主控台中執行。
 
-若要瞭解如何根據自訂外部通道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=zh-Hant)。
+若要瞭解如何根據自訂外部通道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html)。
 
 以下是在使用者端主控台中建立新外部自訂頻道的步驟：
 
@@ -69,5 +69,3 @@ Adobe Campaign可讓您建立與第三方整合的自訂外部管道。 然後�
    ![](assets/cus-template.png){zoomable="yes"}
 
 新頻道現已推出。 您可以根據此管道來建立及執行傳送。
-
-

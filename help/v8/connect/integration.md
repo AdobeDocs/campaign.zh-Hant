@@ -22,7 +22,7 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 結合Adobe Experience Cloud解決方案，匯入最新的實作方式。
 
-Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解使用案例、設定和指南：
+Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
 * Adobe Analytics。[了解更多](../connect/ac-aa.md)
 * Adobe Experience Cloud觸發程式。 [了解更多](../connect/ac-triggers.md)
@@ -32,15 +32,15 @@ Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解
 * Adobe Target。 [了解更多](../connect/ac-at.md)
 * Adobe Workfront。 [了解更多](../connect/ac-workfront.md)
 
-您也可以結合跨Experience Cloud解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**，以及資產共用和對象共用功能。
+您也可以結合跨Experience Cloud解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;與資產共用和對象共用功能。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
 
 >[!NOTE]
 >
->作為「受管理的Cloud Service」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。
+>作為「受管理的Cloud Services」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連線。
 
 
 ## 與您的CRM聯結器整合{#gs-crm-connectors}
@@ -50,7 +50,7 @@ Campaign v8可與下列Adobe解決方案連結。 瀏覽連結以進一步瞭解
 透過跨管道通訊啟用您的CRM資料：瞭解如何將聯絡人從CRM系統傳遞至Adobe Campaign，以及如何將行銷活動資料從Adobe Campaign分享回您的CRM系統。
 CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。 並且可確保雙向同步處理，讓整個系統中的資料隨時保持最新。
 
-在[此頁面](crm.md)中瞭解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合
+在[本頁面](crm.md)中瞭解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合
 
 ## 透過同盟資料存取連線協力廠商{#gs-fda}
 
@@ -60,7 +60,7 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 ## 使用社群媒體{#gs-social}
 
-使用Adobe Campaign透過X (先前稱為Twitter)與客戶和潛在客戶互動。
+使用Adobe Campaign透過X （先前稱為Twitter）與客戶和潛在客戶互動。
 
 您可以：
 

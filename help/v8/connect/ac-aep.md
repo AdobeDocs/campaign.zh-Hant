@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 與Adobe Experience Platform共用和同步受眾 {#gs-ac-aep}
 
-Adobe Campaign受管理的Cloud Service目的地和Source聯結器可緊密整合Adobe Campaign和Adobe Experience Platform。 透過這項整合，您可以：
+Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整合Adobe Campaign和Adobe Experience Platform。 透過這項整合，您可以：
 
 * 將Adobe Experience Platform受眾傳送至Adobe Campaign，並將傳送和追蹤記錄傳回至Adobe Experience Platform進行分析，
 * 將Adobe Experience Platform設定檔屬性匯入Adobe Campaign並建立同步程式，以便定期更新。

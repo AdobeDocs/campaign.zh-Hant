@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**不要**&#x200B;修改Adobe管理的認證。 任何具有`adobe`相關伺服器的外部帳戶都不應修改。
+>**不要**&#x200B;修改Adobe Managed認證。 任何具有`adobe`相關伺服器的外部帳戶都不應修改。
 
 ![](assets/technote-1.png)
 
@@ -38,26 +38,26 @@ ht-degree: 1%
 
 1. Adobe可以變更這類操作員的認證，並與您共用。 請注意，在您這邊更新這些操作員的認證之前，使用這些操作員的所有整合功能都將停止運作。
 
-1. Adobe可以建立與每個現有運運算元對應的&#x200B;**新**&#x200B;運運算元，並與您共用。 在您切換至這些新運運算元後，Adobe將會刪除所有出現的舊運運算元。
+1. Adobe可建立與每個現有運運算元相對應的&#x200B;**新**&#x200B;運運算元，並與您共用。 在您切換至舊運運算元後，Adobe將會刪除這些運運算元的所有相符專案。
 
 
 ## Mobile Services私人金鑰/憑證  {#ac-key-credentials}
 
 如需與行動服務相關的私密金鑰和憑證的輪換，請參閱以下連結。
 
-* 若為Android，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}。
-瀏覽至&#x200B;**建立Android行動應用程式>設定API版本**&#x200B;區段。
+* 若為Android，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}。
+瀏覽至**建立Android行動應用程式>設定API版本**&#x200B;區段。
 
-* 若為iOS，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}。
-瀏覽至&#x200B;**建立iOS行動應用程式 — >驗證模式**&#x200B;區段。
+* 若為iOS，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}。
+瀏覽至**建立iOS行動應用程式 — >驗證模式**&#x200B;區段。
 
 ## GPG 金鑰 {#ac-gpg-credentials}
 
 若要旋轉GPG金鑰，必須執行下列步驟：
 
-1. 使用現有金鑰解密現有資料。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
+1. 使用現有金鑰解密現有資料。 [了解更多](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
 
-1. 建立新的GPG金鑰組。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}中進一步瞭解GPG金鑰管理。
+1. 建立新的GPG金鑰組。 在[本檔案](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}中進一步瞭解GPG金鑰管理。
 
 1. 以新建立的金鑰取代所有工作流程中的現有GPG金鑰使用方式。
 

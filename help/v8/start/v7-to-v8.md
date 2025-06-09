@@ -27,7 +27,7 @@ ht-degree: 76%
 
 Adobe Campaign v8 可作為 **Managed Cloud Service**。 
 
-Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}中進一步瞭解Campaign ManagedCloud Service。
+Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Managed Cloud Services 平台，同時為視覺銷活動的策劃、即時互動管理和跨頻道執行提供適合環境。在[產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}中進一步瞭解Campaign Managed Cloud Services。
 
 此新產品結合同級最佳服務與預防性監督和即時警報，重點關注三個方面：
 
@@ -42,7 +42,7 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 
 ## 混合式架構 {#hybrid-archi}
 
-Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classicv7進行轉換，請注意，所有傳遞都會通過中間來源伺服器。
+Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic v7進行轉換，請注意，所有傳遞都會通過中間來源伺服器。
 
 因此：
 
@@ -70,7 +70,7 @@ Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保
 
 ## 使用多維度資料集分析資料{#adobe-reporting}
 
-使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標母體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
+使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標群體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
 
 Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。若要深入了解多維度資料集，請參閱[本節](../../v8/reporting/gs-cubes.md)。
 
@@ -88,7 +88,7 @@ Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign C
 Campaign v8 不再支援某些歷史性的 Campaign Classic v7 功能，例如：
 
 * 使用 Facebook 進行社交行銷
-* ACS 連接器 (主要優惠)
+* ACS 連接器 (主要產品建議)
 * 與 LDAP 整合
 * 使用者/密碼登入
 * 混合/內部部署模型

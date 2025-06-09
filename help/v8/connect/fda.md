@@ -20,9 +20,9 @@ ht-degree: 1%
 >
 >* 同盟資料存取的相容資料庫列於[相容性矩陣](../start/compatibility-matrix.md)。
 >
->* 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，有特定的外部帳戶可用來管理Campaign本機資料庫與Snowflake雲端資料庫之間的通訊。 此外部帳戶是依Adobe為您設定的，**不得**&#x200B;修改。
+>* 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，有特定的外部帳戶可用來管理Campaign本機資料庫與Snowflake雲端資料庫之間的通訊。 此外部帳戶由Adobe為您設定，且&#x200B;**不得**&#x200B;修改。
 >
->* 作為Managed Cloud Service使用者，[請連絡Adobe](../start/campaign-faq.md#support)以連線外部資料庫與Campaign。
+>* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連線外部資料庫與Campaign。
 
 
 ## 最佳實務和限制
