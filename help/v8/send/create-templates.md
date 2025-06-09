@@ -147,12 +147,12 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 以下影片說明如何設定傳遞範本屬性，並詳細說明每個屬性。
 
->[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3443412?quality=12&captions=chi_hant)
 
 ### 如何部署隨選傳遞範本
 
 此影片說明如何部署隨選電子郵件傳遞範本，並說明電子郵件傳遞與傳遞工作流程之間的差異。
 
->[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444968?quality=12&captions=chi_hant)
 
 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。

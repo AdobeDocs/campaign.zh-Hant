@@ -208,4 +208,4 @@ ht-degree: 4%
 
 本影片說明如何建立行銷計畫、方案和行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426483?quality=12&captions=chi_hant)
