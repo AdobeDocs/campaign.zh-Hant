@@ -156,7 +156,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### 對我的Android應用程式有何影響？ {#fcm-apps}
 

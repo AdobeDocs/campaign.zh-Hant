@@ -48,8 +48,8 @@ ht-degree: 16%
 已從&#x200B;**[!UICONTROL Targeting mode]**&#x200B;下拉式清單中選取校訂目標的型別。
 
 * 使用&#x200B;**[!UICONTROL Definition of a specific proof target]**&#x200B;選項選取資料庫中的收件者作為校訂目標。
-* 使用&#x200B;**[!UICONTROL Substitution of the address]**選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
-預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+* 使用&#x200B;**[!UICONTROL Substitution of the address]**&#x200B;選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
+預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
