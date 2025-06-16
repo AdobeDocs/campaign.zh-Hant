@@ -3,7 +3,7 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
+source-git-commit: 9187ac7fd0d17a6dc28c3b6564913bcd93e45943
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 34%
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 **在此頁面上**
 
-* [發行版本 8.6.5](#release-8-6-4)
+* [發行版本 8.6.5](#release-8-6-5)
 * [發行版本 8.7.4](#release-8-7-4)
 * [發行版本 8.6.4](#release-8-6-4)
 
