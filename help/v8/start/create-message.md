@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ ht-degree: 98%
 1. 選取包含收件者的檔案。
 1. 匯入收件者時，按一下 **[!UICONTROL File format definition...]** 連結以選取並設定外部檔案。
 
-   如需資料匯入的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}。
+   有關資料匯入的詳細資訊，請參閱 [Campaign Classic v7 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}。
 
 1. 按一下 **[!UICONTROL Finish]** 並將您的傳遞設定為標準傳遞。
 
@@ -182,7 +182,7 @@ ht-degree: 98%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 

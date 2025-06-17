@@ -6,9 +6,9 @@ title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
    + [元件與流程](start/ac-components.md)
    + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
-   + [常見問答集](start/campaign-faq.md)
+   + [常見問題集](start/campaign-faq.md)
 + 行銷活動管理 {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
    + [Campaign 協調流程 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
@@ -55,7 +55,7 @@ ht-degree: 89%
       + [定義額外電子郵件參數](send/email-parameters.md)
       + [傳送和監視電子郵件](send/send.md)
       + [在日文的行動裝置上傳送電子郵件](send/sending-emails-on-japanese-mobiles.md)
-      + [將檔案附加至電子郵件](send/attaching-files.md)
+      + [將檔案附加到電子郵件](send/attaching-files.md)
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
       + 設定簡訊頻道 {#config-sms}
@@ -70,7 +70,7 @@ ht-degree: 89%
          + [建立簡訊傳遞](send/sms/create-sms.md)
          + [定義內容](send/sms/sms-content.md)
          + [選取客群](send/sms/sms-audience.md)
-      + 驗證及傳送簡訊 {#validate-sms}
+      + 驗證和傳送簡訊 {#validate-sms}
          + [傳送簡訊證明](send/sms/sms-proofs.md)
          + [傳送給客群](send/sms/sms-send.md)
       + [監視和追蹤簡訊](send/sms/sms-monitor.md)
@@ -91,12 +91,12 @@ ht-degree: 89%
       + [新增個人化欄位](send/personalization-fields.md)
       + [使用個人化區塊](send/personalization-blocks.md)
       + [建立條件](send/conditions.md)
-   + 驗證並傳送您的傳遞 {#validate}
+   + 驗證和傳送您的傳遞 {#validate}
       + [預覽和校樣](send/preview-and-proof.md)
       + [傳遞分析](send/delivery-analysis.md)
       + [設定並傳送傳遞](send/configure-and-send.md)
       + [傳送時間最佳化](send/predictive.md)
-   + 失敗、退回和隔離{#failures}
+   + 失敗、邊界和隔離{#failures}
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)
    + [使用傳遞範本](send/create-templates.md)
@@ -107,7 +107,7 @@ ht-degree: 89%
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
          + [傳送和監視訊息](send/delivery-execution.md)
-+ 設定檔與對象管理 {#audience}
++ 輪廓與對象管理 {#audience}
    + [開始使用輪廓和客群](audiences/gs-audiences.md)
    + [配合客群](start/audiences.md)
    + [存取輪廓](audiences/view-profiles.md)
@@ -145,7 +145,7 @@ ht-degree: 89%
    + [建立產品建議目錄](interaction/interaction-offer-catalog.md)
    + [建立產品建議產品建議](interaction/interaction-offer.md)
    + [傳送產品建議 (傳出)](interaction/interaction-send-offers.md)
-   + 呈現優惠方案（傳入）{#inbound}
+   + 呈現產品建議 (傳入){#inbound}
       + [內容](interaction/interaction-present-offers.md)
       + [呼叫網頁中的產品建議](interaction/interaction-integration.md)
       + [管理匿名互動](interaction/anonymous-interactions.md)
@@ -190,27 +190,27 @@ ht-degree: 89%
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [同步資料](connect/crm-data-sync.md)
 + 管理 {#admin}
-   + 使用者與許可權 {#permissions}
+   + 使用者與權限 {#permissions}
       + [開始使用權限](start/gs-permissions.md)
       + [管理使用者權限](start/manage-permissions.md)
       + [新增資料夾權限](start/folder-permissions.md)
    + [控制面板](config/self-service.md)
 + 架構和設定 {#config}
-   + Campaign v8架構 {#architecture}
+   + Campaign v8 架構 {#architecture}
       + [全域原則](architecture/general-architecture.md)
       + [架構模型](architecture/architecture.md)
       + [Campaign FDA 部署](architecture/fda-deployment.md)
-      + 企業(FFDA)部署 {#ffda}
+      + 企業 (FFDA) 部署 {#ffda}
          + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
          + [金鑰管理和唯一性](architecture/keys.md)
          + [新 API](architecture/new-apis.md)
          + [API 準備機制](architecture/staging.md)
          + [複製機制](architecture/replication.md)
-   + 實施 {#implement}
+   + 實作 {#implement}
       + [實施步驟](start/implement.md)
       + [自訂您的執行個體](dev/customize.md)
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
-   + 設定和組態 {#configuration}
+   + 設定與組態 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [交易型訊息設定](config/transactional-msg-settings.md)
@@ -218,7 +218,7 @@ ht-degree: 89%
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源 {#developer}
    + [Campaign 資料模型](dev/datamodel.md)
-   + 方案和表單 {#shemas-forms}
+   + 結構描述和表單 {#shemas-forms}
       + [使用結構描述](dev/schemas.md)
       + [建立結構描述](dev/create-schema.md)
       + [擴充結構描述](dev/extend-schema.md)
@@ -234,5 +234,5 @@ ht-degree: 89%
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
 + [行銷活動技術說明 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/campaign-web-home)
++ [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 

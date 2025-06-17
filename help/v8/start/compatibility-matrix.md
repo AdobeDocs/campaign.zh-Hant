@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**，最新版本。 從[Microsoft開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。
+* **Microsoft Edge WebView2**，最新版本。 從 [Microsoft 開發人員網站](http://www.adobe.com/go/acc-ms-webview2-runtime-download_tw){target="_blank"}下載。
 
 ## CRM 連接器 {#CRMconnectors}
 
@@ -51,10 +51,10 @@ ht-degree: 92%
 
 與 Adobe Campaign 同盟資料存取 (FDA) 模組相容的外部資料庫列於下方。 在[本頁面](../connect/fda.md)中深入了解 FDA。
 
-* **[!DNL Amazon Redshift]** ODBC聯結器，從Campaign v8.6.4 / v8.7.1開始
-* **[!DNL Amazon Redshift]**&#x200B;舊聯結器
+* **[!DNL Amazon Redshift]** ODBC 連接器 (自 Campaign v8.6.4 / v8.7.1 起)
+* **[!DNL Amazon Redshift]**&#x200B;舊版連接器
 * **[!DNL Azure Synapse]** (自 Campaign v8.5 起)
-* **[!DNL Databricks]**，從Campaign v8.6.4 / v8.7開始
+* **[!DNL Databricks]** (自 Campaign v8.6.4 / v8.7 起)
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
@@ -67,9 +67,9 @@ ht-degree: 92%
 
 若要透過 Campaign 傳送[推播通知](../send/push.md)，請在資料收集 UI 設定 Adobe Campaign Classic 擴充功能，以使用 Adobe Experience Platform Mobile SDK。
 
-在[iOS檔案](https://developer.adobe.com/client-sdks/home/){target="_blank"}中詳細說明Adobe Developer和Android的相容版本。
+iOS 與 Android 的相容版本詳見 [Adobe Developer 文件](https://developer.adobe.com/client-sdks/home/){target="_blank"}。
 
-## 網頁使用者介面 {#web-ui}
+## Web 使用者介面 {#web-ui}
 
 下列瀏覽器與 Campaign Web 使用者介面相容。在[本頁面](campaign-ui.md#ac-web-ui)中進一步瞭解 Campaign Web UI。
 
