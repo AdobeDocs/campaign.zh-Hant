@@ -30,7 +30,7 @@ Adobe Campaign可讓您存取下列所有傳遞工具。
 
   <!--For more on this, see the [Delivery statistics](../reporting/global-reports.md#delivery-statistics) section.-->
 
-* 一般而言，[傳遞儀表板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}可讓您存取：
+* 一般而言，[傳遞儀表板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=zh-Hant#sending-messages){target="_blank"}可讓您存取：
    * 傳送摘要，顯示傳送的詳細資訊，以及成功傳送、處理和傳送的訊息數目；
    * 傳送記錄與歷史記錄，顯示已排除的目標以及排除原因；
    * 追蹤記錄，會顯示開啟和點按次數等追蹤資訊。
@@ -42,7 +42,7 @@ Adobe Campaign可讓您存取下列所有傳遞工具。
 * 定期檢查整個平台的[傳遞輸送量](../reporting/global-reports.md#delivery-throughput)，以確認其是否與原始設定一致。
 * 檢查傳遞範本中的[重試](delivery-failures.md#retries)是否已正確設定（重試期間為30分鐘，重試次數超過20次）。
 * 定期確認[退信](delivery-failures.md#bounce-mail-qualification)信箱可存取，且帳戶不會過期。
-* 檢查可從[傳遞儀表板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}存取的每個傳遞輸送量，以確保其與傳遞內容的有效性一致（例如，「Flash銷售」應在幾分鐘內傳遞，而非幾天）。 是重要的工具，用於監視傳送訊息期間的傳遞情況和潛在問題。
+* 檢查可從[傳遞儀表板](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=zh-Hant#sending-messages){target="_blank"}存取的每個傳遞輸送量，以確保其與傳遞內容的有效性一致（例如，「Flash銷售」應在幾分鐘內傳遞，而非幾天）。 是重要的工具，用於監視傳送訊息期間的傳遞情況和潛在問題。
 * 使用[波段](configure-and-send.md#sending-using-multiple-waves)時，請確認每個波段都有足夠的時間完成，才能觸發下一個波段。
 * 檢查錯誤數目和新的[隔離](quarantines.md)是否與其他傳遞一致。
-* 仔細查閱[傳遞記錄](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"}以詳細檢查反白顯示的錯誤型別（封鎖清單、DNS問題、反垃圾郵件規則等）。
+* 仔細查閱[傳遞記錄](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=zh-Hant#delivery-logs-and-history){target="_blank"}以詳細檢查反白顯示的錯誤型別（封鎖清單、DNS問題、反垃圾郵件規則等）。
