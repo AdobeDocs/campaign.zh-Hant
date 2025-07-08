@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 + 傳送訊息{#send}
    + [開始使用訊息](start/gs-message.md)
    + [建立您的第一個傳遞](start/create-message.md)
+   + [使用傳遞範本](send/create-templates.md)
    + [關於傳遞的最佳實務](start/delivery-best-practices.md)
    + 電子郵件 {#emails}
       + [設計和驗證電子郵件](send/email.md)
@@ -99,7 +100,12 @@ ht-degree: 100%
    + 失敗、邊界和隔離{#failures}
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)
-   + [使用傳遞範本](send/create-templates.md)
+   + 傳遞性管理 {#deliverability-management}
+      + [什麼是傳遞性](send/about-deliverability.md)
+      + [控制訊息內容](send/control-message-content.md)
+      + [監視傳遞性](send/monitoring-deliverability.md)
+      + [收件匣轉譯](send/inbox-rendering.md)
+      + [SpamAssassin](send/spamassassin.md)
    + 交易型訊息 {#real-time}
       + [開始使用異動訊息](send/transactional.md)
       + [建立並發佈範本](send/transactional-template.md)
