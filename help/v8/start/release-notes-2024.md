@@ -162,7 +162,7 @@ _2024 年 2 月 14 日_
 
 * Adobe Campaign v8 現在已與 **Adobe Experience Manager as a Cloud Service** 整合，可透過 Adobe Campaign Web 使用者介面獨家製作。[了解更多](../connect/ac-aem.md)
 
-*  即使與 Adobe Experience Cloud 套件的整合安裝在您的 Adobe Campaign 執行個體上，您現在也可以一併使用 **Adobe Experience Manager Assets 資料庫**&#x200B;與 Experience Cloud Assets。 [了解更多](../connect/ac-aem.md#assets-library)
+* 即使與 Adobe Experience Cloud 套件的整合安裝在您的 Adobe Campaign 執行個體上，您現在也可以一併使用 **Adobe Experience Manager Assets 資料庫**&#x200B;與 Experience Cloud Assets。 [了解更多](../connect/ac-aem.md#assets-library)
 
 ### 一般改善 {#improvements-8-6-1}
 

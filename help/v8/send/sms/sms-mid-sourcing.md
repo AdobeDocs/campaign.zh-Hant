@@ -42,8 +42,8 @@ ht-degree: 1%
 
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**按鈕。
-在開啟的新視窗上，從**[!UICONTROL Named rights]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Folder]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
+1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
+在開啟的新視窗上，從&#x200B;**[!UICONTROL Named rights]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Folder]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;按鈕。
 
