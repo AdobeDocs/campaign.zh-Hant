@@ -44,7 +44,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
 
-在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}中進一步瞭解傳入電子郵件。
+在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=zh-Hant){target="_blank"}中進一步瞭解傳入電子郵件。
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
-這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解&#x200B;**此頁面**&#x200B;工作流程中的[檔案傳輸](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}。
+這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解&#x200B;**此頁面**&#x200B;工作流程中的[檔案傳輸](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=zh-Hant){target="_blank"}。
 
 * **FTP和SFTP** - **FTP**&#x200B;外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器898）的連線，您可以建立自己的外部帳戶。
 
@@ -126,7 +126,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
   >[!NOTE]
   >
-  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}。
+  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant){target="_blank"}。
 
 * **Amazon Simple Storage Service (S3)** - **AWS S3**&#x200B;聯結器可用來使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
