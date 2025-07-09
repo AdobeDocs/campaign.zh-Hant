@@ -6,11 +6,10 @@ role: User
 hide: true
 hidefromtoc: true
 level: Beginner, Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 0%
 >
 >本檔案適用於Adobe Campaign v8.7.2和更新版本。
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
 
 在獨立執行個體中，傳送SMS傳送需要：
 
@@ -45,8 +44,8 @@ ht-degree: 0%
 
    ![](assets/sms_extaccount_new.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Mobile]**&#x200B;索引標籤中，將&#x200B;**[!UICONTROL Extended generic SMPP]**&#x200B;保留在&#x200B;**[!UICONTROL Connector]**&#x200B;下拉式清單中。
-預設會勾選&#x200B;**[!UICONTROL Send messages through a dedicated process]**&#x200B;方塊。
+1. 在&#x200B;**[!UICONTROL Mobile]**&#x200B;索引標籤中，將&#x200B;**[!UICONTROL Extended generic SMPP]**&#x200B;保留在&#x200B;**[!UICONTROL Connector]**下拉式清單中。
+預設會勾選**[!UICONTROL Send messages through a dedicated process]**&#x200B;方塊。
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 

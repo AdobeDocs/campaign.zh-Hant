@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
       + [傳遞分析](send/delivery-analysis.md)
       + [設定並傳送傳遞](send/configure-and-send.md)
       + [傳送時間最佳化](send/predictive.md)
-   + 失敗、邊界和隔離{#failures}
+   + 失敗、邊界和隔離 {#failures}
       + [隔離](send/quarantines.md)
       + [傳遞失敗](send/delivery-failures.md)
    + 傳遞性管理 {#deliverability-management}
@@ -239,6 +239,32 @@ ht-degree: 100%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
+   + REST API {#apis}
+      + [開始使用REST API](dev/api/get-started-apis.md)
+      + [建議與限制](dev/api/limitations.md)
+      + [為何使用REST API](dev/api/why-using-campaign-standard-apis.md)
+      + [設定 API 存取](dev/api/setting-up-api-access.md)
+      + 全域概念 {#global-concepts}
+         + [必讀](dev/api/must-read.md)
+         + [端點](dev/api/endpoints.md)
+         + [中繼資料機制](dev/api/metadata-mechanism.md)
+         + [動詞](dev/api/verbs.md)
+         + [其他操作](dev/api/sorting.md)
+         + [自訂資源](dev/api/custom-resources.md)
+      + [與自訂資源互動](dev/api/interacting-with-custom-resources.md)
+      + 管理用戶檔案 {#managing-profiles}
+         + [擷取輪廓](dev/api/retrieving-profiles.md)
+         + [更新輪廓](dev/api/updating-profiles.md)
+         + [建立輪廓](dev/api/creating-profiles-api.md)
+      + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
+         + [建立服務](dev/api/creating-a-service.md)
+         + [擷取訂閱](dev/api/retrieving-subscriptions.md)
+         + [執行訂閱](dev/api/perform-subscriptions.md)
+         + [刪除訂閱](dev/api/deleting-subscriptions.md)
+      + [管理異動訊息](dev/api/managing-transactional-messages.md)
+      + 管理工作流程 {#managing-workflows}
+         + [控管工作流程](dev/api/controlling-a-workflow.md)
+         + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
 + [行銷活動技術說明 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 

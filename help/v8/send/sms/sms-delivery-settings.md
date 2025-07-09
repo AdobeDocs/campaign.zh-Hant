@@ -1,25 +1,24 @@
 ---
-title: 簡訊傳送設定
+title: 簡訊傳遞設定
 description: 瞭解如何設定簡訊傳遞
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 1%
 
 ---
 
-# 簡訊傳送設定 {#sms-settings}
+# 簡訊傳遞設定 {#sms-settings}
 
 >[!IMPORTANT]
 >
->本檔案適用於Adobe Campaign v8.7.2和更新版本。
+>本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 簡訊傳送所需的技術設定如下：
 

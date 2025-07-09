@@ -4,11 +4,10 @@ description: 瞭解簡訊頻道的特性
 feature: SMS
 role: User
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -17,10 +16,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本檔案適用於Adobe Campaign v8.7.2和更新版本。
+>本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol)。
-
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 ## 簡訊型別 {#sms-types}
 

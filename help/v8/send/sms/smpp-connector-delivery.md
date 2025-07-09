@@ -4,11 +4,10 @@ description: 關於傳遞中SMPP聯結器的設定
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1340'
 ht-degree: 5%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->這適用於Adobe Campaign v8.7.2和更新版本。
+>本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}。
 >
->如需較舊的版本，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 ## SMS聯結器資料流程 {#sms-data-flow}
 

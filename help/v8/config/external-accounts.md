@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 5%
+source-wordcount: '1118'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
 
-在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=zh-Hant){target="_blank"}中進一步瞭解傳入電子郵件。
+在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}中進一步瞭解傳入電子郵件。
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
-這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=zh-Hant){target="_blank"}工作流程中的&#x200B;**檔案傳輸**。
+這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解&#x200B;**此頁面**&#x200B;工作流程中的[檔案傳輸](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}。
 
 * **FTP和SFTP** - **FTP**&#x200B;外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器898）的連線，您可以建立自己的外部帳戶。
 
@@ -126,7 +126,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
   >[!NOTE]
   >
-  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant){target="_blank"}。
+  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}。
 
 * **Amazon Simple Storage Service (S3)** - **AWS S3**&#x200B;聯結器可用來使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
@@ -146,4 +146,12 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
    * **[!UICONTROL Encryption]**：加密型別介於&#x200B;**[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**&#x200B;之間。
 
-   * **[!UICONTROL Access key]**：在[Microsoft檔案](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}中瞭解如何尋找您的&#x200B;**[!UICONTROL Access key]**。
+   * **[!UICONTROL Access key]**：在&#x200B;**[!UICONTROL Access key]** Microsoft檔案[中瞭解如何尋找您的](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}。
+
+* **Microsoft光纖** - **Microsoft光纖**&#x200B;外部帳戶可讓您使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動，在Microsoft光纖和Adobe Campaign之間匯入及匯出資料。 若要設定此整合，請提供下列詳細資料：
+
+   * **[!UICONTROL Server]**： Microsoft Fabric儲存伺服器的URL。
+
+   * **[!UICONTROL Application ID]**：用來驗證及存取Microsoft Fabric資源之應用程式的唯一識別碼。
+
+   * **[!UICONTROL Client secret]**：與應用程式關聯的驗證金鑰或密碼，必須安全地連線到Microsoft Fabric。

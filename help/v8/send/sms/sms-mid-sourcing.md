@@ -4,11 +4,10 @@ description: 瞭解如何在中間來源基礎結構中設定簡訊傳遞
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本檔案適用於Adobe Campaign v8.7.2和更新版本。
+>本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 使用中間來源基礎結構傳送SMS傳遞需要：
 
@@ -43,8 +42,8 @@ ht-degree: 1%
 
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
-在開啟的新視窗上，從&#x200B;**[!UICONTROL Folder]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Named rights]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
+1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**按鈕。
+在開啟的新視窗上，從**[!UICONTROL Named rights]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Folder]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;按鈕。
 
@@ -80,7 +79,7 @@ ht-degree: 1%
 
    ![](assets/midtab_smsextaccount.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 ## 在中間伺服器上建立SMPP外部帳戶 {#smpp-external-account-mid}
 

@@ -4,11 +4,10 @@ description: 瞭解如何驗證SMPP連線
 feature: SMS
 role: User
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4437'
 ht-degree: 0%
 
 ---
@@ -179,7 +178,7 @@ SMS聯結器涉及3個實體：SMPP提供者、Adobe和您。
 
 如果提供者支援同一個登入/密碼組合的多個短程式碼，您必須詢問他們將哪個短程式碼放在BIND PDU中。 請注意，這段資訊必須放在BIND PDU中，而不是SUBMIT_SM中，因為BIND PDU是唯一允許正確路由MO的位置。
 
-請參閱上面各種PDU[&#128279;](#pdu)區段中的資訊，以瞭解BIND PDU中有哪些欄位可用，通常您會將短程式碼放在&#x200B;*address_range*&#x200B;中，但這需要提供者的特殊支援。 請聯絡他們，以瞭解他們如何獨立路由多個短程式碼。
+請參閱上面各種PDU[區段中的](#pdu)資訊，以瞭解BIND PDU中有哪些欄位可用，通常您會將短程式碼放在&#x200B;*address_range*&#x200B;中，但這需要提供者的特殊支援。 請聯絡他們，以瞭解他們如何獨立路由多個短程式碼。
 
 Adobe Campaign支援在相同的外部帳戶上處理多個短程式碼，因此通常只要針對所有流量使用單一帳戶即可正常運作。
 
