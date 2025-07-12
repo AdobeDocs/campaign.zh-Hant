@@ -18,7 +18,7 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
 * **動態報告**
 
-  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}。
+  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}。
 
 * **多維度資料集**
 
