@@ -18,7 +18,7 @@ ht-degree: 53%
 
 >[!CAUTION]
 >
->在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統&#x200B;**。**
 
