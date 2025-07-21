@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
 
 # 簡訊傳遞設定 {#sms-settings}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
+>此功能適用於所有Campaign FDA環境。 **不**&#x200B;可用於Campaign FFDA部署。 本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 簡訊傳送所需的技術設定如下：
 
