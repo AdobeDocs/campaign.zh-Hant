@@ -18,7 +18,7 @@ ht-degree: 1%
 >
 >此功能適用於所有Campaign FDA環境。 **不**&#x200B;可用於Campaign FFDA部署。 本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 簡訊傳送所需的技術設定如下：
 
