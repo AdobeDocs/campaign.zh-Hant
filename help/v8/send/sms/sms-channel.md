@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: 5c5d19c9b9b413bb630a4e5738c6697d2341665a
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 簡訊管道特性 {#sms-channel}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >此功能適用於所有Campaign FDA環境。 **不**&#x200B;可用於Campaign FFDA部署。 本檔案適用於Adobe Campaign v8.7.2和更新版本。 若要從舊版切換至新的SMS聯結器，請參閱此[技術檔案](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
+>若為舊版，請閱讀[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 ## 簡訊型別 {#sms-types}
 
