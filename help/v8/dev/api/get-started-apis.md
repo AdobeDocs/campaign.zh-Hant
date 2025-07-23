@@ -7,9 +7,9 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: c74669a0ccdabe735eb905b7e8c1634140a7ea0b
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 47%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 47%
 
 >[!AVAILABILITY]
 >
->此功能僅在所有Campaign FDA環境中隨選提供。 **不**&#x200B;可用於Campaign FFDA部署。 若要取得存取權，請聯絡您的Adobe代表。
+>此功能僅在所有Campaign FDA環境中依需求提供。 **不**&#x200B;可用於Campaign FFDA部署。 若要取得存取權，請聯絡您的Adobe代表。
 
 >[!CAUTION]
 >
->在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統&#x200B;**。**
 
