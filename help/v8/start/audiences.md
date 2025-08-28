@@ -5,20 +5,20 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+version: Campaign v8, Campaign Classic v7
+source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 17%
+source-wordcount: '493'
+ht-degree: 11%
 
 ---
 
+
 # 在Campaign中配合對象{#gs-ac-audiences}
 
-設定檔是儲存在Campaign資料庫中的聯絡人。
+設定檔代表儲存在Adobe Campaign資料庫中的聯絡人。 依預設，**收件者**&#x200B;是傳送電子郵件、簡訊或直接郵件等傳遞時使用的主要設定檔。 儲存在資料庫中的收件者資料可讓您定義和篩選目標對象，以及個人化傳送內容。 除了收件者之外，還有其他用於特定目的的設定檔型別。 例如，種子設定檔可讓您在傳送給實際對象之前測試傳送。
 
-在Adobe Campaign中，**位收件者**&#x200B;是傳送內容（電子郵件、簡訊等）時定位的預設設定檔。 儲存在資料庫中的收件者資料可讓您篩選將接收任何指定傳遞的目標，並在傳遞內容中新增個人化資料。 資料庫中還存在其他類型的輪廓。這些用戶檔案是針對不同用途設計的。例如，種子輪廓用於在內容傳送給最終目標前測試內容。
-
-在本節[&#128279;](../audiences/gs-audiences.md)中瞭解如何匯入、更新及管理設定檔與對象。
+在本節[中瞭解如何匯入、更新及管理設定檔與對象](../audiences/gs-audiences.md)。
 
 ## 建立清單{#create-lists}
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的活躍輪廓，而且會計算這些輪廓數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。 深入瞭解[Adobe Campaign產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}。
 
-您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hant){target="_blank"}。
+您可以直接從Campaign「控制面板」監視執行個體上的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}。
 
 
 以下護欄和限制在此適用：

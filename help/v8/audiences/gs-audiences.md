@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -16,8 +16,6 @@ ht-degree: 20%
 # 開始使用輪廓和客群{#gs-profiles-and-audiences}
 
 設定檔是儲存在Campaign資料庫中的聯絡人，例如客戶、服務的訂閱者或潛在客戶。 要取得輪廓來建立此資料庫，有許多可行的機制：透過網路表單線上收集、手動或自動匯入文字檔、透過公司資料庫或其他資訊系統進行複寫。透過Adobe Campaign，您可以將行銷記錄、購買資訊、偏好設定、CRM資料以及任何相關的PI資料整合在整合檢視中，以進行分析並採取行動。 設定檔包含鎖定目標、確認及追蹤個人所需的所有資訊。
-
-
 
 設定檔是&#x200B;**nmsRecipient**&#x200B;資料表中的記錄或儲存所有設定檔屬性的外部資料表，例如名字、姓氏、電子郵件地址、Cookie ID、客戶ID、行動識別碼或與特定頻道相關的其他資訊。 連結至收件者表格的其他表格包含設定檔相關資料，例如傳送記錄表格，其中包含傳送給收件者的所有傳送記錄。 在[本節](../dev/datamodel.md#ootb-profiles)中進一步瞭解內建設定檔和收件者表格。
 
@@ -38,4 +36,4 @@ ht-degree: 20%
 
 <!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as "external" deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
-匯入後，您可以建立對象以傳送訊息。 在本節[&#128279;](create-audiences.md)中瞭解如何建立對象。
+匯入後，您可以建立對象以傳送訊息。 在本節[中瞭解如何建立對象](create-audiences.md)。
