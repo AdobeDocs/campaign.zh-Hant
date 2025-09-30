@@ -26,8 +26,8 @@ ht-degree: 14%
 
 您可以使用JavaScript API在Campaign雲端資料庫中寫入或讀取資料庫：
 
-* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}中進一步瞭解。
-* 用於查詢資料模型資料的一般資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}中進一步瞭解。
+* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* 用於查詢資料模型資料的一般資料存取API。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
 請注意，在其[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
 

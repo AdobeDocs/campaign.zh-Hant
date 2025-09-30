@@ -24,7 +24,7 @@ Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，�
 >
 >* 此功能只能依需求提供給所有[Campaign FDA環境](../../architecture/fda-deployment.md)。 **不**&#x200B;可用於[企業(FFDA)部署](../../architecture/enterprise-deployment.md)。 若要取得存取權，請聯絡您的Adobe代表。
 >
->* 在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。如需詳細資訊，請參閱[促銷活動產品說明頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}。
+>* 在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。如需詳細資訊，請參閱[促銷活動產品說明頁面](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}。
 
 
 透過Adobe Campaign REST API，您可以存取下列功能：
