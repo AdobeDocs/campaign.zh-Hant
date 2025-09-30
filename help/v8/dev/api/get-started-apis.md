@@ -7,24 +7,25 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: c74669a0ccdabe735eb905b7e8c1634140a7ea0b
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 47%
+source-wordcount: '242'
+ht-degree: 43%
 
 ---
 
 # 開始使用Campaign REST API {#get-started-apis}
 
->[!AVAILABILITY]
->
->此功能僅在所有Campaign FDA環境中依需求提供。 **不**&#x200B;可用於Campaign FFDA部署。 若要取得存取權，請聯絡您的Adobe代表。
 
->[!CAUTION]
->
->在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統&#x200B;**。**
+
+>[!AVAILABILITY]
+>
+>* 此功能只能依需求提供給所有[Campaign FDA環境](../../architecture/fda-deployment.md)。 **不**&#x200B;可用於[企業(FFDA)部署](../../architecture/enterprise-deployment.md)。 若要取得存取權，請聯絡您的Adobe代表。
+>
+>* 在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。如需詳細資訊，請參閱[促銷活動產品說明頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}。
+
 
 透過Adobe Campaign REST API，您可以存取下列功能：
 
@@ -42,4 +43,4 @@ Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，�
 
 本檔案中詳細說明了所有端點，其中包含您應瞭解的控制API的一般概念、完整的API參考、代碼示例和快速入門手冊。 所有範例都可以與 Postman 搭配使用，但您可以自由使用您最愛的 REST 用戶端。
 
-如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
+如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community){target="_blank"}。
