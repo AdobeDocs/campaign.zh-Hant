@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,13 @@ Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視�
 * **自動化傳送有意義的即時訊息和產品建議**
 
 ![](assets/do-not-localize/ac-capabilities.png)
+
+
+>[!AVAILABILITY]
+>
+>除非在頁面中提及，否則Adobe Campaign （主控台）檔案適用於Campaign Classic v7和Campaign v8。
+>
+>請注意，檔案中的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
 
 ## 整合式客戶輪廓 {#integrated-customer-profile}
 

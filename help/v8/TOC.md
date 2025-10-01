@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 97%
 
 ---
@@ -215,6 +215,7 @@ ht-degree: 97%
    + 實作 {#implement}
       + [實施步驟](start/implement.md)
       + [自訂您的執行個體](dev/customize.md)
+      + [使用分項清單](dev/enumerations.md)
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
    + 設定與組態 {#configuration}
       + [使用者介面設定](config/ui-settings.md)
