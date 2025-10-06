@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 20%
@@ -160,4 +160,4 @@ ht-degree: 20%
 ## 其他資源
 
 * **[從Campaign使用者介面開始](../start/campaign-ui.md)** — 瞭解如何存取和瀏覽Adobe Campaign介面。
-* **[使用分項清單](../dev/enumerations.md)** — 使用預先定義的下拉式清單標準化欄位值，以更快速、更一致的資料輸入。
+* **[使用分項清單](../config/enumerations.md)** — 使用預先定義的下拉式清單標準化欄位值，以更快速、更一致的資料輸入。

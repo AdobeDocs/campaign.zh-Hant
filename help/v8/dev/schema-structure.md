@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 資料型別是透過&#x200B;**和**&#x200B;元素中的&#x200B;**`<attribute>`** type **`<element>`**&#x200B;屬性輸入的。
 
-詳細清單可在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中取得。
+詳細清單可在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中取得。
 
 若未填入此屬性，除非元素包含子元素，否則&#x200B;**字串**&#x200B;為預設資料型別。 如果是，則僅用於階層式建構元素（範例中為&#x200B;**`<location>`**&#x200B;元素）。
 
@@ -223,7 +223,7 @@ ht-degree: 1%
 
 ### 分項清單 {#enumerations}
 
-使用自由、固定或資料庫式[列舉](../dev/enumerations.md)來控制欄位值。 它們提供下拉式清單，方便輸入、一致的資料和彈性的結構描述設計。
+使用自由、固定或資料庫式[列舉](../config/enumerations.md)來控制欄位值。 它們提供下拉式清單，方便輸入、一致的資料和彈性的結構描述設計。
 
 #### 可用分項清單 {#free-enumeration}
 

@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 3%
@@ -185,7 +185,7 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Dynamics 365列舉的Adobe Campaign列舉。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Yes]**&#x200B;欄中選取&#x200B;**[!UICONTROL Replace]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Yes]**&#x200B;欄中選取&#x200B;**[!UICONTROL Replace]**。
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。
 
@@ -195,7 +195,7 @@ Adobe Campaign和Microsoft Dynamics 365現已連線。 您可以設定兩個系�
 
 在此頁面[中進一步瞭解資料同步處理](crm-data-sync.md)。
 
-在此頁面[中進一步瞭解Campaign &#x200B;](../dev/enumerations.md)中的列舉管理。
+在此頁面[中進一步瞭解Campaign ](../config/enumerations.md)中的列舉管理。
 
 ### 支援的欄位資料型別 {#ms-dyn-supported-types}
 
