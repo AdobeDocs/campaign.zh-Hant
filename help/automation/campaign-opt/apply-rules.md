@@ -4,7 +4,7 @@ title: 套用型別規則
 description: 瞭解如何套用型別規則
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 8%
@@ -44,9 +44,9 @@ ht-degree: 8%
 
 您可以設定型別規則，使其僅涉及所連結的特定傳遞，或傳遞目標中的特定收件者。
 
-若要定義規則的應用程式條件，請按一下&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Edit the rule application conditions...]**&#x200B;連結。
+若要定義規則的應用程式條件，請按一下&#x200B;**[!UICONTROL Edit the rule application conditions...]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL General]**&#x200B;連結。
 
-然後使用查詢編輯器來定義篩選條件。 在以下範例中，容量規則僅涉及標籤中包含「offer」字樣的傳送，或是在2013年4月1日之前建立的傳送。
+然後使用[查詢編輯器](../../v8/start/query-editor.md)來定義篩選條件。 在以下範例中，容量規則僅涉及標籤中包含「offer」字樣的傳送，或是在2013年4月1日之前建立的傳送。
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 事實上，有些計算使用的值不會每日變更。 因此，每天重新計算資料且讓資料庫過載毫無意義無關緊要。 例如，如果流程每週都透過客戶傾向分數和購買資訊來豐富行銷資料庫，則不需要每天重新計算基於這些值的資料。
 
-若要這麼做，**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Frequency]**&#x200B;欄位可讓您定義儲存定位的最長時段。 根據預設，值&#x200B;**0**&#x200B;表示在下次執行每日重新仲裁之前，計算仍然有效。
+若要這麼做，**[!UICONTROL Frequency]**&#x200B;索引標籤的&#x200B;**[!UICONTROL General]**&#x200B;欄位可讓您定義儲存定位的最長時段。 根據預設，值&#x200B;**0**&#x200B;表示在下次執行每日重新仲裁之前，計算仍然有效。
 
 若要儲存超過此期間的結果，請在&#x200B;**[!UICONTROL Frequency]**&#x200B;欄位中輸入大於12的值：一旦此期間到期，就會重新套用所有規則。
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 
 ### 控制規則 {#control-rules}
 
-對於&#x200B;**[!UICONTROL Control]**&#x200B;規則，您可以決定套用規則之傳遞生命週期的哪個時間點：在鎖定目標之前或之後、在個人化開始時、在分析結束時。 在型別規則的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Phase]**&#x200B;欄位下拉式清單中，選取要套用的值。
+對於&#x200B;**[!UICONTROL Control]**&#x200B;規則，您可以決定套用規則之傳遞生命週期的哪個時間點：在鎖定目標之前或之後、在個人化開始時、在分析結束時。 在型別規則的&#x200B;**[!UICONTROL Phase]**&#x200B;索引標籤的&#x200B;**[!UICONTROL General]**&#x200B;欄位下拉式清單中，選取要套用的值。
 
 ![](assets/campaign_opt_define_control_phase.png)
 

@@ -6,9 +6,9 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1603'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,13 @@ ht-degree: 1%
 ## 建立查詢 {#creating-a-query}
 
 查詢可讓您根據條件選取目標。 您可以將區段代碼與查詢結果相關聯，並插入其他資料。
-如需查詢範例的詳細資訊，請參閱此[此區段](querying-recipient-table.md)。
-
->[!NOTE]
->
->Adobe Campaign Web UI具有強大的查詢建模器，可簡化篩選資料庫的程式，以根據各種條件選取特定目標，讓您更輕鬆地建立和管理查詢。 若要進一步瞭解Web UI的查詢模型工具，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}。
-
+透過[本節](querying-recipient-table.md)中的使用案例瞭解如何建立查詢。 另請參閱有關[查詢編輯器](../../v8/start/query-editor.md)的章節。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-有關使用和管理其他資料的詳細資訊，請參閱[新增資料](#adding-data)。
+>[!NOTE]
+>
+>Adobe Campaign Web使用者介面具有強大的查詢模組工具，可簡化篩選資料庫的程式，以根據各種條件選取特定目標，讓您更輕鬆地建立和管理查詢。 若要進一步瞭解Web UI的查詢模型工具，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}。
 
 **[!UICONTROL Edit query...]**&#x200B;連結可讓您以下列方式定義母體的目標定位型別、限制和選取條件：
 
@@ -51,7 +48,7 @@ ht-degree: 1%
 
    ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
-1. 如果您已在步驟1或使用&#x200B;**[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**&#x200B;選項選取&#x200B;**[!UICONTROL Filtering conditions]**，則您稍後必須手動新增篩選條件。
+1. 如果您已在步驟1或使用&#x200B;**[!UICONTROL Filtering conditions]** > **[!UICONTROL Filters]**&#x200B;選項選取&#x200B;**[!UICONTROL Advanced filter...]**，則您稍後必須手動新增篩選條件。
 
    您也可以核取對應的方塊，以新增資料分組條件。 若要這麼做，篩選維度必須與查詢的目標維度不同。 如需分組的詳細資訊，請參閱此[區段](query-grouping-management.md)。
 
@@ -103,7 +100,7 @@ ht-degree: 1%
 
 1. 必要時，請在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取其中一個值，以指定要保留的集合元素數目。 依預設，會復原集合的所有行，然後根據下列步驟指定的條件進行篩選。
 
-   * 如果集合的單一專案符合此集合的篩選條件，請在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Single row]**。
+   * 如果集合的單一專案符合此集合的篩選條件，請在&#x200B;**[!UICONTROL Single row]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Data collected]**。
 
      >[!IMPORTANT]
      >
@@ -160,7 +157,7 @@ ht-degree: 1%
 * 結構描述
 * recCount
 
-這組三個值會識別查詢所定位的母體。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表的名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms：recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
+這組三個值會識別查詢所定位的母體。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms:recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
 
 此值是工作表的結構描述。 此引數適用於所有具有&#x200B;**[!UICONTROL tableName]**&#x200B;和&#x200B;**[!UICONTROL schema]**&#x200B;的轉變。
 

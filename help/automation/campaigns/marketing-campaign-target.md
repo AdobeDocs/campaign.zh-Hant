@@ -6,7 +6,7 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 在行銷活動中，您可以針對每次傳送定義：
 
-* 目標對象。 您可以傳送訊息給收件者[&#128279;](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立對象
+* 目標對象。 您可以傳送訊息給收件者[的](#send-to-a-group)清單，或在工作流程[中建立](#build-the-main-target-in-a-workflow)對象
 * 控制組。 您可以[新增控制群組](#add-a-control-group)，以監視郵件傳遞後的收件者行為
 * 種子地址 — 在[本節](../../v8/audiences/test-profiles.md)中瞭解更多。—>
 
@@ -182,7 +182,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 您可以在行銷活動層級定義控制組，在這種情況下，控制組將套用至相關行銷活動的每個傳送。
 
 1. 編輯相關行銷活動，然後按一下「**[!UICONTROL Edit]**」標籤。
-1. 按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**。
+1. 按一下 **[!UICONTROL Advanced campaign parameters...]**。
 
    ![](assets/enable-control-group.png)
 
@@ -222,7 +222,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!NOTE]
 >
->[此區段](../workflow/query.md)中有Adobe Campaign查詢編輯器。
+>[此區段](../../v8/start/query-editor.md)中有Adobe Campaign查詢編輯器。
 
 ### 從主要目標擷取控制組 {#extract-the-control-group-from-the-main-target}
 
@@ -248,4 +248,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

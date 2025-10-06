@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視�
 
 ## 目標市場細分 {#targeted-segmentation}
 
-Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功能，允許您建立針對性強的差異化產品建議。說明性分析功能讓您能夠分析行銷活動的上游和下游資訊，而篩選管理及圖形查詢編輯器功能則讓您能根據不限數量的條件，篩選訂閱者群體及樣本，或是建立目標群組。
+Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功能，允許您建立針對性強的差異化產品建議。描述性分析功能可讓您分析行銷活動的上游和下游資訊，而[篩選管理](../audiences/create-filters.md)和圖形[查詢編輯器](query-editor.md)功能可讓您根據不限數量的條件，篩選訂閱者母體及樣本或建立目標群組。
 
 進階資料管理功能進一步擴充了資料處理能力。該功能透過包含未在資料超市中模組化的資料，來簡化及最佳化目標定位流程。
 

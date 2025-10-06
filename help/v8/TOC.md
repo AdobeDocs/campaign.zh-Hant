@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -133,8 +133,9 @@ ht-degree: 97%
 + 內容管理 {#content}
    + [建立登陸頁面](dev/landing-pages.md)
    + [設計網頁應用程式和表單](dev/webapps.md)
-+ 自動化和工作流程 {#automation}
-   + [Campaign 自動化指南 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/home)
++ 工作流程 {#workflows}
+   + [開始使用工作流程](config/workflows.md)
+   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 隱私權與安全管理 {#privacy}
    + [管理隱私權請求](start/privacy.md)
    + [安全性方針](config/security.md)
@@ -174,9 +175,11 @@ ht-degree: 97%
          + [內建量度計算](reporting/metrics-calculation.md)
       + [自訂報告](reporting/custom-reports.md)
 + 資料管理 {#data}
-   + [開始使用工作流程](config/workflows.md)
+   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
    + [匯入資料](start/import.md)
-   + [工作流程文件](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
+   + 建立查詢 {#query}
+      + [設計查詢](start/query-editor.md)
+      + [定義篩選條件](start/filter-conditions.md)
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

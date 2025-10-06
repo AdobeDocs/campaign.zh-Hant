@@ -6,35 +6,22 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '4027'
-ht-degree: 35%
+source-wordcount: '3832'
+ht-degree: 34%
 
 ---
 
 # 將資料匯入 Campaign {#ootb-profiles}
 
-Campaign 可協助您將聯絡人新增至雲端資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
-
-開始使用[客群](audiences.md)
-
-了解 Campaign [資料模型](../dev/datamodel.md)
-
-## 在工作流程中匯入輪廓
+Campaign可協助您將連絡人新增至資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
 
 輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。在[本節](../../automation/workflow/recurring-import-workflow.md)了解更多資訊。
 
 ![](assets/import-wf.png)
 
-
-## 執行單一匯入
-
-建立並執行一般資料匯入作業，以載入雲端資料庫中的聯絡人。
-
-![](assets/new-import.png)
-
-### 匯入資料
+## 執行匯入
 
 Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案將資料匯入資料庫。 這些檔案與表 (主要或連結) 相關聯，並且源檔的每個欄位與資料庫的欄位相關聯。
 
@@ -42,19 +29,18 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 >
 >您可以使用&#x200B;**[!UICONTROL Import a list]**&#x200B;函式，匯入資料時不必與資料庫資料對應。 然後可透過&#x200B;**[!UICONTROL Read list]**&#x200B;物件將資料僅用於工作流程中。 如需詳細資訊，請參閱[此頁面](../../automation/workflow/read-list.md)。
 
+
+## 使用匯入助理
+
 匯入助理可以讓您設定匯入、定義其選項（例如資料轉換）並啟動執行。 它是一系列屏幕，其內容取決於匯入類型 (簡單或多個) 和操作員權限。
 
 建立新的匯入工作後，匯入助理就會顯示。
 
->[!NOTE]
->
->如果使用 IIS Web 伺服器，則可能需要配置以授權上載大檔案 (> 28 MB)。
-
-#### 來源檔案 {#source-file}
+![](assets/new-import.png)
 
 在來源檔案中，每一行都與記錄一致。 記錄中的資料以分隔符號（空格、定位字元、字元等）分隔。 這意味著以行的形式檢索資料，並且每行與資料庫的欄位相關聯。
 
-## 步驟1 — 選擇匯入範本 {#step-1---choosing-the-import-template}
+### 步驟1 — 選擇匯入範本 {#step-1---choosing-the-import-template}
 
 啟動匯入助理時，您必須先選取範本。 例如，要配置收到簡報的收件者的匯入，請按照以下步驟操作：
 
@@ -84,37 +70,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
    >
    >多次匯入應僅滿足特定需求，不建議使用。
 
-### 進階參數 {#advanced-parameters}
-
-**[!UICONTROL Advanced parameters]**&#x200B;連結可讓您存取下列選項：
-
-* **[!UICONTROL General]**&#x200B;索引標籤
-
-   * **[!UICONTROL Stop execution if there are too many rejects]**
-
-     依預設，會選取此選項。 如果您想要繼續執行匯入（無論拒絕次數為何），可以取消選取它。 按照預設，如果拒絕前100行，則停止執行。
-
-   * **[!UICONTROL Trace mode]**
-
-     選擇此選項可追蹤每行的匯入執行情況。
-
-   * **[!UICONTROL Start the job in a detached process]**
-
-     依預設，會選取此選項。 它允許您分離匯入的執行，以便它不會影響資料庫中正在進行的其他作業。
-
-   * **[!UICONTROL Do not update enumerations]**
-
-     選取此選項可避免擴充資料庫中的列舉值清單。 深入瞭解[分項清單](../config/enumerations.md)。
-
-* **[!UICONTROL Variables]**&#x200B;索引標籤
-
-  您可以定義與作業關聯的變數，這些變數可在查詢編輯器和計算欄位中存取。 若要建立變數，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並使用變數編輯器。
-
-  >[!IMPORTANT]
-  >
-  >**[!UICONTROL Variables]**&#x200B;索引標籤僅供工作流程型別程式設計使用，且僅應由專家使用者設定。
-
-## 第 2 步 - 源檔選擇 {#step-2---source-file-selection}
+#### 第 2 步 - 源檔選擇 {#step-2---source-file-selection}
 
 源檔可以是文字格式 (txt、csv、tab、固定行) 或 xml。
 
@@ -146,7 +102,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 按一下&#x200B;**[!UICONTROL OK]**&#x200B;儲存格式，然後按一下&#x200B;**[!UICONTROL Next]**&#x200B;顯示下一步。
 
-## 第 3 步 - 欄位對應 {#step-3---field-mapping}
+### 第 3 步 - 欄位對應 {#step-3---field-mapping}
 
 然後，您必須選擇目標架構並將每行的資料對應到資料庫中的欄位。
 
@@ -173,7 +129,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 * 您可以使用位於中央表格右側的適當圖示來新增計算欄位。 計算欄位可讓您執行複雜的轉換、新增虛擬欄或合併多個欄的資料。 有關各種可能性的詳細資訊，請參見以下部分。
 
-### 計算欄位 {#calculated-fields}
+#### 計算欄位 {#calculated-fields}
 
 計算欄位是指新增至來源檔案的新欄，以及從其他欄計算。 計算欄位隨後可與Adobe Campaign資料庫的欄位建立關聯。 但是，在計算欄位中無法進行對帳操作。
 
@@ -190,7 +146,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-#### 第 4 步 – 調解 {#step-4---reconciliation}
+### 第 4 步 – 調解 {#step-4---reconciliation}
 
 匯入輔助程式的調解步驟可讓您定義從檔案中調解資料與資料庫中現有資料的模式，並設定檔案資料與資料庫資料之間的優先順序規則。 配置視窗如下所示：
 
@@ -292,7 +248,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-#### 第 5 步 - 匯入收件者時的附加步驟 {#step-5---additional-step-when-importing-recipients}
+### 第 5 步 - 匯入收件者時的附加步驟 {#step-5---additional-step-when-importing-recipients}
 
 匯入助理的下一個步驟可讓您選取或建立資料匯入所在的資料夾、自動對應匯入的收件者與（新的或現有的）清單，以及將收件者訂閱至服務。
 
@@ -348,7 +304,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以驗證此步驟並顯示下列步驟。
 
-## 步驟6 — 啟動匯入 {#step-6---launching-the-import}
+### 步驟6 — 啟動匯入 {#step-6---launching-the-import}
 
 助理的最後一步可讓您啟動資料匯入。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕。
 
@@ -356,7 +312,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 然後，您可以監視匯入工作的執行（請參閱[監視工作流程執行](../../automation/workflow/monitor-workflow-execution.md)）。
 
-### 匯出資料
+## 匯出資料
 
 匯出作業可讓您存取及擷取資料庫的資料：連絡人、使用者端、清單、區段等。
 
@@ -366,7 +322,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 建立新的匯出作業後，會顯示匯出輔助程式。
 
-#### 步驟1 — 選擇匯出範本 {#step-1---choosing-the-export-template}
+### 步驟1 — 選擇匯出範本 {#step-1---choosing-the-export-template}
 
 啟動匯出助理時，您必須先選取範本。 例如，要配置最近註冊的收件者的匯出，請按照以下步驟操作：
 
@@ -382,7 +338,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入匯出名稱。 您可以添加描述。
 1. 選取匯出型別。 有兩種可能的匯出型別：**[!UICONTROL Simple export]**&#x200B;只匯出一個檔案，以及&#x200B;**[!UICONTROL Multiple export]**&#x200B;從一或多個型別的來原始檔，在單一執行中匯出數個檔案。
 
-## 第 2 步 - 要匯出的檔案類型 {#step-2---type-of-file-to-export}
+### 第 2 步 - 要匯出的檔案類型 {#step-2---type-of-file-to-export}
 
 選擇要匯出的文件類型，即要匯出的資料架構。
 
@@ -415,7 +371,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * 指示日期格式和數字格式。 若要這麼做，請按一下相關欄位的&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，然後使用編輯器。
 * 對於包含列舉值的欄位，您可以選取&#x200B;**[!UICONTROL Export labels instead of internal values of enumerations]**。 例如，標題可以以&#x200B;**1=Mr格式儲存。**，**2=小姐**，**3=夫人**。 如果選擇此選項，將匯出&#x200B;**先生**、**小姐**&#x200B;和&#x200B;**太太**。
 
-#### 第 4 步 - 資料選擇 {#step-4---data-selection}
+### 第 4 步 - 資料選擇 {#step-4---data-selection}
 
 選取要匯出的欄位。 操作步驟：
 
@@ -426,19 +382,19 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以呼叫函式。
 
-#### 步驟5 — 排序欄 {#step-5---sorting-columns}
+### 步驟5 — 排序欄 {#step-5---sorting-columns}
 
 選擇行的排序順序。
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-#### 第 6 步 - 篩選條件 {#step-6---filter-conditions-}
+### 第 6 步 - 篩選條件 {#step-6---filter-conditions-}
 
 您可以新增篩選條件以避免匯出所有資料。 此篩選的設定與傳遞助理員中的收件者目標定位相同。
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-#### 第 7 步 – 設定資料格式 {#step-7---data-formatting}
+### 第 7 步 – 設定資料格式 {#step-7---data-formatting}
 
 您可以修改輸出檔案的欄位順序和標籤，並將轉換應用於源資料。
 
@@ -458,7 +414,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-#### 第 8 步 - 資料預覽 {#step-8---data-preview}
+### 第 8 步 - 資料預覽 {#step-8---data-preview}
 
 按一下&#x200B;**[!UICONTROL Start the preview of the data]**&#x200B;以預覽匯出結果。 依預設，會顯示前200行。 若要變更此值，請按一下&#x200B;**[!UICONTROL Lines to display]**&#x200B;欄位右側的箭頭。
 
@@ -466,7 +422,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 按一下輔助程式底部的標籤，從欄中的結果預覽切換為XML中的結果。 您還可以查看生成的 SQL 查詢。
 
-#### 步驟9 — 啟動匯出 {#step-9---launching-the-export}
+### 步驟9 — 啟動匯出 {#step-9---launching-the-export}
 
 按一下&#x200B;**[!UICONTROL Start]**&#x200B;以啟動資料匯出。
 
@@ -488,3 +444,4 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * [建立客群](audiences.md)
 * [刪除重複輪廓](../../automation/workflow/deduplication-merge.md)
 * [豐富輪廓資料](../../automation/workflow/enrich-data.md)
+* 了解 Campaign [資料模型](../dev/datamodel.md)
