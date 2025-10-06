@@ -5,7 +5,7 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 79cfde18cce2f9f48cbd6d77026350dec1a71536
+source-git-commit: 3a521f7006ca833af96f1ef5d5b369c2c0568635
 workflow-type: tm+mt
 source-wordcount: '3323'
 ht-degree: 34%
@@ -288,7 +288,7 @@ ht-degree: 34%
 
   您可以使用欄的來源值，並為它指定目標值。 此目的地值將顯示在新的輸出欄中。
 
-  有新增計算欄位型別&#x200B;**[!UICONTROL Enumerations]**&#x200B;的範例可用，請參閱[本區段](../../workflow/using/adding-enumeration-type-calculated-field.md)。
+  有新增計算欄位型別&#x200B;**[!UICONTROL Enumerations]**&#x200B;的範例可用，請參閱[本區段](../../automation/workflow/adding-enumeration-type-calculated-field.md)。
 
   ![](assets/query_editor_nveau_63.png)
 
