@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: ed390d5ddd817791dc4f5c2c1c621b594170a836
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '787'
 ht-degree: 97%
 
 ---
@@ -201,25 +201,25 @@ ht-degree: 97%
       + [管理使用者權限](start/manage-permissions.md)
       + [新增資料夾權限](start/folder-permissions.md)
    + [控制面板](config/self-service.md)
-+ 架構和設定 {#config}
-   + Campaign v8 架構 {#architecture}
-      + [全域原則](architecture/general-architecture.md)
-      + [架構模型](architecture/architecture.md)
-      + [Campaign FDA 部署](architecture/fda-deployment.md)
-      + 企業 (FFDA) 部署 {#ffda}
-         + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
-         + [金鑰管理和唯一性](architecture/keys.md)
-         + [新 API](architecture/new-apis.md)
-         + [API 準備機制](architecture/staging.md)
-         + [複製機制](architecture/replication.md)
++ 架構 {#architecture}
+   + [全域原則](architecture/general-architecture.md)
+   + [架構模型](architecture/architecture.md)
+   + [Campaign FDA 部署](architecture/fda-deployment.md)
+   + 企業 (FFDA) 部署 {#ffda}
+      + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
+      + [金鑰管理和唯一性](architecture/keys.md)
+      + [新 API](architecture/new-apis.md)
+      + [API 準備機制](architecture/staging.md)
+      + [複製機制](architecture/replication.md)
++ 設定 {#config}
    + 實作 {#implement}
       + [實施步驟](start/implement.md)
       + [自訂您的執行個體](dev/customize.md)
-      + [使用分項清單](dev/enumerations.md)
       + [資料模型最佳實務](dev/datamodel-best-practices.md)
-   + 設定與組態 {#configuration}
+   + 設定 {#settings}
       + [使用者介面設定](config/ui-settings.md)
       + [管理資料夾和檢視](audiences/folders-and-views.md)
+      + [使用分項清單](dev/enumerations.md)
       + [交易型訊息設定](config/transactional-msg-settings.md)
       + [將 Campaign SDK 與您的應用程式整合- DEPRECATED PAGE](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
