@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 36%
+source-wordcount: '4027'
+ht-degree: 35%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入此匯入的名稱。 您可以添加描述。
 1. 在適當的欄位中選取匯入型別。 有兩種可能的匯入型別： **[!UICONTROL Simple import]**&#x200B;僅匯入一個檔案，以及&#x200B;**[!UICONTROL Multiple import]**&#x200B;在單一執行中匯入多個檔案。
 
-   若要多重匯入，請從匯入助理第一個畫面的&#x200B;**[!UICONTROL Import type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Multiple import]**。
+   若要多重匯入，請從匯入助理第一個畫面的&#x200B;**[!UICONTROL Multiple import]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Import type]**。
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -84,7 +84,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
    >
    >多次匯入應僅滿足特定需求，不建議使用。
 
-### 高級參數 {#advanced-parameters}
+### 進階參數 {#advanced-parameters}
 
 **[!UICONTROL Advanced parameters]**&#x200B;連結可讓您存取下列選項：
 
@@ -104,7 +104,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    * **[!UICONTROL Do not update enumerations]**
 
-     選擇此選項可避免增補資料庫中的枚舉值清單。
+     選取此選項可避免擴充資料庫中的列舉值清單。 深入瞭解[分項清單](../config/enumerations.md)。
 
 * **[!UICONTROL Variables]**&#x200B;索引標籤
 
@@ -300,13 +300,13 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 >[!NOTE]
 >
->在僅匯入收件者時以及使用預設的 Adobe Campaign 收件者表 (**nms:recipient**) 時，將顯示此步驟。
+>此步驟只會在匯入收件者時，以及使用預設Adobe Campaign收件者表格(**nms:recipient**)時顯示。
 
 * 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;連結以選取資料夾、清單，或您要與收件者建立關聯或訂閱的服務。
 
    1. 匯入到資料夾中
 
-      **[!UICONTROL Import into a folder]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
+      **[!UICONTROL Edit...]**&#x200B;區段的&#x200B;**[!UICONTROL Import into a folder]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
 
       >[!NOTE]
       >
@@ -326,7 +326,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    1. 與清單相關聯
 
-      **[!UICONTROL Add recipients to a list]**&#x200B;區段中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
+      **[!UICONTROL Edit...]**&#x200B;區段中的&#x200B;**[!UICONTROL Add recipients to a list]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
@@ -338,7 +338,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    1. 訂閱服務
 
-      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
+      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;區段的&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 

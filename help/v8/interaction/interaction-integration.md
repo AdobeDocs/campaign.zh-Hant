@@ -5,9 +5,9 @@ description: 瞭解如何在網頁中新增優惠方案
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-若要將優惠方案呈現給已識別的連絡人，程式與本區段[&#128279;](#presenting-an-anonymous-offer)中詳細的類似。
+若要將優惠方案呈現給已識別的連絡人，程式與本區段[中詳細的](#presenting-an-anonymous-offer)類似。
 
 在網頁內容中，您需要新增下列指令碼，以在呼叫優惠方案引擎期間識別聯絡人：
 
@@ -175,7 +175,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    此結構描述將定義下列欄位：標題編號2和價格。
 
-   範例中的結構描述名稱為&#x200B;**cus：offer**
+   範例中的結構描述名稱為&#x200B;**cus:offer**
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -318,11 +318,11 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 產品建議提議 {#offer-proposition}
 
-若要透過SOAP提出優惠方案，請新增&#x200B;**nms：proposition#Propose**&#x200B;命令，後面接著下列引數：
+若要透過SOAP提出優惠方案，請新增&#x200B;**nms:proposition#Propose**&#x200B;命令，然後新增下列引數：
 
 * **targetId**：收件者的主索引鍵（可以是複合索引鍵）。
 * **maxCount**：指定連絡人的優惠方案主張數目。
-* **內容**：可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是&#x200B;**nms：interaction**，則應新增&#x200B;**`<empty>`**。
+* **內容**：可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是&#x200B;**nms:interaction**，則應新增&#x200B;**`<empty>`**。
 * **類別**：指定優惠必須屬於的類別。
 * **主題**：指定選件必須屬於的主題。
 * **uuid**： Adobe Campaign永久cookie的值(「uuid230」)。
@@ -340,11 +340,11 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 優惠更新 {#offer-update}
 
-將&#x200B;**nms：interaction#UpdateStatus**&#x200B;命令新增至URL，後面接著這些引數：
+將&#x200B;**nms:interaction#UpdateStatus**&#x200B;命令新增至URL，後面接著這些引數：
 
 * **主張**：字元字串，它包含在優惠方案主張期間作為輸出提供的主張ID。 請參閱[優惠方案主張](#offer-proposition)。
-* **狀態**：字串型別，它指定選件的新狀態。 可能的值列在&#x200B;**nms：common**&#x200B;結構描述的&#x200B;**propositionStatus**&#x200B;列舉中。 例如，數字3是現成可用的，對應至&#x200B;**已接受**&#x200B;狀態。
-* **context**： XML元素，可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是&#x200B;**nms：interaction**，則應新增&#x200B;**`<empty>`**。
+* **狀態**：字串型別，它指定選件的新狀態。 可能的值列在&#x200B;**nms**&#x200B;結構描述的[propositionStatus](../config/enumerations.md) **列舉:common**&#x200B;中。 例如，數字3是現成可用的，對應至&#x200B;**已接受**&#x200B;狀態。
+* **context**： XML元素，可讓您在空間結構描述中新增內容資訊。 如果使用的結構描述是&#x200B;**nms:interaction**，則應新增&#x200B;**`<empty>`**。
 
 ### 使用SOAP呼叫的範例 {#example-using-a-soap-call}
 

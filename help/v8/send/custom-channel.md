@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂通道傳�
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 傳遞的建立和傳送可在使用者端主控台和網頁UI中執行。 不過，自訂通道設定只能在使用者端主控台中執行。
 
-若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=zh-Hant){target="_blank"}。
+若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}。
 
 以下是在使用者端主控台中設定新自訂頻道的步驟。 自訂外部和API管道共用以下步驟：
 
@@ -33,7 +33,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 1. 在Campaign Explorer中，選取&#x200B;**管理** > **組態** > **資料結構描述**。
 
-1. 建立結構描述擴充功能，以使用新通道擴充messageType列舉。
+1. 建立結構描述延伸以使用新通道延伸&#x200B;**messageType** [列舉](../config/enumerations.md)。
 
    例如：
 
@@ -90,7 +90,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. 選取與您的頻道對應的標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=zh-Hant#fields){target="_blank"}。
+1. 選取與您的頻道對應的標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

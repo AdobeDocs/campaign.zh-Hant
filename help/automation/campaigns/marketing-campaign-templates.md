@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 4%
@@ -169,8 +169,7 @@ ht-degree: 4%
 * 輸入範本的&#x200B;**標籤**：標籤是必要的，而且是根據此範本的所有行銷活動的預設標籤。
 * 從下拉式清單中選取行銷活動&#x200B;**性質**。 此清單中可用的值是儲存在&#x200B;**[!UICONTROL natureOp]**&#x200B;列舉中的值。
 
-在[此頁面](../../v8/config/ui-settings.md#enumerations)中瞭解如何存取及設定您的分項清單。
-
+  在[此頁面](../../v8/config/enumerations.md)中瞭解如何存取及設定您的分項清單。
 
 * 選取行銷活動&#x200B;**的**&#x200B;型別：唯一、循環或定期。 依預設，行銷活動範本適用於不重複行銷活動。 在[此區段](recurring-periodic-campaigns.md)中詳細說明週期性行銷活動和週期性行銷活動。
 * 指定行銷活動的持續時間，即行銷活動將發生的天數。 根據此範本建立行銷活動時，會自動填入行銷活動的開始和結束日期。

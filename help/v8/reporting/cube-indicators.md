@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 3%
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 若要這麼做，請核取&#x200B;**[!UICONTROL Enable binning]**&#x200B;選項。 [了解更多](customize-cubes.md#data-binning)。
 
-1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**&#x200B;欄位。
+1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**欄位。
 您可以自訂日期顯示模式。 若要這麼做，請選取要使用的階層以及要產生的層次：
 
 ![](assets/cube-date-dimension.png)
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 1. 建立另一個維度以分析相對於收件者城市的資料。 若要這麼做，請新增維度，並在收件者結構描述的&#x200B;**[!UICONTROL Location]**&#x200B;節點中選取城市。
 
-您可以啟用量化以使資訊讀取更容易，並將值連結到分項清單。
+您可以啟用量化以使資訊讀取更容易，並將值連結至[分項清單](../config/enumerations.md)。
 
 從下拉式清單中選取分項清單。 請注意，此列舉必須定義為&#x200B;**[!UICONTROL Reserved for binning]**。
 

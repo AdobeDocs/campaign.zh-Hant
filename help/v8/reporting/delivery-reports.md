@@ -3,7 +3,7 @@ title: Adobe Campaign內建傳遞報告
 description: Adobe Campaign內建傳遞報告
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 12%
@@ -83,7 +83,7 @@ ht-degree: 12%
 >
 >此報告中顯示的網域名稱是在多維資料庫層級使用的分項清單中定義。 若要變更、新增或移除預設網域，請編輯&#x200B;**[!UICONTROL Domains]**&#x200B;專案清單，並修改值與別名。 **[!UICONTROL Others]**&#x200B;類別包含不屬於任何專案清單值的網域名稱。
 >
->在[此頁面](../config/ui-settings.md)中瞭解如何存取及設定您的分項清單。
+>在[此頁面](../config/enumerations.md)中瞭解如何存取及設定您的分項清單。
 
 
 **[!UICONTROL 4. Generated click streams]**

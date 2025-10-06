@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -22,14 +22,14 @@ ht-degree: 2%
 整體而言，有三種量化方式可供使用：
 
 1. 使用手動定義的值範圍。 例如，年齡、平均購物車、開啟的傳送數量等)。 如需詳細資訊，請參閱[定義每個bin](#defining-each-bin)。
-1. 動態地，根據分項清單的值：僅顯示分項清單中包含的值，其他所有值都會分組到「其他」中。 如需詳細資訊，請參閱[動態管理回收筒](#dynamically-managing-bins)。
+1. 根據[分項清單](../config/enumerations.md)的值，動態地：只顯示分項清單中包含的值，所有其他值都會分組到「其他」中。 如需詳細資訊，請參閱[動態管理回收筒](#dynamically-managing-bins)。
 1. 使用值範圍，將所有其他值分組在一起。 例如，18至25歲、26至59歲和其他人。 如需詳細資訊，請參閱[建立值範圍](#creating-value-ranges)。
 
 若要啟用量化，請在建立維度時勾選適當的方塊。
 
 ![](assets/cube-class.png)
 
-您可以手動建立回收筒，或將回收筒連結至現有的分項清單。
+您可以手動建立回收筒，或將回收筒連結至現有的[分項清單](../config/enumerations.md)。
 
 Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群組，或根據資料庫中最常見的值分組。
 
@@ -47,7 +47,7 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 
 ![](assets/cube-add-new-bin-2.png)
 
-您可以使用SQL遮罩將數個值組合成濾鏡。 若要這麼做，請檢查&#x200B;**[!UICONTROL Use an SQL mask]**&#x200B;欄中的&#x200B;**[!UICONTROL Yes]**，並輸入要套用到&#x200B;**[!UICONTROL Value or expression]**&#x200B;欄中的SQL篩選器。
+您可以使用SQL遮罩將數個值組合成濾鏡。 若要這麼做，請檢查&#x200B;**[!UICONTROL Yes]**&#x200B;欄中的&#x200B;**[!UICONTROL Use an SQL mask]**，並輸入要套用到&#x200B;**[!UICONTROL Value or expression]**&#x200B;欄中的SQL篩選器。
 
 <!--In the example below, all email domains that start with **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), or with **ymail** (ymail.com, ymail.eu, etc.) will be grouped under the label **YAHOO!**, as well as addresses with the **rocketmail.com** domain.-->
 
@@ -64,7 +64,7 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 
    每當更新分項清單值時，系統就會自動調整相符的回收筒。
 
-在[此頁面](../../v8/config/ui-settings.md#enumerations)中進一步瞭解列舉。
+   在[此頁面](../config/enumerations.md)中進一步瞭解列舉。
 
 ### 建立值範圍 {#create-value-ranges}
 

@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -94,11 +94,11 @@ Adobe Campaign採用資料結構描述來：
 * **temp**：保留給暫存的結構描述
 * **crm**：保留給CRM聯結器整合
 
-結構描述的識別索引鍵是使用名稱空間和名稱建置的字串，以冒號分隔；例如： **nms：recipient**。
+結構描述的識別索引鍵是使用名稱空間和名稱建置的字串，以冒號分隔；例如： **nms:recipient**。
 
 ## 建立或擴充Campaign綱要 {#create-or-extend-schemas}
 
-若要將欄位或其他元素新增至Campaign的其中一個核心資料結構，例如收件者表格(nms：recipient)，您必須擴充該結構。
+若要將欄位或其他元素新增至Campaign中的其中一個核心資料結構，例如收件者表格(nms:recipient)，您必須擴充該結構。
 
 如需詳細資訊，請參閱[擴充結構描述](extend-schema.md)。
 
@@ -117,7 +117,7 @@ Adobe Campaign採用資料結構描述來：
 
 範例：
 
-```
+```xml
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
 <value label="Website" name="web" value="0"/>
 <value label="Call Center" name="phone" value="1"/>
@@ -127,7 +127,7 @@ Adobe Campaign採用資料結構描述來：
 
 定義欄位時，您可以使用此分項清單，如下所示：
 
-```
+```xml
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
 type="string" enum="exTransactionTypeEnum"/>
 ```
@@ -178,7 +178,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 範例：
 
-```
+```xml
 <key name="householdId" internal="true">
   <keyfield xpath="@householdId"/>
 </key>
@@ -198,33 +198,33 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=zh-Hant#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
+在`<attribute>`Campaign Classic v7檔案[的](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
 
-如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中的屬性說明。
+如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中的屬性說明。
 
 ### 範例 {#examples}
 
 定義預設值的範例：
 
-```
+```xml
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
 針對也標籤為必要欄位使用通用屬性作為範本的範例：
 
-```
+```xml
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
 使用&#x200B;**@advanced**&#x200B;屬性隱藏的計算欄位範例：
 
-```
+```xml
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
 同樣儲存在SQL欄位中且具有&#x200B;**@dataPolicy**&#x200B;屬性的XML欄位範例。
 
-```
+```xml
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
@@ -246,19 +246,19 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 收件者表格（現成可用的綱要）與自訂交易表格之間的1-N連結範例：
 
-```
+```xml
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
 自訂方案「Car」（位於「cus」名稱空間）與收件者表格之間的1-1連結範例：
 
-```
+```xml
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
 收件者表格和位址表格之間的外部聯結範例（根據電子郵件地址而非主索引鍵）：
 
-```
+```xml
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
   <join xpath-dst="@address" xpath-src="@email"/>
 </element>
@@ -272,7 +272,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 使用下列範例來包含與建立日期、建立資料的使用者、日期和表格中所有資料的上次修改作者相關的欄位：
 
-```
+```xml
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
 ```
 

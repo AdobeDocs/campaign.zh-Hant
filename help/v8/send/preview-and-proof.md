@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 16%
 
 ---
@@ -48,8 +48,9 @@ ht-degree: 16%
 已從&#x200B;**[!UICONTROL Targeting mode]**&#x200B;下拉式清單中選取校訂目標的型別。
 
 * 使用&#x200B;**[!UICONTROL Definition of a specific proof target]**&#x200B;選項選取資料庫中的收件者作為校訂目標。
-* 使用&#x200B;**[!UICONTROL Substitution of the address]**&#x200B;選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的列舉是替代地址(rcpAddress)。
-預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+* 使用&#x200B;**[!UICONTROL Substitution of the address]**&#x200B;選項輸入電子郵件地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的[分項清單](../config/enumerations.md)是&#x200B;**替代位址(rcpAddress)**。
+
+  預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -62,7 +63,7 @@ ht-degree: 16%
 
   >[!NOTE]
   >
-  >種子地址不屬於預設收件者表格(nms：recipient)，這些地址是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
+  >種子地址不屬於預設收件者表格(nms:recipient)，它們是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
 
   在[本節](../audiences/test-profiles.md)中進一步瞭解種子地址。
 
@@ -105,4 +106,4 @@ ht-degree: 16%
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)
