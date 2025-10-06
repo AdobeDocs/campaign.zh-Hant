@@ -5,9 +5,9 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 1%
 
 分項清單（也稱為分項清單）是預先定義的值清單，可用於填寫某些欄位。 列舉有助於標準化欄位值，使資料輸入更一致並簡化查詢。
 
-值可用時，會顯示在下拉式清單中。 您可以直接選取值或開始輸入 — 預測輸入會建議符合的值，並自動完成這些值。
+定義後，值會顯示在下拉式清單中。 您可以直接選取值，或使用預測性輸入來輸入值，這會建議並完成相符專案。 某些欄位包含預先定義的分項清單，如果需要，可以建立其他分項清單。
 
 ![](assets/enum_values.png)
 
-有些主控台欄位已設定分項清單。 如果列舉是&#x200B;**開啟**，您也可以直接在欄位中新增值。
-
-![存取分項清單](../config/assets/enumerations-menu.png)
 
 ## 分項清單的型別 {#types-of-enum}
 
 列舉儲存在檔案總管的&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;資料夾中。
 
-它們可以是：開放、系統、表情符號或關閉。
+![存取分項清單](../config/assets/enumerations-menu.png)
+
+
+列舉可以是： **開啟**、**系統**、**表情符號**&#x200B;或&#x200B;**已關閉**。
 
 * **Open**&#x200B;列舉允許使用者根據此列舉直接在欄位中新增值。
 * **已關閉的**&#x200B;列舉具有只能從總管的&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;資料夾修改的固定值清單。
@@ -44,11 +44,12 @@ ht-degree: 1%
 
 ## 別名清除 {#alias-cleansing}
 
-在分項清單欄位中，您可以選取值，或輸入下拉式清單中沒有的自訂值。 可以將自訂值新增到現有的列舉值中，作為新的列舉值 — 在此情況下，必須選取&#x200B;**[!UICONTROL Open]**&#x200B;選項。 您可以使用別名清除功能來清除這些自訂值。 例如，如果使用者輸入`Adob`而非`Adobe`，則別名清除程式可以自動以正確的字詞取代它。
+在列舉欄位中，可以從下拉式清單中選取值，如果清單中沒有值，則可以手動輸入。 啟用&#x200B;**[!UICONTROL Open]**&#x200B;選項時，可將自訂值新增至分項清單。 這些值稍後可以透過別名清除進行標準化，自動以正確的辭彙取代變數（例如，將`Adob`轉換為`Adobe`）。
+
 
 >[!CAUTION]
 >
->資料清除是影響資料庫中資料的重要程式。 Adobe Campaign會執行大量資料更新，這可能會導致某些值被刪除。 因此，這項作業將保留給專家使用者。
+>資料清除是影響資料庫值的關鍵作業。 Adobe Campaign會執行大量資料更新，因而刪除某些值。 這項作業僅適用於專家使用者。
 
 啟用&#x200B;**[!UICONTROL Alias cleansing]**&#x200B;選項以使用列舉的資料清除功能。 選取此選項時，**[!UICONTROL Alias]**&#x200B;索引標籤會顯示在視窗底部。
 
