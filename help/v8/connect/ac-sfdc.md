@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '359'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 首先，您必須建立Salesforce外部帳戶。
 
 1. 瀏覽Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Platform > External accounts]**&#x200B;節點並建立外部帳戶。
-1. 在&#x200B;**型別**&#x200B;區段中選取&#x200B;**[!UICONTROL Salesforce.com]**&#x200B;外部帳戶。
+1. 在&#x200B;**[!UICONTROL Salesforce.com]**&#x200B;型別&#x200B;**區段中選取**&#x200B;外部帳戶。
 1. 輸入設定以啟用連線。
 
    ![](assets/sfdc-external-account.png)
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Adobe Campaign分項清單的Salesforce分項清單。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Yes]**&#x200B;欄中選取&#x200B;**[!UICONTROL Replace]**。
 
    ![](assets/sfdc-enum.png)
 
@@ -78,4 +78,6 @@ Adobe Campaign和Salesforce.com現已連線。 您可以設定兩個系統之間
 
 若要在Adobe Campaign資料和SFDC之間同步資料，請建立工作流程並使用&#x200B;**[!UICONTROL CRM connector]**&#x200B;活動。
 
-在此頁面[&#128279;](crm-data-sync.md)中進一步瞭解資料同步處理。
+在此頁面[中進一步瞭解資料同步處理](crm-data-sync.md)。
+
+在此頁面[中進一步瞭解Campaign ](../dev/enumerations.md)中的列舉管理。

@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-資料結構描述的XML檔案必須包含具有&#x200B;**名稱**&#x200B;和&#x200B;**名稱空間**&#x200B;屬性的&#x200B;**`<srcschema>`**&#x200B;根元素，才能填入結構描述名稱及其名稱空間。
+資料結構描述的XML檔案必須包含具有&#x200B;**`<srcschema>`**&#x200B;名稱&#x200B;**和**&#x200B;名稱空間&#x200B;**屬性的**&#x200B;根元素，才能填入結構描述名稱及其名稱空間。
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -122,9 +122,9 @@ ht-degree: 1%
 
 ## 資料類型 {#data-types}
 
-資料型別是透過&#x200B;**`<attribute>`**&#x200B;和&#x200B;**`<element>`**&#x200B;元素中的&#x200B;**type**&#x200B;屬性輸入的。
+資料型別是透過&#x200B;**和**&#x200B;元素中的&#x200B;**`<attribute>`** type **`<element>`**&#x200B;屬性輸入的。
 
-詳細清單可在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中取得。
+詳細清單可在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中取得。
 
 若未填入此屬性，除非元素包含子元素，否則&#x200B;**字串**&#x200B;為預設資料型別。 如果是，則僅用於階層式建構元素（範例中為&#x200B;**`<location>`**&#x200B;元素）。
 
@@ -222,6 +222,8 @@ ht-degree: 1%
 `<sqldefault>`：可讓您在建立欄位時增加值。 此值會顯示為SQL結果。 在結構描述更新期間，只有新記錄會受此值影響。
 
 ### 分項清單 {#enumerations}
+
+使用自由、固定或資料庫式[列舉](../dev/enumerations.md)來控制欄位值。 它們提供下拉式清單，方便輸入、一致的資料和彈性的結構描述設計。
 
 #### 可用分項清單 {#free-enumeration}
 

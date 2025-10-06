@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 71%
+source-wordcount: '1121'
+ht-degree: 75%
 
 ---
 
@@ -189,25 +189,7 @@ The web access interface is similar to the console interface. From a browser, yo
 </table>
 
 
+## 其他資源
 
-## 預設單位 {#default-units}
-
-在表示時間期間 (例如，傳遞資源的有效期限、任務的核准期限等) 的欄位中，可以採用下列&#x200B;**單位** 列示值：
-
-* **[!UICONTROL s]**&#x200B;代表秒數，
-* **[!UICONTROL mn]**&#x200B;分鐘，
-* **[!UICONTROL h]**&#x200B;代表小時，
-* **[!UICONTROL d]**&#x200B;天。
-
-
-## 分項清單 {#enumeration}
-
-使用下拉式清單的輸入欄位，您可以輸入列舉值，該值可以儲存，然後在下拉式清單中作為選項建議。
-
-例如，在收件者設定檔之&#x200B;**[!UICONTROL City]**&#x200B;索引標籤的&#x200B;**[!UICONTROL General]**&#x200B;欄位中，您可以輸入London。 當您按下Enter以確認此值時，訊息會詢問您是否要為與該欄位關聯的列舉儲存此值。  如果您按一下「**[!UICONTROL Yes]**」，則相關欄位的下拉式清單中會顯示此值。
-
-分項清單（也稱為「分項清單」）由管理員透過&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;區段來管理。
-
-瞭解如何[使用分項清單](../dev/enumerations.md)
-
-深入瞭解結構描述中的[分項清單](../dev/schema-structure.md#enumerations)
+* **[使用分項清單](../dev/enumerations.md)** — 使用預先定義的下拉式清單標準化欄位值，以更快速、更一致的資料輸入。
+* **[結構描述中的分項清單](../dev/schema-structure.md#enumerations)** — 身為Campaign開發人員，請在結構描述中使用免費、固定或資料庫型分項清單來控制欄位值。

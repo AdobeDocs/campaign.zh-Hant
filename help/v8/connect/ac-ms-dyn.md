@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 2%
+source-wordcount: '1386'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## 設定 Microsoft Dynamics 365 {#config-crm-microsoft}
 
-若要透過&#x200B;**Web API**&#x200B;連線Microsoft Dynamics 365以使用Adobe Campaign，請使用&#x200B;**全域系統管理員**&#x200B;認證登入[Microsoft Azure目錄](https://portal.azure.com)，然後遵循下列步驟：
+若要透過&#x200B;**Web API**&#x200B;連線Microsoft Dynamics 365以使用Adobe Campaign，請使用[全域系統管理員](https://portal.azure.com)認證登入&#x200B;**Microsoft Azure目錄**，然後遵循下列步驟：
 
 1. 取得您的Dynamics 365應用程式（使用者端） ID。 [了解更多](#get-client-id-microsoft)
 1. 產生Microsoft Dynamics憑證金鑰識別碼和金鑰ID。 [了解更多](#config-certificate-key-id)
@@ -129,17 +129,17 @@ ht-degree: 2%
 1. 從[Microsoft Azure](https://portal.azure.com)，瀏覽至&#x200B;**設定>安全性>使用者**。
 1. 按一下下拉式清單，選取&#x200B;**應用程式使用者**，然後按一下&#x200B;**新增**。
 1. 使用與上述在Active Directory上建立的使用者相同的使用者名稱。
-1. 為您先前建立的[應用程式](#get-client-id-microsoft)指派&#x200B;**應用程式識別碼**。
+1. 為您先前建立的&#x200B;**應用程式**&#x200B;指派[應用程式識別碼](#get-client-id-microsoft)。
 1. 按一下&#x200B;**管理角色**&#x200B;並選擇使用者的&#x200B;**系統管理員**&#x200B;角色。
 
-## 設定Campaign {#configure-acc-for-microsoft}
+## 設定 Campaign {#configure-acc-for-microsoft}
 
 ### 建立連線{#new-ms-dyn-external-account}
 
 首先，您必須建立Microsoft Dynamics 365外部帳戶。
 
 1. 瀏覽Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Platform > External accounts]**&#x200B;節點並建立外部帳戶。
-1. 在&#x200B;**型別**&#x200B;區段中選取&#x200B;**[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部帳戶。
+1. 在&#x200B;**[!UICONTROL Microsoft Dynamics CRM]**&#x200B;型別&#x200B;**區段中選取**&#x200B;外部帳戶。
 1. 在&#x200B;**[!UICONTROL CRM O-Auth type]**&#x200B;下拉式清單中選取驗證方法。
 
    ![](assets/ms-dyn-external-account.png)
@@ -185,7 +185,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Dynamics 365列舉的Adobe Campaign列舉。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Yes]**&#x200B;欄中選取&#x200B;**[!UICONTROL Replace]**。
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。
 
@@ -193,7 +193,9 @@ Adobe Campaign和Microsoft Dynamics 365現已連線。 您可以設定兩個系�
 
 若要在Adobe Campaign資料和Microsoft CRM之間同步資料，請建立工作流程並使用&#x200B;**[!UICONTROL CRM connector]**&#x200B;活動。
 
-在此頁面[&#128279;](crm-data-sync.md)中進一步瞭解資料同步處理。
+在此頁面[中進一步瞭解資料同步處理](crm-data-sync.md)。
+
+在此頁面[中進一步瞭解Campaign ](../dev/enumerations.md)中的列舉管理。
 
 ### 支援的欄位資料型別 {#ms-dyn-supported-types}
 
