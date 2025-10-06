@@ -27,7 +27,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign Web使用者介面隨附重新打造的工作流程畫布，可建立更動態且個人化的客戶歷程。 若要深入瞭解Web UI的工作流程，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}。
+>Adobe Campaign Web使用者介面隨附重新打造的工作流程畫布，可建立更動態且個人化的客戶歷程。 若要深入瞭解Web UI的工作流程，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/gs-workflows){target=_blank}。
 
 
 ## 設計和使用工作流程 {#gs-ac-wf}
@@ -38,11 +38,11 @@ ht-degree: 4%
 
 * [開始使用工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant){target="_blank"}
 
-* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"}
 
-* [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}
 
-* [監視工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [監視工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant){target="_blank"}
 
 * [在行銷活動工作流程中建立對象](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}
 
@@ -52,10 +52,10 @@ ht-degree: 4%
 
 工作流程活動會依類別分組。 有四種活動類別可供使用：
 
-* [目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}：查詢、讀取清單、擴充、聯合等
-* [流量控制活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}：排程器、分支、警示、外部訊號等
-* [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}：跨頻道傳遞、Javascript程式碼、CRM活動、更新彙總等
-* [事件活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}：檔案傳輸、網頁下載等
+* [目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=zh-Hant){target="_blank"}：查詢、讀取清單、擴充、聯合等
+* [流量控制活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=zh-Hant){target="_blank"}：排程器、分支、警示、外部訊號等
+* [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=zh-Hant){target="_blank"}：跨頻道傳遞、Javascript程式碼、CRM活動、更新彙總等
+* [事件活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=zh-Hant){target="_blank"}：檔案傳輸、網頁下載等
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -76,7 +76,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
     
@@ -84,7 +84,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=zh-Hant){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
@@ -97,7 +97,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 建立工作流程後，您可以使用&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕存取其他選項，以進行進一步設定。
 
-在&#x200B;**此頁面**&#x200B;中進一步瞭解[工作流程屬性](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}。
+在&#x200B;**此頁面**&#x200B;中進一步瞭解[工作流程屬性](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=zh-Hant){target="_blank"}。
 
 在工作流程&#x200B;**[!UICONTROL Execution]**&#x200B;的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤中，您可以選擇將工作流程連結至不同的倉儲，並最佳化您的工作負載管理。 如需&#x200B;**倉儲**&#x200B;的詳細資訊，請參閱[Snowflake檔案](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}。
 
