@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 98%
+source-wordcount: '1577'
+ht-degree: 97%
 
 ---
 
@@ -121,12 +121,12 @@ _2021 年 9 月 7 日_
 
 **其他變更**
 
-* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=zh-Hant#configure-acc-for-microsoft)
+* 先前已棄用的 Microsoft CRM 連接器 (Office 365 及內部部署) 已從介面移除。 [顯示全文](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正了 IIS 整合問題。 (NEO-31019)
 * 已新增護欄，僅允許[帳單技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=zh-Hant#billing-report)在行銷執行個體上執行。
 * 已在工作流程轉變&#x200B;**檢視群體**&#x200B;視窗的資料和結構描述標籤中改善資料來源識別。
-* 已將缺少的資料庫索引添加到以下結構描述中，以防止出現資料庫更新問題：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* 已將缺少的資料庫索引新增到下列結構描述中，以防止資料庫更新問題： xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl
 
 **修補程式**
 
@@ -176,7 +176,7 @@ _2021 年 7 月 23 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p><a href="../send/line.md">LINE 頻道</a>現在可與 Campaign v8 搭配使用，包括與<a href="../send/transactional.md">異動訊息</a>模組結合時的下列增強功能：
+<td> <p><a href="../send/line/line.md">LINE 頻道</a>現在可與 Campaign v8 搭配使用，包括與<a href="../send/transactional.md">異動訊息</a>模組結合時的下列增強功能：
 <ul> 
 <li><p>修正無法在 LINE 傳遞中鎖定訪客的問題。 
 </p></li>

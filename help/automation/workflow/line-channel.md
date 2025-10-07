@@ -5,7 +5,7 @@ description: LINE頻道
 feature: Workflows, Line App
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # LINE頻道{#line-channel}
 
-依預設，以下詳細的工作流程會與&#x200B;**LINE通道**&#x200B;模組一起安裝。 如需此模組的詳細資訊，請參閱[此頁面](../../v8/send/line.md)。
+依預設，以下詳細的工作流程會與&#x200B;**LINE通道**&#x200B;模組一起安裝。 如需此模組的詳細資訊，請參閱[此頁面](../../v8/send/line/line.md)。
 
 <table> 
  <tbody> 

@@ -4,8 +4,9 @@ description: 開始使用Campaign中的推播通知
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 6%
@@ -56,7 +57,7 @@ ht-degree: 6%
 
    ![](assets/push_ios_3.png)
 
-1. 在&#x200B;**[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;或&#x200B;**[!UICONTROL Silent notification]**&#x200B;之間選擇您的&#x200B;**[!UICONTROL Notification type]**。
+1. 在&#x200B;**[!UICONTROL Notification type]**&#x200B;或&#x200B;**[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;之間選擇您的&#x200B;**[!UICONTROL Silent notification]**。
 
    ![](assets/push_ios_4.png)
 
@@ -68,7 +69,7 @@ ht-degree: 6%
 
    此欄位可讓您定義iOS通知承載的&#x200B;**title**&#x200B;引數值。
 
-1. 您可以新增iOS通知承載之&#x200B;**subtitle**&#x200B;引數的&#x200B;**[!UICONTROL Subtitle]**&#x200B;值。
+1. 您可以新增iOS通知承載之&#x200B;**[!UICONTROL Subtitle]** subtitle **引數的**&#x200B;值。
 
 1. 在精靈的&#x200B;**[!UICONTROL Message content]**&#x200B;區段中輸入訊息的內容。
 
