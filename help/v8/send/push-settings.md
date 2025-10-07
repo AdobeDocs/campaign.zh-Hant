@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ### 設定許可權 {#setup-permissions}
 
-建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 Adobe Experience Platform中標籤的使用者許可權會透過Adobe Admin Console指派給使用者。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}。
+建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 Adobe Experience Platform中標籤的使用者許可權會透過Adobe Admin Console指派給使用者。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}。
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 1. 存取&#x200B;**[!DNL Admin Console]**。
 1. 從&#x200B;**[!UICONTROL Products]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]**&#x200B;卡片。
-1. 選取現有&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新按鈕。 在&#x200B;**[!UICONTROL New profile]** Admin Console檔案[中瞭解如何建立新的](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}。
+1. 選取現有&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新按鈕。 在&#x200B;**[!UICONTROL New profile]** Admin Console檔案[中瞭解如何建立新的](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hant#ui){target="_blank"}。
 1. 在&#x200B;**[!UICONTROL Permissions]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Property Rights]**。
 1. 按一下 **[!UICONTROL Add all]**。這會將以下許可權新增至您的產品設定檔：
    * **[!UICONTROL Approve]**
@@ -80,7 +80,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}。
+   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html#add-users){target="_blank"}。
 
 ### 設定您的應用程式 {#configure-app}
 
@@ -142,7 +142,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-在[!DNL Adobe Experience Platform Data Collection]Adobe Experience Platform檔案[中進一步瞭解](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}標籤。
+在[!DNL Adobe Experience Platform Data Collection]Adobe Experience Platform檔案[中進一步瞭解](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=zh-Hant){target="_blank"}標籤。
 
 建立後，請開啟新標籤屬性並建立程式庫。 操作步驟：
 
