@@ -1,154 +1,44 @@
 ---
-title: 在Campaign v8中設計查詢
-description: 瞭解如何建立查詢
+title: 使用查詢編輯器
+description: 瞭解如何使用查詢編輯器
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 46f97303adf21e88aaa3417c6596dcb62e453c9e
+source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 14%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
 # 查詢行銷活動資料庫
 
-您可以在軟體的多個層級上找到 Adobe Campaign 查詢工具：建立目標群體、劃分客戶、擷取和篩選追蹤記錄、建立篩選器等。
+查詢工具可用於應用程式的各個層級，並可用來定義目標人口、劃分客戶、擷取及篩選追蹤記錄、建立篩選器等。
 
-Adobe Campaign查詢工具可讓您使用專用助理來查詢資料庫：一般查詢編輯器。 可透過&#x200B;**[!UICONTROL Tools > Generic query editor...]**&#x200B;功能表存取它。 透過它，您可擷取儲存在資料庫中的資訊，將其整理、分組、排序等操作。例如，使用者可以在新聞稿的連結上，還原在給定時間內按一下連結超過 [n] 次以上的收件者。透過這個工具，您可根據您的需求收集、排序和顯示結果。
+它提供可從&#x200B;**[!UICONTROL Tools > Generic query editor...]**&#x200B;功能表存取的專用助理（一般查詢編輯器）。 此編輯器可讓資料庫查詢擷取、組織、分組和排序資訊。 例如，它可以擷取在指定期間內點選電子報連結超過n次的收件者。
 
-此工具結合了 Adobe Campaign 的所有可行的查詢方式。例如，您可以建立和儲存限制篩選器。這表示在目標工作流程等的查詢方塊中，可以使用在一般查詢編輯器中建立的使用者篩選器。
+一般查詢編輯器會集中所有查詢功能。 它允許限制篩選器的建立和儲存，然後可以在其他內容中重複使用，例如定位工作流程的Query方塊。
 
-透過使用所選資料表的欄位或公式可以建立查詢。
-
-在Adobe Campaign中建立查詢的步驟如下：
-
-1. 選取工作表。 請參考[步驟1 — 選擇資料表](#step-1---choose-a-table)。
-1. 選取要擷取的資料。 請參閱[步驟2 — 選擇要擷取的資料](#step-2---choose-data-to-extract)。
-1. 定義資料排序順序。 請參考[步驟3 — 排序資料](#step-3---sort-data)。
-1. 篩選資料。 請參閱[步驟4 — 篩選資料](#step-4---filter-data)。
-1. 格式化資料。 請參閱[步驟5 — 格式化資料](#step-5---format-data)。
-1. 顯示結果。 請參閱[步驟6 — 預覽資料](#step-6---preview-data)。
+![存取查詢編輯器並選取資料表](assets/query_editor_nveau_21.png)
 
 
->[!NOTE]
->
->* 所有這些步驟都可在一般查詢編輯器中使用。 在另一個前後關聯中建立查詢時，可能會忽略某些步驟。
->
->* 若要進一步瞭解查詢以及如何建立查詢，請參閱[Campaign工作流程檔案](../../automation/workflow/query.md)。
+建立查詢的步驟在此頁面[上詳細說明](design-queries.md)。
 
-若要查詢Campaign資料庫，請開啟&#x200B;**一般查詢編輯器**，然後執行下列步驟：
+<!--
+Contexts to use the query editor iin Campaign are listed below:
 
-## 步驟1 — 選擇表格 {#step-1---choose-a-table}
-
-選取包含您要在&#x200B;**[!UICONTROL Document type]**&#x200B;視窗中查詢之資料的資料表。 如有需要，請使用篩選欄位或&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕來篩選資料。
-
-![](assets/query_editor_nveau_21.png)
-
-## 步驟2 — 選擇要擷取的資料 {#step-2---choose-data-to-extract}
-
-在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗中，選取要顯示的資料：這些欄位將構成輸出欄。
-
-例如，選取&#x200B;**[!UICONTROL Age]**、**[!UICONTROL Primary key]**、**[!UICONTROL Email domain]**&#x200B;和&#x200B;**[!UICONTROL City]**。 結果會根據此選取專案進行組織。 使用視窗右側的藍色箭頭來變更欄順序。
-
-![](assets/query_editor_nveau_01.png)
-
-您可以將公式插入運算式中，或對彙總函式執行程式，以編輯運算式。 若要這麼做，請按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄位，然後選取&#x200B;**[!UICONTROL Edit expression]**。
-
-![](assets/query_editor_nveau_97.png)
-
-您可以將輸出資料行資料分組：若要這麼做，請檢查&#x200B;**[!UICONTROL Yes]**&#x200B;視窗之&#x200B;**[!UICONTROL Group]**&#x200B;資料行中的&#x200B;**[!UICONTROL Data to extract]**。 此函式產生關於核取之群組軸的結果。 [此區段](../../automation/workflow/query-delivery-info.md)中有群組查詢的範例。
-
-![](assets/query_editor_nveau_56.png)
-
-* **[!UICONTROL Handle groupings (GROUP BY + HAVING)]**&#x200B;函式可讓您「分組依據」並選取已分組的專案（「具有」）。 此函式適用於輸出欄中的所有欄位。 例如，此選項可讓您將輸出欄的所有選擇分組，並復原特定型別的資訊，例如介於35到50之間的收件者。
-
-  如需詳細資訊，請參閱[本章節](../../automation/workflow/query-grouping-management.md)。
-
-* **[!UICONTROL Remove duplicate rows (DISTINCT)]**&#x200B;函式可讓您去除重複輸出資料行中取得的相同結果。 例如，如果您選取輸出欄中的「姓氏」、「名字」和「電子郵件」欄位來進行人口普查，資料相同的欄位將會被刪除，因為這意味著資料庫中已經多次輸入相同的連絡人：只會考慮一個結果。
-
-## 步驟3 — 排序資料 {#step-3---sort-data}
-
-**[!UICONTROL Sorting]**&#x200B;視窗可讓您排序欄內容。 使用箭頭來變更欄順序：
-
-* **[!UICONTROL Sorting]**&#x200B;欄可啟用簡單排序，並從A到Z或依遞增順序排列欄內容。
-* **[!UICONTROL Descending sort]**&#x200B;會以遞減順序將內容從Z排列到A。 這對於檢視紀錄銷售非常有用，例如：最高數字會顯示在清單頂端。
-
-在此範例中，資料會根據收件者年齡以遞增順序排序。
-
-![](assets/query_editor_nveau_57.png)
-
-## 步驟4 — 篩選資料 {#step-4---filter-data}
-
-查詢編輯器可讓您篩選資料以縮小搜尋範圍。
-
-提供的篩選器取決於查詢涉及的表格。
-
-![](assets/query_editor_nveau_09.png)
-
-選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，您將會存取&#x200B;**[!UICONTROL Target elements]**&#x200B;區段：這可讓您定義如何篩選要收集的資料。
-
-* 若要建立新的篩選器，請選取建立要驗證的公式所需的欄位、運運算元和值，以便選取資料。 您也可以在此頁面[上結合數個條件做為詳細的](filter-conditions.md)。
-* 若要使用先前儲存的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以開啟下拉式清單，按一下&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選取您想要的篩選器。
-
-  ![](assets/query_editor_15.png)
-
-* 在&#x200B;**[!UICONTROL Generic query editor]**&#x200B;中建立的篩選器可用於其他查詢應用程式，反之亦然。 若要儲存篩選器，請按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示。
-
-  >[!NOTE]
-  >
-  >如需建立和使用篩選的詳細資訊，請參閱[篩選選項](filter-conditions.md)。
-
-如下列範例所示，若要復原所有說英語的收件者，請選取：「收件者語言&#x200B;**等於** EN」。
-
-![](assets/query_editor_nveau_89.png)
-
->[!NOTE]
->
->您可以在&#x200B;**值**&#x200B;欄位中輸入下列公式，直接存取選項： **$（選項:OPTION_NAME）**。
-
-按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視篩選條件的結果。 在此情況下，所有說英語的收件者都會顯示其名稱、名字和電子郵件地址。
-
-![](assets/query_editor_nveau_98.png)
-
-熟悉SQL語言的使用者可以按一下&#x200B;**[!UICONTROL Generate SQL query]**&#x200B;以檢視SQL中的查詢。
-
-![](assets/query_editor_nveau_99.png)
-
-## 步驟5 — 格式化資料 {#step-5---format-data}
-
-設定限制篩選器後，即可存取&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗。 此視窗可讓您重新排列輸出欄、轉換資料，以及變更欄標籤的大寫/小寫。 它也可讓您使用計算欄位將公式套用至最終結果。
-
->[!NOTE]
->
->如需有關計算欄位型別的詳細資訊，請參閱[建立計算欄位](filter-conditions.md#creating-calculated-fields)。
-
-未勾選的欄不會顯示在資料預覽視窗中。
-
-![](assets/query_editor_nveau_10.png)
-
-**[!UICONTROL Transformation]**&#x200B;欄可讓您將欄標籤變更為大寫或小寫。 選取欄並按一下&#x200B;**[!UICONTROL Transformation]**&#x200B;欄。 您可以選擇：
-
-* **[!UICONTROL Switch to lower case]**,
-* **[!UICONTROL Switch to upper case]**,
-* **[!UICONTROL First letter in upper case]**。
-
-![](assets/query_editor_nveau_42.png)
-
-## 步驟6 — 預覽資料 {#step-6---preview-data}
-
-**[!UICONTROL Data preview]**&#x200B;視窗是最後一個階段。 按一下&#x200B;**[!UICONTROL Start the preview of the data]**&#x200B;以取得您的查詢結果。 它以欄或XML格式提供。 按一下&#x200B;**[!UICONTROL Generated SQL queries]**&#x200B;索引標籤以檢視SQL格式的查詢。
-
-在此範例中，資料會根據收件者年齡以遞增順序排序。
-
-![](assets/query_editor_nveau_11.png)
-
->[!NOTE]
->
->根據預設，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。
-
-
+|Usage|Example|
+|  ---  |  ---  |
+|**Define a Query activity in a workflow**: Define the criteria to query Campaign database in a workflow. [Learn how to configure the Query activity](../../automation/workflow/query.md)|![Image showing how to configure a query activity in a workflow](../../automation/workflow/assets/query-activity.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../start/create-message.md#define-the-target-audience)|![Image showing how to access the audience creation interface](../send/sms/assets/audience_to.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../audiences/create-audiences.md)|![Image showing how to access the audience creation interface](../audiences/assets/targeting-wf-age-filter.png){width="200" align="center" zoomable="yes"}|
+|**Customize workflow activities**: Apply rules within workflow activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about workflow activities](../../automation/workflow/activities.md)|![Image showing how to access workflow customization options](assets/access-workflow.png){width="200" align="center" zoomable="yes"}|
+|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. [Learn how to work with predefined filters](../get-started/predefined-filters.md)|![Image showing how to access predefined filters](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"}|
+|**Filter reports data**: Add rules to filter the data displayed in reports. [Learn how to work with reports](../reporting/gs-reports.md)|![Image showing how to filter data in reports](assets/access-reports.png){width="200" align="center" zoomable="yes"}|
+|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients or deliveries lists. [Learn how to filter lists](../get-started/list-filters.md#list-built-in-filters)|![Image showing how to customize list filters](assets/access-lists.png){width="200" align="center" zoomable="yes"}|
+|**Build conditional content**: Make email content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging. [Learn how to build conditional content](../personalization/conditions.md)|![Image showing how to create conditional content](assets/conditional-content.png){width="200" align="center" zoomable="yes"}|
+-->
 
 **相關主題**
 

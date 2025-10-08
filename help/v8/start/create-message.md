@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 100%
+source-wordcount: '1524'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    提供以下目標類型：
 
-   * **[!UICONTROL Filtering conditions]**：使用此選項來定義查詢並顯示結果。 在[本章節](../start/query-editor.md)瞭解如何設計查詢。
+   * **[!UICONTROL Filtering conditions]**：使用此選項來定義自訂查詢以擷取收件者。 在[本章節](../start/query-editor.md)瞭解如何設計查詢。
    * **[!UICONTROL A list of recipients]**：使用此選項來鎖定設定檔清單。 在[本章節](../audiences/create-audiences.md)深入了解有關清單的詳細資訊。
    * **[!UICONTROL A recipient]**：使用此選項來選取資料庫之中的特定設定檔。
    * **[!UICONTROL Recipients included in a folder]**：使用此選項來鎖定特定資料夾包含的所有設定檔。
@@ -182,7 +182,7 @@ ht-degree: 100%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 

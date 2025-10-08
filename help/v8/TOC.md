@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 449f24cb23afa2d6bd7d6f2ad7ff3ba65e0a1d5d
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '797'
 ht-degree: 96%
 
 ---
@@ -175,11 +175,12 @@ ht-degree: 96%
          + [內建量度計算](reporting/metrics-calculation.md)
       + [自訂報告](reporting/custom-reports.md)
 + 資料管理 {#data}
-   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
-   + [匯入資料](start/import.md)
-   + 建立查詢 {#query}
-      + [設計查詢](start/query-editor.md)
+   + 查詢資料庫 {#query}
+      + [使用查詢編輯器](start/query-editor.md)
+      + [設計查詢](start/design-queries.md)
       + [定義篩選條件](start/filter-conditions.md)
+   + [匯入資料](start/import.md)
+   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
    + [連結 Campaign 與其他解決方案](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
