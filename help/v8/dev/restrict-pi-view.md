@@ -5,10 +5,10 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 如果您希望行銷使用者能夠存取資料記錄，但不希望他們看到收件者個人資訊(PI) （例如名字、姓氏或電子郵件地址），請套用以下准則來保護隱私權，並防止資料被一般行銷活動操作員濫用。
 
-## 實施 {#implementation}
+## 實作 {#implementation}
 
 可套用至任何元素或屬性的特定屬性已新增至結構描述，它補充了現有的屬性&#x200B;**[!UICONTROL visibleIf]**。 此屬性是： **[!UICONTROL accessibleIf]**。 當包含與目前使用者內容相關的XTK運算式時，它可以利用&#x200B;**[!UICONTROL HasNamedRight]**&#x200B;或&#x200B;**[!UICONTROL $(login)]**，例如。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 主要屬性為：
 
-* **[!UICONTROL visibleIf]**：隱藏中繼資料中的欄位，因此無法在結構描述檢視、資料行選取範圍或運算式產生器中存取這些欄位。 但這不會隱藏任何資料，如果手動在運算式中輸入欄位名稱，則會顯示值。
+* **[!UICONTROL visibleIf]**：隱藏中繼資料中的欄位，因此無法在結構描述檢視、資料行選取或[運算式產生器](../../v8/start/filter-conditions.md#list-of-functions)中存取它們。 但這不會隱藏任何資料，如果手動在運算式中輸入欄位名稱，則會顯示值。
 * **[!UICONTROL accessibleIf]**：隱藏產生的查詢中的資料（以空白值取代）。 如果visibleIf空白，則會取得與&#x200B;**[!UICONTROL accessibleIf]**&#x200B;相同的運算式。
 
 在Campaign中使用此屬性的後果如下：

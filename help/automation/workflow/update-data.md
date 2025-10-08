@@ -5,7 +5,7 @@ description: 進一步瞭解更新資料工作流程活動
 feature: Workflows, Targeting Activity, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 4%
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 1. 選取要移至主要記錄的集合與要更新的欄位。
 
-   輸入一或多個次要記錄識別後套用至這些記錄的規則。 若要這麼做，您可以使用運算式產生器。 例如，指定這是必須保留的所有不同記錄中最近更新的值。
+   輸入一或多個次要記錄識別後套用至這些記錄的規則。 若要這麼做，您可以使用[運算式產生器](../../v8/start/filter-conditions.md#list-of-functions)。 例如，指定這是必須保留的所有不同記錄中最近更新的值。
 
    然後輸入規則要考慮的條件。
 
