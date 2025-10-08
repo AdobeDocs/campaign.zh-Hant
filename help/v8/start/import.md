@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3845'
 ht-degree: 34%
 
 ---
@@ -416,9 +416,13 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 ### 第 8 步 - 資料預覽 {#step-8---data-preview}
 
-按一下&#x200B;**[!UICONTROL Start the preview of the data]**&#x200B;以預覽匯出結果。 依預設，會顯示前200行。 若要變更此值，請按一下&#x200B;**[!UICONTROL Lines to display]**&#x200B;欄位右側的箭頭。
+按一下&#x200B;**[!UICONTROL Start the preview of the data]**&#x200B;以預覽匯出結果。
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>如同中，對於主控台中可用的所有清單，預設情況下，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 [了解更多](../config/ui-settings.md#manage-and-customize-lists)
 
 按一下輔助程式底部的標籤，從欄中的結果預覽切換為XML中的結果。 您還可以查看生成的 SQL 查詢。
 
