@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 449f24cb23afa2d6bd7d6f2ad7ff3ba65e0a1d5d
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 96%
+source-wordcount: '796'
+ht-degree: 95%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 96%
    + [開始使用輪廓和客群](audiences/gs-audiences.md)
    + [配合客群](start/audiences.md)
    + [存取輪廓](audiences/view-profiles.md)
+   + [使用篩選器](audiences/create-filters.md)
    + 新增輪廓 {#add-profiles}
       + [手動建立輪廓](audiences/create-profiles.md)
       + [從檔案匯入輪廓](audiences/import-profiles.md)
@@ -126,7 +127,6 @@ ht-degree: 96%
       + [建立測試輪廓](audiences/test-profiles.md)
    + 建立客群 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
-      + [建立及管理篩選器](audiences/create-filters.md)
       + [與 Adobe 解決方案共用客群](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)

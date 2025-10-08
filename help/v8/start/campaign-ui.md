@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 75%
+source-wordcount: '1128'
+ht-degree: 74%
 
 ---
 
@@ -192,4 +192,4 @@ The web access interface is similar to the console interface. From a browser, yo
 ## 其他資源
 
 * **[使用分項清單](../config/enumerations.md)** — 使用預先定義的下拉式清單標準化欄位值，以更快速、更一致的資料輸入。
-* **[結構描述中的分項清單](../dev/schema-structure.md#enumerations)** — 身為Campaign開發人員，請在結構描述中使用免費、固定或資料庫型分項清單來控制欄位值。
+* **[篩選資料](../audiences/create-filters.md)** — 探索現有的內建篩選器，以存取特定的Campaign資料子集、如何建立快速篩選，或設計和共用您自己的進階篩選器。
