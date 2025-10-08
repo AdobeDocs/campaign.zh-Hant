@@ -182,7 +182,7 @@ ht-degree: 99%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447010?quality=12&captions=chi_hant)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 
