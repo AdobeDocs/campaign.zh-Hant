@@ -3,9 +3,9 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3bc247ba81de3de56c26bdf8fa9b8aa5ea91fb2a
+source-git-commit: d31368428fc7d5b982bb5fc67d0369bb17ea0b2c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '388'
 ht-degree: 23%
 
 ---
@@ -28,8 +28,8 @@ _2025年10月9日_
 
 此版本也隨附Campaign Web使用者介面提供的一組功能：
 
-* [交易式訊息中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [異動訊息、推播通知和簡訊的多語言功能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
+* [交易式訊息中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [異動訊息、推播通知和簡訊的多語言功能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
@@ -52,7 +52,7 @@ _2025年10月9日_
 * 修正Real-Time Server針對無效的IMS權杖傳回錯誤回應代碼的問題。 (NEO-87428)
 * 修正電子郵件和簡訊的傳遞統計資料未完全重新計算，導致成功指標不準確的問題。 (NEO-88106)
 * 修正新SMS傳送聯結器的問題，該問題導致傳送記錄錯誤指派一小部分訊息的傳送狀態。 (NEO-89581)
-* 修正新SMS傳送聯結器的問題，該問題導致T-Mobile傳遞的成功量度未在行銷和中間伺服器上正確更新。 (NEO-89850)
+* 修正新SMS傳送聯結器的問題，該問題導致成功量度傳遞未在行銷和中間伺服器上正確更新。 (NEO-89850)
 * 修正即時和行銷執行個體之間的同步問題，此問題會導致遺失追蹤記錄及不正確的報表。 (NEO-90247)
 * 修正在自訂結構中選擇兩個連續1-N連結的欄位時，可能會導致錯誤的工作流程擴充問題。 (NEO-87682)
 
