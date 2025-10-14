@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Campaign社交行銷模組在X （先前稱
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 4%
 
 ---
@@ -149,7 +149,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
 >[!CAUTION]
 >
->您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#sending-using-multiple-waves){target="_blank"}。
+>您無法每天傳送超過250則直接訊息。 為避免超過此臨界值，您可以分階段傳送。 如需詳細資訊，請參閱本[區段](configure-and-send.md#sending-using-multiple-waves)。
 
 
 ## 存取追蹤資料 {#tw-tracking}

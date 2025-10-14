@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
    瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"}中設定工作流程範本。
 
-   若要深入瞭解電子郵件範本，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=zh-Hant){target="_blank"}。
+   在此[頁面](../send/create-templates.md)中進一步瞭解電子郵件範本。
 
 
 1. **設定類型規則**
@@ -162,7 +162,7 @@ Adobe Campaign 提供流程和設定，允許您根據適用的資料隱私法�
 
 您只能使用單一登入 (SSO) 來連線至 Campaign。在[本頁](connect.md)中瞭解更多。
 
-在[&#128279;](../connect/integration.md)本頁面瞭解可整合 Adobe Campaign 的完整 Adobe 解決方案清單。
+在](../connect/integration.md)本頁面[瞭解可整合 Adobe Campaign 的完整 Adobe 解決方案清單。
 
 ### 連接器{#implementation-connectors}
 

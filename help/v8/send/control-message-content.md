@@ -6,9 +6,9 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 5%
 * [取消訂閱連結](#opt-out)和登陸頁面：取消訂閱連結是必要的。 它必須可見且有效，而且表單必須有效。
 * 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容（[收件匣轉譯](#message-responsiveness)，[SpamAssassin](#spamassassin)）。
 
-如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=zh-Hant){target="_blank"}。
+如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}。
 
 >[!NOTE]
 >
->如需編輯電子郵件內容的詳細資訊，請參閱[定義電子郵件內容](defining-the-email-content.md)。
+>如需編輯電子郵件內容的詳細資訊，請參閱此[頁面](defining-the-email-content.md)。
 
 ## 寄件者地址 {#sender-address}
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 您必須確定在執行個體層級（功能表&#x200B;**[!UICONTROL Tools > Advanced > deployment wizard...]**）或最常使用的案例中指定了正確的地址。
 
-如需定義寄件者地址的詳細資訊，請參閱[此頁面](defining-the-email-content.md#sender)。
+如需定義寄件者地址的詳細資訊，請參閱此[頁面](defining-the-email-content.md#sender)。
 
 ## 個人化 {#personalization}
 

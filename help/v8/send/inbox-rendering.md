@@ -6,7 +6,7 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 8%
@@ -62,7 +62,8 @@ Litmus是功能豐富的電子郵件驗證和預覽應用程式。 它可讓電�
 
 在您建立電子郵件傳送並定義其內容以及目標定位群體後，請遵循下列步驟。
 
-如需建立、設計和鎖定傳送的詳細資訊，請參閱[本節](defining-the-email-content.md)。
+如需建立、設計和鎖定傳送的詳細資訊，請參閱此[頁面](defining-the-email-content.md)。
+
 
 1. 在傳遞的頂端列上，按一下&#x200B;**[!UICONTROL Inbox rendering]**&#x200B;按鈕。
 
