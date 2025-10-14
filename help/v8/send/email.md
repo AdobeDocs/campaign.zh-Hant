@@ -91,7 +91,7 @@ ht-degree: 9%
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中建立工作流程以匯入電子郵件內容。
+瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=zh-Hant){target="_blank"}中建立工作流程以匯入電子郵件內容。
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ ht-degree: 9%
 >* [選取您電子郵件的對象](../audiences/gs-audiences.md)
 >* [驗證傳遞並傳送證明](preview-and-proof.md)
 >* [設定並傳送傳遞](configure-and-send.md)
->* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
+>* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=zh-Hant){target="_blank"}
 
 ## 測試及驗證您的電子郵件
 
