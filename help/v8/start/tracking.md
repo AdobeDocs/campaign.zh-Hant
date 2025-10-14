@@ -34,32 +34,32 @@ ht-degree: 20%
 
 您可以追蹤訊息是否收到，以及郵件內容中所插入連結的啟用情況，以便更清楚瞭解收件者的行為。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
 
 **URL追蹤**
 
 追蹤選項可透過啟用或停用追蹤的URL來設定。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages){target="_blank"}
 
 
 **已追蹤連結個人化**
 
 行銷活動追蹤功能可讓您在電子郵件中新增可個人化且支援追蹤的連結。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages){target="_blank"}
 
 **追蹤記錄**
 
 傳送傳遞並啟用追蹤後，**追蹤**&#x200B;技術工作流程會擷取追蹤資料。 此資料可在您傳送的「追蹤」標籤中找到。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
 
 **測試追蹤**
 
 在使用您的追蹤傳送訊息之前，您可以在映象頁面、電子郵件記錄檔和連結上測試追蹤。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages){target="_blank"}
 
 ### 網站應用程式追蹤 {#web-application-tracking}
 
@@ -69,13 +69,13 @@ ht-degree: 20%
 
 您也可以追蹤和測量具有追蹤標籤的網頁應用程式頁面上的造訪次數。 此功能可用於所有Web應用程式型別，例如表單和線上調查。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=zh-Hant#designing-content){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=zh-Hant#designing-content){target="_blank"}
 
 **網站應用程式追蹤選擇退出**
 
 網站應用程式追蹤選擇退出可讓您停止追蹤選擇退出行為追蹤之一般使用者的網站行為。 您可以在網頁應用程式或登入頁面中加入顯示橫幅的功能，讓使用者選擇退出。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=zh-Hant#designing-content){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=zh-Hant#designing-content){target="_blank"}
 
 ### 追蹤報表 {#tracking-reports}
 
@@ -85,25 +85,25 @@ ht-degree: 20%
 
 此報表提供有關開啟、點按和交易的統計資料，並讓您追蹤傳送對行銷的影響。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports){target="_blank"}
 
 **URL 和點按流**
 
 此報表顯示傳遞後造訪的頁面清單。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#urls-and-click-streams){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#urls-and-click-streams){target="_blank"}
 
 **人員與收件者**
 
 透過此範例，更能瞭解Adobe Campaign中個人/人員與收件者之間的追蹤差異。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=zh-Hant#reporting){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=zh-Hant#reporting){target="_blank"}
 
 **追蹤指標**
 
 此報表結合關鍵指標，用於追蹤收件者在接收傳遞時的行為，例如開啟、點進率及點按資料流。
 
-[ 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#reporting){target="_blank"}
+[&#x200B; 閱讀 Campaign Classic v7 文件以了解更多資訊](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=zh-Hant#reporting){target="_blank"}
 
 **指示器計算**
 
