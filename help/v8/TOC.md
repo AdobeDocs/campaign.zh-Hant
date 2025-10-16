@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '806'
 ht-degree: 95%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 95%
       + [新增個人化欄位](send/personalization-fields.md)
       + [使用個人化區塊](send/personalization-blocks.md)
       + [建立條件](send/conditions.md)
+      + [個人化優惠券](send/personalized-coupons.md)
+      + [產生個人化 PDF 文件](send/generating-personalized-pdf-documents.md)
+      + [自訂表情符號清單](send/customizing-emoticon-list.md)
    + 驗證和傳送您的傳遞 {#validate}
       + [預覽和校樣](send/preview-and-proof.md)
       + [傳遞分析](send/delivery-analysis.md)
