@@ -4,8 +4,9 @@ description: 瞭解如何個人化訊息內容
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 48%
@@ -51,7 +52,7 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 若要改善傳送保護，您可以設定個人化階段的逾時期間。
 
-在&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Maximum personalization run time]**&#x200B;選項的最大值（以秒為單位）。
+在&#x200B;**[!UICONTROL Delivery]**&#x200B;的&#x200B;**[!UICONTROL Delivery properties]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Maximum personalization run time]**&#x200B;選項的最大值（以秒為單位）。
 
 在預覽或傳送期間，如果個人化階段超過您在此欄位中設定的最大時間，則會中止程式並顯示錯誤訊息，且傳送失敗。
 
@@ -70,4 +71,4 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 瞭解不同類型的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452879?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

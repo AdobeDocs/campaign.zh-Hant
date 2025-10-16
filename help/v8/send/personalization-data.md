@@ -4,8 +4,9 @@ description: 瞭解哪些來源可用於個人化
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 711256e2-ab77-404a-b052-6793a85da193
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -57,7 +58,7 @@ Personalization資料可從各種型別的來源擷取：Campaign資料庫資料
 1. 建立行銷活動。
 1. 在行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，新增&#x200B;**查詢**&#x200B;活動至您的工作流程。
 1. 將&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動新增至工作流程並開啟它。
-1. 移至&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤，並選取&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項。
+1. 移至&#x200B;**[!UICONTROL Analysis]**&#x200B;的&#x200B;**[!UICONTROL Delivery properties]**&#x200B;標籤，並選取&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項。
 1. 設定傳送並啟動工作流程以啟動分析。
 
 分析完成後，個人化資料會透過分析期間即時建立的臨時技術工作流程，儲存在臨時表格中。

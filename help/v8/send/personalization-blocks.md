@@ -4,8 +4,9 @@ description: 瞭解如何在訊息內容中使用內建的個人化區塊
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 17%
@@ -79,4 +80,4 @@ ht-degree: 17%
 
 在以下影片中瞭解如何建立動態內容區塊，以及如何使用這些區塊來個人化您的電子郵件傳送內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449017?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
