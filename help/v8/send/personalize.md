@@ -71,4 +71,4 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 瞭解不同類型的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452879?captions=chi_hant&quality=12)
