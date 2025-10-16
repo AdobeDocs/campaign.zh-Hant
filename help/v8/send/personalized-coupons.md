@@ -5,10 +5,9 @@ description: 瞭解如何建立和插入個人化優惠券
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 優惠券管理依賴必須安裝的套件。 若要確認您有優惠券管理，請核取&#x200B;**[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
-抵用券資料可以使用CSV和XML格式匯入和匯出。 [了解更多](../../platform/using/get-started-data-import-export.md)。
+抵用券資料可以使用CSV和XML格式匯入和匯出。 [了解更多](../start/import.md)。
 
 ## 建立抵用券 {#creating-a-coupon}
 
@@ -58,7 +57,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >個別優惠券可大量匯入。 如需有關匯入和匯出的詳細資訊，請參閱[本區段](../../platform/using/get-started-data-import-export.md)。
+   >個別優惠券可大量匯入。 如需有關匯入和匯出的詳細資訊，請參閱[本區段](../start/import.md)。
 
 ### 設定個別優惠券 {#configuring-individual-coupons}
 
@@ -75,8 +74,7 @@ ht-degree: 1%
 
 ## 在電子郵件傳遞中插入抵用券 {#inserting-a-coupon-into-an-email-delivery}
 
-在下列範例中，會從首頁建立傳送。 如需有關如何建立傳遞的詳細說明，請參閱[本節](about-email-channel.md)。 您也可以在工作流程中新增優惠券至傳遞。
-
+在下列範例中，會從首頁建立傳送。 如需如何建立傳遞的詳細說明，請參閱[本節](email.md)
 1. 移至&#x200B;**[!UICONTROL Campaigns]**&#x200B;並選擇&#x200B;**[!UICONTROL Deliveries]**。
 1. 按一下 **[!UICONTROL Create]**。
 
@@ -150,9 +148,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多](../../configuration/using/about-data-model.md#default-recipient-table)。
+>依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多](../dev/datamodel.md#ootb-profiles)。
 >
->在此頁面[中瞭解如何使用自訂收件者資料表](../../configuration/using/about-custom-recipient-table.md)。
+>在此頁面[中瞭解如何使用自訂收件者資料表](../dev/custom-recipient.md)。
 
 ## 管理不足的優惠券 {#managing-insufficient-coupons}
 
