@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign Technotes
 description: Campaign技術檔案
 breadcrumb-title: Campaign技術檔案
-source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '70'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 24%
 
 + [Campaign技術檔案](technotes-home.md)
 + 升級{#tn-new}
-   + [簡訊聯結器移轉](upgrades/sms-migration.md)
    + [推播通知通道變更](upgrades/push-technote.md)
    + [將使用者移轉至 IMS](upgrades/migrate-users-to-ims.md)
    + [將技術操作員移轉至 Developer Console](upgrades/ims-migration.md)

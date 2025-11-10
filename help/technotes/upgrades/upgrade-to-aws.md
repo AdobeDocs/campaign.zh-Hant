@@ -1,8 +1,10 @@
 ---
 title: Campaign電子郵件傳送基礎架構升級
 description: Campaign電子郵件傳送基礎架構升級
+hide: true
+hidefromtoc: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -55,11 +57,11 @@ ht-degree: 1%
 
 * **客戶需要哪些測試？**
 
-  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   沒有。我們無法因應現有排程的任何修改請求，因為這可能會中斷為其他客戶指派的升級事件。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

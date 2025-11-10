@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 12%
+source-wordcount: '185'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 12%
 >[!NOTE]
 >
 >您也可以使用Adobe Campaign將[推播通知](../push.md)和[LINE](../line/line.md)訊息傳送至行動裝置。
-
+>
+> 對於使用舊版SMS聯結器的客戶，現有實作仍受支援。 不過，我們建議移至新的聯結器。 如果您想要轉換，請聯絡Adobe。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

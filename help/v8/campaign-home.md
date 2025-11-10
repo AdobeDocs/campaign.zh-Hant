@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: 前往Adobe Campaign v8說明中心尋找說明。 瞭解Campaign v8的新增功能、改善和修正。
 title: Adobe Campaign v8產品檔案
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: dc8aef5fe542db06368a2cc0c832b4d43b069fc7
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 91%
+source-wordcount: '298'
+ht-degree: 90%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 91%
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
 
+<!--
+>[!TAB Push channel upcoming changes] 
 
->[!TAB 推播頻道近期變更]
+Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.
 
-Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並可能影響 Adobe Campaign 實施。Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取動作。
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
-
+[![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+-->
 
 
 >[!ENDTABS]
