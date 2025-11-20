@@ -59,14 +59,14 @@ Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic 
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-在[此頁面](../architecture/architecture.md)中進一步瞭解[!DNL Campaign] v8架構。
+在[!DNL Campaign]此頁面[中進一步瞭解](../architecture/architecture.md) v8架構。
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
 Campaign 使用者僅透過其 Adobe ID 連線。相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
 
-瞭解如何在[此頁面](connect.md)中連線至[!DNL Campaign]。
+瞭解如何在[!DNL Campaign]此頁面[中連線至](connect.md)。
 
 ## 使用多維度資料集分析資料{#adobe-reporting}
 
