@@ -78,7 +78,7 @@ ht-degree: 8%
 
 ## 啟用一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 
-一鍵式清單取消訂閱URL是顯示在電子郵件寄件者資訊旁邊的連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+一鍵式清單取消訂閱URL是顯示在電子郵件寄件者資訊旁邊的連結或按鈕，可讓收件者只要按一下即可立即選擇退出您的郵寄清單。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=zh-Hant#list-unsubscribe){target="_blank"}-->
 
 它在ISP的電子郵件介面中顯示為&#x200B;**取消訂閱**&#x200B;連結。 例如：
 
@@ -117,7 +117,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您也可以手動設定[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}和[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}方法。 Experience Cloud [傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}中會說明詳細步驟。
+>您也可以手動設定[One-Click List-Unsubscribe](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}和[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}方法。 Experience Cloud [傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=zh-Hant#list-unsubscribe){target="_blank"}中會說明詳細步驟。
 
 
 ## 新增SMTP標頭 {#adding-smtp-headers}
