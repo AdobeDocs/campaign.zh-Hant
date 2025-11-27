@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
+source-git-commit: 0830dea0e04a67c2d0b4102e41c0e57d8c98302a
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 95%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 95%
    + [元件與流程](start/ac-components.md)
    + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
+   + [常見問題集](start/campaign-faq-comprehensive.md)
    + [常見問題集](start/campaign-faq.md)
 + 行銷活動管理 {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
@@ -232,7 +233,7 @@ ht-degree: 95%
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源 {#developer}
    + [Campaign 資料模型](dev/datamodel.md)
-   + 結構描述和表單 {#shemas-forms}
+   + 結構描述和表單 {#schemas-forms}
       + [使用結構描述](dev/schemas.md)
       + [建立結構描述](dev/create-schema.md)
       + [擴充結構描述](dev/extend-schema.md)
@@ -264,7 +265,7 @@ ht-degree: 95%
          + [擷取輪廓](dev/api/retrieving-profiles.md)
          + [更新輪廓](dev/api/updating-profiles.md)
          + [建立輪廓](dev/api/creating-profiles-api.md)
-      + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
+      + 管理服務與訂閱 {#managing-services-and-subscriptions}
          + [建立服務](dev/api/creating-a-service.md)
          + [擷取訂閱](dev/api/retrieving-subscriptions.md)
          + [執行訂閱](dev/api/perform-subscriptions.md)
