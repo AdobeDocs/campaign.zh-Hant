@@ -4,8 +4,9 @@ description: 瞭解如何授與Campaign v8使用者的許可權
 feature: Permissions
 role: User, Admin
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 1%
@@ -186,7 +187,7 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 已命名的許可權會將許可權授予：
 
 * 執行作業
-例如，已針對具有&#x200B;**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
+例如，已針對具有**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 存取資料夾
 操作員群組的成員資格可以透過變更資料夾的安全性設定，來授予或限制資料夾的存取權。 [了解更多](folder-permissions.md#restrict-access-to-a-folder)。

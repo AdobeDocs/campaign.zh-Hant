@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 74%
+source-wordcount: '1178'
+ht-degree: 69%
 
 ---
 
@@ -82,19 +82,17 @@ Campaign 用戶端主控台是原生應用程式，可透過標準網際網路�
 
 例如，瀏覽至 **[!UICONTROL Profiles and targets]** 索引標籤時，您可以存取收件者清單、訂閱服務、現有的目標工作流程，以及建立所有這些元件的捷徑。
 
-![](assets/overview-list.png)
+![Campaign主控台使用者介面，顯示如何從[設定檔與目標標籤]存取清單](assets/overview-list.png)
 
 當您在畫面中選取元素時，該元素會載入新的索引標籤中，以便您輕鬆瀏覽內容。
 
-![](assets/new-tab.png)
+![Campaign主控台使用者介面，顯示如何在新的索引標籤中編輯清單](assets/new-tab.png)
 
 ### 建立新元素 {#create-an-element}
 
 使用畫面左側 **[!UICONTROL Create]** 區段中的捷徑來新增元素。使用清單上方的 **[!UICONTROL Create]** 按鈕，將新元素新增至目前的清單中。
 
-例如，在傳遞頁面上，使用 **[!UICONTROL Create]** 按鈕來建立新的傳遞。
-
-![](assets/new-recipient.png)
+![Campaign主控台使用者介面，顯示如何從[設定檔與目標]畫面建立收件者](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -109,7 +107,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 瀏覽 Campaign Explorer 以存取所有 Adobe Campaign 功能和設定。
 
-![](assets/explorer.png)
+![Campaign主控台使用者介面顯示Explorer，並聚焦於Campaigns功能表](assets/explorer.png)
 
 此工作區可讓您存取 Explorer 樹狀結構以瀏覽所有功能和選項。
 
@@ -153,7 +151,7 @@ The web access interface is similar to the console interface. From a browser, yo
   >
   >在安裝過程中選取語言，之後&#x200B;**無法變更**。
 
-* 對於 Campaign Web 使用者介面支援的語言，[請參考此頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=zh-Hant#language-pref){target="_blank"}。
+* 如需Campaign Web使用者介面支援的語言，[請參閱Campaign Web使用者介面檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=zh-Hant#language-pref){target="_blank"}。
 
 ## 格式
 
