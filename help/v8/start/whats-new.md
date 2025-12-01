@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 97%
+source-wordcount: '1447'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,22 @@ Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視�
 ![](assets/home-page.png)
 
 ## 主要功能{#key-capabilities}
+
+### Campaign Web 使用者介面{#new-web-ui}
+
+Adobe Campaign v8除了傳統使用者端主控台之外，還提供&#x200B;**全新的網頁使用者介面**。 這個現代且直覺式的介面，是專為需要更快速建立行銷活動及改善協助工具的行銷人員所設計。
+
+**主要優點：**
+
+* **現代設計** — 可從任何瀏覽器存取簡潔的回應式介面
+* **簡化工作流程** — 簡化行銷活動的建立和管理
+* **拖放功能** — 沒有技術知識的視覺內容設計
+* **更快上線** — 新使用者的最低學習曲線
+* **整合式體驗** — 與Campaign Standard共用相似之處，以便輕鬆轉換
+
+從Campaign v8.6開始，可透過Adobe Experience Cloud使用Campaign網頁UI，順暢存取所有Adobe解決方案。
+
+[進一步瞭解Campaign網頁使用者介面](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### 中央工作流程管理{#central-wf-mgt}
 
@@ -92,6 +108,63 @@ Adobe Campaign 現在可以利用雲端規模的資料庫技術，大幅提高�
 
 [進一步瞭解企業 (FFDA) 部署](../architecture/enterprise-deployment.md)
 
+### 大規模效能 {#performance-metrics}
+
+Campaign v8企業版為大量行銷作業提供卓越的效能：
+
+* **批次處理** — 每小時最多&#x200B;**20百萬項作業**&#x200B;用於大規模行銷活動執行
+* **異動訊息** - **每小時100萬則訊息**，用於即時通訊
+* **快速建立受眾** — 在幾分鐘內查詢和劃分數百萬個設定檔，而非幾小時
+* **雲端資料庫** - Snowflake技術可在尖峰活動期間免除系統超載
+
+此效能可讓組織以企業規模執行複雜的多點觸控行銷活動，而不會影響速度或可靠性。
+
+### 新功能和增強功能 {#new-features}
+
+Campaign v8引進了強大的新功能和增強功能：
+
+**AI 助理**
+
+利用創作AI加速內容建立：
+
+* 自動產生電子郵件、簡訊和推播通知內容
+* 根據您的品牌語調和准則調整訊息
+* 品牌一致性評分可確保一致性
+* 縮短內容建立時間，同時維持品質
+
+**豐富推送通知**
+
+透過以下方式建立引人入勝的行動體驗：
+
+* 推播通知中的影像、影片和輪播
+* 互動式按鈕和計時器
+* iOS和Android的增強自訂功能
+* 透過視覺storytelling改善參與
+
+**升級的SMS基礎結構(v2.0)**
+
+* 增強的可靠性和傳遞率
+* 與SMPP聯結器更相容
+* 改善大量SMS行銷活動的輸送量
+* 進階傳遞監控和報告
+
+**增強的整合**
+
+* **Adobe Experience Manager as a Cloud Service** — 無縫的內容管理和資產整合
+* **REST API** — 現代API架構，可更輕鬆整合與開發
+* **動態報告** — 適用於轉換至v8的Campaign Standard使用者的進階分析功能
+
+### 自動升級與維護 {#automatic-upgrades}
+
+Campaign v8受管理的Cloud Services可免除手動升級的負擔：
+
+* **持續傳遞模型** — 自動升級至最新穩定版本
+* **零停機時間** — 已執行升級，對作業的影響極小
+* **立即存取** — 在新功能及安全性修補程式發行後立即取得
+* **降低IT負擔** - Adobe管理所有基礎建設維護與更新
+* **協調排程** - Adobe會與您合作規劃升級時機
+
+此方法可確保您的Campaign執行個體永遠安全、最佳化並配備最新功能，而不需要內部IT資源來規劃及執行升級。
 
 ## 自助服務管理介面{#self-service-admin}
 
