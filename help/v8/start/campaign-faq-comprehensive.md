@@ -336,7 +336,7 @@ Campaign中的登入頁面可讓您透過網路表單擷取銷售機會、管理
 
 您可以透過專用的[傳遞報告](../reporting/delivery-reports.md)追蹤與Campaign v8一起傳送的傳遞，然後監視您的傳遞。
 
-在此頁面[中進一步瞭解Campaign ](../start/tracking.md)中的追蹤管理。
+在此頁面[中進一步瞭解Campaign &#x200B;](../start/tracking.md)中的追蹤管理。
 
 **相關主題：**
 
