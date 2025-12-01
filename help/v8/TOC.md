@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 0830dea0e04a67c2d0b4102e41c0e57d8c98302a
+source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '816'
 ht-degree: 95%
 
 ---
@@ -248,6 +248,7 @@ ht-degree: 95%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
+   + [使用queryDef查詢資料庫](dev/query-api.md)
    + REST API {#apis}
       + [開始使用REST API](dev/api/get-started-apis.md)
       + [建議與限制](dev/api/limitations.md)
