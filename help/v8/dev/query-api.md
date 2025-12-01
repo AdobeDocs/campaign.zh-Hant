@@ -87,7 +87,7 @@ recipient.save();
 * `getIfExists` — 擷取單一記錄，如果找不到，則傳回null
 * `count` — 計算符合條件的記錄
 
-在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}中進一步瞭解queryDef方法。
+在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=zh-Hant){target="_blank"}中進一步瞭解queryDef方法。
 
 ## 使用JSON查詢 {#query-json}
 
@@ -211,7 +211,7 @@ for each(var delivery in deliveries.delivery) {
 >
 >`lineCount`引數會限制結果的數量。 若沒有此變數，預設限製為10,000筆記錄。
 
-深入瞭解[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}。
+深入瞭解[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}。
 
 ## 查詢工作流程轉變資料 {#workflow-transition-data}
 
@@ -256,7 +256,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->請一律使用引數化的查詢，字串為`$(sz)`，整數為`$(l)`，以防止SQL插入漏洞。 在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}中瞭解更多。
+>請一律使用引數化的查詢，字串為`$(sz)`，整數為`$(l)`，以防止SQL插入漏洞。 在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=zh-Hant){target="_blank"}中瞭解更多。
 
 ## 計算記錄 {#count-records}
 
@@ -435,7 +435,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-深入瞭解[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}。
+深入瞭解[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=zh-Hant){target="_blank"}。
 
 ### BuildQueryEx — 取得具有格式字串的SQL {#build-query-ex}
 
@@ -460,7 +460,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-深入瞭解[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}。
+深入瞭解[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=zh-Hant){target="_blank"}。
 
 ### SelectAll — 新增要選取的所有欄位 {#select-all}
 
@@ -483,7 +483,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-深入瞭解[全選](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}。
+深入瞭解[全選](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=zh-Hant){target="_blank"}。
 
 ### 更新 — 整批更新記錄 {#mass-update}
 
@@ -513,7 +513,7 @@ logInfo("Mass update completed");
 >
 >整批更新會影響所有符合where子句的記錄。 一律先使用選取查詢測試您的where條件，以確認哪些記錄將受到影響。
 
-深入瞭解[更新](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
+深入瞭解[更新](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=zh-Hant){target="_blank"}。
 
 ### GetInstanceFromModel — 查詢範本執行個體 {#get-instance-from-model}
 
@@ -536,7 +536,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-深入瞭解[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}。
+深入瞭解[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=zh-Hant){target="_blank"}。
 
 ## 批次作業 {#batch-operations}
 
@@ -772,8 +772,8 @@ if (count > 0 && count < 10000) {
 ## 相關主題 {#related-topics}
 
 * [開始使用Campaign API](api.md)
-* [queryDef API參考](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
-* [Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [queryDef API參考](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=zh-Hant){target="_blank"}
+* [Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=zh-Hant){target="_blank"}
 * [資料模型](datamodel.md)
 * [使用結構描述](schemas.md)
 * [使用查詢編輯器](../start/query-editor.md)
