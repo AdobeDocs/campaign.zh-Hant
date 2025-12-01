@@ -7,20 +7,52 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: ceab90331fab0725962a2a98f338ac3dc31a2588
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '1281'
 ht-degree: 1%
 
 ---
 
 # 使用queryDef查詢資料庫 {#query-database-api}
 
-[!DNL Adobe Campaign]提供強大的JavaScript方法，以使用`queryDef`和`NLWS`與資料庫互動。 這些方法可讓您使用JSON、XML或SQL載入、建立、更新和查詢資料。
+[!DNL Adobe Campaign]提供強大的JavaScript方法，以使用`queryDef`和`NLWS`物件與資料庫互動。 這些以SOAP為基礎的方法可讓您使用JSON、XML或SQL載入、建立、更新和查詢資料。
 
 >[!NOTE]
 >
 >本檔案說明以程式設計方式查詢資料庫的資料導向API。 若為REST API，請參閱[開始使用REST API](api/get-started-apis.md)。 若要建立視覺查詢，請參考[使用查詢編輯器](../start/query-editor.md)。
+
+## 什麼是NLWS？ {#what-is-nlws}
+
+`NLWS` (Neolane Web Services)是全域JavaScript物件，用來存取[!DNL Adobe Campaign]的SOAP型API方法。 結構描述是`NLWS`物件的屬性，可讓您以程式設計方式與Campaign實體互動。
+
+根據[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}，「結構描述是&#39;NLWS&#39;全域物件。」 存取結構描述方法的語法遵循以下模式：
+
+```javascript
+NLWS.<namespace><SchemaName>.<method>()
+```
+
+**範例：**
+
+* `NLWS.nmsRecipient` — 收件者結構描述(`nms:recipient`)的存取方法
+* `NLWS.nmsDelivery` — 傳遞結構描述(`nms:delivery`)的存取方法
+* `NLWS.xtkQueryDef` — 存取查詢資料庫的queryDef方法
+
+常見的API方法包括：
+
+* `load(id)` — 依實體識別碼載入實體。 [了解更多](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
+* `create(data)` — 建立新實體
+* `save()` — 儲存對實體的變更
+
+**官方檔案中的範例：**
+
+```javascript
+var delivery = NLWS.nmsDelivery.load("12435")
+```
+
+>[!NOTE]
+>
+>**替代語法：**&#x200B;若為回溯相容性，您也可能會在某些檔案中看到小寫的名稱空間語法（例如，`nms.recipient.create()`、`xtk.queryDef.create()`）。 兩種語法都有效，但`NLWS`是官方Campaign JSAPI參考中記錄的標準。
 
 ## 先決條件 {#prerequisites}
 
@@ -30,11 +62,30 @@ ht-degree: 1%
 * [!DNL Adobe Campaign]資料模型和結構描述
 * 用於導覽結構描述元素的XPath運算式
 
-在[此頁面](datamodel.md)中進一步瞭解Campaign資料模型。
+**瞭解Campaign資料模型：**
 
-## 實體結構描述靜態方法 {#entity-schema-methods}
+Adobe Campaign隨附預先定義的資料模型，其中包含連結在雲端資料庫中的表格。 基本結構包括：
 
-[!DNL Adobe Campaign] （例如`nms:recipient`、`nms:delivery`）中的每個結構描述都包含可透過`NLWS`物件存取的靜態方法。 這些方法提供了與資料庫實體互動的便利方式。
+* **收件者資料表** (`nmsRecipient`) — 儲存行銷設定檔的主資料表
+* **傳遞資料表** (`nmsDelivery`) — 以執行傳遞的引數儲存傳遞動作和範本
+* **記錄資料表** — 儲存執行記錄檔：
+   * `nmsBroadLogRcp` — 傳送給收件者的所有訊息的傳遞記錄
+   * `nmsTrackingLogRcp` — 追蹤收件者回應的記錄（開啟、點按）
+* **技術資料表** — 儲存系統資料，例如運運算元(`xtkGroup`)、工作階段(`xtkSessionInfo`)、工作流程(`xtkWorkflow`)
+
+若要存取Campaign介面中的結構描述說明，請瀏覽至&#x200B;**管理>設定>資料結構描述**，選取資源，然後按一下&#x200B;**檔案**&#x200B;索引標籤。
+
+## 實體結構描述方法 {#entity-schema-methods}
+
+[!DNL Adobe Campaign] （例如`nms:recipient`、`nms:delivery`）中的每個結構描述都包含可透過`NLWS`物件存取的方法。 這些方法提供了與資料庫實體互動的便利方式。
+
+### 靜態方法 {#static-methods}
+
+靜態SOAP方法可透過在代表結構描述的物件上叫用方法來存取。 例如，`NLWS.xtkWorkflow.PostEvent()`會叫用靜態方法。
+
+### 非靜態方法 {#non-static-methods}
+
+若要使用非靜態SOAP方法，您必須先使用對應結構描述上的`load`或`create`方法擷取實體。 在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}中瞭解更多。
 
 ### 載入、儲存及建立實體 {#load-save-create}
 
@@ -87,7 +138,7 @@ recipient.save();
 * `getIfExists` — 擷取單一記錄，如果找不到，則傳回null
 * `count` — 計算符合條件的記錄
 
-在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=zh-Hant){target="_blank"}中進一步瞭解queryDef方法。
+在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}中進一步瞭解queryDef方法。
 
 ## 使用JSON查詢 {#query-json}
 
@@ -209,9 +260,12 @@ for each(var delivery in deliveries.delivery) {
 
 >[!NOTE]
 >
->`lineCount`引數會限制結果的數量。 若沒有此變數，預設限製為10,000筆記錄。
+>**結果限制：**&#x200B;行銷活動會自動限制查詢結果以防止記憶體問題：
+>* 預設限制因內容而異（通常為200至10,000筆記錄）
+>* 使用`lineCount`明確設定結果數目上限
+>* 對於大型資料集（超過1000筆記錄），請使用工作流程而不是queryDef。 工作流程的設計宗旨是有效率地處理數百萬列。
 
-深入瞭解[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}和[查詢最佳實務](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}。
 
 ## 查詢工作流程轉變資料 {#workflow-transition-data}
 
@@ -256,7 +310,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->請一律使用引數化的查詢，字串為`$(sz)`，整數為`$(l)`，以防止SQL插入漏洞。 在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=zh-Hant){target="_blank"}中瞭解更多。
+>請一律使用引數化的查詢，字串為`$(sz)`，整數為`$(l)`，以防止SQL插入漏洞。 在[Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}中瞭解更多。
 
 ## 計算記錄 {#count-records}
 
@@ -349,6 +403,78 @@ for each(var result in d.get()) {
 }
 ```
 
+## 使用分析查詢分項清單 {#analyze-enumerations}
+
+`analyze`選項會傳回列舉值的好記名稱。 Campaign也將使用「Name」和「Label」尾碼來傳回字串值和標籤，而不只是數值。
+
+**具有列舉分析的查詢傳遞對應：**
+
+```javascript
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:deliveryMapping",
+    operation: "get",
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@name"},
+        {expr: "[storage/@exclusionType]", analyze: true}  // Analyze enumeration
+      ]
+    },
+    where: {
+      condition: [{expr: "@name='mapRecipient'"}]
+    }
+  }
+});
+
+var mapping = query.ExecuteQuery();
+
+// Result includes:
+// - exclusionType: 2 (numeric value)
+// - exclusionTypeName: "excludeRecipient" (string value)
+// - exclusionTypeLabel: "Exclude recipient" (display label)
+logInfo("Type: " + mapping.$exclusionType);
+logInfo("Name: " + mapping.$exclusionTypeName);
+logInfo("Label: " + mapping.$exclusionTypeLabel);
+```
+
+深入瞭解[分析選項](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}。
+
+## 分頁 {#pagination}
+
+使用`lineCount`和`startLine`在大型結果集中分頁。
+
+**擷取頁面中的記錄：**
+
+```javascript
+// Get records 3 and 4 (skip first 2)
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:recipient",
+    operation: "select",
+    lineCount: 2,     // Number of records per page
+    startLine: 2,     // Starting position (0-indexed)
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@email"}
+      ]
+    },
+    orderBy: {
+      node: [{expr: "@id"}]  // Critical: Always use orderBy for pagination
+    }
+  }
+});
+
+var recipients = query.ExecuteQuery();
+```
+
+>[!CAUTION]
+>
+>**分頁需要orderBy：**&#x200B;若沒有`orderBy`子句，無法保證查詢結果的順序一致。 後續呼叫可能會傳回不同頁面或重複記錄。 使用分頁時一律包括`orderBy`。
+
+深入瞭解[分頁](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}。
+
 ## 動態查詢建構 {#dynamic-queries}
 
 以程式設計方式附加條件，以動態方式建立查詢。
@@ -435,7 +561,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-深入瞭解[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}。
 
 ### BuildQueryEx — 取得具有格式字串的SQL {#build-query-ex}
 
@@ -460,7 +586,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-深入瞭解[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}。
 
 ### SelectAll — 新增要選取的所有欄位 {#select-all}
 
@@ -483,7 +609,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-深入瞭解[全選](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[全選](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}。
 
 ### 更新 — 整批更新記錄 {#mass-update}
 
@@ -513,7 +639,7 @@ logInfo("Mass update completed");
 >
 >整批更新會影響所有符合where子句的記錄。 一律先使用選取查詢測試您的where條件，以確認哪些記錄將受到影響。
 
-深入瞭解[更新](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[更新](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
 
 ### GetInstanceFromModel — 查詢範本執行個體 {#get-instance-from-model}
 
@@ -536,7 +662,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-深入瞭解[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=zh-Hant){target="_blank"}。
+深入瞭解[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}。
 
 ## 批次作業 {#batch-operations}
 
@@ -629,12 +755,14 @@ for each(var record in xml.collection) {
 
 使用queryDef和NLWS方法時：
 
+* **針對大型資料集使用工作流程** - QueryDef並非針對大量資料處理而設計。 針對擁有超過1,000筆記錄的資料集，請使用可有效處理數百萬列的工作流程。 在[Campaign SDK檔案](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}中進一步瞭解
 * **使用引數化查詢** — 一律使用具有`$(sz)`的繫結引數(`$(l)`， `sqlExec`)以防止SQL插入
-* **設定lineCount** — 必要時透過`lineCount: 999999999`覆寫預設的10,000筆記錄限制
+* **設定明確限制** — 使用`lineCount`控制結果大小。 行銷活動的預設限制依內容而異（200到10,000筆記錄）
+* **搭配分頁使用orderBy** — 使用`orderBy`和`startLine`時一律包含`lineCount`子句，以確保分頁一致
 * **使用getIfExists** — 在記錄可能不存在時使用`operation: "getIfExists"`以避免例外狀況
+* **使用分析列舉** — 新增`analyze: true`以選取節點，以取得好記的列舉名稱和標籤
 * **最佳化查詢** — 新增適當的`where`條件以限制結果集
-* **批次處理** — 以批次處理大型資料集以避免逾時
-* **交易安全性** — 請考慮使用交易進行多項相關更新
+* **批次處理** — 以批次處理多個記錄以避免記憶體問題和逾時
 * **FFDA感知度** — 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，請注意[!DNL Campaign]可搭配兩個資料庫使用
 
 
@@ -772,9 +900,9 @@ if (count > 0 && count < 10000) {
 ## 相關主題 {#related-topics}
 
 * [開始使用Campaign API](api.md)
-* [queryDef API參考](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=zh-Hant){target="_blank"}
-* [Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=zh-Hant){target="_blank"}
-* [資料模型](datamodel.md)
+* [Campaign JavaScript SDK — 查詢API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [queryDef API參考](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [使用結構描述](schemas.md)
 * [使用查詢編輯器](../start/query-editor.md)
 
