@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 16c9cc60041f41702b4983383954033b06ba1d99
+source-git-commit: d886072b3a21d5e5b70662c67919223cf9a1b68e
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 90%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 90%
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
          + [傳送和監視訊息](send/delivery-execution.md)
-+ 設定檔與對象 {#audience}
++ 輪廓和客群 {#audience}
    + [開始使用輪廓和客群](audiences/gs-audiences.md)
    + [配合客群](start/audiences.md)
    + [存取輪廓](audiences/view-profiles.md)
@@ -138,7 +138,7 @@ ht-degree: 90%
       + [與 Adobe 解決方案共用客群](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
-+ 登陸頁面與網頁內容 {#content}
++ 登陸頁面和Forms {#content}
    + [建立登陸頁面](dev/landing-pages.md)
    + [設計網頁應用程式和表單](dev/webapps.md)
 + 工作流程 {#workflows}
