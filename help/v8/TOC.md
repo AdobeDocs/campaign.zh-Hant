@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
+source-git-commit: 16c9cc60041f41702b4983383954033b06ba1d99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '816'
 ht-degree: 90%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 90%
          + [收集和處理事件](send/event-processing.md)
          + [了解事件說明](send/event-description.md)
          + [傳送和監視訊息](send/delivery-execution.md)
-+ 輪廓與對象管理 {#audience}
++ 設定檔與對象 {#audience}
    + [開始使用輪廓和客群](audiences/gs-audiences.md)
    + [配合客群](start/audiences.md)
    + [存取輪廓](audiences/view-profiles.md)
@@ -143,12 +143,12 @@ ht-degree: 90%
    + [設計網頁應用程式和表單](dev/webapps.md)
 + 工作流程 {#workflows}
    + [開始使用工作流程](config/workflows.md)
-   + [完成工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
-+ 隱私權與安全管理 {#privacy}
+   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
++ 隱私權與安全性 {#privacy}
    + [管理隱私權請求](start/privacy.md)
    + [安全性方針](config/security.md)
    + [增強式安全性附加元件](config/enhanced-security.md)
-+ Offer Management與互動 {#offers}
++ Offer Management — 互動 {#offers}
    + [開始使用即時互動](interaction/interaction.md)
    + [環境與架構](interaction/interaction-architecture.md)
    + [最佳實務](interaction/interaction-best-practices.md)
@@ -187,7 +187,6 @@ ht-degree: 90%
       + [使用查詢編輯器](start/query-editor.md)
       + [設計查詢](start/design-queries.md)
       + [定義篩選條件](start/filter-conditions.md)
-      + [使用對象篩選器](audiences/create-filters.md)
    + [匯入資料](start/import.md)
    + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
