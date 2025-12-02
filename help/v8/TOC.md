@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 95%
+source-wordcount: '823'
+ht-degree: 90%
 
 ---
 
@@ -40,10 +40,15 @@ ht-degree: 95%
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
    + [常見問題集](start/campaign-faq-comprehensive.md)
    + [常見問題集](start/campaign-faq.md)
++ 管理與許可權 {#permissions}
+   + [開始使用權限](start/gs-permissions.md)
+   + [管理使用者權限](start/manage-permissions.md)
+   + [新增資料夾權限](start/folder-permissions.md)
+   + [控制面板](config/self-service.md)
 + 行銷活動管理 {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
-   + [Campaign 協調流程 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
-+ 傳送訊息{#send}
+   + [促銷活動協調流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
++ 傳送訊息 {#send}
    + [開始使用訊息](start/gs-message.md)
    + [建立您的第一個傳遞](start/create-message.md)
    + [使用傳遞範本](send/create-templates.md)
@@ -60,22 +65,20 @@ ht-degree: 95%
       + [將檔案附加到電子郵件](send/attaching-files.md)
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
+      + [簡訊管道特性](send/sms/sms-channel.md)
+      + [建立簡訊傳遞](send/sms/create-sms.md)
+      + [定義內容](send/sms/sms-content.md)
+      + [選取客群](send/sms/sms-audience.md)
+      + [傳送SMS證明](send/sms/sms-proofs.md)
+      + [傳送給對象](send/sms/sms-send.md)
+      + [監視和追蹤簡訊](send/sms/sms-monitor.md)
       + 設定簡訊頻道 {#config-sms}
          + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部帳戶設定](send/sms/smpp-external-account.md)
-         + [簡訊管道特性](send/sms/sms-channel.md)
          + [驗證 SMPP 連線](send/sms/smpp-connection.md)
          + [獨立執行個體](send/sms/sms-standalone-instance.md)
          + [中間來源基礎結構](send/sms/sms-mid-sourcing.md)
-         + [SMPP 連接器說明](send/sms/smpp-connector-delivery.md)
-      + 建立簡訊  {#create-sms}
-         + [建立簡訊傳遞](send/sms/create-sms.md)
-         + [定義內容](send/sms/sms-content.md)
-         + [選取客群](send/sms/sms-audience.md)
-      + 驗證和傳送簡訊 {#validate-sms}
-         + [傳送簡訊證明](send/sms/sms-proofs.md)
-         + [傳送給客群](send/sms/sms-send.md)
-      + [監視和追蹤簡訊](send/sms/sms-monitor.md)
+         + [SMPP聯結器說明](send/sms/smpp-connector-delivery.md)
    + 推播通知 {#push}
       + [建立和傳送推播通知](send/push.md)
       + 豐富推播 {#rich-push}
@@ -83,10 +86,11 @@ ht-degree: 95%
          + [設計 iOS 豐富的推播傳遞](send/rich-push-ios.md)
       + [設定推播通知頻道](send/push-settings.md)
       + [設定資料收集的推播通知](send/push-data-collection.md)
-   + [LINE 訊息](send/line/line.md)
-   + [直接郵件](send/direct-mail.md)
-   + [X (Twitter)](send/twitter.md)
-   + [自訂外部管道](send/custom-channel.md)
+   + 其他管道 {#other-channels}
+      + [LINE 訊息](send/line/line.md)
+      + [直接郵件](send/direct-mail.md)
+      + [X (Twitter)](send/twitter.md)
+      + [自訂外部管道](send/custom-channel.md)
    + 將內容個人化 {#personalize}
       + [開始使用個人化](send/personalize.md)
       + [個人化資料](send/personalization-data.md)
@@ -134,21 +138,21 @@ ht-degree: 95%
       + [與 Adobe 解決方案共用客群](start/shared-audiences.md)
    + [最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
-+ 內容管理 {#content}
++ 登陸頁面與網頁內容 {#content}
    + [建立登陸頁面](dev/landing-pages.md)
    + [設計網頁應用程式和表單](dev/webapps.md)
 + 工作流程 {#workflows}
    + [開始使用工作流程](config/workflows.md)
-   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
+   + [完成工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 隱私權與安全管理 {#privacy}
    + [管理隱私權請求](start/privacy.md)
    + [安全性方針](config/security.md)
    + [增強式安全性附加元件](config/enhanced-security.md)
-+ 決策管理 {#offers}
++ Offer Management與互動 {#offers}
    + [開始使用即時互動](interaction/interaction.md)
    + [環境與架構](interaction/interaction-architecture.md)
    + [最佳實務](interaction/interaction-best-practices.md)
-   + 定義設定{#interaction-settings}
+   + 組態設定 {#interaction-settings}
       + [建立運算子](interaction/interaction-operators.md)
       + [建立環境](interaction/interaction-env.md)
       + [建立預先定義的篩選器](interaction/interaction-predefined-filters.md)
@@ -183,6 +187,7 @@ ht-degree: 95%
       + [使用查詢編輯器](start/query-editor.md)
       + [設計查詢](start/design-queries.md)
       + [定義篩選條件](start/filter-conditions.md)
+      + [使用對象篩選器](audiences/create-filters.md)
    + [匯入資料](start/import.md)
    + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
@@ -203,12 +208,6 @@ ht-degree: 95%
       + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
       + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [同步資料](connect/crm-data-sync.md)
-+ 管理 {#admin}
-   + 使用者與權限 {#permissions}
-      + [開始使用權限](start/gs-permissions.md)
-      + [管理使用者權限](start/manage-permissions.md)
-      + [新增資料夾權限](start/folder-permissions.md)
-   + [控制面板](config/self-service.md)
 + 架構 {#architecture}
    + [全域原則](architecture/general-architecture.md)
    + [架構模型](architecture/architecture.md)
@@ -252,10 +251,10 @@ ht-degree: 95%
    + REST API {#apis}
       + [開始使用REST API](dev/api/get-started-apis.md)
       + [建議與限制](dev/api/limitations.md)
-      + [為何使用REST API](dev/api/why-using-campaign-standard-apis.md)
+      + [何時使用REST API](dev/api/why-using-campaign-standard-apis.md)
       + [設定 API 存取](dev/api/setting-up-api-access.md)
       + 全域概念 {#global-concepts}
-         + [必讀](dev/api/must-read.md)
+         + [基本概念](dev/api/must-read.md)
          + [端點](dev/api/endpoints.md)
          + [中繼資料機制](dev/api/metadata-mechanism.md)
          + [動詞](dev/api/verbs.md)
@@ -275,6 +274,7 @@ ht-degree: 95%
       + 管理工作流程 {#managing-workflows}
          + [控管工作流程](dev/api/controlling-a-workflow.md)
          + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
-+ [行銷活動技術說明 >](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign 網頁使用者介面文件 >](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
++ 其他資源 {#resources}
+   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
+   + [Campaign Web使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 

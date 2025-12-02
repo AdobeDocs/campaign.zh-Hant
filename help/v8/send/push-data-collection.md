@@ -6,9 +6,9 @@ role: Data Engineer
 level: Intermediate
 badge: label="有限可用性" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1353'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!AVAILABILITY]
 >
-> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[&#128279;](push-settings.md)中詳述的程式。
+> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[中詳述的程式](push-settings.md)。
 
 關於此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 
@@ -55,37 +55,43 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 從&#x200B;**[!UICONTROL Mobile Application Configuration]**&#x200B;中，選取作業系統：
 
-   * 適用於iOS **的**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB iOS]
 
-      1. 在&#x200B;**[!UICONTROL App ID (iOS Bundle ID)]**&#x200B;欄位中輸入行動應用程式&#x200B;**套件組合識別碼**。
+![](assets/push-config-2.png)
 
-         您可以在Apple開發人員帳戶的&#x200B;**XCode**&#x200B;中主要目標的&#x200B;**一般**&#x200B;標籤中找到應用程式套件組合識別碼。
+1. 在&#x200B;**欄位中輸入行動應用程式**&#x200B;套件組合識別碼&#x200B;**[!UICONTROL App ID (iOS Bundle ID)]**。
 
-      1. 開啟&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
+   您可以在Apple開發人員帳戶的&#x200B;**XCode**&#x200B;中主要目標的&#x200B;**一般**&#x200B;標籤中找到應用程式套件組合識別碼。
 
-      1. 拖放您的.p8 Apple推播通知驗證金鑰檔案。
+1. 開啟&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
 
-         此金鑰可從Apple開發人員帳戶的&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面取得。
+1. 拖放您的.p8 Apple推播通知驗證金鑰檔案。
 
-      1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。
+   此金鑰可從Apple開發人員帳戶的&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面取得。
 
-         您可以在Apple開發人員帳戶的&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;標籤下找到它。
+1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。
 
-      1. 提供&#x200B;**團隊識別碼**。 這是可在&#x200B;**成員資格**&#x200B;標籤下找到的字串值。
-
-   * 適用於Android **的**
-
-     ![](assets/push-config-3.png)
-
-      1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**。 封裝名稱通常是您`build.gradle`檔案中的應用程式ID。
-
-      1. 切換&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
-
-      1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
+       您可以在Apple開發人員帳戶的**Certificates**、**Identifiers**和**Profiles**頁面的**Keys**標籤下找到它。
+   
+1. 提供&#x200B;**團隊識別碼**。 這是可在&#x200B;**成員資格**&#x200B;標籤下找到的字串值。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立您的應用程式設定。
+
+>[!TAB Android]
+
+![](assets/push-config-3.png)
+
+1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**。 封裝名稱通常是您`build.gradle`檔案中的應用程式ID。
+
+1. 切換&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
+
+1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
+
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立您的應用程式設定。
+
+>[!ENDTABS]
 
 ## 在Adobe Campaign中設定您的應用程式設定{#push-config-campaign}
 
@@ -105,7 +111,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
    >[!NOTE]
    >
-   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者表格。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 在[此頁面](../audiences/target-mappings.md)中進一步瞭解目標對應。
+   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者資料表。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 在[此頁面](../audiences/target-mappings.md)中進一步瞭解目標對應。
 
 1. 然後使用右側的&#x200B;**[!UICONTROL Add]**&#x200B;圖示來定義使用此服務的行動應用程式。
 
@@ -121,11 +127,11 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 若要為iOS裝置建立應用程式，請遵循下列步驟：
 
-1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an iOS application]**。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an iOS application]**。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/push-config-6.png)
 
-1. 從&#x200B;**[!UICONTROL Launch app configurations list]**&#x200B;視窗中，選取先前在此區段中建立的應用程式表面。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 從&#x200B;**[!UICONTROL Launch app configurations list]**&#x200B;視窗中，選取先前在此區段中建立的應用程式表面。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/push-config-7.png)
 
@@ -135,7 +141,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
    ![](assets/push-config-8.png)
 
-1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義具有&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述副檔名的對應。
+1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
 1. 瀏覽至&#x200B;**[!UICONTROL Sounds]**&#x200B;索引標籤以定義要播放的聲音。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並填入&#x200B;**[!UICONTROL Internal name]**&#x200B;欄位，欄位必須包含內嵌於應用程式中的檔案名稱或系統聲音名稱。
 
@@ -160,7 +166,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始設定生產應用程式，並依照上述步驟執行。 請注意，您無法將相同的&#x200B;**[!UICONTROL Integration key]**&#x200B;用於應用程式的開發版本（沙箱）和生產版本。
 
-1. 按一下&#x200B;**[!UICONTROL Finish]**。
+1. 按一下 **[!UICONTROL Finish]**。
 
 您的iOS應用程式現在已準備好在Campaign中使用。
 
@@ -168,7 +174,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 若要為Android裝置建立應用程式，請遵循下列步驟：
 
-1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an Android application]**。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an Android application]**。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/push-config-10.png)
 
@@ -192,7 +198,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. （選擇性）如有需要，您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
-1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義具有&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述副檔名的對應。
+1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
 1. 按一下 **[!UICONTROL Finish]**，之後 **[!UICONTROL Save]**。
 
@@ -211,7 +217,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 從資料收集首頁，存取標籤功能表。
 
-1. 按一下&#x200B;**[!UICONTROL New Property]**。
+1. 按一下 **[!UICONTROL New Property]**。
 
    ![](assets/push-config-13.png)
 
@@ -233,12 +239,12 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 填寫執行個體的詳細資訊：
 
-   * 在Campaign的&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]**&#x200B;功能表中可以找到&#x200B;**[!UICONTROL Registration endpoint]**&#x200B;或&#x200B;**[!UICONTROL Tracking endpoint]**&#x200B;個URL。
-   * 在[此區段](#create-app)設定的行動應用程式中找到&#x200B;**[!UICONTROL Integration keys]**。
+   * 在Campaign的&#x200B;**[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]**&#x200B;功能表中可以找到&#x200B;**[!UICONTROL Advanced]**&#x200B;或&#x200B;**[!UICONTROL Deployment wizard]**&#x200B;個URL。
+   * 在&#x200B;**[!UICONTROL Integration keys]**&#x200B;此區段[設定的行動應用程式中找到](#create-app)。
 
    ![](assets/push-config-17.png)
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 1. 您現在需要從&#x200B;**[!UICONTROL Publishing flow]**&#x200B;功能表發佈設定。 [了解更多](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
