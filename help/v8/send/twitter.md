@@ -4,10 +4,10 @@ description: 瞭解如何使用Adobe Campaign社交行銷模組在X （先前稱
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -158,5 +158,5 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
 可在傳遞報告及傳遞與服務的&#x200B;**[!UICONTROL Edit > Tracking]**&#x200B;標籤中檢視追蹤資料。
 
-追蹤設定與電子郵件傳遞的設定相同。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+追蹤設定與電子郵件傳遞的設定相同。 深入瞭解[追蹤](tracking.md)。
 

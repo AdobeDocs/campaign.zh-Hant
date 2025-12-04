@@ -3,12 +3,12 @@ product: campaign
 title: 使用分組管理進行查詢
 description: 瞭解如何使用分組管理執行查詢
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 * 需要選取哪個表格？
 
-  收件者表格(nms：recipient)
+  收件者資料表(nms:recipient)
 
 * 要在輸出欄中選取的欄位？
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 若要建立此範例，請套用下列步驟：
 
-1. 開啟&#x200B;**[!UICONTROL Generic query editor]**&#x200B;並選擇收件者資料表(**nms：recipient**)。
+1. 開啟&#x200B;**[!UICONTROL Generic query editor]**&#x200B;並選擇收件者資料表(**nms:recipient**)。
 
    ![](assets/query_editor_02.png)
 
@@ -43,12 +43,12 @@ ht-degree: 3%
 
    ![](assets/query_editor_nveau_29.png)
 
-1. 在&#x200B;**[!UICONTROL Sorting]**&#x200B;視窗中，以遞減順序排序電子郵件網域。 若要這麼做，請檢查&#x200B;**[!UICONTROL Descending sort]**&#x200B;欄中的&#x200B;**[!UICONTROL Yes]**。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 在&#x200B;**[!UICONTROL Sorting]**&#x200B;視窗中，以遞減順序排序電子郵件網域。 若要這麼做，請檢查&#x200B;**[!UICONTROL Yes]**&#x200B;欄中的&#x200B;**[!UICONTROL Descending sort]**。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/query_editor_nveau_70.png)
 
 1. 在&#x200B;**[!UICONTROL Data filtering]**&#x200B;中，選取&#x200B;**[!UICONTROL Filtering conditions]**。 前往&#x200B;**[!UICONTROL Target elements]**&#x200B;視窗並按一下&#x200B;**[!UICONTROL Next]**。
-1. 在&#x200B;**[!UICONTROL Data grouping]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選取&#x200B;**[!UICONTROL Email domain]**。
+1. 在&#x200B;**[!UICONTROL Data grouping]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Email domain]**&#x200B;以選取&#x200B;**[!UICONTROL Add]**。
 
    此資料分組視窗只有在已核取&#x200B;**[!UICONTROL Handle groupings (GROUP BY + HAVING]**)方塊時才會顯示。
 

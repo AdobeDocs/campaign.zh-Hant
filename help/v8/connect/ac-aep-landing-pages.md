@@ -2,10 +2,10 @@
 title: 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔
 description: 瞭解如何同步Adobe Campaign登陸頁面和Adobe Experience Platform設定檔屬性
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -56,7 +56,7 @@ OAuth連線就緒後，下一步就是在Adobe Experience Platform中建立&#x20
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant){target="_blank"}。
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}。
 
    在&#x200B;**[!UICONTROL Authentication]**&#x200B;步驟中，開啟&#x200B;**[!UICONTROL Enable authentication]**&#x200B;選項，以使用先前透過OAuth整合產生的存取權杖進行驗證。
 
@@ -98,7 +98,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=zh-Hant#JavaScript-code){target="_blank"}。
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
@@ -134,7 +134,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
    ![](assets/ac-lp-script.png){width="70%"}
 
-+++  指令碼1 — 從Experience Platform載入設定檔屬性
+   +++  指令碼1 — 從Experience Platform載入設定檔屬性
 
    此程式碼會在載入登陸頁面之前，先檢查設定檔是否存在Adobe Experience Platform中。 它會擷取設定檔屬性，並在登入頁面的對應欄位中顯示這些屬性。
 
@@ -155,9 +155,9 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
-+++ 指令碼2 — 更新Experience Platform設定檔屬性
+   +++ 指令碼2 — 更新Experience Platform設定檔屬性
 
    此程式碼會使用登陸頁面中提交的值更新Adobe Experience Platform中的設定檔屬性。
 
@@ -203,7 +203,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
 現在，自訂JavaScript程式碼已建立到Adobe Campaign中，您可以設定包含登入頁面的工作流程，以使用這些JavaScript程式碼進行資料同步。
 
@@ -213,7 +213,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 * 若要在載入登入頁面之前從Experience Platform載入資料，請在登入頁面活動之前新增&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動，並複製貼上指令碼1。
 
-+++ 指令碼1 — 從Experience Platform載入設定檔屬性
+  +++ 指令碼1 — 從Experience Platform載入設定檔屬性
 
   ```javascript
   // Script code to read profile from AEP.
@@ -249,11 +249,11 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
   }
   ```
 
-+++
+  +++
 
 * 若要使用在登入頁面中提交的資料更新Experience Platform設定檔屬性，請在登入頁面活動後新增&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動，並複製貼上指令碼2。
 
-+++ 指令碼2 — 更新Experience Platform設定檔屬性
+  +++ 指令碼2 — 更新Experience Platform設定檔屬性
 
   ```javascript
   // Script code to update profile in AEP and ACC.
@@ -323,7 +323,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
   }
   ```
 
-+++
+  +++
 
 >[!CAUTION]
 >
@@ -344,5 +344,5 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 ### 更多資訊
 
 * [設定JavaScript程式碼活動](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=zh-Hant){target="_blank"}
+* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [管理訂閱和取消訂閱](../start/subscriptions.md)

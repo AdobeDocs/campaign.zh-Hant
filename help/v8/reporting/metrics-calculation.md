@@ -2,11 +2,11 @@
 title: 內建報告量度計算
 description: 內建報告量度計算
 feature: Reporting
-role: Data Engineer
+role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3048'
+source-wordcount: '3025'
 ht-degree: 3%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-此報表以&#x200B;**[!UICONTROL Consolidated tracking]**&#x200B;資料表(nms：trackingStats)為基礎。 此彙總表格是因效能原因在顯示報表時使用，取代&#x200B;**[!UICONTROL Recipient tracking logs]**&#x200B;表格(nms：trackingLogRcp)，而且不會即時計算。 表格會在擷取追蹤記錄後的幾分鐘內產生。 如果指標是最新的，則結果將與&#x200B;**追蹤指標**&#x200B;報告的指標相同。 @totalclicks指標表示5分鐘內的點選總數。
+此報告以&#x200B;**[!UICONTROL Consolidated tracking]**&#x200B;資料表(nms:trackingStats)為基礎。 此彙總表格是因效能原因在顯示報表時使用，取代&#x200B;**[!UICONTROL Recipient tracking logs]**&#x200B;表格(nms:trackingLogRcp)，而且不會即時計算。 表格會在擷取追蹤記錄後的幾分鐘內產生。 如果指標是最新的，則結果將與&#x200B;**追蹤指標**&#x200B;報告的指標相同。 @totalclicks指標表示5分鐘內的點選總數。
 
 ## 傳遞失敗和退回次數 {#non-deliverables-and-bounces-1}
 
 **依錯誤型別劃分**
 
-此報表以&#x200B;**[!UICONTROL Delivery and tracking statistics]**&#x200B;資料表(nms：deliveryLogStats)為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery and tracking statistics]**&#x200B;資料表(nms:deliveryLogStats)為基礎。
 
 <table> 
  <thead> 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
 ## 瀏覽器 {#browsers-1}
 
-此報表以&#x200B;**[!UICONTROL Internet Browser Statistics]**&#x200B;資料表(nms：userAgentsStats)為基礎。
+此報告以&#x200B;**[!UICONTROL Internet Browser Statistics]**&#x200B;資料表(nms:userAgentsStats)為基礎。
 
 **全域統計資料**
 
@@ -203,7 +203,7 @@ ht-degree: 3%
 
 ## 分享至社交網路 {#sharing-to-social-networks-1}
 
-此報表是以&#x200B;**[!UICONTROL Delivery]** (nms：delivery)、**[!UICONTROL Consolidated tracking]** (nms：trackingStats)和&#x200B;**[!UICONTROL Web tracking]** (nms：webTrackingLog)表格為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery]** (nms:delivery)、**[!UICONTROL Consolidated tracking]** (nms:trackingStats)和&#x200B;**[!UICONTROL Web tracking]** (nms:webTrackingLog)資料表為基礎。
 
 <table> 
  <thead> 
@@ -340,7 +340,7 @@ ht-degree: 3%
 
 ## 共用活動的統計資料 {#statistics-on-sharing-activities-1}
 
-此報表是以&#x200B;**[!UICONTROL Delivery]** (nms：delivery)、**[!UICONTROL Consolidated tracking]** (nms：trackingStats)和&#x200B;**[!UICONTROL Web tracking]** (nms：webTrackingLog)表格為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery]** (nms:delivery)、**[!UICONTROL Consolidated tracking]** (nms:trackingStats)和&#x200B;**[!UICONTROL Web tracking]** (nms:webTrackingLog)資料表為基礎。
 
 <table> 
  <thead> 
@@ -375,7 +375,7 @@ ht-degree: 3%
 
 ## 作業系統 {#operating-systems-1}
 
-此報表以&#x200B;**[!UICONTROL Internet Browser Statistics]**&#x200B;資料表(nms：userAgentsStats)為基礎。
+此報告以&#x200B;**[!UICONTROL Internet Browser Statistics]**&#x200B;資料表(nms:userAgentsStats)為基礎。
 
 **全域統計資料**
 
@@ -445,7 +445,7 @@ ht-degree: 3%
 
 ## 訂閱追蹤 {#subscription-tracking-1}
 
-此報表以&#x200B;**[!UICONTROL Services]**&#x200B;資料表(nms：service)為基礎。
+此報告以&#x200B;**[!UICONTROL Services]**&#x200B;資料表(nms:service)為基礎。
 
 <table> 
  <thead> 
@@ -492,7 +492,7 @@ ht-degree: 3%
 
 ## 追蹤指標 {#tracking-indicators-1}
 
-此報表以&#x200B;**[!UICONTROL Delivery and tracking statistics]** (nms：deliveryLogStats)和&#x200B;**[!UICONTROL Consolidated tracking]** (nms：trackingStats)表格為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats)和&#x200B;**[!UICONTROL Consolidated tracking]** (nms:trackingStats)資料表為基礎。
 
 <table> 
  <thead> 
@@ -689,7 +689,7 @@ ht-degree: 3%
 
 ## URL 和點擊流量 {#urls-and-click-streams-1}
 
-此報表以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms：delivery)為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms:delivery)為基礎。
 
 <table> 
  <thead> 
@@ -723,7 +723,7 @@ ht-degree: 3%
    <td> 點按<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL主索引鍵與1<br />不同的所有@totalClicks數 </td> 
-   <td> count(Iif([@url-id]&rbrack; ！= 1， @totalClicks， 0))<br /> </td> 
+   <td> count(Iif([@url-id]] ！= 1， @totalClicks， 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 點按次數(%)<br /> </td> 
@@ -736,7 +736,7 @@ ht-degree: 3%
 
 ## 傳遞摘要 {#delivery-summary-1}
 
-此報表以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms：delivery)為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms:delivery)為基礎。
 
 <table> 
  <thead> 
@@ -789,13 +789,13 @@ ht-degree: 3%
 
 ## 熱點點擊 {#hot-clicks-1}
 
-此報告以Delivery(nms：delivery)和&#x200B;**[!UICONTROL Consolidated tracking]** (nms：trackingStats)表格為基礎。
+此報表是以傳遞(nms:delivery)和&#x200B;**[!UICONTROL Consolidated tracking]** (nms:trackingStats)資料表為基礎。
 
 此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結和映象頁面連結會在累計點按總數中考慮，但不會顯示在報表中。
 
 ## 追蹤統計資料 {#tracking-statistics-1}
 
-此報表以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms：delivery)為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery]**&#x200B;資料表(nms:delivery)為基礎。
 
 <table> 
  <thead> 
@@ -830,7 +830,7 @@ ht-degree: 3%
 
 ## 傳遞統計資料 {#delivery-statistics-1}
 
-此報表以&#x200B;**[!UICONTROL Delivery and tracking statistics]**&#x200B;資料表(nms：deliveryLogStats)為基礎。
+此報告以&#x200B;**[!UICONTROL Delivery and tracking statistics]**&#x200B;資料表(nms:deliveryLogStats)為基礎。
 
 <table> 
  <thead> 
@@ -889,7 +889,7 @@ ht-degree: 3%
 
 ## 開啟次數的劃分 {#breakdown-of-opens-1}
 
-此報表是以&#x200B;**傳遞** (nms：delivery)和&#x200B;**追蹤記錄** (nms：trackingLogRcp)表格為基礎。
+此報表是以&#x200B;**傳遞** (nms:delivery)和&#x200B;**追蹤記錄** (nms:trackingLogRcp)資料表為基礎。
 
 <table> 
  <thead> 
@@ -912,7 +912,7 @@ ht-degree: 3%
 
 ## 其他指標 {#other-indicators}
 
-透過&#x200B;**傳遞(nms：delivery) >指標**&#x200B;節點存取的&#x200B;**已傳送**&#x200B;指標(@sent)對應於傳送給服務提供者的SMS總數。 此指標僅用於SMS傳遞，不得用於其他型別的傳遞(請勿與&#x200B;**@success**&#x200B;和&#x200B;**@processed**&#x200B;指標混淆)。
+透過&#x200B;**傳遞(nms**) >指標&#x200B;**節點存取的:delivery已傳送**&#x200B;指標(@sent)，對應於傳送給服務提供者的SMS總數。 此指標僅用於SMS傳遞，不得用於其他型別的傳遞(請勿與&#x200B;**@success**&#x200B;和&#x200B;**@processed**&#x200B;指標混淆)。
 
 ## 指標同步 {#indicator-synchronization}
 

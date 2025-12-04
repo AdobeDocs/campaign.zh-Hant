@@ -3,10 +3,10 @@ product: campaign
 title: 讀取清單
 description: 進一步了解讀取清單工作流程活動
 feature: Workflows, Targeting Activity
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Exclusion set]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL Read list]**&#x200B;活動：此活動中的資料將從主要集中排除。
 
-   在我們的範例中，聯結上有排除專案：清單中包含的資料將透過包含電子郵件地址的欄位，與主要集的資料進行調解。 若要設定加入，請在&#x200B;**[!UICONTROL Change dimension]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Joins]**。
+   在我們的範例中，聯結上有排除專案：清單中包含的資料將透過包含電子郵件地址的欄位，與主要集的資料進行調解。 若要設定加入，請在&#x200B;**[!UICONTROL Joins]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Change dimension]**。
 
    ![](assets/s_advuser_list_read_sample_4.png)
 

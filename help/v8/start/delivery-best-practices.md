@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 096c453f727b461a7b09a47282e186e91ffc847e
 workflow-type: tm+mt
-source-wordcount: '2925'
+source-wordcount: '3068'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 * 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案[中列出的准則](../../automation/workflow/workflow-best-practices.md#execution-and-performance)。
 
-* 連線至您的[Campaign控制面板功能](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}，以使用[效能監視](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}功能來監視您的平台。
+* 連線至您的[Campaign控制面板功能](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}，以使用[效能監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}功能來監視您的平台。
 
 #### 隔離管理 {#quarantine-management}
 
@@ -41,9 +41,9 @@ ht-degree: 3%
 開始在新平台上傳送電子郵件時，您可能會使用未完全限定的地址清單。 如果您傳送至無效的位址或蜜罐位址（僅用來欺騙垃圾郵件寄件者的信箱），將開始降低平台的聲譽。 良好的隔離管理流程有助於：維持地址品質、避免網際網路存取提供者列入封鎖清單，以及降低錯誤率、加快傳遞速度與輸送量。
 
 
-在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}中進一步瞭解如何啟動新平台。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}中進一步瞭解如何啟動新平台。
 
-技術建議列於[此區段](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}。
+技術建議列於[此區段](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}。
 
 
 +++ **閱讀一些最佳實務**
@@ -57,7 +57,19 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 +++
 
+### 傳遞與維護 {#delivery-maintenance}
 
+定期維護您的傳遞內容，是獲得最佳平台效能的關鍵。
+
++++ **閱讀一些最佳實務**
+
+* **移除失敗和不需要的傳遞**：請勿讓傳遞在執行個體上維持失敗狀態，因為這會維護暫時資料表並影響效能。 定期移除不再需要用來釋放系統資源的傳遞。
+
+* **清除非作用中收件者**：應該從資料庫移除過去12個月的非作用中收件者，以維持位址品質。 ISP會在閒置一段時間後停用位址，並將退回的訊息傳送給寄件者，以通知他們此新狀態。 定期清理清單可改善傳遞能力並降低成本。
+
+* **明智地排程大型傳遞**：請勿一起排程大型傳遞。 與團隊其他成員協調傳送排程，將負載均勻分散到系統上。 同時傳送多個大型傳遞時，可能會影響整體平台效能。
+
++++
 
 ### 雙重加入機制 {#double-opt-in}
 
@@ -69,7 +81,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 子網域和品牌 {#subdomains-and-branding}
 
-當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
+當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
 
 ### 設定地址 {#configure-addresses}
 
@@ -116,11 +128,11 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 * 檢查您的個人化設定 — 確認您的訊息內容經過適當設計，以避免任何與個人化相關的錯誤。 Adobe Campaign個人化標籤一律採用下列形式： `<%=table.field%>`。 個人化區塊中引數的使用不正確可能是個問題。 例如，JavaScript中的變數使用方式如下：
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
 
@@ -226,7 +238,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## 管理影像 {#manage-images}
 
@@ -419,4 +431,4 @@ You can:
 訊息追蹤預設為啟用。 若要設定URL，請選取傳送助理員下方區段中的「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟動追蹤。
 
 
-[在Campaign Classic v7檔案中進一步瞭解追蹤功能](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
+[進一步瞭解追蹤功能](../send/tracking.md)

@@ -2,10 +2,10 @@
 title: 開始使用Adobe Campaign Analytics報表
 description: 瞭解如何建立多維度資料集
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 13%

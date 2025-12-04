@@ -2,12 +2,12 @@
 title: Campaign v8已知問題
 description: 最新Campaign版本中的已知問題
 feature: Overview
-role: Data Engineer
+role: Developer
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -86,9 +86,9 @@ Error:
 
 身為Campaign管理員，您可以在[Adobe軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}中下載Campaign v8.3.1使用者端主控台。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈。
+在此頁面[瞭解如何存取Adobe軟體發佈](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}。
 
-在本頁[&#128279;](connect.md)瞭解如何升級您的使用者端主控台
+在本頁[瞭解如何升級您的使用者端主控台](connect.md)
 
 #### 內部參考{#issue-3-ref}
 

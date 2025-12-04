@@ -3,10 +3,10 @@ product: campaign
 title: 使用多維度資料集建立資料報告
 description: 瞭解如何使用多維度資料集建立報告
 feature: Reporting
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 若要根據現有的立方結構建立報告，請遵循下列步驟：
 
-1. 按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，然後選取您剛建立的Cube。
+1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Reports]**&#x200B;按鈕，然後選取您剛建立的Cube。
 
    ![](assets/new-report-based-on-cube.png)
 

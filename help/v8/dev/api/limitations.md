@@ -4,13 +4,13 @@ description: 移轉至Campaign v8 REST API時的建議與限制。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 
 ## 使用連結的資源張貼
 
-使用以下要求內文格式時，「vehicleOwner」代表「nms：recipient」的連結：
+使用下列要求內文格式時，「vehicleOwner」代表「nms:recipient」的連結：
 
 ```
 {
@@ -107,11 +107,11 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 
 | 情境 | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| 在請求內文中使用無效的PKey | 500 - &#39;O5iRp40EGA&#39;屬性不明(請參閱&#39;Profiles (nms：recipient)&#39;綱要的定義)。 XTK-170036無法剖析運算式&#39;@id = @O5iRp40EGA&#39;。 | 404 — 無法解密PKey。 (PKey=@jksad) |
-| 在URI中使用無效的API | 500 - &#39;O5iRp40EGA&#39;屬性不明(請參閱&#39;Profiles (nms：recipient)&#39;綱要的定義)。 XTK-170036無法剖析運算式&#39;@id = @O5iRp40EGA&#39;。 | 404 — 無法解密PKey。 (PKey=@jksad)不支援的端點。 (endpoint=rest/profileAndServices/profile/@jksad) |
+| 在請求內文中使用無效的PKey | 500 - &#39;O5iRp40EGA&#39;屬性不明(請參閱&#39;Profiles (nms:recipient)&#39;結構描述的定義)。 XTK-170036無法剖析運算式&#39;@id = @O5iRp40EGA&#39;。 | 404 — 無法解密PKey。 (PKey=@jksad) |
+| 在URI中使用無效的API | 500 - &#39;O5iRp40EGA&#39;屬性不明(請參閱&#39;Profiles (nms:recipient)&#39;結構描述的定義)。 XTK-170036無法剖析運算式&#39;@id = @O5iRp40EGA&#39;。 | 404 — 無法解密PKey。 (PKey=@jksad)不支援的端點。 (endpoint=rest/profileAndServices/profile/@jksad) |
 | 在URI和請求內文中使用兩個不同的原始Pkey | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 RST-360012資源&#39;service&#39;上的作業不一致 — 無法將索引鍵&#39;SVC3&#39;更新為&#39;SVC4&#39;。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 | 在URI中使用PKey，並在請求內文中使用不同的原始PKey | 500 — 具有相同索引鍵&#39;SVC4&#39;的&#39;Service&#39;已經存在。 PGS-220000 PostgreSQL錯誤：錯誤：重複的索引鍵值違反唯一條件約束「nmsservice_name」。詳細資料：索引鍵(sname)=(SVC4)已存在。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
-| 在URI中使用不存在的原始識別碼 | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵「adobe_nl：0」（結構描述為「service」且名稱為「adobe_nl」的檔案）找到路徑為「Service」的檔案 | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
+| 在URI中使用不存在的原始識別碼 | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵&#39;adobe_nl:0&#39;中找到路徑為&#39;Service&#39;的檔案（結構描述為&#39;service&#39;且名稱為&#39;adobe_nl&#39;的檔案） | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
 | 在請求內文中使用不存在的原始ID | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
 | - | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 | 插入包含無效性別（或任何）列舉值的設定檔/服務 | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 &#39;invalid&#39;值對&#39;@gender&#39;欄位的&#39;nms:recipient:gender&#39;列舉無效 | 500 — 發生錯誤 — 請聯絡您的管理員。 |

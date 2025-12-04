@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: d886072b3a21d5e5b70662c67919223cf9a1b68e
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 90%
+source-wordcount: '841'
+ht-degree: 88%
 
 ---
 
@@ -105,9 +105,11 @@ ht-degree: 90%
       + [傳遞分析](send/delivery-analysis.md)
       + [設定並傳送傳遞](send/configure-and-send.md)
       + [傳送時間最佳化](send/predictive.md)
-   + 失敗、邊界和隔離 {#failures}
-      + [隔離](send/quarantines.md)
+   + 監視您的傳遞 {#monitor}
+      + [在Campaign UI中監視傳遞](send/delivery-dashboard.md)
+      + [傳遞狀態](send/delivery-statuses.md)
       + [傳遞失敗](send/delivery-failures.md)
+      + [隔離](send/quarantines.md)
    + 傳遞性管理 {#deliverability-management}
       + [什麼是傳遞性](send/about-deliverability.md)
       + [控制訊息內容](send/control-message-content.md)
@@ -166,8 +168,15 @@ ht-degree: 90%
       + [管理匿名互動](interaction/anonymous-interactions.md)
    + [報告和歷史記錄](interaction/interaction-tracking.md)
    + [使用案例](interaction/interaction-use-cases.md)
-+ 報告與分析 {#analytics}
-   + [追蹤與監視](start/tracking.md)
++ 追蹤和分析 {#analytics}
+   + 訊息追蹤 {#tracking}
+      + [開始使用追蹤](send/tracking.md)
+      + [設定追蹤的連結](send/tracked-links.md)
+      + [設定 URL 追蹤選項](send/url-tracking.md)
+      + [追蹤個人化連結](send/personalized-links.md)
+      + [測試追蹤](send/testing-tracking.md)
+      + [存取追蹤記錄](send/tracking-logs.md)
+   + [行銷活動監控概觀](start/monitor.md)
    + [稽核軌跡](reporting/audit-trail.md)
    + 使用報告{#reports}
       + [開始使用報告](reporting/gs-reporting.md)

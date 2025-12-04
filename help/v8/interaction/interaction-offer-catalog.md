@@ -2,10 +2,10 @@
 title: 行銷活動互動優惠方案目錄
 description: 瞭解如何建立優惠方案目錄
 feature: Interaction, Offers
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -66,6 +66,6 @@ ht-degree: 2%
 
 1. 瀏覽至優惠方案目錄。
 1. 按一下「**[!UICONTROL Eligibility]**」索引標籤並選取&#x200B;**[!UICONTROL Always include this category in the recommendations]**&#x200B;選項。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
    ![](assets/offer_cat_default_001.png)

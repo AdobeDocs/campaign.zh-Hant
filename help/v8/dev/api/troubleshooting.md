@@ -1,11 +1,11 @@
 ---
 title: API疑難排解
 description: 進一步瞭解與Campaign Standard API相關的常見問題
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io提出要求時，您會收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
+* **向Adobe.io提出要求時，您會收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
 
 Adobe.io會宣告您無效的URI：您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，畫面會提供選擇器，其中包含可能的organization_id清單。 您需要確認您選擇的檔案是否為放入URL中的檔案。
 

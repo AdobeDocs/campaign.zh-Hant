@@ -2,12 +2,12 @@
 title: 瞭解Campaign互動架構
 description: Campaign互動架構基本需知
 feature: Interaction, Offers
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   類別也可以線上上環境中手動發佈。
 
-  核准優惠方案的程式在此區段[&#128279;](interaction-offer.md#approve-offers)中詳細說明。
+  核准優惠方案的程式在此區段[中詳細說明](interaction-offer.md#approve-offers)。
 
 * 您都可以找到&#x200B;**即時**&#x200B;環境，其中包含設計環境中的已核准優惠方案，以及在設計環境中設定的各種優惠方案空間、篩選器、類別和規則。 呼叫優惠方案引擎期間，引擎一律會使用即時環境中的優惠方案。
 
@@ -84,7 +84,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 >[!NOTE]
 >
->安裝套件時，**nms：proposition**&#x200B;資料表的&#x200B;**long**&#x200B;型別欄位（例如主張ID）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=zh-Hant#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
+>安裝套件時，**nms**&#x200B;資料表的&#x200B;**long:proposition**&#x200B;型別欄位（例如主張識別碼）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
 
 在每個執行個體上設定資料保留期間（透過部署精靈中的&#x200B;**[!UICONTROL Data purge]**&#x200B;視窗）。 在執行例項上，此期間必須對應於要計算的型別規則（滑動期間）和適用性規則所需的歷史深度。
 

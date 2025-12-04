@@ -2,13 +2,13 @@
 title: 傳送及監視您的電子郵件
 description: 瞭解使用Adobe Campaign傳送電子郵件的範圍和特性
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 2%
 傳送後，請在&#x200B;**傳遞控制面板**&#x200B;中檢查您的傳遞狀態，並存取傳遞記錄與報告，確認訊息已正確傳送。
 
 從傳送控制面板中，您可以檢查已處理的訊息和傳送稽核記錄。 您也可以控制傳送記錄檔中訊息的狀態。
+
+深入瞭解[傳遞狀態](delivery-statuses.md)。
 
 >[!NOTE]
 >
@@ -73,7 +75,7 @@ Domain Keys Identified Mail (DKIM)是一種驗證方法，用來偵測偽造的�
 
 在Adobe Campaign中，DKIM電子郵件驗證簽署是由MTA執行。
 
-在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
 
 ## 電子郵件回饋服務 {#email-feedback-service}
 

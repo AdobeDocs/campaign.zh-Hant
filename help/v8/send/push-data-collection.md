@@ -2,11 +2,11 @@
 title: 使用Adobe Campaign傳送推播通知
 description: 開始使用Campaign中的推播通知
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="有限可用性" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 2%
@@ -73,7 +73,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。
 
-       您可以在Apple開發人員帳戶的&#x200B;**Certificates**、**Identifiers**&#x200B;和**Profiles**&#x200B;頁面的&#x200B;**Keys**&#x200B;標籤下找到它。
+       您可以在Apple開發人員帳戶的**Certificates**、**Identifiers**和**Profiles**頁面的**Keys**標籤下找到它。
    
 1. 提供&#x200B;**團隊識別碼**。 這是可在&#x200B;**成員資格**&#x200B;標籤下找到的字串值。
 

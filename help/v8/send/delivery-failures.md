@@ -4,10 +4,11 @@ description: 瞭解使用Adobe Campaign傳送訊息時可能發生的失敗
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3422'
 ht-degree: 5%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 5%
 
 **Ignored**&#x200B;錯誤型別已知為暫時，例如「不在辦公室」，或技術錯誤，例如，如果寄件者型別為「郵遞員」。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**狀態新增至(** NmsRecipient **[!UICONTROL Denylisted]**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**狀態新增至(** NmsRecipient **[!UICONTROL Denylisted]**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -66,7 +67,7 @@ ht-degree: 5%
 
 * **同步錯誤**： MTA會決定退信型別和資格，並將該資訊傳回至Campaign。 **[!UICONTROL Delivery log qualification]**&#x200B;資料表中的退信限定不用於&#x200B;**同步**&#x200B;傳遞失敗錯誤訊息。
 
-* **非同步錯誤**： Campaign用來限定非同步傳送失敗的規則列在&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**&#x200B;節點中。 inMail處理序會透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則來限定非同步退信。 如需詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=zh-Hant#bounce-mail-qualification){target="_blank"}。
+* **非同步錯誤**： Campaign用來限定非同步傳送失敗的規則列在&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**&#x200B;節點中。 inMail處理序會透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則來限定非同步退信。 如需詳細資訊，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}。
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,12 +112,14 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 
 訊息在MTA佇列中停留3.5天且無法傳送後，訊息會逾時，其狀態會從傳送記錄檔中的&#x200B;**[!UICONTROL Sent]**&#x200B;更新為&#x200B;**[!UICONTROL Failed]**。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 電子郵件錯誤型別 {#email-error-types}
 
 針對電子郵件頻道，傳送失敗的可能原因列於下方。
+
++++ 按一下以檢視電子郵件錯誤型別的完整清單
 
 <table> 
  <tbody> 
@@ -249,7 +252,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
  </tbody> 
 </table>
 
-
++++
 
 ## 推播通知錯誤型別 {#push-error-types}
 
@@ -260,6 +263,8 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果使用HTTP/V2通訊協定聯結器，**[!UICONTROL mobileAppOptOutMgt]**&#x200B;工作流程將不再呼叫意見回饋服務。 解除安裝或重新安裝行動應用程式時，Token會視為已解除註冊。
 
 同步時，如果APN針對訊息傳回「未註冊」狀態，則目標Token會立即置於隔離中。
+
++++ 按一下以檢視iOS隔離案例
 
 <table> 
  <tbody> 
@@ -346,6 +351,8 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
  </tbody> 
 </table>
 
++++
+
 ### Android隔離 {#android-quarantine}
 
 適用於Android V1 **的**
@@ -373,6 +380,8 @@ HTTP/V2通訊協定允許每個推播傳遞有直接的回饋和狀態。 如果
 適用於Android V2 **的**
 
 Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱和排除更新。 如需詳細資訊，請參閱[Android V1](#android-quarantine)區段。
+
++++ 按一下以檢視Android V2隔離案例
 
 <table> 
  <tbody> 
@@ -579,6 +588,8 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
  </tbody> 
 </table>
 
++++
+
 ## SMS隔離 {#sms-quarantines}
 
 **適用於標準聯結器**
@@ -588,6 +599,8 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
 >[!NOTE]
 >
 >**[!UICONTROL Delivery log qualification]**&#x200B;資料表不適用於&#x200B;**Extended generic SMPP**&#x200B;聯結器。
+
++++ 按一下以檢視標準聯結器的簡訊錯誤型別
 
 <table> 
  <tbody> 
@@ -636,7 +649,9 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
  </tbody> 
 </table>
 
-延伸通用SMPP聯結器的&#x200B;**&#x200B;**
++++
+
+延伸通用SMPP聯結器的&#x200B;****
 
 使用SMPP通訊協定傳送SMS訊息時，錯誤管理的處理方式不同。
 
@@ -663,8 +678,8 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 錯誤訊息的第三部分（此範例中為&#x200B;**DELIVRD**）對應於使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取的狀態代碼。
 
-  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**&#x200B;索引標籤中。
-依預設，規則運算式會擷取&#x200B;**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**索引標籤中。
+依預設，規則運算式會擷取**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
 
 * 錯誤訊息的第四部分(**000**)對應於使用SMS外部帳戶中定義的錯誤碼擷取規則運算式從SR擷取的錯誤碼。
 
@@ -675,3 +690,61 @@ SR Generic DELIVRD 000|#MESSAGE#
 * 直立線符號(|)後面的所有專案只會顯示在&#x200B;**[!UICONTROL First text]**&#x200B;表格的&#x200B;**[!UICONTROL Delivery log qualification]**&#x200B;欄中。 訊息標準化之後，此內容一律會由&#x200B;**#MESSAGE#**&#x200B;取代。 此程式會避免因類似錯誤而出現多個專案，與電子郵件的情況相同。
 
 Extended generic SMPP聯結器會套用啟發式來尋找合理的預設值：如果狀態以&#x200B;**DELIV**&#x200B;開頭，則會被視為成功，因為它符合大多數提供者使用的一般狀態&#x200B;**DELIVRD**&#x200B;或&#x200B;**DELIVERED**。 任何其他狀態都會導致硬失敗。
+
+## 疑難排解傳送失敗 {#troubleshooting}
+
+本節提供診斷和解決常見傳遞失敗問題的指引。
+
+### 具有個人化錯誤的失敗狀態 {#personalization-errors}
+
+如果電子郵件傳遞的狀態為&#x200B;**[!UICONTROL Failed]**，則它可以連結至個人化區塊的問題。 當結構描述不符合傳遞對應時，傳遞中的個人化區塊可能會產生錯誤。
+
+傳遞記錄是瞭解傳遞失敗原因的關鍵。 以下是您可能會遇到的常見錯誤：
+
+收件者訊息失敗並出現「無法聯絡」錯誤，指出：
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**原因**： HTML中的個人化正在嘗試呼叫尚未定義或對應到上游目標定位或傳遞目標對應的資料表或欄位。
+
+**解決方法**：檢閱工作流程和傳遞內容，以明確判斷哪些個人化嘗試呼叫相關資料表。 然後，在HTML中移除對此表格的呼叫，或修正傳遞的對應。
+
+在[本節](personalize.md)中進一步瞭解個人化。
+
+### 多個個人化值錯誤 {#multiple-values-error}
+
+傳送失敗時，傳送記錄檔中可能會出現下列錯誤：
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**原因**：電子郵件中有收件者的多個值之個人化欄位或區塊。 個人化區塊正在使用中，且正在為特定收件者擷取多個記錄。
+
+**解決方法**：檢查使用的個人化資料，然後檢查目標中是否有收件者有多個專案。 您也可以在傳遞活動之前，於目標工作流程中使用&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，以確保一次只有一個個人化欄位。 如需重複資料刪除的詳細資訊，請參閱[工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}。
+
+### 自動回覆處理 {#auto-reply-handling}
+
+部分傳送可能會因為「無法聯絡」錯誤而失敗，並指出：
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**說明**：這表示傳送成功，但Adobe Campaign收到來自收件者的自動回覆（例如「不在辦公室」回覆），符合「Auto_replies」傳入電子郵件規則。
+
+Adobe Campaign會忽略自動回覆電子郵件，收件者的地址不會傳送給隔離區。 這是預期行為，並不表示傳送失敗。
+
+## 相關主題
+
+[傳遞狀態](delivery-statuses.md)說明傳遞在其生命週期中可以具有的不同狀態。
+
+[在Campaign UI中監視傳遞](delivery-dashboard.md)提供使用傳遞儀表板追蹤傳遞效能和診斷問題的指南。
+
+[隔離管理](quarantines.md)說明Campaign如何管理隔離地址，以保護您的傳送信譽。
+
+[監視您的傳遞能力](monitoring-deliverability.md)提供維持良好的傳遞能力和寄件者信譽的指引。
+
+[傳遞最佳實務](../start/delivery-best-practices.md)涵蓋在Campaign中建立和傳送傳遞的最佳實務。

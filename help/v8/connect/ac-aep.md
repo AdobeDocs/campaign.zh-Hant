@@ -2,10 +2,10 @@
 title: 與Adobe Experience Platform共用及同步對象和設定檔屬性
 description: 瞭解如何將Adobe Experience Platform對象和設定檔屬性與Campaign同步
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

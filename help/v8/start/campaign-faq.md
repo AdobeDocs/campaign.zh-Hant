@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
-workflow-type: ht
-source-wordcount: '706'
-ht-degree: 100%
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    Adobe Campaign 提供一組可監視電子郵件傳遞的儀表板和工具。
 
-   [閱讀有關 Campaign Classic v7 的文件](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant){target="_blank"}以瞭解如何確認訊息是否傳送，如何監視執行，以及在發生錯誤時如何採取行動。
+   瞭解如何[追蹤並監視您的訊息](../send/tracking.md)以確定您的訊息是否傳送，監視執行，並在發生錯誤時採取行動。
 
 1. **是否可以監視工作流程的執行？**
 

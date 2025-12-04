@@ -2,10 +2,10 @@
 title: 開始使用 Campaign 資料模型
 description: 開始使用 Campaign 資料模型，並利用來自您的來源的資料，來使您的通訊和行銷輸出受益。
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 5%
@@ -60,7 +60,7 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 在[本節](extend-schema.md)中瞭解如何擴充現有結構描述。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，在[此區段](custom-recipient.md)中說明。
 

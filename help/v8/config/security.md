@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 68%
+source-wordcount: '2167'
+ht-degree: 67%
 
 ---
 
@@ -73,11 +73,11 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 ### 使用實例情境 {#use-case-scenario}
 
-為了說明不同角色如何互動，以下是 GDPR 客戶體驗的高階使用案例。
+為了說明不同人物誌如何互動，以下是 GDPR 客戶體驗的高階使用案例。
 
 在此範例中，航空公司是 Adobe Campaign 客戶。該公司是&#x200B;**資料控制方**，而該航空公司的所有客戶為&#x200B;**資料主體**。Laura 在此特定案例中是航空公司的客戶。
 
-以下是此範例中使用的不同角色：
+以下是此範例中使用的不同人物誌：
 
 * **Laura** 是&#x200B;**資料主體**。她是收到航空公司訊息的收件人。Laura 可能是常客，但可能會在某個時間點決定不想要收到關於這家航空公司提供的任何個人化廣告或行銷訊息。她會要求航空公司（根據他們的流程）刪除她的常旅客號碼。
 
@@ -101,8 +101,8 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
-* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
+* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
+* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
 * 透過同意與權限管理，您可以追蹤收件者的偏好設定，並管理組織內哪些人員可以存取哪些資料。如需詳細資訊，請參閱[本節](#consent)。
 * 加速和管理收件者的隱私權要求。如需詳細資訊，請參閱[本節](#privacy-requests)。
 
@@ -115,7 +115,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 * 隱私權要求（存取權限與被遺忘的權利）。請參閱[本節](#privacy-requests)。
 * 選擇退出個人資訊銷售（專屬於CCPA）。
 
-[本節](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)將提供 Campaign 中主要隱私權功能及相關角色的範例。
+[本節](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)將提供 Campaign 中主要隱私權功能及相關人物誌的範例。
 
 ### 同意、保留和角色 {#consent}
 
@@ -123,7 +123,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 
 * **同意管理**：透過訂閱管理程序，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。有關此項目的詳細資訊，請參閱[關於訂閱](../../automation/workflow/subscription-services.md).
 * **資料保留**：所有內建標準記錄表都具有預設的保留期間，通常會將其資料儲存限制在 6 個月或更短時間。您可以使用工作流程設定其他的保留期間。如需此項目的詳細資訊，請洽詢 Adobe 顧問或技術管理員。
-* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取管理](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
+* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
 
 ### 隱私權請求 {#privacy-requests}
 
@@ -146,27 +146,24 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 * **工作階段** Cookie：**nlid** Cookie 包含傳送到聯絡人之電子郵件的識別碼 (**broadlogId**)，以及訊息範本的識別碼 (**deliveryId**)。連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
 
 * 兩個&#x200B;**永久** Cookie：
-   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
+   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies)取得。
    * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
 
 《一般資料保護規範》(GDPR) 等法規規定，公司必須先取得網站使用者的同意，才能安裝 Cookie。
 
-* 您必須透過授權請求 (有時出現在網站頁面中) 告知使用者，網站已裝置網路追蹤工具，並要求使用者點按核取方塊授權使用 Cookie，或在使用者登陸的首頁頂端新增橫幅等。
 * 快顯視窗通常會被瀏覽器封鎖，因此應避免使用。
 
 ### 訊息追蹤 {#message-tracking}
 
 Adobe Campaign 可讓您追蹤已傳送的電子郵件和傳遞收件者的行為：開啟、點按連結、取消訂閱等。 如需詳細資訊，請參閱[關於訊息](../start/gs-message.md)。
 
-若要這麼做，請將追蹤連結新增至您的訊息，以便在傳遞控制面板的Tracking索引標籤中測量傳遞和收件者行為的影響。 追蹤資料會在追蹤指標報告中詮釋。 若要進一步瞭解追蹤，請參閱[此頁面](../start/tracking.md)。
+若要這麼做，請將追蹤連結新增至您的訊息，以便在傳遞控制面板的Tracking索引標籤中測量傳遞和收件者行為的影響。 追蹤資料會在追蹤指標報告中詮釋。 若要進一步瞭解追蹤，請參閱[此頁面](../send/tracking.md)。
 
 ### 網路追蹤 {#web-tracking}
 
-Adobe Campaign也可讓您監視收件者瀏覽網站的方式：插入追蹤標籤，以收集資訊並測量網站應用程式頁面上的造訪次數。
-
-網路追蹤的設定在[本節](../start/tracking.md)中說明。
-
-為進一步管理追蹤，Adobe Campaign 可讓您顯示選擇退出橫幅，以停止追蹤選擇退出行為追蹤的終端使用者的網站行為。 如需詳細資訊，請參閱[網站應用程式追蹤選擇退出](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}。
+>[!AVAILABILITY]
+>
+>Campaign v8不提供網頁追蹤功能。 深入瞭解[此頁面](../start/v7-to-v8.md#gs-unavailable-features)中無法使用的功能。
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
@@ -182,7 +179,7 @@ Privacy configuration and hardening is a key element of security optimization. H
 >作為「受管理的Cloud Services」使用者，Adobe將與您合作，在您的環境中實作這些設定。
 
 
-## 存取管理
+## 存取權管理
 
 存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
 
@@ -201,7 +198,7 @@ Privacy configuration and hardening is a key element of security optimization. H
 
 * **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}。
+進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}。
 
 
 ## 個人化
@@ -274,17 +271,17 @@ Privacy configuration and hardening is a key element of security optimization. H
 
    >[!NOTE]
    >
-   >您可以以`hasNamedRight('admin')`取代`$(loginId) = 0 or $(login) = 'admin'`，讓所有具有管理員許可權的使用者看見這些密碼。
+   >您可以以`$(loginId) = 0 or $(login) = 'admin'`取代`hasNamedRight('admin')`，讓所有具有管理員許可權的使用者看見這些密碼。
 
 
-## 存取管理
+## 存取權管理
 
 存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
 
 * 建立足夠的安全性群組
 * 檢查每個操作員是否具有適當的存取許可權
 
-在本節[&#128279;](../start/gs-permissions.md)中進一步瞭解中的許可權。
+在本節[中進一步瞭解](../start/gs-permissions.md)中的許可權。
 
 ## 編碼准則
 
@@ -296,4 +293,4 @@ Privacy configuration and hardening is a key element of security optimization. H
 
 * **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
 
-進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}。
+進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}。

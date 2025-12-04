@@ -4,10 +4,10 @@ description: 進一步瞭解中繼資料機制。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
    * &quot;resType&quot;：這是技術型別。
 
      如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
-如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在&#x200B;**values**&#x200B;節點中詳細說明。
+如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在**values**&#x200B;節點中詳細說明。
 
 * **篩選器**&#x200B;節點會傳回URL以擷取關聯的篩選器。 如需篩選的詳細資訊，請參閱[本區段](sorting.md#filtering)。
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 4%
@@ -80,4 +80,4 @@ ht-degree: 4%
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[中進一步瞭解追蹤](../start/tracking.md)。
+  在本節[中進一步瞭解追蹤](../send/tracking.md)。

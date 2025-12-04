@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Campaign自動化指南
 user-guide-description: Campaign自動化指南
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 78%
          + [傳入簡訊](workflow/inbound-sms.md)
          + [網頁下載](workflow/web-download.md)
    + 使用案例 {#use-cases}
-      + [關於工作流程使用實例](workflow/workflow-use-cases.md)
+      + [關於工作流程使用案例](workflow/workflow-use-cases.md)
       + 傳遞 {#deliveries}
          + [使用本地核准活動](workflow/local-approval-activity.md)
          + [傳送生日電子郵件](workflow/send-a-birthday-email.md)
@@ -111,7 +111,7 @@ ht-degree: 78%
          + [建立摘要清單](workflow/create-a-summary-list.md)
          + [豐富資料](workflow/enrich-data.md)
          + [使用彙總](workflow/using-aggregates.md)
-         + [使用去重複化活動的合併功能](workflow/deduplication-merge.md)
+         + [使用重複資料刪除活動的合併功能](workflow/deduplication-merge.md)
          + [設定週期性匯入工作流程](workflow/recurring-import-workflow.md)
       + 設計查詢 {#designing-queries}
          + [使用增量查詢更新每季清單](workflow/quarterly-list-update.md)
@@ -126,14 +126,14 @@ ht-degree: 78%
          + [篩選重複的收件者](workflow/filter-duplicated-recipients.md)
    + 進階設定 {#advanced-management}
       + [工作流程屬性](workflow/workflow-properties.md)
-      + [高級參數](workflow/advanced-parameters.md)
+      + [進階參數](workflow/advanced-parameters.md)
       + [JavaScript 指令碼和範本](workflow/javascript-scripts-and-templates.md)
       + [工作流程中的 JavaScript 程式碼範例](workflow/javascript-in-workflows.md)
       + [存取外部資料庫](workflow/accessing-an-external-database-fda.md)
       + [管理權限](workflow/managing-rights.md)
       + [變更活動影像](workflow/change-activity-images.md)
       + [管理時區](workflow/managing-time-zones.md)
-+ Campaign策劃 {#campaign-orchestration}
++ 行銷活動協調 {#campaign-orchestration}
    + [開始使用行銷活動](campaigns/set-up-campaigns.md)
    + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
    + [建立及設定範本](campaigns/marketing-campaign-templates.md)
