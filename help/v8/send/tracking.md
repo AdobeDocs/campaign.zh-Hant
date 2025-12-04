@@ -5,9 +5,9 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 90ed82673b893b62a185227dd8cdfe80cc8f1455
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '455'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 透過此範例，更能瞭解Adobe Campaign中個人/人員與收件者之間的追蹤差異。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=zh-Hant#reporting){target="_blank"}中進一步瞭解人員與收件者
+[進一步瞭解目標個人和收件者](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **追蹤指標**
 
