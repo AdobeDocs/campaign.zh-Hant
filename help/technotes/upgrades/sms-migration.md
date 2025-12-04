@@ -3,10 +3,8 @@ title: 移至新的SMS聯結器v2
 description: 瞭解如何改用新的簡訊聯結器v2
 feature: Technote
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: ed9e784c1610a6f042b99223ac0d4cc0cf312b09
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
