@@ -1,13 +1,13 @@
 ---
 title: 在Campaign v8中設計查詢
-description: 瞭解如何建立查詢
+description: 瞭解如何在Campaign使用者端主控台中建立查詢
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
+source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '871'
 ht-degree: 3%
 
 ---

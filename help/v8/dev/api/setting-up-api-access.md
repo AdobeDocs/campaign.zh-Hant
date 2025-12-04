@@ -20,7 +20,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 >[!IMPORTANT]
 >
->若要在[Adobe Developer](https://developer.adobe.com/)中管理憑證，請確定您對該組織具有&#x200B;**系統管理員**&#x200B;許可權，或在Admin Console中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。
+>若要在[Adobe Developer](https://developer.adobe.com/)中管理憑證，請確定您對該組織具有&#x200B;**系統管理員**&#x200B;許可權，或在Admin Console中擁有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)。
 
 1. **檢查您是否有數位憑證**，或視需要建立一個憑證。 以下步驟需要憑證隨附的公開和私密金鑰。
 1. **在** Adobe Developer[中建立與Adobe Campaign服務的新整合](https://developer.adobe.com/)並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。

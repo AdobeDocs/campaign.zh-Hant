@@ -94,7 +94,7 @@ ht-degree: 3%
 
   在&#x200B;**[!UICONTROL NmsOperation_LimitConcurrency]**&#x200B;選項中定義同時行銷活動的限制。 預設值為 10。
 
-  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant){target="_blank"}中進一步瞭解選項。
+  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}中進一步瞭解選項。
 
 * **資源可用性問題**
 
