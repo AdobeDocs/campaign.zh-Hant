@@ -78,7 +78,7 @@ ht-degree: 3%
 
 透過此範例，更能瞭解Adobe Campaign中個人/人員與收件者之間的追蹤差異。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}中進一步瞭解人員與收件者
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=zh-Hant#reporting){target="_blank"}中進一步瞭解人員與收件者
 
 **追蹤指標**
 
