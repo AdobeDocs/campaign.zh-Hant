@@ -128,11 +128,11 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 * 檢查您的個人化設定 — 確認您的訊息內容經過適當設計，以避免任何與個人化相關的錯誤。 Adobe Campaign個人化標籤一律採用下列形式： `<%=table.field%>`。 個人化區塊中引數的使用不正確可能是個問題。 例如，JavaScript中的變數使用方式如下：
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
 
