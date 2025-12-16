@@ -5,7 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+hide: true
+hidefromtoc: true
+source-git-commit: 9c751429ac3da2a583990ba0d891744353bd65c8
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 96%
@@ -84,9 +86,9 @@ ht-degree: 96%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/tw/campaign.html){target="_blank"}  以下載 Adobe Campaign。
+   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/tw/campaign.html) {target="_blank"} 以下載 Adobe Campaign。
 
-   在[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁中進一步瞭解發佈中心。
+   在](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁[中進一步瞭解發佈中心。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
