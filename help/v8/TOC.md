@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '837'
 ht-degree: 88%
 
 ---
@@ -131,7 +131,6 @@ ht-degree: 88%
    + 新增輪廓 {#add-profiles}
       + [手動建立輪廓](audiences/create-profiles.md)
       + [從檔案匯入輪廓](audiences/import-profiles.md)
-      + [使用外部輪廓](audiences/external-profiles.md)
       + [在網路表單中收集輪廓資料](audiences/collect-profiles.md)
       + [使用目標對應](audiences/target-mappings.md)
       + [建立測試輪廓](audiences/test-profiles.md)
