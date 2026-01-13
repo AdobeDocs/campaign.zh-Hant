@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 95%
 
 ## 如何存取控制面板？ {#ac-control-panel-access}
 
-控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target="_blank"}以獲得更多資訊。
+控制面板可直接從 Adobe Experience Cloud 存取。 僅供管理員使用者存取。
+
+>[!IMPORTANT]
+>
+>依預設，屬於「管理員」產品設定檔的管理員使用者可以存取「控制面板」。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」、「核准管理員」等）。 **任何名稱包含「admin」字詞的產品設定檔都會自動授與「控制面板」的存取權。**
+>
+>請仔細檢閱您的產品設定檔命名，確保只有授權使用者才能存取「控制面板」。
+
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target="_blank"}以獲得更多資訊。
 
 ## 「控制面板」常見問答集 {#ac-control-faq}
 

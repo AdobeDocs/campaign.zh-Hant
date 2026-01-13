@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,10 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
 
    * **[!UICONTROL ADMINISTRATION]**：執行/建立/編輯/刪除任何物件的權利，例如工作流程、傳遞、指令碼等
 
+   >[!IMPORTANT]
+   >
+   >**[!UICONTROL Administrator]**&#x200B;角色授與Campaign控制面板的存取權。 Adobe Admin Console中的任何產品設定檔只要名稱中包含「管理員」字樣（例如「管理員」、「管理員」、「管理員」、「核准管理員」等），就會授與「控制面板」的存取權。 深入瞭解[管理控制面板存取](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
+
 1. **[!UICONTROL Delivery operators]** （傳遞）
 
    此群組中的運運算元負責管理傳送：他們可讓您存取建立和準備傳送所需的主要資源（行銷活動型別、傳送對應、預設範本、個人化區塊等）。
@@ -187,7 +191,7 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 已命名的許可權會將許可權授予：
 
 * 執行作業
-例如，已針對具有&#x200B;**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
+例如，已針對具有**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 存取資料夾
 操作員群組的成員資格可以透過變更資料夾的安全性設定，來授予或限制資料夾的存取權。 [了解更多](folder-permissions.md#restrict-access-to-a-folder)。
@@ -196,9 +200,9 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 
 Adobe Campaign中的預設已命名許可權為：
 
-* **[!UICONTROL ADMINISTRATION]**：具有&#x200B;**[!UICONTROL ADMINISTRATION]**&#x200B;許可權的運運算元具有執行個體的完整存取權。 管理員使用者可以執行/建立/編輯/刪除任何物件，例如工作流程、傳送、指令碼等。
+* **[!UICONTROL ADMINISTRATION]**：具有&#x200B;**[!UICONTROL ADMINISTRATION]**&#x200B;許可權的運運算元具有執行個體的完整存取權。 管理員使用者可以執行/建立/編輯/刪除任何物件，例如工作流程、傳送、指令碼等。 **注意：** Adobe Admin Console中的產品設定檔包含「管理員」一詞，可授予Campaign控制面板的存取權。
 
-* **[!UICONTROL APPROVAL ADMINISTRATION]**：您可以在工作流程與傳遞中設定多個核准步驟，以確保指派的運運算元或群組已核准目前狀態。 具有&#x200B;**[!UICONTROL APPROVAL ADMINISTRATION]**&#x200B;許可權的使用者可以設定核准步驟，也可以指派應核准這些步驟的運運算元或運運算元群組。
+* **[!UICONTROL APPROVAL ADMINISTRATION]**：您可以在工作流程與傳遞中設定多個核准步驟，以確保指派的運運算元或群組已核准目前狀態。 具有&#x200B;**[!UICONTROL APPROVAL ADMINISTRATION]**&#x200B;許可權的使用者可以設定核准步驟，也可以指派應核准這些步驟的運運算元或運運算元群組。 **注意：**&#x200B;產品設定檔包含「管理員」一詞（例如「核准管理員」），可授予Campaign「控制面板」的存取權。
 
 * **[!UICONTROL CENTRAL]**：適用於集中管理（分散式行銷）。
 
