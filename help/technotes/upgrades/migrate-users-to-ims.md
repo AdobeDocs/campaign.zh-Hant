@@ -37,7 +37,7 @@ ht-degree: 1%
 >
 >將使用者移轉至IMS後，請注意Adobe Admin Console中名稱包含「管理員」字樣的任何產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等）都會自動授予對Campaign控制面板的存取權。 「控制面板」是自助式工具，可讓您對Campaign執行個體進行重大變更。
 >
->請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}中進一步瞭解如何管理控制面板許可權。
+>請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解如何管理控制面板許可權。
 
 ## 如何移轉？{#ims-migration-procedure}
 

@@ -107,7 +107,7 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]**&#x200B;角色授與Campaign控制面板的存取權。 Adobe Admin Console中的任何產品設定檔只要名稱中包含「管理員」字樣（例如「管理員」、「管理員」、「管理員」、「核准管理員」等），就會授與「控制面板」的存取權。 深入瞭解[管理控制面板存取](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
+   >**[!UICONTROL Administrator]**&#x200B;角色授與Campaign控制面板的存取權。 Adobe Admin Console中的任何產品設定檔只要名稱中包含「管理員」字樣（例如「管理員」、「管理員」、「管理員」、「核准管理員」等），就會授與「控制面板」的存取權。 深入瞭解[管理控制面板存取](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant){target="_blank"}。
 
 1. **[!UICONTROL Delivery operators]** （傳遞）
 
