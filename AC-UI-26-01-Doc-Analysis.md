@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **內容：**&#x200B;客戶導向(H&amp;M)，ACS到ACC同位要求
 
-**參考：** [ACS檔案](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**參考：** [ACS檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
 &#x200B;---
 
@@ -134,7 +134,7 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **內容：** Microsoft需求，工作已轉移給喜滿樹團隊
 
-**參考：** [ACS檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**參考：** [ACS檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html?lang=zh-Hant)
 
 &#x200B;---
 
@@ -201,7 +201,7 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 
 **內容：**&#x200B;客戶導向(H&amp;M)，ACS到ACC同位，移轉的關鍵
 
-**參考：** [ACS檔案](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**參考：** [ACS檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
 &#x200B;---
 
@@ -278,7 +278,7 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 
 **內容：**&#x200B;客戶導向(Pierre Fabre)、Microsoft需求、開發完成及測試中
 
-**參考：** [傳統檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)，[Figma模組](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**參考：** [傳統檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)，[Figma模組](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
 &#x200B;---
 
