@@ -18,7 +18,7 @@ ht-degree: 5%
 | 檢閱DOCAC | 3 |
 | 關閉DOCAC | 5 |
 
----
+&#x200B;---
 
 ## 📋檔案行動計畫
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 | [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) | 🔴否 | [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) | ❌關閉 |
 | [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) | 🔴否 | [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) | ❌關閉 |
 
----
+&#x200B;---
 
 ## 需要⚠️注意
 

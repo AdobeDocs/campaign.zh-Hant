@@ -18,15 +18,11 @@ ht-degree: 0%
 3. **[AC-UI-25-11月故事](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** — 舊版轉送
 4. **[AC-UI-25-11不包括8.8.2](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20and%20type%20%3D%20story%20order%20by%20status)** — 已篩選舊版
 
----
+&#x200B;---
 
 ## 🟢建立DOCAC
 
-### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) — 新增對個人化欄位的支援(進階AEM整合)
-**狀態：**&#x200B;已解決\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：**&#x200B;無\
-**動作：**&#x200B;建立DOCAC
+### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) — 新增對個人化欄位的支援(進階AEM整合)**狀態：**&#x200B;已解決\**需要的檔案：**&#x200B;是\**現有DOCAC：**&#x200B;無\**動作：**&#x200B;建立DOCAC
 
 **範圍：**
 - 進階AEM整合中個人化欄位的檔案支援
@@ -40,13 +36,9 @@ ht-degree: 0%
 
 **參考資料：** [AEM多語言Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=2988189953)
 
----
+&#x200B;---
 
-### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) — 傳遞排程運算程式（ACS同位檢查）
-**狀態：**&#x200B;新增\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：**&#x200B;無\
-**動作：**&#x200B;建立DOCAC
+### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) — 傳遞排程運算程式（ACS同位檢查）**狀態：**&#x200B;新增\**需要的檔案：**&#x200B;是\**現有DOCAC：**&#x200B;無\**動作：**&#x200B;建立DOCAC
 
 **範圍：**
 - 推播通知的檔案傳遞排程計算程式
@@ -60,15 +52,11 @@ ht-degree: 0%
 
 **參考：** [ACS檔案](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
----
+&#x200B;---
 
 ## 🔄更新DOCAC
 
-### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973) — 所有Web UI使用者的動態報告可用性
-**狀態：**&#x200B;進行中\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) （已關閉），[DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) （已解決）\
-**動作：**&#x200B;檢閱DOCAC
+### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973) — 所有Web UI使用者的動態報告可用性&#x200B;**狀態：**&#x200B;進行中\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) （已關閉），[DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) （已解決）\**動作：**&#x200B;檢閱DOCAC
 
 **範圍：**
 - 更新可用性資訊（現在適用於所有Web UI使用者，而不僅僅是8.7）
@@ -82,13 +70,9 @@ ht-degree: 0%
 
 **參考資料：** [Wiki — 報表比較](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
 
----
+&#x200B;---
 
-### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - A/B測試
-**狀態：**&#x200B;進行中\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) （新）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - A/B測試&#x200B;**狀態：**&#x200B;進行中\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) （新）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 完成A/B測試工作流程檔案
@@ -103,13 +87,9 @@ ht-degree: 0%
 
 **參考資料：** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3017705719)，[Figma模組](https://www.figma.com/design/4EfXEaA6OIV0D8rauuXSWX/A-B-Testing)
 
----
+&#x200B;---
 
-### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126) — 結構描述編寫（建立新資料表、擴充結構描述、存取外部資料庫）
-**狀態：**&#x200B;進行中\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) （新）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126) — 結構描述編寫（建立新資料表、擴充結構描述、存取外部資料庫）**狀態：**&#x200B;進行中\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) （新）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 檔案結構描述編寫工作流程（僅限3個選項：建立表格、擴充結構描述、存取外部DB）
@@ -124,13 +104,9 @@ Web UI中的方案製作功能可讓管理員建立新的資料庫表格、使�
 
 **參考：** [PRD](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD)，[Figma](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
 
----
+&#x200B;---
 
-### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) — 網站分析
-**狀態：**&#x200B;新增\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：**&#x200B;無\
-**動作：**&#x200B;建立DOCAC
+### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) — 網站分析&#x200B;**狀態：**&#x200B;新增\**需要的檔案：**&#x200B;是\**現有DOCAC：**&#x200B;無\**動作：**&#x200B;建立DOCAC
 
 **範圍：**
 - 網站分析外部帳戶設定
@@ -144,13 +120,9 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **參考：**&#x200B;未提供任何參考
 
----
+&#x200B;---
 
-### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753) — 即時副本/語言副本的AEM整合
-**狀態：**&#x200B;新增\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) （已解決）\
-**動作：**&#x200B;檢閱DOCAC
+### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753) — 即時副本/語言副本的AEM整合&#x200B;**狀態：**&#x200B;新增\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) （已解決）\**動作：**&#x200B;檢閱DOCAC
 
 **範圍：**
 - 瀏覽AEM傳遞範本
@@ -164,13 +136,9 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **參考：** [ACS檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
 
----
+&#x200B;---
 
-### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) — 內容編輯器：在片段中使用主題變數
-**狀態：**&#x200B;新增\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) （新）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) — 內容編輯器：在片段中使用主題變數&#x200B;**狀態：**&#x200B;新增\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) （新）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 電子郵件設計工具中的主題變數(Beta)
@@ -184,15 +152,11 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **參考：** [ATU-5460](https://jira.corp.adobe.com/browse/ATU-5460)
 
----
+&#x200B;---
 
 ## ➕建立DOCAC （改善）
 
-### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) — 預先定義的篩選器 — 共用選項
-**狀態：**&#x200B;已解決\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) （程式碼檢閱），[DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) （已關閉 — 協助程式）\
-**動作：**&#x200B;檢閱DOCAC
+### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) — 預先定義的篩選器 — 共用選項&#x200B;**狀態：**&#x200B;已解決\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) （程式碼檢閱），[DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) （已關閉 — 協助程式）\**動作：**&#x200B;檢閱DOCAC
 
 **範圍：**
 - 預先定義篩選器的共用選項
@@ -206,13 +170,9 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **參考：**&#x200B;與[NEO-88441](https://jira.corp.adobe.com/browse/NEO-88441)相關
 
----
+&#x200B;---
 
-### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) — 持續傳遞活動
-**狀態：**&#x200B;已關閉\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) （新），[DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) （已關閉 — 內容說明）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) — 持續傳遞活動&#x200B;**狀態：**&#x200B;已關閉\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) （新），[DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) （已關閉 — 內容說明）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 持續傳遞工作流程活動
@@ -227,13 +187,9 @@ Web Analytics整合可連線至Web Analytics平台，以追蹤及報告行銷活
 
 **參考：**&#x200B;相關史詩[NEO-67972](https://jira.corp.adobe.com/browse/NEO-67972)
 
----
+&#x200B;---
 
-### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130) — 啟用多語言推播通知的OOTB檔案上傳
-**狀態：**&#x200B;已關閉\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) （新）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130) — 啟用多語言推播通知的OOTB檔案上傳&#x200B;**狀態：**&#x200B;已關閉\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) （新）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 多語言推播通知的檔案上傳(iOS和Android)
@@ -247,77 +203,53 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 
 **參考：** [ACS檔案](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
----
+&#x200B;---
 
 ## ❌已取消/不再適用
 
-### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566) — 支援webui中的CTA追蹤
-**狀態：**&#x200B;已關閉（不再適用）\
-**需要檔案：**&#x200B;否\
-**現有DOCAC：** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) （新）\
-**動作：**&#x200B;關閉DOCAC
+### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566) — 支援webui中的CTA追蹤&#x200B;**狀態：**&#x200B;已關閉（不再適用）\**需要檔案：**&#x200B;否\**現有DOCAC：** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) （新）\**動作：**&#x200B;關閉DOCAC
 
 **原因：**&#x200B;支援MSFT的新ACS功能 — 未啟動、來自MSFT的擱置資訊、預期沒有UI工作
 
 **內容：** Microsoft特定、CTA追蹤需求
 
----
+&#x200B;---
 
-### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564) - AEM多語言UI支援
-**狀態：**&#x200B;已關閉（不再適用）\
-**需要檔案：**&#x200B;否\
-**現有DOCAC：** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) （新）\
-**動作：**&#x200B;關閉DOCAC
+### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564) - AEM多語言UI支援&#x200B;**狀態：**&#x200B;已關閉（不再適用）\**需要檔案：**&#x200B;否\**現有DOCAC：** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) （新）\**動作：**&#x200B;關閉DOCAC
 
 **原因：** Himanshu團隊管理的UI工作（不同劇本）
 
 **內容：** Microsoft需求，工作已轉移
 
----
+&#x200B;---
 
-### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) — 新增NRT功能支援
-**狀態：**&#x200B;已解決（不再適用）\
-**需要檔案：**&#x200B;否\
-**現有DOCAC：** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) （新）\
-**動作：**&#x200B;關閉DOCAC
+### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) — 新增NRT功能支援&#x200B;**狀態：**&#x200B;已解決（不再適用）\**需要檔案：**&#x200B;否\**現有DOCAC：** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) （新）\**動作：**&#x200B;關閉DOCAC
 
 **原因：**&#x200B;針對MSFT的新ACS特定功能 — 規格可用，但不會影響網頁UI
 
 **內容：** Microsoft需求，異動訊息
 
----
+&#x200B;---
 
-### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) — 設定檔擴充的異動Rest API
-**狀態：**&#x200B;已解決（不再適用）\
-**需要檔案：**&#x200B;否\
-**現有DOCAC：** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) （新）\
-**動作：**&#x200B;關閉DOCAC
+### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) — 設定檔擴充的異動Rest API&#x200B;**狀態：**&#x200B;已解決（不再適用）\**需要檔案：**&#x200B;否\**現有DOCAC：** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) （新）\**動作：**&#x200B;關閉DOCAC
 
 **原因：**&#x200B;沒有Web UI工作，擱置升級的執行個體，版本編號升級為發行所必需
 
 **內容：** REST API端點功能
 
----
+&#x200B;---
 
-### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) — 設定檔擴充異動訊息階段2
-**狀態：**&#x200B;已解決（不再適用）\
-**需要檔案：**&#x200B;否\
-**現有DOCAC：** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) （新）\
-**動作：**&#x200B;關閉DOCAC
+### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) — 設定檔擴充異動訊息階段2&#x200B;**狀態：**&#x200B;已解決（不再適用）\**需要檔案：**&#x200B;否\**現有DOCAC：** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) （新）\**動作：**&#x200B;關閉DOCAC
 
 **原因：**&#x200B;本文沒有工作，標示為「不再適用」
 
 **內容：** Microsoft需求，Europa專案
 
----
+&#x200B;---
 
 ## 🟢份檔案已準備就緒（從AC-UI-25-11）
 
-### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) — 多語言豐富推送 — UI
-**狀態：**&#x200B;已關閉\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) （新）\
-**動作：**&#x200B;檢閱DOCAC
+### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) — 多語言豐富推送 — UI&#x200B;**狀態：**&#x200B;已關閉\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) （新）\**動作：**&#x200B;檢閱DOCAC
 
 **範圍：**
 - 多語言傳遞的豐富推送欄位
@@ -331,13 +263,9 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 
 **參考資料：** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=Rich+push+fields+in+multilingual)
 
----
+&#x200B;---
 
-### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916) — 設定及管理核准程式
-**狀態：**&#x200B;已解決\
-**需要的檔案：**&#x200B;是\
-**現有DOCAC：** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) （新）\
-**動作：**&#x200B;更新DOCAC
+### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916) — 設定及管理核准程式&#x200B;**狀態：**&#x200B;已解決\**需要的檔案：**&#x200B;是\**現有DOCAC：** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) （新）\**動作：**&#x200B;更新DOCAC
 
 **範圍：**
 - 在傳遞/行銷活動中設定驗證運運算元
@@ -352,7 +280,7 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 
 **參考：** [傳統檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)，[Figma模組](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
----
+&#x200B;---
 
 ## 📊摘要（依動作）
 
@@ -364,7 +292,7 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 | ❌關閉DOCAC | 5 |
 | **總計** | **17** |
 
----
+&#x200B;---
 
 ## ⚠️個未完成的問題
 
@@ -374,7 +302,7 @@ OOTB檔案上傳功能可透過CSV匯入建立多語言推播通知傳遞、符�
 4. Neo-88838 — 主題變數 — 擱置中Acrite功能修訂
 5. 動態報告 — 透過舊式報告釐清衝突量度顯示指引
 
----
+&#x200B;---
 
 ## 🔗個相關Epic
 
