@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本節詳細說明與異動訊息模組結構描述相關的SOAP方法。
 
-兩個&#x200B;**PushEvent**&#x200B;或&#x200B;**PushEvents** SOAP方法連結至兩個&#x200B;**nms：rtEvent**&#x200B;和&#x200B;**nms：BatchEvent**&#x200B;資料架構。 此資訊系統可判斷事件是「批次」或「即時」型別。
+兩個&#x200B;**PushEvent**&#x200B;或&#x200B;**PushEvents** SOAP方法連結至兩個&#x200B;**nms:rtEvent**&#x200B;和&#x200B;**nms:BatchEvent**&#x200B;資料架構。 此資訊系統可判斷事件是「批次」或「即時」型別。
 
 * **PushEvent**&#x200B;可讓您在訊息中插入單一事件，
 * **PushEvents**&#x200B;可讓您在訊息中插入一系列事件。
@@ -100,13 +100,13 @@ ht-degree: 0%
 </urn:PushEvents>
 ```
 
-**`<rtevent>`**&#x200B;和&#x200B;**`<batchevent>`**&#x200B;元素具有一組屬性，以及整合訊息資料的必要子元素： **`<ctx>`**。
+**`<rtevent>`**&#x200B;和&#x200B;**`<batchEvent>`**&#x200B;元素具有一組屬性，以及整合訊息資料的必要子元素： **`<ctx>`**。
 
 >[!NOTE]
 >
->**`<batchevent>`**&#x200B;元素可讓您將事件新增至「批次」佇列。 **`<rtevent>`**&#x200B;將事件新增至「即時」佇列。
+>**`<batchEvent>`**&#x200B;元素可讓您將事件新增至「批次」佇列。 **`<rtevent>`**&#x200B;將事件新增至「即時」佇列。
 
-**`<rtevent>`**&#x200B;和&#x200B;**`<batchevent>`**&#x200B;元素的必要屬性為@type和@email。 @type的值必須與設定執行例項時定義的逐項清單值相同。 此值可讓您定義要在傳送期間連結至事件內容的範本。
+**`<rtevent>`**&#x200B;和&#x200B;**`<batchEvent>`**&#x200B;元素的必要屬性為@type和@email。 @type的值必須與設定執行例項時定義的逐項清單值相同。 此值可讓您定義要在傳送期間連結至事件內容的範本。
 
 `<rtevent> configuration example:`
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在&#x200B;**nms：rtEvent**&#x200B;和&#x200B;**nms：BatchEvent**&#x200B;資料結構的描述中，可以找到所有授權屬性及其值的詳細描述。
+>在&#x200B;**nms:rtEvent**&#x200B;和&#x200B;**nms:BatchEvent**&#x200B;資料架構的說明中可取得所有授權屬性及其值的詳細說明。
 
 **`<ctx>`**&#x200B;元素包含訊息資料。 其XML內容是開放的，這表示可以根據要傳送的內容來設定它。
 
