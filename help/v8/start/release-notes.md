@@ -3,9 +3,9 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
+source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '733'
 ht-degree: 21%
 
 ---
@@ -28,12 +28,12 @@ _2026 年 1 月 27 日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳遞功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
-* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
-* [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant)
-* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=zh-Hant)
-* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=zh-Hant)
+* [多語言傳遞功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
@@ -84,3 +84,4 @@ _2026 年 1 月 27 日_
 * 已在FFDA部署中的收件者表格上最佳化緩慢查詢。 (NEO-89268)
 * 修正增量查詢活動忽略已設定排程的問題。 (NEO-89317)
 * 解決在混合環境中開啟行銷活動時的存取錯誤。 (NEO-89320)
+* 修正Campaign Web UI報表中，追蹤統計資料顯示與控制檯不同值的差異。 「追蹤指標」、「傳送摘要」和「URL點按資料流」報表現在會顯示兩個介面中一致的量度。 (NEO-82339)
