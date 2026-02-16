@@ -1,13 +1,13 @@
 ---
 title: Campaign外部帳戶
-description: Campaign外部帳戶
+description: 設定外部帳戶，將Campaign連線至外部系統，例如POP3、FDA資料庫、CRM、儲存空間和Adobe解決方案。
 feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
+source-git-commit: a0aadd7e991dcceb5646f0afbc9cb1534e459e2c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1281'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
 
-在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=zh-Hant){target="_blank"}中進一步瞭解傳入電子郵件。
+在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}中進一步瞭解傳入電子郵件。
 
 ![](assets/bounce_external_1.png)
 
@@ -60,9 +60,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 * **[!UICONTROL Encryption]** — 選擇的加密型別，介於&#x200B;**[!UICONTROL By default]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]**&#x200B;或&#x200B;**[!UICONTROL POP3S]**&#x200B;之間。
 
-  **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
-
-* **[!UICONTROL Function]** — 傳入電子郵件或SOAP路由器
+* **[!UICONTROL Function]** — 傳入電子郵件或SOAP路由器。
 
 ![](assets/bounce_external_2.png)
 
@@ -75,13 +73,13 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 * **[!UICONTROL Azure tenant]** - Azure ID (或目錄（租使用者） ID)可以在Azure入口網站應用程式概觀的&#x200B;**Essentials**&#x200B;下拉式清單中找到。
 
-* **[!UICONTROL Azure Client ID]** — 使用者端ID (或應用程式（使用者端） ID)可以在Azure入口網站應用程式概觀的&#x200B;**Essentials**&#x200B;下拉式清單中找到。
+* **[!UICONTROL Azure Client ID]** — 使用者端ID (或應用程式（使用者端） ID)可在Azure入口網站應用程式概觀的&#x200B;**Essentials**&#x200B;下拉式清單中找到。
 
 * **[!UICONTROL Azure Client secret]** — 使用者端密碼識別碼可在Azure入口網站應用程式的&#x200B;**憑證與密碼**&#x200B;功能表的&#x200B;**使用者端密碼**&#x200B;欄中找到。
 
 * **[!UICONTROL Azure Redirect URL]** — 可在Azure入口網站應用程式的&#x200B;**驗證**&#x200B;功能表中找到重新導向URL。 它應該以下列語法`nl/jsp/oauth.jsp`結束，例如`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-  輸入不同的認證後，您可以按一下&#x200B;**[!UICONTROL Setup the connection]**&#x200B;完成外部帳戶設定。
+輸入認證後，按一下&#x200B;**[!UICONTROL Setup the connection]**&#x200B;完成外部帳戶設定。
 
 ### 路由 {#routing}
 
@@ -91,15 +89,36 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 ### 執行執行個體 {#execution-instance}
 
-在交易式訊息環境中，執行例項會連結至控制例項並加以連結。 將異動訊息範本部署至執行例項。 在[此頁面](../architecture/architecture.md#transac-msg-archi)中進一步瞭解Message Center架構。
+在異動訊息的內容中，執行例項會連結至控制例項並連線它們。 將異動訊息範本部署至執行例項。 在[此頁面](../architecture/architecture.md#transac-msg-archi)中進一步瞭解Message Center架構。
 
 ## 存取外部系統外部帳戶 {#external-syst-external-accounts}
 
-* **外部資料庫(FDA)** - **外部資料庫**&#x200B;型別的外部帳戶是用來透過同盟資料存取(FDA)連線到外部資料庫。 在[本節](../connect/fda.md)中進一步瞭解同盟資料存取(FDA)選項。
+### 同盟資料存取 (FDA) {#fda-external-accounts}
 
-  與Adobe Campaign v8相容的外部資料庫列在[相容性矩陣](../start/compatibility-matrix.md)中
+**外部資料庫**&#x200B;型別外部帳戶是用來透過同盟資料存取(FDA)連線到外部資料庫。 在[本節](../connect/fda.md)中進一步瞭解同盟資料存取(FDA)選項。
 
-* **X （先前稱為Twitter）** - **Twitter**&#x200B;型別外部帳戶可用來將Campaign連線至您的X帳戶，以代表您張貼訊息。 在[本節](../connect/ac-tw.md)中進一步瞭解X整合。
+>[!NOTE]
+>
+>與Adobe Campaign v8相容的外部資料庫列在[相容性矩陣](../start/compatibility-matrix.md)中。 FDA連線使用ODBC驅動程式；透過Adobe Campaign Managed Cloud Services，ODBC驅動程式和外部帳戶設定是由Adobe設定。
+
+外部帳戶組態設定取決於資料庫引擎。 透過Adobe Campaign Managed Cloud Services，外部帳戶設定是由Adobe執行。 在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}中進一步瞭解此設定。
+
+#### 資料庫外部帳戶 {#databricks-external-accounts}
+
+Databricks FDA連線使用Databricks ODBC驅動程式。 從Campaign v8.9.1開始，Databricks外部帳戶透過服務主體（非互動式使用者端憑證流程）支援OAuth2驗證，為同盟資料存取提供安全驗證。
+
+在[Microsoft檔案](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"}中進一步瞭解服務主體。
+
+若要透過Campaign中的服務主體設定OAuth2驗證：
+
+1. Databricks Workspace管理員會在Databriks Workspace上啟用服務主體並產生認證。 若要透過OAuth授權存取您的Azure Databricks資源，請建立OAuth密碼（用來產生OAuth存取權杖以供驗證）。
+2. 在Adobe Campaign中，建立或編輯Databricks外部帳戶，並開啟&#x200B;**OAuth**&#x200B;索引標籤。
+3. 將認證貼到Databricks外部帳戶之OAuth標籤的&#x200B;**密碼**&#x200B;欄位中。
+4. 使用&#x200B;**[!UICONTROL Test the connection]**&#x200B;驗證組態。
+
+### X （先前稱為Twitter） {#twitter-external-account}
+
+**Twitter**&#x200B;型別外部帳戶可用來將Campaign連線至您的X帳戶，以代表您張貼訊息。 在[本節](../connect/ac-tw.md)中進一步瞭解X整合。
 
 ## Adobe解決方案整合外部帳戶 {#adobe-integration-external-accounts}
 
@@ -107,7 +126,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 * **網站分析** - **[!UICONTROL Web Analytics (Adobe Analytics)]**&#x200B;外部帳戶用於設定從Adobe Analytics到Adobe Campaign的資料傳輸。 在[此頁面](../connect/ac-aa.md)中進一步瞭解Adobe Campaign - Adobe Analytics整合。
 
-* **Adobe Experience Manager** - **[!UICONTROL AEM]**&#x200B;外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳遞的內容以及表單。 在[此頁面](../connect/ac-aem.md)中進一步瞭解Adobe Campaign - Adobe Analytics整合。
+* **Adobe Experience Manager** - **[!UICONTROL AEM]**&#x200B;外部帳戶可讓您直接在Adobe Experience Manager中管理電子郵件傳遞的內容以及表單。 在[此頁面](../connect/ac-aem.md)中進一步瞭解Adobe Campaign - Adobe Experience Manager整合。
 
 
 ## CRM聯結器外部帳戶 {#crm-external-accounts}
@@ -118,19 +137,19 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
-這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解&#x200B;**此頁面**&#x200B;工作流程中的[檔案傳輸](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=zh-Hant){target="_blank"}。
+這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解&#x200B;**此頁面**&#x200B;工作流程中的[檔案傳輸](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}。
 
-* **FTP和SFTP** - **FTP**&#x200B;外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器898）的連線，您可以建立自己的外部帳戶。
+* **FTP和SFTP** - **FTP**&#x200B;外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器）的連線，您可以建立自己的外部帳戶。
 
   若要這麼做，請在此外部帳戶中指定用來建立與SFTP或FTP伺服器連線的位址和認證。
 
   >[!NOTE]
   >
-  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant){target="_blank"}。
+  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}。
 
 * **Amazon Simple Storage Service (S3)** - **AWS S3**&#x200B;聯結器可用來使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
-   * **[!UICONTROL AWS S3 Account Server]**：您伺服器的URL，填入如下：   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
+   * **[!UICONTROL AWS S3 Account Server]**：您伺服器的URL，格式為`<S3bucket name>.s3.amazonaws.com/<s3object path>`。
 
    * **[!UICONTROL AWS access key ID]**：在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}中瞭解如何尋找您的AWS存取金鑰ID。
 
@@ -144,7 +163,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
    * **[!UICONTROL Server]**： Azure Blob儲存伺服器的URL。
 
-   * **[!UICONTROL Encryption]**：加密型別介於&#x200B;**[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**&#x200B;之間。
+   * **[!UICONTROL Encryption]**：加密型別： **[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**。
 
    * **[!UICONTROL Access key]**：在&#x200B;**[!UICONTROL Access key]** Microsoft檔案[中瞭解如何尋找您的](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}。
 
