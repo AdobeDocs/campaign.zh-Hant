@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
 workflow-type: tm+mt
-source-wordcount: '2167'
-ht-degree: 67%
+source-wordcount: '2810'
+ht-degree: 52%
 
 ---
 
@@ -18,6 +18,22 @@ ht-degree: 67%
 Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入我們的內部軟體開發和作業流程及工具，我們的跨職能團隊也嚴格遵循這些實務准則，以迅速預防、偵測和回應事件。
 
 此外，我們與合作夥伴、領先的研究人員、安全性研究機構和其他產業組織締結合作關係，這能協助我們掌握最新的威脅和弱點，並定期將進階安全性技術整合至我們提供的產品和服務中。
+
+>[!NOTE]
+>
+>**Campaign v8受管理的Cloud Services：**&#x200B;基礎架構（網路、伺服器、TLS、修補）由Adobe管理。 此頁面著重於您控制的租使用者層級和應用程式層級設定：存取管理、驗證、執行個體設定、資料保護、編碼和操作實務。
+
+## 安全性檢查清單 {#security-checklist}
+
+使用此檢查清單將您的設定與建議的安全預設值對齊：
+
+* [存取管理](#access-management)：建立安全性群組、指派適當的許可權、限制管理員使用、每個使用者一個操作員、定期檢閱
+* [驗證和工作階段](#authentication-and-session)：使用Adobe IMS、強式身分原則、工作階段逾時
+* [執行個體和網路安全性](#instance-and-network-security)： IP允許清單、URL許可權、透過控制面板的GPG金鑰
+* [資料和PII保護](#data-and-pii-protection)： HTTPS、PII檢視限制、限制密碼、保護敏感頁面
+* [編碼准則](#coding-guidelines)：沒有硬式編碼的密碼、驗證輸入、引數化SQL、字幕
+* [資料限制](#data-restriction)：限制存取外部帳戶中的密碼和密碼欄位
+* [運作與法規遵循](#operational-and-compliance)：定期與此基準比較，使用稽核軌跡
 
 ## 隱私權
 
@@ -101,8 +117,8 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
-* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
+* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
+* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
 * 透過同意與權限管理，您可以追蹤收件者的偏好設定，並管理組織內哪些人員可以存取哪些資料。如需詳細資訊，請參閱[本節](#consent)。
 * 加速和管理收件者的隱私權要求。如需詳細資訊，請參閱[本節](#privacy-requests)。
 
@@ -123,7 +139,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 
 * **同意管理**：透過訂閱管理程序，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。有關此項目的詳細資訊，請參閱[關於訂閱](../../automation/workflow/subscription-services.md).
 * **資料保留**：所有內建標準記錄表都具有預設的保留期間，通常會將其資料儲存限制在 6 個月或更短時間。您可以使用工作流程設定其他的保留期間。如需此項目的詳細資訊，請洽詢 Adobe 顧問或技術管理員。
-* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
+* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
 
 ### 隱私權請求 {#privacy-requests}
 
@@ -146,7 +162,7 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 * **工作階段** Cookie：**nlid** Cookie 包含傳送到聯絡人之電子郵件的識別碼 (**broadlogId**)，以及訊息範本的識別碼 (**deliveryId**)。連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
 
 * 兩個&#x200B;**永久** Cookie：
-   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
+   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies)取得。
    * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
 
 《一般資料保護規範》(GDPR) 等法規規定，公司必須先取得網站使用者的同意，才能安裝 Cookie。
@@ -165,40 +181,60 @@ Adobe Campaign 可讓您追蹤已傳送的電子郵件和傳遞收件者的行�
 >
 >Campaign v8不提供網頁追蹤功能。 深入瞭解[此頁面](../start/v7-to-v8.md#gs-unavailable-features)中無法使用的功能。
 
-<!--
-Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
+## 資料與PII保護 {#data-and-pii-protection}
 
-* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
-* Use [PI view restriction](../dev/restrict-pi-view.md) to protect privacy and prevent data from being misused
-* Make sure that encrypted passwords are restricted
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
--->
+隱私權設定和強化是安全性最佳化的關鍵元素。 請遵循下列最佳實務：
+
+* **對所有端點使用HTTPS** — 確保Campaign使用的所有端點（追蹤、映象頁面、網頁應用程式、API）都是透過HTTPS提供。
+* **限制PII檢視** — 使用[PII檢視限制](../dev/restrict-pi-view.md)，以便只有授權操作者才能在結構描述和畫面中看到敏感欄位（例如電子郵件、電話）。
+* **限制對加密密碼的存取** — 限制對外部帳戶和其他結構描述中密碼和密碼欄位的存取，以便只有系統管理員或最小操作員才能檢視它們。 請參閱下方的[資料限制](#data-restriction)。
+* **保護敏感頁面** — 限制存取顯示或收集PII的映象頁面、Web應用程式和登入頁面；使用操作員和資料夾許可權，並在相關情況下使用字幕和同意。
 
 >[!NOTE]
 >
 >作為「受管理的Cloud Services」使用者，Adobe將與您合作，在您的環境中實作這些設定。
 
+## 存取權管理 {#access-management}
 
-## 存取權管理
+存取管理是強化安全性的重要一環。 以下是主要最佳實務：
 
-存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
+* **建立足夠的安全性群組** — 定義符合角色的運運算元群組，並只指派每個角色所需的許可權。
+* **檢查每個操作員是否具有適當的存取權** — 套用最小許可權原則；避免依預設授予ADMINISTRATION或其他廣泛許可權。
+* **避免使用管理員運運算元，並避免在管理員群組中擁有太多運運算元** — 不要共用內建的管理員帳戶；請為每個實體使用者建立一個運運算元，以進行責任與稽核。
+* **每個實體使用者一個運運算元** — 不共用帳戶。 為每個人建立一個Campaign運運算元(Adobe ID)，以歸因於稽核軌跡和記錄。
+* **限制命名許可權的高許可權** — 將&#x200B;**管理**、**程式執行** (createProcess)和&#x200B;**SQL**&#x200B;授與少數受信任的運運算元；擁有這些運運算元的檔案及原因。
+* **定期檢閱存取權** — 定期檢閱Operator、Operator群組和資料夾許可權；在角色變更或人員離開時，移除或減少存取權。
+* **一致地使用產品設定檔** — 偏好將使用者指派給Admin Console中的產品設定檔（運運算元群組）；保持命名一致（例如`campaign - <instance> - <group>`）。 請參閱[開始使用許可權](../start/gs-permissions.md)。
+* **控制面板存取權** — 在Campaign v8中，名稱包含「管理員」的產品設定檔或已命名許可權可授予對Campaign控制面板的存取權。 避免在設定檔或群組名稱中使用「管理員」，除非這些使用者應該具有「控制面板」存取權。
 
-* 建立足夠的安全性群組
-* 檢查每個操作員是否具有適當的存取許可權
+若要了解權限的詳細資訊，請參閱[本章節](../start/gs-permissions.md)。
 
-在[本節](../start/gs-permissions.md)中進一步瞭解許可權
+## 驗證和工作階段 {#authentication-and-session}
 
-## 編碼准則
+* **使用Adobe IMS** — 所有使用者都應該使用其Adobe ID (IMS)登入；不要依賴舊版登入/密碼作為日常操作員。
+* **依賴強式身分和密碼原則** — 使用Admin Console或您的身分提供者來執行MFA和密碼原則；確保僅將授權使用者指派給Campaign產品設定檔。
+* **設定工作階段逾時** — 在可以設定的位置（例如使用者端主控台），設定合理的工作階段逾時，並在離開工作站時鎖定熒幕。
+
+## 執行個體與網路安全性 {#instance-and-network-security}
+
+作為Campaign v8產品管理員，請使用[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}來管理執行個體層級安全性：
+
+* **IP允許清單** — 管理IP允許清單以進行執行個體存取；限製為已知網路（例如辦公室、VPN），並儘可能避免範圍過於廣泛。
+* **URL許可權** — 將URL許可權限製為您執行個體需要呼叫的網域（API、追蹤、外部服務），以降低伺服器端請求濫用的風險。
+* **GPG金鑰** — 如果您在檔案傳輸或其他使用案例中使用加密，請透過控制面板管理GPG金鑰，並根據您的安全性原則輪換金鑰。
+
+## 編碼准則 {#coding-guidelines}
 
 在Adobe Campaign中進行開發時（工作流程、JavaScript、JSSP等），請一律遵循下列准則：
 
-* **指令碼**：嘗試避免SQL陳述式，使用引數化函式而非字串串串連，將要使用的SQL函式新增至允許清單以避免SQL插入。
+* **指令碼** — 嘗試避免原始SQL；請使用引數化函式，而非字串串串連。 只將所需的SQL函式新增至允許清單，避免SQL插入。
+* **保護資料模型** — 使用已命名的許可權來限制操作員動作並新增系統篩選器(sysFilter)。
+* **在網頁應用程式中新增驗證碼** — 將驗證碼新增至公用登陸頁面和訂閱頁面。
+* **請勿硬式編碼密碼** — 請勿在工作流程、JavaScript或JSSP中硬式編碼密碼、API金鑰或權杖；使用外部帳戶或安全設定。
+* **驗證並整理輸入** — 驗證並整理網頁應用程式和工作流程引數中的使用者輸入，以降低插入和XSS風險。
+* **對SQL使用允許清單** — 當需要SQL或指令碼執行時，請對允許的SQL函式使用允許清單，並避免透過字串串串連從使用者輸入建立查詢。
 
-* **保護資料模型**：使用已命名的許可權來限制運運算元動作、新增系統篩選器(sysFilter)
-
-* **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
-
-進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}。
+進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}。
 
 
 ## 個人化
@@ -211,7 +247,7 @@ Privacy configuration and hardening is a key element of security optimization. H
 * `https://<%= sub-domain >.domain.tld/path`
 * `https://sub.domain<%= main domain %>/path`
 
-## 資料限制
+## 資料限制 {#data-restriction}
 
 您必須確定低許可權驗證的使用者無法存取加密的密碼。 要執行此操作，有兩個主要方法：限制僅存取密碼欄位或存取整個實體。
 
@@ -273,24 +309,7 @@ Privacy configuration and hardening is a key element of security optimization. H
    >
    >您可以以`$(loginId) = 0 or $(login) = 'admin'`取代`hasNamedRight('admin')`，讓所有具有管理員許可權的使用者看見這些密碼。
 
+## 營運與法規遵循 {#operational-and-compliance}
 
-## 存取權管理
-
-存取管理是強化安全性的重要一環。 以下是一些主要最佳實務：
-
-* 建立足夠的安全性群組
-* 檢查每個操作員是否具有適當的存取許可權
-
-在本節[中進一步瞭解](../start/gs-permissions.md)中的許可權。
-
-## 編碼准則
-
-在Adobe Campaign中進行開發時（工作流程、JavaScript、JSSP等），請一律遵循下列准則：
-
-* **指令碼**：嘗試避免SQL陳述式，使用引數化函式而非字串串串連，將要使用的SQL函式新增至允許清單以避免SQL插入。
-
-* **保護資料模型**：使用已命名的許可權來限制運運算元動作、新增系統篩選器(sysFilter)
-
-* **在網頁應用程式中新增驗證碼**：在您的公開登陸頁面和訂閱頁面中新增驗證碼。
-
-進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}。
+* **與安全基準線比較** — 定期將您的操作員群組、已命名的許可權和資料夾許可權與此頁面中的建議進行比較（如果適用，還有[增強式安全性附加元件](enhanced-security.md)），以符合建議的安全預設值。
+* **使用稽核軌跡** — 依靠Campaign的稽核軌跡以進行重要變更（例如工作流程、傳遞、金鑰組態）；根據您的規範與保留原則的要求保留及檢閱記錄。
