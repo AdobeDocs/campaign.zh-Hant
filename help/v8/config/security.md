@@ -1,15 +1,15 @@
 ---
 title: Campaign安全性最佳做法
-description: 開始使用Campaign安全性最佳做法
+description: 建議的Campaign安全設定指引
 feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 52%
+source-wordcount: '2877'
+ht-degree: 51%
 
 ---
 
@@ -23,6 +23,7 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 >
 >**Campaign v8受管理的Cloud Services：**&#x200B;基礎架構（網路、伺服器、TLS、修補）由Adobe管理。 此頁面著重於您控制的租使用者層級和應用程式層級設定：存取管理、驗證、執行個體設定、資料保護、編碼和操作實務。
 
+
 ## 安全性檢查清單 {#security-checklist}
 
 使用此檢查清單將您的設定與建議的安全預設值對齊：
@@ -34,6 +35,16 @@ Adobe非常重視您數位體驗的安全性。 安全性實務已深深植入�
 * [編碼准則](#coding-guidelines)：沒有硬式編碼的密碼、驗證輸入、引數化SQL、字幕
 * [資料限制](#data-restriction)：限制存取外部帳戶中的密碼和密碼欄位
 * [運作與法規遵循](#operational-and-compliance)：定期與此基準比較，使用稽核軌跡
+
+### 何處可以找到此指南 {#public-guidance}
+
+此建議的安全設定指南已公開發佈在Experience League上。 您可以不受限制地使用和共用：
+
+* **此頁面** - [行銷活動安全性最佳實務](#ac-security) （檢查清單和詳細區段）
+* **[增強式安全性附加元件](enhanced-security.md)** — 安全CMK整合和安全VPN通道
+* **[開始使用許可權](../start/gs-permissions.md)** — 存取權和產品設定檔
+* **[限制PII檢視](../dev/restrict-pi-view.md)** — 限制對敏感欄位的存取
+* **[實作准則](../start/implement.md)** — 開始前的安全性和隱私權
 
 ## 隱私權
 
@@ -117,8 +128,8 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。因此，您必須接收並監控收件者的同意。
 
-* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
-* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
+* 讓收件者一律同意接收通訊。為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
+* 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
 * 透過同意與權限管理，您可以追蹤收件者的偏好設定，並管理組織內哪些人員可以存取哪些資料。如需詳細資訊，請參閱[本節](#consent)。
 * 加速和管理收件者的隱私權要求。如需詳細資訊，請參閱[本節](#privacy-requests)。
 
@@ -139,7 +150,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 
 * **同意管理**：透過訂閱管理程序，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。有關此項目的詳細資訊，請參閱[關於訂閱](../../automation/workflow/subscription-services.md).
 * **資料保留**：所有內建標準記錄表都具有預設的保留期間，通常會將其資料儲存限制在 6 個月或更短時間。您可以使用工作流程設定其他的保留期間。如需此項目的詳細資訊，請洽詢 Adobe 顧問或技術管理員。
-* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
+* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}。
 
 ### 隱私權請求 {#privacy-requests}
 
@@ -162,7 +173,7 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 * **工作階段** Cookie：**nlid** Cookie 包含傳送到聯絡人之電子郵件的識別碼 (**broadlogId**)，以及訊息範本的識別碼 (**deliveryId**)。連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
 
 * 兩個&#x200B;**永久** Cookie：
-   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
+   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies)取得。
    * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
 
 《一般資料保護規範》(GDPR) 等法規規定，公司必須先取得網站使用者的同意，才能安裝 Cookie。
@@ -234,7 +245,7 @@ Adobe Campaign 可讓您追蹤已傳送的電子郵件和傳遞收件者的行�
 * **驗證並整理輸入** — 驗證並整理網頁應用程式和工作流程引數中的使用者輸入，以降低插入和XSS風險。
 * **對SQL使用允許清單** — 當需要SQL或指令碼執行時，請對允許的SQL函式使用允許清單，並避免透過字串串串連從使用者輸入建立查詢。
 
-進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=zh-Hant#installing-campaign-classic){target="_blank"}。
+進一步瞭解[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}。
 
 
 ## 個人化

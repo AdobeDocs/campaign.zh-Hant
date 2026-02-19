@@ -1,19 +1,21 @@
 ---
 title: Campaign增強式安全性附加元件
-description: 開始使用Campaign Enhanced安全性附加元件
+description: Campaign Enhanced安全性附加元件的安全設定指引
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 3%
+source-wordcount: '743'
+ht-degree: 2%
 
 ---
 
 
 # Campaign增強式安全性附加元件 {#enhanced-security}
+
+此頁面是Adobe針對Campaign v8公開提供的[建議安全設定指引](security.md#public-guidance)的一部分。
 
 為了使您的網路連線更安全，並為您的資源提供更好的安全性，[!DNL Adobe Campaign]提供新的&#x200B;**增強式安全性**&#x200B;附加元件。
 
@@ -53,7 +55,7 @@ ht-degree: 3%
 
 1. 與[共用您的](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}Amazon資源名稱（索引鍵ARN）[!DNL Adobe Campaign]。 若要這麼做，請聯絡您的Adobe代表。<!--or Adobe transition manager?-->
 
-1. 建立並測試Amazon EventBridge規則，以啟用Adobe監控金鑰&#x200B;。 [了解更多](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
+1. 建立並測試Amazon EventBridge規則，以啟用Adobe監控金鑰&#x200B;。 [了解更多資訊](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
 
 ### 護欄和限制 {#cmk-callouts}
