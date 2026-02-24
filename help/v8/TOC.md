@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
+source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 88%
+source-wordcount: '840'
+ht-degree: 87%
 
 ---
 
@@ -24,12 +24,13 @@ ht-degree: 88%
       + [2025](start/release-notes-2025.md)
       + [2024](start/release-notes-2024.md)
       + [2023 年](start/release-notes-2023.md)
-      + [2022 年](start/release-notes-2022.md)
+      + [2022](start/release-notes-2022.md)
       + [2021 年](start/release-notes-2021.md)
    + [護欄](start/ac-guardrails.md)
    + [已知問題](start/known-issues.md)
-   + [相容性比較表](start/compatibility-matrix.md)
+   + [相容性對照表](start/compatibility-matrix.md)
    + [文件更新](start/documentation-updates.md)
+   + [每月更新報告](../../monthly-updates-report.md)
 + 開始使用 {#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
    + [主要功能](start/whats-new.md)
@@ -159,7 +160,7 @@ ht-degree: 88%
       + [建立預先定義的篩選器](interaction/interaction-predefined-filters.md)
       + [建立產品建議空間](interaction/interaction-offer-spaces.md)
    + [建立產品建議目錄](interaction/interaction-offer-catalog.md)
-   + [建立產品建議產品建議](interaction/interaction-offer.md)
+   + [建立產品建議](interaction/interaction-offer.md)
    + [傳送產品建議 (傳出)](interaction/interaction-send-offers.md)
    + 呈現產品建議 (傳入){#inbound}
       + [內容](interaction/interaction-present-offers.md)
