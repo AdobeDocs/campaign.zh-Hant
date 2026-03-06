@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 description: 前往Adobe Campaign v8說明中心尋找說明。 瞭解Campaign v8的新增功能、改善和修正。
 title: Adobe Campaign v8產品檔案
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 90%
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.8版本已上線]
+>[!TAB Campaign v8.9版本已上線]
 
 最新版本 Adobe Campaign 現已上線。 閱讀發行說明，取得更多詳細資料。
 
@@ -42,7 +42,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 >[!ENDTABS]
 
-## 從基本概念開始
+## 從基礎知識開始
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

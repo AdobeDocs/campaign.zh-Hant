@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '842'
 ht-degree: 87%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 87%
       + [將檔案附加到電子郵件](send/attaching-files.md)
    + 簡訊 {#sms}
       + [開始使用簡訊](send/sms/sms.md)
+      + [簡訊連接器](send/sms/sms-connectors.md)
       + [簡訊管道特性](send/sms/sms-channel.md)
       + [建立簡訊傳遞](send/sms/create-sms.md)
       + [定義內容](send/sms/sms-content.md)
