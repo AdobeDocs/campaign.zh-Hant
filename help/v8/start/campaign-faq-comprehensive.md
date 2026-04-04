@@ -1837,7 +1837,7 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** — 記錄支援案例並管理使用者
 * **[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** — 聯絡支援團隊
 * **[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}** — 管理您的Campaign執行個體設定
-* **[系統狀態](https://status.adobe.com/){target="_blank"}** — 檢查Adobe服務狀態
+* **[系統狀態](https://status.adobe.com/zh-tw/){target="_blank"}** — 檢查Adobe服務狀態
 
 ### 培訓與認證
 
