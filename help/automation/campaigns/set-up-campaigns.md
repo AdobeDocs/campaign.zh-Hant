@@ -33,7 +33,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 
 以下列出在Adobe Campaign中建立及執行行銷活動的關鍵步驟：
 
-1. **設定您的計畫和方案**排程、設定邏輯以協調行銷活動
+1. **設定您的計畫和方案**&#x200B;排程、設定邏輯以協調行銷活動
 方案是為期間定義的一組行銷活動。 每個方案都包含連結至日曆的行銷活動，可提供整體檢視。 行銷計畫可包含多個方案。 它定義一段時間的策略目標，包括分配的預算、可衡量的目標和相關檔案。 在本節[中瞭解如何建立計畫和方案](marketing-campaign-create.md#create-plan-and-program)。
 
 1. **建立您的第一個行銷活動**
