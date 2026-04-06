@@ -6,10 +6,10 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -23,8 +23,10 @@ ht-degree: 4%
 
    傳遞建立步驟在[此頁面](../../start/create-message.md)中有詳細說明。
 
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
+<!--
+ * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
+* For mid-sourcing infrastructure,
+-->
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中重新命名您的傳遞，並視需要在&#x200B;**[!UICONTROL Delivery code]**&#x200B;欄位和&#x200B;**[!UICONTROL Nature]**&#x200B;清單中新增資訊，以進行追蹤。 您也可以新增&#x200B;**[!UICONTROL Description]**&#x200B;至您的傳遞。
 
@@ -40,7 +42,7 @@ ht-degree: 4%
 
 定義對象的步驟已詳載於[此頁面](../../audiences/create-audiences.md)。
 
-## 驗證及傳送簡訊 {#sms-validate}
+## 驗證和傳送簡訊 {#sms-validate}
 
 建立傳遞後，您可以：
 

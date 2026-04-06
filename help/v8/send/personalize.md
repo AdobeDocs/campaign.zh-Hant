@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 48%
@@ -28,20 +28,21 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 * 插入動態&#x200B;**個人化欄位**
 
-  個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。可將這些個人化屬性插入訊息的主旨行或內文中。[了解更多](personalization-fields.md)。
+  個人化欄位用於訊息的第一層個人化。您可以從個人化編輯器選取資料庫中的任何欄位。對於傳遞，您可以選取與收件者、訊息或傳遞相關的任何欄位。可將這些個人化屬性插入訊息的主旨行或內文中。[了解更多資訊](personalization-fields.md)。
 
   以下語法將收件者城市插入您的內容：&lt;%= recipient.location.city %>。
 
 * 插入預先定義的&#x200B;**內容區塊**
 
-  Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。[了解更多](personalization-blocks.md)。
+  Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。內容區塊可從個人化編輯器的專屬項目取得。[了解更多資訊](personalization-blocks.md)。
 
 * 建立&#x200B;**條件式內容**
 
-  例如，設定條件式內容以根據收件者的輪廓新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多](conditions.md)。
+  例如，設定條件式內容以根據收件者的輪廓新增動態個人化。特定條件為真時，即可插入文字區塊及/或影像。[了解更多資訊](conditions.md)。
 
-<!--* Add **personalized offers**
-    
+<!--
+* Add **personalized offers**
+
     Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
 -->
 
@@ -71,4 +72,4 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 瞭解不同類型的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452879?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

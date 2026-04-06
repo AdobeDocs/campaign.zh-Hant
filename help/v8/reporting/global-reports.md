@@ -4,7 +4,7 @@ description: 瞭解如何存取及使用全域報告
 feature: Reporting, Monitoring
 role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 7%
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=zh-Hant){target="_blank"}監視每小時傳送的傳遞數目。
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}監視每小時傳送的傳遞數目。
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}中。
 >
@@ -60,7 +60,7 @@ ht-degree: 7%
 
 可以使用以下選項：
 
-* **[!UICONTROL Opens]**：已開啟的訊息總數。 不考慮文字格式的電子郵件。 [了解更多](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL Opens]**：已開啟的訊息總數。 不考慮文字格式的電子郵件。 [了解更多資訊](metrics-calculation.md#tracking-opens-)。
 * **[!UICONTROL Clicks]**：傳遞中連結的點按總數。 對取消訂閱連結和映象頁面的點選次數不會考慮在內。
 <!--
 * **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
@@ -205,7 +205,7 @@ Statistics are presented in the form of a table of values and a chart.
 
 The following indicators are used:
 
-* **[!UICONTROL New contacts]**: Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form. 
+* **[!UICONTROL New contacts]**: Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form.
 * **[!UICONTROL Opens]**: Total number of messages opened by people whom the message was transferred to (via the **[!UICONTROL Link for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
 * **[!UICONTROL Sharing activities]**: Total number of messages shared via social networks. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
 -->

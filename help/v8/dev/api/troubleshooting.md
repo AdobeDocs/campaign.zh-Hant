@@ -3,7 +3,7 @@ title: API疑難排解
 description: 進一步瞭解與Campaign Standard API相關的常見問題
 role: Developer
 level: Experienced
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -84,7 +84,8 @@ Adobe.io會宣告您無效的URI：您請求的URI很可能無效。 在Adobe.io
 
 根據執行個體組態，建立的設定檔必須關聯至&#x200B;**orgUnit**。 若要瞭解如何在建立時新增此欄位，請參閱[本節](creating-profiles-api.md)。
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!--
+ * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles
@@ -96,11 +97,9 @@ Update the mobilePhone attribute of a profile
 API Calls on Service
 
 GET the list of services
-
 -->
 
 <!--
-
 How to find and use a filter?
 Error codes:
 
@@ -128,5 +127,4 @@ Comment savoir quel filtre appliquer ?
 3) get sur la valeur du champ resTarget
 4) get sur le href dans filters
 5) retourne les filtres applicables sur l'url des data.
-
 -->

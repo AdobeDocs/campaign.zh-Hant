@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -37,13 +37,14 @@ ht-degree: 2%
 >傳遞每週會根據最新的事件更新累積事件，而不是根據事件建立日期累積事件。 因此，從控制執行個體擷取異動訊息傳送記錄時，與每個傳送記錄ID相關聯的傳送ID可能會隨著記錄更新的時間（例如，當收到事件的入站退回時）而變更。
 
 <!--
-To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).
+-->
 
 ## 報告{#reporting-transactional-msg}
 
 Adobe Campaign提供數個報表，可讓您控制活動並順利執行執行執行個體。
 
-可以從&#x200B;**控制項執行個體**&#x200B;的&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤存取這些訊息中心報告。
+可以從&#x200B;**[!UICONTROL Reports]**&#x200B;控制項執行個體&#x200B;**的**&#x200B;索引標籤存取這些訊息中心報告。
 
 ![](assets/mc-reports.png)
 

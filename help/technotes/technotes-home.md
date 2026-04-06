@@ -5,7 +5,7 @@ title: Adobe Campaign技術文章
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 79%
@@ -19,7 +19,7 @@ ht-degree: 79%
 <!--
 >[!BEGINTABS]
 
->[!TAB Push Notification Channel changes] 
+>[!TAB Push Notification Channel changes]
 
 Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 

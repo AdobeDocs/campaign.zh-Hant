@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 3%
@@ -76,7 +76,7 @@ ht-degree: 3%
 
 ### 擴充 {#enrichment}
 
-**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=zh-Hant){target="_blank"}。
+**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}。
 
 例如，您可以在傳遞前擴充收件者查詢的資料。
 
@@ -120,7 +120,7 @@ ht-degree: 3%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Add data]**。
+1. 在活動的&#x200B;**[!UICONTROL Add data]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Enrichment]**。
 1. 在您選擇要新增的資料型別視窗中，選取&#x200B;**[!UICONTROL A link]**。
 1. 選取您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
 
@@ -163,7 +163,7 @@ ht-degree: 3%
 
 **[!UICONTROL Offer engine]**&#x200B;活動也可讓您指定在傳遞前對優惠方案引擎的呼叫。
 
-如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}。
 
 此活動的運作原則與引擎呼叫的&#x200B;**擴充**&#x200B;活動相同，方法是在傳遞前，使用引擎計算的優惠擴充入站母體資料。
 
@@ -186,7 +186,7 @@ ht-degree: 3%
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分配至數個區段，並指定要針對每個區段呈現的選件。
 
-如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}。
 
 要執行此操作，請使用下列程式：
 
@@ -202,7 +202,6 @@ ht-degree: 3%
 1. 然後，設定與您所選管道對應的傳送活動。
 
 <!--
-
 ## Delivering with delivery outlines {#delivering-with-delivery-outlines}
 
 You can also present offers in a delivery using delivery outlines.

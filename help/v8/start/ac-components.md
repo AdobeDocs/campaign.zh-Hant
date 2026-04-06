@@ -5,8 +5,8 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
-workflow-type: ht
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -62,9 +62,11 @@ Campaign Web 伺服器會控制 Campaign Web 程序的存取權。JavaScript 是
 
 Campaign 用戶端主控台會透過 HTTP 使用 SOAP XML 連線至 Web 伺服器。Web 伺服器提供安全性層，使用 JavaScript 將請求傳遞至應用程式層，Campaign 內部程序則使用 SQL 存取資料庫。
 
-<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
+<!--
+The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png) -->
+![](assets/do-not-localize//ac-standalone.png)
+-->
 
 使用者會使用 HTTP 連線至 Campaign 應用程式伺服器。所有資料和資訊都在 Campaign 資料庫中進行管理。如果 Campaign 開發人員執行任何設定變更，則會擷取到資料庫中。如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。行銷人員執行行銷活動時，會透過 SMTP 伺服器將電子郵件傳遞從 Campaign 伺服器傳送至輪廓。當輪廓與電子郵件傳遞互動時 (例如打開電子郵件)，追蹤資料會傳回至追蹤伺服器。
 

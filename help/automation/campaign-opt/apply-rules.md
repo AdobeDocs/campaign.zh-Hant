@@ -4,7 +4,7 @@ title: 套用型別規則
 description: 瞭解如何套用型別規則
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 8%
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->對於篩選規則，您可以選取篩選條件的套用條件：這些條件取決於傳遞或傳遞大網。 [了解更多](filtering-rules.md#condition-a-filtering-rule)。
+>對於篩選規則，您可以選取篩選條件的套用條件：這些條件取決於傳遞或傳遞大網。 [了解更多資訊](filtering-rules.md#condition-a-filtering-rule)。
 
 ## 調整計算頻率 {#adjust-calculation-frequency}
 
@@ -134,7 +134,8 @@ ht-degree: 8%
 >相似性管理不適用於&#x200B;**[!UICONTROL Filtering]**&#x200B;型別。
 
 <!--
->Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).-->
+>Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).
+-->
 
 ### 行銷活動最佳化和分散式行銷 {#campaign-optimization-and-distributed-marketing}
 
