@@ -3,9 +3,8 @@ product: campaign
 title: 技術檔案 — Adobe Campaign - Apache版本安全性更新
 description: Adobe Campaign - Apache版本安全性更新
 hide: true
-hidefromtoc: true
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -25,7 +24,7 @@ Adobe Campaign團隊將在&#x200B;**2022年6月15日**&#x200B;前執行Apache版
 
 此升級預計會在您正常營業時間以外自動執行，以便您繼續使用Campaign服務而不會造成任何中斷。
 
-我們的團隊會先升級您的非生產執行個體，然後再升級您的生產執行個體。 由於這是Adobe所擁有的自動升級程式，因此您不需要採取任何動作。 不過，如果您發生任何問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+我們的團隊會先升級您的非生產執行個體，然後再升級您的生產執行個體。 由於這是Adobe所擁有的自動升級程式，因此您不需要採取任何動作。 不過，如果您發生任何問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 >[!NOTE]
@@ -53,7 +52,7 @@ Adobe Campaign團隊將在&#x200B;**2022年6月15日**&#x200B;前執行Apache版
 
 * **客戶需要執行哪些驗證？**
 
-  此安全性升級不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  此安全性升級不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
@@ -61,4 +60,4 @@ Adobe Campaign團隊將在&#x200B;**2022年6月15日**&#x200B;前執行Apache版
   由於這是安全性修正，強烈建議您調整以符合現有的排程。
 
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 + [Campaign v8 文件](campaign-home.md)
 + 發行說明 {#releases}
-   + [早期發行說明](start/e-release-notes.md)
+   + {hide-from-toc}[早期發行說明](start/e-release-notes.md)
    + [版本和升級](start/upgrades.md)
    + [最新版本](start/release-notes.md)
    + 先前版本 {#previous-rn}
@@ -25,11 +25,11 @@ ht-degree: 87%
       + [2024](start/release-notes-2024.md)
       + [2023 年](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
-      + [2021 年](start/release-notes-2021.md)
+      + {hide-from-toc}[2021](start/release-notes-2021.md)
    + [護欄](start/ac-guardrails.md)
-   + [已知問題](start/known-issues.md)
-   + [相容性對照表](start/compatibility-matrix.md)
-   + [文件更新](start/documentation-updates.md)
+   + {hide-from-toc}[已知問題](start/known-issues.md)
+   + [相容性比較表](start/compatibility-matrix.md)
+   + {hide-from-toc}[檔案更新](start/documentation-updates.md)
    + [每月更新報告](../../monthly-updates-report.md)
 + 開始使用 {#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
@@ -40,7 +40,7 @@ ht-degree: 87%
    + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
    + [常見問題集](start/campaign-faq-comprehensive.md)
-   + [常見問題集](start/campaign-faq.md)
+   + {hide-from-toc}[常見問題](start/campaign-faq.md)
 + 管理與許可權 {#permissions}
    + [開始使用權限](start/gs-permissions.md)
    + [管理使用者權限](start/manage-permissions.md)
@@ -78,7 +78,7 @@ ht-degree: 87%
          + [簡訊傳遞設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部帳戶設定](send/sms/smpp-external-account.md)
          + [驗證 SMPP 連線](send/sms/smpp-connection.md)
-         + [獨立執行個體](send/sms/sms-standalone-instance.md)
+         + {hide-from-toc}[獨立執行個體](send/sms/sms-standalone-instance.md)
          + [中間來源基礎結構](send/sms/sms-mid-sourcing.md)
          + [SMPP聯結器說明](send/sms/smpp-connector-delivery.md)
    + 推播通知 {#push}
@@ -138,8 +138,8 @@ ht-degree: 87%
       + [建立測試輪廓](audiences/test-profiles.md)
    + 建立客群 {#create-audiences}
       + [建立連絡人清單](audiences/create-audiences.md)
-      + [與 Adobe 解決方案共用客群](start/shared-audiences.md)
-   + [最佳實務](audiences/audiences-best-practices.md)
+      + {hide-from-toc}[與Adobe解決方案共用對象](start/shared-audiences.md)
+   + {hide-from-toc}[最佳實務](audiences/audiences-best-practices.md)
    + [管理訂閱](start/subscriptions.md)
 + 登陸頁面和Forms {#content}
    + [建立登陸頁面](dev/landing-pages.md)
@@ -237,7 +237,7 @@ ht-degree: 87%
       + [管理資料夾和檢視](audiences/folders-and-views.md)
       + [使用分項清單](config/enumerations.md)
       + [交易型訊息設定](config/transactional-msg-settings.md)
-      + [將 Campaign SDK 與您的應用程式整合- DEPRECATED PAGE](config/push-config.md)
+      + {hide-from-toc}[將Campaign SDK與您的應用程式整合 — 已棄用的頁面](config/push-config.md)
       + [外部帳戶](config/external-accounts.md)
 + 開發人員資源 {#developer}
    + [Campaign 資料模型](dev/datamodel.md)
@@ -256,7 +256,7 @@ ht-degree: 87%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + [使用queryDef查詢資料庫](dev/query-api.md)
+   + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
    + REST API {#apis}
       + [開始使用REST API](dev/api/get-started-apis.md)
       + [建議與限制](dev/api/limitations.md)

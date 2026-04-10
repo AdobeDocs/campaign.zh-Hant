@@ -3,9 +3,8 @@ product: campaign
 title: 使用者端主控台32位元淘汰
 description: 使用者端主控台32位元淘汰
 hide: true
-hidefromtoc: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -36,7 +35,7 @@ ht-degree: 1%
 
 +++
 
-+++64位元版本的Campaign v8使用者端主控台是否與32位元電腦相容？
++++Campaign v8使用者端主控台的64位元版本是否與32位元電腦相容？
 
 沒有。64位元版本的Campaign v8使用者端主控台僅支援64位元電腦。
 
