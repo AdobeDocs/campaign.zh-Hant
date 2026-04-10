@@ -4,10 +4,9 @@ description: 如需了解最新更新，請參閱 Campaign v8 文件
 feature: Release Notes
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
-workflow-type: ht
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 

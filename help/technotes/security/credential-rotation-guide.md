@@ -3,9 +3,8 @@ product: campaign
 title: 技術說明 — 認證輪換指南
 description: Adobe Campaign技術注意事項 — 認證輪換指南
 hide: true
-hidefromtoc: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 14e49a0b4de1b82239113bd670213449f464c27f
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 若要旋轉GPG金鑰，必須執行下列步驟：
 
-1. 使用現有金鑰解密現有資料。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
+1. 使用現有金鑰解密現有資料。 [了解更多資訊](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
 
 1. 建立新的GPG金鑰組。 在[本檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}中進一步瞭解GPG金鑰管理。
 

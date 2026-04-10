@@ -4,10 +4,9 @@ description: 瞭解如何在獨立執行個體中設定簡訊傳遞
 feature: SMS
 role: User
 hide: true
-hidefromtoc: true
 level: Beginner, Intermediate
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%

@@ -3,8 +3,8 @@ product: campaign
 title: 技術檔案 — Adobe Campaign中的非對稱加密與解密
 description: 技術說明 — Adobe Campaign中的非對稱加密與解密
 hide: true
-hidefromtoc: true
-source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
+exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%

@@ -5,9 +5,8 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -111,7 +110,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
    註冊功能可讓您：
 
-   * 將通知ID或推播ID (iOS的deviceToken和Android的註冊ID)傳送至Adobe Campaign。
+   * 將通知ID或推播ID （iOS的deviceToken和Android的註冊ID）傳送至Adobe Campaign。
    * 復原調解金鑰或userKey （例如，電子郵件或帳號）
 
    您必須在應用程式初始化或使用者動作時，將裝置註冊到Adobe Campaign。 可以使用`registerDevice`方法輕鬆完成。
@@ -186,7 +185,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
 1. **當使用者的行動裝置權杖變更時，通知Campaign**
 
-   我們建議您在呼叫`onTokenRefresh`函式時使用`registerDevice`函式，將使用者行動裝置權杖中的變更通知Adobe Campaign。
+   我們建議您在呼叫`registerDevice`函式時使用`onTokenRefresh`函式，將使用者行動裝置權杖中的變更通知Adobe Campaign。
 
    例如：
 
@@ -225,7 +224,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
 1. **設定Firebase傳訊服務**
 
-   擴充`onMessageReceived`回呼中的`FirebaseMessagingService`以接收訊息。 我們建議您在呼叫`onMessageReceived`回呼時呼叫`notifyReceive`函式，以啟用追蹤行動裝置上的通知接收。 在Adobe Campaign中，此通知名為&#x200B;**列印**&#x200B;通知：在要求作業系統顯示通知之前，應該呼叫此函式。
+   擴充`FirebaseMessagingService`回呼中的`onMessageReceived`以接收訊息。 我們建議您在呼叫`notifyReceive`回呼時呼叫`onMessageReceived`函式，以啟用追蹤行動裝置上的通知接收。 在Adobe Campaign中，此通知名為&#x200B;**列印**&#x200B;通知：在要求作業系統顯示通知之前，應該呼叫此函式。
 
    YourApplicationMessagingService.java
 
@@ -563,7 +562,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
    註冊功能可讓您：
 
-   * 將通知ID或推播ID (iOS的deviceToken和Android的註冊ID)傳送至Adobe Campaign。
+   * 將通知ID或推播ID （iOS的deviceToken和Android的註冊ID）傳送至Adobe Campaign。
    * 復原調解金鑰或userKey （例如，電子郵件或帳號）
 
 

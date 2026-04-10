@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-hidefromtoc: true
-source-git-commit: 9c751429ac3da2a583990ba0d891744353bd65c8
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 96%
@@ -20,7 +19,7 @@ ht-degree: 96%
 
 1. **如何將 Campaign 升級至最新版本？**
 
-   定期更新 Adobe Campaign。每年都會推出次要版本，其中包含新功能、改進和修正。 此外，我們定期發行只累積修正的版本編號。
+   Adobe Campaign 會定期更新。每年都會推出次要版本，其中包含新功能、改進和修正。 此外，我們定期發行只累積修正的版本編號。
 
    此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
 
@@ -68,7 +67,7 @@ ht-degree: 96%
 
 1. **網域委派的程序為何？**
 
-   子網域是您的網域分區，可用來隔離您的名稱或各類流量 (異動訊息、行銷資訊等等)。
+   子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
    >[!NOTE]
    >
@@ -86,7 +85,7 @@ ht-degree: 96%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/tw/campaign.html){target="_blank"}  以下載 Adobe Campaign。
+   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  以下載 Adobe Campaign。
 
    在[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁中進一步瞭解發佈中心。
 
