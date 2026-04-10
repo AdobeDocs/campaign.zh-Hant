@@ -256,7 +256,7 @@ ht-degree: 84%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
+   + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
    + REST API {#apis}
       + [開始使用REST API](dev/api/get-started-apis.md)
       + [建議與限制](dev/api/limitations.md)
