@@ -5,7 +5,8 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
+exl-id: 5e13798e-314f-4cbe-aea8-6229b7c1f9e6
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -52,4 +53,4 @@ _此期間沒有新頁面。_
 - [使用queryDef](help/v8/dev/query-api.md)查詢資料庫 — Feb 5 — ExL追蹤ID已新增至中繼資料。
 - [使用分項清單](help/v8/config/enumerations.md) - Feb 5 — ExL追蹤ID已新增至中繼資料。
 
-_此頁面列出影響一般使用者的檔案變更。 排除拼寫錯誤、重新措辭和語法修正。 當變更與FRR-RSC需求相關時，請新增FRR-RSC-XX (請參閱Jira DOCAC-14199、DOCAC-14197、DOCAC-14196)。 寫入者可視需要更新時間範圍（周、2週或月）。_
+_此頁面列出影響一般使用者的檔案變更。 排除拼寫錯誤、重新措辭和語法修正。 當變更與FRR-RSC需求相關時，請新增FRR-RSC-XX （請參閱Jira DOCAC-14199、DOCAC-14197、DOCAC-14196）。 寫入者可視需要更新時間範圍（周、2週或月）。_

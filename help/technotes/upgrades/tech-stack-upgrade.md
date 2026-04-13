@@ -4,7 +4,7 @@ title: 技術檔案 — Adobe Campaign系統升級
 description: Adobe Campaign系統升級
 hide: true
 exl-id: cc64cce1-2473-4136-aadc-8b13e89ef7f9
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 9%
