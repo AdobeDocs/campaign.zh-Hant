@@ -4,7 +4,7 @@ title: 技術說明 — 認證輪換指南
 description: Adobe Campaign技術注意事項 — 認證輪換指南
 hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
