@@ -3,9 +3,9 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3256a2c57e3ccfec40dde33a2daaccbc3ff57b9b
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1149'
 ht-degree: 18%
 
 ---
@@ -48,12 +48,12 @@ _2026 年 1 月 27 日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳遞功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
-* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
-* [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
-* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=zh-Hant){target="_blank"}
-* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=zh-Hant){target="_blank"}
+* [多語言傳遞功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
@@ -69,6 +69,7 @@ _2026 年 1 月 27 日_
 * 透過在高記憶體狀況期間實施自動工作流程節流，以及針對非關鍵性程式的智慧型工作流程重新啟動功能和記憶體護欄，改善容器記憶體管理。 (NEO-89041)
 * 新增對Campaign工作流程中非對稱加密和解密功能的支援。 (NEO-80257)
 * 針對FFDA部署中的大型資料上傳，增強復寫代理程式效能和記憶體彈性。 (NEO-88430)
+* 已改善&#x200B;**[!UICONTROL SQL code]**&#x200B;和&#x200B;**[!UICONTROL SQL Data Management]**&#x200B;工作流程活動，以便在從Campaign執行自訂SQL時，更能保護PostgreSQL資料庫，並保持工作流程順暢執行。 如需詳細資訊和最佳實務，請參考[SQL資料管理](../../automation/workflow/sql-data-management.md#important-notes)和[SQL程式碼](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)。 (NEO-86540)
 
 
 ### 修正 {#fixes-8-9-1}

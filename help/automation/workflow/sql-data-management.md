@@ -7,9 +7,9 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,16 @@ ht-degree: 3%
 * 活動僅適用於遠端資料來源。
 * 傳出綱要必須存在於資料庫中，並連結至FDA資料庫。
 
+## 重要備註 {#important-notes}
+
+從8.9.1開始，**[!UICONTROL SQL code]**&#x200B;和&#x200B;**[!UICONTROL SQL Data Management]**&#x200B;工作流程活動已經過改善，以便在從Campaign執行自訂SQL時，能更妥善地保護PostgreSQL資料庫，並讓工作流程順暢地執行。
+
+如果發生錯誤，有兩種解決方案可供使用：
+
+* 方案1 — `XtkSecurity_FeatureFlag_SqlSensitive`
+* 解決方案2 — `XtkSecurity_SqlSensitive_Methods`
+
+如需詳細資訊和最佳實務，請參閱[SQL程式碼](sql-code-and-javascript-code.md#important-notes)。
 
 ## 設定SQL資料管理活動 {#configuring-the-sql-data-management-activity}
 

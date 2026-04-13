@@ -7,16 +7,14 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: aa9413dc794cf1a3683b33ca064ce228c90107f7
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: '386'
+ht-degree: 9%
 
 ---
 
 # SQL 程式碼和 JavaScript 程式碼{#sql-code-and-javascript-code}
-
-
 
 ## SQL 程式碼 {#sql-code}
 
@@ -31,6 +29,22 @@ ht-degree: 13%
 * **[!UICONTROL Processing errors]**
 
   請參閱[處理錯誤](monitor-workflow-execution.md#processing-errors)。
+
+### 重要備註 {#important-notes}
+
+從8.9.1開始，**[!UICONTROL SQL code]**&#x200B;和&#x200B;**[!UICONTROL SQL Data Management]**&#x200B;工作流程活動已經過改善，以便在從Campaign執行自訂SQL時，能更妥善地保護PostgreSQL資料庫，並讓工作流程順暢地執行。 以下是發生錯誤時應遵循的一些最佳實務。
+
+選項可在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**&#x200B;下使用。 發生錯誤時，有兩種解決方案可用：
+
+**解決方案1**
+
+將`XtkSecurity_FeatureFlag_SqlSensitive`設為`0`。 功能已停用。
+
+**解決方案2**
+
+修改`XtkSecurity_SqlSensitive_Methods`。 您可以將`<method name="TRUNCATE" action="block"/>`變更為`<method name="TRUNCATE" action="warn"/>`
+
+為了保護資料庫的完整性，預設也會封鎖VACUUM FULL、REINDEX、CREATE INDEX、DROP INDEX等其他方法。 若要設定為警告而非封鎖，請務必小心。 這些方法在執行時可能會嚴重影響資料庫效能。
 
 ## JavaScript程式碼和進階JavaScript程式碼 {#javascript-code}
 
@@ -64,7 +78,7 @@ ht-degree: 13%
 * **[!UICONTROL Transitions]**：您可以定義數個活動輸出轉變。
 * **[!UICONTROL Schedule]**： **[!UICONTROL Schedule]**&#x200B;索引標籤可讓您排程何時觸發活動。
 
-進階JavaScript是一項持續性的工作，如果未標示為已完成，則會定期召回。 若要終止工作並防止將來重新呼叫，您必須使用&#x200B;**[!UICONTROL Next calls]**&#x200B;區段中的&#x200B;**task.setCompleted()**&#x200B;方法：
+進階JavaScript是一項持續性的工作，如果未標示為已完成，則會定期召回。 若要終止工作並防止將來重新呼叫，您必須使用&#x200B;**區段中的** task.setCompleted()**[!UICONTROL Next calls]**&#x200B;方法：
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch
