@@ -75,7 +75,7 @@ Domain Keys Identified Mail (DKIM)是一種驗證方法，用來偵測偽造的�
 
 在Adobe Campaign中，DKIM電子郵件驗證簽署是由MTA執行。
 
-在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
 
 ## 電子郵件回饋服務 {#email-feedback-service}
 
