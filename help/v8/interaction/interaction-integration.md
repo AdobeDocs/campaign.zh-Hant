@@ -90,7 +90,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-若要將優惠方案呈現給已識別的連絡人，程式與本區段](#presenting-an-anonymous-offer)中詳細的[類似。
+若要將優惠方案呈現給已識別的連絡人，程式與本區段[&#128279;](#presenting-an-anonymous-offer)中詳細的類似。
 
 在網頁內容中，您需要新增下列指令碼，以在呼叫優惠方案引擎期間識別聯絡人：
 

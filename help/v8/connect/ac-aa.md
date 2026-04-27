@@ -226,8 +226,8 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 * **[!UICONTROL Internal name]** (@internalName)
 * **[!UICONTROL Label]** (@label)
-* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **** Campaign 套件時
-* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **** Campaign 套件時
+* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
+* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
 * **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
 * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)

@@ -39,7 +39,7 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 
 ## 電子郵件、電話或裝置為何要傳送到隔離區 {#quarantine-reason}
 
-Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面](delivery-failures.md)上進一步瞭解傳遞失敗管理[。
+Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面[&#128279;](delivery-failures.md)上進一步瞭解傳遞失敗管理。
 
 可擷取兩種型別或錯誤：
 

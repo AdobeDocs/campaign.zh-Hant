@@ -135,4 +135,4 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 ## 工作流程端對端使用案例{#end-to-end-uc}
 
-在本節](../../automation/workflow/workflow-use-cases.md)中瞭解運用行銷活動工作流程功能[的使用案例。
+在本節[&#128279;](../../automation/workflow/workflow-use-cases.md)中瞭解運用行銷活動工作流程功能的使用案例。

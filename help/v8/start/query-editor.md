@@ -24,7 +24,7 @@ ht-degree: 5%
 ![存取查詢編輯器並選取資料表](assets/query_editor_nveau_21.png)
 
 
-建立查詢的步驟在此頁面](design-queries.md)上詳細說明[。
+建立查詢的步驟在此頁面[&#128279;](design-queries.md)上詳細說明。
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:

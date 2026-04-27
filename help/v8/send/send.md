@@ -32,7 +32,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->傳遞狀態不會即時顯示。 在本節](#email-feedback-service)中進一步瞭解電子郵件回饋服務[。
+>傳遞狀態不會即時顯示。 在本節[&#128279;](#email-feedback-service)中進一步瞭解電子郵件回饋服務。
 
 ## Campaign MTA {#mta}
 
