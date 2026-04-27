@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * 需要選取哪個表格？
 
-  收件者資料表(**nms：recipient**)
+  收件者資料表(**nms:recipient**)
 
 * 在輸出欄中應該選取哪些欄位？
 

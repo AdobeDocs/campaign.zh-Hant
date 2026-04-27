@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 93%
 
 ---
 
@@ -40,16 +40,16 @@ ht-degree: 99%
 
    ![](../send/assets/select-the-new-template.png)
 
-   為您安裝的每個通道提供內建範本：電子郵件、電話、行動通道 (推播/簡訊)、直接郵件、X (Twitter) 等。 清單中可用的通道取決於您的授權協議。
+   隨附內建範本，供您安裝的每個管道使用：電子郵件、電話、行動裝置管道（推播/簡訊）、直接郵件、X (Twitter)等。清單中可用的管道取決於您的授權合約。
 
-   您可以建立新的傳遞範本，以便預先設定特定參數來符合您的需求。  [了解更多](../send/create-templates.md)。
+   您可以建立新的傳遞範本，以便預先設定特定參數來符合您的需求。  [了解更多資訊](../send/create-templates.md)。
 
 1. 在 **[!UICONTROL Label]** 欄位輸入傳遞的名稱。
 
-   (選擇性) 傳遞程式碼也可指派至傳遞。傳遞名稱及其程式碼會顯示在傳遞清單之中，但不會向收件者公開。
+   (選擇性) 傳遞程式碼也可指派至傳遞。 傳遞名稱及其程式碼會顯示在傳遞清單之中，但不會向收件者公開。
 
 1. (選擇性) 在 **[!UICONTROL Description]** 欄位新增說明。
-1. (選擇性) 在相關欄位選取傳遞性質。此資訊對於傳遞追蹤很有用：您可以在傳遞清單根據此條件進行篩選，或使用此選擇條件建立查詢。
+1. (選擇性) 在相關欄位選取傳遞性質。 此資訊對於傳遞追蹤很有用：您可以在傳遞清單根據此條件進行篩選，或使用此選擇條件建立查詢。
 1. 按一下 **[!UICONTROL Continue]** 以顯示訊息內容視窗。
 
 ## 定義傳遞內容。 {#content-of-the-delivery}
@@ -67,16 +67,16 @@ ht-degree: 99%
 對於每個傳遞，您可以定義數種目標客群：
 
 * **主要客群**：接收訊息的設定檔。 [了解更多](#select-the-main-target)
-* **證明目標**：接收證明訊息的設定檔。 校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。[了解更多](#select-the-proof-target)
+* **證明目標**：接收證明訊息的設定檔。 校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。 [了解更多](#select-the-proof-target)
 
 此外，在行銷活動的內容之中，您可以新增：
 
 * **種子地址**：不在傳遞目標但收到傳遞的收件者。 [了解更多](../audiences/test-profiles.md)
-* **控制組**：未接收傳遞的群體，用於追蹤行為和行銷活動影響。 [了解更多](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)。
+* **控制組**：未接收傳遞的群體，用於追蹤行為和行銷活動影響。 [了解更多資訊](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)。
 
 ### 選取傳遞的主要收件者 {#select-the-main-target}
 
-在大多數情況下，主要目標會從 Adobe Campaign 資料庫 (預設模式) 擷取。不過，收件者也可以儲存在[外部檔案](#selecting-external-recipients)之中。
+在大多數情況下，主要目標會從 Adobe Campaign 資料庫 (預設模式) 擷取。 不過，收件者也可以儲存在[外部檔案](#selecting-external-recipients)之中。
 
 若要選取傳遞的收件者，請遵循下列步驟：
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
      ![](assets/target-service.png)
 
-   * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫設定檔的篩選標準。預先設定的篩選器會顯示在[此區段](../audiences/create-filters.md#default-filters)之中。
+   * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫設定檔的篩選標準。 預先設定的篩選器會顯示在[此區段](../audiences/create-filters.md#default-filters)之中。
    * **[!UICONTROL Exclude recipients from this segment]** 選項可讓您鎖定不符合已定義目標條件的收件者。 若要使用此選項，請選取適當的方框，然後套用定位 (如先前所定義) 以排除產生的設定檔。
 
 1. 在 **[!UICONTROL Label]** 欄位輸入此目標選擇的名稱。 依預設，該標籤是第一個鎖定目標標準的標籤。 結合篩選標準時，建議使用明確的名稱。
@@ -130,7 +130,7 @@ ht-degree: 99%
 
 ### 選取外部收件者 {#selecting-external-recipients}
 
-您可以傳送訊息給未儲存在資料庫，但儲存在外部檔案的設定檔。例如，若要傳送傳遞內容給從文字檔案匯入的收件者，請遵循下列步驟：
+您可以傳送訊息給未儲存在資料庫，但儲存在外部檔案的設定檔。 例如，若要傳送傳遞內容給從文字檔案匯入的收件者，請遵循下列步驟：
 
 1. 按一下 **[!UICONTROL To]** 連結以選取傳遞的收件者。
 1. 選取 **[!UICONTROL Defined in an external file]** 選項。
@@ -171,9 +171,9 @@ ht-degree: 99%
 
 ### 選取校樣訊息的收件者 {#select-the-proof-target}
 
-針對電子郵件傳遞，您可以傳送校樣以驗證訊息內容。 傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、驗證影像是否顯示、偵測可能的錯誤等。 您可能也會想要在不同裝置檢查您的設計和轉譯。
+針對電子郵件傳遞，您可以傳送校樣以驗證訊息內容。 傳送校樣可讓您檢查選擇退出連結、映象頁面和任何其他連結、驗證訊息、驗證影像是否已顯示、偵測可能的錯誤等。您可能也會想要檢查您在不同裝置上的設計和演算。
 
-校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
 有關校樣收件者與傳送的詳細資訊，請參閱讀[本章節](../send/preview-and-proof.md#send-proofs)。
 
@@ -182,7 +182,7 @@ ht-degree: 99%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 
@@ -192,9 +192,9 @@ ht-degree: 99%
 
 操作步驟：
 
-1. **分析傳遞**：此步驟可讓您準備要傳遞的訊息。 [了解更多](../send/delivery-analysis.md)。
+1. **分析傳遞**：此步驟可讓您準備要傳遞的訊息。 [了解更多資訊](../send/delivery-analysis.md)。
 
-1. **傳送校樣**：此步驟可讓您控制內容、URL、個人化等。 [了解更多](../send/preview-and-proof.md)。
+1. **傳送校樣**：此步驟可讓您控制內容、URL、個人化等。[瞭解更多](../send/preview-and-proof.md)。
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ ht-degree: 99%
 
 ## 設定並傳送傳遞 {#configuring-and-sending-the-delivery}
 
-存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞優先順序、設定傳送波段、設定重試設定，以及測試您的傳遞傳送。 完成此設定之後，您可以確認傳送。然後會立即傳送訊息，或根據傳遞排程傳送訊息。
+存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞優先順序、設定傳送波段、設定重試設定，以及測試您的傳遞傳送。 完成此設定之後，您可以確認傳送。 然後會立即傳送訊息，或根據傳遞排程傳送訊息。
 
 在[本頁](../send/configure-and-send.md)了解如何設定您的傳遞設定。

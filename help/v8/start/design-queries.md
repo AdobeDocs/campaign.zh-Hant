@@ -5,9 +5,10 @@ feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
+exl-id: d34b6073-a7e7-443a-a6d8-e74ef10a67e8
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 3%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 3%
 
 ![](assets/query_editor_nveau_97.png)
 
-您可以將輸出欄中顯示的資料分組。 若要這麼做，請在&#x200B;**[!UICONTROL Yes]**&#x200B;視窗的&#x200B;**[!UICONTROL Group]**&#x200B;欄中選取&#x200B;**[!UICONTROL Data to extract]**。 然後會根據選取的群組軸來彙總結果。 如需使用分組的查詢範例，請參閱[此區段](../../automation/workflow/query-delivery-info.md)。
+您可以將輸出欄中顯示的資料分組。 若要這麼做，請在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗的&#x200B;**[!UICONTROL Group]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。 然後會根據選取的群組軸來彙總結果。 如需使用分組的查詢範例，請參閱[此區段](../../automation/workflow/query-delivery-info.md)。
 
 ![](assets/query_editor_nveau_56.png)
 
@@ -77,7 +78,7 @@ ht-degree: 3%
 
 選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，**[!UICONTROL Target elements]**&#x200B;區段隨即開啟。 在這裡，您可以定義規則來篩選要收集的資料。
 
-* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁[的](filter-conditions.md)所述。
+* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁](filter-conditions.md)的[所述。
 
 * 若要重複使用現有的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選擇您想要的篩選器。
 
@@ -121,7 +122,7 @@ ht-degree: 3%
 
 * **[!UICONTROL Switch to lower case]**,
 * **[!UICONTROL Switch to upper case]**,
-* **[!UICONTROL First letter in upper case]**。
+* **[!UICONTROL First letter in upper case]**.
 
 ![](assets/query_editor_nveau_42.png)
 

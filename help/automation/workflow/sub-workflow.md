@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
    ![](assets/subworkflow_selection.png)
 
 1. 您也可以新增設定指令碼，以變更參考的工作流程。
-1. 按一下 **[!UICONTROL Ok]**。它會從選取的工作流程中，以&#x200B;**[!UICONTROL Jump (start point)]**&#x200B;活動的標籤自動建立出站轉變。
+1. 按一下 **[!UICONTROL Ok]**。 它會從選取的工作流程中，以&#x200B;**[!UICONTROL Jump (start point)]**&#x200B;活動的標籤自動建立出站轉變。
 
    ![](assets/subworkflow_outbound.png)
 
@@ -73,6 +73,6 @@ ht-degree: 1%
 * 結構描述
 * recCount
 
-這組三個值會識別查詢所定位的母體。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表的名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms：recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
+這組三個值會識別查詢所定位的母體。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms:recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
 
 * targetSchema：此值是工作表的綱要。 此引數適用於所有具有&#x200B;**[!UICONTROL tableName]**&#x200B;和&#x200B;**[!UICONTROL schema]**&#x200B;的轉變。

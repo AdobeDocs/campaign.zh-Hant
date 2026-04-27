@@ -4,8 +4,8 @@ description: 瞭解如何將Campaign運運算元移轉至Adobe Identity Manageme
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 1%
+source-wordcount: '1469'
+ht-degree: 3%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 1%
 >
 >**控制面板存取影響**
 >
->將使用者移轉至IMS後，請注意Adobe Admin Console中名稱包含「管理員」字樣的任何產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等）都會自動授予對Campaign控制面板的存取權。 「控制面板」是自助式工具，可讓您對Campaign執行個體進行重大變更。
+>將使用者移轉至IMS後，請注意Adobe Admin Console中名稱包含「管理員」字樣的任何產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等） 會自動授與「Campaign控制面板」的存取權。 「控制面板」是自助式工具，可讓您對Campaign執行個體進行重大變更。
 >
->請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解如何管理控制面板許可權。
+>請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}中進一步瞭解如何管理控制面板許可權。
 
 ## 如何移轉？{#ims-migration-procedure}
 
@@ -103,9 +103,9 @@ ht-degree: 1%
 
 1. 建立工作流程，將您連線至具有原生驗證模式Campaign的所有運運算元擷取到CSV檔案。 使用&#x200B;**查詢**&#x200B;活動和&#x200B;**資料擷取（檔案）**&#x200B;活動來建立CSV檔案。 對於每個運運算元，根據它們的設定檔資料，您可以匯出下列資料行： `Name, Label`。
 
-   在&#x200B;**此頁面**&#x200B;中進一步瞭解[查詢](../../automation/workflow/query.md)活動
+   在[此頁面](../../automation/workflow/query.md)中進一步瞭解&#x200B;**查詢**&#x200B;活動
 
-   深入瞭解&#x200B;**此頁面**&#x200B;中的[資料擷取（檔案）](../../automation/workflow/extraction-file.md)活動
+   深入瞭解[此頁面](../../automation/workflow/extraction-file.md)中的&#x200B;**資料擷取（檔案）**&#x200B;活動
 
 1. 以包含您操作員電子郵件的新欄更新CSV檔案。
 
@@ -117,13 +117,13 @@ ht-degree: 1%
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   深入瞭解&#x200B;**此頁面**&#x200B;中的[資料載入（檔案）](../../automation/workflow/data-loading-file.md)活動
+   深入瞭解[此頁面](../../automation/workflow/data-loading-file.md)中的&#x200B;**資料載入（檔案）**&#x200B;活動
 
 1. 編輯&#x200B;**更新資料**&#x200B;活動，並根據下列範例定義設定。 請注意，**已更新的維度**&#x200B;已變更為`Operators (xtk)`。
 
    ![](assets/update-data-activity.png){width="70%"}
 
-   在&#x200B;**此頁面**&#x200B;中進一步瞭解[更新資料](../../automation/workflow/update-data.md)活動
+   在[此頁面](../../automation/workflow/update-data.md)中進一步瞭解&#x200B;**更新資料**&#x200B;活動
 
 1. 執行工作流程並檢查結果。 電子郵件地址已新增到操作員的設定檔。
 
@@ -178,4 +178,4 @@ Adobe強烈建議所有使用者在移轉期間登出。
 * [如何連線至Adobe Campaign v8](../../v8/start/connect.md)
 * [Adobe Campaign v8中的存取和許可權](../../v8/start/gs-permissions.md)
 * [Adobe Campaign v8發行說明](../../v8/start/release-notes.md)
-* [什麼是Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}
+* [什麼是Adobe Identity Management系統(IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}

@@ -8,16 +8,16 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
 
 # 建立LINE傳遞
 
-LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。您可以使用Adobe Campaign傳送LINE訊息。
+LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。 您可以使用Adobe Campaign傳送LINE訊息。
 
-[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
+[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
 
 ![](assets/line_message.png)
 
@@ -48,7 +48,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 新增&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**&#x200B;至您的新服務。
 
-1. 從&#x200B;**[!UICONTROL LINE]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Type]**。
+1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL LINE]**。
 
    ![](assets/line_service_2.png)
 
@@ -70,9 +70,9 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
    ![](assets/line_config_2.png)
 
-   * **[!UICONTROL Channel Alias]**：已透過您在[!DNL LINE] > **[!UICONTROL Channels]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Technical configuration]**&#x200B;帳戶提供。
-   * **[!UICONTROL Channel ID]**：已透過您在[!DNL LINE] > **[!UICONTROL Channels]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Basic Information panel]**&#x200B;帳戶提供。
-   * **[!UICONTROL Channel secret key]**：已透過您在[!DNL LINE] > **[!UICONTROL Channels]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Basic Information panel]**&#x200B;帳戶提供。
+   * **[!UICONTROL Channel Alias]**：已透過您在&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]**&#x200B;索引標籤中的[!DNL LINE]帳戶提供。
+   * **[!UICONTROL Channel ID]**：已透過您在&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]**&#x200B;索引標籤中的[!DNL LINE]帳戶提供。
+   * **[!UICONTROL Channel secret key]**：已透過您在&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]**&#x200B;索引標籤中的[!DNL LINE]帳戶提供。
    * **[!UICONTROL Access token]**：是透過開發人員入口網站中您的[!DNL LINE]帳戶或按一下&#x200B;**[!UICONTROL Get access token]**&#x200B;按鈕所提供。
    * **[!UICONTROL Access token expiration date]**：可讓您指定存取Token的到期日。
    * **[!UICONTROL LINE subscription service]**：可讓您指定訂閱使用者的服務。
@@ -115,7 +115,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 選擇您要直接鎖定[!DNL LINE]位訂閱者，或根據其[!DNL LINE]訂閱鎖定使用者，然後按一下&#x200B;**[!UICONTROL Next]**。 在此範例中，我們選取&#x200B;**[!UICONTROL By LINE V2 subscription]**。
 
-1. 在&#x200B;**[!UICONTROL Line-V2]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Folder]**，然後選取您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
+1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Line-V2]**，然後選取您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
 
    ![](assets/line_message_10.png)
 
@@ -177,11 +177,11 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
   您可以根據熒幕大小定義影像：
 
-   * 1040畫素
-   * 700畫素
-   * 460畫素
-   * 300畫素
-   * 240畫素
+   * 1040px
+   * 700px
+   * 460px
+   * 300px
+   * 240px
 
   >[!CAUTION]
   >
@@ -209,7 +209,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 ## 存取報告 {#accessing-reports}
 
-傳送傳遞後，您可以從[!DNL LINE]透過功能表&#x200B;**[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**&#x200B;檢視您的&#x200B;**[!UICONTROL Explorer]**&#x200B;報告。
+傳送傳遞後，您可以從&#x200B;**[!UICONTROL Explorer]**&#x200B;透過功能表&#x200B;**[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**&#x200B;檢視您的[!DNL LINE]報告。
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 ![](assets/line_reports_01.png)
 
-若為[!DNL LINE]服務報告，請從&#x200B;**[!UICONTROL Profiles and Targets]**&#x200B;索引標籤存取功能表&#x200B;**[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** > **[!UICONTROL Explorer]**。 然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;服務中的[!DNL LINE]圖示。
+若為[!DNL LINE]服務報告，請從&#x200B;**[!UICONTROL Explorer]**&#x200B;索引標籤存取功能表&#x200B;**[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]**。 然後按一下[!DNL LINE]服務中的&#x200B;**[!UICONTROL Reports]**&#x200B;圖示。
 
 ![](assets/line_reports.png)
 
@@ -225,7 +225,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 在此範例中，我們將建立和設定文字訊息和影像，其中包含將根據收件者進行個人化的資料。
 
-1. 從[!DNL LINE]索引標籤按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，以建立您的&#x200B;**[!UICONTROL Campaign]**&#x200B;傳遞。
+1. 從&#x200B;**[!UICONTROL Campaign]**&#x200B;索引標籤按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，以建立您的[!DNL LINE]傳遞。
 
    ![](assets/line_usecase.png)
 
@@ -249,7 +249,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
    ![](assets/line_usecase_05.png)
 
-1. 依照相同的程式新增影像，在&#x200B;**[!UICONTROL Image and links]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Message type]**。
+1. 依照相同的程式新增影像，在&#x200B;**[!UICONTROL Message type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Image and links]**。
 
    新增您的&#x200B;**[!UICONTROL Image URL]**。
 

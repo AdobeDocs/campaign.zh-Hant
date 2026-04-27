@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 2%
 
    ![](assets/local_validation_split_1bis.png)
 
-1. 在&#x200B;**[!UICONTROL Sort columns]**&#x200B;區段中，新增套用排序的欄位。 我們已選取&#x200B;**[!UICONTROL Email]**&#x200B;欄位。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 在&#x200B;**[!UICONTROL Sort columns]**&#x200B;區段中，新增套用排序的欄位。 我們已選取&#x200B;**[!UICONTROL Email]**&#x200B;欄位。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/local_validation_split_2.png)
 

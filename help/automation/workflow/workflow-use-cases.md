@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 55%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 55%
 * [使用彙總](using-aggregates.md)
 * [使用安裝於控制面板的金鑰加密及匯出資料](use-workflow-data.md#use-case-gpg-encrypt)
 * [使用增量查詢更新每季清單](quarterly-list-update.md)
-* [使用去重複化活動的合併功能](deduplication-merge.md)
+* [使用重複資料刪除活動的合併功能](deduplication-merge.md)
 * [設定週期性匯入工作流程](recurring-import-workflow.md)
 
 ## 目標定位 {#designing-queries}

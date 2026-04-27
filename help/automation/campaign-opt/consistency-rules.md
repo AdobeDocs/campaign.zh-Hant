@@ -6,7 +6,7 @@ feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
 source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '739'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign藉由行銷活動型別中所包含的一組規則，確保通訊
 
 ## 定義最大負載 {#define-the-maximum-load}
 
-若要定義最大負載，您必須定義可用性明細行。 若要這麼做，有兩個可用選項：您可以手動[建立一或多個可用性行](#add-availability-lines-one-by-one)或建立可用性範圍。 這些時段的頻率可以自動化。 [了解更多](#add-a-set-of-availability-lines)。
+若要定義最大負載，您必須定義可用性明細行。 若要這麼做，有兩個可用選項：您可以手動[建立一或多個可用性行](#add-availability-lines-one-by-one)或建立可用性範圍。 這些時段的頻率可以自動化。 [了解更多資訊](#add-a-set-of-availability-lines)。
 
 ### 逐一新增可用性行 {#add-availability-lines-one-by-one}
 

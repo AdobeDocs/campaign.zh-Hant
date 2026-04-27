@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ To monitor the activity and running of the execution instance(s), see [Transacti
 
 Adobe Campaign提供數個報表，可讓您控制活動並順利執行執行執行個體。
 
-可以從&#x200B;**[!UICONTROL Reports]**&#x200B;控制項執行個體&#x200B;**的**&#x200B;索引標籤存取這些訊息中心報告。
+可以從&#x200B;**控制項執行個體**&#x200B;的&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤存取這些訊息中心報告。
 
 ![](assets/mc-reports.png)
 

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. 使用下列語法填入標籤： **元素名稱**。@**屬性名稱**，如下所示。
+1. 使用下列語法填入標籤： **元素名稱**.@**屬性名稱**，如下所示。
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -82,11 +82,11 @@ ht-degree: 1%
 
 1. 指派標籤給它以便稍後輕鬆選取，然後輸入種子地址（電子郵件或行動電話，視通訊通道而定）。
 
-1. 輸入外部識別碼：此選擇性欄位可讓您輸入網站上的所有應用程式通用的商業金鑰（唯一ID、名稱+電子郵件等），用於識別您的設定檔。 如果此欄位也出現在Adobe Campaign行銷資料庫中，您可以接著將事件與資料庫中的設定檔進行調解。
+1. 輸入外部識別碼：此選擇性欄位可讓您輸入商業金鑰（唯一ID、名稱+電子郵件等） 這是您網站上所有應用程式通用的功能，用來識別您的設定檔。 如果此欄位也出現在Adobe Campaign行銷資料庫中，您可以接著將事件與資料庫中的設定檔進行調解。
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

@@ -8,20 +8,20 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '785'
 ht-degree: 96%
 
 ---
 
 # 常見問題集{#faq}
 
-使用 Campaign 時需要協助嗎？請閱讀以下熱門問題/答案。
+使用 Campaign 時需要協助嗎？ 請閱讀以下熱門問題/答案。
 
 1. **如何將 Campaign 升級至最新版本？**
 
-   Adobe Campaign 會定期更新。每年都會推出次要版本，其中包含新功能、改進和修正。 此外，我們定期發行只累積修正的版本編號。
+   Adobe Campaign 會定期更新。 每年都會推出次要版本，其中包含新功能、改進和修正。 此外，我們定期發行只累積修正的版本編號。
 
-   此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
+   此定期更新的目的是為了讓您掌握最新、最佳的資訊，進而確保環境安全，以改善我們的產品使用體驗。 這就是我們認為您需要執行最新 Adobe Campaign 版本的重要原因。
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ ht-degree: 96%
 
    [按一下這裡以瞭解更多資訊](connect.md)。
 
-   自 Campaign v8.6 版本起，您可存取可透過中央 Adobe Experience Cloud 環境使用的新的 **Campaign Web 使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
+   自 Campaign v8.6 版本起，您可存取可透過中央 Adobe Experience Cloud 環境使用的新的 **Campaign Web 使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
 
    [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
    無法從現有 Campaign Classic V7 環境進行自動移轉。
 
-   Campaign v8 目前&#x200B;**僅**&#x200B;以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。 
+   Campaign v8 目前&#x200B;**僅**&#x200B;以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。
 
    如需移轉流程的詳細資訊，請洽詢您的 Adobe 代表。
 
@@ -85,19 +85,19 @@ ht-degree: 96%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  以下載 Adobe Campaign。
+   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} 以下載 Adobe Campaign。
 
-   在[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁中進一步瞭解發佈中心。
+   在](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁[中進一步瞭解發佈中心。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
-   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}
+   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **如何記錄問題？**
 
-   建立案例可讓您聯絡 Adobe 客戶支援團隊，瞭解您在 Adobe 產品上遇到的任何問題。為協助解決或疑難排解您的問題，您可使用 Adobe Admin Console 與 Adobe 客戶支援部門進行交談。
+   建立案例可讓您聯絡 Adobe 客戶支援團隊，瞭解您在 Adobe 產品上遇到的任何問題。 為協助解決或疑難排解您的問題，您可使用 Adobe Admin Console 與 Adobe 客戶支援部門進行交談。
 
    如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}。
 
-   此系統要求每個使用者都需要有新的個別帳戶，並擁有正確權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 請求存取權限，客戶服務團隊會盡快為您設定。[了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+   此系統要求每個使用者都需要有新的個別帳戶，並擁有正確權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 請求存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}

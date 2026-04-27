@@ -1,13 +1,13 @@
 ---
 title: 一般架構
-description: 進一步了解 Adobe Campaign 架構和元件。深入了解如何個人化您的用戶端主控台和環境。
+description: 進一步了解 Adobe Campaign 架構和元件。 深入了解如何個人化您的用戶端主控台和環境。
 feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1163'
 ht-degree: 7%
 
 ---
@@ -60,11 +60,11 @@ Adobe Campaign模組分為三種型別：
 
 * **重新導向伺服器** (nlserver webmdl) — 對於電子郵件，Adobe Campaign會自動處理開啟和點選追蹤（進一步可能是網站層級的交易追蹤）。 為此，重新寫入納入電子郵件訊息中的URL以指向此模組，該模組會先註冊網際網路使用者的傳遞，然後再將他們重新導向至所需的URL。
 
-  為了確保最高可用性，此程式完全獨立於資料庫：其他伺服器程式僅使用SOAP呼叫(HTTP、HTTP(S)和XML)與其通訊。 就技術方面而言，此功能是在HTTP伺服器的擴充功能模組（IIS中的ISAPI擴充功能或DSO Apache模組等）中實作，且僅適用於Windows。
+  為了確保最高可用性，此程式完全獨立於資料庫：其他伺服器程式僅使用SOAP呼叫(HTTP、HTTP(S)和XML)與其通訊。 技術上，此功能是在HTTP伺服器的擴充功能模組（IIS中的ISAPI擴充功能，或DSO Apache模組等）中實作 和僅適用於Windows。
 
 您也可以參閱其他更技術性的程式：
 
-* **管理退信電子郵件** (nlserver inMail) — 此程式可讓您從已設定為接收在傳送失敗時傳回的退信的信箱自動擷取電子郵件。 接著，這些訊息會進行規則型處理，以判斷未傳遞的原因（未知的收件者、超過配額等），並更新資料庫中的傳遞狀態。 所有這些操作都是完全自動且預先設定的。
+* **管理退信電子郵件** (nlserver inMail) — 此程式可讓您從已設定為接收在傳送失敗時傳回的退信的信箱自動擷取電子郵件。 接著，這些訊息會進行規則型處理，以判斷未傳遞的原因（未知的收件者、超過配額等） 以及更新資料庫中的傳遞狀態。 所有這些操作都是完全自動且預先設定的。
 
 * **SMS傳遞狀態** (nlserver sms) — 此程式會輪詢SMS路由器以收集進度狀態並更新資料庫。
 
@@ -81,7 +81,7 @@ Adobe Campaign模組分為三種型別：
 
 ## 資料庫容器 {#db-containers}
 
-在其[企業(FFDA)部署](enterprise-deployment.md)中，Adobe Campaign Cloud資料庫仰賴[!DNL Snowflake]，其中包含功能資料（設定檔、訂閱、內容等）、技術資料（傳遞工作和記錄、追蹤記錄等）以及解決方案的工作資料（購買、銷售機會），而且所有Adobe Campaign元件都與資料庫通訊，以執行其特定工作。
+在其[企業(FFDA)部署](enterprise-deployment.md)中，Adobe Campaign Cloud資料庫仰賴[!DNL Snowflake]，其中包含功能資料（設定檔、訂閱、內容等）、技術資料（傳遞工作和記錄、追蹤記錄等） 和解決方案的工作資料（購買、銷售機會）以及所有Adobe Campaign元件會與資料庫通訊，以執行其特定工作。
 
 您可以使用預先定義的資料庫和結構描述來部署Adobe Campaign，並視需要擴充此預先定義的環境。 Adobe Campaign會透過SQL呼叫存取資料市場內的所有資料。 Adobe Campaign也提供完整的擷取轉換和載入(ETL)工具，以執行資料匯入和匯出系統內的資料。
 
@@ -98,4 +98,4 @@ Adobe Campaign模組分為三種型別：
 
 總儲存容量可在主要資料庫與（選擇性）Snowflake次要資料庫之間分配。 應根據客戶特定的使用案例，在實施或升級時間決定儲存資料的位置。
 
-在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}中瞭解如何監視您的資料庫使用情況。
+在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}中瞭解如何監視您的資料庫使用情況。

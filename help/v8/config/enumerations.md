@@ -5,9 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
+exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -59,16 +60,16 @@ ht-degree: 1%
 
 若要建立別名，請執行下列步驟：
 
-1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Alias]**&#x200B;按鈕。
+1. 按一下&#x200B;**[!UICONTROL Alias]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
 1. 輸入您要轉換的別名，然後在下拉式清單中選取要套用的值。
 
    ![建立新別名](assets/new-alias.png)
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;並確認。
 
-1. 儲存您的變更。值取代是由每晚執行的&#x200B;**別名清理**&#x200B;工作流程所執行。 請參閱[執行資料清除](#running-data-cleansing)。
+1. 儲存您的變更。 值取代是由每晚執行的&#x200B;**別名清理**&#x200B;工作流程所執行。 請參閱[執行資料清除](#running-data-cleansing)。
 
-對於以此分項清單為基礎的所有欄位，當使用者在「公司」欄位中輸入值&#x200B;**Adobe** (在Adobe Campaign使用者端主控台中，以Web形式顯示)時，該值將自動被值&#x200B;**Adobe**&#x200B;取代。
+對於以此分項清單為基礎的所有欄位，當使用者在「公司」欄位中輸入值&#x200B;**Adobe** （在Adobe Campaign使用者端主控台中，以Web形式顯示）時，該值將自動被值&#x200B;**Adobe**&#x200B;取代。
 
 ### 將錯誤值轉換為別名{#convert-to-alias}
 
@@ -92,7 +93,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以在&#x200B;**[!UICONTROL Hits]**&#x200B;子索引標籤的&#x200B;**[!UICONTROL Alias]**&#x200B;欄中追蹤別名的發生次數。 它可以顯示輸入此值的次數。  [了解更多](#calculate-entry-occurrences)。
+>您可以在&#x200B;**[!UICONTROL Alias]**&#x200B;子索引標籤的&#x200B;**[!UICONTROL Hits]**&#x200B;欄中追蹤別名的發生次數。 它可以顯示輸入此值的次數。  [了解更多資訊](#calculate-entry-occurrences)。
 
 ### 執行資料清除 {#running-data-cleansing}
 

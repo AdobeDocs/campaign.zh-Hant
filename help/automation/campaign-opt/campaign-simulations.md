@@ -6,7 +6,7 @@ feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1226'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 * 根據所選的優先順序層級，**[!UICONTROL Schedule execution for down-time]**&#x200B;選項會將模擬啟動延遲到較不繁忙的時間段。 例如，模擬會使用大量的資料庫資源，因此非緊急模擬應該排程在夜間執行。
 * **[!UICONTROL Priority]**&#x200B;是套用到模擬以延遲其觸發的層級。
-* **[!UICONTROL Save SQL queries in the log]**。 SQL記錄檔可讓您在模擬結束時診斷錯誤。 它們也可以幫助您找出模擬太慢的原因。 在&#x200B;**[!UICONTROL Audit]**&#x200B;標籤的&#x200B;**[!UICONTROL SQL logs]**&#x200B;子標籤中進行模擬後，這些訊息將會顯示。
+* **[!UICONTROL Save SQL queries in the log]**. SQL記錄檔可讓您在模擬結束時診斷錯誤。 它們也可以幫助您找出模擬太慢的原因。 在&#x200B;**[!UICONTROL Audit]**&#x200B;標籤的&#x200B;**[!UICONTROL SQL logs]**&#x200B;子標籤中進行模擬後，這些訊息將會顯示。
 
 ## 執行模擬 {#execute-a-simulation}
 
@@ -232,4 +232,4 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 >
 >此子索引標籤只有在已啟用&#x200B;**[!UICONTROL Generate target recovery statistics]**&#x200B;選項時才會顯示。
 
-報表軸上的資訊可在&#x200B;**[!UICONTROL Exploring exclusions]**&#x200B;子標籤中建立的排除分析報表中處理。 [了解更多](#explore-results)。
+報表軸上的資訊可在&#x200B;**[!UICONTROL Exploring exclusions]**&#x200B;子標籤中建立的排除分析報表中處理。 [了解更多資訊](#explore-results)。

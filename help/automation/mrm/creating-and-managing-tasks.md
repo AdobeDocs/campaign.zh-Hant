@@ -7,7 +7,7 @@ role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '3757'
+source-wordcount: '3764'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-若為已分組的任務，Adobe Campaign會自動將父任務的結束日期指派給子任務，作為開始日期。 舉例來說，如果&#x200B;**建立邀請**&#x200B;工作於10月15日下午3:30結束，**傳送邀請電子郵件**&#x200B;子工作將於10月15日下午3:30開始。
+若為已分組的任務，Adobe Campaign會自動將父任務的結束日期指派給子任務，作為開始日期。 例如，如果&#x200B;**建立邀請**&#x200B;任務於10月15日3:30PM結束，**傳送邀請電子郵件**&#x200B;子任務將於10月15日3:30PM開始。
 
 此外，如果您延遲父系任務的結束，其部分子系任務可能會受到影響：這些是狀態為&#x200B;**[!UICONTROL Scheduled]**&#x200B;且開始日期早於父系任務新結束日期的子系任務。 任務的持續時間保持不變。 如果子任務的開始日期晚於父任務的新結束日期，則子任務不受影響。
 

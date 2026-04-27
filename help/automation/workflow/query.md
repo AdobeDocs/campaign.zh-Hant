@@ -8,7 +8,7 @@ exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1621'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 **[!UICONTROL Edit query...]**&#x200B;連結可讓您以下列方式定義母體的目標定位型別、限制和選取條件：
 
-1. 選取目標定位和篩選維度。 預設情況下，會從收件者中選取目標。限制篩選器的清單與用於傳送目標定位的清單相同。
+1. 選取目標定位和篩選維度。 預設情況下，會從收件者中選取目標。 限制篩選器的清單與用於傳送目標定位的清單相同。
 
    目標維度與我們正在處理的元素型別一致，例如作業所定位的母體。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
-1. 如果您已在步驟1或使用&#x200B;**[!UICONTROL Filtering conditions]** > **[!UICONTROL Filters]**&#x200B;選項選取&#x200B;**[!UICONTROL Advanced filter...]**，則您稍後必須手動新增篩選條件。
+1. 如果您已在步驟1或使用&#x200B;**[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**&#x200B;選項選取&#x200B;**[!UICONTROL Filtering conditions]**，則您稍後必須手動新增篩選條件。
 
    您也可以核取對應的方塊，以新增資料分組條件。 若要這麼做，篩選維度必須與查詢的目標維度不同。 如需分組的詳細資訊，請參閱此[區段](query-grouping-management.md)。
 
@@ -89,7 +89,7 @@ ht-degree: 1%
    * 根據從目標母體或彙總（上個月內未決購買的次數、收款的平均金額等）中取得的資料計算出的欄位。 例如，移至[選取資料](targeting-workflows.md#selecting-data)。
    * 新欄位，使用輸出欄清單右側的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕建立。
 
-     您也可以新增資訊集合，例如合約清單、最近5次傳遞等。 集合與相同設定檔可以有多個值的欄位一致（1-N關係）。 如需詳細資訊，請參閱[編輯其他資料](targeting-workflows.md#editing-additional-data)。
+     您也可以新增資訊集合，例如合約清單、最近5次傳遞等。集合與相同設定檔可以有多個值的欄位一致（1-N關係）。 如需詳細資訊，請參閱[編輯其他資料](targeting-workflows.md#editing-additional-data)。
 
 若要新增連結至目標母體的資訊集合：
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 1. 必要時，請在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取其中一個值，以指定要保留的集合元素數目。 依預設，會復原集合的所有行，然後根據下列步驟指定的條件進行篩選。
 
-   * 如果集合的單一專案符合此集合的篩選條件，請在&#x200B;**[!UICONTROL Single row]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Data collected]**。
+   * 如果集合的單一專案符合此集合的篩選條件，請在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Single row]**。
 
      >[!IMPORTANT]
      >
@@ -109,7 +109,7 @@ ht-degree: 1%
      >如果未遵循初始條件，結果可能會有瑕疵（遺漏或重疊線）。
 
    * 如果您選擇復原數行(**[!UICONTROL Limit the line count]**)，則可以指定要收集的行數。
-   * 如果收集的欄包含彙總，例如宣告的失敗次數、網站的平均費用性列管等。 您可以使用&#x200B;**[!UICONTROL Aggregates]**&#x200B;值。
+   * 如果收集的欄包含彙總，例如宣告的失敗次數、網站上的平均費用性列管等。您可以使用&#x200B;**[!UICONTROL Aggregates]**&#x200B;值。
 
    ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 

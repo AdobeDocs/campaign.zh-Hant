@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 1. 將Adobe為您提供的原則套用至您的AWS帳戶，以便授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
-1. 與[共用您的](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}Amazon資源名稱（索引鍵ARN）[!DNL Adobe Campaign]。 若要這麼做，請聯絡您的Adobe代表。<!--or Adobe transition manager?-->
+1. 與[!DNL Adobe Campaign]共用您的[Amazon資源名稱（索引鍵ARN）](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}。 若要這麼做，請聯絡您的Adobe代表。<!--or Adobe transition manager?-->
 
-1. 建立並測試Amazon EventBridge規則，以啟用Adobe監控金鑰&#x200B;。 [了解更多資訊](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
+1. 建立並測試Amazon EventBridge規則，以啟用Adobe對金鑰的監視。&#x200B;[深入瞭解](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
 
 ### 護欄和限制 {#cmk-callouts}
@@ -66,9 +66,9 @@ ht-degree: 2%
 
 * 僅支援[AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
 
-* 首次設定期間預計會發生停機時間。&#x200B;URL停機時間長度取決於資料庫的大小。
+* 首次設定期間預計會發生停機時間。 停機&#x200B;時間長度取決於資料庫的大小。
 
-* 身為客戶，您擁有並維護金鑰。 如果金鑰發生任何變更，您必須聯絡Adobe&#x200B;。
+* 身為客戶，您擁有並維護金鑰。 如果金鑰發生任何變更，您必須聯絡&#x200B;。
 
 * 您可以使用[AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"}稽核您的金鑰，並視需要加以撤銷。&#x200B;
 

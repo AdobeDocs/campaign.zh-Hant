@@ -7,16 +7,16 @@ level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 329130d716054e5054fc0a5989a77d950c546ec0
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
 
 # Campaign v8 相容性矩陣 {#compat-matrix}
 
-本文件列出最新建置版本的 **Adobe Campaign v8** 用戶端主控台所支援的所有系統及元件。除非另有提及，否則支援所有次要版本。此清單上未列出的產品和版本即與 Adobe Campaign 不相容。
+本文件列出最新建置版本的 **Adobe Campaign v8** 用戶端主控台所支援的所有系統及元件。 除非另有提及，否則支援所有次要版本。 此清單上未列出的產品和版本即與 Adobe Campaign 不相容。
 
-這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。請確保您使用的是相容性對照表所列出的任一系統支援版本，以避免出現任何問題。
+這些協力廠商系統和工具的特定版本生命週期結束 (EOL) 時，Adobe Campaign 將不再與那些版本相容；我們將不再使用這些系統和功能，後續的產品發行版本亦會將這些系統和功能從我們的相容性對照表中移除。 請確保您使用相容性矩陣列出的任何系統的支援版本，以避免出現任何問題。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 用戶端主控台 {#ClientConsoleoperatingsystems}
 
-使用 Campaign 用戶端主控台時，需要使用下列作業系統和瀏覽器。 [深入瞭解](connect.md)。
+使用 Campaign 用戶端主控台時，需要使用下列作業系統和瀏覽器。 [了解更多資訊](connect.md)。
 
 ### 作業系統 {#op-systems}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 * **Microsoft Windows** 11、10
 
 >[!NOTE]
->自 8.5 版本發行之後，已淘汰 32 位元版本的用戶端主控台。從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。深入了解如何升級系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
+>自 8.5 版本發行之後，已淘汰 32 位元版本的用戶端主控台。 從 8.6 版本開始，用戶端主控台將僅以 64 位元提供。 深入了解如何升級系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
 
 ### 網頁瀏覽器 {#web-browsers}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >此外，使用[增強式安全性附加元件](../config/enhanced-security.md#secure-vpn-tunneling)，您可以透過安全 VPN 通道存取內部部署資料庫。 [了解更多](../config/enhanced-security.md#vpn-callouts)
 
-## 行動 SDK {#MobileSDK}
+## Mobile SDK {#MobileSDK}
 
 若要透過 Campaign 傳送[推播通知](../send/push.md)，請在資料收集 UI 設定 Adobe Campaign Classic 擴充功能，以使用 Adobe Experience Platform Mobile SDK。
 
@@ -72,13 +72,13 @@ iOS 與 Android 的相容版本詳見 [Adobe Developer 文件](https://developer
 
 ## Web 使用者介面 {#web-ui}
 
-下列瀏覽器與 Campaign Web 使用者介面相容。在[本頁面](campaign-ui.md#ac-web-ui)中進一步瞭解 Campaign Web UI。
+下列瀏覽器與 Campaign Web 使用者介面相容。 在[本頁面](campaign-ui.md#ac-web-ui)中進一步瞭解 Campaign Web UI。
 
 * **Microsoft Edge**、**Google Chrome**、**Safari** (最新版本)
 
 ## 網路存取 {#web-access}
 
-下列瀏覽器與 Campaign for Web Access 相容。在[本頁面](connect.md#web-access)中進一步瞭解 Campaign Web Access。
+下列瀏覽器與 Campaign for Web Access 相容。 在[本頁面](connect.md#web-access)中進一步瞭解 Campaign Web Access。
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** (最新版本)
 

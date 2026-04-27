@@ -7,16 +7,16 @@ level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
 source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '376'
 ht-degree: 6%
 
 ---
 
 # 使用目標對應{#gs-target-mappings}
 
-根據預設，電子郵件和簡訊傳遞範本的目標為&#x200B;**[!UICONTROL Recipients]**。 因此，它們的目標對應使用&#x200B;**nms：recipient**&#x200B;資料表的欄位。
+根據預設，電子郵件和簡訊傳遞範本的目標為&#x200B;**[!UICONTROL Recipients]**。 因此，它們的目標對應使用&#x200B;**nms:recipient**&#x200B;資料表的欄位。
 
-對於推播通知，預設的目標對應是連結到收件者表格的&#x200B;**訂閱者應用程式(nms：appSubscriptionRcp)**。
+對於推播通知，預設的目標對應是連結到收件者資料表的&#x200B;**訂閱者應用程式(nms:appSubscriptionRcp)**。
 
 您可以針對傳遞使用其他目標對應，或建立新的目標對應。
 
@@ -26,13 +26,13 @@ Adobe Campaign隨附下列內建目標對應：
 
 | 名稱 | 使用至 | 結構描述 |
 |---|---|---|
-| 收件者 | 傳遞給收件者（內建收件者表格） | nms：recipient |
-| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns：visitor |
-| 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms：subscription |
-| 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms：visitorSub |
-| 運算子 | 傳遞給Adobe Campaign操作者 | nms：operator |
+| 收件者 | 傳遞給收件者（內建收件者表格） | nms:recipient |
+| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns:visitor |
+| 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms:subscription |
+| 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms:visitorSub |
+| 運算子 | 傳遞給Adobe Campaign操作者 | nms:operator |
 | 外部檔案 | 透過包含傳遞所需所有資訊的檔案傳遞 | 沒有連結的結構描述，沒有輸入目標 |
-| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms：appSubscriptionRcp |
+| 訂閱者應用程式 | 傳遞給已訂閱應用程式的收件者 | nms:appSubscriptionRcp |
 
 
 ## 建立目標對應 {#new-mapping}

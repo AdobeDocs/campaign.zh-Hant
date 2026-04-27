@@ -7,8 +7,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 3%
+source-wordcount: '1835'
+ht-degree: 4%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 3%
 
 1. 您可以指定要從目標擷取的最大記錄數，以建立子集。 若要這麼做，請核取&#x200B;**[!UICONTROL Limit the selected records]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。
 
-   精靈可讓您選擇此子集記錄的選擇模式。 [了解更多](#limit-the-number-of-subset-records)。
+   精靈可讓您選擇此子集記錄的選擇模式。 [了解更多資訊](#limit-the-number-of-subset-records)。
 
    ![](assets/s_user_segmentation_partage4.png)
 
-1. 您也可以&#x200B;**使用&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**按鈕**&#x200B;新增其他子集。
+1. 您也可以&#x200B;**使用&#x200B;**[!UICONTROL Add]**按鈕**&#x200B;新增其他子集。
 
    ![](assets/s_user_segmentation_partage_add.png)
 
@@ -96,9 +96,9 @@ ht-degree: 3%
 
    * **[!UICONTROL Size (as a % of the segment)]**：只與子集相關而不與初始母體相關的記錄百分比。
    * **[!UICONTROL Maximum size]**：記錄數上限。
-   * **[!UICONTROL By data grouping]**：您可以根據入站母體的指定欄位中的值，設定記錄數限制。 [了解更多](#limit-the-number-of-subset-records-by-data-grouping)。
-   * **[!UICONTROL By data grouping (in %)]**：您可以使用百分比，根據入站母體的指定欄位中的值，設定記錄數限制。 [了解更多](#limit-the-number-of-subset-records-by-data-grouping)。
-   * **[!UICONTROL By data distribution]**：如果您的分組欄位有太多值，或您想避免為每個新的分割活動再次輸入值，Adobe Campaign可讓您設定&#x200B;**[!UICONTROL By data distribution]**&#x200B;限制（選用的分散式行銷模組）。 [了解更多](#limit-the-number-of-subset-records-per-data-distribution)。
+   * **[!UICONTROL By data grouping]**：您可以根據入站母體的指定欄位中的值，設定記錄數限制。 [了解更多資訊](#limit-the-number-of-subset-records-by-data-grouping)。
+   * **[!UICONTROL By data grouping (in %)]**：您可以使用百分比，根據入站母體的指定欄位中的值，設定記錄數限制。 [了解更多資訊](#limit-the-number-of-subset-records-by-data-grouping)。
+   * **[!UICONTROL By data distribution]**：如果您的分組欄位有太多值，或您想避免為每個新的分割活動再次輸入值，Adobe Campaign可讓您設定&#x200B;**[!UICONTROL By data distribution]**&#x200B;限制（選用的分散式行銷模組）。 [了解更多資訊](#limit-the-number-of-subset-records-per-data-distribution)。
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以核准記錄選取條件。 然後定義的組態會顯示在編輯器的中間視窗中。
 
@@ -208,14 +208,14 @@ ht-degree: 3%
 
 若要讓此選項正確運作，傳入資料必須具有主索引鍵。
 
-例如，如果透過&#x200B;**[!UICONTROL Data loading (RDBMS)]**&#x200B;活動直接從外部資料庫(例如Netezza，不支援索引的概念)讀取資料，則&#x200B;**[!UICONTROL Split]**&#x200B;活動產生的補數將會不正確。
+例如，如果透過&#x200B;**[!UICONTROL Data loading (RDBMS)]**&#x200B;活動直接從外部資料庫（例如Netezza，不支援索引的概念）讀取資料，則&#x200B;**[!UICONTROL Split]**&#x200B;活動產生的補數將會不正確。
 
 若要避免此問題，您可以將&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動拖放到&#x200B;**[!UICONTROL Split]**&#x200B;活動之前。 在&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動中，核取&#x200B;**[!UICONTROL Keep all additional data from the main set]**，並在其他資料中指定您要用來設定&#x200B;**[!UICONTROL Split]**&#x200B;活動篩選器的資料行。 然後，**[!UICONTROL Split]**&#x200B;活動之入站轉變的資料會儲存在Adobe Campaign伺服器上的暫存表格中，且補碼可以正確產生。
 
 **[!UICONTROL Enable overlapping of output populations]**&#x200B;選項可讓您管理屬於數個子集的母體：
 
-* 當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們會位於具有相符條件的第一個標籤的目標中。
-* 當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。Adobe Campaign 建議使用排除條件。
+* 當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。 它們將位於具有符合條件的第一個標籤的目標中。
+* 當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。 Adobe Campaign 建議使用排除條件。
 
 ## 輸入引數 {#input-parameters}
 
@@ -230,6 +230,6 @@ ht-degree: 3%
 * 結構描述
 * recCount
 
-這組三個值可識別排除所產生的目標。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表的名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms：recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
+這組三個值可識別排除所產生的目標。 **[!UICONTROL tableName]**&#x200B;是記錄目標識別碼的資料表名稱，**[!UICONTROL schema]**&#x200B;是母體的結構描述（通常是nms:recipient），而&#x200B;**[!UICONTROL recCount]**&#x200B;是資料表中的元素數目。
 
 與補充關聯的轉變有相同的引數。

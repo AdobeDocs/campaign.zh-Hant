@@ -5,10 +5,11 @@ description: 瞭解如何使用Adobe Campaign自訂表情符號清單
 feature: Email, Push
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+exl-id: 8a714eef-ea72-48f3-86d9-5a98b8ddcc6f
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 

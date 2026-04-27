@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 1. [事件轉移至訊息範本](#routing-towards-a-template)
 1. 使用個人化資料擴充事件
 1. [傳遞執行](delivery-execution.md)
-1. [回收連結傳遞失敗的事件](#event-recycling) (透過Adobe Campaign工作流程)
+1. [回收連結傳遞失敗的事件](#event-recycling) （透過Adobe Campaign工作流程）
 
 完成所有步驟後，每個目標收件者都會收到個人化訊息。
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 資訊系統產生的事件可使用兩種模式收集：
 
-* 對SOAP方法的呼叫可讓您在Adobe Campaign中推送事件：PushEvent方法可讓您一次傳送一個事件，PushEvents方法則可讓您一次傳送多個事件。 [了解更多](event-description.md)。
+* 對SOAP方法的呼叫可讓您在Adobe Campaign中推送事件：PushEvent方法可讓您一次傳送一個事件，PushEvents方法則可讓您一次傳送多個事件。 [了解更多資訊](event-description.md)。
 
 * 建立工作流程可讓您透過匯入檔案或透過SQL閘道，搭配[同盟資料存取](../connect/fda.md)模組來復原事件。
 
@@ -83,10 +83,10 @@ ht-degree: 1%
    * 擱置事件可以是剛剛收集且尚未處理的事件。 **[!UICONTROL Number of errors]**&#x200B;欄顯示值0。 尚未連結電子郵件範本。
    * 擱置事件也可以是已處理但其確認錯誤的事件。 **[!UICONTROL Number of errors]**&#x200B;資料行顯示的值不是0。 若要知道何時再次處理此事件，請參閱&#x200B;**[!UICONTROL Process requested on]**&#x200B;欄。
 
-* **擱置的傳遞**
+* **個擱置中的傳遞**
 已處理事件，且已連結傳遞範本。 電子郵件正在等候傳遞，且已套用傳統傳遞程式。 如需詳細資訊，您可以開啟傳遞。
-* **已傳送**，**已忽略**&#x200B;和&#x200B;**傳遞錯誤**
-這些傳遞狀態是透過&#x200B;**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
+* **已傳送**，**已忽略**&#x200B;及&#x200B;**傳遞錯誤**
+這些傳遞狀態是透過**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
 * **事件未涵蓋**
 異動訊息路由階段失敗。 例如，Adobe Campaign找不到當作事件範本的電子郵件。
 * **事件已過期**

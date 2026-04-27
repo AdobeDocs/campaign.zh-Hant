@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 活動的傳出已傳送母體是透過在活動的入站轉變中選擇主集來決定。
 
-出站轉變只能包含其中一個入站轉變母體。 如果未設定活動，出站轉變將會隨機選取其中一個入站母體。
+傳出轉變只能包含其中一個傳入轉變群體。 如果未設定活動，出站轉變將會隨機選取其中一個入站母體。
 
 >[!CAUTION]
 >

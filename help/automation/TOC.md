@@ -5,8 +5,8 @@ user-guide-description: Campaign自動化指南
 feature: Overview
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 81%
+source-wordcount: '462'
+ht-degree: 82%
 
 ---
 

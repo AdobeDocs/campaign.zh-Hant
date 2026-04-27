@@ -4,9 +4,10 @@ description: 瞭解Adobe Campaign中的SMS聯結器
 feature: SMS
 role: User, Admin
 level: Intermediate
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
+source-git-commit: 0278c5161b4b32cd2158c7694d3c7a9996a401cb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ Adobe Campaign支援兩個SMS聯結器，用於傳送簡訊給您的客戶：
 
 若要瞭解如何受益於v2聯結器，請參閱[啟用](#activation)區段。
 
-如需舊版SMS聯結器設定和使用方式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
+如需舊版SMS聯結器設定和使用方式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}。
 
 ## SMS聯結器v2 {#sms-connector-v2}
 

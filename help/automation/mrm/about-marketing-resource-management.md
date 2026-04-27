@@ -7,7 +7,7 @@ role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 **行銷資源管理(MRM)**&#x200B;模組可讓您透過提供相關工作、預算和行銷資源的完整管理和即時追蹤，以合作模式控制行銷動作。
 
-Adobe Campaign操作者可透過完整的驗證程式和適當的追蹤工具（報告、追蹤核准、通知、討論論壇等），協調其動作並核准所有階段的進度。 在事件或錯誤或延遲以及驗證週期的每個新階段都會收到警報。
+Adobe Campaign操作者可透過完整的驗證程式和適當的追蹤工具（報告、追蹤核准、通知、討論論壇等），協調其動作並核准所有階段的進度。在事件或錯誤或延遲以及驗證週期的每個新階段都會收到警報。
 
 因此，在行銷計畫的方案和子方案的內容中，可以建立任務並指派給有關操作者，然後透過其所有階段進行管理。
 
@@ -40,7 +40,7 @@ Adobe Campaign操作者可透過完整的驗證程式和適當的追蹤工具（
 
 * **行銷資源**
 
-  Adobe Campaign可讓您追蹤合作行銷專案的進度，例如通訊媒體、行動計畫、電子報等。 您可以從資源控制面板追蹤這些行銷資源的建立和核准週期，直到發佈為止。
+  Adobe Campaign可讓您追蹤合作行銷專案的進度，例如通訊媒體、行動計畫、電子報等。您可以從資源控制面板追蹤這些行銷資源的建立和核准週期，直到發佈為止。
 
   如需詳細資訊，請參閱[管理行銷資源](managing-marketing-resources.md)。
 
@@ -58,6 +58,6 @@ Adobe Campaign操作者可透過完整的驗證程式和適當的追蹤工具（
 
 * **預算管理**。 [了解更多](controlling-costs.md)
 
-* **任務管理**。[深入瞭解](creating-and-managing-tasks.md)
+* **任務管理**。 [深入瞭解](creating-and-managing-tasks.md)
 
 * **資源管理**。 [了解更多](managing-marketing-resources.md)

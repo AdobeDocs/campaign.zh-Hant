@@ -9,7 +9,7 @@ level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -201,8 +201,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱Campaign Standard檔案：
 
-* [正在設定篩選定義](https://helpx.adobe.com/tw/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用案例：使用複合識別索引鍵](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=zh-Hant)呼叫資源。
+* [正在設定篩選定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用案例：使用複合識別索引鍵](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)呼叫資源。
 
 <br/>
 

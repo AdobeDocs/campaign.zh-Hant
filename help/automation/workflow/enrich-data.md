@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -72,19 +72,19 @@ ht-degree: 0%
 
    ![](assets/uc1_enrich_7.png)
 
-1. 輸入ID和標籤，並在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Limit the line count]**&#x200B;選項。 在&#x200B;**[!UICONTROL Lines to retrieve]**&#x200B;欄位中，選取&#39;1&#39;作為值。 擴充活動會針對每個收件者，從&#x200B;**[!UICONTROL Competition results]**&#x200B;表格新增單一明細行至工作流程的工作表。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 輸入ID和標籤，並在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Limit the line count]**&#x200B;選項。 在&#x200B;**[!UICONTROL Lines to retrieve]**&#x200B;欄位中，選取&#39;1&#39;作為值。 擴充活動會針對每個收件者，從&#x200B;**[!UICONTROL Competition results]**&#x200B;表格新增單一明細行至工作流程的工作表。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/uc1_enrich_8.png)
 
-1. 在此範例中，我們要復原收件者的最高分數，但僅針對最後的競爭。 若要這麼做，請將篩選器新增至「**[!UICONTROL Competition name]**」欄位，以排除與先前比賽相關的所有行。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 在此範例中，我們要復原收件者的最高分數，但僅針對最後的競爭。 若要這麼做，請將篩選器新增至「**[!UICONTROL Competition name]**」欄位，以排除與先前比賽相關的所有行。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/uc1_enrich_9.png)
 
-1. 移至&#x200B;**[!UICONTROL Sort]**&#x200B;畫面並按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Score]**&#x200B;欄位並核取&#x200B;**[!UICONTROL descending]**&#x200B;欄位中的方塊，以遞減順序排序&#x200B;**[!UICONTROL Score]**&#x200B;欄位的專案。 對於每個收件者，擴充活動會新增符合上一個遊戲最高分數的行。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 移至&#x200B;**[!UICONTROL Sort]**&#x200B;畫面並按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Score]**&#x200B;欄位並核取&#x200B;**[!UICONTROL descending]**&#x200B;欄位中的方塊，以遞減順序排序&#x200B;**[!UICONTROL Score]**&#x200B;欄位的專案。 對於每個收件者，擴充活動會新增符合上一個遊戲最高分數的行。 按一下 **[!UICONTROL Next]**。
 
    ![](assets/uc1_enrich_10.png)
 
-1. 在&#x200B;**[!UICONTROL Data to add]**&#x200B;視窗中，連按兩下&#x200B;**[!UICONTROL Score]**&#x200B;欄位。 對於每個收件者，擴充活動將僅新增&#x200B;**[!UICONTROL Score]**&#x200B;欄位。 按一下&#x200B;**[!UICONTROL Finish]**。
+1. 在&#x200B;**[!UICONTROL Data to add]**&#x200B;視窗中，連按兩下&#x200B;**[!UICONTROL Score]**&#x200B;欄位。 對於每個收件者，擴充活動將僅新增&#x200B;**[!UICONTROL Score]**&#x200B;欄位。 按一下 **[!UICONTROL Finish]**。
 
    ![](assets/uc1_enrich_11.png)
 

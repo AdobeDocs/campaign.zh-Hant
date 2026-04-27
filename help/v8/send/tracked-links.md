@@ -7,14 +7,14 @@ level: Beginner
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 5b23be4cb8f0896d2482e525e416713b1a6c4514
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '571'
 ht-degree: 6%
 
 ---
 
 # 設定追蹤的連結 {#how-to-configure-tracked-links}
 
-對於每次傳遞，您都可以追蹤訊息是否收到，以及郵件內容中的連結是否被啟用。這樣，您可以在目標傳遞操作實施後，追蹤收件者的行為。
+對於每次傳遞，您都可以追蹤訊息是否收到，以及郵件內容中的連結是否被啟用。 這樣，您可以在目標傳遞操作實施後，追蹤收件者的行為。
 
 >[!NOTE]
 >

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 12%
+source-wordcount: '461'
+ht-degree: 11%
 
 ---
 
@@ -24,9 +24,9 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
-* Adobe Analytics。[了解更多](../connect/ac-aa.md)
+* Adobe Analytics。[進一步瞭解](../connect/ac-aa.md)
 * Adobe Experience Cloud觸發程式。 [了解更多](../connect/ac-triggers.md)
-* Adobe Experience Manager。[了解更多](../connect/ac-aem.md)
+* Adobe Experience Manager。 [了解更多](../connect/ac-aem.md)
 * Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)
 * Adobe Journey Optimizer。 [了解更多](../connect/ac-ajo.md)
 * Adobe Target。 [了解更多](../connect/ac-at.md)
@@ -34,9 +34,9 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 
 您也可以結合跨Experience Cloud解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;與資產共用和對象共用功能。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 711256e2-ab77-404a-b052-6793a85da193
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Personalization資料可從各種型別的來源擷取：Campaign資料庫資料
 
 ## Campaign資料庫資料來源
 
-在最常見的情況下，個人化資料會儲存在資料庫中。 例如，「收件者個人化欄位」是所有在收件者表格中定義的欄位、標準欄位（通常是：姓氏、名字、地址、城市、出生日期等）或自訂欄位。
+在最常見的情況下，個人化資料會儲存在資料庫中。 例如，「收件者個人化欄位」是所有在收件者表格中定義的欄位、標準欄位（通常是：姓氏、名字、地址、城市、出生日期等） 或自訂欄位。
 
 ![電子郵件中的行銷活動個人化欄位](assets/perso-campaign-datasource.png)
 
@@ -51,14 +51,14 @@ Personalization資料可從各種型別的來源擷取：Campaign資料庫資料
 
 在傳遞分析期間，此選項會自動建立並執行工作流程，將所有連結至目標的資料儲存在臨時表格中，包括來自FDA連結表格的資料。
 
-勾選此選項可大幅改善處理大量資料時的傳遞分析效能，尤其是當個人化資料來自透過FDA的外部表格時。 [了解更多](../connect/fda.md)。
+勾選此選項可大幅改善處理大量資料時的傳遞分析效能，尤其是當個人化資料來自透過FDA的外部表格時。 [了解更多資訊](../connect/fda.md)。
 
 若要使用此選項，請遵循下列步驟：
 
 1. 建立行銷活動。
 1. 在行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，新增&#x200B;**查詢**&#x200B;活動至您的工作流程。
 1. 將&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動新增至工作流程並開啟它。
-1. 移至&#x200B;**[!UICONTROL Analysis]**&#x200B;的&#x200B;**[!UICONTROL Delivery properties]**&#x200B;標籤，並選取&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項。
+1. 移至&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤，並選取&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項。
 1. 設定傳送並啟動工作流程以啟動分析。
 
 分析完成後，個人化資料會透過分析期間即時建立的臨時技術工作流程，儲存在臨時表格中。

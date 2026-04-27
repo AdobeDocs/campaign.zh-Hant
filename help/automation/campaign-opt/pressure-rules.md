@@ -6,7 +6,7 @@ feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3145'
 ht-degree: 7%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 7%
 
 行銷活動是根據定義的臨界值和訊息權重來選取。
 
-* 臨界值是指定期間內指定收件者獲授權的最高傳遞數量。 可以是設定或變數。 這是在型別規則設定中設定或計算的。 [了解更多](#maximum-number-of-messages)。
-* 傳遞權重可讓您確認壓力管理架構內最優先的傳遞。具有最高權重的訊息具有優先順序。 [了解更多](#message-weight)。
+* 臨界值是指定期間內指定收件者獲授權的最高傳遞數量。 可以是設定或變數。 這是在型別規則設定中設定或計算的。 [了解更多資訊](#maximum-number-of-messages)。
+* 傳遞權重可讓您確認壓力管理架構內最優先的傳遞。 權重最高的訊息具有最高優先。 [了解更多資訊](#message-weight)。
 
 仲裁包括確保權重大於進行中行銷活動的已排程行銷活動不會導致過多的設定檔請求：如果是這種情況，則會將設定檔從傳送中排除。
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 定義合格訊息的仲裁規則會在分析階段期間套用。 對於每個收件者和相關期間，如果下列公式為true，將會傳送訊息： **（已傳送的訊息數） + （具有較大權重的訊息數） &lt;臨界值**。
 
-否則，收件者將為&#x200B;**[!UICONTROL Excluded by arbitration]**。 [了解更多](#exclusion-after-arbitration)。
+否則，收件者將為&#x200B;**[!UICONTROL Excluded by arbitration]**。 [了解更多資訊](#exclusion-after-arbitration)。
 
 ## 建立壓力規則 {#create-a-pressure-rule}
 
@@ -51,8 +51,8 @@ ht-degree: 7%
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. 視需要變更執行順序。 將多個型別規則套用為&#x200B;**[!UICONTROL Typology]**&#x200B;集時，會先套用順序較低的規則。 [了解更多](apply-rules.md#execution-order)。
-1. 如果要儲存下一個每日重新仲裁執行之後的目標定位，請在&#x200B;**[!UICONTROL Calculation parameters]**&#x200B;區段中定義頻率。 [了解更多](apply-rules.md#adjust-calculation-frequency)。
+1. 視需要變更執行順序。 將多個型別規則套用為&#x200B;**[!UICONTROL Typology]**&#x200B;集時，會先套用順序較低的規則。 [了解更多資訊](apply-rules.md#execution-order)。
+1. 如果要儲存下一個每日重新仲裁執行之後的目標定位，請在&#x200B;**[!UICONTROL Calculation parameters]**&#x200B;區段中定義頻率。 [了解更多資訊](apply-rules.md#adjust-calculation-frequency)。
 1. 按一下「**[!UICONTROL Pressure]**」標籤，然後選擇套用型別規則的日曆期間。
 
    ![](assets/campaign_opt_create_a_rule_03.png)
@@ -79,9 +79,9 @@ ht-degree: 7%
 
 1. 指定計算傳遞權重的方法。
 
-   每個傳遞都有權重，即代表其優先順序等級的值：這會啟用行銷活動之間的仲裁。 權重是使用型別規則及/或其屬性中定義的公式來計算。 [了解更多](#message-weight)。
+   每個傳遞都有權重，即代表其優先順序等級的值：這會啟用行銷活動之間的仲裁。 權重是使用型別規則及/或其屬性中定義的公式來計算。 [了解更多資訊](#message-weight)。
 
-1. 預設情況下，所有訊息都將考慮到臨界值計算。**[!UICONTROL Restriction]**&#x200B;索引標籤可讓您篩選型別規則關注的訊息：
+1. 預設情況下，所有訊息都將考慮到臨界值計算。 **[!UICONTROL Restriction]**&#x200B;索引標籤可讓您篩選型別規則關注的訊息：
 
    * 此索引標籤的上方區段可讓您限制相關收件者。
    * 此索引標籤的下方區域可讓您篩選要計數的訊息。
@@ -90,13 +90,13 @@ ht-degree: 7%
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. **[!UICONTROL Typologies]**&#x200B;索引標籤可讓您檢視套用此規則的促銷活動型別，或將規則連結至一或多個現有型別。 [了解更多](campaign-typologies.md#apply-typologies)。
+1. **[!UICONTROL Typologies]**&#x200B;索引標籤可讓您檢視套用此規則的促銷活動型別，或將規則連結至一或多個現有型別。 [了解更多資訊](campaign-typologies.md#apply-typologies)。
 
 ## 定義臨界值和權重 {#define-thresholds-and-weights}
 
 ### 最大訊息數 {#maximum-number-of-messages}
 
-每個壓力規則會定義一個臨界值，即在指定時段內可以傳送給一個收件者的訊息數量上限。 一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。此程式可讓您在訊息超過設定的臨界值時，自動將收件者從傳遞中排除，以避免過度請求。
+每個壓力規則會定義一個臨界值，即在指定時段內可以傳送給一個收件者的訊息數量上限。 一旦達到此臨界值時，在考慮到該期間結束之前，將不再進行傳送。 此程式可讓您在訊息超過設定的臨界值時，自動將收件者從傳遞中排除，以避免過度請求。
 
 臨界值可以是常數，或透過包含變數的公式計算。 這表示在指定期間，臨界值可能會因收件者而異，甚至會針對相同收件者而有所不同。
 
@@ -118,9 +118,9 @@ ht-degree: 7%
 
 ### 訊息權重 {#message-weight}
 
-每個傳遞都有權重，代表其優先順序。傳遞的預設權重為 5。壓力規則可讓您定義要套用至傳遞的權重。
+每個傳遞都有權重，代表其優先順序。 傳遞的預設權重為 5。 壓力規則可讓您定義要套用至傳遞的權重。
 
-權重可以設定或透過公式計算以適合收件者。例如，您可以根據收件者的興趣定義傳遞權重。
+權重可以設定或透過公式計算以適合收件者。 例如，您可以根據收件者的興趣定義傳遞權重。
 
 >[!CAUTION]
 >
@@ -136,7 +136,7 @@ ht-degree: 7%
 
    ![](assets/campaign_opt_pressure_weight_sample.png)
 
-1. 將此規則套用至包含下列主題的訊息：電子報、特殊優惠等。 這些傳送的權重，因此其優先順序層級，將取決於每個收件者的傾向分數。
+1. 將此規則套用至包含下列主題的訊息：電子報、特殊優惠等。這些傳送的權重，因此其優先順序層級，將取決於每個收件者的傾向分數。
 
 ## 設定期間 {#setting-the-period}
 
@@ -189,7 +189,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->當您變更型別規則的定義時，可以建立&#x200B;**模擬**&#x200B;來控制其對套用到的傳遞的影響，並監視傳遞彼此的影響。 [了解更多](campaign-simulations.md)。
+>當您變更型別規則的定義時，可以建立&#x200B;**模擬**&#x200B;來控制其對套用到的傳遞的影響，並監視傳遞彼此的影響。 [了解更多資訊](campaign-simulations.md)。
 
 ## 仲裁後排除 {#exclusion-after-arbitration}
 
@@ -313,12 +313,12 @@ ht-degree: 7%
 
 首先，設定壓力規則。
 
-1. 建立壓力規則。 [了解更多](#create-a-pressure-rule)。
+1. 建立壓力規則。 [了解更多資訊](#create-a-pressure-rule)。
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Re-apply the rule at the start of personalization]**&#x200B;選項。
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   此選項會覆寫&#x200B;**[!UICONTROL Frequency]**&#x200B;欄位中定義的值，並在個人化階段自動套用規則。 [了解更多](apply-rules.md#adjust-calculation-frequency)。
+   此選項會覆寫&#x200B;**[!UICONTROL Frequency]**&#x200B;欄位中定義的值，並在個人化階段自動套用規則。 [了解更多資訊](apply-rules.md#adjust-calculation-frequency)。
 
 1. 在&#x200B;**[!UICONTROL Pressure]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 7d]**&#x200B;作為&#x200B;**[!UICONTROL Period considered]**，選取&#x200B;**[!UICONTROL Grouping per day]**&#x200B;作為&#x200B;**[!UICONTROL Period type]**。
 1. 在&#x200B;**[!UICONTROL Typologies]**&#x200B;索引標籤中，將規則連結至行銷活動型別。
@@ -326,7 +326,7 @@ ht-degree: 7%
 
 現在，為您要套用壓力規則的每個傳遞建立和設定工作流程。
 
-1. 建立行銷活動。 [了解更多](../campaigns/marketing-campaign-create.md#create-a-campaign)。
+1. 建立行銷活動。 [了解更多資訊](../campaigns/marketing-campaign-create.md#create-a-campaign)。
 1. 在行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，新增&#x200B;**查詢**&#x200B;活動至您的工作流程。 有關使用此活動的詳細資訊，請參閱[本區段](../workflow/query.md)。
 1. 將&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動新增至工作流程並開啟它。 有關使用此活動的詳細資訊，請參閱[本區段](../workflow/delivery.md)。
 1. 前往&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Approvals]**&#x200B;標籤，並停用所有核准。
@@ -343,13 +343,13 @@ ht-degree: 7%
 
    ![](assets/campaign_opt_pressure_example_4.png)
 
-   為了成功實作壓力規則排除，請務必在聯絡日期與時間之前設定提取日期與時間，以及在重新套用夜間仲裁之前。 [了解更多](#exclusion-after-arbitration)。
+   為了成功實作壓力規則排除，請務必在聯絡日期與時間之前設定提取日期與時間，以及在重新套用夜間仲裁之前。 [了解更多資訊](#exclusion-after-arbitration)。
 
 1. 取消選取&#x200B;**[!UICONTROL Confirm the delivery before sending]**&#x200B;選項並儲存變更。
 1. 以類似方式繼續處理您要傳送的每個傳遞。 請務必為每個傳遞設定所需的權重。
 1. 執行相關工作流程以準備和傳送傳遞。
 
-套用夜間仲裁時，將排除相同收件者具有較低權重的傳送。 只有權重最高的傳遞才會被視為傳送。 [了解更多](#message-weight)。
+套用夜間仲裁時，將排除相同收件者具有較低權重的傳送。 只有權重最高的傳遞才會被視為傳送。 [了解更多資訊](#message-weight)。
 
 考慮到本週早些時候已傳送電子郵件給相關收件者，下表顯示可再套用兩次傳送的設定範例。
 

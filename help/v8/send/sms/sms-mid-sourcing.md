@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 1%
 
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
-在開啟的新視窗上，從&#x200B;**[!UICONTROL Named rights]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Folder]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
+1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**按鈕。
+在開啟的新視窗上，從**[!UICONTROL Folder]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Named rights]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;按鈕。
 

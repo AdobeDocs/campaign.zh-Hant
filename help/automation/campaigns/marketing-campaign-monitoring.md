@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,6 @@ ht-degree: 2%
 
 ## 追蹤執行 {#execution-tracking}
 
-您可以按一下&#x200B;**[!UICONTROL Deliveries]** (可透過Adobe Campaign首頁存取)來檢查傳遞狀態。
+您可以按一下&#x200B;**[!UICONTROL Deliveries]** （可透過Adobe Campaign首頁存取）來檢查傳遞狀態。
 
-行銷活動中執行之處理的詳細資訊會收集在行銷活動的&#x200B;**[!UICONTROL Edit > Audit]**&#x200B;索引標籤中。 您可以在行銷活動中檢視傳遞清單。 [了解更多](#tracking-a-campaign)。
+行銷活動中執行之處理的詳細資訊會收集在行銷活動的&#x200B;**[!UICONTROL Edit > Audit]**&#x200B;索引標籤中。 您可以在行銷活動中檢視傳遞清單。 [了解更多資訊](#tracking-a-campaign)。

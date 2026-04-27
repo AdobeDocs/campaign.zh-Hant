@@ -5,9 +5,10 @@ description: 瞭解如何建立和插入個人化優惠券
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
+exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 1%
 
 優惠券管理依賴必須安裝的套件。 若要確認您有優惠券管理，請核取&#x200B;**[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
-抵用券資料可以使用CSV和XML格式匯入和匯出。 [了解更多](../start/import.md)。
+抵用券資料可以使用CSV和XML格式匯入和匯出。 [了解更多資訊](../start/import.md)。
 
 ## 建立抵用券 {#creating-a-coupon}
 
@@ -47,7 +48,7 @@ ht-degree: 1%
 
    **[!UICONTROL Anonymous coupons]** ：所有收件者的匿名抵用券都相同。 確認已在&#x200B;**優惠券型別**&#x200B;功能表中選取「匿名」，然後按一下&#x200B;**儲存**&#x200B;以產生優惠券。
 
-   **[!UICONTROL Individual coupons]** ：個別優惠券可進一步個人化並提供額外優惠券代碼。 例如，在體育器材商店為銷售建立個別優惠券。 不過，收件者名單很長，他們對單一運動沒有相同的熱情。 您可以根據運動（例如足球、足球、棒球等）為個別優惠券新增代碼名稱，並將每個代碼傳送給適用的收件者。
+   **[!UICONTROL Individual coupons]** ：個別優惠券可進一步個人化並提供額外優惠券代碼。 例如，在體育器材商店為銷售建立個別優惠券。 不過，收件者名單很長，他們對單一運動沒有相同的熱情。 您可以根據運動（例如足球、足球、棒球等）為個別優惠券新增程式碼名稱 並將每個程式碼傳送給適用的收件者。
 
    1. 選擇「個人」時，新標籤「抵用券」會出現在左下方。 前往&#x200B;**[!UICONTROL Coupons]**&#x200B;標籤並按一下&#x200B;**[!UICONTROL Add]**。
    1. 在快顯視窗提示時，輸入個別優惠券的唯一代碼。
@@ -129,7 +130,7 @@ ht-degree: 1%
 
    ![](assets/deliv_coup_15.png)
 
-1. 按一下 **[!UICONTROL Analyze]**。如果分析記錄檔確認所有收件者都有足夠的優惠券，請按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;以傳送。
+1. 按一下 **[!UICONTROL Analyze]**。 如果分析記錄檔確認所有收件者都有足夠的優惠券，請按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;以傳送。
 
    ![](assets/deliv_coup_16.png)
 
@@ -148,9 +149,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多](../dev/datamodel.md#ootb-profiles)。
+>依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多資訊](../dev/datamodel.md#ootb-profiles)。
 >
->在此頁面[中瞭解如何使用自訂收件者資料表](../dev/custom-recipient.md)。
+>在此頁面](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表[。
 
 ## 管理不足的優惠券 {#managing-insufficient-coupons}
 

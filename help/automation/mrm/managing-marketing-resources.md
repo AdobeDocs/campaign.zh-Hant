@@ -7,7 +7,7 @@ role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
    ![](assets/add-a-mkt-resource.png)
-1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**&#x200B;連結。
+1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**連結。
    ![](assets/mkt-resource-creation.png)
 
 上傳完成後，資源會新增至可用資源清單中。

@@ -8,7 +8,7 @@ exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1944'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 資料結構 {#data-structure}
 
-資料封裝的描述是符合&#x200B;**xrk：navtree**&#x200B;資料結構描述語法的結構化XML檔案，如下列範例所示：
+資料封裝的描述是符合&#x200B;**xrk:navtree**&#x200B;資料結構描述語法的結構化XML檔案，如下列範例所示：
 
 ```xml
 <package>
@@ -93,7 +93,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 
    >[!CAUTION]
    >
-   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk：folder**，因為您可能會遺失部分資料。 選取與資料夾對應的實體： **nms：offerCategory** （選件類別）、**nms：offerEnv** （選件環境）、**nms：program** （方案）和&#x200B;**nms：plan** （計畫）。
+   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 選取與資料夾對應的實體：優惠方案類別為&#x200B;**nms:offerCategory**、優惠方案環境為&#x200B;**nms:offerEnv**、方案為&#x200B;**nms:program**、計畫為&#x200B;**nms:plan**。
 
    相依性機制會控制實體匯出順序。 如需詳細資訊，請參閱[管理相依性](#manage-dependencies)。
 

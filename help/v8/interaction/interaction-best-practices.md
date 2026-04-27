@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -111,9 +111,9 @@ ht-degree: 0%
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### 擴充nms：offer綱要 {#extending-nms-offer-schema}
+### 擴充nms:offer結構描述 {#extending-nms-offer-schema}
 
-擴充nms：offer綱要時，請務必遵循已設定的現成結構：
+擴充nms:offer結構描述時，請確定您已依照現成可用的結構完成設定：
 * 為`<element name="view">`下的內容儲存定義任何新欄位。
 * 每個新欄位需要定義兩次。 一次作為一般XML欄位，另一次作為CDATA XML欄位，並在名稱后面附加「_jst」。 例如：
 

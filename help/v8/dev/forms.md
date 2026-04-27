@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 輸入表單可讓您從Adobe Campaign使用者端主控台編輯與資料結構描述相關聯的執行個體。 表單由其名稱和名稱空間識別。
 
-表單的識別索引鍵是由名稱空間和名稱組成的字串，以冒號分隔，例如：「cus：contact」。
+表單的識別索引鍵是由名稱空間和名稱組成的字串，以冒號分隔，例如：「cus:contact」。
 
 ## 編輯輸入表單
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 表單結構
 
-表單的描述是結構化XML檔案，它遵循表單結構描述&#x200B;**xtk：form**&#x200B;的語法。
+表單的描述是結構化XML檔案，它遵循表單結構描述&#x200B;**xtk:form**&#x200B;的語法。
 
 輸入表單的XML檔案必須包含具有&#x200B;**名稱**&#x200B;和&#x200B;**名稱空間**&#x200B;屬性的`<form>`根專案，才能填入表單名稱和名稱空間。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 </form>
 ```
 
-依預設，表單會與具有相同名稱和名稱空間的資料結構描述相關聯。 若要將表單與不同名稱建立關聯，請將`<form>`專案的&#x200B;**entity-schema**&#x200B;屬性設定為結構描述金鑰的名稱。 為了說明輸入表單的結構，讓我們使用「cus：recipient」範例結構描述介面：
+依預設，表單會與具有相同名稱和名稱空間的資料結構描述相關聯。 若要將表單與不同名稱建立關聯，請將`<form>`專案的&#x200B;**entity-schema**&#x200B;屬性設定為結構描述金鑰的名稱。 為了說明輸入表單的結構，讓我們使用&quot;cus:recipient&quot;範例結構描述來說明介面：
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 依預設，每個欄位都會顯示在一行上，並依據資料型別佔用所有可用空間。
 
-所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=zh-Hant){target="_blank"}中。
+所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}中。
 
 ## 格式 {#formatting}
 
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 主要容器由&#x200B;**type=&quot;iconbox&quot;**&#x200B;屬性定義。 與圖示關聯的頁面會在子容器中宣告。 圖示的標籤是從&#x200B;**label**&#x200B;屬性填入。
 
-頁面圖示是從`img="<image>"`屬性填入，其中`<image>`是對應至其索引鍵（由名稱和名稱空間組成，如&quot;xtk：properties.png&quot;）的影像名稱。
+頁面圖示是從`img="<image>"`屬性填入，其中`<image>`是對應至其索引鍵（由名稱和名稱空間組成，如&quot;xtk:properties.png&quot;）的影像名稱。
 
 可從&#x200B;**[!UICONTROL Administration > Configuration > Images]**&#x200B;節點取得影像。
 
@@ -253,7 +253,7 @@ ht-degree: 0%
 條件語法的範例：
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneeolane.net&#39;&quot;**：測試字串型別資料的相等性。 比較值必須以引號括住。
-* **visibleIf=&quot;@gender >= 1和@gender！= 2&quot;**：數值的條件。
+* **visibleIf=&quot;@gender >= 1和@gender != 2&quot;**：數值的條件。
 * **visibleIf=&quot;@boolean1=true or @boolean2=false&quot;**：測試布林值欄位。
 
 ### 條件式顯示(enabledGroup) {#enabling-container}
@@ -293,7 +293,7 @@ ht-degree: 0%
 
 **[!UICONTROL Modify the link]** （資料夾）圖示會啟動包含目標元素清單和篩選區域的選擇表單。
 
-**[!UICONTROL Edit link]** （放大鏡）圖示會啟動連結專案的編輯表單。 根據預設，使用的形式是在目標架構的索引鍵上推斷。 **表單**&#x200B;屬性可讓您強制使用編輯表單的名稱（例如&quot;cus：company2&quot;）。
+**[!UICONTROL Edit link]** （放大鏡）圖示會啟動連結專案的編輯表單。 根據預設，使用的形式是在目標架構的索引鍵上推斷。 **表單**&#x200B;屬性可讓您強制使用編輯表單的名稱（例如「cus:company2」）。
 
 您可以從輸入表單的連結定義中新增&#x200B;**`<sysfilter>`**&#x200B;元素，以限制目標元素的選擇：
 
@@ -392,7 +392,7 @@ ht-degree: 0%
 </srcSchema>
 ```
 
-例如，我們以&quot;cus：recipient&quot;綱要的輸入表單開始。 清單必須顯示與服務訂閱的關聯，而且必須允許您透過選取現有服務來新增訂閱。
+例如，我們以&quot;cus:recipient&quot;結構描述的輸入表單開始。 清單必須顯示與服務訂閱的關聯，而且必須允許您透過選取現有服務來新增訂閱。
 
 ![](assets/do-not-localize/form_exemple12.png)
 

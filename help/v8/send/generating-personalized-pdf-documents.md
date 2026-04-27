@@ -5,7 +5,8 @@ description: 瞭解如何產生個人化PDF檔案
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 1%

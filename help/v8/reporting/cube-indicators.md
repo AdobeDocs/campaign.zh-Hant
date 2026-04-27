@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 您可以使用立方體來：
 
-* 直接在報表中匯出資料(在Adobe Campaign平台的&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤中設計)。
+* 直接在報表中匯出資料（在Adobe Campaign平台的&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤中設計）。
 
   要執行此操作，請建立新報表並選取您要使用的立方結構。
 
@@ -56,10 +56,10 @@ ht-degree: 3%
 
 若要建立立方結構，請套用下列步驟：
 
-1. 選取工作表。 [了解更多](#select-the-work-table)。
-1. 定義維度。 [了解更多](#define-dimensions)。
-1. 定義測量。 [了解更多](#build-indicators)。
-1. 建立彙總（選用）。 [了解更多](customize-cubes.md#calculate-and-use-aggregates)。
+1. 選取工作表。 [了解更多資訊](#select-the-work-table)。
+1. 定義維度。 [了解更多資訊](#define-dimensions)。
+1. 定義測量。 [了解更多資訊](#build-indicators)。
+1. 建立彙總（選用）。 [了解更多資訊](customize-cubes.md#calculate-and-use-aggregates)。
 
 在下列範例中，瞭解如何在報告中快速建立簡單的立方結構以匯出其測量。
 
@@ -91,9 +91,9 @@ ht-degree: 3%
 
 1. 在此範例中，我們選取的是收件者&#x200B;**年齡**。 對於此欄位，您可以定義量化以分組年齡，並讓資訊閱讀更容易。 當存在數個獨立值的可能性時，我們建議使用量化。
 
-若要這麼做，請核取&#x200B;**[!UICONTROL Enable binning]**&#x200B;選項。 [了解更多](customize-cubes.md#data-binning)。
+若要這麼做，請核取&#x200B;**[!UICONTROL Enable binning]**&#x200B;選項。 [了解更多資訊](customize-cubes.md#data-binning)。
 
-1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**&#x200B;欄位。
+1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**欄位。
 您可以自訂日期顯示模式。 若要這麼做，請選取要使用的階層以及要產生的層次：
 
 ![](assets/cube-date-dimension.png)
@@ -125,7 +125,7 @@ ht-degree: 3%
 
    ![](assets/cube-new-measure.png)
 
-   使用&#x200B;**[!UICONTROL Filter the measure data...]**&#x200B;連結僅選取女性。 [了解更多](customize-cubes.md#define-measures)。
+   使用&#x200B;**[!UICONTROL Filter the measure data...]**&#x200B;連結僅選取女性。 [了解更多資訊](customize-cubes.md#define-measures)。
 
    ![](assets/cube-filter-measure-data.png)
 
@@ -136,4 +136,4 @@ ht-degree: 3%
 1. 儲存立方體。
 
 
-您現在可以根據此多維度資料集建立報告。 [了解更多](cube-tables.md)。
+您現在可以根據此多維度資料集建立報告。 [了解更多資訊](cube-tables.md)。

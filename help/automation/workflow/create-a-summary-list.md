@@ -99,7 +99,7 @@ Phone;500;London 5
 現在連結已建立，我們會從「商店」結構描述新增欄至工作流程的工作表：「郵遞區號參考」欄位。
 
 1. 開啟擴充活動。
-1. 按一下&#x200B;**[!UICONTROL Edit additional data]**。
+1. 按一下 **[!UICONTROL Edit additional data]**。
 1. 將「郵遞區號參考」欄位新增至&#x200B;**[!UICONTROL Output columns]**。
 
 ![](assets/uc2_enrich_enrich5.png)
@@ -150,7 +150,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. 按一下&#x200B;**[!UICONTROL Next]**。
+1. 按一下 **[!UICONTROL Next]**。
 1. 新增下列運算式以計算每個聯絡人的購買總計：&quot;Sum(@prodprice)&quot;。
 
    ![](assets/uc2_enrich_enrich6.png)
