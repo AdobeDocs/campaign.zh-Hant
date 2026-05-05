@@ -159,17 +159,17 @@ This section explains how to prioritize conditions thanks to the blue arrows in 
 
 **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**
 
-**[!UICONTROL Gender (@gender) equal to Male]****[!UICONTROL Remove a parenthesis level]**
+**[!UICONTROL Gender (@gender) equal to Male]**&#x200B;**[!UICONTROL Remove a parenthesis level]**
 
 ![](assets/query_editor_nveau_32.png)
 
-**[!UICONTROL Gender (@gender) equal to Male]****[!UICONTROL And]**
+**[!UICONTROL Gender (@gender) equal to Male]**&#x200B;**[!UICONTROL And]**
 
 ## Select data to extract {#selecting-data-to-extract}
 
 **[!UICONTROL Main element]**
 
-**[!UICONTROL Email domain]****[!UICONTROL Calculated SQL field]****[!UICONTROL (@domain)]**
+**[!UICONTROL Email domain]**&#x200B;**[!UICONTROL Calculated SQL field]**&#x200B;**[!UICONTROL (@domain)]**
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -183,7 +183,7 @@ This section explains how to prioritize conditions thanks to the blue arrows in 
 
 **[!UICONTROL Display advanced fields]**
 
-******[!UICONTROL Boolean 2]****[!UICONTROL Boolean 3]****[!UICONTROL Foreign key of "Folder" link]**
+**&#x200B;**&#x200B;**[!UICONTROL Boolean 2]**&#x200B;**[!UICONTROL Boolean 3]**&#x200B;**[!UICONTROL Foreign key of "Folder" link]**
 
 The following example shows the advanced fields of the recipient table.
 
@@ -259,8 +259,8 @@ The various categories of fields:
 
 >[!NOTE]
 >
->* 使用&#x200B;**[!UICONTROL Add]**&#x200B;按鈕（在側邊圖示列上方）新增要編輯運算式的輸出資料行。 [](#building-expressions)
->* ****
+>* 使用&#x200B;**[!UICONTROL Add]**&#x200B;按鈕（在側邊圖示列上方）新增要編輯運算式的輸出資料行。 [&#128279;](#building-expressions)
+>* **&#x200B;**
 >* Change the order of the output columns using the arrows.
 >* **[!UICONTROL Distribution of values]**
 
@@ -288,7 +288,7 @@ The various categories of fields:
 
   It&#39;s possible to use the source value of a column and give it a destination value. This destination value will be displayed in the new output column.
 
-  **[!UICONTROL Enumerations]**[](../../automation/workflow/adding-enumeration-type-calculated-field.md)
+  **[!UICONTROL Enumerations]**&#x200B;[&#128279;](../../automation/workflow/adding-enumeration-type-calculated-field.md)
 
   ![](assets/query_editor_nveau_63.png)
 
@@ -313,11 +313,11 @@ The following example shows you how to run a count on a primary key.
 
 應用以下步驟：
 
-1. **[!UICONTROL Add]****[!UICONTROL Data to extract]****[!UICONTROL Formula type]**
+1. **[!UICONTROL Add]**&#x200B;**[!UICONTROL Data to extract]**&#x200B;**[!UICONTROL Formula type]**
 
-   **[!UICONTROL Field only]****[!UICONTROL Aggregate]****[!UICONTROL Expression]**
+   **[!UICONTROL Field only]**&#x200B;**[!UICONTROL Aggregate]**&#x200B;**[!UICONTROL Expression]**
 
-   **[!UICONTROL Process on an aggregate function]****[!UICONTROL Count]**&#x200B;按一下 **[!UICONTROL Next]**。
+   **[!UICONTROL Process on an aggregate function]**&#x200B;**[!UICONTROL Count]**&#x200B;按一下 **[!UICONTROL Next]**。
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -329,7 +329,7 @@ The following example shows you how to run a count on a primary key.
 
 ![](assets/query_editor_nveau_05.png)
 
-1. **[!UICONTROL Field only]****[!UICONTROL Field to select]**
+1. **[!UICONTROL Field only]**&#x200B;**[!UICONTROL Field to select]**
 1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. 
 
    * **[!UICONTROL Count]**
@@ -340,15 +340,15 @@ The following example shows you how to run a count on a primary key.
 
      **[!UICONTROL Distinct]**
 
-1. **[!UICONTROL Expression]****[!UICONTROL Edit the expression]**
+1. **[!UICONTROL Expression]**&#x200B;**[!UICONTROL Edit the expression]**
 
    ![](assets/query_editor_nveau_71.png)
 
-   [](#list-of-functions)
+   [&#128279;](#list-of-functions)
 
 ## 函式清單 {#list-of-functions}
 
-**[!UICONTROL Expression]****[!UICONTROL Aggregates]****[!UICONTROL String]****[!UICONTROL Date]****[!UICONTROL Numerical]****[!UICONTROL Currency]****[!UICONTROL Geomarketing]****[!UICONTROL Windowing function]****[!UICONTROL Others]**
+**[!UICONTROL Expression]**&#x200B;**[!UICONTROL Aggregates]**&#x200B;**[!UICONTROL String]**&#x200B;**[!UICONTROL Date]**&#x200B;**[!UICONTROL Numerical]**&#x200B;**[!UICONTROL Currency]**&#x200B;**[!UICONTROL Geomarketing]**&#x200B;**[!UICONTROL Windowing function]**&#x200B;**[!UICONTROL Others]**
 
 The expression editor looks like this:
 
@@ -356,7 +356,7 @@ The expression editor looks like this:
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
 
-****
+**&#x200B;**
 
 <table> 
  <tbody> 
@@ -994,7 +994,7 @@ It lets you select fields in the database tables and add advanced functions to t
  </tbody> 
 </table>
 
-****
+**&#x200B;**
 
 <table> 
  <tbody> 

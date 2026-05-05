@@ -34,4 +34,4 @@ ht-degree: 20%
 
 ![](assets/create-profile.png)
 
-匯入後，您可以建立對象以傳送訊息。 在本節](create-audiences.md)中瞭解如何建立對象[。
+匯入後，您可以建立對象以傳送訊息。 在本節[&#128279;](create-audiences.md)中瞭解如何建立對象。
