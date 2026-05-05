@@ -284,7 +284,7 @@ ht-degree: 1%
 
 建立目標定位工作流程時，如果核准是自動的（預設模式），Adobe Campaign會顯示核准連結，或在需要核準時立即傳送通知。
 
-若要選擇核准模式（手動或自動），請按一下行銷活動或行銷活動範本的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**，最後按一下&#x200B;**[!UICONTROL Approvals]**&#x200B;標籤。
+若要選擇核准模式（手動或自動），請按一下行銷活動或行銷活動範本的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**，最後按一下&#x200B;**[!UICONTROL Approvals]**標籤。
 par
 ![](assets/approval-mode.png)
 

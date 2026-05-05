@@ -151,7 +151,7 @@ ht-degree: 1%
 >
 >依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多資訊](../dev/datamodel.md#ootb-profiles)。
 >
->在此頁面[&#128279;](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表。
+>在此頁面](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表[。
 
 ## 管理不足的優惠券 {#managing-insufficient-coupons}
 

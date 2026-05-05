@@ -78,7 +78,7 @@ ht-degree: 3%
 
 選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，**[!UICONTROL Target elements]**&#x200B;區段隨即開啟。 在這裡，您可以定義規則來篩選要收集的資料。
 
-* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁[&#128279;](filter-conditions.md)的所述。
+* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁](filter-conditions.md)的[所述。
 
 * 若要重複使用現有的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選擇您想要的篩選器。
 

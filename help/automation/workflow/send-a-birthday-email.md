@@ -192,6 +192,6 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >若要執行工作流程，必須啟動與行銷活動套件相關的技術工作流程。 如需詳細資訊，請參閱[技術工作流程清單](technical-workflows.md)區段。
 >
->如果已為行銷活動啟用核准步驟，則只有在確認這些步驟後，才會傳送傳送。 有關詳細資訊，請參閱   區段。
+>如果已為行銷活動啟用核准步驟，則只有在確認這些步驟後，才會傳送傳送。 如需詳細資訊，請參閱區段。
 
 ![](assets/birthday-workflow_usecase_1.png)

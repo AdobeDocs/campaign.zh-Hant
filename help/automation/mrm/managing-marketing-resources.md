@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
    ![](assets/add-a-mkt-resource.png)
-1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**&#x200B;連結。
+1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**連結。
    ![](assets/mkt-resource-creation.png)
 
 上傳完成後，資源會新增至可用資源清單中。

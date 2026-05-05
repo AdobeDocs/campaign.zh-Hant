@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->新增&#x200B;**Else**&#x200B;和&#x200B;**Else if**&#x200B;條件後，必須刪除&#x200B;**%> &lt;%**&#x200B;字元。
+>新增&#x200B;**Else**&#x200B;和&#x200B;**如果**&#x200B;條件，則必須刪除&#x200B;**%> &lt;%**&#x200B;字元。
 
 
 ## 使用案例：建立多語言電子郵件 {#creating-multilingual-email}
@@ -86,4 +86,4 @@ ht-degree: 10%
 
 此影片以多語言電子報為範例，示範如何新增條件式內容至傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426541?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

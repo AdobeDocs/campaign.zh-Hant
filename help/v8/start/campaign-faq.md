@@ -85,13 +85,13 @@ ht-degree: 96%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  以下載 Adobe Campaign。
+   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} 以下載 Adobe Campaign。
 
-   在[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁中進一步瞭解發佈中心。
+   在](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁[中進一步瞭解發佈中心。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
-   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}
+   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **如何記錄問題？**
