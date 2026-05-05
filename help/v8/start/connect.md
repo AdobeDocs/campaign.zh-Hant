@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
+source-git-commit: 5319391ca0f76292e57fafae540b7edb7925892b
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1111'
+ht-degree: 94%
 
 ---
 
@@ -90,6 +90,19 @@ Campaign 使用者透過 Adobe 身分管理系統 (IMS)，使用其 Adobe ID 連
 >[!NOTE]
 >
 >由於 Microsoft Edge Webview2 不會儲存 Proxy 認證，所以主控台可能會要求您在第一次連線時驗證兩次。
+
+## 疑難排解Adobe ID登入問題 {#troubleshoot-ims-login}
+
+如果您在使用Adobe ID登入&#x200B;**[!UICONTROL Client Console]**&#x200B;時發生問題，請嘗試清除本機WebView2快取。 在大多數情況下，這可以解決問題。 請遵循以下步驟：
+
+1. 關閉&#x200B;**[!UICONTROL Client Console]**&#x200B;並停止任何執行中的`nlclient`處理序。
+
+1. 從下列位置刪除所有`webview2`和`webview2Cache`資料夾。
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. 重新啟動&#x200B;**[!UICONTROL Client Console]**&#x200B;並使用您的Adobe ID登入。 快取資料夾將在下次啟動時自動重新建立。
 
 ## 升級用戶端主控台{#upgrade-ac-console}
 
