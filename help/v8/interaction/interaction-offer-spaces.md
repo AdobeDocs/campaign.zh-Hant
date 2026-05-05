@@ -156,4 +156,4 @@ HTML呈現會透過呈現函式建立。 轉譯函式中定義的欄位順序必
 
 當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已延伸，以使用傳入頻道新增空間中所參照的欄位時，就會發生這種情況。
 
-如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}中的範例。
+如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=zh-Hant){target="_blank"}中的範例。
