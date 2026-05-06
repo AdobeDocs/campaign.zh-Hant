@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 在授予所有核准後，傳遞狀態會變更為&#x200B;**[!UICONTROL Pending extraction]**。 解壓縮檔案是透過專用的[技術工作流程](../workflow/technical-workflows.md)建立的，在預設設定中，當直接郵件傳遞擱置解壓縮時，會自動啟動解壓縮檔案。 處理進行中時，會顯示於控制面板中，並可透過其連結進行編輯。
 
-成功執行擷取工作流程後，必須核准擷取檔案（前提是已在傳送設定中選取擷取檔案核准）。 [了解更多](marketing-campaign-approval.md#approving-an-extraction-file)。
+成功執行擷取工作流程後，必須核准擷取檔案（前提是已在傳送設定中選取擷取檔案核准）。 [了解更多資訊](marketing-campaign-approval.md#approving-an-extraction-file)。
 
 請依照下列步驟驗證內容，並將檔案傳送給提供者：
 

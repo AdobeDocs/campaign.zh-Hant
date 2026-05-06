@@ -5,7 +5,7 @@ feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1028'
 ht-degree: 10%
 
 ---
@@ -174,7 +174,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 ## 熱點點擊 {#hot-clicks}
 
-此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
+此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 此報表提供有關開啟、點按和交易的統計資料。
 
-它可讓您追蹤傳送的行銷影響。 您可以透過變更時幅（1小時、3小時或24小時檢視等）來設定值的顯示方式。 按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以確認您的選擇。
+它可讓您追蹤傳送的行銷影響。 您可以透過變更時幅（1小時、3小時或24小時檢視等）來設定值的顯示方式。 按一下 **[!UICONTROL Refresh]** 以確認您的選取。
 
 此報表提供值表格和柏瑞圖圖表，顯示傳遞達到最高效率所需的時間。 使用下列指標：
 

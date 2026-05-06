@@ -5,10 +5,11 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 5%
 
 ---
 
@@ -62,7 +63,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 服務提供者已將其列入考量<br /> </td> 
-   <td> 對於SMS傳遞，SMS服務提供者會收到傳遞。<br />對於電子郵件傳遞，訊息已成功從Campaign轉送至MTA （郵件傳輸代理程式）。</td> 
+   <td> 對於SMS傳遞，SMS服務提供者已收到傳遞。<br /> 對於電子郵件傳遞，訊息已成功從Campaign轉送至MTA （郵件傳輸代理程式）。</td> 
   </tr> 
   <tr> 
    <td> 已在行動<br />上收到 </td> 
@@ -70,7 +71,7 @@ ht-degree: 3%
   </tr>
   <tr> 
    <td> 已傳送給服務提供者<br /> </td> 
-   <td> 傳遞已傳送給SMS服務提供者，但尚未收到。<br />
+   <td> 傳遞內容已傳送給SMS服務提供者，但尚未收到。<br />
    </td> 
   </tr> 
   <tr> 
@@ -109,4 +110,3 @@ ht-degree: 3%
 * [傳送及監視您的電子郵件](send.md#email-monitoring)
 * [瞭解傳遞失敗](delivery-failures.md)
 * [監視您的Campaign環境](../start/monitor.md#monitor-deliveries)
-

@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 * 限制讀取和寫入許可權：
 
-  在此處，篩選器用於禁止所有運運算元在結構描述上同時具有讀取和寫入許可權。 只有&#x200B;**internal**&#x200B;帳戶，由運算式&quot;$(loginId)！表示=0」擁有這些許可權。
+  在此處，篩選器用於禁止所有運運算元在結構描述上同時具有讀取和寫入許可權。 只有&#x200B;**internal**&#x200B;帳戶(由運算式&quot;$(loginId)!=0&quot;表示)具有這些許可權。
 
   ```
   <sysFilter name="readAccess"> 
@@ -64,40 +64,40 @@ ht-degree: 2%
 
 依預設，只有具備管理員許可權的運運算元才可透過寫入許可權存取內建方案：
 
-* ncm：publishing
-* nl：monitoring
-* nms：calendar
-* xtk：builder
-* xtk：連線
-* xtk：dbInit
-* xtk：entityBackupNew
-* xtk：entityBackupOriginal
-* xtk：entityOriginal
-* xtk：form
-* xtk：funcList
-* xtk：fusion
-* xtk：image
-* xtk：javascript
-* xtk：jssp
-* xtk：jst
-* xtk：navtree
-* xtk：operatorGroup
-* xtk：package
-* xtk：queryDef
-* xtk：resourceMenu
-* xtk：rights
-* xtk：schema
-* xtk：scriptContext
-* xtk：specFile
-* xtk：sql
-* xtk：sqlSchema
-* xtk：srcSchema
-* xtk：strings
-* xtk：xslt
+* ncm:publishing
+* nl:monitoring
+* nms:calendar
+* xtk:builder
+* xtk:connections
+* xtk:dbInit
+* xtk:entityBackupNew
+* xtk:entityBackupOriginal
+* xtk:entityOriginal
+* xtk:form
+* xtk:funcList
+* xtk:fusion
+* xtk:image
+* xtk:javascript
+* xtk:jssp
+* xtk:jst
+* xtk:navtree
+* xtk:operatorGroup
+* xtk:package
+* xtk:queryDef
+* xtk:resourceMenu
+* xtk:rights
+* xtk:schema
+* xtk:scriptContext
+* xtk:specFile
+* xtk:sql
+* xtk:sqlSchema
+* xtk:srcSchema
+* xtk:strings
+* xtk:xslt
 
 >[!CAUTION]
 >
->**xtk：sessionInfo**&#x200B;結構描述的讀取和寫入許可權只能由Adobe Campaign執行個體的內部帳戶存取。
+>**xtk:sessionInfo**&#x200B;結構描述的讀取和寫入許可權只能由Adobe Campaign執行個體的內部帳戶存取。
 
 ## 修改內建綱要的系統篩選器
 

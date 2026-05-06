@@ -1,6 +1,6 @@
 ---
 title: 使用Adobe Campaign傳送電子郵件
-description: 開始使用 Adobe Campaign 中的電子郵件。向目標群體寄送個人化電子郵件。
+description: 開始使用 Adobe Campaign 中的電子郵件。 向目標群體寄送個人化電子郵件。
 feature: Email
 role: User
 level: Beginner
@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 9%
+source-wordcount: '588'
+ht-degree: 8%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 9%
 
      在[本節](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
-1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至BBC地址、變更訊息格式、設定特定編碼等。 若要了解更多資訊，請參閱[此區段](email-parameters.md)。
+1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至BBC地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
 
 1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 

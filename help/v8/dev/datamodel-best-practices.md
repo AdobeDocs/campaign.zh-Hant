@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '2740'
-ht-degree: 4%
+source-wordcount: '2777'
+ht-degree: 5%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 | 識別碼 | 說明 | 最佳實務 |
 |--- |--- |--- |
 | ID | <ul><li>ID是Adobe Campaign表格的實體主索引鍵。 若為內建表格，則為通用唯一ID (UUID)</li><li>此識別碼必須是唯一的。 </li><li>UUID可顯示在結構描述定義中。</li></ul> | <ul><li>自動產生的識別碼不應在工作流程或封裝定義中作為參考使用。</li><li>表格中的ID是UUID，且此型別不應變更。</li></ul> |
-| 名稱（或內部名稱） | <ul><li>此資訊是表格中記錄的唯一識別碼。 此值可以手動更新，通常使用產生的名稱。</li><li>此識別碼在Adobe Campaign的不同執行個體中部署時保留其值，且不應空白。</li></ul> | <ul><li>如果物件要從某個環境部署至另一個環境，請重新命名Adobe Campaign產生的記錄名稱。</li><li>當物件具有名稱空間屬性（例如&#x200B;*結構描述*）時，將會在建立的所有自訂物件中運用這個通用名稱空間。 部分保留的名稱空間不應使用： *nms*、*xtk*&#x200B;等  請注意，某些名稱空間僅供內部使用。 [了解更多](schemas.md#reserved-namespaces)。</li><li>當物件沒有任何名稱空間（例如&#x200B;*工作流程*&#x200B;或&#x200B;*傳遞*）時，此名稱空間概念將會新增為內部名稱物件的前置詞： *namespaceMyObjectName*。</li><li>請勿使用空格「 」、分欄「： 」或連字型大小「 — 」等特殊字元。 所有這些字元都會取代為底線「_」（允許的字元）。 例如，「abc-def」和「abc：def」會儲存為「abc_def」並互相覆寫。</li></ul> |
+| 名稱（或內部名稱） | <ul><li>此資訊是表格中記錄的唯一識別碼。 此值可以手動更新，通常使用產生的名稱。</li><li>此識別碼在Adobe Campaign的不同執行個體中部署時保留其值，且不應空白。</li></ul> | <ul><li>如果物件要從某個環境部署至另一個環境，請重新命名Adobe Campaign產生的記錄名稱。</li><li>當物件具有名稱空間屬性（例如&#x200B;*結構描述*）時，將會在建立的所有自訂物件中運用這個通用名稱空間。 部分保留的名稱空間不應使用： *nms*、*xtk*&#x200B;等  請注意，某些名稱空間僅供內部使用。 [了解更多資訊](schemas.md#reserved-namespaces)。</li><li>當物件沒有任何名稱空間（例如&#x200B;*工作流程*&#x200B;或&#x200B;*傳遞*）時，此名稱空間概念將會新增為內部名稱物件的前置詞： *namespaceMyObjectName*。</li><li>請勿使用空格「 」、分欄「： 」或連字型大小「 — 」等特殊字元。 所有這些字元都會取代為底線「_」（允許的字元）。 例如，「abc-def」和「abc:def」會儲存為「abc_def」並互相覆寫。</li></ul> |
 | 標籤 | <ul><li>標籤是Adobe Campaign中物件或記錄的商業識別碼。</li><li>此物件允許使用空格和特殊字元。</li><li>它無法保證記錄的唯一性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是為Adobe Campaign使用者識別記錄或物件的最好用的解決方案。</li></ul> |
 
 在[Enterprise (FFDA)部署](../architecture/enterprise-deployment.md)的內容中，Adobe Campaign主索引鍵是所有內建資料表的自動產生UUID。 UUID也可用於自訂表格。 [了解更多](../architecture/keys.md)
@@ -151,7 +151,7 @@ Adobe Campaign既不是Data Warehouse也不是報表工具。 因此，為了確
 
 關於保留，Campaign 中的內建記錄表有預先設定的保留期間，通常將其資料儲存時間限制在六個月或更短時間。
 
-以下是內建表格的預設保留值。請注意，保留設定是由 Adobe 技術管理員在實施期間所設定，每個實作的值可能會因客戶需求而有所不同。
+以下是內建表格的預設保留值。 請注意，保留設定是由 Adobe 技術管理員在實施期間所設定，每個實作的值可能會因客戶需求而有所不同。
 
 * **整合追蹤**：1 年
 * **傳遞記錄**：6 個月
@@ -163,7 +163,7 @@ Adobe Campaign既不是Data Warehouse也不是報表工具。 因此，為了確
 * **事件**：1 個月
 * **事件處理統計資料**：1 個月
 * **已封存事件**：1 年
-* **忽略的管線事件**：1 個月
+* **忽略的管道事件**：1 個月
 
 >[!CAUTION]
 >

@@ -7,14 +7,14 @@ level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 76%
+source-wordcount: '496'
+ht-degree: 96%
 
 ---
 
 # Campaign 控制面板 {#ac-control-panel}
 
-您可以透過「Campaign 控制面板」，以 Adobe Campaign 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
+您可以透過「Campaign 控制面板」，以 Adobe Campaign 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。 其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
 
 主要優點：
 
@@ -32,9 +32,9 @@ ht-degree: 76%
 
 >[!IMPORTANT]
 >
->依預設，屬於「管理員」產品設定檔的管理員使用者可以存取「控制面板」。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」、「核准管理員」等）。 **任何名稱包含「admin」字詞的產品設定檔都會自動授與「控制面板」的存取權。**
+>依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。 根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。 **任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」存取權。**
 >
->請仔細檢閱您的產品設定檔命名，確保只有授權使用者才能存取「控制面板」。
+>請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。
 
 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant){target="_blank"}以獲得更多資訊。
 
@@ -51,7 +51,7 @@ ht-degree: 76%
 瞭解如何監視您的子網域及其憑證。
 
 * [監視子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=zh-Hant){target="_blank"}
-* [設定新子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant){target="_blank"}
+* [設定新的子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant){target="_blank"}
 * [監視子網域的SSL憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant){target="_blank"}
 
 ## 效能監視
@@ -62,7 +62,7 @@ ht-degree: 76%
 ## 執行個體設定
 
 瞭解如何在「控制面板」中管理您的 Campaign 執行個體設定。
-* [允許清單上的 IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=zh-Hant){target="_blank"}
+* [允許清單上的IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=zh-Hant){target="_blank"}
 * [URL 權限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=zh-Hant){target="_blank"}
 * [執行個體詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=zh-Hant){target="_blank"}
 * [GPG 金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant){target="_blank"}

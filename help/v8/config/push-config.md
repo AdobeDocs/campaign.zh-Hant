@@ -8,8 +8,8 @@ hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 1%
+source-wordcount: '1271'
+ht-degree: 2%
 
 ---
 
@@ -185,7 +185,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
 1. **當使用者的行動裝置權杖變更時，通知Campaign**
 
-   我們建議您在呼叫`registerDevice`函式時使用`onTokenRefresh`函式，將使用者行動裝置權杖中的變更通知Adobe Campaign。
+   我們建議您在呼叫`onTokenRefresh`函式時使用`registerDevice`函式，將使用者行動裝置權杖中的變更通知Adobe Campaign。
 
    例如：
 
@@ -224,7 +224,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
 
 1. **設定Firebase傳訊服務**
 
-   擴充`FirebaseMessagingService`回呼中的`onMessageReceived`以接收訊息。 我們建議您在呼叫`notifyReceive`回呼時呼叫`onMessageReceived`函式，以啟用追蹤行動裝置上的通知接收。 在Adobe Campaign中，此通知名為&#x200B;**列印**&#x200B;通知：在要求作業系統顯示通知之前，應該呼叫此函式。
+   擴充`onMessageReceived`回呼中的`FirebaseMessagingService`以接收訊息。 我們建議您在呼叫`onMessageReceived`回呼時呼叫`notifyReceive`函式，以啟用追蹤行動裝置上的通知接收。 在Adobe Campaign中，此通知名為&#x200B;**列印**&#x200B;通知：在要求作業系統顯示通知之前，應該呼叫此函式。
 
    YourApplicationMessagingService.java
 
@@ -497,7 +497,7 @@ Android SDK是使用JAVA撰寫的jar程式庫。 它可讓Android開發人員與
    對於通知訊息，追蹤接收必須在兩個層級設定：
 
    * `onMessageReceived` （不在背景中的應用程式）：實作已在上一節中完成
-   * 啟動活動的`onCreate` （若使用`click_action`函式，則為目標活動。） （應用程式不在背景中）。
+   * `onCreate`啟動活動（若使用`click_action`函式，則為目標活動）。 （應用程式不在背景中）。
 
    它必須與開啟/點選追蹤同時完成。
 

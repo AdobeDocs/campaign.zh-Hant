@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '2028'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
-此視窗可讓您輸入建立電子郵件標頭所需的所有資訊。 此資訊可個人化。 若要這麼做，請使用輸入欄位右側的按鈕，插入個人化欄位。
+此視窗可讓您輸入建立電子郵件標頭所需的所有資訊。 可將此資訊加以個人化。 若要這麼做，請使用輸入欄位右側的按鈕，插入個人化欄位。
 
 若要瞭解如何插入及使用個人化欄位，請參閱[本節](personalize.md)。
 
@@ -179,7 +179,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**&#x200B;圖示。
    ![](assets/s_ncs_user_email_del_img_param.png)
 
-1. 在&#x200B;**[!UICONTROL Upload images]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Images]**。
+1. 在&#x200B;**[!UICONTROL Images]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Upload images]**。
 1. 然後，您可以選擇是否要將這些影像納入電子郵件中。
    ![](assets/s_ncs_user_email_del_img_upload.png)
 

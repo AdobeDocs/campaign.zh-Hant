@@ -8,7 +8,7 @@ exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '315'
 ht-degree: 18%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 18%
 >
 >您必須至少擁有一個資料夾的寫入權限，才能夠建立物件。
 >
->若要建立片段，您無需具備管理員身分，但是您必須擁有至少一個「內容視覺片段」資料夾的寫入權限。否則，您將無法建立視覺片段。
+>若要建立片段，您無需具備管理員身分，但是您必須擁有至少一個「內容視覺片段」資料夾的寫入權限。 否則，您將無法建立視覺片段。
 
 ## 傳播許可權 {#propagate-permissions}
 

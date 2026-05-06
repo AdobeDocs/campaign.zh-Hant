@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_4.png)
 
-1. 按一下 **[!UICONTROL Finish]**。然後，在您&#x200B;**[!UICONTROL Split]**&#x200B;活動的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Results]**&#x200B;類別中的&#x200B;**[!UICONTROL Generate complement]**。
+1. 按一下 **[!UICONTROL Finish]**。 然後，在您&#x200B;**[!UICONTROL Split]**&#x200B;活動的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Results]**&#x200B;類別中的&#x200B;**[!UICONTROL Generate complement]**。
 
    有了該&#x200B;**[!UICONTROL Complement]**&#x200B;結果，您就可以新增傳遞活動或更新清單。 我們剛才已新增&#x200B;**[!UICONTROL End]**&#x200B;活動。
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_12.png)
 
-1. 按一下 **[!UICONTROL Ok]**。您的擴充功能現已準備就緒。
+1. 按一下 **[!UICONTROL Ok]**。 您的擴充功能現已準備就緒。
 
 在您的&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動後，您可以新增傳遞。 在此案例中，我們新增了電子郵件傳遞，以向收件者傳送包含有效日期的特殊優惠，給本月慶祝其生日的客戶。
 
@@ -109,7 +109,7 @@ ht-degree: 3%
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. 按一下 ![](assets/uc_enrichment_16.png)。選取&#x200B;**[!UICONTROL Target extension]**，然後選取先前以&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動建立的自訂有效日期，以將您的擴充功能新增至formatDate運算式。
+1. 按一下 ![](assets/uc_enrichment_16.png)。 選取&#x200B;**[!UICONTROL Target extension]**，然後選取先前以&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動建立的自訂有效日期，以將您的擴充功能新增至formatDate運算式。
 
    ![](assets/uc_enrichment_19.png)
 

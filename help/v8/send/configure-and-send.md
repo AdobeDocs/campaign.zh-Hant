@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 10%
+source-wordcount: '1209'
+ht-degree: 9%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 10%
    * 若要立即傳送傳遞，請選取&#x200B;**[!UICONTROL Deliver as soon as possible]**。
    * 若要排程傳送至之後的日期，請選取&#x200B;**[!UICONTROL Postpone the delivery]**。 [了解更多](#schedule-delivery-sending)
 
-1. 按一下 **[!UICONTROL Analyze]**。如需詳細資訊，請參閱[本節](delivery-analysis.md)。
+1. 按一下 **[!UICONTROL Analyze]**。 如需詳細資訊，請參閱[本節](delivery-analysis.md)。
 
    ![](assets/delivery-send-analyze.png)
 

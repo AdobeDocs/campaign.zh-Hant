@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 使用立方結構來建立報表，以及識別及選取資料庫中的資料。 您可以：
 
-* 根據立方體建立報告。 [了解更多](#explore-the-data-in-a-report)。
-* 收集資料庫中的資料，並將其分組到清單中，例如識別及建立目標及傳遞。 [了解更多](#build-a-target-population)。
-* 在報表中插入樞紐分析表，參照其中現有的立方結構。 [了解更多](#insert-a-pivot-table-into-a-report)。
+* 根據立方體建立報告。 [了解更多資訊](#explore-the-data-in-a-report)。
+* 收集資料庫中的資料，並將其分組到清單中，例如識別及建立目標及傳遞。 [了解更多資訊](#build-a-target-population)。
+* 在報表中插入樞紐分析表，參照其中現有的立方結構。 [了解更多資訊](#insert-a-pivot-table-into-a-report)。
 
 ## 探索報表中的資料 {#explore-the-data-in-a-report}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 若要根據現有的立方結構建立報告，請遵循下列步驟：
 
-1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Reports]**&#x200B;按鈕，然後選取您剛建立的Cube。
+1. 按一下&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，然後選取您剛建立的Cube。
 
    ![](assets/new-report-based-on-cube.png)
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![](assets/cube-report-config.png)
 
-1. 您可以切換尺寸的軸、刪除它們、新增測量等。 要執行此操作，請使用適當的圖示。
+1. 您可以切換尺寸的軸、刪除它們、新增測量等。要執行此操作，請使用適當的圖示。
 
    ![](assets/cube-switch-axis.png)
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   然後，您可以選擇是否要顯示測量標籤。 [了解更多](customize-cubes.md#configure-the-display)。
+   然後，您可以選擇是否要顯示測量標籤。 [了解更多資訊](customize-cubes.md#configure-the-display)。
 
 1. 您可以根據現有測量來建置新測量。 若要這麼做，請按一下&#x200B;**[!UICONTROL Create a measure]**&#x200B;並加以設定。
 

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 1%
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
    ![](assets/s_user_segmentation_fork.png)
 
 1. 開啟並設定每個出站轉變。
-1. 或者，若要聯結出站轉變，請新增AND — 聯結活動。 [了解更多](and-join.md)。
+1. 或者，若要聯結出站轉變，請新增AND — 聯結活動。 [了解更多資訊](and-join.md)。
 
    工作流程的後續部分只會在聯結的對外轉變完成後執行。
 
@@ -77,5 +77,5 @@ ht-degree: 1%
 
 ## 相關主題
 
-* [AND-join 活動](and-join.md)
+* [合併連結活動](and-join.md)
 * [使用案例：生日電子郵件](send-a-birthday-email.md)

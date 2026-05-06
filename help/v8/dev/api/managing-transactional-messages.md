@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->目前，使用REST API的交易式傳訊適用於電子郵件和簡訊頻道。 它僅適用於異動事件(擴充資料僅透過裝載提供，類似Adobe Campaign V8的運作)。
+>目前，使用REST API的交易式傳訊適用於電子郵件和簡訊頻道。 它僅適用於異動事件（擴充資料僅透過裝載提供，類似Adobe Campaign V8的運作）。
 
 建立並發佈交易式事件後，您需要將此事件的觸發專案整合至您的網站。
 

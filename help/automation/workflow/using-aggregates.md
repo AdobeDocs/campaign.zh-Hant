@@ -8,7 +8,7 @@ exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. 按一下&#x200B;**[!UICONTROL Edit additional data]**，然後再按&#x200B;**[!UICONTROL Advanced parameters...]**。 核取 **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 選項。
+1. 按一下 **[!UICONTROL Edit additional data]**，之後 **[!UICONTROL Advanced parameters...]**。 核取 **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 選項。
 
    此選項可確保不會顯示所有收件者，且不會保留明確新增的資料。 在此案例中，該日期是指上次建立收件者的日期。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    因此，用於條件的運算式為：
 
-   * **[!UICONTROL Expression]**： `toDate([target/@created])`。
+   * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Value]**： `toDate([datemax/expr####])`，其中expr####與彙總函式查詢中指定的彙總相關。
 
    ![](assets/datamanagement_usecase_4.png)

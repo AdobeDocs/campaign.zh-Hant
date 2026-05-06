@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 2%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 2%
 
 在工作流程內容中執行的JavaScripts會存取一系列其他全域物件。
 
-* **執行個體**：代表正在執行的工作流程。 此物件的結構描述是&#x200B;**xtk：workflow**。
-* **任務**：代表正在執行的任務。 此物件的結構描述是&#x200B;**xtk：workflowTask**。
-* **event**：代表啟動執行中工作的事件。 此物件的結構描述是&#x200B;**xtk：workflowEvent**。 此物件未針對已從多個轉變啟動的&#x200B;**AND-join**&#x200B;型別活動初始化。
-* **事件**：代表啟動目前工作的事件清單。 此物件的結構描述是&#x200B;**xtk：workflowEvent**。 此資料表通常包含一個專案，但可能包含已根據數個轉變啟動的&#x200B;**AND-join**&#x200B;型別活動的數個。
+* **執行個體**：代表正在執行的工作流程。 此物件的結構描述是&#x200B;**xtk:workflow**。
+* **任務**：代表正在執行的任務。 此物件的結構描述是&#x200B;**xtk:workflowTask**。
+* **event**：代表啟動執行中工作的事件。 此物件的結構描述是&#x200B;**xtk:workflowEvent**。 此物件未針對已從多個轉變啟動的&#x200B;**AND-join**&#x200B;型別活動初始化。
+* **事件**：代表啟動目前工作的事件清單。 此物件的結構描述是&#x200B;**xtk:workflowEvent**。 此資料表通常包含一個專案，但可能包含已根據數個轉變啟動的&#x200B;**AND-join**&#x200B;型別活動的數個。
 * **活動**：代表正在執行的工作的模式。 此物件的結構描述取決於活動型別。 此物件可由初始化指令碼修改，而在其他指令碼中，修改會產生無法確定的效果。
 
 您可以按一下指令碼工具列右側的按鈕，在下拉式清單中檢視這些物件可用的屬性。

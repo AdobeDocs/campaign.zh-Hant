@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 在行銷活動中，您可以針對每次傳送定義：
 
-* 目標對象。 您可以傳送訊息給收件者[的](#send-to-a-group)清單，或在工作流程[中建立](#build-the-main-target-in-a-workflow)對象
+* 目標對象。 您可以傳送訊息給收件者[&#128279;](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立對象
 * 控制組。 您可以[新增控制群組](#add-a-control-group)，以監視郵件傳遞後的收件者行為
 * 種子地址 — 在[本節](../../v8/audiences/test-profiles.md)中瞭解更多。
 
@@ -102,7 +102,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 可以按照排程（排程器）或事件（外部訊號、檔案匯入等）將目標設定為自動執行。
 
-與執行目標工作流程相關的動作（啟動、停止、暫停等）為&#x200B;**非同步**&#x200B;程式：命令已儲存，一旦伺服器可供套用命令就會生效。
+與執行目標定位工作流程相關的動作（啟動、停止、暫停等） 是&#x200B;**非同步**&#x200B;處理序：命令已儲存，一旦伺服器可供套用就會生效。
 
 工具列圖示可讓您執行定位工作流程的相關動作。
 

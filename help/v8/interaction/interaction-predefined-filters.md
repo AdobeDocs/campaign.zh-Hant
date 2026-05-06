@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI提供使用者易用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存，即可供未來使用。若要深入瞭解預先定義的Web UI篩選器，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/predefined-filters){target=_blank}。
+>Adobe Campaign Web UI提供使用者易用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存，即可供未來使用。 若要深入瞭解預先定義的Web UI篩選器，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/predefined-filters){target=_blank}。
 
 
 若要建立預先定義的篩選，請套用下列程式：
@@ -27,7 +27,7 @@ ht-degree: 7%
 
    ![](assets/offer_filter_create_005.png)
 
-1. 按一下&#x200B;**[!UICONTROL New]**。
+1. 按一下 **[!UICONTROL New]**。
 
    ![](assets/offer_filter_create_001.png)
 

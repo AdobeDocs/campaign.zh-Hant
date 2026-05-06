@@ -6,7 +6,7 @@ feature: Workflows, Analytics Integration
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '177'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
   <tr> 
    <td> <span class="uicontrol">正在傳送指標和行銷活動屬性</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsSendMetrics</span> <br /> </td> 
-   <td> 此工作流程可讓您透過Adobe® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至Adobe Experience Cloud套裝。 相關指標如下： <strong>已傳送</strong> (iSent)、<strong>開啟總數</strong> (iTotalRecipientOpen)、<strong>已點按</strong> (iTotalRecipientClick)的收件者總數<strong>錯誤</strong> (iError)、<strong>選擇退出</strong> （選擇退出） (iOptOut)。<br /> </td> 
+   <td> 此工作流程可讓您透過® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至Adobe Experience Cloud套裝。 相關指標如下： <strong>已傳送</strong> (iSent)、<strong>開啟總數</strong> (iTotalRecipientOpen)、<strong>已點按</strong> (iTotalRecipientClick)的收件者總數<strong>錯誤</strong> (iError)、<strong>選擇退出</strong> （選擇退出） (iOptOut)。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">已轉換連絡人的識別碼</span> <br /> </td> 

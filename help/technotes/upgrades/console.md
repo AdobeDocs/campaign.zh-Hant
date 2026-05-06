@@ -6,7 +6,7 @@ hide: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 +++Campaign v8使用者端主控台的64位元版本是否與32位元電腦相容？
 
-沒有。64位元版本的Campaign v8使用者端主控台僅支援64位元電腦。
+沒有。 64位元版本的Campaign v8使用者端主控台僅支援64位元電腦。
 
 +++
 

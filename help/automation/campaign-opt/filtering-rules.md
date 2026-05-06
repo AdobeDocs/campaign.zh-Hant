@@ -6,7 +6,7 @@ feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 使用篩選規則，根據查詢中定義的條件來選取要排除的訊息。 這些規則會連結至目標維度。
 
-篩選規則可以連結到型別中的其他規則型別（控制、壓力等），或分組到專用的&#x200B;**篩選**&#x200B;型別。 [了解更多](#create-and-use-a-filtering-typology)。
+篩選規則可以連結到其他型別的規則（控制、壓力等） 在型別中，或分組在專用的&#x200B;**篩選**&#x200B;型別中。 [了解更多資訊](#create-and-use-a-filtering-typology)。
 
 ## 建立篩選規則 {#create-a-filtering-rule}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. 從&#x200B;**篩選器**&#x200B;索引標籤將預設目標維度變更為&#x200B;**訂閱** (**nms：subscription**)。
+1. 從&#x200B;**篩選器**&#x200B;索引標籤將預設目標維度變更為&#x200B;**訂閱** (**nms:subscription**)。
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->型別與篩選規則可用於&#x200B;**[!UICONTROL Delivery outline]**&#x200B;活動的工作流程。 [了解更多](../workflow/delivery-outline.md)。
+>型別與篩選規則可用於&#x200B;**[!UICONTROL Delivery outline]**&#x200B;活動的工作流程。 [了解更多資訊](../workflow/delivery-outline.md)。
 
 ## 建立並使用篩選型別 {#create-and-use-a-filtering-typology}
 

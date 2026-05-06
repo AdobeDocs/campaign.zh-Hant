@@ -54,7 +54,7 @@ ht-degree: 4%
 
 ![](assets/s_advuser_update_data_3.png)
 
-選取要更新的所有欄位，並在必要時根據要執行的更新新增條件。 要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。條件會逐一套用，並遵循清單中的順序。 使用右邊的箭頭來變更更新順序。
+選取要更新的所有欄位，並在必要時根據要執行的更新新增條件。 要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。 條件會逐一套用，並遵循清單中的順序。 使用右邊的箭頭來變更更新順序。
 
 您可以多次使用相同的目的地欄位。
 
@@ -68,10 +68,10 @@ ht-degree: 4%
 
 **[!UICONTROL Advanced parameters]**&#x200B;連結可讓您指定處理更新資料與管理重複專案的其他選項。 您也可以：
 
-* **[!UICONTROL Disable automatic key management]**。
-* **[!UICONTROL Disable audit]**。
-* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]**。 此選項依預設會自動核取。
-* **[!UICONTROL Update all columns with matching names]**。
+* **[!UICONTROL Disable automatic key management]**.
+* **[!UICONTROL Disable audit]**.
+* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]**. 此選項依預設會自動核取。
+* **[!UICONTROL Update all columns with matching names]**.
 * 指定在&#x200B;**[!UICONTROL Enabled if]**&#x200B;欄位中使用運算式來考慮來源專案的條件。
 * 使用運算式指定考慮重複專案的條件。 如果您核取&#x200B;**[!UICONTROL Ignore records which concern the same target]**&#x200B;選項，則只會考慮運算式清單中的第一個。
 

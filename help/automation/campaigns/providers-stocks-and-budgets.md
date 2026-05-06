@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,9 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 1. 定義關聯服務樣版的成本分類與結構。 [了解更多](#define-cost-categories)
 
-1. 流程的設定。 [了解更多](#configure-processes-associated-with-a-service)。
+1. 流程的設定。 [了解更多資訊](#configure-processes-associated-with-a-service)。
 
-1. 在行銷活動層級參考服務提供者。 [了解更多](#associate-a-service-with-a-campaign)。
+1. 在行銷活動層級參考服務提供者。 [了解更多資訊](#associate-a-service-with-a-campaign)。
 
 ### 建立服務提供者及其成本類別 {#create-a-service-provider-and-its-cost-categories}
 
@@ -48,7 +48,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 #### 定義成本類別 {#define-cost-categories}
 
-您現在可以將服務範本與每個服務提供者建立關聯。 在這些範本中，您必須先識別成本類別，並視需要識別相關的存貨。 然後，您可以透過成本結構建立每個分類的成本計算規則。 [了解更多](#define-the-cost-structure)。
+您現在可以將服務範本與每個服務提供者建立關聯。 在這些範本中，您必須先識別成本類別，並視需要識別相關的存貨。 然後，您可以透過成本結構建立每個分類的成本計算規則。 [了解更多資訊](#define-the-cost-structure)。
 
 成本類別是包含一組成本的實體，符合傳送型別（電子郵件、直接郵件、簡訊等）。 成本類別會分組在與服務提供者相關的服務範本中。 每個服務提供者都可以參考一或多個服務範本。
 
@@ -58,7 +58,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
    ![](assets/supplier-new-template.png)
 
-1. 針對每種處理型別（透過直接郵件/電子郵件/等傳遞），建立成本類別。 或任務)。 若要這麼做，請按一下「**[!UICONTROL Cost categories]**」標籤，然後按「**[!UICONTROL Add]**」按鈕，然後輸入每個成本類別的引數。
+1. 針對每種處理型別（透過直接郵件/電子郵件/等或任務傳遞），建立成本類別。 若要這麼做，請按一下「**[!UICONTROL Cost categories]**」標籤，然後按「**[!UICONTROL Add]**」按鈕，然後輸入每個成本類別的引數。
 
    ![](assets/add-cost-categories.png)
 
@@ -68,7 +68,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
      >[!NOTE]
      >
-     >庫存行定義於&#x200B;**[!UICONTROL Stock management]**&#x200B;節點中。 [了解更多](#stock-and-order-management)。
+     >庫存行定義於&#x200B;**[!UICONTROL Stock management]**&#x200B;節點中。 [了解更多資訊](#stock-and-order-management)。
 
 1. 您可以預先選取此成本類別的值，這是服務提供者成本類別的預設值（而非空白值）。 若要這麼做，請針對相關類別型別啟用&#x200B;**[!UICONTROL Selected]**&#x200B;欄中的&#x200B;**是**&#x200B;選項：
 
@@ -139,7 +139,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 服務提供者與行銷活動傳遞相關聯。 在傳遞範本中會參考這些對象，以便在透過此範本建立的傳遞中提供其服務。
 
-選取服務時，與傳送型別（直接郵件、電子郵件等）相對應的成本類別會與已定義的處理選項一起自動在中央表格中標示。
+選取服務時，與傳送型別（直接郵件、電子郵件等）相對應的成本類別 會連同已定義的處理選項自動在中央表格中標示。
 
 >[!NOTE]
 >
@@ -166,13 +166,13 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 在Adobe Campaign中設定存貨與訂單管理，以及在要執行交貨的供給不足時提醒操作員的程式如下：
 
-1. 建立庫存及參考相關服務提供者。 [了解更多](#create-a-stock)。
+1. 建立庫存及參考相關服務提供者。 [了解更多資訊](#create-a-stock)。
 
-1. 新增坯件線。 [了解更多](#add-stock-lines)。
+1. 新增坯件線。 [了解更多資訊](#add-stock-lines)。
 
-1. 在警示事件中通知運運算元。 [了解更多](#alert-operators)。
+1. 在警示事件中通知運運算元。 [了解更多資訊](#alert-operators)。
 
-1. 訂單與供給。 [了解更多](#orders)。
+1. 訂單與供給。 [了解更多資訊](#orders)。
 
 ### 庫存管理 {#stock-management}
 
@@ -185,7 +185,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 套用下列步驟來建立新庫存：
 
 1. 按一下庫存清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
-1. 輸入庫存的標籤，並從下拉式清單中選取與其關聯的服務提供者。 [了解更多](#create-service-providers-and-their-cost-structures)。
+1. 輸入庫存的標籤，並從下拉式清單中選取與其關聯的服務提供者。 [了解更多資訊](#create-service-providers-and-their-cost-structures)。
 
 #### 新增庫存行 {#add-stock-lines}
 
@@ -243,7 +243,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 行銷活動的傳遞成本會在行銷活動層級合併，而方案的所有行銷活動的成本都會傳遞至與其關聯的方案。 專用報告可讓您追蹤整個平台或每個計畫與每個方案的預算。
 
-### 實施 {#implementation}
+### 實作 {#implementation}
 
 在行銷活動中，當您選取預算時，必須輸入初始金額。 已計算的成本將根據所輸入金額的履約承諾層次（費用、預期、預留、已承諾）自動更新。
 

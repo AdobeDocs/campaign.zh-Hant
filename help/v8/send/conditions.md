@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 建立條件式內容{#conditional-content}
 
-透過設定條件式內容欄位，您可以建立進階的個人化。滿足特定條件時，即可取代完整的文字區塊及/或影像。
+透過設定條件式內容欄位，您可以建立進階的個人化。 滿足特定條件時，即可取代完整的文字區塊及/或影像。
 
 
 ## 在電子郵件中使用條件 {#conditions-in-an-email}
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->新增&#x200B;**Else**&#x200B;和&#x200B;**Else if**&#x200B;條件後，必須刪除&#x200B;**%> &lt;%**&#x200B;字元。
+>新增&#x200B;**Else**&#x200B;和&#x200B;**如果**&#x200B;條件，則必須刪除&#x200B;**%> &lt;%**&#x200B;字元。
 
 
 ## 使用案例：建立多語言電子郵件 {#creating-multilingual-email}
@@ -86,4 +86,4 @@ ht-degree: 10%
 
 此影片以多語言電子報為範例，示範如何新增條件式內容至傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426541?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3426541?captions=chi_hant&quality=12)

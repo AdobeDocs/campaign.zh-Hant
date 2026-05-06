@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1033'
 ht-degree: 18%
 
 ---
@@ -63,7 +63,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
    ![](assets/delivery-template-new.png)
 
-該範本即新增到傳遞範本清單中。您現在建立新傳遞時即可以選取該範本。
+該範本即新增到傳遞範本清單中。 您現在建立新傳遞時即可以選取該範本。
 
 ![](assets/select-the-new-template.png)
 
@@ -100,7 +100,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 使用您的電子郵件主旨和目標母體完成&#x200B;**電子郵件引數**&#x200B;類別。
 1. 新增您的&#x200B;**HTML內容**&#x200B;以個人化您的範本，您可以顯示[映象頁面連結](../send/mirror-page.md)和取消訂閱連結。
 1. 選取&#x200B;**預覽**&#x200B;索引標籤。 在&#x200B;**測試個人化**&#x200B;下拉式功能表中，選取&#x200B;**收件者**&#x200B;以預覽您的範本作為所選設定檔。
-1. 按一下&#x200B;**儲存**。 您的範本現在已準備好用於傳遞。
+1. 按一下「**儲存**」。 您的範本現在已準備好用於傳遞。
 
 
 ## 使用範本 {#use-a-delivery-template}
@@ -147,12 +147,12 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 以下影片說明如何設定傳遞範本屬性，並詳細說明每個屬性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443412?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3443412?captions=chi_hant&quality=12)
 
 ### 如何部署隨選傳遞範本
 
 此影片說明如何部署隨選電子郵件傳遞範本，並說明電子郵件傳遞與傳遞工作流程之間的差異。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444968?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3444968?captions=chi_hant&quality=12)
 
 [此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。

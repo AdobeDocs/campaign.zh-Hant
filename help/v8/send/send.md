@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->傳遞狀態不會即時顯示。 在本節[中進一步瞭解電子郵件回饋服務](#email-feedback-service)。
+>傳遞狀態不會即時顯示。 在本節[&#128279;](#email-feedback-service)中進一步瞭解電子郵件回饋服務。
 
 ## Campaign MTA {#mta}
 

@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1110'
 ht-degree: 14%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 14%
 * **[!UICONTROL Allow NULLs]**：指定如何管理空值。
 
    * **[!UICONTROL Adobe Campaign default]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
-   * **[!UICONTROL Empty value allowed]**：授權空值。因此插入值 NULL。
+   * **[!UICONTROL Empty value allowed]**：授權空值。 因此插入值 NULL。
    * **[!UICONTROL Always populated]**：如果值為空，則產生錯誤。
 
 * **[!UICONTROL Length]**：指定&#x200B;**字串**&#x200B;資料型別的字元數目上限。
@@ -77,7 +77,7 @@ ht-degree: 14%
 * **[!UICONTROL White space management]**：指定字串中是否需要忽略某些空格。 **[!UICONTROL Ignore spaces]**&#x200B;值只允許忽略字串開頭和結尾的空格。
 * **[!UICONTROL Error processings]**：會定義發生錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**：會忽略值。會在工作流程執行記錄檔中產生警告。
+   * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
    * **[!UICONTROL Reject line]**：不會處理整行。
    * **[!UICONTROL Use a default value in case of error]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
    * **[!UICONTROL Reject the line when there is no remapping value]**：除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項），否則不會處理整行。

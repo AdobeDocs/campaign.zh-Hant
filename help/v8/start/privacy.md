@@ -8,8 +8,8 @@ exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 82%
+source-wordcount: '1093'
+ht-degree: 83%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 82%
 
 根據您的業務性質及其營運的管轄區，您的資料作業可能受法律隱私權法規的約束。 這些法規通常授予權利給您的客戶，讓他們可請求存取您自他們那裡收集的資料，以及請求您刪除該筆儲存資料。 客戶對其個人資料的請求，在本檔案稱為「隱私權請求」。
 
-Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建立並處理隱私權請求。然而，資料控制方應負責確認提出請求之資料主體身份，並確認傳回給請求者的資料與資料主體有關。在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#personal-data){target="_blank"}中進一步瞭解個人資料及管理資料的不同實體。
+Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建立並處理隱私權請求。 然而，資料控制方應負責確認提出請求之資料主體身份，並確認傳回給請求者的資料與資料主體有關。 在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#personal-data){target="_blank"}中進一步瞭解個人資料及管理資料的不同實體。
 
 
-若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從 Privacy Service 推播至所有 Adobe Experience Cloud 解決方案的隱私權請求，會由 Campaign 透過專用工作流程自動處理。[了解更多](#create-privacy-request)
+若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從 Privacy Service 推播至所有 Adobe Experience Cloud 解決方案的隱私權請求，會由 Campaign 透過專用工作流程自動處理。 [了解更多](#create-privacy-request)
 
-在&#x200B;**Adobe Campaign Classic v7檔案**&#x200B;中瞭解&#x200B;**存取許可權**&#x200B;和[被遺忘的權利](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"} （刪除要求）。
+在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}中瞭解&#x200B;**存取許可權**&#x200B;和&#x200B;**被遺忘的權利** （刪除要求）。
 
 
 >[!NOTE]
 >
->此功能可從 Campaign v8.3 開始使用。若要檢查您的版本，請參閱[此章節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 ## 定義命名空間 {#namespaces}
 
@@ -91,17 +91,17 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 儲存您的變更。
 
-您現在可以根據新的命名空間來建立隱私權要求。如果使用多個命名空間，請為每個命名空間相同的調和值建立一個隱私權請求。
+您現在可以根據新的命名空間來建立隱私權要求。 如果使用多個命名空間，請為每個命名空間相同的調和值建立一個隱私權請求。
 
 ## 建立隱私權請求 {#create-privacy-request}
 
-**[!DNL Adobe Experience Platform Privacy Service]**&#x200B;整合可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權請求。Adobe Campaign 透過專用工作流程自動處理推播來自隱私權服務的請求。
+**[!DNL Adobe Experience Platform Privacy Service]**&#x200B;整合可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權請求。 Adobe Campaign 透過專用工作流程自動處理推播來自隱私權服務的請求。
 
 請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target="_blank"} 文件，以瞭解如何從隱私權核心服務建立隱私權要求。
 
 依據正在使用的命名空間數量，在 Adobe Campaign 中每個 **[!DNL Privacy Service]** 工作都會分割為多個隱私權請求，而一個請求都會與一個命名空間相對應。
 
-此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
+此外，一個作業可在多個執行個體上執行。 因此，會針對一個作業建立多個檔案。 例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。 每個命名空間和執行個體會有一個檔案。
 
 檔案名稱的模式是： `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
@@ -132,7 +132,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 * 訂閱 (subscription)
 * 收件者產品建議提議 (propositionRcp)
 
-如果您建立的自訂資源具有收件者表格 (自有類型) 的連結，也會將這些帳戶列入考量。例如，如果您有連結至收件者表格的交易表格和連結至交易表格的交易詳細資料，則會同時將這些帳戶列入考量。
+如果您建立的自訂資源具有收件者表格 (自有類型) 的連結，也會將這些帳戶列入考量。 例如，如果您有連結至收件者表格的交易表格和連結至交易表格的交易詳細資料，則會同時將這些帳戶列入考量。
 <!--
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 * **[!UICONTROL Delete pending]**：工作流程已識別所有要刪除的收件者資料。
 * **[!UICONTROL Delete in progress]**：工作流程正在處理刪除。
 * **[!UICONTROL Complete]**：要求處理已完成，並未發生錯誤。
-* **[!UICONTROL Error]**：工作流程發生錯誤。原因會顯示在 **[!UICONTROL Request status]** 欄的「隱私權要求」清單中。例如，**[!UICONTROL Error data not found]** 表示在資料庫中找不到與資料主體 **[!UICONTROL Reconciliation value]** 相符的收件者資料。
+* **[!UICONTROL Error]**：工作流程發生錯誤。 原因會顯示在 **[!UICONTROL Request status]** 欄的「隱私權要求」清單中。 例如，**[!UICONTROL Error data not found]** 表示在資料庫中找不到與資料主體 **[!UICONTROL Reconciliation value]** 相符的收件者資料。
 
 Campaign Classic v7 文件中的&#x200B;**相關主題：**
 

@@ -7,8 +7,8 @@ description: Campaign技術檔案
 breadcrumb-title: Campaign技術檔案
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 

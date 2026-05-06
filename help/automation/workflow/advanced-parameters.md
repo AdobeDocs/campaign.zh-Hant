@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: 高級參數
-description: 高級參數
+title: 進階參數
+description: 進階參數
 feature: Workflows, Data Management
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
 
-# 高級參數{#advanced-parameters}
+# 進階參數{#advanced-parameters}
 
 
 

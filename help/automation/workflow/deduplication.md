@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
 source-git-commit: f616f92e31abd51e3544f848ce272e80389aef73
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 9%
+source-wordcount: '1134'
+ht-degree: 14%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 9%
    可以使用下列方法：
 
    * **[!UICONTROL Choose for me]**：隨機選取要保留在重複項目外的記錄。
-   * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
+   * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。 若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。 若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
 
      ![](assets/s_user_segmentation_dedup_param5.png)
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >可透過&#x200B;**[!UICONTROL Merge]**&#x200B;連結存取的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;功能可讓您設定一組規則，以便將欄位或欄位群組合併為單一結果資料記錄。 如需詳細資訊，請參閱[將欄位合併為單一記錄](#merging-fields-into-single-record)。
+   >可透過&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結存取的&#x200B;**[!UICONTROL Merge]**&#x200B;功能可讓您設定一組規則，以便將欄位或欄位群組合併為單一結果資料記錄。 如需詳細資訊，請參閱[將欄位合併為單一記錄](#merging-fields-into-single-record)。
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以核准選取的重複資料刪除方法。
 

@@ -5,9 +5,10 @@ feature: Monitoring
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1157'
 ht-degree: 3%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 3%
 
 ## 傳遞報告 {#delivery-reports}
 
-可從&#x200B;**[!UICONTROL Reports]**&#x200B;標籤存取的&#x200B;**[!UICONTROL Summary]**&#x200B;連結可讓您檢視與傳遞動作相關的一組報告：一般傳遞報告、詳細報告、傳遞報告、失敗訊息的分發、年初匯率、點按和交易等。
+可從&#x200B;**[!UICONTROL Summary]**&#x200B;標籤存取的&#x200B;**[!UICONTROL Reports]**&#x200B;連結可讓您檢視與傳遞動作相關的一組報告：一般傳遞報告、詳細報告、傳遞報告、失敗訊息的分發、年初匯率、點按和交易等。
 
 您可以根據自己的需求設定此標籤的內容。 如需傳遞報告的詳細資訊，請參閱[本節](../reporting/delivery-reports.md)。
 
@@ -164,4 +165,3 @@ ht-degree: 3%
 >[!NOTE]
 >
 >身為Campaign v8受管理的Cloud Services使用者，伺服器基礎架構監控由Adobe管理。 如果您在傳送傳遞時遇到持續的效能問題，請聯絡Adobe客戶服務，並提供您的傳送記錄檔。
-

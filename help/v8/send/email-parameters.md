@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 8%
+source-wordcount: '940'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 * **[!UICONTROL Use recipient preferences]** （預設模式）
 
-  訊息格式是根據儲存在收件者設定檔中的資料定義，並預設儲存在&#x200B;**[!UICONTROL email format]**&#x200B;欄位(@emailFormat)中。 如果收件者希望以特定格式接收郵件，則此格式為傳送的格式。如果未填入欄位，則會傳送替代的多重部分訊息（請參閱下文）。
+  訊息格式是根據儲存在收件者設定檔中的資料定義，並預設儲存在&#x200B;**[!UICONTROL email format]**&#x200B;欄位(@emailFormat)中。 如果收件者希望以特定格式接收郵件，則此格式為傳送的格式。 如果未填入欄位，則會傳送替代的多重部分訊息（請參閱下文）。
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
@@ -59,7 +59,7 @@ ht-degree: 8%
 
 例如，您想要傳送包含日文字元的電子郵件。 為確保所有字元都能正確顯示給在日本的收件者，您可能想要使用可支援日文字元的編碼，而非標準UTF-8。
 
-若要這麼做，請選取「**[!UICONTROL Force the encoding used for messages]**」區段中的「**[!UICONTROL Character encoding]**」選項，然後從顯示的下拉式清單中選擇編碼。
+若要這麼做，請選取「**[!UICONTROL Character encoding]**」區段中的「**[!UICONTROL Force the encoding used for messages]**」選項，然後從顯示的下拉式清單中選擇編碼。
 
 ![](assets/email-smtp-encoding.png)
 
@@ -91,7 +91,7 @@ ht-degree: 8%
 >
 >若要在電子郵件標題中顯示一鍵式取消訂閱URL，收件者的電子郵件使用者端必須支援此功能。
 
-若要啟用此功能，請在傳遞屬性的&#x200B;**[!UICONTROL Addition of One-click List-Unsubscription Header]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL SMTP]**&#x200B;選項。
+若要啟用此功能，請在傳遞屬性的&#x200B;**[!UICONTROL SMTP]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Addition of One-click List-Unsubscription Header]**&#x200B;選項。
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->系統會為進階使用者保留新增指令碼，以便插入其他SMTP標題。
+>會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。
 >
 >此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
@@ -141,6 +141,6 @@ ht-degree: 8%
 
 ## 產生映象頁面 {#generating-mirror-page}
 
-鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。其內容與電子郵件相同。如果您的收件者嘗試在收件匣中檢視您的電子郵件時遇到轉譯問題或影像損毀，此功能會很有用。
+鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。 其內容與電子郵件相同。 如果您的收件者嘗試在收件匣中檢視您的電子郵件時遇到轉譯問題或影像損毀，此功能會很有用。
 
 瞭解如何在[本節](mirror-page.md)中插入映象頁面的連結

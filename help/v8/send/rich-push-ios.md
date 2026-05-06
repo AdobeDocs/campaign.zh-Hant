@@ -9,7 +9,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
 source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1116'
 ht-degree: 5%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 5%
 
    此欄位可讓您定義iOS通知承載的&#x200B;**title**&#x200B;引數值。
 
-1. 選擇性地新增與iOS通知承載之&#x200B;**[!UICONTROL Subtitle]** subtitle **引數相對應的**。
+1. 選擇性地新增與iOS通知承載之&#x200B;**subtitle**&#x200B;引數相對應的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 在精靈的&#x200B;**[!UICONTROL Message content]**&#x200B;區段中輸入訊息的內容。
 
@@ -74,11 +74,11 @@ ht-degree: 5%
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Expanded message]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
-   展開通知時顯示&#x200B;**[!UICONTROL Message]**&#x200B;時，**[!UICONTROL Expanded message]**&#x200B;文字會顯示在收合的檢視中。
+   展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
    ![](assets/rich_push_ios_basic_2.png)
 
-1. 選擇性地新增與iOS通知承載之&#x200B;**[!UICONTROL Subtitle]** subtitle **引數相對應的**。
+1. 選擇性地新增與iOS通知承載之&#x200B;**subtitle**&#x200B;引數相對應的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 導覽至&#x200B;**[!UICONTROL Sound and Badge]**&#x200B;標籤以自訂其他設定，例如通知的聲音和徽章選項。 [了解更多](#sound-badge)
 
@@ -139,11 +139,11 @@ ht-degree: 5%
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Expanded title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
-   展開通知時顯示&#x200B;**[!UICONTROL Message]**&#x200B;時，**[!UICONTROL Expanded message]**&#x200B;文字會顯示在收合的檢視中。
+   展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
    ![](assets/rich_push_ios_timer_2.png)
 
-1. 選擇性地新增與iOS通知承載之&#x200B;**[!UICONTROL Subtitle]** subtitle **引數相對應的**。
+1. 選擇性地新增與iOS通知承載之&#x200B;**subtitle**&#x200B;引數相對應的&#x200B;**[!UICONTROL Subtitle]**。
 
 1. 導覽至&#x200B;**[!UICONTROL Sound and Badge]**&#x200B;標籤以自訂其他設定，例如通知的聲音和徽章選項。 [了解更多](#sound-badge)
 

@@ -8,8 +8,8 @@ exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 4%
+source-wordcount: '455'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ![](assets/edit-a-profile.png)
 
-有關設定檔的資料會分組在索引標籤中。 這些標籤及其內容取決於您的特定設定和已安裝的套件。
+用戶檔案相關的資料會被歸類在索引標籤中。 這些標籤及其內容取決於您的特定設定和已安裝的套件。
 
 對於典型的內建收件者，您可以存取下列標籤：
 
@@ -73,11 +73,11 @@ ht-degree: 4%
 
   ![](assets/subscription-tab.png)
 
-  在本節[中進一步瞭解訂閱](../start/subscriptions.md)。
+  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[中進一步瞭解追蹤](../send/tracking.md)。
+  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。

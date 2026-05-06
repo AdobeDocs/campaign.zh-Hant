@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '796'
 ht-degree: 13%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 13%
 
 清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單以預設的Adobe Campaign設定檔表格(nms：recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
+清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔資料表(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
 
 ![](assets/list-dashboard.png)
 
-您可以使用工作流程中的&#x200B;**更新清單**&#x200B;活動來建立清單。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，若您在訪客表格上使用查詢，然後更新清單，即可建立訪客清單。 [了解更多](#create-a-list-wf)。
+您可以使用工作流程中的&#x200B;**更新清單**&#x200B;活動來建立清單。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，若您在訪客表格上使用查詢，然後更新清單，即可建立訪客清單。 [了解更多資訊](#create-a-list-wf)。
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426467?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3426467?captions=chi_hant&quality=12)
 
 
 ## 建立連絡人清單 {#create-a-list-of-contacts}
@@ -124,7 +124,7 @@ ht-degree: 13%
 
    ![](assets/access-new-list.png)
 
-   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
+   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 

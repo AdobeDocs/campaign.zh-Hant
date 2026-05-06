@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 **排程器**&#x200B;是持續性工作，會在排程所指定的時間啟動其轉換。
 
-**[!UICONTROL Scheduler]** 活動應視為已排程的開始。圖表中的活動定位規則與活動 **[!UICONTROL Start]** 的定位規則相同。此活動不得具有入站轉變。
+**[!UICONTROL Scheduler]** 活動應視為已排程的開始。 圖表中的活動定位規則與活動 **[!UICONTROL Start]** 的定位規則相同。 此活動不得具有入站轉變。
 
 ## 最佳實務 {#best-practices}
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 **每個分支使用一個排程器** — 工作流程的每個分支應該只能有一個&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動。 如需在工作流程中使用活動的最佳實務的詳細資訊，請參閱[工作流程最佳實務頁面](workflow-best-practices.md#using-activities)。
 
-**防止工作流程並行執行** — 如果工作流程是由排程器觸發，請注意工作流程的多個執行個體可能同時執行。 例如，如果排程器每小時觸發工作流程，但工作流程執行超過一小時，您最終可能會遇到重複執行。為避免這種情況，請考慮設定檢查以防止多個同時執行。 [瞭解如何防止同時執行多個工作流程](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions)。
+**防止工作流程並行執行** — 如果工作流程是由排程器觸發，請注意工作流程的多個執行個體可能同時執行。 例如，如果排程器每小時觸發工作流程，但工作流程執行超過一小時，您最後可能會遇到重複執行。要避免此情況，請考慮設定檢查以防止多個同時執行。 [瞭解如何防止同時執行多個工作流程](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions)。
 
 **解決延遲的轉換** — 如果工作流程正在執行長時間執行的工作（如匯入），或如果wfserver模組已暫時停止，排程器所觸發的轉換可能會延遲。 若要緩解此問題，請限制排程器的啟動時間，以確保工作會在定義的時間範圍內執行。
 

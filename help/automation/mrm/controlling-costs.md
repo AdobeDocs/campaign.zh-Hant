@@ -7,7 +7,7 @@ role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2429'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 必須套用下列步驟，才能使用MRM實作預算管理：
 
-1. 定義預算。 [了解更多](#creating-a-budget)。
+1. 定義預算。 [了解更多資訊](#creating-a-budget)。
 
-1. 定義成本計算方法：為服務提供者定義成本結構。 [了解更多](../campaigns/providers-stocks-and-budgets.md)。
+1. 定義成本計算方法：為服務提供者定義成本結構。 [了解更多資訊](../campaigns/providers-stocks-and-budgets.md)。
 
-1. 定義行銷活動成本（傳送/任務）：傳送和任務產生的成本會針對行銷活動範本個別或全域輸入。 [了解更多](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
+1. 定義行銷活動成本（傳送/任務）：傳送和任務產生的成本會針對行銷活動範本個別或全域輸入。 [了解更多資訊](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
-1. 合併：根據任務、傳遞和行銷活動的進度狀態，將計算成本並傳遞至對應的預算。 當行銷活動的建立已足夠進階時，行銷活動預算的進度狀態可以變更為&#x200B;**[!UICONTROL Specified]**。 然後會自動輸入方案的已計算成本，以及促銷活動上已計算的成本。 [了解更多](#cost-commitment--calculation-and-charging)。
+1. 合併：根據任務、傳遞和行銷活動的進度狀態，將計算成本並傳遞至對應的預算。 當行銷活動的建立已足夠進階時，行銷活動預算的進度狀態可以變更為&#x200B;**[!UICONTROL Specified]**。 然後會自動輸入方案的已計算成本，以及促銷活動上已計算的成本。 [了解更多資訊](#cost-commitment--calculation-and-charging)。
 
 ## 建立預算 {#creating-a-budget}
 
@@ -38,9 +38,9 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 1. 瀏覽至Campaign檔案總管的&#x200B;**[!UICONTROL Campaign management > Budgets]**&#x200B;資料夾。
 1. 按一下&#x200B;**[!UICONTROL New]**&#x200B;圖示，命名並儲存預算。
-1. 輸入初始金額：在相關欄位中指出配置的金額。 其他金額會自動輸入。 [了解更多](#calculating-amounts)。
+1. 輸入初始金額：在相關欄位中指出配置的金額。 其他金額會自動輸入。 [了解更多資訊](#calculating-amounts)。
 1. 輸入開始與結束日期以定義有效期間。 此資訊僅供參考。
-1. 建立費用類別，將行銷活動、任務等成本指派給此預算。 可連結。 [了解更多](#expense-categories)。
+1. 建立費用類別，將行銷活動、任務等指派給此預算的成本可連結至該類別。 [了解更多資訊](#expense-categories)。
 
 ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -166,7 +166,7 @@ Adobe Campaign可讓您控制已排程、已確認及已開立商業發票的行
 
 1. 計算成本
 
-   計算的成本取決於相關的元素（行銷活動、傳遞、任務等）及其狀態（正在編輯、進行中、已完成）。 在任何情況下，如果指定了實際成本，則計算的成本將使用此金額。
+   計算的成本取決於相關的元素（行銷活動、傳遞、任務等） 及其狀態（正在編輯、進行中、已完成）。 在任何情況下，如果指定了實際成本，則計算的成本將使用此金額。
 
    如果未提供實際成本，則套用下列規則：
 

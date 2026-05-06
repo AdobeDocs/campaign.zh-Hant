@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 它們可以在行銷活動範本、每個行銷活動個別或傳送時啟用。
 
-所有需要核准的工作都會透過&#x200B;**[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]**&#x200B;索引標籤在行銷活動範本中選取。 會從此標籤中選取稽核者或稽核者群組。 他們會收到通知，除非未啟用此選項。 [了解更多](#approving-processes)。
+所有需要核准的工作都會透過&#x200B;**[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]**&#x200B;索引標籤在行銷活動範本中選取。 會從此標籤中選取稽核者或稽核者群組。 他們會收到通知，除非未啟用此選項。 [了解更多資訊](#approving-processes)。
 
 您可以為使用此範本建立的每個行銷活動覆寫這些設定，也可以為每個傳遞個別覆寫。 瀏覽傳遞的&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，然後瀏覽&#x200B;**[!UICONTROL Approvals]**&#x200B;索引標籤。
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->檢查檢閱者是否具有核准的&#x200B;**適當許可權**，以及其安全區域是否已正確定義。 [了解更多](#selecting-reviewers)。
+>檢查檢閱者是否具有核准的&#x200B;**適當許可權**，以及其安全區域是否已正確定義。 [了解更多資訊](#selecting-reviewers)。
 
 傳遞的核准程式在[本節](#review-and-approve-deliveries)中有詳細說明。
 
@@ -91,15 +91,15 @@ ht-degree: 1%
 
 ## 檢閱及核准傳遞 {#review-and-approve-deliveries}
 
-您可以針對每個行銷活動，核准傳遞目標、[傳遞內容](#approving-content)和成本。 可以透過電子郵件形式通知負責核准的Adobe Campaign操作者，然後他們可透過使用者端主控台或網路連線核准或拒絕核准。 [了解更多](#approving-processes)。
+您可以針對每個行銷活動，核准傳遞目標、[傳遞內容](#approving-content)和成本。 可以透過電子郵件形式通知負責核准的Adobe Campaign操作者，然後他們可透過使用者端主控台或網路連線核准或拒絕核准。 [了解更多資訊](#approving-processes)。
 
-如果是直接郵件傳送，Adobe Campaign操作員可在解壓縮檔案傳送給路由器之前檢視解壓縮檔案，並可視需要變更格式及重新啟動解壓縮。 [了解更多](#approve-an-extraction-file)。
+如果是直接郵件傳送，Adobe Campaign操作員可在解壓縮檔案傳送給路由器之前檢視解壓縮檔案，並可視需要變更格式及重新啟動解壓縮。 [了解更多資訊](#approve-an-extraction-file)。
 
-完成這些驗證階段後，即可啟動傳遞。 [了解更多](marketing-campaign-deliveries.md#starting-a-delivery)。
+完成這些驗證階段後，即可啟動傳遞。 [了解更多資訊](marketing-campaign-deliveries.md#starting-a-delivery)。
 
 >[!NOTE]
 >
->在行銷活動範本中選取需要核准的程式。 [了解更多](marketing-campaign-templates.md)。
+>在行銷活動範本中選取需要核准的程式。 [了解更多資訊](marketing-campaign-templates.md)。
 >
 
 ### 核准傳遞的步驟 {#approving-processes}
@@ -195,7 +195,7 @@ ht-degree: 1%
 
 #### 外部內容核准 {#external-content-approval}
 
-此選項可讓您定義負責核准傳遞呈現（例如品牌通訊一致性、費率等）的外部運運算元。 在核准設定視窗中選取&#x200B;**[!UICONTROL External content approval]**&#x200B;選項時，在內容核准與將通知傳送給行銷活動負責人之間會新增數個核准步驟：
+此選項可讓您定義負責核准傳遞呈現（例如品牌通訊一致性、費率等）的外部運運算元。在核准設定視窗中選取&#x200B;**[!UICONTROL External content approval]**&#x200B;選項時，在內容核准與將通知傳送給行銷活動負責人之間會新增數個核准步驟：
 
 1. 外部內容管理員會收到通知電子郵件，告知他們內容已核准並請求外部核准。
 1. 通知電子郵件包含已傳送校樣的連結（可讓您檢視傳遞呈現），以及核准或拒絕傳遞內容的按鈕。
@@ -212,7 +212,7 @@ ht-degree: 1%
 
 您可以檢視擷取檔案的內容（按一下其名稱）、核准該檔案，或視需要變更格式，然後使用控制面板上的連結來重新啟動擷取。
 
-一旦檔案獲得核准，您就可以將通知電子郵件傳送給路由器。 [了解更多](marketing-campaign-deliveries.md#start-an-offline-delivery)。
+一旦檔案獲得核准，您就可以將通知電子郵件傳送給路由器。 [了解更多資訊](marketing-campaign-deliveries.md#start-an-offline-delivery)。
 
 ## 核准模式 {#approval-modes}
 

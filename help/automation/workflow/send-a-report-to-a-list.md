@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '643'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 3%
 
 此使用案例的主要實施步驟為：
 
-* 建立此報告的收件者清單。 [了解更多](#step-1--create-the-recipient-list)。
-* 建立傳遞範本，每次執行工作流程時都會建立新的傳遞。 [了解更多](#step-2--create-the-delivery-template)。
+* 建立此報告的收件者清單。 [了解更多資訊](#step-1--create-the-recipient-list)。
+* 建立傳遞範本，每次執行工作流程時都會建立新的傳遞。 [了解更多資訊](#step-2--create-the-delivery-template)。
 * 建立工作流程，以PDF格式產生報表並傳送至收件者清單。 [深入瞭解](#step-3--create-the-workflow))。
 
 ## 步驟1：建立收件者清單 {#step-1--create-the-recipient-list}

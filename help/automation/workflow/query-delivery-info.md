@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
      ![](assets/query_editor_nveau_18.png)
 
-     按一下&#x200B;**[!UICONTROL Next]**。
+     按一下 **[!UICONTROL Next]**。
 
    * 選取&#x200B;**[!UICONTROL Primary key (@id)]**&#x200B;欄位。 已設定&#x200B;**[!UICONTROL count (primary key)]**&#x200B;輸出資料行。
 
@@ -77,13 +77,13 @@ ht-degree: 1%
 
    * 在特定期間內復原特定傳送的追蹤記錄。 需要三個篩選條件：兩個日期條件，可設定目前日期前2週與目前日期前一天之間的搜尋期間；另一個條件，可限制搜尋至特定傳遞。
 
-     在&#x200B;**[!UICONTROL Target element]**&#x200B;視窗中，設定開始考慮追蹤記錄的日期。 按一下 **[!UICONTROL Add]**。會顯示條件行。 按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;函式以編輯&#x200B;**[!UICONTROL Expression]**&#x200B;欄。 在&#x200B;**[!UICONTROL Field to select]**&#x200B;視窗中選擇&#x200B;**[!UICONTROL Date (@logDate)]**。
+     在&#x200B;**[!UICONTROL Target element]**&#x200B;視窗中，設定開始考慮追蹤記錄的日期。 按一下 **[!UICONTROL Add]**。 會顯示條件行。 按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;函式以編輯&#x200B;**[!UICONTROL Expression]**&#x200B;欄。 在&#x200B;**[!UICONTROL Field to select]**&#x200B;視窗中選擇&#x200B;**[!UICONTROL Date (@logDate)]**。
 
      ![](assets/query_editor_nveau_23.png)
 
      選取&#x200B;**[!UICONTROL greater than]**&#x200B;運運算元。 在&#x200B;**[!UICONTROL Value]**&#x200B;欄中按一下&#x200B;**[!UICONTROL Edit expression]**，然後在&#x200B;**[!UICONTROL Formula type]**&#x200B;視窗中選取&#x200B;**[!UICONTROL Process on dates]**。 最後，在&#x200B;**[!UICONTROL Current date minus n days]**&#x200B;中輸入「15」。
 
-     按一下&#x200B;**[!UICONTROL Finish]**。
+     按一下 **[!UICONTROL Finish]**。
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
      選取&#x200B;**[!UICONTROL less than]**&#x200B;運運算元。 在&#x200B;**[!UICONTROL Value]**&#x200B;欄中按一下&#x200B;**[!UICONTROL Edit expression]**。 若要處理日期，請移至&#x200B;**[!UICONTROL Formula type]**&#x200B;視窗，在&#x200B;**[!UICONTROL Current date minus n days]**&#x200B;中輸入「1」。
 
-     按一下&#x200B;**[!UICONTROL Finish]**。
+     按一下 **[!UICONTROL Finish]**。
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    * 按一下&#x200B;**[!UICONTROL Add]**&#x200B;函式以建立另一個篩選條件。 在&#x200B;**[!UICONTROL Expression]**&#x200B;欄中按一下&#x200B;**[!UICONTROL Edit expression]**。 在&#x200B;**[!UICONTROL Field to select]**&#x200B;視窗的&#x200B;**[!UICONTROL Delivery]**&#x200B;節點中選擇&#x200B;**[!UICONTROL Label]**。
 
-     按一下&#x200B;**[!UICONTROL Finish]**。
+     按一下 **[!UICONTROL Finish]**。
 
      ![](assets/query_editor_nveau_66.png)
 
@@ -204,7 +204,7 @@ ht-degree: 1%
    ![](assets/query_editor_ex_04.png)
 
 1. 在&#x200B;**[!UICONTROL Subsets]**&#x200B;索引標籤中，定義第一個分割分支。 例如，輸入此分支的&#x200B;**已點按**&#x200B;標籤。
-1. 選取&#x200B;**[!UICONTROL Add a filtering condition on the incoming population]**&#x200B;選項。 按一下&#x200B;**[!UICONTROL Edit]**。
+1. 選取 **[!UICONTROL Add a filtering condition on the incoming population]** 選項。 按一下 **[!UICONTROL Edit]**。
 1. 在&#x200B;**[!UICONTROL Targeting and filtering dimension]**&#x200B;視窗中，連按兩下&#x200B;**[!UICONTROL Recipients of a delivery]**&#x200B;篩選器。
 
    ![](assets/query_editor_ex_05.png)
@@ -222,7 +222,7 @@ ht-degree: 1%
    ![](assets/query_editor_ex_06.png)
 
 1. 另一個子標籤隨即顯示。 將其命名為「**未點按**」。
-1. 按一下 **[!UICONTROL Add a filtering condition for the incoming population]**。然後按一下 **[!UICONTROL Edit...]**。
+1. 按一下 **[!UICONTROL Add a filtering condition for the incoming population]**。 然後按一下 **[!UICONTROL Edit...]**。
 
    ![](assets/query_editor_ex_07.png)
 

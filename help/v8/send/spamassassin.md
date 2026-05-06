@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 1%
+source-wordcount: '264'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ SpamAssassin運用各種垃圾郵件偵測技術，包括：
 如需建立和設計傳遞的詳細資訊，請參閱此[頁面](defining-the-email-content.md)。
 
 
-1. 前往&#x200B;**[!UICONTROL Preview]**&#x200B;標籤。
+1. 移至 **[!UICONTROL Preview]** 索引標籤。
 1. 選取收件者以預覽您的傳遞。
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)

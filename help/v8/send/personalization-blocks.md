@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '559'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 若要存取個人化內容區塊，請瀏覽至總管的&#x200B;**[!UICONTROL Resources > Campaign Management > Personalization blocks]**&#x200B;節點。 [此區段](#ootb-personalization-blocks)中列出內建的個人化區塊。
 
-您也可以定義新區塊，以最佳化您的傳送個人化。 [了解更多](#create-custom-personalization-blocks)。
+您也可以定義新區塊，以最佳化您的傳送個人化。 [了解更多資訊](#create-custom-personalization-blocks)。
 
 ## 插入個人化區塊 {#insert-personalization-blocks}
 
@@ -47,11 +47,11 @@ ht-degree: 17%
 * **[!UICONTROL Mirror page URL]**：插入映象頁面URL，讓傳送設計工具檢查連結。
 * **[!UICONTROL Offer acceptance URL in unitary mode]**：插入URL以設定選件為&#x200B;**[!UICONTROL Accepted]**。 (如果啟用互動模組，則此區塊可用)
 * **[!UICONTROL Registration confirmation]**：插入連結以確認訂閱。
-* **[!UICONTROL Registration link]**：插入訂閱連結。 此連結在執行個體設定中定義。預設內容：「若要註冊，請按一下這裡。」
+* **[!UICONTROL Registration link]**：插入訂閱連結。 此連結在執行個體設定中定義。 預設內容：「若要註冊，請按一下這裡。」
 * **[!UICONTROL Registration link (with referrer)]**：插入訂閱連結，以識別訪客和傳遞。 此連結在執行個體設定中定義。
 * **[!UICONTROL Registration page URL]**：插入訂閱網址
 * **[!UICONTROL Style of content emails]**&#x200B;和&#x200B;**[!UICONTROL Notification style]**：產生程式碼，使用預先定義的HTML樣式來格式化電子郵件。
-* **[!UICONTROL Unsubscription link]**：插入連結，以取消訂閱所有傳遞（封鎖清單）。 預設關聯內容：「您收到此訊息因為您曾聯絡&#x200B;***您的組織名稱***&#x200B;或附屬機構。若不要再收到來自&#x200B;***您的組織名稱***&#x200B;的訊息，請按一下這裡。」
+* **[!UICONTROL Unsubscription link]**：插入連結，以取消訂閱所有傳遞（封鎖清單）。 預設關聯內容：「您收到此訊息因為您曾聯絡&#x200B;***您的組織名稱***&#x200B;或附屬機構。 若不要再收到來自&#x200B;***您的組織名稱***&#x200B;的訊息，請按一下這裡。」
 
 ## 建立自訂個人化區塊 {#create-custom-personalization-blocks}
 
@@ -72,7 +72,7 @@ ht-degree: 17%
    * 選取&#x200B;**傳遞**&#x200B;內容型別。
    * 啟用&#x200B;**[!UICONTROL Visible in the customization menus]**&#x200B;選項，讓此區塊可從個人化欄位插入圖示存取。
    * 如有必要，請啟用&#x200B;**[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;選項，為HTML和文字電子郵件定義兩個不同的區塊。
-   * 輸入個人化區塊的內容(在HTML、文字、JavaScript等)，然後按一下&#x200B;**[!UICONTROL Save]**。
+   * 輸入內容（在HTML、文字、JavaScript等） 個人化區塊的，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 儲存後，新的個人化區塊便可在傳遞編輯器中使用。
 

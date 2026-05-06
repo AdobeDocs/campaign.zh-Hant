@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: 75e0069ccd4e23dbf64b9052fd81817e438b333e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 11%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->根據您的部署模式，您也可以將REST API與Campaign v8搭配使用。 [了解更多](../dev/api/get-started-apis.md)。
+>根據您的部署模式，您也可以將REST API與Campaign v8搭配使用。 [了解更多資訊](../dev/api/get-started-apis.md)。
 
 您可以使用[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=zh-Hant){target="_blank"}在Campaign雲端資料庫中寫入或從資料庫讀取：
 

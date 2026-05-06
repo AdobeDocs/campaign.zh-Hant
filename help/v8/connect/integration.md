@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 12%
+source-wordcount: '461'
+ht-degree: 11%
 
 ---
 
@@ -24,9 +24,9 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
-* Adobe Analytics。[了解更多](../connect/ac-aa.md)
+* Adobe Analytics。[進一步瞭解](../connect/ac-aa.md)
 * Adobe Experience Cloud觸發程式。 [了解更多](../connect/ac-triggers.md)
-* Adobe Experience Manager。[了解更多](../connect/ac-aem.md)
+* Adobe Experience Manager。 [了解更多](../connect/ac-aem.md)
 * Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)
 * Adobe Journey Optimizer。 [了解更多](../connect/ac-ajo.md)
 * Adobe Target。 [了解更多](../connect/ac-at.md)

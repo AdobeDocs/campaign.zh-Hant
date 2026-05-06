@@ -6,8 +6,8 @@ role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 7%
+source-wordcount: '1783'
+ht-degree: 8%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 7%
 
 ## 傳遞總處理能力 {#delivery-throughput}
 
-此報表包含指定期間內整個平台的傳遞輸送量資訊。 若要測量訊息傳遞的速度，標準是每小時傳送的訊息數和訊息的大小 (以位元/秒為單位)。在下面的範例中，第一個圖表以藍色顯示成功傳遞，以橘色顯示錯誤傳遞的數量。
+此報表包含指定期間內整個平台的傳遞輸送量資訊。 若要測量訊息傳遞的速度，標準是每小時傳送的訊息數和訊息的大小 (以位元/秒為單位)。 在下面的範例中，第一個圖表以藍色顯示成功傳遞，以橘色顯示錯誤傳遞的數量。
 
 ![](assets/report-toolbar.png)
 
-您可以透過變更時程來設定顯示的值：1小時檢視、3小時檢視、24小時檢視等。 按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以確認您的選擇。
+您可以透過變更時程來設定顯示的值：1小時檢視、3小時檢視、24小時檢視等。按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以確認您的選擇。
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯&#x200B;**[!UICONTROL Delivery logs (broadlogrcp)]** Cube。 如需詳細資訊，請參閱[本節](gs-cubes.md)。 **[!UICONTROL Others]**&#x200B;類別包含不屬於特定類別的網域名稱。
+>此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯&#x200B;**[!UICONTROL Delivery logs (broadlogrcp)]** Cube。 如需詳細資訊，請參閱[本章節](gs-cubes.md)。 **[!UICONTROL Others]**&#x200B;類別包含不屬於特定類別的網域名稱。
 
 ## 瀏覽器 {#browsers}
 
@@ -296,7 +296,7 @@ The following indicators are used:
 
 ## 開啟次數的劃分 {#breakdown-of-opens}
 
-此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。第二個圖表僅顯示在行動裝置上的開啟數統計資料。
+此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表僅顯示在行動裝置上的開啟數統計資料。
 
 開啟次數與開啟的訊息總數相對應。 不計入文字格式的電子郵件。 如需追蹤開啟的詳細資訊，請參閱[本節](metrics-calculation.md#tracking-opens-)。
 

@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1288'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 行銷活動協調元件可在&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤中找到：您可在此處檢視行銷方案與行銷活動及其相關元素的概觀。
 
-行銷方案由行銷活動組成，行銷活動由傳遞、資源等組成。 有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
+行銷方案由行銷活動組成，行銷活動由傳遞、資源等組成。有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
 
 ![](assets/campaigns-create-from-home.png)
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 ### 建立計畫和方案階層 {#create-plan-and-program}
 
-每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。所有計畫、方案和行銷活動都可以透過&#x200B;**行銷活動**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Campaign calendar]**&#x200B;功能表取得。
+每個行銷活動都屬於某項方案，而該方案隸屬於某項計劃。 所有計畫、方案和行銷活動都可以透過&#x200B;**行銷活動**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Campaign calendar]**&#x200B;功能表取得。
 
 開始建立行銷活動和傳遞之前，請為行銷計畫和方案設定資料夾階層。
 
@@ -102,11 +102,11 @@ ht-degree: 4%
 
 對於每個行銷活動，都提供下列功能：
 
-* 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多](marketing-campaign-deliveries.md#manage-associated-documents)。
-* 定義成本：對於每個行銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：列印成本、使用外部代理商、房間租賃等。 [了解更多](providers-stocks-and-budgets.md#defining-cost-categories)。
-* 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。 此資訊稍後會用於行銷活動報表。
-* 管理種子地址和控制組。 [了解更多](marketing-campaign-deliveries.md#defining-a-control-group)。
-* 管理核准：您可以選取要核准的處理方式，並視需要選取複查操作員或操作員群組。 [了解更多](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+* 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多資訊](marketing-campaign-deliveries.md#manage-associated-documents)。
+* 定義成本：對於每個行銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：列印費用、使用外部代理、房間租賃等。[瞭解更多](providers-stocks-and-budgets.md#defining-cost-categories)。
+* 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。此資訊稍後會用於行銷活動報表。
+* 管理種子地址和控制組。 [了解更多資訊](marketing-campaign-deliveries.md#defining-a-control-group)。
+* 管理核准：您可以選取要核准的處理方式，並視需要選取複查操作員或操作員群組。 [了解更多資訊](marketing-campaign-approval.md#checking-and-approving-deliveries)。
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 4%
 
 針對每個行銷活動，工作、資源和傳遞都會集中在控制面板中。 此介面可讓您管理和協調行銷動作。
 
-透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。 此協調流程在[此區段](marketing-campaign-approval.md)中有詳細說明。
+透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。此協調流程在[此區段](marketing-campaign-approval.md)中有詳細說明。
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
@@ -208,4 +208,4 @@ ht-degree: 4%
 
 本影片說明如何建立行銷計畫、方案和行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426483?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3426483?captions=chi_hant&quality=12)

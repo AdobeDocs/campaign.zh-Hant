@@ -7,7 +7,7 @@ role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 建立本機行銷活動（依表單） {#creating-a-local-campaign--by-form-}
 
-**By表單**&#x200B;型別Web介面涉及使用&#x200B;**Web應用程式**。 根據設定，此Web應用程式可包含任何型別的已定義個人化元素。 例如，您可以建議連結以評估目標、預算、內容等。 透過專用API。
+**By表單**&#x200B;型別Web介面涉及使用&#x200B;**Web應用程式**。 根據設定，此Web應用程式可包含任何型別的已定義個人化元素。 例如，您可以透過專用的API來建議用於評估目標、預算、內容等的連結。
 
 >[!NOTE]
 >

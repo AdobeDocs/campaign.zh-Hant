@@ -8,7 +8,7 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
 source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3845'
+source-wordcount: '3864'
 ht-degree: 34%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 34%
 
 Campaign可協助您將連絡人新增至資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
 
-輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。在[本節](../../automation/workflow/recurring-import-workflow.md)了解更多資訊。
+輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。 若要了解更多資訊，請參閱[此區段](../../automation/workflow/recurring-import-workflow.md)。
 
 ![](assets/import-wf.png)
 
@@ -56,7 +56,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入此匯入的名稱。 您可以添加描述。
 1. 在適當的欄位中選取匯入型別。 有兩種可能的匯入型別： **[!UICONTROL Simple import]**&#x200B;僅匯入一個檔案，以及&#x200B;**[!UICONTROL Multiple import]**&#x200B;在單一執行中匯入多個檔案。
 
-   若要多重匯入，請從匯入助理第一個畫面的&#x200B;**[!UICONTROL Multiple import]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Import type]**。
+   若要多重匯入，請從匯入助理第一個畫面的&#x200B;**[!UICONTROL Import type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Multiple import]**。
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -108,7 +108,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 ![](assets/s_ncs_user_import_wizard03_1.png)
 
-* **[!UICONTROL Destination schema]**&#x200B;欄位可讓您選取要匯入資料的結構描述。 此資訊為必填。 按一下&#x200B;**[!UICONTROL Select link]**&#x200B;圖示以選取其中一個現有結構描述。 按一下&#x200B;**[!UICONTROL Edit link]**&#x200B;以顯示所選資料表的內容。
+* **[!UICONTROL Destination schema]**&#x200B;欄位可讓您選取要匯入資料的結構描述。 此資訊是強制性的。 按一下&#x200B;**[!UICONTROL Select link]**&#x200B;圖示以選取其中一個現有結構描述。 按一下&#x200B;**[!UICONTROL Edit link]**&#x200B;以顯示所選資料表的內容。
 * 中央表格會顯示來源檔案中定義的所有欄位。 選取要匯入的欄位，以將目的地檔案與其建立關聯。 可以手動或自動對應這些欄位。
 
   若要手動對應欄位，請按一下核取方塊以選取來源欄位，然後按一下第二欄以啟動與所選欄位相對應的儲存格。 接著，按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示以顯示目前表格的所有欄位。 選取目的地欄位並按一下&#x200B;**[!UICONTROL OK]**&#x200B;以驗證對應。
@@ -262,7 +262,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    1. 匯入到資料夾中
 
-      **[!UICONTROL Edit...]**&#x200B;區段的&#x200B;**[!UICONTROL Import into a folder]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
+      **[!UICONTROL Import into a folder]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
 
       >[!NOTE]
       >
@@ -282,7 +282,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    1. 與清單相關聯
 
-      **[!UICONTROL Edit...]**&#x200B;區段中的&#x200B;**[!UICONTROL Add recipients to a list]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
+      **[!UICONTROL Add recipients to a list]**&#x200B;區段中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
@@ -294,7 +294,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    1. 訂閱服務
 
-      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;區段的&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
+      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
@@ -316,7 +316,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 匯出作業可讓您存取及擷取資料庫的資料：連絡人、使用者端、清單、區段等。
 
-例如，在試算表中使用行銷活動追蹤資料（追蹤歷史記錄等）會很有用。 輸出資料可以是 txt、CSV、TAB 或 XML 格式。
+例如，使用行銷活動追蹤資料（追蹤歷史記錄等）會很有用 在試算表中。 輸出資料可以是 txt、CSV、TAB 或 XML 格式。
 
 匯出助理可以讓您設定匯出、定義其選項並啟動執行。 這是一系列畫面，其內容取決於匯出型別（簡單或多重）和操作者的權利。
 
@@ -369,7 +369,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * 針對&#x200B;**[!UICONTROL Text]**&#x200B;格式，選取分隔符號以分隔欄（定位字元、逗號、分號或自訂）和字串（單引號、雙引號或無）。
 * 對於&#x200B;**[!UICONTROL text]**&#x200B;和&#x200B;**[!UICONTROL CSV]**，您可以選取選項&#x200B;**[!UICONTROL Use first lines as column titles]**。
 * 指示日期格式和數字格式。 若要這麼做，請按一下相關欄位的&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕，然後使用編輯器。
-* 對於包含列舉值的欄位，您可以選取&#x200B;**[!UICONTROL Export labels instead of internal values of enumerations]**。 例如，標題可以以&#x200B;**1=Mr格式儲存。**，**2=小姐**，**3=夫人**。 如果選擇此選項，將匯出&#x200B;**先生**、**小姐**&#x200B;和&#x200B;**太太**。
+* 對於包含列舉值的欄位，您可以選取&#x200B;**[!UICONTROL Export labels instead of internal values of enumerations]**。 例如，標題可以儲存為格式&#x200B;**1=Mr.**，**2=Miss**，**3=Mrs.**。如果選取此選項，將會匯出&#x200B;**先生**、**小姐**&#x200B;和&#x200B;**太太**。
 
 ### 第 4 步 - 資料選擇 {#step-4---data-selection}
 

@@ -7,8 +7,8 @@ description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 84%
+source-wordcount: '893'
+ht-degree: 85%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 84%
    + [控制面板](config/self-service.md)
 + 行銷活動管理 {#campaigns}
    + [開始使用行銷活動](start/campaigns.md)
-   + [促銷活動協調流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
+   + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
 + 傳送訊息 {#send}
    + [開始使用訊息](start/gs-message.md)
    + [建立您的第一個傳遞](start/create-message.md)
@@ -285,5 +285,5 @@ ht-degree: 84%
          + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
 + 其他資源 {#resources}
    + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
-   + [Campaign Web使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
+   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 

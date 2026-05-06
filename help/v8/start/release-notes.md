@@ -5,16 +5,16 @@ feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 18%
+source-wordcount: '1214'
+ht-degree: 8%
 
 ---
 
 # 最新版本 {#latest-release}
 
-本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。本文件的先前版本區段將列出其他版本。
+本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。 在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。 本文件的先前版本區段將列出其他版本。
 
-## 發行版本 8.9.2 {#release-8-9-2}
+## 發行版本8.9.2 {#release-8-9-2}
 
 _2026年3月11日_
 
@@ -34,9 +34,9 @@ _2026年3月11日_
 * 修正透過壓力規則套用自訂型別規則時，傳送準備失敗的問題。 (NEO-94457)
 * 修正使用者端主控台可能發生HTTP要求處理失敗的問題。 (NEO-94071)
 
-## 發行版本 8.9.1 {#release-8-9-1}
+## 發行版本8.9.1 {#release-8-9-1}
 
-_2026 年 1 月 27 日_
+_2026年1月27日_
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ _2026 年 1 月 27 日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳遞功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
+* [多語言傳送功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
 * [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
 * [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
 * [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
@@ -59,8 +59,8 @@ _2026 年 1 月 27 日_
 
 ### 安全性改善 {#security-8-9-1}
 
-* Snowflake外部帳戶現在支援OAuth2驗證，為同盟資料存取連線提供現代且安全的驗證方法。 (NEO-87013) [閱讀全文](../config/external-accounts.md#snowflake-external-accounts)
-* Databricks外部帳戶現在支援透過服務主體（非互動式使用者端憑證流程）的OAuth2驗證，為同盟資料存取連線提供安全的驗證方法。 互動式OAuth2驗證將在未來版本中提供。 (NEO-87422) [閱讀全文](../config/external-accounts.md#databricks-external-accounts)
+* Snowflake外部帳戶現在支援OAuth2驗證，為同盟資料存取連線提供現代且安全的驗證方法。 (NEO-87013) [瞭解詳情](../config/external-accounts.md#snowflake-external-accounts)
+* Databricks外部帳戶現在支援透過服務主體（非互動式使用者端憑證流程）的OAuth2驗證，為同盟資料存取連線提供安全的驗證方法。 互動式OAuth2驗證將在未來版本中提供。 (NEO-87422) [瞭解詳情](../config/external-accounts.md#databricks-external-accounts)
 * 修正工作流程檔案存取漏洞，限制對授權目錄的操作，防止未經授權的存取和可能的遠端程式碼執行。 (NEO-88460)
 * 新增FTP URL允許清單控制項至工作流程JavaScript程式碼活動，限制只有授權位址的輸出FTP連線。 (NEO-89083)
 

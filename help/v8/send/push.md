@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。您已經可以檢查並採取動作。
+>Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。 您已經可以檢查並採取動作。
 
 ## 建立您的第一個推播通知 {#push-create}
 
@@ -57,19 +57,19 @@ ht-degree: 7%
 
    ![](assets/push_ios_3.png)
 
-1. 在&#x200B;**[!UICONTROL Notification type]**&#x200B;或&#x200B;**[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;之間選擇您的&#x200B;**[!UICONTROL Silent notification]**。
+1. 在&#x200B;**[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;或&#x200B;**[!UICONTROL Silent notification]**&#x200B;之間選擇您的&#x200B;**[!UICONTROL Notification type]**。
 
    ![](assets/push_ios_4.png)
 
    >[!NOTE]
    >
-   >**無訊息推播**&#x200B;模式允許將「無訊息」通知傳送至行動應用程式。 使用者不會發現有通知傳到。而是直接傳輸到應用程式。
+   >**無訊息推播**&#x200B;模式允許將「無訊息」通知傳送至行動應用程式。 使用者不會發現有通知傳到。 而是直接傳輸到應用程式。
 
 1. 在&#x200B;**[!UICONTROL Title]**&#x200B;欄位中，輸入您要顯示在通知中心可用通知清單中的標題標籤。
 
    此欄位可讓您定義iOS通知承載的&#x200B;**title**&#x200B;引數值。
 
-1. 您可以新增iOS通知承載之&#x200B;**[!UICONTROL Subtitle]** subtitle **引數的**&#x200B;值。
+1. 您可以新增iOS通知承載之&#x200B;**subtitle**&#x200B;引數的&#x200B;**[!UICONTROL Subtitle]**&#x200B;值。
 
 1. 在精靈的&#x200B;**[!UICONTROL Message content]**&#x200B;區段中輸入訊息的內容。
 
@@ -110,7 +110,7 @@ ht-degree: 7%
 
    * **[!UICONTROL Launch image]**：要顯示的啟動影像檔名稱。 如果使用者選擇啟動您的應用程式，則會顯示選取的影像，而非您應用程式的啟動畫面。
 
-   * **[!UICONTROL Interruption level]**：
+   * **[!UICONTROL Interruption level]**:
 
       * **[!UICONTROL Active]**：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。
 

@@ -8,8 +8,8 @@ exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
 source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 0%
+source-wordcount: '1943'
+ht-degree: 1%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 快速篩選是每個運運算元專屬的行為，每當運運算元清除其使用者端主控台的快取時，就會重新初始化。
 
-如果您需要重複使用篩選器，請建立&#x200B;**進階篩選器**&#x200B;並儲存。 [了解更多](#advanced-filters)。
+如果您需要重複使用篩選器，請建立&#x200B;**進階篩選器**&#x200B;並儲存。 [了解更多資訊](#advanced-filters)。
 
 若要建立&#x200B;**快速篩選**，請遵循下列步驟：
 
@@ -303,7 +303,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 定義篩選條件。 在以下範例中，您將篩選帳號並非以NL開頭的收件者，以及住在巴黎或洛杉磯的收件者。
 
-1. 按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;欄的&#x200B;**[!UICONTROL Expression]**&#x200B;圖示。
+1. 按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄的&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示。
 
    ![](assets/edit-exp.png)
 

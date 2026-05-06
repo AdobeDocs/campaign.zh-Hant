@@ -7,14 +7,14 @@ level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1518'
 ht-degree: 55%
 
 ---
 
 # 2023 年發行說明 {#2023-rn}
 
-本頁面列出 **2023 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。如需最新版本，請參閱[此頁面](release-notes.md)。
+本頁面列出 **2023 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。 如需最新版本，請參閱[此頁面](release-notes.md)。
 
 對於任何新的實作或升級至現有環境，請安裝[最新版本](release-notes.md)。
 
@@ -112,7 +112,7 @@ _2023年 4 月 3 日_
 
 **修正**
 
-* 修正若將數個核准工作流程設為相同排程時，可能導致重複金鑰限制錯誤的問題。(NEO-48968)
+* 修正若將數個核准工作流程設為相同排程時，可能導致重複金鑰限制錯誤的問題。 (NEO-48968)
 * 修正 NEO-54474 (8.4.4) 所導致在數位內容編輯器 (DCE) 上傳影像時，內文標籤的樣式屬性有所變更的回歸問題。 (NEO-57697)
 * 修正使用 CRM 連接器匯出資料時，如果臨時表格的主索引鍵定義為 long 而非 uuid，則可能導致錯誤的問題。 (NEO-54153)
 * 修正 8.4.1 提出的回歸問題，此問題可能導致套件匯出、FDA over HTTP 和報告錯誤。 (NEO-57731)
@@ -141,28 +141,28 @@ _2023 年 1 月 27 日_
 
 **修正**
 
-* 修正行銷伺服器與中間來源伺服器之間的傳送指標同步問題。(NEO-50724) <!--OKKKK-->
-* 修正匯出工作流程時可能導致錯誤的問題。(NEO-50555) <!--OKKKK-->
-* 修正延伸以前延伸之結構描述時出現的問題。(NEO-49118) <!--OKKKK-->
-* 修正在連結定義中使用兩個具有相同識別碼的擴充活動時出現的問題。(NEO-48851)
-* 修正兩個傳送準備失敗問題。當操作的潛在產品建議數量太多時，傳送準備可能會失敗。 當影像 URL 定義為要在文字格式傳送中追蹤的 URL 時，會出現第二個問題。(NEO-48807) <!--OKKKK-->
-* 修正可能導致工作流程失敗的問題，即工作流程會覆寫非 FFDA 帳戶外部帳戶中定義的倉儲名稱。(NEO-43209) <!--OKKKK-->
+* 修正行銷伺服器與中間來源伺服器之間的傳送指標同步問題。 (NEO-50724) <!--OKKKK-->
+* 修正匯出工作流程時可能導致錯誤的問題。 (NEO-50555) <!--OKKKK-->
+* 修正延伸以前延伸之結構描述時出現的問題。 (NEO-49118) <!--OKKKK-->
+* 修正在連結定義中使用兩個具有相同識別碼的擴充活動時出現的問題。 (NEO-48851)
+* 修正兩個傳送準備失敗問題。 當操作的潛在產品建議數量太多時，傳送準備可能會失敗。 當影像 URL 定義為要在文字格式傳送中追蹤的 URL 時，會出現第二個問題。 (NEO-48807) <!--OKKKK-->
+* 修正可能導致工作流程失敗的問題，即工作流程會覆寫非 FFDA 帳戶外部帳戶中定義的倉儲名稱。 (NEO-43209) <!--OKKKK-->
 * 改善網站應用程式的安全性，以防止 DDoS 攻擊。 (NEO-50757) <!--OKKKK-->
 * 已改善&#x200B;**[!UICONTROL Consolidated tracking]** (nms:trackingStats) FFDA資料表中合併追蹤資料的管理，以避免重複專案。 (NEO-46409)
-* 修正在邏輯運算子條件下使用`enableIf`時工作流程查詢中的邏輯運算問題。已覆寫先前的邏輯條件。 (NEO-45815)  <!--OKKKK-->
-* 帳單工作流程中已最佳化活躍輪廓的產生，以改善效能。(NEO-47658) <!--OKKKK-->
+* 修正在邏輯運算子條件下使用`enableIf`時工作流程查詢中的邏輯運算問題。 已覆寫先前的邏輯條件。 (NEO-45815)  <!--OKKKK-->
+* 帳單工作流程中已最佳化活躍輪廓的產生，以改善效能。 (NEO-47658) <!--OKKKK-->
 * 修正當影像節點 (img) 包含具有個人化欄位的 URL 時，HTML 檔案匯入的問題。 (NEO-48396)
-* 修正在&#x200B;**分割**&#x200B;工作流程活動中使用排序參數時 Snowflake (所有部署) 的問題。(NEO-45899) <!--OKKKK-->
+* 修正在&#x200B;**分割**&#x200B;工作流程活動中使用排序參數時 Snowflake (所有部署) 的問題。 (NEO-45899) <!--OKKKK-->
 * 修正了當 nmsDeliveryMapping 資料夾上具有讀取存取權限的使用者嘗試執行行銷活動或工作流程時，導致錯誤的問題。 (NEO-48230)
 * 修正傳送 HTML 標籤中，大型 HTML 程式碼可能發生的效能問題。 (NEO-47440)
 <!--
  * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)
 -->
-* 修正阻止使用者使用&#x200B;**合併所選列**&#x200B;工作流程選項的問題。(NEO-48488)
+* 修正阻止使用者使用&#x200B;**合併所選列**&#x200B;工作流程選項的問題。 (NEO-48488)
 * 修正 Snowflake FDA 連接器所引入的問題，此問題在擴充期間使用「0 或 1 基數簡單加入」選項時，會導致記錄遭到捨棄。 (NEO-48737)
 * 對 log4j 程式庫的其餘參考已從 Windows 上安裝的 Campaign 中移除。 (NEO-44851)
-* 修正在&#x200B;**查詢** 工作流程活動的其他資料中新增&#x200B;**已開啟的收件者**  (estimatedRecipientOpen) 指標導致錯誤的問題。(NEO-46665)
-* 透過多次傳送來改善工作流程中追蹤 URL 的管理，以提升效能。(NEO-50894) <!--OKKKK-->
-* 修正可能導致使用 Xtkfolder 的結構複寫失敗的問題。(NEO-46787) <!--OKKKK-->
-* 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。(NEO-48402)
+* 修正在&#x200B;**查詢** 工作流程活動的其他資料中新增&#x200B;**已開啟的收件者**  (estimatedRecipientOpen) 指標導致錯誤的問題。 (NEO-46665)
+* 透過多次傳送來改善工作流程中追蹤 URL 的管理，以提升效能。 (NEO-50894) <!--OKKKK-->
+* 修正可能導致使用 Xtkfolder 的結構複寫失敗的問題。 (NEO-46787) <!--OKKKK-->
+* 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。 (NEO-48402)

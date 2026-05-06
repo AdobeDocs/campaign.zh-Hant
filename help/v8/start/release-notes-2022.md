@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 89%
+source-wordcount: '1946'
+ht-degree: 88%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面**
+**在此頁面中**
 
 * Campaign v8.4 - [版本8.4.1](#release-8-4-1) | [版本8.4.2](#release-8-4-2)
 * Campaign v8.3 - [版本8.3.8](#release-8-3-8) | [版本8.3.9](#release-8-3-9)
@@ -94,7 +94,7 @@ _2022 年 9 月 30 日_
 
 **功能改進**
 
-* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。此外，任何使用者端主控台安裝現在都需要安裝&#x200B;**Microsoft Edge WebView 2**&#x200B;執行階段。
+* Internet Explorer 11 生命週期結束後，主控台中的 HTML 轉譯引擎現在使用 **Microsoft Edge Chromium**。 此外，任何使用者端主控台安裝現在都需要安裝&#x200B;**Microsoft Edge WebView 2**&#x200B;執行階段。
 * 改善工作流程高可用性的工作流程執行，可讓您跨不同容器同時執行工作流程，以防止工作流程服務遺失，並避免相關的執行錯誤。 **備註**：這項新功能僅在有限可用性的情況下發行給一組客戶。
 * 隱私權請求現在會針對指定的隱私權命名空間以批次執行。 此項改善可增加 GDPR /隱私權刪除請求的執行時間。
 
@@ -139,7 +139,7 @@ _2022 年 10 月 7 日_
 
 * 修正啟用 FeatureFlag_GZIP_Compression 選項時，影響 MID 執行個體上傳送記錄狀態更新的問題。 (NEO-49183)
 * 此 **資料庫清理** 技術工作流程現在也可處理自訂的準備結構。 (NEO-48974)
-* 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。(NEO-48079、NEO-48251)
+* 修正了可能導致傳遞持續存在&#x200B;**待處理**&#x200B;狀態的問題，即使已達到聯絡日期亦然。 (NEO-48079、NEO-48251)
 * 改善在 SOAP 呼叫期間處理無效 XML 字串時的穩定性。 (NEO-48027)
 * 修正在排除已列入封鎖名單的收件者步驟期間，鎖定大量收件者時，可能會拖慢傳送分析的速度的問題。 (NEO-48019)
 * 為了防止向種子地址傳送校樣時速度變慢，現在種子成員的所有連續複製都分組到一個複製請求中。 (NEO-44844)
@@ -217,7 +217,7 @@ _2022 年 5 月 18 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign分散式行銷可讓您在中央實體（總部、行銷部門等）與地方實體（銷售點、地區機構等）之間實施合作行銷活動。 透過共用工作區域 (促銷活動套件)，您可以建立促銷活動範本並將其建議給本地實體。 </p>
+<td> <p>Campaign分散式行銷可讓您在中央實體（總部、行銷部門等）之間實施合作行銷活動 和地方實體（銷售點、地區代理等）。 透過共用工作區域 (促銷活動套件)，您可以建立促銷活動範本並將其建議給本地實體。</p>
 <p>如需詳細資訊，請參閱<a href="../start/campaigns.md#distributed-marketing-add-on">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 
@@ -235,16 +235,16 @@ _2022 年 5 月 18 日_
 
 * Microsoft Exchange Online OAuth 2.0 在 Campaign 中支援 POP3 驗證。 [閱讀全文](../config/external-accounts.md#bounce-mails-external-account)
 * 已套用 Microsoft Dynamics 連接器網頁 API 的重要修正：
-* 已新增名稱為權限的新運算元和群組結構描述寫入 (operatorWrite)，以允許使用者插入、更新和刪除運算子 (xtk:operator) 和運算子組 (xtk:group) 結構描述。
+* 已新增名為right的運運算元和群組結構描述寫入(operatorWrite)，以允許使用者插入、更新和刪除運運算元(xtk:operator)和運運算元群組(xtk:group)結構描述。
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 現在，可以在單個中間來源設定多個 LINE 主要帳戶。
-* Web 流程的預設連接數已從 50 增加到 150。 
-* Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 [閱讀全文](../architecture/keys.md)
+* Web 流程的預設連接數已從 50 增加到 150。
+* Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 [閱讀更多](../architecture/keys.md)
 
 **修正**
 
-* 修復了使用種子和控制組定期傳送時發生的問題。(NEO-41197)
+* 修復了使用種子和控制組定期傳送時發生的問題。 (NEO-41197)
 * 修正 FFDA 上的一個問題，即當個人化區塊包含以下字元之一時，在傳送過程中 (最多256)，屬於同一個 deliveryPart 的電子郵件傳送被封鎖： `' & < > "`。 個人化區塊現在支援這些字元 (例如：firstname=&quot;Brian O&#39;Neil&quot;)。 (NEO-43184)
 * 修復了使用自訂結構描述作為目標對應時可能導致追蹤工作流程失敗的問題。 現在，我們透過目標對應精靈產生 broadLog 結構描述時，確保自訂目標結構描述的外部連結的類型正確。 (NEO-43506)
 * 修復了一個問題，該問題可能導致 FFDA 部署工作流程對於英文以外的語言失敗。 (NEO-44561)

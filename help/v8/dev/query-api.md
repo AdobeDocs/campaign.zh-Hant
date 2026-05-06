@@ -8,7 +8,7 @@ hide: true
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -755,9 +755,9 @@ for each(var record in xml.collection) {
 使用queryDef和NLWS方法時：
 
 * **針對大型資料集使用工作流程** - QueryDef並非針對大量資料處理而設計。 針對擁有超過1,000筆記錄的資料集，請使用可有效處理數百萬列的工作流程。 在[Campaign SDK檔案](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}中進一步瞭解
-* **使用引數化查詢** — 一律使用具有`$(sz)`的繫結引數(`$(l)`， `sqlExec`)以防止SQL插入
+* **使用引數化查詢** — 一律使用具有`sqlExec`的繫結引數(`$(sz)`， `$(l)`)以防止SQL插入
 * **設定明確限制** — 使用`lineCount`控制結果大小。 行銷活動的預設限制依內容而異（200到10,000筆記錄）
-* **搭配分頁使用orderBy** — 使用`orderBy`和`startLine`時一律包含`lineCount`子句，以確保分頁一致
+* **搭配分頁使用orderBy** — 使用`startLine`和`lineCount`時一律包含`orderBy`子句，以確保分頁一致
 * **使用getIfExists** — 在記錄可能不存在時使用`operation: "getIfExists"`以避免例外狀況
 * **使用分析列舉** — 新增`analyze: true`以選取節點，以取得好記的列舉名稱和標籤
 * **最佳化查詢** — 新增適當的`where`條件以限制結果集

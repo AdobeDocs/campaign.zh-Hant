@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 6e465ec24f72d0b30c4fc287da5d4c4bcaeda05b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 電子郵件內容中包含個人化的連結需要追蹤特定語法。
 
-在電子郵件內容(HTML或文字)中使用JavaScript，可讓您產生動態內容並傳送給收件者，但有兩個限制：
+在電子郵件內容（HTML或文字）中使用JavaScript，可讓您產生動態內容並傳送給收件者，但有兩個限制：
 
 * 指令碼無法直接存取資料庫（無法使用SQL函式和API函式），
 * Adobe Campaign必須能夠偵測URL，以便追蹤連結。
@@ -31,7 +31,7 @@ ht-degree: 2%
 <%@ value object="myObject" xpath="@myField" %>
 ```
 
-此指示會從`myField`物件擷取`myObject`欄位的值。
+此指示會從`myObject`物件擷取`myField`欄位的值。
 
 ## url偵測 {#url-detection}
 

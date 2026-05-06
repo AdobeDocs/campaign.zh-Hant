@@ -7,8 +7,8 @@ version: Campaign v8, Campaign Classic v7
 feature: Workflows, Privacy
 source-git-commit: 0266ffb83ed9b9ef16c0cb87b07b1e7db814c0d6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 7%
 
 ---
 

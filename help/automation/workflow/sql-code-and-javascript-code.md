@@ -9,7 +9,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 source-git-commit: aa9413dc794cf1a3683b33ca064ce228c90107f7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 9%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 ### 執行延遲 {#exec-delay}
 
-自20.2發行版本開始，**[!UICONTROL JavaScript code]**&#x200B;和&#x200B;**[!UICONTROL Advanced JavaScript code]**&#x200B;活動已新增執行延遲。 依預設，執行階段不能超過 1 小時。在此延遲後，流程將中止並顯示錯誤訊息，活動執行將失敗。
+自20.2發行版本開始，**[!UICONTROL JavaScript code]**&#x200B;和&#x200B;**[!UICONTROL Advanced JavaScript code]**&#x200B;活動已新增執行延遲。 依預設，執行階段不能超過 1 小時。 在此延遲後，流程將中止並顯示錯誤訊息，活動執行將失敗。
 
 您可以在下列活動中可用的&#x200B;**[!UICONTROL Stop execution after]**&#x200B;欄位中變更此延遲。
 
@@ -78,7 +78,7 @@ ht-degree: 9%
 * **[!UICONTROL Transitions]**：您可以定義數個活動輸出轉變。
 * **[!UICONTROL Schedule]**： **[!UICONTROL Schedule]**&#x200B;索引標籤可讓您排程何時觸發活動。
 
-進階JavaScript是一項持續性的工作，如果未標示為已完成，則會定期召回。 若要終止工作並防止將來重新呼叫，您必須使用&#x200B;**區段中的** task.setCompleted()**[!UICONTROL Next calls]**&#x200B;方法：
+進階JavaScript是一項持續性的工作，如果未標示為已完成，則會定期召回。 若要終止工作並防止將來重新呼叫，您必須使用&#x200B;**[!UICONTROL Next calls]**&#x200B;區段中的&#x200B;**task.setCompleted()**&#x200B;方法：
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch

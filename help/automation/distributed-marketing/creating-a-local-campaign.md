@@ -7,7 +7,7 @@ role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Web介面對應於由本機實體在訂購行銷活動時填寫的表單。
 
   ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]**：本機實體可存取其外部網路(非Adobe Campaign)中的行銷活動引數。 這些引數與&#x200B;**本機行銷活動（依表單）**&#x200B;的引數相同。
+* **[!UICONTROL By external form]**：本機實體可存取其外部網路（非Adobe Campaign）中的行銷活動引數。 這些引數與&#x200B;**本機行銷活動（依表單）**&#x200B;的引數相同。
 * **[!UICONTROL Pre-set]**：本機實體使用預設表單訂購行銷活動，而不進行當地語系化。
 
   ![](assets/mkt_distr_5.png)
@@ -107,7 +107,7 @@ Web介面對應於由本機實體在訂購行銷活動時填寫的表單。
 
 ### 文件 {#documents}
 
-建立訂單時，您可以允許本機實體運運算元將檔案（文字檔、試算表、影像、行銷活動說明等）連結至本機行銷活動。 **[!UICONTROL Advanced parameters for campaign entry...]**&#x200B;連結可讓您限制檔案數目。 若要這麼做，只要在&#x200B;**[!UICONTROL Number of documents]**&#x200B;欄位中輸入允許的最大數目即可。
+您可以允許本機實體運運算元連結檔案（文字檔案、試算表、影像、行銷活動說明等） 至本機行銷活動。 **[!UICONTROL Advanced parameters for campaign entry...]**&#x200B;連結可讓您限制檔案數目。 若要這麼做，只要在&#x200B;**[!UICONTROL Number of documents]**&#x200B;欄位中輸入允許的最大數目即可。
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: edbe7ab49a628436dfb4d27ae17122917d7371e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_email_del_tracking_param.png)
 
-[深入瞭解URL追蹤選項](url-tracking.md)
+   [深入瞭解URL追蹤選項](url-tracking.md)
 
 1. 將傳遞傳送給測試收件者。 [瞭解傳送傳遞](configure-and-send.md)
 
@@ -72,14 +72,14 @@ ht-degree: 1%
 1. 移至您用於測試的收件者之設定檔頁面。 [瞭解如何檢視設定檔](../audiences/view-profiles.md)
    * 收件者的設定檔頁面預設位於&#x200B;**[!UICONTROL Profiles and Targets > Recipients]**&#x200B;資料夾。
 
-1. 選取 **[!UICONTROL Tracking]** 索引標籤。[進一步瞭解追蹤記錄](tracking-logs.md)
+1. 選取 **[!UICONTROL Tracking]** 索引標籤。 [進一步瞭解追蹤記錄](tracking-logs.md)
 
    ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. 確認追蹤記錄的顯示方式：
-   * **[!UICONTROL Mirror Page]**&#x200B;欄中的&#x200B;**[!UICONTROL Type]**&#x200B;值
-   * 電子郵件開啟次數的&#x200B;**[!UICONTROL Open]**&#x200B;欄中的&#x200B;**[!UICONTROL Type]**&#x200B;個值
-   * 在&#x200B;**[!UICONTROL Email click]**&#x200B;欄中有&#x200B;**[!UICONTROL Type]**&#x200B;個連結點選值
+   * **[!UICONTROL Type]**&#x200B;欄中的&#x200B;**[!UICONTROL Mirror Page]**&#x200B;值
+   * 電子郵件開啟次數的&#x200B;**[!UICONTROL Type]**&#x200B;欄中的&#x200B;**[!UICONTROL Open]**&#x200B;個值
+   * 在&#x200B;**[!UICONTROL Type]**&#x200B;欄中有&#x200B;**[!UICONTROL Email click]**&#x200B;個連結點選值
 
 ## 疑難排解追蹤測試 {#troubleshooting-tracking-test}
 
