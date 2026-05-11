@@ -3,10 +3,10 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
+source-git-commit: 4a3e6cf15b1877e6eb4e13fdee056356eab267c5
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 8%
+source-wordcount: '1747'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 8%
 
 ## 發行版本8.9.2 {#release-8-9-2}
 
-_2026年3月11日_
-
 >[!CAUTION]
 >
 > 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
+
+_2026年5月3日_
 
 ### 安全性改善 {#security-8-9-2}
 
@@ -28,15 +28,72 @@ _2026年3月11日_
 
 ### 修正 {#fixes-8-9-2}
 
+>[!NOTE]
+>
+> 下列修正專案已逐步在後續的8.9.2版本編號中推出。 導覽至&#x200B;**[!UICONTROL Help > About...]** [功能表](upgrades.md#version)，檢查您是否有最新的8.9.2 (11d1c68)版本。 如需詳細資訊，請聯絡您的Adobe代表。
+
 * 修正由於資料型別轉換問題而導致交易事件中的事件日期設定不正確，造成動態報告中的日期不正確的問題。 (NEO-93923)
 * 修正標題和內文欄位空白時，Android和iOS無訊息推播通知在傳送準備期間失敗的問題。 (NEO-93739)
 * 修正因調解金鑰不正確而無法為Android應用程式註冊權杖擷取語言欄位的問題。 (NEO-93100)
 * 修正透過壓力規則套用自訂型別規則時，傳送準備失敗的問題。 (NEO-94457)
 * 修正使用者端主控台可能發生HTTP要求處理失敗的問題。 (NEO-94071)
 
+<!-- BUILD 8.9.2.9829.9669833 -->
+
+* FDA監視現在預設為停用，以防止連線記錄插入錯誤。 (NEO-94841)
+* 修正用於優惠兌換的互動SOAP呼叫可能因名稱空間解析錯誤而失敗的問題。 (NEO-94787)
+<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
+* 修正長度為1的字串欄位可能導致PostgreSQL 17上的工作流程臨時表格發生SQL錯誤的問題。 (NEO-94487)
+<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
+
+<!-- BUILD 8.9.2.9829.c90aa36 -->
+
+* 修正使用者端主控台和Web UI中的&#x200B;**顯示映象頁面**&#x200B;選項可能傳回「錯誤的映象頁面」錯誤的問題。 (NEO-93303)
+
+<!-- BUILD 8.9.2.9830.4a6f868 -->
+
+* 修正在FFDA部署中安裝多變數套件後，現成可用的&#x200B;**追蹤**&#x200B;技術工作流程可能失敗的問題。 (NEO-94972)
+* 修正當傳遞範本使用參考目前傳遞的權重公式時，傳遞準備無法將任何收件者新增至目標的問題。 (NEO-94892)
+<!-- hotfix -->
+* 修正了在升級後，使用兩個連續1-N連結的聯結來擴充工作流程時，可能會因SQL錯誤而失敗的問題。 (NEO-94893)
+
+<!-- BUILD 8.9.2.9831.f53d3d2 -->
+
+* 修正電子郵件管道中可能導致一段時間後記憶體過度消耗的問題。 (NEO-95088)
+* 修正當使用種子或校樣地址時，衝突的電子郵件型別規則可能錯誤地將非重複收件者從傳遞目標中排除的問題。 (NEO-95026)
+* 已修正升級後現成可用的&#x200B;**優惠通知**&#x200B;技術工作流程可能失敗的問題。 (NEO-95064)
+* 多變數套件安裝程式已經過改善，以防止在建置升級期間追蹤工作流程失敗。 (NEO-95018)
+
+<!-- BUILD 8.9.2.9831.11d1c68 -->
+
+* 修正可能導致伺服器重複當機，導致執行個體中斷的問題。 (NEO-95304)
+* 修正追蹤和映象頁面連結無法載入傳遞的問題。 (NEO-95239)
+* 修正了登入受IMS單一登入保護的Campaign Web應用程式時，可能會導致重新導向回圈的問題。 (NEO-95188)
+* 修正儲存傳遞後，傳遞擷取檔案中缺少傳遞建立日期的問題。 (NEO-95010)
+* 修正大量產生的子工作流程可能卡在&#x200B;**正在編輯**&#x200B;狀態的問題，減少異動工作流程容量。 (NEO-95131)
+* 修正&#x200B;**讀取清單**&#x200B;活動可能會以工作流程產生的清單結構覆寫預先定義的清單範本，導致下游工作流程失敗的問題。 (NEO-95103)
+* 修正推播通知回饋處理在處理大量傳遞時，可能導致伺服器當機的問題。 (NEO-95150)
+* 修正在結構描述總管中開啟`xtk:workflow`結構描述上的&#x200B;**資料**&#x200B;索引標籤可能會觸發錯誤訊息的問題。 (NEO-94923)
+<!-- hotfixes -->
+* 修正&#x200B;**擴充**&#x200B;活動無法再從上游&#x200B;**子工作流程**&#x200B;活動中擷取輸出屬性，導致工作流程失敗的問題。 (NEO-95151)
+* 修正了追蹤資料擷取的問題，此問題可能會阻止傳遞狀態更新並封鎖下游訊息處理。 (NEO-94666)
+* 修正與優惠方案主張相關的某些使用者端主控台動作可能會在Snowflake資料庫上觸發長期執行查詢，導致鎖定和速度緩慢的問題。 (NEO-92936)
+* 修正無法在Snowflake外部帳戶上設定儲存加密金鑰的自訂選項的問題。 (NEO-93302)
+
+<!-- 
+Internal/non-customer-facing:
+* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
+Customer-specific hotfixes:
+* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
+* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
+* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
+* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
+* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
+-->
+
 ## 發行版本8.9.1 {#release-8-9-1}
 
-_2026年1月27日_
+_2026 年 1 月 27 日_
 
 >[!CAUTION]
 >
@@ -48,7 +105,7 @@ _2026年1月27日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳送功能(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
+* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
 * [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
 * [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
 * [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
