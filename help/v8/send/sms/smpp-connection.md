@@ -6,10 +6,16 @@ role: User
 level: Intermediate
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
 TQID: https://experienceleague.adobe.com/dPwmuLj6Qd9b5x0EcBLidSnxjEfsjT8-kAo3Y-gRih4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 4458
@@ -183,7 +189,7 @@ SMS聯結器涉及3個實體：SMPP提供者、Adobe和您。
 
 如果提供者支援同一個登入/密碼組合的多個短程式碼，您必須詢問他們將哪個短程式碼放在BIND PDU中。 請注意，這段資訊必須放在BIND PDU中，而不是SUBMIT_SM中，因為BIND PDU是唯一允許正確路由MO的位置。
 
-請參閱上面各種PDU](#pdu)區段中的[資訊，以瞭解BIND PDU中有哪些欄位可用，通常您會將短程式碼放在&#x200B;*address_range*&#x200B;中，但這需要提供者的特殊支援。 請聯絡他們，以瞭解他們如何獨立路由多個短程式碼。
+請參閱上面各種PDU[&#128279;](#pdu)區段中的資訊，以瞭解BIND PDU中有哪些欄位可用，通常您會將短程式碼放在&#x200B;*address_range*&#x200B;中，但這需要提供者的特殊支援。 請聯絡他們，以瞭解他們如何獨立路由多個短程式碼。
 
 Adobe Campaign支援在相同的外部帳戶上處理多個短程式碼，因此通常只要針對所有流量使用單一帳戶即可正常運作。
 

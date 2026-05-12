@@ -7,10 +7,15 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 TQID: https://experienceleague.adobe.com/VeDBB3FCIUIkD-IEdPlUtjhX9CKFiQptIH-eys-iG2o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 562
@@ -20,7 +25,7 @@ ht-degree: 1%
 
 # 檔案傳輸{#file-transfer}
 
-**檔案傳輸**活動可讓您接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定為Azure Blob儲存、Amazon Simple Storage Service (S3)、FTP或SFTP。
+**檔案傳輸**&#x200B;活動可讓您接收或傳送檔案、測試檔案是否存在，或列出伺服器上的檔案。 使用的通訊協定為Azure Blob儲存、Amazon Simple Storage Service (S3)、FTP或SFTP。
 透過S3、Azure Blob儲存或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入至Adobe Campaign。 如需詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}。
 
 ## 屬性 {#properties}

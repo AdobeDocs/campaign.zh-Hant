@@ -6,9 +6,12 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 TQID: https://experienceleague.adobe.com/jpyolWAkavJVJeUJzIP9-vHt17Z20oGKZ6sG99ahQE0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 304
@@ -22,8 +25,8 @@ ht-degree: 2%
 
 工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;用於處理與工作流程活動共用資料。
 
-根據預設，**[!UICONTROL Working table]**會建立在與您查詢所需資料來源相同的資料庫中。
-例如，當查詢儲存在雲端資料庫上的**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+根據預設，**[!UICONTROL Working table]**&#x200B;會建立在與您查詢所需資料來源相同的資料庫中。
+例如，當查詢儲存在雲端資料庫上的&#x200B;**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
 
 使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動以使用您&#x200B;**[!UICONTROL Working table]**&#x200B;的不同資料來源。
 
