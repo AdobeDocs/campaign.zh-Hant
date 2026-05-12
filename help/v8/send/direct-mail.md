@@ -6,9 +6,14 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+TQID: https://experienceleague.adobe.com/CDfK2RCVNzKde8WiEBdkq8ZB2JlPSjnFmP3cr9Nyox0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 885
 ht-degree: 7%
 
 ---
@@ -71,11 +76,11 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=zh-Hant){target="_blank"}。
+您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}。
 
 >[!NOTE]
 >
->此助理包含匯出助理的步驟以詳細說明Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=zh-Hant){target="_blank"}。
+>此助理包含匯出助理的步驟以詳細說明Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}。
 
 ## 驗證傳遞{#validating}
 

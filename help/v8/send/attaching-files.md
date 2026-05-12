@@ -6,9 +6,13 @@ feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 27d13642-2971-466b-818d-39328c198b14
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+TQID: https://experienceleague.adobe.com/4GMBlA0-rTnn8kBciPmJLozcPU1qmwM9-5sTFhxkua4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1006
 ht-degree: 3%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->為避免效能問題，建議不要在每封電子郵件中包含多個附件。 您可以從Campaign選項清單設定建議的臨界值。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)。
+>為避免效能問題，建議不要在每封電子郵件中包含多個附件。 您可以從Campaign選項清單設定建議的臨界值。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)。
 
 有兩種可能的情況：
 
@@ -38,7 +42,7 @@ ht-degree: 3%
 
 Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新增一個檔案作為電子郵件的附件。 此臨界值可從`NmsDelivery_MaxRecommendedAttachments`選項設定。
 
-在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)的Campaign選項清單中瞭解更多。
+在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)的Campaign選項清單中瞭解更多。
 
 ## 附加本機檔案 {#attaching-a-local-file}
 

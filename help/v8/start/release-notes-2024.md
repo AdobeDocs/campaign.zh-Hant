@@ -3,9 +3,14 @@ title: Campaign v8 (主控台) 2024 發行說明
 description: 2024 Campaign v8版本的功能和改進清單
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
+TQID: https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: 1679
 ht-degree: 88%
 
 ---
@@ -43,7 +48,7 @@ _2024 年 9 月 3 日_
 
 * **豐富推播通知 (GA)** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [閱讀全文](../send/rich-push-android.md)。
 
-* **品牌化** - 品牌化選項現在可供所有管道使用，包括 SMS 和直接郵件。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
+* **品牌化** - 品牌化選項現在可供所有管道使用，包括 SMS 和直接郵件。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
 ### 修正 {#fixes-8-7-2}
 
@@ -65,11 +70,11 @@ _2024 年 5 月 2 日_
 
 * **豐富推播通知範本** - 您現可透過 Android 傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [閱讀全文](../send/rich-push-ios.md)。
 
-* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
+* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
 * **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](../dev/api/get-started-apis.md)
 
-* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
+* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### 相容性更新 {#comp-8-7-1}
 
@@ -173,7 +178,7 @@ _2024 年 2 月 14 日_
 
 * 到 2024 年 2 月，任何透過 Google 或 Yahoo! 傳送超過 5,000 則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性 (DMARC) 的驗證技術。 請務必為您搭配 Adobe Campaign 使用的所有子網域設定 DMARC 記錄。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
 
-* 2024 年 6 月 1 日起，Google 和 Yahoo! 將要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign 現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=zh-Hant#list-unsubscribe){target="_blank"}
+* 2024 年 6 月 1 日起，Google 和 Yahoo! 將要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign 現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### 修正 {#fixes-8-6-1}

@@ -6,9 +6,14 @@ feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
-source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
+TQID: https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -151,7 +156,7 @@ ht-degree: 1%
 >
 >依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多資訊](../dev/datamodel.md#ootb-profiles)。
 >
->在此頁面[&#128279;](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表。
+>在此頁面](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表[。
 
 ## 管理不足的優惠券 {#managing-insufficient-coupons}
 

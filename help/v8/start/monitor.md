@@ -5,9 +5,15 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
-source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
+TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1141
 ht-degree: 4%
 
 ---
@@ -52,7 +58,7 @@ Adobe Campaign提供全方位的功能，可監控您的流程、傳遞和環境
 
 **監視下列工作流程元素：**
 
-**工作流程執行狀態** — 追蹤工作流程是否正在執行、暫停、失敗或完成。 [進一步瞭解工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant){target="_blank"}
+**工作流程執行狀態** — 追蹤工作流程是否正在執行、暫停、失敗或完成。 [進一步瞭解工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 **活動執行記錄** — 存取每個工作流程活動的詳細記錄，以疑難排解問題並最佳化效能。
 
@@ -83,13 +89,13 @@ Adobe Campaign提供全方位的功能，可監控您的流程、傳遞和環境
 
 Campaign v8提供數個監視功能，可追蹤您的執行個體效能並確保最佳化操作：
 
-**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}
+**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
 
-**作用中設定檔監控** — 根據您的合約限制追蹤作用中設定檔的使用情況，以維持法規遵循並最佳化資源配置。 [進一步瞭解作用中設定檔](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hant){target="_blank"}
+**作用中設定檔監控** — 根據您的合約限制追蹤作用中設定檔的使用情況，以維持法規遵循並最佳化資源配置。 [進一步瞭解作用中設定檔](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
 
 **工作流程監視** — 監視工作流程執行狀態以識別長期執行的工作流程，並確保所有技術工作流程都正確執行。 [進一步瞭解技術工作流程](#technical-workflows)
 
-**傳遞輸送量和延遲** — 透過「控制面板」追蹤傳遞輸送量（每小時傳送的訊息）和異動通訊的延遲。 [進一步瞭解輸送量監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=zh-Hant){target="_blank"}
+**傳遞輸送量和延遲** — 透過「控制面板」追蹤傳遞輸送量（每小時傳送的訊息）和異動通訊的延遲。 [進一步瞭解輸送量監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -114,7 +120,7 @@ Campaign v8提供數個監視功能，可追蹤您的執行個體效能並確保
 | **傳遞能力更新** | 更新傳遞規則和垃圾郵件篩選模式 |
 | **資料庫清理** | 清除舊傳遞和追蹤記錄 |
 
-深入瞭解[技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}
+深入瞭解[技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 ### Campaign 控制面板 {#control-panel}
 

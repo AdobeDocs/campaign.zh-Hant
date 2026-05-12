@@ -6,9 +6,12 @@ feature: Workflows
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/EuZFMSHKtsfYexPt3-HS0RJHnmxCQX-Pf8qUy-DlBu0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: 271
 ht-degree: 12%
 
 ---
@@ -55,4 +58,4 @@ ht-degree: 12%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

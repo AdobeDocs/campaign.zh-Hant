@@ -6,9 +6,13 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/7owt-TM494cZq-Knz55qMpCAAtGhlpaKOlf2iXXeqo4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 472
 ht-degree: 2%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 活動的屬性分為三個步驟：
 

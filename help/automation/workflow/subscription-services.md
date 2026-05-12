@@ -5,9 +5,11 @@ description: 進一步瞭解訂閱服務工作流程活動
 feature: Workflows, Targeting Activity, Subscription Services Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/JT5ZcURy2sxP9UclzGhhwJgaSpcv3Exi2X6FRUmCNc0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: 403
 ht-degree: 1%
 
 ---

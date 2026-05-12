@@ -5,9 +5,14 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+TQID: https://experienceleague.adobe.com/VpyoAhpD-da4BUAXLJyUyaJBPMqoQ-PHNcZToe3QBlc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: 1620
 ht-degree: 1%
 
 ---
@@ -45,7 +50,7 @@ ht-degree: 1%
 1. 建立使用者設定檔。 [了解更多](interaction-operators.md)
 1. （選用）為每個目標維度建立選件環境。 [了解更多](interaction-env.md)
 1. 為每個環境建立型別規則。 [了解更多](interaction-offer.md#offer-presentation)
-1. 為每個環境建立選件空間，並設定演算函式。 [進一步瞭解](interaction-offer-spaces.md)
+1. 為每個環境建立選件空間，並設定演算函式。 [更多詳情](interaction-offer-spaces.md)
 如果空間是由識別模式上的單一通道所定義，則必須指定此空間的進階引數。
 
    >[!NOTE]

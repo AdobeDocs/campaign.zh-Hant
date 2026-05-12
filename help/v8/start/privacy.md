@@ -6,10 +6,16 @@ role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/vtmmkcaWp7orKU-ya58ySw-kkTGa9GmgQzyUwgSfPK0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 83%
+source-wordcount: 1093
+ht-degree: 87%
 
 ---
 
@@ -111,9 +117,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 >[!CAUTION]
 >
->若要使用自訂名稱空間型別提交請求，請善用[JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"}，並將namespaceId新增至請求，或使用[API呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}發出請求。
+>若要使用自訂命名空間類型提交請求，請利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"}並在請求中新增 namespaceId，或者使用 [API 呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}來發起請求。
 >
->僅使用[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target="_blank"}來提交使用標準名稱空間型別的請求。
+>僅使用[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target="_blank"}來提交使用標準名稱空間類型的請求。
 
 ### 處理請求時搜尋的表格 {#list-of-tables}
 

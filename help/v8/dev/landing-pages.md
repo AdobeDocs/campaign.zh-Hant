@@ -5,9 +5,14 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
+TQID: https://experienceleague.adobe.com/8PGcZD3QXlyIlpm8NsWscsyygy7AW5BVJGlP7J8KnHI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: 376
 ht-degree: 13%
 
 ---
@@ -34,25 +39,25 @@ ht-degree: 13%
 * 提供收件者取消訂閱接收通訊的功能。
 
 
-在[Campaign網頁使用者介面檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}中進一步瞭解登入頁面。
+在[Campaign網頁使用者介面檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}中進一步瞭解登入頁面。
 
 您也可以瀏覽下列區段：
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="銷售機會" src="assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/create-lp"><strong>建立登陸頁面</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>建立登陸頁面</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="驗證" src="assets/do-not-localize//lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/lp-content"><strong>設計登陸頁面</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>設計登陸頁面</strong></a>
 </div>
 <p>
 </td>

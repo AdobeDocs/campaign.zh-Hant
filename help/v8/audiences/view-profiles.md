@@ -6,9 +6,15 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+TQID: https://experienceleague.adobe.com/KjbdtHFlh5F0wXN2jV9C-sEOY2qry0KuRHhWe9MT9Yk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: 455
 ht-degree: 6%
 
 ---
@@ -73,11 +79,11 @@ ht-degree: 6%
 
   ![](assets/subscription-tab.png)
 
-  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
+  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。
+  在本節](../send/tracking.md)中進一步瞭解追蹤[。

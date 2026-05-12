@@ -6,9 +6,14 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+TQID: https://experienceleague.adobe.com/9TXL-RQE41IZCKWoh7jvGNLfBonStPosLB7qkIHZdKo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: 2028
 ht-degree: 1%
 
 ---
@@ -68,7 +73,7 @@ ht-degree: 1%
 
 * 若要匯入HTML內容，請使用&#x200B;**[!UICONTROL Open]**&#x200B;按鈕。 您也可以將原始程式碼直接貼到&#x200B;**[!UICONTROL Source]**&#x200B;子索引標籤中。
 
-  如果您使用數位內容編輯器(DCE)，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=zh-Hant#step-3---selecting-a-content)。
+  如果您使用數位內容編輯器(DCE)，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content)。
 
   >[!IMPORTANT]
   >
@@ -151,7 +156,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 為避免效能問題，電子郵件中包含的影像不能超過100 KB。 預設設定的此限制可以從`NmsDelivery_MaxDownloadedImageSize`選項變更。 不過，Adobe強烈建議您在電子郵件傳送中避免大型影像。
 
-在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)的Campaign選項清單中瞭解更多。
+在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)的Campaign選項清單中瞭解更多。
 
 ### 影像型別 {#img-types}
 
@@ -162,7 +167,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
   可透過Adobe Campaign階層的&#x200B;**[!UICONTROL Resources > Online]**&#x200B;節點存取公用資源。 它們會分組在程式庫中，並可包含在電子郵件訊息中，但也可用於行銷活動或任務，或用於內容管理。
 
-* 與Adobe Experience Cloud共用的資產。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant)。
+* 與Adobe Experience Cloud共用的資產。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html)。
 
 ### 插入和管理影像 {#manage-images}
 
@@ -176,7 +181,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 若要透過傳送助理管理影像：
 
-1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**&#x200B;圖示。
+1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**圖示。
    ![](assets/s_ncs_user_email_del_img_param.png)
 
 1. 在&#x200B;**[!UICONTROL Images]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Upload images]**。

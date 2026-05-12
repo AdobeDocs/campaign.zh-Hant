@@ -6,9 +6,13 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 449
 ht-degree: 14%
 
 ---
@@ -33,20 +37,20 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 
 以下列出在Adobe Campaign中建立及執行行銷活動的關鍵步驟：
 
-1. **設定您的計畫和方案**&#x200B;排程、設定邏輯以協調行銷活動
-方案是為期間定義的一組行銷活動。 每個方案都包含連結至日曆的行銷活動，提供整體檢視。 行銷計畫可包含多個方案。 它定義一段時間的策略目標，包括分配的預算、可衡量的目標和相關檔案。 在本節[&#128279;](marketing-campaign-create.md#create-plan-and-program)中瞭解如何建立計畫和方案。
+1. **設定您的計畫和方案**排程、設定邏輯以協調行銷活動
+方案是為期間定義的一組行銷活動。 每個方案都包含連結至日曆的行銷活動，提供整體檢視。 行銷計畫可包含多個方案。 它定義一段時間的策略目標，包括分配的預算、可衡量的目標和相關檔案。 在本節](marketing-campaign-create.md#create-plan-and-program)中瞭解如何建立計畫和方案[。
 
 1. **建立您的第一個行銷活動**
-行銷活動會集中與行銷活動相關的所有元素：傳送、目標定位規則、成本、匯出檔案、相關檔案等。每個行銷活動都會附加至一個方案。 在本節[&#128279;](marketing-campaign-create.md#create-a-campaign)中瞭解如何建立行銷活動。
+行銷活動會集中與行銷活動相關的所有元素：傳送、目標定位規則、成本、匯出檔案、相關檔案等。每個行銷活動都會附加至一個方案。 在本節](marketing-campaign-create.md#create-a-campaign)中瞭解如何建立行銷活動[。
 
 1. **選取對象**
-您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 在本節[&#128279;](marketing-campaign-target.md#select-the-target-population)中瞭解如何定義行銷活動的目標對象。
+您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 在本節](marketing-campaign-target.md#select-the-target-population)中瞭解如何定義行銷活動[的目標對象。
 
 1. **建立傳遞**
-在行銷活動中協調跨通道傳遞。 透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您也可以新增直接郵件傳送。 在本節[&#128279;](marketing-campaign-deliveries.md)中瞭解如何在行銷活動中建立、驗證及監視傳遞。
+在行銷活動中協調跨通道傳遞。 透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您也可以新增直接郵件傳送。 在本節](marketing-campaign-deliveries.md)中瞭解如何在行銷活動[中建立、驗證及監視傳遞。
 
 1. **設定程式流程**
-定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 在本節[&#128279;](marketing-campaign-approval.md)中瞭解如何設定核准。
+定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 在本節](marketing-campaign-approval.md)中瞭解如何設定核准[。
 
 1. **監視傳遞**。
 從控制面板追蹤行銷活動、從Campaign UI檢查傳遞狀態和執行。 [了解更多資訊](marketing-campaign-monitoring.md)。

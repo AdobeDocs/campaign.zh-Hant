@@ -6,9 +6,14 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/G8-4BinRvCMosfdiTD6FuEztviEDn6ea8hKeQd8QVSA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: 474
 ht-degree: 48%
 
 ---
@@ -72,4 +77,4 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 瞭解不同類型的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452879?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

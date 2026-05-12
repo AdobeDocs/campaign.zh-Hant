@@ -5,9 +5,15 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
+TQID: https://experienceleague.adobe.com/6Yc3zbm-RSMwE6T9kLrko6TcW54uUnLM5ItNYq-iohA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 852
 ht-degree: 78%
 
 ---
@@ -107,4 +113,4 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 >
 >此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[&#128279;](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。
+[](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。

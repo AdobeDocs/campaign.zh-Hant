@@ -6,9 +6,14 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
+TQID: https://experienceleague.adobe.com/vSbY229FQjQL7M44gjs3WgYbYwMkcts98tuVVhS1LEw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: 1504
 ht-degree: 1%
 
 ---
@@ -17,7 +22,7 @@ ht-degree: 1%
 
 在行銷活動中，您可以針對每次傳送定義：
 
-* 目標對象。 您可以傳送訊息給收件者[&#128279;](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立對象
+* 目標對象。 您可以傳送訊息給收件者](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立[對象
 * 控制組。 您可以[新增控制群組](#add-a-control-group)，以監視郵件傳遞後的收件者行為
 * 種子地址 — 在[本節](../../v8/audiences/test-profiles.md)中瞭解更多。
 
@@ -252,4 +257,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

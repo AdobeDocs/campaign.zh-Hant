@@ -6,9 +6,16 @@ role: User, Admin
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
+TQID: https://experienceleague.adobe.com/niDT5Lfk-5W5rbVB1CpLykFQFAx6bwxOzxKrsuRjCkE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ce296ecd-3d06-45ab-83c3-37214e8ce31cid: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: efa38731-2723-4334-8d8b-a778af834835id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -107,7 +114,7 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]**&#x200B;角色授與Campaign控制面板的存取權。 Adobe Admin Console中任何名稱包含「管理員」字樣的產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等） 將授予「控制面板」的存取權。 深入瞭解[管理控制面板存取](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant){target="_blank"}。
+   >**[!UICONTROL Administrator]**&#x200B;角色授與Campaign控制面板的存取權。 Adobe Admin Console中任何名稱包含「管理員」字樣的產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等） 將授予「控制面板」的存取權。 深入瞭解[管理控制面板存取](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
 
 1. **[!UICONTROL Delivery operators]** （傳遞）
 
@@ -191,7 +198,7 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 已命名的許可權會將許可權授予：
 
 * 執行作業
-例如，已針對具有&#x200B;**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
+例如，已針對具有**準備傳遞**&#x200B;命名許可權的&#x200B;**傳遞操作員**&#x200B;群組的成員，啟用傳遞編輯器中的&#x200B;**分析**&#x200B;按鈕
 
 * 存取資料夾
 操作員群組的成員資格可以透過變更資料夾的安全性設定，來授予或限制資料夾的存取權。 [了解更多資訊](folder-permissions.md#restrict-access-to-a-folder)。

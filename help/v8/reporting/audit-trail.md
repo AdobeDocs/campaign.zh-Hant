@@ -4,9 +4,13 @@ title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
-source-git-commit: b4b361a4aabd1b33554166c2638989b99a02baec
+TQID: https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: 626
 ht-degree: 2%
 
 ---
@@ -43,7 +47,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 * **選項稽核軌跡**&#x200B;可讓您檢查活動和對選項進行的最後修改。
 
-  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **傳遞稽核軌跡**&#x200B;可讓您檢查活動和對傳遞進行的最後修改。
 

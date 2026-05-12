@@ -7,9 +7,14 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+TQID: https://experienceleague.adobe.com/yZINVQNRrdNsPn3LZAoHK2STIsDDOMFH1AWKQ1eRKUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: 2043
 ht-degree: 3%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
+>在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 

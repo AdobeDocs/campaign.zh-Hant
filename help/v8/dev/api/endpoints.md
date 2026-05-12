@@ -7,9 +7,15 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/1ajh28ZpUsuyTh-qHnto3GsH4J25WSsyK7TqTjlhHfg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 197
 ht-degree: 9%
 
 ---
@@ -25,8 +31,8 @@ Adobe Campaign REST API的可用端點：
 
 依預設，**profileAndServices**&#x200B;與&#x200B;**profileAndServicesExt** API可用的主要資源為：
 
-* **/設定檔**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用&#x200B;**/服務**&#x200B;端點。 如需Campaign中設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/tw/campaign/standard/audiences/using/about-profiles.html)。
-* **/服務**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/tw/campaign/standard/audiences/using/creating-a-service.html)。
+* **/設定檔**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用&#x200B;**/服務**&#x200B;端點。 如需Campaign中設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)。
+* **/服務**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)。
 
 >[!NOTE]
 >

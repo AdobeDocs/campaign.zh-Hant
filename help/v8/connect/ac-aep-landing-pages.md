@@ -5,9 +5,15 @@ feature: Experience Platform Integration
 role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/LWOsfmxhIhhcbbXp6SXq2MLpejPdfipyOllm0SBmVAo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1038
 ht-degree: 1%
 
 ---
@@ -56,7 +62,7 @@ OAuth連線就緒後，下一步就是在Adobe Experience Platform中建立&#x20
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant){target="_blank"}。
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}。
 
    在&#x200B;**[!UICONTROL Authentication]**&#x200B;步驟中，開啟&#x200B;**[!UICONTROL Enable authentication]**&#x200B;選項，以使用先前透過OAuth整合產生的存取權杖進行驗證。
 
@@ -98,7 +104,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=zh-Hant#JavaScript-code){target="_blank"}。
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
@@ -344,5 +350,5 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 ### 更多資訊
 
 * [設定JavaScript程式碼活動](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=zh-Hant){target="_blank"}
+* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [管理訂閱和取消訂閱](../start/subscriptions.md)

@@ -5,9 +5,13 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+TQID: https://experienceleague.adobe.com/FOcEqR6kXaTUyLHSjaxXk2AhErFunD7JNokBzNiOJVY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: 796
 ht-degree: 13%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 13%
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426467?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 建立連絡人清單 {#create-a-list-of-contacts}
@@ -103,7 +107,7 @@ ht-degree: 13%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中瞭解如何在工作流程中建立查詢。
+   在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}中瞭解如何在工作流程中建立查詢。
 
 1. 為此查詢新增標籤並儲存您的變更。
 1. 新增&#x200B;**[!UICONTROL List update]**&#x200B;活動並加以編輯。
@@ -124,7 +128,7 @@ ht-degree: 13%
 
    ![](assets/access-new-list.png)
 
-   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
+   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}。
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 

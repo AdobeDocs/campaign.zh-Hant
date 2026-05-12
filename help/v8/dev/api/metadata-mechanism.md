@@ -7,9 +7,14 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/yi2PDkImYnF-UqGqklMAlvGAIHl9GE47VsCEGj6--yU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 228
 ht-degree: 1%
 
 ---
@@ -31,7 +36,7 @@ ht-degree: 1%
    * &quot;resType&quot;：這是技術型別。
 
      如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
-如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在&#x200B;**values**&#x200B;節點中詳細說明。
+如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在**values**&#x200B;節點中詳細說明。
 
 * **篩選器**&#x200B;節點會傳回URL以擷取關聯的篩選器。 如需篩選的詳細資訊，請參閱[本區段](sorting.md#filtering)。
 

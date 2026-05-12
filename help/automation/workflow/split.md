@@ -5,9 +5,12 @@ description: 進一步瞭解分割工作流程活動
 feature: Workflows, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/7o7AJlawbIiB5vlhG8BQPo-abI6XD6ufMYw-CF1m0QM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: 1835
 ht-degree: 4%
 
 ---
@@ -49,7 +52,7 @@ ht-degree: 4%
 
    ![](assets/s_user_segmentation_partage4.png)
 
-1. 您也可以&#x200B;**使用&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**按鈕**&#x200B;新增其他子集。
+1. 您也可以&#x200B;**使用&#x200B;**[!UICONTROL Add]**按鈕**&#x200B;新增其他子集。
 
    ![](assets/s_user_segmentation_partage_add.png)
 

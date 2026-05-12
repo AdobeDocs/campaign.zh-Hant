@@ -6,9 +6,15 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/urm8-2koO46hRe8XeCDoKYVU-WDqxM7tq0TwqDC8Sc0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: 1196
 ht-degree: 4%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 4%
 
 LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。 您可以使用Adobe Campaign傳送LINE訊息。
 
-[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
+[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
 
 ![](assets/line_message.png)
 

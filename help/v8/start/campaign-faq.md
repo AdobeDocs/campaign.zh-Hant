@@ -6,9 +6,13 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+TQID: https://experienceleague.adobe.com/Cpc-97Lab93SQhsFloibdhpvCDFockj6afFSZUTgKoM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 785
 ht-degree: 96%
 
 ---
@@ -85,13 +89,13 @@ ht-degree: 96%
 
    您可以從 Adobe 下載中心取得安裝程式和用戶端主控台。
 
-   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}  以下載 Adobe Campaign。
+   以管理員使用者身分，存取 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} 以下載 Adobe Campaign。
 
-   在[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁中進一步瞭解發佈中心。
+   在](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}本頁[中進一步瞭解發佈中心。
 
 1. **我可以聯絡 Campaign 專家嗎？**
 
-   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}
+   加入 Campaign 社群：在現有問題中尋找答案或向專家提問。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **如何記錄問題？**

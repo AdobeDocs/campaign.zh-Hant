@@ -5,9 +5,15 @@ feature: Reporting
 role: Developer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/L1SrrPUujP-EVeDrnPNZgRoWZhVPe8aUVt5fR-r-318
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 408
 ht-degree: 13%
 
 ---
@@ -18,7 +24,7 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
 * **動態報告**
 
-  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}。
+  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}。
 
 * **多維度資料集**
 
@@ -56,4 +62,4 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   使用Adobe Campaign建立有關資料庫中資料的報告。 建立後，可在適當的前後關聯中加以存取。
 
-  建立報告的步驟詳見[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=zh-Hant){target="_blank"}。 「個人化報表」建立作業已保留給進階使用者。
+  建立報告的步驟詳見[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}。 「個人化報表」建立作業已保留給進階使用者。

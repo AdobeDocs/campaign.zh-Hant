@@ -6,9 +6,14 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+TQID: https://experienceleague.adobe.com/2qo8UUeTbMxMJse13-8HOB0dJXoSk0AKpNJamGTaqxs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -35,7 +40,7 @@ ht-degree: 1%
 
   工作流程開始後，傳送會新增至行銷活動控制面板。
 
-在此頁面[&#128279;](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程。
+在此頁面](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程[。
 
 ## 開始傳遞 {#start-a-delivery}
 
@@ -113,4 +118,4 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >在本節[&#128279;](providers-stocks-and-budgets.md)中進一步瞭解預算。
+  >在本節](providers-stocks-and-budgets.md)中進一步瞭解預算[。
