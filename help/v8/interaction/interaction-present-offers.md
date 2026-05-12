@@ -5,9 +5,15 @@ description: 瞭解如何使用Campaign互動模組呈現最佳優惠方案
 feature: Interaction, Offers
 role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+TQID: https://experienceleague.adobe.com/aC-hN1JwwFkuGc6ZNV0M3uHpM7LcXTHpyC9wCbxKziQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 209
 ht-degree: 8%
 
 ---

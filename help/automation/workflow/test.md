@@ -5,9 +5,12 @@ description: 進一步瞭解測試工作流程活動
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/dXkGOQ-OD-KUwWx29DcE7FqYzbDSF-M6ox8-8cTurjA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 4%
 
 ---

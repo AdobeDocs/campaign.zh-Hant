@@ -4,10 +4,22 @@ description: 2021 Campaign v8 版本隨附的功能與改進清單
 feature: Release Notes
 hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+TQID: https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 93%
+source-wordcount: 1644
+ht-degree: 97%
 
 ---
 
@@ -98,7 +110,7 @@ _2021 年 10 月 28 日_
 * 修正可能導致計費工作流程在行銷執行個體中造成當機的問題。
 * 修正了 FFDA Snowflake 現成可用表格中可能重複金鑰的問題。 (NEO-38583)
 * 修正了在逐一編輯兩個重複資料刪除活動時，可能導致工作流程臨時結構描述遺失的問題。 (NEO-34063)
-* 修正在嘗試擷取時間元件時，執行Amazon Redshift HoursDiff和MinutesDiff函式時傳回錯誤結果的問題。(NEO-31673)
+* 修正了在嘗試提取時間元件時，執行 Amazon Redshift HoursDiff 和 MinutesDiff 函式時傳回錯誤結果的問題。(NEO-31673)
 * 修正了由於 Proxy 組態問題，使用者無法登入主控台的問題。 (NEO-38388)
 * 修正了妨礙&#x200B;**清除資料夾**&#x200B;功能正常運作的問題。 (NEO-37459)
 * 修正可能導致您無法預覽附加至工作流程的行動傳遞問題。
@@ -116,7 +128,7 @@ _2021 年 9 月 7 日_
 
 * Flash 的生命週期結束後，已從所有相關的 Campaign 功能和元件中移除，並更換為 HTML5。 **量測**&#x200B;類型圖表已移除。 (NEO-30330) [閱讀全文](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=zh-Hant)
 * 在Windows上安裝使用者端主控台時，安裝程式現在會檢查是否有父代登入節點，如果缺少該節點，則會建立一個。 這可防止啟動主控台時發生潛在問題。 (NEO-34854)
-* 追蹤簽章功能已經過改良，以防止連結至協力廠商工具（電子郵件使用者端、網際網路瀏覽器等）的錯誤 處理特殊字元。 URL 參數現在已編碼。
+* 追蹤簽章功能已經過改良，以防止連結至第三方工具 (電子郵件用戶端、網際網路瀏覽器等) 以處理 特殊字元的錯誤。 URL 參數現在已編碼。
 
 **其他變更**
 
@@ -125,7 +137,7 @@ _2021 年 9 月 7 日_
 * 遷移到 Tomcat 8 後，已更新 IIS 安裝指令碼，修正了 IIS 整合問題。 (NEO-31019)
 * 已新增護欄，僅允許[帳單技術工作流程](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=zh-Hant#billing-report)在行銷執行個體上執行。
 * 已在工作流程轉變&#x200B;**檢視群體**&#x200B;視窗的資料和結構描述標籤中改善資料來源識別。
-* 已將缺少的資料庫索引新增到下列結構描述中，以防止資料庫更新問題： xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl
+* 已將缺少的資料庫索引新增到下列結構描述中，以防止資料庫更新問題：xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl
 
 **修補程式**
 

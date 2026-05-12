@@ -5,9 +5,14 @@ description: 進一步瞭解更新資料工作流程活動
 feature: Workflows, Targeting Activity, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
+TQID: https://experienceleague.adobe.com/9-8CMVv6UNU-0cggEat72cStNKk4Bv9wqApeatuq-Fo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: 844
 ht-degree: 4%
 
 ---
