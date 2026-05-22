@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign Technotes
 description: Campaign技術檔案
 breadcrumb-title: Campaign技術檔案
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 25ce962e7c8b6a62fc2c1edb08a78afa839d264e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 24%
+source-wordcount: '88'
+ht-degree: 27%
 
 ---
 
@@ -26,8 +26,9 @@ ht-degree: 24%
    + {hide-from-toc}[行銷活動電子郵件傳送基礎結構升級](upgrades/upgrade-to-aws.md)
    + {hide-from-toc}[升級Apache版本](upgrades/apache.md)
    + {hide-from-toc}[網際網路瀏覽器](upgrades/browsers.md)
-   + {hide-from-toc}[2023系統升級](upgrades/tech-stack-upgrade.md)
+   + {hide-from-toc}[2023 年系統升級](upgrades/tech-stack-upgrade.md)
    + {hide-from-toc}[使用者端主控台32位元淘汰](upgrades/console.md)
+   + [64位元結構描述](upgrades/64-bit-tables.md)
    + 安全性 {#security}
       + {hide-from-toc}[客戶認證輪換](security/credential-rotation-guide.md)
       + {hide-from-toc}[非對稱加密](security/asymetric-encryption.md)
