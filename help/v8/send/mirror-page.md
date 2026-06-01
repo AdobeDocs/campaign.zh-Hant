@@ -17,7 +17,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 435
 ht-degree: 56%
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
-![鏡像連結範例](assets/mirror-page-link.png){width="600" align="left"}
+![鏡像連結範例](assets/mirror-page-link.png){width="600"}
 
 ## 新增鏡像頁面連結 {#link-to-mirror-page}
 
@@ -42,7 +42,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 在 Adobe Campaign 中，您可以使用專屬 **個人化區塊**，將鏡像頁面連結插入電子郵件中。 內建的&#x200B;**鏡像頁面連結**&#x200B;個人化區塊會將以下程式碼插入電子郵件內容中：`<%@ include view='MirrorPage' %>`。
 
-![](assets/mirror-page-insert.png){width="800" align="left"}
+![](assets/mirror-page-insert.png){width="800"}
 
 
 如需插入個人化內容區塊的詳細資訊，請參閱[個人化區塊](personalization-blocks.md)。
@@ -56,7 +56,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 1. 瀏覽至電子郵件屬性的&#x200B;**[!UICONTROL Validity]**&#x200B;標籤。
 1. 在&#x200B;**映象頁面管理**&#x200B;區段中，檢查&#x200B;**[!UICONTROL Mode]**&#x200B;下拉式清單。
 
-![](assets/mirror-page-generation.png){width="800" align="left"}
+![](assets/mirror-page-generation.png){width="800"}
 
 除了預設模式外，還提供下列選項：
 
@@ -74,6 +74,6 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 1. 選取收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
 
-   ![](assets/mirror-page-display.png){width="800" align="left"}
+   ![](assets/mirror-page-display.png){width="800"}
 
    映象頁面會顯示在專用畫面中，其中包含所選收件者的個人化資料。

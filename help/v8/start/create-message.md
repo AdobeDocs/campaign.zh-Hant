@@ -15,7 +15,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 93%
@@ -97,7 +97,7 @@ ht-degree: 93%
 1. 在 **[!UICONTROL Target mapping]** 下拉式清單選取[目標對應](../audiences/target-mappings.md) 。
 1. 按一下 **[!UICONTROL Add]** 按鈕來定義限制篩選器。
 
-   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
+   ![](assets/target-type.png){width="60%" zoomable="yes"}
 
    選取篩選器類型並按一下 **[!UICONTROL Next]** 來定義條件。 您可以從 **[!UICONTROL Preview]** 索引標籤顯示篩選的收件者。 視目標型別而定，**[!UICONTROL Refine target]** 按鈕可讓您合併多個目標選擇標準。
 

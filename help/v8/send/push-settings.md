@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 1829
 ht-degree: 5%
@@ -176,7 +176,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 瀏覽至&#x200B;**[!UICONTROL Profiles and Targets > Services and Subscriptions]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-   ![](assets/new-service-push.png){width="800" align="left"}
+   ![](assets/new-service-push.png){width="800"}
 
 1. 輸入&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**，然後選取&#x200B;**[!UICONTROL Mobile application]**&#x200B;型別。
 
@@ -194,14 +194,14 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 選取 **[!UICONTROL Create an iOS application]** 並按一下 **[!UICONTROL Next]**。
 
-   ![](assets/new-ios-app.png){width="600" align="left"}
+   ![](assets/new-ios-app.png){width="600"}
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入您的應用程式名稱。
 1. （選擇性）您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
    在下列範例中，已新增&#x200B;**mediaURl**&#x200B;和&#x200B;**mediaExt**&#x200B;變數來建立豐富推播通知，然後為應用程式提供要在通知內顯示的影像。
 
-   ![](assets/ios-app-parameters.png){width="600" align="left"}
+   ![](assets/ios-app-parameters.png){width="600"}
 
 1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
@@ -244,7 +244,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 選取 **[!UICONTROL Create an Android application]** 並按一下 **[!UICONTROL Next]**。
 
-   ![](assets/new-android-app.png){width="600" align="left"}
+   ![](assets/new-android-app.png){width="600"}
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入您的應用程式名稱。
 1. 整合金鑰是每個應用程式專屬的。 這會將行動應用程式連結至Adobe Campaign。

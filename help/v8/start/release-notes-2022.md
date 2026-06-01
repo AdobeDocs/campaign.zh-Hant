@@ -12,9 +12,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 531670de4c2f740e4f0a4b96049b23eb8000e40d
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 1936
 ht-degree: 88%
 
 ---
@@ -77,7 +77,7 @@ _2022 年 9 月 30 日_
 <tr> 
 <td> <p><a href="../send/twitter.md">X社交頻道</a>現在可搭配Campaign v8使用。 您可以：</p>
 <ul> 
-<li><p>在X （先前稱為Twitter）上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
+<li><p>在X （先前稱為Twitter）上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。您也可以傳送直接訊息給所有追隨者。
 </p></li>
 <li><p>收集新聯絡人：Adobe Campaign 可以自動復原輪廓資料，讓您執行目標選擇行銷活動並實施跨管道策略。
 </p></li>
@@ -96,7 +96,9 @@ _2022 年 9 月 30 日_
 * 此變更僅適用於 GET URL。 其他類型 (包括 POST URL) 則不受影響。
 * 如果您使用自訂程式碼，則安全性權杖不再從 GET URL 安全性權杖參數中擷取。 您必須使用下列 JSSP 程式碼產生新的安全性權杖：
 
-  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```
+  getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
+  ```
 
   您也可以使用登入 API 來擷取安全性權杖。
 * 工作階段權杖管理中沒有變更。
