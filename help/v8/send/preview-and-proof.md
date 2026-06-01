@@ -6,15 +6,11 @@ role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 TQID: https://experienceleague.adobe.com/uVVmB-6U7nTrC0ypEHAINNtp5tcE0gr8ambKwDK56ls
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 10%
@@ -61,11 +57,11 @@ ht-degree: 10%
 
   預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800"}
 
   選擇&#x200B;**[!UICONTROL Select a profile (must be included in the target)]**&#x200B;選項並選取收件者。
 
-  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 使用&#x200B;**[!UICONTROL Seed addresses]**&#x200B;選項以使用種子地址作為證明目標。 這些位址可從檔案匯入或手動輸入。
@@ -86,7 +82,7 @@ ht-degree: 10%
 1. 從&#x200B;**[!UICONTROL Send a proof]**&#x200B;視窗，檢查證明收件者。
 1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;開始準備校訂訊息。
 
-   ![](assets/send-proof-analyze.png){width="800" align="left"}
+   ![](assets/send-proof-analyze.png){width="800"}
 
 1. 傳遞準備完成後，請使用&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;開始傳送證明訊息。
 
@@ -108,11 +104,11 @@ ht-degree: 10%
 
 根據預設，主旨中的`Proof #N`提及可識別校訂訊息，其中`N`為校訂號碼。 此數字會隨著每個證明傳遞分析而增加。 您可以視需要變更`proof`首碼。
 
-![](assets/proof-parameters.png){width="800" align="left"}
+![](assets/proof-parameters.png){width="800"}
 
 
 ## 操作說明影片 {#video-proof}
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

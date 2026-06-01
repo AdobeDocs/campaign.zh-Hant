@@ -6,16 +6,11 @@ role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
 TQID: https://experienceleague.adobe.com/A1EyDmVc2Y7okJFeFT7lsckZm8-IFDD-XFIqpb-Q7v8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 693
 ht-degree: 5%
@@ -64,7 +59,7 @@ ht-degree: 5%
    * 黃色圖示表示非關鍵性處理錯誤。
    * 紅色圖示表示嚴重錯誤，無法傳送傳遞。
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+   ![](assets/delivery-analysis-results.png){width="800"}
 
 1. 按一下&#x200B;**[!UICONTROL Close]**&#x200B;以更正錯誤（如果有的話）。 進行變更後，按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;重新啟動分析。
 
@@ -80,7 +75,7 @@ ht-degree: 5%
 
 瀏覽至傳遞屬性的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤，以定義分析階段中訊息準備的設定。
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 此索引標籤提供下列選項的存取權：
 
