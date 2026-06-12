@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
+source-git-commit: eacbd4a625626dcad724b2f74721256548baf850
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 86%
+source-wordcount: '896'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 86%
    + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
    + [常見問題集](start/campaign-faq-comprehensive.md)
    + {hide-from-toc}[常見問題](start/campaign-faq.md)
+   + {hide-from-toc}[電子郵件追蹤畫素和CNIL指引](start/cnil-pixel-tracking.md)
 + 管理與許可權 {#permissions}
    + [開始使用權限](start/gs-permissions.md)
    + [管理使用者權限](start/manage-permissions.md)
