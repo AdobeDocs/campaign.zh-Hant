@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 85%
+source-wordcount: '890'
+ht-degree: 86%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 85%
    + [護欄](start/ac-guardrails.md)
    + {hide-from-toc}[已知問題](start/known-issues.md)
    + [相容性比較表](start/compatibility-matrix.md)
-   + {hide-from-toc}[檔案更新](start/documentation-updates.md)
-   + [每月更新報告](../../monthly-updates-report.md)
+   + {hide-from-toc}[文件更新](start/documentation-updates.md)
 + 開始使用 {#new}
    + [開始使用 Adobe Campaign](start/get-started.md)
    + [主要功能](start/whats-new.md)
@@ -256,7 +255,7 @@ ht-degree: 85%
       + [輸入表單](dev/forms.md)
    + [使用資料套件](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+   + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
    + REST API {#apis}
       + [開始使用REST API](dev/api/get-started-apis.md)
       + [建議與限制](dev/api/limitations.md)
