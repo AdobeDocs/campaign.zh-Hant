@@ -7,10 +7,14 @@ level: Beginner
 hide: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 TQID: https://experienceleague.adobe.com/7D4tw7qjozSda6AgqMGhijqZjWpQQWRaoF-P-4bC3ZI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 408
@@ -90,9 +94,9 @@ Error:
 
 身為Campaign管理員，您可以在[Adobe軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}中下載Campaign v8.3.1使用者端主控台。
 
-在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈[。
+在此頁面[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}瞭解如何存取Adobe軟體發佈。
 
-在本頁](connect.md)瞭解如何升級您的使用者端主控台[
+在本頁[&#128279;](connect.md)瞭解如何升級您的使用者端主控台
 
 #### 內部參考{#issue-3-ref}
 
