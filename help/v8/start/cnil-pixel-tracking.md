@@ -1,12 +1,9 @@
 ---
 title: 電子郵件追蹤畫素和CNIL指引
 description: 瞭解CNIL更新的電子郵件追蹤畫素指南，以及可支援法規遵循工作的Adobe Campaign功能。
-feature: Overview
-role: User
-level: Beginner
 version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
-source-git-commit: d30c11b245b8ad7735a8e45efb2c5fdbe936a97b
+source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
