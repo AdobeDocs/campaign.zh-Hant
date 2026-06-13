@@ -4,8 +4,9 @@ description: 瞭解CNIL更新的電子郵件追蹤畫素指南，以及可支援
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
-source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
+source-git-commit: d30c11b245b8ad7735a8e45efb2c5fdbe936a97b
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
