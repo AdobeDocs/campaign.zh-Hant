@@ -4,8 +4,9 @@ description: 瞭解CNIL更新的電子郵件追蹤畫素指南，以及可支援
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
-source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
+source-git-commit: d30c11b245b8ad7735a8e45efb2c5fdbe936a97b
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -56,11 +57,11 @@ Adobe電子郵件行銷執行應用程式，包括Adobe Journey Optimizer、Jour
 
 | 產品 | 檔案參考 |
 |---|---|
-| Campaign v8 | [郵件追蹤](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [開始使用訊息追蹤](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [設定電子郵件通道](https://experienceleague.adobe.com/zh-hant/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [訊息追蹤檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [停用電子郵件連結的追蹤](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [電子郵件設定檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [郵件追蹤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [開始使用訊息追蹤](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [設定電子郵件通道](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [訊息追蹤檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [停用電子郵件連結的追蹤](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [電子郵件設定檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
