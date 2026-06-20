@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4a626787cafd7cc9bfb1d26b26a703aa5fb86a58
+source-git-commit: e8438b85eec144e83b2660f9d66444c1a01863ab
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 2%
@@ -27,11 +27,7 @@ ht-degree: 2%
 
 # 行銷活動監控概觀 {#monitor-campaign}
 
-Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個別訊息、工作流程失敗的原因，到執行個體還剩下多少資料庫容量。 此頁面會對應所有監控功能，讓您知道當有需要注意的事物時應該檢視何處。
-
->[!NOTE]
->
->身為Campaign管理員，您也可以使用[Campaign控制面板](#control-panel)來監視您的執行個體、管理效能，以及設定具有自助服務功能的設定。
+Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個別訊息、工作流程失敗的原因，到執行個體還剩下多少資料庫容量。 此頁面會對應所有監控功能，讓您知道當有需要注意的事物時應該檢視何處。 身為Campaign管理員，您也可以使用[Campaign控制面板](#control-panel)來監視您的執行個體、管理效能，以及設定具有自助服務功能的設定。
 
 >[!TIP]
 >
@@ -129,7 +125,7 @@ Adobe Campaign提供下列內建傳遞工具：
 
 Campaign v8提供數個監視功能，可追蹤您的執行個體效能並確保最佳化操作：
 
-**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}
 
 **作用中設定檔監控** — 根據您的合約限制追蹤作用中設定檔的使用情況，以維持法規遵循並最佳化資源配置。 [進一步瞭解作用中設定檔](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hant){target="_blank"}
 
