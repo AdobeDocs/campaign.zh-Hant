@@ -16,10 +16,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 382f297c4763e56f65b6f1acb7ff209cf59b71c2
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 96%
+source-wordcount: 519
+ht-degree: 91%
 
 ---
 
@@ -68,6 +68,8 @@ ht-degree: 96%
 ## 效能監視
 
 控制面板提供數種功能，協助您監視執行個體並確保最佳效能。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant){target="_blank"}
+
+針對Campaign v8受管理的Cloud Services，Adobe也會代表您監控基礎架構、平台和軟體流程。 深入瞭解[Adobe管理的監視](../start/monitor.md#adobe-cloud-monitoring)。
 
 
 ## 執行個體設定
