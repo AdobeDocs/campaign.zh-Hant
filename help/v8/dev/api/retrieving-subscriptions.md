@@ -5,14 +5,10 @@ role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
 TQID: https://experienceleague.adobe.com/PxFql-omcIMizY-oMBl75gfo2UmmLTanrhQqw5te--A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 200
@@ -27,7 +23,7 @@ ht-degree: 1%
 此程式分為兩個步驟。
 
 1. 擷取所需服務的訂閱URL。
-1. 對訂閱URL執行GET請求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
+1. 對訂閱URL執行GET要求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
 
 >[!CAUTION]
 >
@@ -61,7 +57,7 @@ ht-degree: 1%
   },
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -123,7 +119,7 @@ ht-degree: 1%
   }
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

@@ -7,12 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
 TQID: https://experienceleague.adobe.com/EzHUErLy7-OcfF0lxH4UHXm1N1HYGt6kP9Io1LIyJi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 845
@@ -93,8 +90,8 @@ ht-degree: 4%
 
   以下各節詳細介紹了與進度和日誌顯示相關的圖示：
 
-   * [顯示進度](monitor-workflow-execution.md#displaying-progress)
-   * [顯示記錄](monitor-workflow-execution.md#displaying-logs)
+  * [顯示進度](monitor-workflow-execution.md#displaying-progress)
+  * [顯示記錄](monitor-workflow-execution.md#displaying-logs)
 
 * **物件對齊方式**
 

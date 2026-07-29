@@ -6,18 +6,11 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 TQID: https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2571
@@ -100,7 +93,7 @@ ht-degree: 0%
 
 依預設，每個欄位都會顯示在一行上，並依據資料型別佔用所有可用空間。
 
-所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=zh-Hant){target="_blank"}中。
+所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}中。
 
 ## 格式 {#formatting}
 
@@ -333,9 +326,9 @@ ht-degree: 0%
 * **noAutoComplete**：停用預先輸入（值為「true」）
 * **createMode**：如果連結不存在，就會立即建立連結。 可能的值包括：
 
-   * **none**：停用建立。 如果連結不存在，則會顯示錯誤訊息
-   * **inline**：在編輯欄位中建立與內容的連結
-   * **edition**：在連結上顯示編輯表單。 驗證表單時，資料會儲存（預設模式）
+  * **none**：停用建立。 如果連結不存在，則會顯示錯誤訊息
+  * **inline**：在編輯欄位中建立與內容的連結
+  * **edition**：在連結上顯示編輯表單。 驗證表單時，資料會儲存（預設模式）
 
 * **noZoom**：連結上沒有編輯表單（值為「true」）
 * **表單**：多載目標專案的編輯表單

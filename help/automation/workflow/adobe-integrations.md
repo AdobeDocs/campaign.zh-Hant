@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 與Adobe Experience Cloud解決方案工作流程的整合
+title: 與Adobe Experience Cloud解決方案工作流程整合
 description: 深入瞭解與Adobe Experience Cloud解決方案工作流程的整合
 role: User
 version: Campaign v8, Campaign Classic v7
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 與 Adobe Experience Cloud 解決方案整合{#integrations-with-adobe-experience-cloud-solutions}
 
-依預設，以下詳細描述的工作流程會與Adobe Experience Cloud **模組的**&#x200B;整合一起安裝。 如需此模組的詳細資訊，請參閱[此頁面](../../v8/connect/integration.md)。
+依預設，以下詳述的工作流程會以&#x200B;**與Adobe Experience Cloud**&#x200B;模組整合。 如需此模組的詳細資訊，請參閱[此頁面](../../v8/connect/integration.md)。
 
 <table> 
  <tbody> 
@@ -32,7 +32,7 @@ ht-degree: 8%
   <tr> 
    <td> <span class="uicontrol">將對象匯出至Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您使用的不同Adobe Experience Cloud解決方案。<br /> </td> 
+   <td> 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe Experience Cloud解決方案。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

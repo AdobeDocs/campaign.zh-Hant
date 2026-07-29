@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ***範例要求***
 
-顯示設定檔資源1個記錄的範例GET請求。
+顯示設定檔資源1個記錄的範例GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \

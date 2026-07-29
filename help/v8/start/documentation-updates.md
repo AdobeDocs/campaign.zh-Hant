@@ -6,16 +6,13 @@ role: User
 level: Beginner
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 TQID: https://experienceleague.adobe.com/3FTCgVEDf0XxbqOoqH1n5OxgwkEb4xDNk9MW-WTwIi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
 source-wordcount: 295
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +20,7 @@ ht-degree: 93%
 
 此頁面列出 [!DNL Campaign] v8 (主控台) 文件中的所有最新更新。
 
-## 2026年6月 {#june-2026}
+## 2026 年 6 月 {#june-2026}
 
 在CNIL指南中新增一個頁面，說明電子郵件追蹤畫素和相關的Adobe Campaign功能。 [閱讀更多](cnil-pixel-tracking.md)
 

@@ -6,13 +6,9 @@ feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 TQID: https://experienceleague.adobe.com/4OJbl-jgYuYYZAqTmx68o2YNP3VMPphMRhkFwIwL2qo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 641
@@ -80,8 +76,8 @@ ht-degree: 33%
 
   此欄位可讓您定義工作流程的任務發生錯誤時要採取的動作。 您有兩個選擇：
 
-   * **[!UICONTROL Stop the process]**：工作流程已自動暫停。 工作流程狀態變更為&#x200B;**[!UICONTROL Failed]**。 問題解決後，使用&#x200B;**[!UICONTROL Start]**&#x200B;或&#x200B;**[!UICONTROL Restart]**&#x200B;按鈕重新啟動工作流程。
-   * **[!UICONTROL Ignore]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL Failed]**，但工作流程會保留&#x200B;**[!UICONTROL Started]**&#x200B;狀態。 此設定與週期性任務相關：如果分支包含排程器，它將在下次工作流程執行時正常啟動。
+  * **[!UICONTROL Stop the process]**：工作流程已自動暫停。 工作流程狀態變更為&#x200B;**[!UICONTROL Failed]**。 問題解決後，使用&#x200B;**[!UICONTROL Start]**&#x200B;或&#x200B;**[!UICONTROL Restart]**&#x200B;按鈕重新啟動工作流程。
+  * **[!UICONTROL Ignore]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL Failed]**，但工作流程會保留&#x200B;**[!UICONTROL Started]**&#x200B;狀態。 此設定與週期性任務相關：如果分支包含排程器，它將在下次工作流程執行時正常啟動。
 
 * **[!UICONTROL Consecutive errors]**
 

@@ -6,8 +6,8 @@ feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 2%
+source-wordcount: '200'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
   <tr> 
    <td> <span class="uicontrol">更新事件狀態</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> 此工作流程可讓您為事件指派狀態。 事件狀態如下： <br /> 
+   <td> 此工作流程可讓您為事件指派狀態。事件狀態如下： <br /> 
     <ul> 
      <li> <p><strong>擱置中</strong>：事件在佇列中。 尚未為其建立任何訊息範本的關聯。</p> </li> 
      <li> <p><strong>擱置傳遞</strong>：事件在佇列中，訊息範本已與其建立關聯，傳遞目前正在處理中。</p> </li> 

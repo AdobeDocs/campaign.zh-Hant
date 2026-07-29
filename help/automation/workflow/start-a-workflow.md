@@ -8,13 +8,9 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 TQID: https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1143
@@ -73,14 +69,14 @@ ht-degree: 0%
   此動作會停止，然後重新啟動工作流程。 在大多數情況下，它可以讓您更快速地重新啟動。 當停止需要一定的時間時，自動重新啟動也很實用：這是因為當工作流程停止時，「停止」命令無法使用。
 
   請注意，**重新啟動**&#x200B;動作不會清除與&#x200B;**執行**、**停止**&#x200B;和&#x200B;**開始**&#x200B;動作相較的工作流程執行個體變數（執行個體變數會在啟動動作時清除）。 重新啟動工作流程時，執行個體變數仍可與保留值搭配使用。 若要清除這些專案，您可以：
-   * 執行&#x200B;**停止**&#x200B;和&#x200B;**啟動**&#x200B;動作。
-   * 在工作流程執行結束時，新增以下javascript程式碼：
+  * 執行&#x200B;**停止**&#x200B;和&#x200B;**啟動**&#x200B;動作。
+  * 在工作流程執行結束時，新增以下javascript程式碼：
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 
@@ -110,9 +106,9 @@ ht-degree: 0%
 
   若要避免工作流程處於暫停狀態：
 
-   * 請定期檢查您的工作流程，確保沒有未預期的錯誤。
-   * 保持工作流程儘可能簡單，例如將大型工作流程分割為數個不同的工作流程。 您可以使用&#x200B;**[!UICONTROL External signal]**&#x200B;個活動，根據其他工作流程的執行觸發其執行。
-   * 請避免在工作流程中，讓流程停用的活動保持執行緒開啟，導致許多可能會佔用大量空間的臨時表格。 請勿將活動保留在您的工作流程中&#x200B;**[!UICONTROL Do not enable]**&#x200B;或&#x200B;**[!UICONTROL Enable but do not execute]**&#x200B;狀態。
+  * 請定期檢查您的工作流程，確保沒有未預期的錯誤。
+  * 保持工作流程儘可能簡單，例如將大型工作流程分割為數個不同的工作流程。 您可以使用&#x200B;**[!UICONTROL External signal]**&#x200B;個活動，根據其他工作流程的執行觸發其執行。
+  * 請避免在工作流程中，讓流程停用的活動保持執行緒開啟，導致許多可能會佔用大量空間的臨時表格。 請勿將活動保留在您的工作流程中&#x200B;**[!UICONTROL Do not enable]**&#x200B;或&#x200B;**[!UICONTROL Enable but do not execute]**&#x200B;狀態。
 
 * **停止未使用的工作流程**。 持續執行的工作流程會維持與資料庫的連線。
 

@@ -6,13 +6,9 @@ role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 TQID: https://experienceleague.adobe.com/33R4OS8KQrMdktwwbwMUHJe5YG9gZbasiDwrcADS4f4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 801
@@ -56,7 +52,7 @@ ht-degree: 3%
 
 1. 連線至您的[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。
 
-1. 使用AWS金鑰管理服務(KMS)產生具有自動循環的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
+1. 使用AWS Key Management Service (KMS)在產生具有自動旋轉功能的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
 1. 將Adobe為您提供的原則套用至您的AWS帳戶，以便授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
@@ -71,7 +67,7 @@ ht-degree: 3%
 
 * Adobe不提供[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
 
-* 僅支援[AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
+* 僅支援[AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
 
 * 首次設定期間預計會發生停機時間。 停機&#x200B;時間長度取決於資料庫的大小。
 

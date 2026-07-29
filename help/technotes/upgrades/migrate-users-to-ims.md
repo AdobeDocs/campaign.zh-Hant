@@ -29,7 +29,7 @@ ht-degree: 3%
 
 如果貴組織中的操作員使用其登入/密碼（亦即）連線至Campaign使用者端主控台， 原生驗證)，您會受到影響，且必須將這些運運算元移轉至Adobe IMS，如下所述。
 
-移轉至[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}是安全性必要條件，可讓您的環境安全且標準化，因為大部分其他Adobe Experience Cloud解決方案和應用程式已位於IMS上。
+移轉至[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}是安全性必要條件，可讓您的環境安全且標準化，因為其他大多數Adobe Experience Cloud解決方案和應用程式都已安裝在IMS上。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 3%
 >
 >將使用者移轉至IMS後，請注意Adobe Admin Console中名稱包含「管理員」字樣的任何產品設定檔（例如「管理員」、「管理員」、「管理員」、「核准管理員」等） 會自動授與「Campaign控制面板」的存取權。 「控制面板」是自助式工具，可讓您對Campaign執行個體進行重大變更。
 >
->請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解如何管理控制面板許可權。
+>請仔細檢閱您的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」。 在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}中進一步瞭解如何管理控制面板許可權。
 
 ## 如何移轉？{#ims-migration-procedure}
 

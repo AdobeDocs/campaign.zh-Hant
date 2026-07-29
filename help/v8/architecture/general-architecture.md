@@ -6,28 +6,12 @@ role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 TQID: https://experienceleague.adobe.com/j8EwT2TAYvpavC-CrlayZpNsgBhMc-bUrr1OR1s5bzw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1163
@@ -75,9 +59,9 @@ Adobe Campaign模組分為三種型別：
 
 * **工作流程引擎** (nlserver wfserver) — 此程式會執行應用程式中定義的工作流程程式。 它也會處理定期執行的技術工作流程，包括：
 
-   * **追蹤**：復原並合併追蹤記錄，以便您可以從重新導向伺服器擷取記錄，並建立報告模組使用的彙總指標。
-   * **清理**：清理資料庫，並清除舊記錄，避免資料庫呈指數增長。
-   * **帳單**：傳送平台的活動報告（資料庫大小、行銷動作數量等）。
+  * **追蹤**：復原並合併追蹤記錄，以便您可以從重新導向伺服器擷取記錄，並建立報告模組使用的彙總指標。
+  * **清理**：清理資料庫，並清除舊記錄，避免資料庫呈指數增長。
+  * **帳單**：傳送平台的活動報告（資料庫大小、行銷動作數量等）。
 
 * **傳遞伺服器** (nlserver mta) - Adobe Campaign具有原生電子郵件廣播功能。 此程式的功能為SMTP郵件傳輸代理程式(MTA)。 它會執行訊息的「一對一」個人化，並處理其實體傳送。 它會使用傳送工作來執行，並處理自動重試。 此外，啟用追蹤時，會自動取代URL，使其指向重新導向伺服器。 此程式可處理自訂及自動傳送至第三方路由器的SMS、傳真和直接郵件。
 
@@ -121,4 +105,4 @@ Adobe Campaign模組分為三種型別：
 
 總儲存容量可在主要資料庫與（選擇性）Snowflake次要資料庫之間分配。 應根據客戶特定的使用案例，在實施或升級時間決定儲存資料的位置。
 
-在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}中瞭解如何監視您的資料庫使用情況。
+在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}中瞭解如何監視您的資料庫使用情況。

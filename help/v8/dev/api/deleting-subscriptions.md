@@ -5,14 +5,10 @@ role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 TQID: https://experienceleague.adobe.com/tn-B0YAO0bD1dtW3-ovb-xWtupiRaqFD1TMW8Rzu5aY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 239
@@ -29,7 +25,7 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需設定檔的訂閱URL。
-1. 對訂閱URL執行GET請求。
+1. 對訂閱URL執行GET要求。
 1. 在所需的服務URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
@@ -61,7 +57,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -102,7 +98,7 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需的服務及其訂閱URL。
-1. 在訂閱URL上執行GET要求，以擷取所有設定檔訂閱。
+1. 對訂閱URL執行GET要求，以擷取所有設定檔訂閱。
 1. 在所需的設定檔訂閱URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
@@ -138,7 +134,7 @@ ht-degree: 0%
 },
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \

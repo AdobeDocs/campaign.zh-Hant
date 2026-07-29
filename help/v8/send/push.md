@@ -7,18 +7,11 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 TQID: https://experienceleague.adobe.com/p2PfMRhMJi7WEDptyTEzpSp6u6WVFjqSvaC9g8Qaq9g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 966
@@ -125,13 +118,13 @@ ht-degree: 7%
 
    * **[!UICONTROL Interruption level]**:
 
-      * **[!UICONTROL Active]**：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。
+     * **[!UICONTROL Active]**：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Passive]**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。
+     * **[!UICONTROL Passive]**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Time sensitive]**&#x200B;系統會立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。
+     * **[!UICONTROL Time sensitive]**&#x200B;系統會立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。
 
-      * **[!UICONTROL Critical]**&#x200B;系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或焦點模式。 請注意，此層級需要Apple的特殊許可權。
+     * **[!UICONTROL Critical]**&#x200B;系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或焦點模式。 請注意，此層級需要Apple的特殊許可權。
 
    * **[!UICONTROL Relevance score]**：將關聯性分數設定為0到100。 系統會使用此選項來排序通知摘要中的通知。
 

@@ -6,15 +6,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 TQID: https://experienceleague.adobe.com/5LR9seZA5eFVn-ZKkO27EtqCZu6-9tKL2eyxZtwNHiU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1291
@@ -43,10 +38,10 @@ SMS程式會輪詢nms:extAccount，並在其SMPP聯結器中產生新連線，�
 ### 傳送訊息時的資料流程 {#sms-data-flow-sending-msg}
 
 * SMS程式會透過掃描nms:delivery來選取作用中的傳遞。 傳送在下列情況下為作用中：
-   * 其狀態表示可以傳送訊息
-   * 其有效期未過期
-   * 這實際上是一種傳遞（例如，它不是範本，不會刪除）
-   * SMPP聯結器可以為連結到傳遞的外部帳戶開啟至少一個連線
+  * 其狀態表示可以傳送訊息
+  * 其有效期未過期
+  * 這實際上是一種傳遞（例如，它不是範本，不會刪除）
+  * SMPP聯結器可以為連結到傳遞的外部帳戶開啟至少一個連線
 * 對於每個傳遞，SMS流程會載入傳遞部分。 如果傳送部分已部分傳送，SMS程式會檢查廣泛記錄檔以檢查已傳送的訊息。
 * SMS程式會使用傳送部分的個人化資料來展開範本。
 * SMPP聯結器會產生符合內容和其他設定的MT (SUBMIT_SM PDU)。

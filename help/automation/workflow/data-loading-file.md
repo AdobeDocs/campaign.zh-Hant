@@ -7,14 +7,10 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 TQID: https://experienceleague.adobe.com/XM-wH6gqH3EvqBp0qMShsy76VheGg1w6kul8Ui4f-pc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1110
@@ -36,7 +32,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
+>僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
@@ -70,27 +66,27 @@ ht-degree: 14%
 * **[!UICONTROL Data type]**：指定每欄所需的資料類型。
 * **[!UICONTROL Allow NULLs]**：指定如何管理空值。
 
-   * **[!UICONTROL Adobe Campaign default]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
-   * **[!UICONTROL Empty value allowed]**：授權空值。 因此插入值 NULL。
-   * **[!UICONTROL Always populated]**：如果值為空，則產生錯誤。
+  * **[!UICONTROL Adobe Campaign default]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
+  * **[!UICONTROL Empty value allowed]**：授權空值。 因此插入值 NULL。
+  * **[!UICONTROL Always populated]**：如果值為空，則產生錯誤。
 
 * **[!UICONTROL Length]**：指定&#x200B;**字串**&#x200B;資料型別的字元數目上限。
 * **[!UICONTROL Format]**：定義時間和日期格式。
 * **[!UICONTROL Data transformation]**：定義是否需要在&#x200B;**字串**&#x200B;上套用字元大寫處理程式。
 
-   * **[!UICONTROL None]**：未修改匯入的字串。
-   * **[!UICONTROL First letter in upper case]**：字串中每個字詞的第一個字母都以大寫開頭。
-   * **[!UICONTROL Upper case]**：字串中的所有字元都是大寫。
-   * **[!UICONTROL Lower case]**：字串中的所有字元都是小寫。
+  * **[!UICONTROL None]**：未修改匯入的字串。
+  * **[!UICONTROL First letter in upper case]**：字串中每個字詞的第一個字母都以大寫開頭。
+  * **[!UICONTROL Upper case]**：字串中的所有字元都是大寫。
+  * **[!UICONTROL Lower case]**：字串中的所有字元都是小寫。
 
 * **[!UICONTROL White space management]**：指定字串中是否需要忽略某些空格。 **[!UICONTROL Ignore spaces]**&#x200B;值只允許忽略字串開頭和結尾的空格。
 * **[!UICONTROL Error processings]**：會定義發生錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
-   * **[!UICONTROL Reject line]**：不會處理整行。
-   * **[!UICONTROL Use a default value in case of error]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
-   * **[!UICONTROL Reject the line when there is no remapping value]**：除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項），否則不會處理整行。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**：以在&#x200B;**[!UICONTROL Default value]**&#x200B;欄位中定義的預設值取代造成錯誤的值，除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項）。
+  * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
+  * **[!UICONTROL Reject line]**：不會處理整行。
+  * **[!UICONTROL Use a default value in case of error]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
+  * **[!UICONTROL Reject the line when there is no remapping value]**：除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項），否則不會處理整行。
+  * **[!UICONTROL Use a default value in case the value is not remapped]**：以在&#x200B;**[!UICONTROL Default value]**&#x200B;欄位中定義的預設值取代造成錯誤的值，除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項）。
 
 * **[!UICONTROL Default value]**：根據選取的錯誤處理指定預設值。
 * **[!UICONTROL Mapping]**：此欄位僅在欄詳細資料設定（透過按兩下或欄清單右側的選項存取）中可用。 這會在匯入特定值時加以轉換。 例如，您可將　&quot;three&quot;　轉換為　&quot;3&quot;。

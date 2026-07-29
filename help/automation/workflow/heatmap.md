@@ -7,19 +7,14 @@ role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 TQID: https://experienceleague.adobe.com/7-PYfeX9J1RnXdjB4eTOBjZT2GMaYz6t3oi8o-ABoV0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1112
 ht-degree: 3%
 
 ---
@@ -105,7 +100,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 
 此格線會顯示這5分鐘期間中每個期間同時執行的所有工作流程。
 
-在下列範例中，在早上8點到8:05am之間，有三個工作流程在執行中（無論其個別持續時間為何）：
+在以下範例中，上午8點至上午8:05之間，有三個工作流程在執行中（無論其個別持續時間為何）：
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

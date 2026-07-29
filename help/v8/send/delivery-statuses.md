@@ -7,19 +7,12 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
 TQID: https://experienceleague.adobe.com/raVVeGP6V9mukXOtwg84UsZWpPpQsP3v9jpluSpQ6ZY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 557
@@ -85,7 +78,7 @@ ht-degree: 5%
   </tr>
   <tr> 
    <td> 已傳送給服務提供者<br /> </td> 
-   <td> 傳遞內容已傳送給SMS服務提供者，但尚未收到。<br />
+   <td> 傳遞已傳送給SMS服務提供者，但尚未收到。<br />
    </td> 
   </tr> 
   <tr> 
@@ -109,7 +102,7 @@ ht-degree: 5%
 
   在&#x200B;**[!UICONTROL NmsOperation_LimitConcurrency]**&#x200B;選項中定義同時行銷活動的限制。 預設值為 10。
 
-  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant){target="_blank"}中進一步瞭解選項。
+  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}中進一步瞭解選項。
 
 * **資源可用性問題**
 

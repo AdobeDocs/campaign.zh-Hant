@@ -6,16 +6,10 @@ role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
 TQID: https://experienceleague.adobe.com/VpyoAhpD-da4BUAXLJyUyaJBPMqoQ-PHNcZToe3QBlc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1620
@@ -93,14 +87,14 @@ ht-degree: 1%
 
 * **環境**：包含優惠方案目錄和鉤點（優惠方案空間）的集合。 透過目標維度建立一個環境。 有兩種型別的環境：
 
-   * **設計環境**：在其中建立優惠方案和/或定義型別規則的環境（將決定要呈現或不呈現給目標使用者的優惠方案的規則）。 此中也定義了要作為優惠方案目標的個人表格以及儲存所有優惠方案主張的表格。 **[!UICONTROL Design environment]**&#x200B;節點包含優惠方案空間子資料夾、預先定義的篩選器和優惠方案類別。 每個&#x200B;**[!UICONTROL Design environment]**&#x200B;都有一個對應的唯讀&#x200B;**[!UICONTROL Live environment]**，是從這個&#x200B;**[!UICONTROL Design environment]**&#x200B;產生。
-   * **即時環境**：連結至&#x200B;**[!UICONTROL Design environment]**&#x200B;的環境。 它包含唯讀優惠方案，其內容和資格已透過&#x200B;**[!UICONTROL Design environment]**&#x200B;核准。 它們可顯示在網站上，或插入訊息中。
+  * **設計環境**：在其中建立優惠方案和/或定義型別規則的環境（將決定要呈現或不呈現給目標使用者的優惠方案的規則）。 此中也定義了要作為優惠方案目標的個人表格以及儲存所有優惠方案主張的表格。 **[!UICONTROL Design environment]**&#x200B;節點包含優惠方案空間子資料夾、預先定義的篩選器和優惠方案類別。 每個&#x200B;**[!UICONTROL Design environment]**&#x200B;都有一個對應的唯讀&#x200B;**[!UICONTROL Live environment]**，是從這個&#x200B;**[!UICONTROL Design environment]**&#x200B;產生。
+  * **即時環境**：連結至&#x200B;**[!UICONTROL Design environment]**&#x200B;的環境。 它包含唯讀優惠方案，其內容和資格已透過&#x200B;**[!UICONTROL Design environment]**&#x200B;核准。 它們可顯示在網站上，或插入訊息中。
 
 * **優惠方案空間**：定義優惠方案公開位置的資料夾。 定義空格時，您可以：
-   * 選取頻道
-   * 選擇它可以在單一模式下使用（預設值：僅在批次模式下）
-   * 使用轉譯函式建置選件的內容
-   * 指定要呈現的優惠方案
+  * 選取頻道
+  * 選擇它可以在單一模式下使用（預設值：僅在批次模式下）
+  * 使用轉譯函式建置選件的內容
+  * 指定要呈現的優惠方案
 
   空格是管道和優惠方案引擎之間的介面。
 
@@ -129,12 +123,12 @@ ht-degree: 1%
 * **套利**：選取要顯示在環境上的優惠方案（符合條件的優惠方案）。 套利原則會根據類別、優惠方案和內容優惠方案中定義的條件，依優先順序排列優惠方案。
 * **連絡人**：來自傳入互動的連絡人。 在引擎呼叫處理期間，聯絡人與目標維度相關聯。 有兩種連絡人型別：
 
-   * **[!UICONTROL Identified contact]**：已在頻道上自願識別的連絡人。 在對外互動中，會自動識別聯絡人。
-   * **[!UICONTROL Anonymous contact]**：尚未透過頻道自願訂閱，但可透過Cookie隱含識別的連絡人。 此術語僅用於傳入的互動。
+  * **[!UICONTROL Identified contact]**：已在頻道上自願識別的連絡人。 在對外互動中，會自動識別聯絡人。
+  * **[!UICONTROL Anonymous contact]**：尚未透過頻道自願訂閱，但可透過Cookie隱含識別的連絡人。 此術語僅用於傳入的互動。
 
-     >[!NOTE]
-     >
-     >未識別的匿名聯絡人會歸因於訪客目標維度。
+    >[!NOTE]
+    >
+    >未識別的匿名聯絡人會歸因於訪客目標維度。
 
 * **傳出互動**：從連絡人清單呼叫優惠方案引擎（用於傳遞電子郵件、直接郵件等）。 相同的規則和程式會套用到每個連絡人。 這類互動通常以批次模式處理。
 * **傳入互動**：由頻道上連絡人的動作產生的傳入呼叫之後的互動。 這類互動通常以單一模式處理。
@@ -142,9 +136,9 @@ ht-degree: 1%
 * **單一模式**：一次處理單一連絡人。 此模式通常適用於傳入互動和異動訊息。
 * **識別模式**：參考連絡人的狀態：
 
-   * **[!UICONTROL explicit]**：連絡人是以登入通道介面來識別。
-   * **[!UICONTROL implicit]**：連絡人由Cookie識別（永久或工作階段）。 可將它處理為匿名或識別的連絡人。
-   * **[!UICONTROL anonymous]**：無法識別連絡人。
+  * **[!UICONTROL explicit]**：連絡人是以登入通道介面來識別。
+  * **[!UICONTROL implicit]**：連絡人由Cookie識別（永久或工作階段）。 可將它處理為匿名或識別的連絡人。
+  * **[!UICONTROL anonymous]**：無法識別連絡人。
 
 * **符合資格的優惠**：優惠符合上游定義的限制，且可一致地提供給目標。
 * **簡報規則**：優惠方案環境中參考的型別規則，可讓您考慮主張歷程記錄來排除部分優惠方案。

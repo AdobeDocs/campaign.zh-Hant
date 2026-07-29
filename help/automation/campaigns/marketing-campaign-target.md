@@ -7,15 +7,10 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 TQID: https://experienceleague.adobe.com/vSbY229FQjQL7M44gjs3WgYbYwMkcts98tuVVhS1LEw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -27,7 +22,7 @@ ht-degree: 1%
 
 在行銷活動中，您可以針對每次傳送定義：
 
-* 目標對象。 您可以傳送訊息給收件者[&#128279;](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立對象
+* 目標對象。 您可以傳送訊息給收件者](#send-to-a-group)的[清單，或在工作流程](#build-the-main-target-in-a-workflow)中建立[對象
 * 控制組。 您可以[新增控制群組](#add-a-control-group)，以監視郵件傳遞後的收件者行為
 * 種子地址 — 在[本節](../../v8/audiences/test-profiles.md)中瞭解更多。
 
@@ -118,43 +113,43 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 * 啟動或重新啟動
 
-   * **[!UICONTROL Start]**&#x200B;圖示可讓您啟動目標定位工作流程。 當您按一下此圖示時，所有沒有輸入轉變的活動都會啟動（端點跳轉除外）。
+  * **[!UICONTROL Start]**&#x200B;圖示可讓您啟動目標定位工作流程。 當您按一下此圖示時，所有沒有輸入轉變的活動都會啟動（端點跳轉除外）。
 
-     ![](assets/start.png)
+    ![](assets/start.png)
 
-     伺服器會將要求列入考量，如其狀態所顯示： **[!UICONTROL Start as soon as possible]**。
+    伺服器會將要求列入考量，如其狀態所顯示： **[!UICONTROL Start as soon as possible]**。
 
-   * 您可以透過適當的工具列圖示重新啟動目標定位工作流程。 如果&#x200B;**[!UICONTROL Start]**&#x200B;圖示無法使用（例如正在停止定位工作流程），此命令可能會很有用。 在此情況下，請按一下&#x200B;**[!UICONTROL Restart]**&#x200B;圖示以預期重新啟動。 伺服器會將要求列入考量，因為其狀態顯示為： **[!UICONTROL Restart requested]**。
+  * 您可以透過適當的工具列圖示重新啟動目標定位工作流程。 如果&#x200B;**[!UICONTROL Start]**&#x200B;圖示無法使用（例如正在停止定位工作流程），此命令可能會很有用。 在此情況下，請按一下&#x200B;**[!UICONTROL Restart]**&#x200B;圖示以預期重新啟動。 伺服器會將要求列入考量，因為其狀態顯示為： **[!UICONTROL Restart requested]**。
 
 * 停止或暫停
 
-   * 工具列圖示可讓您停止或暫停進行中的目標定位工作流程。
+  * 工具列圖示可讓您停止或暫停進行中的目標定位工作流程。
 
-     當您按一下&#x200B;**[!UICONTROL Pause]**&#x200B;時，進行中的作業&#x200B;**[!UICONTROL are not]**&#x200B;已暫停，但在下次重新啟動之前，不會啟動其他活動。
+    當您按一下&#x200B;**[!UICONTROL Pause]**&#x200B;時，進行中的作業&#x200B;**[!UICONTROL are not]**&#x200B;已暫停，但在下次重新啟動之前，不會啟動其他活動。
 
-     ![](assets/pause.png)
+    ![](assets/pause.png)
 
-     伺服器會考慮該命令，因為其狀態顯示為： **[!UICONTROL Pause requested]**。
+    伺服器會考慮該命令，因為其狀態顯示為： **[!UICONTROL Pause requested]**。
 
-     您也可以在執行目標工作流程達到特定活動時自動暫停該工作流程。 若要這麼做，請以滑鼠右鍵按一下要暫停目標定位工作流程的活動，然後選取&#x200B;**[!UICONTROL Enable but do not execute]**。
+    您也可以在執行目標工作流程達到特定活動時自動暫停該工作流程。 若要這麼做，請以滑鼠右鍵按一下要暫停目標定位工作流程的活動，然後選取&#x200B;**[!UICONTROL Enable but do not execute]**。
 
-     ![](assets/donotexecute.png)
+    ![](assets/donotexecute.png)
 
-     此設定會以特殊圖示顯示。
+    此設定會以特殊圖示顯示。
 
-     ![](assets/pause_activity.png)
+    ![](assets/pause_activity.png)
 
-     >[!NOTE]
-     >
-     >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
+    >[!NOTE]
+    >
+    >在進階目標定位行銷活動設計和測試階段，此選項非常有用。
 
-     按一下&#x200B;**[!UICONTROL Start]**&#x200B;以繼續執行。
+    按一下&#x200B;**[!UICONTROL Start]**&#x200B;以繼續執行。
 
-   * 按一下&#x200B;**[!UICONTROL Stop]**&#x200B;圖示可停止進行中的執行。
+  * 按一下&#x200B;**[!UICONTROL Stop]**&#x200B;圖示可停止進行中的執行。
 
-     ![](assets/stop.png)
+    ![](assets/stop.png)
 
-     伺服器會考慮該命令，因為其狀態顯示為： **[!UICONTROL Stop requested]**。
+    伺服器會考慮該命令，因為其狀態顯示為： **[!UICONTROL Stop requested]**。
 
   您也可以在執行到達活動時自動停止目標定位工作流程。 若要這麼做，請以滑鼠右鍵按一下將停止目標定位工作流程的活動，然後選取&#x200B;**[!UICONTROL Do not activate]**。
 
@@ -262,4 +257,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

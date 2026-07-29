@@ -6,17 +6,11 @@ feature: Campaigns, Resource Management
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 TQID: https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: efa38731-2723-4334-8d8b-a778af834835
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: efa38731-2723-4334-8d8b-a778af834835
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 527
@@ -87,7 +81,7 @@ Adobe Campaign操作人員可使用討論區來共用資訊。 下列各元素�
 * 瀏覽至Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Production > Technical workflows > Campaign processes]**&#x200B;資料夾，並檢查&#x200B;**[!UICONTROL Jobs in discussion forums]**&#x200B;工作流程是否啟動且沒有錯誤。
 * 檢查傳送記錄檔：
 
-   * 在Adobe Campaign首頁上，瀏覽至&#x200B;**[!UICONTROL Campaigns > Navigation > Deliveries]**，然後開啟&#x200B;**[!UICONTROL Discussion forum notification]**&#x200B;傳遞。
-   * 在Campaign總管中，瀏覽至&#x200B;**[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**，然後按一下&#x200B;**[!UICONTROL Discussion forum notifications]**。
+  * 在Adobe Campaign首頁上，瀏覽至&#x200B;**[!UICONTROL Campaigns > Navigation > Deliveries]**，然後開啟&#x200B;**[!UICONTROL Discussion forum notification]**&#x200B;傳遞。
+  * 在Campaign總管中，瀏覽至&#x200B;**[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**，然後按一下&#x200B;**[!UICONTROL Discussion forum notifications]**。
 
   在&#x200B;**[!UICONTROL Discussion forum notifications]**&#x200B;方塊中，在&#x200B;**[!UICONTROL Edit > Delivery]**&#x200B;索引標籤中找到傳遞記錄。 您也可以檢視&#x200B;**[!UICONTROL Tracking > Log]**&#x200B;和&#x200B;**[!UICONTROL Exclusion causes]**&#x200B;標籤。

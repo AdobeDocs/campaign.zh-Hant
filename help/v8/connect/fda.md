@@ -6,14 +6,10 @@ role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
 TQID: https://experienceleague.adobe.com/lM7a0NhOPSZsHW4X60S3-TTlnnuTMb1Ip30uRpBctEQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 734
@@ -44,9 +40,9 @@ FDA選項受您使用的協力廠商資料庫系統限制。
 
 * 儘可能避免需要使用Adobe Campaign和外部資料庫的操作。 若要這麼做，您可以：
 
-   * 將Adobe Campaign資料庫匯出至外部資料庫，並僅從外部資料庫執行操作，然後再將結果重新匯入Adobe Campaign。
+  * 將Adobe Campaign資料庫匯出至外部資料庫，並僅從外部資料庫執行操作，然後再將結果重新匯入Adobe Campaign。
 
-   * 從外部Adobe Campaign資料庫收集資料，並在本機執行操作。
+  * 從外部Adobe Campaign資料庫收集資料，並在本機執行操作。
 
   如果您想使用外部資料庫中的資料在傳遞中執行個人化，請收集要在工作流程中使用的資料，以便在臨時表格中提供。 然後，使用臨時表格中的資料來個人化您的傳遞。 若要執行此動作，請使用傳遞屬性的&#x200B;**[!UICONTROL Analysis]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;選項，在專屬工作流程中預先處理訊息個人化。 在傳遞分析期間，此選項會自動建立並執行工作流程，將所有連結至目標的資料儲存在暫存表格中，包括連結至外部資料庫之表格的資料。
 

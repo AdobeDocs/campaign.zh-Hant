@@ -1,5 +1,5 @@
 ---
-title: GET / POST / PATCH / DELETE動詞
+title: 取得/發佈/PATCH / DELETE動詞
 description: 進一步瞭解Campaign Standard API中使用的動詞。
 audience: developing
 content-type: reference
@@ -8,14 +8,10 @@ role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
 TQID: https://experienceleague.adobe.com/S8WC9Y9aqkSodleg6QasdSL4XvV8S6BFCZtyPi3l4II
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 130
@@ -23,7 +19,7 @@ ht-degree: 0%
 
 ---
 
-# GET / POST / PATCH / DELETE動詞 {#verbs}
+# 取得/發佈/PATCH / DELETE動詞 {#verbs}
 
 對資源執行操作的可用動詞如下：
 
@@ -38,7 +34,7 @@ ht-degree: 0%
 
 ***範例要求***
 
-* 設定檔集合上的GET請求範例。
+* 設定檔集合上的範例GET要求。
 
 
   ```
@@ -74,7 +70,7 @@ ht-degree: 0%
   }
   ```
 
-* 特定設定檔上的範例GET請求。
+* 特定設定檔的範例GET要求。
 
 
   ```

@@ -7,12 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
 TQID: https://experienceleague.adobe.com/MvYtphJPgDXOp9-CR3rhTYNazED3seRZxt89W29PJlI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 3344
@@ -301,10 +298,10 @@ ht-degree: 34%
 
   **[!UICONTROL Enumerations]**&#x200B;型別計算欄位可包含4個條件：
 
-   * **[!UICONTROL Keep the source value]**&#x200B;將來源值還原到目標而不變更它。
-   * **[!UICONTROL Use the following value]**&#x200B;可讓您為未定義的來源值輸入預設目的地值。
-   * **[!UICONTROL Generate a warning and continue]**&#x200B;警告使用者無法變更來源值。
-   * **[!UICONTROL Generate an error and reject the line]**&#x200B;會防止行被計算及匯入。
+  * **[!UICONTROL Keep the source value]**&#x200B;將來源值還原到目標而不變更它。
+  * **[!UICONTROL Use the following value]**&#x200B;可讓您為未定義的來源值輸入預設目的地值。
+  * **[!UICONTROL Generate a warning and continue]**&#x200B;警告使用者無法變更來源值。
+  * **[!UICONTROL Generate an error and reject the line]**&#x200B;會防止行被計算及匯入。
 
 按一下&#x200B;**[!UICONTROL Detail of calculated field]**&#x200B;以檢視插入欄位的詳細資訊。
 

@@ -7,14 +7,10 @@ level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
 TQID: https://experienceleague.adobe.com/lOHi9m2uufIl3Qk5z-vJUVMkBJE3hHOmGjiebKKiZqo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 3864
@@ -26,7 +22,7 @@ ht-degree: 34%
 
 Campaign可協助您將連絡人新增至資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
 
-輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。 若要了解更多資訊，請參閱[此區段](../../automation/workflow/recurring-import-workflow.md)。
+輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。 在[本節](../../automation/workflow/recurring-import-workflow.md)了解更多資訊。
 
 ![](assets/import-wf.png)
 
@@ -269,45 +265,45 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 * 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;連結以選取資料夾、清單，或您要與收件者建立關聯或訂閱的服務。
 
-   1. 匯入到資料夾中
+  1. 匯入到資料夾中
 
-      **[!UICONTROL Import into a folder]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
+     **[!UICONTROL Import into a folder]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入的資料夾。 按照預設，如果未定義分區，則會將資料匯入到操作員的預設資料夾中。
 
-      >[!NOTE]
-      >
-      >運運算元的預設資料夾是該運運算元具有寫入許可權的第一個資料夾。 深入瞭解[管理資料夾和檢視](../audiences/folders-and-views.md)。
+     >[!NOTE]
+     >
+     >運運算元的預設資料夾是該運運算元具有寫入許可權的第一個資料夾。 深入瞭解[管理資料夾和檢視](../audiences/folders-and-views.md)。
 
-      若要選取匯入資料夾，請按一下&#x200B;**[!UICONTROL Folder]**&#x200B;欄位右側的箭頭，然後選取相關的資料夾。 您也可以使用&#x200B;**[!UICONTROL Select link]**&#x200B;圖示在新視窗中顯示樹狀結構或建立新資料夾。
+     若要選取匯入資料夾，請按一下&#x200B;**[!UICONTROL Folder]**&#x200B;欄位右側的箭頭，然後選取相關的資料夾。 您也可以使用&#x200B;**[!UICONTROL Select link]**&#x200B;圖示在新視窗中顯示樹狀結構或建立新資料夾。
 
-      ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![](assets/s_ncs_user_import_wizard05_2.png)
 
-      若要建立新資料夾，請選取您要新增資料夾的節點，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Create a new 'Recipients' folder]**。
+     若要建立新資料夾，請選取您要新增資料夾的節點，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Create a new 'Recipients' folder]**。
 
-      ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![](assets/s_ncs_user_import_wizard05_3.png)
 
-      資料夾會新增至目前節點下方。 輸入新資料夾的名稱，按一下Enter進行確認，然後按一下&#x200B;**[!UICONTROL OK]**。
+     資料夾會新增至目前節點下方。 輸入新資料夾的名稱，按一下Enter進行確認，然後按一下&#x200B;**[!UICONTROL OK]**。
 
-      ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![](assets/s_ncs_user_import_wizard05_4.png)
 
-   1. 與清單相關聯
+  1. 與清單相關聯
 
-      **[!UICONTROL Add recipients to a list]**&#x200B;區段中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
+     **[!UICONTROL Add recipients to a list]**&#x200B;區段中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
 
-      ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按&#x200B;**[!UICONTROL Create]**，為這些收件者建立新清單。
+     您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按&#x200B;**[!UICONTROL Create]**，為這些收件者建立新清單。
 
-      ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![](assets/s_ncs_user_import_wizard05_6.png)
 
-      您可以決定將收件者新增至清單中已存在的收件者，或使用新收件者重新建立清單。 在這種情況下，如果清單已包含收件者，則它們將被刪除並由匯入的收件者替換。
+     您可以決定將收件者新增至清單中已存在的收件者，或使用新收件者重新建立清單。 在這種情況下，如果清單已包含收件者，則它們將被刪除並由匯入的收件者替換。
 
-   1. 訂閱服務
+  1. 訂閱服務
 
-      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
+     若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
 
-      ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示，為這些收件者建立新的服務。 [本節](../start/subscriptions.md)介紹了資訊服務的管理。
+     您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示，為這些收件者建立新的服務。 [本節](../start/subscriptions.md)介紹了資訊服務的管理。
 
 * 使用&#x200B;**[!UICONTROL Origin]**&#x200B;欄位將收件者來源的相關資訊新增至其設定檔。 此資訊在多重匯入的框架內特別有用。
 
@@ -411,9 +407,9 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * 若要變更欄位的標籤，請按一下符合要修改欄位的&#x200B;**[!UICONTROL Label]**&#x200B;欄儲存格，然後輸入新標籤。 在鍵盤上按Enter鍵以確認。
 * 若要將案例轉換套用至欄位的內容，請從&#x200B;**[!UICONTROL Transformation]**&#x200B;欄中選取它。 您可以選擇：
 
-   * 切換到小寫
-   * 切換到大寫
-   * 第一個字母大寫
+  * 切換到小寫
+  * 切換到大寫
+  * 第一個字母大寫
 
   ![](assets/s_ncs_user_export_wizard06.png)
 

@@ -6,18 +6,11 @@ role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 TQID: https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1429
@@ -33,7 +26,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->作為「受管理的Cloud Services」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連線。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
@@ -62,7 +55,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    ![](assets/analytics_connnector_1.png)
 
-1. 按一下 **[!UICONTROL Report suites]**。
+1. 按一下&#x200B;**[!UICONTROL Report suites]**。
 
    ![](assets/analytics_connnector_2.png)
 
@@ -98,7 +91,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 按一下&#x200B;**[!UICONTROL Add new]**&#x200B;以建立測量電子郵件行銷活動影響所需的識別碼，即內部行銷活動名稱 (cid) 和 iNmsBroadlog (bid) 表格 ID。
 
-   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=zh-Hant#admin-tools){target="_blank"}。
+   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}。
 
    ![](assets/analytics_connnector_6.png)
 
@@ -121,7 +114,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=zh-Hant)
+   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -135,7 +128,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 請注意，如果在設定外部帳戶時未顯示 **[!UICONTROL Report suite]**、**[!UICONTROL Conversion variables]** 或 **[!UICONTROL Success events]**&#x200B;之一，這表示您在與使用者相關聯的 **[!UICONTROL Product profile]** 中缺少此新建立元件的權限。
 
-如需詳細資訊，請參閱 [Adobe Analytics 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant#product-profile-admins){target="_blank"}頁面。
+如需詳細資訊，請參閱 [Adobe Analytics 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}頁面。
 
 1. 瀏覽至Adobe Campaign總管樹狀目錄的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL New]**。
 
@@ -159,7 +152,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    >[!NOTE]
    >
-   >促銷活動ID和Broadload ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >促銷活動ID和Broadload ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -214,7 +207,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector，透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
+**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
 
 請注意，不應重新啟動此工作流程，否則會重新傳送所有可能扭曲 Analytics 結果的先前資料。
 
@@ -239,8 +232,8 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 * **[!UICONTROL Internal name]** (@internalName)
 * **[!UICONTROL Label]** (@label)
-* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
-* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
+* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **** Campaign 套件時
+* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **** Campaign 套件時
 * **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
 * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
@@ -283,4 +276,4 @@ Adobe Campaign 提供個人化傳送範本，供您自行使用或建立資料�
 
 **相關主題**
 
-* [Campaign - Experience Cloud Triggers整合](ac-triggers.md)
+* [Campaign - Experience Cloud觸發器整合](ac-triggers.md)

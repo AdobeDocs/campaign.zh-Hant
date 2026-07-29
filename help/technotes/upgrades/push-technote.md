@@ -49,7 +49,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 在[Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}中瞭解如何取得此檔案。
 
-* 針對Campaign Classic v7,20.3.1版本已新增HTTP v1支援。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant){target="_blank"}。 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
+* 針對Campaign Classic v7,20.3.1版本已新增HTTP v1支援。 如果您的環境執行於舊版，轉換至HTTP v1的先決條件是將環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 若為Campaign v8，所有發行版本都支援HTTP v1，且不需要升級。
 
 * 身為Campaign Classic v7內部部署使用者，您必須升級行銷和即時執行伺服器。
 
@@ -57,9 +57,9 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
 * 關於Android路由外部帳戶：
 
-   * 身為Campaign Classic v7內部部署或混合使用者，請檢查您的Android路由外部帳戶是否已設定`androidPushConnectorV2.js`。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}中進一步瞭解。
+  * 身為Campaign Classic v7內部部署或混合使用者，請檢查您的Android路由外部帳戶是否已設定`androidPushConnectorV2.js`。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}中進一步瞭解。
 
-   * 對於混合、託管及受管理的Cloud Services部署，您還必須連線Adobe客戶服務團隊，以驗證在Android路由您的中間來源伺服器的外部帳戶中選取`androidPushConnectorV2.js (nms)`聯結器。
+  * 對於混合、託管及受管理的Cloud Services部署，您還必須連線Adobe客戶服務團隊，以驗證在Android路由您的中間來源伺服器的外部帳戶中選取`androidPushConnectorV2.js (nms)`聯結器。
 
 #### 轉換程式 {#fcm-transition-steps}
 
@@ -115,45 +115,45 @@ Adobe Campaign Classic v7和Adobe Campaign v8已支援最新API來傳送推播�
 
   若要修補在升級至支援HTTP v1的版本之前建立的所有傳遞和傳遞範本，請遵循下列步驟：
 
-   1. 將您現有的傳遞和傳遞範本匯出至套件中，以便在修補期間發生未預期的問題時能夠還原它們。
-   1. 在Posgresql中執行以下命令：
+  1. 將您現有的傳遞和傳遞範本匯出至套件中，以便在修補期間發生未預期的問題時能夠還原它們。
+  1. 在Posgresql中執行以下命令：
 
-      ```sql
-      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
-      ```
+     ```sql
+     pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+     ```
 
-   1. 根據預設，指令碼處於`dryrun`模式，您可以在該模式中啟動它，以檢查是否需要修補某些傳遞。
+  1. 根據預設，指令碼處於`dryrun`模式，您可以在該模式中啟動它，以檢查是否需要修補某些傳遞。
 
-      命令
+     命令
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+     ```
 
-      輸出
+     輸出
 
-      ```sql
-      ...
-      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      ...
-      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
-      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
-      HH:MM:SS >   - Y had androidCheckParams formula patched.
-      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
-      ```
+     ```sql
+     ...
+     HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     ...
+     HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+     HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+     HH:MM:SS >   - Y had androidCheckParams formula patched.
+     HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+     ```
 
-      >[!NOTE]
-      >
-      >需要手動更新`not patchable`傳遞。 可在紀錄中找到其ID。
+     >[!NOTE]
+     >
+     >需要手動更新`not patchable`傳遞。 可在紀錄中找到其ID。
 
-   1. 在執行模式中以下列方式執行指令碼以更新傳送：
+  1. 在執行模式中以下列方式執行指令碼以更新傳送：
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+     ```
 
   +++
 
@@ -211,7 +211,7 @@ Adobe Campaign Classic v7和Adobe Campaign v8同時支援權杖型和憑證型�
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 針對Campaign Classic v7，已在20.2發行版本中新增支援&#x200B;**權杖式驗證**&#x200B;模式。 如果您的環境執行於舊版，此變更的先決條件是將您的環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant){target="_blank"}。 對於Campaign v8，所有發行版本都支援&#x200B;**權杖式驗證**&#x200B;模式，且不需要升級。
+* 針對Campaign Classic v7，已在20.2發行版本中新增支援&#x200B;**權杖式驗證**&#x200B;模式。 如果您的環境執行於舊版，此變更的先決條件是將您的環境升級至[最新的Campaign Classic版本編號](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}。 對於Campaign v8，所有發行版本都支援&#x200B;**權杖式驗證**&#x200B;模式，且不需要升級。
 
 * 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您需向Apple開發人員帳戶索取此金鑰。
 

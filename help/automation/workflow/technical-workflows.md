@@ -7,25 +7,14 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 TQID: https://experienceleague.adobe.com/5ZAmiv-rcxhCwfmxaxGcgcX7iUxJpiTWUruz8nbuHq0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: ee25c34b-ea50-427b-9369-ba0a160f7d70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2089
 ht-degree: 1%
 
 ---
@@ -77,7 +66,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **預測** （預測） | 預設安裝 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
 | **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[本節](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
 | **已轉換連絡人的識別碼** (webAnalyticsFindConverted) | 網站分析聯結器 | 此工作流程會針對在再次行銷活動後完成購買的網站訪客建立索引。 此工作流程復原的資料可在再行銷效率報表中存取（請參閱本頁面）。 |
-| **從Adobe Experience Cloud** (importSharedAudience)匯入對象 | 與Adobe Experience Cloud整合 | 此工作流程可讓您將不同Adobe Experience Cloud解決方案的對象/區段匯入至Adobe Campaign。 |
+| **從Adobe Experience Cloud匯入對象** (importSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程可讓您從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。 |
 | 行銷活動中的傳遞&#x200B;**工作** (deliveryMgt) | 預設安裝 | 此工作流程會觸發已核准的傳送，並開始為外部傳送對服務提供者進行後續處理。 也會傳送核准通知和提醒。 |
 | 服務提供者上的&#x200B;**工作** (supplierMgt) | 預設安裝 | 在核准傳遞後，此工作流程會開始處理提供者（傳送至路由器的電子郵件並進行後續處理）。 |
 | **MID到LineUserID移轉** (MIDToUserIDMigration) | LINE 管道 | 此工作流程會產生LINE V2使用者ID，以便從LINE V1移轉至LINE V2。 |

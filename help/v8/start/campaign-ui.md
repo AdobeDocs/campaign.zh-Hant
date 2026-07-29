@@ -7,17 +7,11 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 TQID: https://experienceleague.adobe.com/KNLqBQfgg8rT8syInLXJWAo5477JlxSXzG4xT6LFjBo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1234
@@ -133,7 +127,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 ## Campaign Web 使用者介面 {#ac-web-ui}
 
-自8.6.1版開始，身為Campaign v8使用者，您可以透過Adobe Experience Cloud中央使用者介面存取網頁環境。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
+自8.6.1版開始，身為Campaign v8使用者，您可以透過中央Adobe Experience Cloud使用者介面存取網頁環境。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
 
 ![Adobe Campaign Web 使用者介面首頁](assets/ac-web-home.png)
 
@@ -153,11 +147,11 @@ The web access interface is similar to the console interface. From a browser, yo
 
 * 對於Campaign使用者端主控台介面，支援的語言為：
 
-   * 英文 (英國)
-   * 英文 (美國)
-   * 法文
-   * 德文
-   * 日文
+  * 英文 (英國)
+  * 英文 (美國)
+  * 法文
+  * 德文
+  * 日文
 
 
   >[!CAUTION]

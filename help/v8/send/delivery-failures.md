@@ -7,29 +7,15 @@ level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 TQID: https://experienceleague.adobe.com/sAapnzXcpGvhnYG3J70n9Tq51KZCmvFlxMW4EfYh6Ck
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
-  - id: b5852c32-876b-41ae-92a7-9f588865ae52
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: b5852c32-876b-41ae-92a7-9f588865ae52id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 3442
+source-wordcount: 3422
 ht-degree: 6%
 
 ---
@@ -62,7 +48,7 @@ ht-degree: 6%
 
 **Ignored**&#x200B;錯誤型別已知為暫時，例如「不在辦公室」，或技術錯誤，例如，如果寄件者型別為「郵遞員」。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -137,7 +123,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 
 訊息在MTA佇列中停留3.5天且無法傳送後，訊息會逾時，其狀態會從傳送記錄檔中的&#x200B;**[!UICONTROL Sent]**&#x200B;更新為&#x200B;**[!UICONTROL Failed]**。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 電子郵件錯誤型別 {#email-error-types}
@@ -676,7 +662,7 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
 
 +++
 
-延伸通用SMPP聯結器的&#x200B;**&#x200B;**
+延伸通用SMPP聯結器的&#x200B;****
 
 使用SMPP通訊協定傳送SMS訊息時，錯誤管理的處理方式不同。
 
@@ -703,8 +689,8 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 錯誤訊息的第三部分（此範例中為&#x200B;**DELIVRD**）對應於使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取的狀態代碼。
 
-  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**&#x200B;索引標籤中。
-依預設，規則運算式會擷取&#x200B;**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**索引標籤中。
+  依預設，規則運算式會擷取**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
 
 * 錯誤訊息的第四部分(**000**)對應於使用SMS外部帳戶中定義的錯誤碼擷取規則運算式從SR擷取的錯誤碼。
 
@@ -748,7 +734,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：電子郵件中有收件者的多個值之個人化欄位或區塊。 個人化區塊正在使用中，且正在為特定收件者擷取多個記錄。
 
-**解決方法**：檢查使用的個人化資料，然後檢查目標中是否有收件者有多個專案。 您也可以在傳遞活動之前，於目標工作流程中使用&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，以確保一次只有一個個人化欄位。 如需重複資料刪除的詳細資訊，請參閱[工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=zh-Hant){target="_blank"}。
+**解決方法**：檢查使用的個人化資料，然後檢查目標中是否有收件者有多個專案。 您也可以在傳遞活動之前，於目標工作流程中使用&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，以確保一次只有一個個人化欄位。 如需重複資料刪除的詳細資訊，請參閱[工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}。
 
 ### 自動回覆處理 {#auto-reply-handling}
 

@@ -6,12 +6,9 @@ role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 TQID: https://experienceleague.adobe.com/sQgS-ig3-OfCLseGyqsbismNI-qqy1E2io6P17HZsUU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 567
@@ -32,16 +29,16 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
 
 * 使用Adobe Campaign Managed Cloud Services **目的地連線**&#x200B;將Experience Platform區段傳送至Adobe Campaign：
 
-   1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
-   1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Audience sync]**&#x200B;做為同步型別。
+  1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
+  1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Audience sync]**&#x200B;做為同步型別。
 
-      ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. 選取要傳送至Adobe Campaign的區段。
-   1. 設定您要在對象中匯出的屬性。
-   1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
+  1. 選取要傳送至Adobe Campaign的區段。
+  1. 設定您要在對象中匯出的屬性。
+  1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
 
-      ![](assets/aep-destination.png){width="800" align="center"}
+     ![](assets/aep-destination.png){width="800" align="center"}
 
   有關如何設定目的地的詳細資訊，請參閱[Adobe Campaign Managed Cloud Services連線檔案](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 

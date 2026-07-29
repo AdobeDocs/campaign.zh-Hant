@@ -6,16 +6,10 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2133
@@ -54,7 +48,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。
 
-在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=zh-Hant){target="_blank"}中進一步瞭解傳入電子郵件。
+在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}中進一步瞭解傳入電子郵件。
 
 ![](assets/bounce_external_1.png)
 
@@ -137,7 +131,7 @@ Campaign Web UI頁面提供&#x200B;**外部資料庫**&#x200B;提供者型別的
 * **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** — 將Campaign連線至OpenText Vertica分析資料庫。
 * **[Microsoft Fabric](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** — 將Campaign連線至Microsoft Fabric SQL和儲存服務。
 
-如需舊版使用者端主控台詳細資訊和其他參考資料，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}。
+如需舊版使用者端主控台詳細資訊和其他參考資料，請參閱[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}。
 
 #### 資料庫外部帳戶 {#databricks-external-accounts}
 
@@ -207,7 +201,7 @@ Snowflake FDA連線使用Snowflake ODBC驅動程式。 從Campaign v8.9.1開始�
 
 ## 傳輸資料外部帳戶 {#transfer-data-external-accounts}
 
-這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=zh-Hant){target="_blank"}工作流程中的&#x200B;**檔案傳輸**。
+這些外部帳戶可用來匯入或匯出資料至Adobe Campaign （使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動）。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}工作流程中的&#x200B;**檔案傳輸**。
 
 * **FTP和SFTP** - **FTP**&#x200B;外部帳戶可讓您設定並測試對Adobe Campaign外部伺服器的存取權。 若要設定與外部系統（例如用於檔案傳輸的SFTP或FTP伺服器）的連線，您可以建立自己的外部帳戶。
 
@@ -215,32 +209,32 @@ Snowflake FDA連線使用Snowflake ODBC驅動程式。 從Campaign v8.9.1開始�
 
   >[!NOTE]
   >
-  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant){target="_blank"}。
+  >從版本8.5開始，您現在可以在設定SFTP外部帳戶時，使用私密金鑰安全地驗證。 [進一步瞭解金鑰管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}。
 
 * **Amazon Simple Storage Service (S3)** - **AWS S3**&#x200B;聯結器可用來使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。 設定此外部帳戶時，您需要提供下列詳細資料：
 
-   * **[!UICONTROL AWS S3 Account Server]**：您伺服器的URL，格式為`<S3bucket name>.s3.amazonaws.com/<s3object path>`。
+  * **[!UICONTROL AWS S3 Account Server]**：您伺服器的URL，格式為`<S3bucket name>.s3.amazonaws.com/<s3object path>`。
 
-   * **[!UICONTROL AWS access key ID]**：在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}中瞭解如何尋找您的AWS存取金鑰ID。
+  * **[!UICONTROL AWS access key ID]**：在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}中瞭解如何尋找您的AWS存取金鑰ID。
 
-   * **[!UICONTROL Secret access key to AWS]**：在[AWS檔案](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}中瞭解如何尋找Amazon的秘密存取金鑰。
+  * **[!UICONTROL Secret access key to AWS]**：在[AWS檔案](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}中瞭解如何尋找Amazon的秘密存取金鑰。
 
-   * **[!UICONTROL AWS Region]**：在[AWS檔案](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}中進一步瞭解Amazon地區。
+  * **[!UICONTROL AWS Region]**：在[AWS檔案](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}中進一步瞭解Amazon地區。
 
-   * **[!UICONTROL Use server-side encryption]**&#x200B;核取方塊可讓您以S3加密模式儲存檔案。 在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}中瞭解如何尋找存取金鑰ID和機密存取金鑰。
+  * **[!UICONTROL Use server-side encryption]**&#x200B;核取方塊可讓您以S3加密模式儲存檔案。 在[Amazon檔案](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}中瞭解如何尋找存取金鑰ID和機密存取金鑰。
 
 * **Azure Blob儲存體** - **Azure**&#x200B;外部帳戶可用來使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動將資料匯入或匯出至Adobe Campaign。 若要設定&#x200B;**Azure**&#x200B;外部帳戶以搭配Adobe Campaign使用，您必須提供下列詳細資料：
 
-   * **[!UICONTROL Server]**： Azure Blob儲存伺服器的URL。
+  * **[!UICONTROL Server]**： Azure Blob儲存伺服器的URL。
 
-   * **[!UICONTROL Encryption]**：加密型別： **[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**。
+  * **[!UICONTROL Encryption]**：加密型別： **[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**。
 
-   * **[!UICONTROL Access key]**：在[Microsoft檔案](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}中瞭解如何尋找您的&#x200B;**[!UICONTROL Access key]**。
+  * **[!UICONTROL Access key]**：在[Microsoft檔案](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}中瞭解如何尋找您的&#x200B;**[!UICONTROL Access key]**。
 
 * **Microsoft光纖** - **Microsoft光纖**&#x200B;外部帳戶可讓您使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動，在Microsoft光纖和Adobe Campaign之間匯入及匯出資料。 若要設定此整合，請提供下列詳細資料：
 
-   * **[!UICONTROL Server]**： Microsoft Fabric儲存伺服器的URL。
+  * **[!UICONTROL Server]**： Microsoft Fabric儲存伺服器的URL。
 
-   * **[!UICONTROL Application ID]**：用來驗證及存取Microsoft Fabric資源之應用程式的唯一識別碼。
+  * **[!UICONTROL Application ID]**：用來驗證及存取Microsoft Fabric資源之應用程式的唯一識別碼。
 
-   * **[!UICONTROL Client secret]**：與應用程式關聯的驗證金鑰或密碼，必須安全地連線到Microsoft Fabric。
+  * **[!UICONTROL Client secret]**：與應用程式關聯的驗證金鑰或密碼，必須安全地連線到Microsoft Fabric。

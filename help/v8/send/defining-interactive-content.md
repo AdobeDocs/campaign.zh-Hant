@@ -7,13 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
 TQID: https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1461
@@ -142,7 +138,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 * AMP MIME部分必須包含[有效的AMP檔案](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)。
 * AMP MIME部分必須小於100KB。
 
-您也可以參閱Gmail[&#128279;](https://developers.google.com/gmail/ampemail/tips)檔案的提示和已知限制。
+您也可以參閱Gmail](https://developers.google.com/gmail/ampemail/tips)檔案的[提示和已知限制。
 
 ## AMP電子郵件定位 {#targeting-amp-email}
 

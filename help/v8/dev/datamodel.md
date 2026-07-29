@@ -6,20 +6,12 @@ role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 TQID: https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: b5852c32-876b-41ae-92a7-9f588865ae52
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 737
@@ -39,9 +31,9 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 * **記錄表**：這些表會儲存與行銷活動執行相關的所有記錄。
 
-   * 傳遞記錄檔是跨所有通道傳送給收件者或裝置的所有訊息。 主要傳遞記錄表格(**NmsBroadLogRcp**)包含所有收件者的傳遞記錄。
-   * **nmsBroadlog**&#x200B;表格是系統中最大的表格。 它會儲存每封傳送的訊息一個記錄，這些記錄會插入、更新以追蹤傳遞狀態，並在清除歷史記錄時刪除。
-   * 主要追蹤記錄表(**NmsTrackingLogRcp**)儲存所有收件者的追蹤記錄。 追蹤記錄會參照收件者的回應，例如電子郵件開啟次數和點按次數。 每個回應都會對應至追蹤記錄。
+  * 傳遞記錄檔是跨所有通道傳送給收件者或裝置的所有訊息。 主要傳遞記錄表格(**NmsBroadLogRcp**)包含所有收件者的傳遞記錄。
+  * **nmsBroadlog**&#x200B;表格是系統中最大的表格。 它會儲存每封傳送的訊息一個記錄，這些記錄會插入、更新以追蹤傳遞狀態，並在清除歷史記錄時刪除。
+  * 主要追蹤記錄表(**NmsTrackingLogRcp**)儲存所有收件者的追蹤記錄。 追蹤記錄會參照收件者的回應，例如電子郵件開啟次數和點按次數。 每個回應都會對應至追蹤記錄。
 
   傳送記錄檔和追蹤記錄檔會在特定時段後刪除，該特定時段會在Adobe Campaign中指定並加以修改。 因此，強烈建議您定期匯出記錄檔。
 
@@ -75,7 +67,7 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 在[本節](extend-schema.md)中瞭解如何擴充現有結構描述。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
 
 您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，在[此區段](custom-recipient.md)中說明。
 

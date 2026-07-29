@@ -5,19 +5,13 @@ description: 瞭解如何設定和實作行銷活動型別
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e739ee2b-6228-412e-878f-45de0791417d
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 482
+source-wordcount: 474
 ht-degree: 19%
 
 ---
@@ -90,11 +84,11 @@ Campaign Optimization附加元件提供另外兩種型別的&#x200B;**型別規�
 
 此影片說明如何運用型別規則，在Adobe Campaign中實施疲勞管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448342?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### 使用預先定義的篩選器設定疲勞管理
 
 疲勞管理控制傳訊的頻率和數量，以避免過度向收件者發送請求。 如果您的行銷活動執行個體中沒有行銷活動最佳化模組，您可以設定預先定義的篩選器，以根據收到的訊息數量篩選目標母體
 此影片說明如何使用篩選器在Adobe Campaign中實施疲勞管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444611?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

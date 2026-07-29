@@ -7,13 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
 TQID: https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 430
@@ -68,8 +64,8 @@ Adobe Campaign可讓您從LibreOffice或Microsoft Word檔案，產生電子郵�
 
   您需要在個人化區塊中區分兩種型別的宣告：
 
-   * 個人化欄位的Adobe Campaign程式碼，「開啟」和「關閉」V形箭號必須替換為逸出字元（分別為`&lt;`和`&gt;`）。
-   * 整個OpenOffice XML程式碼將會複製到OpenOffice檔案中。
+  * 個人化欄位的Adobe Campaign程式碼，「開啟」和「關閉」V形箭號必須替換為逸出字元（分別為`&lt;`和`&gt;`）。
+  * 整個OpenOffice XML程式碼將會複製到OpenOffice檔案中。
 
 在範例中，個人化區塊看起來像這樣：
 

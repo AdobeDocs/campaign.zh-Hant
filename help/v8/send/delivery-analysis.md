@@ -6,15 +6,10 @@ role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
 TQID: https://experienceleague.adobe.com/A1EyDmVc2Y7okJFeFT7lsckZm8-IFDD-XFIqpb-Q7v8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 693
@@ -94,9 +89,9 @@ ht-degree: 5%
 
   可使用下列核准模式：
 
-   * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳遞才能開始傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動傳遞。
-   * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
-   * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
+  * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳遞才能開始傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動傳遞。
+  * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
+  * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
 
 * **[!UICONTROL Start job in a detached process]**：此選項可讓您以個別程式啟動傳遞分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器處理序(web nlserver)。 選取此選項，即可確保即使應用程式伺服器發生故障，也能完成分析。
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**：此選項會在分析階段將SQL查詢記錄檔新增至傳遞日誌。

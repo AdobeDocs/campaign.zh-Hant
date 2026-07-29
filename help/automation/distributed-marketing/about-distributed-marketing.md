@@ -6,19 +6,11 @@ feature: Distributed Marketing
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 TQID: https://experienceleague.adobe.com/Xic-o4WB0jDoHpUAdN2U9Uunuf8rAcQ7rrcpXIFLqSI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: efa38731-2723-4334-8d8b-a778af834835
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: efa38731-2723-4334-8d8b-a778af834835
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1135
@@ -44,10 +36,10 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
   分散式行銷模組可讓中央實體：
 
-   * 為本機實體設定行銷活動套件，
-   * 提高本地實體在客戶/潛在客戶通訊、目標定位、內容等選擇上的自主程度。
-   * 管理及控制成本、
-   * 處理代理程式網路。
+  * 為本機實體設定行銷活動套件，
+  * 提高本地實體在客戶/潛在客戶通訊、目標定位、內容等選擇上的自主程度。
+  * 管理及控制成本、
+  * 處理代理程式網路。
 
 * **本機實體**
 
@@ -79,10 +71,10 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
   合作行銷活動是其中的&#x200B;**執行排程由中央實體定義**&#x200B;的行銷活動，本機實體可使用此行銷活動。 每個本機實體的內容都會保持不變，但會共用成本。 本地實體若要參加，請訂閱合作行銷活動。
 
-   * **[!UICONTROL Collaborative campaign (by form)]**：建議用於涉及最多300個本機實體的行銷活動。 本機實體可輸入預先定義的引數，以用於網路表單中的目標定位與內容個人化。 表單可以是Adobe Campaign表單或外部表單（外部網路使用者端）。 功能管理員可以根據整合商定義的表單範本，定義及設定表單。 若要訂購行銷活動，本機實體只需要網頁存取權。
-   * **[!UICONTROL Collaborative campaign (by campaign)]**：針對以數十個本機實體為目標的行銷活動建議使用。 此型別的行銷活動會為每個本機實體建立子行銷活動。 中央實體核准&#x200B;**[!UICONTROL collaborative campaign (by campaign)]**&#x200B;後，本機實體即可使用該行銷活動，並可加以修改。 執行會在父項與子項行銷活動之間自動同步。 本機實體必須具備執行個體的存取權，才能訂購行銷活動並參與其中。
-   * **[!UICONTROL Collaborative campaign (by target approval)]**：針對以數千個本機實體為目標的行銷活動建議使用。 本機實體會接收已由中央實體預先定義的聯絡人清單。 本地實體會透過網路表單，根據行銷活動內容決定是否保留特定聯絡人。 從選取的連絡人清單衍生出本機實體。 若要參與行銷活動，本機實體只需要網頁存取權。
-   * **[!UICONTROL Collaborative campaign (simple)]**：此模式可確保與先前版本的特定執行程式相容。
+  * **[!UICONTROL Collaborative campaign (by form)]**：建議用於涉及最多300個本機實體的行銷活動。 本機實體可輸入預先定義的引數，以用於網路表單中的目標定位與內容個人化。 表單可以是Adobe Campaign表單或外部表單（外部網路使用者端）。 功能管理員可以根據整合商定義的表單範本，定義及設定表單。 若要訂購行銷活動，本機實體只需要網頁存取權。
+  * **[!UICONTROL Collaborative campaign (by campaign)]**：針對以數十個本機實體為目標的行銷活動建議使用。 此型別的行銷活動會為每個本機實體建立子行銷活動。 中央實體核准&#x200B;**[!UICONTROL collaborative campaign (by campaign)]**&#x200B;後，本機實體即可使用該行銷活動，並可加以修改。 執行會在父項與子項行銷活動之間自動同步。 本機實體必須具備執行個體的存取權，才能訂購行銷活動並參與其中。
+  * **[!UICONTROL Collaborative campaign (by target approval)]**：針對以數千個本機實體為目標的行銷活動建議使用。 本機實體會接收已由中央實體預先定義的聯絡人清單。 本地實體會透過網路表單，根據行銷活動內容決定是否保留特定聯絡人。 從選取的連絡人清單衍生出本機實體。 若要參與行銷活動，本機實體只需要網頁存取權。
+  * **[!UICONTROL Collaborative campaign (simple)]**：此模式可確保與先前版本的特定執行程式相容。
 
   請參閱[建立合作行銷活動](creating-a-collaborative-campaign.md)。
 

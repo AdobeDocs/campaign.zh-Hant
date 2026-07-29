@@ -6,17 +6,11 @@ role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 TQID: https://experienceleague.adobe.com/RcdMeKFZIeitseKyZb72sz6O1y7lhtwajxwAr5V9vLo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 945
@@ -192,13 +186,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 您現在可以核准並啟用優惠方案，使其可在&#x200B;**即時**&#x200B;環境中使用。
 
-如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=zh-Hant#approving-offer-content){target="_blank"}。
+如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}。
 
 ## 管理產品建議簡報{#offer-presentation}
 
 Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些是行銷活動互動專屬的規則，是&#x200B;**型別規則**。 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 環境會參照這些引數。
 
-如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=zh-Hant#managing-offers){target="_blank"}。
+如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}。
 
 ## 優惠方案模擬
 
@@ -206,4 +200,4 @@ Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些�
 
 模擬會考量先前套用至優惠及其簡報規則的前後關聯和適用性規則。 這可讓您測試和調整優惠方案主張的各種版本，而無須實際使用優惠方案，或過度/過少向目標行銷，因為模擬不會對目標收件者造成影響。
 
-如需優惠方案模擬的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=zh-Hant){target="_blank"}。
+如需優惠方案模擬的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}。

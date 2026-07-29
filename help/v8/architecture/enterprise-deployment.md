@@ -6,27 +6,16 @@ role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 TQID: https://experienceleague.adobe.com/aUERRFZaN8aJ883kmoYz2Yf47A1tYkf2HfOJZtCgs1g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 52%
+source-wordcount: 1045
+ht-degree: 49%
 
 ---
 
@@ -84,9 +73,9 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 * 儲存所有內建參考表（分項清單、國家/地區等） 已復寫至[!DNL Snowflake]的專案。
 
   不過，您無法：
-   * 建立客戶資料的自訂專案，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
-   * 在FFDA目標維度上儲存任何傳遞記錄、追蹤記錄等。
-   * 儲存大量資料。
+  * 建立客戶資料的自訂專案，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
+  * 在FFDA目標維度上儲存任何傳遞記錄、追蹤記錄等。
+  * 儲存大量資料。
 
 
 中間來源執行個體上的PostgreSQL資料庫用於：
@@ -115,8 +104,8 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!NOTE]
 >
-> 已根據表格 (XS、XL等) 的大小建立了多個複製策略。
-> 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有逐漸更新，有些則會進行完整更新。
+> 已根據表格（XS、XL等）的大小建立了多個複製原則。
+> 有些資料表是即時復寫，有些則是每小時復寫。有些表格會有漸進式更新，有些則會進行完整更新。
 >
 
 [深入瞭解資料複製](replication.md)
