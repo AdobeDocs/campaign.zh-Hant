@@ -6,10 +6,14 @@ role: User
 level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 TQID: https://experienceleague.adobe.com/Vg4aM-iHsB0c8MagdCuYkyseUBaN-T252-Lk9P5klB8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 681
@@ -91,7 +95,7 @@ ht-degree: 1%
 * **個擱置中的傳遞**
 已處理事件，且已連結傳遞範本。 電子郵件正在等候傳遞，且已套用傳統傳遞程式。 如需詳細資訊，您可以開啟傳遞。
 * **已傳送**，**已忽略**&#x200B;及&#x200B;**傳遞錯誤**
-這些傳遞狀態是透過**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
+這些傳遞狀態是透過&#x200B;**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
 * **事件未涵蓋**
 異動訊息路由階段失敗。 例如，Adobe Campaign找不到當作事件範本的電子郵件。
 * **事件已過期**

@@ -6,12 +6,22 @@ feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 TQID: https://experienceleague.adobe.com/7Vd-T9MF-QnXjdkZJe0m0Z0r5n2HL3uWC3Md2C0lZAU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -45,7 +55,7 @@ ht-degree: 3%
 
 若要開始進行這項整合，您必須註冊[X開發人員帳戶](https://developer.twitter.com){target="_blank"}。
 
-Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權[。
+Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面[&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權。
 
 ## 在X上建立應用程式 {#create-an-app-on-twitter}
 
@@ -113,7 +123,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**&#x200B;標籤：應該會顯示您的Twitter帳戶。
   ![](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}

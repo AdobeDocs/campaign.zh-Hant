@@ -7,10 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: d34b6073-a7e7-443a-a6d8-e74ef10a67e8
 TQID: https://experienceleague.adobe.com/-HhNQgwweCPn3ts3AAm6SjdFTxg-2zexCALMqS1Yjgc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 872
@@ -83,7 +87,7 @@ ht-degree: 3%
 
 選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，**[!UICONTROL Target elements]**&#x200B;區段隨即開啟。 在這裡，您可以定義規則來篩選要收集的資料。
 
-* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁](filter-conditions.md)的[所述。
+* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁[&#128279;](filter-conditions.md)的所述。
 
 * 若要重複使用現有的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選擇您想要的篩選器。
 
