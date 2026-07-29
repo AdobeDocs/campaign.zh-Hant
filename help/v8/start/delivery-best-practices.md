@@ -47,7 +47,7 @@ ht-degree: 2%
 
 * 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案[&#128279;](../../automation/workflow/workflow-best-practices.md#execution-and-performance)中列出的准則。
 
-* 連線至您的[Campaign控制面板功能](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}，以使用[效能監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}功能來監視您的平台。
+* 連線至您的[Campaign控制面板功能](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}，以使用[效能監視](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}功能來監視您的平台。
 
 #### 隔離管理 {#quarantine-management}
 
@@ -56,9 +56,9 @@ ht-degree: 2%
 開始在新平台上傳送電子郵件時，您可能會使用未完全限定的地址清單。 如果您傳送至無效的位址或蜜罐位址（僅用來欺騙垃圾郵件寄件者的信箱），將開始降低平台的聲譽。 良好的隔離管理流程有助於：維持地址品質、避免網際網路存取提供者列入封鎖清單，以及降低錯誤率、加快傳遞速度與輸送量。
 
 
-在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}中進一步瞭解如何啟動新平台。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}中進一步瞭解如何啟動新平台。
 
-技術建議列於[此區段](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}。
+技術建議列於[此區段](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}。
 
 
 +++ **閱讀一些最佳實務**
@@ -96,7 +96,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。[進一步瞭�
 
 ### 子網域和品牌 {#subdomains-and-branding}
 
-當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
+當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
 
 ### 設定地址 {#configure-addresses}
 
@@ -255,7 +255,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication).
 -->
 
 ## 管理影像 {#manage-images}
