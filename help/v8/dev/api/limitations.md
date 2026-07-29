@@ -24,7 +24,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: 1053
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 移轉後，會將兩個產品設定檔新增至您現有或預先建立的技術帳戶：管理員和訊息中心（用於存取交易API）。 如果您不希望管理員產品設定檔對應至您的技術帳戶，請檢閱產品設定檔對應，並指派所需的產品設定檔。
 
-### 租使用者ID
+### 租用戶 ID
 
 移轉後，對於未來的任何整合，建議在REST URL中使用您的&#x200B;**Campaign v8租使用者ID**，取代您之前的Campaign Standard租使用者ID。
 
@@ -125,7 +125,7 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 | 在URI中使用無效的API | 500 - &#39;O5iRp40EGA&#39;屬性不明(請參閱&#39;Profiles (nms:recipient)&#39;結構描述的定義)。 XTK-170036無法剖析運算式&#39;@id = @O5iRp40EGA&#39;。 | 404 — 無法解密PKey。 (PKey=@jksad)不支援的端點。 (endpoint=rest/profileAndServices/profile/@jksad) |
 | 在URI和請求內文中使用兩個不同的原始Pkey | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 RST-360012資源&#39;service&#39;上的作業不一致 — 無法將索引鍵&#39;SVC3&#39;更新為&#39;SVC4&#39;。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 | 在URI中使用PKey，並在請求內文中使用不同的原始PKey | 500 — 具有相同索引鍵&#39;SVC4&#39;的&#39;Service&#39;已經存在。 PGS-220000 PostgreSQL錯誤：錯誤：重複的索引鍵值違反唯一條件約束「nmsservice_name」。詳細資料：索引鍵(sname)=(SVC4)已存在。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
-| 在URI中使用不存在的原始識別碼 | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵&#39;adobe_nl:0&#39;中找到路徑為&#39;Service&#39;的檔案（結構描述為&#39;service&#39;且名稱為&#39;adobe_nl&#39;的檔案） | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
+| 在URI中使用不存在的原始識別碼 | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵「adobe_nl：0」（結構描述為「service」且名稱為「adobe_nl」的檔案）找到路徑為「Service」的檔案 | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
 | 在請求內文中使用不存在的原始ID | 404 - RST-360011發生錯誤 — 請聯絡您的管理員。 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） | 404 — 無法從索引鍵「adobe_nl」找到路徑為「Service」的檔案（結構描述為「service」且名稱為「adobe_nl」的檔案） |
 | - | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 | 500 — 發生錯誤 — 請聯絡您的管理員。 |
 | 插入包含無效性別（或任何）列舉值的設定檔/服務 | 500 - RST-360011發生錯誤 — 請聯絡您的管理員。 &#39;invalid&#39;值對&#39;@gender&#39;欄位的&#39;nms:recipient:gender&#39;列舉無效 | 500 — 發生錯誤 — 請聯絡您的管理員。 |

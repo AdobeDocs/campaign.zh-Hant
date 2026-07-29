@@ -38,21 +38,21 @@ ht-degree: 1%
 
      ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 server]**
+     * **[!UICONTROL POP3 server]**
 
-        POP3伺服器的名稱。
+       POP3伺服器的名稱。
 
-      * **[!UICONTROL POP3 account]**
+     * **[!UICONTROL POP3 account]**
 
-        使用者的名稱。
+       使用者的名稱。
 
-      * **[!UICONTROL Password]**
+     * **[!UICONTROL Password]**
 
-        使用者帳戶密碼。
+       使用者帳戶密碼。
 
-      * **[!UICONTROL Port]**
+     * **[!UICONTROL Port]**
 
-        POP3連線埠號碼。 預設連線埠為110。
+       POP3連線埠號碼。 預設連線埠為110。
 
    * **[!UICONTROL Stop as soon as email is processed]**
 

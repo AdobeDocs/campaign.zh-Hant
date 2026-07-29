@@ -29,7 +29,7 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需設定檔的訂閱URL。
-1. 對訂閱URL執行GET請求。
+1. 對訂閱URL執行GET要求。
 1. 在所需的服務URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
@@ -61,7 +61,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -102,7 +102,7 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需的服務及其訂閱URL。
-1. 在訂閱URL上執行GET要求，以擷取所有設定檔訂閱。
+1. 對訂閱URL執行GET要求，以擷取所有設定檔訂閱。
 1. 在所需的設定檔訂閱URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
@@ -138,7 +138,7 @@ ht-degree: 0%
 },
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \

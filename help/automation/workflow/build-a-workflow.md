@@ -93,8 +93,8 @@ ht-degree: 4%
 
   以下各節詳細介紹了與進度和日誌顯示相關的圖示：
 
-   * [顯示進度](monitor-workflow-execution.md#displaying-progress)
-   * [顯示記錄](monitor-workflow-execution.md#displaying-logs)
+  * [顯示進度](monitor-workflow-execution.md#displaying-progress)
+  * [顯示記錄](monitor-workflow-execution.md#displaying-logs)
 
 * **物件對齊方式**
 

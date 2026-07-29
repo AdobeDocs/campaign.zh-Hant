@@ -88,21 +88,21 @@ ht-degree: 2%
 
   您也可以檢視每個活動的執行記錄檔和詳細資訊。 有兩種方法可以達成此目的：
 
-   1. 選取目標活動，然後按一下&#x200B;**[!UICONTROL Display the tasks and the log]**&#x200B;圖示。
+  1. 選取目標活動，然後按一下&#x200B;**[!UICONTROL Display the tasks and the log]**&#x200B;圖示。
 
-      ![](assets/s_user_segmentation_show_logs.png)
+     ![](assets/s_user_segmentation_show_logs.png)
 
-      圖表的下半部分顯示兩個標籤：記錄檔和工作。
+     圖表的下半部分顯示兩個標籤：記錄檔和工作。
 
-      在圖表中選取的活動在記錄和工作清單中作為篩選器。
+     在圖表中選取的活動在記錄和工作清單中作為篩選器。
 
-      ![](assets/s_user_segmentation_logs.png)
+     ![](assets/s_user_segmentation_logs.png)
 
-   1. 以滑鼠右鍵按一下目標活動，然後選取&#x200B;**[!UICONTROL Display logs]**。
+  1. 以滑鼠右鍵按一下目標活動，然後選取&#x200B;**[!UICONTROL Display logs]**。
 
-      ![](assets/s_user_segmentation_logs_menu.png)
+     ![](assets/s_user_segmentation_logs_menu.png)
 
-      記錄會顯示在另一個視窗中。
+     記錄會顯示在另一個視窗中。
 
 ## 清除記錄 {#purging-the-logs}
 

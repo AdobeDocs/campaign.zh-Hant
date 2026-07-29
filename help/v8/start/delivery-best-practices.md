@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 3154
+source-wordcount: 3055
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 * [個人化](../send/personalize.md)元素的數量和型別：電子郵件中的個人化會將每個收件者的資料提取出資料庫。 如果有許多個人化元素，則準備傳送所需的資料量會較高。 這可能會降低平台的速度。 在[本節](../send/personalize.md#perso-guardrails)中進一步瞭解個人化護欄。
 
-* 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。 行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
+* 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 為避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
 * 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案[&#128279;](../../automation/workflow/workflow-best-practices.md#execution-and-performance)中列出的准則。
@@ -65,8 +65,8 @@ ht-degree: 2%
 
 * 如果您有無效地址清單，Adobe建議透過&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**，將其匯入隔離表格。
 
-* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。 舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。
-Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭解隔離](../send/quarantines.md)
+* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。
+Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。[進一步瞭解隔離](../send/quarantines.md)
 
 * 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。 因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
 

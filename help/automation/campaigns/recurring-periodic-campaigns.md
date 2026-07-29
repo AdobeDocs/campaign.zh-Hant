@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. 複製內建&#x200B;**[!UICONTROL Recurring campaign]**&#x200B;範本。
    ![](assets/recurring-campaign-duplicate.png)
 1. 輸入範本名稱和行銷活動的持續時間。
-1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。 使用此索引標籤可根據此範本定義行銷活動的執行日期。
+1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。使用此索引標籤可根據此範本定義行銷活動的執行日期。
    ![](assets/recurring-campaign-schedule.png)
 
    執行排程的設定模式與工作流程的&#x200B;**[!UICONTROL Scheduler]**&#x200B;物件一致。 [了解更多資訊](../workflow/scheduler.md)。

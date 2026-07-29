@@ -79,15 +79,15 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。 在 Campai
 
 * **如何使用 Adobe Experience Cloud 收集資訊**
 
-   * Adobe Experience Cloud 解決方案會使用 Cookie 和類似技術（例如網站信標，又稱為標籤或像素），讓您收集資訊。 如需 Adobe Campaign Cookie 和追蹤功能的詳細資訊，請參閱[本節](#tracking-capabilities)。
-   * 您也可以在行動應用程式中使用 Adobe Experience Cloud 技術。 如需使用Campaign傳送行動傳遞的詳細資訊，請參閱[簡訊頻道](../send/sms/sms-channel.md)和行動應用程式頻道。
+  * Adobe Experience Cloud 解決方案會使用 Cookie 和類似技術（例如網站信標，又稱為標籤或像素），讓您收集資訊。 如需 Adobe Campaign Cookie 和追蹤功能的詳細資訊，請參閱[本節](#tracking-capabilities)。
+  * 您也可以在行動應用程式中使用 Adobe Experience Cloud 技術。 如需使用Campaign傳送行動傳遞的詳細資訊，請參閱[簡訊頻道](../send/sms/sms-channel.md)和行動應用程式頻道。
 
 * **使用者對於您使用 Adobe Experience Cloud 的隱私權選擇**
 
   Adobe 要求您提供客戶的隱私權政策，以說明：
 
-   * 您與 Adobe Experience Cloud 相關聯的隱私權實務
-   * 使用者如何針對 Adobe Experience Cloud 收集或使用其資訊進行偏好設定
+  * 您與 Adobe Experience Cloud 相關聯的隱私權實務
+  * 使用者如何針對 Adobe Experience Cloud 收集或使用其資訊進行偏好設定
 
 如需 Adobe Experience Cloud 隱私權的後續詳細資料，請參閱[本頁](https://www.adobe.com/tw/privacy/marketing-cloud.html)。
 
@@ -184,8 +184,8 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 * **工作階段** Cookie：**nlid** Cookie 包含傳送到聯絡人之電子郵件的識別碼 (**broadlogId**)，以及訊息範本的識別碼 (**deliveryId**)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。 瀏覽器關閉時，將自動清除工作階段 Cookie。 連絡人可以將其瀏覽器設定為拒絕 Cookie。
 
 * 兩個&#x200B;**永久** Cookie：
-   * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
-   * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。 當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
+  * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
+  * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。 當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
 
 《一般資料保護規範》(GDPR) 等法規規定，公司必須先取得網站使用者的同意，才能安裝 Cookie。
 

@@ -68,8 +68,8 @@ Adobe Campaign可讓您從LibreOffice或Microsoft Word檔案，產生電子郵�
 
   您需要在個人化區塊中區分兩種型別的宣告：
 
-   * 個人化欄位的Adobe Campaign程式碼，「開啟」和「關閉」V形箭號必須替換為逸出字元（分別為`&lt;`和`&gt;`）。
-   * 整個OpenOffice XML程式碼將會複製到OpenOffice檔案中。
+  * 個人化欄位的Adobe Campaign程式碼，「開啟」和「關閉」V形箭號必須替換為逸出字元（分別為`&lt;`和`&gt;`）。
+  * 整個OpenOffice XML程式碼將會複製到OpenOffice檔案中。
 
 在範例中，個人化區塊看起來像這樣：
 

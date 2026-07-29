@@ -94,9 +94,9 @@ ht-degree: 5%
 
   可使用下列核准模式：
 
-   * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳遞才能開始傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動傳遞。
-   * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
-   * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
+  * **[!UICONTROL Manual]**：在分析階段結束時，使用者必須確認傳遞才能開始傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動傳遞。
+  * **[!UICONTROL Semi-automatic]**：如果分析階段未產生任何警告訊息，傳送會自動開始。
+  * **[!UICONTROL Automatic]**：傳送會在分析階段結束時自動開始，無論結果為何。
 
 * **[!UICONTROL Start job in a detached process]**：此選項可讓您以個別程式啟動傳遞分析。 依預設，分析函式會使用Adobe Campaign應用程式伺服器處理序(web nlserver)。 選取此選項，即可確保即使應用程式伺服器發生故障，也能完成分析。
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**：此選項會在分析階段將SQL查詢記錄檔新增至傳遞日誌。

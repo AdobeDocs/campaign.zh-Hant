@@ -70,7 +70,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 新版本及其帶來的變更列在[發行說明](release-notes.md)中。 新版本可用後，您的Adobe代表會與您聯絡並升級您的環境。
 
-若要接收最新Experience Cloud解決方案發行版本及其內容的資訊，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}通訊。
+若要接收最新Experience Cloud解決方案發行版本及其內容的通知，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}通訊。
 
 您也可以造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=zh-Hant&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}，以取得版本更新的相關資訊。
 

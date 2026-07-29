@@ -57,8 +57,8 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 * **&lt;組織>**：這是您的個人組織ID，Adobe會為您每個執行個體提供一個組織ID：
 
-   * &lt;組織> ：您的生產執行個體，
-   * &lt;ORGANIZATION-mkt-stage>：您的階段例項。
+  * &lt;組織> ：您的生產執行個體，
+  * &lt;ORGANIZATION-mkt-stage>：您的階段例項。
 
   若要取得組織ID值，請洽詢您的管理員或Adobe技術連絡人。 您也可以在建立新整合時，在授權清單中將其擷取到Adobe I/O （請參閱<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer檔案</a>）。
 

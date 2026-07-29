@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: 2231
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 操作員可透過數種方式核准：
 
-* 來自通知訊息。 電子郵件中的連結會透過網頁瀏覽器將運運算元傳送至Campaign。 連線之後，檢閱者可以選擇核准或不核准內容。
+* 來自通知訊息。電子郵件中的連結會透過網頁瀏覽器將運運算元傳送至Campaign。連線之後，檢閱者可以選擇核准或不核准內容。
   ![](assets/approval-content-email.png)
 
 * 從行銷活動控制面板。
@@ -204,8 +204,8 @@ ht-degree: 1%
 
    * Adobe Campaign使用者端主控台中的&#x200B;**[!UICONTROL Available content]**&#x200B;連結。
    * 通知訊息中的連結。
-操作員可在將內容提交至行銷活動負責人之前新增評論。
-通知訊息可讓稽核者核准或拒絕內容。
+     操作員可在將內容提交至行銷活動負責人之前新增評論。
+     通知訊息可讓稽核者核准或拒絕內容。
 
 #### 外部內容核准 {#external-content-approval}
 

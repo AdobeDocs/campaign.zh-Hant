@@ -45,7 +45,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 ***範例要求***
 
-存取延伸profileAndServicesExt資源的範例GET請求。
+存取延伸profileAndServicesExt資源的範例GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

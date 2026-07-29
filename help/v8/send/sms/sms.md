@@ -17,8 +17,8 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 174
-ht-degree: 12%
+source-wordcount: 127
+ht-degree: 15%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 12%
 
 若要透過Adobe Campaign傳送簡訊至行動裝置，您需要：
 
-* 在&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;管道上設定的外部帳戶。 瞭解如何在您的[中間來源基礎結構](sms-mid-sourcing.md)上設定簡訊頻道。 針對此設定，您需要瞭解[SMPP外部帳戶引數](smpp-external-account.md)和[SMS通道特性](sms-channel.md)。
-完成此設定後，請檢查您的SMPP連線，並瞭解必要時如何疑難排解。 [了解更多資訊](smpp-connection.md)。
+* 在&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;管道上設定的外部帳戶。瞭解如何在您的[中間來源基礎結構](sms-mid-sourcing.md)上設定簡訊頻道。針對此設定，您需要瞭解[SMPP外部帳戶引數](smpp-external-account.md)和[SMS通道特性](sms-channel.md)。
+完成此設定後，請檢查您的SMPP連線，並瞭解必要時如何疑難排解。[進一步瞭解](smpp-connection.md)。
 
 * 已正確連結至此外部帳戶的SMS傳送範本。
 

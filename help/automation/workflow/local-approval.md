@@ -60,14 +60,14 @@ ht-degree: 3%
 
 * **[!UICONTROL Approval management]**
 
-   * 選取傳遞範本及用於電子郵件通知的主題。 預設範本可供使用： **[!UICONTROL Local approval notification]**。 您也可以新增說明，此說明會出現在核准和回饋通知的收件者清單上方。
-   * 指定與核准期限（從核准開始的日期或期限）相對應的&#x200B;**[!UICONTROL Approval type]**。 在此日期，工作流程會再次開始，而未核准的收件者不會納入目標定位的考量。 傳送通知後，活動會排入佇列，以便本機主管可以核准其連絡人。
+  * 選取傳遞範本及用於電子郵件通知的主題。 預設範本可供使用： **[!UICONTROL Local approval notification]**。 您也可以新增說明，此說明會出現在核准和回饋通知的收件者清單上方。
+  * 指定與核准期限（從核准開始的日期或期限）相對應的&#x200B;**[!UICONTROL Approval type]**。 在此日期，工作流程會再次開始，而未核准的收件者不會納入目標定位的考量。 傳送通知後，活動會排入佇列，以便本機主管可以核准其連絡人。
 
-     >[!NOTE]
-     >
-     >依預設，開始核准程式時，活動會暫停三天。
+    >[!NOTE]
+    >
+    >依預設，開始核准程式時，活動會暫停三天。
 
-     您也可以新增一或多個提醒，通知本機主管即將到達截止日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add a reminder]**&#x200B;連結。
+    您也可以新增一或多個提醒，通知本機主管即將到達截止日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add a reminder]**&#x200B;連結。
 
 * **[!UICONTROL Complementary set]**： **[!UICONTROL Generate complement]**&#x200B;選項可讓您產生第二個集合，其中包含所有未核准的目標。
 

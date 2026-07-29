@@ -89,8 +89,8 @@ ht-degree: 1%
 
 * **擱置中**
 
-   * 擱置事件可以是剛剛收集且尚未處理的事件。 **[!UICONTROL Number of errors]**&#x200B;欄顯示值0。 尚未連結電子郵件範本。
-   * 擱置事件也可以是已處理但其確認錯誤的事件。 **[!UICONTROL Number of errors]**&#x200B;資料行顯示的值不是0。 若要知道何時再次處理此事件，請參閱&#x200B;**[!UICONTROL Process requested on]**&#x200B;欄。
+  * 擱置事件可以是剛剛收集且尚未處理的事件。 **[!UICONTROL Number of errors]**&#x200B;欄顯示值0。 尚未連結電子郵件範本。
+  * 擱置事件也可以是已處理但其確認錯誤的事件。 **[!UICONTROL Number of errors]**&#x200B;資料行顯示的值不是0。 若要知道何時再次處理此事件，請參閱&#x200B;**[!UICONTROL Process requested on]**&#x200B;欄。
 
 * **個擱置中的傳遞**
 已處理事件，且已連結傳遞範本。 電子郵件正在等候傳遞，且已套用傳統傳遞程式。 如需詳細資訊，您可以開啟傳遞。

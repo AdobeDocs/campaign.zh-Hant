@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 3608
+source-wordcount: 3609
 ht-degree: 33%
 
 ---
@@ -146,9 +146,9 @@ ACC * Rich Push Notification templates - You can now send rich push notification
 下列功能先前以「有限可用性」發行，現在可於&#x200B;**依需求提供**：
 
 <!--
-* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Read more
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
@@ -163,9 +163,9 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
-* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
-ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
 除了上述功能以外，此版本也隨附Campaign Web使用者介面提供的一組功能：
@@ -270,7 +270,7 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 * 已解決預覽直接郵件輸出檔案導致儀表板變為空白的問題。 現在，在檔案預覽後，儀表板可正確顯示。 (NEO-75359)
 * 已增強推播通知的追蹤指標，以包含點按和開啟。 指標（例如`@recipientClick`、`@personClick`和`@totalRecipientClick`）現在可計算行動通知點按次數。 (NEO-75240)
 * 修正具有外部取消擱置狀態的傳遞的清理工作流程錯誤。 已更正資料庫記錄擷取邏輯。 (NEO-74833)
-* 解決俄羅斯（UTC+3:00莫斯科）中`nlserver`輸出時間不正確的時區差異問題。 時間同步邏輯已更新。 (NEO-74754)
+* 解決俄羅斯(UTC+3:00 Moscow)中`nlserver`輸出時間不正確的時區差異問題。 時間同步邏輯已更新。 (NEO-74754)
 * 修正MSSQL資料庫的SQL語法不正確所導致`defaultMidSourcingDlvStat`工作流程中的錯誤。 查詢產生邏輯已針對相容性進行調整。 (NEO-74156)
 * 已解決Web流程中的多次當機。 (NEO-73174)
 * 修正條件中出現撇號時BigQuery查詢失敗的問題。 查詢處理邏輯已更新，以正確解譯特殊字元。 (NEO-72547)
@@ -387,8 +387,8 @@ _2025 年 1 月 15 日_
 
 * 全新 Amazon Redshift FDA ODBC 連接器現已推出。 提供更優異的連線能力、更輕鬆的維護作業，以及更優異的相容性。 此新版本帶來下列改進：
 
-   * 新的連接器以 ODBC 介面為基礎，與我們最新的 FDA 連接器一致。 這可確保長期支援。
-   * 此外也引進了使用 s3 儲存貯體的新資料載入機制，大幅改善效能。
+  * 新的連接器以 ODBC 介面為基礎，與我們最新的 FDA 連接器一致。 這可確保長期支援。
+  * 此外也引進了使用 s3 儲存貯體的新資料載入機制，大幅改善效能。
 
   仍可使用舊版連接器。 如果您想要試用新版連接器，請洽詢您的 Adobe 代表。
 

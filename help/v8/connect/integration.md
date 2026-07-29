@@ -18,8 +18,8 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 11%
+source-wordcount: 417
+ht-degree: 8%
 
 ---
 
@@ -36,14 +36,14 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
 * Adobe Analytics。[進一步瞭解](../connect/ac-aa.md)
-* Adobe Experience Cloud觸發程式。 [了解更多](../connect/ac-triggers.md)
+* Adobe Experience Cloud觸發器。 [了解更多](../connect/ac-triggers.md)
 * Adobe Experience Manager。 [了解更多](../connect/ac-aem.md)
 * Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)
 * Adobe Journey Optimizer。 [了解更多](../connect/ac-ajo.md)
 * Adobe Target。 [了解更多](../connect/ac-at.md)
 * Adobe Workfront。 [了解更多](../connect/ac-workfront.md)
 
-您也可以結合跨Experience Cloud解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;與資產共用和對象共用功能。
+您也可以將Experience Cloud解決方案中的&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;與資產共用和對象共用功能相結合。
 
 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
 
@@ -51,7 +51,7 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 
 >[!NOTE]
 >
->作為「受管理的Cloud Services」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連線。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。
 
 
 ## 與您的CRM聯結器整合{#gs-crm-connectors}
@@ -59,7 +59,7 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 您可以將Adobe Campaign平台連線至您的&#x200B;**CRM協力廠商系統**，並同步資料：連絡人、帳戶、購買等。
 
 透過跨管道通訊啟用您的CRM資料：瞭解如何將聯絡人從CRM系統傳遞至Adobe Campaign，以及如何將行銷活動資料從Adobe Campaign分享回您的CRM系統。
-CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。 並且可確保雙向同步處理，讓整個系統中的資料隨時保持最新。
+CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。這可保證雙向同步處理，確保整個系統中的資料隨時保持最新。
 
 在[本頁面](crm.md)中瞭解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合
 

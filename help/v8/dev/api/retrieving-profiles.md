@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ***範例要求***
 
-* 擷取所有設定檔的範例GET請求。
+* 擷取所有設定檔的範例GET要求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -56,7 +56,7 @@ ht-degree: 4%
   }
   ```
 
-* 擷取前10個電子郵件值的範例GET請求。
+* 擷取前10個電子郵件值的範例GET要求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

@@ -24,7 +24,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: 1078
 ht-degree: 3%
 
 ---
@@ -134,7 +134,7 @@ Campaign與X之間的同步作業是透過專屬的技術工作流程來管理�
 
 **[!UICONTROL Synchronization of Twitter accounts]**&#x200B;技術工作流程會在Adobe Campaign中同步X帳戶。 此工作流程會復原X位追隨者的清單，因此您可以傳送直接訊息給他們。 [了解更多](../send/twitter.md#direct-tw-messages)
 
-預設會每星期四的7:30AM觸發此工作流程。 您可在實作此整合時隨時使用&#x200B;**[!UICONTROL Execute pending task(s) now]**&#x200B;選項啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 在[本頁](../../automation/workflow/scheduler.md)中瞭解更多。
+預設會每星期四早上7:30觸發此工作流程。 您可在實作此整合時隨時使用&#x200B;**[!UICONTROL Execute pending task(s) now]**&#x200B;選項啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 在[本頁](../../automation/workflow/scheduler.md)中瞭解更多。
 
 >[!CAUTION]
 >

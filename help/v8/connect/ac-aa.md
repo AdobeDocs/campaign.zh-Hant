@@ -33,7 +33,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->作為「受管理的Cloud Services」使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以將Campaign與Adobe Experience Cloud服務和解決方案連線。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
@@ -62,7 +62,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    ![](assets/analytics_connnector_1.png)
 
-1. 按一下 **[!UICONTROL Report suites]**。
+1. 按一下&#x200B;**[!UICONTROL Report suites]**。
 
    ![](assets/analytics_connnector_2.png)
 
@@ -214,7 +214,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector，透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
+**[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector透過Adobe Campaign將電子郵件行銷活動指標傳送至Adobe Experience Cloud。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
 
 請注意，不應重新啟動此工作流程，否則會重新傳送所有可能扭曲 Analytics 結果的先前資料。
 
@@ -283,4 +283,4 @@ Adobe Campaign 提供個人化傳送範本，供您自行使用或建立資料�
 
 **相關主題**
 
-* [Campaign - Experience Cloud Triggers整合](ac-triggers.md)
+* [Campaign - Experience Cloud觸發器整合](ac-triggers.md)

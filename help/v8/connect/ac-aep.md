@@ -32,16 +32,16 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
 
 * 使用Adobe Campaign Managed Cloud Services **目的地連線**&#x200B;將Experience Platform區段傳送至Adobe Campaign：
 
-   1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
-   1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Audience sync]**&#x200B;做為同步型別。
+  1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
+  1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Audience sync]**&#x200B;做為同步型別。
 
-      ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. 選取要傳送至Adobe Campaign的區段。
-   1. 設定您要在對象中匯出的屬性。
-   1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
+  1. 選取要傳送至Adobe Campaign的區段。
+  1. 設定您要在對象中匯出的屬性。
+  1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
 
-      ![](assets/aep-destination.png){width="800" align="center"}
+     ![](assets/aep-destination.png){width="800" align="center"}
 
   有關如何設定目的地的詳細資訊，請參閱[Adobe Campaign Managed Cloud Services連線檔案](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 

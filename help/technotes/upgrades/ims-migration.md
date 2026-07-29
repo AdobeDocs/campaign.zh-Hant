@@ -221,7 +221,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   在[認證]畫面中，向下捲動以找到&#x200B;**技術帳戶電子郵件**，然後按一下&#x200B;**複製**&#x200B;按鈕。
+   在[認證]畫面中，向下捲動以找到&#x200B;**Technical Account Email**，然後按一下&#x200B;**複製**&#x200B;按鈕。
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

@@ -86,8 +86,8 @@ Adobe Campaign隨附預先定義的資料模型，其中包含連結在雲端資
 * **收件者資料表** (`nmsRecipient`) — 儲存行銷設定檔的主資料表
 * **傳遞資料表** (`nmsDelivery`) — 以執行傳遞的引數儲存傳遞動作和範本
 * **記錄資料表** — 儲存執行記錄檔：
-   * `nmsBroadLogRcp` — 傳送給收件者的所有訊息的傳遞記錄
-   * `nmsTrackingLogRcp` — 追蹤收件者回應的記錄（開啟、點按）
+  * `nmsBroadLogRcp` — 傳送給收件者的所有訊息的傳遞記錄
+  * `nmsTrackingLogRcp` — 追蹤收件者回應的記錄（開啟、點按）
 * **技術資料表** — 儲存系統資料，例如運運算元(`xtkGroup`)、工作階段(`xtkSessionInfo`)、工作流程(`xtkWorkflow`)
 
 若要存取Campaign介面中的結構描述說明，請瀏覽至&#x200B;**管理>設定>資料結構描述**，選取資源，然後按一下&#x200B;**檔案**&#x200B;索引標籤。

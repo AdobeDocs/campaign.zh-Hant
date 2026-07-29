@@ -1,5 +1,5 @@
 ---
-title: 開始使用自訂頻道
+title: 開始使用自訂管道
 description: 瞭解如何使用Adobe Campaign Web建立並傳送自訂通道傳遞
 role: User
 level: Beginner, Intermediate
@@ -19,11 +19,11 @@ topic_v2:
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 560
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 開始使用自訂頻道 {#gs-custom-channel}
+# 開始使用自訂管道 {#gs-custom-channel}
 
 Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。 然後，您可以根據這些通道來協調和執行傳送。
 

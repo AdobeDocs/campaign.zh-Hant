@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 463
-ht-degree: 1%
+source-wordcount: 406
+ht-degree: 2%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 1%
 
 1. 填寫欄位：
 
-   * **[!UICONTROL U+]**：您新表情符號的代碼。 您可以在此[頁面](https://unicode.org/emoji/charts/full-emoji-list.html)中找到表情符號的程式碼清單。
-為避免相容性問題，我們建議您選擇支援瀏覽器和每個作業系統的表情符號。
+   * **[!UICONTROL U+]**：您新表情符號的代碼。您可以在此[頁面](https://unicode.org/emoji/charts/full-emoji-list.html)中找到表情符號的程式碼清單。
+     為避免相容性問題，我們建議您選擇支援瀏覽器和每個作業系統的表情符號。
 
    * **[!UICONTROL Label]**：您新表情符號的標籤。
 

@@ -35,7 +35,7 @@ ht-degree: 12%
 
 Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您跨電子郵件、行動裝置、社交和離線頻道建立、協調和提供個人化行銷活動。 它結合強大的行銷資料庫、行銷活動協調引擎和即時互動功能，以便與客戶在其歷程中互動。
 
-**重要功能：**&#x200B;多頻道行銷活動管理、對象細分和目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報告和分析、與Adobe Experience Cloud整合。
+**重要功能：**&#x200B;多頻道行銷活動管理、對象細分和目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報表和分析、與Adobe Experience Cloud整合。
 
 **讓v8獨樹一格的原因：**&#x200B;雲端原生架構（僅限Managed Cloud Services）、由Snowflake資料庫支援的企業級效能、自動升級、增強式安全性，以及與Adobe Experience Platform的雙向整合。
 
@@ -61,7 +61,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 您需要下載安裝 Campaign 用戶端主控台，才能連線至 Adobe Campaign。 [了解更多資訊](connect.md)。
 
-自Campaign v8.6發行版本開始，您可以透過中央Adobe Experience Cloud環境存取&#x200B;**Campaign網頁使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。
+自Campaign v8.6發行版本開始，您可以存取透過中央Adobe Experience Cloud環境提供的&#x200B;**Campaign網頁使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。
 
 [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
@@ -89,7 +89,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 請參閱[本節](campaign-ui.md)，深入瞭解Adobe Campaign使用者介面基本知識。
 
-自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央Adobe Experience Cloud環境取得。
+自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央Adobe Experience Cloud環境使用。
 
 [在Adobe Campaign Web使用者介面檔案中進一步瞭解](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}。
 
@@ -268,7 +268,7 @@ Adobe身為Managed Cloud Services使用者，會處理升級並協調與您相�
 * **增強安全性** — 針對漏洞提供保護、最新修補程式、增強資料保護
 * **更好的支援** — 更快的問題解決、存取錯誤修正、最新版本的優先支援
 * **增強效能** — 資料庫和工作流程最佳化、更好的擴充性、更可靠的作業
-* **新功能** — 最新功能、改善的Adobe Experience Cloud整合、現代化的UI增強功能
+* **新功能** — 最新功能、改善的Adobe Experience Cloud整合、現代化使用者介面增強功能
 
 Adobe強烈建議執行最新版本。 身為受管理的Cloud Services客戶，升級是由Adobe以最低的中斷執行。
 

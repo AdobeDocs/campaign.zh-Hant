@@ -89,7 +89,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-對傳回的訂閱URL執行GET請求。
+對傳回的訂閱URL執行GET要求。
 
 ```
 -X GET <SUBSCRIPTION_URL> \

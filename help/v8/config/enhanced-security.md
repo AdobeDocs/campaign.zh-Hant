@@ -56,7 +56,7 @@ ht-degree: 3%
 
 1. 連線至您的[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。
 
-1. 使用AWS金鑰管理服務(KMS)產生具有自動循環的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
+1. 使用AWS Key Management Service (KMS)在產生具有自動旋轉功能的金鑰。 [瞭解如何進行](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
 1. 將Adobe為您提供的原則套用至您的AWS帳戶，以便授予對資源的存取權。 [深入瞭解](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 * Adobe不提供[Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}帳戶。 您必須擁有自己的AWS帳戶，並將其設定為產生並與Adobe共用您的金鑰。
 
-* 僅支援[AWS金鑰管理服務](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
+* 僅支援[AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS)金鑰。 不能使用KMS以外的客戶產生的金鑰&#x200B;。
 
 * 首次設定期間預計會發生停機時間。 停機&#x200B;時間長度取決於資料庫的大小。
 

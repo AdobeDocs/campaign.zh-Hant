@@ -104,9 +104,9 @@ ht-degree: 4%
 
   可能的事件狀態包括：
 
-   * **[!UICONTROL Pending]**：事件在佇列中。 尚未為其指派訊息範本。
-   * **[!UICONTROL Pending delivery]**：事件在佇列中，已指派訊息範本給該事件，並由傳遞處理。
-   * **[!UICONTROL Sent]**：此狀態是從傳遞記錄檔複製而來。 這表示傳送已進行。
-   * **[!UICONTROL Ignored by the delivery]**：此狀態是從傳遞記錄檔複製而來。 這表示會由傳送忽略。
-   * **[!UICONTROL Delivery failed]**：此狀態是從傳遞記錄檔複製而來。 這表示傳送失敗。
-   * **[!UICONTROL Event not taken into account]**：事件無法連結至訊息範本。 將不會處理事件。
+  * **[!UICONTROL Pending]**：事件在佇列中。 尚未為其指派訊息範本。
+  * **[!UICONTROL Pending delivery]**：事件在佇列中，已指派訊息範本給該事件，並由傳遞處理。
+  * **[!UICONTROL Sent]**：此狀態是從傳遞記錄檔複製而來。 這表示傳送已進行。
+  * **[!UICONTROL Ignored by the delivery]**：此狀態是從傳遞記錄檔複製而來。 這表示會由傳送忽略。
+  * **[!UICONTROL Delivery failed]**：此狀態是從傳遞記錄檔複製而來。 這表示傳送失敗。
+  * **[!UICONTROL Event not taken into account]**：事件無法連結至訊息範本。 將不會處理事件。

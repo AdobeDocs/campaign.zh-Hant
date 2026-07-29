@@ -19,8 +19,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 58%
+source-wordcount: 218
+ht-degree: 54%
 
 ---
 
@@ -45,8 +45,8 @@ Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，�
 <td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="條件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">交易式訊息</a></p></td>
 </tr></table>
 
-若要使用Campaign REST API，您需要Adobe I/O帳戶。 這是前進並探索 API 功能的必備第一步。
-如需詳細資訊，請參閱[本章節](setting-up-api-access.md)。
+若要使用Campaign REST API，您需要Adobe I/O帳戶。這是前進並探索API功能的必備第一步。
+如需詳細資訊，請參閱[本節](setting-up-api-access.md)。
 
 我們提供的 API 使用&#x200B;**標準概念**，以及 REST 介面和 JSON 負載。
 

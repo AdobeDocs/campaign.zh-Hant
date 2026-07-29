@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 * **定義並套用命名慣例**，例如，您可以按字母順序命名工作流程，讓工作流程按執行順序排序，例如：
 
   A1 — 匯入收件者，從10:00開始；
-A2 — 匯入票證，從11:00開始。
+  A2 — 匯入票證，11:00開始。
 
 ## 建立資料夾{#create-a-folder}
 

@@ -1,5 +1,5 @@
 ---
-title: GET / POST / PATCH / DELETE動詞
+title: 取得/發佈/PATCH / DELETE動詞
 description: 進一步瞭解Campaign Standard API中使用的動詞。
 audience: developing
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ---
 
-# GET / POST / PATCH / DELETE動詞 {#verbs}
+# 取得/發佈/PATCH / DELETE動詞 {#verbs}
 
 對資源執行操作的可用動詞如下：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ***範例要求***
 
-* 設定檔集合上的GET請求範例。
+* 設定檔集合上的範例GET要求。
 
 
   ```
@@ -74,7 +74,7 @@ ht-degree: 0%
   }
   ```
 
-* 特定設定檔上的範例GET請求。
+* 特定設定檔的範例GET要求。
 
 
   ```

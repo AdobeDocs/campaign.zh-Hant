@@ -377,14 +377,14 @@ for each (var rcp in res.recipient)
 
 * 您可以內嵌觸發工作流程，亦即從&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動的主要指令碼觸發。
 * 另一個工作流程完成後，您可以觸發此工作流程：
-   * 新增初始化指令碼至初始工作流程的&#x200B;**[!UICONTROL End]**&#x200B;活動。
-   * 在目標工作流程的開頭新增&#x200B;**[!UICONTROL External signal]**&#x200B;活動。
+  * 新增初始化指令碼至初始工作流程的&#x200B;**[!UICONTROL End]**&#x200B;活動。
+  * 在目標工作流程的開頭新增&#x200B;**[!UICONTROL External signal]**&#x200B;活動。
 
-     完成初始工作流程後，事件就會發佈。 會啟動傳出轉變並填入事件變數。 然後，目標工作流程會接收事件。
+    完成初始工作流程後，事件就會發佈。 會啟動傳出轉變並填入事件變數。 然後，目標工作流程會接收事件。
 
-     >[!TIP]
-     >
-     >最佳實務是，當您新增指令碼至活動時，請以雙連字型大小將活動名稱括住，例如`-- end --`。 [進一步瞭解](workflow-best-practices.md)工作流程最佳實務。
+    >[!TIP]
+    >
+    >最佳實務是，當您新增指令碼至活動時，請以雙連字型大小將活動名稱括住，例如`-- end --`。 [進一步瞭解](workflow-best-practices.md)工作流程最佳實務。
 
 `PostEvent`方法的語法：
 
@@ -624,9 +624,9 @@ xtk.session.Write(
 
 * [SOAP呼叫範例](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=zh-Hant){target="_blank"}
 * 方法：
-   * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=zh-Hant){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=zh-Hant){target="_blank"}
-   * [Executequery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=zh-Hant){target="_blank"}
-   * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=zh-Hant){target="_blank"}
+  * [建立](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=zh-Hant){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=zh-Hant){target="_blank"}
+  * [Executequery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=zh-Hant){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=zh-Hant){target="_blank"}
+  * [寫入](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=zh-Hant){target="_blank"}
 * [logInfo函式](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=zh-Hant){target="_blank"}

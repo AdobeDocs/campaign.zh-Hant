@@ -16,8 +16,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 3%
+source-wordcount: 99
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 您的SMS通過驗證後，您現在可以將其傳送給對象。
 
-1. 按一下 **[!UICONTROL Send]** 按鈕。
+1. 按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
 在開啟的視窗中，選擇適合您的正確動作。
 
    在以下範例中，我們選擇&#x200B;**[!UICONTROL Deliver it as soon as possible]**，**[!UICONTROL Analyze]**&#x200B;按鈕出現。 我們按一下該&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。

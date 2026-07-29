@@ -25,8 +25,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 52%
+source-wordcount: 1045
+ht-degree: 49%
 
 ---
 
@@ -84,9 +84,9 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 * 儲存所有內建參考表（分項清單、國家/地區等） 已復寫至[!DNL Snowflake]的專案。
 
   不過，您無法：
-   * 建立客戶資料的自訂專案，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
-   * 在FFDA目標維度上儲存任何傳遞記錄、追蹤記錄等。
-   * 儲存大量資料。
+  * 建立客戶資料的自訂專案，例如，不會在PostgreSQL中建立家用表格，而只會在Snowflake中建立
+  * 在FFDA目標維度上儲存任何傳遞記錄、追蹤記錄等。
+  * 儲存大量資料。
 
 
 中間來源執行個體上的PostgreSQL資料庫用於：
@@ -115,8 +115,8 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!NOTE]
 >
-> 已根據表格 (XS、XL等) 的大小建立了多個複製策略。
-> 有些表格會即時複製，有些表格則會每小時進行複製。 有些表格會有逐漸更新，有些則會進行完整更新。
+> 已根據表格（XS、XL等）的大小建立了多個複製原則。
+> 有些資料表是即時復寫，有些則是每小時復寫。有些表格會有漸進式更新，有些則會進行完整更新。
 >
 
 [深入瞭解資料複製](replication.md)

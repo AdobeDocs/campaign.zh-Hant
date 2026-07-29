@@ -5,8 +5,8 @@ exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -76,7 +76,7 @@ Campaign一般使用者已透過Adobe Campaign Identity Management System (IMS)�
 
 只有在已為此運運算元（而非透過運運算元的群組）定義特定檔案夾許可權或已命名許可權時，才需要執行此步驟。
 
-您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。 您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
+您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
 若要更新此運運算元，請執行下列步驟：
 
 1. 從Campaign使用者端主控台總管，瀏覽至&#x200B;**管理>存取管理>操作員**。

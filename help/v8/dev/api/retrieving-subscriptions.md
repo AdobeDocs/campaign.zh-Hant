@@ -27,7 +27,7 @@ ht-degree: 1%
 此程式分為兩個步驟。
 
 1. 擷取所需服務的訂閱URL。
-1. 對訂閱URL執行GET請求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
+1. 對訂閱URL執行GET要求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
 
 >[!CAUTION]
 >
@@ -61,7 +61,7 @@ ht-degree: 1%
   },
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -123,7 +123,7 @@ ht-degree: 1%
   }
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

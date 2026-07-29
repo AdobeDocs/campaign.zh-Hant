@@ -33,7 +33,7 @@ ht-degree: 0%
 >[!NOTE]
 >* 整合僅支援靜態影像。 其他型別的內容無法個人化。
 >
->* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以透過Campaign實施Experience Cloud觸發程式。
+>* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以透過Campaign實作Experience Cloud觸發器。
 
 Adobe Target可使用下列型別的資料：
 

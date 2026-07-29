@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 418
 ht-degree: 14%
 
 ---
@@ -56,10 +56,10 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 在本節[&#128279;](marketing-campaign-approval.md)中瞭解如何設定核准。
 
 1. **監視傳遞**。
-從控制面板追蹤行銷活動、從Campaign UI檢查傳遞狀態和執行。 [了解更多資訊](marketing-campaign-monitoring.md)。
+從儀表板追蹤您的行銷活動、從Campaign UI檢查傳遞狀態和執行。[瞭解更多](marketing-campaign-monitoring.md)。
 
 1. **追蹤預算、庫存和相關成本**。
-使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。 [了解更多資訊](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
+使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。[深入瞭解](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
 完成這些步驟後，您可以[開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳遞相關的資料、流程和資訊，並在必要時[管理相關檔案](marketing-campaign-deliveries.md#manage-associated-documents)。 您也可以[追蹤並監視行銷活動和傳遞的執行](marketing-campaign-monitoring.md)。
 

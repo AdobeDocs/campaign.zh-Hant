@@ -125,13 +125,13 @@ ht-degree: 7%
 
    * **[!UICONTROL Interruption level]**:
 
-      * **[!UICONTROL Active]**：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。
+     * **[!UICONTROL Active]**：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Passive]**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。
+     * **[!UICONTROL Passive]**：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。
 
-      * **[!UICONTROL Time sensitive]**&#x200B;系統會立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。
+     * **[!UICONTROL Time sensitive]**&#x200B;系統會立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。
 
-      * **[!UICONTROL Critical]**&#x200B;系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或焦點模式。 請注意，此層級需要Apple的特殊許可權。
+     * **[!UICONTROL Critical]**&#x200B;系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或焦點模式。 請注意，此層級需要Apple的特殊許可權。
 
    * **[!UICONTROL Relevance score]**：將關聯性分數設定為0到100。 系統會使用此選項來排序通知摘要中的通知。
 

@@ -301,10 +301,10 @@ ht-degree: 34%
 
   **[!UICONTROL Enumerations]**&#x200B;型別計算欄位可包含4個條件：
 
-   * **[!UICONTROL Keep the source value]**&#x200B;將來源值還原到目標而不變更它。
-   * **[!UICONTROL Use the following value]**&#x200B;可讓您為未定義的來源值輸入預設目的地值。
-   * **[!UICONTROL Generate a warning and continue]**&#x200B;警告使用者無法變更來源值。
-   * **[!UICONTROL Generate an error and reject the line]**&#x200B;會防止行被計算及匯入。
+  * **[!UICONTROL Keep the source value]**&#x200B;將來源值還原到目標而不變更它。
+  * **[!UICONTROL Use the following value]**&#x200B;可讓您為未定義的來源值輸入預設目的地值。
+  * **[!UICONTROL Generate a warning and continue]**&#x200B;警告使用者無法變更來源值。
+  * **[!UICONTROL Generate an error and reject the line]**&#x200B;會防止行被計算及匯入。
 
 按一下&#x200B;**[!UICONTROL Detail of calculated field]**&#x200B;以檢視插入欄位的詳細資訊。
 

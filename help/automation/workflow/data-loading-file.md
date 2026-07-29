@@ -70,27 +70,27 @@ ht-degree: 14%
 * **[!UICONTROL Data type]**：指定每欄所需的資料類型。
 * **[!UICONTROL Allow NULLs]**：指定如何管理空值。
 
-   * **[!UICONTROL Adobe Campaign default]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
-   * **[!UICONTROL Empty value allowed]**：授權空值。 因此插入值 NULL。
-   * **[!UICONTROL Always populated]**：如果值為空，則產生錯誤。
+  * **[!UICONTROL Adobe Campaign default]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
+  * **[!UICONTROL Empty value allowed]**：授權空值。 因此插入值 NULL。
+  * **[!UICONTROL Always populated]**：如果值為空，則產生錯誤。
 
 * **[!UICONTROL Length]**：指定&#x200B;**字串**&#x200B;資料型別的字元數目上限。
 * **[!UICONTROL Format]**：定義時間和日期格式。
 * **[!UICONTROL Data transformation]**：定義是否需要在&#x200B;**字串**&#x200B;上套用字元大寫處理程式。
 
-   * **[!UICONTROL None]**：未修改匯入的字串。
-   * **[!UICONTROL First letter in upper case]**：字串中每個字詞的第一個字母都以大寫開頭。
-   * **[!UICONTROL Upper case]**：字串中的所有字元都是大寫。
-   * **[!UICONTROL Lower case]**：字串中的所有字元都是小寫。
+  * **[!UICONTROL None]**：未修改匯入的字串。
+  * **[!UICONTROL First letter in upper case]**：字串中每個字詞的第一個字母都以大寫開頭。
+  * **[!UICONTROL Upper case]**：字串中的所有字元都是大寫。
+  * **[!UICONTROL Lower case]**：字串中的所有字元都是小寫。
 
 * **[!UICONTROL White space management]**：指定字串中是否需要忽略某些空格。 **[!UICONTROL Ignore spaces]**&#x200B;值只允許忽略字串開頭和結尾的空格。
 * **[!UICONTROL Error processings]**：會定義發生錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
-   * **[!UICONTROL Reject line]**：不會處理整行。
-   * **[!UICONTROL Use a default value in case of error]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
-   * **[!UICONTROL Reject the line when there is no remapping value]**：除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項），否則不會處理整行。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**：以在&#x200B;**[!UICONTROL Default value]**&#x200B;欄位中定義的預設值取代造成錯誤的值，除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項）。
+  * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
+  * **[!UICONTROL Reject line]**：不會處理整行。
+  * **[!UICONTROL Use a default value in case of error]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
+  * **[!UICONTROL Reject the line when there is no remapping value]**：除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項），否則不會處理整行。
+  * **[!UICONTROL Use a default value in case the value is not remapped]**：以在&#x200B;**[!UICONTROL Default value]**&#x200B;欄位中定義的預設值取代造成錯誤的值，除非已針對錯誤值定義對應（請參閱下方的&#x200B;**[!UICONTROL Mapping]**&#x200B;選項）。
 
 * **[!UICONTROL Default value]**：根據選取的錯誤處理指定預設值。
 * **[!UICONTROL Mapping]**：此欄位僅在欄詳細資料設定（透過按兩下或欄清單右側的選項存取）中可用。 這會在匯入特定值時加以轉換。 例如，您可將　&quot;three&quot;　轉換為　&quot;3&quot;。

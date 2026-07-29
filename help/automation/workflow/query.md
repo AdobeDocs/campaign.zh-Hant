@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1621
+source-wordcount: 1586
 ht-degree: 1%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 1%
 
 ## 建立查詢 {#creating-a-query}
 
-查詢可讓您根據條件選取目標。 您可以將區段代碼與查詢結果相關聯，並插入其他資料。
-透過[本節](querying-recipient-table.md)中的使用案例瞭解如何建立查詢。 另請參閱有關[查詢編輯器](../../v8/start/query-editor.md)的章節。
+查詢可讓您根據條件選取目標。您可以將區段代碼與查詢結果相關聯，並插入其他資料。
+透過[本節](querying-recipient-table.md)中的使用案例瞭解如何建立查詢。另請參閱有關[查詢編輯器](../../v8/start/query-editor.md)的章節。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -216,11 +216,11 @@ SQL中篩選維度的對等項是內部聯結：
 * 使用與生產平台類似的磁碟區、引數和架構來建置開發平台。
 * 在開發和生產環境中使用相同的值。 請儘可能使用相同專案：
 
-   * 作業系統，
-   * 版本，
-   * 資料，
-   * 應用程式，
-   * 磁碟區。
+  * 作業系統，
+  * 版本，
+  * 資料，
+  * 應用程式，
+  * 磁碟區。
 
   >[!NOTE]
   >

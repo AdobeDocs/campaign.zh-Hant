@@ -28,13 +28,13 @@ ht-degree: 2%
 
 1. 在第二個要求中，針對承載中包含已完成資訊的設定檔執行&#x200B;**PATCH要求**。
 
-1. 若要檢查PATCH請求是否已更新設定檔，我們可以執行最終的GET請求。
+1. 若要檢查PATCH請求是否已更新設定檔，我們可以執行最終GET請求。
 
 <br/>
 
 ***範例要求***
 
-擷取設定檔的範例GET請求。
+擷取設定檔的範例GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\

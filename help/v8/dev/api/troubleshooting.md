@@ -5,7 +5,7 @@ role: Developer
 level: Experienced
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-在回應中，ORGANIZATION_ID值必須在您的第一個GET要求中相同。
+回應中，第一個GET請求中的ORGANIZATION_ID值必須相同。
 
 ```
 {
@@ -72,7 +72,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io提出要求時，您會收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
+* **向Adobe.io提出要求時，您會收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
 
 Adobe.io會宣告您無效的URI：您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，畫面會提供選擇器，其中包含可能的organization_id清單。 您需要確認您選擇的檔案是否為放入URL中的檔案。
 

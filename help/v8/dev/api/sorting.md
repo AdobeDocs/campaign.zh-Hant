@@ -63,7 +63,7 @@ ht-degree: 2%
   }
   ```
 
-* 範例GET請求以遞減Alpha順序擷取資料庫中的電子郵件。
+* 以遞減Alpha順序擷取資料庫中電子郵件的範例GET要求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 每個資源都可使用篩選器。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET要求。 此請求會傳回URL，其中針對指定資源定義了所有篩選器。 如需中繼資料的詳細資訊，請參閱[本節](metadata-mechanism.md)。
 
-若要識別篩選器的中繼資料並決定其使用方式，您必須在先前傳回的URL上執行GET要求。
+若要識別篩選器的中繼資料並決定其使用方式，您必須對先前傳回的URL執行GET要求。
 
 <br/>
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 
 ***範例要求***
 
-* 擷取型別為「電子郵件」之「服務」資源的範例GET請求。
+* 擷取型別為「email」之「service」資源的範例GET請求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -205,7 +205,7 @@ ht-degree: 2%
   }
   ```
 
-* 擷取包含「Doe」的「profile」資源的GET要求範例
+* 擷取包含「Doe」的「profile」資源的GET要求範例，位於
 電子郵件或姓氏欄位（byText篩選器會搜尋電子郵件和姓氏欄位）。
 
   ```
@@ -234,7 +234,7 @@ ht-degree: 2%
   }
   ```
 
-* 擷取型別為「email」且標籤為「sport」之服務資源的範例GET請求。
+* 擷取具有「email」型別和標籤「sport」之服務資源的範例GET要求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -281,7 +281,7 @@ ht-degree: 2%
 
 ***範例要求***
 
-擷取交易金額為100$或以上之「設定檔」資源的範例GET請求。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「交易」自訂表格。
+用於擷取交易金額為100$或以上的「設定檔」資源的範例GET請求。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「交易」自訂表格。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
@@ -410,7 +410,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 ***範例要求***
 
-顯示設定檔資源1個記錄的範例GET請求。
+顯示設定檔資源1個記錄的範例GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
