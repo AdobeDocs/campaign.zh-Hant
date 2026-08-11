@@ -6,19 +6,12 @@ role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
 TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6cf587ecc9cc1e4cf9b3de0d2067e0c4562afe01
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
 source-wordcount: 2206
 ht-degree: 1%
@@ -49,13 +42,13 @@ Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個�
 >
 >**Campaign新使用者？** 傳遞控制面板是您的主要日常畫面。 開啟任何已傳送的傳遞，按一下&#x200B;**記錄檔**&#x200B;索引標籤，您就會看到哪些收件者已收到郵件、哪些收件者已被排除、原因以及哪些收件者已按一下或開啟。
 
-**電子郵件傳遞** — 監視電子郵件傳遞狀態、追蹤關鍵量度，並存取詳細記錄檔。 深入瞭解[在Campaign UI](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)、[傳遞狀態](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/monitor/delivery-statuses)和[電子郵件傳遞監視](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/emails/send#email-monitoring)中監視傳遞。
+**電子郵件傳遞** — 監視電子郵件傳遞狀態、追蹤關鍵量度，並存取詳細記錄檔。 深入瞭解[在Campaign UI](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)、[傳遞狀態](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses)和[電子郵件傳遞監視](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/send#email-monitoring)中監視傳遞。
 
-**簡訊傳遞** — 追蹤SMS傳遞狀態，並在SMS傳遞控制面板中監視關鍵量度。 深入瞭解[簡訊監視](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/sms/sms-monitor)。
+**簡訊傳遞** — 追蹤SMS傳遞狀態，並在SMS傳遞控制面板中監視關鍵量度。 深入瞭解[簡訊監視](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-monitor)。
 
-**推播通知** — 監視推播通知傳遞，以確保它們能有效觸及您的行動應用程式使用者。 深入瞭解[推播通知監視](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/push/push#push-test)。
+**推播通知** — 監視推播通知傳遞，以確保它們能有效觸及您的行動應用程式使用者。 深入瞭解[推播通知監視](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push#push-test)。
 
-**異動訊息** — 對於由事件觸發的訊息，監視事件處理狀態、訊息執行和傳遞狀態。 深入瞭解[異動訊息監視](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/event/delivery-execution#monitor-messages)。
+**異動訊息** — 對於由事件觸發的訊息，監視事件處理狀態、訊息執行和傳遞狀態。 深入瞭解[異動訊息監視](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution#monitor-messages)。
 
 **傳遞失敗** — 瞭解傳遞失敗的原因對於維持乾淨的資料庫並確保良好的傳遞率至關重要。 傳送失敗分為三種型別 — 瞭解差異有助於您決定要採取的行動：
 
@@ -65,7 +58,7 @@ Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個�
 | **軟退信** | 暫時性問題（信箱已滿，伺服器暫時無法使用） | Campaign會在設定的期間內自動重試 |
 | **已忽略** | 該地址在傳送前已被隔離或列入封鎖名單 | 未嘗試；與退信分別計算 |
 
-深入瞭解[傳送失敗和隔離](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/monitor/delivery-failures)。
+深入瞭解[傳送失敗和隔離](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures)。
 
 ## 監視傳遞能力 {#monitor-deliverability}
 
@@ -75,7 +68,7 @@ Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個�
 
 傳遞能力監視可協助您確保訊息抵達收件者的收件匣，並避免垃圾郵件篩選器。 Adobe Campaign提供數個內建工具，用於監視和改善傳遞能力，包括傳遞報告、收件匣轉譯、SpamAssassin測試和廣播統計資料。 遵循傳遞能力最佳實務（例如保持清晰的電子郵件清單、監控寄件者信譽和驗證傳送網域）對於保持良好的傳遞率至關重要。
 
-深入瞭解[傳遞能力監視工具](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/deliverability-management/monitoring-deliverability)和[傳遞能力最佳實務](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability)。
+深入瞭解[傳遞能力監視工具](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/monitoring-deliverability)和[傳遞能力最佳實務](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability)。
 
 ## 監視工作流程 {#monitor-workflows}
 
@@ -93,11 +86,11 @@ Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個�
 
 **監視下列工作流程元素：**
 
-**工作流程執行狀態** — 追蹤工作流程是否正在執行、暫停、失敗或完成。 [進一步瞭解工作流程執行](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#_blank)
+**工作流程執行狀態** — 追蹤工作流程是否正在執行、暫停、失敗或完成。 [進一步瞭解工作流程執行](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#_blank)
 
 **活動執行記錄** — 存取每個工作流程活動的詳細記錄，以疑難排解問題並最佳化效能。
 
-**工作流程熱度圖** — 跨執行個體同時執行的所有工作流程視覺化概觀。 使用它來識別尖峰載入期間、找出消耗不成比例資源的工作流程，並計畫排程以避免執行衝突。 僅供Campaign管理員使用。 [進一步瞭解工作流程熱度圖](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/monitoring-workflows/heatmap#_blank)
+**工作流程熱度圖** — 跨執行個體同時執行的所有工作流程視覺化概觀。 使用它來識別尖峰載入期間、找出消耗不成比例資源的工作流程，並計畫排程以避免執行衝突。 僅供Campaign管理員使用。 [進一步瞭解工作流程熱度圖](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap#_blank)
 
 **工作流程歷史記錄** — 追蹤所有工作流程執行和一段時間內的修改，以瞭解工作流程行為和效能。
 
@@ -118,19 +111,19 @@ Adobe Campaign可讓您檢視每個層級的資訊 — 從是否有傳送的個�
 
 稽核軌跡可透過Campaign使用者端主控台存取，並提供使用者所執行動作的詳細資訊。
 
-深入瞭解[稽核軌跡](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/audit-trail)
+深入瞭解[稽核軌跡](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)
 
 ### 效能監視 {#performance-monitoring}
 
 Campaign v8提供數個監視功能，可追蹤您的執行個體效能並確保最佳化操作：
 
-**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring#_blank)
+**資料庫監視** — 透過[控制檯]監視資料庫使用量和容量，以確保最佳效能和儲存管理。 [進一步瞭解資料庫監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring#_blank)
 
-**作用中設定檔監控** — 根據您的合約限制追蹤作用中設定檔的使用情況，以維持法規遵循並最佳化資源配置。 [進一步瞭解作用中設定檔](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/active-profiles-monitoring#_blank)
+**作用中設定檔監控** — 根據您的合約限制追蹤作用中設定檔的使用情況，以維持法規遵循並最佳化資源配置。 [進一步瞭解作用中設定檔](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/active-profiles-monitoring#_blank)
 
 **工作流程監視** — 監視工作流程執行狀態以識別長期執行的工作流程，並確保所有技術工作流程都正確執行。 [進一步瞭解技術工作流程](#technical-workflows)
 
-**傳遞輸送量和延遲** — 透過「控制面板」追蹤傳遞輸送量（每小時傳送的訊息）和異動通訊的延遲。 [進一步瞭解輸送量監視](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/throughputs-latencies#_blank)
+**傳遞輸送量和延遲** — 透過「控制面板」追蹤傳遞輸送量（每小時傳送的訊息）和異動通訊的延遲。 [進一步瞭解輸送量監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/throughputs-latencies#_blank)
 
 >[!NOTE]
 >
@@ -150,7 +143,7 @@ Adobe會全天候監控Campaign網路上的所有關鍵網路裝置，並在需�
 >
 >Adobe所執行的某些監視動作會顯示在&#x200B;**campaign-loginmonitor**&#x200B;使用者下的Campaign記錄檔中。
 
-除了Adobe的內部監控之外，您也可以直接透過Campaign使用者端主控台或[Campaign控制面板](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/permissions/self-service)存取監控功能。 使用「控制面板」，您可以訂閱有關執行個體的即時警報，並針對已識別的事件（例如接近到期的SSL憑證）接收建議的補救步驟。
+除了Adobe的內部監控之外，您也可以直接透過Campaign使用者端主控台或[Campaign控制面板](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/self-service)存取監控功能。 使用「控制面板」，您可以訂閱有關執行個體的即時警報，並針對已識別的事件（例如接近到期的SSL憑證）接收建議的補救步驟。
 
 **監視分類**
 
@@ -198,7 +191,7 @@ Adobe會跨三個層級監控您的環境：
 | **傳遞能力更新** | 更新傳遞規則和垃圾郵件篩選模式 | 規則過時；篩選準確性可能會降低 |
 | **資料庫清理** | 清除舊傳遞和追蹤記錄 | 隨著時間推移，記錄累積會減慢查詢和報告的速度 |
 
-深入瞭解[技術工作流程](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows#_blank)
+深入瞭解[技術工作流程](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows#_blank)
 
 ### Campaign 控制面板 {#control-panel}
 
@@ -210,7 +203,7 @@ Campaign控制面板為管理員提供自助服務功能，以監控和管理Cam
 | **基礎架構** | 監視SFTP儲存容量、追蹤子網域設定、監視SSL憑證過期、管理IP允許清單 |
 | **執行個體** | 檢視組建版本和已安裝的套件、監視系統組態、管理授權的外部網域 |
 
-深入瞭解[控制面板](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/permissions/self-service)和[控制面板效能監視](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/performance-monitoring/about-performance-monitoring#_blank)
+深入瞭解[控制面板](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/self-service)和[控制面板效能監視](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring#_blank)
 
 >[!NOTE]
 >
@@ -238,7 +231,7 @@ Adobe Campaign提供全方位的報告集，可分析您的傳送績效：
 - **個URL和點按資料流**：傳遞中最受歡迎的連結
 - **熱點點按**：收件者點按您電子郵件之位置的視覺化表示
 
-深入瞭解[傳遞報告](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports)
+深入瞭解[傳遞報告](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports)
 
 ### 全域報告 {#global-reports}
 
@@ -248,11 +241,11 @@ Adobe Campaign提供全方位的報告集，可分析您的傳送績效：
 - **無法傳遞的專案和退信**：失敗傳遞的分析
 - **使用者活動**：所有行銷活動的開啟、點按和取消訂閱
 
-深入瞭解[全域報告](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports)
+深入瞭解[全域報告](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports)
 
 ## 相關主題 {#related-topics}
 
-- [關於傳遞的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/delivery-best-practices)
-- [隔離管理](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/monitor/quarantines)
-- [設定並傳送傳遞](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/validate/configure-and-send)
-- [開始使用報告功能](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/reports/gs-reporting)
+- [關於傳遞的最佳實務](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-best-practices)
+- [隔離管理](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines)
+- [設定並傳送傳遞](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/configure-and-send)
+- [開始使用報告功能](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting)
