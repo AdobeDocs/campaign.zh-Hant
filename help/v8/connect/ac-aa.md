@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 63%
+source-wordcount: 1595
+ht-degree: 56%
 
 ---
 
@@ -52,6 +52,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. [在 Adobe Analytics 中建立報告套裝](#report-suite-analytics)
 1. [設定轉換變數和成功事件](#configure-conversion-success)
+1. [建立「分類設定」](#create-classification-set)
 1. [在Adobe Campaign中設定外部帳戶](#external-account-ac)
 
 ## 建立您的Analytics報表套裝 {#report-suite-analytics}
@@ -127,7 +128,30 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-設定報表套裝後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
+## 建立「分類設定」 {#create-classification-set}
+
+由於移轉至Adobe Analytics 2.0 API，在Campaign中設定外部帳戶之前，您還需要在Adobe Analytics中建立&#x200B;**[!UICONTROL Classification set]**。 此分類設定會將您剛建立的轉換變數（內部行銷活動名稱）連結至報表套裝，這樣Campaign就可以在您設定外部帳戶時，於下一個步驟自動探索及使用它。
+
+若要建立您的「分類設定」：
+
+1. 從[!DNL Adobe Analytics]頂端功能表列選取&#x200B;**[!UICONTROL Components]** > **[!UICONTROL Classification sets]**，然後按一下&#x200B;**[!UICONTROL New]**。
+
+   ![](assets/analytics_connnector_16.png)
+
+1. 在&#x200B;**[!UICONTROL Add New Classification Set]**&#x200B;對話方塊：
+
+   ![](assets/analytics_connnector_17.png)
+
+   * 輸入分類集的&#x200B;**[!UICONTROL Name]**。
+   * 將&#x200B;**[!UICONTROL Type]**&#x200B;設為&#x200B;**[!UICONTROL Primary]**。
+   * 在&#x200B;**[!UICONTROL Job notifications]**&#x200B;中，選擇分類設定作業成功或失敗時應通知的人，並提供對應的電子郵件地址。
+   * 在&#x200B;**[!UICONTROL Subscriptions]**&#x200B;中，選取您的報表套裝，以及您在上一步中為內部行銷活動名稱建立的轉換變數。
+
+1. 按一下 **[!UICONTROL Save]**。
+
+如需分類集的詳細資訊，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/sets/create-set){target="_blank"}。
+
+設定報表套裝、轉換變數、成功事件和分類設定後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
 
 ## 設定您的Campaign外部帳戶 {#external-account-ac}
 

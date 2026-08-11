@@ -13,16 +13,30 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1747
-ht-degree: 6%
+source-wordcount: 1984
+ht-degree: 5%
 
 ---
 
 # 最新版本 {#latest-release}
 
 本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。 在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。 本文件的先前版本區段將列出其他版本。
+
+## 發行版本8.9.3 {#release-8-9-3}
+
+_2026年8月11日_
+
+此版本包含數個產品改良與安全性修正，包括將Adobe Analytics聯結器升級至Analytics 2.0 API。
+
+>[!NOTE]
+>
+> 導覽至&#x200B;**[!UICONTROL Help > About...]** [功能表](upgrades.md#version)，檢查您是否擁有組建版本9835或更新版本。
+
+### Adobe Analytics聯結器已升級至Analytics 2.0 API {#analytics-2-0-8-9-3}
+
+Adobe Analytics 1.4 API [生命週期即將結束](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}，因此[網站分析聯結器](../connect/ac-aa.md) （會將您的行銷活動指標和分類資料傳送至Adobe Analytics、支援再行銷流程，以及用來設定新報表套裝）已升級至Analytics 2.0 API，成為此版本的一部分。 身為託管客戶，Adobe會為您處理此移轉作業，您無須自行設定。 升級會重新匯入內建的技術工作流程，這些工作流程可支援聯結器（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;和&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）並更新內建的Analytics JavaScript檔案，因此，如果您自訂了這些工作流程或內建參考這些檔案的自訂工作流程，請在升級後重新套用並調整該自訂，否則將會覆寫或中斷。 作為最佳實務，請避免直接修改內建工作流程 — 而是以個別的自訂工作流程建立您的自訂專案，以免日後升級時覆寫自訂專案。 升級完成後，驗證您仰賴的Adobe Analytics使用案例(量度匯出、分類匯出及再行銷（如適用）)，確認資料如預期般持續運作。
 
 ## 發行版本8.9.2 {#release-8-9-2}
 
