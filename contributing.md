@@ -1,8 +1,8 @@
 ---
 source-git-commit: d62a185eabf9536f7198d60702c02682af05e06d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 34%
 
 ---
 # 貢獻
@@ -13,8 +13,8 @@ ht-degree: 100%
 
 ## 行為準則
 
-此專案遵守 Adobe [行為準則](code-of-conduct.md)。凡是參與本專案，
-就必須遵守此準則。請將不當行為回報給
+此專案遵守 Adobe [行為準則](code-of-conduct.md)。 透過參與，
+您應遵守此准則。 如發現不良行為，請向
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)。
 
 ## 貢獻者指南文件
@@ -23,23 +23,23 @@ ht-degree: 100%
 
 ## 有任何疑問嗎?
 
-從提交問題開始。 本專案的現有提交者會致力於
-專案方向上達成共識，並在問題討論串中發佈解決方案
-(如適用)。
+從提交問題開始。 此專案的現有提交者需要達到
+在專案方向和問題討論串中的問題解決方案上達成共識
+（適當時）。
 
 ## 貢獻者授權合約
 
-此專案的所有協力廠商貢獻都必須隨附已簽署的貢獻者
-授權合約。這可授予 Adobe 在專案中
-重新使用您稿件的權限。[簽署我們的 CLA](http://opensource.adobe.com/cla.html)。您
-只需要提交 Adobe CLA 一次，所以如果您以前提交過，
-您就可以開始了！
+本專案的所有協力廠商投稿人必須隨附已簽署的投稿人
+授權合約。 這可授予Adobe重新使用您稿件的許可權
+做為專案的一部分。 [簽署我們的 CLA](http://opensource.adobe.com/cla.html)。 您
+您只需要提交Adobe CLA一次，因此如果您之前已送出CLA，
+一切準備就緒！
 
 ## 程式碼審核
 
-所有提交作業均應以提取請求的形式提出，
-且須通過專案提交者審核。閱讀 [GitHub 的提取請求文件](https://help.github.com/articles/about-pull-requests/)
-以了解傳送提取請求的詳細資訊。
+所有提交內容皆應以提取請求的形式提出，且須經過稽核
+依專案提交者。 閱讀[GitHub的提取請求檔案](https://help.github.com/articles/about-pull-requests/)
+以取得傳送提取請求的詳細資訊。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -48,12 +48,12 @@ submitting a pull request!
 
 ## 從貢獻者晉升提交者
 
-我們熱愛來自社群的貢獻！ 若您想在貢獻者基礎上更進一步，
-成為具有完整寫入存取權和專案發言權的提交者，您必須
-獲邀加入專案。 現有提交者採用內部提名
-流程，在發出邀請前，
-必須達成懶人共識 (沈默表示同意)。 如果您覺得自己符合資格且想進一步參與，
-歡迎與現有提交者聯絡，與他們討論。
+我們熱愛來自社群的貢獻！ 如果您不滿足於參與者的工作
+並成為具有完整寫入存取權且在專案中擁有發言權的提交者，您必須
+受邀加入專案。 現有的提交者會採用內部提名
+邀請前必須達成懶惰共識（沈默表示同意）的程式
+發行日期。 如果您覺得自己符合資格且想更深入參與，
+歡迎連絡現有的提交者，與對方討論相關事宜。
 
 ## 安全性問題
 
