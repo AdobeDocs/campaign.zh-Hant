@@ -7,9 +7,9 @@ level: Beginner
 keywords: 常見問題集， Campaign v8，問題，回答，說明，支援，疑難排解
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
+source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
 workflow-type: tm+mt
-source-wordcount: '11573'
+source-wordcount: '11541'
 ht-degree: 12%
 
 ---
@@ -147,12 +147,6 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 **相關主題：**
 
 [電子郵件設計與驗證](../send/email.md) | [建立第一個傳遞](create-message.md) | [傳遞範本](../send/create-templates.md) | [個人化內容](../send/personalize.md)
-
-+++
-
-+++ 如何翻譯錯誤訊息？
-
-出現了以外文顯示的錯誤訊息？ [本頁面](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant){target="_blank"}列出所有錯誤訊息及其翻譯。
 
 +++
 
