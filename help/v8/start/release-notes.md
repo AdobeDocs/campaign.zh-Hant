@@ -4,19 +4,13 @@ description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
 workflow-type: tm+mt
-source-wordcount: 1984
-ht-degree: 5%
+source-wordcount: 1998
+ht-degree: 6%
 
 ---
 
@@ -28,15 +22,21 @@ ht-degree: 5%
 
 _2026年8月11日_
 
-此版本包含數個產品改良與安全性修正，包括將Adobe Analytics聯結器升級至Analytics 2.0 API。
+<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
->[!NOTE]
->
-> 導覽至&#x200B;**[!UICONTROL Help > About...]** [功能表](upgrades.md#version)，檢查您是否擁有組建版本9835或更新版本。
+### 安全性改善 {#security-8-9-3}
+
+此版本包含安全性修正，可加強您的Campaign環境的整體安全性狀況。 作為託管客戶，Adobe會在升級時套用這些修正，而您無需採取任何動作。
 
 ### Adobe Analytics聯結器已升級至Analytics 2.0 API {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 API [生命週期即將結束](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}，因此[網站分析聯結器](../connect/ac-aa.md) （會將您的行銷活動指標和分類資料傳送至Adobe Analytics、支援再行銷流程，以及用來設定新報表套裝）已升級至Analytics 2.0 API，成為此版本的一部分。 身為託管客戶，Adobe會為您處理此移轉作業，您無須自行設定。 升級會重新匯入內建的技術工作流程，這些工作流程可支援聯結器（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;和&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）並更新內建的Analytics JavaScript檔案，因此，如果您自訂了這些工作流程或內建參考這些檔案的自訂工作流程，請在升級後重新套用並調整該自訂，否則將會覆寫或中斷。 作為最佳實務，請避免直接修改內建工作流程 — 而是以個別的自訂工作流程建立您的自訂專案，以免日後升級時覆寫自訂專案。 升級完成後，驗證您仰賴的Adobe Analytics使用案例(量度匯出、分類匯出及再行銷（如適用）)，確認資料如預期般持續運作。
+Adobe Analytics 1.4 API [即將結束生命週期](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}，因此[Web Analytics聯結器](../connect/ac-aa.md)已升級為Analytics 2.0 API，作為此版本的一部分。 身為託管客戶，Adobe會為您處理此移轉作業，您無須自行設定。
+
++++ 深入瞭解Analytics 2.0升級
+
+[Web Analytics聯結器](../connect/ac-aa.md)會將您的行銷活動指標和分類資料傳送至Adobe Analytics、支援再行銷流程，並用來設定新的報表套裝。 升級會重新匯入內建的技術工作流程，這些工作流程可支援聯結器（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;和&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）並更新內建的Analytics JavaScript檔案，因此，如果您自訂了這些工作流程或內建參考這些檔案的自訂工作流程，請在升級後重新套用並調整該自訂，否則將會覆寫或中斷。 作為最佳實務，請避免直接修改內建工作流程 — 而是以個別的自訂工作流程建立您的自訂專案，以免日後升級時覆寫自訂專案。 升級完成後，驗證您仰賴的Adobe Analytics使用案例(量度匯出、分類匯出及再行銷（如適用）)，確認資料如預期般持續運作。
+
++++
 
 ## 發行版本8.9.2 {#release-8-9-2}
 
@@ -61,35 +61,17 @@ _2026年5月3日_
 * 修正因調解金鑰不正確而無法為Android應用程式註冊權杖擷取語言欄位的問題。 (NEO-93100)
 * 修正透過壓力規則套用自訂型別規則時，傳送準備失敗的問題。 (NEO-94457)
 * 修正使用者端主控台可能發生HTTP要求處理失敗的問題。 (NEO-94071)
-
-<!-- BUILD 8.9.2.9829.9669833 -->
-
 * FDA監視現在預設為停用，以防止連線記錄插入錯誤。 (NEO-94841)
 * 修正用於優惠兌換的互動SOAP呼叫可能因名稱空間解析錯誤而失敗的問題。 (NEO-94787)
-<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
 * 修正長度為1的字串欄位可能導致PostgreSQL 17上的工作流程臨時表格發生SQL錯誤的問題。 (NEO-94487)
-<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
-
-<!-- BUILD 8.9.2.9829.c90aa36 -->
-
 * 修正使用者端主控台和Web UI中的&#x200B;**顯示映象頁面**&#x200B;選項可能傳回「錯誤的映象頁面」錯誤的問題。 (NEO-93303)
-
-<!-- BUILD 8.9.2.9830.4a6f868 -->
-
 * 修正在FFDA部署中安裝多變數套件後，現成可用的&#x200B;**追蹤**&#x200B;技術工作流程可能失敗的問題。 (NEO-94972)
 * 修正當傳遞範本使用參考目前傳遞的權重公式時，傳遞準備無法將任何收件者新增至目標的問題。 (NEO-94892)
-<!-- hotfix -->
 * 修正了在升級後，使用兩個連續1-N連結的聯結來擴充工作流程時，可能會因SQL錯誤而失敗的問題。 (NEO-94893)
-
-<!-- BUILD 8.9.2.9831.f53d3d2 -->
-
 * 修正電子郵件管道中可能導致一段時間後記憶體過度消耗的問題。 (NEO-95088)
 * 修正當使用種子或校樣地址時，衝突的電子郵件型別規則可能錯誤地將非重複收件者從傳遞目標中排除的問題。 (NEO-95026)
 * 已修正升級後現成可用的&#x200B;**優惠通知**&#x200B;技術工作流程可能失敗的問題。 (NEO-95064)
 * 多變數套件安裝程式已經過改善，以防止在建置升級期間追蹤工作流程失敗。 (NEO-95018)
-
-<!-- BUILD 8.9.2.9831.11d1c68 -->
-
 * 修正可能導致伺服器重複當機，導致執行個體中斷的問題。 (NEO-95304)
 * 修正追蹤和映象頁面連結無法載入傳遞的問題。 (NEO-95239)
 * 修正了登入受IMS單一登入保護的Campaign Web應用程式時，可能會導致重新導向回圈的問題。 (NEO-95188)
@@ -98,22 +80,10 @@ _2026年5月3日_
 * 修正&#x200B;**讀取清單**&#x200B;活動可能會以工作流程產生的清單結構覆寫預先定義的清單範本，導致下游工作流程失敗的問題。 (NEO-95103)
 * 修正推播通知回饋處理在處理大量傳遞時，可能導致伺服器當機的問題。 (NEO-95150)
 * 修正在結構描述總管中開啟`xtk:workflow`結構描述上的&#x200B;**資料**&#x200B;索引標籤可能會觸發錯誤訊息的問題。 (NEO-94923)
-<!-- hotfixes -->
 * 修正&#x200B;**擴充**&#x200B;活動無法再從上游&#x200B;**子工作流程**&#x200B;活動中擷取輸出屬性，導致工作流程失敗的問題。 (NEO-95151)
 * 修正了追蹤資料擷取的問題，此問題可能會阻止傳遞狀態更新並封鎖下游訊息處理。 (NEO-94666)
 * 修正與優惠方案主張相關的某些使用者端主控台動作可能會在Snowflake資料庫上觸發長期執行查詢，導致鎖定和速度緩慢的問題。 (NEO-92936)
 * 修正無法在Snowflake外部帳戶上設定儲存加密金鑰的自訂選項的問題。 (NEO-93302)
-
-<!-- 
-Internal/non-customer-facing:
-* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
-Customer-specific hotfixes:
-* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
-* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
-* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
-* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
-* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
--->
 
 ## 發行版本8.9.1 {#release-8-9-1}
 
@@ -123,27 +93,28 @@ _2026 年 1 月 27 日_
 >
 > 用戶端主控台升級為強制。 透過本[頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
-### 新功能 {#new-8-9-1}
-
-**新SMS傳送聯結器**&#x200B;現在可供所有客戶使用(GA)。 請參閱[詳細檔案](../send/sms/sms.md)。
-
-此版本隨附Campaign Web使用者介面提供的一組功能：
-
-* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
-* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
-* [內容實驗 — A/B測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
-* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=zh-Hant){target="_blank"}
-* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=zh-Hant){target="_blank"}
-
-請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
-
 ### 安全性改善 {#security-8-9-1}
 
 * Snowflake外部帳戶現在支援OAuth2驗證，為同盟資料存取連線提供現代且安全的驗證方法。 (NEO-87013) [瞭解詳情](../config/external-accounts.md#snowflake-external-accounts)
 * Databricks外部帳戶現在支援透過服務主體（非互動式使用者端憑證流程）的OAuth2驗證，為同盟資料存取連線提供安全的驗證方法。 互動式OAuth2驗證將在未來版本中提供。 (NEO-87422) [瞭解詳情](../config/external-accounts.md#databricks-external-accounts)
 * 修正工作流程檔案存取漏洞，限制對授權目錄的操作，防止未經授權的存取和可能的遠端程式碼執行。 (NEO-88460)
 * 新增FTP URL允許清單控制項至工作流程JavaScript程式碼活動，限制只有授權位址的輸出FTP連線。 (NEO-89083)
+* 修正可能導致應用程式拒絕服務的安全性問題。 (NEO-89984)
+
+### 新功能 {#new-8-9-1}
+
+**新SMS傳送聯結器**&#x200B;現在可供所有客戶使用(GA)。 請參閱[詳細檔案](../send/sms/sms.md)。
+
+此版本隨附Campaign Web使用者介面提供的一組功能：
+
+* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [內容實驗 - A/B 測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+
+請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
 ### 其他變更 {#changes-8-9-1}
 
@@ -151,7 +122,6 @@ _2026 年 1 月 27 日_
 * 新增對Campaign工作流程中非對稱加密和解密功能的支援。 (NEO-80257)
 * 針對FFDA部署中的大型資料上傳，增強復寫代理程式效能和記憶體彈性。 (NEO-88430)
 * 已改善&#x200B;**[!UICONTROL SQL code]**&#x200B;和&#x200B;**[!UICONTROL SQL Data Management]**&#x200B;工作流程活動，以便在從Campaign執行自訂SQL時，更能保護PostgreSQL資料庫，並保持工作流程順暢執行。 如需詳細資訊和最佳實務，請參考[SQL資料管理](../../automation/workflow/sql-data-management.md#important-notes)和[SQL程式碼](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)。 (NEO-86540)
-
 
 ### 修正 {#fixes-8-9-1}
 
@@ -171,7 +141,6 @@ _2026 年 1 月 27 日_
 * 修正選擇退出連結缺少（取消）訂閱來源的問題。 (NEO-90714)
 * 修正傳送準備失敗時新增優惠券的問題。 (NEO-90547)
 * 修正「稽核」索引標籤未正確反映「插入拒絕計數」的問題。 (NEO-90318)
-* 修正可能導致應用程式拒絕服務的安全性問題。 (NEO-89984)
 * 修正Hotclick報表中，已下載的PDF發生中斷的問題。 (NEO-89954)
 * 解決升級後發生的SSL錯誤，在讀取錯誤時造成未預期的EOF。 (NEO-89108)
 * 修正升級後無法在資料結構描述中查詢資料的問題。 (NEO-88663)
