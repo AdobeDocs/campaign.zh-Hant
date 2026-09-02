@@ -221,4 +221,4 @@ Campaign的訂閱管理在[此頁面](../start/subscriptions.md)中說明。
 
 **相關主題**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}
