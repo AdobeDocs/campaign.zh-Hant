@@ -18,9 +18,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: 314
 ht-degree: 10%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 10%
 >
 >根據您的部署模式，您也可以將REST API與Campaign v8搭配使用。 [了解更多資訊](../dev/api/get-started-apis.md)。
 
-您可以使用[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=zh-Hant){target="_blank"}在Campaign雲端資料庫中寫入或從資料庫讀取：
+您可以使用[Campaign JavaScript API](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}在Campaign雲端資料庫中寫入或從資料庫讀取：
 
 * 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 * 使用`queryDef`和`NLWS`物件查詢資料模型資料的一般資料存取API。 深入瞭解[使用queryDef](query-api.md)查詢資料庫。
@@ -68,4 +68,4 @@ ht-degree: 10%
 
 <!-- * [Query the database with queryDef](query-api.md)-->
 * [資料模型最佳實務](datamodel-best-practices.md)
-* [Campaign JSAPI檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=zh-Hant){target="_blank"}
+* [Campaign JSAPI檔案](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}

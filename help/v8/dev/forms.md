@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 2571
+source-wordcount: 2569
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 依預設，每個欄位都會顯示在一行上，並依據資料型別佔用所有可用空間。
 
-所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=zh-Hant){target="_blank"}中。
+所有表單屬性都列在[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}中。
 
 ## 格式 {#formatting}
 
