@@ -9,20 +9,12 @@ level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
 TQID: https://experienceleague.adobe.com/BU2H4Pc8MyuKTVKYkzWMkhGvtVKtxUAaATWiNoc6UxQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 66ed59f89f7e58ce0a04d1fe3e4bf34c81ce94cb
 workflow-type: tm+mt
 source-wordcount: 1053
 ht-degree: 1%
@@ -112,7 +104,7 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 下節列出Campaign Standard與v8 REST回應之間的細微差異。
 
 * 對於單一GET記錄，回應會將href納入回應中。
-* 使用屬性查詢時，Campaign v8會在回應中提供計數和分頁。
+* 透過屬性查詢時，Campaign v8會在回應中提供計數和分頁。
 * POST作業之後，回應中會傳回連結資源的值。
 
 ## 錯誤碼和訊息
