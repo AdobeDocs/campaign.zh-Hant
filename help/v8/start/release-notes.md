@@ -38,7 +38,7 @@ _2026 年 8 月 11 日_
 
 此版本包含用於傳遞內容和附件的外部URL允許清單的更新。 確定您目前參考的所有網域都已新增至您執行個體的已核准允許清單。
 
-身為Campaign管理員，請使用「控制面板」將目前用於傳遞中的外部URL新增至允許清單，並對任何未來的新外部URL遵循相同程式。 在2026年9月5日之前完成此活動，以避免影響受影響的傳送。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
+身為Campaign管理員，請使用「控制面板」將目前用於傳遞中的外部URL新增至允許清單，並對任何未來的新外部URL遵循相同程式。 在2026年9月5日之前完成此活動，以避免影響受影響的傳送。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 ### Adobe Analytics聯結器已升級至Analytics 2.0 API {#analytics-2-0-8-9-3}
 
@@ -119,12 +119,12 @@ _2026 年 1 月 27 日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
-* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
-* [內容實驗 - A/B 測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
-* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
-* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
+* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
+* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
+* [內容實驗 - A/B 測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
+* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=zh-Hant){target="_blank"}
+* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=zh-Hant){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 

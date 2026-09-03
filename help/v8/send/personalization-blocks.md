@@ -66,7 +66,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->8.9.3版包含外部URL允許清單的更新。 如果自訂個人化區塊參考外部URL （例如外部託管的影像），請確保將網域新增到您執行個體的已核准允許清單中，讓資源持續載入而不會中斷。 作為Campaign管理員，請使用「控制面板」新增及管理允許清單的URL。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
+>8.9.3版包含外部URL允許清單的更新。 如果自訂個人化區塊參考外部URL （例如外部託管的影像），請確保將網域新增到您執行個體的已核准允許清單中，讓資源持續載入而不會中斷。 作為Campaign管理員，請使用「控制面板」新增及管理允許清單的URL。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 您可以定義要從個人化圖示插入的新個人化內容區塊。
 
