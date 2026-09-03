@@ -13,9 +13,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 1998
+source-wordcount: 2098
 ht-degree: 6%
 
 ---
@@ -26,13 +26,19 @@ ht-degree: 6%
 
 ## 發行版本8.9.3 {#release-8-9-3}
 
-_2026年8月11日_
+_2026 年 8 月 11 日_
 
 <!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### 安全性改善 {#security-8-9-3}
 
 此版本包含安全性修正，可加強您的Campaign環境的整體安全性狀況。 作為託管客戶，Adobe會在升級時套用這些修正，而您無需採取任何動作。
+
+### 外部URL允許清單更新 {#url-allow-list-update-8-9-3}
+
+此版本包含用於傳遞內容和附件的外部URL允許清單的更新。 確定您目前參考的所有網域都已新增至您執行個體的已核准允許清單。
+
+身為Campaign管理員，請使用「控制面板」將目前用於傳遞中的外部URL新增至允許清單，並對任何未來的新外部URL遵循相同程式。 在2026年9月5日之前完成此活動，以避免影響受影響的傳送。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 ### Adobe Analytics聯結器已升級至Analytics 2.0 API {#analytics-2-0-8-9-3}
 

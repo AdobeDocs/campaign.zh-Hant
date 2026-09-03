@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 17%
+source-wordcount: 638
+ht-degree: 15%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 17%
 * **[!UICONTROL Unsubscription link]**：插入連結，以取消訂閱所有傳遞（封鎖清單）。 預設關聯內容：「您收到此訊息因為您曾聯絡&#x200B;***您的組織名稱***&#x200B;或附屬機構。 若不要再收到來自&#x200B;***您的組織名稱***&#x200B;的訊息，請按一下這裡。」
 
 ## 建立自訂個人化區塊 {#create-custom-personalization-blocks}
+
+>[!IMPORTANT]
+>
+>8.9.3版包含外部URL允許清單的更新。 如果自訂個人化區塊參考外部URL （例如外部託管的影像），請確保將網域新增到您執行個體的已核准允許清單中，讓資源持續載入而不會中斷。 作為Campaign管理員，請使用「控制面板」新增及管理允許清單的URL。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 您可以定義要從個人化圖示插入的新個人化內容區塊。
 

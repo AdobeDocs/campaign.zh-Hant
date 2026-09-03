@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 500
 ht-degree: 1%
 
 ---
@@ -46,6 +46,10 @@ Adobe Campaign可讓您從LibreOffice或Microsoft Word檔案，產生電子郵�
 * 關閉表格第三行和最後一行的回圈。
 
 ## 插入外部影像 {#inserting-external-images}
+
+>[!IMPORTANT]
+>
+>8.9.3版包含外部URL允許清單的更新。 確認附件中用於外部影像的網域已新增至執行個體的已核准允許清單，以便資源能夠繼續載入而不會中斷。 作為Campaign管理員，請使用「控制面板」新增及管理允許清單的URL。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 例如，如果您想要個人化包含其URL已輸入收件者欄位中的影像的檔案，則插入外部影像會很有用。
 
