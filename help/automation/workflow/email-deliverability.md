@@ -8,9 +8,7 @@ source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%
-
 ---
-
 
 # 傳遞能力監控（電子郵件傳遞能力）{#email-deliverability}
 
