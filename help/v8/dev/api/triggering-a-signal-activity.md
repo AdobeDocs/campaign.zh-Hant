@@ -10,17 +10,18 @@ exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
 TQID: https://experienceleague.adobe.com/dBlJVUgC7x6qy7aztj9BLEL9aHnPsLlODzIwI0Ao8QE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 422d18b36d63bd04922adb3bb4e06a49ed7cdfd7
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 2%
-
 ---
-
 # 觸發訊號活動 {#triggering-a-signal-activity}
 
 在Adobe Campaign Standard工作流程中，可以有一或多個&#x200B;**外部訊號**&#x200B;活動。 這些活動是等待觸發的「監聽器」。
