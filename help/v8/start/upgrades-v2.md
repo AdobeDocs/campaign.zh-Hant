@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 7%
@@ -75,7 +75,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 如同我們在[更快速地保護客戶中所分享的： Adobe如何回應AI加速的弱點探索](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery)，Adobe安全性團隊會使用AI輔助工具，更快速地識別及解決弱點。 我們將此方法套用至我們的產品，包括Adobe Campaign。
 
-本文說明我們如何評估安全性問題並排定其優先順序、如何部署修正專案，以及這對您有何意義。
+本頁面說明我們如何評估安全性問題並排定其優先順序、如何部署修正專案，以及這對您有何意義。
 
 ### 我們如何評估安全性問題並排定優先順序 {#assess-security-issues}
 
@@ -91,8 +91,8 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 根據更新的範圍，我們使用以下兩種部署方法之一：
 
-- 安全性棧疊維護：目標更新不會變更您的建置編號，或對產品功能匯入預期的變更。 具有標準設定的客戶通常不需要採取行動。
-- 安全性導向組建升級：會變更您的組建編號，並遵循Adobe的標準通知、發行說明和推出流程的更新。
+* **安全性棧疊維護**：目標更新不會變更您的組建編號，也不會對產品功能引入預期的變更。 具有標準設定的客戶通常不需要採取行動。
+* **安全性驅動組建升級**：會變更您的組建編號，並遵循Adobe的標準通知、發行說明和轉出程式的更新。
 
 針對標準、立即可用的設定，您的整合和執行中的行銷活動會維持如前的運作狀態。
 
@@ -135,7 +135,7 @@ Adobe致力於協助保護您的Adobe Campaign環境，並在發生安全性問�
 
 若要接收最新Experience Cloud解決方案發行版本及其內容的通知，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}通訊。
 
-您也可以造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=zh-Hant&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}，以取得版本更新的相關資訊。
+您也可以造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}，以取得版本更新的相關資訊。
 
 ### 我的組織為何需要升級？ {#upgrades-1}
 
