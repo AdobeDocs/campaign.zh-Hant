@@ -5,13 +5,11 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
+source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '900'
 ht-degree: 85%
-
 ---
-
 
 # Adobe Campaign v8 (主控台) 文件 {#campaign-v8}
 
@@ -19,6 +17,7 @@ ht-degree: 85%
 + 發行說明 {#releases}
   + {hide-from-toc}[早期發行說明](start/e-release-notes.md)
   + [版本和升級](start/upgrades.md)
+  + {hide-from-toc}[版本和升級預覽](start/upgrades-v2.md)
   + [最新版本](start/release-notes.md)
   + 先前版本 {#previous-rn}
     + [2025](start/release-notes-2025.md)
@@ -256,7 +255,7 @@ ht-degree: 85%
     + [輸入表單](dev/forms.md)
   + [使用資料套件](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+  + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
   + REST API {#apis}
     + [開始使用REST API](dev/api/get-started-apis.md)
     + [建議與限制](dev/api/limitations.md)
