@@ -5,28 +5,39 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-TQID: https://experienceleague.adobe.com/jpyolWAkavJVJeUJzIP9-vHt17Z20oGKZ6sG99ahQE0
+TQID: 'https://experienceleague.adobe.com/jpyolWAkavJVJeUJzIP9-vHt17Z20oGKZ6sG99ahQE0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 284
-ht-degree: 3%
-
+source-wordcount: '309'
+ht-degree: 2%
 ---
-
 # 變更資料來源 {#change-data-source}
 
 使用&#x200B;**[!UICONTROL Change data source]**&#x200B;活動變更[工作流程工作表](use-workflow-data.md#workflow-temporary-work-table)的資料來源。 此活動可提供更大的彈性，用於管理不同資料來源(例如同盟資料存取(FDA)、Campaign Cloud資料庫(FFDA)和Campaign本機資料庫)的資料。
 
 工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;用於處理與工作流程活動共用資料。
 
-根據預設，**[!UICONTROL Working table]**&#x200B;會建立在與您查詢所需資料來源相同的資料庫中。
-例如，當查詢儲存在雲端資料庫上的&#x200B;**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+根據預設，**[!UICONTROL Working table]**會建立在與您查詢所需資料來源相同的資料庫中。
+例如，當查詢儲存在雲端資料庫上的**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
 
 使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動以使用您&#x200B;**[!UICONTROL Working table]**&#x200B;的不同資料來源。
 

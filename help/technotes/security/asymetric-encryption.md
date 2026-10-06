@@ -4,13 +4,16 @@ title: 技術檔案 — Adobe Campaign中的非對稱加密與解密
 description: 技術說明 — Adobe Campaign中的非對稱加密與解密
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 6%
-
+ht-degree: 10%
 ---
-
 # 技術檔案：Adobe Campaign中的非對稱加密與解密 {#asymetric-encryption}
 
 公開金鑰密碼編譯或非對稱密碼編譯是使用相關金鑰組的密碼編譯系統欄位。 每個金鑰組都包含&#x200B;**公開金鑰**&#x200B;和對應的&#x200B;**私密金鑰**。
@@ -53,5 +56,5 @@ var decrypted = rsaPrivateDecrypt(
 
 **其他資源**
 
-* [開始使用 [!DNL Campaign] API](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [開始使用 [!DNL Campaign] API](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api){target="_blank"}
 * [Campaign JSAPI檔案](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}

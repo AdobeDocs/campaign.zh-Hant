@@ -3,13 +3,16 @@ title: Campaign電子郵件傳送基礎架構升級
 description: Campaign電子郵件傳送基礎架構升級
 hide: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%
-
 ---
-
 # Campaign電子郵件傳送基礎架構升級 {#migrate-infra-to-aws}
 
 ## 將升級哪些專案？{#aws-changes}
@@ -56,11 +59,11 @@ ht-degree: 1%
 
 * **客戶需要哪些測試？**
 
-  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  我們預計客戶不會針對此升級事件進行任何測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   沒有。 我們無法因應現有排程的任何修改請求，因為這可能會中斷為其他客戶指派的升級事件。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

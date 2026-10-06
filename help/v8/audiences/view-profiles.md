@@ -6,24 +6,36 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/KjbdtHFlh5F0wXN2jV9C-sEOY2qry0KuRHhWe9MT9Yk
+TQID: 'https://experienceleague.adobe.com/KjbdtHFlh5F0wXN2jV9C-sEOY2qry0KuRHhWe9MT9Yk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '455'
 ht-degree: 6%
-
 ---
-
 # 檢視現有的設定檔 {#view-profiles}
 
 瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;以存取儲存在Adobe Campaign資料庫中的收件者。
@@ -84,11 +96,11 @@ ht-degree: 6%
 
   ![](assets/subscription-tab.png)
 
-  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
+  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。
+  在本節](../send/tracking.md)中進一步瞭解追蹤[。

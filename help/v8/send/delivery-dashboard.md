@@ -6,26 +6,38 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
-TQID: https://experienceleague.adobe.com/pkDQp2NsMTR2iy9QsA3NjxJs-h-wud0pKdqOuE3foIs
+TQID: 'https://experienceleague.adobe.com/pkDQp2NsMTR2iy9QsA3NjxJs-h-wud0pKdqOuE3foIs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1157
+source-wordcount: '1157'
 ht-degree: 3%
-
 ---
-
 # 在Campaign UI中監視您的傳遞 {#delivery-dashboard}
 
 監控您的傳送至關重要，以確保您的行銷活動有效並觸及客戶。 Adobe Campaign提供您存取傳遞的工具，並透過傳遞清單和傳遞控制面板監控其效能。

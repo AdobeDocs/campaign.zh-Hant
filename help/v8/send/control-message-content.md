@@ -6,13 +6,22 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 5%
-
 ---
-
 # 控制您的訊息內容{#control-message-content}
 
 為確保您的電子郵件能送達收件者並提高電子郵件傳遞率，他們必須遵守許多規則。 否則，某些訊息的內容可能會偵測為垃圾訊息。 Adobe Campaign提供數種工具，可讓您的內容符合這些規則。
@@ -25,7 +34,7 @@ ht-degree: 5%
 * [取消訂閱連結](#opt-out)和登陸頁面：取消訂閱連結是必要的。 它必須可見且有效，而且表單必須有效。
 * 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容（[收件匣轉譯](#message-responsiveness)，[SpamAssassin](#spamassassin)）。
 
-如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=zh-Hant){target="_blank"}。
+如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}。
 
 >[!NOTE]
 >
@@ -51,7 +60,7 @@ ht-degree: 5%
 
 每次傳送前，您必須先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且驗證後會將&#x200B;**[!UICONTROL No longer contact this recipient]**&#x200B;欄位的值變更為&#x200B;**[!UICONTROL Yes]**。 您應該系統地進行此檢查，因為輸入連結或變更表單時總是可能發生人為錯誤。
 
-瞭解如何在本節[&#128279;](personalization-blocks.md#ootb-personalization-blocks)中插入選擇退出連結。
+瞭解如何在本節](personalization-blocks.md#ootb-personalization-blocks)中插入選擇退出連結[。
 
 如果在開始傳遞後偵測到有關取消訂閱的問題，則仍可以為按一下選擇退出連結的收件者手動執行取消訂閱（例如使用大量更新函式），即使他們無法確認自己的選擇。
 

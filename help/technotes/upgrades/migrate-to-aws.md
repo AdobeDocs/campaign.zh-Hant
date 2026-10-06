@@ -3,13 +3,16 @@ title: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 description: 將Campaign傳送基礎架構移轉至Amazon Web Services (AWS)
 hide: true
 exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # 行銷活動傳送基礎架構移轉至Amazon Web Services (AWS) {#migrate-infra-to-aws}
 
 ## 哪些部分有所變更？{#aws-changes}
@@ -66,11 +69,11 @@ ht-degree: 0%
 
 * **客戶需要執行哪些驗證？**
 
-  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+  此移轉不需要任何特定測試。 如果發現任何問題，請聯絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。
 
 
 * **我可以要求變更排定的安全性升級位置的日期/時間嗎？**
 
   由於這是強制移轉，我們無法因應現有排程的修改。
 
-如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Campaign#support){target="_blank"}。
+如有任何其他問題，請連絡[Adobe客戶服務](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}。

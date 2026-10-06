@@ -3,13 +3,22 @@ title: API疑難排解
 description: 進一步瞭解與Campaign Standard API相關的常見問題
 role: Developer
 level: Experienced
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # API疑難排解 {#troubleshooting}
 
 * **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O Console僅供企業帳戶的選取成員使用。 如果您認為您應該擁有存取權，請聯絡您的系統管理員。&quot;**

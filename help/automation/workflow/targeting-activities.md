@@ -5,16 +5,29 @@ description: 關於目標定位活動
 feature: Workflows, Audiences, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
-TQID: https://experienceleague.adobe.com/rITGoVzeDjgPsyw3ntqokW6CfVXnNuz5ix0KyNezm4M
+TQID: 'https://experienceleague.adobe.com/rITGoVzeDjgPsyw3ntqokW6CfVXnNuz5ix0KyNezm4M'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 303
+source-wordcount: '303'
 ht-degree: 9%
-
 ---
-
 # 在工作流程中鎖定目標活動{#about-targeting-activities}
 
 這些活動可讓您使用交集、聯合或執行運算來定義組合和分割或結合這些組合，藉此建置一個或多個目標。

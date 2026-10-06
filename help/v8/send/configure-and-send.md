@@ -5,13 +5,25 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 9%
-
 ---
-
 # 設定並傳送傳遞 {#configure-delivery}
 
 存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞[優先順序](#delivery-priority)、設定[波段](#sending-using-multiple-waves)，並測試您的傳遞傳送。 完成此設定後，您可以確認傳送，如[此區段](#confirm-delivery)所述。 然後立即傳送訊息，或根據傳遞[排程](#schedule-delivery-sending)傳送訊息。
@@ -42,7 +54,7 @@ ht-degree: 9%
 >
 >* 此選項不得在中間來源中設定。
 >
->* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=zh-Hant#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
+>* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
 
 ## 使用多個波段傳送 {#sending-using-multiple-waves}
 

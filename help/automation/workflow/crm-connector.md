@@ -5,20 +5,29 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
-TQID: https://experienceleague.adobe.com/lDsUaX7zdQU1-ifC3D6vJmXdvUL3i76CZ45KxkWZuWI
+TQID: 'https://experienceleague.adobe.com/lDsUaX7zdQU1-ifC3D6vJmXdvUL3i76CZ45KxkWZuWI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 104
+source-wordcount: '104'
 ht-degree: 9%
-
 ---
-
 # CRM 連結器{#crm-connector}
 
 **CRM聯結器**&#x200B;活動可讓您設定Adobe Campaign與CRM系統之間的資料同步。
@@ -36,4 +45,4 @@ ht-degree: 9%
 
 ![](assets/crm_task_select_obj.png)
 
-如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=zh-Hant){target="_blank"}。
+如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}。

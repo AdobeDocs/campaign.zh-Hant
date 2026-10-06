@@ -6,21 +6,31 @@ role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/0rN0mC1re8VV-oUscl9KqgnuEAxQ4wAnV5ubotmyZ3g
+TQID: 'https://experienceleague.adobe.com/0rN0mC1re8VV-oUscl9KqgnuEAxQ4wAnV5ubotmyZ3g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 4%
-
+source-wordcount: '519'
+ht-degree: 5%
 ---
-
 # 開始使用權限{#gs-permissions}
 
 Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些是一組授權或拒絕的許可權和限制：
@@ -42,10 +52,10 @@ Adobe Campaign可讓您定義並管理指派給使用者的許可權。 這些�
 
 主要步驟為：
 
-* **步驟1**：在Campaign使用者端主控台中定義您的操作員群組並指派許可權。[深入瞭解](manage-permissions.md#create-product-profile)。
-請注意，您也可以使用內建運運算元群組作為開頭。這些預設群組及其許可權列於[此區段](manage-permissions.md#ootb-productprofiles)中。
-* **步驟2**：在Adobe Admin Console中建立符合這些群組的產品設定檔。[深入瞭解](manage-permissions.md#create-product-profile)。
-一開始可以使用內建的產品設定檔。[進一步瞭解](manage-permissions.md#ootb-productprofiles)。
+* **步驟1**：在Campaign使用者端主控台中定義您的操作員群組並指派許可權。 [了解更多資訊](manage-permissions.md#create-product-profile)。
+請注意，您也可以使用內建運運算元群組作為開頭。 這些預設群組及其許可權列於[此區段](manage-permissions.md#ootb-productprofiles)中。
+* **步驟2**：在Adobe Admin Console中建立符合這些群組的產品設定檔。 [了解更多資訊](manage-permissions.md#create-product-profile)。
+一開始可以使用內建的產品設定檔。 [了解更多資訊](manage-permissions.md#ootb-productprofiles)。
 * **步驟3**：在Adobe Admin Console中建立使用者，並將他們指派給產品設定檔。 [了解更多資訊](manage-permissions.md#add-users)。
 * **步驟4** （選擇性）：指派檔案夾的許可權。 [了解更多資訊](manage-permissions.md#ootb-productprofiles)。
 

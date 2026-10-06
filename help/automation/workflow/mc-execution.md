@@ -4,13 +4,25 @@ title: 訊息中心（執行）
 description: 訊息中心（執行）
 feature: Workflows
 role: User
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
-
+source-wordcount: '205'
+ht-degree: 2%
 ---
-
 
 # 訊息中心（執行）{#message-center-execution}
 
@@ -26,7 +38,7 @@ ht-degree: 3%
   <tr> 
    <td> <span class="uicontrol">更新事件狀態</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> 此工作流程可讓您為事件指派狀態。事件狀態如下： <br /> 
+   <td> 此工作流程可讓您為事件指派狀態。 事件狀態如下： <br /> 
     <ul> 
      <li> <p><strong>擱置中</strong>：事件在佇列中。 尚未為其建立任何訊息範本的關聯。</p> </li> 
      <li> <p><strong>擱置傳遞</strong>：事件在佇列中，訊息範本已與其建立關聯，傳遞目前正在處理中。</p> </li> 

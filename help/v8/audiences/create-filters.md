@@ -6,24 +6,36 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/ZhEye69T-u--8tgV8ONBX9nRkdJFUSvx8RIKqq0bFsI
+TQID: 'https://experienceleague.adobe.com/ZhEye69T-u--8tgV8ONBX9nRkdJFUSvx8RIKqq0bFsI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1943
+source-wordcount: '1943'
 ht-degree: 1%
-
 ---
-
 # 使用篩選器{#create-filters}
 
 資料篩選是將資料集縮小至符合特定條件的那些記錄的程式。 然後可將此子集用於目標動作（例如更新或建立對象）或分析。
@@ -251,7 +263,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 1. 取消勾選目前預設預先定義篩選的相同選項。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用篩選。
-1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**&#x200B;圖示：新的預設篩選器可供使用。
+1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**圖示：新的預設篩選器可供使用。
    ![](assets/updated-default-filter.png)
 
 
@@ -288,7 +300,7 @@ Adobe Campaign中有以下型別的篩選器：
 
    ![](assets/configure-list.png)
 
-1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。**&#x200B;**
+1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。****
 
    ![](assets/add-age-column.png)
 
@@ -395,9 +407,9 @@ Adobe Campaign中有以下型別的篩選器：
 
 瞭解如何在這些端對端範例中建置進階查詢：
 
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中鎖定簡單的收件者屬性。
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=zh-Hant){target="_blank"}中篩選過去7天期間未聯絡的收件者。
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=zh-Hant){target="_blank"}中依作用中帳戶篩選以復原運運算元清單。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}中鎖定簡單的收件者屬性。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}中篩選過去7天期間未聯絡的收件者。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}中依作用中帳戶篩選以復原運運算元清單。
 * 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant){target="_blank"}中建立生日電子郵件對象。
 
 
