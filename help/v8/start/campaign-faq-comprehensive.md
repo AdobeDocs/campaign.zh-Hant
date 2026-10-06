@@ -7,13 +7,28 @@ level: Beginner
 keywords: 常見問題集， Campaign v8，問題，回答，說明，支援，疑難排解
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '11539'
 ht-degree: 12%
-
 ---
-
 # 常見問題集 {#faq}
 
 取得Adobe Campaign v8常見問題的快速解答。 無論您是剛開始使用還是尋找進階設定說明，您都可以找到以下依主題整理的答案。

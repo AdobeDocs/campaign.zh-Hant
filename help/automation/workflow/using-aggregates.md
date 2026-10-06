@@ -5,16 +5,23 @@ description: 瞭解如何使用彙總
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
-TQID: https://experienceleague.adobe.com/9ho0yPBr-YfejB9MfSSLcSFlbbUhw8vOhEKev3-NAxg
+TQID: 'https://experienceleague.adobe.com/9ho0yPBr-YfejB9MfSSLcSFlbbUhw8vOhEKev3-NAxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 2%
-
+source-wordcount: '620'
+ht-degree: 3%
 ---
-
 # 使用彙總{#using-aggregates}
 
 

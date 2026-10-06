@@ -3,25 +3,33 @@ keywords: Campaign Classic;home;popular topics
 description: 前往Adobe Campaign v8說明中心尋找說明。 瞭解Campaign v8的新增功能、改善和修正。
 title: Adobe Campaign v8產品檔案
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-TQID: https://experienceleague.adobe.com/btc-anKUgS2PFCv86Pi7QRw8nrWMV4gZXvFwnWQvQVM
+TQID: 'https://experienceleague.adobe.com/btc-anKUgS2PFCv86Pi7QRw8nrWMV4gZXvFwnWQvQVM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 80%
-
+source-wordcount: '504'
+ht-degree: 45%
 ---
-
 # Adobe Campaign v8 (主控台) 文件 {#campaign-documentation}
 
 ## 新增功能
@@ -90,34 +98,34 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="start/campaign-ui.md">使用者介面</a> - <a href="start/ac-components.md">元件與流程</a> - <a href="start/v7-to-v8.md">從 Classic v7 到 v8</a> - <a href="start/campaign-faq.md">常見問題集</a>
+      <strong>開始使用</strong><br/><a href="start/campaign-ui.md">使用者介面</a> - <a href="start/ac-components.md">元件與程式</a> - <a href="start/v7-to-v8.md">從傳統v7到v8</a> - <a href="start/campaign-faq.md">常見問題集</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>客戶體驗</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">使用工作流程自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Campaign 協調流程</a> - <a href="interaction/interaction.md">決策管理</a> - <a href="send/personalize.md">個人化</a>
+      <strong>客戶的體驗</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">使用工作流程自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">行銷活動協調</a> - <a href="interaction/interaction.md">決策管理</a> - <a href="send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>傳送訊息</strong><br/><a href="start/create-message.md">開始使用</a> - <a href="send/preview-and-proof.md">預覽及校樣</a> - <a href="send/predictive.md">傳送時間最佳化</a> - <a href="reporting/gs-reporting.md">報告及分析</a>
+      <strong>傳送訊息</strong><br/><a href="start/create-message.md">開始使用</a> - <a href="send/preview-and-proof.md">預覽與校樣</a> - <a href="send/predictive.md">傳送時間最佳化</a> - <a href="reporting/gs-reporting.md">報告與分析</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>輪廓與客群</strong><br/><a href="audiences/create-profiles.md">新增輪廓</a> - <a href="audiences/create-audiences.md">建立客群</a> - <a href="start/subscriptions.md">管理訂閱</a> - <a href="start/privacy.md">隱私權</a>
+      <strong>設定檔與對象</strong><br/><a href="audiences/create-profiles.md">新增設定檔</a> - <a href="audiences/create-audiences.md">建立對象</a> - <a href="start/subscriptions.md">管理訂閱</a> - <a href="start/privacy.md">隱私權</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>架構與設定</strong><br/><a href="architecture/architecture.md">架構</a> - <a href="start/implement.md">Campaign v8 實施</a> - <a href="connect/integration.md">連結其他解決方案</a> - <a href="start/gs-permissions.md">使用者與權限</a>
+      <strong>架構與組態</strong><br/><a href="architecture/architecture.md">架構</a> - <a href="start/implement.md">Campaign v8實作</a> - <a href="connect/integration.md">與其他解決方案連線</a> - <a href="start/gs-permissions.md">使用者與許可權</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8 資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
+      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

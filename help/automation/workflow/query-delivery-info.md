@@ -6,18 +6,26 @@ feature: Query Editor
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
-TQID: https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo
+TQID: 'https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 1%
-
 ---
-
 # 查詢傳遞資訊 {#querying-delivery-information}
 
 

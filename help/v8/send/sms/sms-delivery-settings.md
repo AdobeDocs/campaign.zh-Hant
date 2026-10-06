@@ -5,24 +5,36 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-TQID: https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM
+TQID: 'https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '773'
 ht-degree: 1%
-
 ---
-
 # 簡訊傳遞設定 {#sms-settings}
 
 簡訊傳送所需的技術設定如下：
@@ -80,8 +92,8 @@ ht-degree: 1%
   指定0會停用限制。
 
 * **[!UICONTROL Optional SMPP parameters (TLV)]**
-您可以指定額外的欄位，以作為選用的SMPP引數(TLV)傳送。這些額外的欄位會與每個MT一併傳送，而個人化欄位可讓每個MT有不同的值。
-此表格列出要隨每則訊息傳送的選用引數。欄包含下列資訊：
+您可以指定額外的欄位，以作為選用的SMPP引數(TLV)傳送。 這些額外的欄位會與每個MT一併傳送，而個人化欄位可讓每個MT有不同的值。
+此表格列出要隨每則訊息傳送的選用引數。 欄包含下列資訊：
   * **標籤**：這是選用的自由格式標籤。 不會傳輸給提供者。 您可以提供引數的文字說明。
   * **標籤**：標籤值，以十進位格式（例如12345）或具有0x首碼的十六進位（例如0x12ab）。 標籤可介於0到65535之間。 向SMPP服務提供者詢問他們支援的標籤。
   * **值**：要傳入選用引數的值。 此為個人化欄位。

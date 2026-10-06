@@ -4,13 +4,16 @@ title: 技術檔案 — Adobe Campaign - Apache版本安全性更新
 description: Adobe Campaign - Apache版本安全性更新
 hide: true
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # Adobe Campaign - Apache版本安全性更新 {#apache-update}
 
 >[!CAUTION]

@@ -6,28 +6,48 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-TQID: https://experienceleague.adobe.com/20Kh0O94OY8Vpy5SmhVUUgVOCkWy7DNZiJko3EeOx-E
+TQID: 'https://experienceleague.adobe.com/20Kh0O94OY8Vpy5SmhVUUgVOCkWy7DNZiJko3EeOx-E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3055
+source-wordcount: '3162'
 ht-degree: 2%
-
 ---
-
 # 關於傳遞的最佳實務 {#delivery-best-practices}
 
 閱讀下列Campaign傳送功能最佳實務。
@@ -42,7 +62,7 @@ ht-degree: 2%
 
 * [個人化](../send/personalize.md)元素的數量和型別：電子郵件中的個人化會將每個收件者的資料提取出資料庫。 如果有許多個人化元素，則準備傳送所需的資料量會較高。 這可能會降低平台的速度。 在[本節](../send/personalize.md#perso-guardrails)中進一步瞭解個人化護欄。
 
-* 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
+* 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。 行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 為避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
 * 工作流程執行：監控工作流程是避免平台效能問題的關鍵。 請遵循此檔案[&#128279;](../../automation/workflow/workflow-best-practices.md#execution-and-performance)中列出的准則。
@@ -65,8 +85,8 @@ ht-degree: 2%
 
 * 如果您有無效地址清單，Adobe建議透過&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**，將其匯入隔離表格。
 
-* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。
-Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。[進一步瞭解隔離](../send/quarantines.md)
+* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。 舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。
+Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭解隔離](../send/quarantines.md)
 
 * 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。 因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
 

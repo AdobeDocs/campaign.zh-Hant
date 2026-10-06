@@ -5,24 +5,36 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-TQID: https://experienceleague.adobe.com/vCnJYU3rJvZ5d5waVuycpPnBD-1dBJs25RLQjdZbBZU
+TQID: 'https://experienceleague.adobe.com/vCnJYU3rJvZ5d5waVuycpPnBD-1dBJs25RLQjdZbBZU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data integration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 417
-ht-degree: 8%
-
+source-wordcount: '467'
+ht-degree: 12%
 ---
-
 # 將Campaign與您的解決方案連結{#gs-ac-connectors}
 
 您可以將Campaign執行個體連線至Adobe Experience Cloud解決方案，以便結合功能。
@@ -59,7 +71,7 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 您可以將Adobe Campaign平台連線至您的&#x200B;**CRM協力廠商系統**，並同步資料：連絡人、帳戶、購買等。
 
 透過跨管道通訊啟用您的CRM資料：瞭解如何將聯絡人從CRM系統傳遞至Adobe Campaign，以及如何將行銷活動資料從Adobe Campaign分享回您的CRM系統。
-CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。這可保證雙向同步處理，確保整個系統中的資料隨時保持最新。
+CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。 並且可確保雙向同步處理，讓整個系統中的資料隨時保持最新。
 
 在[本頁面](crm.md)中瞭解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合
 

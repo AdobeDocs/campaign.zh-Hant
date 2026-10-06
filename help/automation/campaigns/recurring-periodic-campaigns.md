@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
-TQID: https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA
+TQID: 'https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '806'
 ht-degree: 0%
-
 ---
-
 # 循環和定期行銷活動 {#recurring-and-periodic-campaigns}
 
 **週期性行銷活動**&#x200B;是基於特定範本的行銷活動，其工作流程已設定為根據關聯的排程執行。 目標定位會在每次執行時重複，並追蹤各種流程和目標母體。  設定之後，循環行銷活動會自動建立新工作流程（透過複製工作流程範本）並執行它。 例如，如果您需要傳送每月提醒至對象區段，請設定循環行銷活動，以便在每年年初建立12個工作流程，每個月一個。 [了解更多](#create-a-recurring-campaign)
@@ -38,7 +45,7 @@ ht-degree: 0%
 1. 複製內建&#x200B;**[!UICONTROL Recurring campaign]**&#x200B;範本。
    ![](assets/recurring-campaign-duplicate.png)
 1. 輸入範本名稱和行銷活動的持續時間。
-1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。使用此索引標籤可根據此範本定義行銷活動的執行日期。
+1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。 使用此索引標籤可根據此範本定義行銷活動的執行日期。
    ![](assets/recurring-campaign-schedule.png)
 
    執行排程的設定模式與工作流程的&#x200B;**[!UICONTROL Scheduler]**&#x200B;物件一致。 [了解更多資訊](../workflow/scheduler.md)。

@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-TQID: https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM
+TQID: 'https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 14%
-
+source-wordcount: '472'
+ht-degree: 18%
 ---
-
 # 開始使用行銷活動 {#gs-marketing-campaigns}
 
 Adobe Campaign可讓您定義、最佳化、執行和分析通訊與行銷活動。 Adobe Campaign就像行銷策略的統一訂單和執行中心。 管理多個資料來源、定義對象區段，以及透過拖放式視覺工作流程介面來規劃和執行多步驟、跨頻道行銷活動。
@@ -56,10 +63,10 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 定義稽核者並設定核准流程以監控和控制行銷活動的流程：目標定位、內容、預算、摘取和校樣傳送。 在本節[&#128279;](marketing-campaign-approval.md)中瞭解如何設定核准。
 
 1. **監視傳遞**。
-從儀表板追蹤您的行銷活動、從Campaign UI檢查傳遞狀態和執行。[瞭解更多](marketing-campaign-monitoring.md)。
+從控制面板追蹤行銷活動、從Campaign UI檢查傳遞狀態和執行。 [了解更多資訊](marketing-campaign-monitoring.md)。
 
 1. **追蹤預算、庫存和相關成本**。
-使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。[深入瞭解](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
+使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。 [了解更多資訊](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
 完成這些步驟後，您可以[開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳遞相關的資料、流程和資訊，並在必要時[管理相關檔案](marketing-campaign-deliveries.md#manage-associated-documents)。 您也可以[追蹤並監視行銷活動和傳遞的執行](marketing-campaign-monitoring.md)。
 

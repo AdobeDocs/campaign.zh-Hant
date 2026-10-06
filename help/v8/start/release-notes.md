@@ -3,23 +3,34 @@ title: Campaign v8 發行說明
 description: 最新的 Campaign v8 版本
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
+TQID: 'https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2098
-ht-degree: 6%
-
+source-wordcount: '2098'
+ht-degree: 11%
 ---
-
 # 最新版本 {#latest-release}
 
 本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。 在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。 本文件的先前版本區段將列出其他版本。
@@ -34,11 +45,11 @@ _2026 年 8 月 11 日_
 
 此版本包含安全性修正，可加強您的Campaign環境的整體安全性狀況。 作為託管客戶，Adobe會在升級時套用這些修正，而您無需採取任何動作。
 
-### 外部URL允許清單更新 {#url-allow-list-update-8-9-3}
+### 外部 URL 允許清單更新 {#url-allow-list-update-8-9-3}
 
-此版本包含用於傳遞內容和附件的外部URL允許清單的更新。 確定您目前參考的所有網域都已新增至您執行個體的已核准允許清單。
+此版本包含用於傳遞內容和附件的外部 URL 允許清單的更新。 確定您目前參考的所有網域都已新增至您執行個體的已核准允許清單。
 
-身為Campaign管理員，請使用「控制面板」將目前用於傳遞中的外部URL新增至允許清單，並對任何未來的新外部URL遵循相同程式。 在2026年9月5日之前完成此活動，以避免影響受影響的傳送。 如需步驟，請參閱[新增URL許可權](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
+身為行銷活動管理員，請使用「控制面板」將目前用於即時傳遞中的外部 URL 新增至允許清單，並對任何未來的新外部 URL 遵循相同程式。 在 2026 年 9 月 5 日之前完成此活動，以避免影響受影響的即時傳遞。 如需步驟，請參閱[新增 URL 權限](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
 
 ### Adobe Analytics聯結器已升級至Analytics 2.0 API {#analytics-2-0-8-9-3}
 

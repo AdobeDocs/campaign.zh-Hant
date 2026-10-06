@@ -5,16 +5,23 @@ description: 進一步瞭解時間限制工作流程活動
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 0a922827-456d-425c-be04-d9efbb152c92
-TQID: https://experienceleague.adobe.com/H5or5WZXA8Nl2OBYo6EkFGAwEguMYDCKs1CqLbzODkk
+TQID: 'https://experienceleague.adobe.com/H5or5WZXA8Nl2OBYo6EkFGAwEguMYDCKs1CqLbzODkk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 99
+source-wordcount: '99'
 ht-degree: 4%
-
 ---
-
 # 時間限制{#time-constraint}
 
 **時間限制**&#x200B;活動可讓您延遲執行任務或捨棄該任務。

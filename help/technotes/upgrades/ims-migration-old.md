@@ -3,13 +3,16 @@ title: 將技術使用者移轉至Adobe Developer主控台
 description: 瞭解如何將Campaign技術操作者移轉至Adobe Developer主控台上的技術帳戶
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 1%
-
+source-wordcount: '917'
+ht-degree: 0%
 ---
-
 # Campaign技術運運算元移轉至Adobe Developer Console {#migrate-tech-users-to-ims}
 
 自Campaign v8.5開始，改善對Campaign v8的驗證流程。 技術操作員必須使用[Adobe Identity Management System (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}連線至Campaign。 技術運運算元是已針對API整合明確建立的Campaign使用者設定檔。 本文詳細說明將技術運運算元移轉至Adobe Developer主控台上的技術帳戶所需的步驟。
@@ -76,7 +79,7 @@ Campaign一般使用者已透過Adobe Campaign Identity Management System (IMS)�
 
 只有在已為此運運算元（而非透過運運算元的群組）定義特定檔案夾許可權或已命名許可權時，才需要執行此步驟。
 
-您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
+您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。 您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
 若要更新此運運算元，請執行下列步驟：
 
 1. 從Campaign使用者端主控台總管，瀏覽至&#x200B;**管理>存取管理>操作員**。
