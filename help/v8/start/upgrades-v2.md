@@ -98,7 +98,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 新版本及其變更列在[發行說明](release-notes.md)中。
 
-如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
+如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=zh-Hant&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
 
 如需安全性通知與組織安全性更新準備的指南，請參閱[隨時掌握資訊](#security-staying-informed)。
 
