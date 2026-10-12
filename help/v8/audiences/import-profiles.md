@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 21%
@@ -47,13 +47,13 @@ ht-degree: 21%
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 
-在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=zh-Hant){target="_blank"}。
+在檔案中準備和建構您的資料，以使用工作流程匯入資料。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}。
 
 ### 從檔案載入資料 {#data-from-a-file}
 
-工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=zh-Hant){target="_blank"}。
+工作流程中處理的資料可從結構化檔案中擷取，以便匯入Adobe Campaign中。 [了解更多資訊](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}。
 
-收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=zh-Hant){target="_blank"}。
+收集到資料後，您便可以在工作流程中使用資料，例如擴充傳遞或更新資料庫。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}。
 
 ## 一次性匯入{#import-jobs}
 
