@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1039'
 ht-degree: 1%
 ---
 # 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔 {#ac-aep-lp}
@@ -123,7 +123,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=zh-Hant#JavaScript-code){target="_blank"}。
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
