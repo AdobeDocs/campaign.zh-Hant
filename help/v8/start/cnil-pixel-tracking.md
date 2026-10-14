@@ -1,6 +1,6 @@
 ---
-title: 電子郵件追蹤像素和 CNIL 指引
-description: 瞭解CNIL更新的電子郵件追蹤畫素指南，以及可支援法規遵循工作的Adobe Campaign功能。
+title: 有關電子郵件追蹤畫素的指引
+description: 瞭解電子郵件追蹤畫素的相關法規指引，以及可支援合規性工作的Adobe Campaign功能。
 version: Campaign v8, Campaign Classic v7
 hide: true
 product_v2:
@@ -8,27 +8,25 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 93335b46b1c706a9409f0816b2ced4ebc612d5fe
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 ---
 
-# 瞭解CNIL更新的電子郵件追蹤畫素指南
+# 有關電子郵件追蹤畫素的指引
 
 這篇文章僅供參考。 這不是法律建議，也不保證您遵守適用法律。 底下所述的Adobe Campaign產品功能是建置區塊，若妥善設定和運作，可支援相容的實作。 每位客戶都有責任決定及遵守其適用法律義務。
 
 ## 概觀
 
-在2026年4月14日，法國資料保護機構&#x200B;_全國資訊與自由委員會_ (CNIL)發佈了一項關於在電子郵件中使用追蹤畫素的[建議](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)。 此指引澄清何時需要同意，並強調正確同意實務對於電子郵件畫素追蹤的重要性。 此政策可能會影響任何實體傳送電子郵件給法國訂閱者的傳送實務。
+在2026年4月14日，法國資料保護機構&#x200B;_全國資訊與自由委員會_ (CNIL)發佈了一項關於在電子郵件中使用追蹤畫素的[建議](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)。 不久，義大利的獨立資料保護機構(「Garante」)發佈了布建編號。 284 (「Garante Provision」)，2026年4月17日。 雖然指導檔案不具法律約束力，但會釐清何時需要同意，並強調電子郵件畫素追蹤的適當同意實務的重要性。 根據適用的歐盟隱私法，此政策可能會影響任何實體向訂閱者傳送電子郵件的傳送做法。
 
-CNIL從建議之日起提供三個月的時間，讓公司通知其電子郵件收件者（「使用者」）追蹤畫素的存在、其目的和使用者選擇退出的權利。 在此轉換期間，客戶應通知使用者畫素追蹤的相關資訊，並視需要提供選擇退出。 預計CNIL將在2026年7月14日之後開始執行活動。
+隨著監管機構持續釐清追蹤畫素和相關問題的指引，Adobe將繼續監控變更，並通知客戶支援Adobe Campaign等電子郵件行銷的Adobe產品的技術功能。 Adobe有關電子郵件追蹤畫素的檔案反映目前的法規指引。 Adobe會視需要持續更新檔案，以反映可能因監管要求變化而影響Adobe CXO產品使用的相關變更。 延遲更新原物料並不會代表Adobe失敗。
 
-隨著CNIL和其他監管機構釐清追蹤畫素和相關問題的指引，Adobe將繼續監控更新，並通知客戶支援Adobe Campaign等電子郵件行銷的Adobe產品的技術功能。
+Adobe電子郵件行銷執行應用程式，包括Adobe Journey Optimizer、Journey Optimizer B2B、Adobe Campaign和Marketo Engage，可提供可協助客戶在傳送或電子郵件層級管理開啟追蹤的控制項。 根據適用的指引和其他法律，客戶有責任決定自己的合規義務，但這些功能可能會支援客戶合規工作。
 
-Adobe電子郵件行銷執行應用程式，包括Adobe Journey Optimizer、Journey Optimizer B2B、Adobe Campaign和Marketo Engage，可提供可協助客戶在傳送或電子郵件層級管理開啟追蹤的控制項。 根據適用的CNIL指引和其他法律，客戶有責任決定自己的合規義務，但這些功能可能會支援客戶合規工作。
-
-## 什麼是電子郵件追蹤畫素
+## 什麼是電子郵件追蹤畫素？
 
 電子郵件追蹤畫素是內嵌在電子郵件HTML中的1x1透明影像。 收件者的電子郵件使用者端載入該影像時，畫素會偵測伺服器並記錄時間戳記、裝置型別、電子郵件使用者端等資料，有時還會偵測大致位置的IP位址。 然後，該記錄會繫結至收件者的記錄，讓行銷人員檢視電子郵件是否已開啟。
 
@@ -38,7 +36,7 @@ Adobe電子郵件行銷執行應用程式，包括Adobe Journey Optimizer、Jour
 
 ## 與電子郵件追蹤相關的Adobe Campaign功能
 
-客戶在設定架構以處理CNIL指引時，可以使用Adobe Campaign的原生追蹤、結構和個人化機制來處理某些元素：
+客戶在設定架構以解決電子郵件追蹤畫素的相關指引時，可使用Adobe Campaign的原生追蹤、結構描述和個人化機制來解決某些元素：
 
 * **傳遞的分類。** 使用`emailType`屬性（驗證、僅傳遞能力、異動、行銷、公共服務、B2B潛在客戶）延伸`nms:delivery`。 分類會未經同意而允許使用哪些畫素。
 
@@ -57,10 +55,10 @@ Adobe電子郵件行銷執行應用程式，包括Adobe Journey Optimizer、Jour
 
 | 產品 | 檔案參考 |
 |---|---|
-| Campaign v8 | [郵件追蹤](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [開始使用訊息追蹤](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Journey Optimizer | [訊息追蹤檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [停用電子郵件連結的追蹤](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [電子郵件設定檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [郵件追蹤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [開始使用訊息追蹤](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Journey Optimizer | [訊息追蹤檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [停用電子郵件連結的追蹤](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [電子郵件設定檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
