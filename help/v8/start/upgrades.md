@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 7%
+source-wordcount: '1780'
+ht-degree: 6%
 ---
 # 版本、升級和安全性 {#upgrades}
 
@@ -64,6 +64,16 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 有關每個新版本的詳細資訊，請參閱[發行說明](release-notes.md)。 安全性相關修正會在每個發行說明中說明。 如需安全性通知的詳細資訊，請參閱[隨時瞭解情況](#security-staying-informed)。
 
 若要確保穩定設定，Adobe建議您在所有的Campaign伺服器上安裝&#x200B;**完全相同的版本**。 此外，除在[發行說明](release-notes.md)中另有提及外，使用者端主控台必須使用&#x200B;**與伺服器執行個體完全相同的版本**。 透過[本頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
+
+### Hotflix {#hotflixes}
+
+在特殊情況下，Adobe可能會提供客戶特定的Hotfix，以便在標準版本提供修正之前解決問題。 Hotfix要求會逐一進行評估，且不屬於標準發行週期。
+
+應透過Adobe客戶服務提出Hotfix請求。 如果獲得核准，系統會為受影響的客戶和產品組建準備一個Hotfix。 Hotfix並非適用於所有客戶的一般版本；Adobe可在檢閱後核准與其他受影響客戶共用。
+
+傳送Hotfix時，Hotfix詳細資料可能不會包含在公開發行說明中。 Adobe稍後可能會在適用版本的標準發行版本中包含hotfix。 我們並不保證包含性和時機。 如需瞭解每個標準版本所含的變更，請參閱版本注意事項。
+
+此客戶特定的Hotfix程式與上述重要安全性修補程式原則不同，Adobe可在此原則下將重要安全性修補程式套用至託管環境，恕不另行通知。
 
 ### 讓您的使用者端主控台保持最新狀態 {#ac-upgrades}
 
