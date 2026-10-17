@@ -109,7 +109,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. 選取與您的頻道對應的標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}。
+1. 選取與您的頻道對應的標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=zh-Hant#fields){target="_blank"}。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
