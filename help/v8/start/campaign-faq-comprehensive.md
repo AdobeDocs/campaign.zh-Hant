@@ -1819,7 +1819,7 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 與其他Campaign使用者和Adobe專家交流，以分享知識並獲得答案。
 
 * **[Adobe Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}** — 提出問題、共用解決方案，以及與Campaign社群連絡
-* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant){target="_blank"}** — 瀏覽所有Adobe產品的討論
+* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant&lang=zh_tw){target="_blank"}** — 瀏覽所有Adobe產品的討論
 * **[Campaign社群辦公時間](https://experienceleague.adobe.com/zh-hant){target="_blank"}** — 與Adobe專家一起加入即時會議
 
 ### 檔案與學習
