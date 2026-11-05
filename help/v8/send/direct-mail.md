@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '921'
 ht-degree: 7%
 ---
 # 建立直接郵件傳遞
@@ -90,11 +90,11 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=zh-Hant){target="_blank"}。
+您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}。
 
 >[!NOTE]
 >
->此助理包含匯出助理的步驟以詳細說明Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=zh-Hant){target="_blank"}。
+>此助理包含匯出助理的步驟以詳細說明Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}。
 
 ## 驗證傳遞{#validating}
 
@@ -138,3 +138,7 @@ ht-degree: 7%
 確認會在指定的檔案中開始資料擷取。
 
 在行銷活動的內容中，當所有核准都獲得授權時，擷取檔案會透過特殊工作流程建立，在預設設定中，當直接郵件傳送擱置擷取時，會自動開始。 若要了解更多資訊，請參閱[此區段](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant){target="_blank"}。
+
+>[!NOTE]
+>
+>當您在工作流程中使用&#x200B;**[!UICONTROL Direct mail]**&#x200B;活動時，其外站轉變會攜帶目標母體，而不是產生的擷取檔案。 若要將檔案傳送至伺服器，請在&#x200B;**[!UICONTROL Direct mail]**&#x200B;活動之後新增&#x200B;**[!UICONTROL Data extraction]**&#x200B;活動，然後新增&#x200B;**[!UICONTROL File transfer]**&#x200B;活動。
