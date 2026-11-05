@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1244'
 ht-degree: 9%
 ---
 # 設定並傳送傳遞 {#configure-delivery}
@@ -98,6 +98,8 @@ ht-degree: 9%
 >* 請確定最後一個批次沒有超過在&#x200B;**[!UICONTROL Validity]**&#x200B;索引標籤中定義的傳送期限。 否則，部分訊息可能不會傳送。 在[本節](delivery-failures.md#valid-period)中進一步瞭解傳遞的有效期。
 >
 >* 在設定最後一個波段時，您也必須設定足夠的重試時間。 在[本節](delivery-failures.md#retries)中進一步瞭解重試。
+>
+>* 從傳遞的聯絡日期開始排程波段。 如果在一或多個批次的計畫時間後開始傳遞，這些逾期批次會一起傳送，而不是彼此隔開。
 
 ### 監視波段 {#monitor-waves}
 

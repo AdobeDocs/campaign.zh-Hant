@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3475'
 ht-degree: 6%
 ---
 # 瞭解傳遞失敗 {#delivery-failures}
@@ -156,6 +156,8 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 例如，如果有效期間在Campaign中設定為預設值5天，則軟退信訊息會進入MTA重試佇列，並從該訊息達到MTA時起最多只重試3.5天。 在此情況下，將不會使用Campaign中設定的值。
 
 訊息在MTA佇列中停留3.5天且無法傳送後，訊息會逾時，其狀態會從傳送記錄檔中的&#x200B;**[!UICONTROL Sent]**&#x200B;更新為&#x200B;**[!UICONTROL Failed]**。
+
+當下次重試在到期時間後時，訊息可在有效期間結束之前到期。 然後，傳遞記錄會顯示上次嘗試傳遞時的失敗。
 
 <!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}.-->
 

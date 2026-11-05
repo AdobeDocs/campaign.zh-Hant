@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2184'
 ht-degree: 1%
 ---
 # 設定外部帳戶 {#config-external-accounts}
@@ -252,6 +252,10 @@ Snowflake FDA連線使用Snowflake ODBC驅動程式。 從Campaign v8.9.1開始�
   * **[!UICONTROL Encryption]**：加密型別： **[!UICONTROL None]**&#x200B;或&#x200B;**[!UICONTROL SSL]**。
 
   * **[!UICONTROL Access key]**：在[Microsoft檔案](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}中瞭解如何尋找您的&#x200B;**[!UICONTROL Access key]**。
+
+  >[!NOTE]
+  >
+  >Azure Blob儲存體會依名稱首碼（而非模式）篩選檔案。 檔案遮罩中的尾端星號(`*`)已移除，因此`TEST_EXPORT_AZURE_*`會比對所有以`TEST_EXPORT_AZURE_`開頭的檔案。 不支援星號後的字元，例如`TEST_EXPORT_AZURE_*.csv`。 [在Microsoft檔案中進一步瞭解](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}。
 
 * **Microsoft光纖** - **Microsoft光纖**&#x200B;外部帳戶可讓您使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;工作流程活動，在Microsoft光纖和Adobe Campaign之間匯入及匯出資料。 若要設定此整合，請提供下列詳細資料：
 

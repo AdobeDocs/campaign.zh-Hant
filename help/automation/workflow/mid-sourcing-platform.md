@@ -18,10 +18,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8a7bf8408d15e0bd9e1c3e72f7846bf9a79c6885
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 1%
 ---
 
 # 中間來源平台{#mid-sourcing-platform}
@@ -45,3 +45,6 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>中間來源伺服器上的記錄保留期間必須長於傳遞有效期間加上&#x200B;**indicatorsDuration**&#x200B;值。 否則，在清除舊記錄檔時，傳送指標會降低，而較低的值會同步至行銷執行個體。 例如，如果有效期間為5天，而&#x200B;**indicatorsDuration**&#x200B;為30天，請將保留期間設定為至少36天。
