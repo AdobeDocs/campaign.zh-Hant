@@ -47,7 +47,7 @@ Web應用程式型別是在建立期間選取的。
 
 >[!NOTE]
 >
->一律保護可能包含個人資訊的頁面。 請參閱[安全性與隱私權檢查清單](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)。
+>一律保護可能包含個人資訊的頁面。 請參閱[安全性與隱私權檢查清單](https://helpx.adobe.com/tw/campaign/kb/acc-security.html#privacy)。
 
 此範本決定了Web應用程式的型別。 您可以建立：
 
@@ -73,7 +73,7 @@ Web應用程式型別是在建立期間選取的。
 
 1. Facebook應用程式
 
-   有了&#x200B;**社交行銷**&#x200B;選項，Adobe Campaign可讓您在Facebook應用程式中發佈個人化內容。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}。
+   有了&#x200B;**社交行銷**&#x200B;選項，Adobe Campaign可讓您在Facebook應用程式中發佈個人化內容。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}。
 
    >[!CAUTION]
    >

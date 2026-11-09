@@ -159,7 +159,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-登入和密碼為Adobe Campaign操作者所使用的專案。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
+登入和密碼為Adobe Campaign操作者所使用的專案。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
 
 **[!UICONTROL Use a specific account]**&#x200B;選項可讓您限制存取表單之操作員的讀取或寫入許可權。 使用下拉式方塊來選取將負責授與這些許可權的運運算元或運運算元群組。
 

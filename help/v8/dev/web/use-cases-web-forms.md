@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 步驟1 — 建立資訊服務 {#step-1---creating-information-services}
 
-1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
+1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 

@@ -37,7 +37,7 @@ ht-degree: 2%
 >
 >針對最常見的使用案例，請在Campaign網頁使用者介面中建立您的登入頁面，以便您輕鬆設計及發佈。 如本節所述，在使用者端主控台中建立的登入頁面可提供更多設定，並涵蓋更進階的使用案例。
 >
->[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 

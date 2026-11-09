@@ -153,4 +153,4 @@ ht-degree: 0%
 >
 >可能的操作包括： **[!UICONTROL Simple reconciliation]**、**[!UICONTROL Update or insertion]**、**[!UICONTROL Insertion]**、**[!UICONTROL Update]**、**[!UICONTROL Deletion]**。\
 >操作員的預設資料夾是操作員具有寫入許可權的第一個資料夾。\
->請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
+>請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
