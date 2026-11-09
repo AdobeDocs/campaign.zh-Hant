@@ -26,7 +26,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 5%
@@ -73,7 +73,7 @@ Adobe Admin Console是管理整個組織中Adobe許可權的中央位置。 僅�
 
 在Admin Console中，Campaign的每個Adobe Experience Cloud **產品設定檔**&#x200B;都與Campaign使用者端主控台中的&#x200B;**操作員群組**&#x200B;相關聯。
 
-瞭解如何在[此頁面](manage-permissions.md#create-a-product-profile)中建立和指派產品設定檔。
+瞭解如何在[此頁面](manage-permissions.md#create-product-profile)中建立和指派產品設定檔。
 
 ## 行銷活動已命名的許可權{#named-rights}
 

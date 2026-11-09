@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1599'
 ht-degree: 56%
 ---
 # 合作使用Campaign與Adobe Analytics {#ac-aa}
@@ -49,7 +49,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
+>作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq-comprehensive.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。 必須透過專用套件將Web Analytics聯結器附加元件安裝在您的環境中。
 
 Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web Analytics)。 網站分析工具可讓Adobe Campaign將指標和行銷活動屬性轉送至Analytics。
 
@@ -85,7 +85,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 從&#x200B;**[!UICONTROL Report suite manager]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL Create new]**，然後按一下&#x200B;**[!UICONTROL Report suite]**。
 
-   如需建立&#x200B;**[!UICONTROL Report suite]**&#x200B;的詳細程式，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}。
+   如需建立&#x200B;**[!UICONTROL Report suite]**&#x200B;的詳細程式，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}。
 
    ![](assets/analytics_connnector_3.png)
 

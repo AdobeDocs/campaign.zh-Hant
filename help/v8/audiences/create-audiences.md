@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 13%
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔資料表(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
+清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔資料表(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles)
 
 ![](assets/list-dashboard.png)
 

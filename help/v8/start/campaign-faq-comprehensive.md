@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '11539'
+source-wordcount: '11533'
 ht-degree: 12%
 ---
 # 常見問題集 {#faq}
@@ -169,7 +169,7 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 
 若要聯絡Adobe客戶支援，請連線至[Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}以建立案例或開始聊天工作階段。
 
-需要具有正確許可權的個別帳戶。 如果您無法登入，請透過Experience League要求存取權。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+需要具有正確許可權的個別帳戶。 如果您無法登入，請透過Experience League要求存取權。 [了解更多](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
 或者，加入[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}以搜尋答案或詢問專家。
 
@@ -212,7 +212,7 @@ Campaign v8明顯改善了效能，但與Campaign Classic v7在架構上有一�
 
 **相關主題：**
 
-[Campaign v7移轉至v8](../start/v7-to-v8.md#limitations) | [FFDA架構](../architecture/enterprise-deployment.md)
+[Campaign v7移轉至v8](../start/v7-to-v8.md) | [FFDA架構](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -820,7 +820,7 @@ Campaign也支援聯絡日期最佳化（每個收件者的最佳傳送時間）
 
 使用安全的檔案格式(PDF、JPEG、PNG、DOCX)並在生產傳送之前使用種子地址進行測試。
 
-進一步瞭解[電子郵件附件指南](../send/email.md#attachments)
+進一步瞭解[電子郵件附件指南](../send/email.md)
 
 +++
 
@@ -1515,7 +1515,7 @@ Campaign會根據您的需求和技術專業提供多種報告選項：內建報
 
 **相關主題：**
 
-[開始使用意見調查](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [意見調查報告](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[開始使用意見調查](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [意見調查報告](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
@@ -1754,7 +1754,7 @@ Campaign提供訂閱服務、偏好設定中心、選擇退出標幟，以及追
 
 **相關主題：**
 
-[訂閱服務](../start/subscriptions.md) | [隱私權與同意](../start/privacy.md#consent-retention-roles) | [隱私權管理](../start/privacy.md)
+[訂閱服務](../start/subscriptions.md) | [隱私權與同意](../start/privacy.md) | [隱私權管理](../start/privacy.md)
 
 +++
 
@@ -1819,7 +1819,7 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 與其他Campaign使用者和Adobe專家交流，以分享知識並獲得答案。
 
 * **[Adobe Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}** — 提出問題、共用解決方案，以及與Campaign社群連絡
-* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant&lang=zh_tw){target="_blank"}** — 瀏覽所有Adobe產品的討論
+* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/?lang=zh_tw){target="_blank"}** — 瀏覽所有Adobe產品的討論
 * **[Campaign社群辦公時間](https://experienceleague.adobe.com/zh-hant){target="_blank"}** — 與Adobe專家一起加入即時會議
 
 ### 檔案與學習
@@ -1839,12 +1839,12 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 * **[相容性矩陣](compatibility-matrix.md)** — 支援的系統和版本
 * **[版本和升級常見問題集](upgrades.md)** — 檢查您的版本並瞭解升級相關資訊
 
-### 支援與服務
+### 支援與服務 {#support}
 
 取得Adobe支援團隊的協助並管理您的執行個體。
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** — 記錄支援案例並管理使用者
-* **[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** — 聯絡支援團隊
+* **[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html){target="_blank"}** — 聯絡支援團隊
 * **[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}** — 管理您的Campaign執行個體設定
 * **[系統狀態](https://status.adobe.com/zh-tw/){target="_blank"}** — 檢查Adobe服務狀態
 

@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -84,7 +84,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >依預設，使用者建立的方案會儲存在「cus」名稱空間。 如需詳細資訊，請參閱[結構描述識別](extend-schema.md#identification-of-a-schema)。
+   >依預設，使用者建立的方案會儲存在「cus」名稱空間。 如需詳細資訊，請參閱[結構描述識別](extend-schema.md)。
 
 1. 建立表格內容。 我們建議使用專用助理來確認沒有遺失任何設定。 若要這麼做，請按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，然後選擇要新增的設定型別。
 

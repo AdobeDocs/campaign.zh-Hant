@@ -19,7 +19,7 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->有關設定和使用&#x200B;**[!UICONTROL Union]**&#x200B;活動的詳細資訊，請參閱[此頁面](targeting-workflows.md#combining-several-targets--union-)。
+>有關設定和使用&#x200B;**[!UICONTROL Union]**&#x200B;活動的詳細資訊，請參閱[此頁面](targeting-workflows.md#combine-several-targets--union-)。
 
 ## 聯合範例 {#union-example}
 

@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如需設定及使用排除活動的詳細資訊，請參閱[排除母體（排除）](targeting-workflows.md#excluding-a-population--exclusion-)。
+>如需設定及使用排除活動的詳細資訊，請參閱[排除母體（排除）](targeting-workflows.md#exclude-a-population--exclusion-)。
 
 如果要利用剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 補數將包含主要傳入母體減去傳出母體。 隨後會將其他輸出轉變新增到活動中，如下所示：
 

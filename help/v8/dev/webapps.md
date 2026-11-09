@@ -27,16 +27,22 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '227'
 ht-degree: 0%
 ---
 # 開始使用網路應用程式和網路表單{#gs-ac-web}
 
+>[!NOTE]
+>
+>針對最常見的使用案例，請在Campaign網頁使用者介面中建立您的登入頁面，以便您輕鬆設計及發佈。 如本節所述，在使用者端主控台中建立的登入頁面可提供更多設定，並涵蓋更進階的使用案例。
+>
+>[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+
 Adobe Campaign整合了圖形模組，用於定義及發佈&#x200B;**網路表單**，以建立包含輸入及選擇欄位的頁面，其中可能包含資料庫的資料。 這可讓您設計和張貼使用者可存取的網頁，以檢視或輸入資訊。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant#designing-content){target="_blank"}中瞭解如何建立和發佈網路表單
+瞭解如何在[本節](web/about-web-forms.md)中建立和發佈網路表單
 
 ![](assets/sample.png)
 
@@ -44,4 +50,4 @@ Adobe Campaign也可讓您使用來自資料庫的資料，以及適合連線使
 
 您可以建立頁面，例如外部網路上的編輯表單，或通知表單，其中包含來自資料庫的資料，以及表格、圖表、輸入表單等。此功能可讓您設計和張貼網頁，讓使用者在其中查閱或輸入資訊。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=zh-Hant#designing-content){target="_blank"}中瞭解如何建立和發佈網頁應用程式
+在[本節](web/about-web-applications.md)中瞭解如何建立和發佈網頁應用程式

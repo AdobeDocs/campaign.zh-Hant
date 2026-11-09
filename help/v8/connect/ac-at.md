@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 >[!NOTE]
 >* 整合僅支援靜態影像。 其他型別的內容無法個人化。
 >
->* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以透過Campaign實作Experience Cloud觸發器。
+>* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq-comprehensive.md#support)以透過Campaign實作Experience Cloud觸發器。
 
 Adobe Target可使用下列型別的資料：
 

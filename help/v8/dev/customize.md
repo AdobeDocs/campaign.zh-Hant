@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '503'
 ht-degree: 1%
 ---
 # 自訂您的執行個體 {#gs-ac-custom}
@@ -92,7 +92,7 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 內建的Web應用程式儲存在Explorer的&#x200B;**管理>組態> Web應用程式**&#x200B;資料夾中。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}中瞭解如何在Campaign中建立概觀頁面
+在[本節](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)中瞭解如何在Campaign中建立概觀頁面
 
 
 ## 自訂清單並建立篩選器 {#gs-lists-and-filters}

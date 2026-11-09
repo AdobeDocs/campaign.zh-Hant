@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 設計豐富推送通知傳送
+title: 設計 iOS 豐富的推播傳遞
 description: 瞭解如何使用Adobe Campaign Web設計iOS豐富推送通知傳送
 feature: Push
 role: User
@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 5%

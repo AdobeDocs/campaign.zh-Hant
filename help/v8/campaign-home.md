@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 45%
+source-wordcount: '505'
+ht-degree: 44%
 ---
 # Adobe Campaign v8 (主控台) 文件 {#campaign-documentation}
 
@@ -98,7 +98,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="start/campaign-ui.md">使用者介面</a> - <a href="start/ac-components.md">元件與程式</a> - <a href="start/v7-to-v8.md">從傳統v7到v8</a> - <a href="start/campaign-faq.md">常見問題集</a>
+      <strong>開始使用</strong><br/><a href="start/campaign-ui.md">使用者介面</a> - <a href="start/ac-components.md">元件與程式</a> - <a href="start/v7-to-v8.md">從傳統v7到v8</a> - <a href="start/campaign-faq-comprehensive.md">常見問題集</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

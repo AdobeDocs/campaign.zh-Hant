@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 3%
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
+>作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq-comprehensive.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
 
 
 若要設定Adobe Campaign將推文張貼至您的X帳戶，請委派這些帳戶的Adobe Campaign寫入許可權。 若要這麼做，您必須：
@@ -169,7 +169,7 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 
 ## 在X上建立測試帳戶 {#tw-test-account}
 
-除了X帳戶，請建立私人X帳戶，用來傳送[推文校樣](../send/twitter.md#send-tw-proofs)。 要執行此操作，請遵循下列步驟：
+除了X帳戶，請建立私人X帳戶，用來傳送[推文校樣](../send/twitter.md)。 要執行此操作，請遵循下列步驟：
 
 1. 建立新的X帳戶。
 1. 存取帳戶&#x200B;**設定**。

@@ -3,12 +3,15 @@ product: campaign
 title: 開始使用分散式行銷
 description: 開始使用分散式行銷
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 TQID: https://experienceleague.adobe.com/Xic-o4WB0jDoHpUAdN2U9Uunuf8rAcQ7rrcpXIFLqSI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -27,13 +30,11 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 0%
-
 ---
-
 # 開始使用分散式行銷{#about-distributed-marketing}
 
 Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在中央實體（總部、行銷部門等）之間實施合作行銷活動 和地方實體（銷售點、地區代理等）。 此合作是以稱為&#x200B;**[!UICONTROL list of campaign packages]**&#x200B;的共用工作區為基礎，集中式建立的行銷活動範本和執行個體會提供給本機實體。

@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 設計豐富推送通知傳送
+title: 設計 Android 豐富的推播傳遞
 description: 瞭解如何使用Adobe Campaign Web設計豐富推送通知傳送
 feature: Push
 role: User
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 3%

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔 {#ac-aep-lp}
@@ -369,5 +369,5 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 ### 更多資訊
 
 * [設定JavaScript程式碼活動](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [設定登陸頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=zh-Hant){target="_blank"}
+* [設定登陸頁面](../dev/web/creating-a-landing-page.md)
 * [管理訂閱和取消訂閱](../start/subscriptions.md)

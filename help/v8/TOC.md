@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 85%
+source-wordcount: '1084'
+ht-degree: 88%
 ---
 
 # Adobe Campaign v8 (主控台) 文件 {#campaign-v8}
@@ -37,17 +37,8 @@ ht-degree: 85%
   + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
   + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
   + [常見問題集](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[常見問題](start/campaign-faq.md)
   + {hide-from-toc}[電子郵件追蹤畫素和CNIL指引](start/cnil-pixel-tracking.md)
-+ 管理與許可權 {#permissions}
-  + [開始使用權限](start/gs-permissions.md)
-  + [管理使用者權限](start/manage-permissions.md)
-  + [新增資料夾權限](start/folder-permissions.md)
-  + [控制面板](config/self-service.md)
-+ 行銷活動管理 {#campaigns}
-  + [開始使用行銷活動](start/campaigns.md)
-  + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
-+ 傳送訊息 {#send}
++ 訊息 {#send}
   + [開始使用訊息](start/gs-message.md)
   + [建立您的第一個傳遞](start/create-message.md)
   + [使用傳遞範本](send/create-templates.md)
@@ -123,7 +114,7 @@ ht-degree: 85%
       + [收集和處理事件](send/event-processing.md)
       + [了解事件說明](send/event-description.md)
       + [傳送和監視訊息](send/delivery-execution.md)
-+ 輪廓和客群 {#audience}
++ 設定檔與對象 {#audience}
   + [開始使用輪廓和客群](audiences/gs-audiences.md)
   + [配合客群](start/audiences.md)
   + [存取輪廓](audiences/view-profiles.md)
@@ -139,17 +130,54 @@ ht-degree: 85%
     + {hide-from-toc}[與Adobe解決方案共用對象](start/shared-audiences.md)
   + {hide-from-toc}[最佳實務](audiences/audiences-best-practices.md)
   + [管理訂閱](start/subscriptions.md)
-+ 登陸頁面和Forms {#content}
++ 登陸頁面與表單 {#content}
   + [建立登陸頁面](dev/landing-pages.md)
   + [設計網頁應用程式和表單](dev/webapps.md)
+  + 網頁應用程式 {#web-applications}
+    + [開始使用網路應用程式](dev/web/about-web-applications.md)
+    + [建立新的網站應用程式](dev/web/creating-a-new-web-application.md)
+    + [設計網站應用程式](dev/web/designing-a-web-application.md)
+    + [使用案例：建立概觀](dev/web/use-cases-creating-overviews.md)
+    + [追蹤網站應用程式](dev/web/translating-a-web-application.md)
+    + [追蹤網站應用程式的瀏覽次數](dev/web/tracking-a-web-application.md)
+    + [網站應用程式追蹤選擇退出](dev/web/web-application-tracking-opt-out.md)
+  + 編輯 HTML 內容 {#editing-html-content}
+    + [開始使用 HTML 編輯器](dev/web/about-campaign-html-editor.md)
+    + [範本管理](dev/web/template-management.md)
+    + [內容編輯器介面](dev/web/content-editor-interface.md)
+    + [編輯內容](dev/web/editing-content.md)
+    + [內容編輯最佳實務](dev/web/content-editing-best-practices.md)
+    + [設定登陸頁面](dev/web/creating-a-landing-page.md)
+    + [使用實例：建立電子郵件傳遞](dev/web/use-case-creating-an-email-delivery.md)
+  + 網路表單 {#web-forms}
+    + [開始使用網路表單](dev/web/about-web-forms.md)
+    + [使用網路表單範本](dev/web/using-a-web-form-template.md)
+    + [新增欄位至網路表單](dev/web/adding-fields-to-a-web-form.md)
+    + [網路表單中的靜態元素](dev/web/static-elements-in-a-web-form.md)
+    + [定義網路表單版面](dev/web/defining-web-forms-layout.md)
+    + [表單轉譯](dev/web/form-rendering.md)
+    + [定義頁面順序](dev/web/defining-web-forms-page-sequencing.md)
+    + [儲存網路表單答案](dev/web/web-forms-answers.md)
+    + [發佈網路表單](dev/web/publishing-a-web-form.md)
+    + [定義網路表單屬性](dev/web/defining-web-forms-properties.md)
+    + [翻譯網路表單](dev/web/translating-a-web-form.md)
+    + [使用實例：網路表單](dev/web/use-cases-web-forms.md)
+  + 調查 {#surveys}
+    + [開始使用意見調查](dev/surveys/about-surveys.md)
+    + [建立調查的關鍵步驟](dev/surveys/getting-started-with-surveys.md)
+    + [設計調查](dev/surveys/building-a-survey.md)
+    + [管理答案](dev/surveys/managing-answers.md)
+    + [發佈、追蹤及使用收集的資料](dev/surveys/publish-track-and-use-collected-data.md)
+    + [設定調查](dev/surveys/configuring-surveys.md)
+    + [使用實例：建立轉介表單](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [使用案例：針對線上調查的回答顯示報吿](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
++ 行銷活動 {#campaigns}
+  + [開始使用行銷活動](start/campaigns.md)
+  + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
 + 工作流程 {#workflows}
   + [開始使用工作流程](config/workflows.md)
   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
-+ 隱私權與安全性 {#privacy}
-  + [管理隱私權請求](start/privacy.md)
-  + [安全性方針](config/security.md)
-  + [增強式安全性附加元件](config/enhanced-security.md)
-+ Offer Management — 互動 {#offers}
++ 優惠方案與互動 {#offers}
   + [開始使用即時互動](interaction/interaction.md)
   + [環境與架構](interaction/interaction-architecture.md)
   + [最佳實務](interaction/interaction-best-practices.md)
@@ -165,9 +193,31 @@ ht-degree: 85%
     + [內容](interaction/interaction-present-offers.md)
     + [呼叫網頁中的產品建議](interaction/interaction-integration.md)
     + [管理匿名互動](interaction/anonymous-interactions.md)
+  + 管理產品建議目錄 {#managing-an-offer-catalog}
+    + [核准並啟用產品建議](interaction/approving-and-activating-an-offer.md)
+    + [管理產品建議範本](interaction/managing-offer-templates.md)
+    + [管理產品建議簡報](interaction/managing-offer-presentation.md)
+  + 產品建議模擬 {#simulating-offers}
+    + [關於產品建議模擬](interaction/about-offers-simulation.md)
+    + [執行設定](interaction/execution-settings.md)
+    + [模擬範圍](interaction/simulation-scope.md)
+    + [模擬追蹤](interaction/simulation-tracking.md)
   + [報告和歷史記錄](interaction/interaction-tracking.md)
   + [使用案例](interaction/interaction-use-cases.md)
-+ 追蹤和分析 {#analytics}
+  + 使用案例範例 {#case-study}
+    + [簡報規則](interaction/presentation-rules.md)
+    + [傳入頻道上的產品建議](interaction/offers-on-an-inbound-channel.md)
+    + [傳出頻道上的產品建議](interaction/offers-on-an-outbound-channel.md)
+  + [進階設定](interaction/interaction-advanced-settings.md)
+  + 進階參數 {#advanced-parameters}
+    + [擴充功能範例](interaction/extension-example.md)
++ 查詢和資料 {#data}
+  + 查詢資料庫 {#query}
+    + [使用查詢編輯器](start/query-editor.md)
+    + [設計查詢](start/design-queries.md)
+    + [定義篩選條件](start/filter-conditions.md)
+  + [匯入資料](start/import.md)
++ 報告與追蹤 {#analytics}
   + 訊息追蹤 {#tracking}
     + [開始使用追蹤](send/tracking.md)
     + [設定追蹤的連結](send/tracked-links.md)
@@ -190,13 +240,6 @@ ht-degree: 85%
       + [傳遞報告](reporting/delivery-reports.md)
       + [內建量度計算](reporting/metrics-calculation.md)
     + [自訂報告](reporting/custom-reports.md)
-+ 資料管理 {#data}
-  + 查詢資料庫 {#query}
-    + [使用查詢編輯器](start/query-editor.md)
-    + [設計查詢](start/design-queries.md)
-    + [定義篩選條件](start/filter-conditions.md)
-  + [匯入資料](start/import.md)
-  + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
   + [連結 Campaign 與其他解決方案](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -215,6 +258,15 @@ ht-degree: 85%
     + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
     + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [同步資料](connect/crm-data-sync.md)
++ 管理與許可權 {#permissions}
+  + [開始使用權限](start/gs-permissions.md)
+  + [管理使用者權限](start/manage-permissions.md)
+  + [新增資料夾權限](start/folder-permissions.md)
+  + [控制面板](config/self-service.md)
++ 隱私權與安全性 {#privacy}
+  + [管理隱私權請求](start/privacy.md)
+  + [安全性方針](config/security.md)
+  + [增強式安全性附加元件](config/enhanced-security.md)
 + 架構 {#architecture}
   + [全域原則](architecture/general-architecture.md)
   + [架構模型](architecture/architecture.md)
@@ -281,7 +333,7 @@ ht-degree: 85%
     + 管理工作流程 {#managing-workflows}
       + [控管工作流程](dev/api/controlling-a-workflow.md)
       + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
-+ 其他資源 {#resources}
++ 額外資源 {#resources}
   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 

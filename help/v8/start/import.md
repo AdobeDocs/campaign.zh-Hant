@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '3864'
+source-wordcount: '3849'
 ht-degree: 34%
 ---
 # 將資料匯入 Campaign {#ootb-profiles}
@@ -443,7 +443,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 >[!NOTE]
 >
->如同中，對於主控台中可用的所有清單，預設情況下，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 [了解更多](../config/ui-settings.md#manage-and-customize-lists)
+>如同中，對於主控台中可用的所有清單，預設情況下，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 [了解更多](../config/ui-settings.md#customize-lists)
 
 按一下輔助程式底部的標籤，從欄中的結果預覽切換為XML中的結果。 您還可以查看生成的 SQL 查詢。
 
@@ -462,7 +462,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 ![](assets/web-form-page.png)
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=zh-Hant){target="_blank"}中瞭解如何建立網路表單。
+在[本節](../dev/web/about-web-forms.md)中瞭解如何建立網路表單。
 
 **相關主題**
 

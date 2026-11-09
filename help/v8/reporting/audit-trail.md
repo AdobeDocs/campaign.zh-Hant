@@ -3,6 +3,7 @@ product: campaign
 title: 稽核軌跡
 description: 瞭解如何使用Campaign稽核軌跡監控您的執行個體
 feature: Audit Trail, Monitoring, Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:
@@ -31,7 +32,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 2%

@@ -20,7 +20,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 4%
@@ -126,7 +126,7 @@ ht-degree: 4%
 
 * **控制組**
 
-  選取此模組時，範本的進階設定及根據此範本的行銷活動會新增一個標籤。 可透過範本或為每個行銷活動個別定義設定。 在[本節](marketing-campaign-deliveries.md#defining-a-control-group)中進一步瞭解控制組。
+  選取此模組時，範本的進階設定及根據此範本的行銷活動會新增一個標籤。 可透過範本或為每個行銷活動個別定義設定。 在[本節](marketing-campaign-deliveries.md)中進一步瞭解控制組。
 
   ![](assets/template-activate-1.png)
 
@@ -139,7 +139,7 @@ ht-degree: 4%
 
 * **檔案**
 
-  選取此模組時，範本的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤及根據此範本的行銷活動會新增一個索引標籤。 可從範本新增附加檔案，或針對每個促銷活動個別新增。 在[本節](marketing-campaign-deliveries.md#manage-associated-documents)中進一步瞭解檔案。
+  選取此模組時，範本的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤及根據此範本的行銷活動會新增一個索引標籤。 可從範本新增附加檔案，或針對每個促銷活動個別新增。 在[本節](marketing-campaign-deliveries.md)中進一步瞭解檔案。
 
   ![](assets/template-activate-3.png)
 
@@ -151,7 +151,7 @@ ht-degree: 4%
 
 * **目標定位和工作流程**
 
-  選取&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;模組時，會新增索引標籤，讓您根據此範本建立一或多個行銷活動的工作流程。 您也可以根據此範本個別設定每個行銷活動的工作流程。在[本節](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)中進一步瞭解行銷活動工作流程。
+  選取&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;模組時，會新增索引標籤，讓您根據此範本建立一或多個行銷活動的工作流程。 您也可以根據此範本個別設定每個行銷活動的工作流程。在[本節](marketing-campaign-deliveries.md)中進一步瞭解行銷活動工作流程。
 
   ![](assets/template-activate-5.png)
 

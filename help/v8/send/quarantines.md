@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 與硬錯誤相反，軟錯誤不會立即傳送要隔離的地址，而是會增加錯誤計數器。 當錯誤計數器達到限制臨界值時，則會隔離該地址。 在[瞭解傳遞失敗](delivery-failures.md)中進一步瞭解重試和錯誤型別。
 
-如果最後一次重大錯誤發生在10天以前，則會重新初始化錯誤計數器。 然後，地址狀態變更為&#x200B;**[!UICONTROL Valid]**，並由&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流程從隔離清單中刪除該地址。 [進一步瞭解技術工作流程](../config/workflows.md#technical-workflows)。
+如果最後一次重大錯誤發生在10天以前，則會重新初始化錯誤計數器。 然後，地址狀態變更為&#x200B;**[!UICONTROL Valid]**，並由&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流程從隔離清單中刪除該地址。 [進一步瞭解技術工作流程](../config/workflows.md)。
 
 ## 存取隔離的地址 {#access-quarantined-addresses}
 

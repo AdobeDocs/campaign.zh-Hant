@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 7%
+source-wordcount: '904'
+ht-degree: 8%
 ---
 # 建立直接郵件傳遞
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=zh-Hant){target="_blank"}。
+您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱[本章節](../dev/web/publishing-a-web-form.md)。
 
 >[!NOTE]
 >

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
+>若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
 
 
 瞭解在[此頁面](../start/create-message.md)中建立和設定傳遞的關鍵步驟。

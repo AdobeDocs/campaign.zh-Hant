@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -42,4 +42,3 @@ ht-degree: 0%
 * **[測試](test.md)**：根據測試結果啟用轉換。
 * **[時間限制](time-constraint.md)**：可讓您暫停工作一段設定的時間。
 * **[等待](wait.md)**：在指定的時間限制後啟用出站轉變。
-  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

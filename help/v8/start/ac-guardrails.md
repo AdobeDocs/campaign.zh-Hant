@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 78%
@@ -44,7 +44,7 @@ ht-degree: 78%
 * 在 [企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)的情境下，不提供雙向資料複製：只會從 Campaign 本機資料庫複製到雲端資料庫
 * [此區段](v7-to-v8.md#gs-unavailable-features)中列出的功能，不適用於目前的 Campaign v8 版本編號
 * 使用者介面中仍會顯示某些無法使用或已移除的功能
-* 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。 每小時都會透過特定的技術工作流程處理請求。 [了解更多](../architecture/replication.md#tech-wf)
+* 在 [企業 (FFDA) 部署](../architecture/enterprise-deployment.md)的情境下，訂閱 (選擇加入) 和取消訂閱 (選擇退出) 機制，以及行動註冊為非同步流程。 每小時都會透過特定的技術工作流程處理請求。 [了解更多](../architecture/replication.md#workflows)
 * 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，重複專案需要由一般使用者手動處理。 [了解更多](../architecture/keys.md)
 * Adobe Campaign v8 不支援 API 和 Web 應用程式的額外輸送量 — 若有特定需求，請聯絡 Adobe 以取得指引
 * 在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，Adobe Campaign行銷活動最佳化模組未考量壓力型別規則中已排程的傳遞。 在[本頁](../../automation/campaign-opt/pressure-rules.md)中了解更多

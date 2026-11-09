@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 3%
@@ -94,7 +94,7 @@ Campaign提供一組新護欄，以防止在[!DNL Snowflake]資料庫中插入�
 
 >[!NOTE]
 >
->從Campaign v8.3開始提供這些護欄。 若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>從Campaign v8.3開始提供這些護欄。 若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md)
 
 ### 傳遞準備 {#remove-duplicates-delivery-preparation}
 

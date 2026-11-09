@@ -1,5 +1,5 @@
 ---
-title: 在Campaign v8中設計查詢
+title: 查詢Campaign資料庫
 description: 瞭解如何在Campaign使用者端主控台中建立查詢
 feature: Query Editor, Data Management
 role: User
@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '887'
 ht-degree: 5%
 ---
 # 查詢行銷活動資料庫
@@ -155,7 +155,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->如同中，對於主控台中可用的所有清單，預設情況下，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 [了解更多](../config/ui-settings.md#manage-and-customize-lists)
+>如同中，對於主控台中可用的所有清單，預設情況下，**[!UICONTROL Data preview]**&#x200B;視窗中只會顯示前200行。 若要變更，請在&#x200B;**[!UICONTROL Lines to display]**&#x200B;方塊中輸入數字，然後按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 [了解更多](../config/ui-settings.md#customize-lists)
 
 
 

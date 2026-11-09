@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 1%
@@ -105,10 +105,10 @@ ht-degree: 1%
 
    您可以新增：
 
-   * 根據從目標母體或彙總（上個月內未決購買的次數、收款的平均金額等）中取得的資料計算出的欄位。 例如，移至[選取資料](targeting-workflows.md#selecting-data)。
+   * 根據從目標母體或彙總（上個月內未決購買的次數、收款的平均金額等）中取得的資料計算出的欄位。 例如，移至[選取資料](targeting-workflows.md)。
    * 新欄位，使用輸出欄清單右側的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕建立。
 
-     您也可以新增資訊集合，例如合約清單、最近5次傳遞等。集合與相同設定檔可以有多個值的欄位一致（1-N關係）。 如需詳細資訊，請參閱[編輯其他資料](targeting-workflows.md#editing-additional-data)。
+     您也可以新增資訊集合，例如合約清單、最近5次傳遞等。集合與相同設定檔可以有多個值的欄位一致（1-N關係）。 如需詳細資訊，請參閱[編輯其他資料](targeting-workflows.md#edit-additional-data)。
 
 若要新增連結至目標母體的資訊集合：
 
@@ -222,7 +222,7 @@ SQL中篩選維度的對等項是內部聯結：
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-如需篩選維度的詳細資訊，請參閱[本節](build-a-workflow.md#targeting-and-filtering-dimensions)。
+如需篩選維度的詳細資訊，請參閱[本節](build-a-workflow.md)。
 
 ### 架構 {#architecture}
 

@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Adobe Campaign使用下列技術帳戶來啟用及執行特定流程。
 
 >[!NOTE]
 >
->自Campaign v8.3開始，即可使用適用於POP3功能的Microsoft Exchange Online OAuth 2.0驗證。 若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)。
+>自Campaign v8.3開始，即可使用適用於POP3功能的Microsoft Exchange Online OAuth 2.0驗證。 若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md)。
 >
 
 **退回郵件**&#x200B;外部帳戶指定要用來連線至電子郵件服務的外部POP3帳戶。 所有設定為POP3存取的伺服器都可以用來接收傳回郵件。

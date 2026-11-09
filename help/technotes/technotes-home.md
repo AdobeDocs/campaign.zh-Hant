@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 21%
 ---
 # Adobe Campaign v8技術檔案 {#campaign-technotes}
@@ -52,7 +52,7 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>開始使用</strong><br/><a href="../v8/start/campaign-ui.md">使用者介面</a> - <a href="../v8/start/ac-components.md">元件與程式</a> - <a href="../v8/start/v7-to-v8.md">從傳統v7到v8</a> - <a href="../v8/start/campaign-faq.md">常見問題集</a>
+      <strong>開始使用</strong><br/><a href="../v8/start/campaign-ui.md">使用者介面</a> - <a href="../v8/start/ac-components.md">元件與程式</a> - <a href="../v8/start/v7-to-v8.md">從傳統v7到v8</a> - <a href="../v8/start/campaign-faq-comprehensive.md">常見問題集</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">

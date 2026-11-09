@@ -3,18 +3,27 @@ audience: user
 user-guide-title: Campaign自動化指南
 user-guide-description: Campaign自動化指南
 feature: Overview
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 82%
-
+source-wordcount: '477'
+ht-degree: 81%
 ---
-
 
 # Campaign自動化指南 {#automation}
 
 + [Campaign自動化指南](home.md)
-+ 使用工作流程自動化 {#workflows}
++ 行銷活動 {#campaign-orchestration}
+  + [開始使用行銷活動](campaigns/set-up-campaigns.md)
+  + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
+  + [建立及設定範本](campaigns/marketing-campaign-templates.md)
+  + [新增傳遞](campaigns/marketing-campaign-deliveries.md)
+  + [選取客群](campaigns/marketing-campaign-target.md)
+  + [管理文件和資產](campaigns/marketing-campaign-assets.md)
+  + [設定及管理核准](campaigns/marketing-campaign-approval.md)
+  + [循環和定期行銷活動](campaigns/recurring-periodic-campaigns.md)
+  + [監視您的行銷活動](campaigns/marketing-campaign-monitoring.md)
+  + [供應商、庫存和預算](campaigns/providers-stocks-and-budgets.md)
++ 工作流程 {#workflows}
   + 開始使用工作流程 {#introduction}
     + [關於工作流程](workflow/about-workflows.md)
     + 工作流程型別 {#wf-type}
@@ -133,18 +142,7 @@ ht-degree: 82%
     + [管理權限](workflow/managing-rights.md)
     + [變更活動影像](workflow/change-activity-images.md)
     + [管理時區](workflow/managing-time-zones.md)
-+ 行銷活動協調 {#campaign-orchestration}
-  + [開始使用行銷活動](campaigns/set-up-campaigns.md)
-  + [建立方案和行銷活動](campaigns/marketing-campaign-create.md)
-  + [建立及設定範本](campaigns/marketing-campaign-templates.md)
-  + [新增傳遞](campaigns/marketing-campaign-deliveries.md)
-  + [選取客群](campaigns/marketing-campaign-target.md)
-  + [管理文件和資產](campaigns/marketing-campaign-assets.md)
-  + [設定及管理核准](campaigns/marketing-campaign-approval.md)
-  + [循環和定期行銷活動](campaigns/recurring-periodic-campaigns.md)
-  + [監視您的行銷活動](campaigns/marketing-campaign-monitoring.md)
-  + [供應商、庫存和預算](campaigns/providers-stocks-and-budgets.md)
-+ 行銷活動最佳化（附加元件）{#campaign-optimization}
++ 行銷活動最佳化（附加元件） {#campaign-optimization}
   + [開始使用行銷活動型別](campaign-opt/campaign-typologies.md)
   + [篩選規則](campaign-opt/filtering-rules.md)
   + [控制規則](campaign-opt/control-rules.md)
@@ -152,12 +150,6 @@ ht-degree: 82%
   + [一致性規則](campaign-opt/consistency-rules.md)
   + [套用規則](campaign-opt/apply-rules.md)
   + [Campaign 模擬](campaign-opt/campaign-simulations.md)
-+ 行銷資源管理（附加元件）{#mrm}
-  + [開始使用行銷資源管理](mrm/about-marketing-resource-management.md)
-  + [建立及管理設定檔](mrm/creating-and-managing-tasks.md)
-  + [控制成本](mrm/controlling-costs.md)
-  + [管理行銷資源](mrm/managing-marketing-resources.md)
-  + [論壇](mrm/discussion-forums.md)
 + 分散式行銷（附加元件） {#distributed-marketing}
   + [開始使用分散式行銷](distributed-marketing/about-distributed-marketing.md)
   + [建立本機行銷活動](distributed-marketing/creating-a-local-campaign.md)
@@ -166,4 +158,16 @@ ht-degree: 82%
   + [存取行銷活動](distributed-marketing/accessing-campaigns.md)
   + [追蹤行銷活動](distributed-marketing/tracking-a-campaign.md)
   + [使用案例](distributed-marketing/examples.md)
++ 行銷資源管理（附加元件） {#mrm}
+  + [開始使用行銷資源管理](mrm/about-marketing-resource-management.md)
+  + [建立及管理設定檔](mrm/creating-and-managing-tasks.md)
+  + [控制成本](mrm/controlling-costs.md)
+  + [管理行銷資源](mrm/managing-marketing-resources.md)
+  + [論壇](mrm/discussion-forums.md)
++ 回應管理員（附加元件） {#response-manager}
+  + [開始使用回應管理員](response/about-response-manager.md)
+  + [設定回應管理員](response/configure-response-manager.md)
+  + [假設範本](response/hypothesis-templates.md)
+  + [建立假設](response/creating-hypotheses.md)
+  + [假設追蹤](response/hypothesis-tracking.md)
 + [&lt;返回Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)

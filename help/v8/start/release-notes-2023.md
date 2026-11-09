@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 55%
@@ -116,7 +116,7 @@ Campaign v8.5.1推出我們最新的推播通知服務，以現代尖端技術�
 **相容性更新**
 
 * 使用者端主控台的32位元版本現已棄用。 從8.6版開始，使用者端主控台將僅提供64位元版本。 使用者端主控台可順暢升級至64位元版本。 深入了解如何升級作業系統，請參閱此[技術說明](../../technotes/upgrades/console.md)。
-* 您現在可以將Campaign v8執行個體連線至Azure Synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 深入瞭解[促銷活動相容性矩陣](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)。
+* 您現在可以將Campaign v8執行個體連線至Azure Synapse外部資料庫。 此連線透過新的外部帳戶進行管理。 深入瞭解[促銷活動相容性矩陣](../start/compatibility-matrix.md#FederatedDataAccessFDA)。
 
 
 **修正**

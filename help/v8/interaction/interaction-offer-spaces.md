@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '837'
 ht-degree: 3%
 ---
 # 建立產品建議空間{#creating-offer-spaces}
@@ -173,4 +173,4 @@ HTML呈現會透過呈現函式建立。 轉譯函式中定義的欄位順序必
 
 當上下文限製為空格時，預覽可以忽略上下文。 當互動結構描述已延伸，以使用傳入頻道新增空間中所參照的欄位時，就會發生這種情況。
 
-如需詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=zh-Hant){target="_blank"}中的範例。
+如需詳細資訊，請參閱[本節](extension-example.md)中的範例。

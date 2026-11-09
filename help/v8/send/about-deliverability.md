@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '790'
 ht-degree: 8%
 ---
 # 什麼是傳遞性{#about-deliverability}
@@ -74,7 +74,7 @@ Adobe Campaign提供數個工具，用於追蹤及改善平台的可遞送性效
 
 為避免傳送訊息至無效地址、限制不當通訊並改善寄件者信譽，Adobe建議實作雙重選擇加入機制。 此方法可讓您確保收件者會刻意訂閱。
 
-如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}。
+如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](../dev/web/use-cases-web-forms.md)。
 
 如需從客戶收集資料的最佳實務的詳細資訊，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=zh-Hant#data-quality-and-hygiene){target="_blank"}。
 

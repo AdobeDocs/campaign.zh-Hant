@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1946'
 ht-degree: 88%
@@ -193,7 +193,7 @@ _2022 年 5 月 18 日_
 <tbody> 
 <tr> 
 <td> <p>在 iOS15 ，Apple 增加了具時效性通知的概念，當通知被視為具時效性，需要即時聯絡使用者時，可以讓應用程式開發人員繞過專注模式。</p>
-<p>如需詳細資訊，請參閱<a href="../send/push.md#send-notifications-on-ios">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../send/push.md">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 
 </tbody> 

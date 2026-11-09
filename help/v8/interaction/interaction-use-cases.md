@@ -24,19 +24,19 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '42'
+ht-degree: 4%
 ---
 # 使用案例
 
-透過Campaign Classic v7檔案中提供的這些逐步使用案例，善用Campaign互動功能：
+透過以下逐步使用案例，善用Campaign互動功能：
 
-[建立並套用簡報規則](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=zh-Hant){target="_blank"}
+[建立並套用簡報規則](presentation-rules.md)
 
-[傳送電子郵件選件傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}
+[傳送電子郵件選件傳遞](offers-on-an-outbound-channel.md)
 
-[向匿名訪客呈現優惠方案](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}
+[向匿名訪客呈現優惠方案](offers-on-an-inbound-channel.md#presenting-an-offer-to-an-anonymous-visitor)
 
-[執行優惠方案模擬](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=zh-Hant){target="_blank"}
+[執行優惠方案模擬](offers-on-an-outbound-channel.md#perform-an-offer-simulation)

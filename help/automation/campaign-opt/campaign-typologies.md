@@ -3,6 +3,7 @@ product: campaign
 title: 開始使用行銷活動型別
 description: 瞭解如何設定和實作行銷活動型別
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -27,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 19%
@@ -67,7 +68,7 @@ Campaign檔案總管的&#x200B;**[!UICONTROL Administration > Campaign managemen
 Campaign Optimization附加元件提供另外兩種型別的&#x200B;**型別規則**：
 
 * 可讓您控制行銷疲勞的&#x200B;**壓力**&#x200B;規則。 [了解更多資訊](pressure-rules.md)。
-* **容量**&#x200B;規則可讓您限制載入，以確保最佳處理條件。 [了解更多資訊](consistency-rules.md#controlling-capacity)。
+* **容量**&#x200B;規則可讓您限制載入，以確保最佳處理條件。 [了解更多資訊](consistency-rules.md#control-capacity)。
 
 
 >[!NOTE]

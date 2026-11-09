@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 3%
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 
-1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。 在[此頁面](../config/ui-settings.md#enumerations)中進一步瞭解列舉。
+1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。 在[此頁面](../config/ui-settings.md)中進一步瞭解列舉。
 
 Adobe Campaign和Salesforce.com現已連線。 您可以設定兩個系統之間的資料同步。
 

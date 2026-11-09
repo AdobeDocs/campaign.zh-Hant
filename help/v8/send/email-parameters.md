@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 9%
@@ -87,7 +87,7 @@ ht-degree: 9%
 
 ![](assets/email-smtp-bounce.png)
 
-有關退回郵件管理的詳細資訊，請參閱[本節](delivery-failures.md#bounce-mail-management)。
+有關退回郵件管理的詳細資訊，請參閱[本節](delivery-failures.md#bounce-mail-qualification)。
 
 ## 啟用一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 

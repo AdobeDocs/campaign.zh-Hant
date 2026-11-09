@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 2%
@@ -336,7 +336,7 @@ Adobe建議預覽您的訊息，以檢查其個人化情況，以及收件者看
 
 ### 外部收件者 {#external-recipients}
 
-您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 在本節[&#128279;](create-message.md#select-external-recipients-selecting-external-recipients)瞭解更多。
+您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 在本節[&#128279;](create-message.md#selecting-external-recipients)瞭解更多。
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -348,7 +348,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 若要測試您的傳遞，請在傳送至主要目標之前使用證明。
 
-請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 定義校訂收件者的步驟[會顯示於本節](create-message.md#select-the-recipients-of-proof-messages-select-the-proof-target)。
+請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 定義校訂收件者的步驟[會顯示於本節](create-message.md#select-the-proof-target)。
 
 
 ### 重複位址 {#deduplicate-addresses}

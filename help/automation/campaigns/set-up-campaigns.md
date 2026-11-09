@@ -22,7 +22,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 18%
@@ -54,7 +54,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 行銷活動會集中與行銷活動相關的所有元素：傳送、目標定位規則、成本、匯出檔案、相關檔案等。每個行銷活動都會附加至一個方案。 在本節[&#128279;](marketing-campaign-create.md#create-a-campaign)中瞭解如何建立行銷活動。
 
 1. **選取對象**
-您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 在本節[&#128279;](marketing-campaign-target.md#select-the-target-population)中瞭解如何定義行銷活動的目標對象。
+您可以從清單匯入對象，或使用查詢在行銷活動工作流程中建置對象。 在本節[&#128279;](marketing-campaign-target.md)中瞭解如何定義行銷活動的目標對象。
 
 1. **建立傳遞**
 在行銷活動中協調跨通道傳遞。 透過個人化電子郵件、簡訊、推播通知和應用程式內訊息，簡化您與Adobe Campaign的通訊。 您也可以新增直接郵件傳送。 在本節[&#128279;](marketing-campaign-deliveries.md)中瞭解如何在行銷活動中建立、驗證及監視傳遞。
@@ -68,7 +68,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 1. **追蹤預算、庫存和相關成本**。
 使用Adobe Campaign控制預算分配、管理供應商、存貨及成本。 [了解更多資訊](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
-完成這些步驟後，您可以[開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳遞相關的資料、流程和資訊，並在必要時[管理相關檔案](marketing-campaign-deliveries.md#manage-associated-documents)。 您也可以[追蹤並監視行銷活動和傳遞的執行](marketing-campaign-monitoring.md)。
+完成這些步驟後，您可以[開始傳遞](marketing-campaign-deliveries.md#start-a-delivery)，檢查與傳遞相關的資料、流程和資訊，並在必要時[管理相關檔案](marketing-campaign-deliveries.md)。 您也可以[追蹤並監視行銷活動和傳遞的執行](marketing-campaign-monitoring.md)。
 
 
 ## 影片中的重要概念 {#key-concepts-video}
