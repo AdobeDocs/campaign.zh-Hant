@@ -3,6 +3,7 @@ product: campaign
 title: 向匿名設定檔呈現優惠方案（傳入互動）
 description: 瞭解如何向匿名設定檔呈現優惠方案
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'
@@ -21,7 +22,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 就像傳出互動一樣，傳入互動會整理在優惠方案目錄中，由類別和優惠方案組成。
 
-若要建立類別和空間，請套用與已識別訪客相同的程式。 請參閱[建立優惠方案類別](interaction-offer-catalog.md#creating-offer-categories)和[建立優惠方案環境](interaction-env.md#creating-an-offer-environment)。
+若要建立類別和空間，請套用與已識別訪客相同的程式。 請參閱[建立優惠方案類別](interaction-offer-catalog.md#creating-offer-categories)和[建立優惠方案環境](interaction-env.md#create-an-offer-environment)。
 
 ## 匿名訪客 {#anonymous-visitors}
 

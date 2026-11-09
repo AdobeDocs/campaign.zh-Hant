@@ -2,6 +2,7 @@
 title: 資料模型最佳實務
 description: 瞭解Campaign資料模型延伸最佳實務
 feature: Data Model
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
@@ -48,7 +49,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '2777'
 ht-degree: 5%
@@ -256,7 +257,7 @@ Adobe Campaign仰賴協力廠商資料庫引擎。 視提供者而定，為大�
 
 * **小型**&#x200B;資料表與傳遞資料表類似。
 * **中等大小**&#x200B;資料表與收件者資料表的大小相同。 每個客戶有一筆記錄。
-* **大型**&#x200B;資料表類似於Broad記錄資料表。 每個客戶有許多記錄。
+* **大型**資料表類似於Broad記錄資料表。 每個客戶有許多記錄。
 例如，如果您的資料庫包含1千萬位收件者，則廣泛記錄表格會包含約1億到2億則訊息，而傳遞表格則會包含數千筆記錄。
 
 列數也會影響效能。 Adobe Campaign資料庫的設計目的，並非儲存主動未用於目標定位或個人化用途的歷史資料，而是儲存運作資料庫。

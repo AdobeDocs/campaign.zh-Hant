@@ -2,6 +2,7 @@
 title: Adobe Campaign全域報告
 description: 瞭解如何存取及使用全域報告
 feature: Reporting, Monitoring
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 TQID: 'https://experienceleague.adobe.com/4BSV9uMb9AfI4Su-UcDOwcvT7LN0HDNsW4s9PC8Bx90'
@@ -30,7 +31,7 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 8%
@@ -73,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=zh-Hant){target="_blank"}監視每小時傳送的傳遞數目。
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}監視每小時傳送的傳遞數目。
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}中。
 >
