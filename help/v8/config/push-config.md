@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1268'
 ht-degree: 2%
 ---
 # 將 Campaign SDK 與您的應用程式整合 {#integrate-campaign-sdk}
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 [相容性矩陣](../start/compatibility-matrix.md#MobileSDK)中列出Android和iOS支援的版本，以及Campaign v8的Campaign SDK相容版本。
 
-身為Campaign管理員，您可以從[Experience Cloud軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)下載Campaign SDK。 如需詳細資訊，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+身為Campaign管理員，您可以從[Experience Cloud軟體發佈](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)下載Campaign SDK。 如需詳細資訊，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 
 
 >[!NOTE]

@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 3%
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 * **[!UICONTROL Distribution context]**：如果您使用&#x200B;**[!UICONTROL Split]**&#x200B;型別活動來限制目標母體，請選取&#x200B;**[!UICONTROL Specified in the transition]**&#x200B;選項。 在此情況下，會在分割活動中輸入發佈範本。 如果您未限制目標母體，請在此處選取&#x200B;**[!UICONTROL Explicit]**&#x200B;選項，並在&#x200B;**[!UICONTROL Data distribution]**&#x200B;欄位中輸入分佈範本。
 
-  如需建立資料發佈範本的詳細資訊，請參閱[限制每個資料發佈的子集記錄數目](split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+  如需建立資料發佈範本的詳細資訊，請參閱[限制每個資料發佈的子集記錄數目](split.md#limit-the-number-of-subset-records-per-data-distribution)。
 
 * **[!UICONTROL Approval management]**
 

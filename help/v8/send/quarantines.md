@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 4%
@@ -62,13 +62,13 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 
 >[!NOTE]
 >
->透過[&quot;mailto&quot; List-Unsubscribe方法](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}取消訂閱的收件者不會傳送到隔離區。 他們或是從與傳遞相關聯的[服務](../start/subscriptions.md)取消訂閱，或是傳送到封鎖清單（顯示在設定檔的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中） （如果未定義傳遞的服務）。
+>透過[&quot;mailto&quot; List-Unsubscribe方法](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}取消訂閱的收件者不會傳送到隔離區。 他們或是從與傳遞相關聯的[服務](../start/subscriptions.md)取消訂閱，或是傳送到封鎖清單（顯示在設定檔的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中） （如果未定義傳遞的服務）。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
 ## 電子郵件、電話或裝置為何要傳送到隔離區 {#quarantine-reason}
 
-Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面[&#128279;](delivery-failures.md)上進一步瞭解傳遞失敗管理。
+Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面](delivery-failures.md)上進一步瞭解傳遞失敗管理[。
 
 可擷取兩種型別或錯誤：
 
@@ -78,7 +78,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 在隔離地址清單中，**[!UICONTROL Error reason]**&#x200B;欄位會指出所選地址被置於隔離狀態的原因。 [了解更多資訊](#non-deliverable-bounces)。
 
 
-如果使用者將電子郵件歸類為垃圾訊息，該訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中的意見回圈。
+如果使用者將電子郵件歸類為垃圾訊息，該訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中的意見回圈。
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 與硬錯誤相反，軟錯誤不會立即傳送要隔離的地址，而是會增加錯誤計數器。 當錯誤計數器達到限制臨界值時，則會隔離該地址。 在[瞭解傳遞失敗](delivery-failures.md)中進一步瞭解重試和錯誤型別。
 
-如果最後一次重大錯誤發生在10天以前，則會重新初始化錯誤計數器。 然後，地址狀態變更為&#x200B;**[!UICONTROL Valid]**，並由&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流程從隔離清單中刪除該地址。 [進一步瞭解技術工作流程](../config/workflows.md#technical-workflows)。
+如果最後一次重大錯誤發生在10天以前，則會重新初始化錯誤計數器。 然後，地址狀態變更為&#x200B;**[!UICONTROL Valid]**，並由&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流程從隔離清單中刪除該地址。 [進一步瞭解技術工作流程](../config/workflows.md)。
 
 ## 存取隔離的地址 {#access-quarantined-addresses}
 
@@ -121,7 +121,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 此外，此首頁的&#x200B;**報告**&#x200B;區段提供的&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;內建報告會顯示隔離地址、遇到的錯誤型別，以及依網域劃分的失敗等相關資訊。 您可以篩選特定傳送的資料，或視需要自訂此報表。
 
-在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant){target="_blank"}中進一步瞭解退信地址。
+在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}中進一步瞭解退信地址。
 
 ### 隔離的電子郵件地址 {#quarantined-recipient}
 

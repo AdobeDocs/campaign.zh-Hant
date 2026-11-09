@@ -25,19 +25,19 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 2%
 ---
 # 變更資料來源 {#change-data-source}
 
-使用&#x200B;**[!UICONTROL Change data source]**&#x200B;活動變更[工作流程工作表](use-workflow-data.md#workflow-temporary-work-table)的資料來源。 此活動可提供更大的彈性，用於管理不同資料來源(例如同盟資料存取(FDA)、Campaign Cloud資料庫(FFDA)和Campaign本機資料庫)的資料。
+使用&#x200B;**[!UICONTROL Change data source]**&#x200B;活動變更[工作流程工作表](use-workflow-data.md#work-table)的資料來源。 此活動可提供更大的彈性，用於管理不同資料來源(例如同盟資料存取(FDA)、Campaign Cloud資料庫(FFDA)和Campaign本機資料庫)的資料。
 
 工作流程&#x200B;**[!UICONTROL Working table]**&#x200B;用於處理與工作流程活動共用資料。
 
-根據預設，**[!UICONTROL Working table]**&#x200B;會建立在與您查詢所需資料來源相同的資料庫中。
-例如，當查詢儲存在雲端資料庫上的&#x200B;**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
+根據預設，**[!UICONTROL Working table]**會建立在與您查詢所需資料來源相同的資料庫中。
+例如，當查詢儲存在雲端資料庫上的**[!UICONTROL Recipients]**&#x200B;資料表時，工作流程會在相同的雲端資料庫上建立&#x200B;**[!UICONTROL Working table]**。
 
 使用&#x200B;**[!UICONTROL Change Data Source]**&#x200B;活動以使用您&#x200B;**[!UICONTROL Working table]**&#x200B;的不同資料來源。
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 1. 查詢具有&#x200B;**[!UICONTROL Query]**&#x200B;活動的目標收件者。
 
-   如需&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱此[頁面](query.md#create-a-query)。
+   如需&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱此[頁面](query.md#creating-a-query)。
 
 1. 新增&#x200B;**[!UICONTROL Change data source]**&#x200B;活動。
 

@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 78%
@@ -115,7 +115,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;附加功能，可在中�
 
 >[!NOTE]
 >
->此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md)
 
 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}中設定及使用Campaign分散式行銷功能。
 
@@ -125,6 +125,6 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 
 >[!NOTE]
 >
->此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md)
 
-[&#128279;](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。
+[](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。

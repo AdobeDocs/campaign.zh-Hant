@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 87%
@@ -52,7 +52,7 @@ Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建�
 
 >[!NOTE]
 >
->此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md)
 
 ## 定義命名空間 {#namespaces}
 

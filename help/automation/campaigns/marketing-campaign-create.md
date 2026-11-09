@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 4%
@@ -119,11 +119,11 @@ ht-degree: 4%
 
 對於每個行銷活動，都提供下列功能：
 
-* 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多資訊](marketing-campaign-deliveries.md#manage-associated-documents)。
-* 定義成本：對於每個行銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：列印費用、使用外部代理、房間租賃等。[瞭解更多](providers-stocks-and-budgets.md#defining-cost-categories)。
+* 參考檔案和資源：您可以將檔案與行銷活動建立關聯（簡介、報告、影像等）。 支援所有檔案格式。 [了解更多資訊](marketing-campaign-deliveries.md)。
+* 定義成本：對於每個行銷活動，Adobe Campaign可讓您定義建立行銷活動時所使用的成本輸入與成本計算結構。 例如：列印費用、使用外部代理、房間租賃等。[瞭解更多](providers-stocks-and-budgets.md#define-cost-categories)。
 * 定義目標：您可以定義行銷活動的可量化目標，例如訂閱者人數、業務量等。此資訊稍後會用於行銷活動報表。
-* 管理種子地址和控制組。 [了解更多資訊](marketing-campaign-deliveries.md#defining-a-control-group)。
-* 管理核准：您可以選取要核准的處理方式，並視需要選取複查操作員或操作員群組。 [了解更多資訊](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+* 管理種子地址和控制組。 [了解更多資訊](marketing-campaign-deliveries.md)。
+* 管理核准：您可以選取要核准的處理方式，並視需要選取複查操作員或操作員群組。 [了解更多資訊](marketing-campaign-approval.md#review-and-approve-deliveries)。
 
 >[!NOTE]
 >
@@ -218,11 +218,11 @@ ht-degree: 4%
 
 ![](assets/web-access-approval.png)
 
-您也可以使用通知訊息中包含的連結。 如需詳細資訊，請參閱[本章節](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+您也可以使用通知訊息中包含的連結。 如需詳細資訊，請參閱[本章節](marketing-campaign-approval.md#review-and-approve-deliveries)。
 
 
 ## 教學課程影片 {#video}
 
 本影片說明如何建立行銷計畫、方案和行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426483?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

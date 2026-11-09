@@ -9,9 +9,9 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 11%
 ---
 # Adobe Campaign 2023環境升級 {#ac-system-upgrade}
@@ -24,7 +24,7 @@ Campaign基礎架構仰賴協力廠商系統，且必須定期以最新版本和
 
 >[!NOTE]
 >
->如對這些變更有任何疑問，請聯絡 [Adobe 客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+>如對這些變更有任何疑問，請聯絡 [Adobe 客戶服務](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 >
 
 ## Campaign版本編號升級 {#ac-upgrade}

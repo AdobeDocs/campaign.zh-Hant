@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2258'
 ht-degree: 5%
@@ -86,11 +86,11 @@ ht-degree: 5%
 
 ### 使用其他資料 {#select-data}
 
-**[!UICONTROL Query]**&#x200B;活動可讓您選取基本資料以建置目標母體。 如需詳細資訊，請參閱[本章節](query.md#create-a-query)。
+**[!UICONTROL Query]**&#x200B;活動可讓您選取基本資料以建置目標母體。 如需詳細資訊，請參閱[本章節](query.md#creating-a-query)。
 
 您也可以使用下列活動來查詢及調整資料庫中的資料： [增量查詢](incremental-query.md)，[讀取清單](read-list.md)。
 
-可在整個工作流程生命週期中收集要轉送及處理的其他資料。 如需詳細資訊，請參閱[新增資料](query.md#add-data)和[編輯其他資料](#edit-additional-data)。
+可在整個工作流程生命週期中收集要轉送及處理的其他資料。 如需詳細資訊，請參閱[新增資料](query.md#adding-data)和[編輯其他資料](#edit-additional-data)。
 
 ### 編輯額外資料 {#edit-additional-data}
 

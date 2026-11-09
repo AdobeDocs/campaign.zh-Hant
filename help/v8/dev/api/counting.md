@@ -1,5 +1,5 @@
 ---
-title: 計數
+title: 計數結果
 description: 瞭解如何執行計數操作。
 audience: developing
 content-type: reference
@@ -18,12 +18,12 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '89'
+ht-degree: 0%
 ---
-# 計數
+# 計數結果
 
 Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請使用&#x200B;**count**&#x200B;節點中傳回的URL。
 

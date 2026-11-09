@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -126,7 +126,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   然後，您可以選擇是否要顯示測量標籤。 [了解更多資訊](customize-cubes.md#configure-the-display)。
+   然後，您可以選擇是否要顯示測量標籤。 [了解更多資訊](customize-cubes.md#configuring-the-display)。
 
 1. 您可以根據現有測量來建置新測量。 若要這麼做，請按一下&#x200B;**[!UICONTROL Create a measure]**&#x200B;並加以設定。
 

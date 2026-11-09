@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 
   工作流程開始後，傳送會新增至行銷活動控制面板。
 
-在此頁面[&#128279;](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程。
+在此頁面](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程[。
 
 ## 開始傳遞 {#start-a-delivery}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 在授予所有核准後，傳遞狀態會變更為&#x200B;**[!UICONTROL Pending extraction]**。 解壓縮檔案是透過專用的[技術工作流程](../workflow/technical-workflows.md)建立的，在預設設定中，當直接郵件傳遞擱置解壓縮時，會自動啟動解壓縮檔案。 處理進行中時，會顯示於控制面板中，並可透過其連結進行編輯。
 
-成功執行擷取工作流程後，必須核准擷取檔案（前提是已在傳送設定中選取擷取檔案核准）。 [了解更多資訊](marketing-campaign-approval.md#approving-an-extraction-file)。
+成功執行擷取工作流程後，必須核准擷取檔案（前提是已在傳送設定中選取擷取檔案核准）。 [了解更多資訊](marketing-campaign-approval.md#approve-an-extraction-file)。
 
 請依照下列步驟驗證內容，並將檔案傳送給提供者：
 
@@ -132,4 +132,4 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >在本節[&#128279;](providers-stocks-and-budgets.md)中進一步瞭解預算。
+  >在本節](providers-stocks-and-budgets.md)中進一步瞭解預算[。

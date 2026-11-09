@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 設計豐富推送通知傳送
+title: 設計 Android 豐富的推播傳遞
 description: 瞭解如何使用Adobe Campaign Web設計豐富推送通知傳送
 feature: Push
 role: User
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
+>在設計豐富推送通知之前，您必須先設定V2聯結器。 如需詳細程式，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)。
 
 使用Firebase Cloud Messaging時，您可以選擇兩種型別的訊息：
 

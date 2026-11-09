@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 2%
@@ -133,7 +133,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 您可以建立其他保留給量化使用的分項清單，並用於其他立方結構：所有別名值都會在第一個分項清單標籤中指定的分項清單中重新分組。
 
-在[此頁面](../../v8/config/ui-settings.md#enumerations)中進一步瞭解列舉。
+在[此頁面](../../v8/config/ui-settings.md)中進一步瞭解列舉。
 
 ## 立方體中的彙總 {#calculate-and-use-aggregates}
 

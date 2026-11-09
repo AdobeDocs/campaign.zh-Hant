@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 3%
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
+>作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq-comprehensive.md#support)以連線Campaign與X。**管理社交網路（社交行銷）**&#x200B;附加元件必須透過專用套件安裝在您的環境中，且必須設定Twitter外部帳戶。
 
 
 若要設定Adobe Campaign將推文張貼至您的X帳戶，請委派這些帳戶的Adobe Campaign寫入許可權。 若要這麼做，您必須：
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 若要開始進行這項整合，您必須註冊[X開發人員帳戶](https://developer.twitter.com){target="_blank"}。
 
-Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面[&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權。
+Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權[。
 
 ## 在X上建立應用程式 {#create-an-app-on-twitter}
 
@@ -137,7 +137,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**&#x200B;標籤：應該會顯示您的Twitter帳戶。
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
   ![](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}
@@ -169,7 +169,7 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 
 ## 在X上建立測試帳戶 {#tw-test-account}
 
-除了X帳戶，請建立私人X帳戶，用來傳送[推文校樣](../send/twitter.md#send-tw-proofs)。 要執行此操作，請遵循下列步驟：
+除了X帳戶，請建立私人X帳戶，用來傳送[推文校樣](../send/twitter.md)。 要執行此操作，請遵循下列步驟：
 
 1. 建立新的X帳戶。
 1. 存取帳戶&#x200B;**設定**。

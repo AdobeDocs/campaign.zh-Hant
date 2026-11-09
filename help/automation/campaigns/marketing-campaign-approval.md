@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 如果是直接郵件傳送，Adobe Campaign操作員可在解壓縮檔案傳送給路由器之前檢視解壓縮檔案，並可視需要變更格式及重新啟動解壓縮。 [了解更多資訊](#approve-an-extraction-file)。
 
-完成這些驗證階段後，即可啟動傳遞。 [了解更多資訊](marketing-campaign-deliveries.md#starting-a-delivery)。
+完成這些驗證階段後，即可啟動傳遞。 [了解更多資訊](marketing-campaign-deliveries.md#start-a-delivery)。
 
 >[!NOTE]
 >
@@ -310,7 +310,7 @@ ht-degree: 1%
 
 建立目標定位工作流程時，如果核准是自動的（預設模式），Adobe Campaign會顯示核准連結，或在需要核準時立即傳送通知。
 
-若要選擇核准模式（手動或自動），請按一下行銷活動或行銷活動範本的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**，最後按一下&#x200B;**[!UICONTROL Approvals]**&#x200B;標籤。
+若要選擇核准模式（手動或自動），請按一下行銷活動或行銷活動範本的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**，最後按一下&#x200B;**[!UICONTROL Approvals]**標籤。
 par
 ![](assets/approval-mode.png)
 

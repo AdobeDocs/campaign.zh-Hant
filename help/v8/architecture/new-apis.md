@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%
@@ -224,7 +224,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Campaign的訂閱管理在[此頁面](../start/subscriptions.md)中說明。
 
-訂閱和取消訂閱資料的插入依賴Campaign本機資料庫中的[暫存機制](staging.md)。 訂閱者資訊會暫時儲存在本機資料庫的臨時資料表中，而同步工作流程會將此資料從本機資料庫傳送至雲端資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 每小時都會透過特定的技術工作流程處理選擇加入和選擇退出請求。 [了解更多](replication.md#tech-wf)
+訂閱和取消訂閱資料的插入依賴Campaign本機資料庫中的[暫存機制](staging.md)。 訂閱者資訊會暫時儲存在本機資料庫的臨時資料表中，而同步工作流程會將此資料從本機資料庫傳送至雲端資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 每小時都會透過特定的技術工作流程處理選擇加入和選擇退出請求。 [了解更多](replication.md#workflows)
 
 
 **相關主題**

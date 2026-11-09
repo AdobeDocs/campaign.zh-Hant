@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 13%
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔資料表(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles.md)
+清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔資料表(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles)
 
 ![](assets/list-dashboard.png)
 
@@ -44,7 +44,7 @@ ht-degree: 13%
 
 觀看此影片以進一步瞭解Adobe Campaign中的清單管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426467?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 建立連絡人清單 {#create-a-list-of-contacts}
@@ -121,7 +121,7 @@ ht-degree: 13%
 
    ![](assets/targeting-wf-age-filter.png)
 
-   在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中瞭解如何在工作流程中建立查詢。
+   在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}中瞭解如何在工作流程中建立查詢。
 
 1. 為此查詢新增標籤並儲存您的變更。
 1. 新增&#x200B;**[!UICONTROL List update]**&#x200B;活動並加以編輯。
@@ -142,7 +142,7 @@ ht-degree: 13%
 
    ![](assets/access-new-list.png)
 
-   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
+   您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}。
 
 ## 從清單中移除設定檔 {#remove-a-profile-from-a-list}
 

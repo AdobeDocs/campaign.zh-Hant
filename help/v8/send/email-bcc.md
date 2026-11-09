@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 >[!NOTE]
 >
->作為Managed Cloud Services使用者，[聯絡Adobe](../start/campaign-faq.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
+>作為Managed Cloud Services使用者，[聯絡Adobe](../start/campaign-faq-comprehensive.md#support){target="_blank"}以傳達要用於封存的密件副本電子郵件地址。
 
 ## 啟用電子郵件密件副本 {#enable-bcc}
 

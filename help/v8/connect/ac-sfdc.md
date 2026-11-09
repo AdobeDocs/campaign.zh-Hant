@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 3%
@@ -93,18 +93,18 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Adobe Campaign分項清單的Salesforce分項清單。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
 
    ![](assets/sfdc-enum.png)
 
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 
-1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。 在[此頁面](../config/ui-settings.md#enumerations)中進一步瞭解列舉。
+1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。 在[此頁面](../config/ui-settings.md)中進一步瞭解列舉。
 
 Adobe Campaign和Salesforce.com現已連線。 您可以設定兩個系統之間的資料同步。
 
 若要在Adobe Campaign資料和SFDC之間同步資料，請建立工作流程並使用&#x200B;**[!UICONTROL CRM connector]**&#x200B;活動。
 
-在此頁面[&#128279;](crm-data-sync.md)中進一步瞭解資料同步處理。
+在此頁面](crm-data-sync.md)中進一步瞭解資料同步處理[。
 
-在此頁面[&#128279;](../config/enumerations.md)中進一步瞭解Campaign 中的列舉管理。
+在此頁面](../config/enumerations.md)中進一步瞭解Campaign [中的列舉管理。

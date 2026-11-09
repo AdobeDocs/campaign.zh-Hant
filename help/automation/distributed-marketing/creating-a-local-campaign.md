@@ -3,12 +3,15 @@ product: campaign
 title: 建立本機行銷活動
 description: 建立本機行銷活動
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 TQID: https://experienceleague.adobe.com/hxeStkXhnSKoLew2gYv3nIDeoRjwgTYINF83w70aFxo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -20,13 +23,11 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1557
+source-wordcount: '1557'
 ht-degree: 1%
-
 ---
-
 # 建立本機行銷活動{#creating-a-local-campaign}
 
 
@@ -40,7 +41,7 @@ ht-degree: 1%
 1. 發佈行銷活動套件。
 1. 正在核准訂單。
 
-本機實體的&#x200B;**&#x200B;**
+本機實體的&#x200B;****
 
 1. 訂購行銷活動。
 1. 執行行銷活動。

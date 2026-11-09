@@ -1,5 +1,5 @@
 ---
-title: 使用Adobe Campaign傳送推播通知
+title: 使用資料收集設定推播通知
 description: 開始使用Campaign中的推播通知
 feature: Push
 role: Developer
@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!AVAILABILITY]
 >
-> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[&#128279;](push-settings.md)中詳述的程式。
+> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面](push-settings.md)中詳述的程式[。
 
 關於此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 

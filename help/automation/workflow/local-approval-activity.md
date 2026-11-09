@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 資料發佈範本可讓您限制根據資料分組定位而導致的母體，同時讓您將每個值指派給本機主管。 在此範例中，我們已將&#x200B;**[!UICONTROL Email address domain]**&#x200B;欄位定義為發佈欄位，並將網域指派給每個本機監督員
 
-如需建立資料發佈範本的詳細資訊，請參閱[限制每個資料發佈的子集記錄數目](split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+如需建立資料發佈範本的詳細資訊，請參閱[限制每個資料發佈的子集記錄數目](split.md#limit-the-number-of-subset-records-per-data-distribution)。
 
 1. 若要建立資料發佈範本，請前往&#x200B;**[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;節點並按一下&#x200B;**[!UICONTROL New]**。
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 上游目標定位由兩個查詢、一個交集和一個分割組成。 使用資料分佈範本的&#x200B;**[!UICONTROL Split]**&#x200B;活動可限制目標定位產生的母體。
 
-如需設定分割活動的詳細資訊，請參閱[分割](split.md)。 資料發佈範本的建立在[限制每個資料發佈的子集記錄數目](split.md#limiting-the-number-of-subset-records-per-data-distribution)中有詳細說明。
+如需設定分割活動的詳細資訊，請參閱[分割](split.md)。 資料發佈範本的建立在[限制每個資料發佈的子集記錄數目](split.md#limit-the-number-of-subset-records-per-data-distribution)中有詳細說明。
 
 如果您不想限制來自查詢的母體，則不必使用&#x200B;**[!UICONTROL Query]**、**[!UICONTROL Intersection]**&#x200B;和&#x200B;**[!UICONTROL Split]**&#x200B;活動。 在此情況下，請先完成前&#x200B;**[!UICONTROL Local approval]**&#x200B;個活動中的資料發佈範本。
 

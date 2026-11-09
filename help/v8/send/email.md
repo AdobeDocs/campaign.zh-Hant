@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
+>若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
 
 
 瞭解在[此頁面](../start/create-message.md)中建立和設定傳遞的關鍵步驟。
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=zh-Hant){target="_blank"}中建立工作流程以匯入電子郵件內容。
+瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中建立工作流程以匯入電子郵件內容。
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +120,7 @@ ht-degree: 8%
 >* [選取您電子郵件的對象](../audiences/gs-audiences.md)
 >* [驗證傳遞並傳送證明](preview-and-proof.md)
 >* [設定並傳送傳遞](configure-and-send.md)
->* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=zh-Hant){target="_blank"}
+>* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## 測試及驗證您的電子郵件
 

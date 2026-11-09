@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 9%
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 ![](assets/s_user_segmentation_inter.png)
 
-如需設定及使用交集活動的詳細資訊，請參閱[擷取聯合資料（交集）](targeting-workflows.md#extracting-joint-data--intersection-)。
+如需設定及使用交集活動的詳細資訊，請參閱[擷取聯合資料（交集）](targeting-workflows.md#extract-joint-data--intersection-)。
 
 如果要處理剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 此補集會包含所有傳入活動減去交集的聯合結果。 然後，會將額外的出站轉變新增至活動，如下所示：
 

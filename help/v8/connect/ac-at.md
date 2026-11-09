@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 >[!NOTE]
 >* 整合僅支援靜態影像。 其他型別的內容無法個人化。
 >
->* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq.md#support)以透過Campaign實作Experience Cloud觸發器。
+>* 作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq-comprehensive.md#support)以透過Campaign實作Experience Cloud觸發器。
 
 Adobe Target可使用下列型別的資料：
 
@@ -99,7 +99,7 @@ Adobe Target可使用下列型別的資料：
 * **[!UICONTROL Landing Page]**&#x200B;可讓您將預設影像重新導向至預設登陸頁面。 此URL只適用於最終電子郵件中顯示預設影像時。 這是選擇性的。
 * **[!UICONTROL Additional decision parameters]**&#x200B;定義了Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，已新增「國家/地區」欄位。
 
-如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[Adobe Target檔案](https://experienceleague.adobe.com/zh-hant/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}中進一步瞭解Target企業許可權。
+如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[Adobe Target檔案](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}中進一步瞭解Target企業許可權。
 
 ![](assets/target_13.png)
 
@@ -119,7 +119,7 @@ Adobe Target可使用下列型別的資料：
 
    ![](assets/target_6.png)
 
-1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=zh-Hant#experiences){target="_blank"}。
+1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}。
 
 ### 建立客群 {#audiences-target}
 
