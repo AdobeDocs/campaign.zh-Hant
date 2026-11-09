@@ -65,7 +65,7 @@ Web應用程式型別是在建立期間選取的。
 
 1. 調查
 
-   Adobe Campaign可讓您透過&#x200B;**問卷管理員**&#x200B;選項，設計和管理線上問卷並處理其結果：動態欄位建立、分數管理、匯出答案和專用報告。 如需詳細資訊，請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8檔案）。
+   Adobe Campaign可讓您透過&#x200B;**問卷管理員**&#x200B;選項，設計和管理線上問卷並處理其結果：動態欄位建立、分數管理、匯出答案和專用報告。 如需詳細資訊，請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8檔案）。
 
    >[!CAUTION]
    >

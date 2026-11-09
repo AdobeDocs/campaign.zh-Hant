@@ -82,24 +82,24 @@ Adobe Campaign中的網頁應用程式可存取下列功能：
 * 圖形化頁面管理介面，多欄頁面配置。 如需關於此項目的詳細資訊，請參閱此[頁面](designing-a-web-application.md)。
 * 呈現個人化和欄位位置。 如需關於此項目的詳細資訊，請參閱此[頁面](editing-content.md#adding-personalization-content)。
 * 根據答案有條件地顯示調查欄位。 如需關於此項目的詳細資訊，請參閱此[頁面](form-rendering.md#defining-fields-conditional-display)。
-* 隨機顯示問題。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8檔案）。
+* 隨機顯示問題。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8檔案）。
 * 條件式頁面顯示。 如需關於此項目的詳細資訊，請參閱此[頁面](defining-web-forms-page-sequencing.md#conditional-page-display)。
 * 根據預期的資料型別（編號、電子郵件地址、日期等），在驗證之前檢查資訊 和必填欄位。 如需關於此項目的詳細資訊，請參閱此[頁面](form-rendering.md#defining-control-settings)。
 * 電子郵件邀請或通知。 如需關於此項目的詳細資訊，請參閱此[頁面](publishing-a-web-form.md#delivering-a-form-via-email)。
 * Personalization的錯誤和結束訊息。 如需關於此項目的詳細資訊，請參閱此[頁面](defining-web-forms-properties.md#setting-up-an-error-page)。
 * 使用影像、影片、超文字連結、驗證碼等。如需詳細資訊，請參閱此[頁面](editing-content.md)。
-* 即時監控回應。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8檔案）。
+* 即時監控回應。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8檔案）。
 
 選用的&#x200B;**調查**&#x200B;建立模組提供下列附加功能：
 
-* 資料庫的動態擴充：建立未包含在初始資料範本中的回應。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8檔案）。
-* 產生專用報表。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8檔案）。
+* 資料庫的動態擴充：建立未包含在初始資料範本中的回應。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8檔案）。
+* 產生專用報表。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8檔案）。
 
 相較於Web應用程式，調查具有簡化的圖形介面，且編輯控制項數目減少。
 
 >[!NOTE]
 >
->調查在[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}中有詳細說明（Campaign v8檔案）。
+>調查在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}中有詳細說明（Campaign v8檔案）。
 >
 >在[本節](about-web-forms.md)中詳細說明Adobe Campaign中網路表單的整體功能。
 
