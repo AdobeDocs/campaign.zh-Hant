@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 85%
 ---
 
@@ -39,15 +39,7 @@ ht-degree: 85%
   + [常見問題集](start/campaign-faq-comprehensive.md)
   + {hide-from-toc}[常見問題](start/campaign-faq.md)
   + {hide-from-toc}[電子郵件追蹤畫素和CNIL指引](start/cnil-pixel-tracking.md)
-+ 管理與許可權 {#permissions}
-  + [開始使用權限](start/gs-permissions.md)
-  + [管理使用者權限](start/manage-permissions.md)
-  + [新增資料夾權限](start/folder-permissions.md)
-  + [控制面板](config/self-service.md)
-+ 行銷活動管理 {#campaigns}
-  + [開始使用行銷活動](start/campaigns.md)
-  + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
-+ 傳送訊息 {#send}
++ 訊息 {#send}
   + [開始使用訊息](start/gs-message.md)
   + [建立您的第一個傳遞](start/create-message.md)
   + [使用傳遞範本](send/create-templates.md)
@@ -123,7 +115,7 @@ ht-degree: 85%
       + [收集和處理事件](send/event-processing.md)
       + [了解事件說明](send/event-description.md)
       + [傳送和監視訊息](send/delivery-execution.md)
-+ 輪廓和客群 {#audience}
++ 設定檔與對象 {#audience}
   + [開始使用輪廓和客群](audiences/gs-audiences.md)
   + [配合客群](start/audiences.md)
   + [存取輪廓](audiences/view-profiles.md)
@@ -139,17 +131,16 @@ ht-degree: 85%
     + {hide-from-toc}[與Adobe解決方案共用對象](start/shared-audiences.md)
   + {hide-from-toc}[最佳實務](audiences/audiences-best-practices.md)
   + [管理訂閱](start/subscriptions.md)
-+ 登陸頁面和Forms {#content}
++ 登陸頁面與表單 {#content}
   + [建立登陸頁面](dev/landing-pages.md)
   + [設計網頁應用程式和表單](dev/webapps.md)
++ 行銷活動 {#campaigns}
+  + [開始使用行銷活動](start/campaigns.md)
+  + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
 + 工作流程 {#workflows}
   + [開始使用工作流程](config/workflows.md)
   + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
-+ 隱私權與安全性 {#privacy}
-  + [管理隱私權請求](start/privacy.md)
-  + [安全性方針](config/security.md)
-  + [增強式安全性附加元件](config/enhanced-security.md)
-+ Offer Management — 互動 {#offers}
++ 優惠方案與互動 {#offers}
   + [開始使用即時互動](interaction/interaction.md)
   + [環境與架構](interaction/interaction-architecture.md)
   + [最佳實務](interaction/interaction-best-practices.md)
@@ -167,7 +158,13 @@ ht-degree: 85%
     + [管理匿名互動](interaction/anonymous-interactions.md)
   + [報告和歷史記錄](interaction/interaction-tracking.md)
   + [使用案例](interaction/interaction-use-cases.md)
-+ 追蹤和分析 {#analytics}
++ 查詢和資料 {#data}
+  + 查詢資料庫 {#query}
+    + [使用查詢編輯器](start/query-editor.md)
+    + [設計查詢](start/design-queries.md)
+    + [定義篩選條件](start/filter-conditions.md)
+  + [匯入資料](start/import.md)
++ 報告與追蹤 {#analytics}
   + 訊息追蹤 {#tracking}
     + [開始使用追蹤](send/tracking.md)
     + [設定追蹤的連結](send/tracked-links.md)
@@ -190,13 +187,6 @@ ht-degree: 85%
       + [傳遞報告](reporting/delivery-reports.md)
       + [內建量度計算](reporting/metrics-calculation.md)
     + [自訂報告](reporting/custom-reports.md)
-+ 資料管理 {#data}
-  + 查詢資料庫 {#query}
-    + [使用查詢編輯器](start/query-editor.md)
-    + [設計查詢](start/design-queries.md)
-    + [定義篩選條件](start/filter-conditions.md)
-  + [匯入資料](start/import.md)
-  + [工作流程檔案>](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=zh-Hant)
 + 整合 {#connect}
   + [連結 Campaign 與其他解決方案](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -215,6 +205,15 @@ ht-degree: 85%
     + [使用 Campaign 及 SFDC](connect/ac-sfdc.md)
     + [使用 Campaign 及 Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [同步資料](connect/crm-data-sync.md)
++ 管理與許可權 {#permissions}
+  + [開始使用權限](start/gs-permissions.md)
+  + [管理使用者權限](start/manage-permissions.md)
+  + [新增資料夾權限](start/folder-permissions.md)
+  + [控制面板](config/self-service.md)
++ 隱私權與安全性 {#privacy}
+  + [管理隱私權請求](start/privacy.md)
+  + [安全性方針](config/security.md)
+  + [增強式安全性附加元件](config/enhanced-security.md)
 + 架構 {#architecture}
   + [全域原則](architecture/general-architecture.md)
   + [架構模型](architecture/architecture.md)
@@ -254,7 +253,7 @@ ht-degree: 85%
     + [輸入表單](dev/forms.md)
   + [使用資料套件](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+  + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
   + REST API {#apis}
     + [開始使用REST API](dev/api/get-started-apis.md)
     + [建議與限制](dev/api/limitations.md)
@@ -281,7 +280,7 @@ ht-degree: 85%
     + 管理工作流程 {#managing-workflows}
       + [控管工作流程](dev/api/controlling-a-workflow.md)
       + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
-+ 其他資源 {#resources}
++ 額外資源 {#resources}
   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
 
