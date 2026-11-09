@@ -1,0 +1,52 @@
+---
+product: campaign
+title: 擴充功能範例
+description: 擴充功能範例
+feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
+audience: interaction
+content-type: reference
+topic-tags: advanced-parameters
+exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
+TQID: 'https://experienceleague.adobe.com/TQZaYrJop03HAw47XPFqgmoxb073iC-xztTp-f-5dEk'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 3%
+---
+# 擴充功能範例{#extension-example}
+
+
+
+如果是傳入連絡人（客服中心或網站），系統會使用一組適用性規則，向指定連絡人建議最相關的優惠方案。 若要擴充優惠方案的資格條件，請擴充&#x200B;**nms:interaction**&#x200B;結構描述。
+
+* 若要新增互動內容，請擴充&#x200B;**nms:interaction**&#x200B;結構描述，並在結構描述中建立所需數量的&#x200B;**屬性**&#x200B;元素。
+
+  在以下範例中，新增的標準為國家/地區代碼和上次造訪的頁面。
+
+  ![](assets/s_ncs_configuration_offer_schemas.png)
+
+* 然後，您可以在定義適用性條件定義時，使用先前建立的屬性。
+
+  在以下範例中，我們可以建立適用性標準，以根據使用者所在的國家/地區或他們檢視的上一個網頁來顯示優惠方案。
+
+  ![](assets/s_ncs_configuration_offer_context.png)
+
+* 設定SOAP呼叫時，請插入&#x200B;**context** XML元素，以參考加入互動結構描述中的內容資訊。 如需進一步資訊，請參閱[透過SOAP整合（伺服器端）](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8檔案）。

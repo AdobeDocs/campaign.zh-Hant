@@ -20,20 +20,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '119'
 ht-degree: 0%
 ---
 # 互動模組進階設定
 
 Campaign互動模組設定保留給專家使用者。 進階設定在&#x200B;**Campaign Classic v7檔案**&#x200B;中有詳細說明：
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=zh-Hant){target="_blank"}瞭解如何在選件中使用其他內容資料。
+在此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}瞭解如何在選件[中使用其他內容資料。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=zh-Hant){target="_blank"}瞭解如何豐富您的優惠方案的資格條件。
+在此頁面](extension-example.md)瞭解如何豐富您的優惠方案[的資格條件。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=zh-Hant){target="_blank"}中瞭解建立測試環境的步驟。
+在此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}中瞭解建立測試環境[的步驟。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=zh-Hant){target="_blank"}瞭解如何使用鉤點來修改優惠方案引擎的標準行為。
+在此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"}瞭解如何使用鉤點來修改優惠方案引擎[的標準行為。
 

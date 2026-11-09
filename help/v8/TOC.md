@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 85%
+source-wordcount: '1084'
+ht-degree: 88%
 ---
 
 # Adobe Campaign v8 (主控台) 文件 {#campaign-v8}
@@ -37,7 +37,6 @@ ht-degree: 85%
   + [從 Campaign Classic v7 到 v8](start/v7-to-v8.md)
   + [從 Campaign Standard 至 v8](start/acs-to-v8.md)
   + [常見問題集](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[常見問題](start/campaign-faq.md)
   + {hide-from-toc}[電子郵件追蹤畫素和CNIL指引](start/cnil-pixel-tracking.md)
 + 訊息 {#send}
   + [開始使用訊息](start/gs-message.md)
@@ -134,6 +133,44 @@ ht-degree: 85%
 + 登陸頁面與表單 {#content}
   + [建立登陸頁面](dev/landing-pages.md)
   + [設計網頁應用程式和表單](dev/webapps.md)
+  + 網頁應用程式 {#web-applications}
+    + [開始使用網路應用程式](dev/web/about-web-applications.md)
+    + [建立新的網站應用程式](dev/web/creating-a-new-web-application.md)
+    + [設計網站應用程式](dev/web/designing-a-web-application.md)
+    + [使用案例：建立概觀](dev/web/use-cases-creating-overviews.md)
+    + [追蹤網站應用程式](dev/web/translating-a-web-application.md)
+    + [追蹤網站應用程式的瀏覽次數](dev/web/tracking-a-web-application.md)
+    + [網站應用程式追蹤選擇退出](dev/web/web-application-tracking-opt-out.md)
+  + 編輯 HTML 內容 {#editing-html-content}
+    + [開始使用 HTML 編輯器](dev/web/about-campaign-html-editor.md)
+    + [範本管理](dev/web/template-management.md)
+    + [內容編輯器介面](dev/web/content-editor-interface.md)
+    + [編輯內容](dev/web/editing-content.md)
+    + [內容編輯最佳實務](dev/web/content-editing-best-practices.md)
+    + [設定登陸頁面](dev/web/creating-a-landing-page.md)
+    + [使用實例：建立電子郵件傳遞](dev/web/use-case-creating-an-email-delivery.md)
+  + 網路表單 {#web-forms}
+    + [開始使用網路表單](dev/web/about-web-forms.md)
+    + [使用網路表單範本](dev/web/using-a-web-form-template.md)
+    + [新增欄位至網路表單](dev/web/adding-fields-to-a-web-form.md)
+    + [網路表單中的靜態元素](dev/web/static-elements-in-a-web-form.md)
+    + [定義網路表單版面](dev/web/defining-web-forms-layout.md)
+    + [表單轉譯](dev/web/form-rendering.md)
+    + [定義頁面順序](dev/web/defining-web-forms-page-sequencing.md)
+    + [儲存網路表單答案](dev/web/web-forms-answers.md)
+    + [發佈網路表單](dev/web/publishing-a-web-form.md)
+    + [定義網路表單屬性](dev/web/defining-web-forms-properties.md)
+    + [翻譯網路表單](dev/web/translating-a-web-form.md)
+    + [使用實例：網路表單](dev/web/use-cases-web-forms.md)
+  + 調查 {#surveys}
+    + [開始使用意見調查](dev/surveys/about-surveys.md)
+    + [建立調查的關鍵步驟](dev/surveys/getting-started-with-surveys.md)
+    + [設計調查](dev/surveys/building-a-survey.md)
+    + [管理答案](dev/surveys/managing-answers.md)
+    + [發佈、追蹤及使用收集的資料](dev/surveys/publish-track-and-use-collected-data.md)
+    + [設定調查](dev/surveys/configuring-surveys.md)
+    + [使用實例：建立轉介表單](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [使用案例：針對線上調查的回答顯示報吿](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + 行銷活動 {#campaigns}
   + [開始使用行銷活動](start/campaigns.md)
   + [Campaign Orchestration檔案>](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant)
@@ -156,8 +193,24 @@ ht-degree: 85%
     + [內容](interaction/interaction-present-offers.md)
     + [呼叫網頁中的產品建議](interaction/interaction-integration.md)
     + [管理匿名互動](interaction/anonymous-interactions.md)
+  + 管理產品建議目錄 {#managing-an-offer-catalog}
+    + [核准並啟用產品建議](interaction/approving-and-activating-an-offer.md)
+    + [管理產品建議範本](interaction/managing-offer-templates.md)
+    + [管理產品建議簡報](interaction/managing-offer-presentation.md)
+  + 產品建議模擬 {#simulating-offers}
+    + [關於產品建議模擬](interaction/about-offers-simulation.md)
+    + [執行設定](interaction/execution-settings.md)
+    + [模擬範圍](interaction/simulation-scope.md)
+    + [模擬追蹤](interaction/simulation-tracking.md)
   + [報告和歷史記錄](interaction/interaction-tracking.md)
   + [使用案例](interaction/interaction-use-cases.md)
+  + 使用案例範例 {#case-study}
+    + [簡報規則](interaction/presentation-rules.md)
+    + [傳入頻道上的產品建議](interaction/offers-on-an-inbound-channel.md)
+    + [傳出頻道上的產品建議](interaction/offers-on-an-outbound-channel.md)
+  + [進階設定](interaction/interaction-advanced-settings.md)
+  + 進階參數 {#advanced-parameters}
+    + [擴充功能範例](interaction/extension-example.md)
 + 查詢和資料 {#data}
   + 查詢資料庫 {#query}
     + [使用查詢編輯器](start/query-editor.md)
@@ -253,7 +306,7 @@ ht-degree: 85%
     + [輸入表單](dev/forms.md)
   + [使用資料套件](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+  + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
   + REST API {#apis}
     + [開始使用REST API](dev/api/get-started-apis.md)
     + [建議與限制](dev/api/limitations.md)

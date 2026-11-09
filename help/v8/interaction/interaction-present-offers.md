@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '187'
 ht-degree: 8%
 ---
 # 呈現最佳優惠方案{#interaction-present-offers}
@@ -34,7 +34,7 @@ ht-degree: 8%
 
 為了讓優惠方案引擎選取優惠方案，優惠方案必須獲得核准並可在即時環境中使用。
 
-如需詳細資訊，請參閱[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=zh-Hant#approving-offer-content){target="_blank"}。
+如需詳細資訊，請參閱[本章節](approving-and-activating-an-offer.md#approving-offer-content)。
 
 在連絡人的傳入連絡人內容中，瀏覽頁面的使用者是否可由網站識別。 優惠方案引擎為已識別的設定檔和匿名設定檔提供不同的優惠方案。
 
