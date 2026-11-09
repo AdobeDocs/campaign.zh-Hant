@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Campaign自動化指南
 user-guide-description: Campaign自動化指南
 feature: Overview
-source-git-commit: 7e18801756113db5273f0108447c20d6b3ef85a3
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 81%
 ---
 
@@ -164,4 +164,10 @@ ht-degree: 81%
   + [控制成本](mrm/controlling-costs.md)
   + [管理行銷資源](mrm/managing-marketing-resources.md)
   + [論壇](mrm/discussion-forums.md)
++ 回應管理員（附加元件） {#response-manager}
+  + [開始使用回應管理員](response/about-response-manager.md)
+  + [設定回應管理員](response/configure-response-manager.md)
+  + [假設範本](response/hypothesis-templates.md)
+  + [建立假設](response/creating-hypotheses.md)
+  + [假設追蹤](response/hypothesis-tracking.md)
 + [&lt;返回Campaign v8檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/campaign-home)
