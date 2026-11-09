@@ -84,7 +84,7 @@ ht-degree: 2%
   >
   >如果範本設定為將控制組列入考量，但在假設相關的傳送中未定義任何組，則結果將僅以目標收件者為基礎。
 
-  有關定義和設定控制組的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}。
+  有關定義和設定控制組的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant#add-a-control-group){target=_blank}。
 
 * **[!UICONTROL Channel]**：您可以在下拉式清單中選取&#x200B;**[!UICONTROL All channels]**，以選擇特定管道或讓假設範本可供Adobe Campaign主控台中的所有管道使用。 如果您設定特定頻道的範本，這可讓您在建立假設時自動篩選每個頻道的傳送。 [了解更多](creating-hypotheses.md)
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 
 ### 交易數 {#transactions}
 
-此索引標籤包含各種欄位和表格，可讓您根據交易儲存收件者回應的歷史記錄。 請參閱此[區段](https://experienceleague.adobe.com/en/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}，以取得回應管理專用表格的詳細資訊。
+此索引標籤包含各種欄位和表格，可讓您根據交易儲存收件者回應的歷史記錄。 請參閱此[區段](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}，以取得回應管理專用表格的詳細資訊。
 
 * **[!UICONTROL Schema (reaction log storage)]**：選取收件者回應表格。 Adobe Campaign中的現成表格是&#x200B;**NmsRemaMatchRcp**。
 * **[!UICONTROL Transaction schema]**：選擇假設所關注的資料表，即交易或購買資料表。
