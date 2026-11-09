@@ -69,7 +69,7 @@ ht-degree: 3%
 
 若要開始進行這項整合，您必須註冊[X開發人員帳戶](https://developer.twitter.com){target="_blank"}。
 
-Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權[。
+Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面[&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權。
 
 ## 在X上建立應用程式 {#create-an-app-on-twitter}
 
@@ -137,7 +137,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**&#x200B;標籤：應該會顯示您的Twitter帳戶。
   ![](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}
