@@ -44,12 +44,12 @@ ht-degree: 8%
 
 您可以儲存這些結果，並視需要透過建立結果的描述性分析來匯出這些結果。 要執行此操作，請在結果視窗中按一下適當的連結。
 
-如需描述性分析助理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}。
+如需描述性分析助理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}。
 
 ![](assets/offer_simulation_012.png)
 
 樞紐分析表可讓您快速檢視每個排名的選件劃分。 與Adobe Campaign中的所有報表一樣，您可以匯出、列印、封存或在網頁瀏覽器中顯示。
 
-如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}。
+如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}。
 
 ![](assets/offer_simulation_013.png)
