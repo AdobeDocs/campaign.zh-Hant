@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1071'
 ht-degree: 10%
 ---
 # 開始使用Campaign架構{#gs-ac-archi}
@@ -51,7 +51,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 您可以將套件從一個環境匯出和匯入到另一個環境。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=zh-Hant){target="_blank"}中進一步瞭解套件
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}中進一步瞭解套件
 
 ## 部署模型 {#ac-deployment}
 
@@ -82,7 +82,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!AVAILABILITY]
 >
->此功能僅適用於擁有多個中間來源(MID)執行個體設定的客戶。
+>此功能位於Limited Availability (LA)，僅供擁有多個中間來源(MID)執行個體設定的客戶使用。
 
 根據您的Campaign v8套件，系統會為您布建特定數量的中間來源執行個體，負責執行傳送。
 
