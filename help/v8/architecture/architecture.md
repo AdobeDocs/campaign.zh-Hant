@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1071'
 ht-degree: 10%
 ---
 # 開始使用Campaign架構{#gs-ac-archi}
@@ -82,7 +82,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 >[!AVAILABILITY]
 >
->此功能僅適用於擁有多個中間來源(MID)執行個體設定的客戶。
+>此功能位於Limited Availability (LA)，僅供擁有多個中間來源(MID)執行個體設定的客戶使用。
 
 根據您的Campaign v8套件，系統會為您布建特定數量的中間來源執行個體，負責執行傳送。
 
