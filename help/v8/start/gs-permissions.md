@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '513'
 ht-degree: 5%
 ---
 # 開始使用權限{#gs-permissions}
@@ -69,9 +69,9 @@ Adobe Admin Console是管理整個組織中Adobe許可權的中央位置。 僅�
 
 ## 關於產品設定檔{#ootb-product-profiles}
 
-產品設定檔是您可以指派給使用者的產品和服務群組。 在Adobe Experience Cloud中，許可權取決於產品設定檔，而不是使用者。 但是，您可以將管理許可權委派給特定使用者。
+產品設定檔是您可以指派給使用者的產品和服務群組。 在[!DNL Adobe CX Enterprise]中，許可權是以產品的設定檔為基礎，而非以使用者為基礎。 但是，您可以將管理許可權委派給特定使用者。
 
-在Admin Console中，Campaign的每個Adobe Experience Cloud **產品設定檔**&#x200B;都與Campaign使用者端主控台中的&#x200B;**操作員群組**&#x200B;相關聯。
+在Admin Console中，Campaign的每個[!DNL CX Enterprise] **產品設定檔**&#x200B;都與Campaign使用者端主控台中的&#x200B;**操作員群組**&#x200B;相關聯。
 
 瞭解如何在[此頁面](manage-permissions.md#create-product-profile)中建立和指派產品設定檔。
 

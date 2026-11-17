@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2240'
-ht-degree: 5%
+source-wordcount: '2237'
+ht-degree: 4%
 ---
 # 技術工作流程{#about-technical-workflows}
 
@@ -90,11 +90,11 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **討論區程式** (newsgroupMgt) | 行銷資源 (MRM) | 此工作流程會管理討論區通知的傳送。 它會在收到核准訊號時觸發。 |
 | **分散式行銷程式** (centralLocalMgt) | 中央/地方行銷 (分散式行銷) | 此工作流程會開始處理與使用分散式行銷模組相關。 它會啟動本機行銷活動的建立，並管理與訂單和行銷活動套件可用性相關的通知。 |
 | **事件清除** (webAnalyticsPurgeWebEvents) | 網站分析連接器 | 此工作流程可讓您根據生命週期欄位中設定的期間，從資料庫欄位中刪除每個事件。 |
-| **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些客群可用於您所使用的不同 Adobe Experience Cloud 解決方案。 |
+| **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe CX Enterprise解決方案。 |
 | **預測** （預測） | 預設安裝 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
 | **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[本節](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
 | **已轉換連絡人的識別碼** (webAnalyticsFindConverted) | 網站分析連接器 | 此工作流程會針對在再次行銷活動後完成購買的網站訪客建立索引。 此工作流程復原的資料可在再行銷效率報表中存取（請參閱本頁面）。 |
-| **從Adobe Experience Cloud匯入對象** (importSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程可讓您從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。 |
+| **從Adobe Experience Cloud匯入對象** (importSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程可讓您將不同CX Enterprise解決方案的對象/區段匯入至Adobe Campaign。 |
 | 行銷活動中的傳遞&#x200B;**工作** (deliveryMgt) | 預設安裝 | 此工作流程會觸發已核准的傳送，並開始為外部傳送對服務提供者進行後續處理。 也會傳送核准通知和提醒。 |
 | 服務提供者上的&#x200B;**工作** (supplierMgt) | 預設安裝 | 在核准傳遞後，此工作流程會開始處理提供者（傳送至路由器的電子郵件並進行後續處理）。 |
 | **LINE V2存取權杖更新** (updateLineV2AccessToken) | LINE 管道 | 此工作流程會將存取Token重新整理至LINE V2。 |
@@ -120,7 +120,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **復寫參考資料表** (ffdaReplicateReferenceTables) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 執行需要存在於Campaign本機資料庫(PostgreSQL)和雲端資料庫([!DNL Snowflake])上的內建資料表的自動復寫。 排程為每小時、每天執行。 如果存在&#x200B;**lastModified**&#x200B;欄位，則會遞增進行復寫，否則會復寫整個資料表。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
 | **復寫暫存資料** (ffdaReplicateStagingData) | 預設僅安裝於[Campaign Enterprise (FFDA)部署](../../v8/architecture/enterprise-deployment.md) | 復寫單一呼叫的中繼資料。 排程為每小時、每天執行。 [進一步瞭解資料復寫](../../v8/architecture/replication.md) |
 | **報告彙總** (reportingAggregates) | 傳遞 | 此工作流程會更新報告中使用的彙總。 預設會每天凌晨2:00觸發。 |
-| **傳送指標和行銷活動屬性** (webAnalyticsSendMetrics) | 網站分析連接器 | 此工作流程可讓您透過® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至Adobe Experience Cloud套裝。 相關指標如下：已傳送(iSent)、開啟總數(iTotalRecipientOpen)、點按的收件者總數(iTotalRecipientClick)、錯誤(iError)、選擇退出（選擇退出） (iOptOut)。 |
+| **傳送指標和行銷活動屬性** (webAnalyticsSendMetrics) | 網站分析連接器 | 此工作流程可讓您透過® Analytics聯結器，從Adobe Campaign傳送電子郵件行銷活動指標至CX Enterprise。 相關指標如下：已傳送(iSent)、開啟總數(iTotalRecipientOpen)、點按的收件者總數(iTotalRecipientClick)、錯誤(iError)、選擇退出（選擇退出） (iOptOut)。 |
 | **Stock：訂單與警示** (stockMgt) | 預設安裝 | 此工作流程會啟動訂單明細行的庫存計算，並管理警告警示臨界值。 |
 | 從Adobe Experience Platform Data Collection **(syncWithLaunch)同步行動應用程式** | 預設安裝，從v8.5開始 | 此工作流程會自動將行動屬性從資料收集同步至Adobe Campaign。 |
 | **同步Twitter頁面** (syncTwitter) | 社交行銷 | 此工作流程每天早上7:00將X關注者匯入Adobe Campaign。 |

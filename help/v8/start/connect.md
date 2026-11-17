@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 94%
+source-wordcount: '1103'
+ht-degree: 90%
 ---
 # 連線至 Adobe Campaign v8{#gs-ac-connect}
 
@@ -146,14 +146,14 @@ Adobe Campaign 可讓您定義並管理指派給各個操作者的權限。
 
 ### Web 使用者介面 {#connect-web-ui}
 
-自 Campaign v8.6 版本起，您可存取可透過中央 Adobe Experience Cloud 環境使用的新的 **Campaign Web 使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
+自Campaign v8.6發行版本開始，您可以存取新的&#x200B;**Campaign網頁使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境取得。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
 
 >[!AVAILABILITY]
 >
 >Campaign Web 使用者介面僅適用於使用 Adobe ID 連線至 Adobe Campaign 的使用者。 深入瞭解 [Adobe 身分管理系統 (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 >
 
-[在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
+在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。
 
 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 

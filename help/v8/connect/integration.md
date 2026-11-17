@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 12%
+source-wordcount: '452'
+ht-degree: 13%
 ---
 # 將Campaign與您的解決方案連結{#gs-ac-connectors}
 
-您可以將Campaign執行個體連線至Adobe Experience Cloud解決方案，以便結合功能。
+您可以將Campaign執行個體連線至[!DNL Adobe CX Enterprise]個解決方案以結合功能。
 
 Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連線至資料庫引擎、共用及同步資料。
 
 ## 結合您的Adobe解決方案 {#gs-ac-integration}
 
-結合Adobe Experience Cloud解決方案，匯入最新的實作方式。
+結合[!DNL CX Enterprise]個解決方案以更新您的實作。
 
 Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
@@ -55,15 +55,15 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 * Adobe Target。 [了解更多](../connect/ac-at.md)
 * Adobe Workfront。 [了解更多](../connect/ac-workfront.md)
 
-您也可以將Experience Cloud解決方案中的&#x200B;**對象**&#x200B;和&#x200B;**資產**&#x200B;與資產共用和對象共用功能相結合。
+您也可以結合您跨越[!DNL CX Enterprise]解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**，以及資產共用和對象共用功能。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**對象共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**對象共用**。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與Experience Cloud解決方案之間的&#x200B;**資產共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**資產共用**。
 
 >[!NOTE]
 >
->作為Managed Cloud Services使用者，[請聯絡Adobe](../start/campaign-faq-comprehensive.md#support)以連結Campaign與Adobe Experience Cloud服務和解決方案。
+>作為Managed Cloud Services使用者，[請連絡Adobe](../start/campaign-faq-comprehensive.md#support)以連結Campaign與[!DNL CX Enterprise]服務和解決方案。
 
 
 ## 與您的CRM聯結器整合{#gs-crm-connectors}

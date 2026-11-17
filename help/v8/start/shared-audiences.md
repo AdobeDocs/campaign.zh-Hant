@@ -24,12 +24,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 76%
+source-wordcount: '255'
+ht-degree: 61%
 ---
-# 與 Adobe Experience Cloud 解決方案共用客群{#shared-audiences}
+# 與[!DNL Adobe CX Enterprise]解決方案共用對象{#shared-audiences}
 
 
 選項 1：AEP 來源和目的地
@@ -38,9 +38,9 @@ ht-degree: 76%
 
 您可以整合 **Adobe Campaign** 與&#x200B;**人員核心服務**&#x200B;或 Adobe Audience Manager。 之後，您將能夠：
 
-* 從不同的 Adobe Experience Cloud 解決方案匯入共用的客群/區段至 Adobe Campaign。 您可以透過 Adobe Campaign 中的清單匯入客群。
+* 從不同的[!DNL CX Enterprise]解決方案匯入共用的對象/區段至Adobe Campaign。 您可以透過 Adobe Campaign 中的清單匯入客群。
 
-* 以 Adobe Experience Cloud 共用客群的形式匯出清單。 這些客群可用於您所使用的不同 Adobe Experience Cloud 解決方案。 在工作流程中目標定位後，可使用專用的 **[!UICONTROL Update shared audience]** 活動匯出客群。
+* 以[!DNL CX Enterprise]個共用對象的形式匯出清單。 這些對象可用於您所使用的不同[!DNL CX Enterprise]解決方案。 在工作流程中目標定位後，可使用專用的 **[!UICONTROL Update shared audience]** 活動匯出客群。
 
 此整合支援兩種類型的 Adobe Experience Cloud ID：
 

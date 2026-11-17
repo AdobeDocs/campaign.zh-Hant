@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1055'
 ht-degree: 87%
 ---
 # 開始使用 Adobe Campaign{#gs-ac-v8}
@@ -129,7 +129,7 @@ Adobe Campaign提供完整的圖形環境，讓您設計複雜程式，包括細
 
 在[本節](../reporting/gs-reporting.md)進一步瞭解報告與追蹤功能。
 
-## Adobe Experience Cloud 整合 {#adobe-experience-cloud-integrations}
+## [!DNL Adobe CX Enterprise]整合 {#adobe-experience-cloud-integrations}
 
 您可以將 Adobe Campaign 的傳遞功能和行銷活動管理進階功能，與協助您個人化使用者體驗的解決方案 (例如：Adobe Experience Manager、Adobe Analytics、Adobe Target 或 Adobe Experience Cloud 觸發程式) 相互結合。
 

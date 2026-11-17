@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 70%
+source-wordcount: '1226'
+ht-degree: 67%
 ---
 # 探索使用者介面 {#ui-client-console}
 
@@ -48,7 +48,7 @@ ht-degree: 70%
 
 * **API** - 若要解決更多使用案例，可使用透過 SOAP 通訊協定公開的網頁服務 API，從外部應用程式呼叫系統。 在[本頁面](../dev/api.md)中進一步瞭解 Campaign API。
 
-* **Web 使用者介面** - 作為 Campaign v8 使用者，自 v8.6.1 版本起，您現在可以透過中央 Adobe Experience Cloud 使用者介面存取網頁環境。 接著，您就可以從網頁瀏覽器連線至 Adobe Campaign。 此新介面可讓您建立、管理及執行重要的行銷動作。 不過，並非所有 Campaign 功能都可使用。 [了解更多資訊](#ac-web-ui)。
+* **網頁使用者介面** — 作為Campaign v8使用者，從v8.6.1版本開始，您現在可以透過中央[!DNL Adobe CX Enterprise]使用者介面存取網頁環境。 接著，您就可以從網頁瀏覽器連線至 Adobe Campaign。 此新介面可讓您建立、管理及執行重要的行銷動作。 不過，並非所有 Campaign 功能都可使用。 [了解更多資訊](#ac-web-ui)。
 
   >[!AVAILABILITY]
   >
@@ -75,7 +75,7 @@ Campaign 用戶端主控台是原生應用程式，可透過標準網際網路�
 
 >[!NOTE]
 >
->如果未顯示Web使用者介面卡，請確定您的A[Adobe Experience Cloud外部帳戶](../config/external-accounts.md)中的下列欄位未留空： **伺服器**、**租使用者**、**回呼伺服器**&#x200B;以及&#x200B;**關聯標籤**。
+>如果未顯示Web使用者介面卡，請確定您的[Adobe Experience Cloud外部帳戶](../config/external-accounts.md)中的下列欄位未留空： **伺服器**、**租使用者**、**回呼伺服器**&#x200B;以及&#x200B;**關聯標籤**。
 
 您也可以從首頁存取[Campaign控制面板](../config/self-service.md)。
 
@@ -144,7 +144,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 ## Campaign Web 使用者介面 {#ac-web-ui}
 
-自8.6.1版開始，身為Campaign v8使用者，您可以透過中央Adobe Experience Cloud使用者介面存取網頁環境。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
+自v8.6.1發行版本開始，身為Campaign v8使用者，您可以透過中央[!DNL CX Enterprise]使用者介面存取網頁環境。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。
 
 ![Adobe Campaign Web 使用者介面首頁](assets/ac-web-home.png)
 

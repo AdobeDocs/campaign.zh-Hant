@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 76%
+source-wordcount: '732'
+ht-degree: 73%
 ---
 # 從 [!DNL Campaign Classic] v7 轉變至 [!DNL Campaign] v8{#gs-matrix}
 
@@ -91,7 +91,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
-Campaign 使用者僅透過其 Adobe ID 連線。 相同的 Adobe ID 可用來保留與單一帳戶相關聯的所有 Adobe Experience Cloud 解決方案。
+Campaign 使用者僅透過其 Adobe ID 連線。 相同的Adobe ID可用來保留與單一帳戶相關聯的所有[!DNL Adobe CX Enterprise]解決方案Adobe計畫和產品。
 
 瞭解如何在[此頁面](connect.md)中連線至[!DNL Campaign]。
 

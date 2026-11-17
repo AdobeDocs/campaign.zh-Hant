@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 88%
+source-wordcount: '1947'
+ht-degree: 87%
 ---
 # 2022 發行說明{#2022-rn}
 
@@ -207,7 +207,7 @@ _2022 年 5 月 18 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 現在與 Adobe 隱私權核心服務整合。 從「隱私權核心服務」推播至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。</p>
+<td> <p>Campaign v8 現在與 Adobe 隱私權核心服務整合。 從「隱私權核心服務」推播至所有Adobe CX Enterprise解決方案的隱私權請求，會由Campaign透過專用工作流程自動處理。</p>
 <p>如需詳細資訊，請參閱<a href="privacy.md">詳細文件</a>以瞭解詳情。</p>
 </td> 
 </tr> 

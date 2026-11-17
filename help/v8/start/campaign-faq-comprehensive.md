@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11502'
 ht-degree: 12%
 ---
 # 常見問題集 {#faq}
@@ -37,7 +37,7 @@ ht-degree: 12%
 **需要版本說明嗎？** 檢查[升級](#upgrades)版本資訊和升級程式。\
 **從v7或Standard移轉？** 如需差異和轉換指引，請參閱[Campaign v8與舊版](#v7-differences)。\
 **需要技術協助嗎？** 檢查[開發人員](#developers)和[行銷活動設定](#settings)。\
-**找不到您的答案？** 造訪我們的[社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}或[連絡支援](#get-help)。
+**找不到您的答案？** 造訪我們的[社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}或[連絡支援](#get-help)。
 
 **提示：**&#x200B;使用Ctrl+F （Mac上的Cmd+F）在此頁面上搜尋特定關鍵字。 按一下任何問題以展開答案。
 
@@ -50,7 +50,7 @@ ht-degree: 12%
 
 Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您跨電子郵件、行動裝置、社交和離線頻道建立、協調和提供個人化行銷活動。 它結合強大的行銷資料庫、行銷活動協調引擎和即時互動功能，以便與客戶在其歷程中互動。
 
-**重要功能：**&#x200B;多頻道行銷活動管理、對象細分和目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報表和分析、與Adobe Experience Cloud整合。
+**重要功能：**&#x200B;多頻道行銷活動管理、對象細分與目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報告與分析、與[!DNL Adobe CX Enterprise]整合。
 
 **讓v8獨樹一格的原因：**&#x200B;雲端原生架構（僅限Managed Cloud Services）、由Snowflake資料庫支援的企業級效能、自動升級、增強式安全性，以及與Adobe Experience Platform的雙向整合。
 
@@ -68,7 +68,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 以管理員使用者身分，存取Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}以下載Adobe Campaign。
 
-在此頁面[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}上進一步瞭解發佈中心。
+在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}上進一步瞭解發佈中心[。
 
 +++
 
@@ -76,9 +76,9 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 您需要下載安裝 Campaign 用戶端主控台，才能連線至 Adobe Campaign。 [了解更多資訊](connect.md)。
 
-自Campaign v8.6發行版本開始，您可以存取透過中央Adobe Experience Cloud環境提供的&#x200B;**Campaign網頁使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。
+自Campaign v8.6發行版本開始，您可以透過中央[!DNL CX Enterprise]環境存取&#x200B;**Campaign Web使用者介面**。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。
 
-[在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
 
 **相關主題：**
@@ -91,7 +91,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 是！ 與IMS （Adobe Identity Management系統）整合之後，使用者可以使用Adobe ID連線至Adobe Campaign主控台。 此整合具備以下優勢︰
 
-* 所有 Experience Cloud 解決方案都可以使用相同的 ID。
+* 所有[!DNL CX Enterprise]解決方案都可以使用相同的識別碼。
 * 使用不同整合中的 Adobe Campaign 時，可以記憶連線。
 * 更安全的密碼管理原則。
 * 使用 Federated ID 帳戶（外部 ID 提供者）。
@@ -104,7 +104,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 請參閱[本節](campaign-ui.md)，深入瞭解Adobe Campaign使用者介面基本知識。
 
-自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央Adobe Experience Cloud環境使用。
+自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央[!DNL CX Enterprise]環境取得。
 
 [在Adobe Campaign Web使用者介面檔案中進一步瞭解](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}。
 
@@ -171,7 +171,7 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 
 需要具有正確許可權的個別帳戶。 如果您無法登入，請透過Experience League要求存取權。 [了解更多](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
-或者，加入[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}以搜尋答案或詢問專家。
+或者，加入[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}以搜尋答案或詢問專家。
 
 +++
 
@@ -183,7 +183,7 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 
 +++ 我可以將Campaign v8搭配其他Adobe解決方案搭配使用嗎？
 
-是。 Campaign v8與Adobe Experience Cloud解決方案緊密整合，提供統一的行銷生態系統。
+是。 Campaign v8與統一行銷生態系統的[!DNL CX Enterprise]解決方案緊密整合。
 
 **重要整合：** Adobe Experience Platform （統一設定檔、即時資料）、Adobe Analytics （效能測量）、Adobe Target （個人化）、Adobe Experience Manager （內容管理）、Adobe Audience Manager （受眾區段）。
 
@@ -258,7 +258,7 @@ Adobe Campaign 會定期更新。 每年都會推出次要版本，其中包含�
 * **Adobe代表** — 在新版本可用時直接聯絡您
 * **發行說明** - [Campaign發行說明](release-notes.md)中記錄的所有版本與變更
 * **Adobe優先產品更新** - [訂閱](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}電子郵件通知
-* **Campaign社群** — 加入[討論](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}以取得早期更新
+* **Campaign社群** — 加入[討論](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}以取得早期更新
 
 Adobe身為Managed Cloud Services使用者，會處理升級並協調與您相關的計時。
 
@@ -277,7 +277,7 @@ Adobe身為Managed Cloud Services使用者，會處理升級並協調與您相�
 * **增強安全性** — 針對漏洞提供保護、最新修補程式、增強資料保護
 * **更好的支援** — 更快的問題解決、存取錯誤修正、最新版本的優先支援
 * **增強效能** — 資料庫和工作流程最佳化、更好的擴充性、更可靠的作業
-* **新功能** — 最新功能、改善的Adobe Experience Cloud整合、現代化使用者介面增強功能
+* **新功能** — 最新功能、改善的[!DNL CX Enterprise]整合、現代化使用者介面增強功能
 
 Adobe強烈建議執行最新版本。 身為受管理的Cloud Services客戶，升級是由Adobe以最低的中斷執行。
 
@@ -329,7 +329,7 @@ Campaign v8建置在現代雲端原生架構上，並大幅改善：
 * **卓越的效能** — 高達20,000,000作業/小時，搭配完整同盟資料存取(FFDA)架構
 * **全新Campaign Web UI** — 現代的直覺式介面與傳統主控台
 * **自動升級** — 一律使用最新版本，停機時間為零
-* **增強功能** - AI助理、豐富推播通知、升級簡訊、改善與Adobe Experience Cloud的整合
+* **增強功能** - AI助理、豐富推播通知、升級簡訊、改善與[!DNL CX Enterprise]的整合
 
 **若為Campaign Classic v7使用者：**&#x200B;瞭解[從v7轉變到v8](v7-to-v8.md)，包括架構變更、功能無法使用及移轉考量事項。
 
@@ -337,7 +337,7 @@ Campaign v8建置在現代雲端原生架構上，並大幅改善：
 
 **相關主題：**
 
-[Campaign v8主要功能](whats-new.md) | [Campaign v8架構](../architecture/architecture.md) | [功能矩陣](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [護欄和限制](ac-guardrails.md)
+[Campaign v8主要功能](whats-new.md) | [Campaign v8架構](../architecture/architecture.md) | [功能矩陣](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [護欄和限制](ac-guardrails.md)
 
 +++
 
@@ -354,14 +354,14 @@ Campaign v8是Adobe的平台，適用於需要大量行銷活動（每小時2000
 
 * 處理大量資料或體驗效能問題
 * 想要降低IT開銷和基礎建設管理
-* 需要Adobe Experience Cloud/平台整合
+* 需要[!DNL CX Enterprise]/平台整合
 * 想要具備自動更新功能的未來防護技術
 
 **後續步驟：**&#x200B;請聯絡您的Adobe代表，評估移轉準備程度並存取移轉工具。
 
 **相關主題：**
 
-[從Campaign Classic v7到v8](v7-to-v8.md) | [Campaign Standard轉換指南](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [功能矩陣](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+[從Campaign Classic v7到v8](v7-to-v8.md) | [Campaign Standard轉換指南](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [功能矩陣](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -377,7 +377,7 @@ Campaign v8是Adobe的平台，適用於需要大量行銷活動（每小時2000
 * 沒有基礎建設管理或IT負荷
 * 內建的高可用性與災難回覆
 
-深入瞭解[Campaign v8架構](../architecture/architecture.md)以及Campaign v8與Classic v7[&#128279;](../start/v7-to-v8.md)之間的差異。
+深入瞭解[Campaign v8架構](../architecture/architecture.md)以及Campaign v8與Classic v7](../start/v7-to-v8.md)之間的[差異。
 
 +++
 
@@ -394,7 +394,7 @@ Campaign v8是Adobe的平台，適用於需要大量行銷活動（每小時2000
 
 **快速入門：**&#x200B;請聯絡您的Adobe代表，評估您的環境並透過Adobe Professional Services制定詳細的移轉計畫。
 
-深入瞭解[移轉至Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=zh-Hant){target="_blank"}，包括挑戰、最佳實務和詳細的移轉藍圖。
+深入瞭解[移轉至Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}，包括挑戰、最佳實務和詳細的移轉藍圖。
 
 +++
 
@@ -424,7 +424,7 @@ Campaign v8強化了大部分的v7/Standard功能，但有些術語和功能有�
 
 **相關主題：**
 
-[功能矩陣](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7到v8轉換指南](v7-to-v8.md) | [Campaign Standard到v8的轉換](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+[功能矩陣](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7到v8轉換指南](v7-to-v8.md) | [Campaign Standard到v8的轉換](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -451,7 +451,7 @@ Campaign提供多種匯入方法：使用匯入精靈匯入簡單的檔案、針
 
 **相關主題：**
 
-[匯入資料指南](../start/import.md) | [週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=zh-Hant){target="_blank"} | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=zh-Hant){target="_blank"}
+[匯入資料指南](../start/import.md) | [週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"} | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
 
 +++
 
@@ -469,7 +469,7 @@ Campaign提供多種鎖定目標方法：使用視覺條件建立查詢、鎖定
 
 **相關主題：**
 
-[定義行銷活動目標](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"} | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"} | [建立對象](../audiences/create-audiences.md)
+[定義行銷活動目標](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"} | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [建立對象](../audiences/create-audiences.md)
 
 +++
 
@@ -489,7 +489,7 @@ Campaign提供多種鎖定目標方法：使用視覺條件建立查詢、鎖定
 
 **相關主題：**
 
-[建立對象](../audiences/create-audiences.md) | [清單更新活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=zh-Hant){target="_blank"}
+[建立對象](../audiences/create-audiences.md) | [清單更新活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -499,7 +499,7 @@ Campaign提供多種鎖定目標方法：使用視覺條件建立查詢、鎖定
 
 **秘訣：**&#x200B;傳送訊息前請一律刪除重複專案，確保每個人只收到一次您的訊息。
 
-深入瞭解[重複資料刪除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=zh-Hant){target="_blank"}
+深入瞭解[重複資料刪除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
 
 +++
 
@@ -515,7 +515,7 @@ Campaign會追蹤訂閱/取消訂閱歷程記錄，並自動管理選擇加入/�
 
 **相關主題：**
 
-[管理訂閱](../start/subscriptions.md) | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}
+[管理訂閱](../start/subscriptions.md) | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -523,7 +523,7 @@ Campaign會追蹤訂閱/取消訂閱歷程記錄，並自動管理選擇加入/�
 
 在工作流程中使用&#x200B;**[!UICONTROL Exclusion]**&#x200B;活動，從目標中移除不要的設定檔。 將其放在目標定位活動之後，並定義要排除的母體。
 
-深入瞭解[排除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=zh-Hant){target="_blank"}
+深入瞭解[排除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}
 
 +++
 
@@ -616,7 +616,7 @@ Campaign提供個人化功能，根據收件者資料、行為和偏好設定來
 
 **相關主題：**
 
-[多語言傳送(Web UI)](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [條件式內容（使用者端主控台）](../send/conditions.md)
+[多語言傳送(Web UI)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [條件式內容（使用者端主控台）](../send/conditions.md)
 
 +++
 
@@ -644,7 +644,7 @@ Campaign提供個人化功能，根據收件者資料、行為和偏好設定來
 
 **相關主題：**
 
-[AI助理概述](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI助理使用案例](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [品牌一致性](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[AI助理概述](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI助理使用案例](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [品牌一致性](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -711,7 +711,7 @@ Campaign產生顯示警告和錯誤的記錄。 錯誤會封鎖傳送，且必�
 
 管理&#x200B;**[!UICONTROL Resources > Campaign management > Seed addresses]**&#x200B;中的種子地址。 保持小清單以避免影響傳遞量度。
 
-進一步瞭解[種子地址指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=zh-Hant){target="_blank"}
+進一步瞭解[種子地址指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -925,7 +925,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[開始使用工作流程](../config/workflows.md) | [建置您的第一個工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=zh-Hant){target="_blank"} | [監視工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant){target="_blank"}
+[開始使用工作流程](../config/workflows.md) | [建置您的第一個工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [監視工作流程執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -937,7 +937,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[監視工作流程執行](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"}
+[監視工作流程執行](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
@@ -956,7 +956,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[建置工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html?lang=zh-Hant){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"} | [工作流程使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=zh-Hant){target="_blank"}
+[建置工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [工作流程使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
@@ -984,7 +984,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[排程器活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"} | [週期性傳遞](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=zh-Hant){target="_blank"} | [行銷活動自動化](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"}
+[排程器活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"} | [週期性傳遞](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [行銷活動自動化](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"}
 
 +++
 
@@ -996,7 +996,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[匯入最佳實務](../start/import.md) | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=zh-Hant){target="_blank"} | [週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=zh-Hant){target="_blank"}
+[匯入最佳實務](../start/import.md) | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [週期性匯入工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
 
@@ -1024,7 +1024,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[資料品質指南](../start/import.md) | [重複資料刪除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=zh-Hant){target="_blank"} | [擴充活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=zh-Hant){target="_blank"}
+[資料品質指南](../start/import.md) | [重複資料刪除活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} | [擴充活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1040,7 +1040,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[工作流程使用案例庫](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=zh-Hant){target="_blank"} | [建置工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"}
+[工作流程使用案例庫](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [建置工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=zh-Hant){target="_blank"} | [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
@@ -1054,7 +1054,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[更新資料活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=zh-Hant){target="_blank"} | [資料管理活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html?lang=zh-Hant){target="_blank"}
+[更新資料活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [資料管理活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
@@ -1066,7 +1066,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[資料管理活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html?lang=zh-Hant){target="_blank"} | [擴充活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=zh-Hant){target="_blank"}
+[資料管理活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [擴充活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1090,7 +1090,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[分割活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=zh-Hant){target="_blank"} | [A/B測試指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html?lang=zh-Hant){target="_blank"}
+[分割活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [A/B測試指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
@@ -1104,7 +1104,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[匯入資料指南](../start/import.md) | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=zh-Hant){target="_blank"} | [更新資料活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=zh-Hant){target="_blank"}
+[匯入資料指南](../start/import.md) | [資料載入活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [更新資料活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
 
@@ -1118,7 +1118,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"} | [使用彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=zh-Hant){target="_blank"}
+[查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [使用彙總](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 
 +++
 
@@ -1135,7 +1135,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=zh-Hant){target="_blank"} | [流量控制](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=zh-Hant){target="_blank"} | [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=zh-Hant){target="_blank"}
+[目標定位活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [流量控制](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [動作活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
 
 +++
 
@@ -1149,7 +1149,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[工作流程最佳實務指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"} | [監視工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant){target="_blank"}
+[工作流程最佳實務指南](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [監視工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -1177,7 +1177,7 @@ Adobe Campaign 的工作流程包含跨應用程式伺服器的不同模組策�
 
 **相關主題：**
 
-[在Campaign Web UI中變更語言](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [開始使用Campaign使用者端主控台](connect.md)
+[在Campaign Web UI中變更語言](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [開始使用Campaign使用者端主控台](connect.md)
 
 +++
 
@@ -1198,12 +1198,12 @@ Campaign「控制面板」是網頁式管理介面，可協助Campaign管理員�
 **存取需求：**
 
 * **僅限管理員使用者** — 控制面板僅限具有管理員許可權的使用者使用
-* **Adobe IMS驗證** — 使用您的Adobe ID透過Adobe Experience Cloud存取
+* **Adobe IMS驗證** — 使用您的Adobe ID透過[!DNL CX Enterprise]存取
 * **Campaign v8受管理的Cloud Services** — 僅適用於託管執行個體
 
 **其他資源：**
 
-[控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/control-panel-home){target="_blank"} | [控制面板教學課程影片](https://experienceleague.adobe.com/zh-hant/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/control-panel-home){target="_blank"} | [控制面板教學課程影片](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1316,7 +1316,7 @@ Campaign v8支援同盟資料存取(FDA)連線到主要企業資料庫系統（�
 
 **相關主題：**
 
-[CRM聯結器組態](../connect/crm.md) | [工作流程CRM活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=zh-Hant){target="_blank"}
+[CRM聯結器組態](../connect/crm.md) | [工作流程CRM活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1439,7 +1439,7 @@ Campaign會根據您的需求和技術專業提供多種報告選項：內建報
 
 **相關主題：**
 
-[開始使用報告](../reporting/gs-reporting.md) | [Campaign Web UI報告](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[開始使用報告](../reporting/gs-reporting.md) | [Campaign Web UI報告](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1515,7 +1515,7 @@ Campaign會根據您的需求和技術專業提供多種報告選項：內建報
 
 **相關主題：**
 
-[開始使用意見調查](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [意見調查報告](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[開始使用意見調查](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [意見調查報告](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
@@ -1564,7 +1564,7 @@ Campaign會根據您的需求和技術專業提供多種報告選項：內建報
 
 **相關主題：**
 
-[自訂報告](../reporting/custom-reports.md) | [Campaign Web UI報告](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[自訂報告](../reporting/custom-reports.md) | [Campaign Web UI報告](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1644,7 +1644,7 @@ Campaign的查詢編輯器會以視覺化方式建立資料庫查詢，而不使
 
 **相關主題：**
 
-[查詢編輯器](../start/query-editor.md) | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}
+[查詢編輯器](../start/query-editor.md) | [查詢活動](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -1818,15 +1818,15 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 
 與其他Campaign使用者和Adobe專家交流，以分享知識並獲得答案。
 
-* **[Adobe Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=zh-Hant){target="_blank"}** — 提出問題、共用解決方案，以及與Campaign社群連絡
-* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/?lang=zh_tw){target="_blank"}** — 瀏覽所有Adobe產品的討論
-* **[Campaign社群辦公時間](https://experienceleague.adobe.com/zh-hant){target="_blank"}** — 與Adobe專家一起加入即時會議
+* **[Adobe Campaign社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** — 提出問題、共用解決方案，以及與Campaign社群連絡
+* **[Experience League論壇](https://experienceleaguecommunities.adobe.com/){target="_blank"}** — 瀏覽所有Adobe產品的討論
+* **[Campaign社群辦公時間](https://experienceleague.adobe.com/){target="_blank"}** — 與Adobe專家一起加入即時會議
 
 ### 檔案與學習
 
 存取全方位的指南、教學課程和訓練教材。
 
-* **[Campaign教學課程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}** — 逐步影片指南和實作教學課程
+* **[Campaign教學課程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}** — 逐步影片指南和實作教學課程
 * **[新增功能](whats-new.md)** — 最新功能
 * **[發行說明](release-notes.md)** — 目前和先前的發行資訊
 * **[版本和升級](upgrades.md)** — 瞭解Campaign的版本、升級，以及如何檢查您的版本
@@ -1846,16 +1846,16 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** — 記錄支援案例並管理使用者
 * **[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html){target="_blank"}** — 聯絡支援團隊
 * **[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}** — 管理您的Campaign執行個體設定
-* **[系統狀態](https://status.adobe.com/zh-tw/){target="_blank"}** — 檢查Adobe服務狀態
+* **[系統狀態](https://status.adobe.com/){target="_blank"}** — 檢查Adobe服務狀態
 
 ### 培訓與認證
 
 透過官方的Adobe培訓和認證計畫提升您的技能。
 
-* **[Experience League說明](https://experienceleague.adobe.com/zh-hant/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8的說明資源（Web UI和CLient主控台）
+* **[Experience League說明](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8的說明資源（Web UI和CLient主控台）
 * **[Adobe數位學習服務](https://learning.adobe.com/){target="_blank"}** — 官方講師授課和自訂進度課程
-* **[Adobe Campaign認證](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=zh-Hant){target="_blank"}** — 以專業認證驗證您的專業知識
-* **[Experience League學習路徑](https://experienceleague.adobe.com/zh-hant?lang=en#dashboard/learning){target="_blank"}** — 引導式學習歷程
+* **[Adobe Campaign認證](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** — 以專業認證驗證您的專業知識
+* **[Experience League學習路徑](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** — 引導式學習歷程
 
 ### 其他實用資源
 

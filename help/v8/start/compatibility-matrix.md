@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 96%
 ---
 # Campaign v8 相容性矩陣 {#compat-matrix}
 
@@ -112,4 +112,4 @@ iOS 與 Android 的相容版本詳見 [Adobe Developer 文件](https://developer
 * [安裝 Campaign 用戶端控制台](connect.md)
 * [控制面板發行版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target="_blank"}
 
-若要接收最新 Experience Cloud 解決方案發行版本的通知，請訂閱 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}。
+若要接收新[!DNL Adobe CX Enterprise]解決方案發行版本的通知，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}。
