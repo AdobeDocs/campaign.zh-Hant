@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2111'
 ht-degree: 2%
 ---
 # 定義電子郵件內容 {#defining-the-email-content}
@@ -85,6 +85,10 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >8.9.3版包含外部URL允許清單的更新。 請確定訊息內容中使用的網域已新增至執行個體的已核准允許清單，以便資源能夠繼續載入而不會中斷。 作為Campaign管理員，請使用「控制面板」新增及管理允許清單的URL。 如需步驟，請參閱[新增 URL 權限](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}。
+
+>[!IMPORTANT]
+>
+>請勿在您的電子郵件內容中使用HTML `<base>`標籤。 基於安全理由，此標籤不受支援，且可能會阻止您的內容在內容編輯器中載入。 請改用連結和外部資源的絕對網址。
 
 訊息的內容會在傳遞設定視窗的下半部分中定義。
 

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11502'
 ht-degree: 12%
 ---
 # 常見問題集 {#faq}
@@ -50,7 +50,7 @@ ht-degree: 12%
 
 Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您跨電子郵件、行動裝置、社交和離線頻道建立、協調和提供個人化行銷活動。 它結合強大的行銷資料庫、行銷活動協調引擎和即時互動功能，以便與客戶在其歷程中互動。
 
-**重要功能：**&#x200B;多頻道行銷活動管理、對象細分和目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報表和分析、與Adobe Experience Cloud整合。
+**重要功能：**&#x200B;多頻道行銷活動管理、對象細分與目標定位、工作流程自動化、大規模個人化、即時和批次傳訊、報告與分析、與[!DNL Adobe CX Enterprise]整合。
 
 **讓v8獨樹一格的原因：**&#x200B;雲端原生架構（僅限Managed Cloud Services）、由Snowflake資料庫支援的企業級效能、自動升級、增強式安全性，以及與Adobe Experience Platform的雙向整合。
 
@@ -76,9 +76,9 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 您需要下載安裝 Campaign 用戶端主控台，才能連線至 Adobe Campaign。 [了解更多資訊](connect.md)。
 
-自Campaign v8.6發行版本開始，您可以存取透過中央Adobe Experience Cloud環境提供的&#x200B;**Campaign網頁使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。
+自Campaign v8.6發行版本開始，您可以透過中央[!DNL CX Enterprise]環境存取&#x200B;**Campaign Web使用者介面**。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。
 
-[在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
 
 **相關主題：**
@@ -91,7 +91,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 是！ 與IMS （Adobe Identity Management系統）整合之後，使用者可以使用Adobe ID連線至Adobe Campaign主控台。 此整合具備以下優勢︰
 
-* 所有 Experience Cloud 解決方案都可以使用相同的 ID。
+* 所有[!DNL CX Enterprise]解決方案都可以使用相同的識別碼。
 * 使用不同整合中的 Adobe Campaign 時，可以記憶連線。
 * 更安全的密碼管理原則。
 * 使用 Federated ID 帳戶（外部 ID 提供者）。
@@ -104,7 +104,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 請參閱[本節](campaign-ui.md)，深入瞭解Adobe Campaign使用者介面基本知識。
 
-自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央Adobe Experience Cloud環境使用。
+自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央[!DNL CX Enterprise]環境取得。
 
 [在Adobe Campaign Web使用者介面檔案中進一步瞭解](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}。
 
@@ -183,7 +183,7 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 
 +++ 我可以將Campaign v8搭配其他Adobe解決方案搭配使用嗎？
 
-是。 Campaign v8與Adobe Experience Cloud解決方案緊密整合，提供統一的行銷生態系統。
+是。 Campaign v8與統一行銷生態系統的[!DNL CX Enterprise]解決方案緊密整合。
 
 **重要整合：** Adobe Experience Platform （統一設定檔、即時資料）、Adobe Analytics （效能測量）、Adobe Target （個人化）、Adobe Experience Manager （內容管理）、Adobe Audience Manager （受眾區段）。
 
@@ -277,7 +277,7 @@ Adobe身為Managed Cloud Services使用者，會處理升級並協調與您相�
 * **增強安全性** — 針對漏洞提供保護、最新修補程式、增強資料保護
 * **更好的支援** — 更快的問題解決、存取錯誤修正、最新版本的優先支援
 * **增強效能** — 資料庫和工作流程最佳化、更好的擴充性、更可靠的作業
-* **新功能** — 最新功能、改善的Adobe Experience Cloud整合、現代化使用者介面增強功能
+* **新功能** — 最新功能、改善的[!DNL CX Enterprise]整合、現代化使用者介面增強功能
 
 Adobe強烈建議執行最新版本。 身為受管理的Cloud Services客戶，升級是由Adobe以最低的中斷執行。
 
@@ -329,7 +329,7 @@ Campaign v8建置在現代雲端原生架構上，並大幅改善：
 * **卓越的效能** — 高達20,000,000作業/小時，搭配完整同盟資料存取(FFDA)架構
 * **全新Campaign Web UI** — 現代的直覺式介面與傳統主控台
 * **自動升級** — 一律使用最新版本，停機時間為零
-* **增強功能** - AI助理、豐富推播通知、升級簡訊、改善與Adobe Experience Cloud的整合
+* **增強功能** - AI助理、豐富推播通知、升級簡訊、改善與[!DNL CX Enterprise]的整合
 
 **若為Campaign Classic v7使用者：**&#x200B;瞭解[從v7轉變到v8](v7-to-v8.md)，包括架構變更、功能無法使用及移轉考量事項。
 
@@ -354,7 +354,7 @@ Campaign v8是Adobe的平台，適用於需要大量行銷活動（每小時2000
 
 * 處理大量資料或體驗效能問題
 * 想要降低IT開銷和基礎建設管理
-* 需要Adobe Experience Cloud/平台整合
+* 需要[!DNL CX Enterprise]/平台整合
 * 想要具備自動更新功能的未來防護技術
 
 **後續步驟：**&#x200B;請聯絡您的Adobe代表，評估移轉準備程度並存取移轉工具。
@@ -1198,7 +1198,7 @@ Campaign「控制面板」是網頁式管理介面，可協助Campaign管理員�
 **存取需求：**
 
 * **僅限管理員使用者** — 控制面板僅限具有管理員許可權的使用者使用
-* **Adobe IMS驗證** — 使用您的Adobe ID透過Adobe Experience Cloud存取
+* **Adobe IMS驗證** — 使用您的Adobe ID透過[!DNL CX Enterprise]存取
 * **Campaign v8受管理的Cloud Services** — 僅適用於託管執行個體
 
 **其他資源：**

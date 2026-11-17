@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2954'
-ht-degree: 49%
+source-wordcount: '2947'
+ht-degree: 48%
 ---
 # Campaign安全性最佳做法 {#ac-security}
 
@@ -116,7 +116,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。 在 Campai
 * **個人資料**&#x200B;是指可直接或間接識別在世個人的資訊。
 * **敏感個人資料**&#x200B;是指與個人的種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性傾向、生物識別資訊，以及工會會員會籍相關的資訊。
 
-將Campaign與其他Experience Cloud解決方案整合時，如果閱聽眾可以從一個系統傳輸到另一個系統，例如[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud Audiences](../start/shared-audiences.md)、Campaign Standard，或是其他解決方案，如[CRM Connector](../../automation/workflow/crm-connector.md)，您需要支付額外的個人護理費用來保護資料。
+將Campaign與其他[!DNL Adobe CX Enterprise]解決方案整合時，如果閱聽眾可以從一個系統傳輸到另一個系統，例如[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud Audiences](../start/shared-audiences.md)、Campaign Standard，或是其他解決方案，如[CRM Connector](../../automation/workflow/crm-connector.md)，您需要支付額外的個人護理費用來保護資料。
 
 [主要法規](#privacy-regulations)是指管理資料之不同實體，如下所示：
 
@@ -203,7 +203,7 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 * **工作階段** Cookie：**nlid** Cookie 包含傳送到聯絡人之電子郵件的識別碼 (**broadlogId**)，以及訊息範本的識別碼 (**deliveryId**)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。 瀏覽器關閉時，將自動清除工作階段 Cookie。 連絡人可以將其瀏覽器設定為拒絕 Cookie。
 
 * 兩個&#x200B;**永久** Cookie：
-  * **UUID** (通用唯一識別碼) Cookie 在 Adobe Experience Cloud 解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此 Cookie 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
+  * **UUID** （通用唯一識別碼） Cookie在[!DNL CX Enterprise]個解決方案之間共用。 它會設定一次，直到產生新值時，從用戶端瀏覽器消失為止。 此Cookie可讓您識別造訪網站時與[!DNL CX Enterprise]解決方案互動的使用者。 您可以透過登陸頁面 (將未知的客戶活動與收件者建立關聯) 或傳遞來儲存。 此 Cookie 的說明可在[此頁面](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant#ec-cookies)取得。
   * **nllastdelid** Cookie (在 Campaign Classic 20.3 中推出) 是永久 Cookie，包含使用者點按連結的上次傳遞之 **deliveryId**。 當工作階段 Cookie 遺失時，會使用此 Cookie 來識別將要使用的追蹤表格。
 
 《一般資料保護規範》(GDPR) 等法規規定，公司必須先取得網站使用者的同意，才能安裝 Cookie。

@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 88%
+source-wordcount: '1661'
+ht-degree: 85%
 ---
 # 2024 年發行說明 {#2024-rn}
 
@@ -188,7 +188,7 @@ _2024 年 2 月 14 日_
 
 ### 新功能 {#new-8-6-1}
 
-* 自此版本起，您即可存取可透過中央 Adobe Experience Cloud 環境使用的新的 **Campaign Web 使用者介面**。 Experience Cloud 是 Adobe 的整合式數位行銷應用程式、產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 [在此頁面中](campaign-ui.md#ac-web-ui)了解如何連線至 Adobe Experience Cloud，以及存取 Adobe Campaign Web 介面。
+* 從這個版本開始，您可以存取新的&#x200B;**Campaign Web使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境使用。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。
 
   >[!AVAILABILITY]
   >
