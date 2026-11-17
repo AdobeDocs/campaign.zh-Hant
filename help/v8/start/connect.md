@@ -153,7 +153,7 @@ Adobe Campaign 可讓您定義並管理指派給各個操作者的權限。
 >Campaign Web 使用者介面僅適用於使用 Adobe ID 連線至 Adobe Campaign 的使用者。 深入瞭解 [Adobe 身分管理系統 (IMS)](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}。
 >
 
-在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。
+在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。
 
 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
