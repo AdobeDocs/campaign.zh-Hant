@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '820'
 ht-degree: 15%
 ---
 # 內建套件 {#built-in-packages}
@@ -65,7 +65,7 @@ Campaign使用兩種套件。 請確定您使用正確的伺服器。
 | 異動訊息控制與執行（訊息中心） | 管理從資訊系統中的事件產生的觸發訊息，提供更高的可用性和更好的負載管理。 [了解更多](../send/transactional.md) |
 | LINE 管道 | 透過LINE頻道傳送傳遞。 [了解更多](../send/line/line.md) |
 | 直接郵件管道 | 透過直接郵件通道傳送傳遞。 [了解更多](../send/direct-mail.md) |
-| 行動裝置管道 (簡訊) | 透過行動裝置頻道(SMS)傳送傳遞。 [了解更多](../send/sms/sms.md) |
+| 行動裝置管道 (簡訊) | 透過行動裝置頻道(SMS)傳送傳遞，包括SMS聯結器v2 （自8.9.1起通常可用）。 [了解更多](../send/sms/sms.md) |
 | 行動應用程式頻道 | 透過應用程式將個人化通知傳送至iOS和Android裝置。 [了解更多](../send/push.md) |
 | 內容管理員 | 建立週期性電子報或網站，然後驗證並發佈您的訊息。 [了解更多](../../automation/workflow/content-management.md) |
 | 線上意見調查 (意見調查管理員) | 建立和管理線上表單，以新增或修改設定檔資訊、訂閱、取消訂閱或輸入競爭者。 [了解更多](../dev/surveys/about-surveys.md) |
