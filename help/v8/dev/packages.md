@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1949'
 ht-degree: 1%
 ---
 # 使用資料套件{#data-packages}
@@ -59,6 +59,8 @@ ht-degree: 1%
 您可以使用資料包來匯出和匯入平台自訂設定和資料。 套件可包含不同型別的設定和元件，不論是否經過篩選。
 
 在Campaign資料套件中，Adobe Campaign資料庫的實體會顯示為XML檔案。 在套件中，每個實體由其所有資料表示。
+
+此頁面說明您建立和管理的&#x200B;**自訂**&#x200B;資料套件。 提供Campaign功能的套件是&#x200B;**內建套件**，由Adobe安裝及管理。 深入瞭解[內建套件](../architecture/built-in-packages.md)。
 
 **資料套件**&#x200B;的原理是匯出資料組態，並將其整合到另一個Adobe Campaign環境中。 瞭解如何在此[區段](#data-package-best-practices)中維持一組一致的資料封裝。
 
@@ -124,7 +126,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 若要匯出資料封裝中的物件集，請遵循下列步驟：
 
 1. 透過總管的&#x200B;**[!UICONTROL Tools > Advanced > Export package...]**&#x200B;功能表瀏覽至封裝匯出小幫手。
-1. 選取[封裝型別](#types-of-packages)。
+1. Select [型別的套件](#types-of-packages)。
 
    ![](assets/package_type.png)
 
@@ -132,7 +134,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 
    >[!CAUTION]
    >
-   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 選取與資料夾對應的實體：優惠方案類別為&#x200B;**nms:offerCategory**、優惠方案環境為&#x200B;**nms:offerEnv**、方案為&#x200B;**nms:program**、計畫為&#x200B;**nms:plan**。
+   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 Select與資料夾對應的實體：針對優惠方案類別為&#x200B;**nms:offerCategory**、針對優惠方案環境為&#x200B;**nms:offerEnv**、針對方案為&#x200B;**nms:program**，針對計畫為&#x200B;**nms:plan**。
 
    相依性機制會控制實體匯出順序。 如需詳細資訊，請參閱[管理相依性](#manage-dependencies)。
 
@@ -283,7 +285,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 若要從封裝定義匯出封裝，請遵循下列步驟：
 
-1. 選取要匯出的封裝定義，按一下&#x200B;**[!UICONTROL Actions]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Export the package]**。
+1. Select要匯出的封裝定義，按一下&#x200B;**[!UICONTROL Actions]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Export the package]**。
 1. 檢查匯出檔案的名稱和位置。
 1. 按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕以啟動匯出。
 
@@ -296,17 +298,15 @@ template="xtk:folder" pkgAdmin="@id != 0">
 若要匯入現有的資料套件，請執行下列步驟：
 
 1. 透過使用者端主控台的主功能表&#x200B;**[!UICONTROL Tools > Advanced > Import package]**&#x200B;存取匯入小幫手。
-1. 選取XML檔案並按一下&#x200B;**[!UICONTROL Open]**。
+1. Select XML檔案，然後按一下&#x200B;**[!UICONTROL Open]**。
 
 然後，要匯入的封裝內容會顯示在編輯器的中間區段中。
 
 按一下&#x200B;**[!UICONTROL Next]**&#x200B;和&#x200B;**[!UICONTROL Start]**&#x200B;以啟動匯入。
 
-### 安裝內建套件 {#install-a-standard-package}
+### 內建套件 {#install-a-standard-package}
 
-內建套件(亦稱為 標準套件)會在設定Adobe Campaign時安裝。 您可以匯入新的標準套件，具體取決於您的許可權、部署模式和產品。
-
-請參閱您的授權合約，以檢查您可以安裝哪些套件。
+Adobe會安裝並管理Campaign v8中的內建套件。 深入瞭解[內建套件](../architecture/built-in-packages.md)。
 
 ## 資料套件最佳實務 {#data-package-best-practices}
 
