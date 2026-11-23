@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 87%
+source-wordcount: '1100'
+ht-degree: 86%
 ---
 
 # Adobe Campaign v8 (主控台) 文件 {#campaign-v8}
@@ -307,7 +307,7 @@ ht-degree: 87%
     + [輸入表單](dev/forms.md)
   + [使用資料套件](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+  + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
   + REST API {#apis}
     + [開始使用REST API](dev/api/get-started-apis.md)
     + [建議與限制](dev/api/limitations.md)
@@ -334,6 +334,8 @@ ht-degree: 87%
     + 管理工作流程 {#managing-workflows}
       + [控管工作流程](dev/api/controlling-a-workflow.md)
       + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
++ API檔案 {#api-documentation}
+  + [Campaign API檔案>](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
 + 額外資源 {#resources}
   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
