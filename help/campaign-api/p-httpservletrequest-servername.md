@@ -17,7 +17,7 @@ serverName
 範例：下列URL的serverName：
 
 ```javascript
-      http://adobe.com:8080/nms/test.jst?id=1234&param=dummy#aFragment
+      http://adobe.com/tw:8080/nms/test.jst?id=1234&param=dummy#aFragment
 ```
 
 傳回下列字串：

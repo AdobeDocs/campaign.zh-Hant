@@ -17,7 +17,7 @@ serverPort
 範例：下列URL的serverPort：
 
 ```javascript
-http://adobe.com:8080/nms/test.jst
+http://adobe.com/tw:8080/nms/test.jst
 ```
 
 傳回下列字串：

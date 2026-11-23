@@ -27,7 +27,7 @@ wait (requests,waitAll)
 函式不適用於查詢，但是HttpClientRequest bin的函式。 範例：
 
 ```javascript
-var req = new HttpClientRequest("http://www.adobe.com/")
+var req = new HttpClientRequest("http://www.adobe.com/tw/")
 req.complete = function(req, context, status) { logInfo(status) }
 req.execute(false, true)
 

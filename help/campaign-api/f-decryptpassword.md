@@ -8,7 +8,7 @@ ht-degree: 5%
 
 > 警告：
 >
-> 本檔案已更新。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript)。
+> 本檔案已更新。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript)。
 
 解密儲存在外部帳戶中的密碼。
 

@@ -8,7 +8,7 @@ ht-degree: 6%
 
 > 警告：
 >
-> 此函式已完全淘汰。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)。
+> 此函式已完全淘汰。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)。
 
 使用例項的鍵或任何其他鍵加密字元字串。
 
