@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
+source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 15%
 ---
 # 內建套件 {#built-in-packages}
@@ -57,7 +57,7 @@ Campaign使用兩種套件。 請確定您使用正確的伺服器。
 
 | 套件 | 說明 |
 |---|---|
-| 傳遞 | 監視傳遞內容，以及傳送訊息時遇到的問題。 [了解更多](../start/monitor.md) |
+| 傳遞 | Adobe Campaign的強制核心套件。 它可讓您傳送傳遞。 [了解更多](../start/gs-message.md) |
 | 行銷活動 (Campaign) | 定義、最佳化、執行和分析通訊和行銷活動。 [了解更多](../start/campaigns.md) |
 | 行銷資源 (MRM) | 以合作模式控制行銷動作，管理並追蹤任務、預算和行銷資源。 [了解更多](../../automation/mrm/about-marketing-resource-management.md) |
 | 優惠方案引擎（互動） | 在與聯絡人互動期間，透過提出一或多個適用優惠方案來即時回應。 [了解更多](../interaction/interaction.md) |
