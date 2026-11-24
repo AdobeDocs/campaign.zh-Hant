@@ -332,7 +332,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->資訊服務在[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}中有詳細的說明。
+>資訊服務在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}中有詳細的說明。
 
 使用者藉由核取相關選項來訂閱服務。
 

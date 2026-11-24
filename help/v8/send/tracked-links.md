@@ -88,8 +88,8 @@ ht-degree: 6%
 * 括弧[ ]
 * 大括弧{ }
 
-在此範例中，URL https://www.adobe.com後面接著分號。 收件者電子郵件使用者端可能會將分號解譯為URL的一部分。 因此，連結可能會中斷。 若要避免此問題，您可以使用下列其中一種方式將URL以分隔符號括住：
+在此範例中，URL https://www.adobe.com/tw後面接著分號。 收件者電子郵件使用者端可能會將分號解譯為URL的一部分。 因此，連結可能會中斷。 若要避免此問題，您可以使用下列其中一種方式將URL以分隔符號括住：
 
-* (https://www.adobe.com)；
-* [https://www.adobe.com]；
-* {https://www.adobe.com}；
+* (https://www.adobe.com/tw)；
+* [https://www.adobe.com/tw]；
+* {https://www.adobe.com/tw}；

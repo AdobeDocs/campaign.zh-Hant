@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ## 步驟1 — 建立傳遞 {#step-1---creating-a-delivery}
 
-若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
+若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
 
 ![](assets/delivery_step_1.png)
 

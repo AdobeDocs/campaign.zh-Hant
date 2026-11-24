@@ -93,7 +93,7 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
 ## 步驟2 — 建立立方結構、其測量值及其指示器 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
+然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
 
 在此範例中，Cube是以先前建立的工作流程饋送之清單中的資料為基礎。
 
