@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -97,9 +97,9 @@ Adobe Target可使用下列型別的資料：
 * **[!UICONTROL Default image]**&#x200B;的URL為不符合任何條件時所顯示的影像。 您也可以從Assets資料庫中選取影像。
 * **[!UICONTROL Target location]**&#x200B;是動態選件位置的名稱。 您必須在Adobe Target活動中選取此位置。
 * **[!UICONTROL Landing Page]**&#x200B;可讓您將預設影像重新導向至預設登陸頁面。 此URL只適用於最終電子郵件中顯示預設影像時。 這是選擇性的。
-* **[!UICONTROL Additional decision parameters]**&#x200B;定義了Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，已新增「國家/地區」欄位。
+* **[!UICONTROL Additional decision parameters]**&#x200B;定義Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。 使用的Adobe Campaign欄位必須在rawbox中指定。 在我們的範例中，已新增「國家/地區」欄位。
 
-如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[Adobe Target檔案](https://experienceleague.adobe.com/zh-hant/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}中進一步瞭解Target企業許可權。
+如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[Adobe Target檔案](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}中進一步瞭解Target企業許可權。
 
 ![](assets/target_13.png)
 
@@ -119,7 +119,7 @@ Adobe Target可使用下列型別的資料：
 
    ![](assets/target_6.png)
 
-1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=zh-Hant#experiences){target="_blank"}。
+1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}。
 
 ### 建立客群 {#audiences-target}
 
@@ -153,7 +153,7 @@ Adobe Target可使用下列型別的資料：
 
    ![](assets/target_10_2.png)
 
-1. Select在先前步驟中建立的對象。
+1. 選取在先前步驟中建立的對象。
 
    ![](assets/target_10_3.png)
 
@@ -161,7 +161,7 @@ Adobe Target可使用下列型別的資料：
 
 然後為每個對象新增內容：
 
-1. Select是您在Adobe Campaign中插入動態選件時選擇的位置名稱。
+1. 選取您在Adobe Campaign中插入動態選件時選擇的位置名稱。
 
    ![](assets/target_15.png)
 

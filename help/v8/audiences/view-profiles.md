@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 6%
 ---
 # 檢視現有的設定檔 {#view-profiles}
 
 瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;以存取儲存在Adobe Campaign資料庫中的收件者。
 
-從這個頁面，您可以[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
+您可以從此頁面[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
 
 ![](assets/profiles-and-targets.png)
 
@@ -96,11 +96,11 @@ ht-degree: 6%
 
   ![](assets/subscription-tab.png)
 
-  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
+  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。
+  在本節](../send/tracking.md)中進一步瞭解追蹤[。

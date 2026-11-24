@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 2%
 ---
 # 稽核軌跡{#audit-trail}
@@ -69,7 +69,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 * **選項稽核軌跡**&#x200B;可讓您檢查活動和對選項進行的最後修改。
 
-  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **傳遞稽核軌跡**&#x200B;可讓您檢查活動和對傳遞進行的最後修改。
 

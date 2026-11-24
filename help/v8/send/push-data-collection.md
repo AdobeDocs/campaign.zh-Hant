@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1425'
 ht-degree: 2%
 ---
 # 已修訂推播通知設定 {#push-notifications-config}
@@ -34,7 +34,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!AVAILABILITY]
 >
-> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[&#128279;](push-settings.md)中詳述的程式。
+> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面](push-settings.md)中詳述的程式[。
 
 關於此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 
@@ -100,7 +100,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**。 封裝名稱通常是您`build.gradle`檔案中的應用程式ID。
 
-1. 切換&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
+1. 開啟&#x200B;**[!UICONTROL Push Credentials]**&#x200B;以新增您的認證。
 
 1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
@@ -158,7 +158,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
-1. 瀏覽至&#x200B;**[!UICONTROL Sounds]**&#x200B;索引標籤以定義要播放的聲音。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並填入&#x200B;**[!UICONTROL Internal name]**&#x200B;欄位，欄位必須包含內嵌於應用程式中的檔案名稱或系統聲音名稱。
+1. 瀏覽至&#x200B;**[!UICONTROL Sounds]**&#x200B;索引標籤以定義要播放的聲音。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並填入&#x200B;**[!UICONTROL Internal name]**&#x200B;欄位，該欄位必須包含內嵌於應用程式中的檔案名稱或系統聲音名稱。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始設定開發應用程式。
 

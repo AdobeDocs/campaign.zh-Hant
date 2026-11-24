@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # 網路表單答案{#web-forms-answers}
@@ -105,13 +105,13 @@ ht-degree: 0%
   <%=ctx.recipient.@field name%
   ```
 
-* 針對儲存在區域變數中的內容：
+* 對於儲存在區域變數中的內容：
 
   ```
   <%= ctx.vars.variable name %
   ```
 
-* 針對儲存在HTML文字欄位中的內容：
+* 對於儲存在HTML文字欄位中的內容：
 
   ```
   <%== HTML field name %
@@ -153,4 +153,4 @@ ht-degree: 0%
 >
 >可能的操作包括： **[!UICONTROL Simple reconciliation]**、**[!UICONTROL Update or insertion]**、**[!UICONTROL Insertion]**、**[!UICONTROL Update]**、**[!UICONTROL Deletion]**。\
 >操作員的預設資料夾是操作員具有寫入許可權的第一個資料夾。\
->請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
+>請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。

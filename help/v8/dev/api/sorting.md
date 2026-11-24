@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '764'
 ht-degree: 2%
 ---
 # 其他操作 {#additional-operations}
@@ -283,8 +283,8 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱Campaign Standard檔案：
 
-* [正在設定篩選定義](https://helpx.adobe.com/tw/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用案例：使用複合識別索引鍵](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=zh-Hant)呼叫資源。
+* [正在設定篩選定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用案例：使用複合識別索引鍵](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)呼叫資源。
 
 <br/>
 

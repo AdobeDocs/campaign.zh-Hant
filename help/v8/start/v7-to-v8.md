@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '731'
 ht-degree: 70%
 ---
 # 從 [!DNL Campaign Classic] v7 轉變至 [!DNL Campaign] v8{#gs-matrix}
@@ -86,7 +86,7 @@ Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic 
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。 使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。 雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-在[此頁面](../../v8/architecture/architecture.md)中進一步瞭解[!DNL Campaign] v8架構。 測試
+在[此頁面](../../v8/architecture/architecture.md)中進一步瞭解[!DNL Campaign] v8架構。
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}

@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 建立簡報規則 {#creating-a-presentation-rule}
 
-在我們的資料庫中，有數種歐洲、非洲、美國和加拿大的旅行優惠方案。 我們想要傳送前往加拿大之旅的優惠方案，但如果收件者拒絕此型別的優惠方案，我們便不想再次傳送給他們
+在我們的資料庫中，有數種歐洲、非洲、美國和加拿大的旅行優惠方案。 我們想要傳送前往加拿大之旅的優惠方案，但如果收件者拒絕此類優惠方案，我們便不想再次傳送給他們。
 
 我們將設定規則，每個收件者僅會提供一次加拿大行程，如果遭拒絕，則不會再次提供。
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
    ![](assets/offer_typology_example_016.png)
 
-1. 在訊息內文中插入您的優惠方案並傳送傳遞。 如需詳細資訊，請參閱[關於傳出頻道](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} （Campaign v8檔案）。
+1. 在訊息內文中插入您的優惠方案並傳送傳遞。 如需詳細資訊，請參閱[關於傳出頻道](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} （Campaign v8檔案）。
 
    收件者已收到其符合資格的優惠。
 

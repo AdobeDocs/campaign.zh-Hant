@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 2%
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 種子地址的優點如下：
 
-* 以收件者設定檔中的資料隨機替代欄位：例如，您可以在種子地址區段中僅輸入電子郵件地址，而讓Campaign自動填寫設定檔中的其他欄位。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中進一步瞭解。
+* 以收件者設定檔中的資料隨機替代欄位：例如，您可以在種子地址區段中僅輸入電子郵件地址，而讓Campaign自動填寫設定檔中的其他欄位。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中進一步瞭解。
 * 使用具有資料管理功能的工作流程時，可在種子地址層級輸入傳送中處理的其他資料，以強制執行值：這可作為隨機值替代的另一做法。
 * 系統會自動從下列傳遞統計資料的報表中排除種子地址： **[!UICONTROL Clicks]**、**[!UICONTROL Opens]**、**[!UICONTROL Unsubscriptions]**。
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 >
 >種子地址不會建立在收件人表格中，而是會在單獨的表格中。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。 否則，種子地址不會考慮擴展欄位。
 >
->[Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中提供了如何擴充種子地址表格的範例。
+>[Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中提供了如何擴充種子地址表格的範例。
 
 ## 建立種子地址
 
@@ -120,7 +120,7 @@ Adobe Campaign也可讓您建立種子地址範本，這些範本會匯入至傳
 
 1. 建立條件以動態選取要插入的控制位址。 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit the dynamic condition...]**&#x200B;連結，然後輸入種子位址選取引數。 例如，您可以包含特定資料夾中包含的所有種子地址，或屬於您組織特定部門的種子地址。
 
-   [Campaign Classic v7檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中提供了這方面的範例。
+   [Campaign Classic v7檔案](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}中提供了這方面的範例。
 
 對於傳送，您也可以自訂將位址插入解壓縮檔案的方式。 預設會依輸出檔案的排序順序插入，但您可以選擇在檔案結尾或開頭插入，或隨機插入主要目標的收件者之間。
 
@@ -132,7 +132,7 @@ Adobe Campaign也可讓您建立種子地址範本，這些範本會匯入至傳
 
 ## 種子地址和自訂表格 {#using-an-external-recipient-table}
 
-如果傳送表格是外部表格，您將需要執行其他設定。 **[!UICONTROL nms:seedmember]**&#x200B;結構描述必須延伸。 索引標籤會新增至種子地址，以定義適當的欄位
+如果傳送表格是外部表格，您將需要執行其他設定。 **[!UICONTROL nms:seedmember]**&#x200B;結構描述必須延伸。 索引標籤會新增至種子地址，以定義適當的欄位。
 
 在這種情況下，若要將種子地址新增到傳送中，請直接在比對索引標籤中輸入適當的欄位，或匯入地址範本。
 

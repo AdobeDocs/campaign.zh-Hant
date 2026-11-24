@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
@@ -49,7 +49,7 @@ HTML呈現會透過呈現函式建立。 轉譯函式中定義的欄位順序必
 
    ![](assets/offer_space_create_002.png)
 
-1. 核取&#x200B;**[!UICONTROL Enable unitary mode]**&#x200B;選項
+1. 核取 **[!UICONTROL Enable unitary mode]** 選項。
 
 1. 前往&#x200B;**[!UICONTROL Content field]**&#x200B;視窗並按一下&#x200B;**[!UICONTROL Add]**。
 

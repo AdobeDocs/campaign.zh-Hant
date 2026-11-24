@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 整體而言，有三種量化方式可供使用：
 
-1. 使用手動定義的值範圍。 例如，年齡、平均購物車、開啟的傳送數量等)。 如需詳細資訊，請參閱[定義每個bin](#defining-each-bin)。
+1. 使用手動定義的值範圍。 例如，年齡、平均購物車、開啟的傳送數量等。如需詳細資訊，請參閱[定義每個bin](#defining-each-bin)。
 1. 根據[分項清單](../config/enumerations.md)的值，動態地：只顯示分項清單中包含的值，所有其他值都會分組到「其他」中。 如需詳細資訊，請參閱[動態管理回收筒](#dynamically-managing-bins)。
 1. 使用值範圍，將所有其他值分組在一起。 例如，18至25歲、26至59歲和其他人。 如需詳細資訊，請參閱[建立值範圍](#creating-value-ranges)。
 

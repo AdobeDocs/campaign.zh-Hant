@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這些技術工作流程可從Campaign Explorer的&#x200B;**[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]**&#x200B;節點取得。 **它們不可修改。**
 
-技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}中詳細列出完整的技術工作流程。
+技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}中詳細列出完整的技術工作流程。
 
 確保資料複製的技術工作流程如下：
 
@@ -87,7 +87,7 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
 
 如有需要，您可以手動啟動資料同步處理。 若要這麼做，請在&#x200B;**排程器**&#x200B;活動上按一下滑鼠右鍵，然後選取&#x200B;**立即執行擱置中的工作**。
 
-除了內建的&#x200B;**復寫參考資料表**&#x200B;技術工作流程之外，您還可以使用下列其中一種方法在工作流程中強制進行資料復寫
+除了內建的&#x200B;**復寫參考資料表**&#x200B;技術工作流程之外，您還可以使用下列其中一種方法在工作流程中強制進行資料復寫：
 
 +++如何強制資料複製
 
@@ -149,4 +149,4 @@ var xml = xtk.builder.CopyXxlData(
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-[此處](https://experienceleague.adobe.com/zh-hant/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。
+[此處](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。

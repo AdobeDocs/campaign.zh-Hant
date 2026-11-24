@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -54,7 +54,7 @@ ht-degree: 9%
 >
 >* 此選項不得在中間來源中設定。
 >
->* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=zh-Hant#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
+>* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
 
 ## 使用多個波段傳送 {#sending-using-multiple-waves}
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 ### 監視波段 {#monitor-waves}
 
-若要監視您的傳送，請瀏覽至傳送記錄檔。 檢視[此頁面](send.md)
+若要監視您的傳送，請瀏覽至傳送記錄檔。 請參閱[此頁面](send.md)。
 
 您可以看到已在已處理波段（**[!UICONTROL Sent]**&#x200B;狀態）中傳送的傳遞，以及將在剩餘波段（**[!UICONTROL Pending]**&#x200B;狀態）中傳送的傳遞。
 

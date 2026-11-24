@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
-在以下範例中，我們想要收集線上意見調查的結果，並將這些結果顯示在樞紐分析表中
+在下列範例中，我們想要收集線上意見調查的結果，並將它們顯示在樞紐分析表中。
 
 應用以下步驟：
 
@@ -93,7 +93,7 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
 ## 步驟2 — 建立立方結構、其測量值及其指示器 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
+然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
 
 在此範例中，Cube是以先前建立的工作流程饋送之清單中的資料為基礎。
 
