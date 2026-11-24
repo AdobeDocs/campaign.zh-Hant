@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '3132'
 ht-degree: 4%
 ---
 # 內建報告量度計算 {#metrics-calculation}
@@ -933,6 +933,8 @@ ht-degree: 4%
 透過&#x200B;**傳遞(nms:delivery) >指標**&#x200B;節點存取的&#x200B;**已傳送**&#x200B;指標(@sent)，對應於傳送給服務提供者的SMS總數。 此指標僅用於SMS傳遞，不得用於其他型別的傳遞（請勿與&#x200B;**@success**&#x200B;和&#x200B;**@processed**&#x200B;指標混淆）。
 
 ## 指標同步 {#indicator-synchronization}
+
+**已處理**&#x200B;指標可能會暫時超過指標更新時要傳送的訊息數，例如含有重試或連結傳遞的傳遞。
 
 如果您遇到某些指示器不同步或不一致的情況，請在Adobe Campaign檔案總管中選取相關的傳送，按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL Action>Recompute delivery and tracking indicators]**。 按一下&#x200B;**[!UICONTROL Next]**，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
