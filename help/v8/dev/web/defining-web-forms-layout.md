@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 建立容器 {#creating-containers}
 
-容器可讓您合併頁面的欄位並設定其版面；以組織頁面中的元素。
+容器可讓您合併頁面的欄位，設定其版面並組織頁面中的元素。
 
 對於表單的每個頁面，容器都是透過工具列的&#x200B;**[!UICONTROL Containers]**&#x200B;按鈕建立的。
 

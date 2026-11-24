@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Campaign提供幾個工作流程活動，可用來與來自外部資料庫的資
 
 >[!CAUTION]
 >
->此型別的設定只能暫時用於收集資料。 外部帳戶設定應首選用於任何其他用途。
+>此類設定只能暫時用於收集資料。 外部帳戶設定應首選用於任何其他用途。
 
 例如，在&#x200B;**[!UICONTROL Query]**&#x200B;活動中，您可以定義與外部資料庫的暫時連線，如下所示：
 

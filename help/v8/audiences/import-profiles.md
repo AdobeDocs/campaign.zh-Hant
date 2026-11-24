@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 21%
+ht-degree: 14%
 ---
 # 從檔案匯入輪廓{#create-profiles}
 
@@ -43,7 +43,7 @@ ht-degree: 21%
 
 ## 使用工作流程匯入輪廓 {#import-profiles-with-a-wf}
 
-工作流程可能是自動化部分匯入流程的實用方式。 無論是從本地檔案還是從 SFTP 匯入資料，都可以使用工作流程來標準化資料管理過程。
+工作流程可能是自動化部分匯入流程的實用方式。 無論您是從本機檔案或SFTP匯入資料，都可以使用工作流程將資料管理程式標準化。
 
 ### 使用清單中的資料：讀取清單 {#data-from-read-list}
 

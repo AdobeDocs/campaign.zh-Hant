@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -143,7 +143,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
      >
      >此型別的匯出不適用於XLIFF匯出。
 
-1. 然後選擇要記錄檔案的&#x200B;**[!UICONTROL Target folder]**。
+1. 然後選擇將記錄檔案的&#x200B;**[!UICONTROL Target folder]**。
 1. 選取檔案格式（ **[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL XLIFF]** ）並按一下&#x200B;**[!UICONTROL Start]**。
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
@@ -166,7 +166,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
    ![](assets/s_ncs_admin_survey_trad_import.png)
 
-1. 選取要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+1. Select要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
    ![](assets/s_ncs_admin_survey_trad_import_start.png)
 

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '644'
 ht-degree: 8%
 ---
 # 開始使用工作流程{#gs-with-workflows}
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Adobe Campaign Web使用者介面隨附重新打造的工作流程畫布，可建立更動態且個人化的客戶歷程。 若要深入瞭解Web UI的工作流程，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/gs-workflows){target=_blank}。
+>Adobe Campaign Web使用者介面隨附重新打造的工作流程畫布，讓您建立更動態且個人化的客戶歷程。 若要深入瞭解Web UI的工作流程，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/wf/gs-workflows){target=_blank}。
 
 
 ## 設計和使用工作流程 {#gs-ac-wf}
@@ -65,7 +65,7 @@ ht-degree: 8%
 
 * [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=zh-Hant){target="_blank"}
 
-* [內建技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}
+* [內建的技術工作流程](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}
 
 * [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=zh-Hant){target="_blank"}
 
@@ -142,7 +142,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 ## 設定週期性行銷活動
 
-設計循環工作流程，並在每次執行工作流程時建立新的傳遞執行個體。 例如，如果您的工作流程設計為每週執行一次，則在一年後會產生52個傳送。 這也表示每個傳送執行個體會分隔記錄檔。
+設計循環工作流程，並在每次執行工作流程時建立新的傳送執行個體。 例如，如果您的工作流程設計為每週執行一次，則在一年後會產生52個傳送。 這也表示每個傳送執行個體會分隔記錄檔。
 
 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=zh-Hant){target="_blank"}中建立週期性行銷活動。
 

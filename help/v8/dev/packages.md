@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 1%
@@ -56,9 +56,9 @@ ht-degree: 1%
 
 ## 開始使用封裝 {#gs-data-packages}
 
-您可以使用資料包來匯出和匯入平台自訂設定和資料。 套件可包含不同型別的設定和元件，不論是否經過篩選。
+您可以使用資料包來匯出和匯入平台自訂設定和資料。 套件可以包含不同型別的設定和元件，無論是否經過篩選。
 
-在Campaign資料套件中，Adobe Campaign資料庫的實體會顯示為XML檔案。 在套件中，每個實體由其所有資料表示。
+在Campaign資料套件中，Adobe Campaign資料庫的實體會顯示在XML檔案中。 在套件中，每個實體由其所有資料表示。
 
 此頁面說明您建立和管理的&#x200B;**自訂**&#x200B;資料套件。 提供Campaign功能的套件是&#x200B;**內建套件**，由Adobe安裝及管理。 深入瞭解[內建套件](../architecture/built-in-packages.md)。
 
@@ -119,7 +119,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 * 若要匯出&#x200B;**單一物件**，請以滑鼠右鍵按一下該物件並選取&#x200B;**[!UICONTROL Actions > Export in a package]**。
 * 使用&#x200B;**封裝定義**&#x200B;來建立封裝結構，您可在其中新增稍後要匯出的物件。 [了解更多](#manage-package-definitions)
 
-套件匯出後，您可以將它和所有新增的實體匯入另一個Campaign執行個體。
+匯出套件後，您可以將套件和所有新增的實體匯入另一個Campaign執行個體。
 
 ### 匯出封裝中的一組物件 {#export-a-set-of-objects-in-a-package}
 
@@ -344,7 +344,7 @@ Adobe會安裝並管理Campaign v8中的內建套件。 深入瞭解[內建套�
 
 **行銷活動**
 
-此封裝不是強制性的。 有時候，為所有行銷活動建立特定型別會很有用，即使行銷活動可視為一項功能。
+此封裝不是強制性的。 有時候，為所有行銷活動建立特定型別會很有用，即使行銷活動可視為功能。
 
 **更新**
 
@@ -369,7 +369,7 @@ Adobe會安裝並管理Campaign v8中的內建套件。 深入瞭解[內建套�
 
 #### 實體套件順序 {#entity-packages-order}
 
-為協助匯入，實體套件應按照匯入順序排序。
+為協助匯入，實體套件應依匯入的方式排序。
 
 例如：
 

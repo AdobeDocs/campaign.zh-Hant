@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 90%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # Campaign 控制面板 {#ac-control-panel}
 
@@ -45,7 +45,7 @@ ht-degree: 90%
 * 根據不同時間的不同業務需求進行設定。
 * 根據需求控制存取設定，以加強安全性。
 
-您也可以使用「Campaign 控制面板」來設定執行個體設定，例如 IP 允許清單、URL 權限，以及擷取有關執行個體的資訊。
+您也可以使用「Campaign控制面板」來設定執行個體設定（例如IP允許清單、URL許可權），以及擷取有關執行個體的資訊。
 
 深入瞭解[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}。
 
@@ -86,7 +86,7 @@ ht-degree: 90%
 
 ## 執行個體設定
 
-瞭解如何在「控制面板」中管理您的 Campaign 執行個體設定。
+瞭解如何在「控制面板」中管理Campaign執行個體設定。
 * [允許清單上的IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=zh-Hant){target="_blank"}
 * [URL 權限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=zh-Hant){target="_blank"}
 * [執行個體詳細資訊](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=zh-Hant){target="_blank"}

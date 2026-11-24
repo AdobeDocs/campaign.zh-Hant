@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 8%
 ---
 # 模擬追蹤{#simulation-tracking}
 
 
 
-模擬完成後，您可以透過新增到模擬視窗的&#x200B;**[!UICONTROL Results]**&#x200B;索引標籤和&#x200B;**[!UICONTROL Breakdown of offers by rank]**&#x200B;報告（可在模擬儀表板中取得）來分析其結果。
+模擬完成後，您可以透過新增到模擬視窗的&#x200B;**[!UICONTROL Results]**&#x200B;索引標籤和&#x200B;**[!UICONTROL Breakdown of offers by rank]**&#x200B;報告（可透過模擬儀表板取得）來分析其結果。
 
 模擬結果包含每個排名和每個收件者的主張劃分。 也會考慮報表座標軸，並會顯示在此標籤中。
 

@@ -27,12 +27,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 2%
+ht-degree: 3%
 ---
-# 運運算元設定檔 {#operator-profiles}
+# 操作者設定檔 {#operator-profiles}
 
 兩種型別的操作者可以使用行銷活動互動： **優惠方案管理員**&#x200B;和&#x200B;**傳遞管理員**。 每一個都有特定的許可權和限制。 在[此頁面](../start/gs-permissions.md)中進一步瞭解Campaign運運算元和許可權。
 

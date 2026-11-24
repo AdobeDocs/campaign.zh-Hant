@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 6%
+ht-degree: 3%
 ---
 # 設定 API 存取 {#setting-up-api-access}
 
@@ -49,7 +49,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
    >[!IMPORTANT]
    >
-   >JWT (JSON Web 權杖) 目前正在折舊中，並即將由 OAuth 取代。 此轉換將在Campaign即將發行的版本中逐步執行。 服務帳戶(JWT)憑證已標示為已棄用，並將繼續使用至2025年1月27日。 因此，您必須移轉應用程式或整合，才能在2025年1月27日之前使用新的OAuth伺服器對伺服器認證。 建議使用OAuth驗證。 您將在以下頁面上找到要從JWT驗證移轉至OAuth驗證的所有元素：
+   >JWT （JSON Web權杖）目前正在淘汰中，將由OAuth取代。 此轉換將在Campaign即將發行的版本中逐步執行。 服務帳戶(JWT)憑證已標示為已棄用；這些憑證將繼續使用至2025年1月27日。 因此，您必須移轉應用程式或整合，才能在2025年1月27日之前使用新的OAuth伺服器對伺服器認證。 建議使用OAuth驗證。 您將在以下頁面上找到要從JWT驗證移轉至OAuth驗證的所有元素：
    >* [移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [實作](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [棄用JWT常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)

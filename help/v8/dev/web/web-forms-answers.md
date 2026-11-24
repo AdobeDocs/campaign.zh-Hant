@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Edit a recipient]**
 
-  您可以選取資料庫的欄位：使用者的回答會儲存在此欄位中。 對於每個使用者，僅儲存最後輸入的值：它已新增到他們的設定檔：請參考[將資料儲存在資料庫中](#storing-data-in-the-database)。
+  您可以選取資料庫的欄位：使用者的回答會儲存在此欄位中。 對於每個使用者，僅儲存最後輸入的值：將其新增到他們的設定檔中。 請參考[在資料庫](#storing-data-in-the-database)中儲存資料。
 
 * **[!UICONTROL Variable]**
 

@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '581'
 ht-degree: 3%
 ---
 # 金鑰管理和唯一性 {#key-management}
@@ -51,12 +51,12 @@ ht-degree: 3%
 
 Adobe Campaign v8使用[!DNL Snowflake]作為核心資料庫。 [!DNL Snowflake]資料庫的分散式架構未提供機制來確保資料表中索引鍵的唯一性：一般使用者負責Adobe Campaign資料庫中的索引鍵一致性。
 
-若要保留關聯式資料庫的一致性，必須避免索引鍵上的重複專案，尤其是主索引鍵上的重複專案。 主索引鍵上的重複專案會導致資料管理工作流程活動發生問題，例如&#x200B;**查詢**、**調解**、**更新資料**&#x200B;等等。 更新[!DNL Snowflake]資料表時，這個重要選項可定義適當的調解條件。
+若要保留關聯式資料庫的一致性，必須避免索引鍵上的重複專案，尤其是主索引鍵上的重複專案。 主索引鍵上的重複專案會導致資料管理工作流程活動發生問題，例如&#x200B;**查詢**、**調解**、**更新資料**&#x200B;等等。 這對於在更新[!DNL Snowflake]資料表時定義適當的調解條件至關重要。
 
 
 >[!CAUTION]
 >
->重複的金鑰不限於UUID。 這可能發生在具有ID中，包括在自訂表格中建立的自訂金鑰。
+>重複的金鑰不限於UUID。 這可能與ID有關，包括在自訂表格中建立的自訂金鑰。
 
 
 ## Unicity Service{#unicity-service}
@@ -98,7 +98,7 @@ Campaign提供一組新護欄，以防止在[!DNL Snowflake]資料庫中插入�
 
 ### 傳遞準備 {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID。 此機制可防止在準備傳送時發生任何錯誤。 身為一般使用者，您可以在傳送記錄中檢查此資訊：由於金鑰重複，某些收件者可從主要目標中排除。 在這種情況下，會顯示下列警告： `Exclusion of duplicates (based on the primary key or targeted records)`。
+Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID。 此機制可防止在準備傳送時發生任何錯誤。 身為一般使用者，您可以在傳送記錄中檢查此資訊：由於金鑰重複，部分收件者可從主要目標中排除。 在這種情況下，會顯示下列警告： `Exclusion of duplicates (based on the primary key or targeted records)`。
 
 ![](assets/exclusion-duplicates-log.png)
 
@@ -123,4 +123,4 @@ Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID�
 
 >[!NOTE]
 >
->如果您的從其他Campaign版本進行轉換，請務必移除重複專案、疑難排解並清理資料，以避免影響轉換。
+>如果您要從其他Campaign版本轉換，必須移除重複專案、疑難排解並清理資料，以避免影響轉換。

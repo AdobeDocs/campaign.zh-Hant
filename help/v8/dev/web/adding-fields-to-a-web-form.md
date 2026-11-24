@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **數字**：讓使用者在一行中輸入數字。 如需詳細資訊，請參閱[新增數字](#adding-numbers)。
+* **數字**：讓使用者在一行中輸入數字。 如需詳細資訊，請參閱[新增號碼](#adding-numbers)。
 
   頁面獲得核准後，系統會檢查欄位內容，確保輸入的值與欄位相容。 如需詳細資訊，請參閱[定義控制項設定](form-rendering.md#defining-control-settings)。
 
@@ -233,7 +233,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-新增標籤一樣多的選項按鈕。 此功能的優點在於，您可以從現有欄位（若為分項欄位）匯入值，並讓使用者選擇一個選項。 不過，按鈕的版面配置較不靈活。
+新增標籤一樣多的選項按鈕。 此功能的優點在於，您可以從現有欄位（若為分項欄位）匯入值，並讓使用者可以選擇其中一個選項。 不過，按鈕的版面配置較不靈活。
 
 >[!NOTE]
 >

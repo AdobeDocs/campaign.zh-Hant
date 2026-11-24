@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 1%
 ---
 # 方案結構{#schema-structure}
@@ -196,7 +196,7 @@ ht-degree: 1%
 
 ## 屬性 {#properties}
 
-資料結構描述的&#x200B;**`<elements>`**&#x200B;和&#x200B;**`<attributes>`**&#x200B;元素可以包含各種屬性。 您可以填入標籤來說明目前的元素。
+資料結構描述的&#x200B;**`<elements>`**&#x200B;和&#x200B;**`<attributes>`**&#x200B;元素可以使用各種屬性來擴充。 您可以填入標籤來說明目前的元素。
 
 ### 標籤和說明 {#labels-and-descriptions}
 

@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1944'
 ht-degree: 1%
 ---
 # 使用篩選器{#create-filters}
@@ -121,7 +121,7 @@ Adobe Campaign中有以下型別的篩選器：
 >
 >對於所有其他資料清單，預先定義的篩選器會儲存在&#x200B;**[!UICONTROL Administration > Configuration > Predefined filters]**&#x200B;節點中。
 
-選取要顯示其定義的篩選器。
+Select篩選器以顯示其定義。
 
 ![](assets/predefined-filter-list.png)
 
@@ -248,7 +248,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 >[!NOTE]
 >
->**%**&#x200B;字元會取代任何字元字串。 例如，在電子郵件欄位中輸入`%@gmail.com`，以顯示具有Gmail地址的所有設定檔。 在[姓氏]欄位中輸入`%@L`以顯示所有姓氏中帶有L的設定檔。
+>**%**&#x200B;字元會取代任何字元字串。 例如，在電子郵件欄位中輸入`%@gmail.com`，以顯示具有Gmail地址的所有設定檔。 在[姓氏]欄位中輸入`%@L`，以顯示所有姓氏為L的設定檔。
 
 若要變更收件者清單的預設篩選器，請瀏覽至&#x200B;**[!UICONTROL Profiles and Targets > Predefined filters]**&#x200B;節點。
 
@@ -256,7 +256,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 應用以下步驟：
 
-1. 選取預設要使用的篩選器。
+1. Select預設為您要使用的篩選器。
 1. 按一下「**[!UICONTROL Parameters]**」索引標籤並選取「**[!UICONTROL Default filter for the associated document type]**」。
 
    ![](assets/change-default-filter.png)
@@ -287,20 +287,20 @@ Adobe Campaign中有以下型別的篩選器：
 
    ![](assets/quick-filter-above-list.png)
 
-1. 選取篩選選項。
+1. Select篩選器選項。
 1. 如有需要，請使用篩選器右側的灰色圖示將其移除。
 1. 您可以結合篩選器來調整篩選器。
 
    ![](assets/add-filter-above-the-list.png)
 
 
-如果您需要在表單中不可用的欄位上篩選，但需要在欄中篩選，並篩選該欄。 若要這麼做，
+如果您需要篩選的欄位在表單中不可用但在欄中，請篩選該欄。 若要這麼做，
 
 1. 按一下&#x200B;**[!UICONTROL Configure list]**&#x200B;圖示。
 
    ![](assets/configure-list.png)
 
-1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。**&#x200B;**
+1. Select要顯示的欄，例如收件者的年齡，然後按一下&#x200B;**確定**。
 
    ![](assets/add-age-column.png)
 
@@ -409,7 +409,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 * 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中鎖定簡單的收件者屬性。
 * 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=zh-Hant){target="_blank"}中篩選過去7天期間未聯絡的收件者。
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=zh-Hant){target="_blank"}中依作用中帳戶篩選以復原運運算元清單。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=zh-Hant){target="_blank"}中復原Active帳戶可篩選的運運算元清單。
 * 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant){target="_blank"}中建立生日電子郵件對象。
 
 
@@ -419,7 +419,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 * 若要根據此檔案型別預設顯示所有清單的篩選器，請選取&#x200B;**[!UICONTROL Default filter for the associated document type]**&#x200B;選項。
 
-  例如，**[!UICONTROL By name or login]**&#x200B;篩選器已套用至運運算元。此選項已選取，因此篩選器一律會顯示在所有運運算元清單上。
+  例如，**[!UICONTROL By name or login]**&#x200B;篩選器已套用至運運算元。 此選項已選取，因此篩選器一律會顯示在所有運運算元清單上。
 
 * 若要讓篩選器可供所有行銷活動運運算元使用，請選取&#x200B;**[!UICONTROL Filter shared with other operators]**&#x200B;選項。
 

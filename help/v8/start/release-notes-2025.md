@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 33%
+source-wordcount: '3608'
+ht-degree: 31%
 ---
 # 2025 年發行說明 {#2025-rn}
 
@@ -294,7 +294,7 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 * 解決退信管理的事件日期和聯絡日期不一致問題。 時區處理邏輯已改善。 (NEO-72277)
 * 增強直接郵件傳送中錯誤轉換UTF-8字元的處理。 隱藏字元現在可正確處理，以防止傳送失敗。 (NEO-72148)
 * 修正傳入SMS活動中篩選器導致儲存問題的錯誤。 工作流程現在可正確儲存，而不會產生錯誤。 (NEO-70427)
-* 更正優惠方案空間中群組適用性條件之SQL查詢的產生。 已新增SQL條件中遺漏的括弧，以確保正確篩選。 (NEO-70425)
+* 更正優惠方案空間中群組適用性條件之SQL查詢的產生。 已新增SQL條件中缺少的括弧，以確保正確篩選。 (NEO-70425)
 
 <!--
 * Updated the public documentation link in the `ffdaUnicity` workflow email template to point to the correct page for key management in v8. (NEO-67996)
@@ -312,7 +312,7 @@ _2025 年 4 月 25 日_
 
 ### 新功能 {#features-8-6-5}
 
-**新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 仍支援現有的實施，但建議改用此新的現代化及擴充連接器。 [閱讀全文](../send/sms/sms.md)。
+**新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [閱讀全文](../send/sms/sms.md)。
 
 ### 一般改善 {#improvements-8-6-5}
 
@@ -362,7 +362,7 @@ _2025 年 2 月 14 日_
 
 ### 新功能 {#features-8-7-3}
 
-* **交易型訊息的動態報告** - 您現在可以在動態報告使用者介面中監視交易型訊息。 這些報告可讓行銷人員即時檢視交易型訊息的所有報告量度和維度，以及透過範本傳送的傳遞劃分。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
+* **交易型訊息的動態報告** - 您現在可以在動態報告使用者介面中監視交易型訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
 
 * **交易型訊息 REST API** - 以事件為基礎的交易型 API 現在可用於電子郵件。 [閱讀更多](../dev/api/get-started-apis.md)
 
@@ -380,7 +380,7 @@ _2025 年 1 月 15 日_
 
 * 已改善 Campaign 應用程式在[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)情境下的傳遞分析期間的穩定性。
 * 此版本隨附改善及增強的 FFDA 架構機制，包括金鑰管理、暫存和資料複寫。
-* 已為[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行複寫請求，以複寫傳遞和相關資料。 這些工作流程以 `Replicate nms` 開始。 [閱讀更多](../architecture/replication.md)
+* 已為[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行複寫請求，以複寫傳遞和相關資料。 這些工作流程以`Replicate nms`開始。 [閱讀更多](../architecture/replication.md)
 * 新的&#x200B;**啟用監督者以保持工作流程永久執行**&#x200B;選項現在可在工作流程屬性中使用。 啟用此選項後，工作流程會在發生錯誤時自動重新啟動。 如果工作流程仍然錯誤，預設會每 30 秒重新啟動一次。 若要調整此間隔，您可以建立新的 `XtkWorkflow_WatchdogRestartTimerTimeout` 選項，並設定整數資料類型以指定新的延遲。 此選項只應在技術工作流程中啟用。 [閱讀更多](../../automation/workflow/workflow-properties.md#execution)
 
 ### 安全性改善 {#security-8-6-4}

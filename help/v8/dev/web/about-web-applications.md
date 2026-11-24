@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 12%
@@ -116,7 +116,7 @@ Adobe Campaign中的網頁應用程式可存取下列功能：
 
 ## Web應用程式初始設定 {#web-application-initial-configuration}
 
-網頁應用程式是透過&#x200B;**[!UICONTROL Campaigns]**&#x200B;和&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Web Applications]**&#x200B;連結建立的。
+網頁應用程式是透過&#x200B;**[!UICONTROL Campaigns]**&#x200B;和&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;標籤中的&#x200B;**[!UICONTROL Web Applications]**&#x200B;連結建立的。
 
 Web應用程式儲存在Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Resources > Online > Web Applications]**&#x200B;節點中。 設定分為以下資料夾：
 

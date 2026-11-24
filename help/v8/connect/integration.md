@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 13%
 ---
 # 將Campaign與您的解決方案連結{#gs-ac-connectors}
@@ -47,7 +47,7 @@ Adobe Campaign隨附數個聯結器，可讓您與外部應用程式通訊、連
 
 Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解使用案例、設定和指南：
 
-* Adobe Analytics。[進一步瞭解](../connect/ac-aa.md)
+* Adobe Analytics。 [了解更多](../connect/ac-aa.md)
 * Adobe Experience Cloud觸發器。 [了解更多](../connect/ac-triggers.md)
 * Adobe Experience Manager。 [了解更多](../connect/ac-aem.md)
 * Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)

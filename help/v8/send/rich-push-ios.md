@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1119'
 ht-degree: 5%
 ---
 # 設計 iOS 豐富的推播傳遞 {#rich-push}
@@ -189,7 +189,7 @@ ht-degree: 5%
 |---------|---------|
 | **[!UICONTROL Clean Badge]** | 啟用此選項以重新整理徽章值。 |
 | **[!UICONTROL Value]** | 設定用於直接在應用程式圖示上顯示新未讀取資訊的數字。 |
-| **[!UICONTROL Critical alert mode]** | 啟用此選項可將聲音新增至您的通知，即使使用者的電話已設定為焦點模式或iPhone已靜音。 |
+| **[!UICONTROL Critical alert mode]** | 啟用此選項可在您的通知中新增音效，即使使用者的電話設定為焦點模式或iPhone已靜音亦然。 |
 | **[!UICONTROL Name]** | 選取在收到通知時由行動終端機播放的音效。 |
 | **[!UICONTROL Volume]** | 將音量從0設定為100。 聲音必須包含在應用程式中，並在建立服務時定義。 |
 
@@ -200,7 +200,7 @@ ht-degree: 5%
 | **[!UICONTROL Mutable content]** | 啟用此選項可允許行動應用程式下載媒體內容。 |
 | **[!UICONTROL Thread-id]** | 設定用來將相關通知分組在一起的識別碼。 |
 | **[!UICONTROL Category]** | 設定將顯示動作按鈕的類別ID名稱。 這些通知可讓使用者以更快的方式回應通知，執行不同的工作，而不需在應用程式中開啟或導覽。 |
-| **[!UICONTROL Target content ID]** | 設定識別碼，用來在開啟通知時鎖定要轉送的應用程式視窗。 |
+| **[!UICONTROL Target content ID]** | 設定識別碼，用於鎖定在開啟通知時要轉送的應用程式視窗。 |
 | **[!UICONTROL Launch image]** | 設定要顯示的啟動影像檔名稱。 如果使用者選擇啟動您的應用程式，則會顯示選取的影像，而非您應用程式的啟動畫面。 |
 | **[!UICONTROL Click action]** | 設定與使用者點按您的通知相關聯的動作。 |
 | **[!UICONTROL Interruption level]** | <ul><li>作用中：依預設設定，系統會立即顯示通知、開啟熒幕，並可播放音效。 通知不會突破焦點模式。</li><li>被動：系統會將通知新增至通知清單，而不需開啟熒幕或播放音效。 通知不會突破焦點模式。</li><li> 有時效性：系統立即顯示通知、讓熒幕亮起、播放聲音並突破焦點模式。 此層級不需要Apple的特殊許可權。</li><li>嚴重：系統會立即顯示通知、讓熒幕亮起，並略過靜音切換或聚焦模式。 請注意，此層級需要Apple的特殊許可權。</li></ul> |

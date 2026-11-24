@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2947'
-ht-degree: 48%
+ht-degree: 47%
 ---
 # Campaign安全性最佳做法 {#ac-security}
 
@@ -101,9 +101,9 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。 在 Campai
   * Adobe Experience Cloud 解決方案會使用 Cookie 和類似技術（例如網站信標，又稱為標籤或像素），讓您收集資訊。 如需 Adobe Campaign Cookie 和追蹤功能的詳細資訊，請參閱[本節](#tracking-capabilities)。
   * 您也可以在行動應用程式中使用 Adobe Experience Cloud 技術。 如需使用Campaign傳送行動傳遞的詳細資訊，請參閱[簡訊頻道](../send/sms/sms-channel.md)和行動應用程式頻道。
 
-* **使用者對於您使用 Adobe Experience Cloud 的隱私權選擇**
+* **使用者對於您使用Adobe Experience Cloud的隱私權選擇**
 
-  Adobe 要求您提供客戶的隱私權政策，以說明：
+  Adobe會要求您提供客戶的隱私權政策，以說明：
 
   * 您與 Adobe Experience Cloud 相關聯的隱私權實務
   * 使用者如何針對 Adobe Experience Cloud 收集或使用其資訊進行偏好設定
@@ -165,7 +165,7 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。 因此，�
 
 ## 隱私權管理 {#privacy-management}
 
-隱私權管理是指可協助您遵守隱私權法規 (GDPR、CCPA等) 的所有流程及工具。
+隱私權管理是指可協助您遵守隱私權法規（GDPR、CCPA等）的所有流程及工具。
 
 Adobe Campaign 提供專屬於隱私權管理的各種功能：
 * 同意管理、資料保留和使用者角色。 請參閱[本節](#consent)。

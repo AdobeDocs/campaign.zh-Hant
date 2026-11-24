@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -126,4 +126,4 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此限制僅適用於非技術使用者，不會隔離資料：具有相關許可權的技術使用者可以擷取資料。
+>此限制僅適用於非技術使用者，且不會隔離資料：具有相關許可權的技術使用者可以擷取資料。

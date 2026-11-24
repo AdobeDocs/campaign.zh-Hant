@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 ## 建立目標母體 {#build-a-target-population}
 
-使用立方體建置報表可讓您從表格收集資料並將其儲存在清單中。
+使用立方體建置的報告可讓您從表格收集資料並將其儲存在清單中。
 
 若要將母體分組到清單中，請遵循下列步驟：
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
    ![](assets/cube-add-to-cart.png)
 
-   收集各種設定檔所需的時間
+   視需要多次執行此動作，以收集各種設定檔。
 
 1. 在執行匯出之前，按一下&#x200B;**[!UICONTROL Show cart]**&#x200B;按鈕以檢視其內容。
 

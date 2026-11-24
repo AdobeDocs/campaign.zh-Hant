@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Adobe Campaign整合了圖形模組，用於定義及發佈網路表單，以建
 
 ## 關於網路表單設計 {#about-web-forms-designing}
 
-表單的頁面是透過特定編輯器建立的，可讓您定義和設定輸入區域（文字）、選擇欄位（清單、核取方塊等） 和靜態元素（影像、HTLM內容等）。 它們可以分組到容器中，並根據您的需求更改其版面（如需詳細資訊，請參閱[建立容器](defining-web-forms-layout.md#creating-containers)）。
+表單的頁面是透過特定編輯器建立的，可讓您定義和設定輸入區域（文字）、選擇欄位（清單、核取方塊等） 和靜態元素（影像、HTML內容等）。 它們可以分組到容器中，並根據您的需求更改其版面（如需詳細資訊，請參閱[建立容器](defining-web-forms-layout.md#creating-containers)）。
 
 以下小節詳細說明如何定義表單熒幕的內容和版面：
 

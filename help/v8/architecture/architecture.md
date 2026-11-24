@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1073'
 ht-degree: 10%
 ---
 # 開始使用Campaign架構{#gs-ac-archi}
@@ -129,7 +129,7 @@ In addition, you can select split external accounts as the default routing provi
 
 在[本節](../send/transactional.md)中瞭解如何傳送異動訊息。
 
-為回應客戶在網站上的動作，會透過REST API傳送事件Campaign，並透過API呼叫提供的資訊或資料填入訊息範本，且會即時傳送交易式訊息給客戶。 這些訊息可透過電子郵件、簡訊或推播通知個別或批次傳送。
+為回應客戶在網站上的動作，會透過REST API將事件傳送至Campaign，且訊息範本會填入透過API呼叫提供的資訊或資料，而交易式訊息則會即時傳送給客戶。 這些訊息可透過電子郵件、簡訊或推播通知個別或批次傳送。
 
 在此特定架構中，執行儲存格與控制執行個體分開，以確保高可用性和負載管理。
 

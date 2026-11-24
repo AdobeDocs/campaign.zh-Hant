@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1076'
 ht-degree: 3%
 ---
 # 使用Campaign和X (Twitter) {#tw-ac-ovv}
@@ -79,7 +79,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 1. 連線到[X開發人員入口網站](https://developer.twitter.com/en/apps){target="_blank"}。
 1. 選取&#x200B;**建立應用程式**。
 1. 讓X助理引導您完成程式。
-1. 若要允許Adobe Campaign在您的帳戶上建立貼文，請從應用程式的[使用者驗證設定]區段編輯至&#x200B;**應用程式許可權**。 選取&#x200B;**讀取、寫入和直接訊息**。
+1. 若要允許Adobe Campaign在您的帳戶上建立貼文，請從應用程式的[使用者驗證設定]區段編輯&#x200B;**應用程式許可權**。 選取&#x200B;**讀取、寫入和直接訊息**。
 
    ![](assets/tw-permissions.png)
 
@@ -169,7 +169,7 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 
 ## 在X上建立測試帳戶 {#tw-test-account}
 
-除了X帳戶，請建立私人X帳戶，用來傳送[推文校樣](../send/twitter.md)。 要執行此操作，請遵循下列步驟：
+除了X帳戶之外，請建立私人X帳戶，以用於傳送[推文校樣](../send/twitter.md)。 要執行此操作，請遵循下列步驟：
 
 1. 建立新的X帳戶。
 1. 存取帳戶&#x200B;**設定**。

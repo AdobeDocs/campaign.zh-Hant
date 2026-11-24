@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%
@@ -92,11 +92,11 @@ Domain Keys Identified Mail (DKIM)是一種驗證方法，用來偵測偽造的�
 
 在Adobe Campaign中，DKIM電子郵件驗證簽署是由MTA執行。
 
-在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication){target="_blank"}中瞭解更多有關DKIM的資訊。
+在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication){target="_blank"}中進一步瞭解DKIM。
 
 ## 電子郵件回饋服務 {#email-feedback-service}
 
-Campaign電子郵件回饋服務(EFS)會報告透過Adobe Campaign傳送的每個電子郵件傳遞的狀態。
+Campaign電子郵件回饋服務(EFS)會報告隨Adobe Campaign傳送的每個電子郵件傳遞的狀態。
 
 開始傳遞後，當訊息成功從Campaign轉送至MTA時，**[!UICONTROL Success]**&#x200B;百分比沒有變更。 傳遞記錄顯示每個目標地址的&#x200B;**[!UICONTROL Taken into account by the service provider]**&#x200B;狀態。
 

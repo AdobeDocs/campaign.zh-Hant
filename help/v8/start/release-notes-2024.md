@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 85%
+source-wordcount: '1662'
+ht-degree: 83%
 ---
 # 2024 年發行說明 {#2024-rn}
 
@@ -74,7 +74,7 @@ _2024 年 9 月 3 日_
 
 ### 新功能 {#new-8-7-2}
 
-* **新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 仍支援現有的實施，但建議改用此新的現代化及擴充連接器。 [閱讀全文](../send/sms/sms.md)。
+* **新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [閱讀全文](../send/sms/sms.md)。
 
 * **豐富推播通知 (GA)** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [閱讀全文](../send/rich-push-android.md)。
 
@@ -206,7 +206,7 @@ _2024 年 2 月 14 日_
 
 ### 傳遞能力更新 {#deliverability-8-6-1}
 
-* 到 2024 年 2 月，任何透過 Google 或 Yahoo! 傳送超過 5,000 則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性 (DMARC) 的驗證技術。 請務必為您搭配 Adobe Campaign 使用的所有子網域設定 DMARC 記錄。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
+* 到 2024 年 2 月，任何透過 Google 或 Yahoo! 傳送超過 5,000 則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性 (DMARC) 的驗證技術。 請務必為您搭配Adobe Campaign使用的所有子網域設定DMARC記錄。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
 
 * 2024 年 6 月 1 日起，Google 和 Yahoo! 將要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign 現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=zh-Hant#list-unsubscribe){target="_blank"}
 

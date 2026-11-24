@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 1%
 ---
 # 為何使用Campaign Standard API {#why-using-campaign-standard-apis}
@@ -48,7 +48,7 @@ Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，�
 
    ![替代文字](assets/apis_uc1.png)
 
-1. 根據核取方塊要採取的自訂動作。 與一般註冊程式相比，選取「電子郵件特殊優惠」的客戶會收到一封包含贈券的不同自訂郵件。
+1. 根據核取方塊要採取的自訂動作。 若客戶選取「電子郵件特殊優惠」，將會收到一封包含贈品券的自訂郵件，不同於一般的註冊程式。
 
    ![替代文字](assets/apis_uc2.png)
 
@@ -80,7 +80,7 @@ Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，�
 
    ![替代文字](assets/postman_uc2.png)
 
-1. 建立物件後，就會有主索引鍵(PKey)與其相關聯。 它會顯示於要求回應中，以及其他屬性中。
+1. 一旦建立物件後，就會有主索引鍵(PKey)與其相關聯。 它會顯示於要求回應中，以及其他屬性中。
 
    ![替代文字](assets/postman_uc3.png)
 

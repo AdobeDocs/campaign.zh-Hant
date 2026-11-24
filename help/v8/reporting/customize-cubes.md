@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 2%
 ---
 # 自訂多維度資料集{#cube-custom}
@@ -255,7 +255,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
    ![](assets/cube_multiple_filters.png)
 
-每次修改篩選器時（新增、移除、變更），都必須重新計算報表。
+每次修改（新增、移除、變更）篩選器時，都必須重新計算報表。
 
 您也可以根據選取專案建立篩選器。 若要這麼做，請選取您的來源儲存格、行與欄，然後按一下&#x200B;**[!UICONTROL Add a filter]**&#x200B;圖示。
 

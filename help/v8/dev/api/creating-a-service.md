@@ -19,14 +19,14 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
 ---
 # 使用API建立服務{#creating-a-service-api}
 
-已使用服務資源上的&#x200B;**POST**&#x200B;要求執行服務建立。
+使用服務資源上的&#x200B;**POST**&#x200B;要求執行服務建立。
 
 如果您想要使用特定屬性建立服務，請將其新增至裝載。 否則，將使用預設服務建立新服務。
 

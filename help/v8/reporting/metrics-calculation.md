@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3132'
-ht-degree: 4%
+ht-degree: 3%
 ---
 # 內建報告量度計算 {#metrics-calculation}
 
@@ -809,7 +809,7 @@ ht-degree: 4%
 
 此報表是以傳遞(nms:delivery)和&#x200B;**[!UICONTROL Consolidated tracking]** (nms:trackingStats)資料表為基礎。
 
-此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊取消訂閱連結和映象頁面連結會在累計點按總數中考慮，但不會顯示在報表中。
+此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊、取消訂閱連結和映象頁面連結會在累計點按總數中考慮，但不會顯示在報表中。
 
 ## 追蹤統計資料 {#tracking-statistics-1}
 
@@ -940,7 +940,7 @@ ht-degree: 4%
 
 ## 追蹤開啟次數 {#tracking-opens-}
 
-為了讓Adobe Campaign偵測郵件開啟，收件者必須下載電子郵件中的影像。 HTML 和多重部分/替代的電子郵件包含一個 0 像素影像，讓您能夠檢測那些已開啟的訊息。 由於文字格式的訊息不包含任何影像，因此無法檢測這類訊息是否已被開啟。 由於與影像顯示相關的誤差範圍，根據訊息開啟次數計算的數值一定是估計值。
+為了讓Adobe Campaign偵測郵件開啟，收件者必須下載電子郵件中的影像。 HTML和多重部分/替代電子郵件包含0畫素影像，可讓您偵測已開啟的訊息。 由於文字格式的訊息不包含任何影像，因此無法檢測這類訊息是否已被開啟。 由於與影像顯示相關的誤差範圍，根據訊息開啟次數計算的數值一定是估計值。
 
 ## 目標對象/收件者 {#targeted-persons---recipients}
 

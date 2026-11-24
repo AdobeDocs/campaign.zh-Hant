@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '315'
 ht-degree: 14%
 ---
 # 開始使用[!DNL Campaign] API {#gs-ac-api}
@@ -60,7 +60,7 @@ ht-degree: 14%
 
 ## 先決條件 {#ac-api-prerequisites}
 
-使用[!DNL Adobe Campaign] API前，您必須熟悉下列主題：
+使用[!DNL Adobe Campaign] API之前，您必須熟悉下列主題：
 
 * JavaScript
 * SOAP通訊協定

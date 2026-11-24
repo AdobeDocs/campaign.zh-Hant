@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 1%
 ---
 # 管理資料夾和檢視 {#folders-and-views}
@@ -72,7 +72,7 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 
 若要建立資料夾，請在現有資料夾上按一下滑鼠右鍵，並使用內容功能表。
 
-若要建立與您選取的資料夾相同的資料夾型別，請選擇內容功能表中的第一個選項。 例如，從[收件者]資料夾中，選取&#x200B;**[!UICONTROL Create a new 'Recipients' folder]**。
+若要建立與您選取的資料夾相同型別的資料夾，請選擇內容功能表中的第一個選項。 例如，從[收件者]資料夾中，選取&#x200B;**[!UICONTROL Create a new 'Recipients' folder]**。
 
 ![](assets/create-recipient-folder.png)
 

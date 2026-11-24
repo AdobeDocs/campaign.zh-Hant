@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '992'
 ht-degree: 0%
 ---
 # 合作使用Campaign與Adobe Target
@@ -68,7 +68,7 @@ Adobe Target可使用下列型別的資料：
 
 ![](assets/target_4.png)
 
-您需要在Adobe Campaign和Adobe Target中完成以下步驟：
+在Adobe Campaign和Adobe Target中需要完成下列步驟：
 
 1. [在電子郵件中插入動態優惠方案](#inserting-dynamic-offer)
 1. [建立重新導向選件](#create-redirect-offers)
@@ -153,7 +153,7 @@ Adobe Target可使用下列型別的資料：
 
    ![](assets/target_10_2.png)
 
-1. 選取在先前步驟中建立的對象。
+1. Select在先前步驟中建立的對象。
 
    ![](assets/target_10_3.png)
 
@@ -161,7 +161,7 @@ Adobe Target可使用下列型別的資料：
 
 然後為每個對象新增內容：
 
-1. 選取您在Adobe Campaign中插入動態選件時選擇的位置名稱。
+1. Select是您在Adobe Campaign中插入動態選件時選擇的位置名稱。
 
    ![](assets/target_15.png)
 

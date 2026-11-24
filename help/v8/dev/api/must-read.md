@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '378'
 ht-degree: 1%
 ---
 # 必讀 {#must-read}
@@ -39,11 +39,11 @@ ht-degree: 1%
 
 * 依預設，Adobe Campaign API會使用管理員內容，因此組織單位和角色不適用。
 * Adobe Campaign API會從角色內容中排除。
-* 如果您想要使用一個或多個組織單位來設定API，請先洽詢您的Adobe技術連絡人。
+* 如果您想要使用一個或多個組織單位來設定API，請先與您的Adobe技術連絡人確認。
 
 ## 資源表示
 
-所有API資源都可在&#x200B;**JSON**&#x200B;中使用URL副檔名或HTTP Accept標頭：
+所有API資源都可在&#x200B;**JSON**&#x200B;中使用，具有URL副檔名或HTTP Accept標頭：
 
 `GET /profileAndServices/<resourceName>.json`
 

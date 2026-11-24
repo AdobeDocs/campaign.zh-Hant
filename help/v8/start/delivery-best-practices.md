@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 2%
@@ -116,7 +116,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 子網域和品牌 {#subdomains-and-branding}
 
-當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
+當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每個子網域擁有一個傳遞範本，可讓您一律對每個品牌使用正確的預先設定引數，以避免錯誤並節省您的時間。 在[Campaign控制面板檔案](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}中進一步瞭解子網域名稱。
 
 ### 設定地址 {#configure-addresses}
 
@@ -143,7 +143,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 設定控制組 {#set-up-control-group}
 
-傳送傳遞後，您可以將排除的收件者與收到傳遞的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 深入瞭解控制群組[本節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)。
+傳送傳遞後，您可以將排除的收件者與收到傳遞的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 在[本節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)中進一步瞭解控制組。
 
 ### 使用型別來套用篩選器或控制規則 {#create-typologies}
 
@@ -173,7 +173,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
   如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
 
-* 準備個人化資料 — 您可以在工作流程中準備個人化資料，以改進傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則應特別使用此專案。 此[本章節](../send/personalization-data.md#optimize-personalization)中說明此選項
+* 準備個人化資料 — 您可以在工作流程中準備個人化資料，以改進傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則尤其應使用此專案。 此選項在[本節](../send/personalization-data.md#optimize-personalization)中說明
 +++
 
 ### 建置最佳化內容 {#build-optimized-content}
@@ -215,7 +215,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 鏡像頁面 {#mirror-page-check}
 
-一律包含映象頁面連結。 偏好位置是電子郵件的頂端。 在[此頁面](../send/mirror-page.md)中進一步瞭解映象頁面
+一律包含映象頁面連結。 偏好位置位於電子郵件頂端。 在[此頁面](../send/mirror-page.md)中進一步瞭解映象頁面
 
 ### 取消訂閱連結 {#unsub-link-check}
 
@@ -273,7 +273,7 @@ To avoid common formatting errors, check the following elements:
 
 * Correct **date formatting**: Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets. [Learn more](formatting.md#date-display)
 
-* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
+* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../architecture/campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication).
 -->
@@ -315,7 +315,7 @@ Adobe建議預覽您的訊息，以檢查其個人化情況，以及收件者看
 
 
 <!--
-*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
+*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](../send/spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
 -->
 
 ## 定義正確客群 {#define-the-right-audience}
@@ -384,7 +384,7 @@ Inbox rendering enables you to preview your messages on major email clients, sca
 
 * Inbox rendering capabilities are crucial to identifying whether your email campaigns successfully make it past the filters of major ISPs (Internet Service Providers) and webmail services. Such tools send a pre-flight copy of an email to a network of test inboxes, so you can see how the message will display, or render, across these services. They may also include reports and code correction options that help you quickly identify and make fixes that improve deliverability.
 
-Learn more [in this section](inbox-rendering.md).
+Learn more [in this section](../send/inbox-rendering.md).
 -->
 
 ### 校樣訊息 {#proof-messages}

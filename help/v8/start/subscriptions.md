@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 10%
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 使用Adobe Campaign建立及監控您的資訊服務（例如電子報），並管理這些服務的訂閱/取消訂閱。 數個服務可並行定義，例如：特定產品類別、網站主題或區域的專業電子報、各種警報訊息型別的訂閱和即時通知。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=zh-Hant){target="_blank"}中瞭解如何建立資訊服務、傳送Newsletter及管理選擇加入和選擇退出
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=zh-Hant){target="_blank"}中瞭解如何建立資訊服務、傳送電子報及管理選擇加入和選擇退出
 
 若要訂閱（選擇加入）服務的設定檔，可用選項包括：
 

@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
 
      ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-  1. 選取要傳送至Adobe Campaign的區段。
+  1. Select要傳送至Adobe Campaign的區段。
   1. 設定您要在對象中匯出的屬性。
   1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
 

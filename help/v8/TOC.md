@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+source-git-commit: 2da6239843538ec459e7d3dfe0514a56e4a941be
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1102'
 ht-degree: 86%
 ---
 
@@ -271,6 +271,7 @@ ht-degree: 86%
   + [全域原則](architecture/general-architecture.md)
   + [架構模型](architecture/architecture.md)
   + {hide-from-toc}[內建套件](architecture/built-in-packages.md)
+  + {hide-from-toc}[行銷活動選項](architecture/campaign-options.md)
   + [Campaign FDA 部署](architecture/fda-deployment.md)
   + 企業 (FFDA) 部署 {#ffda}
     + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
@@ -335,7 +336,7 @@ ht-degree: 86%
       + [控管工作流程](dev/api/controlling-a-workflow.md)
       + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
 + API檔案 {#api-documentation}
-  + [Campaign API檔案>](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API檔案>](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-api/home)
 + 額外資源 {#resources}
   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)

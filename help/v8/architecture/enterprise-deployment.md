@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 52%
+ht-degree: 44%
 ---
 # [!DNL Campaign] FFDA部署 {#gs-ac-ffda}
 
@@ -59,7 +59,7 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 * 針對細分和目標定位以及資料擷取與匯出調整查詢的效能
 * 調整傳送準備規模 (從小時到分鐘)
 
-這是軟體架構的重大變更。 資料現在是遠端的，而 Campaign 會聯合所有資料，包括輪廓。 [!DNL Campaign] 流程現在可以調整端對端規模，包含從目標定位到訊息執行：資料擷取、細分、目標定位、查詢、傳送，現在通常只需幾分鐘即可完成。 此新版本可解決拓展規模的整體挑戰，同時維持相同彈性和擴充性。 輪廓的數量幾乎不受限制，資料保留期也可以延長。
+這是軟體架構的重大變更。 資料現在是遠端的，而 Campaign 會聯合所有資料，包括輪廓。 [!DNL Campaign]個處理程式現在可以擴充到端對端，從目標定位到訊息執行：資料擷取、細分、目標定位、查詢、傳送，現在通常只需幾分鐘即可完成。 此新版本可解決拓展規模的整體挑戰，同時維持相同彈性和擴充性。 輪廓的數量幾乎不受限制，資料保留期也可以延長。
 
 在 **[!DNL Snowflake]** 中執行雲端儲存空間：新的內建 **外部帳戶** 可確保與雲端資料庫的連線。 由 Adobe 設定，且不得修改。 [了解更多](../config/external-accounts.md)
 
@@ -144,9 +144,9 @@ Campaign v8物件現在使用&#x200B;**通用唯一識別碼(UUID)**，允許無
 
 請注意此 ID 是字串且並非循序。 主索引鍵不是 Campaign v8 中的數值，且您需要在結構中使用 **autouuid** 和 **autopk** 屬性。
 
-在 Campaign Classic v7 及舊版中，對於結構描述 (即表格) 中的金鑰其唯一性在資料庫引擎層級處理。 更一般而言，PostgreSQL、Oracle 或 SQL Server 等傳統資料庫引擎包含本機機制，以防止透過主索引鍵和/或唯一索引，根據一列或一組列插入重複行。 在資料庫層級設定正確的索引和主索引鍵時，這些版本不會存在重複的 ID。
+在 Campaign Classic v7 及舊版中，對於結構描述 (即表格) 中的金鑰其唯一性在資料庫引擎層級處理。 更一般而言，PostgreSQL、Oracle 或 SQL Server 等傳統資料庫引擎包含本機機制，以防止透過主索引鍵和/或唯一索引，根據一列或一組列插入重複行。 在資料庫層級設定正確的索引和主索引鍵時，這些版本中不會存在重複的ID。
 
-Adobe Campaign v8 以 Snowflake 作為核心資料庫。 由於它顯著增加了查詢規模，Snowflake 資料庫的分散式架構不提供這樣的機制來管理並強制在表格內要求索引鍵的唯一性。 因此，使用 Adobe Campaign v8 時，將無法防止在表格中擷取重複的索引鍵。 終端使用者現在負責在 Adobe Campaign 資料庫內確保索引鍵的一致性。 [了解更多](keys.md)
+Adobe Campaign v8 以 Snowflake 作為核心資料庫。 由於它顯著增加了查詢規模，Snowflake資料庫的分散式架構不提供這樣的機制來管理和強制執行表格中索引鍵的唯一性。 因此，使用 Adobe Campaign v8 時，將無法防止在表格中擷取重複的索引鍵。 終端使用者現在負責在 Adobe Campaign 資料庫內確保索引鍵的一致性。 [了解更多](keys.md)
 
 ### 功能可用性 {#feature-availability}
 

@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 3%
 ---
 # 定義互動式內容{#defining-interactive-content}
 
-Adobe Campaign可讓您使用互動式[AMP for Email](https://amp.dev/about/email/)格式，在特定條件下傳送動態電子郵件。
+Adobe Campaign可讓您使用互動式[AMP for Email](https://amp.dev/about/email/)格式，讓您在特定條件下傳送動態電子郵件。
 
 使用AMP for Email，您可以：
 * 測試傳送AMP電子郵件至適當設定的特定地址。
@@ -67,7 +67,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
    >[!NOTE]
    >
-   >目前，您只能將AMP電子郵件傳送至[特定的電子郵件地址](#testing-amp-delivery-for-selected-addresses) （用於測試目的），或是在向支援的電子郵件使用者端[註冊](#delivering-amp-emails-by-registering)之後傳送。
+   >目前，您只能將AMP電子郵件傳送至[特定的電子郵件地址](#testing-amp-delivery-for-selected-addresses) （用於測試目的），或在[向支援的電子郵件使用者端註冊](#delivering-amp-emails-by-registering)之後傳送。
 
 1. 像往常一樣傳送電子郵件。 請參閱[傳送AMP電子郵件](#sending-amp-email)。
 

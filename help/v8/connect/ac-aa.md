@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 54%
+source-wordcount: '1592'
+ht-degree: 50%
 ---
 # 合作使用Campaign與Adobe Analytics {#ac-aa}
 
@@ -199,7 +199,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    >[!NOTE]
    >
-   >促銷活動ID和Broadload ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >促銷活動ID和Broadlog ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -240,7 +240,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 1. **[!UICONTROL Advanced]**&#x200B;標籤可讓您設定或修改更多技術設定。
 
    * **[!UICONTROL Lifespan]**：可讓您指定延遲（以天為單位），之後技術工作流程便可在Adobe Campaign中復原Web事件。 預設值：180天。
-   * **[!UICONTROL Persistence]**：可讓您將所有 Web 事件 (例如購買) 歸因於再次行銷活動的期間，預設值：7天。
+   * **[!UICONTROL Persistence]**：可讓您指定所有網頁事件（例如購買）可歸因於再次行銷活動的期間。 預設值：7天。
 
 >[!NOTE]
 >
@@ -308,7 +308,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 當 Adobe Campaign 完成分析初始行銷活動鎖定目標之人員的行為的區段後，就會自動開始再次行銷活動。 如果放棄購買或檢視產品而未進行購買，則會傳送傳遞內容給相關收件者，以供其網站瀏覽完成購買。
 
-Adobe Campaign 提供個人化傳送範本，供您自行使用或建立資料庫，以準備行銷活動。
+Adobe Campaign提供個人化傳遞範本，供您使用或據以準備行銷活動。
 
 1. 從&#x200B;**[!UICONTROL Explorer]**，前往 Adobe Campaign 樹的&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;資料夾。
 1. 複製 Adobe Campaign 提供的&#x200B;**[!UICONTROL Email delivery (re-marketing)]**&#x200B;範本或再次行銷範本範例。

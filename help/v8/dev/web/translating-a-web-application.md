@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 5%
 ---
 # 追蹤網站應用程式{#translating-a-web-application}
@@ -55,7 +55,7 @@ ht-degree: 5%
 
    有三個特定案例：
 
-   * 當選取的區塊包含數個字串/區塊時，系統會將其標示為單一字串以供翻譯。 該字串接著會包含此區塊中元素的HTML程式碼。
+   * 當選取的區塊包含數個字串/區塊時，系統會將其標示為單一字串以供翻譯。 然後，字串會包含此區塊內元素的HTML程式碼。
    * 當您想要標幟包含數個字串的區塊時，如果至少其中一個字串已經標幟，則會顯示警告。 然後，您可以從隔離字串中移除標幟，並新增整個區塊。
 
      ![](assets/dce_translation_4.png)
@@ -69,7 +69,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >收集到字串後，如果您在DCE中移除翻譯旗標，就不會從清單中移除這些字串。 這樣可讓翻譯記憶庫儲存它們。
+   >收集到字串後，如果您在DCE中移除翻譯旗標，就不會從清單中移除這些字串。 這可讓您將其保留在翻譯記憶庫中。
 
 1. 翻譯及核准字串。
 

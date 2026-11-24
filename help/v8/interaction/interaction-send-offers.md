@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 2%
 ---
 # 傳送產品建議{#send}
 
-為了讓優惠方案引擎選取優惠方案，優惠方案已經過核准，並可在&#x200B;**即時**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
+為了讓優惠方案引擎選取優惠方案，優惠方案必須經過核准，並可在&#x200B;**即時**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
 
 透過傳出通訊頻道的優惠方案簡報，會透過直接郵件、電子郵件或行動傳送來執行。 您也可以對異動訊息（訊息中心）使用單一模式。
 
@@ -137,9 +137,9 @@ ht-degree: 2%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Add data]**。
+1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中的Select **[!UICONTROL Add data]**。
 1. 在您選擇要新增的資料型別視窗中，選取&#x200B;**[!UICONTROL A link]**。
-1. 選取您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
+1. Select您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
 
    ![](assets/int_enrichment_link1.png)
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 在設定您的&#x200B;**查詢**&#x200B;活動後：
 
 1. 新增並開啟&#x200B;**[!UICONTROL Offer engine]**&#x200B;活動。
-1. 完成各種可用欄位，以指定呼叫優惠方案引擎引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數量）。 引擎將根據這些引數自動計算要新增的選件。
+1. 完成各種可用欄位，以指定對優惠方案引擎引數的呼叫（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數量）。 引擎將根據這些引數自動計算要新增的選件。
 
    >[!CAUTION]
    >

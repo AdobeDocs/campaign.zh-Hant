@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 1%
 ---
 # 使用實例：建立電子郵件傳遞{#use-case-creating-an-email-delivery}
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 步驟2 — 選取範本 {#step-2---selecting-a-template}
 
-選取傳遞範本，然後為您的傳遞命名。 此名稱將僅對Adobe Campaign主控台的使用者可見，不會由您的收件者可見，不過此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
+選取傳遞範本，然後為您的傳遞命名。 此名稱僅對Adobe Campaign主控台的使用者可見，不會對您的收件者可見；不過，此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
 
 ![](assets/dce_delivery_model.png)
 

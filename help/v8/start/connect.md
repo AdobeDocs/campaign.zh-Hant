@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 90%
+ht-degree: 82%
 ---
 # 連線至 Adobe Campaign v8{#gs-ac-connect}
 
@@ -39,7 +39,7 @@ ht-degree: 90%
 * 在[相容性矩陣](compatibility-matrix.md)中檢查您的系統和工具與 Adobe Campaign 的相容性
 * 取得 Campaign 伺服器 URL
 * 建立您的 Adobe ID，或從您的公司取得使用者認證
-* 在您的系統上安裝 Microsoft Edge Webview2 執行階段。 [了解更多](#webview)
+* 在您的系統上安裝Microsoft Edge Webview2執行階段。 [了解更多](#webview)
 
 ## 安裝用戶端主控台{#download-ac-console}
 
@@ -57,7 +57,7 @@ Web View 預設會安裝為 Windows 11 作業系統的一部分。 如果您的�
 
 1. 以 Campaign 管理員身分，連線至 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}。
 
-1. 身為一般使用者，您的 Campaign 管理員會為您部署用戶端主控台，並透過專用的 URL 供您使用。
+1. 作為一般使用者，您的Campaign管理員會為您部署使用者端主控台，並透過專用的URL提供使用。
 
 下載用戶端主控台安裝程式後，請將其安裝在您的本機電腦上。
 
@@ -87,7 +87,7 @@ Web View 預設會安裝為 Windows 11 作業系統的一部分。 如果您的�
 
 ## 登入 Adobe Campaign {#logon-to-ac}
 
-Campaign 使用者透過 Adobe 身分管理系統 (IMS)，使用其 Adobe ID 連線至 Adobe Campaign 主控台。 他們可以在所有 Adobe 解決方案中使用相同的 ID。 搭配其他解決方案使用 Adobe Campaign 時，可以儲存連線。 在[此頁面](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}了解更多關於 Adobe IMS 的資訊。
+Campaign 使用者透過 Adobe 身分管理系統 (IMS)，使用其 Adobe ID 連線至 Adobe Campaign 主控台。 他們可以針對所有Adobe解決方案使用相同的ID。 搭配其他解決方案使用 Adobe Campaign 時，可以儲存連線。 在[此頁面](https://helpx.adobe.com/tw/enterprise/using/identity.html){target="_blank"}了解更多關於 Adobe IMS 的資訊。
 
 若要登入執行個體，請遵循下列步驟：
 
@@ -171,6 +171,6 @@ Adobe Campaign 可讓您定義並管理指派給各個操作者的權限。
 
 ![](assets/campaign-from-web.png)
 
-網頁存取也用於驗證程序：操作員可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至 Campaign，以驗證或拒絕傳遞內容或預算。
+Web存取也用於驗證程式：操作員可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳遞內容或預算。
 
-若要從網頁存取您的 Campaign 執行個體，URL 為：`https://<your adobe campaign server>:<port number>/view/home`。
+若要從網頁存取您的Campaign執行個體，URL為： `https://<your adobe campaign server>:<port number>/view/home`。

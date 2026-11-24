@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 6%
 ---
 # 設定追蹤的連結 {#how-to-configure-tracked-links}
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 訊息追蹤預設為啟用。 若要個人化追蹤URL的方式，請遵循下列步驟：
 
-1. 選取郵件內容下方傳遞助理區段中的&#x200B;**[!UICONTROL Display URLs]**&#x200B;選項。
+1. 在訊息內容下方Select傳遞助理下方的&#x200B;**[!UICONTROL Display URLs]**&#x200B;選項。
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 
@@ -74,7 +74,7 @@ ht-degree: 6%
    * **[!UICONTROL Enabled]**：啟用此URL上的追蹤。
    * **[!UICONTROL Not tracked]**：停用此URL上的追蹤。
    * **[!UICONTROL Always enabled]**：一律啟用此URL的追蹤。 此資訊會儲存起來，以便下次當該URL再次出現在將來的訊息內容中時，其追蹤會自動啟動。
-   * **[!UICONTROL Never tracked]**：從未啟用此URL的追蹤。 此資訊會儲存起來，以便下次當該URL再次出現在將來的訊息中時，將會自動停用其追蹤。
+   * **[!UICONTROL Never tracked]**：從未啟用此URL的追蹤。 此資訊會儲存起來，以便下次當該URL再次出現在將來的訊息中時，其追蹤會自動停用。
    * **[!UICONTROL Opt-out]**：將此URL視為選擇退出或取消訂閱URL。
    * **[!UICONTROL Mirror page]**：將此URL視為映象頁面URL。
 

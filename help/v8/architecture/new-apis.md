@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 4%
 ---
 # 特定FFDA Campaign API{#gs-new-api}
@@ -88,7 +88,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUID會傳回SOAP回應：
+1. UUID會在SOAP回應中傳回：
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -148,7 +148,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. 在此情況下，UUID不會提供回回應，因為它已在裝載中提供。 回應為：
+1. 在此情況下，不會將UUID提供回回應，因為它已在裝載中提供。 回應為：
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -164,7 +164,7 @@ logInfo(strUuid);
 
 ## 更新或刪除資料{#data-update-api}
 
-已針對資料更新/刪除最佳化&#x200B;**xtk.session.IngestExt** API。 僅供插入，偏好使用&#x200B;**xtk.session.ingest**。 無論記錄索引鍵是否不在臨時資料表中，插入都正常運作。
+**xtk.session.IngestExt** API已針對資料更新/刪除進行最佳化。 僅供插入，偏好使用&#x200B;**xtk.session.ingest**。 當記錄索引鍵不在暫存表格中時，插入會生效。
 
 ### 插入/更新
 
@@ -218,7 +218,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
    </SOAP-ENV:Envelope>
    ```
 
-因此，臨時資料表會如預期更新。
+因此，測試表格會如預期更新。
 
 ## 訂閱管理 {#sub-apis}
 

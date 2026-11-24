@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Adobe Campaign與Adobe Experience Platform的整合可讓您在Adobe Campaign登
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">設定登入頁面工作流程</a></p></td>
 </table>
 
-## 設定Oauth連線 {#oauth}
+## 設定OAuth連線 {#oauth}
 
 Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若要使用API呼叫將Adobe Experience Platform連線至Adobe Campaign，您需要使用Adobe Developer Console中建立的OAuth整合來產生存取權杖。
 
@@ -71,7 +71,7 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-現在您的Oauth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
+現在您的OAuth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
 
 ## 建立HTTP API Source連線 {#source}
 
@@ -99,7 +99,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 ## 在Adobe Campaign中新增驗證選項 {#xtk}
 
-設定HTTP API Source連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign管理功能表中或透過新增特定&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動來執行登入頁面工作流程時完成此作業。
+設定HTTP API Source連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign Administration功能表中或透過新增特定&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動來執行您的登入頁面工作流程時執行此操作。
 
 瀏覽下列索引標籤，以探索下列兩種方法：
 

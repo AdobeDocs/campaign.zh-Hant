@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '436'
 ht-degree: 56%
 ---
 # 連結至鏡像頁面 {#mirror-page}
@@ -71,7 +71,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 * **[!UICONTROL Force the generation of the mirror page]**：使用此模式來產生映象頁面，即使傳送中未插入任何映象頁面的連結。
 * **[!UICONTROL Do not generate the mirror page]**：使用此模式來避免產生映象頁面，即使連結存在於傳遞中亦然。
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳遞記錄視窗中啟用映象頁面內容的存取權，如下所述。
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**：當電子郵件內容中不存在映象頁面連結時，請使用此選項在傳遞記錄視窗中啟用對映象頁面內容的存取，如下所述。
 
 ## 檢查收件者的映象頁面 {#mirror-page-access}
 
@@ -81,7 +81,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 1. 傳送傳遞後，請開啟並瀏覽至其&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 
-1. 選取收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
+1. Select收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
 
    ![](assets/mirror-page-display.png){width="800"}
 

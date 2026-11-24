@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 78%
 ---
 # 了解 Campaign 元件和程序 {#components-and-processes}
 
@@ -55,7 +55,7 @@ Adobe Campaign 元件和全球架構如下所示。
 
 ### 展示層{#presentation-layer}
 
-您可以透過 Rich 用戶端、Thin 用戶端或 API 整合來存取 Adobe Campaign。
+您可以透過Rich client、Thin client或API整合存取Adobe Campaign。
 
 * Rich 用戶端
 
@@ -63,7 +63,7 @@ Adobe Campaign 元件和全球架構如下所示。
 
 * Thin 用戶端
 
-  Adobe Campaign 網頁存取功能可讓您使用 HTML 使用者介面，透過網頁瀏覽器存取 Campaign 功能的子集。 使用此網頁介面存取報告、控制和驗證訊息、存取監控儀表板等。  [深入瞭解 Campaign 網頁存取](../start/connect.md)。
+  Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此網頁介面存取報告、控制和驗證訊息、存取監控儀表板等。  [深入瞭解 Campaign 網頁存取](../start/connect.md)。
 
 * 外部應用程式與 API
 
@@ -71,13 +71,13 @@ Adobe Campaign 元件和全球架構如下所示。
 
 ### 持續層{#persistance-layer}
 
-Campaign 資料庫用作持續層，並包含 Adobe Campaign 管理的幾乎所有資訊和資料。 這包括：功能資料，例如輪廓、訂閱、內容；技術資料，例如傳遞工作和記錄、追蹤記錄；以及工作資料 (購買、潛在客戶)。
+Campaign資料庫用作持續層，並包含Adobe Campaign所管理的幾乎所有資訊和資料。 這包括：功能資料，例如輪廓、訂閱、內容；技術資料，例如傳遞工作和記錄、追蹤記錄；以及工作資料 (購買、潛在客戶)。
 
 資料庫的可靠性至關重要，因為大部分 Adobe Campaign 元件都需要存取資料庫才能執行其工作 (重新導向模組除外)。
 
 ### 邏輯應用程式層{#logical-app-layer}
 
-Campaign 邏輯應用程式層可輕鬆設定，以符合複雜的業務需求。 您可以將 Campaign 作為單一平台使用，搭配不同的應用程式，以建立開放且可擴充的架構。 每個 Campaign 執行個體都是應用程式層中的程序集合，部分為共用，部分為專用。
+Campaign 邏輯應用程式層可輕鬆設定，以符合複雜的業務需求。 您可以將Campaign作為單一平台使用，搭配不同的應用程式，以建立開放且可擴充的架構。 每個Campaign執行個體都是應用程式層中的程式集合，部分為共用狀態，部分為專用狀態。
 
 ## Campaign Managed Cloud Services{#ac-managed-services}
 
@@ -89,7 +89,7 @@ Campaign Web 伺服器會控制 Campaign Web 程序的存取權。 JavaScript �
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign 用戶端主控台會透過 HTTP 使用 SOAP XML 連線至 Web 伺服器。 Web 伺服器提供安全性層，使用 JavaScript 將請求傳遞至應用程式層，Campaign 內部程序則使用 SQL 存取資料庫。
+Campaign 用戶端主控台會透過 HTTP 使用 SOAP XML 連線至 Web 伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，而Campaign內部程式則使用SQL存取資料庫。
 
 <!--
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
@@ -97,6 +97,6 @@ The overall communication between Campaign processes are described in the follow
 ![](assets/do-not-localize//ac-standalone.png)
 -->
 
-使用者會使用 HTTP 連線至 Campaign 應用程式伺服器。 所有資料和資訊都在 Campaign 資料庫中進行管理。 如果 Campaign 開發人員執行任何設定變更，則會擷取到資料庫中。 如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。 行銷人員執行行銷活動時，會透過 SMTP 伺服器將電子郵件傳遞從 Campaign 伺服器傳送至輪廓。 當輪廓與電子郵件傳遞互動時 (例如打開電子郵件)，追蹤資料會傳回至追蹤伺服器。
+使用者使用HTTP連線至Campaign應用程式伺服器。 所有資料和資訊都在 Campaign 資料庫中進行管理。 如果 Campaign 開發人員執行任何設定變更，則會擷取到資料庫中。 如果行銷人員建立新行銷活動，與此新行銷活動相關的所有資訊和資料也將在資料庫中進行管理。 行銷人員執行行銷活動時，會透過 SMTP 伺服器將電子郵件傳遞從 Campaign 伺服器傳送至輪廓。 當輪廓與電子郵件傳遞互動時 (例如打開電子郵件)，追蹤資料會傳回至追蹤伺服器。
 
 [深入瞭解 Campaign 程序](../architecture/general-architecture.md#dev-env)。

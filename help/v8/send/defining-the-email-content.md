@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 2%
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 ## 定義互動式內容 {#amp-for-email-format}
 
-Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/about/email/)格式，在特定條件下傳送動態電子郵件。
+Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/about/email/)格式，讓您在特定條件下傳送動態電子郵件。
 
 如需詳細資訊，請參閱[本節](defining-interactive-content.md)。
 

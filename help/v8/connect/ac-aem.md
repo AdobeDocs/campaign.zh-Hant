@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_authoring_3.png)
 
-1. 透過新增元件來自訂您的電子郵件內容，例如Adobe Campaign的個人化欄位。進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant#editing-email-content){target="_blank"}。
+1. 透過新增元件來自訂您的電子郵件內容，例如來自Adobe Campaign的個人化欄位。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant#editing-email-content){target="_blank"}。
 
 1. 電子郵件準備就緒後，請瀏覽至&#x200B;**[!UICONTROL Page information]**&#x200B;功能表並按一下&#x200B;**[!UICONTROL Start workflow]**。
 
@@ -126,7 +126,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_assets_1.png)
 
-1. 按一下&#x200B;**「建立」**，然後按&#x200B;**「檔案」**，將您的資產匯入至&#x200B;**Adobe Experience Manager Assets資料庫**。 在[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=zh-Hant#uploading-assets){target="_blank"}中進一步瞭解。
+1. 按一下&#x200B;**「建立」**，然後按&#x200B;**「檔案」**，將您的資產匯入至&#x200B;**Adobe Experience Manager Assets資料庫**。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=zh-Hant#uploading-assets){target="_blank"}。
 
    ![](assets/aem_assets_2.png)
 
@@ -140,7 +140,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_assets_3.png)
 
-1. 選取&#x200B;**傳遞範本**，然後為您的傳遞命名。
+1. Select **傳遞範本**，然後為您的傳遞命名。
 
 1. 定義及個人化訊息內容。 [了解更多](../send/email.md)
 
@@ -154,7 +154,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![](assets/aem_assets_4.png)
 
-1. 從選取視窗中，從&#x200B;**Adobe Experience Manager Assets資料庫**&#x200B;選取影像，然後選取&#x200B;**選取**。
+1. 從選取視窗中，選取您&#x200B;**Adobe Experience Manager Assets資料庫**&#x200B;的影像，然後選取&#x200B;**Select**。
 
    ![](assets/aem_assets_5.png)
 

@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1364'
 ht-degree: 4%
 ---
 # 隔離 {#quarantine-management}
@@ -48,7 +48,7 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 
 隔離收件者的地址或電話號碼時，會在傳遞分析期間將收件者從目標中排除：您將無法傳送行銷訊息（包括自動化工作流程電子郵件）給這些連絡人。 如果這些隔離地址也出現在清單中，那麼在傳送給這些清單時將排除這些地址。 舉例來說，信箱已滿、地址不存在或電子郵件伺服器無法使用時，可以隔離電子郵件地址。
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+<!--For more on best practices to secure and optimize your deliveries, refer to [this page](../start/delivery-best-practices.md).-->
 
 ## 隔離與封鎖清單
 
@@ -58,7 +58,7 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 >
 >當收件者將您的訊息回報為垃圾訊息，或使用「STOP」等關鍵字回覆簡訊時，其地址或電話號碼將被隔離為&#x200B;**[!UICONTROL Denylisted]**。 他們的設定檔會據此更新。
 
-另一方面，對於指定頻道，**設定檔**&#x200B;可以在取消訂閱（選擇退出）後位於&#x200B;**封鎖清單**&#x200B;上：這表示它們不再成為任何傳送的目標。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
+另一方面，針對指定頻道，**設定檔**&#x200B;可以在取消訂閱（選擇退出）後位於&#x200B;**封鎖清單**&#x200B;上：這表示它們不再為任何傳送所定位。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
@@ -68,9 +68,9 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 
 ## 電子郵件、電話或裝置為何要傳送到隔離區 {#quarantine-reason}
 
-Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面[&#128279;](delivery-failures.md)上進一步瞭解傳遞失敗管理。
+Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些是在錯誤訊息限定期間指派。 在此頁面[&#128279;](delivery-failures.md)上進一步瞭解傳遞失敗管理。
 
-可擷取兩種型別或錯誤：
+可擷取兩種型別的錯誤：
 
 * **硬錯誤**：會立即將電子郵件地址、電話號碼或裝置傳送到隔離區。
 * **軟錯誤**：軟錯誤會增加錯誤計數器，並可能隔離電子郵件、電話號碼或裝置權杖。 Campaign執行[重試](delivery-failures.md#retries)：當錯誤計數器達到限制臨界值時，將會隔離地址、電話號碼或裝置Token。 [了解更多資訊](delivery-failures.md#retries)。
@@ -78,7 +78,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 在隔離地址清單中，**[!UICONTROL Error reason]**&#x200B;欄位會指出所選地址被置於隔離狀態的原因。 [了解更多資訊](#non-deliverable-bounces)。
 
 
-如果使用者將電子郵件歸類為垃圾訊息，該訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中的意見回圈。
+如果使用者將電子郵件歸類為垃圾訊息，則訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中的意見回圈。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 ### 傳送的隔離{#delivery-quarantines}
 
-隔離地址會列在傳送準備階段期間，並列在傳送控制面板的傳送記錄中。
+在傳送準備階段期間，隔離的地址會列在傳送控制面板的傳送記錄檔中。
 
 對於每個傳遞，您也可以檢查&#x200B;**[!UICONTROL Delivery summary]**&#x200B;報告：它顯示傳遞目標中隔離的地址數量，並顯示：
 

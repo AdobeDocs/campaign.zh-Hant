@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 0%
 ---
 # 開始使用異動訊息{#send-transactional-messages}
@@ -98,4 +98,4 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 >
 >深入瞭解[分項清單](../config/enumerations.md)。
 
-在下一個步驟中，瞭解如何[建立和發佈異動訊息的範本](transactional-template.md)。
+接下來，瞭解如何[建立並發佈異動訊息的範本](transactional-template.md)。

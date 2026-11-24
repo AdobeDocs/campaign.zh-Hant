@@ -26,12 +26,12 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 7%
 ---
-# 選取SMS傳送的對象 {#sms-audience}
+# Select SMS傳送的對象 {#sms-audience}
 
 在選取您的對象之前，[在此瞭解更多有關對象的資訊](../../audiences/gs-audiences.md)。
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 
    ![](assets/audience_to.png){zoomable="yes"}
 
-1. 在下拉式清單中選取&#x200B;**[!UICONTROL Target mapping]**。 Adobe Campaign預設目標對應是收件者，根據&#x200B;**[!UICONTROL nms:recipient]**&#x200B;結構描述。
+1. Select下拉式清單中的&#x200B;**[!UICONTROL Target mapping]**。 Adobe Campaign預設目標對應是收件者，根據&#x200B;**[!UICONTROL nms:recipient]**&#x200B;結構描述。
 
    有其他目標對應可供使用，其中一些可能與您的特定設定相關。 如需目標對應的詳細資訊，請參閱[使用目標對應](../../audiences/target-mappings.md)。
 
@@ -76,11 +76,11 @@ ht-degree: 7%
 
    ![](assets/audience_finish.png){zoomable="yes"}
 
-   您可以視需要新增目標母體，只要再按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕即可。 您也可以按一下標籤後方的十字以刪除部分標籤。
+   您可以按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，視需要新增目標母體。 您也可以按一下標籤後方的十字以刪除部分標籤。
 
 ## 外部檔案中的對象 {#external-audience}
 
-您可以使用Adobe Campaign傳送不在資料庫中，但位於外部檔案中的傳送給對象。
+您可以使用Adobe Campaign，針對不在資料庫中、但位於外部檔案的對象傳送傳遞。
 
 以下是此專案的步驟：
 

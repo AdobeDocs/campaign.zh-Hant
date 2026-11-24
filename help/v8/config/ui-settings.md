@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 20%
@@ -145,7 +145,7 @@ ht-degree: 20%
 1. 按一下&#x200B;**[!UICONTROL Advanced settings]**，然後在&#x200B;**[!UICONTROL Configuration]**&#x200B;欄位中指定名稱。
 1. 按一下&#x200B;**[!UICONTROL OK]**，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-然後，您可以將此設定套用至相同型別的任何其他資料夾。 在[此頁面](../audiences/folders-and-views.md)中進一步瞭解資料夾。
+然後，您可以將此設定套用至相同型別的另一個資料夾。 在[此頁面](../audiences/folders-and-views.md)中進一步瞭解資料夾。
 
 ### 匯出清單 {#exporting-a-list}
 

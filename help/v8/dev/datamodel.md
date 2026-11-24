@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 ---
 # 開始使用 Campaign 資料模型 {#gs-ac-datamodel}
@@ -47,7 +47,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 * **收件者資料表**：資料模型依賴的主要資料表，預設為收件者資料表(**nmsRecipient**)。 此表格會儲存所有行銷設定檔。 在[本節](#ootb-profiles)中進一步瞭解收件者資料表。
 
-* **傳遞資料表**：此資料表會針對每個傳遞動作儲存一個記錄。 通常是傳遞表格(**NmsDelivery**)。 此表格中的專案代表傳遞動作或傳遞範本。 它包含執行傳遞所需的所有引數，例如目標、內容等。每個記錄都會更新數次，以反映傳遞進度
+* **傳遞資料表**：此資料表會針對每個傳遞動作儲存一個記錄。 通常是傳遞表格(**NmsDelivery**)。 此表格中的記錄代表傳遞動作或傳遞範本。 它包含執行傳遞所需的所有引數，例如目標、內容等。每個記錄都會更新數次，以反映傳遞進度
 
 * **記錄表**：這些表會儲存與行銷活動執行相關的所有記錄。
 
@@ -81,7 +81,7 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 * 開箱即用且具有訂閱、種子清單等關鍵功能
 * 提供具有收件者導向資料模型的行銷資料庫
 * 更快速的實作
-* 由支援和合作夥伴輕鬆維護
+* 支援和合作夥伴可輕鬆進行維護
 
 您可以擴充收件者表格，但無法減少表格中的欄位或連結數量。
 

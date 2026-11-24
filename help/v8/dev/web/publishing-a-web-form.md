@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 1%
@@ -203,7 +203,7 @@ ht-degree: 1%
 
   * 如果新執行個體上已存在網頁表單，則會以新版本的表單取代，且會採用&#x200B;**[!UICONTROL Pending publication]**&#x200B;狀態，即使舊版本的表單為&#x200B;**[!UICONTROL Online]**&#x200B;亦然。
 
-  * 無論表單存在與否，表單都必須是[已發佈](#publishing-a-form)，才能在新執行個體上變成&#x200B;**[!UICONTROL Online]**，並可在瀏覽器中透過網頁表單URL存取。
+  * 無論表單存在與否，表單都必須是[已發佈](#publishing-a-form)，才能在新執行個體上變成&#x200B;**[!UICONTROL Online]**，並可透過瀏覽器中的網頁表單URL存取。
 
 * 如果網頁表單在匯出時的狀態為&#x200B;**[!UICONTROL Being edited]**：
 

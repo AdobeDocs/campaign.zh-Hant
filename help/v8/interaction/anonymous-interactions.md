@@ -22,9 +22,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 ---
 # 匿名互動 {#anonymous-interactions}
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 匿名訪客在連線時，可能會提交至Cookie識別程式。 此隱含辨識是以訪客的瀏覽器記錄為基礎。
 
-在此步驟中，會比較Cookie復原的資料與資料庫中的資料。 在某些情況下，訪客會被識別（然後會以隱含方式識別），而在其他情況下，訪客不會被識別（因此會維持匿名）。
+在此步驟中，會比較Cookie復原的資料與資料庫中的資料。 在某些情況下，訪客會被識別（然後以隱含方式識別），而在其他情況下，訪客則無法識別（因此會維持匿名）。
 
 若要執行此分析，請核取優惠方案空間的&#x200B;**[!UICONTROL Implicitly identify the individual based on their browser history]**&#x200B;選項。
 

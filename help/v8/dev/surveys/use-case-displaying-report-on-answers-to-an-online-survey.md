@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
    ![](assets/reporting_usecase_1_01.png)
 
-1. 選取要擷取的欄（在此案例中為： select：所有已封存欄位）。 這些欄位包含答案。
+1. Select要擷取的欄（在此情況下，請選取所有已封存欄位）。 這些欄位包含答案。
 
    ![](assets/reporting_usecase_1_02.png)
 

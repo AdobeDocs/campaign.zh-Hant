@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '11502'
 ht-degree: 12%
@@ -175,7 +175,7 @@ Campaign提供多種鎖定目標方法，讓您為訊息選取正確的對象：
 
 +++
 
-+++ 哪些系統和元件與 Campaign v8 相容？
++++ 哪些系統和元件與Campaign v8相容？
 
 在 [Adobe Campaign 相容性矩陣](compatibility-matrix.md)中，您可以取得 Campaign 最新建立支援的所有系統和組件清單。
 
@@ -220,7 +220,7 @@ Campaign v8明顯改善了效能，但與Campaign Classic v7在架構上有一�
 
 無法從現有 Campaign Classic V7 環境進行自動移轉。
 
-Campaign v8 目前&#x200B;**僅**&#x200B;以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。
+Campaign v8僅&#x200B;**可用**&#x200B;作為Managed Cloud Service，並且無法在內部部署或混合環境中部署。
 
 如需移轉流程的詳細資訊，請洽詢您的 Adobe 代表。
 
@@ -1852,7 +1852,7 @@ Campaign的稽核軌跡會記錄刪除事件和新設定檔建立，以展示合
 
 透過官方的Adobe培訓和認證計畫提升您的技能。
 
-* **[Experience League說明](https://experienceleague.adobe.com/zh-hant/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8的說明資源（Web UI和CLient主控台）
+* **[Experience League說明](https://experienceleague.adobe.com/zh-hant/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8的說明資源（網頁使用者介面和使用者端主控台）
 * **[Adobe數位學習服務](https://learning.adobe.com/){target="_blank"}** — 官方講師授課和自訂進度課程
 * **[Adobe Campaign認證](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=zh-Hant){target="_blank"}** — 以專業認證驗證您的專業知識
 * **[Experience League學習路徑](https://experienceleague.adobe.com/zh-hant?lang=en#dashboard/learning){target="_blank"}** — 引導式學習歷程

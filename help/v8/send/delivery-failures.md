@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3476'
 ht-degree: 6%
 ---
 # 瞭解傳遞失敗 {#delivery-failures}
@@ -141,7 +141,7 @@ Bounce mails can have the following qualification status:
 
 ## 重試管理 {#retries}
 
-如果訊息傳遞因暫時錯誤（**Soft**&#x200B;或&#x200B;**Ignored**）而失敗，Campaign會重試傳送。 可以執行這些重試，直到傳送持續時間結束。
+如果訊息傳遞因暫時錯誤（**Soft**&#x200B;或&#x200B;**Ignored**）而失敗，Campaign會重試傳送。 可以執行這些重試，直到傳送期間結束。
 
 軟退信重試次數和兩次之間的時間長度由MTA根據從訊息的電子郵件網域傳回的退信回應的型別和嚴重性決定。
 
@@ -258,7 +258,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">行銷活動管理</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
+   <td> 該位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">行銷活動管理</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不符合產品建議條件 </td> 

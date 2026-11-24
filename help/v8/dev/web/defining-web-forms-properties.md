@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 ![](assets/logo_pagelayout.png)
 
-您可以在這裡變更標誌影像的路徑：
+您可以在此變更標誌影像的路徑：
 
 ![](assets/logo_path.png)
 

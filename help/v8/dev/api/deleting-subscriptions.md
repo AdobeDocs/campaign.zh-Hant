@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -109,7 +109,7 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需的服務及其訂閱URL。
-1. 對訂閱URL執行GET要求，以擷取所有設定檔訂閱。
+1. 對訂閱URL執行GET要求以擷取所有設定檔訂閱。
 1. 在所需的設定檔訂閱URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。

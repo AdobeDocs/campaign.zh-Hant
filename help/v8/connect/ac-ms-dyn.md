@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1432'
 ht-degree: 2%
 ---
 # 合作使用Campaign與Microsoft Dynamics 365{#crm-ms-dynamics}
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 ### 產生Microsoft Dynamics憑證金鑰識別碼和金鑰ID {#config-certificate-key-id}
 
-若要取得&#x200B;**憑證金鑰識別碼(customKeyIdentifier)**&#x200B;和&#x200B;**金鑰識別碼(keyId)**，您必須上傳憑證。 在請求Token時，憑證可用作秘密以證明應用程式的身分。 也可以稱為公開金鑰。
+若要取得&#x200B;**憑證金鑰識別碼(customKeyIdentifier)**&#x200B;和&#x200B;**金鑰識別碼(keyId)**，您必須上傳憑證。 在請求Token時，憑證可用作秘密以證明應用程式的身分。 它們也可以稱為公開金鑰。
 
 請遵循以下步驟：
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 **步驟1**：在azure active directory上建立非互動式使用者
 
 1. 按一下&#x200B;**Azure Active Directory >使用者**，然後按一下&#x200B;**新增使用者**。
-1. 提供您想要使用的適當名稱，且使用者名稱應為電子郵件格式。
+1. 提供您要使用的適當名稱，且使用者名稱應為電子郵件格式。
 1. 在&#x200B;**目錄角色**&#x200B;中選擇&#x200B;**Dynamics 365系統管理員**。
 
 **步驟2**：將適當的授權指派給已建立的使用者

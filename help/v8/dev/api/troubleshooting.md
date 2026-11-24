@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O Console僅供企業帳戶的選取成員使用。 如果您認為您應該擁有存取權，請聯絡您的系統管理員。&quot;**
 
-您只能為您所管理的組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，並且想要詢問組織的管理員之一。
+您只能為您所管理的組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，並想要詢問組織的其中一個管理員。
 
 * **向Adobe.io發出請求時，您會收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
 
 這表示您特定Campaign產品的IMS布建發生問題：IMS團隊需要加以修正。
 
-若要取得詳細資訊，您可以使用權杖呼叫IMS API，以檢視您的IMS設定檔看起來是什麼樣子：您需要使用prodCtx，其中organization_id與您放入Adobe.io URL中的相同，才能路由您的請求。
+若要取得詳細資訊，您可以使用權杖呼叫IMS API，以檢視您的IMS設定檔看起來是什麼樣子：您需要使用一個prodCtx，其organization_id與您在URL中放入Adobe.io的相同，才能路由您的請求。
 如果缺少，則需要修正IMS布建。
 
 ```

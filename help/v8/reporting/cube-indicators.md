@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 3%
 ---
 # 建立多維度資料集{#create-a-cube}
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ## 建立多維度資料集{#cube-create}
 
-開始建立立方結構報表之前，請先識別相關的維度和計量，然後在立方結構中建立它們。
+在建立立方結構報表之前，請先識別相關的維度和計量，並在立方結構中建立它們。
 
 若要建立立方結構，請套用下列步驟：
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
    ![](assets/create-a-cube.png)
 
-1. 選取包含您要探索之元素的結構描述（也稱為「事實結構描述」）。 在此範例中，選取預設的&#x200B;**收件者**&#x200B;資料表。
+1. Select包含您要探索之元素（也稱為「事實結構描述」）的結構描述。 在此範例中，選取預設的&#x200B;**收件者**&#x200B;資料表。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立多維資料庫：已新增至多維資料庫清單。 您現在可以使用標籤進行設定。
 
 1. 按一下&#x200B;**[!UICONTROL Filter the source data...]**&#x200B;連結，將此Cube的計算套用至資料庫中的資料。

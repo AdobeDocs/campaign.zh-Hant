@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 1%
 ---
 # 自訂您的執行個體 {#gs-ac-custom}
@@ -103,6 +103,6 @@ Adobe Campaign介面使用許多網頁應用程式來存取、管理收件者、
 
 瞭解如何在[此頁面](../start/campaign-ui.md)中設定清單並儲存清單設定。
 
-您可以對這些清單套用篩選，以僅顯示運運算元所需的資料。 接著，您就可以針對篩選的資料執行動作。 篩選器設定可讓您從清單中動態選取資料。 如果修改資料，則會更新篩選的資料。
+您可以套用篩選器至這些清單，以僅顯示運運算元所需的資料。 接著，您就可以針對篩選的資料執行動作。 篩選器設定可讓您從清單中動態選取資料。 如果修改資料，則會更新篩選的資料。
 
 在[此頁面](../audiences/create-filters.md)中進一步瞭解篩選選項。

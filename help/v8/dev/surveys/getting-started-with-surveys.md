@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 1%
 ---
 # 建立調查的關鍵步驟{#getting-started-with-surveys}
@@ -109,7 +109,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  輸入問題的標籤，並將答案欄位插入為問題的子分支。 要執行此操作，當您建立答案欄位時，必須選取連結到問題的節點。 使用&#x200B;**[!UICONTROL Selection controls]**&#x200B;圖示或按一下右鍵新增&#x200B;**[!UICONTROL drop-down listx]**，如下所示：
+  輸入問題的標籤，並將答案欄位插入為問題的子分支。 要執行此操作，當您建立答案欄位時，必須選取連結到問題的節點。 使用&#x200B;**[!UICONTROL Selection controls]**&#x200B;圖示或按一下右鍵新增&#x200B;**[!UICONTROL drop-down list]**，如下所示：
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 

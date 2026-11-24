@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -105,7 +105,7 @@ ht-degree: 8%
 
      在[本節](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
-1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至BBC地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
+1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
 
 1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 
