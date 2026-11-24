@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
+source-git-commit: 87e9b7ceb3c082407ac4534e0909c6f7db76e62a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '811'
 ht-degree: 15%
 ---
 # 內建套件 {#built-in-packages}
@@ -43,7 +43,6 @@ Campaign使用兩種套件。 請確定您使用正確的伺服器。
 |---|---|---|
 | 用途 | 提供Campaign功能，例如管道、整合和附加元件。 | 匯出並匯入您自己的設定和資料，例如從測試環境匯入生產環境。 |
 | 誰管理這些資產 | Adobe會安裝並管理這些程式。 若使用受管理的Cloud Services，您無法修改已安裝的內建套件。 | 您可以建立、匯出和匯入它們。 |
-| 何處瞭解更多 | 此頁面。 | [使用資料套件](../dev/packages.md) |
 
 ## 檢查已安裝的套件 {#check-installed-packages}
 
