@@ -55,7 +55,7 @@ ht-degree: 3%
 您可以從JavaScript程式碼、個人化和查詢中讀取和寫入選項值。
 
 * **JavaScript程式碼**，例如JavaScript程式碼工作流程活動： `getOption('OptionName')`會傳回選項的值，且`setOption('OptionName', value, 'description')`會加以設定。 例如，`getOption('IMS_ORG_ID')`。 深入瞭解[getOption](../../campaign-api/f-getoption.md)和[setOption](../../campaign-api/f-setoption.md)。
-* **傳遞個人化**： `<%@ include option='OptionName' %>`插入選項的值。 例如，`<%@ include option='NmsServer_URL' %>`在LINE訊息的網頁應用程式連結中包含伺服器URL。 透過Adobe Campaign](../send/line/line.md)在[傳送直接LINE訊息中瞭解更多。
+* **傳遞個人化**： `<%@ include option='OptionName' %>`插入選項的值。 例如，`<%@ include option='NmsServer_URL' %>`在LINE訊息的網頁應用程式連結中包含伺服器URL。 透過Adobe Campaign[&#128279;](../send/line/line.md)在傳送直接LINE訊息中瞭解更多。
 * **查詢編輯器**：在&#x200B;**值**&#x200B;欄位中輸入`$(options:OPTION_NAME)`以使用選項的值。 深入瞭解[設計查詢](../start/design-queries.md)。
 
 ## 可用選項 {#available-options}
@@ -122,7 +122,7 @@ ht-degree: 3%
 
 ### 軟錯誤和隔離 {#error-options}
 
-這些選項會定義在軟錯誤（即暫時性傳送失敗）後將收件者置於隔離狀態的時間。 深入瞭解Campaign](../send/quarantines.md#soft-error-management)的[隔離管理，以及Campaign](../send/delivery-failures.md#retries)的[傳遞失敗。
+這些選項會定義在軟錯誤（即暫時性傳送失敗）後將收件者置於隔離狀態的時間。 深入瞭解Campaign[&#128279;](../send/quarantines.md#soft-error-management)的[隔離管理，以及Campaign](../send/delivery-failures.md#retries)的傳遞失敗。
 
 | 選項 | 說明 |
 |---|---|
