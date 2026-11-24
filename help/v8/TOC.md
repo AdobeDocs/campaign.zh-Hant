@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8 產品文件 (用戶端主控台)。
 title: Adobe Campaign v8 文件
 description: Campaign v8 文件
 breadcrumb-title: Campaign v8 文件
-source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+source-git-commit: 2da6239843538ec459e7d3dfe0514a56e4a941be
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1102'
 ht-degree: 86%
 ---
 
@@ -271,6 +271,7 @@ ht-degree: 86%
   + [全域原則](architecture/general-architecture.md)
   + [架構模型](architecture/architecture.md)
   + {hide-from-toc}[內建套件](architecture/built-in-packages.md)
+  + {hide-from-toc}[行銷活動選項](architecture/campaign-options.md)
   + [Campaign FDA 部署](architecture/fda-deployment.md)
   + 企業 (FFDA) 部署 {#ffda}
     + [什麼是 Campaign FFDA？](architecture/enterprise-deployment.md)
@@ -307,7 +308,7 @@ ht-degree: 86%
     + [輸入表單](dev/forms.md)
   + [使用資料套件](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[使用queryDef查詢資料庫](dev/query-api.md)
+  + {hide-from-toc}[使用queryDef](dev/query-api.md)查詢資料庫
   + REST API {#apis}
     + [開始使用REST API](dev/api/get-started-apis.md)
     + [建議與限制](dev/api/limitations.md)
