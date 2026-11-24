@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 48%
+source-wordcount: '476'
+ht-degree: 37%
 ---
 # 開始使用個人化 {#personalize-content}
 
-為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂內容，告訴客戶其層級的資訊。 根據設定檔資料、建立不同群組與個人自訂體驗的個人化功能：您可以運用您擁有的關於特定收件者的資料和資訊，根據每位收件者調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
+為了充分運用每一次行銷活動，Adobe Campaign可讓您提供自訂內容，告訴客戶其層級的資訊。 根據設定檔資料，個人化功能可讓您建立不同群組和個人的自訂體驗：您可以運用您擁有的關於特定收件者的資料和資訊，根據他們來調整訊息。 這可以是他們的名字、興趣、居住地、購買內容等等。
 
 Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-templates.md)，顯示針對每個收件者自訂的不同內容型別。 在您的交易式訊息（例如購買確認或購物車放棄電子郵件）中，在單一電子郵件範本中包含每個人的產品清單資訊。
 
@@ -50,11 +50,11 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 * 插入預先定義的&#x200B;**內容區塊**
 
-  Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。 內容區塊可從個人化編輯器的專屬項目取得。 [了解更多資訊](personalization-blocks.md)。
+  Campaign 會隨附一組個人化區塊，其中包含您可以插入到傳遞中的特定呈現。 例如，您可以新增標誌、問候訊息或訊息鏡像頁面的連結。 個人化編輯器中的專用專案可使用內容區塊。 [了解更多資訊](personalization-blocks.md)。
 
-* 建立&#x200B;**條件式內容**
+* 正在建立&#x200B;**條件式內容**
 
-  例如，設定條件式內容以根據收件者的輪廓新增動態個人化。 特定條件為真時，即可插入文字區塊及/或影像。 [了解更多資訊](conditions.md)。
+  設定條件式內容，以根據收件者的設定檔新增動態個人化，例如。 特定條件為真時，即可插入文字區塊及/或影像。 [了解更多資訊](conditions.md)。
 
 <!--
 * Add **personalized offers**
@@ -85,7 +85,7 @@ Adobe Campaign簡化了個人化：您可以使用單一[訊息範本](create-te
 
 ## 教學課程影片 {#personalization-video}
 
-瞭解不同類型的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
+瞭解不同型別的動態內容，並瞭解如何建立個人化區塊和條件陳述式並套用至傳遞。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452879?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

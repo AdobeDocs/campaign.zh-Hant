@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1198'
 ht-degree: 4%
 ---
 # 建立LINE傳遞
 
 LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。 您可以使用Adobe Campaign傳送LINE訊息。
 
-[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
+[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
 
 ![](assets/line_message.png)
 
@@ -55,7 +55,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 ## 設定LINE頻道 {#setting-up-line-channel}
 
-在建立[!DNL LINE]帳戶和外部帳戶之前，需要在您的執行個體上安裝LINE套件。 請聯絡您的Adobe代表。
+在建立[!DNL LINE]帳戶和外部帳戶之前，您必須在執行個體上安裝LINE套件。 請聯絡您的Adobe代表。
 
 您必須先建立[!DNL LINE]帳戶，才能將其連結至Adobe Campaign。 接著，您可以傳送[!DNL LINE]訊息給在行動應用程式中新增您的[!DNL LINE]帳戶的使用者。 外部帳戶和[!DNL LINE]帳戶只能由平台的功能管理員管理。
 
@@ -73,7 +73,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 新增&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**&#x200B;至您的新服務。
 
-1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL LINE]**。
+1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中的Select **[!UICONTROL LINE]**。
 
    ![](assets/line_service_2.png)
 
@@ -87,7 +87,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]**&#x200B;樹狀結構中，按一下&#x200B;**[!UICONTROL External Accounts]**&#x200B;索引標籤。
 
-1. 選取內建&#x200B;**[!UICONTROL LINE V2 routing]**&#x200B;外部帳戶。
+1. Select內建&#x200B;**[!UICONTROL LINE V2 routing]**&#x200B;外部帳戶。
 
    ![](assets/line_config.png)
 
@@ -120,7 +120,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
    ![](assets/line_message_07.png)
 
-1. 選取&#x200B;**[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本。
+1. Select **[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本。
 
    ![](assets/line_message_01.png)
 
@@ -140,11 +140,11 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 選擇您要直接鎖定[!DNL LINE]位訂閱者，或根據其[!DNL LINE]訂閱鎖定使用者，然後按一下&#x200B;**[!UICONTROL Next]**。 在此範例中，我們選取&#x200B;**[!UICONTROL By LINE V2 subscription]**。
 
-1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Line-V2]**，然後選取您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
+1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;下拉式清單中的Select **[!UICONTROL Line-V2]**，然後是您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
 
    ![](assets/line_message_10.png)
 
-1. 從您的傳遞編輯器中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以新增一或多個訊息並選取&#x200B;**[!UICONTROL Content type]**。
+1. 從您的傳遞編輯器中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以新增一或多個訊息，並選取&#x200B;**[!UICONTROL Content type]**。
 
    如需其他可用&#x200B;**[!UICONTROL Content type]**&#x200B;的詳細資訊，請參閱[定義內容型別](#defining-the-content)。
 
@@ -254,7 +254,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
    ![](assets/line_usecase.png)
 
-1. 選取&#x200B;**[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本並命名您的傳遞。
+1. Select **[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本並命名您的傳遞。
 
    ![](assets/line_usecase_01.png)
 

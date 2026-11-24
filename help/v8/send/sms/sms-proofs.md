@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 1%
 ---
 # 傳送簡訊傳遞的證明 {#sms-proof}
@@ -45,7 +45,7 @@ Adobe強烈建議您設定傳遞驗證週期。 將內容傳送給對象之前�
 
    * **[!UICONTROL Definition of a specific proof target]**：可讓您以篩選條件查詢資料庫中作為證明目標的地址
    * **[!UICONTROL Substitution of the address]**：可讓您輸入測試地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的[分項清單](../../config/enumerations.md)是&#x200B;**[!UICONTROL Substitution address (rcpAddress)]**。
-     預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+     預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
    * **[!UICONTROL Seed addresses]**：可讓您存取種子地址以作為證明目標。 這些位址可從檔案匯入或手動輸入。
    * **[!UICONTROL Specific target and Seed addresses]**：可讓您合併來自收件者的種子地址和地址。
 

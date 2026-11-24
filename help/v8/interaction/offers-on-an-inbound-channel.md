@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2144'
 ht-degree: 1%
 ---
 # 傳入頻道上的產品建議{#offers-on-an-inbound-channel}
@@ -47,7 +47,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
 ### 建立匿名環境 {#creating-an-anonymous-environment}
 
-請依照[建立優惠方案環境](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）中詳述的程式，根據&#x200B;**訪客**&#39;維度建立您的匿名環境。
+請依照[建立優惠方案環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）中詳述的程式，根據&#x200B;**訪客**&#39;維度建立您的匿名環境。
 
 您會獲得包含新環境的樹狀結構：
 
@@ -68,7 +68,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
    ![](assets/offer_inbound_anonymous_example_006.png)
 
-1. 選取用於空間的選件內容欄位，並核取相關方塊，視需要指定這些欄位。
+1. Select用於空間的選件內容欄位，並視需要核取相關方塊來指定。
 
    如此一來，遺失下列其中一項元素的任何優惠方案都將不符合此空間的資格：
 
@@ -147,7 +147,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
 ### 設定網站上的Web優惠方案空間 {#configure-the-web-offer-space-on-the-website}
 
-若要將您剛設定的優惠方案顯示在網站上，請將JavaScript程式碼插入網站的HTML頁面，以呼叫互動引擎(如需詳細資訊，請參閱[關於傳入頻道](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8檔案）。
+若要將您剛設定的優惠方案顯示在網站上，請將JavaScript程式碼插入網站的HTML頁面，以呼叫互動引擎(如需詳細資訊，請參閱[關於傳入頻道](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8檔案）。
 
 1. 前往HTML頁面，插入一個值符合先前建立之匿名優惠方案空間內部名稱的@id屬性（請參閱[建立匿名優惠方案空間](#creating-anonymous-offer-spaces)），前面加上&#x200B;**i_**。
 
@@ -211,7 +211,7 @@ Neobank公司想要針對兩個不同的目標建立行銷優惠方案。 想要
 
 ### 建立匿名連絡人的環境 {#creating-an-environment-for-anonymous-contacts}
 
-1. 透過傳遞對應助理（**訪客**&#x200B;對應），為匿名傳入互動建立優惠方案環境。 如需詳細資訊，請參閱[建立優惠方案環境](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）。
+1. 透過傳遞對應助理（**訪客**&#x200B;對應），為匿名傳入互動建立優惠方案環境。 如需詳細資訊，請參閱[建立優惠方案環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）。
 
    ![](assets/offer_env_anonymous_003.png)
 
@@ -340,7 +340,7 @@ Neobank公司想要針對兩個不同的目標建立行銷優惠方案。 想要
 我們將建立兩個個別的類別： **最佳優惠**&#x200B;類別和&#x200B;**合作夥伴**&#x200B;類別，每個類別都有兩個個人化優惠。
 
 1. 前往已識別環境中的&#x200B;**[!UICONTROL Offer catalogs]**&#x200B;節點。
-1. 如同匿名環境，新增兩個具有&#x200B;**最佳選件**&#x200B;和&#x200B;**合作夥伴**&#x200B;的&#x200B;**[!UICONTROL Offer category]**&#x200B;資料夾作為標籤。
+1. 如同在匿名環境中，新增兩個&#x200B;**[!UICONTROL Offer category]**&#x200B;資料夾（含&#x200B;**最佳選件**&#x200B;和&#x200B;**合作夥伴**）做為標籤。
 
    ![](assets/offer_inbound_fallback_example_009.png)
 

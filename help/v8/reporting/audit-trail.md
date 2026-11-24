@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 2%
 ---
 # 稽核軌跡{#audit-trail}
@@ -50,7 +50,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 * **結構描述稽核軌跡**：可讓您探索對結構描述所做的變更，以及識別進行這些修改的人和發生時間。
 
-  如需結構描述的詳細資訊，請參閱[頁面](../dev/schemas.md)。
+  如需結構描述的詳細資訊，請參閱此[頁面](../dev/schemas.md)。
 
 * **工作流程稽核軌跡**&#x200B;會追蹤與工作流程相關的所有動作，包括：
 
@@ -69,7 +69,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 * **選項稽核軌跡**&#x200B;可讓您檢查活動和對選項進行的最後修改。
 
-  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **傳遞稽核軌跡**&#x200B;可讓您檢查活動和對傳遞進行的最後修改。
 
@@ -115,7 +115,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
    * **[!UICONTROL Type]**：工作流程、選項、傳遞或結構描述。
    * **[!UICONTROL Entity]**：活動的內部名稱。
-   * **[!UICONTROL Modified by]**：上次修改此實體之人員的使用者名稱。
+   * **[!UICONTROL Modified by]**：上次修改此實體的人員使用者名稱。
    * **[!UICONTROL Action]**：此實體上執行的最後一個動作，已建立、已修改或已刪除。
    * **[!UICONTROL Modification date]**：在此實體上執行上一個動作的日期。
 

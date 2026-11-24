@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 1%
@@ -107,9 +107,9 @@ ht-degree: 1%
   * **設計環境**：在其中建立優惠方案和/或定義型別規則的環境（將決定要呈現或不呈現給目標使用者的優惠方案的規則）。 此中也定義了要作為優惠方案目標的個人表格以及儲存所有優惠方案主張的表格。 **[!UICONTROL Design environment]**&#x200B;節點包含優惠方案空間子資料夾、預先定義的篩選器和優惠方案類別。 每個&#x200B;**[!UICONTROL Design environment]**&#x200B;都有一個對應的唯讀&#x200B;**[!UICONTROL Live environment]**，是從這個&#x200B;**[!UICONTROL Design environment]**&#x200B;產生。
   * **即時環境**：連結至&#x200B;**[!UICONTROL Design environment]**&#x200B;的環境。 它包含唯讀優惠方案，其內容和資格已透過&#x200B;**[!UICONTROL Design environment]**&#x200B;核准。 它們可顯示在網站上，或插入訊息中。
 
-* **優惠方案空間**：定義優惠方案公開位置的資料夾。 定義空格時，您可以：
+* **優惠方案空間**：定義優惠方案公開位置的資料夾。 定義空間時，您可以：
   * 選取頻道
-  * 選擇它可以在單一模式下使用（預設值：僅在批次模式下）
+  * 選擇它是否可以在單一模式下使用（預設為：僅用於批次模式）
   * 使用轉譯函式建置選件的內容
   * 指定要呈現的優惠方案
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
   >[!CAUTION]
   >
-  >優惠方案空間不是通訊頻道，而是頻道上的特定展示位置。 例如，網站上公開的選件可在相同頁面上佔據兩個空間。 在這種情況下，同一個管道有兩個空格。
+  >優惠方案空間不是通訊頻道；它會與頻道上的特定展示位置一致。 例如，網站上公開的選件可在相同頁面上佔據兩個空間。 在這種情況下，同一個管道有兩個空格。
   >
   >必須在規格中定義空格，且不得在專案期間修改。
 

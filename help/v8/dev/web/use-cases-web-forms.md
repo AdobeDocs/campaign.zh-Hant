@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # 使用實例：網路表單{#use-cases-web-forms}
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 步驟1 — 建立資訊服務 {#step-1---creating-information-services}
 
-1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
+1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. 由於此傳遞的收件者尚未確認其核准，因此他們仍位於資料庫封鎖清單中。 為了讓收件者接收此通訊，您必須根據此範本授權傳遞至封鎖清單上的目標收件者。
+1. 由於此傳遞的收件者尚未確認其核准，因此他們仍位於資料庫封鎖清單中。 為了讓收件者接收此通訊，您必須根據此範本授權傳遞，以鎖定封鎖清單上的收件者。
 
    若要這麼做，請按一下&#x200B;**[!UICONTROL Exclusions]**&#x200B;標籤。
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   前&#x200B;**[!UICONTROL Script]**&#x200B;個活動會將收件者新增至封鎖清單中，直到他們確認訂閱電子報為止。 其內容必須如下：
+   前&#x200B;**[!UICONTROL Script]**&#x200B;個活動會在封鎖清單中新增收件者，直到他們確認訂閱電子報為止。 其內容必須如下：
 
    ```
    ctx.recipient.@blackList=1
@@ -129,7 +129,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   第二個&#x200B;**[!UICONTROL Script]**&#x200B;活動會授權傳送給使用者，並訂閱電子報。 指令碼的最後兩行將可讓您將收件者從暫存資料夾轉移至另一個資料夾，並在他們確認訂閱後立即與現有設定檔進行調解。
+   第二個&#x200B;**[!UICONTROL Script]**&#x200B;活動會授權要傳送給使用者的傳送，並訂閱電子報。 指令碼的最後兩行將可讓您將收件者從暫存資料夾轉移至另一個資料夾，並在他們確認訂閱後立即與現有設定檔進行調解。
 
    ```
    ctx.recipient.@blackList=0

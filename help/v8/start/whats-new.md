@@ -62,16 +62,16 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1501'
-ht-degree: 70%
+ht-degree: 63%
 ---
 # Adobe Campaign v8 重要功能 {#ac-gs-what-is-new}
 
-Adobe Campaign v8 專為需要同級最佳雲端解決方案的跨頻道行銷人員而設計，該解決方案適用於具有企業規模的跨頻道行銷活動管理。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其編排引擎為豐富的多點觸控行銷方案提供了支援，其核心是批次型處理的驅動歷程。 它還配備了可擴充的即時傳訊伺服器，使行銷團隊能夠基於來自任何 IT 系統的包含所有內容的有效負載來傳送預先定義的訊息，用於諸如重設密碼、訂單確認、電子收據等等。
+Adobe Campaign v8 專為需要同級最佳雲端解決方案的跨頻道行銷人員而設計，該解決方案適用於具有企業規模的跨頻道行銷活動管理。 它提供強大的 ETL 和資料管理功能，有助於製作和策畫完美的促銷活動。 其編排引擎為豐富的多點觸控行銷方案提供了支援，其核心是批次型處理的驅動歷程。 它還配備了可擴充的即時傳訊伺服器，使行銷團隊能夠基於來自任何IT系統的包含所有內容的有效負載來傳送預先定義的訊息，用於諸如重設密碼、訂單確認、電子收據等等。
 
-Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視功能。 其可作為 **Managed Cloud Service** ，結合服務與主動預防性監督和即時警報。 [在本節中](#acms-desc)進一步瞭解 Campaign Managed Cloud Services。
+Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視功能。 它可作為&#x200B;**受管理的Cloud Service**&#x200B;使用，結合了服務與主動式監督和即時警報。 [在本節中](#acms-desc)進一步瞭解 Campaign Managed Cloud Services。
 
 ![](assets/home-page.png)
 
@@ -117,7 +117,7 @@ Adobe Campaign 協助您以所有頻道收集的資料為基礎，組建客戶�
 
 [進一步瞭解客戶資料管理](audiences.md)
 
-### 同類最佳的行銷活動管理 {#best-in-campaign-mgt}
+### 同級最佳的行銷活動管理 {#best-in-campaign-mgt}
 
 Adobe Campaign v8 為行銷人員提供同類最佳功能，協助您規劃、發佈並評估跨頻道行銷活動。
 
@@ -150,7 +150,7 @@ Managed Services 可讓行銷人員利用雲端基礎建設的營運規模和經
 
 >[!AVAILABILITY]
 >
->* Campaign v8 目前&#x200B;**僅** 以 Managed Cloud Service 的形式提供，不適用於內部部署或混合式環境。
+>* Campaign v8僅&#x200B;**可用**&#x200B;作為Managed Cloud Service，並且無法在內部部署或混合環境中部署。
 >
 >* 無法從現有 Campaign Classic V7 環境進行自動移轉。
 
@@ -223,7 +223,7 @@ Campaign v8受管理的Cloud Services可免除手動升級的負擔：
 
 ## 自助服務管理介面{#self-service-admin}
 
-作為產品管理員，您可以利用 **Campaign 控制面板**&#x200B;來管理設定並追蹤每個 Campaign v8 執行個體的使用情況。
+作為產品管理員，您可以透過&#x200B;**Campaign控制面板**&#x200B;管理設定並追蹤每個Campaign v8執行個體的使用情況。
 
 透過直觀的使用者介面，管理員可以監視重要資產的使用情況，執行進階任務，例如 IP 位址允許清單、SFTP 儲存監視、金鑰管理等等。 此自助服務介面為您帶來更多彈性，並幫助您：
 

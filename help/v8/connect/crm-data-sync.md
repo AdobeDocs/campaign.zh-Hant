@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Adobe Campaign與您的CRM之間的資料同步是由&#x200B;**CRM Connector**&#
 
 ![](assets/crm-remote-op.png)
 
-選取與您要設定同步的CRM相符的外部帳戶，然後選取要同步的物件：帳戶、商機、銷售機會、聯絡人等。
+Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的物件：帳戶、商機、銷售機會、聯絡人等。
 
 ![](assets/crm-remote-obj.png)
 
@@ -70,7 +70,7 @@ Adobe Campaign與您的CRM之間的資料同步是由&#x200B;**CRM Connector**&#
 ![](assets/crm-wf-import.png)
 
 1. 選取&#x200B;**[!UICONTROL Import from the CRM]**&#x200B;作業。
-1. 在&#x200B;**[!UICONTROL Remote object]**&#x200B;下拉式清單中，選取要匯入的物件。 此物件符合聯結器設定期間在Adobe Campaign中建立的其中一個表格。
+1. 在&#x200B;**[!UICONTROL Remote object]**&#x200B;下拉式清單中，選取要匯入的物件。 此物件在聯結器設定期間與Adobe Campaign中建立的其中一個表格相符。
 1. 在&#x200B;**[!UICONTROL Remote fields]**&#x200B;區段中，輸入要匯入的欄位。
 
    若要新增欄位，請按一下工具列中的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示。

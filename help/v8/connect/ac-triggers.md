@@ -27,9 +27,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 ---
 # 合作使用Campaign與Experience Cloud觸發程式
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 您可以使用Experience Cloud觸發器，透過管道在Adobe Campaign和Adobe Analytics之間連線資料。 管道會從您的網站擷取使用者的動作或觸發器。 放棄購物車就是一個觸發器例子。 在Adobe Campaign中處理觸發器，以近乎即時地傳送電子郵件。
 
-在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=zh-Hant){target="_blank"}上進一步瞭解Adobe Campaign和Experience Cloud觸發程式。
+在[本頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html){target="_blank"}上進一步瞭解Adobe Campaign和Experience Cloud觸發程式。
 
-探索如何[建立Experience Cloud觸發程式](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant){target="_blank"}，並識別、定義及監控重要的消費者行為。
+探索如何[建立Experience Cloud觸發程式](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html){target="_blank"}，並識別、定義及監控重要的消費者行為。
 

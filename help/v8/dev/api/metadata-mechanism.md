@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
   * &quot;resType&quot;：這是技術型別。
 
     如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
-    如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在&#x200B;**values**&#x200B;節點中詳細說明。
+    如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在**values**&#x200B;節點中詳細說明。
 
 * **篩選器**&#x200B;節點會傳回URL以擷取關聯的篩選器。 如需篩選的詳細資訊，請參閱[本區段](sorting.md#filtering)。
 

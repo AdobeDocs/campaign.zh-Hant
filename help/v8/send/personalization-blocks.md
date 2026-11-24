@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 17%
 ---
 # 使用個人化區塊{#personalization-blocks}
@@ -42,7 +42,7 @@ ht-degree: 17%
 若要在訊息中插入個人化區塊，請遵循下列步驟：
 
 1. 在傳遞精靈的內容編輯器中，按一下個人化圖示並選取&#x200B;**[!UICONTROL Include]**&#x200B;功能表。
-1. 從清單中選取個人化區塊，或按一下&#x200B;**[!UICONTROL Other...]**&#x200B;功能表以存取完整清單。
+1. 從清單中Select個人化區塊，或按一下&#x200B;**[!UICONTROL Other...]**&#x200B;功能表以存取完整清單。
 
    ![](assets/perso-content-block.png)
 
@@ -58,7 +58,7 @@ ht-degree: 17%
 * **[!UICONTROL Enabled by Adobe Campaign]**：插入「由Adobe Campaign啟用」標誌。
 * **[!UICONTROL Formatting function for proper nouns]**：產生&#x200B;**[!UICONTROL toSmartCase]** Javascript函式，這會將每個字的第一個字母變更為大寫。
 * **[!UICONTROL Greetings]**：插入問候語，其中包含收件者的全名，後面接著逗號。 範例：「你好 John Doe，」。
-* **[!UICONTROL Insert logo]**：插入已在執行個體設定中定義的標誌。
+* **[!UICONTROL Insert logo]**：插入在執行個體設定中定義的標誌。
 * **[!UICONTROL Link to mirror page]**：插入連結至[映象頁面](mirror-page.md)。 預設格式：「如果您無法正確檢視此訊息，請按一下此處」。
 * **[!UICONTROL Mirror page URL]**：插入映象頁面URL，讓傳送設計工具檢查連結。
 * **[!UICONTROL Offer acceptance URL in unitary mode]**：插入URL以設定選件為&#x200B;**[!UICONTROL Accepted]**。 (如果啟用互動模組，則此區塊可用)
@@ -89,7 +89,7 @@ ht-degree: 17%
    ![](assets/perso-custom-block.png)
 
    * 輸入區塊的標籤。 此標籤會顯示在個人化欄位插入視窗中。
-   * 選取&#x200B;**傳遞**&#x200B;內容型別。
+   * Select a **傳遞**&#x200B;內容型別。
    * 啟用&#x200B;**[!UICONTROL Visible in the customization menus]**&#x200B;選項，讓此區塊可從個人化欄位插入圖示存取。
    * 如有必要，請啟用&#x200B;**[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;選項，為HTML和文字電子郵件定義兩個不同的區塊。
    * 輸入內容（在HTML、文字、JavaScript等） 個人化區塊的，然後按一下&#x200B;**[!UICONTROL Save]**。
@@ -100,4 +100,4 @@ ht-degree: 17%
 
 在以下影片中瞭解如何建立動態內容區塊，以及如何使用這些區塊來個人化您的電子郵件傳送內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449017?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

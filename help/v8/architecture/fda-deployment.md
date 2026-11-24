@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 此部署模型具備下列優點：
 
 * **儲存和效能**
-您可以將歷史資料移至[!DNL Snowflake]，然後將相依性減少至Adobe Campaign ID的上限。 此架構也會減少您對PostgreSQL儲存體的相依性，並限制效能。 Campaign資料庫中儲存的資料較少，因此效能會提高，而執行維護工作的速度也會加快。
+您可以將歷史資料移至[!DNL Snowflake]，然後將相依性減少至Adobe Campaign ID的上限。 此架構也可減少您對PostgreSQL儲存的相依性，並避免效能限制。 Campaign資料庫中儲存的資料較少，因此效能會提高，而執行維護工作的速度也會加快。
 
 * **資料模型延伸與資料管理**
 您可以在[!DNL Snowflake]中建立表格，並將它們連結至Adobe Campaign，例如在保留期間使用封存的資料，或執行具有傑出效能的分段程式。

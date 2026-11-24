@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 6%
 ---
 # 檢視現有的設定檔 {#view-profiles}
@@ -66,7 +66,7 @@ ht-degree: 6%
 
 * **[!UICONTROL General]**，適用於所有一般設定檔資料。 其中特別包含姓氏、名字、電子郵件地址、電子郵件格式等。
 
-  此索引標籤也會儲存設定檔的&#x200B;**選擇退出**&#x200B;旗標：選取&#x200B;**[!UICONTROL No longer contact (by any channel)]**&#x200B;選項時，設定檔會列入封鎖清單。 例如，如果收件者按一下電子報中的取消訂閱連結，此資訊會新增至聯絡資料。 任何頻道（電子郵件、直接郵件等）不再以這類收件者為目標。 如需詳細資訊，請參閱[此頁面](../send/quarantines.md)。
+  此索引標籤也會儲存設定檔的&#x200B;**選擇退出**&#x200B;旗標：選取&#x200B;**[!UICONTROL No longer contact (by any channel)]**&#x200B;選項時，設定檔會位於封鎖清單中。 例如，如果收件者按一下電子報中的取消訂閱連結，此資訊會新增至聯絡資料。 任何頻道（電子郵件、直接郵件等）不再以這類收件者為目標。 如需詳細資訊，請參閱[此頁面](../send/quarantines.md)。
 
 * **連絡資訊**，其中包含所選設定檔的直接郵件地址。
 
@@ -92,15 +92,15 @@ ht-degree: 6%
   >
 
 
-* **訂閱**，適用於所有使用中的服務訂閱。 使用&#x200B;**歷程記錄**&#x200B;索引標籤來存取此連絡人的訂閱與取消訂閱詳細資料。
+* **訂閱**，適用於所有使用中的服務訂閱。 使用&#x200B;**History**&#x200B;索引標籤來存取此連絡人的訂閱與取消訂閱詳細資料。
 
   ![](assets/subscription-tab.png)
 
-  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
+  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。
+  在本節](../send/tracking.md)中進一步瞭解追蹤[。

@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '803'
 ht-degree: 1%
 ---
 # 使用分項清單 {#enumerations}
@@ -57,7 +57,7 @@ ht-degree: 1%
 * **Open**&#x200B;列舉允許使用者根據此列舉直接在欄位中新增值。
 * **已關閉的**&#x200B;列舉具有只能從總管的&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;資料夾修改的固定值清單。
 * 使用&#x200B;**表情符號**&#x200B;列舉來更新表情符號清單。 了解更多
-* **系統**&#x200B;列舉與系統欄位相關聯，而且帶有內部名稱。
+* **系統**&#x200B;列舉與系統欄位相關聯，並隨附內部名稱。
 
 對於&#x200B;**開啟**&#x200B;和&#x200B;**關閉**&#x200B;列舉，可以使用特定選項：
 

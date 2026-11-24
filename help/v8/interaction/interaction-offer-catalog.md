@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 若要建立新類別，請遵循下列步驟：
 
-1. 瀏覽器至&#x200B;**[!UICONTROL Offer catalog]**&#x200B;資料夾。
+1. 瀏覽至&#x200B;**[!UICONTROL Offer catalog]**&#x200B;資料夾。
 
    ![](assets/offer_cat_create_001.png)
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Edit query]**&#x200B;將篩選器套用至優惠目標。
 
-   * 適用性規則的回顧。若要檢視，請按一下&#x200B;**[!UICONTROL Schedule and eligibility rules of the offer]**&#x200B;連結。
+   * 適用性規則的回顧。 若要檢視，請按一下&#x200B;**[!UICONTROL Schedule and eligibility rules of the offer]**&#x200B;連結。
 
 ## 新增遞補類別
 

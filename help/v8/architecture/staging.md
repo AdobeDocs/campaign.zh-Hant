@@ -34,14 +34,14 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Campaign API準備機制
 
-在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的磁碟量極低，否則必須使用批次作業&#x200B;**&#x200B;**。 為了改善效能，內嵌API會重新導向至本機資料庫。
+在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的磁碟量極低，否則必須使用批次作業&#x200B;****。 為了改善效能，內嵌API會重新導向至本機資料庫。
 
 根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上將其啟用。 簡述暫存機制：
 

@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 20%
@@ -55,4 +55,4 @@ ht-degree: 20%
 
 ![](assets/create-profile.png)
 
-匯入後，您可以建立對象以傳送訊息。 在本節[&#128279;](create-audiences.md)中瞭解如何建立對象。
+匯入後，您可以建立對象以傳送訊息。 在本節](create-audiences.md)中瞭解如何建立對象[。

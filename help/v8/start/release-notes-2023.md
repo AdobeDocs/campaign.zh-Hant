@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 55%
+ht-degree: 53%
 ---
 # 2023 年發行說明 {#2023-rn}
 
@@ -195,5 +195,5 @@ _2023 年 1 月 27 日_
 * 對 log4j 程式庫的其餘參考已從 Windows 上安裝的 Campaign 中移除。 (NEO-44851)
 * 修正在&#x200B;**查詢** 工作流程活動的其他資料中新增&#x200B;**已開啟的收件者**  (estimatedRecipientOpen) 指標導致錯誤的問題。 (NEO-46665)
 * 透過多次傳送來改善工作流程中追蹤 URL 的管理，以提升效能。 (NEO-50894) <!--OKKKK-->
-* 修正可能導致使用 Xtkfolder 的結構複寫失敗的問題。 (NEO-46787) <!--OKKKK-->
-* 修正可能導致「lastModified」自訂欄在 NmsSubscription 表格中被刪除的問題。 (NEO-48402)
+* 修正可能導致使用Xtkfolder的結構描述復寫失敗的問題。 (NEO-46787) <!--OKKKK-->
+* 修正可能導致NmsSubscription表格中捨棄「lastModified」自訂欄位的問題。 (NEO-48402)

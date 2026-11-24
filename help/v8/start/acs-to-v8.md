@@ -25,14 +25,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4cbf1340053ba2003ffade1c6d0c3af20a10717b
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 19%
 ---
 # 從[!DNL Campaign Standard]轉變到[!DNL Campaign] v8 {#acs-to-acv8}
 
-身為Campaign Standard使用者，轉換至Campaign v8，您現在可以從新版本的Adobe Campaign網頁使用者介面和功能強大的v8主控台受益。 此轉變毫無表面性，可讓您使用所有直覺式功能，這些功能旨在簡化建立個人化的跨頻道行銷活動。 Campaign網頁使用者介面也帶來與Adobe Experience Platform連結的畫布，以獲得統一的體驗。 [了解更多資訊](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"}。
+身為Campaign Standard使用者轉換至Campaign v8，您現在可以從新版本的Adobe Campaign網頁使用者介面以及功能強大的v8主控台受益。 轉換過程順暢無礙，可讓您使用所有專為簡化個人化跨頻道行銷活動而設計的直覺式功能。 Campaign網頁使用者介面也帶來與Adobe Experience Platform連結的畫布，以獲得統一的體驗。 [了解更多資訊](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/start/acs-migration){target="_blank"}。
 
 身為Campaign v8使用者，您現在可以存取新的Campaign網頁使用者介面和v8使用者端主控台。 資料和設定則會從一個環境同步至另一個環境。 從Explorer左側導覽的Campaign Web使用者介面中，可以看到使用者端主控台中可用的所有資料和設定。
 
@@ -43,6 +43,6 @@ ht-degree: 19%
 * 在[本檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"}中進一步瞭解新的Campaign網頁使用者介面。
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/acs-to-ac/home){target="_blank"}.
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}.
 -->
 

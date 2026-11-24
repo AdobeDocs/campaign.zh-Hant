@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1111'
 ht-degree: 3%
 ---
 # Adobe Campaign內建報告 {#ootb-reports}
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 若要存取Campaign內建報表：
 
-1. 選取Adobe Campaign介面的&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
+1. Select Adobe Campaign介面的&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
    ![](assets/reporting-access-from-home.png)
 
@@ -292,7 +292,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 預算的累積演化(budgetCumulativeEvolution)<br /> </td> 
-   <td> 累積預算成本的演變，依評論<br />分段層級劃分。 </td> 
+   <td> 依履約承諾層次劃分的累積預算成本的演變。 </td> 
    <td> nms：budget<br /> </td> 
   </tr> 
   <tr> 

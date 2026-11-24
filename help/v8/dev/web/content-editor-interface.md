@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '537'
 ht-degree: 3%
 ---
 # 內容編輯器介面{#content-editor-interface}
@@ -40,7 +40,7 @@ DCE編輯視窗分為三個不同的區段。 它們可讓您檢視、修改和�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **top**&#x200B;區段是顯示給使用者的訊息區域。 這些訊息會指出網頁應用程式狀態或正在建立的傳遞的狀態，以及與內容相關的警告和錯誤訊息。 如需詳細資訊，請參閱[HTML內容狀態](content-editing-best-practices.md#html-content-statuses)。
+1. **top**&#x200B;區段是顯示給使用者的訊息區域。 這些訊息會指出網頁應用程式的狀態或正在建立的傳送，以及與內容相關的警告和錯誤訊息。 如需詳細資訊，請參閱[HTML內容狀態](content-editing-best-practices.md#html-content-statuses)。
 1. 視窗&#x200B;**左側**&#x200B;的區段是編輯內容的區域。 在此區域中，使用者可以使用快顯工具列直接與內容互動：將連結插入影像中、變更字型、刪除欄位等。如需詳細資訊，請參閱[編輯表單](editing-content.md#editing-forms)。
 1. 視窗&#x200B;**右側**&#x200B;的區段是控制面板區域。 此區域會將編輯器的不同選項分組，尤其是與設定頁面標題和區塊的一般選項相關的選項：新增邊框、將資料庫欄位與輸入區域連結、存取網頁屬性等。如需詳細資訊，請參閱[全域選項](#global-options)和[編輯內容](editing-content.md)區段。
 

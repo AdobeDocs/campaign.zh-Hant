@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 5%
+ht-degree: 6%
 ---
 # 使用結構描述{#gs-ac-schemas}
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 Adobe Campaign採用資料結構描述來：
 
-* 定義應用程式內的資料物件如何繫結至基礎資料庫表格。
+* 定義應用程式內資料物件與基礎資料庫表的連結方式。
 * 定義 Campaign 應用程式中不同資料物件之間的連結。
 * 定義及描述每個物件中包含的個別欄位。
 
@@ -229,9 +229,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=zh-Hant#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
 
-如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中的屬性說明。
+如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中的屬性說明。
 
 ### 範例 {#examples}
 

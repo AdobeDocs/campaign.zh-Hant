@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 關於電子郵件密件副本 {#gs-bcc}
 
-您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項可讓您以密件副本（密件副本）專用的電子郵件地址傳送訊息，以便使用外部系統處理和封存訊息。
+您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項可讓您將訊息傳送至專用的密件副本（密件副本）電子郵件地址，以便使用外部系統進行處理和封存。
 
 >[!CAUTION]
 >
@@ -78,6 +78,6 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 
 * 電子郵件BCC <!--with Enhanced MTA-->在傳遞給收件者之前會傳遞到BCC電子郵件地址，這可能會導致即使原始傳遞可能已退回，仍會傳送BCC訊息。 如需退信的詳細資訊，請參閱[瞭解傳遞失敗](delivery-failures.md)。
 
-* 傳送至密件副本位址的電子郵件不可開啟或點進，因為傳送分析的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;會考慮這些活動，所以可能會導致計算錯誤。
+* 傳送至密件副本位址的電子郵件不應開啟或點進，因為傳送分析的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;已考慮這些活動，可能會導致計算錯誤。
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3351'
+source-wordcount: '3350'
 ht-degree: 34%
 ---
 # 定義篩選條件{#filter-conditions}
@@ -78,7 +78,7 @@ ht-degree: 34%
   <tr> 
    <td> <span class="uicontrol">不等於</span> <br /> </td> 
    <td> 傳回所有與輸入值不相同的值。<br /> </td> 
-   <td> <strong>語言(@language)等於'English'</strong>.<br /> </td> 
+   <td> <strong>語言(@language)不等於'English'</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">開頭為</span> <br /> </td> 
@@ -510,7 +510,7 @@ ht-degree: 34%
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> 返回字串　MD5　鍵的十六進位表示<br /> </td> 
+   <td> 傳回字串<br />的MD5鍵的十六進位表示 </td> 
    <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -758,7 +758,7 @@ ht-degree: 34%
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> 將時間部分捨入到最接近的秒數<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;， &lt;number of seconds&gt;)<br /> </td>  
+   <td> TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -781,7 +781,7 @@ ht-degree: 34%
    <td> Year(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> 傳回代表日期的年份和月份的數字<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
   </tr> 

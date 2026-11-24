@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 9%
 ---
 # 端點 {#endpoints}
@@ -44,8 +44,8 @@ Adobe Campaign REST API的可用端點：
 
 依預設，**profileAndServices**&#x200B;與&#x200B;**profileAndServicesExt** API可用的主要資源為：
 
-* **/設定檔**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用&#x200B;**/服務**&#x200B;端點。 如需Campaign中設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/tw/campaign/standard/audiences/using/about-profiles.html)。
-* **/服務**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/tw/campaign/standard/audiences/using/creating-a-service.html)。
+* **/設定檔**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用&#x200B;**/服務**&#x200B;端點。 如需Campaign中設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)。
+* **/服務**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)。
 
 >[!NOTE]
 >

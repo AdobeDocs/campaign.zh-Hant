@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 2%
+ht-degree: 3%
 ---
 # 設計調查{#building-a-survey}
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-表單頁面是使用特殊編輯器建立的，可讓您定義和設定（文字）輸入欄位、選擇欄位（清單、核取方塊等） 和靜態元素（影像、HTML內容等）。 可在「容器」中收集資料，並根據需求進行編排。 [深入瞭解](#adding-questions))。
+表單頁面是使用特殊編輯器建立的，可讓您定義和設定（文字）輸入欄位、選擇欄位（清單、核取方塊等） 和靜態元素（影像、HTML內容等）。 可在「容器」中收集資料，並根據需求進行編排。 [了解更多資訊](#adding-questions)。
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_admin_question_label.png)
 
-在標籤欄位中輸入問題的標籤。 在這種情況下，將會套用表單樣式表中的樣式。 選取&#x200B;**[!UICONTROL Enter the title in HTML format]**&#x200B;選項加以個人化。 這可讓您存取HTML編輯器。
+在標籤欄位中輸入問題的標籤。 在這種情況下，將會套用表單樣式表中的樣式。 Select **[!UICONTROL Enter the title in HTML format]**&#x200B;選項可加以個人化。 這可讓您存取HTML編輯器。
 
 >[!NOTE]
 >

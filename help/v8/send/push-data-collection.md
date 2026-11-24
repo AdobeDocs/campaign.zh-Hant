@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1422'
 ht-degree: 2%
 ---
 # 已修訂推播通知設定 {#push-notifications-config}
@@ -34,7 +34,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!AVAILABILITY]
 >
-> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面[&#128279;](push-settings.md)中詳述的程式。
+> 從Campaign v8.5開始，新客戶可獨家存取此功能，並逐步向一組選定客戶推出。 如果您的環境是在2023年6月之前布建，此頁面不適用於您，您必須遵循此頁面](push-settings.md)中詳述的程式[。
 
 關於此更新的實作，若要在Adobe Campaign中傳送推播通知，請遵循下列步驟：
 
@@ -44,7 +44,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. [在Adobe Experience Platform Data Collection中建立及設定行動屬性](#create-mobile-property)
 
-1. [新增Adobe Adobe Experience Platform Assurance擴充功能](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}（建議）
+1. [新增Adobe Experience Platform Assurance擴充功能](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}（建議）
 
 1. [將Campaign Classic新增至您的行動應用程式](#campaign-mobile-ap)
 
@@ -88,7 +88,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。
 
-   您可以在Apple開發人員帳戶的&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;標籤下找到它。
+   您可以在Apple開發人員帳戶的&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;索引標籤下找到它。
 
 1. 提供&#x200B;**團隊識別碼**。 這是可在&#x200B;**成員資格**&#x200B;標籤下找到的字串值。
 
@@ -152,7 +152,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. （選擇性）您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
-   在下列範例中，已新增&#x200B;**mediaURl**&#x200B;和&#x200B;**mediaExt**&#x200B;變數來建立豐富推播通知，然後為應用程式提供要在通知內顯示的影像。
+   在下列範例中，已新增&#x200B;**mediaURl**&#x200B;和&#x200B;**mediaExt**&#x200B;變數來建立豐富推送通知，然後提供應用程式要在通知內顯示的影像。
 
    ![](assets/push-config-8.png)
 
@@ -177,7 +177,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
    ![](assets/push-config-9.png)
 
-1. 從&#x200B;**[!UICONTROL Application icon]**&#x200B;欄位中選取圖示，以個人化您服務中的行動應用程式。
+1. 從&#x200B;**[!UICONTROL Application icon]**&#x200B;欄位Select圖示，以個人化您服務中的行動應用程式。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;開始設定生產應用程式，並依照上述步驟執行。 請注意，您無法將相同的&#x200B;**[!UICONTROL Integration key]**&#x200B;用於應用程式的開發版本（沙箱）和生產版本。
 
@@ -263,7 +263,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 您現在需要從&#x200B;**[!UICONTROL Publishing flow]**&#x200B;功能表發佈設定。 [了解更多](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-您的行動屬性現在將自動與&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]**&#x200B;技術工作流程同步。 [了解更多](../../automation/workflow/technical-workflows.md#list-technical-workflows)
+您的行動屬性現在會自動與&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]**&#x200B;技術工作流程同步。 [了解更多](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
 ## 將Campaign Classic新增至您的行動應用程式 {#campaign-mobile-app}
 

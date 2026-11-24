@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 8%
 ---
 # 呈現最佳優惠方案{#interaction-present-offers}
@@ -36,7 +36,7 @@ ht-degree: 8%
 
 如需詳細資訊，請參閱[本章節](approving-and-activating-an-offer.md#approving-offer-content)。
 
-在連絡人的傳入連絡人內容中，瀏覽頁面的使用者是否可由網站識別。 優惠方案引擎為已識別的設定檔和匿名設定檔提供不同的優惠方案。
+在傳入連絡人的內容中，瀏覽頁面的使用者是否可由網站識別。 優惠方案引擎為已識別的設定檔和匿名設定檔提供不同的優惠方案。
 
 在傳入頻道上顯示優惠方案之前，您必須先設定優惠方案引擎呼叫，以便顯示優惠方案。 在大多數傳入互動中，這是網頁。
 

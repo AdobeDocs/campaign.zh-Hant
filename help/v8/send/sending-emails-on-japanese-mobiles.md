@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Adobe Campaign針對行動裝置上的電子郵件管理三種特定的日文格
 
 不過，如果您保留&#x200B;**[!UICONTROL Email format]**&#x200B;選項為&#x200B;**[!UICONTROL Unknown]**、**[!UICONTROL HTML]**&#x200B;或&#x200B;**[!UICONTROL Text]**，Adobe Campaign會自動偵測（傳送電子郵件時）要使用的日文格式，以便正確顯示訊息。
 
-此自動偵測系統以&#x200B;**[!UICONTROL Management of Email Formats]**&#x200B;郵件規則集中定義的預先定義網域清單為基礎。 如需管理電子郵件格式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=zh-Hant#managing-email-formats)。
+此自動偵測系統以&#x200B;**[!UICONTROL Management of Email Formats]**&#x200B;郵件規則集中定義的預先定義網域清單為基礎。 如需管理電子郵件格式的詳細資訊，請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats)。
 
 ## 限制和建議 {#limitations-and-recommendations}
 
@@ -114,7 +114,7 @@ Adobe Campaign可讓您檢查您的訊息格式是否適合傳送至日本行動
 
 當Adobe Campaign根據網域（具有定義為&#x200B;**[!UICONTROL Unknown]**、**[!UICONTROL HTML]**&#x200B;或&#x200B;**[!UICONTROL Text]**&#x200B;之電子郵件格式的設定檔）動態管理格式時，您可以將相同的傳遞傳送給所有收件者。
 
-訊息連絡人將會在日文的行動裝置上正確顯示給使用者，就像標準收件者一樣。
+訊息內容將會對日文行動裝置上的使用者正確顯示，就像標準收件者一樣。
 
 >[!IMPORTANT]
 >

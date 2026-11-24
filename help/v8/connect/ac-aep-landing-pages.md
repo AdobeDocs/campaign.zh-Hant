@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Adobe Campaign與Adobe Experience Platform的整合可讓您在Adobe Campaign登
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">設定登入頁面工作流程</a></p></td>
 </table>
 
-## 設定Oauth連線 {#oauth}
+## 設定OAuth連線 {#oauth}
 
 Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若要使用API呼叫將Adobe Experience Platform連線至Adobe Campaign，您需要使用Adobe Developer Console中建立的OAuth整合來產生存取權杖。
 
@@ -71,7 +71,7 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-現在您的Oauth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
+現在您的OAuth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
 
 ## 建立HTTP API Source連線 {#source}
 
@@ -81,7 +81,7 @@ OAuth連線就緒後，下一步就是在Adobe Experience Platform中建立&#x20
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant){target="_blank"}。
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}。
 
    在&#x200B;**[!UICONTROL Authentication]**&#x200B;步驟中，開啟&#x200B;**[!UICONTROL Enable authentication]**&#x200B;選項，以使用先前透過OAuth整合產生的存取權杖進行驗證。
 
@@ -99,7 +99,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 ## 在Adobe Campaign中新增驗證選項 {#xtk}
 
-設定HTTP API Source連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign管理功能表中或透過新增特定&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動來執行登入頁面工作流程時完成此作業。
+設定HTTP API Source連線後，您需要在Adobe Campaign中新增特定選項，以啟用與Adobe Experience Platform的連線。 您可以在Campaign Administration功能表中或透過新增特定&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動來執行您的登入頁面工作流程時執行此操作。
 
 瀏覽下列索引標籤，以探索下列兩種方法：
 
@@ -123,7 +123,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 

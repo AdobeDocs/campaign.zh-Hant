@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 5%
 ---
 # 建立產品建議
@@ -80,7 +80,7 @@ ht-degree: 5%
 
 若要讓引擎能夠決定目標符合資格的多個優惠方案，您必須為優惠方案指派一或多個權重。 如有需要，您也可以將篩選器套用至目標，或限制將套用權重的優惠方案空間。 較輕的優惠方案會偏好較重的優惠方案。
 
-您可以為相同優惠方案設定多個權重，例如區分上個期間、特定目標或甚至優惠方案空間。
+您可以為相同優惠方案設定多個權重，例如區分子週期、特定目標或甚至優惠方案空間。
 
 例如，選件對於18至25歲的聯絡人可具有A的權重，對於超過該範圍的聯絡人則可具有B的權重。 如果優惠方案在整個夏天都符合資格，則在7月也可以有A的權重，在8月也可以有B的權重。
 
@@ -94,7 +94,7 @@ ht-degree: 5%
 
    ![](assets/offer_weight_create_001.png)
 
-1. 變更標籤並指派權數。 預設值為 1。
+1. 變更標籤並指派權數。 預設值為1。
 
    ![](assets/offer_weight_create_006.png)
 
@@ -141,7 +141,7 @@ ht-degree: 5%
    * **[!UICONTROL Title]**：指定您要顯示在優惠方案中的標題。 警告：這並非指的是&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義的選件標籤。
    * **[!UICONTROL Destination URL]**：指定您選件的URL。 開頭必須是&quot;http://&quot;或&quot;https://&quot;。
    * **[!UICONTROL Image URL]**：指定您選件影像的URL或存取路徑。
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**：在您要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別元素中的HTML元素組成。 例如，HTML頁面中`<table>`元素的結果將如下：
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**：在您要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別元素中的HTML元素組成。 例如，HTML頁面中`<table>`元素的結果將如下所示：
 
    ```
       <div> 

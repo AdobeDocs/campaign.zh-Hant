@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 13%
@@ -43,7 +43,7 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
 * **動態報告**
 
-  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}。
+  動態報告可與Campaign Web UI搭配使用，提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 請參閱[Web UI v7檔案](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}。
 
 * **多維度資料集**
 
@@ -81,4 +81,4 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   使用Adobe Campaign建立有關資料庫中資料的報告。 建立後，可在適當的前後關聯中加以存取。
 
-  建立報告的步驟詳見[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=zh-Hant){target="_blank"}。 「個人化報表」建立作業已保留給進階使用者。
+  建立報告的步驟詳見[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}。 「個人化報表」建立作業已保留給進階使用者。

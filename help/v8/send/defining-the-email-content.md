@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 2%
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 ## 定義互動式內容 {#amp-for-email-format}
 
-Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/about/email/)格式，在特定條件下傳送動態電子郵件。
+Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/about/email/)格式，讓您在特定條件下傳送動態電子郵件。
 
 如需詳細資訊，請參閱[本節](defining-interactive-content.md)。
 
@@ -179,7 +179,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 為避免效能問題，電子郵件中包含的影像不能超過100 KB。 預設設定的此限制可以從`NmsDelivery_MaxDownloadedImageSize`選項變更。 不過，Adobe強烈建議您在電子郵件傳送中避免大型影像。
 
-在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)的Campaign選項清單中瞭解更多。
+在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)的Campaign選項清單中瞭解更多。
 
 ### 影像型別 {#img-types}
 
@@ -190,7 +190,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
   可透過Adobe Campaign階層的&#x200B;**[!UICONTROL Resources > Online]**&#x200B;節點存取公用資源。 它們會分組在程式庫中，並可包含在電子郵件訊息中，但也可用於行銷活動或任務，或用於內容管理。
 
-* 與Adobe Experience Cloud共用的資產。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant)。
+* 與Adobe Experience Cloud共用的資產。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html)。
 
 ### 插入和管理影像 {#manage-images}
 
@@ -204,7 +204,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 若要透過傳送助理管理影像：
 
-1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**&#x200B;圖示。
+1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**圖示。
    ![](assets/s_ncs_user_email_del_img_param.png)
 
 1. 在&#x200B;**[!UICONTROL Images]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Upload images]**。

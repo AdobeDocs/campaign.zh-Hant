@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 3%
 ---
 # 透過Adobe Campaign在X (Twitter)上發佈訊息 {#post-tw-messages}
@@ -52,9 +52,9 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
    ![](assets/tw-new-delivery.png)
 
-1. 選取主要目標
+1. Select是主要目標
 
-   選取您要傳送貼文的帳戶。
+   您要傳送貼文的目標帳戶Select。
 
    ![](assets/tw-define-target.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
    >[!CAUTION]
    >
-   >在X上張貼時，會有下列限制：
+   >在X上張貼時，會套用下列限制：
    >
    >* 訊息不能超過140個字元。
    >* 不支援HTML格式。

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 7%
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI提供使用者易用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存，即可供未來使用。 若要深入瞭解預先定義的Web UI篩選器，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/start/predefined-filters){target=_blank}。
+>Adobe Campaign Web UI提供使用者易用的介面，讓您輕鬆管理和自訂預先定義的篩選器，以符合特定需求。 建立一次並儲存，即可供未來使用。 若要深入瞭解預先定義的Web UI篩選器，請參閱[Adobe Campaign Web UI檔案](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}。
 
 
 若要建立預先定義的篩選，請套用下列程式：

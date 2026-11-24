@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 2%
 ---
 # 開始使用Campaign HTML編輯器{#about-campaign-html-editor}
@@ -41,7 +41,7 @@ ht-degree: 2%
 >
 >針對最常見的使用案例，請在Campaign網頁使用者介面中建立您的登入頁面，以便您輕鬆設計及發佈。 如本節所述，在使用者端主控台中建立的登入頁面可提供更多設定，並涵蓋更進階的使用案例。
 >
->[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您需要新增伺服器端JavaScript程式碼，請使用個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=zh-Hant){target="_blank"}。
+>如果您需要新增伺服器端JavaScript程式碼，請使用個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}。
 
 >[!CAUTION]
 >
@@ -68,7 +68,7 @@ ht-degree: 2%
 若要建立簡單的&#x200B;**網頁應用程式**，您需要：
 
 1. 建立Web應用程式 — [深入瞭解](creating-a-landing-page.md)
-1. 選取現有內容或從標準範本建立內容 — [深入瞭解](template-management.md)
+1. Select現有內容或從標準範本建立內容 — [深入瞭解](template-management.md)
 1. 編輯及設定內容 — [深入瞭解](editing-content.md)
 1. 發佈Web應用程式 — [深入瞭解](creating-a-landing-page.md#step-3---publishing-content)
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 若要建立&#x200B;**電子郵件傳遞**，您需要：
 
 1. 從DCE範本建立傳遞 — [深入瞭解](use-case-creating-an-email-delivery.md)
-1. 選取現有內容或從[標準範本](template-management.md)建立內容
+1. Select現有內容或從[標準範本](template-management.md)建立內容
 1. 編輯和設定線上內容
 1. 傳送傳遞 — 在[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=zh-Hant){target="_blank"}中瞭解更多
 

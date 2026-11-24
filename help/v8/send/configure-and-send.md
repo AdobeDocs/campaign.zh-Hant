@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -54,7 +54,7 @@ ht-degree: 9%
 >
 >* 此選項不得在中間來源中設定。
 >
->* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=zh-Hant#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
+>* 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}中進一步瞭解SMTP伺服器組態。
 
 ## 使用多個波段傳送 {#sending-using-multiple-waves}
 

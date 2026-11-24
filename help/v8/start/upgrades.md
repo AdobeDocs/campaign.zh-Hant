@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 6%
+ht-degree: 15%
 ---
 # 版本、升級和安全性 {#upgrades}
 
@@ -65,15 +65,15 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 若要確保穩定設定，Adobe建議您在所有的Campaign伺服器上安裝&#x200B;**完全相同的版本**。 此外，除在[發行說明](release-notes.md)中另有提及外，使用者端主控台必須使用&#x200B;**與伺服器執行個體完全相同的版本**。 透過[本頁面](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
 
-### Hotflix {#hotflixes}
+### Hotfix {#hotflixes}
 
-在特殊情況下，Adobe可能會提供客戶特定的Hotfix，以便在標準版本提供修正之前解決問題。 Hotfix要求會逐一進行評估，且不屬於標準發行週期。
+在例外情況下，Adobe 可能會提供客戶專屬的 Hotfix，以便在標準版本提供修正之前解決問題。 Hotfix 請求會逐案評估，不屬於標準版本週期。
 
-應透過Adobe客戶服務提出Hotfix請求。 如果獲得核准，系統會為受影響的客戶和產品組建準備一個Hotfix。 Hotfix並非適用於所有客戶的一般版本；Adobe可在檢閱後核准與其他受影響客戶共用。
+Hotfix 請求應透過 Adobe 客戶服務提出。 若核准，會為受影響的客戶和產品建置準備 Hotfix。 Hotfix 不是提供給所有客戶的一般版本；Adobe 可能在審閱後，核准與其他受影響的客戶共用。
 
-傳送Hotfix時，Hotfix詳細資料可能不會包含在公開發行說明中。 Adobe稍後可能會在適用版本的標準發行版本中包含hotfix。 我們並不保證包含性和時機。 如需瞭解每個標準版本所含的變更，請參閱版本注意事項。
+交付 Hotfix 時，其詳細資料可能不會寫進公開的發行說明。 Adobe 之後可能會把 Hotfix 的修正納入適用版本的標準版本。 是否納入以及時程均不保證。 請參閱發行說明，了解每個標準版本包含的變更
 
-此客戶特定的Hotfix程式與上述重要安全性修補程式原則不同，Adobe可在此原則下將重要安全性修補程式套用至託管環境，恕不另行通知。
+這項客戶專屬的 Hotfix 流程不同於上述重大安全性修補原則。根據該原則，Adobe 可能在不事先通知的情況下，將重大安全性修補套用至代管環境。
 
 ### 讓您的使用者端主控台保持最新狀態 {#ac-upgrades}
 
@@ -97,7 +97,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 您可存取下列資訊：
 
 * 您的使用者端主控台和應用程式伺服器的&#x200B;**版本**&#x200B;編號。 在上述範例中，使用者端主控台和應用程式伺服器的版本為8.1.5。
-* 括弧之間的 SHA 編號。
+* 括弧之間的SHA編號。
 * 聯絡 Adobe 客戶服務的連結.
 * 導覽至 Adobe 隱私權政策、使用條款與 Cookie 政策的連結.
 
@@ -109,7 +109,7 @@ Adobe Campaign會定期發行產品版本，以改善Campaign基礎建設的效�
 
 新版本及其變更列在[發行說明](release-notes.md)中。
 
-如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=zh-Hant&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
+如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
 
 如需安全性通知與組織安全性更新準備的指南，請參閱[隨時掌握資訊](#security-staying-informed)。
 

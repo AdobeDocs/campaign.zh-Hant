@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1165'
 ht-degree: 7%
 ---
 # 一般架構{#general-architecture}
@@ -119,7 +119,7 @@ Adobe Campaign模組分為三種型別：
 
 * **正在監督模組** (nlserver watchdog) — 此技術處理序會做為衍生其他模組的主要處理序。 它也會監控這些事件，並在發生事件時自動重新啟動，以維持最長系統運作時間。
 
-* **統計伺服器** (nlserver stat) — 此程式會維護連線數目、每個郵件伺服器傳送的郵件數目、郵件傳送至哪個郵件伺服器，以及其限制（同時連線數目上限、每小時郵件數/或連線）的統計資料。 此外，如果多個執行個體或電腦共用相同的公用IP位址，您也可以聯合這些執行個體或電腦。
+* **統計伺服器** (nlserver stat) — 此程式會維護連線數目、每個郵件伺服器傳送的郵件數目、郵件傳送至哪個郵件伺服器，以及其限制（同時連線數目上限、每小時和/或每個連線的郵件數目）的統計資料。 此外，如果多個執行個體或電腦共用相同的公用IP位址，您也可以聯合這些執行個體或電腦。
 
 
 ## 資料庫容器 {#db-containers}
@@ -141,4 +141,4 @@ Adobe Campaign模組分為三種型別：
 
 總儲存容量可在主要資料庫與（選擇性）Snowflake次要資料庫之間分配。 應根據客戶特定的使用案例，在實施或升級時間決定儲存資料的位置。
 
-在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=zh-Hant){target="_blank"}中瞭解如何監視您的資料庫使用情況。
+在[Campaign控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}中瞭解如何監視您的資料庫使用情況。

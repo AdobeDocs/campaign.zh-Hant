@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '682'
 ht-degree: 1%
 ---
 # 事件處理 {#event-processing}
@@ -105,7 +105,7 @@ ht-degree: 1%
 * **個擱置中的傳遞**
 已處理事件，且已連結傳遞範本。 電子郵件正在等候傳遞，且已套用傳統傳遞程式。 如需詳細資訊，您可以開啟傳遞。
 * **已傳送**，**已忽略**&#x200B;及&#x200B;**傳遞錯誤**
-這些傳遞狀態是透過&#x200B;**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
+這些傳遞狀態是透過**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
 * **事件未涵蓋**
 異動訊息路由階段失敗。 例如，Adobe Campaign找不到當作事件範本的電子郵件。
 * **事件已過期**

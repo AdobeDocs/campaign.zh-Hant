@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1203'
 ht-degree: 1%
 ---
 # 建立並發佈您的異動訊息範本{#template-transactional-messages}
@@ -57,7 +57,7 @@ ht-degree: 1%
    ![](assets/messagecenter_create_model_002.png)
 
 1. 必要時變更其標籤。
-1. 選取符合您要傳送之訊息的事件型別。 必須預先建立預定由Adobe Campaign處理的事件型別。 [了解更多](../send/transactional.md#create-event-types)
+1. Select是符合您要傳送之訊息的事件型別。 必須預先建立預定由Adobe Campaign處理的事件型別。 [了解更多](../send/transactional.md#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 >訊息中包含的影像必須可公開存取。 Adobe Campaign不提供任何異動訊息的影像上傳機制。\
 >不同於JSSP或webApp，`<%=`沒有任何預設逸出。
 >
->您必須正確逸出來自事件的每個資料。 此逸出取決於此欄位的使用方式。 例如，在URL中，請使用encodeURIComponent。 若要在HTML中顯示，您可以使用escapeXMLString。
+>您必須正確地逸出來自事件的每個資料片段。 此逸出取決於此欄位的使用方式。 例如，在URL中，請使用encodeURIComponent。 若要在HTML中顯示，您可以使用escapeXMLString。
 
 定義訊息內容後，您就可以將事件資訊整合至訊息內文，並加以個人化。 由於個人化標籤，事件資訊會插入文字內文中。
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

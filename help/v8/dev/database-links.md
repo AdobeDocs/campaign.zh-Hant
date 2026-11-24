@@ -30,7 +30,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 基數1-N：來源表格的一個出現次數可以具有多個目標表格的對應出現次數，但目標表格的一個出現次數最多可以具有來源表格的一個對應出現次數。
 * 基數N-N：來源表格的一個出現次數可以具有多個目標表格的對應出現次數，反之亦然。
 
-在使用介面中，基數會以特定圖示表示。
+在使用者介面中，基數會以特定圖示表示。
 
 對於與Campaign資料表/資料庫的聯結關係：
 

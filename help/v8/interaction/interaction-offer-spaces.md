@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
@@ -63,7 +63,7 @@ HTML呈現會透過呈現函式建立。 轉譯函式中定義的欄位順序必
 
    >[!NOTE]
    >
-   >此選項用於預覽，如果選件中缺少其中一個必要欄位，會在發佈時讓選件空格無效。 但是，如果優惠方案空間中已上線，則不會考慮這些條件。
+   >此選項用於預覽，如果選件中缺少其中一個必填欄位，會在發佈時讓選件空格無效。 但是，如果優惠方案空間中已上線，則不會考慮這些條件。
 
    ![](assets/offer_space_create_005.png)
 

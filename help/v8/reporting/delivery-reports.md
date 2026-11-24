@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 10%
+ht-degree: 8%
 ---
 # 傳遞報告 {#delivery-reports}
 
@@ -35,7 +35,7 @@ ht-degree: 10%
 若要存取報表，請遵循下列步驟：
 
 1. 瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Delivery]**&#x200B;連結以顯示傳遞清單。
-1. 按一下您要存取報告的傳遞名稱。
+1. 按一下您要存取其報告的傳送名稱。
 1. 選取「**[!UICONTROL Summary]**」標籤，然後按一下「**[!UICONTROL Reports]**」連結以存取傳遞的特定報告。
 
    ![](assets/detailed-report-2.png)
@@ -192,7 +192,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 ## 熱點點擊 {#hot-clicks}
 
-此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊取消訂閱連結、鏡像頁面連結和產品建議連結有計入總累計點按數，但不顯示在報告中。
+此報告顯示訊息內容 (HTML 和/或文字) 以及每個連結的連結點按百分比。 個人化區塊、取消訂閱連結、映象頁面連結和選件連結會在累計點按總數中考慮，但不會顯示在報表中。
 
 >[!NOTE]
 >

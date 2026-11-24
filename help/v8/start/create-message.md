@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 93%
+ht-degree: 90%
 ---
 # 建立您的第一個傳遞 {#create-a-msg}
 
@@ -129,7 +129,7 @@ ht-degree: 93%
 
      ![](assets/target-recipient-delivery.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]**：使用此選項從包含於特定資料夾的收件者傳遞建立目標。
+   * **[!UICONTROL Delivery recipients belonging to a folder]**：使用此選項從包含於特定資料夾中的傳遞收件者建立目標。
 
      ![](assets/target-delivery-folder.png)
 
@@ -146,7 +146,7 @@ ht-degree: 93%
      ![](assets/target-service.png)
 
    * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫設定檔的篩選標準。 預先設定的篩選器會顯示在[此區段](../audiences/create-filters.md#default-filters)之中。
-   * **[!UICONTROL Exclude recipients from this segment]** 選項可讓您鎖定不符合已定義目標條件的收件者。 若要使用此選項，請選取適當的方框，然後套用定位 (如先前所定義) 以排除產生的設定檔。
+   * **[!UICONTROL Exclude recipients from this segment]**&#x200B;選項可讓您鎖定不符合已定義目標條件的收件者。 若要使用此選項，請選取適當的方框，然後套用定位 (如先前所定義) 以排除產生的設定檔。
 
 1. 在 **[!UICONTROL Label]** 欄位輸入此目標選擇的名稱。 依預設，該標籤是第一個鎖定目標標準的標籤。 結合篩選標準時，建議使用明確的名稱。
 1. 按一下 **[!UICONTROL Finish]** 以驗證鎖定目標選項。
@@ -209,7 +209,7 @@ ht-degree: 93%
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 

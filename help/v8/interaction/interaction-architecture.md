@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # 瞭解Campaign互動環境和架構
@@ -40,7 +40,7 @@ ht-degree: 0%
 
   類別也可以線上上環境中手動發佈。
 
-  核准優惠方案的程式在此區段[&#128279;](interaction-offer.md#approve-offers)中詳細說明。
+  核准優惠方案的程式在此區段](interaction-offer.md#approve-offers)中詳細說明[。
 
 * 您都可以找到&#x200B;**即時**&#x200B;環境，其中包含設計環境中的已核准優惠方案，以及在設計環境中設定的各種優惠方案空間、篩選器、類別和規則。 呼叫優惠方案引擎期間，引擎一律會使用即時環境中的優惠方案。
 
@@ -90,7 +90,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 * 如果您從匿名環境使用回溯函式至已識別的環境，則這兩個環境必須在同一個執行例項上。
 * 數個執行例項之間的同步不會即時執行。 相同連絡人的互動必須傳送至相同執行個體。 控制例項必須專用於傳出頻道（非即時）。
-* 行銷資料庫不會自動同步。 權重和適用性規則中使用的行銷資料在執行例項上必須重複。 此程式並非標準流程，您必須在整合期間進行開發。
+* 行銷資料庫不會自動同步。 權重和適用性規則中使用的行銷資料在執行例項上必須重複。 此過程並非標準流程；您必須在整合期間開發它。
 * 主張同步僅由FDA連線執行。
 * 如果您在相同執行個體上使用互動和訊息中心，則在這兩種情況下都將透過FDA通訊協定進行同步。
 
@@ -102,7 +102,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 >[!NOTE]
 >
->安裝套件時，**nms:proposition**&#x200B;資料表的&#x200B;**long**&#x200B;型別欄位（例如主張識別碼）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=zh-Hant#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
+>安裝套件時，**nms:proposition**&#x200B;資料表的&#x200B;**long**&#x200B;型別欄位（例如主張識別碼）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
 
 在每個執行個體上設定資料保留期間（透過部署精靈中的&#x200B;**[!UICONTROL Data purge]**&#x200B;視窗）。 在執行例項上，此期間必須對應於要計算的型別規則（滑動期間）和適用性規則所需的歷史深度。
 
@@ -168,7 +168,7 @@ Adobe Campaign互動模組提出兩種互動：
 >
 >根據您執行個體中現有主張的量，此操作可能需要一些時間。
 
-* 如果您的執行個體只有很少的建議或沒有建議，就不需要手動修改建議表格。 修改會在安裝套件時完成。
+* 如果您的執行個體只有少數幾個主張或沒有主張，則不需要手動修改主張表格。 修改會在安裝套件時完成。
 * 如果您的執行個體有許多主張，最好在安裝控制套件並執行它們之前變更主張表結構。 我們建議在低活動期間執行查詢。
 
 >[!NOTE]

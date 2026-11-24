@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 2%
 ---
 # 傳送產品建議{#send}
 
-為了讓優惠方案引擎選取優惠方案，優惠方案已經過核准，並可在&#x200B;**即時**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
+為了讓優惠方案引擎選取優惠方案，優惠方案必須經過核准，並可在&#x200B;**即時**&#x200B;環境中使用。 [了解更多](interaction-offer.md#approve-offers)
 
 透過傳出通訊頻道的優惠方案簡報，會透過直接郵件、電子郵件或行動傳送來執行。 您也可以對異動訊息（訊息中心）使用單一模式。
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 ### 擴充 {#enrichment}
 
-**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=zh-Hant){target="_blank"}。
+**擴充**&#x200B;活動可讓您新增優惠或連結至傳遞收件者的優惠。[了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}。
 
 例如，您可以在傳遞前擴充收件者查詢的資料。
 
@@ -137,9 +137,9 @@ ht-degree: 2%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Add data]**。
+1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中的Select **[!UICONTROL Add data]**。
 1. 在您選擇要新增的資料型別視窗中，選取&#x200B;**[!UICONTROL A link]**。
-1. 選取您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
+1. Select您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
 
    ![](assets/int_enrichment_link1.png)
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offer engine]**&#x200B;活動也可讓您指定在傳遞前對優惠方案引擎的呼叫。
 
-如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**優惠方案引擎**&#x200B;活動的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}。
 
 此活動的運作原則與引擎呼叫的&#x200B;**擴充**&#x200B;活動相同，方法是在傳遞前，使用引擎計算的優惠擴充入站母體資料。
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 在設定您的&#x200B;**查詢**&#x200B;活動後：
 
 1. 新增並開啟&#x200B;**[!UICONTROL Offer engine]**&#x200B;活動。
-1. 完成各種可用欄位，以指定呼叫優惠方案引擎引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數量）。 引擎將根據這些引數自動計算要新增的選件。
+1. 完成各種可用欄位，以指定對優惠方案引擎引數的呼叫（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數量）。 引擎將根據這些引數自動計算要新增的選件。
 
    >[!CAUTION]
    >
@@ -203,7 +203,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分配至數個區段，並指定要針對每個區段呈現的選件。
 
-如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=zh-Hant){target="_blank"}。
+如需&#x200B;**依儲存格**&#x200B;優惠方案的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}。
 
 要執行此操作，請使用下列程式：
 

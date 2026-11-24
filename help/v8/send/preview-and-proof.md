@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -47,7 +47,7 @@ ht-degree: 10%
 
    ![](assets/test-personalization-with-a-recipient.png)
 
-1. 選取其他測試設定檔，以預覽訊息每個變體的電子郵件呈現。
+1. Select其他測試設定檔，以預覽訊息每個變體的電子郵件呈現。
 
 ## 傳送校樣 {#send-proofs}
 
@@ -122,4 +122,4 @@ ht-degree: 10%
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

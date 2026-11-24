@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1782'
 ht-degree: 8%
 ---
 # 全域報告 {#global-reports}
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=zh-Hant){target="_blank"}監視每小時傳送的傳遞數目。
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}監視每小時傳送的傳遞數目。
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}中。
 >
@@ -118,7 +118,7 @@ ht-degree: 8%
 * **[!UICONTROL Inbox full]**：在五次傳遞嘗試後產生的錯誤型別，以指出收件者的收件匣包含太多郵件。
 * **[!UICONTROL Account disabled]**：傳送傳遞時產生錯誤型別，表示地址已不存在。
 * **[!UICONTROL Rejected]**：當位址遭到IAP （網際網路存取提供者）拒絕時產生的錯誤型別，例如在套用安全性規則（反垃圾郵件軟體）之後。
-* **[!UICONTROL Unreachable]**：訊息發佈字串中發生的錯誤型別： SMTP轉送上的事件、暫時無法連線網域等
+* **[!UICONTROL Unreachable]**：訊息發佈字串中發生的錯誤型別： SMTP轉送上的事件、暫時無法連線網域等。
 * **[!UICONTROL Not connected]**：錯誤型別，表示收件者的行動電話在傳送時已關閉或與網路中斷連線。
 
   >[!NOTE]
@@ -329,4 +329,4 @@ The following indicators are used:
 
 >[!NOTE]
 >
->瀏覽器和作業系統名稱構成了已開啟訊息的瀏覽器使用者代理程式所傳送的部分資訊。 Adobe Campaign會使用其裝置資訊來推斷裝置型別。
+>瀏覽器和作業系統名稱構成了已開啟訊息的瀏覽器使用者代理程式所傳送的部分資訊。 Adobe Campaign會使用裝置資訊來推斷裝置型別。

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 5%
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 ## 開始分析 {#start-the-analysis}
 
-若要準備傳遞，請確定已定義傳遞內容和目標，然後遵循下列步驟：
+若要準備傳送，請確定已定義傳送內容和目標，然後遵循下列步驟：
 
 1. 在傳遞視窗中，按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL Deliver as soon as possible]**&#x200B;以執行對象計算，並準備立即傳送的內容。 您也可以將傳送延遲到較晚的日期，或是在未準備內容的情況下取得母體預估值。
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;以手動啟動分析。 進度列會顯示分析的進度。
 
-   一組檢查規則會在傳遞分析期間套用。 這些規則是在&#x200B;**型別**&#x200B;中定義，該型別是在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中選取的。 在[本節](../../automation/campaign-opt/campaign-typologies.md)中進一步瞭解型別。
+   在傳遞分析期間會套用一組檢查規則。 這些規則是在&#x200B;**型別**&#x200B;中定義，該型別是在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中選取的。 在[本節](../../automation/campaign-opt/campaign-typologies.md)中進一步瞭解型別。
 
    針對電子郵件，預設分析會涵蓋下列幾點：
 

@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -107,7 +107,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-若要將優惠方案呈現給已識別的連絡人，程式與本區段[&#128279;](#presenting-an-anonymous-offer)中詳細的類似。
+若要向已識別的連絡人呈現優惠方案，程式類似於此區段](#presenting-an-anonymous-offer)中詳細的[。
 
 在網頁內容中，您需要新增下列指令碼，以在呼叫優惠方案引擎期間識別聯絡人：
 
@@ -227,7 +227,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 1. **擴充優惠方案公式以編輯新欄位並修改現有欄位**
 
-   編輯&#x200B;**選件(nsm)**&#x200B;輸入表單。
+   編輯&#x200B;**選件(nms)**&#x200B;輸入表單。
 
    在「檢視」區段中，插入兩個含有以下內容的新欄位：
 

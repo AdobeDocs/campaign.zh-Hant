@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 100%
+ht-degree: 94%
 ---
 # 文件更新 {#latest-updates}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 2026 年 6 月 {#june-2026}
 
-新增了一個頁面，說明關於電子郵件追蹤像素的 CNIL 指引，以及相關的 Adobe Campaign 功能。 [閱讀更多](cnil-pixel-tracking.md)
+新增了一個頁面，說明關於電子郵件追蹤像素的 CNIL 指引，以及相關的 Adobe Campaign 功能。 [深入了解](cnil-pixel-tracking.md)
 
 ## 2025 年 4 月 {#april-2025}
 
@@ -55,11 +55,11 @@ ht-degree: 100%
 
 ## 2024 年 5 月 {#may-2024}
 
-* [此頁面](create-message.md)中現已列出傳遞通道和類型清單。
+* 傳遞的管道和型別清單現在列在[此頁面](create-message.md)中。
 * 傳遞設定和波段管理部分已重新整理和改良。 [閱讀更多](../send/configure-and-send.md)。
 * 已新增附註，以指定 **[!UICONTROL Change Dimension]** 和 **[!UICONTROL Change Data source]** 活動不應新增在一列，且它們之間需要有 **[!UICONTROL Enrichement]** 活動。 在[變更維度](../../automation/workflow/change-dimension.md)和[變更資料來源](../../automation/workflow/change-data-source.md)章節中了解詳細資訊。
 
-## 2024 年 2 月 {#feb-2024}
+## 2024年2月 {#feb-2024}
 
 * 有關所有 [!DNL Campaign]v8.6 版本新功能、變更和改進項目的詳情，請參閱本文件。 [閱讀更多](release-notes.md)
 * Campaign v8 版本管理和升級機制現在會在專用頁面中詳細說明。 [閱讀更多](upgrades.md)

@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 85%
+ht-degree: 80%
 ---
 # 管理 Campaign 的隱私權請求 {#privacy}
 
@@ -45,7 +45,7 @@ ht-degree: 85%
 Adobe 為資料控制方提供工具，可針對儲存在 Campaign 的資料建立並處理隱私權請求。 然而，資料控制方應負責確認提出請求之資料主體身份，並確認傳回給請求者的資料與資料主體有關。 在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#personal-data){target="_blank"}中進一步瞭解個人資料及管理資料的不同實體。
 
 
-若要在 Campaign 管理隱私權請求，首先您必須[定義命名空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從Privacy Service推播至所有[!DNL Adobe CX Enterprise]解決方案的隱私權要求，會由Campaign透過專用工作流程自動處理。 [了解更多](#create-privacy-request)
+若要在Campaign中管理隱私權請求，您必須先[定義名稱空間](#namespaces)。 然後，您就可以建立並管理隱私權請求。 若要執行隱私權請求，請利用 **Adobe Privacy Service** 整合。 從Privacy Service推播至所有[!DNL Adobe CX Enterprise]解決方案的隱私權要求，會由Campaign透過專用工作流程自動處理。 [了解更多](#create-privacy-request)
 
 在[Adobe Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant#right-access-forgotten){target="_blank"}中瞭解&#x200B;**存取許可權**&#x200B;和&#x200B;**被遺忘的權利** （刪除要求）。
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 在[識別名稱空間服務](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}上建立名稱空間。
 
-1. 當[列出可用於您組織的身分識別名稱空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}時，您將獲得以下名稱空間詳細資訊，例如：
+1. 當[列出可用於您組織的身分識別名稱空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}時，您將獲得以下名稱空間詳細資料，例如：
 
    ```
    {
@@ -98,7 +98,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 輸入 **[!UICONTROL Label]**。
 
-1. 填寫新命名空間的詳細資訊，以符合在識別命名空間服務上建立的命名空間：
+1. 填寫新名稱空間的詳細資訊，以符合您在Identity Namespace服務上建立的名稱空間：
 
    * **[!UICONTROL AEC Namespace ID]** 必須與「id」屬性相符
    * **[!UICONTROL Internal name]** 必須與「code」屬性相符
@@ -157,7 +157,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 * 訂閱 (subscription)
 * 收件者產品建議提議 (propositionRcp)
 
-如果您建立的自訂資源具有收件者表格 (自有類型) 的連結，也會將這些帳戶列入考量。 例如，如果您有連結至收件者表格的交易表格和連結至交易表格的交易詳細資料，則會同時將這些帳戶列入考量。
+如果您建立的自訂資源具有收件者表格 (自有類型) 的連結，也會將這些帳戶列入考量。 例如，如果您有連結至收件者表格的交易表格和連結至交易表格的交易詳細資料表格，則會同時將這些帳戶列入考量。
 <!--
 >[!CAUTION]
 >

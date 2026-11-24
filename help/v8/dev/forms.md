@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 0%
 ---
 # 開始使用輸入表單 {#gs-ac-forms}
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 使用&#x200B;**容器**&#x200B;來群組控制項集。 它們由&#x200B;**`<container>`**&#x200B;元素表示。 上面用來格式化數欄的控制項。
 
-`<container>`上的&#x200B;**xpath**&#x200B;屬性可讓您簡化子控制項的參考。 然後，控制項的參照會相對於父項`<container>`父項。
+`<container>`上的&#x200B;**xpath**&#x200B;屬性可讓您簡化子控制項的參考。 然後，控制項的參照會相對於父項`<container>`。
 
 不含「xpath」的容器範例：
 

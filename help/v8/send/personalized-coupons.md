@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 1%
 ---
 # 個人化優惠券{#personalized-coupons}
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ## 在電子郵件傳遞中插入抵用券 {#inserting-a-coupon-into-an-email-delivery}
 
-在下列範例中，會從首頁建立傳送。 如需如何建立傳遞的詳細說明，請參閱[本節](email.md)
+在下列範例中，會從首頁建立傳送。 如需有關如何建立傳遞的詳細說明，請參閱[本節](email.md)。
 1. 移至&#x200B;**[!UICONTROL Campaigns]**&#x200B;並選擇&#x200B;**[!UICONTROL Deliveries]**。
 1. 按一下 **[!UICONTROL Create]**。
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 >
 >依預設，優惠券管理模組使用&#x200B;**nms:recipient**&#x200B;表格。 [了解更多資訊](../dev/datamodel.md#ootb-profiles)。
 >
->在此頁面[&#128279;](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表。
+>在此頁面](../dev/custom-recipient.md)中瞭解如何使用自訂收件者資料表[。
 
 ## 管理不足的優惠券 {#managing-insufficient-coupons}
 

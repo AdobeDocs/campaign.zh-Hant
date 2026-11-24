@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3476'
 ht-degree: 6%
 ---
 # 瞭解傳遞失敗 {#delivery-failures}
@@ -82,7 +82,7 @@ ht-degree: 6%
 
 **Ignored**&#x200B;錯誤型別已知為暫時，例如「不在辦公室」，或技術錯誤，例如，如果寄件者型別為「郵遞員」。
 
-回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
+回饋回圈的運作方式與退回電子郵件類似：當使用者將電子郵件歸類為垃圾郵件時，您可以在Adobe Campaign中設定電子郵件規則，以封鎖傳送給該使用者的所有內容。 即使這些使用者未按一下取消訂閱連結，其位址仍會列入封鎖清單。 位址已新增至(**NmsAddress**)隔離資料表，而非以&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態新增至(**NmsRecipient**)收件者資料表。 在[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中進一步瞭解回饋回圈機制。
 
 ## 同步與非同步錯誤 {#synchronous-and-asynchronous-errors}
 
@@ -141,7 +141,7 @@ Bounce mails can have the following qualification status:
 
 ## 重試管理 {#retries}
 
-如果訊息傳遞因暫時錯誤（**Soft**&#x200B;或&#x200B;**Ignored**）而失敗，Campaign會重試傳送。 可以執行這些重試，直到傳送持續時間結束。
+如果訊息傳遞因暫時錯誤（**Soft**&#x200B;或&#x200B;**Ignored**）而失敗，Campaign會重試傳送。 可以執行這些重試，直到傳送期間結束。
 
 軟退信重試次數和兩次之間的時間長度由MTA根據從訊息的電子郵件網域傳回的退信回應的型別和嚴重性決定。
 
@@ -159,7 +159,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
 
 當下次重試在到期時間後時，訊息可在有效期間結束之前到期。 然後，傳遞記錄會顯示上次嘗試傳遞時的失敗。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 電子郵件錯誤型別 {#email-error-types}
@@ -258,7 +258,7 @@ Campaign傳遞中的有效期間設定限製為&#x200B;**3.5天或更少**。 �
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> 此位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">行銷活動管理</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
+   <td> 該位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 接著，他們可以透過樹狀結構中的<span class="uicontrol">管理</span> / <span class="uicontrol">行銷活動管理</span> / <span class="uicontrol">無法傳遞的專案管理</span>節點，執行訊息分析並限定此錯誤。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不符合產品建議條件 </td> 
@@ -698,7 +698,7 @@ Android V2隔離機制使用與Android V1相同的流程，同樣適用於訂閱
 
 +++
 
-延伸通用SMPP聯結器的&#x200B;**&#x200B;**
+延伸通用SMPP聯結器的&#x200B;****
 
 使用SMPP通訊協定傳送SMS訊息時，錯誤管理的處理方式不同。
 
@@ -725,8 +725,8 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 錯誤訊息的第三部分（此範例中為&#x200B;**DELIVRD**）對應於使用SMS外部帳戶中定義的狀態擷取規則運算式從SR擷取的狀態代碼。
 
-  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**&#x200B;索引標籤中。
-  依預設，規則運算式會擷取&#x200B;**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
+  此規則運算式指定於外部帳戶的&#x200B;**[!UICONTROL SMSC specificities]**索引標籤中。
+  依預設，規則運算式會擷取**SMPP 3.4規格**&#x200B;的&#x200B;**附錄B**&#x200B;區段所定義的&#x200B;**stat：**&#x200B;欄位。
 
 * 錯誤訊息的第四部分(**000**)對應於使用SMS外部帳戶中定義的錯誤碼擷取規則運算式從SR擷取的錯誤碼。
 
@@ -770,7 +770,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：電子郵件中有收件者的多個值之個人化欄位或區塊。 個人化區塊正在使用中，且正在為特定收件者擷取多個記錄。
 
-**解決方法**：檢查使用的個人化資料，然後檢查目標中是否有收件者有多個專案。 您也可以在傳遞活動之前，於目標工作流程中使用&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，以確保一次只有一個個人化欄位。 如需重複資料刪除的詳細資訊，請參閱[工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=zh-Hant){target="_blank"}。
+**解決方法**：檢查使用的個人化資料，然後檢查目標中是否有收件者有多個專案。 您也可以在傳遞活動之前，於目標工作流程中使用&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，以確保一次只有一個個人化欄位。 如需重複資料刪除的詳細資訊，請參閱[工作流程檔案](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}。
 
 ### 自動回覆處理 {#auto-reply-handling}
 

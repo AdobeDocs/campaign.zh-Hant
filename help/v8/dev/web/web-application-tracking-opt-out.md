@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 2%
@@ -41,19 +41,19 @@ ht-degree: 2%
 
 
 
-Adobe Campaign可讓您停止追蹤選擇退出透過Cookie或網路信標進行行為追蹤之一般使用者的網路行為。 此功能包括顯示橫幅以向使用者呈現該選項的功能；您可以將這些橫幅新增到網頁應用程式或登入頁面中。
+Adobe Campaign可讓您停止追蹤使用者的網路行為，這些使用者選擇退出透過Cookie或網路信標的行為追蹤功能。 此功能包括顯示橫幅以向使用者呈現該選項的功能；您可以將這些橫幅新增到網頁應用程式或登入頁面中。
 
-如果終端使用者選擇退出透過Cookie或網路信標的行為追蹤，該資訊會透過JavaScript API傳輸至Adobe Campaign追蹤伺服器。 請注意，某些管轄區可能要求客戶在提供選擇退出之前，提供使用者選擇加入（或具有其他法律要求），且客戶有責任遵守適用法律。
+如果終端使用者選擇透過Cookie或網路信標退出行為追蹤，則該資訊會透過JavaScript API傳輸至Adobe Campaign追蹤伺服器。 請注意，某些管轄區可能要求客戶在提供選擇退出之前，提供使用者選擇加入（或具有其他法律要求），且客戶有責任遵守適用法律。
 
 >[!NOTE]
 >
->當指令碼一律遵循[安全性與隱私權檢查清單](https://helpx.adobe.com/tw/campaign/kb/acc-security.html#dev)中說明的准則時。
+>當指令碼一律遵循[安全性與隱私權檢查清單](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)中說明的准則時。
 
 ## 設定橫幅 {#configuring-the-banner-}
 
 橫幅必須設定才能顯示在網頁應用程式或登入頁面中。
 
-Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。 此橫幅版本會在內容模型資料夾中顯示為個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=zh-Hant){target="_blank"}。
+Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。 此橫幅版本會在內容模型資料夾中顯示為個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ Cookie名稱為&#x200B;**apottout**。 常見的值包括：
 
 * **NL.ClientWebTracking.allow()**：設定選擇退出Cookie值以允許網頁追蹤。 預設允許網頁追蹤。
 * **NL.ClientWebTracking.forbid()**：設定選擇退出Cookie值以禁止Web追蹤。 網路追蹤需要禁止使用者輸入。
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：在使用者按一下[接受]或[拒絕]按鈕後，關閉選擇退出Cookie橫幅。 （在點按事件反升階段期間）
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：在使用者按一下「接受」或「拒絕」按鈕（在點選事件反升階段）後，關閉選擇退出Cookie橫幅。
 
   bannerDomElt {DOMElement}需要移除之Cookie橫幅的根DOM元素
 

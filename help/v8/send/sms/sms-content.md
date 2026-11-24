@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. 您可以插入個人化欄位（例如新增名字）或插入預先定義的個人化區塊（例如新增問候語），以個人化您的訊息。 按一下個人化按鈕以新增下列專案：
+1. 您可以插入個人化欄位（例如新增名字）或插入預先定義的個人化區塊（例如新增問候），以個人化您的訊息。 按一下個人化按鈕以新增下列專案：
 
    ![](assets/sms_perso.png){zoomable="yes"}
 

@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1364'
 ht-degree: 4%
 ---
 # 隔離 {#quarantine-management}
@@ -58,19 +58,19 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 >
 >當收件者將您的訊息回報為垃圾訊息，或使用「STOP」等關鍵字回覆簡訊時，其地址或電話號碼將被隔離為&#x200B;**[!UICONTROL Denylisted]**。 他們的設定檔會據此更新。
 
-另一方面，對於指定頻道，**設定檔**&#x200B;可以在取消訂閱（選擇退出）後位於&#x200B;**封鎖清單**&#x200B;上：這表示它們不再成為任何傳送的目標。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
+另一方面，針對指定頻道，**設定檔**&#x200B;可以在取消訂閱（選擇退出）後位於&#x200B;**封鎖清單**&#x200B;上：這表示它們不再為任何傳送所定位。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
->透過[&quot;mailto&quot; List-Unsubscribe方法](https://experienceleague.adobe.com/zh-hant/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}取消訂閱的收件者不會傳送到隔離區。 他們或是從與傳遞相關聯的[服務](../start/subscriptions.md)取消訂閱，或是傳送到封鎖清單（顯示在設定檔的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中） （如果未定義傳遞的服務）。
+>透過[&quot;mailto&quot; List-Unsubscribe方法](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}取消訂閱的收件者不會傳送到隔離區。 他們或是從與傳遞相關聯的[服務](../start/subscriptions.md)取消訂閱，或是傳送到封鎖清單（顯示在設定檔的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中） （如果未定義傳遞的服務）。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
 ## 電子郵件、電話或裝置為何要傳送到隔離區 {#quarantine-reason}
 
-Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些會在錯誤訊息限定期間指派。 在此頁面[&#128279;](delivery-failures.md)上進一步瞭解傳遞失敗管理。
+Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些是在錯誤訊息限定期間指派。 在此頁面](delivery-failures.md)上進一步瞭解傳遞失敗管理[。
 
-可擷取兩種型別或錯誤：
+可擷取兩種型別的錯誤：
 
 * **硬錯誤**：會立即將電子郵件地址、電話號碼或裝置傳送到隔離區。
 * **軟錯誤**：軟錯誤會增加錯誤計數器，並可能隔離電子郵件、電話號碼或裝置權杖。 Campaign執行[重試](delivery-failures.md#retries)：當錯誤計數器達到限制臨界值時，將會隔離地址、電話號碼或裝置Token。 [了解更多資訊](delivery-failures.md#retries)。
@@ -78,7 +78,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 在隔離地址清單中，**[!UICONTROL Error reason]**&#x200B;欄位會指出所選地址被置於隔離狀態的原因。 [了解更多資訊](#non-deliverable-bounces)。
 
 
-如果使用者將電子郵件歸類為垃圾訊息，該訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops){target="_blank"}中的意見回圈。
+如果使用者將電子郵件歸類為垃圾訊息，則訊息會自動重新導向至Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。 此狀態僅適用於地址，而且設定檔不在封鎖清單中，因此使用者會繼續收到SMS訊息和推播通知。 進一步瞭解[傳遞最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}中的意見回圈。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 ### 傳送的隔離{#delivery-quarantines}
 
-隔離地址會列在傳送準備階段期間，並列在傳送控制面板的傳送記錄中。
+在傳送準備階段期間，隔離的地址會列在傳送控制面板的傳送記錄檔中。
 
 對於每個傳遞，您也可以檢查&#x200B;**[!UICONTROL Delivery summary]**&#x200B;報告：它顯示傳遞目標中隔離的地址數量，並顯示：
 
@@ -121,7 +121,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 此外，此首頁的&#x200B;**報告**&#x200B;區段提供的&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;內建報告會顯示隔離地址、遇到的錯誤型別，以及依網域劃分的失敗等相關資訊。 您可以篩選特定傳送的資料，或視需要自訂此報表。
 
-在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant){target="_blank"}中進一步瞭解退信地址。
+在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}中進一步瞭解退信地址。
 
 ### 隔離的電子郵件地址 {#quarantined-recipient}
 

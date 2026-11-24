@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
@@ -120,7 +120,7 @@ SMS程式會輪詢nms:extAccount，並在其SMPP聯結器中產生新連線，�
 
 ## serverConf選項 {#sms-serverconf-options}
 
-某些設定可在serverConf.xml中調整。 就像這個檔案中的其他設定一樣，它應該在config-instance.xml檔案中指定。 所有設定都在&lt; mta2 >元素中。
+某些設定可在serverConf.xml中調整。 如同這個檔案中的其他設定，這些設定應該在config-instance.xml檔案中指定。 所有設定都在&lt; mta2 >元素中。
 
 此表格總結列出所有設定值。 最小/最大合理值可讓您大致瞭解在大多數情況下應該考慮的範圍。 偵錯值是在嘗試尋找與效能無關的問題時要選擇的值。
 

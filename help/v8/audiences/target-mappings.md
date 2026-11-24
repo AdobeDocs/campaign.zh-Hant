@@ -36,7 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 6%
@@ -56,7 +56,7 @@ Adobe Campaign隨附下列內建目標對應：
 | 名稱 | 使用至 | 結構描述 |
 |---|---|---|
 | 收件者 | 傳遞給收件者（內建收件者表格） | nms:recipient |
-| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | mns:visitor |
+| 訪客 | 傳遞給已透過轉介（病毒式行銷）針對例如收集設定檔的訪客。 | nms:visitor |
 | 訂閱 | 傳遞給已訂閱資訊服務（例如電子報）的收件者 | nms:subscription |
 | 訪客訂閱 | 傳遞給訂閱資訊服務的訪客 | nms:visitorSub |
 | 運算子 | 傳遞給Adobe Campaign操作者 | nms:operator |

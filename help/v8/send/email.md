@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -105,13 +105,13 @@ ht-degree: 8%
 
      在[本節](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
-1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至BBC地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
+1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
 
 1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 
 您的第一封電子郵件已準備就緒。 您現在需要定義對象、驗證傳遞並傳送。
 
-瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=zh-Hant){target="_blank"}中建立工作流程以匯入電子郵件內容。
+瞭解如何在此[使用案例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}中建立工作流程以匯入電子郵件內容。
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +120,7 @@ ht-degree: 8%
 >* [選取您電子郵件的對象](../audiences/gs-audiences.md)
 >* [驗證傳遞並傳送證明](preview-and-proof.md)
 >* [設定並傳送傳遞](configure-and-send.md)
->* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=zh-Hant){target="_blank"}
+>* [傳遞最佳實務](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## 測試及驗證您的電子郵件
 

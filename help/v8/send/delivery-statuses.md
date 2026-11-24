@@ -35,9 +35,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 5%
 ---
 # 傳遞狀態 {#delivery-statuses}
@@ -70,7 +70,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td> 已忽略<br /> </td> 
-   <td> 因為收件者的地址發生錯誤，所以未將傳遞傳送給收件者。 該檔案位於封鎖清單上、已隔離、未提供或重複。<br /> </td> 
+   <td> 因為收件者的地址發生錯誤，所以未將傳遞傳送給收件者。 該檔案位於封鎖清單中、已隔離、未提供或重複。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 
@@ -122,7 +122,7 @@ ht-degree: 5%
 
   在&#x200B;**[!UICONTROL NmsOperation_LimitConcurrency]**&#x200B;選項中定義同時行銷活動的限制。 預設值為 10。
 
-  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant){target="_blank"}中進一步瞭解選項。
+  身為「受管理的Cloud Services」使用者，您可以視需要使用Adobe調整此限制。 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}中進一步瞭解選項。
 
 * **資源可用性問題**
 

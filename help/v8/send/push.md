@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '971'
 ht-degree: 7%
 ---
 # 建立和傳送推播通知{#push-notifications-create}
@@ -70,7 +70,7 @@ ht-degree: 7%
 
 若要在iOS裝置上傳送通知，請執行下列步驟：
 
-1. 選取&#x200B;**[!UICONTROL Deliver on iOS]**&#x200B;傳遞範本。
+1. Select **[!UICONTROL Deliver on iOS]**&#x200B;傳遞範本。
 
    ![](assets/push_ios_1.png)
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 
    ![](assets/push_ios_2.png)
 
-1. 選取&#x200B;**[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，選取與您的行動應用程式相關的服務，然後選取應用程式的iOS版本。
+1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，選取與您的行動應用程式相關的服務，然後選取應用程式的iOS版本。
 
    ![](assets/push_ios_3.png)
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
    * **[!UICONTROL Value]**：設定將用來直接在應用程式圖示上顯示新未讀取資訊的數字。
 
-   * **[!UICONTROL Critical alert mode]**：啟用此選項，即使使用者的電話設定為焦點模式或iPhone已靜音，也可以將聲音加入您的通知。
+   * **[!UICONTROL Critical alert mode]**：啟用此選項以在您的通知中新增音效，即使使用者的電話設定為焦點模式或iPhone已靜音亦然。
 
    * **[!UICONTROL Name]**：選取在收到通知時，由行動終端機播放的音效。
 
@@ -158,7 +158,7 @@ ht-degree: 7%
 
 若要在Android裝置上傳送通知，請執行下列步驟：
 
-1. 選取&#x200B;**[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
+1. Select **[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
 
    ![](assets/push-template-android.png)
 
@@ -171,7 +171,7 @@ ht-degree: 7%
 
    ![](assets/push-android-select-target.png)
 
-1. 選取&#x200B;**[!UICONTROL Subscribers of an Android mobile application]**，選擇與您的行動應用程式相關的服務（在此案例中為Neotrips），然後選取應用程式的Android版本。
+1. Select **[!UICONTROL Subscribers of an Android mobile application]**，選擇與您的行動應用程式相關的服務（在此案例中為Neotrips），然後選取應用程式的Android版本。
 
    ![](assets/push-android-subscribers.png)
 

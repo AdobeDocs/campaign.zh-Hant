@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '315'
 ht-degree: 14%
 ---
 # 開始使用[!DNL Campaign] API {#gs-ac-api}
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 您可以使用[Campaign JavaScript API](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}在Campaign雲端資料庫中寫入或從資料庫讀取：
 
-* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
+* 業務特定的API可讓您對每個物件執行動作：傳送、工作流程、訂閱等。 在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}中進一步瞭解。
 * 使用`queryDef`和`NLWS`物件查詢資料模型資料的一般資料存取API。 深入瞭解[使用queryDef](query-api.md)查詢資料庫。
 
 請注意，在其[企業(FFDA)部署](../architecture/enterprise-deployment.md)中，Campaign可與兩個資料庫搭配使用：本機資料庫，用於使用者介面即時傳送訊息並透過API統一查詢及寫入，以及雲端資料庫，用於行銷活動執行、報告、資料擷取、批次查詢及工作流程執行。
@@ -60,7 +60,7 @@ ht-degree: 14%
 
 ## 先決條件 {#ac-api-prerequisites}
 
-使用[!DNL Adobe Campaign] API前，您必須熟悉下列主題：
+使用[!DNL Adobe Campaign] API之前，您必須熟悉下列主題：
 
 * JavaScript
 * SOAP通訊協定

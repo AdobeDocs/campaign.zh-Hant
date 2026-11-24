@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 3%
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 它可讓您擷取傳送的相關資訊，並在必要時加以編輯。 請注意，傳送後，索引標籤內容可能不會再變更。
 
-以下是使用控制面板中提供的數個標籤來監視的資訊：
+您可以使用控制面板中的數個標籤來監視以下資訊：
 
 * [傳遞摘要](#delivery-summary)
 * [傳遞報告](#delivery-reports)

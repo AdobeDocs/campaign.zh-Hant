@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Campaign包含翻譯及管理多語言翻譯的工具。 此編輯器可�
 
 第一次開啟此索引標籤時，不會包含任何資料。 按一下&#x200B;**[!UICONTROL Collect the strings to translate]**&#x200B;連結以更新網頁應用程式中的字串。
 
-Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x200B;索引標籤中定義的欄位和字串標籤：HTML區塊、Javascript等。靜態元素在網頁表單[&#128279;](static-elements-in-a-web-form.md)中的靜態元素中有詳細的說明。
+Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x200B;索引標籤中定義的欄位和字串標籤：HTML區塊、Javascript等。靜態元素在網頁表單](static-elements-in-a-web-form.md)中的[靜態元素中有詳細的說明。
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -89,7 +89,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
 ### 篩選字串 {#filtering-strings}
 
-依預設，會顯示Web應用程式的每種翻譯語言。 預設篩選器有兩種：語言和狀態。 按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL By language or status]**&#x200B;以顯示相符的下拉式方塊。 您也可以建立進階篩選。 如需篩選器的詳細資訊，請參閱[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/audience/create-filters){target=_blank}。
+依預設，會顯示Web應用程式的每種翻譯語言。 預設篩選器有兩種：語言和狀態。 按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL By language or status]**&#x200B;以顯示相符的下拉式方塊。 您也可以建立進階篩選。 如需篩選器的詳細資訊，請參閱[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}。
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -143,7 +143,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
      >
      >此型別的匯出不適用於XLIFF匯出。
 
-1. 然後選擇要記錄檔案的&#x200B;**[!UICONTROL Target folder]**。
+1. 然後選擇將記錄檔案的&#x200B;**[!UICONTROL Target folder]**。
 1. 選取檔案格式（ **[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL XLIFF]** ）並按一下&#x200B;**[!UICONTROL Start]**。
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
@@ -166,7 +166,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
    ![](assets/s_ncs_admin_survey_trad_import.png)
 
-1. 選取要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+1. Select要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
    ![](assets/s_ncs_admin_survey_trad_import_start.png)
 
@@ -188,7 +188,7 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 &lang=xx
 ```
 
-如果URL中的語言之前有其他引數。 例如： **https://myserver/webApp/APP34?status=1&lang=en**
+如果URL中的語言之前有其他引數。 例如： **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 以下列出預設可用的翻譯語言和字典。
 
@@ -449,7 +449,7 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 >[!NOTE]
 >
 >如果此Web應用程式已使用其他引數，請新增&#x200B;**&amp;lang=**。\
->例如： **https://myserver/webApp/APP34?status=1&lang=en**
+>例如： **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 進階翻譯設定 {#advanced-translation-configuration}
 

@@ -31,20 +31,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 67%
+source-wordcount: '1224'
+ht-degree: 62%
 ---
 # 探索使用者介面 {#ui-client-console}
 
-您可以透過其用戶端主控台或 Web 使用者介面存取 Adobe Campaign。 您也可以使用 API 來管理資料，並在 Campaign 平台中執行工作。
+您可以透過其使用者端主控台或網頁使用者介面存取Adobe Campaign。 您也可以使用 API 來管理資料，並在 Campaign 平台中執行工作。
 
 * **用戶端主控台** - Campaign 用戶端主控台是原生應用程式，可透過標準網際網路通訊協定 (例如 SOAP 和 HTTP) 與 Adobe Campaign 應用程式伺服器通訊。 Campaign 用戶端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign 用戶端控制台旨在實現輕鬆部署，可從網路瀏覽器部署、可自動更新，且不需要任何特定網路設定，因為它只會產生 HTTP 流量。 [了解更多](#ui-access)
 
   如需了解如何安裝和設定 Campaign 用戶端主控台，請參閱[本章節](../start/connect.md)。
 
-* **網頁存取** - Adobe Campaign 網頁存取功能可讓您使用 HTML 使用者介面，透過網頁瀏覽器存取 Campaign 功能的子集。 使用此網頁介面存取報告、控制和驗證訊息、存取監控儀表板等。  在[本章節](../start/connect.md#web-access)中進一步瞭解 Campaign Web Access。
+* **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此網頁介面存取報告、控制和驗證訊息、存取監控儀表板等。  在[本章節](../start/connect.md#web-access)中進一步瞭解 Campaign Web Access。
 
 * **API** - 若要解決更多使用案例，可使用透過 SOAP 通訊協定公開的網頁服務 API，從外部應用程式呼叫系統。 在[本頁面](../dev/api.md)中進一步瞭解 Campaign API。
 
@@ -103,7 +103,7 @@ Campaign 用戶端主控台是原生應用程式，可透過標準網際網路�
 
 對於每個功能，您都可以存取 **[!UICONTROL Browsing]** 區段中的一組主要功能。 **[!UICONTROL More]** 連結可讓您存取所有其他元件。
 
-例如，瀏覽至 **[!UICONTROL Profiles and targets]** 索引標籤時，您可以存取收件者清單、訂閱服務、現有的目標工作流程，以及建立所有這些元件的捷徑。
+例如，瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;標籤時，您可以存取收件者清單、訂閱服務、現有的鎖定目標工作流程，以及建立所有這些元件的捷徑。
 
 ![Campaign主控台使用者介面，顯示如何從[設定檔與目標標籤]存取清單](assets/overview-list.png)
 
@@ -120,7 +120,7 @@ Campaign 用戶端主控台是原生應用程式，可透過標準網際網路�
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 
@@ -214,4 +214,4 @@ The web access interface is similar to the console interface. From a browser, yo
 ## 其他資源
 
 * **[使用分項清單](../config/enumerations.md)** — 使用預先定義的下拉式清單標準化欄位值，以更快速、更一致的資料輸入。
-* **[篩選資料](../audiences/create-filters.md)** — 探索現有的內建篩選器，以存取特定的Campaign資料子集、如何建立快速篩選，或設計和共用您自己的進階篩選器。
+* **[篩選資料](../audiences/create-filters.md)** — 探索現有的內建篩選器，以存取特定的Campaign資料子集、如何建立快速篩選器，或設計和共用您自己的進階篩選器。

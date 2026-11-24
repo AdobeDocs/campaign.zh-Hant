@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 1%
 ---
 # 中間來源基礎結構中的SMS {#sms-mid}
@@ -55,14 +55,14 @@ ht-degree: 1%
 1. 在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**&#x200B;中，按一下&#x200B;**[!UICONTROL New]**&#x200B;並在開啟的新視窗中填寫表單。
 
    * **[!UICONTROL Name (login)]**&#x200B;和&#x200B;**[!UICONTROL Label]**&#x200B;為必要專案。
-   * 密碼不是強制性的，但為了安全起見，強烈建議使用。
+   * 密碼並非強制性，但強烈建議您使用密碼以提高安全性。
 
    請注意，名稱（登入）稍後將用於命名中間伺服器中的SMPP外部帳戶。
 
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
-在開啟的新視窗上，從&#x200B;**[!UICONTROL Folder]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Named rights]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
+1. 在&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;部分中，按一下&#x200B;**[!UICONTROL Add]**按鈕。
+在開啟的新視窗上，從**[!UICONTROL Folder]**&#x200B;清單中選擇&#x200B;**[!UICONTROL Named rights]**，然後在右側清單中選擇&#x200B;**[!UICONTROL ADMINISTRATION]**。
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;按鈕。
 

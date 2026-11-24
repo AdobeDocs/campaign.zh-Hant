@@ -28,20 +28,20 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '226'
 ht-degree: 0%
 ---
 # 監視和追蹤簡訊
 
 請務必監視您的SMS傳送，以確保您的行銷活動有效率。
 
-在這裡，您可能需要知道傳送傳遞後會發生什麼情況
+以下是您必須知道傳送傳遞後會發生什麼情形的可能性
 
 ## 瞭解SMS傳送控制面板
 
-傳送控制面板會提供您許多簡訊的相關資訊。
+傳送控制面板會提供您SMS的詳細資訊。
 
 若要存取儀表板，請連按兩下傳送清單中的傳送。
 

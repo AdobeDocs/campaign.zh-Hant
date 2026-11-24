@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 * 您的執行個體可用性，如果金鑰無法使用，則繼續發出警報。
 
-* VPN通道，並在出現任何問題時繼續發出警報。
+* VPN通道，並在發生任何問題時繼續發出警報。
 
 ## 安全的客戶自控金鑰整合 {#secure-cmk-integration}
 

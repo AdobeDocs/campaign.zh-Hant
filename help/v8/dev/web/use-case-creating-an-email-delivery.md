@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 1%
 ---
 # 使用實例：建立電子郵件傳遞{#use-case-creating-an-email-delivery}
@@ -60,13 +60,13 @@ ht-degree: 1%
 
 ## 步驟1 — 建立傳遞 {#step-1---creating-a-delivery}
 
-若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
+若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
 
 ![](assets/delivery_step_1.png)
 
 ## 步驟2 — 選取範本 {#step-2---selecting-a-template}
 
-選取傳遞範本，然後為您的傳遞命名。 此名稱將僅對Adobe Campaign主控台的使用者可見，不會由您的收件者可見，不過此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
+選取傳遞範本，然後為您的傳遞命名。 此名稱僅對Adobe Campaign主控台的使用者可見，不會對您的收件者可見；不過，此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
 
 ![](assets/dce_delivery_model.png)
 

@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1947'
-ht-degree: 87%
+ht-degree: 84%
 ---
 # 2022 發行說明{#2022-rn}
 
@@ -89,7 +89,7 @@ _2022 年 9 月 30 日_
 <ul> 
 <li><p>在X （先前稱為Twitter）上傳送訊息：Adobe Campaign可讓您直接將訊息張貼至您的X帳戶。 您也可以傳送直接訊息給所有追隨者。
 </p></li>
-<li><p>收集新聯絡人：Adobe Campaign 可以自動復原輪廓資料，讓您執行目標選擇行銷活動並實施跨管道策略。
+<li><p>收集新聯絡人： Adobe Campaign可以自動復原設定檔資料，讓您執行目標定位行銷活動並實施跨管道策略。
 </p></li>
 </ul>
 <p>在<a href="../connect/ac-tw.md">詳細檔案</a>中瞭解如何連結Campaign和X。</p>
@@ -266,7 +266,7 @@ _2022 年 5 月 18 日_
 **修正**
 
 * 修復了使用種子和控制組定期傳送時發生的問題。 (NEO-41197)
-* 修正 FFDA 上的一個問題，即當個人化區塊包含以下字元之一時，在傳送過程中 (最多256)，屬於同一個 deliveryPart 的電子郵件傳送被封鎖： `' & < > "`。 個人化區塊現在支援這些字元 (例如：firstname=&quot;Brian O&#39;Neil&quot;)。 (NEO-43184)
+* 修正FFDA上的一個問題，即當個人化區塊包含以下字元之一時，在傳送過程中（最多256），屬於同一個deliveryPart的所有收件者都會封鎖電子郵件傳送： `' & < > "`。 個人化區塊現在支援這些字元 (例如：firstname=&quot;Brian O&#39;Neil&quot;)。 (NEO-43184)
 * 修復了使用自訂結構描述作為目標對應時可能導致追蹤工作流程失敗的問題。 現在，我們透過目標對應精靈產生 broadLog 結構描述時，確保自訂目標結構描述的外部連結的類型正確。 (NEO-43506)
 * 修復了一個問題，該問題可能導致 FFDA 部署工作流程對於英文以外的語言失敗。 (NEO-44561)
 

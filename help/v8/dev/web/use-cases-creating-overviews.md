@@ -31,7 +31,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >在此階段，網頁應用程式不在它的應用程式內容中，因此無法在資料夾上測試篩選器。
+   >在這個階段，網頁應用程式不在它的應用程式內容中；因此，無法在資料夾上測試篩選器。
 
 ## 新增按鈕以設定新的Web應用程式 {#adding-a-button-to-configure-a-new-web-application}
 
