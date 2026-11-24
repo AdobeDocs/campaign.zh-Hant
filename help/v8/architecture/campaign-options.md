@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 36111995a9a550d5089107bbc1f734c204db8aff
+source-git-commit: 92bab89570eca3eb13d6010db0deec74e7860c91
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2849'
 ht-degree: 3%
 ---
 # 行銷活動選項 {#campaign-options}
@@ -55,12 +55,12 @@ ht-degree: 3%
 您可以從JavaScript程式碼、個人化和查詢中讀取和寫入選項值。
 
 * **JavaScript程式碼**，例如JavaScript程式碼工作流程活動： `getOption('OptionName')`會傳回選項的值，且`setOption('OptionName', value, 'description')`會加以設定。 例如，`getOption('IMS_ORG_ID')`。 深入瞭解[getOption](../../campaign-api/f-getoption.md)和[setOption](../../campaign-api/f-setoption.md)。
-* **傳遞個人化**： `<%@ include option='OptionName' %>`插入選項的值。 例如，`<%@ include option='NmsServer_URL' %>`在LINE訊息的網頁應用程式連結中包含伺服器URL。 透過Adobe Campaign[&#128279;](../send/line/line.md)在傳送直接LINE訊息中瞭解更多。
+* **傳遞個人化**： `<%@ include option='OptionName' %>`插入選項的值。 例如，`<%@ include option='NmsServer_URL' %>`在LINE訊息的網頁應用程式連結中包含伺服器URL。 透過Adobe Campaign](../send/line/line.md)在[傳送直接LINE訊息中瞭解更多。
 * **查詢編輯器**：在&#x200B;**值**&#x200B;欄位中輸入`$(options:OPTION_NAME)`以使用選項的值。 深入瞭解[設計查詢](../start/design-queries.md)。
 
 ## 可用選項 {#available-options}
 
-下表列出Campaign v8中可用的選項（依區域分組）。 當檔案的另一個頁面描述某個選項時，表格會連結到該選項。
+下表列出Campaign v8中可用的選項（依區域分組）。 當檔案的另一個頁面描述某個選項時，表格會連結到該選項。 有些專案是資訊或維護選項。 列出選項並不表示可以安全變更。
 
 ### 傳遞 {#delivery-options}
 
@@ -83,7 +83,6 @@ ht-degree: 3%
 | NmsMTA_Alert_Delay | 延遲（以分鐘為單位），過了這段時間，就會將傳送視為延遲。 預設值為30分鐘。 |
 | NmsServer_MirrorPageUrl | 映象頁面伺服器的URL。 路由定義未指定URL時，此為電子郵件傳送的預設值。 依預設，它與追蹤伺服器URL相同。 |
 | XtkBarcode_SpecialChar | 啟用或停用Code128條碼的特殊字元支援。 |
-| XtkSecurity_Restrict_EditXML | 將其與值0一起新增，以停用傳遞的XML程式碼的編輯（編輯XML來源或Ctrl+F4）。 |
 | NMS_ActivateOwnerConfirmation | 將其設為1，以便在指定特定操作員或群組開始傳送時，負責傳送的操作員可以確認傳送。 將其設為0以停用：只有指定的操作員或群組，或管理員，才能確認傳送。 |
 | NmsDelivery_senderAddressMask | 電子郵件傳遞的「寄件者」欄位中允許的寄件者地址清單（以逗號分隔）。 當選項有值時，該欄位會成為下拉式清單。 此限制是全域性的：適用於每個品牌和傳遞範本，僅支援靜態地址。 [了解更多](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#restrict-sender-address){target="_blank"} |
 
@@ -123,7 +122,7 @@ ht-degree: 3%
 
 ### 軟錯誤和隔離 {#error-options}
 
-這些選項會定義在軟錯誤（即暫時性傳送失敗）後將收件者置於隔離狀態的時間。 深入瞭解Campaign[&#128279;](../send/quarantines.md#soft-error-management)的[隔離管理，以及Campaign](../send/delivery-failures.md#retries)的傳遞失敗。
+這些選項會定義在軟錯誤（即暫時性傳送失敗）後將收件者置於隔離狀態的時間。 深入瞭解Campaign](../send/quarantines.md#soft-error-management)的[隔離管理，以及Campaign](../send/delivery-failures.md#retries)的[傳遞失敗。
 
 | 選項 | 說明 |
 |---|---|
@@ -164,6 +163,8 @@ ht-degree: 3%
 
 清理工作流程會清除舊記錄，以防止資料庫成長。 這些選項會定義Campaign保留每種資料型別的時間。 當您變更介面的延遲時，會自動建立清除延遲選項。 如果您從選項清單進行編輯，請以秒為單位表示值。 深入瞭解[一般架構](general-architecture.md)和[安全性方針](../config/security.md#consent)。
 
+只有管理員可以修改清除延遲選項。 適當的值視您的環境而定，因此請檢查您執行個體上的目前值，且不採用通用預設值。
+
 | 選項 | 說明 |
 |---|---|
 | NmsCleanup_BroadLogPurgeDelay | 拭除傳遞記錄(broadlog)之後的延遲。 |
@@ -178,7 +179,6 @@ ht-degree: 3%
 | NmsCleanup_RejectsPurgeDelay | 拭除拒絕之後的延遲。 |
 | NmsCleanup_VisitorPurgeDelay | 訪客被擦除之後的延遲。 |
 | NmsCleanup_WorkflowResultPurgeDelay | 拭除工作流程結果之後的延遲。 |
-| XtkCleanup_NoStats | 將其設為1，以便清理工作流程不會更新資料庫統計資料。 |
 | WdbcKillSessionPolicy | PostgreSQL上無條件停止工作流程的行為。 0 （預設）：停止工作流程處理作業，不會影響資料庫。 1：停止處理並取消查詢(pg_cancel_backend)。 2：停止處理並終止查詢(pg_terminate_backend)。 |
 | XtkSequence_AutoGeneration | 套用至在設定此選項後建立的自訂結構描述，具有autopk=&quot;true&quot;且沒有pkSequence屬性：Campaign會自動產生序列。 |
 
@@ -201,8 +201,8 @@ ht-degree: 3%
 | 選項 | 說明 |
 |---|---|
 | NmsInteraction_UseDaemon | 將其設為1可啟用非同步寫入主張，或設為0可停用它。 |
-| NmsInteraction_MapWorkflowId | 所有產生的同步工作流程清單。 控制例項的維護選項。 |
-| NmsExecutionInstanceId | 執行例項的識別碼。 在執行例項上可用。 |
+| NmsInteraction_MapWorkflowId | 所有產生的同步工作流程清單。 控制執行個體的資訊性維護選項：請勿修改它。 |
+| NmsExecutionInstanceId | 執行例項的識別碼。 執行例項上可用的資訊選項：請勿修改它。 |
 
 下列選項也是控制例項的維護選項：
 
