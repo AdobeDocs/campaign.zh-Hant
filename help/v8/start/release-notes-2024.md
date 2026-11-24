@@ -188,7 +188,7 @@ _2024 年 2 月 14 日_
 
 ### 新功能 {#new-8-6-1}
 
-* 從這個版本開始，您可以存取新的&#x200B;**Campaign Web使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境使用。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。
+* 從這個版本開始，您可以存取新的&#x200B;**Campaign Web使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境使用。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。
 
   >[!AVAILABILITY]
   >

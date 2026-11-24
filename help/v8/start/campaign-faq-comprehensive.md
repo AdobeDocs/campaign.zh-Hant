@@ -68,7 +68,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 以管理員使用者身分，存取Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}以下載Adobe Campaign。
 
-在此頁面](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}上進一步瞭解發佈中心[。
+在此頁面[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=zh-Hant){target="_blank"}上進一步瞭解發佈中心。
 
 +++
 
@@ -78,7 +78,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 自Campaign v8.6發行版本開始，您可以透過中央[!DNL CX Enterprise]環境存取&#x200B;**Campaign Web使用者介面**。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。
 
-在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
+在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。 在 [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home){target="_blank"}之中瞭解更多資訊。
 
 
 **相關主題：**
@@ -377,7 +377,7 @@ Campaign v8是Adobe的平台，適用於需要大量行銷活動（每小時2000
 * 沒有基礎建設管理或IT負荷
 * 內建的高可用性與災難回覆
 
-深入瞭解[Campaign v8架構](../architecture/architecture.md)以及Campaign v8與Classic v7](../start/v7-to-v8.md)之間的[差異。
+深入瞭解[Campaign v8架構](../architecture/architecture.md)以及Campaign v8與Classic v7[&#128279;](../start/v7-to-v8.md)之間的差異。
 
 +++
 
