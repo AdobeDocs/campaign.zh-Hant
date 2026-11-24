@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 2%
@@ -132,7 +132,7 @@ Adobe Campaign也可讓您建立種子地址範本，這些範本會匯入至傳
 
 ## 種子地址和自訂表格 {#using-an-external-recipient-table}
 
-如果傳送表格是外部表格，您將需要執行其他設定。 **[!UICONTROL nms:seedmember]**&#x200B;結構描述必須延伸。 索引標籤會新增至種子地址，以定義適當的欄位
+如果傳送表格是外部表格，您將需要執行其他設定。 **[!UICONTROL nms:seedmember]**&#x200B;結構描述必須延伸。 索引標籤會新增至種子地址，以定義適當的欄位。
 
 在這種情況下，若要將種子地址新增到傳送中，請直接在比對索引標籤中輸入適當的欄位，或匯入地址範本。
 

@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 Adobe Campaign整合了圖形模組，用於定義及發佈&#x200B;**網路表單**，以建立包含輸入及選擇欄位的頁面，其中可能包含資料庫的資料。 這可讓您設計和張貼使用者可存取的網頁，以檢視或輸入資訊。
 
-瞭解如何在[本節](web/about-web-forms.md)中建立和發佈網路表單
+瞭解如何在[本節](web/about-web-forms.md)中建立和發佈網路表單。
 
 ![](assets/sample.png)
 
@@ -50,4 +50,4 @@ Adobe Campaign也可讓您使用來自資料庫的資料，以及適合連線使
 
 您可以建立頁面，例如外部網路上的編輯表單，或通知表單，其中包含來自資料庫的資料，以及表格、圖表、輸入表單等。此功能可讓您設計和張貼網頁，讓使用者在其中查閱或輸入資訊。
 
-在[本節](web/about-web-applications.md)中瞭解如何建立和發佈網頁應用程式
+在[本節](web/about-web-applications.md)中瞭解如何建立和發佈網頁應用程式。

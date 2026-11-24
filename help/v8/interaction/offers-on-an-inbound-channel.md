@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '2144'
 ht-degree: 1%
@@ -415,7 +415,7 @@ Neobank公司的網站有三個優惠方案空間：兩個適用於&#x200B;**最
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   URL包含&#x200B;**EnvNeobankRecip**，已識別環境的內部名稱。
+   URL包含&#x200B;**EnvNeobankIdnRecip**，已識別環境的內部名稱。
 
 當您開啟網頁時，指令碼可讓您呼叫互動引擎，以在網頁的相關空間中顯示選件的內容。 在對Adobe Campaign伺服器的單一呼叫中，引擎會決定環境、選件空間和要選取的類別。
 

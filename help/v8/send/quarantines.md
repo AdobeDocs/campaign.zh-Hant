@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 4%
 ---
 # 隔離 {#quarantine-management}
@@ -58,7 +58,7 @@ Adobe Campaign會管理線上頻道（電子郵件、簡訊、推播通知）的
 >
 >當收件者將您的訊息回報為垃圾訊息，或使用「STOP」等關鍵字回覆簡訊時，其地址或電話號碼將被隔離為&#x200B;**[!UICONTROL Denylisted]**。 他們的設定檔會據此更新。
 
-另一方面，針對指定頻道，**設定檔**&#x200B;可以在取消訂閱（選擇退出）後位於&#x200B;**封鎖清單**&#x200B;上：這表示它們不再為任何傳送所定位。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
+另一方面，**設定檔**&#x200B;可以位於&#x200B;**封鎖清單**&#x200B;上，例如在針對指定頻道的取消訂閱（選擇退出）之後：這表示它們不再成為任何傳送的目標。 因此，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都會從傳送中排除。 您可以在設定檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL No longer contact]**&#x200B;區段中，檢查設定檔是否位於一或多個頻道的封鎖清單中。 [了解更多](../audiences/view-profiles.md)
 
 >[!NOTE]
 >

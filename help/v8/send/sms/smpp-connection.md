@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Adobe Campaign支援在相同的外部帳戶上處理多個短程式碼，因此
 * 檢查網路是否已正確設定，以便與提供者建立TCP連線。
 * 要求提供者確認其是否正確允許Adobe Campaign執行個體的IP位址（大部分提供者都需要此專案）。
 * 檢查外部帳戶設定。 如果對某些欄位的值存疑，請詢問提供者。
-* 如果連線成功但不穩定，請檢查不穩定連線的[問題](#unstable-connections)。 一節。
+* 如果連線成功但不穩定，請檢查下面的[不穩定連線的問題](#unstable-connections)區段。
 * 如果連線問題難以診斷，網路擷取會為您帶來許多資訊。 請確定網路擷取在問題出現時同時執行，以便有效地進行分析。 您也應該注意問題出現的確切時間，以便在網路擷取中更容易找到問題。
 
 #### 連線不穩定的問題 {#unstable-connections}

@@ -22,16 +22,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 0%
 ---
 # 匿名互動 {#anonymous-interactions}
 
 ## 匿名互動的環境 {#environment-for-anonymous-interactions}
 
-根據預設，Campaign **互動**&#x200B;模組會附有預先設定的環境，以鎖定內建的收件者表格（已識別的優惠）。 如果您需要鎖定其他表格、匿名選件的訪客表格或自訂收件者表格等，則必須使用目標對應精靈來建立環境。 [進一步瞭解環境](interaction-env.md)。
+根據預設，Campaign **互動**&#x200B;模組附有預先設定的環境，以鎖定內建的收件者表格（已識別的優惠）。 如果您需要鎖定其他表格、匿名選件的訪客表格或自訂收件者表格等，則必須使用目標對應精靈來建立環境。 [進一步瞭解環境](interaction-env.md)。
 
 當您透過對應建立精靈建立匿名環境時，**[!UICONTROL Environment dedicated to incoming anonymous interactions]**&#x200B;方塊會在環境的&#x200B;**[!UICONTROL General]**&#x200B;標籤中自動勾選。
 

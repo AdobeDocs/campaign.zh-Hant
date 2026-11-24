@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 >在[本節](../start/create-message.md)中介紹了傳遞建立的全域概念。
 
 1. 例如，從「傳遞」控制面板建立新傳遞。
-1. Select傳遞範本&#x200B;**透過直接郵件傳遞（紙張）**。
+1. 選取傳遞範本&#x200B;**透過直接郵件（紙張）傳遞**。
 
    ![](assets/direct_mail.png)
 
@@ -133,7 +133,7 @@ ht-degree: 8%
 
 ## 開始傳遞{#start-delivery}
 
-驗證解壓縮檔案後，按一下&#x200B;**確認傳遞**&#x200B;確認訊息可讓您啟動傳遞。
+驗證解壓縮檔案後，請按一下&#x200B;**確認傳遞**。 確認訊息可讓您啟動傳送。
 
 確認會在指定的檔案中開始資料擷取。
 

@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 1%
@@ -126,7 +126,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 若要匯出資料封裝中的物件集，請遵循下列步驟：
 
 1. 透過總管的&#x200B;**[!UICONTROL Tools > Advanced > Export package...]**&#x200B;功能表瀏覽至封裝匯出小幫手。
-1. Select [型別的套件](#types-of-packages)。
+1. 選取[封裝型別](#types-of-packages)。
 
    ![](assets/package_type.png)
 
@@ -134,7 +134,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 
    >[!CAUTION]
    >
-   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 Select與資料夾對應的實體：針對優惠方案類別為&#x200B;**nms:offerCategory**、針對優惠方案環境為&#x200B;**nms:offerEnv**、針對方案為&#x200B;**nms:program**，針對計畫為&#x200B;**nms:plan**。
+   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 選取與資料夾對應的實體：優惠方案類別為&#x200B;**nms:offerCategory**、優惠方案環境為&#x200B;**nms:offerEnv**、方案為&#x200B;**nms:program**、計畫為&#x200B;**nms:plan**。
 
    相依性機制會控制實體匯出順序。 如需詳細資訊，請參閱[管理相依性](#manage-dependencies)。
 
@@ -261,9 +261,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. 用滑鼠右鍵按一下所需的實體，然後選取&#x200B;**[!UICONTROL Actions > Export in a package]**。
 
-1. 選取&#x200B;**[!UICONTROL Add to a package definition]**，然後選取要新增實體的封裝定義。
+1. Select **[!UICONTROL Add to a package definition]**，然後選取您要新增實體的封裝定義。
 
-1. 實體已新增至封裝定義，將與封裝一起匯出（請參閱[此區段](#export-packages-from-a-package-definition)）。
+1. 實體已新增至封裝定義，並將與封裝一起匯出（請參閱[此區段](#export-packages-from-a-package-definition)）。
 
 ### 設定封裝定義產生 {#configure-package-definitions-generation}
 

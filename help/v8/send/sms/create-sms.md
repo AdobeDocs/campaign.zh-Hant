@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '171'
+ht-degree: 8%
 ---
 # 建立您的第一個SMS傳遞 {#sms-delivery}
 
@@ -46,9 +46,9 @@ ht-degree: 7%
 * For mid-sourcing infrastructure,
 -->
 
-1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中重新命名您的傳遞，並視需要在&#x200B;**[!UICONTROL Delivery code]**&#x200B;欄位和&#x200B;**[!UICONTROL Nature]**&#x200B;清單中新增資訊，以進行追蹤。 您也可以新增&#x200B;**[!UICONTROL Description]**&#x200B;至您的傳遞。
+1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中重新命名您的傳遞，並在&#x200B;**[!UICONTROL Delivery code]**&#x200B;欄位和&#x200B;**[!UICONTROL Nature]**&#x200B;清單中新增資訊（若追蹤需要）。 您也可以新增&#x200B;**[!UICONTROL Description]**&#x200B;至您的傳遞。
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;按鈕。 現在，您的傳送中已有範本的所有設定。
+1. 按一下 **[!UICONTROL Continue]** 按鈕。 現在，您的傳送中已有範本的所有設定。
 
 1. 您可以簽入&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，確認所有專案都已視需要設定。 [進一步瞭解SMS索引標籤](sms-delivery-settings.md#sms-tab)
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 
 1. [定義傳遞的內容](sms-content.md)。
 
-1. [選取對象](sms-audience.md)。
+1. [Select對象](sms-audience.md)。
 
 定義對象的步驟已詳載於[此頁面](../../audiences/create-audiences.md)。
 

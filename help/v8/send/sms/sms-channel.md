@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 1%
@@ -92,7 +92,7 @@ SMS訊息使用特殊的7位元編碼，通常稱為GSM7編碼。  Wikipedia有[
 
 ## 多部分SMS （長SMS） {#multipart-sms}
 
-多部分SMS （通常稱為長SMS）是以多個部分傳送的SMS。 由於行動網路通訊協定中的技術限制，SMS不能大於140位元組（請參閱下面的SMS文字編碼一節，以瞭解SMS中可容納的字元數），因此需要分割較長的訊息。
+多部分SMS （通常稱為長SMS）是以多個部分傳送的SMS。 由於行動網路通訊協定中的技術限制，SMS不能大於140位元組（請參閱下面的SMS文字編碼一節，以取得可以在SMS中容納的字元數），因此需要分割較長的訊息。
 
 長訊息的每個部分是個別的SMS。 這些零件在網路上獨立運作，並由接收的行動電話組裝。 為了適當地處理重試和連線問題，Campaign會以相反順序傳送部分，並只在訊息的第一部分（最後傳送的部分）要求SR；由於行動電話只會在收到其第一部分時顯示訊息，因此對其他部分的重試不會在行動電話上產生重複專案。
 

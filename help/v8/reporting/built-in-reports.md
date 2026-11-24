@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 3%
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 若要存取Campaign內建報表：
 
-1. Select Adobe Campaign介面的&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
+1. 選取Adobe Campaign介面的&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
    ![](assets/reporting-access-from-home.png)
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
    ![](assets/edit-a-report.png)
 
-1. 按一下畫面頂端的&#x200B;**[!UICONTROL Back]**&#x200B;連結，可帶您回到報告清單。
+1. 按一下畫面頂端的&#x200B;**[!UICONTROL Back]**&#x200B;連結，返回報告清單。
 
    ![](assets/back-button.png)
 

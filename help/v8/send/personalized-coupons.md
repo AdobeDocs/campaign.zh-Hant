@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 1%
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如需如何管理傳遞不足的抵用券的指示，請參閱[管理不足的抵用券](#managing-insufficient-coupons)
+>如需有關如何管理傳遞之不足優惠券的指示，請參閱[管理不足的優惠券](#managing-insufficient-coupons)。
 
 若要確認傳送是否成功：
 

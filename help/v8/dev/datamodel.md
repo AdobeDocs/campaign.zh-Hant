@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 * **收件者資料表**：資料模型依賴的主要資料表，預設為收件者資料表(**nmsRecipient**)。 此表格會儲存所有行銷設定檔。 在[本節](#ootb-profiles)中進一步瞭解收件者資料表。
 
-* **傳遞資料表**：此資料表會針對每個傳遞動作儲存一個記錄。 通常是傳遞表格(**NmsDelivery**)。 此表格中的記錄代表傳遞動作或傳遞範本。 它包含執行傳遞所需的所有引數，例如目標、內容等。每個記錄都會更新數次，以反映傳遞進度
+* **傳遞資料表**：此資料表會針對每個傳遞動作儲存一個記錄。 通常是傳遞表格(**NmsDelivery**)。 此表格中的記錄代表傳遞動作或傳遞範本。 它包含執行傳遞所需的所有引數，例如目標、內容等。每個記錄都會更新數次，以反映傳送進度。
 
 * **記錄表**：這些表會儲存與行銷活動執行相關的所有記錄。
 

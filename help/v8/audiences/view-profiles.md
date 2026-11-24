@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 6%
 ---
 # 檢視現有的設定檔 {#view-profiles}
 
 瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;以存取儲存在Adobe Campaign資料庫中的收件者。
 
-從這個頁面，您可以[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
+您可以從此頁面[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
 
 ![](assets/profiles-and-targets.png)
 

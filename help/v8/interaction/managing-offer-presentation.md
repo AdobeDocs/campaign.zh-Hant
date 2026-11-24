@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 簡報規則概觀 {#presentation-rules-overview}
 
-互動可讓您使用簡報規則控制優惠方案主張的流程。 這些專屬於互動的規則是型別規則。 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 它們會在環境中參照
+互動可讓您使用簡報規則控制優惠方案主張的流程。 這些專屬於互動的規則是型別規則。 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 環境會參照這些引數。
 
 ## 建立和參考優惠方案簡報規則 {#creating-and-referencing-an-offer-presentation-rule}
 

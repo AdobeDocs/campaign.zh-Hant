@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 80%
+ht-degree: 78%
 ---
 # 管理 Campaign 的隱私權請求 {#privacy}
 
@@ -144,7 +144,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 執行刪除或存取隱私權要求時，Adobe Campaign 會根據所有包含收件者表格連結 (自有類型) 之表格中的&#x200B;**[!UICONTROL Reconciliation value]**，以搜尋所有資料主體的資料。
 
-執行隱私權請求時，考慮的內建表格清單包括：
+執行隱私權要求時，考慮的內建表格清單為：
 
 * 收件者 (recipient)
 * 收件者傳遞記錄 (broadLogRcp)

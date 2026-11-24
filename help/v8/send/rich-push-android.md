@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2046'
 ht-degree: 3%
 ---
 # 設計 Android 豐富的推播傳遞 {#rich-push}
@@ -240,7 +240,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
-1. 在&#x200B;**[!UICONTROL Product catalog options]**&#x200B;功能表下，填入下列選項：
+1. 在&#x200B;**[!UICONTROL Product catalog options]**&#x200B;功能表下，填寫下列選項：
 
    * **[!UICONTROL Action button text]**：按鈕上顯示的文字。
    * **[!UICONTROL Action button text color]**：動作按鈕文字的色彩。

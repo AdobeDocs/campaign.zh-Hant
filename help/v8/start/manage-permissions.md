@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Adobe Campaign隨附一組已命名的許可權，可讓您定義指派給使用
 
 Adobe Campaign中的預設已命名許可權為：
 
-* **[!UICONTROL ADMINISTRATION]**：具有&#x200B;**[!UICONTROL ADMINISTRATION]**&#x200B;許可權的運運算元具有執行個體的完整存取權。 管理員使用者可以執行/建立/編輯/刪除任何物件，例如工作流程、傳遞、指令碼等。**注意：** Adobe Admin Console中的產品設定檔包含「管理員」一詞，可授予Campaign控制面板的存取權。
+* **[!UICONTROL ADMINISTRATION]**：具有&#x200B;**[!UICONTROL ADMINISTRATION]**&#x200B;許可權的操作者擁有執行個體的完整存取權。 管理員使用者可以執行/建立/編輯/刪除任何物件，例如工作流程、傳遞、指令碼等。**注意：** Adobe Admin Console中的產品設定檔包含「管理員」一詞，可授予Campaign控制面板的存取權。
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**：您可以在工作流程與傳遞中設定多個核准步驟，以確保指派的運運算元或群組已核准目前狀態。 具有&#x200B;**[!UICONTROL APPROVAL ADMINISTRATION]**&#x200B;許可權的使用者可以設定核准步驟，也可以指派應核准這些步驟的運運算元或運運算元群組。 **注意：**&#x200B;產品設定檔包含「管理員」一詞（例如「核准管理員」），可授予Campaign「控制面板」的存取權。
 
