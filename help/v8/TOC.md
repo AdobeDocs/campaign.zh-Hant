@@ -336,7 +336,7 @@ ht-degree: 86%
       + [控管工作流程](dev/api/controlling-a-workflow.md)
       + [觸發訊號活動](dev/api/triggering-a-signal-activity.md)
 + API檔案 {#api-documentation}
-  + [Campaign API檔案>](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API檔案>](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-api/home)
 + 額外資源 {#resources}
   + [Campaign技術說明>](https://experienceleague.adobe.com/zh-hant/docs/campaign/technotes-ac/technotes-home)
   + [Campaign網頁使用者介面檔案>](https://experienceleague.adobe.com/tw/docs/campaign-web/v8/campaign-web-home)
