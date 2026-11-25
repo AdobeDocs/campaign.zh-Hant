@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 50%
+source-wordcount: '1833'
+ht-degree: 44%
 ---
 # 合作使用Campaign與Adobe Analytics {#ac-aa}
 
@@ -77,17 +77,17 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 從 [!DNL Adobe Analytics] 中，選擇&#x200B;**[!UICONTROL Admin tab]**，然後按一下&#x200B;**[!UICONTROL All admin]**。
 
-   ![](assets/analytics_connnector_1.png)
+   ![Adobe Analytics管理員功能表所有管理員皆強調顯示](assets/analytics_connnector_1.png)
 
-1. 按一下&#x200B;**[!UICONTROL Report suites]**。
+1. 按一下 **[!UICONTROL Report suites]**。
 
-   ![](assets/analytics_connnector_2.png)
+   在Adobe Analytics中反白顯示報表套裝連結的![管理頁面](assets/analytics_connnector_2.png)
 
 1. 從&#x200B;**[!UICONTROL Report suite manager]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL Create new]**，然後按一下&#x200B;**[!UICONTROL Report suite]**。
 
-   如需建立&#x200B;**[!UICONTROL Report suite]**&#x200B;的詳細程式，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}。
+   如需建立&#x200B;**[!UICONTROL Report suite]**&#x200B;的詳細程式，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}。
 
-   ![](assets/analytics_connnector_3.png)
+   ![開啟了「建立新報表套裝管理器」功能表並附有「報表套裝」選項](assets/analytics_connnector_3.png)
 
 1. 選取範本。
 
@@ -99,7 +99,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
    * **[!UICONTROL Go Live Date]**
    * **[!UICONTROL Estimated Page Views Per Day]**
 
-   ![](assets/analytics_connnector_4.png)
+   ![使用ID、網站標題、時區、上線日期和頁面檢視設定您的新報表套裝表單](assets/analytics_connnector_4.png)
 
 1. 設定後，按一下&#x200B;**[!UICONTROL Create report suite]**。
 
@@ -111,19 +111,19 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 從&#x200B;**[!UICONTROL Edit settings]**&#x200B;按鈕中選取&#x200B;**[!UICONTROL Conversion]** >  **[!UICONTROL Conversion variables]**。
 
-   ![](assets/analytics_connnector_5.png)
+   ![編輯設定功能表，其中的「轉換>轉換變數」反白顯示](assets/analytics_connnector_5.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add new]**&#x200B;以建立測量電子郵件行銷活動影響所需的識別碼，即內部行銷活動名稱 (cid) 和 iNmsBroadlog (bid) 表格 ID。
 
-   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=zh-Hant#admin-tools){target="_blank"}。
+   若要瞭解如何編輯&#x200B;**[!UICONTROL Conversion variables]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}。
 
-   ![](assets/analytics_connnector_6.png)
+   ![包含名為Campaign ID的eVar 5和名為Broadlog ID的eVar 6的轉換變數清單](assets/analytics_connnector_6.png)
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 然後，要建立&#x200B;**[!UICONTROL Success events]**，請從&#x200B;**[!UICONTROL Edit settings]**&#x200B;按鈕中選擇&#x200B;**[!UICONTROL Conversion]** > **[!UICONTROL Success events]**。
 
-   ![](assets/analytics_connnector_7.png)
+   ![編輯設定功能表，其中反白顯示轉換>成功事件](assets/analytics_connnector_7.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add new]**&#x200B;以設定以下&#x200B;**[!UICONTROL Success events]**：
 
@@ -138,9 +138,9 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=zh-Hant)
+   若要瞭解如何設定&#x200B;**[!UICONTROL Success events]**，請參閱此[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
-   ![](assets/analytics_connnector_8.png)
+   ![自訂成功事件清單，已啟用事件7至16：已點按、已開啟、已傳送、已取消訂閱](assets/analytics_connnector_8.png)
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -152,11 +152,11 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 從[!DNL Adobe Analytics]頂端功能表列選取&#x200B;**[!UICONTROL Components]** > **[!UICONTROL Classification sets]**，然後按一下&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/analytics_connnector_16.png)
+   ![反白顯示「分類設定」的Adobe Analytics元件功能表](assets/analytics_connnector_16.png)
 
 1. 在&#x200B;**[!UICONTROL Add New Classification Set]**&#x200B;對話方塊：
 
-   ![](assets/analytics_connnector_17.png)
+   ![新增「分類設定」對話方塊，其中包含名稱、主要型別、通知和報表套裝訂閱](assets/analytics_connnector_17.png)
 
    * 輸入分類集的&#x200B;**[!UICONTROL Name]**。
    * 將&#x200B;**[!UICONTROL Type]**&#x200B;設為&#x200B;**[!UICONTROL Primary]**。
@@ -165,7 +165,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 按一下 **[!UICONTROL Save]**。
 
-如需分類集的詳細資訊，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/sets/create-set){target="_blank"}。
+如需分類集的詳細資訊，請參閱[Adobe Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}。
 
 設定報表套裝、轉換變數、成功事件和分類設定後，您需要在Adobe Campaign中設定&#x200B;**[!UICONTROL External accounts]**。
 
@@ -175,15 +175,15 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 請注意，如果在設定外部帳戶時未顯示 **[!UICONTROL Report suite]**、**[!UICONTROL Conversion variables]** 或 **[!UICONTROL Success events]**&#x200B;之一，這表示您在與使用者相關聯的 **[!UICONTROL Product profile]** 中缺少此新建立元件的權限。
 
-如需詳細資訊，請參閱 [Adobe Analytics 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant#product-profile-admins){target="_blank"}頁面。
+如需詳細資訊，請參閱 [Adobe Analytics 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}頁面。
 
 1. 瀏覽至Adobe Campaign總管樹狀目錄的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]**&#x200B;資料夾，然後按一下&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/analytics_connnector_9.png)
+   在Campaign Explorer中顯示![外部帳戶清單，並顯示[新增]按鈕](assets/analytics_connnector_9.png)
 
 1. 使用下拉式清單，從 **[!UICONTROL Integration]** 下拉式清單中選取 **[!UICONTROL Web Analytics]** 類型和 **[!UICONTROL Adobe Analytics]**。
 
-   ![](assets/analytics_connnector_10.png)
+   ![具有Web Analytics型別和Adobe Analytics整合的新外部帳戶，設定連結](assets/analytics_connnector_10.png)
 
 1. 按一下 **[!UICONTROL Integration]** 下拉式清單旁的 **[!UICONTROL Configure]** 。
 
@@ -199,9 +199,9 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    >[!NOTE]
    >
-   >促銷活動ID和Broadlog ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >促銷活動ID和Broadlog ID欄位是透過登入頁面上的JavaScript或處理規則來收集。 [進一步瞭解處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
-   ![](assets/analytics_connnector_11.png)
+   ![設定與Adobe Analytics標籤對應報表套裝、eVar和成功事件的整合](assets/analytics_connnector_11.png)
 
 1. 從 **[!UICONTROL Events]** 類別中，對應 [!DNL Adobe Analytics] 中設定的 10 個&#x200B;**[!UICONTROL Success events]**。
 
@@ -213,7 +213,7 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
    使用 **[!UICONTROL Sync]** 按鈕， [!DNL Adobe Campaign] 將同步在 [!DNL Adobe Analytics] 中完成的名稱變更。 如果在 [!DNL Adobe Analytics] 中刪除元件，則將在 [!DNL Adobe Campaign] 中刪除該元件，或顯示為 **未找到**&#x200B;訊息。
 
-   ![](assets/analytics_connnector_12.png)
+   ![資料設定索引標籤列出整合eVar、事件和分類，並附有同步按鈕](assets/analytics_connnector_12.png)
 
    >[!NOTE]
    >
@@ -221,15 +221,15 @@ Adobe Campaign 使用 Adobe Analytics 連接器可測量網際網路客群 (Web 
 
 1. 在 **[!UICONTROL External account]** 中，按一下 **[!UICONTROL Enrich the formula...]** 連結以變更 URL 計算公式，以指定網站分析工具整合資訊 (行銷活動 ID) 和必須追蹤其活動的網站網域。
 
-   ![](assets/analytics_connnector_13.png)
+   ![外部帳戶，其擴充強調的公式連結](assets/analytics_connnector_13.png)
 
 1. 指定網站的網域名稱。
 
-   ![](assets/analytics_connnector_14.png)
+   ![使用網域欄位](assets/analytics_connnector_14.png)擴充追蹤URL對話方塊的計算公式
 
 1. 按一下 **[!UICONTROL Next]** 並確保已儲存域名。
 
-   ![](assets/analytics_connnector_15.png)
+   ![含有多載公式選項和追蹤指令碼的計算公式編輯器](assets/analytics_connnector_15.png)
 
 1. 如有必要，您可以多載計算公式。 要執行此操作，請核取方塊並直接在視窗中編輯公式。
 
@@ -252,7 +252,7 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 此工作流程可從Campaign Explorer樹狀結構中的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**&#x200B;資料夾下使用。
 
-![](assets/webanalytics_workflows.png)
+![Web Analytics處理技術工作流程，包含訊號、差異計算及指標傳送步驟](assets/webanalytics_workflows.png)
 
 **[!UICONTROL Sending of indicators and campaign attributes]**&#x200B;工作流程可讓您使用Adobe Analytics Connector透過Adobe Campaign將電子郵件行銷活動指標傳送至[!DNL CX Enterprise]。 此工作流程每天凌晨 4:00 會觸發，且可能需要 24 小時才會將資料傳送至 Analytics。
 
@@ -279,8 +279,8 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 * **[!UICONTROL Internal name]** (@internalName)
 * **[!UICONTROL Label]** (@label)
-* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
-* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **&#x200B;**&#x200B;Campaign 套件時
+* **[!UICONTROL Label]** (operation/@label): 僅在安裝了 **** Campaign 套件時
+* **[!UICONTROL Nature]** (operation/@nature): 僅在安裝了 **** Campaign 套件時
 * **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
 * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
@@ -292,12 +292,12 @@ Adobe Campaign與Adobe Analytics之間的資料交換由技術工作流程處理
 
 1. 開啟要追蹤之行銷活動的傳送。
 
-   ![](assets/webanalytics_delivery_properties_003.png)
+   ![在行銷活動工作流程中，使用傳送屬性按鈕箭頭的電子郵件傳送](assets/webanalytics_delivery_properties_003.png)
 
 1. 開啟傳送屬性。
 1. 前往&#x200B;**[!UICONTROL Web Analytics]**&#x200B;標籤，並選取先前建立的外部帳戶。 請參閱[在Adobe Campaign中設定外部帳戶](#external-account-ac)。
 
-   ![](assets/webanalytics_delivery_properties_002.png)
+   ![傳遞屬性Web Analytics索引標籤，其中的Web Analytics帳戶清單顯示Adobe Analytics整合](assets/webanalytics_delivery_properties_002.png)
 
 1. 您現在可以傳送傳遞內容，並在 Adobe Analytics 中存取報告。
 

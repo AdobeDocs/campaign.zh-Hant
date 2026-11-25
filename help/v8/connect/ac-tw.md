@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 3%
+source-wordcount: '1168'
+ht-degree: 2%
 ---
 # 使用Campaign和X (Twitter) {#tw-ac-ovv}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 若要開始進行這項整合，您必須註冊[X開發人員帳戶](https://developer.twitter.com){target="_blank"}。
 
-Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面[&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權。
+Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入口網站套用提升的存取權。 在此頁面](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}中進一步瞭解X提升存取權[。
 
 ## 在X上建立應用程式 {#create-an-app-on-twitter}
 
@@ -81,15 +81,15 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 1. 讓X助理引導您完成程式。
 1. 若要允許Adobe Campaign在您的帳戶上建立貼文，請從應用程式的[使用者驗證設定]區段編輯&#x200B;**應用程式許可權**。 選取&#x200B;**讀取、寫入和直接訊息**。
 
-   ![](assets/tw-permissions.png)
+   ![已選取讀取和寫入及直接訊息的應用程式許可權](assets/tw-permissions.png)
 
 1. 在&#x200B;**應用程式型別**&#x200B;區段中，選取&#x200B;**網頁應用程式、自動應用程式或機器人**。 您可以將&#x200B;**回撥URL**&#x200B;欄位保留空白，然後儲存您的設定。
 
-   ![](assets/tw-app-type.png)
+   ![選取為機密使用者端的Web應用程式、自動應用程式或機器人的應用程式型別](assets/tw-app-type.png)
 
 1. 回到您的應用程式儀表板，選取您的應用程式並瀏覽至&#x200B;**金鑰和代號**&#x200B;索引標籤。 在&#x200B;**存取Token和密碼**&#x200B;底下，如果未提及&#x200B;**讀取、寫入和直接訊息**&#x200B;許可權，您必須重新產生應用程式的權杖和密碼。 請注意，所有金鑰和權杖在建立後即必須儲存。 您需要他們來設定您的Campaign Twitter服務。
 
-   ![](assets/tw-permissions-check.png)
+   ![驗證權杖，顯示以讀取、寫入和直接訊息許可權建立的存取權杖和密碼](assets/tw-permissions-check.png)
 
 
 >[!NOTE]
@@ -122,7 +122,7 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 
 1. 依預設，追隨者會儲存在&#x200B;**[!UICONTROL Visitors]**&#x200B;資料夾中。 您可以從&#x200B;**[!UICONTROL Visitor folder]**&#x200B;欄位中選取其他位置。 [了解更多](../send/twitter.md#direct-tw-messages)
 
-   ![](assets/tw-service-in-ac.png)
+   ![服務新優惠可用表單，包含標籤、型別電子郵件、訪客資料夾及OAuth取用者和存取權杖欄位](assets/tw-service-in-ac.png)
 
    >[!NOTE]
    >
@@ -137,8 +137,8 @@ Campaign使用X API 1.1版。 若要使用它，您必須透過開發人員入�
 若要檢查您的設定，您可以：
 
 * 編輯您剛建立的&#x200B;**Twitter**&#x200B;服務。
-* 瀏覽&#x200B;**[!UICONTROL Twitter page]**&#x200B;標籤：應該會顯示您的Twitter帳戶。
-  ![](assets/tw-page.png)
+* 瀏覽&#x200B;**[!UICONTROL Twitter page]**標籤：應該會顯示您的Twitter帳戶。
+  在Adobe Campaign主控台中，此服務的![Twitter頁面標籤顯示連結的Jane Marge帳戶](assets/tw-page.png)
 
 ## 同步您的X帳戶 {#synchro-tw-accounts}
 
@@ -148,7 +148,7 @@ Campaign與X之間的同步作業是透過專屬的技術工作流程來管理�
 
 **[!UICONTROL Synchronization of Twitter accounts]**&#x200B;技術工作流程會在Adobe Campaign中同步X帳戶。 此工作流程會復原X位追隨者的清單，因此您可以傳送直接訊息給他們。 [了解更多](../send/twitter.md#direct-tw-messages)
 
-預設會每星期四早上7:30觸發此工作流程。 您可在實作此整合時隨時使用&#x200B;**[!UICONTROL Execute pending task(s) now]**&#x200B;選項啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 在[本頁](../../automation/workflow/scheduler.md)中瞭解更多。
+預設會每星期四早上7:30觸發此工作流程。 您可在實作此整合時隨時使用&#x200B;**[!UICONTROL Execute pending task(s) now]**&#x200B;選項啟動工作流程。  您也可以編輯排程器以變更工作流程觸發頻率。 深入瞭解[設定排程器活動](../../automation/workflow/scheduler.md#configuring-scheduler-activity)。
 
 >[!CAUTION]
 >
@@ -175,6 +175,6 @@ Adobe Campaign會針對每位追隨者儲存下列資訊：
 1. 存取帳戶&#x200B;**設定**。
 1. 瀏覽至&#x200B;**隱私權與安全**&#x200B;和&#x200B;**對象與標籤**，並勾選&#x200B;**保護您的貼文**&#x200B;選項。 您的貼文和其他帳戶資訊只會顯示給關注您的人。
 
-![](assets/do-not-localize/social_tw_test_page.png)
+![X設定已選取[保護您的貼文]選項的對象、媒體及標籤頁面](assets/do-not-localize/social_tw_test_page.png)
 
 如上所述，設定您的X應用程式和Campaign服務以搭配此測試帳戶使用。

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1472'
 ht-degree: 2%
 ---
 # 合作使用Campaign與Microsoft Dynamics 365{#crm-ms-dynamics}
@@ -89,7 +89,7 @@ ht-degree: 2%
 請遵循以下步驟：
 
 1. 瀏覽至&#x200B;**Azure Active Directory >應用程式註冊**，並選取先前建立的應用程式。
-1. 在&#x200B;**憑證和密碼**&#x200B;上選取。
+1. **憑證與密碼**&#x200B;上的Select。
 1. 從&#x200B;**憑證**&#x200B;索引標籤，按一下&#x200B;**上傳憑證**
 1. 上傳您的公開憑證。
 1. 瀏覽至&#x200B;**資訊清單**&#x200B;連結以取得&#x200B;**憑證金鑰識別碼(customKeyIdentifier)**&#x200B;和&#x200B;**金鑰識別碼(keyId)**。
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 例如：
 
-```
+```bash
 - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
 ```
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 1. 在&#x200B;**型別**&#x200B;區段中選取&#x200B;**[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部帳戶。
 1. 在&#x200B;**[!UICONTROL CRM O-Auth type]**&#x200B;下拉式清單中選取驗證方法。
 
-   ![](assets/ms-dyn-external-account.png)
+   ![具有伺服器、帳戶、CRM O-Auth型別、密碼和CRM版本](assets/ms-dyn-external-account.png)的Microsoft Dynamics CRM外部帳戶
 
    1. 若要設定Microsoft Dynamics CRM外部帳戶以使用&#x200B;**密碼認證**&#x200B;連線至Adobe Campaign，請提供下列詳細資料：
 
@@ -186,10 +186,10 @@ ht-degree: 2%
    1. 若要設定Microsoft Dynamics CRM外部帳戶以使用&#x200B;**憑證**&#x200B;連線至Adobe Campaign，請提供下列詳細資料：
 
       * **伺服器**： Microsoft CRM伺服器的URL。 若要尋找您的Microsoft CRM伺服器URL，請存取您的Microsoft Dynamics CRM帳戶，然後按一下Dynamics 365並選取您的應用程式。 接著，您可以在瀏覽器的位址列中找到您的伺服器URL，例如https://myserver.crm.dynamics.com/。
-      * **私密金鑰**：複製/貼上私密金鑰（已編碼為base64），如[本節](#config-certificate-key-id)中所述。
-      * **金鑰識別碼**：應用程式的&#x200B;**資訊清單**&#x200B;索引標籤中可用的金鑰，如[此區段](#config-certificate-key-id)中所述。
-      * **自訂金鑰識別碼**：應用程式的&#x200B;**資訊清單**&#x200B;索引標籤中可用的識別碼，如[此區段](#config-certificate-key-id)中所述。
-      * **使用者端識別碼**：可從Microsoft Azure管理入口網站找到的應用程式（使用者端）識別碼，如[本節](#get-client-id-microsoft)所述。
+      * **私密金鑰**：複製/貼上私密金鑰（編碼為base64），如[產生Microsoft Dynamics憑證金鑰識別碼和金鑰識別碼](#config-certificate-key-id)所述。
+      * **金鑰識別碼**：應用程式的&#x200B;**資訊清單**&#x200B;索引標籤中可用的金鑰，如[產生Microsoft Dynamics憑證金鑰識別碼和金鑰識別碼](#config-certificate-key-id)中所述。
+      * **自訂金鑰識別碼**：應用程式的&#x200B;**資訊清單**&#x200B;索引標籤中可用的識別碼，如[產生Microsoft Dynamics憑證金鑰識別碼和金鑰識別碼](#config-certificate-key-id)中所述。
+      * **使用者端識別碼**：可從Microsoft Azure管理入口網站找到的應用程式（使用者端）識別碼，如[取得Dynamics 365使用者端ID](#get-client-id-microsoft)中所述。
       * **CRM版本**：選擇Dynamics CRM 365 CRM版本。
 
 1. 選取&#x200B;**啟用**&#x200B;選項，以在Campaign中啟用帳戶。
@@ -216,7 +216,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Synchronizing enumerations...]**&#x200B;連結開啟助理。
 1. 選取符合Dynamics 365列舉的Adobe Campaign列舉。
-您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在&#x200B;**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
+您可以將Adobe Campaign列舉的所有值取代為CRM的值：若要這麼做，請在**[!UICONTROL Replace]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。
 1. 按一下&#x200B;**[!UICONTROL Next]**，然後按&#x200B;**[!UICONTROL Start]**&#x200B;開始匯入分項清單。
 1. 瀏覽&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點以檢查匯入的值。
 
@@ -224,9 +224,9 @@ Adobe Campaign和Microsoft Dynamics 365現已連線。 您可以設定兩個系�
 
 若要在Adobe Campaign資料和Microsoft CRM之間同步資料，請建立工作流程並使用&#x200B;**[!UICONTROL CRM connector]**&#x200B;活動。
 
-在此頁面[&#128279;](crm-data-sync.md)中進一步瞭解資料同步處理。
+在此頁面](crm-data-sync.md)中進一步瞭解資料同步處理[。
 
-在此頁面[&#128279;](../config/enumerations.md)中進一步瞭解Campaign 中的列舉管理。
+在此頁面](../config/enumerations.md)中進一步瞭解Campaign [中的列舉管理。
 
 ### 支援的欄位資料型別 {#ms-dyn-supported-types}
 

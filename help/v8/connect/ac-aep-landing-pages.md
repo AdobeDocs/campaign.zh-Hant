@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1161'
 ht-degree: 1%
 ---
 # 從Adobe Campaign登陸頁面更新Adobe Experience Platform設定檔 {#ac-aep-lp}
@@ -69,7 +69,7 @@ Adobe Cloud Platform API使用OAuth 2.0通訊協定進行驗證和授權。 若�
    * `CLIENT SECRET`
    * `ORGANIZATION ID`
 
-   ![](assets/ac-lp-oauth.png){width="70%"}
+   ![具有Experience Platform API和OAuth伺服器對伺服器憑證的Adobe Developer Console專案](assets/ac-lp-oauth.png){width="70%"}
 
 現在您的OAuth連線已設定完畢，請建立並設定新的&#x200B;**[!UICONTROL HTTP API]** Source連線，將Adobe Campaign與Adobe Experience Platform連結。
 
@@ -79,21 +79,21 @@ OAuth連線就緒後，下一步就是在Adobe Experience Platform中建立&#x20
 
 1. 導覽至Adobe Experience Platform **[!UICONTROL Sources]**，搜尋&#x200B;**[!UICONTROL HTTP API]**&#x200B;來源，然後按一下&#x200B;**[!UICONTROL Add data]**。
 
-   ![](assets/ac-lp-source.png){width="70%"}
+   ![已使用HTTP API來源新增資料按鈕](assets/ac-lp-source.png){width="70%"}搜尋http的Experience Platform來源目錄
 
-1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant){target="_blank"}。
+1. 視需要設定連線。 有關如何設定HTTP API連線的詳細資訊，請參閱[Adobe Experience Platform來原始檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}。
 
    在&#x200B;**[!UICONTROL Authentication]**&#x200B;步驟中，開啟&#x200B;**[!UICONTROL Enable authentication]**&#x200B;選項，以使用先前透過OAuth整合產生的存取權杖進行驗證。
 
-   ![](assets/ac-lp-source-authentication.png){width="70%"}
+   ![啟用[啟用驗證]切換功能時，連線HTTP API帳戶步驟](assets/ac-lp-source-authentication.png){width="70%"}
 
 1. 設定來源連線後，串流端點就會顯示。 需要此端點才能將資料內嵌至Adobe Experience Platform。
 
-   ![](assets/ac-lp-endpoint.png){width="70%"}
+   ![HTTP API來源詳細資訊頁面，其中強調串流端點欄位](assets/ac-lp-endpoint.png){width="70%"}
 
    您也可以從&#x200B;**[!UICONTROL Dataflows]**&#x200B;索引標籤開啟新建立的資料流，以存取擷取到Adobe Experience Platform的資料格式範例。
 
-   ![](assets/ac-lp-schema.png){width="70%"}
+   ![HTTP API資料流頁面，其中醒目提示複製結構描述裝載選項](assets/ac-lp-schema.png){width="70%"}
 
 HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定選項，才能啟用Adobe Experience Platform連線。
 
@@ -115,7 +115,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
    * IMS_ORG_ID =組織識別碼
    * IMS_CLIENT_API_KEY = cryptString（使用者端ID）
 
-   ![](assets/ac-lp-xtk.png){width="70%"}
+   ![已選取IMS_CLIENT_API_KEY、IMS_CLIENT_ID、IMS_CLIENT_SECRET和IMS_ORG_ID的促銷活動選項清單](assets/ac-lp-xtk.png){width="70%"}
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ HTTP API Source連線已設定完畢，您需要在Adobe Campaign中新增特定
 
 >[!TAB 使用JavaScript程式碼活動新增選項]
 
-若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/zh-hant/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
+若要在執行登入頁面工作流程時自動設定這些選項，請使用下列程式碼將&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動新增至您的工作流程。 [瞭解如何設定JavaScript程式碼活動](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 在執行工作流程時，系統會自動在Campaign主控台中使用提供的值建立選項。
 
@@ -157,7 +157,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    >
    >存取權杖和驗證資料會從先前設定的選項中自動擷取。
 
-   ![](assets/ac-lp-script.png){width="70%"}
+   ![使用自訂aepAPI程式碼更新AEP中設定檔的Campaign JavaScript程式碼清單](assets/ac-lp-script.png){width="70%"}
 
    +++  指令碼1 — 從Experience Platform載入設定檔屬性
 
@@ -358,13 +358,13 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 以下是登陸頁面前後使用JavaScript程式碼活動的範例工作流程：
 
-![](assets/ac-lp-wkf.png){width="70%"}
+![登陸頁面工作流程：預先載入、從AEP載入設定檔詳細資料、選擇退出/加入網頁、更新設定檔、結束](assets/ac-lp-wkf.png){width="70%"}
 
 以下是登入頁面和JavaScript程式碼活動的範例，其設定是用來更新Adobe Experience Platform中的設定檔屬性：
 
-![](assets/ac-lp-example.png){width="70%"}
+![包含選擇退出電子郵件、簡訊和推播核取方塊以及提交按鈕的登陸頁面預覽](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+![使用將設定檔選擇退出值傳送至Experience Platform的程式碼更新設定檔指令碼活動](assets/ac-lp-code.png){width="70%" zoomable="yes"}
 
 ### 更多資訊
 

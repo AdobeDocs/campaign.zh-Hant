@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1536'
 ht-degree: 1%
 ---
 # 在Campaign和您的CRM之間同步資料 {#data-synchronization}
@@ -40,13 +40,13 @@ Adobe Campaign與您的CRM之間的資料同步是由&#x200B;**CRM Connector**&#
 
 例如，若要將Microsoft Dynamics資料匯入Adobe Campaign，請建立下列型別的工作流程：
 
-![](assets/ms-dyn-wf.png)
+![匯入MS Dynamics工作流程： CRM聯結器、擴充、重複資料刪除及依序更新資料活動](assets/ms-dyn-wf.png)
 
 此工作流程會透過Microsoft Dynamics匯入連絡人、將其與現有的Adobe Campaign資料同步、刪除重複的連絡人，以及更新Adobe Campaign資料庫。
 
 需要設定&#x200B;**[!UICONTROL CRM Connector]**&#x200B;活動以同步資料。
 
-![](assets/crm-connector-ms-dyn.png)
+![CRM聯結器活動設定為從CRM匯入，具有Microsoft Dynamics CRM、連絡人物件及遠端欄位](assets/crm-connector-ms-dyn.png)
 
 使用此活動，您可以：
 
@@ -55,11 +55,11 @@ Adobe Campaign與您的CRM之間的資料同步是由&#x200B;**CRM Connector**&#
 * 匯入CRM中刪除的物件 — [深入瞭解](#importing-objects-deleted-in-the-crm)
 * 刪除CRM中的物件 — [深入瞭解](#deleting-objects-in-the-crm)
 
-![](assets/crm-remote-op.png)
+![CRM聯結器型別清單，包含從CRM匯入、匯出至CRM、匯入CRM中刪除的物件以及刪除物件](assets/crm-remote-op.png)
 
 Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的物件：帳戶、商機、銷售機會、聯絡人等。
 
-![](assets/crm-remote-obj.png)
+已選取連絡人的Salesforce CRM的![CRM聯結器遠端物件清單](assets/crm-remote-obj.png)
 
 此活動的設定取決於要執行的程式。 各種設定詳見下文。
 
@@ -67,7 +67,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 若要透過Adobe Campaign中的CRM匯入資料，您需要建立以下型別的工作流程：
 
-![](assets/crm-wf-import.png)
+![使用使用者CRM聯結器匯入工作流程、Select資料夾、使用者更新並儲存上次使用者更新活動](assets/crm-wf-import.png)
 
 1. 選取&#x200B;**[!UICONTROL Import from the CRM]**&#x200B;作業。
 1. 在&#x200B;**[!UICONTROL Remote object]**&#x200B;下拉式清單中，選取要匯入的物件。 此物件在聯結器設定期間與Adobe Campaign中建立的其中一個表格相符。
@@ -75,7 +75,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
    若要新增欄位，請按一下工具列中的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示。
 
-   如有必要，請使用&#x200B;**[!UICONTROL Conversion]**&#x200B;欄的下拉式清單來變更資料格式。 在[此區段](#data-format)中詳細說明可能的轉換型別。
+   如有必要，請使用&#x200B;**[!UICONTROL Conversion]**&#x200B;欄的下拉式清單來變更資料格式。 可能的轉換型別以[資料格式](#data-format)詳細說明。
 
    >[!CAUTION]
    >
@@ -87,21 +87,21 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
    在下列範例中，Adobe Campaign將僅匯入自2021年11月1日以來已記錄某些活動的聯絡人。
 
-   ![](assets/crm-task-import-filter.png)
+   ![編輯篩選器對話方塊，其條件為CRM聯結器匯入2021年12月1日之後的最後一個活動](assets/crm-task-import-filter.png)
 
    >[!CAUTION]
    >
-   >與資料篩選模式相關的限制在[此區段](#filtering-data)中有詳細說明。
+   >與資料篩選模式相關的限制在[篩選資料](#filtering-data)中有詳細說明。
 
 1. 選取&#x200B;**[!UICONTROL Use automatic index...]**&#x200B;選項，根據日期及上次修改時間，自動管理CRM與Adobe Campaign之間的增量物件同步。
 
-   如需詳細資訊，請參閱[本章節](#variable-management)。
+   如需詳細資訊，請參閱[管理變數](#variable-management)。
 
 ### 管理變數 {#variable-management}
 
 啟動&#x200B;**[!UICONTROL Automatic index]**&#x200B;選項，僅收集自上次匯入後修改的物件。
 
-![](assets/use-auto-index.png)
+![使用自動索引對話方塊，並搭配自動索引選項、選項名稱以及索引欄位LastReferencedDate](assets/use-auto-index.png)
 
 上次同步化的日期儲存在組態視窗中指定的選項中，預設為： **LASTIMPORT_&lt;%=instance.internalName%>_&lt;%=activityName%>**。
 
@@ -149,7 +149,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 清單中的欄順序是排序順序：
 
-![](assets/crm-import-order.png)
+![依對話方塊排序，依遞減順序依Level__c排序，然後依MailingCity](assets/crm-import-order.png)
 
 ### 記錄識別 {#record-identification}
 
@@ -159,7 +159,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 然後選取您要匯入之入站母體的欄位，如下所示：
 
-![](assets/use-population-calc-upstream.png)
+![CRM聯結器使用母體計算的上游選取及遠端欄位AccountId和ID](assets/use-population-calc-upstream.png)
 
 ## 匯出至CRM {#exporting-to-the-crm}
 
@@ -167,7 +167,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 若要將資料匯出至您的CRM，請建立以下型別的工作流程：
 
-![](assets/crm-export-diagram.png)
+![CRM匯出工作流程：排程器、查詢要匯出的銷售機會、匯出銷售機會MsCrm聯結器並更新銷售機會](assets/crm-export-diagram.png)
 
 1. 選取&#x200B;**[!UICONTROL Export to CRM]**&#x200B;作業。
 1. 移至&#x200B;**[!UICONTROL Remote object]**&#x200B;下拉式清單，並選取要匯出的物件。 此物件在聯結器設定期間與Adobe Campaign中建立的其中一個表格相符。
@@ -178,7 +178,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 1. 如果您需要執行更快速的匯出，請核取&#x200B;**[!UICONTROL Export in Batches]**&#x200B;選項。
 
-   ![](assets/crm-export-batch.png)
+   ![已將CRM聯結器設定為「匯出至CRM」，並選取「以批次匯出」選項](assets/crm-export-batch.png)
 
 1. 在&#x200B;**[!UICONTROL Mapping]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL New]**&#x200B;以指定要匯出的欄位及其在您CRM中的對應。
 
@@ -188,7 +188,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
    >
    >如果欄位未定義相符專案，則無法更新值：這些值會直接插入您的CRM。
 
-   如有必要，請使用&#x200B;**[!UICONTROL Conversion]**&#x200B;欄的下拉式清單來變更資料格式。 在[此區段](#data-format)中詳細說明可能的轉換型別。
+   如有必要，請使用&#x200B;**[!UICONTROL Conversion]**&#x200B;欄的下拉式清單來變更資料格式。 可能的轉換型別以[資料格式](#data-format)詳細說明。
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 要執行此操作，請選取要在相符欄中套用的轉換。
 
-![](assets/crm-task-import.png)
+使用轉換清單的![遠端欄位CreatedDate：預設、僅日期、無時間位移、複製/貼上](assets/crm-task-import.png)
 
 **[!UICONTROL Default]**&#x200B;模式會套用自動資料轉換，在大多數情況下等於複製/貼上資料。 但是，會套用時區管理。
 
@@ -216,11 +216,11 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 在資料匯入或匯出的架構中，您可以將特定程式套用至錯誤和拒絕。 若要這麼做，請在&#x200B;**[!UICONTROL Behavior]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Keep the rejections in a file]**&#x200B;和&#x200B;**[!UICONTROL Process errors]**&#x200B;選項。
 
-![](assets/crm-export-options.png)
+![CRM Connector行為索引標籤，將「拒絕專案保留在檔案中」和「處理錯誤」選取為](assets/crm-export-options.png)
 
 這些選項會新增相關的輸出轉變。
 
-![](assets/crm-export-transitions.png)
+![工作流程中的CRM Connector活動具有Error、OK、Reject和Continue輸出轉換](assets/crm-export-transitions.png)
 
 然後插入相關活動以處理資料。 例如，新增&#x200B;**等待**&#x200B;活動並排程錯誤重試。
 
