@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '373'
 ht-degree: 2%
 ---
 # 載入傳遞內容{#loading-delivery-content}
@@ -39,7 +39,7 @@ ht-degree: 2%
 
    以下是S3外部帳戶的範例：
 
-   ![](assets/delivery_loadcontent_filetransfertexamples3.png)
+   ![已填入AWS S3型別、伺服器、AWS存取金鑰ID和機密存取金鑰欄位的外部帳戶建立表單](assets/delivery_loadcontent_filetransfertexamples3.png)
 
 1. 建立新的工作流程，例如，從&#x200B;**[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**。
 1. 將&#x200B;**[!UICONTROL File transfer]**&#x200B;活動新增至您的工作流程，並透過指定進行設定
@@ -47,16 +47,16 @@ ht-degree: 2%
    * 用來連線至S3或(S) FTP伺服器的外部帳戶。
    * S3或(S) FTP伺服器上的檔案路徑。
 
-   ![](assets/delivery_loadcontent_filetransfertexample.png)
+   ![檔案傳輸活動設定為[檔案下載]，使用外部帳戶和伺服器資料夾路徑指向HTML檔案](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. 新增&#x200B;**[!UICONTROL Delivery]**&#x200B;活動並將其連線到&#x200B;**[!UICONTROL File transfer]**&#x200B;活動的出站轉變。 請依照以下步驟設定：
 
    * 傳送：根據您的需求，可以是系統中已建立的特定傳送，或根據現有範本的新傳送。
    * 收件者：在此範例中，將視為在傳送本身中指定目標。
    * 內容：即使內容已匯入上一個活動，請選取&#x200B;**[!UICONTROL Specified in the delivery]**。 由於內容是從遠端伺服器上的檔案直接匯入，因此在工作流程處理時不會有任何識別碼，且無法識別為來自入站事件。
-   * 要執行的動作：選取&#x200B;**[!UICONTROL Save]**&#x200B;以儲存傳遞，並可在執行工作流程後從&#x200B;**[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;存取它。
+   * 要執行的動作： Select **[!UICONTROL Save]**&#x200B;可儲存傳遞，且執行工作流程後可從&#x200B;**[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;存取。
 
-   ![](assets/delivery_loadcontent_activityexample.png)
+   ![傳遞活動，其中包含來自範本的新傳遞、傳遞和動作中指定的內容儲存](assets/delivery_loadcontent_activityexample.png)
 
 1. 在&#x200B;**[!UICONTROL Delivery]**&#x200B;活動的&#x200B;**[!UICONTROL Script]**&#x200B;索引標籤中，新增下列命令以載入傳遞中匯入檔案的內容：
 
@@ -64,7 +64,7 @@ ht-degree: 2%
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   ![](assets/delivery_loadcontent_script.png)
+   使用命令delivery.content.html.source=loadFile(vars.filename)![&#128279;](assets/delivery_loadcontent_script.png)的傳遞活動的指令碼標籤
 
 1. 儲存並執行工作流程。 已在&#x200B;**[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;下建立包含載入內容的新傳遞。
 

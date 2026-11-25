@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 2%
+ht-degree: 1%
 ---
 # 其他操作 {#additional-operations}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 排序預設為依遞增順序提供。 若要以遞減順序排序，請將&#x200B;**%20desc**&#x200B;附加至&#x200B;**_order**&#x200B;引數的值。
 
-若要知道欄位是否可以排序，請將「可排序」引數核取至資源中繼資料中。 如需詳細資訊，請參閱[本章節](metadata-mechanism.md)。
+若要知道欄位是否可以排序，請將「可排序」引數核取至資源中繼資料中。 如需詳細資訊，請參閱[中繼資料機制](metadata-mechanism.md)。
 
 <br/>
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 * 擷取資料庫中電子郵件依字母順序排序的GET要求範例。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -59,7 +59,7 @@ ht-degree: 2%
 
   對要求的回應。
 
-  ```
+  ```json
   {
   "content": [
       "adam@email.com",
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 * 以遞減Alpha順序擷取資料庫中電子郵件的範例GET要求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -84,7 +84,7 @@ ht-degree: 2%
 
   對要求的回應。
 
-  ```
+  ```json
   {
   "content": [
       "tombinder@example.com",
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 ### 擷取篩選器中繼資料
 
-每個資源都可使用篩選器。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET要求。 此請求會傳回URL，其中針對指定資源定義了所有篩選器。 如需中繼資料的詳細資訊，請參閱[本節](metadata-mechanism.md)。
+每個資源都可使用篩選器。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET要求。 此請求會傳回URL，其中針對指定資源定義了所有篩選器。 如需中繼資料的詳細資訊，請參閱[中繼資料機制](metadata-mechanism.md)。
 
 若要識別篩選器的中繼資料並決定其使用方式，您必須對先前傳回的URL執行GET要求。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 以下範例裝載顯示如何擷取「設定檔」資源的「byText」篩選中繼資料。 首先對「設定檔」資源中繼資料執行GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 它會傳回描述篩選器的URL。
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 在URL上執行GET要求。 它會傳回設定檔資源的篩選器清單，以及與每個篩選器相關聯的中繼資料。
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -156,7 +156,7 @@ ht-degree: 2%
 
 篩選中繼資料結構範例：
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -184,7 +184,7 @@ ht-degree: 2%
 
 * 擷取型別為「email」之「service」資源的範例GET請求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -194,7 +194,7 @@ ht-degree: 2%
 
   對要求的回應。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -217,7 +217,7 @@ ht-degree: 2%
 * 擷取包含「Doe」的「profile」資源的GET要求範例，位於
 電子郵件或姓氏欄位（byText篩選器會搜尋電子郵件和姓氏欄位）。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -227,7 +227,7 @@ ht-degree: 2%
 
   對要求的回應。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -245,7 +245,7 @@ ht-degree: 2%
 
 * 擷取具有「email」型別和標籤「sport」之服務資源的範例GET要求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -255,7 +255,7 @@ ht-degree: 2%
 
   對要求的回應。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -292,7 +292,7 @@ ht-degree: 2%
 
 用於擷取交易金額為100$或以上的「設定檔」資源的範例GET請求。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「交易」自訂表格。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -356,7 +356,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 若要計算&#x200B;**messageType**&#x200B;值等於&quot;sms&quot;的所有服務，請使用&#x200B;**byChannel**&#x200B;篩選器執行GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -366,7 +366,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 它會傳回與篩選器對應的服務。
 
-```
+```json
 {
     "content": [
         {
@@ -387,7 +387,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 對&#x200B;**count**&#x200B;節點的URL執行GET要求以擷取結果數目。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -397,7 +397,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 它會傳回記錄數。
 
-```
+```json
 {
     "count": 26
 }
@@ -421,7 +421,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 顯示設定檔資源1個記錄的範例GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -431,7 +431,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 回應要求，使用&#x200B;**next**&#x200B;節點執行分頁。
 
-```
+```json
 {
     "content": [
         {
@@ -452,7 +452,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 依預設，在與含有大量資料的資料表互動時，**next**&#x200B;節點無法使用。 若要執行分頁，您必須將&#x200B;**_forcePagination=true**&#x200B;引數新增至您的呼叫URL。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

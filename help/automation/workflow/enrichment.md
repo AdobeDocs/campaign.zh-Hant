@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1729'
 ht-degree: 1%
 ---
 # 擴充{#enrichment}
@@ -36,24 +36,24 @@ ht-degree: 1%
 
 **[!UICONTROL Enrichment]**&#x200B;活動可讓您新增資訊至設定檔清單，以及連結至現有表格（建立新聯結）。 您也可以定義資料庫中設定檔的調解條件。
 
-![](assets/enrichment_design.png)
+![包含擴充活動的工作流程圖表，例如3份電子報和標籤服務，提供前1000名活動。](assets/enrichment_design.png)
 
 ## 定義 {#definitions}
 
 若要使用擴充活動，您必須熟悉新增資料時可用的各種選項。
 
-![](assets/enrichment_edit.png)
+![擴充活動新增資料連結開啟其他資料精靈，其中包含要新增的五種資料型別。](assets/enrichment_edit.png)
 
 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;選項可讓您存取：
 
 * 篩選維度的資料：存取工作表資料
 * 連結至篩選維度的資料：連結至工作表的資料存取權
 
-![](assets/wf_enrich_linkoptions.png)
+![Select欄位以新增包含篩選維度資料以及連結至篩選維度選項的資料的頁面。](assets/wf_enrich_linkoptions.png)
 
 **[!UICONTROL A link]**&#x200B;選項可讓您在資料庫的任何資料表上建立聯結。
 
-![](assets/wf_enrich_linkstype.png)
+![連結定義頁面列出四種連結型別，並選取「定義集合」和「連結目標」區段。](assets/wf_enrich_linkstype.png)
 
 有四種型別的連結：
 
@@ -83,27 +83,27 @@ ht-degree: 1%
 
 按一下&#x200B;**[!UICONTROL Add data]**&#x200B;連結，並選取要新增的資料型別。 提供的資料型別清單取決於平台上安裝的模組和選項。 在最低限度設定中，您可以一律新增連結至篩選維度和連結的資料。
 
-![](assets/enrichment_edit.png)
+![擴充活動新增資料連結開啟其他資料精靈，其中包含要新增的五種資料型別。](assets/enrichment_edit.png)
 
 在以下範例中，將會使用目標設定檔的年齡資訊來擴充出站轉變。
 
-![](assets/enrichment_add_data.png)
+![要新增頁面的資料，該頁面的「年齡」欄位已選取在「目標維度」下方，並列在「輸出」欄中。](assets/enrichment_add_data.png)
 
 以滑鼠右鍵按一下擴充活動的入站轉變，以在擴充階段之前檢視資料。
 
-![](assets/enrichment_content_before.png)
+Union 2之後轉換的![內容功能表，其中顯示反白顯示目標選項。](assets/enrichment_content_before.png)
 
 工作表包含下列資料和相關聯的綱要：
 
-![](assets/enrichment_content_before_a.png)
+![檢視擴充前含有工作表資料的母體，以及其含有主要索引鍵和目標維度的結構描述。](assets/enrichment_content_before_a.png)
 
 在擴充階段輸出中重複此作業。
 
-![](assets/enrichment_content_after.png)
+擴充3活動後轉換上的![內容功能表，其顯示反白顯示目標選項。](assets/enrichment_content_after.png)
 
 您可以看到已新增與設定檔年齡相關的資料：
 
-![](assets/enrichment_content_after_a.png)
+![檢視具有新增「年齡」欄的母體，以及具有「年齡」、「主索引鍵」和「鎖定目標」維度的擴充結構描述。](assets/enrichment_content_after_a.png)
 
 也擴充了相符的結構描述。
 
@@ -111,11 +111,11 @@ ht-degree: 1%
 
 如果您不想保留先前定義的其他資料，請取消選取&#x200B;**[!UICONTROL Keep all additional data from the main set]**&#x200B;選項。 在此情況下，只有擴充活動中選取的其他欄會新增至傳出工作表。 將不會儲存新增到上游活動中的其他資訊。
 
-![](assets/enrichment_edit_without_additional.png)
+![擴充索引標籤，其中清除主要集中的所有額外資料，並只列出年齡（目標維度）。](assets/enrichment_edit_without_additional.png)
 
 擴充階段輸出的資料和結構描述如下：
 
-![](assets/enrichment_content_after_without_additional.png)
+![檢視母體視窗，其中包含Age資料行及其擴充後的結構描述，但不包含主集的其他資料。](assets/enrichment_content_after_without_additional.png)
 
 ## 建立連結 {#creating-a-link}
 
@@ -140,29 +140,29 @@ ht-degree: 1%
 
 1. 編輯擴充活動，然後按一下&#x200B;**新增資料……**&#x200B;連結，以建立與Country資料表的聯結。
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![具有檔案收集器、資料載入（檔案）和擴充的工作流程，具有擴充活動的新增資料連結。](assets/enrichment_edit_after_file_box.png)
 
-1. 選取&#x200B;**[!UICONTROL Link definition]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。 指定要建立的連結型別。 在此範例中，我們想將檔案收件者的國家/地區與資料庫專用表格中可用國家/地區清單中的國家/地區進行調解。 選取 **[!UICONTROL Define a link by searching for a reference among several options]** 選項。 在&#x200B;**[!UICONTROL Target schema]**&#x200B;欄位中選取國家/地區表格。
+1. Select **[!UICONTROL Link definition]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。 指定要建立的連結型別。 在此範例中，我們想將檔案收件者的國家/地區與資料庫專用表格中可用國家/地區清單中的國家/地區進行調解。 選取 **[!UICONTROL Define a link by searching for a reference among several options]** 選項。 在&#x200B;**[!UICONTROL Target schema]**&#x200B;欄位中Select國家/地區表格。
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![連結定義與「藉由在數個選項和國家/地區(nms)目標中搜尋參考來定義連結」。](assets/enrichment_add_a_link_select_option4.png)
 
 1. 最後，選取欄位，讓您將來源檔案值連結至資料庫中的值。
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![將來源國家/地區對應到國家/地區結構描述的英文標籤欄位的連結定義加入條件。](assets/enrichment_add_a_link_select_join.png)
 
 在此擴充活動的輸出中，暫時綱要將包含國家表格的連結：
 
-![](assets/enrichment_external_link_schema.png)
+![結果視窗結構描述標籤，顯示具有外部索引鍵和國家/地區連結及其欄位的產生結構。](assets/enrichment_external_link_schema.png)
 
 ## 資料調和 {#data-reconciliation}
 
 擴充活動可用於設定資料協調，包括資料載入資料庫之後。 在此情況下，**[!UICONTROL Reconciliation]**&#x200B;索引標籤可讓您定義Adobe Campaign資料庫中的資料與工作表中的資料之間的連結。
 
-選取&#x200B;**[!UICONTROL Identify the targeting document based on work data]**&#x200B;選項，指定您要建立連結的結構描述並定義加入條件：若要這麼做，請在工作資料(**[!UICONTROL Source expression]**)和目標維度(**[!UICONTROL Destination expression]**)中選取要調解的欄位。
+在&#x200B;**[!UICONTROL Identify the targeting document based on work data]**&#x200B;選項Select，指定您要建立連結的結構描述並定義加入條件：若要這麼做，請在工作資料(**[!UICONTROL Source expression]**)和目標維度(**[!UICONTROL Destination expression]**)中選取要調解的欄位。
 
 您可以使用一個或多個調和標準。
 
-![](assets/enrichment_reconciliations_tab_01.png)
+![調解標籤，含識別工作資料及來源和目的地運算式的檔案。](assets/enrichment_reconciliations_tab_01.png)
 
 如果指定了多個連線條件，則必須全部驗證這些條件，才能將資料連結在一起。
 
@@ -174,26 +174,26 @@ ht-degree: 1%
 
 例如，您可以在傳遞前擴充收件者查詢的資料。
 
-![](assets/int_enrichment_offer1.png)
+![具有依序連線之「查詢」活動、「擴充」活動和「直接」郵件傳遞活動的工作流程。](assets/int_enrichment_offer1.png)
 
 設定查詢之後（請參閱此[區段](query.md)）：
 
 1. 新增並開啟擴充活動。
 1. 在&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Add data]**。
-1. 在要新增的資料型別中選取&#x200B;**[!UICONTROL An offer proposition]**。
+1. 要新增的資料型別中的Select **[!UICONTROL An offer proposition]**。
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Select要新增的資料型別頁面，其中已選取優惠方案主張。](assets/int_enrichment_offer2.png)
 
 1. 指定要新增之主張的識別碼和標籤。
 1. 指定優惠方案選取專案。 對此有兩種可能的選項：
 
    * **[!UICONTROL Search for the best offer in a category]**：核取此選項，並指定優惠方案引擎呼叫引數（優惠方案空間、類別或主題、聯絡日期、要保留的優惠方案數目）。 引擎將根據這些引數自動計算要新增的選件。 我們建議完成&#x200B;**[!UICONTROL Category]**&#x200B;或&#x200B;**[!UICONTROL Theme]**&#x200B;欄位，而不是同時完成兩者。
 
-     ![](assets/int_enrichment_offer3.png)
+     ![優惠方案主張頁面，包含識別碼、標籤、空間、優惠方案類別和連絡人日期欄位，以搜尋最佳優惠方案。](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**：核取此選項，並指定優惠方案空間、特定優惠方案和連絡日期，以直接設定您要新增的優惠方案，而不呼叫優惠方案引擎。
 
-     ![](assets/int_enrichment_offer4.png)
+     ![優惠方案主張頁面，包含識別碼、標籤、空間、特定優惠方案，以及預先定義優惠方案的聯絡日期。](assets/int_enrichment_offer4.png)
 
 1. 然後，設定與您所選管道對應的傳送活動。 請參閱[跨通道傳遞](cross-channel-deliveries.md)。
 
@@ -207,15 +207,15 @@ ht-degree: 1%
 
 操作步驟：
 
-1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Add data]**。
+1. 在活動的&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中的Select **[!UICONTROL Add data]**。
 1. 在您選擇要新增的資料型別視窗中，選取&#x200B;**[!UICONTROL A link]**。
-1. 選取您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
+1. Select您要建立的連結型別及其目標。 在此案例中，目標是選件結構描述。
 
-   ![](assets/int_enrichment_link1.png)
+   ![連結定義頁面具有目標永遠可用的連結，以及行銷優惠方案(nms)作為目標結構描述。](assets/int_enrichment_link1.png)
 
 1. 指定擴充活動（此處為收件者表格）中傳入表格資料與優惠方案表格之間的聯結。 例如，您可以將優惠代碼連結至收件者。
 
-   ![](assets/int_enrichment_link2.png)
+   ![連結定義加入條件，將來源cryptedId連結至選件程式碼，並提供識別碼選件。](assets/int_enrichment_link2.png)
 
 1. 然後，設定與您所選管道對應的傳送活動。 請參閱[跨通道傳遞](cross-channel-deliveries.md)。
 
@@ -234,11 +234,11 @@ ht-degree: 1%
 1. 在查詢之後及傳遞活動之前的擴充活動中，建立對優惠方案引擎的呼叫。
 1. 在活動的主視窗中，選取&#x200B;**[!UICONTROL Edit additional data...]**。
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![擴充索引標籤列出優惠方案主張欄，並反白顯示編輯其他資料連結。](assets/ita_enrichment_rankweight_1.png)
 
 1. 新增排名的&#x200B;**[!UICONTROL @rank]**&#x200B;欄以及優惠權重的&#x200B;**[!UICONTROL @weight]**。
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Select其他欄視窗，其中包含使用「新增子專案」新增至主張的「權重」和「排名」欄。](assets/ita_enrichment_rankweight_2.png)
 
 1. 確認新增並儲存工作流程。
 

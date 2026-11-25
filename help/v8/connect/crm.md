@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Email marketing
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 20%
+source-wordcount: '350'
+ht-degree: 18%
 ---
 # 將您的CRM與Campaign連線 {#gs-crm}
 
@@ -69,8 +69,8 @@ Adobe Campaign 提供各種 CRM 連接器，用於將您的 Adobe Campaign 平�
 
 ## 實施步驟 {#crm-implementation-steps}
 
-在[此頁面](ac-ms-dyn.md)中瞭解連線Campaign和Microsoft Dynamics的逐步程式。
+瞭解在[使用Campaign和Microsoft Dynamics](ac-ms-dyn.md)中連線Campaign和Microsoft Dynamics的逐步程式。
 
-在[此頁面](ac-sfdc.md)中瞭解連線Campaign和Salesforce.com的逐步程式。
+瞭解在[使用Campaign和SFDC](ac-sfdc.md)中連線Campaign和Salesforce.com的逐步程式。
 
-Adobe Campaign與CRM之間的資料同步會透過專用的工作流程活動執行。 建置您的工作流程以自動化Campaign與您的CRM之間的同步。 您可以建立工作流程，透過Microsoft Dynamics匯入連絡人、將其與現有的Adobe Campaign資料同步、刪除重複的連絡人，然後更新Adobe Campaign資料庫。 在[本頁](crm-data-sync.md)中瞭解更多。
+Adobe Campaign與CRM之間的資料同步會透過專用的工作流程活動執行。 建置您的工作流程以自動化Campaign與您的CRM之間的同步。 您可以建立工作流程，透過Microsoft Dynamics匯入連絡人、將其與現有的Adobe Campaign資料同步、刪除重複的連絡人，然後更新Adobe Campaign資料庫。 深入瞭解[CRM Connectors資料同步處理](crm-data-sync.md)。

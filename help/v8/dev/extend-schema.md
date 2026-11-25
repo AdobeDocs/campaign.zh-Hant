@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 1%
 ---
 # 擴充綱要{#extend-schemas}
 
@@ -54,32 +54,32 @@ ht-degree: 2%
 >[!CAUTION]
 >不可直接修改內建結構描述。 如果您需要調整內建方案，必須擴充方案。
 
-如需深入瞭解Campaign內建表格及其互動，請參閱[此頁面](datamodel.md)。 在[此頁面](create-schema.md)中建立新結構描述時，另請參閱建議。
+如需深入瞭解Campaign內建資料表及其互動，請參閱[開始使用Campaign資料模型](datamodel.md)。 在[在Campaign](create-schema.md)中建立新結構描述時，另請參閱建議。
 
 若要擴充方案，請遵循下列步驟：
 
 1. 導覽至Explorer中的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;資料夾。
 1. 按一下「**新增**」按鈕並選取「**[!UICONTROL Extend the data in a table using an extension schema]**」。
 
-   ![](assets/extend-schema-option.png)
+   ![使用選取的延伸結構描述來延伸資料表中資料的結構描述型別步驟](assets/extend-schema-option.png)
 
 1. 識別要擴充的內建方案並加以選取。
 
-   ![](assets/extend-schema-select.png)
+   ![已針對收件者篩選Source結構描述選取對話方塊，已選取收件者(nms)](assets/extend-schema-select.png)
 
    依照慣例，請將擴充功能綱要命名為與內建綱要相同的名稱，並使用自訂名稱空間。  請注意，某些名稱空間僅供內部使用。 [了解更多](schemas.md#reserved-namespaces)
 
-   ![](assets/extend-schema-validate.png)
+   具有名稱空間cus、名稱收件者及標籤收件者的擴充結構描述的![結構描述引數步驟](assets/extend-schema-validate.png)
 
 1. 在架構編輯器中，使用內容功能表新增所需的元素並儲存。
 
-   ![](assets/extend-schema-edit.png)
+   ![結構描述編輯器，在Attribute上開啟[插入]功能表，列出String、Boolean、Integer、Date和其他型別](assets/extend-schema-edit.png)
 
    在下列範例中，我們新增&#x200B;**MembershipYear**&#x200B;屬性、設定姓氏的長度限制（此限制會覆寫預設值），並從內建結構描述中移除出生日期。
 
-   ![](assets/extend-schema-sample.png)
+   ![延伸結構描述XML新增MembershipYear、50個字元的lastName長度並刪除birthDate](assets/extend-schema-sample.png)
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 1. 中斷連線並重新連線至Campaign，以檢查&#x200B;**[!UICONTROL Structure]**&#x200B;索引標籤中的結構描述結構更新。
 
-   ![](assets/extend-schema-structure.png)
+   cus:recipient結構描述清單欄位的![結構標籤，包括欄位之後的新成員](assets/extend-schema-structure.png)
 
 1. 更新資料庫結構以套用變更。 [了解更多](update-database-structure.md)
 

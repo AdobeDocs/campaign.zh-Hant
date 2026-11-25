@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1005'
 ht-degree: 4%
 ---
 # 建置工作流程 {#build-a-workflow}
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 * 從Explorer的&#x200B;**[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**&#x200B;節點或首頁的&#x200B;**[!UICONTROL Profiles and Targets]**&#x200B;索引標籤，透過&#x200B;**[!UICONTROL Targeting workflows]**&#x200B;子索引標籤建立[目標工作流程](#targeting-workflows)。
 
-  ![](assets/create-targeting-wf.png)
+  ![在[設定檔與目標]索引標籤上，以[建立]按鈕反白顯示目標工作流程清單](assets/create-targeting-wf.png)
 
 * 從行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤建立[行銷活動工作流程](#campaign-workflows)
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 按一下位於工作流程清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 
-![](assets/create_a_wf_icon.png)
+![使用清單上方反白顯示的新按鈕來鎖定工作流程清單](assets/create_a_wf_icon.png)
 
 輸入標籤並按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 您現在必須定義各種活動，並將它們在圖表中連結在一起。 在設定的這個階段，我們可以看到圖表標籤和工作流程狀態（正在編輯）。 視窗的下半部僅用於編輯圖表。 它包含工具列、活動浮動面板（位於左側）和圖表本身（位於右側）。
 
-![](assets/new-workflow-2.png)
+![具有標籤的工作流程編輯器、正在編輯的狀態、工具列、活動調色盤和空白圖表區域](assets/new-workflow-2.png)
 
 >[!NOTE]
 >
@@ -66,17 +66,17 @@ ht-degree: 4%
 
    在圖表上新增&#x200B;**開始**&#x200B;活動，然後新增&#x200B;**傳遞**&#x200B;活動。
 
-   ![](assets/new-workflow-3.png)
+   ![開始活動與傳遞活動被拖放到其上的圖表](assets/new-workflow-3.png)
 
 1. 將&#x200B;**開始**&#x200B;活動轉變拖曳至&#x200B;**傳遞**&#x200B;活動，將活動連結在一起。
 
-   ![](assets/new-workflow-4.png)
+   ![透過轉換連結到傳遞活動](assets/new-workflow-4.png)開始活動
 
    您可以將新活動放在轉變的結尾處，自動將活動連結至上一個活動。
 
 1. 新增您需要的活動，並將它們連結在一起，如下圖所示。
 
-   ![](assets/new-workflow-5.png)
+   ![工作流程圖表連結開始、傳遞、核准、傳遞控制及結束為是和否轉換](assets/new-workflow-5.png)
 
 >[!CAUTION]
 >
@@ -88,11 +88,11 @@ ht-degree: 4%
 
   圖表編輯工具列可讓您存取工作流程的佈局和執行功能。
 
-  ![](assets/wf-toolbar.png)
+  ![工作流程上方反白的圖表編輯工具列，包含查詢、聯合、重複資料刪除、分割及傳送](assets/wf-toolbar.png)
 
   這可讓您調整編輯工具的版面：顯示浮動視窗以及圖形物件的概觀、大小和對齊。
 
-  ![](assets/s_user_segmentation_toolbar.png)
+  ![工具列群組：顯示和配置、追蹤和執行，加上屬性按鈕](assets/s_user_segmentation_toolbar.png)
 
   以下各節詳細介紹了與進度和日誌顯示相關的圖示：
 
@@ -115,17 +115,17 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->行銷活動工作流程活動在[本節](activities.md)中有詳細說明。
+>行銷活動工作流程活動在[關於工作流程活動](activities.md)中有詳細說明。
 
 第一個索引標籤包含基本設定。 **[!UICONTROL Advanced]**&#x200B;索引標籤包含其他引數，這些引數特別用於定義發生錯誤時的行為、指定活動的執行持續時間以及輸入初始化指令碼。
 
 為了更清楚瞭解活動及改善工作流程易讀性，您可以在活動中輸入註解。
 
-![](assets/example1-comment.png)
+![查詢活動[進階]索引標籤，已在[註解]欄位中輸入註解](assets/example1-comment.png)
 
 當操作者捲動到活動上時，這些註解會自動顯示。
 
-![](assets/example2-comment.png)
+![當指標位於圖表中的分割活動上時，工具提示中顯示的註解文字](assets/example2-comment.png)
 
 
 ## 工作流程範本 {#workflow-templates}
@@ -138,7 +138,7 @@ ht-degree: 4%
 
 除了一般的工作流程屬性外，範本屬性可讓您為根據此範本建立的工作流程指定執行檔案。
 
-![](assets/wf-template-properties.png)
+![工作流程屬性[一般]索引標籤，在[工作流程]資料夾](assets/wf-template-properties.png)中開啟[執行]資料夾選擇器
 
 ## 複製工作流程 {#duplicate-workflows}
 
@@ -149,7 +149,7 @@ Adobe建議複製工作流程，而非執行活動的複製/貼上。 複製活�
 1. 在工作流程上按一下右鍵。
 1. 按一下&#x200B;**複製**。
 
-   ![](assets/duplicate-workflows.png)
+   ![工作流程清單，其右鍵功能表已開啟且[重複]選項已反白顯示](assets/duplicate-workflows.png)
 
 1. 在工作流程視窗中，變更工作流程標籤。
 1. 按一下「**儲存**」。

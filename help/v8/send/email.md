@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 8%
+source-wordcount: '704'
+ht-degree: 7%
 ---
 # 設計和傳送電子郵件
 
@@ -42,13 +42,13 @@ ht-degree: 8%
 >若要建立吸引人且個人訂做的電子郵件，請瀏覽至[網頁使用者介面](../start/campaign-ui.md#ac-web-ui)。 Adobe Campaign隨附電子郵件Designer，這是一個直覺式的拖放介面，可讓您為每封電子郵件設計和調整所有內容。
 
 
-瞭解在[此頁面](../start/create-message.md)中建立和設定傳遞的關鍵步驟。
+瞭解在[建立您的第一個傳遞](../start/create-message.md)中建立和設定傳遞的關鍵步驟。
 
 ## 建立電子郵件傳遞
 
 建立與客戶其他體驗相一致的個人化和內容相關的電子郵件。
 
-![](assets/new-email-content.png)
+![主旨、HTML內容及追蹤URL清單顯示於下方的電子郵件傳遞編輯器](assets/new-email-content.png)
 
 
 在以下範例中，您將瞭解在Adobe Campaign中設計電子郵件傳送的步驟，其中包含個人化資料、外部URL的連結和映象頁面的連結。
@@ -57,19 +57,19 @@ ht-degree: 8%
 
    若要建立新傳遞，請瀏覽至&#x200B;**行銷活動**&#x200B;標籤，按一下&#x200B;**傳遞**，然後按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。
 
-   ![](assets/delivery_step_1.png)
+   ![在Campaigns索引標籤中的傳遞清單，其傳遞節點和建立按鈕反白顯示](assets/delivery_step_1.png)
 
 1. **選取範本**
 
    選取傳遞範本，然後為您的傳遞命名。 此名稱將僅對Adobe Campaign主控台的使用者可見，不會由您的收件者可見，不過此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
 
-   ![](assets/dce_delivery_model.png)
+   ![已選取電子郵件傳遞範本並輸入標籤的新傳遞對話方塊，然後繼續](assets/dce_delivery_model.png)
 
 1. **匯入您的內容**
 
    按一下&#x200B;**Source**&#x200B;索引標籤，貼上您的HTML內容。
 
-   ![](assets/paste-content.png)
+   ![開啟了Source索引標籤的電子郵件傳遞編輯器，顯示要貼上的HTML程式碼](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -81,13 +81,13 @@ ht-degree: 8%
 
      若要在訊息內容中插入目標設定檔的名字和姓氏，請將游標置於您要插入的位置，然後按一下工具列中的最後一個圖示，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選取&#x200B;**[!UICONTROL Greetings]**。
 
-     ![](assets/include-greetings.png)
+     ![Personalization功能表，在電子郵件HTML內容中選取「包含，然後問候語」](assets/include-greetings.png)
 
      瀏覽到預覽索引標籤，透過選取收件者來檢查個人化。
 
-     ![](assets/perso-check.png)
+     ![預覽索引標籤，選取收件者，並在電子郵件文字中醒目提示個人化問候語](assets/perso-check.png)
 
-     在[本節](personalize.md)中進一步瞭解個人化選項。
+     在[開始使用個人化](personalize.md)中進一步瞭解個人化選項。
 
    * 插入追蹤連結
 
@@ -95,7 +95,7 @@ ht-degree: 8%
 
      在&#x200B;**URL**&#x200B;欄位中，使用以下格式&#x200B;**https://www.myURL.com**&#x200B;輸入連結的URL，然後確認。
 
-     ![](assets/add-a-link.png)
+     ![在選取的文字上新增超文字連結對話方塊，其中已輸入URL並加上新增按鈕](assets/add-a-link.png)
 
    * 新增映象頁面
 
@@ -103,9 +103,9 @@ ht-degree: 8%
 
      將游標放在您要插入此連結的位置，然後按一下工具列中的最後一個圖示，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;並選取&#x200B;**[!UICONTROL link to mirror page]**。
 
-     在[本節](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
+     在[新增映象頁面的連結至映象頁面](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
-1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。在[本節](email-parameters.md)中瞭解更多資訊。
+1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。深入瞭解Adobe Campaign[&#128279;](email-parameters.md)中的電子郵件引數。
 
 1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 
@@ -124,7 +124,7 @@ ht-degree: 8%
 
 ## 測試及驗證您的電子郵件
 
-Campaign提供數種方式，可在將電子郵件傳送給受眾之前測試和驗證電子郵件。 在[本節](../send/preview-and-proof.md)中瞭解如何預覽和測試您的電子郵件內容。
+Campaign提供數種方式，可在將電子郵件傳送給受眾之前測試和驗證電子郵件。 瞭解如何在[預覽和測試您的電子郵件](../send/preview-and-proof.md)中預覽和測試您的電子郵件內容。
 
 您可以：
 

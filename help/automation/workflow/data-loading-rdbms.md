@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 3%
+source-wordcount: '232'
+ht-degree: 2%
 ---
 # 資料載入 (RDBMS){#data-loading-rdbms}
 
@@ -41,17 +41,17 @@ ht-degree: 3%
 
 操作如下：
 
-1. 從清單中選取資料來源，然後輸入包含要擷取之資料的表格名稱。
+1. 從清單中Select資料來源，並輸入包含要擷取之資料的表格名稱。
 
-   ![](assets/s_advuser_wf_sgbd_sample_1.png)
+   ![資料載入(RDBMS)活動，已選取共用外部資料來源且資料表名稱為nmsrecipient。](assets/s_advuser_wf_sgbd_sample_1.png)
 
    在對應欄位中輸入的表格名稱會作為範本使用，以便在外部資料庫中收集資料。 工作流程處理的表格名稱，可由資料載入活動的入站轉變計算或傳送。 若要選取要使用的資料表，請按一下&#x200B;**[!UICONTROL Advanced..]**。 連結並選取&#x200B;**[!UICONTROL Specified in the transition]**&#x200B;或&#x200B;**[!UICONTROL Explicit]**&#x200B;選項。
 
-   ![](assets/s_advuser_wf_sgbd_sample_5.png)
+   ![資料表名稱選取的進階引數：與範本相同，已在轉變中指定，明確。](assets/s_advuser_wf_sgbd_sample_5.png)
 
 1. 按一下&#x200B;**[!UICONTROL Select the columns to extract...]**&#x200B;連結以選擇要收集到資料庫中的資料。
 
-   ![](assets/s_advuser_wf_sgbd_sample_2.png)
+   ![Select額外資料行視窗列出可用的欄位，以及選取用於擷取的輸出資料行。](assets/s_advuser_wf_sgbd_sample_2.png)
 
 1. 您可以在此資料上定義篩選器。 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit query....]**&#x200B;連結。
 

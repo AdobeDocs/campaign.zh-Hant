@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 12%
+source-wordcount: '745'
+ht-degree: 10%
 ---
 # 使用重複資料刪除活動的合併功能 {#deduplication-merge}
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 此使用案例說明如何在&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動中使用&#x200B;**[!UICONTROL Merge]**&#x200B;功能。
 
-如需有關此功能的詳細資訊，請參閱[此章節](deduplication.md#merging-fields-into-single-record)。
+如需有關此功能的詳細資訊，請參閱[將欄位合併成單一資料記錄](deduplication.md#merging-fields-into-single-record)。
 
 **[!UICONTROL Deduplication]**&#x200B;活動用於從資料集中移除重複資料列。 在此使用案例中，根據「電子郵件」欄位會複製下列資料。
 
@@ -55,13 +55,13 @@ ht-degree: 12%
 
 1. 開啟活動，然後按一下&#x200B;**[編輯組態]**&#x200B;連結。
 
-1. 選取要用於重複資料刪除的調解欄位，然後按一下&#x200B;**[!UICONTROL Next]**。 在此範例中，我們要根據電子郵件欄位進行重複資料刪除。
+1. Select要用於重複資料刪除的調解欄位，然後按一下&#x200B;**[!UICONTROL Next]**。 在此範例中，我們要根據電子郵件欄位進行重複資料刪除。
 
-   ![](assets/uc_merge_edit.png)
+   ![重複資料刪除目標維度視窗，其中已選取收件者，且已選取電子郵件調解欄位。](assets/uc_merge_edit.png)
 
 1. 按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結，然後啟用&#x200B;**[!UICONTROL Merge records]**&#x200B;和&#x200B;**[!UICONTROL Use several record merging criteria]**&#x200B;選項。
 
-   ![](assets/uc_merge_advanced_parameters.png)
+   ![含有合併記錄與使用數個記錄合併條件選項的[重複資料刪除引數]對話方塊已核取。](assets/uc_merge_advanced_parameters.png)
 
 1. **[!UICONTROL Merge]**&#x200B;索引標籤已新增到&#x200B;**[!UICONTROL Deduplication]**&#x200B;設定畫面。 我們將使用此索引標籤來指定執行重複資料刪除時要合併的資料。
 
@@ -78,31 +78,31 @@ ht-degree: 12%
 
 1. 開啟&#x200B;**[!UICONTROL Merge]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
 
-   ![](assets/uc_merge_add.png)
+   ![重複資料刪除活動的合併索引標籤，其上方的[新增]按鈕為合併資料的空白清單。](assets/uc_merge_add.png)
 
 1. 指定要合併之欄位群組的識別碼和標籤。
 
-   ![](assets/uc_merge_identifier.png)
+   ![要合併之精靈的Select資料識別碼與標籤步驟，已輸入識別碼名稱與標籤Name。](assets/uc_merge_identifier.png)
 
 1. 表示選取要考慮之記錄的條件。
 
-   ![](assets/uc_merge_filter.png)
+   ![條件為「名字」的篩選步驟不是空白且「姓氏」不是空白以選取要合併的記錄。](assets/uc_merge_filter.png)
 
 1. 排序上次修改日期，以選取最近的名稱。
 
-   ![](assets/uc_merge_sort.png)
+   ![將修改日期的步驟以遞減順序排序，以選取最近的記錄。](assets/uc_merge_sort.png)
 
-1. 選取要合併的欄位。 在此範例中，我們要保留名字和姓氏欄位。
+1. Select要合併的欄位。 在此範例中，我們要保留名字和姓氏欄位。
 
-   ![](assets/uc_merge_keep.png)
+   ![要保留的欄位，其名字和姓氏已選取為輸出欄。](assets/uc_merge_keep.png)
 
 1. 欄位會新增至要合併的資料集，而新元素會新增至工作流程結構描述。
 
    重複這些步驟來設定行動電話和電話欄位。
 
-   ![](assets/dedup8.png)
+   ![合併索引標籤列出合併的群組名稱、行動裝置和電話及其別名及啟用條件。](assets/dedup8.png)
 
-   ![](assets/dedup9.png)
+   ![結構描述索引標籤，顯示重複資料刪除的產生資料結構，包含行動、名稱和電話節點。](assets/dedup9.png)
 
 ## 結果 {#results}
 

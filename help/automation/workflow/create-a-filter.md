@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '296'
 ht-degree: 2%
 ---
 # 建立篩選器 {#creating-a-filter}
@@ -41,19 +41,19 @@ Adobe Campaign中可用的篩選器是透過篩選條件來定義，這些條件
 
 例如，運運算元清單可由&#x200B;**[!UICONTROL Active accounts]**&#x200B;篩選：
 
-![](assets/query_editor_filter_sample_1.png)
+![已開啟[篩選器]功能表且已選取[使用中帳戶]篩選器的[運運算元]清單](assets/query_editor_filter_sample_1.png)
 
 符合的篩選器包含對&#x200B;**[!UICONTROL Operators]**&#x200B;結構描述的&#x200B;**[!UICONTROL Account disabled]**&#x200B;值的查詢：
 
-![](assets/query_editor_filter_sample_2.png)
+![預先定義的篩選器清單，已選取[依登入]或[標籤]篩選器，顯示標籤、內部名稱及檔案型別](assets/query_editor_filter_sample_2.png)
 
 對於相同的清單，**[!UICONTROL By login or label]**&#x200B;篩選器可讓您根據在篩選器欄位中輸入的值來篩選清單上的資料：
 
-![](assets/query_editor_filter_sample_3.png)
+![在[登入]或[標籤包含]欄位中輸入代理程式而篩選的運運算元清單，傳回一個運運算元](assets/query_editor_filter_sample_3.png)
 
 其建置方式如下：
 
-![](assets/query_editor_filter_sample_4.png)
+![透過登入或標籤篩選定義，在標籤、名稱和說明上加上三個篩選條件](assets/query_editor_filter_sample_4.png)
 
 若要符合篩選條件，運運算元帳戶必須勾選下列其中一個條件：
 
@@ -67,7 +67,7 @@ Adobe Campaign中可用的篩選器是透過篩選條件來定義，這些條件
 
 **[!UICONTROL Taken into account if]**&#x200B;欄可讓您定義這些篩選條件的應用程式條件。 在此，**$(/tmp/@text)**&#x200B;字元代表連結至篩選的輸入欄位內容：
 
-![](assets/query_editor_filter_sample_5.png)
+![在[登入]或[標籤包含]欄位中輸入代理商的營運者清單，返回倫敦代理商](assets/query_editor_filter_sample_5.png)
 
 在這裡，**$(/tmp/@text)=&#39;機構&#39;**
 

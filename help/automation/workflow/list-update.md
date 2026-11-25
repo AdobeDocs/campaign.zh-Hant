@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '532'
 ht-degree: 1%
 ---
 # 清單更新{#list-update}
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 **清單更新**&#x200B;活動會將轉換中指定的母體儲存在收件者清單中。
 
-![](assets/s_user_segmentation_update_group.png)
+![清單更新活動編輯器，明確選取[已指定]、[清單]資料夾和儲存型別選項。](assets/s_user_segmentation_update_group.png)
 
 可以從現有群組的清單中選取清單。
 
 也可以使用&#x200B;**[!UICONTROL Create the list if necessary (Computed name)]**&#x200B;和&#x200B;**[!UICONTROL Create the list if necessary (Computed Folder and Name)]**&#x200B;選項來建立。 這些選項可讓您選取您選擇的標籤，以建立清單，以及之後儲存清單的資料夾。 也可以透過插入動態欄位或指令碼來自動產生標籤。 標籤右側的躍現式選單中有不同的動態欄位。
 
-![](assets/s_user_segmentation_update_list_calc.png)
+![清單更新活動，如有必要，請建立清單（計算名稱）並選取計算標籤指令碼。](assets/s_user_segmentation_update_list_calc.png)
 
 如果清單已經存在，收件者將會新增至現有內容，除非您核取&#x200B;**[!UICONTROL Purge the list if it exists (otherwise add to the list)]**&#x200B;選項。 在此情況下，清單的內容會在更新之前刪除。
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 一般而言，將目標儲存在清單中會標籤工作流程的結尾。 因此，依預設，**[!UICONTROL List update]**&#x200B;活動沒有出站轉變。 核取&#x200B;**[!UICONTROL Generate an outbound transition]**&#x200B;選項以新增一個。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索如何從總管建立收件者清單](#video)
+視訊連結的![播放按鈕圖示。](assets/do-not-localize/how-to-video.png) [在影片中探索如何從總管建立收件者清單](#video)
 
 ## 範例：清單更新 {#example--list-update}
 
@@ -63,15 +63,15 @@ ht-degree: 1%
    如需在工作流程中建立查詢的詳細資訊，請參閱[查詢](query.md)。
 
 1. 您可以為活動選取標籤。
-1. 選取&#x200B;**[!UICONTROL Create the list if necessary (Calculated name)]**&#x200B;選項以顯示清單會在第一個工作流程執行後建立，然後使用下列執行進行更新。
-1. 選取您要儲存清單的資料夾。
+1. Select的&#x200B;**[!UICONTROL Create the list if necessary (Calculated name)]**&#x200B;選項會顯示清單會在第一個工作流程執行後建立，然後使用下列執行進行更新。
+1. Select您要儲存清單的資料夾。
 1. 輸入清單的標籤。 您可以插入動態欄位，以從清單自動產生名稱。 在此範例中，清單的名稱與查詢相同，以便輕鬆識別其內容。
 1. 保留&#x200B;**[!UICONTROL Purge the list if it exists (otherwise add to the list)]**&#x200B;選項核取，以刪除不符合目標定位條件的收件者，並將新收件者插入清單中。
 1. 同時保留&#x200B;**[!UICONTROL Create or use a list with its own table]**&#x200B;選項為已核取狀態。
 1. 保留&#x200B;**[!UICONTROL Generate an outbound transition]**&#x200B;選項為未核取。
 1. 按一下&#x200B;**[!UICONTROL Ok]**，然後啟動工作流程。
 
-   ![](assets/s_user_segmentation_update_list_calc_example.png)
+   ![清單更新活動集以在[清單]資料夾中建立清單M_WestUS_18-30，並已勾選清除及重複使用。](assets/s_user_segmentation_update_list_calc_example.png)
 
    接著會建立或更新相符的收件者清單。
 

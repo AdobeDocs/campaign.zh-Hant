@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '473'
+ht-degree: 7%
 ---
 # 排程器 {#scheduler}
 
@@ -50,22 +50,22 @@ ht-degree: 8%
 
 排程器會定義轉變的啟動排程。 若要進行設定，請按兩下圖形物件，然後按一下&#x200B;**[!UICONTROL Change...]**
 
-![](assets/s_user_segmentation_scheduler.png)
+![排程器活動對話方塊，其中的[變更]按鈕用來定義執行頻率](assets/s_user_segmentation_scheduler.png)
 
 精靈可讓您定義活動的頻率和有效期間。 設定步驟如下：
 
-1. 選取啟動頻率，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. Select啟動頻率，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![排程編輯精靈，Select頻率型別：一天數次、每日、每週、每月、一次](assets/s_user_segmentation_scheduler2.png)
 
 1. 提供啟用時間和天數。 此步驟的引數取決於上一步驟中所選的頻率。 如果您選擇一天啟動活動數次，設定選項如下：
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![排程編輯精靈，一天許多次：所選時數的時數選取與工作日的日數選取](assets/s_user_segmentation_scheduler3.png)
 
 1. 定義排程的有效期，或指定要執行的次數。
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![排程編輯精靈，有效期間：永久有效性、有效開始和結束日期，或最大反複專案數](assets/s_user_segmentation_scheduler4.png)
 
 1. 檢查設定，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;儲存。
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![排程編輯精靈，摘要：排程說明和下次啟動時間的清單，按[完成]按鈕](assets/s_user_segmentation_scheduler5.png)

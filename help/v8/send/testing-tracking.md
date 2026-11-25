@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '688'
 ht-degree: 1%
 ---
 # 測試訊息追蹤 {#testing-tracking}
@@ -59,7 +59,7 @@ ht-degree: 1%
 1. 使用您要追蹤的連結設計您的電子郵件內容。 [瞭解電子郵件內容設計](defining-the-email-content.md)
 1. 在電子郵件內容中新增映象頁面個人化區塊。 [瞭解個人化區塊](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   ![Personalization功能表，在電子郵件內容編輯器中選取映象頁面的包含和連結](assets/mirror-page-insert.png)
 
 1. 指定將接收電子郵件的使用者。 由於此使用者必須開啟電子郵件並按一下其中包含的連結，因此請確定您選取您控制的測試收件者地址。 [瞭解測試設定檔](../audiences/test-profiles.md)
 
@@ -71,7 +71,7 @@ ht-degree: 1%
    * 確定已核取&#x200B;**[!UICONTROL Activate tracking]**
    * 如果您要追蹤開啟專案，請確定已核取&#x200B;**[!UICONTROL Opens tracking]**
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   ![已勾選「啟動追蹤」和「開啟追蹤」的「追蹤和影像」對話方塊，以及追蹤的URL清單](assets/s_ncs_user_email_del_tracking_param.png)
 
    [深入瞭解URL追蹤選項](url-tracking.md)
 
@@ -85,14 +85,14 @@ ht-degree: 1%
 1. 開啟&#x200B;**[!UICONTROL Tracking]**&#x200B;工作流程。
 1. 啟動工作流程，或用滑鼠右鍵按一下&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動並選取&#x200B;**[!UICONTROL Execute pending task now]**。
 1. 等候約30秒讓工作流程處理追蹤記錄。
-1. 選取工作流程的&#x200B;**[!UICONTROL Audit]**&#x200B;標籤。 請確定至少找到一個追蹤記錄記錄。 如果您沒有看到任何新記錄，請按一下&#x200B;**[!UICONTROL Refresh]**。
+1. Select工作流程的&#x200B;**[!UICONTROL Audit]**&#x200B;標籤。 請確定至少找到一個追蹤記錄記錄。 如果您沒有看到任何新記錄，請按一下&#x200B;**[!UICONTROL Refresh]**。
 
 1. 驗證傳送中的追蹤記錄：
    * 返回您的傳遞
-   * 選取&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤
+   * Select **[!UICONTROL Tracking]**&#x200B;索引標籤
    * 檢查追蹤記錄清單是否隨已點按URL和其他追蹤事件而顯示
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ![傳遞追蹤標籤，包含追蹤記錄清單，其中顯示標籤、點按和開啟型別以及收件者](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 步驟4：檢查收件者追蹤標籤 {#check-recipient-tracking}
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 1. 選取 **[!UICONTROL Tracking]** 索引標籤。 [進一步瞭解追蹤記錄](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![收件者設定檔追蹤索引標籤列出日期、標籤、型別和傳遞的追蹤記錄](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. 確認追蹤記錄的顯示方式：
    * **[!UICONTROL Type]**&#x200B;欄中的&#x200B;**[!UICONTROL Mirror Page]**&#x200B;值

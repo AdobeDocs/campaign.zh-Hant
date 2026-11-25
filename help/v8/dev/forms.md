@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2820'
 ht-degree: 0%
 ---
 # 開始使用輸入表單 {#gs-ac-forms}
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 從使用者端主控台的&#x200B;**[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]**&#x200B;資料夾建立及設定輸入表單：
 
-![](assets/form_arbo.png)
+![檔案總管樹狀目錄位於[設定]下，且已選取輸入表單資料夾](assets/form_arbo.png)
 
 編輯區域可讓您輸入輸入表單的XML內容：
 
-![](assets/form_edit.png)
+![輸入表單編輯器[編輯]索引標籤顯示收件者(cus)表單的XML，其中包含birthDate、性別和電子郵件輸入](assets/form_edit.png)
 
 預覽會產生輸入表單的顯示：
 
-![](assets/form_preview.png)
+![收件者(cus)表單的預覽索引標籤，顯示出生日期、性別和電子郵件欄位](assets/form_preview.png)
 
 ## 表單結構
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 根據範例結構的輸入表單：
 
-![](assets/do-not-localize/form_exemple1.png)
+![將性別、出生日期和電子郵件輸入表單呈現為三個棧疊欄位](assets/do-not-localize/form_exemple1.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 若要以兩欄顯示上述範例的控制項：
 
-![](assets/do-not-localize/form_exemple2.png)
+![兩欄並排輸入性別與出生日期的表單，電子郵件低於](assets/do-not-localize/form_exemple2.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 控制項上的&#x200B;**colspan**&#x200B;屬性會將控制項擴充到其值中所輸入的資料行數目：
 
-![](assets/do-not-localize/form_exemple3.png)
+![雙欄輸入表單，電子郵件欄位延伸至兩欄](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 藉由填入&#x200B;**type=&quot;frame&quot;**&#x200B;屬性，容器會在&#x200B;**label**&#x200B;屬性中包含標籤的子控制項周圍新增框架：
 
-![](assets/do-not-localize/form_exemple4.png)
+![含有性別、出生日期和全形電子郵件欄位的雙欄輸入表單，沒有可見框架](assets/do-not-localize/form_exemple4.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 可以使用&#x200B;**`<static>`**&#x200B;元素來格式化輸入表單：
 
-![](assets/do-not-localize/form_exemple5.png)
+![包含性別、日期和電子郵件欄位的輸入表單，以及欄位下方的靜態說明文字行](assets/do-not-localize/form_exemple5.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 使用&#x200B;**notebook**&#x200B;容器來格式化可從索引標籤存取的頁面中的資料。
 
-![](assets/do-not-localize/form_exemple6.png)
+![輸入表單，在[性別]、[日期]和[電子郵件]欄位上方有[一般]和[位置]索引標籤](assets/do-not-localize/form_exemple6.png)
 
 ```xml
 <container type="notebook">
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 新增&#x200B;**style=&quot;down&quot;**&#x200B;屬性，以強制將索引標籤垂直放置於控制項下方。 此屬性是選用的。 預設值為&#x200B;**&quot;up&quot;**。
 
-![](assets/do-not-localize/form_exemple7.png)
+![輸入表格，在[性別]、[日期]和[電子郵件]欄位下方加上一般和位置標籤標籤](assets/do-not-localize/form_exemple7.png)
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 使用此容器可顯示垂直圖示列，讓您選取要顯示的頁面。
 
-![](assets/do-not-localize/form_exemple8.png)
+![在[性別]、[日期]和[電子郵件]欄位旁輸入具有垂直圖示列的表單，提供[一般]和[位置]頁面](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -308,7 +308,7 @@ ht-degree: 0%
 
 連結在其輸入表單中的編輯控制項如下：
 
-![](assets/do-not-localize/form_exemple9.png)
+![公司欄位顯示連結的下拉式編輯控制項，已選取Adobe](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 例如，我們以&quot;cus:recipient&quot;結構描述的輸入表單開始。 清單必須顯示與服務訂閱的關聯，而且必須允許您透過選取現有服務來新增訂閱。
 
-![](assets/do-not-localize/form_exemple12.png)
+![Select服務對話方塊列出黑名單、MobApp、電子報和其他服務，以新增訂閱](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -522,7 +522,7 @@ ht-degree: 0%
 
 「性別」欄位範例：
 
-![](assets/do-not-localize/form_exemple16.png)
+![性別欄位顯示為下拉式清單，值為Male](assets/do-not-localize/form_exemple16.png)
 
 ```xml
 <value value="@gender"/>
@@ -541,7 +541,7 @@ ht-degree: 0%
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![性別欄位顯示為選項按鈕Choice 1、Choice 2和Choice 3，已選取Choice 1](assets/do-not-localize/form_exemple17.png)
 
 ## 新增核取方塊 {#checkbox}
 
@@ -552,7 +552,7 @@ ht-degree: 0%
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![兩個標示為Boolean1和field1](assets/do-not-localize/form_exemple20.png)的未核取核取方塊
 
 ## 編輯導覽階層 {#navigation-hierarchy-edit}
 
@@ -573,7 +573,7 @@ ht-degree: 0%
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![含有文字欄位和布林值欄位群組的樹狀編輯控制項，列出text1到text3以及Boolean1到Boolean3](assets/do-not-localize/form_exemple18.png)
 
 ## 新增運算式欄位 {#expression-field}
 

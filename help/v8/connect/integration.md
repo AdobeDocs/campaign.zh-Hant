@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 12%
 ---
 # 將Campaign與您的解決方案連結{#gs-ac-connectors}
 
@@ -73,13 +73,13 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 透過跨管道通訊啟用您的CRM資料：瞭解如何將聯絡人從CRM系統傳遞至Adobe Campaign，以及如何將行銷活動資料從Adobe Campaign分享回您的CRM系統。
 CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的助理，可從CRM提供的表格中進行收集和選取。 並且可確保雙向同步處理，讓整個系統中的資料隨時保持最新。
 
-在[本頁面](crm.md)中瞭解如何將Campaign與Microsoft Dynamics 365和Salesforce.com整合。
+瞭解如何在[使用Campaign和您的CRM](crm.md)中將Campaign與Microsoft Dynamics 365和Salesforce.com整合。
 
 ## 透過同盟資料存取連線協力廠商{#gs-fda}
 
 使用FDA聯結器（同盟資料存取）將Campaign連線至一或多個&#x200B;**外部資料庫**，並處理儲存在這些資料庫中的資訊，而不會影響您的Campaign雲端資料庫資料。
 
-在[本頁](fda.md)中瞭解更多。
+深入瞭解[使用Campaign和外部資料庫(FDA)](fda.md)。
 
 ## 使用社群媒體{#gs-social}
 
@@ -91,6 +91,6 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 * 在您的X帳戶上發佈
 * 收集新連絡人
 
-瞭解如何在[此頁面](../connect/ac-tw.md)中設定及使用X整合。
+瞭解如何在[搭配Campaign和X (Twitter)](../connect/ac-tw.md)中設定和使用X整合。
 
-在[本頁面](../send/twitter.md)中瞭解如何建立X張貼和傳送直接訊息給您的追隨者。
+瞭解如何使用Adobe Campaign[&#128279;](../send/twitter.md)在X (Twitter)上建立X貼文，以及透過貼文訊息傳送直接訊息給您的追隨者。

@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 1%
+source-wordcount: '541'
+ht-degree: 0%
 ---
 # 使用多對多關係進行查詢 {#querying-using-a-many-to-many-relationship}
 
@@ -53,36 +53,36 @@ ht-degree: 1%
 1. 開啟一般查詢編輯器並選取收件者資料表&#x200B;**[!UICONTROL (nms:recipient)]**。
 1. 在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Primary key]**、**[!UICONTROL First name]**、**[!UICONTROL Last name]**&#x200B;和&#x200B;**[!UICONTROL Email]**。
 
-   ![](assets/query_editor_nveau_33.png)
+   ![要擷取視窗的資料，其中主索引鍵、名字、姓氏和電子郵件列示為輸出資料行](assets/query_editor_nveau_33.png)
 
 1. 在排序視窗中，依字母順序排序名稱。
 
-   ![](assets/query_editor_nveau_34.png)
+   ![排序視窗，且[姓氏]資料行的[排序]選項設定為[是]](assets/query_editor_nveau_34.png)
 
 1. 在&#x200B;**[!UICONTROL Data filtering]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Filtering conditions]**。
 1. 在&#x200B;**[!UICONTROL Target element]**&#x200B;視窗中，擷取過去7天沒有追蹤記錄之設定檔的篩選條件包含兩個步驟。 您需要選取的元素為多對多連結。
 
    * 首先，請為前&#x200B;**[!UICONTROL Value]**&#x200B;欄選取&#x200B;**[!UICONTROL Recipient delivery logs (broadlog)]**&#x200B;集合專案（橘色節點）。
 
-     ![](assets/query_editor_nveau_67.png)
+     ![要選取包含已選取收件者傳遞記錄(broadLog)集合專案的視窗的欄位](assets/query_editor_nveau_67.png)
 
      選擇&#x200B;**[!UICONTROL do not exist as]**&#x200B;運運算元。 不需要在此行中選取第二個值。
 
    * 第二個篩選條件的內容取決於第一個篩選條件。 在這裡，**[!UICONTROL Event date]**&#x200B;欄位直接在&#x200B;**[!UICONTROL Recipient delivery logs]**&#x200B;資料表中提供，因為有此資料表的連結。
 
-     ![](assets/query_editor_nveau_36.png)
+     ![欄位以選取列出收件者傳遞記錄欄位的視窗，事件日期(@eventDate)已反白顯示](assets/query_editor_nveau_36.png)
 
-     使用&#x200B;**[!UICONTROL greater than or equal to]**&#x200B;運運算元選取&#x200B;**[!UICONTROL Event date]**。 選取&#x200B;**[!UICONTROL DaysAgo (7)]**&#x200B;值。 若要這麼做，請按一下&#x200B;**[!UICONTROL Value]**&#x200B;欄位中的&#x200B;**[!UICONTROL Edit expression]**。 在&#x200B;**[!UICONTROL Formula type]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Process on dates]**&#x200B;和&#x200B;**[!UICONTROL Current date minus n days]**，並指定&quot;7&quot;作為值。
+     Select **[!UICONTROL Event date]**&#x200B;與&#x200B;**[!UICONTROL greater than or equal to]**&#x200B;運運算元。 Select **[!UICONTROL DaysAgo (7)]**&#x200B;值。 若要這麼做，請按一下&#x200B;**[!UICONTROL Value]**&#x200B;欄位中的&#x200B;**[!UICONTROL Edit expression]**。 在&#x200B;**[!UICONTROL Formula type]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Process on dates]**&#x200B;和&#x200B;**[!UICONTROL Current date minus n days]**，並指定&quot;7&quot;作為值。
 
-     ![](assets/query_editor_nveau_37.png)
+     ![公式型別視窗的[處理日期]與[目前日期]減去n天設為7](assets/query_editor_nveau_37.png)
 
      已設定篩選條件。
 
-     ![](assets/query_editor_nveau_38.png)
+     使用篩選器的![目標元素視窗：傳遞記錄不存在，例如事件日期在](assets/query_editor_nveau_38.png)之前7天或之後
 
 1. 在&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗中，將姓氏切換為大寫。 按一下&#x200B;**[!UICONTROL Transformation]**&#x200B;欄中的&#x200B;**[!UICONTROL Last name]**&#x200B;行，然後在下拉式功能表中選取&#x200B;**[!UICONTROL Switch to upper case]**。
 
-   ![](assets/query_editor_nveau_39.png)
+   ![資料格式視窗中包含[姓氏的轉換]清單，[切換至大寫]選項強調顯示](assets/query_editor_nveau_39.png)
 
 1. 使用&#x200B;**[!UICONTROL Add a calculated field]**&#x200B;函式將資料行插入資料預覽視窗中。
 
@@ -93,7 +93,7 @@ ht-degree: 1%
    return rep
    ```
 
-   ![](assets/query_editor_nveau_40.png)
+   [名字 — 姓氏]欄的![JavaScript運算式編輯器，使用串連兩個欄位的指令碼](assets/query_editor_nveau_40.png)
 
    按一下 **[!UICONTROL OK]**。 已設定&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗。
 
@@ -101,4 +101,4 @@ ht-degree: 1%
 
 1. 結果會顯示在&#x200B;**[!UICONTROL Data preview]**&#x200B;視窗中。 過去7天未聯絡的收件者會依字母順序顯示。 名稱會以大寫顯示，而且已建立具有名字和姓氏的欄。
 
-   ![](assets/query_editor_nveau_41.png)
+   ![資料預覽視窗列出具有新增的名字 — 姓氏資料行的收件者](assets/query_editor_nveau_41.png)

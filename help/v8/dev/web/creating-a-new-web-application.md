@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 16%
+source-wordcount: '418'
+ht-degree: 9%
 ---
 # 建立新的網站應用程式{#creating-a-new-web-application}
 
@@ -43,7 +43,7 @@ Web應用程式型別是在建立期間選取的。
 
 前往&#x200B;**行銷活動**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL Web Applications]**&#x200B;功能表。 按一下 **[!UICONTROL Create]** 按鈕。 選取您要使用的Web應用程式範本：
 
-![](assets/webapp_create_from_campaign.png)
+![具有[建立]按鈕的Web應用程式清單，以及包含[新登入頁面]和[新網頁表單]的範本清單](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ Web應用程式型別是在建立期間選取的。
 
 1. 網頁應用程式
 
-   Adobe Campaign可讓您建立Web應用程式，以便在Web平台或外部網路（例如）上公開。 這可讓您在Adobe Campaign中編輯資料和記錄資訊。 在這種情況下，您可以限制已驗證使用者對他們的存取（透過存取控制），並根據各種條件設定資料預先載入。 如需詳細資訊，請參閱[本章節](about-web-applications.md)。
+   Adobe Campaign可讓您建立Web應用程式，以便在Web平台或外部網路（例如）上公開。 這可讓您在Adobe Campaign中編輯資料和記錄資訊。 在這種情況下，您可以限制已驗證使用者對他們的存取（透過存取控制），並根據各種條件設定資料預先載入。 如需詳細資訊，請參閱[開始使用網頁應用程式](about-web-applications.md)。
 
 1. 登陸頁面
 
-   登入頁面是HTML頁面，其內容可在網站上取得，並可讓使用者輸入要儲存在Adobe Campaign資料庫設定檔中的資訊。 此類頁面的內容通常由專門的網站代理程式建立，然後才會匯入Adobe Campaign以供發佈、管理和跟進。 如需詳細資訊，請參閱[此頁面](creating-a-landing-page.md)。
+   登入頁面是HTML頁面，其內容可在網站上取得，並可讓使用者輸入要儲存在Adobe Campaign資料庫設定檔中的資訊。 此類頁面的內容通常由專門的網站代理程式建立，然後才會匯入Adobe Campaign以供發佈、管理和跟進。 如需詳細資訊，請參閱[建立登入頁面](creating-a-landing-page.md)。
 
 1. 調查
 
@@ -79,4 +79,4 @@ Web應用程式型別是在建立期間選取的。
    >
    >**社交行銷**&#x200B;是選用的Adobe Campaign模組。 請檢查您的授權合約。
 
-幾種Web應用程式型別的頁面設定模式以及可用設定可以相同。 如需詳細資訊，請參閱[本章節](about-web-forms.md)。
+幾種Web應用程式型別的頁面設定模式以及可用設定可以相同。 如需詳細資訊，請參閱[開始使用網路表單](about-web-forms.md)。

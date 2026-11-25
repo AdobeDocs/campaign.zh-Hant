@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 3%
+source-wordcount: '1364'
+ht-degree: 2%
 ---
 # 網路表單中的靜態元素{#static-elements-in-a-web-form}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 您可以在表單的頁面中加入使用者不會互動的元素；這些是靜態元素，例如影像、HTML內容、橫條圖或超文字連結。 這些元素是透過工具列中的第一個按鈕建立，方法是選取&#x200B;**[!UICONTROL Static elements]**。
 
-![](assets/s_ncs_admin_survey_add_static_element.png)
+![靜態元素的頁面工具列功能表： Value、Link、HTML、Image、Horizontal bar、Tracking tag and Script](assets/s_ncs_admin_survey_add_static_element.png)
 
 可使用下列欄位型別：
 
@@ -58,11 +58,11 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 您可以直接輸入並格式化內容，或顯示原始程式碼視窗以貼入某些外部內容。 若要切換至「原始程式碼」模式，請按一下工具列中的第一個圖示：
 
-![](assets/s_ncs_admin_survey_html_editor.png)
+![反白顯示「顯示原始碼」按鈕且顯示HTML原始碼的頁面的HTML編輯器](assets/s_ncs_admin_survey_html_editor.png)
 
 若要插入資料庫欄位，請使用個人化按鈕。
 
-![](assets/webapp_perso_button_in_html.png)
+![HTML編輯器個人化功能表，提供名字、姓氏和主索引鍵等收件者欄位](assets/webapp_perso_button_in_html.png)
 
 >[!NOTE]
 >
@@ -74,14 +74,14 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 若要新增超文字連結，請移至&#x200B;**[!UICONTROL Static elements]** > **[!UICONTROL Link]**。
 
-![](assets/s_ncs_admin_survey_add_link.png)
+![連結屬性：標籤、動作設定為URL、mailto URL、視窗、工具提示和顯示設定](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]**&#x200B;是超文字連結的內容，因為它將顯示在表單頁面上。
 * **[!UICONTROL URL]**&#x200B;是需要的位址，例如： [https://www.adobe.com/tw](https://www.adobe.com/tw)網站，或[info@adobe.com](mailto:info@adobe.com)傳送訊息。
 * **[!UICONTROL Window]**&#x200B;欄位可讓您選取網站中連結的顯示模式。 您可以決定在新視窗、目前視窗或其他視窗中開啟連結。
 * 您可以新增工具提示，如下所示：
 
-  ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![已演算傳送包含工具提示的訊息連結按一下這裡傳送電子郵件給我們](assets/s_ncs_admin_survey_send_an_email.png)
 
 * 您可以選擇將連結顯示為按鈕或影像。 若要這麼做，請在&#x200B;**[!UICONTROL Type]**&#x200B;欄位中選取顯示型別。
 
@@ -89,7 +89,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 依預設，連結會與URL型別的動作相關聯，以便可以在URL欄位中輸入連結目的地位址。
 
-![](assets/s_ncs_admin_survey_link_url.png)
+![連結屬性與mailto URL、視窗欄位設定為建立新視窗和工具提示](assets/s_ncs_admin_survey_link_url.png)
 
 您可以定義連結的其他動作，讓使用者可以按一下連結進行下列操作：
 
@@ -97,33 +97,33 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
   若要這麼做，請在&#x200B;**[!UICONTROL Action]**&#x200B;欄位的下拉式方塊中選取&#x200B;**[!UICONTROL Refresh page]**&#x200B;選項。
 
-  ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![連結動作下拉式清單列出無、URL、檢視、重新整理頁面、下一頁和啟用轉變，已選擇重新整理頁面](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 顯示下一頁/上一頁
 
   若要這麼做，請在&#x200B;**[!UICONTROL Action]**&#x200B;欄位的下拉式方塊中選取&#x200B;**[!UICONTROL Next page]**&#x200B;或&#x200B;**[!UICONTROL Previous page]**&#x200B;選項。
 
-  ![](assets/s_ncs_admin_survey_link_next.png)
+  ![連結動作下拉式清單，已針對標示為「下一頁」的連結選取「下一頁」](assets/s_ncs_admin_survey_link_next.png)
 
   如果要以連結取代&#x200B;**[!UICONTROL Next]**&#x200B;和/或&#x200B;**[!UICONTROL Back]**&#x200B;按鈕，您可以隱藏這些按鈕。 請參見此[頁面](defining-web-forms-page-sequencing.md)。
 
   連結將取代預設使用的&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。
 
-  ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![含有名字、姓氏和密碼欄位的表單頁面，以及顯示驗證工具提示的下一個連結](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 顯示其他頁面
 
   **[!UICONTROL Enable a transition]**&#x200B;選項可讓您顯示與在&#x200B;**[!UICONTROL Transition]**&#x200B;欄位中選取的傳出轉變相關聯的特定頁面。
 
-  ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![連結，動作設定為[啟用轉換]，且轉換清單提供[下一步]並傳送給朋友](assets/s_ncs_admin_survey_link_viral.png)
 
   依預設，一個頁面只有一個輸出轉變。 若要建立新的轉變，請選取頁面，然後按一下「**[!UICONTROL Output transitions]**」區段中的「**[!UICONTROL Add]**」按鈕，如下所示：
 
-  ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![歡迎頁面屬性，已啟用出站轉變，列出下一個和病毒式（傳送給朋友）以及[新增]按鈕](assets/s_ncs_admin_survey_add_transition.png)
 
   在圖表中，這項新增內容如下所示：
 
-  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![網路表單流程，其中您的合約會導向到您的帳戶，或透過傳送給朋友以贊助者，然後儲存並結束](assets/s_ncs_admin_survey_add_transition_graph.png)
 
   >[!NOTE]
   >
@@ -133,7 +133,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 您可以使用上一頁所記錄的資料，個人化表單頁面的HTML內容。 例如，您可以建立汽車保險網路表單，其第一頁可讓您提供聯絡資訊和汽車品牌。
 
-![](assets/s_ncs_admin_survey_tag_ctx_1.png)
+![表單第1頁（共2頁），要求標題、名稱、電子郵件、識別碼和汽車品牌，下一個按鈕為](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
 使用個人化欄位，將使用者名稱和選取的品牌重新插入下一頁。 要使用的語法取決於資訊儲存模式。 有關詳細資訊，請參閱[使用收集的資訊](web-forms-answers.md#using-collected-information)。
 
@@ -143,7 +143,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 在我們的範例中，收件者的名字和姓氏儲存在資料庫的欄位中，而他們的汽車品牌儲存在變數中。 第2頁個人化訊息的語法如下：
 
-![](assets/webapp_perso_vars_include.png)
+![個人化訊息HTML，包含使用標籤語法插入的收件者名字、姓氏及汽車品牌變數](assets/webapp_perso_vars_include.png)
 
 ```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
@@ -152,7 +152,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 這會產生下列結果：
 
-![](assets/s_ncs_admin_survey_tag_ctx_2.png)
+![第2頁（共2頁），依姓名和品牌問候收件者，並使用Select您的車型和您的車牌年份](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
 ### 使用文字變數 {#using-text-variables}
 
@@ -167,11 +167,11 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 1. 在&#x200B;**[!UICONTROL Identifier]**&#x200B;欄中，輸入變數的名稱
 1. 在&#x200B;**[!UICONTROL Text]**&#x200B;欄中輸入預設值。
 
-   ![](assets/s_ncs_admin_survey_html_text.png)
+   ![HTML元素文字索引標籤列出識別碼Country和DateFormat及其文字值](assets/s_ncs_admin_survey_html_text.png)
 
 1. 在HTML內容中，透過&#x200B;**&lt;%= $(Contact) %>**&#x200B;語法插入此文字變數。
 
-   ![](assets/s_ncs_admin_survey_html_content.png)
+   ![HTML內容編輯器，其連絡人文字識別碼已插入上次修改日期欄位](assets/s_ncs_admin_survey_html_content.png)旁邊
 
    >[!CAUTION]
    >
@@ -179,7 +179,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 1. 開啟表單的&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視HTML中輸入的值：
 
-   ![](assets/s_ncs_admin_survey_html_content_preview.png)
+   ![顯示上次連絡人日期（第2頁，共2頁）的翻譯文字識別碼](assets/s_ncs_admin_survey_html_content_preview.png)
 
 此作業模式可讓您僅定義一次網路表單文字，並使用整合式翻譯工具管理翻譯。 如需詳細資訊，請參閱[轉譯網路表單](translating-a-web-form.md)。
 
@@ -189,9 +189,9 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 選取&#x200B;**[!UICONTROL Static elements]** > **[!UICONTROL Image]**&#x200B;功能表。
 
-Select要插入的影像來源：可來自公用資源庫，或儲存在可從外部存取的外部伺服器上。
+選取要插入的影像來源：它可以來自公用資源庫，或儲存在可從外部存取的外部伺服器上。
 
-![](assets/s_ncs_admin_survey_add_img.png)
+![標誌的影像元素屬性，包含影像來源清單提供資料庫和外部](assets/s_ncs_admin_survey_add_img.png)
 
 如果這是資料庫中的影像，請在欄位的下拉式方塊中選取影像；如果影像位於外部檔案中，請輸入存取路徑。 將游標移至影像上（與HTML中的ALT欄位一致）或未顯示影像時，標籤就會顯示。
 

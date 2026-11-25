@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 2%
+source-wordcount: '1640'
+ht-degree: 1%
 ---
 # 使用本地核准活動{#using-the-local-approval-activity}
 
@@ -38,13 +38,13 @@ ht-degree: 2%
 
 為了設定此使用案例，我們已建立下列目標定位工作流程：
 
-![](assets/local_validation_workflow.png)
+![目標定位工作流程：兩個查詢、交集、分割、核准通知、傳遞、等待、回饋通知、結束](assets/local_validation_workflow.png)
 
 本地核准流程的主要步驟為：
 
 1. 由於使用資料分佈模型的&#x200B;**[!UICONTROL Split]**&#x200B;型別活動，因此定位所產生的母體可能會受到限制。
 
-   ![](assets/local_validation_intro_1.png)
+   ![每個網域的資料分送清單為10%，將工作流程中的分割輸出從3,332個收件者限製為333個收件者](assets/local_validation_intro_1.png)
 
 1. 然後&#x200B;**[!UICONTROL Local approval]**&#x200B;活動接手並傳送通知電子郵件給每個本機主管。 活動會擱置，直到每個本機主管核准指派給他們的收件者為止。
 
@@ -54,7 +54,7 @@ ht-degree: 2%
    >
    >一旦到達截止日期，未獲核准的收件者則會從目標定位中排除。
 
-   ![](assets/local_validation_intro_6.png)
+   ![在驗證通知之後、等待活動之前具有醒目提示的傳遞活動的工作流程](assets/local_validation_intro_6.png)
 
 1. 幾天後，第二個&#x200B;**[!UICONTROL Local approval]**&#x200B;型別活動會傳送通知電子郵件給每個本機主管，其中包含其聯絡人執行的動作（點選、開啟等）摘要。
 
@@ -66,18 +66,18 @@ ht-degree: 2%
 
 1. 若要建立資料發佈範本，請前往&#x200B;**[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;節點並按一下&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![資源>行銷活動管理>資料發佈中的總管樹狀結構，並反白顯示[新增]按鈕](assets/local_validation_data_distribution_1.png)
 
 1. 選取 **[!UICONTROL General]** 索引標籤。
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![資料發佈[一般]索引標籤，包含[標籤]、[目標維度]、[發佈]欄位和型別，以及[核准儲存]](assets/local_validation_data_distribution_2.png)
 
 1. 輸入&#x200B;**[!UICONTROL Label]**&#x200B;與&#x200B;**[!UICONTROL Distribution context]**。 在此範例中，我們已選取&#x200B;**[!UICONTROL Recipient]**&#x200B;目標結構描述和&#x200B;**[!UICONTROL Email domain]**&#x200B;欄位作為發佈欄位。 收件者清單將依網域劃分。
 1. 在&#x200B;**[!UICONTROL Distribution type]**&#x200B;欄位中，選取目標限制值在&#x200B;**[!UICONTROL Distribution]**&#x200B;索引標籤中的表示方式。 我們已選擇&#x200B;**[!UICONTROL Percentage]**。
 1. 在&#x200B;**[!UICONTROL Approval storage]**&#x200B;欄位中，輸入與使用中目標結構描述相符之核准的儲存結構描述。 我們在這裡將使用預設的儲存結構描述： **[!UICONTROL Local approval of recipients]**。
 1. 然後按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結。
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![進階引數：核准目標訊息、傳遞標籤、分組欄位及編輯目標訊息](assets/local_validation_data_distribution_3.png)
 
 1. 保留&#x200B;**[!UICONTROL Approve the targeted messages]**&#x200B;選項為已核取狀態，以便從要核准的收件者清單中預先選取所有收件者。
 1. 在&#x200B;**[!UICONTROL Delivery label]**&#x200B;欄位中，我們已保留預設運算式（傳遞的計算字串）。 回饋意見通知將使用傳遞的標準標籤。
@@ -85,7 +85,7 @@ ht-degree: 2%
 1. 在&#x200B;**[!UICONTROL Edit targeted messages]**&#x200B;區段中，我們已選取&#x200B;**[!UICONTROL Edit recipients]**&#x200B;網頁應用程式和&#x200B;**[!UICONTROL recipientId]**&#x200B;引數。 在核准和回饋通知中，收件者將可點選，且會指向網頁應用程式的URL。 額外的URL引數將會是&#x200B;**[!UICONTROL recipientId]**。
 1. 然後按一下「**[!UICONTROL Distribution]**」標籤。 針對每個網域，輸入下列欄位：
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![劃分索引標籤，列出每個網域及其百分比、標籤，以及指派給它的群組或運運算元](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**：輸入網域名稱的值。
    * **[!UICONTROL Percentage / Fixed]**：為每個網域輸入最大值。 您要傳送傳遞的收件者人數。 在此範例中，我們想將每個網域的傳送限製為10%。
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 為了設定此使用案例，我們已建立下列目標定位工作流程：
 
-![](assets/local_validation_workflow.png)
+![目標定位工作流程：兩個查詢、交集、分割、核准通知、傳遞、等待、回饋通知、結束](assets/local_validation_workflow.png)
 
 已新增下列活動：
 
@@ -123,23 +123,23 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Record count limitation]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Limit the selected records]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit]**&#x200B;連結。
 
-   ![](assets/local_validation_split_1.png)
+   ![已選取「限制選取的記錄」選項且「編輯記錄中的連結」計數限制的「分割子集」索引標籤](assets/local_validation_split_1.png)
 
-1. 選取&#x200B;**[!UICONTROL Keep only the first records after sorting]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**。
+1. Select **[!UICONTROL Keep only the first records after sorting]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/local_validation_split_1bis.png)
+   ![限制步驟的型別在排序選取後僅保留第一筆記錄](assets/local_validation_split_1bis.png)
 
 1. 在&#x200B;**[!UICONTROL Sort columns]**&#x200B;區段中，新增套用排序的欄位。 我們已選取&#x200B;**[!UICONTROL Email]**&#x200B;欄位。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/local_validation_split_2.png)
+   ![在[排序]欄與[下一步]按鈕中新增電子郵件欄的排序步驟](assets/local_validation_split_2.png)
 
-1. 選取&#x200B;**[!UICONTROL By data distribution]**&#x200B;選項，選取先前建立的發佈範本（請參閱[步驟1：建立資料發佈範本](#step-1--creating-the-data-distribution-template-)），然後按一下&#x200B;**[!UICONTROL Finish]**。
+1. 在&#x200B;**[!UICONTROL By data distribution]**&#x200B;選項Select，選取先前建立的發佈範本（請參閱[步驟1：建立資料發佈範本](#step-1--creating-the-data-distribution-template-)），然後按一下&#x200B;**[!UICONTROL Finish]**。
 
-   ![](assets/local_validation_split_3.png)
+   ![已選取依資料分送，且分送套用至已選取的收件者範本的限制步驟](assets/local_validation_split_3.png)
 
 在分佈範本中，我們已選擇將母體限製為每個分組值10%，這符合工作流程中顯示的值（340作為輸入和34作為輸出）。
 
-![](assets/local_validation_intro_1.png)
+![每個網域的資料分送清單為10%，將工作流程中的分割輸出從3,332個收件者限製為333個收件者](assets/local_validation_intro_1.png)
 
 ### 核准通知 {#approval-notification}
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
 如需設定&#x200B;**[!UICONTROL Local approval]**&#x200B;活動的詳細資訊，請參閱[本機核准](local-approval.md)。
 
-![](assets/local_validation_workflow_2.png)
+![本機核准活動設定為Target核准通知，已在轉換中指定，有3d延遲和提醒](assets/local_validation_workflow_2.png)
 
 需要輸入下列欄位：
 
@@ -165,13 +165,13 @@ ht-degree: 2%
 
 等待活動可讓您延遲將傳送傳送回饋通知的第二個本機核准活動的開始。 我們已在&#x200B;**[!UICONTROL Duration]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 5d]**&#x200B;值（5天）。 在傳送傳遞後5天內由收件者執行的動作將包含在回饋通知中。
 
-![](assets/local_validation_workflow_3.png)
+![持續時間欄位設為5d](assets/local_validation_workflow_3.png)的等待活動
 
 ### 意見反應通知 {#feedback-notification}
 
 第二個&#x200B;**[!UICONTROL Local approval]**&#x200B;活動可讓您傳送傳遞回饋通知給每個本機主管。
 
-![](assets/local_validation_workflow_4.png)
+![本機核准活動已設定為傳遞回饋意見報告，其傳遞已在轉換中指定](assets/local_validation_workflow_4.png)
 
 需要輸入下列欄位。
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 一旦達到等待活動中設定的期限，第二個&#x200B;**[!UICONTROL Local approval]**&#x200B;型別活動就會傳送下列通知電子郵件給每個本機主管：
 
-![](assets/local_validation_intro_3.png)
+![本機驗證網頁，內含依性別及其狀態區分的收件者傳遞回饋清單：已傳送、已開啟、已點按](assets/local_validation_intro_3.png)
 
 ### 管理員的核准追蹤 {#approval-tracking-by-the-administrator}
 
@@ -189,15 +189,15 @@ ht-degree: 2%
 
 前往行銷活動的目標定位工作流程，然後按一下「**[!UICONTROL Local approval tasks]**」標籤。
 
-![](assets/local_validation_admin_1.png)
+![行銷活動工作流程的本機核准任務索引標籤，其中列出任務、核准期限、工作流程和行銷活動](assets/local_validation_admin_1.png)
 
 也可以透過資料發佈範本的&#x200B;**[!UICONTROL Approval tasks]**&#x200B;索引標籤存取本機核准任務清單。
 
-![](assets/local_validation_admin_2.png)
+![列出本機核准任務及其目標訊息之資料散發範本的核准任務標籤](assets/local_validation_admin_2.png)
 
-選取您要監視的工作，然後按一下&#x200B;**[!UICONTROL Detail]**&#x200B;按鈕。 本機核准任務的&#x200B;**[!UICONTROL General]**&#x200B;標籤可讓您檢視有關任務的資訊。 如有需要，您可以變更核准和提醒日期。
+Select您要監視的工作，然後按一下&#x200B;**[!UICONTROL Detail]**&#x200B;按鈕。 本機核准任務的&#x200B;**[!UICONTROL General]**&#x200B;標籤可讓您檢視有關任務的資訊。 如有需要，您可以變更核准和提醒日期。
 
-![](assets/local_validation_admin_3.png)
+![本機核准任務一般索引標籤，包含標籤、識別碼、發佈、工作流程、行銷活動、核准和提醒日期](assets/local_validation_admin_3.png)
 
 此標籤會顯示下列資訊：
 
@@ -209,11 +209,11 @@ ht-degree: 2%
 
 任務的&#x200B;**[!UICONTROL Distribution]**&#x200B;索引標籤可讓您檢視核准記錄、其狀態、目標訊息數、核准日期，以及核准傳遞的操作員。
 
-![](assets/local_validation_admin_4.png)
+![任務劃分索引標籤列出本機核准記錄檔，其狀態、目標訊息、驗證日期和核准者](assets/local_validation_admin_4.png)
 
-選取核准記錄並按一下&#x200B;**[!UICONTROL Detail]**&#x200B;按鈕以顯示更多資訊。 本機核准記錄檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤可讓您檢視一般記錄檔資訊。 您也可以變更核准狀態。
+Select核准記錄，然後按一下「**[!UICONTROL Detail]**」按鈕以顯示更多資訊。 本機核准記錄檔的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤可讓您檢視一般記錄檔資訊。 您也可以變更核准狀態。
 
-![](assets/local_validation_admin_5.png)
+![核准記錄一般索引標籤，包含核准任務、狀態、核准者、核准日期，以及鎖定和核准的訊息](assets/local_validation_admin_5.png)
 
 此標籤會顯示下列資訊：
 
@@ -225,4 +225,4 @@ ht-degree: 2%
 
 核准記錄檔的&#x200B;**[!UICONTROL Targeted]**&#x200B;索引標籤會顯示目標收件者的清單及其核准狀態。 您可以視需要變更此狀態。
 
-![](assets/local_validation_admin_6.png)
+![核准記錄目標索引標籤列出目標收件者，且具有可編輯的核准是/否核取方塊](assets/local_validation_admin_6.png)

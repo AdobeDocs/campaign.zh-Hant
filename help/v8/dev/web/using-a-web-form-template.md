@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '262'
+ht-degree: 5%
 ---
 # 使用網路表單範本{#using-a-web-form-template}
 
@@ -38,7 +38,7 @@ ht-degree: 6%
 
 可將表單變更為範本，並重複使用其設定。 若要這麼做，請選取表單，按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Actions > Save as template...]**。
 
-![](assets/s_ncs_admin_survey_saveastemplate.png)
+![Web應用程式清單，其右鍵的[動作]功能表已開啟，[另存為範本]已反白顯示](assets/s_ncs_admin_survey_saveastemplate.png)
 
 這個動作會開啟建立Web應用程式的視窗。 您可以輸入範本的名稱和說明，並選取要儲存範本的資料夾。
 
@@ -46,11 +46,11 @@ ht-degree: 6%
 
 若要建立網頁表單範本，請在網頁應用程式範本清單上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL New]**。 您也可以使用範本清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 
-![](assets/s_ncs_admin_survey_createtemplate.png)
+在總管中的![網頁應用程式範本資料夾，使用新按鈕來建立範本](assets/s_ncs_admin_survey_createtemplate.png)
 
 輸入範本的名稱。 在&#x200B;**[!UICONTROL Instance folder]**&#x200B;欄位中，選取根據此範本建立的網路表單儲存所在的資料夾。 **[!UICONTROL Nature]**&#x200B;欄位可讓您新增描述性資訊，以排序和/或篩選您的各種Web應用程式範本。
 
-![](assets/s_ncs_admin_survey_createtemplate_details.png)
+![新增Web應用程式對話方塊，其中包含[標籤]、[調查]和[進階]網站選項、[性質]和[執行個體]資料夾欄位](assets/s_ncs_admin_survey_createtemplate_details.png)
 
 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以建立範本，然後建立此範本的內容並定義其引數。
 

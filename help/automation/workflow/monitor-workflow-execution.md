@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '2288'
 ht-degree: 2%
 ---
 # 監視工作流程的執行 {#monitoring-workflow-execution}
 
 本節提供如何監視工作流程執行的資訊。
 
-[本節](workflow-supervision.md#supervising-workflows)也提供如何建立工作流程的使用案例，可讓您監視一組「已暫停」、「已停止」或「發生錯誤」的工作流程的狀態。
+[中也有使用案例：監督您的工作流程](workflow-supervision.md#supervising-workflows)，說明如何建立工作流程，以監視一組「已暫停」、「已停止」或「發生錯誤」的工作流程的狀態。
 
 此外，執行個體的管理員可以使用&#x200B;**稽核軌跡**&#x200B;來檢查工作流程的活動和上次所做的修改，以及工作流程的狀態。 在此[頁面](../../v8/reporting/audit-trail.md){target="_blank"}中進一步瞭解稽核軌跡。
 
@@ -51,23 +51,23 @@ ht-degree: 2%
 
 **[!UICONTROL Display progress information]**&#x200B;圖示可讓您在執行畫面中顯示狀態和活動結果。
 
-![](assets/s_user_segmentation_toolbar_progr.png)
+![在工作流程工具列中顯示進度資訊圖示](assets/s_user_segmentation_toolbar_progr.png)
 
 選取此選項時，執行的活動會以藍色顯示，擱置的活動會閃爍，警告會以橘色顯示，而錯誤則以紅色顯示。 此選項也會顯示其出站轉變上的活動結果，其後是活動屬性中定義的結果標籤，如果超過一秒，則為工作的持續時間
 
-![](assets/s_user_segmentation_results.png)
+![工作流程圖表，其結果計數和標籤顯示在活動的出站轉變上](assets/s_user_segmentation_results.png)
 
 ## 顯示記錄 {#displaying-logs}
 
 記錄檔包含工作流程的歷史記錄或稽核軌跡。 它會註冊所有使用者動作、執行的所有作業以及遇到的錯誤。 您可以：
 
-* 選取詳細資料中的&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤。 此清單包含所有工作流程訊息。
+* 在詳細資訊中Select **[!UICONTROL Tracking]**&#x200B;索引標籤。 此清單包含所有工作流程訊息。
 
-  ![](assets/new-workflow-display-log-tab.png)
+  ![工作流程清單，包含所選工作流程的[稽核]索引標籤，顯示日誌中的郵件](assets/new-workflow-display-log-tab.png)
 
-* 依活動篩選紀錄訊息。 若要這麼做，請按一下圖表上方工具列上的&#x200B;**[!UICONTROL Display the tasks and the log]**，以顯示圖表下方的&#x200B;**[!UICONTROL Log]**&#x200B;和&#x200B;**[!UICONTROL Tasks]**&#x200B;標籤。 選取活動以檢視所有相關訊息。 此清單包含未選取活動時的所有訊息。
+* 依活動篩選紀錄訊息。 若要這麼做，請按一下圖表上方工具列上的&#x200B;**[!UICONTROL Display the tasks and the log]**，以顯示圖表下方的&#x200B;**[!UICONTROL Log]**&#x200B;和&#x200B;**[!UICONTROL Tasks]**&#x200B;標籤。 Select是檢視所有相關訊息的活動。 此清單包含未選取活動時的所有訊息。
 
-  ![](assets/new-workflow-display-log-activity.png)
+  ![工作流程圖表，其中包含已選取的核准活動以及在該活動上篩選的[日誌]索引標籤](assets/new-workflow-display-log-activity.png)
 
   >[!NOTE]
   >
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 * 僅檢視連結至指定任務的訊息。 若要這麼做，請選取&#x200B;**[!UICONTROL Tasks]**&#x200B;標籤，然後在圖表中選取活動以限制清單。 按兩下工作以顯示資訊；視窗中的最後一個標籤包含記錄。
 
-  ![](assets/new-workflow-display-tasks-activity.png)
+  ![工作流程圖表，其中已選取[核准]活動且[工作]索引標籤列出其工作](assets/new-workflow-display-tasks-activity.png)
 
   **[!UICONTROL Details...]**&#x200B;按鈕可讓您顯示活動執行的所有其他資訊。 例如，您可以檢視驗證運運算元，以及核准期間輸入的註解（如適用）。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
   目標定位行銷活動執行後，按一下&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤以檢視執行追蹤。
 
-  ![](assets/s_user_segmentation_journal.png)
+  ![工作流程檢視表，其中列出分錄中的訊息，包含日期、活動名稱和訊息](assets/s_user_segmentation_journal.png)
 
   所有行銷活動訊息都會顯示：已執行的行銷活動以及警告或錯誤。
 
@@ -97,19 +97,19 @@ ht-degree: 2%
 
   您也可以檢視每個活動的執行記錄檔和詳細資訊。 有兩種方法可以達成此目的：
 
-  1. 選取目標活動，然後按一下&#x200B;**[!UICONTROL Display the tasks and the log]**&#x200B;圖示。
+  1. Select鎖定目標活動，然後按一下&#x200B;**[!UICONTROL Display the tasks and the log]**&#x200B;圖示。
 
-     ![](assets/s_user_segmentation_show_logs.png)
+     ![在工作流程工具列中顯示任務和記錄圖示](assets/s_user_segmentation_show_logs.png)
 
      圖表的下半部分顯示兩個標籤：記錄檔和工作。
 
      在圖表中選取的活動在記錄和工作清單中作為篩選器。
 
-     ![](assets/s_user_segmentation_logs.png)
+     ![工作流程圖表，下方有[日誌]和[工作]索引標籤，已篩選選取的活動](assets/s_user_segmentation_logs.png)
 
   1. 以滑鼠右鍵按一下目標活動，然後選取&#x200B;**[!UICONTROL Display logs]**。
 
-     ![](assets/s_user_segmentation_logs_menu.png)
+     ![在[顯示記錄]選項反白顯示之活動的右鍵功能表](assets/s_user_segmentation_logs_menu.png)
 
      記錄會顯示在另一個視窗中。
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 系統不會自動清除工作流程歷史記錄：預設會保留所有訊息。 您可以透過&#x200B;**[!UICONTROL File > Actions]**&#x200B;功能表或按一下位於清單上方工具列中的&#x200B;**[!UICONTROL Actions]**&#x200B;按鈕，清除歷史記錄。 選取 **[!UICONTROL Purge history]**。 **[!UICONTROL Actions]**&#x200B;功能表中可用的選項在[動作工具列](start-a-workflow.md)區段中詳細說明。
 
-![](assets/purge_historique.png)
+工作流程清單的![動作功能表，其中的[清除歷程記錄]選項反白顯示](assets/purge_historique.png)
 
 ## 工作表和工作流程結構描述 {#worktables-and-workflow-schema}
 
@@ -131,31 +131,31 @@ ht-degree: 2%
 
 發生錯誤時，工作流程會暫停，而發生錯誤時所執行的活動會以紅色閃爍。 在工作流程概觀中，在&#x200B;**[!UICONTROL Monitoring]**&#x200B;標籤 — **[!UICONTROL Workflows]**&#x200B;連結下方，您只能顯示有錯誤的工作流程，如下所示。
 
-![](assets/wf-global-view_filter_only_errors.png)
+![監視標籤，工作流程頁面已選取狀態下拉式清單和失敗選項](assets/wf-global-view_filter_only_errors.png)
 
 在Adobe Campaign Explorer中，工作流程清單預設會顯示&#x200B;**[!UICONTROL Failed]**&#x200B;欄。
 
-![](assets/wf-explorer_errors_col.png)
+在總管中的![工作流程清單中反白顯示[失敗]資料行](assets/wf-explorer_errors_col.png)
 
 當工作流程發生錯誤時，只要工作流程監督群組的操作員的電子郵件地址列在其設定檔中，該操作員就會收到電子郵件通知。 已在工作流程屬性的&#x200B;**[!UICONTROL Supervisor(s)]**&#x200B;欄位中選取此群組。
 
-![](assets/wf-properties_select-supervisors.png)
+![工作流程屬性，[一般]索引標籤，選取[監督員]欄位清單和[工作流程監督員]](assets/wf-properties_select-supervisors.png)
 
 已在&#x200B;**[!UICONTROL Workflow manager notification]**&#x200B;預設範本中設定通知內容：已在工作流程屬性的&#x200B;**[!UICONTROL Execution]**&#x200B;標籤中選取此範本。 通知會顯示錯誤工作流程和相關任務的名稱。
 
 通知範例：
 
-![](assets/wf-notification_error-msg.png)
+![指出工作流程已停止的錯誤通知電子郵件，包含指向工作流程詳細資訊的「按一下這裡」連結](assets/wf-notification_error-msg.png)
 
 連結可讓您在Web模式下存取Adobe Campaign使用者端主控台，並在您登入後處理錯誤工作流程。
 
-![](assets/wf-notification_error-console.png)
+顯示[工作流程已失敗]的![網頁主控台頁面，包含[啟動工作流程]和[停止]按鈕](assets/wf-notification_error-console.png)
 
 您可以設定工作流程，使其在出現錯誤時不會暫停並繼續執行。 若要這麼做，請編輯工作流程&#x200B;**[!UICONTROL Properties]**，並在&#x200B;**[!UICONTROL Error management]**&#x200B;區段中，選取&#x200B;**[!UICONTROL In case of error]**&#x200B;欄位中的&#x200B;**[!UICONTROL Ignore]**&#x200B;選項。 然後，您可以指定在程序暫停之前可以忽略的連續錯誤數。
 
 在此情況下，錯誤工作會中止。 此模式特別適合用於設計為在稍後重新嘗試行銷活動（定期動作）的工作流程。
 
-![](assets/wf_edit_properties_for_error_mgt.png)
+![工作流程屬性，[執行]索引標籤，[發生錯誤時的錯誤管理]區段設為[忽略]](assets/wf_edit_properties_for_error_mgt.png)
 
 >[!NOTE]
 >
@@ -187,15 +187,15 @@ ht-degree: 2%
 
 若要存取此頁面，請移至&#x200B;**[!UICONTROL Monitoring]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL General view]**&#x200B;連結。
 
-![](assets/wf-monitoring_from-homepage.png)
+![監控執行個體頁面，其中包含程式清單及[工作流程]和[傳遞]面板](assets/wf-monitoring_from-homepage.png)
 
 若要顯示所有工作流程，請按一下&#x200B;**[!UICONTROL Workflows]**&#x200B;連結。 使用下拉式清單，根據工作流程的狀態顯示平台中的工作流程。
 
-![](assets/wf-monitoring_edit-wf.png)
+![監視標籤的工作流程頁面，其中包含狀態下拉式清單及已選取的失敗](assets/wf-monitoring_edit-wf.png)
 
 按一下發生錯誤的工作流程上的連結，以開啟並檢視其記錄。
 
-![](assets/wf-monitoring_edit-task-wf.png)
+![從清單開啟失敗的工作流程，顯示失敗活動的圖表及其日誌訊息](assets/wf-monitoring_edit-task-wf.png)
 
 ## 防止同時執行多個專案 {#preventing-simultaneous-multiple-executions}
 
@@ -207,17 +207,17 @@ ht-degree: 2%
 
 一般原則如下：
 
-![](assets/workflow-reentrancy-protection-principle.png)
+![鎖定原則：若已設定鎖定，則略過；若未設定，則置入鎖定，執行受保護的步驟，然後解除鎖定](assets/workflow-reentrancy-protection-principle.png)
 
 解決方案是使用例項變數。 執行個體變數會由工作流程的所有平行執行共用。
 
 以下是簡單的測試工作流程：
 
-![](assets/wkf_simultaneous_execution1.png)
+![具有排程器的工作流程、名為continue的測試活動、等待活動和兩個結束活動](assets/wkf_simultaneous_execution1.png)
 
 **[!UICONTROL Scheduler]**&#x200B;每分鐘都會觸發一個事件。 下列&#x200B;**[!UICONTROL Test]**&#x200B;活動即將測試&#x200B;**isRunning**&#x200B;執行個體變數，以決定是否繼續執行：
 
-![](assets/wkf_simultaneous_execution2.png)
+![以yes條件！instance.vars.isRunning測試活動，且預設分支標籤為no](assets/wkf_simultaneous_execution2.png)
 
 >[!NOTE]
 >
@@ -279,7 +279,7 @@ Campaign Classic介面可讓您使用預先定義的&#x200B;**檢視**&#x200B;�
 * **[!UICONTROL Failed]**：列出所有失敗的工作流程。
 * ** ).
 
-![](assets/workflow-monitoring-views.png)
+![總管樹狀結構，管理>稽核>工作流程狀態節點，包含執行中、開始擱置、暫停和失敗的檢視](assets/workflow-monitoring-views.png)
 
 預設可在&#x200B;**[!UICONTROL Audit]**&#x200B;資料夾中存取這些檢視。 不過，您可以在資料夾樹狀結構中所選擇的位置重新建立它們。 如此一來，便可供沒有管理許可權的標準使用者使用。
 
@@ -287,7 +287,7 @@ Campaign Classic介面可讓您使用預先定義的&#x200B;**檢視**&#x200B;�
 
 1. 在您要新增檢視的資料夾上按一下滑鼠右鍵。
 1. 在&#x200B;**[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**&#x200B;中，選取您要新增的檢視。
-1. 資料夾新增至樹狀結構後，請務必將其設定為檢視，以便顯示所有工作流程，無論其原始資料夾為何。 如需如何設定檢視的詳細資訊，請參閱[此頁面](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view)。
+1. 資料夾新增至樹狀結構後，請務必將其設定為檢視，以便顯示所有工作流程，無論其原始資料夾為何。 有關如何設定檢視的詳細資訊，請參閱[將資料夾轉換為檢視](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view)。
 
 除了這些檢視之外，您還可以設定篩選資料夾，讓您根據工作流程的執行狀態來篩選工作流程清單。 操作步驟：
 
@@ -295,6 +295,6 @@ Campaign Classic介面可讓您使用預先定義的&#x200B;**檢視**&#x200B;�
 1. 設定篩選器，使工作流程的&#x200B;**[!UICONTROL @status]**&#x200B;欄位等於您選擇的狀態。
 1. 儲存並命名篩選器。 然後，您就可以直接從篩選器清單中取得該篩選。
 
-![](assets/workflow-monitoring-filter.png)
+![條件為「實際狀態(@status)」等於「已擱置」且儲存圖示反白顯示的進階篩選器對話方塊](assets/workflow-monitoring-filter.png)
 
 如需詳細資訊，請參閱下列章節：

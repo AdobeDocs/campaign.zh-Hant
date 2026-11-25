@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '888'
 ht-degree: 0%
 ---
 # 循環和定期行銷活動 {#recurring-and-periodic-campaigns}
@@ -43,10 +43,10 @@ ht-degree: 0%
 
 1. 開啟Campaign檔案總管並瀏覽至&#x200B;**[!UICONTROL Resources > Templates > Campaign templates]**。
 1. 複製內建&#x200B;**[!UICONTROL Recurring campaign]**&#x200B;範本。
-   ![](assets/recurring-campaign-duplicate.png)
+   ![行銷活動範本清單，在循環行銷活動範本的內容功能表中選取了[重複]命令。](assets/recurring-campaign-duplicate.png)
 1. 輸入範本名稱和行銷活動的持續時間。
 1. 針對此型別的行銷活動，已新增&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤以建立範本執行排程。 使用此索引標籤可根據此範本定義行銷活動的執行日期。
-   ![](assets/recurring-campaign-schedule.png)
+   ![行銷活動範本的[排程]索引標籤，其中包含[執行]排程清單以及設定開始日期的行事曆選擇器。](assets/recurring-campaign-schedule.png)
 
    執行排程的設定模式與工作流程的&#x200B;**[!UICONTROL Scheduler]**&#x200B;物件一致。 [了解更多資訊](../workflow/scheduler.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
    >
    >此工作流程必須儲存為週期性工作流程範本。 若要這麼做，請編輯工作流程屬性，並在&#x200B;**[!UICONTROL Execution]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Recurring workflow template]**&#x200B;選項。
 
-   ![](assets/recurring-campaign-wf-properties.png)
+   ![工作流程屬性，[執行]索引標籤，已選取[週期性工作流程範本]選項。](assets/recurring-campaign-wf-properties.png)
 
 ### 建立週期性行銷活動 {#create-the-recurring-campaign}
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 1. 循環工作流程是從行銷活動中存在的工作流程範本自動建立。 可從行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中看到。
 
-   ![](assets/recurring-wf-created.png)
+   ![目標定位和工作流程索引標籤列出預設工作流程及其編號為#1和#2的週期性執行個體。](assets/recurring-wf-created.png)
 
    循環工作流程例項的標籤由其範本標籤和工作流程編號組成，其中的#字元介於。
 
    從排程建立的工作流程會自動與&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Workflow]**&#x200B;欄相關聯。
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![具有「工作流程」欄連結的「排程」索引標籤，將已建立的工作流程連結至排程明細行；預先為建立的是15d。](assets/recurring-wf-schedule-executed.png)
 
    每個工作流程都可以從此索引標籤進行編輯。
 

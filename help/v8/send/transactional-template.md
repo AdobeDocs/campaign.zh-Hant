@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 1%
+source-wordcount: '1491'
+ht-degree: 0%
 ---
 # 建立並發佈您的異動訊息範本{#template-transactional-messages}
 
@@ -50,16 +50,16 @@ ht-degree: 1%
 1. 前往Adobe Campaign樹狀結構中的&#x200B;**[!UICONTROL Message Center >Transactional message templates]**&#x200B;資料夾。
 1. 在交易式訊息範本清單中，按一下滑鼠右鍵並在下拉式功能表中選取&#x200B;**[!UICONTROL New]**，或按一下交易式訊息範本清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 
-   ![](assets/messagecenter_create_model_001.png)
+   ![異動訊息範本清單中的新按鈕，用來建立訊息範本](assets/messagecenter_create_model_001.png)
 
 1. 在傳送視窗中，選取適合您要使用之管道的傳送範本。
 
-   ![](assets/messagecenter_create_model_002.png)
+   ![包含Android、直接郵件、電子郵件、iOS和行動異動訊息範本的傳遞範本清單](assets/messagecenter_create_model_002.png)
 
 1. 必要時變更其標籤。
-1. Select是符合您要傳送之訊息的事件型別。 必須預先建立預定由Adobe Campaign處理的事件型別。 [了解更多](../send/transactional.md#create-event-types)
+1. 選取符合您要傳送之訊息的事件型別。 必須預先建立預定由Adobe Campaign處理的事件型別。 [了解更多](../send/transactional.md#create-event-types)
 
-   ![](assets/messagecenter_create_model_003.png)
+   ![新交易式訊息傳遞視窗中的事件型別下拉式清單，列出購買和命令事件型別](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 定義訊息內容後，您就可以將事件資訊整合至訊息內文，並加以個人化。 由於個人化標籤，事件資訊會插入文字內文中。
 
-![](assets/messagecenter_create_content.png)
+![開啟[訊息]功能表的HTML內容編輯器，以在交易式訊息中插入個人化欄位](assets/messagecenter_create_content.png)
 
 * 所有個人化欄位都來自裝載。
 * 可以在交易式訊息中參考一或多個個人化區塊。<!--The block content will be added to the delivery content during the publication to the execution instance.-->
@@ -91,11 +91,11 @@ ht-degree: 1%
 1. 輸入訊息內文。
 1. 在文字內文中，使用&#x200B;**[!UICONTROL Real time events>Event XML]**&#x200B;功能表插入標籤。
 
-   ![](assets/messagecenter_create_custo_1.png)
+   ![即時事件功能表，已選取事件XML以在HTML內容中插入事件個人化標籤](assets/messagecenter_create_custo_1.png)
 
 1. 使用下列語法填入標籤： **元素名稱**.@**屬性名稱**，如下所示。
 
-   ![](assets/messagecenter_create_custo_2.png)
+   ![HTML內容中的事件個人化標籤使用元素名稱和屬性語法，其中一個標籤加上底線](assets/messagecenter_create_custo_2.png)
 
 ## 測試異動訊息範本 {#test-message-template}
 
@@ -105,23 +105,23 @@ ht-degree: 1%
 
 1. 在交易式訊息範本中，按一下&#x200B;**[!UICONTROL Seed addresses]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
 
-   ![](assets/messagecenter_create_seed_1.png)
+   ![範本的種子地址索引標籤，其中的[新增]按鈕反白顯示](assets/messagecenter_create_seed_1.png)
 
 1. 指派標籤給它以便稍後輕鬆選取，然後輸入種子地址（電子郵件或行動電話，視通訊通道而定）。
 
 1. 輸入外部識別碼：此選擇性欄位可讓您輸入商業金鑰（唯一ID、名稱+電子郵件等） 這是您網站上所有應用程式通用的功能，用來識別您的設定檔。 如果此欄位也出現在Adobe Campaign行銷資料庫中，您可以接著將事件與資料庫中的設定檔進行調解。
 
-   ![](assets/messagecenter_create_seed_2.png)
+   ![種子地址對話方塊，標籤、電子郵件和外部識別碼欄位已填入](assets/messagecenter_create_seed_2.png)
 
 1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
-   ![](assets/messagecenter_create_custo_3.png)
+   ![種子位址對話方塊，其內容區段中的測試資料是以XML格式寫入的事件內容](assets/messagecenter_create_custo_3.png)
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以確認建立種子地址。
 
 1. 重複此程式，視需要儘量建立地址。
 
-   ![](assets/messagecenter_create_seed_6.png)
+   ![種子地址索引標籤列出針對購買傳遞範本建立的三個種子地址](assets/messagecenter_create_seed_6.png)
 
 地址建立後，您就可以存取其預覽和個人化。
 
@@ -150,11 +150,11 @@ This information enables you to personalize message content using personalizatio
 
 1. 在訊息範本中，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤，然後在下拉式清單中選取&#x200B;**[!UICONTROL A seed address]**。
 
-   ![](assets/messagecenter_preview_1.png)
+   ![開啟測試個人化功能表並選取種子地址的[預覽]索引標籤](assets/messagecenter_preview_1.png)
 
 1. 選取先前建立的種子地址，以顯示個人化訊息。
 
-   ![](assets/messagecenter_create_seed_7.png)
+   ![種子地址選擇對話方塊和顯示個人化訊息內容的預覽](assets/messagecenter_create_seed_7.png)
 
 ### 傳送校樣 {#send-proof}
 
@@ -162,7 +162,7 @@ This information enables you to personalize message content using personalizatio
 
 傳送證明的過程與傳送證明的過程相同。
 
-在[本節](../send/preview-and-proof.md#proofs-send)中進一步瞭解校訂。
+在[傳送校樣](../send/preview-and-proof.md#proofs-send)中進一步瞭解校樣。
 
 但是，若要傳送交易式訊息的證明，您必須執行下列操作：
 
@@ -175,15 +175,15 @@ This information enables you to personalize message content using personalizatio
 1. 分析傳遞。
 1. 更正任何錯誤並確認傳遞。
 
-   ![](assets/messagecenter_send_proof_001.png)
+   ![傳送證明對話方塊，顯示傳遞準備完成，包含要傳送的訊息以及確認傳遞按鈕](assets/messagecenter_send_proof_001.png)
 
 1. 檢查訊息是否已送達種子地址，其內容是否符合您的設定。
 
-   ![](assets/messagecenter_send_proof_002.png)
+   ![已收到包含種子位址資料底線之個人化值的證明電子郵件](assets/messagecenter_send_proof_002.png)
 
 可透過&#x200B;**[!UICONTROL Audit]**&#x200B;索引標籤在每個範本中存取校樣。
 
-![](assets/messagecenter_send_proof_003.png)
+範本的![稽核索引標籤列出已傳送的校樣，以及要傳送、處理和成功計數的訊息](assets/messagecenter_send_proof_003.png)
 
 #### 從[!DNL Campaign Classic] v7轉換 {#transition-from-v7}
 
@@ -193,7 +193,7 @@ This information enables you to personalize message content using personalizatio
 
 因此，若要傳送交易式訊息範本的校樣，您必須將路由從內部電子郵件傳送變更為&#x200B;**中間來源路由帳戶**。
 
-![](assets/messagecenter_send_proof_004.png)
+![傳遞屬性[一般]索引標籤，其中包含[路由]欄位，以及使用所選中間來源帳戶的電子郵件路由](assets/messagecenter_send_proof_004.png)
 
 傳送校樣後，您必須先將路由變更為內部電子郵件傳送，然後再發佈異動訊息範本。
 
@@ -217,11 +217,11 @@ Publication lets you automatically create two message templates on the execution
 1. 選取您要發佈的範本<!--on your execution instances-->。
 1. 按一下 **[!UICONTROL Publish]**。
 
-   ![](assets/messagecenter_publish_template.png)
+   ![按一下[發佈]後，使用[程式]完成發佈範本對話方塊及發佈日誌](assets/messagecenter_publish_template.png)
 
 發佈完成後，會在&#x200B;**[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]**&#x200B;資料夾中建立要套用至批次和即時型別事件的訊息範本。
 
-![](assets/messagecenter_deployed_model.png)
+![清單中已發佈的範本，及其訊息中心執行資料夾中已部署的兩個範本](assets/messagecenter_deployed_model.png)
 
 發佈範本後，若觸發對應的事件，Adobe Campaign<!--execution instance-->將會收到該事件、將其連結至交易式範本，並將對應的交易式訊息傳送給每個收件者。
 
@@ -250,7 +250,7 @@ Publication lets you automatically create two message templates on the execution
 1. 按一下 **[!UICONTROL Unpublish]**。
 1. 按一下 **[!UICONTROL Start]**。
 
-![](assets/message-center-unpublish.png)
+![使用[開始]按鈕取消發佈範本對話方塊，從已發佈範本的[取消發佈]按鈕開啟](assets/message-center-unpublish.png)
 
 異動訊息範本狀態從&#x200B;**[!UICONTROL Published]**&#x200B;變更回&#x200B;**[!UICONTROL Being edited]**。
 

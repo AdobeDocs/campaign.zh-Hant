@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1890'
 ht-degree: 5%
 ---
 # 設定推播通知頻道 {#push-notification-configuration}
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Campaign**&#x200B;管理員共用許可權。
+>推播設定必須由專家使用者執行。 根據您的實作模式和所涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔。 或者，在應用程式開發人員與&#x200B;**Adobe Campaign**&#x200B;管理員之間共用許可權。
 
 若要指派&#x200B;**屬性**&#x200B;和&#x200B;**公司**&#x200B;許可權，請遵循下列步驟：
 
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## 在Campaign中設定行動服務 {#push-service}
 
-在[!DNL Adobe Experience Platform Data Collection]中設定您的行動應用程式後，您需要建立兩個服務（一個用於iOS裝置，一個用於Android裝置）才能從&#x200B;**[!DNL Adobe Campaign]**&#x200B;傳送推播通知。
+在[!DNL Adobe Experience Platform Data Collection]中設定您的行動應用程式後，請建立兩個服務：一個用於iOS裝置，另一個用於Android裝置。 這些服務可讓您從&#x200B;**[!DNL Adobe Campaign]**&#x200B;傳送推播通知。
 
 推播通知會透過專用服務傳送給您的應用程式使用者。 使用者安裝您的應用程式時，會訂閱此服務： Adobe Campaign仰賴此服務，僅鎖定您應用程式的訂閱者。 在此服務中，您需要新增iOS和Android應用程式，以在iOS和Android裝置上傳送。
 
@@ -190,13 +190,13 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 瀏覽至&#x200B;**[!UICONTROL Profiles and Targets > Services and Subscriptions]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-   ![](assets/new-service-push.png){width="800"}
+   ![新的服務對話方塊，包含行動應用程式型別和訂閱者應用程式目標對應](assets/new-service-push.png){width="800"}
 
 1. 輸入&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**，然後選取&#x200B;**[!UICONTROL Mobile application]**&#x200B;型別。
 
    >[!NOTE]
    >
-   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者資料表。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 在[此頁面](../audiences/target-mappings.md)中進一步瞭解目標對應。
+   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者資料表。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 深入瞭解[使用目標對應](../audiences/target-mappings.md)中的目標對應。
 
 1. 然後使用右側的&#x200B;**[!UICONTROL Add]**&#x200B;圖示來定義使用此服務的行動應用程式。
 
@@ -208,14 +208,14 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 選取 **[!UICONTROL Create an iOS application]** 並按一下 **[!UICONTROL Next]**。
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![行動應用程式建立精靈，已選取「建立iOS應用程式」及「下一步」按鈕](assets/new-ios-app.png){width="600"}
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入您的應用程式名稱。
 1. （選擇性）您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
    在下列範例中，已新增&#x200B;**mediaURl**&#x200B;和&#x200B;**mediaExt**&#x200B;變數來建立豐富推送通知，然後提供應用程式要在通知內顯示的影像。
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![iOS應用程式精靈的一般引數步驟，其中mediaURL和mediaExt列為應用程式變數](assets/ios-app-parameters.png){width="600"}
 
 1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
@@ -258,7 +258,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. 選取 **[!UICONTROL Create an Android application]** 並按一下 **[!UICONTROL Next]**。
 
-   ![](assets/new-android-app.png){width="600"}
+   ![行動應用程式建立精靈，已選取「建立Android應用程式」及「下一步」按鈕](assets/new-android-app.png){width="600"}
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入您的應用程式名稱。
 1. 整合金鑰是每個應用程式專屬的。 這會將行動應用程式連結至Adobe Campaign。

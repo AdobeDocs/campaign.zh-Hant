@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 9%
+source-wordcount: '1048'
+ht-degree: 8%
 ---
 # 電子郵件參數 {#email-parameters}
 
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 ## 使用電子郵件密件副本 {#email-bcc}
 
-您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項在[此頁面](email-bcc.md)中有詳細說明。
+您可以設定Adobe Campaign以保留從您的平台傳送的電子郵件副本。 此選項在[將郵件副本傳送至密件副本地址](email-bcc.md)中有詳細說明。
 
 ## 選取訊息格式 {#selecting-message-formats}
 
 您可以變更已傳送電子郵件訊息的格式。 若要這麼做，請編輯傳遞屬性，然後按一下&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 
-![](assets/email-message-format.png)
+![傳遞屬性的[郵件格式]區段反白顯示的[傳遞]索引標籤，以及三個格式選項](assets/email-message-format.png)
 
 在視窗的下半部分選取電子郵件的格式：
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 若要這麼做，請選取「**[!UICONTROL Character encoding]**」區段中的「**[!UICONTROL Force the encoding used for messages]**」選項，然後從顯示的下拉式清單中選擇編碼。
 
-![](assets/email-smtp-encoding.png)
+![SMTP索引標籤，強制用於選取之郵件的編碼，且編碼下拉式清單開啟](assets/email-smtp-encoding.png)
 
 ## 管理退信電子郵件 {#managing-bounce-emails}
 
@@ -83,11 +83,11 @@ ht-degree: 9%
 
 * **[!UICONTROL Bounce address]**：您也可以定義其他未處理退信電子郵件轉寄到的地址。 此位址可讓您在應用程式無法自動限定電子郵件時，調查退回的原因。
 
-每個欄位都可以使用專用圖示進行個人化。 在[本節](personalization-fields.md)中進一步瞭解個人化欄位。
+每個欄位都可以使用專用圖示進行個人化。 深入瞭解[新增個人化欄位](personalization-fields.md)中的個人化欄位。
 
-![](assets/email-smtp-bounce.png)
+反白顯示[退回郵件]區段的![SMTP索引標籤： [寄送地址錯誤]和[退回地址]欄位](assets/email-smtp-bounce.png)
 
-有關退回郵件管理的詳細資訊，請參閱[本節](delivery-failures.md#bounce-mail-qualification)。
+有關退回郵件管理的詳細資訊，請參閱[退回郵件資格](delivery-failures.md#bounce-mail-qualification)。
 
 ## 啟用一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 
 它在ISP的電子郵件介面中顯示為&#x200B;**取消訂閱**&#x200B;連結。 例如：
 
-![](assets/email-list-unsubscribe-example.png)
+![電子郵件使用者端寄件者明細行，在寄件者地址旁邊顯示[取消訂閱]連結](assets/email-list-unsubscribe-example.png)
 
 必須新增名為List-Unsubscribe的SMTP標頭，以確保最佳傳遞能力管理，並可用作「回報為垃圾郵件」圖示的替代方案。 事實上，使用此功能可降低投訴率，並有助於保護您的聲譽。
 
@@ -109,7 +109,7 @@ ht-degree: 9%
 >
 >依預設，會啟用此選項。
 
-![](assets/email-smtp-list-unsubscribe.png)
+![SMTP索引標籤，其一鍵式List-Unsubscribe區段和標頭選項預設為選取](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -148,11 +148,11 @@ ht-degree: 9%
 >
 >此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
-![](assets/email-smtp-headers.png)
+![SMTP索引標籤，其他SMTP標頭指令碼區域以名稱:value格式反白顯示](assets/email-smtp-headers.png)
 
 
 ## 產生映象頁面 {#generating-mirror-page}
 
 鏡像頁面是可透過網頁瀏覽器線上存取的 HTML 頁面。 其內容與電子郵件相同。 如果您的收件者嘗試在收件匣中檢視您的電子郵件時遇到轉譯問題或影像損毀，此功能會很有用。
 
-瞭解如何在[本節](mirror-page.md)中插入映象頁面的連結
+瞭解如何在[新增映象頁面的連結中](mirror-page.md)插入映象頁面的連結

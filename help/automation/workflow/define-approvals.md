@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 ---
 # 定義核准 {#defining-approvals}
 
@@ -43,11 +43,11 @@ ht-degree: 3%
 
 核准可包含多個供運運算元選擇的選項。 但是，可以將選擇數量限製為一個，以便向操作員提交要執行的任務，例如執行定位。 執行工作之後，運運算元可以回應（接著處理繼續）。 下列範例說明這些核准型別：
 
-![](assets/validation-1.png)
+![傳遞驗證核准導致傳送、通知拒絕和通知修改請求的工作流程](assets/validation-1.png)
 
 在作業中，所有需要核准的階段均以相同的原則為基礎。
 
-![](assets/validation-1-in-op.png)
+![具有[核准]功能表的[行銷活動傳遞]區塊，其中顯示[核准內容]和[核准目標]，兩者皆為未決核准](assets/validation-1-in-op.png)
 
 運運算元可透過下列兩種方式之一進行回應：使用電子郵件訊息中連結的網頁進行驗證，或是透過主控台進行驗證。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 對於技術工作流程，可以從&#x200B;**[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]**&#x200B;資料夾中的樹狀結構存取使用者可以核准的任務。
 
-![](assets/validation-node.png)
+![總管樹狀結構，包含管理>生產>自動建立的物件>等待核准已選取](assets/validation-node.png)
 
 ## 群組 {#groups}
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 活動核准屬性中的第二個索引標籤可讓您定義一或多個有效期。 事實上，您可以定義多種到期型別。
 
-![](assets/expiration.png)
+![包含到期詳細資訊視窗的[核准到期]索引標籤，以及延遲選項的[到期]型別清單](assets/expiration.png)
 
 若要新增到期時間，請按一下&#x200B;**[!UICONTROL Add]**。 每個已建立的到期時間都會新增一個轉變。 您可以：
 

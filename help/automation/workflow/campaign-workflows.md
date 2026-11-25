@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '128'
+ht-degree: 3%
 ---
 # 行銷活動工作流程 {#campaign-workflows}
 
 對於每個行銷活動，您可以建立要從&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤執行的工作流程。 這些工作流程是行銷活動專屬的。
 
-![](assets/wf-in-op-edit-delivery-tab.png)
+![行銷活動的目標定位和工作流程標籤，顯示工作流程清單以及包含查詢、分割和傳遞的圖表。](assets/wf-in-op-edit-delivery-tab.png)
 
 此索引標籤包含與所有工作流程相同的活動。 [了解更多](#implementation-steps-)
 
@@ -47,6 +47,6 @@ ht-degree: 4%
 
 所有行銷活動工作流程都集中在&#x200B;**[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]**&#x200B;節點下。
 
-![](assets/campaigns_wf.png)
+![總管含管理>生產>自動建立的物件>已選取行銷活動工作流程節點。](assets/campaigns_wf.png)
 
-行銷活動工作流程與實作範例在[本區段](../campaigns/marketing-campaign-target.md)中有詳細說明。
+行銷活動工作流程與實作範例在[行銷活動目標對象](../campaigns/marketing-campaign-target.md)中詳細說明。

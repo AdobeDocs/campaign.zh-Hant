@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: '898'
+ht-degree: 7%
 ---
 # 使用工作流程資料{#how-to-use-workflow-data}
 
 您可以使用工作流程活動來執行多項工作。 尋找以下使用範例，說明如何透過建立清單、管理訂閱、透過工作流程傳送訊息，或豐富您的傳送內容及其閱聽眾，來更新資料庫。
 
-[此區段](workflow-use-cases.md)提供一組工作流程使用案例。
+[工作流程使用案例](workflow-use-cases.md)中有一組工作流程使用案例。
 
 ## 資料生命週期 {#data-life-cycle}
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 在適當的轉變上按一下滑鼠右鍵，即可顯示和分析此資料。
 
-![](assets/wf-right-click-analyze.png)
+![工作流程在轉換上有按滑鼠右鍵功能表，其中顯示[顯示目標]和[分析目標]選項。](assets/wf-right-click-analyze.png)
 
 要執行此操作，請選取相關功能表：
 
@@ -50,13 +50,13 @@ ht-degree: 10%
 
   此功能表會顯示目標母體上的可用資料。
 
-  ![](assets/wf-right-click-display.png)
+  ![檢視母體視窗，資料標籤，列出目標籤錄及其欄位。](assets/wf-right-click-display.png)
 
   您可以在&#x200B;**[!UICONTROL Schema]**&#x200B;索引標籤中存取工作表結構。
 
-  ![](assets/wf-right-click-schema.png)
+  ![檢視母體視窗，結構描述標籤，顯示temp:enrich工作表結構及其欄位。](assets/wf-right-click-schema.png)
 
-  如需詳細資訊，請參閱[本章節](monitor-workflow-execution.md#worktables-and-workflow-schema)。
+  如需詳細資訊，請參閱[工作表和工作流程結構描述](monitor-workflow-execution.md#worktables-and-workflow-schema)。
 
 * **[!UICONTROL Analyze target...]**
 
@@ -66,7 +66,7 @@ ht-degree: 10%
 
 在執行工作流程時清除目標資料。 只能存取最後一個工作表。 您可以設定工作流程，讓所有工作表保持可存取狀態：核取工作流程屬性中的&#x200B;**[!UICONTROL Keep the result of interim populations between two executions]**&#x200B;選項。
 
-![](assets/wf-purge-data-option.png)
+![勾選「保留兩個執行之間的中期母體結果」選項的工作流程屬性。](assets/wf-purge-data-option.png)
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ ht-degree: 10%
 
 1. 建立工作流程以收集資訊，將其與資料庫中已存在的資料進行調解，然後開始傳遞。
 
-   ![](assets/wf-targetdata-sample-1.png)
+   ![具有資料載入（檔案）、擴充與傳遞活動依序連線的工作流程。](assets/wf-targetdata-sample-1.png)
 
 1. 在我們的範例中，檔案內容如下：
 
@@ -105,15 +105,15 @@ ht-degree: 10%
 
    若要載入檔案，請設定&#x200B;**[!UICONTROL Data loading (file)]**&#x200B;活動，如下所示：
 
-   ![](assets/wf-targetdata-sample-2.png)
+   ![使用範例CSV檔案的資料載入（檔案）活動、其欄的預覽，以及從本機電腦上傳檔案。](assets/wf-targetdata-sample-2.png)
 
 1. 設定&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動，將收集的資料與Adobe Campaign資料庫中已存在的資料進行調解。 調解金鑰是帳號：
 
-   ![](assets/wf-targetdata-sample-3.png)
+   ![擴充活動，[調解]索引標籤，其來源運算式[帳戶]符合目的地@account。](assets/wf-targetdata-sample-3.png)
 
 1. 然後設定&#x200B;**[!UICONTROL Delivery]**：它是根據範本建立的，收件者是由入站轉變所指定。
 
-   ![](assets/wf-targetdata-sample-4.png)
+   ![從範本建立的傳遞活動，其收件者由傳入事件和「準備」動作指定。](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
@@ -123,13 +123,13 @@ ht-degree: 10%
 
    若要這麼做，請插入&#x200B;**[!UICONTROL Target extension]**&#x200B;型別個人化欄位。
 
-   ![](assets/wf-targetdata-sample-5.png)
+   ![傳遞編輯器個人化功能表，已開啟Target擴充功能，列出[音樂]、[帳戶]和[卡片]等欄位。](assets/wf-targetdata-sample-5.png)
 
    在此處，我們要插入客戶最愛的音樂流派和媒體型別（CD或DVD），如工作流程收集的檔案中所述。
 
    此外，我們將為熟客卡持有者（即「卡片」值等於1的收件者）新增優惠券。
 
-   ![](assets/wf-targetdata-sample-6.png)
+   ![使用指令碼的傳遞內容，當targetData.Card等於1時可新增10%的折扣，以及targetData.Music個人化。](assets/wf-targetdata-sample-6.png)
 
    **[!UICONTROL Target extension]** (targetData)型別資料是使用與所有個人化欄位相同的特性插入傳遞。 它們也可用於主旨、連結標籤或連結本身。
 
@@ -146,7 +146,7 @@ Adobe Campaign資料庫和現有清單的資料可以使用兩個專用活動進
 
   您可以選取或建立現有清單。 在這種情況下，將計算名稱，並可能計算記錄資料夾。
 
-  ![](assets/s_user_create_list.png)
+  ![使用明確指定的清單列出更新活動，並儲存在目標維度資料庫中，且具有自己的資料表。](assets/s_user_create_list.png)
 
   請參閱[清單更新](list-update.md)。
 

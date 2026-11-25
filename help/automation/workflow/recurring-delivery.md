@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 10%
 ---
 # 週期性傳遞{#recurring-delivery}
 
@@ -34,15 +34,15 @@ ht-degree: 12%
 
 **[!UICONTROL Recurring delivery]**&#x200B;活動可讓您設定行銷活動特定的傳遞範本發生次數。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#recurring-delivery-video)
+視訊連結的![播放按鈕圖示。](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#recurring-delivery-video)
 
 此活動只能從行銷活動中找到的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中使用。
 
 操作步驟：
 
-1. 選取活動將依據的傳遞範本。
+1. Select活動將依據的傳遞範本。
 
-   ![](assets/recurring_delivery_001.png)
+   ![傳遞視窗已開啟[傳遞範本]下拉式清單，並選取電子郵件傳遞（郵件）。](assets/recurring_delivery_001.png)
 
 1. 設定傳遞範本。
 

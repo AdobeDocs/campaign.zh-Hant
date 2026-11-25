@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '409'
 ht-degree: 3%
 ---
 # 增量查詢{#incremental-query}
@@ -54,15 +54,15 @@ ht-degree: 3%
 
    在&#x200B;**[!UICONTROL Schedule editing wizard]**&#x200B;視窗中，您可以設定頻率、事件週期和事件有效期的型別。
 
-   ![](assets/s_user_segmentation_wizard_11.png)
+   ![排程編輯精靈：每週頻率、已選取星期四，以及有效期間為「有效開始日期」和「有效結束日期」。](assets/s_user_segmentation_wizard_11.png)
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以儲存排程。
 
-   ![](assets/s_user_segmentation_wizard_valid.png)
+   ![排程編輯精靈：摘要頁面，包含排程說明、啟動時間清單及[完成]按鈕。](assets/s_user_segmentation_wizard_valid.png)
 
 1. **[!UICONTROL Scheduling & History]**&#x200B;索引標籤的下方區段可讓您選取要在歷史記錄中考慮的天數。
 
-   ![](assets/edit_request_inc.png)
+   ![已選取「計畫執行」且「歷史記錄（天數）」欄位設為10的「增量查詢排程與歷史記錄」索引標籤。](assets/edit_request_inc.png)
 
    * **[!UICONTROL History in days]**
 

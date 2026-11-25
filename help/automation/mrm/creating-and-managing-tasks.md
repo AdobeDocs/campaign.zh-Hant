@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '3766'
+source-wordcount: '4562'
 ht-degree: 0%
 ---
 # 建立及管理設定檔{#creating-and-managing-tasks}
@@ -40,7 +40,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 它們可以顯示在所屬方案的排程中。
 
-![](assets/campaign-calendar.png)
+![顯示冬季行銷活動和行銷活動與任務1、任務2和任務3的行銷活動行事曆時間表。](assets/campaign-calendar.png)
 
 ## 存取任務 {#accessing-tasks}
 
@@ -48,7 +48,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 任務會顯示在可透過&#x200B;**[!UICONTROL Campaigns]**&#x200B;索引標籤存取的工作清單中。
 
-![](assets/campaign-task-dashboard.png)
+![具有「建立」按鈕的行銷活動下的任務清單、篩選器和顯示狀態和進度的三個任務。](assets/campaign-task-dashboard.png)
 
 您可以檢視目前運運算元的所有工作。
 
@@ -62,7 +62,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 按一下工作以進行編輯。
 
-![](assets/edit-a-task.png)
+![任務3的工作摘要視窗顯示狀態、優先順序、排程、受指派人和行銷活動，並附上[取消]按鈕。](assets/edit-a-task.png)
 
 ## 建立新任務 {#creating-a-new-task}
 
@@ -70,17 +70,17 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 1. 瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Tasks]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-   ![](assets/create-a-task-from-dashboard.png)
+   ![任務清單，其箭頭指向用來新增任務的[建立]按鈕。](assets/create-a-task-from-dashboard.png)
 
 1. 輸入任務名稱，並選取其連結的行銷活動。
 1. 設定開始和結束日期。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立工作。
 
-   ![](assets/new-task-edit.png)
+   ![包含範本、標籤、受指派人、行銷活動、開始和結束日期、工作負載和說明，以及儲存的新任務表單。](assets/new-task-edit.png)
 
 您也可以透過行銷活動的控制面板建立任務：在這種情況下，會自動連結至建立該行銷活動的來源。
 
-![](assets/add-a-task-in-a-campaign.png)
+![行銷活動控制面板，其箭頭指向行銷活動任務清單上方的「新增任務」連結。](assets/add-a-task-in-a-campaign.png)
 
 建立任務後，任務會新增至行銷活動排程、行銷活動控制面板和任務清單。 若要編輯任務，請從任務清單中按一下其名稱，或從排程或行銷活動控制面板中選取任務，然後按一下&#x200B;**[!UICONTROL Open]**。
 
@@ -92,7 +92,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 您也可以新增[檢閱者](#reviewers)和[參考檔案](#documents-referenced)。
 
-任務生命週期會顯示在[本節](#life-cycle)中。
+在[生命週期](#life-cycle)中顯示任務生命週期。
 
 ### 經理與參與者 {#manager-and-participants}
 
@@ -100,11 +100,11 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 您可以從&#x200B;**[!UICONTROL Assigned to]**&#x200B;下拉式清單中選取不同的運運算元。
 
-![](assets/task-assigned-to.png)
+![開啟[任務一般]索引標籤，並開啟[指派至]下拉式清單以選取其他運運算元。](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
->操作員管理在[此區段](../../v8/start/gs-permissions.md)中有詳細說明。
+>操作員管理在[開始使用Campaign v8](../../v8/start/gs-permissions.md)中的許可權。
 >
 >只允許負責任務的操作員將其關閉。
 
@@ -114,12 +114,12 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 1. 按一下工作工具列中的&#x200B;**[!UICONTROL Resources]**&#x200B;圖示。
 
-   ![](assets/add-task-resources.png)
+   ![任務一般標籤，其箭頭指向工具列中的[資源]圖示。](assets/add-task-resources.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取相關運運算元。
 1. 輸入使用率：這代表工作執行期間指派給運運算元的工作負載。 此比率僅供參考，並以百分比表示。
 
-   ![](assets/define-operator-task-workload.png)
+   ![資源視窗列出運運算元，包括使用率、規劃的工作負載及執行的工作負載。](assets/define-operator-task-workload.png)
 
    例如，對於執行排程設定為10天的工作，使用率為50%的運運算元將會在此任務上動員10天一半的工作時間。
 
@@ -127,7 +127,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 1. 您可以從&#x200B;**[!UICONTROL Add a reminder...]**&#x200B;連結設定提醒。 將會在任務結束日期之前傳送電子郵件通知給所有參與任務的操作者。
 
-   ![](assets/task-op-add-a-reminder.png)
+   ![資源視窗，內含[提醒]清單和下拉式選件[核准截止日期或指定日期延遲]。](assets/task-op-add-a-reminder.png)
 
 1. 您也可以在工作開始之前傳送通知。 若要設定此專案，請在&#x200B;**[!UICONTROL Initial notification]**&#x200B;欄位中選取日期。
 1. 當到達結束日期且任務未關閉時，可以傳送通知給在&#x200B;**[!UICONTROL Assignee]**&#x200B;下拉式清單中選取的受指派人或受指派人群組。
@@ -135,7 +135,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 操作員儀表板可讓您檢查其工作量（其他進行中的任務）。
 
-![](assets/operator-dashboard.png)
+![操作員儀表板，其任務指派給操作員清單顯示每個任務及其狀態。](assets/operator-dashboard.png)
 
 ### 任務核准 {#reviewers}
 
@@ -145,7 +145,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 若要指定運運算元清單，請按一下第一個檢閱者右側的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，並視需要新增運運算元，如下所示：
 
-![](assets/enable-task-approval.png)
+![已選取[啟用任務核准]的[資源]視窗，且[編輯稽核者]對話方塊列出其他稽核者。](assets/enable-task-approval.png)
 
 您可以在組態視窗的下半部定義任務的核准排程。 依預設，稽核者從提交日期起有三天可核准任務。 您也可以新增提醒，在核准期限之前會自動傳送給相關操作者。
 
@@ -159,14 +159,14 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 1. 開啟工作並按一下工作工具列中的&#x200B;**[!UICONTROL Documents]**&#x200B;圖示。
 
-   ![](assets/add-documents-to-a-task.png)
+   ![工作一般標籤，其箭頭指向工具列中的[檔案]圖示。](assets/add-documents-to-a-task.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取要新增至您工作的檔案。 對行銷資源套用相同程式。
 
 
 參考的檔案會新增至傳送給工作相關操作員的通知。 它們也會新增到任務控制面板上。
 
-![](assets/s_ncs_user_task_notification_documents.png)
+![在檔案列反白顯示參考檔案Brief.pdf和Central Agency.pdf的任務儀表板。](assets/s_ncs_user_task_notification_documents.png)
 
 ### 執行排程 {#execution-schedule}
 
@@ -178,17 +178,17 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 **[!UICONTROL Workload performed]**&#x200B;欄位也以天和小時表示，可讓您手動更新與排程工作負載相關的任務進度。
 
-![](assets/s_ncs_user_task_percentage_done_enter.png)
+![任務一般索引標籤，其箭頭指向[進度] （以%表示）欄位設為35。](assets/s_ncs_user_task_percentage_done_enter.png)
 
 工作&#x200B;**[!UICONTROL Progress status]** （以百分比表示）會根據相關操作員所執行的工作自動更新。 可以手動輸入。
 
 可在任務儀表板中檢視此資訊。
 
-![](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
+![任務儀表板，其箭頭指向35%的進度值。](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
 
 它也會顯示在行銷活動標籤中。
 
-![](assets/s_ncs_user_task_percentage_done_from_op.png)
+![行銷活動任務清單，其箭頭指向任務的35%進度列。](assets/s_ncs_user_task_percentage_done_from_op.png)
 
 如果已達到任務執行排程結束日期，但任務尚未完成，則任務將是&#x200B;**[!UICONTROL Late]**。 警告訊息也會顯示給警示操作者。
 
@@ -200,13 +200,13 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 若要指定此資訊，請按一下工作工具列中的&#x200B;**[!UICONTROL Expenses and revenue]**&#x200B;圖示。
 
-![](assets/s_ncs_user_task_edit_costs.png)
+![從工具列開啟費用與收入視窗，顯示費用、承諾水準、成本及新增目標。](assets/s_ncs_user_task_edit_costs.png)
 
 依預設，收取的預算是附加任務的行銷活動的預算。 它會顯示在任務詳細資訊中。
 
 >[!NOTE]
 >
->如需費用與預算的詳細資訊，請參閱[本節](../campaigns/providers-stocks-and-budgets.md)。
+>如需費用與預算的詳細資訊，請參閱[供應商、庫存與預算](../campaigns/providers-stocks-and-budgets.md)。
 
 在此視窗中，您也可以定義要達成的目標。 目標會以任務的預測收入表示。
 
@@ -216,9 +216,9 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 若要這麼做，請編輯工作屬性，並選取相關的服務提供者。 與服務提供者相關的成本類別會自動列在視窗的中央區段中。
 
-選取與作業執行相關的成本類別。 若要這麼做，請選取成本型態，並視需要新增附加費金額。
+Select與任務執行相關的成本類別。 若要這麼做，請選取成本型態，並視需要新增附加費金額。
 
-![](assets/s_ncs_user_task_edit_simple_costs_tab.png)
+![工作內容視窗，其中列出服務提供者欄位與成本類別，金額為附加費。](assets/s_ncs_user_task_edit_simple_costs_tab.png)
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 選取服務提供者時，它會顯示在工作儀表板中：
 
-![](assets/s_ncs_user_task_supplier_view.png)
+![工作儀表板，其箭號指向顯示所選服務的服務提供者列。](assets/s_ncs_user_task_supplier_view.png)
 
 ### 延遲任務 {#late-tasks}
 
@@ -234,19 +234,19 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 移至&#x200B;**[!UICONTROL Resources]**&#x200B;方塊並將運運算元新增至&#x200B;**[!UICONTROL Assignation]**&#x200B;欄位。 若要通知幾個人，請選取一組操作員。
 
-![](assets/mrm_task_alert_if_late.png)
+![「資源」視窗中的「受指派人」欄位會在「通知」下反白顯示，以防超過任務結束日期。](assets/mrm_task_alert_if_late.png)
 
 ### 初始通知 {#initial-notifications}
 
 當您建立或修改具有未來開始日期的任務時，Adobe Campaign會提供傳送電子郵件給負責任務的人，讓他們知道何時開始。
 
-![](assets/mrm_task_first_notif.png)
+![詢問是否傳送排程工作的初始通知提示，包含[是]和[否]按鈕。](assets/mrm_task_first_notif.png)
 
 但是，如果您要建立的任務還很遙遠，最好在任務開始之前排程要傳送的通知。 例如，如果工作在一個月後開始，您可以通知負責人員，時間早於工作開始的一週。
 
 若要排程通知，請移至&#x200B;**[!UICONTROL Resources]**&#x200B;方塊並使用&#x200B;**[!UICONTROL Initial notification]**&#x200B;欄位。
 
-![](assets/mrm_task_alert_before.png)
+![資源視窗，其初始通知欄位在任務開始日期區段底下反白顯示。](assets/mrm_task_alert_before.png)
 
 * 針對行銷活動內的任務，選取特定的日期和時間。
 * 對於行銷活動範本內的任務，通知時間以任務開始前的剩餘時間表示（例如，如果您在「**[!UICONTROL Initial notification]**」欄位中輸入2d，則會在任務開始日期前2天傳送電子郵件）。
@@ -264,19 +264,19 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 1. 在此視窗中，按一下&#x200B;**[!UICONTROL Open]**。 方案排程隨即開啟。
 1. 按一下右側排程上方的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Add a task]**。
 
-![](assets/mrm_task_create_from_prg.png)
+![開啟了[新增]功能表並選取[新增工作]選項的計畫排程。](assets/mrm_task_create_from_prg.png)
 
 ### 操作員可用性 {#operator-availability}
 
 在任務儀表板中，操作員名稱旁邊的圖示表示他們已在任務所涵蓋的期間處理另一個任務或事件。 運運算元負責或參與的任務會出現在&#x200B;**[!UICONTROL Assigned to]**&#x200B;欄位或任務&#x200B;**[!UICONTROL Resources]**&#x200B;方塊中。
 
-![](assets/mrm_task_alert_operator_busy.png)
+![任務儀表板，其箭頭指向[指派給]列中的運運算元。](assets/mrm_task_alert_operator_busy.png)
 
 ### 工作流程中的任務 {#task-in-a-workflow}
 
 在行銷活動工作流程中使用&#x200B;**[!UICONTROL Task]**&#x200B;元素可讓您根據任務是否核准來定義兩個案例。
 
-![](assets/mrm_task_in_workflow.png)
+![工作流程如果完成，任務活動會導向直接郵件傳遞，如果未完成，則會導向等待並返回。](assets/mrm_task_in_workflow.png)
 
 在行銷活動工作流程中，**[!UICONTROL Task]**&#x200B;活動可在&#x200B;**[!UICONTROL Flow control]**&#x200B;索引標籤中找到。
 
@@ -284,7 +284,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 當您透過行銷活動建立任務時，可以建立特定任務。 任務型別在所選範本中定義。
 
-![](assets/s_ncs_user_task_select_template.png)
+![包含控制、分組、行銷資源建立、通知與標準任務範本的任務範本清單。](assets/s_ncs_user_task_select_template.png)
 
 可以排程下列工作：
 
@@ -302,11 +302,11 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 **[!UICONTROL Control task]**&#x200B;連結至傳遞核准：核准目標、內容、擷取檔案、預算或證明。
 
-![](assets/s_ncs_user_task_new_control.png)
+![控制任務表單，其核准型別清單顯示目標、內容、預算、擷取檔案和校訂核准。](assets/s_ncs_user_task_new_control.png)
 
 任務建立後，即會新增至行銷活動控制面板。
 
-![](assets/s_ncs_user_task_edit_from_board.png)
+![Campaign儀表板，其箭號指向[工作]清單中的新控制項工作，且有[開啟]、[核准]和[拒絕]。](assets/s_ncs_user_task_edit_from_board.png)
 
 然後您可以編輯並指定其引數。
 
@@ -337,18 +337,18 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 檢閱任務的人不必是檢閱資源中定義內容的同一個人。 但是，如果核取&#x200B;**[!UICONTROL Publish the marketing resource]**&#x200B;選項（請參閱下文），則授權任務稽核者核准資源內容，因為完成任務會自動核准資源（如果未定義稽核者，則授權任務管理員）。
 
-![](assets/mrm_task_asset_creation.png)
+![使用行銷資源欄位建立行銷資源，並發佈選取的行銷資源。](assets/mrm_task_asset_creation.png)
 
 在&#x200B;**[!UICONTROL Marketing resource]**&#x200B;欄位中，定義您要透過此任務管理的資源。 您可以：
 
-* 選取現有資源：下拉式清單會提供狀態為&#x200B;**[!UICONTROL Being edited]**&#x200B;的所有資源。
+* Select現有資源：下拉式清單會提供狀態為&#x200B;**[!UICONTROL Being edited]**&#x200B;的所有資源。
 * 建立資源：按一下&#x200B;**[!UICONTROL Select the link]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示。
 
 **[!UICONTROL Publish the marketing resource]**&#x200B;選項可讓您自動發佈資源：一旦任務為&#x200B;**[!UICONTROL Finished]**，資源的狀態會自動切換為&#x200B;**[!UICONTROL Published]**，即使它既未提交核准也未核准，包括完成任務的稽核者不是資源中定義的內容稽核者時。
 
 **[!UICONTROL Publish the resource]**&#x200B;按鈕可供使用，資源發佈稽核者會收到通知電子郵件，通知他們該按鈕已準備好發佈。 在&#x200B;**[!UICONTROL Edit > Tracking]**&#x200B;索引標籤中，工作稽核者的稽核和發佈會變為可見。 如果已定義資源後處理工作流程，則會立即執行。
 
-![](assets/mrm_resource_audit_tab.png)
+![行銷資源[稽核]索引標籤顯示具有核准和發佈專案的核准和發佈日誌。](assets/mrm_resource_audit_tab.png)
 
 ### 群組任務 {#grouping-task}
 
@@ -362,11 +362,11 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 若要根據分組任務建立分組任務，請移至行銷活動控制面板，按一下分組任務的名稱以顯示其說明，然後按一下&#x200B;**[!UICONTROL Add a task]**。
 
-![](assets/mrm_task_grouped_create.png)
+![群組任務展開且箭頭指向「新增任務」連結的行銷活動儀表板。](assets/mrm_task_grouped_create.png)
 
 不過，如果您已建立要連結至分組任務的任務，則可透過&#x200B;**[!UICONTROL Properties]**&#x200B;方塊的&#x200B;**[!UICONTROL Linked to]**&#x200B;欄位進行連結。
 
-![](assets/s_ncs_user_task_group_with.png)
+![任務屬性視窗的[連結至]欄位設定為[定義任務間的連結]下的另一個任務。](assets/s_ncs_user_task_group_with.png)
 
 ### 通知任務 {#notification-task}
 
@@ -376,7 +376,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 通知工作不需要核准。 這表示它們的生命週期比標準任務的生命週期更簡單：
 
-![](assets/mrm_task_notif_lifecycle.png)
+![通知任務生命週期：排程至電子郵件傳送的開始日期、進行中，然後在結束日期完成。](assets/mrm_task_notif_lifecycle.png)
 
 通知任務可以有下列狀態：
 
@@ -386,7 +386,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 #### 設定 {#configuration}
 
-![](assets/mrm_task_notif_dashboard.png)
+![含有範本、標籤、指派給、開始和結束日期以及任務說明的通知任務表單。](assets/mrm_task_notif_dashboard.png)
 
 建立期間，必須在任務中輸入下列元素：
 
@@ -395,7 +395,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 * **任務結束日期**：任務狀態變更為&#x200B;**[!UICONTROL Finished]**&#x200B;的日期。 依預設，結束日期與開始日期相同。 不過，為任務指派工期可讓您在必要時象徵運運算元必須在排程中執行的時間量。
 * **[!UICONTROL Description]**：此處輸入的文字會出現在通知電子郵件的內文中。
 
-  ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![顯示排程狀態、通知型別、受指派人、行銷活動和說明文字的通知任務摘要。](assets/mrm_task_notif_dashboard_msg.png)
 
 您可以將附件新增至工作及通知電子郵件。 若要這麼做，請按一下右上角工具列中的&#x200B;**[!UICONTROL Documents]**&#x200B;圖示。
 
@@ -411,21 +411,21 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 在下列範例中，目標定位的核准會分成四個子任務。
 
-![](assets/s_ncs_user_task_linked_tasks.png)
+![包含「更新樣式」任務、「目標驗證」任務和四個連結子任務的行銷活動任務清單。](assets/s_ncs_user_task_linked_tasks.png)
 
 每個子任務都是連結至主要任務的標準任務。
 
-![](assets/s_ncs_user_task_depends_on.png)
+![任務表單，其箭頭指向[依存性]欄位，設定為[目標驗證]父系任務。](assets/s_ncs_user_task_depends_on.png)
 
 #### 群組任務 {#grouping-tasks}
 
 使用&#x200B;**[!UICONTROL Grouped to]**&#x200B;欄位讓任務的執行取決於另一個任務的執行。
 
-![](assets/s_ncs_user_task_group_with.png)
+![任務屬性視窗的[連結至]欄位設定為[定義任務間的連結]下的另一個任務。](assets/s_ncs_user_task_group_with.png)
 
 任務之間的相依性以行銷活動控制面板中的箭頭表示。
 
-![](assets/s_ncs_user_task_dependencies_from_board.png)
+![含有箭頭的行銷活動任務清單，顯示依賴於Target驗證任務的兩個子系任務。](assets/s_ncs_user_task_dependencies_from_board.png)
 
 若為已分組的任務，Adobe Campaign會自動將父任務的結束日期指派給子任務，作為開始日期。 舉例來說，如果&#x200B;**建立邀請**&#x200B;工作於10月15日下午3:30結束，**傳送邀請電子郵件**&#x200B;子工作將於10月15日下午3:30開始。
 
@@ -437,7 +437,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
 讓我們延遲父系任務：現在於10月11日下午1點結束。 只有任務A會延遲，10月11日下午1點開始。
 
-![](assets/mrm_task_parent_postpones_child.png)
+![父系任務的檢視前後延遲，這會移動子系任務A而不是子系任務B的開頭。](assets/mrm_task_parent_postpones_child.png)
 
 ### 任務的執行狀態 {#execution-status-of-a-task}
 
@@ -473,7 +473,7 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
    當在未來&#x200B;**建立及編輯工作**&#x200B;排程時（只要未到達工作開始日期），可以傳送通知給參與者和管理員，讓他們知道已排程新工作。
 
-   ![](assets/s_ncs_user_task_planed_send_message.png)
+   ![詢問是否傳送排程工作的初始通知的提示，箭號指向](assets/s_ncs_user_task_planed_send_message.png)
 
    若要傳送第一個通知，請按一下&#x200B;**[!UICONTROL Yes]**。 此通知會告知他們下一個任務的相關資訊，並包含內容的詳細資訊以及到截止日期前的剩餘天數。
 
@@ -485,21 +485,21 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
    * 透過通知電子郵件。
    * 透過使用者端主控台或Web介面，在任務控制面板中。
 
-     ![](assets/s_ncs_user_task_start_rea.png)
+     ![具有[執行任務]和[拒絕]按鈕的任務摘要，供參與者核准任務。](assets/s_ncs_user_task_start_rea.png)
 
 1. 每次參與者核准工作時，任務的進度狀態都會更新。
 
-   ![](assets/s_ncs_user_task_percentage_done_op.png)
+   ![工作對話方塊上的動作包含註解及執行工作按鈕，接著進度更新為34%。](assets/s_ncs_user_task_percentage_done_op.png)
 
 1. 稽核者會收到通知電子郵件，告知操作員已完成指派給他們的區段。
 
    他們可以追蹤任務控制面板上的進度。
 
-   ![](assets/s_ncs_user_task_follow_from_dashboard.png)
+   ![顯示34%進度的任務儀表板，以及指向參與者已提供的核准的箭頭。](assets/s_ncs_user_task_follow_from_dashboard.png)
 
 1. 一旦負責任務的人確定任務已完成，他們就可以使用任務啟動時傳送的通知電子郵件中的連結、「使用者端主控台」或介面將其關閉。
 
-   ![](assets/s_ncs_user_task_console_ressource_validation.png)
+   ![工作摘要[完成]按鈕，指向工作對話方塊上的[動作]，其中包含註解，以及[完成工作]按鈕。](assets/s_ncs_user_task_console_ressource_validation.png)
 
    >[!NOTE]
    >
@@ -511,11 +511,11 @@ Adobe Campaign可讓您直接在應用程式中建立任務並管理其完整的
 
    他們可以透過行銷活動儀表板採取行動：
 
-   ![](assets/s_ncs_user_task_console_validation.png)
+   ![已選取擱置核准任務且箭頭指向[核准]按鈕的行銷活動儀表板。](assets/s_ncs_user_task_console_validation.png)
 
    他們也可以使用任務核准按鈕：
 
-   ![](assets/s_ncs_user_task__validation.png)
+   ![狀態為「擱置中」的任務摘要、100%進度以及[核准任務]按鈕。](assets/s_ncs_user_task__validation.png)
 
    >[!NOTE]
    >

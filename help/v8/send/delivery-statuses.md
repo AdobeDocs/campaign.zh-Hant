@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: '576'
+ht-degree: 4%
 ---
 # 傳遞狀態 {#delivery-statuses}
 
 傳送傳送後，傳送控制面板會顯示狀態，讓您監視傳送是否成功。 可能的狀態會在下節中詳細說明。
 
-![](assets/delivery-status.png)
+![傳遞儀表板摘要的[狀態]欄位反白顯示[已完成]和[完成日期]](assets/delivery-status.png)
 
 如需您可以遇到的不同傳送失敗及其解決方法的詳細資訊，請參閱[瞭解傳送失敗](delivery-failures.md)。
 
@@ -108,7 +108,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要瞭解如何最佳化Adobe Campaign電子郵件的傳遞能力，請參閱[本節](about-deliverability.md)。 如需傳遞能力的更深入探討，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
+若要瞭解如何最佳化Adobe Campaign電子郵件的傳遞能力，請參閱[開始使用行銷活動中的傳遞能力](about-deliverability.md)。 如需傳遞能力的更深入探討，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)。
 
 ## 擱置狀態 {#pending-status}
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 2%
+source-wordcount: '2528'
+ht-degree: 1%
 ---
 # 定義電子郵件內容 {#defining-the-email-content}
 
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 若要定義會出現在已傳送郵件標題中的寄件者名稱與地址，請按一下&#x200B;**[!UICONTROL From]**&#x200B;連結。
 
-![](assets/s_ncs_user_wizard_email02.png)
+![從[寄件者]連結開啟電子郵件標頭引數對話方塊，在[寄件者]欄位上開啟個人化功能表](assets/s_ncs_user_wizard_email02.png)
 
 此視窗可讓您輸入建立電子郵件標頭所需的所有資訊。 可將此資訊加以個人化。 若要這麼做，請使用輸入欄位右側的按鈕，插入個人化欄位。
 
-若要瞭解如何插入及使用個人化欄位，請參閱[本節](personalize.md)。
+若要瞭解如何插入和使用個人化欄位，請參閱[開始使用個人化](personalize.md)。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 2%
 >
 >訊息主旨為必填。
 
-![](assets/s_ncs_user_wizard_email_object.png)
+![編輯郵件主旨對話方塊，在收件者上開啟個人化功能表以插入名字](assets/s_ncs_user_wizard_email_object.png)
 
 傳送訊息時，欄位內容將由收件者設定檔中的值取代。
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->個人化欄位的使用在[此區段](personalize.md)中顯示。
+>個人化欄位的使用在[開始使用個人化](personalize.md)中顯示。
 
 您也可以使用&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;快顯視窗將表情符號插入主旨列。
 
@@ -96,7 +96,7 @@ ht-degree: 2%
 
 * 若要匯入HTML內容，請使用&#x200B;**[!UICONTROL Open]**&#x200B;按鈕。 您也可以將原始程式碼直接貼到&#x200B;**[!UICONTROL Source]**&#x200B;子索引標籤中。
 
-  如果您使用數位內容編輯器(DCE)，請參閱[本節](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)。
+  如果您使用數位內容編輯器(DCE)，請參考[步驟3 — 選取內容](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)。
 
   >[!IMPORTANT]
   >
@@ -106,11 +106,11 @@ ht-degree: 2%
 
   工具列按鈕可讓您存取HTML頁面的標準動作和格式化引數。
 
-  ![](assets/s_ncs_user_wizard_email01_138.png)
+  ![HTML內容索引標籤，其格式工具列與[插入超文字連結]按鈕反白顯示](assets/s_ncs_user_wizard_email01_138.png)
 
   您可以從本機檔案或Adobe Campaign的影像資料庫將影像插入訊息中。 若要這麼做，請按一下&#x200B;**[!UICONTROL Image]**&#x200B;圖示並選取適當的選項。
 
-  ![](assets/s_ncs_user_wizard_email01_18.png)
+  HTML工具列中的![影像按鈕功能表，包含[從本機檔案]和[從程式庫]選項](assets/s_ncs_user_wizard_email01_18.png)
 
   您可以透過資料夾樹狀結構中的&#x200B;**[!UICONTROL Resources>Online>Public resources]**&#x200B;資料夾存取媒體櫃影像。 另請參閱[新增影像](#adding-images)。
 
@@ -118,40 +118,40 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >個人化欄位的使用在[此區段](personalize.md)中顯示。
+  >個人化欄位的使用在[開始使用個人化](personalize.md)中顯示。
 
   頁面底部的標籤可讓您顯示正在建立之頁面的HTML程式碼，並檢視訊息的呈現及其個人化。 若要啟動這個顯示，請按一下&#x200B;**[!UICONTROL Preview]**，並使用工具列中的&#x200B;**[!UICONTROL Test personalization]**&#x200B;按鈕選取收件者。 您可以從定義的目標中選取收件者，或選擇其他收件者。
 
-  ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![在HTML內容標籤中預覽：個人化功能表以挑選收件者、種子地址或目標母體](assets/s_ncs_user_wizard_email01_139.png)
 
   您可以驗證HTML訊息。 您也可以檢視電子郵件標頭的內容。
 
-  ![](assets/s_ncs_user_wizard_email01_140.png)
+  所選收件者的![HTML預覽，包含個人化的主旨與內容，以及From、Subject與Size標頭](assets/s_ncs_user_wizard_email01_140.png)
 
 * 若要匯入文字內容，請使用&#x200B;**[!UICONTROL Open]**&#x200B;按鈕或&#x200B;**[!UICONTROL Text Content]**&#x200B;索引標籤，在文字格式顯示時輸入訊息的內容。 使用工具列按鈕存取內容的動作。 最後一個按鈕可讓您插入個人化欄位。
 
-  ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![純文字訊息來源和個人化欄位的文字內容標籤](assets/s_ncs_user_wizard_email01_141.png)
 
   至於HTML格式，請按一下頁面底部的&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤，以檢視訊息的演算及其個人化。
 
-  ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![所選收件者的文字內容預覽，包含個人化文字、映象頁面和取消訂閱區塊](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## 定義互動式內容 {#amp-for-email-format}
 
 Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/about/email/)格式，讓您在特定條件下傳送動態電子郵件。
 
-如需詳細資訊，請參閱[本節](defining-interactive-content.md)。
+如需詳細資訊，請參閱[在Adobe Campaign中定義互動式內容](defining-interactive-content.md)。
 
 ## 使用內容管理 {#using-content-management}
 
 您可以使用內容管理表單，直接在傳送助理中定義傳送的內容。 若要這麼做，您必須在傳遞屬性的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中，參考要使用的內容管理的發佈範本。
 
-![](assets/s_ncs_content_in_delivery.png)
+![傳遞屬性[進階]索引標籤，已在[範本]欄位中選取出版物範本](assets/s_ncs_content_in_delivery.png)
 
 另一個索引標籤可讓您輸入將根據內容管理規則自動整合及格式化的內容。
 
-![](assets/s_ncs_content_in_delivery_edition_tab.png)
+![使用內容範本傳遞，顯示[編輯]索引標籤，並填入內容欄位](assets/s_ncs_content_in_delivery_edition_tab.png)
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Adobe Campaign可讓您嘗試新的互動式[AMP for Email](https://amp.dev/abou
 1. 按一下&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;圖示。
 1. 從快顯視窗中選取表情符號。
 
-   ![](assets/emoticon_4.png)
+   ![插入表情符號彈出式視窗，其中列出可用的表情符號，並已為HTML內容選取一個表情符號](assets/emoticon_4.png)
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Close]**&#x200B;按鈕。
 
@@ -196,7 +196,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 傳遞助理可以讓您新增本機影像，或資料庫中儲存的影像至訊息內容。 若要這麼做，請按一下HTML內容工具列中的&#x200B;**[!UICONTROL Image]**&#x200B;按鈕。
 
-![](assets/s_ncs_user_image_from_library.png)
+在HTML工具列中的![影像按鈕功能表，並選取[從資料庫]選項](assets/s_ncs_user_image_from_library.png)
 
 >[!IMPORTANT]
 >
@@ -205,18 +205,18 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 若要透過傳送助理管理影像：
 
 1. 按一下工具列中的&#x200B;**[!UICONTROL Tracking & Images]**&#x200B;圖示。
-   ![](assets/s_ncs_user_email_del_img_param.png)
+   ![傳遞工具列中反白顯示的[追蹤與影像]按鈕](assets/s_ncs_user_email_del_img_param.png)
 
 1. 在&#x200B;**[!UICONTROL Images]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Upload images]**。
 1. 然後，您可以選擇是否要將這些影像納入電子郵件中。
-   ![](assets/s_ncs_user_email_del_img_upload.png)
+   ![影像索引標籤，已選取上傳影像，且偵測到的影像清單具有尚未上線的狀態](assets/s_ncs_user_email_del_img_upload.png)
 
 * 您可以手動上傳影像，而不需要等候傳遞分析階段。 若要這麼做，請按一下&#x200B;**[!UICONTROL Upload the images straightaway...]**&#x200B;連結。
 * 您可以指定另一個路徑來存取追蹤伺服器上的影像。 若要這麼做，請在&#x200B;**[!UICONTROL Images URL]**&#x200B;欄位中輸入。 此值會覆寫安裝輔助程式引數中定義的值。
 
 當您開啟傳送助理中包含影像的HTML內容時，訊息會根據傳送引數，提供您立即上傳影像的選項。
 
-![](assets/s_ncs_user_email_del_img_local.png)
+![提示是否立即發佈已開啟HTML檔案的相對影像，並附上「是」和「否」按鈕](assets/s_ncs_user_email_del_img_local.png)
 
 >[!IMPORTANT]
 >
@@ -227,11 +227,11 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 以下是包含四個影像的傳送範例：
 
-![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
+![傳遞的HTML內容，其箭頭指向其四個影像](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
 這些影像來自本機目錄或網站，您可以從&#x200B;**[!UICONTROL Source]**&#x200B;索引標籤進行驗證。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_2.png)
+傳遞的![Source標籤，顯示本機目錄或網站中的影像路徑，並標示有箭頭](assets/s_ncs_user_images_in_delivery_wiz_2.png)
 
 按一下&#x200B;**[!UICONTROL Tracking & Images]**&#x200B;圖示，然後按&#x200B;**[!UICONTROL Images]**&#x200B;標籤，開始偵測訊息中的影像。
 
@@ -249,7 +249,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 您可以繼續操作並上傳影像，以便其他Adobe Campaign操作者檢視這些影像。 如果您能共同作業，這項功能可能會相當實用。 若要這麼做，請按一下&#x200B;**[!UICONTROL Upload the images straightaway...]**&#x200B;將影像上傳到伺服器。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
+![影像索引標籤列出本機影像路徑尚未上線狀態，並直接上傳影像連結](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
 >[!NOTE]
 >
@@ -257,11 +257,11 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 一旦影像上線，您就可以從訊息的&#x200B;**[!UICONTROL Source]**&#x200B;索引標籤檢視其名稱和路徑的變更。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_4.png)
+上載後![Source索引標籤，影像URL會取代為以箭號標示的新路徑](assets/s_ncs_user_images_in_delivery_wiz_4.png)
 
 如果您選取&#x200B;**[!UICONTROL Include the images in the email]**，則可以選擇要包含在對應欄中的影像。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_5.png)
+![影像標籤，針對影像包含選取的電子郵件中的影像，以及嵌入電子郵件中的選項](assets/s_ncs_user_images_in_delivery_wiz_5.png)
 
 >[!NOTE]
 >
@@ -275,7 +275,7 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 若要將條碼插入電子郵件中，請將游標置於您要顯示它的內容中，然後按一下個人化按鈕。 選取 **[!UICONTROL Include > Barcode...]**。
 
-![](assets/barcode_insert_14.png)
+HTML編輯器中的![Personalization功能表，其中的「包含」和「條碼」選項已選取](assets/barcode_insert_14.png)
 
 然後設定以下元素以符合您的需求：
 
@@ -285,28 +285,28 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
      1D條碼範例：
 
-     ![](assets/barcode_insert_08.png)
+     ![編號低於](assets/barcode_insert_08.png)的1D條碼範例
 
    * DataMatrix和PDF417型別涉及2D格式。
 
      2D條碼範例：
 
-     ![](assets/barcode_insert_09.png)
+     ![2D DataMatrix條碼範例](assets/barcode_insert_09.png)
 
    * 若要插入QR碼，請選取此型態並輸入要套用的錯誤更正率。 此比率定義重複資訊的數量以及劣化的容許度。
 
-     ![](assets/barcode_insert_06.png)
+     ![條碼設定為QR碼型別、值為個人化欄位及30%錯誤更正](assets/barcode_insert_06.png)
 
      QR碼範例：
 
-     ![](assets/barcode_insert_12.png)
+     ![QR碼範例](assets/barcode_insert_12.png)
 
 1. 輸入您要插入電子郵件中的條碼大小：設定比例可讓您增加或減少條碼大小，從x1到x10。
 1. **[!UICONTROL Value]**&#x200B;欄位可讓您定義條碼的值。 值可以比對特殊優惠方案，也可以是條件的函式，也可以是連結至客戶的資料庫欄位的值。
 
    此範例顯示EAN-8型別條碼，收件者的帳號已加入條碼。 若要新增此帳號，請按一下&#x200B;**[!UICONTROL Value]**&#x200B;欄位右側的個人化按鈕，然後選取&#x200B;**[!UICONTROL Recipient > Account number]**。
 
-   ![](assets/barcode_insert_15.png)
+   ![條碼值欄位個人化功能表，已選取收件者和帳號](assets/barcode_insert_15.png)
 
 1. **[!UICONTROL Height]**&#x200B;欄位可讓您設定條碼的高度，而不變更條碼的寬度，方法是變更每個條之間的間距量。
 
@@ -322,10 +322,10 @@ HTML格式電子郵件傳遞可包含影像。 從傳遞小幫手，您可以匯
 
 設定這些元素後，您就可以完成電子郵件並加以傳送。 若要避免發生錯誤，請一律按一下&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤，在執行傳遞前確定內容已正確顯示。
 
-![](assets/barcode_insert_10.png)
+![在個人化訊息內容結尾插入QR碼的傳遞預覽](assets/barcode_insert_10.png)
 
 >[!NOTE]
 >
 >如果條碼的值不正確，其點陣圖會以紅色劃掉。
 
-![](assets/barcode_insert_11.png)
+![電子郵件預覽，其中無效的條碼值顯示以紅色劃出的條碼](assets/barcode_insert_11.png)

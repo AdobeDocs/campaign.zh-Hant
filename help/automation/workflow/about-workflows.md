@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 44%
+source-wordcount: '666'
+ht-degree: 42%
 ---
 # 開始使用工作流程{#gs-workflows}
 
@@ -50,7 +50,7 @@ Adobe Campaign使用工作流程來：
 
 工作流程範本描述要執行的各種任務以及任務如何連結在一起。 任務範本稱為活動並以圖示表示。 它們透過轉變連結在一起。
 
-![](assets/example1.png)
+![透過聯合、擴充、傳遞及核准兩個資料夾查詢更新資料或結束的工作流程圖表](assets/example1.png)
 
 ## 重要原則
 
@@ -62,7 +62,7 @@ Adobe Campaign使用工作流程來：
 
   在工作流程圖表中，指定的活動可以產生多個任務，尤其是當有回圈或循環（定期）動作時。
 
-  [本節](activities.md)中列出所有工作流程活動，包括使用案例和範例。
+  所有工作流程活動都列在[關於工作流程活動](activities.md)中，包括使用案例和範例。
 
 * **[!UICONTROL Transitions]**
 
@@ -74,22 +74,22 @@ Adobe Campaign使用工作流程來：
   >
   >仍可執行包含未終止轉變的工作流程：將會產生警告訊息，工作流程在轉變時會暫停，但不會產生錯誤。 因此，可以在工作流程未完成的情況下啟動工作流程，並在執行時將其新增。
 
-  如需如何建立工作流程的詳細資訊，請參閱[本節](build-a-workflow.md)。
+  如需如何建立工作流程的詳細資訊，請參閱[建立工作流程](build-a-workflow.md)。
 
 * **[!UICONTROL Worktables]**
 
   工作表包含轉接所攜帶的所有資訊。 每個工作流程會使用多個工作表。 只要不清除資料，這些表格中傳送的資料就可以加速，並在整個工作流程的生命週期中使用。 事實上，每次工作流程不活躍時，不需要的工作表都會被清除，並且可能在最大工作流程執行期間被清除，以避免伺服器過載。
 
-  在[本節](use-workflow-data.md)中進一步瞭解工作流程資料和表格。
+  在[使用工作流程資料](use-workflow-data.md)中進一步瞭解工作流程資料和表格。
 
 ## 相關區段
 
 請參閱下列章節，以尋找使用工作流程自動化流程的指引和最佳實務：
 
-* 在[此頁面](use-workflow-data.md)中進一步瞭解工作流程活動。
-* 在[本節](build-a-workflow.md)中瞭解如何建立工作流程。
-* 在[本節](campaign-workflows.md)中探索如何使用工作流程匯入Campaign中的資料。
-* [此頁面](workflow-best-practices.md)中詳細說明了工作流程最佳實務。
-* 在[本節](start-a-workflow.md)中尋找有關工作流程執行的指引。
-* 瞭解如何監視[此頁面](monitor-workflow-execution.md)的工作流程。
-* 瞭解如何授予使用者存取權，以便在[此頁面](managing-rights.md)中使用工作流程。
+* 在[使用工作流程資料](use-workflow-data.md)中進一步瞭解工作流程活動。
+* 瞭解如何在[建立工作流程](build-a-workflow.md)中建立工作流程。
+* 探索如何使用工作流程在[工作流程型別](campaign-workflows.md)中的行銷活動中匯入資料。
+* 工作流程最佳實務已在[工作流程最佳實務](workflow-best-practices.md)中詳細說明。
+* 在[開始工作流程](start-a-workflow.md)中尋找工作流程執行的指引。
+* 瞭解如何監視[監視工作流程執行](monitor-workflow-execution.md)中的工作流程。
+* 瞭解如何在[管理工作流程許可權](managing-rights.md)中授予使用者存取權，以使用工作流程。

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '11502'
+source-wordcount: '11508'
 ht-degree: 12%
 ---
 # 常見問題集 {#faq}
@@ -102,7 +102,7 @@ Adobe Campaign v8是功能強大的跨頻道行銷自動化平台，可協助您
 
 +++ 我應該了解哪些 Campaign 使用者介面概念?
 
-請參閱[本節](campaign-ui.md)，深入瞭解Adobe Campaign使用者介面基本知識。
+請參閱[探索Campaign使用者介面](campaign-ui.md)，以進一步瞭解Adobe Campaign使用者介面基本知識。
 
 自Campaign v8.6發行版本開始，您也可以存取新的&#x200B;**Campaign網頁使用者介面**，此介面可透過中央[!DNL CX Enterprise]環境取得。
 
@@ -534,7 +534,7 @@ Campaign會追蹤訂閱/取消訂閱歷程記錄，並自動管理選擇加入/�
 
 +++ 在Campaign中設計電子郵件的最佳實務是什麼？
 
-重要准則：確保行動裝置回應式設計、使用與內嵌CSS相容的HTML 4.0/XHTML程式碼、使用替代文字最佳化影像（100KB以下）、使用個人化合併欄位、在傳送前跨電子郵件使用者端測試，以及包含純文字版本。 將總電子郵件大小調整為500KB以下以獲得最佳傳遞能力。
+重要准則：確保行動裝置回應式設計，並使用與HTML 4.0/XHTML相容的程式碼和內嵌CSS。 使用替代文字最佳化影像（小於100KB）、使用個人化合併欄位、在傳送之前跨電子郵件使用者端測試，並包含純文字版本。 將總電子郵件大小調整為500KB以下以獲得最佳傳遞能力。
 
 **相關主題：**
 
@@ -1212,7 +1212,7 @@ Campaign「控制面板」是網頁式管理介面，可協助Campaign管理員�
 Adobe Campaign v8提供將頂層管理帳戶和特殊許可權帳戶的所有目前設定與建議的安全預設值比較的功能。
 
 * **目前設定（完整可見度）：**&#x200B;在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Access management]** （使用者端主控台或Campaign Web UI）： **[!UICONTROL Operators]**、**[!UICONTROL Operator groups]**、**[!UICONTROL Named rights]** （例如管理、核准管理）和資料夾層級的許可權中，可以檢閱管理帳戶和授權帳戶的所有設定。 產品管理員也可以在[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant){target="_blank"}中檢閱執行個體層級的設定（IP允許清單、URL許可權、執行個體詳細資料等）。
-* **建議的安全預設值：** [安全性准則](../config/security.md)會為管理員和特殊許可權帳戶定義建議的安全基準，包括：建立足夠的安全性群組、為每個操作員指派適當的存取許可權，以及限制管理員操作員和管理員群組的使用。 若適用，請一併參閱[增強式安全性附加元件](../config/enhanced-security.md)，以強化網路與加密。
+* **建議的安全預設值：** [安全性准則](../config/security.md)定義管理帳戶和特殊許可權帳戶的建議安全基準。 他們建議您建立足夠的安全群組、為每個操作員指派適當的存取許可權，並限制管理員操作員和管理群組的使用。 若適用，請一併參閱[增強式安全性附加元件](../config/enhanced-security.md)，以強化網路與加密。
 * **比較：**&#x200B;管理員會比較其目前的設定與記錄建議以找出差距，並符合安全預設值。
 
 **相關主題：**

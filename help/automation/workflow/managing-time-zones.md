@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '285'
 ht-degree: 4%
 ---
 # 管理時區{#managing-time-zones}
@@ -46,7 +46,7 @@ Adobe Campaign可讓您管理同一個執行個體所關注的不同國家/地�
 
 對於所有已排程的工作（即具有排程選項的所有活動），您可以選取要套用的時區。 已透過相關活動的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤選取時區：
 
-![](assets/wf-timezone-in-a-box.png)
+![排程器進階索引標籤，並開啟時區下拉式清單，列出預設、伺服器、操作員和資料庫時區。](assets/wf-timezone-in-a-box.png)
 
 可能的值包括：
 

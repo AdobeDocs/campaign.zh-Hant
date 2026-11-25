@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 ---
 # 依儲存格列出的產品建議{#offers-by-cell}
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 **[!UICONTROL Offers by cell]**&#x200B;活動可讓您將入站母體（例如從查詢）分配至數個區段，並指定要針對每個區段呈現的選件。
 
-此活動只能與&#x200B;**互動**&#x200B;搭配使用。 在[本節](../../v8/interaction/interaction.md)中進一步瞭解選件管理。
+此活動只能與&#x200B;**互動**&#x200B;搭配使用。 深入瞭解[行銷活動互動 — 優惠方案管理](../../v8/interaction/interaction.md)中的優惠方案管理。
 
 操作步驟：
 
@@ -47,6 +47,6 @@ ht-degree: 7%
    * 使用可用的篩選和限制規則指定子集母體。
    * 接著，選取您要呈現給子集的選件。 可用的優惠方案是在上一步驟中選取的優惠方案空間上符合資格的優惠方案。
 
-     ![](assets/int_offer_per_cell1.png)
+     ![依儲存格區分之優惠方案的子集視窗：篩選和記錄限制選項、優惠方案空間和優惠方案清單。](assets/int_offer_per_cell1.png)
 
 1. 然後，設定與您所選管道對應的傳送活動。 請參閱[跨通道傳遞](cross-channel-deliveries.md)。

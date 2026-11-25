@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '534'
+ht-degree: 0%
 ---
 # 假設追蹤{#hypothesis-tracking}
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 計算假設後，會自動更新數個測量指標。 這些可在假設的&#x200B;**[!UICONTROL General]**&#x200B;標籤中使用。
 
-![](assets/response_hypothesis_delivery_example_010.png)
+![已完成假設的一般標籤，其中由假設所計算的指標已反白顯示。](assets/response_hypothesis_delivery_example_010.png)
 
 這些指標包括：
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 如需完整的指標清單，請按一下&#x200B;**[!UICONTROL Display the list]**&#x200B;連結：
 
-![](assets/response_hypothesis_indicators_002.png)
+![指示器唯讀視窗從顯示清單開啟，顯示指示器及其值的完整清單。](assets/response_hypothesis_indicators_002.png)
 
 下列資訊由指標提供：
 
@@ -86,9 +86,9 @@ ht-degree: 1%
 您可以透過&#x200B;**[!UICONTROL Reactions]**&#x200B;索引標籤檢視收件者對假設的回應。
 
 1. 假設計算完成後，前往Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Campaign management > Measurement hypotheses]**&#x200B;節點。
-1. 選取所需的假設，然後按一下&#x200B;**[!UICONTROL Reactions]**&#x200B;索引標籤，以檢視行銷活動後可能購買的收件者清單。
+1. Select所需的假設，然後按一下「**[!UICONTROL Reactions]**」標籤以檢視行銷活動後可能購買的收件者清單。
 
-   ![](assets/response_hypothesis_reactions_001.png)
+   假設的![回應索引標籤會列出回應者，以及每個回應是否屬於控制組。](assets/response_hypothesis_reactions_001.png)
 
 ## 報告 {#reports}
 
@@ -96,8 +96,8 @@ ht-degree: 1%
 
 * **在行銷活動層級**：按一下相關行銷活動的&#x200B;**[!UICONTROL Reports]**&#x200B;連結，然後選取&#x200B;**[!UICONTROL Hypothesis report]**。 此報表包含行銷活動傳遞清單，以及針對每個傳遞計算的假設。
 
-  ![](assets/response_hypothesis_campaign_report_001.png)
+  ![行銷活動層級的假設報告，列出針對每個傳遞計算的假設及其指標。](assets/response_hypothesis_campaign_report_001.png)
 
 * **在傳遞層級**：若要存取報告，請開啟相關的傳遞，按一下&#x200B;**[!UICONTROL Summary]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Reports]**&#x200B;並選取&#x200B;**[!UICONTROL Hypothesis report]**。 如果針對相同傳遞計算數個假設，報表將包含所有假設。
 
-  ![](assets/response_hypothesis_delivery_report_001.png)
+  ![傳遞層級的假設報告，顯示假設詳細資料、狀態和計算的指標。](assets/response_hypothesis_delivery_report_001.png)

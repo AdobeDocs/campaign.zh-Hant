@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '334'
 ht-degree: 1%
 ---
 # 定義簡訊內容 {#sms-content}
@@ -40,25 +40,25 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL Text content]**&#x200B;索引標籤中輸入訊息的內容。
 
-   ![](assets/sms_content.png){zoomable="yes"}
+   ![已輸入訊息文字的SMS傳遞的文字內容索引標籤](assets/sms_content.png){zoomable="yes"}
 
 1. 您可以插入個人化欄位（例如新增名字）或插入預先定義的個人化區塊（例如新增問候），以個人化您的訊息。 按一下個人化按鈕以新增下列專案：
 
-   ![](assets/sms_perso.png){zoomable="yes"}
+   ![在SMS文字內容中開啟Personalization功能表，收件者子功能表顯示名字和其他欄位](assets/sms_perso.png){zoomable="yes"}
 
    例如，按一下&#x200B;**[!UICONTROL Recipient]** > **[!UICONTROL First name]**&#x200B;後，SMS內容會以個人化欄位更新，如下所示：
 
-   ![](assets/sms_perso_recipient.png){zoomable="yes"}
+   ![簡訊內容，其名字個人化欄位已插入訊息中](assets/sms_perso_recipient.png){zoomable="yes"}
 
-   在[本節](../personalize.md)中進一步瞭解Adobe Campaign中的個人化。
+   在[開始使用個人化](../personalize.md)中進一步瞭解Adobe Campaign中的個人化。
 
 1. 您可以從&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤預覽傳遞內容。 若要檢查您的個人化設定，請按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式清單，然後選取收件者。
 
-   ![](assets/sms_preview.png){zoomable="yes"}
+   ![SMS的「預覽」索引標籤，並開啟測試個人化下拉式清單以選取收件者](assets/sms_preview.png){zoomable="yes"}
 
    您可以使用個人化來檢查簡訊預覽：
 
-   ![](assets/sms_preview_phone.png){zoomable="yes"}
+   ![以收件者值取代名字的簡訊預覽，以文字顯示，並在電話模型上顯示](assets/sms_preview_phone.png){zoomable="yes"}
 
 >[!NOTE]
 >

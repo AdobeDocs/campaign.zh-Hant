@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '355'
 ht-degree: 2%
 ---
 # 變更資料來源 {#change-data-source}
@@ -61,22 +61,22 @@ ht-degree: 2%
 
 1. 新增&#x200B;**[!UICONTROL Change data source]**&#x200B;活動。
 
-   ![](assets/change-data-source.png)
+   ![包含[開始]和[查詢]的工作流程，以及浮動視窗中反白顯示的變更資料Source活動](assets/change-data-source.png)
 
 1. 編輯您的&#x200B;**[!UICONTROL Change data source]**&#x200B;活動以選取&#x200B;**[!UICONTROL Default data source]**。
 
    接著會將包含查詢結果的工作表移至預設的Campaign本機資料庫。
 
-   ![](assets/change-data-source_2.png)
+   ![選取預設資料來源選項時，變更資料Source活動](assets/change-data-source_2.png)
 
 1. 新增&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動以在工作表格上執行單一作業。
 
-   如需&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動的詳細資訊，請參閱[此頁面](sql-code-and-javascript-code.md#javascript-code)。
+   如需&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動的詳細資訊，請參閱[JavaScript代碼和進階JavaScript代碼](sql-code-and-javascript-code.md#javascript-code)。
 
 1. 新增其他&#x200B;**[!UICONTROL Change data source]**&#x200B;活動以切換回雲端資料庫。
 
 1. 編輯此活動並選取&#x200B;**[!UICONTROL Active FDA external account]**&#x200B;以及對應的&#x200B;**[!UICONTROL External database]**&#x200B;外部帳戶。
 
-   ![](assets/change-data-source_3.png)
+   ![在清單中選取Active FDA外部帳戶並反白顯示Snowflake的情況下，變更資料Source活動](assets/change-data-source_3.png)
 
 1. 您現在可以開始工作流程。

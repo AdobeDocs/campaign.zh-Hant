@@ -30,9 +30,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '957'
 ht-degree: 0%
 ---
 # 連結管理 {#links--relation-between-tables}
@@ -49,14 +49,14 @@ ht-degree: 0%
 
 對於與Campaign資料表/資料庫的聯結關係：
 
-* ![](assets/do-not-localize/join_with_campaign11.png)：基數1-1。 例如，在收件者和目前訂單之間。 收件者一次只能與目前訂單表格的一個執行個體相關。
-* ![](assets/do-not-localize/externaljoin11.png)：基數1-1，外部聯結。 例如，在收件者與其國家/地區之間。 收件者只能與表格國家/地區的一個執行個體相關。 將不會儲存國家表格的內容。
-* ![](assets/do-not-localize/join_with_campaign1n.png)：基數1-N。例如，在收件者和訂閱表格之間。 收件者可與訂閱表格上的數個相符專案建立關聯。
+* 1-1基數連結的![圖示](assets/do-not-localize/join_with_campaign11.png)：基數1-1。 例如，在收件者和目前訂單之間。 收件者一次只能與目前訂單表格的一個執行個體相關。
+* 1-1基數外部聯結的![圖示](assets/do-not-localize/externaljoin11.png)：基數1-1，外部聯結。 例如，在收件者與其國家/地區之間。 收件者只能與表格國家/地區的一個執行個體相關。 將不會儲存國家表格的內容。
+* 1-N基數連結的![圖示](assets/do-not-localize/join_with_campaign1n.png)：基數1-N。例如，在收件者和訂閱表格之間。 收件者可與訂閱表格上的數個相符專案建立關聯。
 
 對於使用同盟資料庫存取(FDA)的加入關係：
 
-* ![](assets/do-not-localize/join_fda_11.png)：基數1-1
-* ![](assets/do-not-localize/join_fda_1m.png)：基數1-N
+* 1-1基數連結的![圖示](assets/do-not-localize/join_fda_11.png)：基數1-1
+* 1-N基數連結的![圖示](assets/do-not-localize/join_fda_1m.png)：基數1-N
 
 如需FDA表格的詳細資訊，請參閱[存取外部資料庫](../connect/fda.md)。
 

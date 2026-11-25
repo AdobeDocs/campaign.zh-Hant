@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1417'
 ht-degree: 4%
 ---
 # 隔離 {#quarantine-management}
@@ -103,13 +103,13 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 * 傳遞分析期間被置於隔離的地址數量；
 * 進行傳送動作後置於隔離區的地址數。
 
-若要了解傳遞報告的詳細資訊，請參閱[本章節](../reporting/gs-reporting.md)。
+在[中進一步瞭解傳遞報告開始使用Adobe Campaign報告工具](../reporting/gs-reporting.md)。
 
 ### 無法傳遞和退回的地址{#non-deliverable-bounces}
 
 若要檢視整個平台&#x200B;**的隔離地址清單**，Campaign管理員可以瀏覽至&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**。 本節列出&#x200B;**電子郵件**、**簡訊**&#x200B;及&#x200B;**推播通知**&#x200B;管道的隔離元素。
 
-![](assets/tech-quarantine.png)
+![具有隔離狀態、錯誤原因、錯誤文字及傳遞動作的隔離地址記錄](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 對於每個資料夾，您都可以使用&#x200B;**[!UICONTROL Quarantined email address]**&#x200B;內建篩選條件，僅顯示其電子郵件地址處於隔離狀態的收件者，如下所示：
 
-![](assets/quarantine-filter.png)
+![包含已隔離電子郵件地址內建篩選器的[收件者清單篩選器]功能表已反白顯示](assets/quarantine-filter.png)
 
 
 ## 移除隔離的地址 {#remove-a-quarantined-address}
@@ -143,7 +143,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 在下列情況下，地址會自動從隔離清單中移除：
 
 * 成功傳送後，會從隔離清單中移除&#x200B;**[!UICONTROL With errors]**&#x200B;狀態的地址。
-* 如果最後一次軟退信發生於10天以前，則會從隔離清單中移除&#x200B;**[!UICONTROL With errors]**&#x200B;狀態的地址。 如需軟性錯誤管理的詳細資訊，請參閱[本節](#soft-error-management)。
+* 如果最後一次軟退信發生於10天以前，則會從隔離清單中移除&#x200B;**[!UICONTROL With errors]**&#x200B;狀態的地址。 如需軟性錯誤管理的詳細資訊，請參閱[軟性錯誤管理](#soft-error-management)。
 * 狀態為&#x200B;**[!UICONTROL With errors]**&#x200B;且出現&#x200B;**[!UICONTROL Mailbox full]**&#x200B;錯誤退信的地址將在30天後從隔離清單中移除。
 
 其狀態然後變更為&#x200B;**[!UICONTROL Valid]**。
@@ -156,7 +156,7 @@ Adobe Campaign會根據傳送失敗的型別及其原因管理隔離。 這些�
 
 您也可以從隔離清單手動移除地址。 若要從隔離區手動移除地址，您可以將其狀態從&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**&#x200B;節點變更為&#x200B;**[!UICONTROL Valid]**。
 
-![](assets/tech-quarantine-status.png)
+![將「狀態」下拉式清單開啟且選取「有效」狀態的記錄從隔離區中移除](assets/tech-quarantine-status.png)
 
 ### 大量更新 {#unquarantine-bulk}
 

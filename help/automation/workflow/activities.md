@@ -26,26 +26,26 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 23%
+source-wordcount: '141'
+ht-degree: 15%
 ---
 # 工作流程活動{#wf-activities}
 
 工作流程活動會依類別分組，分為四個不同的標籤。
 
-![](assets/wf-activity-tabs.png)
+![活動浮動視窗，其四個類別標籤反白顯示，且列出目標定位活動。](assets/wf-activity-tabs.png)
 
 根據您的許可權、實施以及設計工作流程的前後關聯，可用的活動可能會有所不同。
 
 例如，在行銷活動中建立的工作流程具有特定&#x200B;**傳送**&#x200B;標籤，以及所有管道。 此索引標籤在[技術工作流程](technical-workflows.md)中無法使用。
 
-![](assets/campaign-wf-activities.png)
+行銷活動工作流程的![傳遞索引標籤：電子郵件、直接郵件、行動裝置、iOS、Android、其他和循環傳遞。](assets/campaign-wf-activities.png)
 
 技術工作流程具有特定的&#x200B;**事件**&#x200B;標籤，在[行銷活動工作流程](campaign-workflows.md)中無法使用。
 
-![](assets/tech-wf-activities.png)
+技術工作流程的![事件標籤：檔案收集器、檔案傳輸、網頁下載、傳入電子郵件和傳入SMS。](assets/tech-wf-activities.png)
 
 以下各節會詳細介紹所有活動：
 

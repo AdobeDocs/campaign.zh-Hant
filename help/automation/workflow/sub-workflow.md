@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '507'
 ht-degree: 1%
 ---
 # 子工作流程{#sub-workflow}
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 您可以在單一工作流程中呼叫多個子工作流程。 子工作流程會同步執行。
 
-在以下範例中，主要工作流程是使用跳轉呼叫子工作流程。 如需跳轉型圖形物件的詳細資訊，請參閱[本節](jump-start-point-and-end-point.md)。
+在以下範例中，主要工作流程是使用跳轉呼叫子工作流程。 如需跳轉型圖形物件的詳細資訊，請參閱[跳轉（起點和終點）](jump-start-point-and-end-point.md)。
 
 1. 建立您會作為另一個工作流程中的子工作流程的工作流程。
 1. 在工作流程的開頭插入優先順序為1的&#x200B;**[!UICONTROL Jump (end point)]**&#x200B;活動。 如果您有多個「端點」型別跳轉，Adobe Campaign會使用數字最低的「端點」跳轉。
 1. 在工作流程結尾插入優先順序為2的&#x200B;**[!UICONTROL Jump (start point)]**&#x200B;活動。 如果您有多個「起點」跳轉，Adobe Campaign會使用具有最高數字的「起點」跳轉。
 
-   ![](assets/subworkflow_jumps.png)
+   ![以跳轉（端點） 1開頭的子工作流程圖表，並以查詢和聯合的跳轉（端點） 2結尾。](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -47,14 +47,14 @@ ht-degree: 1%
 1. 完成並儲存此「子工作流程」。
 1. 建立主要工作流程。
 1. 插入&#x200B;**[!UICONTROL Sub-workflow]**&#x200B;活動並開啟它。
-1. 從&#x200B;**[!UICONTROL Workflow template]**&#x200B;下拉式清單中選取您要使用的工作流程。
+1. 從&#x200B;**[!UICONTROL Workflow template]**&#x200B;下拉式清單Select您要使用的工作流程。
 
-   ![](assets/subworkflow_selection.png)
+   ![子工作流程活動，包含工作流程範本下拉式清單可用的工作流程，子工作流程(WKF55)已選取。](assets/subworkflow_selection.png)
 
 1. 您也可以新增設定指令碼，以變更參考的工作流程。
 1. 按一下 **[!UICONTROL Ok]**。 它會從選取的工作流程中，以&#x200B;**[!UICONTROL Jump (start point)]**&#x200B;活動的標籤自動建立出站轉變。
 
-   ![](assets/subworkflow_outbound.png)
+   ![主要工作流程，其中包含呼叫子工作流程及標示為「跳轉（起點） 2.](assets/subworkflow_outbound.png)」的傳出轉變
 
 1. 執行工作流程。
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 * 無法顯示中間母體的計數。
 * 子工作流程記錄檔會顯示在主要工作流程中。
 
-  ![](assets/subworkflow_logs.png)
+  ![主要工作流程的[稽核]索引標籤，顯示[結果]查詢的子工作流程記錄訊息。](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

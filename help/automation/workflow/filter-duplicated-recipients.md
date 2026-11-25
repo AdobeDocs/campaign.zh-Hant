@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 4%
+source-wordcount: '206'
+ht-degree: 2%
 ---
 # 篩選重複的收件者 {#filtering-duplicated-recipients}
 
@@ -37,19 +37,19 @@ ht-degree: 4%
 1. 在工作流程中拖放&#x200B;**[!UICONTROL Query]**&#x200B;活動並開啟活動。
 1. 按一下&#x200B;**[!UICONTROL Edit query]**&#x200B;並將目標和篩選維度設定為&#x200B;**[!UICONTROL Recipients]**。
 
-   ![](assets/query_recipients_1.png)
+   ![已選取收件者的查詢活動的目標定位和篩選維度步驟，篩選條件已反白顯示。](assets/query_recipients_1.png)
 
 1. 定義下列篩選條件，以定位存在於傳遞記錄的收件者。 在&#x200B;**運算式**&#x200B;資料行中選擇&#x200B;**收件者傳遞記錄(broadlog)**，在&#x200B;**運運算元**&#x200B;資料行中選擇&#x200B;**存在，例如**。
 
-   ![](assets/query_recipients_2.png)
+   ![篩選條件為收件者傳遞記錄(broadLog)和運運算元存在的步驟，例如](assets/query_recipients_2.png)
 
 1. 定義下列篩選條件來鎖定您的傳送。 在運算式資料行中選擇&#x200B;**[!UICONTROL Internal name]**，在運運算元資料行中選擇&#x200B;**[!UICONTROL equal to]**。
 1. 在值欄中，新增目標傳送的內部名稱。
 
-   ![](assets/query_recipients_3.png)
+   ![傳遞的內部名稱篩選條件，等於summer_delivery_sales值，在下列專案存在：](assets/query_recipients_3.png)
 
 1. 使用&#x200B;**[!UICONTROL AND]**&#x200B;運運算元，重複相同的作業以鎖定其他傳遞。
 
-   ![](assets/query_recipients_4.png)
+   ![存在兩個條件，例如And加入的條件，目標為summer_delivery_sales和summer_delivery_new_collection。](assets/query_recipients_4.png)
 
 您的出站轉變包含傳遞中鎖定的重複收件者。

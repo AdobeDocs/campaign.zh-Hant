@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 1%
+ht-degree: 0%
 ---
 # 管理異動訊息 {#managing-transactional-messages}
 
@@ -47,11 +47,11 @@ ht-degree: 1%
 
 交易式事件會透過具有下列URL結構的POST請求傳送：
 
-```
+```http
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;組織>**：您的個人組織識別碼。 請參閱[本節](must-read.md)。
+* **&lt;組織>**：您的個人組織識別碼。 請參考[必讀](must-read.md)。
 
 * **&lt;transactionalAPI>**： Transactional Messages API端點。
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 您必須新增字元集，例如&#x200B;**utf-8**。 請注意，此值取決於您使用的REST應用程式。
 
-```
+```bash
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -100,7 +100,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 以下範例顯示觸發簡訊通訊的裝載：
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ POST回應會傳回建立交易式事件時的狀態。 若要擷取其目前狀
 
 傳送事件的POST要求。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -161,7 +161,7 @@ POST回應會傳回建立交易式事件時的狀態。 若要擷取其目前狀
 
 回應POST要求。
 
-```
+```json
 {
   "PKey":"<PKEY>",
   "ctx":

@@ -25,9 +25,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '621'
 ht-degree: 0%
 ---
 # 讀取清單{#read-list}
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 要處理的清單可依據選取的選項和&#x200B;**[!UICONTROL Read list]**&#x200B;活動中定義的引數，明確指定、由指令碼計算或動態本地化。
 
-![](assets/list_edit_select_option_01.png)
+![在Source篩選下讀取明確選取指定之清單活動、選取的清單以及編輯查詢連結](assets/list_edit_select_option_01.png)
 
 如果未明確指定清單，您必須提供清單作為範本，以找出其結構。
 
-![](assets/s_advuser_list_template_select.png)
+![讀取清單活動，其名稱是由選取的指令碼計算，且清單下拉式清單已開啟](assets/s_advuser_list_template_select.png)
 
 設定清單選擇後，您可以使用&#x200B;**[!UICONTROL Edit query]**&#x200B;選項新增篩選器，以保留母體的一部分，以供下一個工作流程使用。
 
-![](assets/wf_readlist_1.png)
+![價格上含有編輯查詢篩選器的讀取清單活動不是空的，已套用至選取的清單](assets/wf_readlist_1.png)
 
 >[!CAUTION]
 >
@@ -58,21 +58,21 @@ ht-degree: 0%
 
 下列範例可讓您使用要排除在電子郵件傳遞目標之外的電子郵件地址清單。
 
-![](assets/s_advuser_list_read_sample_1.png)
+![工作流程包含讀取清單和加入排除的新連絡人檔案查詢，然後傳送和等待3天](assets/s_advuser_list_read_sample_1.png)
 
 **新連絡人**&#x200B;資料夾中包含的設定檔必須透過傳遞動作定位。 要從目標中排除的電子郵件地址會儲存在外部清單中。 在我們的範例中，排除只需要電子郵件地址的資訊。
 
 1. **新連絡人**&#x200B;資料夾選擇查詢必須讓您載入選取的設定檔電子郵件地址，才能與清單中的資訊對齊。
 
-   ![](assets/s_advuser_list_read_sample_0.png)
+   ![新連絡人查詢活動，其電子郵件欄位已新增至補充資訊下](assets/s_advuser_list_read_sample_0.png)
 
 1. 在此處，清單儲存在&#x200B;**清單**&#x200B;資料夾中，並計算其標籤。
 
-   ![](assets/s_advuser_list_read_sample_2.png)
+   ![使用List資料夾及黑名單檔案的計算標籤讀取清單活動](assets/s_advuser_list_read_sample_2.png)
 
 1. 為了從主要目標排除外部清單的電子郵件地址，您必須設定排除活動，並指定&#x200B;**新連絡人**&#x200B;資料夾包含要保留的資料。 此集和排除活動之任何其他入站集之間的聯合資料將從目標中刪除。
 
-   ![](assets/s_advuser_list_read_sample_3.png)
+   ![新連絡人檔案設定為主要集和排除規則表格的排除活動](assets/s_advuser_list_read_sample_3.png)
 
    排除規則是在編輯工具的中央區段中設定。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以定義要套用的排除型別。
 
@@ -82,6 +82,6 @@ ht-degree: 0%
 
    在我們的範例中，聯結上有排除專案：清單中包含的資料將透過包含電子郵件地址的欄位，與主要集的資料進行調解。 若要設定加入，請在&#x200B;**[!UICONTROL Change dimension]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Joins]**。
 
-   ![](assets/s_advuser_list_read_sample_4.png)
+   ![例外狀況定義，其為「讀取」清單做為排除集，且「變更」維度中的「聯結」選項為](assets/s_advuser_list_read_sample_4.png)
 
 1. 然後選取與兩組中（Source和目的地）的電子郵件地址相對應的欄位。 然後會連結欄，而且其電子郵件地址在匯入地址清單中的收件者將從目標中排除。

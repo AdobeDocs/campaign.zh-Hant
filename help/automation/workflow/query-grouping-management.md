@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 4%
+source-wordcount: '329'
+ht-degree: 3%
 ---
 # 使用分組管理進行查詢 {#querying-using-grouping-management}
 
@@ -50,32 +50,32 @@ ht-degree: 4%
 
 1. 開啟&#x200B;**[!UICONTROL Generic query editor]**&#x200B;並選擇收件者資料表(**nms:recipient**)。
 
-   ![](assets/query_editor_02.png)
+   ![一般查詢編輯器的檔案型別畫面，已選取收件者(nms)。](assets/query_editor_02.png)
 
 1. 在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Email domain]**&#x200B;及&#x200B;**[!UICONTROL Primary key]**&#x200B;欄位。 對&#x200B;**[!UICONTROL Primary key]**&#x200B;欄位執行計數。
 
 1. 勾選&#x200B;**[!UICONTROL Handle groupings (GROUP BY + HAVING)]**&#x200B;方塊。
 
-   ![](assets/query_editor_nveau_29.png)
+   ![要擷取包含電子郵件網域和計數（主索引鍵）欄的熒幕資料，已勾選處理群組(GROUP BY + HAVING)。](assets/query_editor_nveau_29.png)
 
 1. 在&#x200B;**[!UICONTROL Sorting]**&#x200B;視窗中，以遞減順序排序電子郵件網域。 若要這麼做，請檢查&#x200B;**[!UICONTROL Descending sort]**&#x200B;欄中的&#x200B;**[!UICONTROL Yes]**。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/query_editor_nveau_70.png)
+   ![排序熒幕時已排序電子郵件網域，顯示[排序]和[降序]排序欄。](assets/query_editor_nveau_70.png)
 
 1. 在 **[!UICONTROL Data filtering]** 中選取 **[!UICONTROL Filtering conditions]**。 前往&#x200B;**[!UICONTROL Target elements]**&#x200B;視窗並按一下&#x200B;**[!UICONTROL Next]**。
 1. 在&#x200B;**[!UICONTROL Data grouping]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選取&#x200B;**[!UICONTROL Email domain]**。
 
    此資料分組視窗只有在已核取&#x200B;**[!UICONTROL Handle groupings (GROUP BY + HAVING]**)方塊時才會顯示。
 
-   ![](assets/query_editor_blocklist_04.png)
+   ![資料群組畫面列出電子郵件網域(@domain)作為GROUP BY子句的群組資料行。](assets/query_editor_blocklist_04.png)
 
 1. 在&#x200B;**[!UICONTROL Grouping condition]**&#x200B;視窗中，表示主索引鍵計數大於30，因為我們只希望目標定位超過30次的電子郵件網域作為結果傳回。
 
    勾選&#x200B;**[!UICONTROL Manage groupings (GROUP BY + HAVING)]**&#x200B;方塊時會顯示此視窗：這是篩選群組結果(HAVING)的位置。
 
-   ![](assets/query_editor_blocklist_05.png)
+   ![HAVING子句的count （主鍵）大於30的群組條件畫面。](assets/query_editor_blocklist_05.png)
 
 1. 在&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Next]**：這裡不需要格式設定。
 1. 在資料預覽視窗中，按一下&#x200B;**[!UICONTROL Launch data preview]**：在此會傳回三個目標定位超過30次的不同電子郵件網域。
 
-   ![](assets/query_editor_blocklist_06.png)
+   ![資料預覽畫面在預覽啟動後傳回兩個電子郵件網域。](assets/query_editor_blocklist_06.png)

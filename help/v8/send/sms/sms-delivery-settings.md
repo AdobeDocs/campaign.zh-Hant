@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '788'
 ht-degree: 1%
 ---
 # 簡訊傳遞設定 {#sms-settings}
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 設定簡訊標籤 {#sms-tab}
 
-![](assets/send_settings.png){zoomable="yes"}
+包含一般引數和選用的SMPP引數(TLV)資料表的傳遞屬性的![SMS索引標籤](assets/send_settings.png){zoomable="yes"}
 
 以下是填寫此表單所需的資訊。 每個欄位的說明如下：
 

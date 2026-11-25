@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1581'
 ht-degree: 0%
 ---
 # 編輯內容{#editing-content}
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 若要新增可見度條件，請選取區塊並使用運算式編輯器在&#x200B;**[!UICONTROL Visibility condition]**&#x200B;欄位中輸入條件。
 
-![](assets/dce_add_condition.png)
+![內容編輯器，在右側[區塊選項]面板中顯示[可見度]條件欄位與編輯圖示並反白顯示](assets/dce_add_condition.png)
 
 >[!NOTE]
 >
 >在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}上呈現進階運算式編輯（Campaign v8檔案）。
 
-![](assets/dce_popup_visibilitycondition.png)
+![運算式編輯器對話方塊，包含[可用欄位]清單、[函式清單]和[插入]按鈕](assets/dce_popup_visibilitycondition.png)
 
 這些條件採用XTK運算式語法（例如&#x200B;**ctx.recipient.@email != &quot;&quot;**&#x200B;或&#x200B;**ctx.recipient.@status==&quot;0&quot;**）。 依預設，所有欄位都是可見的。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 您可以將&#x200B;**邊框**&#x200B;新增至選取的區塊。 使用下列三個選項來定義框線：樣式、大小和顏色。
 
-![](assets/dce_popup_border.png)
+![具有「樣式」、「大小」、「檢色器」和「具有透明、淺色和深色背景的預覽」的「框線」對話方塊](assets/dce_popup_border.png)
 
 您也可以從色彩表中選取一種顏色，以定義&#x200B;**背景顏色**。
 
-![](assets/dce_popup_background.png)
+![含有檢色器、不透明度滑桿的「上一步」對話方塊，以及含有「透明」、「亮」和「暗」選項的「預覽」](assets/dce_popup_background.png)
 
 ## 編輯表單 {#editing-forms}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 您可以將資料庫欄位與輸入區域、單選按鈕或核取方塊型別區塊連結。
 
-![](assets/dce_sidebar_field.png)
+![具有表單資料區段的輸入區域（文字）選項，欄位設定為「否」資料，以及「強制是/否」切換](assets/dce_sidebar_field.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 依預設，提供的欄位是&#x200B;**nms:recipient**&#x200B;表格中的欄位。
 
-![](assets/dce_field_selection.png)
+![收件者對話方塊的欄位，其中列出nms:recipient欄位，例如電子郵件、名字和姓氏](assets/dce_field_selection.png)
 
 **必填欄位**&#x200B;選項可讓您僅在使用者已填入欄位時，授權頁面的核准。 如果未填入必填欄位，則會出現錯誤訊息。
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 * 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
-  ![](assets/dce_sidebar_options.png)
+  ![核取方塊選項，其表單資料區段及其「編輯」圖示在「型別」、「欄位」和「必要設定」上方反白顯示](assets/dce_sidebar_options.png)
 
 * 在&#x200B;**[!UICONTROL Value]**&#x200B;欄位中輸入分項清單值（由選取的欄位定義）。
 
-  ![](assets/dce_sidebar_completeoptionradio.png)
+  ![表單資料對話方塊，其中的[若勾選則為值]和[若未勾選則為值]欄位反白顯示](assets/dce_sidebar_completeoptionradio.png)
 
 ### 修改表單欄位 {#modifying-form-fields}
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 * 使用&#x200B;**[!UICONTROL Duplicate]**&#x200B;圖示建立新區塊，以複製選取的欄位。
 * 使用&#x200B;**[!UICONTROL Edit]**&#x200B;圖示編輯&#x200B;**[!UICONTROL Form data]**&#x200B;視窗以將資料庫欄位連結至表單區域。
 
-  ![](assets/dce_toolbar_formblock_edition.png)
+  ![表單資料對話方塊，其[欄位]選擇器設為[否]資料，且[強制是/否]切換](assets/dce_toolbar_formblock_edition.png)
 
 ## 將動作新增至按鈕 {#adding-an-action-to-a-button}
 
 當使用者按一下按鈕時，您可以定義關聯的動作。 要執行此操作，請從下拉式清單中選取要執行的動作。
 
-![](assets/dce_sidebar_button.png)
+![具有「動作」下拉式清單的超文字連結選項，可定義、無、重新整理、下一頁及上一步](assets/dce_sidebar_button.png)
 
 可用的動作如下：
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
 要執行此操作，請選取元素，然後使用躍現式選單中的第一個圖示。
 
-![](assets/dce_insertlink_icon.png)
+![以反白顯示插入圖示封鎖工具列，用來開啟連結功能表](assets/dce_insertlink_icon.png)
 
 此圖示可讓您存取所有可用的連結型別。
 
-![](assets/dce_insertlink_menu.png)
+![插入包含Personalization欄位、Personalization區塊和連結型別的功能表：外部URL、動作、網頁應用程式](assets/dce_insertlink_menu.png)
 
 個人化區塊和欄位只能插入文字型別區塊中。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **連結至外部URL**&#x200B;選項可讓您從來源內容開啟任何URL。
 
-![](assets/dce_toolbar_imgblock_externallink.png)
+![為包含URL和目標欄位的外部URL插入連結對話方塊](assets/dce_toolbar_imgblock_externallink.png)
 
 在&#x200B;**URL**&#x200B;欄位中輸入相關連結位址。 URL欄位應該輸入為： **https://www.myURL.com**。
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 **連結至網頁應用程式**&#x200B;選項可讓您存取Adobe Campaign網頁應用程式。
 
-![](assets/dce_toolbar_imgblock_appweb.png)
+![插入具有Web應用程式和目標欄位的Web應用程式連結對話方塊](assets/dce_toolbar_imgblock_appweb.png)
 
 從對應的欄位中選取Web應用程式。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 定義動作&#x200B;**選項的**&#x200B;連結可讓您在按一下來源元素時設定動作。
 
-![](assets/dce_toolbar_imgblock_action.png)
+![插入連結對話方塊以取得具有動作和目標欄位的動作](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 當您選取文字元素時，可以修改字型屬性（樣式、格式）。
 
-![](assets/dce_toolbar_txt.png)
+![文字工具列按鈕：放大或縮小字型、粗體、斜體、底線、對齊、背景顏色和字型顏色](assets/dce_toolbar_txt.png)
 
 可用的選項如下：
 
@@ -235,11 +235,11 @@ ht-degree: 0%
 
 若要插入影像，請選取影像型別區塊，然後按一下&#x200B;**影像**&#x200B;圖示。
 
-![](assets/dce_insert_image.png)
+![影像區塊工具列，其反白顯示影像圖示以插入影像](assets/dce_insert_image.png)
 
 選取本機儲存的影像檔案。
 
-![](assets/dce_popup_imgupload.png)
+![影像選取對話方塊，其中包含[瀏覽]按鈕，以挑選本機影像檔案](assets/dce_popup_imgupload.png)
 
 **Delete**&#x200B;圖示會刪除包含影像的標籤。
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 * **註解**&#x200B;可讓您定義連結至影像的註解（對應至&#x200B;**alt** HTML屬性）。
 * **尺寸**&#x200B;可讓您指定影像大小（畫素）。
 
-  ![](assets/dce_popup_imgsize.png)
+  ![維度對話方塊，「寬度」和「高度」欄位以畫素為單位，兩者皆設為96](assets/dce_popup_imgsize.png)
 
 ## 新增個人化內容 {#adding-personalization-content}
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 插入圖示的&#x200B;**Personalization欄位**&#x200B;選項可讓您新增資料庫欄位至內容，例如收件者的名稱。 此選項僅適用於文字型別區塊。
 
-![](assets/dce_toolbar_textblock_persofield.png)
+![插入列出收件者欄位的元素對話方塊，例如，電子郵件、名字和姓氏](assets/dce_toolbar_textblock_persofield.png)
 
 依預設，提供的欄位來自&#x200B;**[!UICONTROL Recipient]**&#x200B;表格。 必要時，編輯Web應用程式屬性以選取其他表格。
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 **Personalization區塊**&#x200B;選項可讓您在內容中插入動態和個人化的區塊。 例如，您可以新增標誌或問候語。 它不適用於文字型別區塊。
 
-![](assets/dce_toolbar_textblock_persoblock.png)
+![插入列出個人化區塊的元素對話方塊，例如問候語、插入標誌和取消訂閱連結](assets/dce_toolbar_textblock_persoblock.png)
 
 插入後，個人化區塊名稱會顯示在編輯器中，並以黃色反白顯示。 產生個人化時，會自動調整成適合收件者設定檔。
 

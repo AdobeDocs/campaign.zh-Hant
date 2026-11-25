@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 18%
+source-wordcount: '1153'
+ht-degree: 16%
 ---
 # 使用傳遞範本 {#work-with-delivery-template}
 
@@ -59,7 +59,7 @@ ht-degree: 18%
 * 內容、公司標誌或簽名
 * 其他傳遞屬性，例如資源有效性、重試參數或隔離設定。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#delivery-template-video)
+![播放視訊連結的圖示](assets/do-not-localize/how-to-video.png) [在視訊中探索此功能](#delivery-template-video)
 
 傳遞範本儲存在檔案總管的&#x200B;**[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;資料夾中。 在Adobe Campaign中，您可以使用兩種型別的範本：
 
@@ -88,15 +88,15 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 1. 選取內建傳遞範本。 內建範本會以粗體顯示在清單中。
 1. 按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Duplicate]**。
 
-   ![](assets/duplicate-built-in-template.png)
+   ![傳遞範本清單，其右鍵功能表已開啟並在內建範本上選取重複](assets/duplicate-built-in-template.png)
 
 1. 定義範本設定並儲存新範本。
 
-   ![](assets/delivery-template-new.png)
+   ![重複的電子郵件範本及其標籤、寄件者地址、主旨和HTML內容的屬性](assets/delivery-template-new.png)
 
 該範本即新增到傳遞範本清單中。 您現在建立新傳遞時即可以選取該範本。
 
-![](assets/select-the-new-template.png)
+![傳遞範本下拉式清單列出內建範本與新的自訂範本宣告電子郵件傳遞](assets/select-the-new-template.png)
 
 ### 將現有傳遞轉換為範本 {#convert-an-existing-delivery}
 
@@ -108,11 +108,11 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 1. 按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL Actions > Save as template...]**。
 
-   ![](assets/save-as-template.png)
+   ![傳遞清單滑鼠右鍵功能表，已選取[動作]和[另存為範本]](assets/save-as-template.png)
 
 1. 編輯傳遞屬性，並選取必須儲存新範本的資料夾（在「**[!UICONTROL Folder]**」欄位中），以及必須建立根據此範本之傳遞的資料夾（在「**[!UICONTROL Execution folder]**」欄位中）。
 
-   ![](assets/template-select-folders.png)
+   ![傳遞內容與新範本的執行資料夾、資料夾及路由欄位](assets/template-select-folders.png)
 
 ### 建立新的範本 {#create-a-new-template}
 
@@ -140,11 +140,11 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
 若要根據現有範本建立傳遞，請從可用傳遞範本清單中選取範本。
 
-![](assets/select-the-new-template.png)
+![傳遞範本下拉式清單列出內建範本與新的自訂範本宣告電子郵件傳遞](assets/select-the-new-template.png)
 
 如果您看不到範本，請按一下欄位右側的&#x200B;**[!UICONTROL Select link]**&#x200B;資料夾，以瀏覽Campaign資料夾。
 
-![](assets/browse-templates.png)
+顯示傳遞範本的![資料夾選擇對話方塊，從傳遞範本欄位](assets/browse-templates.png)開啟
 
 從&#x200B;**[!UICONTROL Folder]**&#x200B;欄位選取所要的目錄，或按一下&#x200B;**[!UICONTROL Display sub-levels]**&#x200B;圖示以顯示目前目錄子樹狀結構中的目錄內容。
 
@@ -160,7 +160,7 @@ Campaign為每個頻道提供一組內建範本：電子郵件、推播、簡訊
 
    您也可以使用&#x200B;**[!UICONTROL File>Actions>Execute the delivery template...]**。
 
-   ![](assets/execute-delivery-template.png)
+   ![已選取[執行傳遞範本]功能表選項的傳遞範本清單](assets/execute-delivery-template.png)
 
 1. 輸入傳遞引數並按一下&#x200B;**[!UICONTROL Send]**。
 

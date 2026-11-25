@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '372'
 ht-degree: 0%
 ---
 # 存取追蹤記錄 {#accessing-the-tracking-logs}
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 此資訊會顯示在傳遞所目標定位之收件者設定檔的&#x200B;**[!UICONTROL Tracking]**&#x200B;標籤中，如下列範例所示：
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![收件者設定檔的追蹤標籤，其中列出追蹤的點按與開啟日期、標籤、型別和傳遞](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 此索引標籤會顯示收件者追蹤及點按的所有URL，包括：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 追蹤資訊也可透過傳遞的&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤存取。
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![傳遞的追蹤標籤，其中列出具有日期、標籤、型別和收件者的追蹤記錄](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 在此標籤中，您可以檢視：
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您看不到傳遞的&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤，表示尚未啟用追蹤。 請參閱[本節](tracked-links.md)以瞭解如何設定追蹤。
+>如果您看不到傳遞的&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤，表示尚未啟用追蹤。 請參閱[設定追蹤的連結](tracked-links.md)以瞭解如何設定追蹤。
 
 ### 檢查追蹤技術工作流程 {#check-tracking-workflow}
 

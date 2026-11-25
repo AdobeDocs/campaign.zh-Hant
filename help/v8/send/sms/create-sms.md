@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 8%
+source-wordcount: '208'
+ht-degree: 7%
 ---
 # 建立您的第一個SMS傳遞 {#sms-delivery}
 
@@ -37,9 +37,9 @@ ht-degree: 8%
 
 1. 建立新的傳遞，並選取您為簡訊傳送建立的[簡訊傳遞範本](sms-mid-sourcing.md#sms-delivery-template)。
 
-   ![](assets/sms_create.png){zoomable="yes"}
+   ![新傳遞的傳遞範本清單，SMS範本「傳送至行動裝置(SMPP)」已強調顯示](assets/sms_create.png){zoomable="yes"}
 
-   傳遞建立步驟在[此頁面](../../start/create-message.md)中有詳細說明。
+   傳遞建立步驟在[建立您的第一個傳遞](../../start/create-message.md)中詳細說明。
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -52,13 +52,13 @@ ht-degree: 8%
 
 1. 您可以簽入&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，確認所有專案都已視需要設定。 [進一步瞭解SMS索引標籤](sms-delivery-settings.md#sms-tab)
 
-   ![](assets/sms_settings.png){zoomable="yes"}
+   ![SMS傳送的傳遞屬性，其一般標籤、路由欄位和SMS標籤已反白顯示](assets/sms_settings.png){zoomable="yes"}
 
 1. [定義傳遞的內容](sms-content.md)。
 
-1. [Select對象](sms-audience.md)。
+1. [選取對象](sms-audience.md)。
 
-定義對象的步驟已詳載於[此頁面](../../audiences/create-audiences.md)。
+定義對象的步驟已詳載於[在Campaign](../../audiences/create-audiences.md)中建立設定檔對象。
 
 ## 驗證和傳送簡訊 {#sms-validate}
 

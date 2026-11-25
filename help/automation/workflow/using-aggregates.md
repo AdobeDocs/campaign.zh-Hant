@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # 使用彙總{#using-aggregates}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. 將每個收件者連結至彙總函式會產生相同的結構描述。
 1. 透過已編輯的結構描述使用彙總來篩選收件者。
 
-![](assets/datamanagement_usecase_1.png)
+![工作流程：收件者和DateMax查詢會摘要編輯結構描述活動，然後是分割活動並結束。](assets/datamanagement_usecase_1.png)
 
 ## 步驟1：計算彙總結果 {#step-1--calculating-the-aggregate-result}
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 1. 在開啟的視窗中，依序選取&#x200B;**[!UICONTROL Data linked to the filtering dimension]**&#x200B;及&#x200B;**[!UICONTROL Filtering dimension data]**。
 1. 在&#x200B;**[!UICONTROL Data to add]**&#x200B;視窗中，新增計算收件者表格中&#x200B;**建立日期**&#x200B;欄位最大值的欄。 您可以使用運算式編輯器，或直接在&#x200B;**[!UICONTROL Expression]**&#x200B;欄的欄位中輸入&#x200B;**max(@created)**。 然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;按鈕。
 
-   ![](assets/datamanagement_usecase_2.png)
+   ![要新增視窗的資料，其中在[運算式]資料行中有輸出資料行Max （建立日期），並有[完成]按鈕。](assets/datamanagement_usecase_2.png)
 
 1. 按一下 **[!UICONTROL Edit additional data]**，之後 **[!UICONTROL Advanced parameters...]**。 核取 **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 選項。
 
@@ -61,11 +61,11 @@ ht-degree: 3%
 1. 將收件者的查詢定義為主集。
 1. 在&#x200B;**[!UICONTROL Links]**&#x200B;索引標籤中，新增連結並在開啟的視窗中輸入資訊，如下所示：
 
-   * 選取與彙總相關的暫存結構描述。 此結構描述的資料將新增到主集的成員。
-   * 選取&#x200B;**[!UICONTROL Use a simple join]**&#x200B;將彙總結果連結至主集的每個收件者。
+   * Select和彙總相關的暫存結構描述。 此結構描述的資料將新增到主集的成員。
+   * Select **[!UICONTROL Use a simple join]**&#x200B;可將彙總結果連結至主集的每個收件者。
    * 最後，指定連結為&#x200B;**[!UICONTROL Type 11 simple link]**。
 
-   ![](assets/datamanagement_usecase_3.png)
+   ![連結定義與暫存結構描述DateMax，使用簡單聯結，並選取型別11簡單連結。](assets/datamanagement_usecase_3.png)
 
 因此，彙總結果會連結至每個收件者。
 
@@ -86,7 +86,7 @@ ht-degree: 3%
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Value]**： `toDate([datemax/expr####])`，其中expr####與彙總函式查詢中指定的彙總相關。
 
-   ![](assets/datamanagement_usecase_4.png)
+   ![目標元素篩選器： ToDate目標/@created等於DateOnly(Max（建立日期）)。](assets/datamanagement_usecase_4.png)
 
 因此，分割活動的結果會與最後一個已知建立日期同一天建立的收件者相關。
 

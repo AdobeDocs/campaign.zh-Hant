@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 3%
+source-wordcount: '996'
+ht-degree: 2%
 ---
 # 設計調查{#building-a-survey}
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 選取問卷範本（預設為&#x200B;**[!UICONTROL newSurvey]**）。
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![開啟範本清單的新增Web應用程式對話方塊，以選擇意見調查或網頁表單範本。](assets/s_ncs_admin_survey_select_template.png)
 
 表單頁面是使用特殊編輯器建立的，可讓您定義和設定（文字）輸入欄位、選擇欄位（清單、核取方塊等） 和靜態元素（影像、HTML內容等）。 可在「容器」中收集資料，並根據需求進行編排。 [了解更多資訊](#adding-questions)。
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 表單中的欄位可讓使用者輸入資訊並選取選項。 對於表單中的每個頁面，它們都是使用&#x200B;**[!UICONTROL Add using the assistant]**&#x200B;功能表透過工具列中的第一個按鈕建立的。
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![欄位建立精靈已使用精靈從[新增]開啟，包含[回答問題以匯入]的四個欄位選項。](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -65,13 +65,13 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >儲存模式與欄位匯入在[此區段](managing-answers.md#storing-collected-answers)中有詳細說明。
+   >儲存模式和欄位匯入在[儲存收集的答案](managing-answers.md#storing-collected-answers)中有詳細說明。
 
 要新增的欄位性質（下拉式清單、文字欄位、核取方塊等） 會調整成選取的儲存模式。 您可以使用&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Type]**&#x200B;欄位來變更它，但請確保與資料型別保持一致。
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![頁面編輯器的[一般]索引標籤，其型別清單已開啟，顯示[多重選擇]、[下拉式方塊]和其他欄位型別。](assets/s_ncs_admin_survey_change_type.png)
 
-[此區段](../web/about-web-forms.md)中詳細說明了各種型別的可用欄位。
+各種型別的可用欄位在[開始使用網路表單](../web/about-web-forms.md)中都有詳細說明。
 
 ## 調查特定元素 {#survey-specific-elements}
 
@@ -81,11 +81,11 @@ ht-degree: 3%
 
 對於&#x200B;**[!UICONTROL Multiple choice]**&#x200B;型別控制項，您可以定義最小和最大選擇數目。 例如，此選項可讓您強制從可用選項中選取至少&#x200B;**2**&#x200B;個值和最多&#x200B;**4**&#x200B;個值：
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![問卷頁面請選取您的興趣，並選取核取方塊，三到四個選項。](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 如果選取範圍的數目太大或太小，則會顯示適當的訊息。
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+![興趣調查頁面顯示錯誤訊息請勿選擇超過四個興趣。](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -93,11 +93,11 @@ ht-degree: 3%
 
 對應的設定如下：
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![多重選擇欄位已設定為允許多重選擇，需要2個選擇，允許4個。](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 此外，此輸入欄位的儲存位置必須是&#x200B;**[!UICONTROL Multiple values]**&#x200B;型別&#x200B;**封存欄位**：
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![使用[興趣]欄位中核取的[多重值]選項，建立新的封存欄位對話方塊。](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -114,9 +114,9 @@ ht-degree: 3%
 >
 >請勿在階層中的另一個&#x200B;**問題**&#x200B;容器下方插入&#x200B;**問題**&#x200B;容器。
 
-![](assets/s_ncs_admin_question_label.png)
+![已勾選「以HTML格式輸入標題」選項並顯示HTML編輯器的「問題容器：一般」標籤。](assets/s_ncs_admin_question_label.png)
 
-在標籤欄位中輸入問題的標籤。 在這種情況下，將會套用表單樣式表中的樣式。 Select **[!UICONTROL Enter the title in HTML format]**&#x200B;選項可加以個人化。 這可讓您存取HTML編輯器。
+在標籤欄位中輸入問題的標籤。 在這種情況下，將會套用表單樣式表中的樣式。 選取&#x200B;**[!UICONTROL Enter the title in HTML format]**&#x200B;選項加以個人化。 這可讓您存取HTML編輯器。
 
 >[!NOTE]
 >
@@ -124,11 +124,11 @@ ht-degree: 3%
 
 例如：
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![頁面樹狀結構，其中包含電子郵件格式和合約的[問題]容器，以及頁面[一般]索引標籤設定。](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 在上述範例中，演算將如下所示：
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![已轉譯含有欄位的調查頁面、電子郵件格式下拉式清單，以及合約核取方塊問題。](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ ht-degree: 3%
 
 您可以透過Adobe Campaign啟用隨機抽取問題。 然後，可以在位於設定視窗底部的欄位中，指定要在頁面中顯示的問題數。
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+![隨機勾選顯示的「頁面一般」索引標籤，且要顯示的問題數設為1。](assets/s_ncs_admin_survey_containers_qu_display.png)
 
 轉譯看起來會像這樣：
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![轉譯的頁面只顯示兩個隨機選取的問題：問題2和問題3，帶有「下一步」按鈕。](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 重新整理頁面時，顯示的問題不同。
 

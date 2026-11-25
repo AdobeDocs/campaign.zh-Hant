@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '3145'
-ht-degree: 7%
+source-wordcount: '3612'
+ht-degree: 6%
 ---
 # 壓力規則{#pressure-rules}
 
@@ -67,17 +67,17 @@ ht-degree: 7%
 
 1. 在行銷活動型別規則清單中，選取清單上方的&#x200B;**[!UICONTROL New]**&#x200B;圖示。
 
-   ![](assets/campaign_opt_create_a_rule_01.png)
+   在Administration資料夾中的![型別規則清單，清單上方會反白顯示[新增]圖示。](assets/campaign_opt_create_a_rule_01.png)
 
 1. 在新規則的&#x200B;**[!UICONTROL General]**&#x200B;標籤中，選取&#x200B;**壓力**&#x200B;型別規則，並輸入其名稱和描述。
 
-   ![](assets/campaign_opt_create_a_rule_02.png)
+   ![新型別規則，[一般]索引標籤，在[規則]型別清單中選取[壓力]。](assets/campaign_opt_create_a_rule_02.png)
 
 1. 視需要變更執行順序。 將多個型別規則套用為&#x200B;**[!UICONTROL Typology]**&#x200B;集時，會先套用順序較低的規則。 [了解更多資訊](apply-rules.md#execution-order)。
 1. 如果要儲存下一個每日重新仲裁執行之後的目標定位，請在&#x200B;**[!UICONTROL Calculation parameters]**&#x200B;區段中定義頻率。 [了解更多資訊](apply-rules.md#adjust-calculation-frequency)。
 1. 按一下「**[!UICONTROL Pressure]**」標籤，然後選擇套用型別規則的日曆期間。
 
-   ![](assets/campaign_opt_create_a_rule_03.png)
+   ![具有Sliding period區段的Pressure索引標籤，以及顯示群組選項的Period型別清單。](assets/campaign_opt_create_a_rule_03.png)
 
    此規則將套用至聯絡日期包含在相關期間的傳遞。
 
@@ -91,11 +91,11 @@ ht-degree: 7%
 
    依照預設，臨界值為常數，您必須指出該規則授權的訊息數量上限。
 
-   ![](assets/campaign_opt_create_a_rule_03b.png)
+   ![臨界值型別設定為「常數」且「數量」為4的壓力標籤。](assets/campaign_opt_create_a_rule_03b.png)
 
    若要定義變數臨界值，請在&#x200B;**[!UICONTROL Type of threshold]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Depends on the recipient]**&#x200B;值，並使用右側的圖示開啟運算式編輯器。
 
-   ![](assets/campaign_opt_create_a_rule_04.png)
+   ![臨界值型別清單顯示[常數]並取決於收件者。](assets/campaign_opt_create_a_rule_04.png)
 
    如需詳細資訊，請參閱[訊息數目上限](#maximum-number-of-messages)。
 
@@ -110,7 +110,7 @@ ht-degree: 7%
 
      在下列範例中，只會考量儲存在&#x200B;**NewContacts**&#x200B;資料夾中的收件者，而且會關注以&#x200B;**電子報**&#x200B;開頭的傳送。
 
-   ![](assets/campaign_opt_create_a_rule_05.png)
+   ![要計數區段的郵件，其中包含NewRecipients的資料夾查詢以及以Newsletter開頭的標籤傳遞查詢。](assets/campaign_opt_create_a_rule_05.png)
 
 1. **[!UICONTROL Typologies]**&#x200B;索引標籤可讓您檢視套用此規則的促銷活動型別，或將規則連結至一或多個現有型別。 [了解更多資訊](campaign-typologies.md#apply-typologies)。
 
@@ -122,7 +122,7 @@ ht-degree: 7%
 
 臨界值可以是常數，或透過包含變數的公式計算。 這表示在指定期間，臨界值可能會因收件者而異，甚至會針對相同收件者而有所不同。
 
-![](assets/campaign_opt_create_a_rule_threshold.png)
+![反白顯示[壓力]索引標籤的[訊息數目上限]區段，[常數]臨界值為1。](assets/campaign_opt_create_a_rule_threshold.png)
 
 >[!CAUTION]
 >
@@ -132,7 +132,7 @@ ht-degree: 7%
 
 您可以根據收件者所屬的區段，索引授權訊息的數量。 這表示屬於網頁區段的收件者可能會收到比其他收件者更多的訊息。 **[!UICONTROL Iif (@origin='Web', 5, 3)]**&#x200B;型別公式可授權傳送5則訊息給收件者，3則訊息給其他區段。 設定如下：
 
-![](assets/campaign_opt_pressure_sample.png)
+![臨界值型別取決於公式為Iif（原始等於&#39;Web&#39;， 5， 3）的收件者。](assets/campaign_opt_pressure_sample.png)
 
 若要定義臨界值，您可以使用連結至目標維度的維度：例如，若要包含傳遞至儲存在[訪客表格](../../v8/audiences/target-mappings.md)中的收件者設定檔的訊息，或避免每週傳送超過一封訊息給同一個家庭（可能指多個電子郵件地址），此訊息會識別在連結至收件者之維度的識別中。
 
@@ -156,7 +156,7 @@ ht-degree: 7%
 1. 建立新欄位以儲存收件者傾向分數。 在此案例中，欄位&#x200B;**@Music**&#x200B;將包含調查和線上投票、收集的追蹤資料等的答案。
 1. 建立型別規則，以根據此欄位計算訊息權重。
 
-   ![](assets/campaign_opt_pressure_weight_sample.png)
+   ![Select從[權數]公式開啟運算式對話方塊，並在可用欄位中選取[音樂]欄位。](assets/campaign_opt_pressure_weight_sample.png)
 
 1. 將此規則套用至包含下列主題的訊息：電子報、特殊優惠等。這些傳送的權重，因此其優先順序層級，將取決於每個收件者的傾向分數。
 
@@ -191,19 +191,19 @@ ht-degree: 7%
 
 我們想要建立壓力規則，將請求限製為每兩週期間最多3則訊息，並將分組限制在行事曆月份。
 
-![](assets/campaign_opt_pressure_period_sample_1a.png)
+![具有15d週期、每個日曆月分組以及3則訊息的常數臨界值的壓力標籤。](assets/campaign_opt_pressure_period_sample_1a.png)
 
 假設六份相同重量的電子報排程為05/30、06/3、06/8、06/12、06/22和06/30。
 
-![](assets/campaign_opt_pressure_period_sample_0.png)
+![兩個2016年11月行事曆；第二個強調第3、8、12、22和30個傳遞日期。](assets/campaign_opt_pressure_period_sample_0.png)
 
 將不會傳送排程在6月12日和30日的傳送： 06/12傳送將超過每2週期間3則訊息的臨界值，而第30次傳送將超過每個日曆月的授權通訊臨界值。
 
-![](assets/campaign_opt_pressure_period_sample_1.png)
+![傳遞清單的狀態為擱置中、失敗和正在編輯中，且目標計數和傳送計數。](assets/campaign_opt_pressure_period_sample_1.png)
 
 在分析階段，仲裁會排除這些傳遞的所有收件者：
 
-![](assets/campaign_opt_pressure_period_sample_2.png)
+![傳遞的排除記錄檔列出原因為「仲裁後排除」的收件者。](assets/campaign_opt_pressure_period_sample_2.png)
 
 對於相同的規則，如果您每季將傳遞分組，第&#x200B;**新聞稿5**&#x200B;號的收件者也會被排除，且不會傳送。
 
@@ -223,7 +223,7 @@ ht-degree: 7%
 
 如果此數字超過臨界值，則會套用行銷活動型別中定義的仲裁規則，並從權重較低的行銷活動中排除收件者。
 
-![](assets/campaign_opt_pressure_exclusion.png)
+![傳送摘要，目標為12，要傳送為9，且排除記錄檔顯示仲裁後已排除。](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >
@@ -240,25 +240,25 @@ ht-degree: 7%
 若要建立規則，請套用以下步驟：
 
 1. 建立新的&#x200B;**壓力**&#x200B;型別型別規則。
-1. 編輯&#x200B;**[!UICONTROL Pressure]**&#x200B;標籤：在&#x200B;**[!UICONTROL Maximum number of messages]**&#x200B;區段中，我們要建立一個公式以根據每個收件者計算臨界值。 在&#x200B;**[!UICONTROL Threshold type]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Depends on the recipient]**&#x200B;值，然後按一下&#x200B;**[!UICONTROL Formula]**&#x200B;欄位右側的&#x200B;**[!UICONTROL Edit expression]**。
+1. 編輯&#x200B;**[!UICONTROL Pressure]**&#x200B;標籤：在&#x200B;**[!UICONTROL Maximum number of messages]**&#x200B;區段中，我們要建立一個公式以根據每個收件者計算臨界值。 Select **[!UICONTROL Threshold type]**&#x200B;欄位中的&#x200B;**[!UICONTROL Depends on the recipient]**&#x200B;值，然後按一下&#x200B;**[!UICONTROL Formula]**&#x200B;欄位右側的&#x200B;**[!UICONTROL Edit expression]**。
 
    按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;按鈕以定義計算公式。
 
-   ![](assets/campaign_opt_pressure_sample_1_1.png)
+   ![從[公式]欄位開啟運算式對話方塊，並選取[狀態]欄位。](assets/campaign_opt_pressure_sample_1_1.png)
 
-1. 選取&#x200B;**[!UICONTROL Edit the formula using an expression]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**。
+1. Select **[!UICONTROL Edit the formula using an expression]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/campaign_opt_pressure_sample_1_2.png)
+   ![已選取[使用運算式編輯公式]選項的公式型別步驟。](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. 在函式清單中，連按兩下&#x200B;**[!UICONTROL Others]**&#x200B;節點中的&#x200B;**Iif**&#x200B;函式。
 
    然後在&#x200B;**[!UICONTROL Available fields]**&#x200B;區段中選取收件者的&#x200B;**狀態**。
 
-   ![](assets/campaign_opt_pressure_sample_1_3.png)
+   ![使用Others的Iif函式以及公式中的Status欄位來編輯運算式對話方塊。](assets/campaign_opt_pressure_sample_1_3.png)
 
    輸入下列公式： **Iif(@status=0,2，4)**
 
-   ![](assets/campaign_opt_pressure_sample_1_4.png)
+   ![使用完成的公式Iif(@status=0,2，4)編輯運算式對話方塊。](assets/campaign_opt_pressure_sample_1_4.png)
 
    此公式可讓您在狀態等於 0 時指派值為 2，而所有其他狀態的值為 4。
 
@@ -266,7 +266,7 @@ ht-degree: 7%
 
 1. 指定將套用規則的期間：在此情況下，為7天，以計算每週的訊息數。
 
-   ![](assets/campaign_opt_pressure_sample_1_5.png)
+   ![壓力索引標籤，其週期型別清單和公式取決於收件者狀態。](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. 儲存規則以核准建立。
 
@@ -275,13 +275,13 @@ ht-degree: 7%
 1. 建立行銷活動型別。
 1. 前往&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並選取您剛建立的規則。
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![新型別的[規則]索引標籤，其中的[新增規則]對話方塊列出要選取的型別規則。](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. 儲存型別：會將其新增至現有型別的清單中。
 
 若要在傳遞中使用此型別，請在&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中的傳遞屬性中選取它，如下所示：
 
-![](assets/campaign_opt_pressure_sample_1_7.png)
+![傳遞屬性，「型別」標籤，在「型別」清單中選取了客戶/潛在客戶壓力型別。](assets/campaign_opt_pressure_sample_1_7.png)
 
 >[!NOTE]
 >
@@ -291,15 +291,15 @@ ht-degree: 7%
 
 * 檢視分析結果：
 
-  ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![傳遞分析視窗，其中包含已完成的準備記錄檔和醒目提示的排除位址規則。](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 編輯傳遞，然後按一下「**[!UICONTROL Delivery]**」索引標籤及「**[!UICONTROL Exclusions]**」子索引標籤：
 
-  ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![傳遞標籤，排除子標籤，排除記錄顯示仲裁後排除。](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 按一下「**[!UICONTROL Audit]**」標籤，然後按「**[!UICONTROL Causes of exclusions]**」子標籤，顯示排除專案數和套用的型別規則：
 
-  ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![稽核標籤，排除原因子標籤，每個型別規則的排除數量。](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 根據行為計算傳遞權重 {#calculate-the-delivery-weight-based-on-behavior}
 
@@ -314,15 +314,15 @@ ht-degree: 7%
 1. 建立新的&#x200B;**壓力**&#x200B;型別型別規則。
 1. 編輯&#x200B;**[!UICONTROL Pressure]**&#x200B;標籤。 我們要建立以每個個別收件者為基礎的臨界值公式：按一下「**[!UICONTROL Weight formula]**」欄位右側的「**[!UICONTROL Edit expression]**」圖示。
 
-   ![](assets/campaign_opt_pressure_sample_2_1.png)
+   ![在[權數]公式欄位旁顯示[編輯運算式]圖示的壓力標籤。](assets/campaign_opt_pressure_sample_2_1.png)
 
 1. 依預設，值&#x200B;**5**&#x200B;會顯示在運算式編輯器的上半部。 我們想要將每個收件者的傾向分數新增至此權重：將游標置於5的右側，輸入&#x200B;**+**&#x200B;字元並選取&#x200B;**傾向**&#x200B;欄位。
 
-   ![](assets/campaign_opt_pressure_sample_2_2.png)
+   ![編輯運算式對話方塊，其中包含權重公式5+@Affinity和選取的相似性欄位。](assets/campaign_opt_pressure_sample_2_2.png)
 
 1. 然後為已購買的收件者新增較高的值。 對於他們，傳遞的重量必須增加5，而其他人只增加4。
 
-   ![](assets/campaign_opt_pressure_sample_2_3.png)
+   ![使用權重公式編輯運算式對話方塊，該公式會在Interest上新增欄位和Iif條件。](assets/campaign_opt_pressure_sample_2_3.png)
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以儲存此規則。
 1. 將規則連結至行銷活動型別，並在傳遞中參考此型別以進行核准。
@@ -338,7 +338,7 @@ ht-degree: 7%
 1. 建立壓力規則。 [了解更多資訊](#create-a-pressure-rule)。
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Re-apply the rule at the start of personalization]**&#x200B;選項。
 
-   ![](assets/campaign_opt_pressure_example_5.png)
+   ![壓力規則的「一般」標籤，其中已選取「在個人化開始時重新套用規則」選項。](assets/campaign_opt_pressure_example_5.png)
 
    此選項會覆寫&#x200B;**[!UICONTROL Frequency]**&#x200B;欄位中定義的值，並在個人化階段自動套用規則。 [了解更多資訊](apply-rules.md#adjust-calculation-frequency)。
 
@@ -353,17 +353,17 @@ ht-degree: 7%
 1. 將&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動新增至工作流程並開啟它。 有關使用此活動的詳細資訊，請參閱[本區段](../workflow/delivery.md)。
 1. 前往&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Approvals]**&#x200B;標籤，並停用所有核准。
 
-   ![](assets/campaign_opt_pressure_example_2.png)
+   ![傳遞屬性，[核准]索引標籤，所有核准選項和傳遞確認都已清除。](assets/campaign_opt_pressure_example_2.png)
 
 1. 在&#x200B;**[!UICONTROL Delivery properties]**&#x200B;的&#x200B;**[!UICONTROL Typology]**&#x200B;標籤中，參考要套用規則的行銷活動型別。 定義傳遞的權重。
 
-   ![](assets/campaign_opt_pressure_example_3.png)
+   ![傳遞屬性，「型別」索引標籤，「型別」欄位及「傳遞」權重為10，反白顯示。](assets/campaign_opt_pressure_example_3.png)
 
 1. 在傳遞中，按一下&#x200B;**[!UICONTROL Scheduling]**&#x200B;並選取&#x200B;**[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**。 在此範例中，選取&#x200B;**[!UICONTROL Use a calculation formula]**&#x200B;選項。
 1. 將擷取日期設為10分鐘（目前日期+ 10分鐘）。
 1. 將聯絡日期設定為隔天（目前日期+ 1天）。
 
-   ![](assets/campaign_opt_pressure_example_4.png)
+   ![排程對話方塊，其中擷取設定為目前日期+ 10分鐘且連絡日期為目前日期+ 1天。](assets/campaign_opt_pressure_example_4.png)
 
    為了成功實作壓力規則排除，請務必在聯絡日期與時間之前設定提取日期與時間，以及在重新套用夜間仲裁之前。 [了解更多資訊](#exclusion-after-arbitration)。
 

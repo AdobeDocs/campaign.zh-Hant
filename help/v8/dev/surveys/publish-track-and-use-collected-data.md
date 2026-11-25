@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 3%
+source-wordcount: '1150'
+ht-degree: 2%
 ---
 # 發佈、追蹤及使用收集的資料{#publish-track-and-use-collected-data}
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe Campaign中調查的生命週期及其發佈和傳送模式類似於Web表單：這些在[本節](../web/about-web-forms.md)中有詳細說明。
+>Adobe Campaign中調查的生命週期及其發佈和傳送模式類似於網路表單：這些在[開始使用網路表單](../web/about-web-forms.md)中有詳細說明。
 
 ## 調查儀表板 {#survey-dashboard}
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 調查問卷的公用URL會顯示在控制面板上：
 
-![](assets/survey_public_url.png)
+![調查儀表板顯示狀態為「線上」，且箭頭指向用來存取調查的公用URL](assets/survey_public_url.png)
 
 ## 回應追蹤 {#response-tracking}
 
@@ -57,25 +57,25 @@ ht-degree: 3%
 
 對於每個傳送的問卷，您可以在&#x200B;**[!UICONTROL Logs]**&#x200B;索引標籤中追蹤回應。 此索引標籤顯示已完成調查的使用者清單及其來源：
 
-![](assets/s_ncs_admin_survey_logs.png)
+![問卷的回應標籤，列出每個回應的日期、收件者和來源](assets/s_ncs_admin_survey_logs.png)
 
 連按兩下某一行，以顯示回應填入的調查表單。 您可以瀏覽調查問卷的全文，並完整存取答案。 這些檔案可匯出到外部檔案中。 如需詳細資訊，請參閱[匯出答案](#exporting-answers)。
 
 透過新增下列字元，在調查URL中指出來源：
 
-```
+```text
 ?origin=xxx
 ```
 
 正在編輯意見調查時，其URL包含引數&#x200B;**[!UICONTROL __uuid]**，這表示它處於測試階段，尚未上線。 當您透過此URL存取意見調查時，建立的記錄不會納入追蹤（報表）的考量。 來源被強製為值&#x200B;**[!UICONTROL Adobe Campaign]**。
 
-如需URL引數的詳細資訊，請參閱[此頁面](../web/defining-web-forms-properties.md#form-url-parameters)。
+如需URL引數的詳細資訊，請參閱[表單URL引數](../web/defining-web-forms-properties.md#form-url-parameters)。
 
 ### 調查報表 {#reports-on-surveys}
 
 控制面板標籤可讓您存取調查報表。 按一下報表名稱即可檢視。
 
-![](assets/s_ncs_admin_survey_report_doc.png)
+![調查儀表板的報表檢視，包含回應、一般、檔案及微網站分析報表的劃分](assets/s_ncs_admin_survey_report_doc.png)
 
 意見調查的結構會顯示在&#x200B;**[!UICONTROL Documentation]**&#x200B;報表中。
 
@@ -87,13 +87,13 @@ ht-degree: 3%
 
   一般報表的範例：
 
-  ![](assets/s_ncs_admin_survey_report_0.png)
+  ![一般報告，包含開始日期、回應數以及一段時間的回應圖表](assets/s_ncs_admin_survey_report_0.png)
 
 * 回覆的劃分
 
   此報表顯示每個問題的回覆細目。 此劃分僅適用於&#x200B;**[!UICONTROL Question]**&#x200B;型別容器中儲存欄位的答案。 它僅適用於選取控制項（例如文字欄位沒有劃分）。
 
-  ![](assets/s_ncs_admin_survey_report_2.png)
+  ![回應報告的劃分，其中包含每個問題答案的計數和百分比](assets/s_ncs_admin_survey_report_2.png)
 
 ## 匯出答案 {#exporting-answers}
 
@@ -109,7 +109,7 @@ ht-degree: 3%
 
    若要匯出答案，請按一下問卷的&#x200B;**[!UICONTROL Responses]**&#x200B;標籤，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Export...]**。
 
-   ![](assets/s_ncs_admin_survey_logs_export_menu.png)
+   ![已選取所有回應的[回應]索引標籤，且右鍵功能表顯示[匯出]選項](assets/s_ncs_admin_survey_logs_export_menu.png)
 
    然後輸入要匯出的資訊和儲存檔案。
 
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    如果您要匯出的問卷包含多個&#x200B;**[!UICONTROL Multi-line text]**&#x200B;或&#x200B;**[!UICONTROL HTML text]**&#x200B;欄位，則必須以&#x200B;**[!UICONTROL XML]**&#x200B;格式匯出。 若要這麼做，請在&#x200B;**[!UICONTROL Output format]**&#x200B;欄位的下拉式清單中選取此格式，如下所示：
 
-   ![](assets/s_ncs_admin_survey_logs_export_xml.png)
+   ![匯出清單精靈，其輸出格式下拉式清單已開啟且已選取XML](assets/s_ncs_admin_survey_logs_export_xml.png)
 
    按一下&#x200B;**[!UICONTROL Start]**&#x200B;以執行匯出。
 
@@ -137,25 +137,25 @@ ht-degree: 3%
 
 在下列範例中，我們想要針對線上上調查中至少有兩個孩子且分數最高的五名收件者，特別提供網站優惠方案。 本問卷的答案為：
 
-![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
+![調查的回應標籤，列出每個回應者分數、子係數目和連絡人型別](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
 在目標定位工作流程中，**[!UICONTROL Survey responses]**&#x200B;將設定如下：
 
-![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
+![目標工作流程中的意見調查回應方塊，已選取意見調查，且連結可選取要擷取的欄](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
 首先，請選取相關的調查，然後在視窗的中央區段中選取要擷取的資料。 在此情況下，我們至少需要擷取分數欄，因為此分數欄將用於分割方塊，以復原5個最高分數。
 
 按一下&#x200B;**[!UICONTROL Edit query...]**&#x200B;連結，指示答案的篩選條件。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
+![調查回應方塊，其中包含子項數目的查詢篩選回應，且分數大於50](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
 開始目標定位工作流程。 查詢找回8個收件者。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_5.png)
+![工作流程結果轉換捷徑功能表，其中的[顯示目標]選項反白顯示](assets/s_ncs_admin_survey_responses_wf_box_5.png)
 
 在集合方塊的輸出轉變上按一下滑鼠右鍵以檢視。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_6.png)
+![檢視人口視窗，列出調查回應查詢傳回的8位收件者及其分數](assets/s_ncs_admin_survey_responses_wf_box_6.png)
 
 然後，在工作流程中放置分割方塊，以復原分數最高的5個收件者。
 
@@ -163,19 +163,19 @@ ht-degree: 3%
 
 * 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取適當的結構描述，然後設定子集：
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
+  ![分割方塊[一般]索引標籤，[僅使用其他資料]選取於[問卷回應]方塊之後](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
 * 移至&#x200B;**[!UICONTROL Sub-sets]**&#x200B;標籤並選取&#x200B;**[!UICONTROL Limit the selected records]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
+  ![使用[限制選取的記錄]選項和[編輯]連結的[分割方塊子集]索引標籤](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
 * 選取&#x200B;**[!UICONTROL Keep only the first records after sorting]**&#x200B;選項並選取排序欄。 核取 **[!UICONTROL Descending sort]** 選項。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
+  ![記錄計數限制精靈，具有[僅保留排序後的第一筆記錄]以及[分數](assets/s_ncs_admin_survey_responses_wf_box_8.png)]的降序排序
 
 * 按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕，將記錄數限製為5。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
+  ![記錄計數限制步驟，最大大小設定為5且[完成]按鈕](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
 * 按一下&#x200B;**[!UICONTROL Finish]**，然後重新啟動工作流程以核准鎖定目標。
 

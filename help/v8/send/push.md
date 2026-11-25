@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 7%
+source-wordcount: '1158'
+ht-degree: 6%
 ---
 # 建立和傳送推播通知{#push-notifications-create}
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 若要建立新傳遞，請瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Deliveries]**&#x200B;並按一下現有傳遞清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
-![](assets/delivery_step_1.png)
+![在Campaigns索引標籤中的傳遞清單，其傳遞連結反白顯示，並在Create按鈕上加上箭頭](assets/delivery_step_1.png)
 
 
 依預設，Adobe Campaign隨附兩個傳送範本：一個適用於iOS，一個適用於Android。 您可以複製它們以定義您自己的設定。 根據這些範本設定推播傳送的步驟詳述如下。
@@ -72,19 +72,19 @@ ht-degree: 7%
 
 1. Select **[!UICONTROL Deliver on iOS]**&#x200B;傳遞範本。
 
-   ![](assets/push_ios_1.png)
+   ![傳遞範本清單，在按一下[繼續]之前已選取iOS (ios)傳遞](assets/push_ios_1.png)
 
 1. 若要定義通知的目標，請按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/push_ios_2.png)
+   ![Select目標對話方塊，其中包含訂閱者應用程式對應以及傳遞目標母體中的[新增]按鈕](assets/push_ios_2.png)
 
 1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**，選取與您的行動應用程式相關的服務，然後選取應用程式的iOS版本。
 
-   ![](assets/push_ios_3.png)
+   ![已選取iOS行動應用程式(iPhone、iPad)訂閱者的目標型別步驟](assets/push_ios_3.png)
 
 1. 在&#x200B;**[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;或&#x200B;**[!UICONTROL Silent notification]**&#x200B;之間選擇您的&#x200B;**[!UICONTROL Notification type]**。
 
-   ![](assets/push_ios_4.png)
+   ![通知型別的一般標籤：一般通知（警示、音效、徽章）或無訊息通知](assets/push_ios_4.png)
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ ht-degree: 7%
      >聲音必須包含在應用程式中，並在建立服務時定義。
      >
 
-   ![](assets/push_ios_5.png)
+   ![聲音和徽章索引標籤，含徽章值、清除徽章、嚴重警示模式和聲音名稱設定](assets/push_ios_5.png)
 
 1. 從&#x200B;**[!UICONTROL Application variables]**&#x200B;索引標籤，會自動新增您的&#x200B;**[!UICONTROL Application variables]**。 它們可讓您定義通知行為，例如，您可以設定當使用者啟動通知時顯示的特定應用程式畫面。
 
@@ -127,7 +127,7 @@ ht-degree: 7%
 
    * **[!UICONTROL Category]**：將顯示動作按鈕的類別ID名稱。 這些通知可讓使用者以更快的方式回應通知，執行不同的工作，而不需在應用程式中開啟或導覽。
 
-   ![](assets/push_ios_6.png)
+   ![進階索引標籤，以醒目提示可變內容、執行緒ID和類別欄位](assets/push_ios_6.png)
 
 1. 對於時效性通知，您可以指定下列選項：
 
@@ -147,20 +147,20 @@ ht-degree: 7%
 
    * **[!UICONTROL Relevance score]**：將關聯性分數設定為0到100。 系統會使用此選項來排序通知摘要中的通知。
 
-   ![](assets/push_ios_7.png)
+   ![進階索引標籤，已填入Target內容ID、啟動影像、中斷層級和相關性分數](assets/push_ios_7.png)
 
 1. 設定通知後，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以預覽通知。
 
-   ![](assets/push-ios-preview.png)
+   ![預覽索引標籤，在電話模型顯示iOS推播通知標題和訊息](assets/push-ios-preview.png)
 
 
 >[!TAB Android]
 
 若要在Android裝置上傳送通知，請執行下列步驟：
 
-1. Select **[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
+1. 選取&#x200B;**[!UICONTROL Deliver on Android (android)]**&#x200B;傳遞範本。
 
-   ![](assets/push-template-android.png)
+   ![傳遞範本清單，在按一下[繼續]之前已選取Android (android)上的傳遞](assets/push-template-android.png)
 
    >[!NOTE]
    > 
@@ -169,15 +169,15 @@ ht-degree: 7%
 
 1. 若要定義通知的目標，請按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/push-android-select-target.png)
+   ![Select目標對話方塊，其中包含訂閱者應用程式對應以及Android傳遞的[新增]按鈕](assets/push-android-select-target.png)
 
-1. Select **[!UICONTROL Subscribers of an Android mobile application]**，選擇與您的行動應用程式相關的服務（在此案例中為Neotrips），然後選取應用程式的Android版本。
+1. 選取&#x200B;**[!UICONTROL Subscribers of an Android mobile application]**，選擇與您的行動應用程式相關的服務（在此案例中為Neotrips），然後選取應用程式的Android版本。
 
-   ![](assets/push-android-subscribers.png)
+   ![已選取Android行動應用程式訂閱者的目標型別步驟](assets/push-android-subscribers.png)
 
 1. 然後輸入通知的內容。
 
-   ![](assets/push-android-content.png)
+   ![Android傳遞內容索引標籤，包含訊息型別選項、訊息文字和應用程式變數表格](assets/push-android-content.png)
 
 1. 按一下&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;圖示，將表情符號插入推播通知。
 
@@ -194,9 +194,9 @@ ht-degree: 7%
 
 若要傳送證明並傳送最終傳遞，請使用與其他傳遞相同的程式。
 
-瞭解如何在[此頁面](preview-and-proof.md)中驗證傳遞。
+瞭解如何在[預覽和測試您的電子郵件](preview-and-proof.md)中驗證傳遞。
 
-瞭解如何在[此頁面](send.md)中確認並傳送傳遞
+瞭解如何在[傳送及監視您的電子郵件](send.md)中確認及傳送傳遞
 
-傳送訊息後，您可以監視和追蹤您的傳遞。 在[此頁面](delivery-failures.md#push-error-types)中進一步瞭解推播通知傳送失敗的原因。
+傳送訊息後，您可以監視和追蹤您的傳遞。 深入瞭解[推播通知錯誤型別](delivery-failures.md#push-error-types)中的推播通知傳送失敗原因。
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 1%
+source-wordcount: '1710'
+ht-degree: 0%
 ---
 # 定義網路表單屬性{#defining-web-forms-properties}
 
@@ -39,13 +39,13 @@ ht-degree: 1%
 
 屬性視窗可透過Web表單工具列中的&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕存取。 此視窗可讓您存取網路表單的一系列特定設定。 某些設定可能來自範本設定。
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![網頁應用程式編輯器的[內容]按鈕會開啟表單內容視窗，在工具列上反白顯示](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 整體表單屬性 {#overall-form-properties}
 
 在屬性視窗的&#x200B;**[!UICONTROL General]**&#x200B;標籤中，您可以修改表單的&#x200B;**標籤**。 強烈建議不要變更&#x200B;**內部名稱**。
 
-![](assets/s_ncs_admin_survey_properties_general_tab.png)
+![表單[內容]視窗的[一般]索引標籤，具有[標籤]、[內部名稱]、[性質]、[狀態]、[開始和結束日期]、[存取控制]](assets/s_ncs_admin_survey_properties_general_tab.png)
 
 在建立表單期間選擇表單範本。 之後無法變更。 有關建立和管理表單範本的詳細資訊，請參閱[使用網頁表單範本](using-a-web-form-template.md)。
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 依預設，它會顯示下列資訊：
 
-![](assets/s_ncs_admin_survey_default_error_page.png)
+![顯示預設錯誤訊息的瀏覽器頁面：發生錯誤。 如果此問題持續發生，請連絡您的管理員](assets/s_ncs_admin_survey_default_error_page.png)
 
 顯示的字串內容是在屬性視窗的&#x200B;**[!UICONTROL Error page]**&#x200B;索引標籤中定義。 **[!UICONTROL HTML]**&#x200B;索引標籤會顯示轉譯，而&#x200B;**[!UICONTROL Texts]**&#x200B;索引標籤可讓您修改文字字串並視需要新增一些文字：
 
-![](assets/s_ncs_admin_survey_error_page.png)
+![屬性的錯誤頁面標籤，文字標籤列出錯誤訊息的line1和line2字串](assets/s_ncs_admin_survey_error_page.png)
 
 ## 表單本地化 {#form-localization}
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 您可以選擇透過連結或按鈕導覽。
 
-![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
+![導覽選項：「下一步」按鈕和「下一步」連結，兩種在表單頁面之間移動的方式](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 依預設，按鈕是導覽元素。 它們可讓您執行下列動作：
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 範例演算會顯示在屬性視窗的下方。 **[!UICONTROL Edit link]**&#x200B;圖示可讓您檢視所選主題的設定。
 
-![](assets/s_ncs_admin_survey_properties_render.png)
+![含有「使用」按鈕或「使用」連結的「屬性」的「呈現」索引標籤、「標籤」位置以及含有「編輯」連結圖示的「範本」預覽](assets/s_ncs_admin_survey_properties_render.png)
 
 ## 表單中的標誌 {#logo-in-the-form}
 
@@ -109,15 +109,15 @@ ht-degree: 1%
 
 在網頁應用程式&#x200B;**[!UICONTROL Properties]**&#x200B;內的&#x200B;**[!UICONTROL Rendering]**&#x200B;標籤中，按一下範本的玻璃圖示：
 
-![](assets/logo_glass.png)
+![屬性的[呈現]索引標籤，在[範本]欄位旁有放大鏡圖示以反白顯示範本](assets/logo_glass.png)
 
 在新視窗中，按一下&#x200B;**[!UICONTROL Page layout]**&#x200B;連結：
 
-![](assets/logo_pagelayout.png)
+![醒目提示頁面配置連結的表單產生範本視窗](assets/logo_pagelayout.png)
 
 您可以在此變更標誌影像的路徑：
 
-![](assets/logo_path.png)
+![頁面版面配置視窗，在[標誌]下方的[影像]欄位反白顯示，保留標誌影像的路徑](assets/logo_path.png)
 
 可用的影像位於&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**&#x200B;下。 您可以在這裡新增標誌。
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
 有效期間從&#x200B;**[!UICONTROL Start]**&#x200B;日期到&#x200B;**[!UICONTROL End date]**&#x200B;執行。 如果這些欄位中未指定日期，則表單具有永久有效性。
 
-![](assets/s_ncs_admin_survey_properties_date.png)
+![屬性的[一般]索引標籤，[結束日期]行事曆開啟以選取表單停止有效的日期](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
@@ -153,17 +153,17 @@ ht-degree: 1%
 
 您可以啟用表單顯示的存取控制，例如在內部網路網站上傳送表單時，以驗證使用者。 若要這麼做，請顯示相關表單的&#x200B;**[!UICONTROL Properties]**&#x200B;視窗，然後按一下&#x200B;**[!UICONTROL Enable access control]**&#x200B;選項，如下所示：
 
-![](assets/s_ncs_admin_survey_access_ctrl.png)
+在[存取控制]下選取[啟用存取控制]選項的[內容]的![[一般]索引標籤](assets/s_ncs_admin_survey_access_ctrl.png)
 
 存取頁面時，將會出現以下驗證表單：
 
-![](assets/s_ncs_admin_survey_access_login.png)
+![具有[登入]與[密碼]欄位以及[登入]按鈕的驗證表單，在啟用存取控制時顯示](assets/s_ncs_admin_survey_access_login.png)
 
 登入和密碼為Adobe Campaign操作者所使用的專案。 如需詳細資訊，請參閱[本章節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
 
 **[!UICONTROL Use a specific account]**&#x200B;選項可讓您限制存取表單之操作員的讀取或寫入許可權。 使用下拉式方塊來選取將負責授與這些許可權的運運算元或運運算元群組。
 
-![](assets/s_ncs_admin_survey_access_op_select.png)
+![使用已選取的特定帳戶選項，使用[運運算元]下拉式清單運運算元從](assets/s_ncs_admin_survey_access_op_select.png)中選擇
 
 ## 表單URL引數 {#form-url-parameters}
 
@@ -194,7 +194,7 @@ ht-degree: 1%
 
 可以透過表單屬性視窗中的&#x200B;**[!UICONTROL Parameters...]**&#x200B;索引標籤新增引數。 可以將變數設為必要，如下所示：
 
-![](assets/s_ncs_admin_survey_properties_param.png)
+![列出公司、性別和狀態的引數索引標籤，已核取[必要引數]選項以取得狀態](assets/s_ncs_admin_survey_properties_param.png)
 
 您必須指定擷取引數值的來源儲存位置。 若要這麼做，請選取其中一個儲存體選項，然後按一下&#x200B;**[!UICONTROL Storage]**&#x200B;索引標籤以選取相關欄位或變數。 儲存選項在[回應儲存欄位](web-forms-answers.md#response-storage-fields)中詳細說明。
 
@@ -202,20 +202,20 @@ ht-degree: 1%
 
 1. 客戶的首頁（**狀態=1**）：
 
-   ![](assets/s_ncs_admin_survey_test_client.png)
+   ![表單的使用者端首頁，以URL引數status=1和ID欄位](assets/s_ncs_admin_survey_test_client.png)開啟
 
 1. 潛在客戶首頁（**狀態=0**）：
 
-   ![](assets/s_ncs_admin_survey_test_prospect.png)
+   ![表單的Prospect首頁，開啟時包含URL引數status=0以及名稱、電子郵件和驗證碼欄位](assets/s_ncs_admin_survey_test_prospect.png)
 
 1. 其他設定檔的首頁（例如，**狀態=12**）：
 
-   ![](assets/s_ncs_admin_survey_test_other.png)
+   ![表單的連絡人首頁，以URL引數status=12及名稱、電子郵件和訊息欄位開啟](assets/s_ncs_admin_survey_test_other.png)
 
 若要設定此表單，請建立測試方塊，並將其放在圖表的開頭，如下所示：
 
-![](assets/s_ncs_admin_survey_test.png)
+![表單圖表，其中使用者端/潛在客戶/連絡人測試方塊分支至潛在客戶、使用者端和連絡人首頁](assets/s_ncs_admin_survey_test.png)
 
 測試方塊可讓您設定頁面排序條件：
 
-![](assets/s_ncs_admin_survey_test_box.png)
+![測試方塊對話方塊，其中包含由狀態定義的分支，其中狀態變數是從內容欄位中選取的](assets/s_ncs_admin_survey_test_box.png)

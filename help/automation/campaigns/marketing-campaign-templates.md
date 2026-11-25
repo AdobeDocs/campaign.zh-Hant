@@ -20,10 +20,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 4%
+source-wordcount: '1331'
+ht-degree: 3%
 ---
 # 建立及設定行銷活動範本 {#campaign-templates}
 
@@ -45,32 +45,32 @@ ht-degree: 4%
 1. 開啟Campaign **總管**，並瀏覽至&#x200B;**資源>範本>行銷活動範本**。
 1. 按一下範本清單上方工具列中的&#x200B;**新增**。
 
-![](assets/campaign-template-node.png)
+![行銷活動範本列在「資源>範本」下，工具列中的「新增」按鈕反白顯示。](assets/campaign-template-node.png)
 
 您也可以&#x200B;**複製**&#x200B;內建範本，以重複使用並調整其組態。 若要這麼做，請在範本上按一下滑鼠右鍵，然後選取&#x200B;**複製**。
 
 1. 輸入新行銷活動範本的標籤。
 1. 按一下&#x200B;**儲存**&#x200B;並重新開啟您的範本。
 1. 在&#x200B;**編輯**&#x200B;索引標籤中，定義範本屬性。
-1. 選取&#x200B;**進階行銷活動引數……**&#x200B;連結，以將工作流程新增至行銷活動範本。
+1. Select **進階行銷活動引數……**&#x200B;連結，以將工作流程新增至行銷活動範本。
 
-   ![](assets/campaign-template-parameters.png)
+   ![新行銷活動範本「編輯」索引標籤中反白了進階行銷活動引數連結。](assets/campaign-template-parameters.png)
 
-1. 將&#x200B;**目標定位和工作流程**&#x200B;值變更為&#x200B;**是**，然後確認。 瞭解如何在[本節](#typology-of-enabled-modules)中新增功能。
+1. 將&#x200B;**目標定位和工作流程**&#x200B;值變更為&#x200B;**是**，然後確認。 瞭解如何在[模組型別](#typology-of-enabled-modules)中新增功能。
 1. **目標定位和工作流程**&#x200B;索引標籤已新增至範本。 按一下&#x200B;**新增工作流程……**，輸入&#x200B;**標籤**&#x200B;並按一下&#x200B;**確定**。
 1. 根據您的需求建立工作流程。
 
-   ![](assets/campaign-template-create-wf.png)
+   ![範本的[目標定位]和[工作流程]索引標籤，其工作流程包含[查詢]和[讀取]清單，以傳送電子郵件。](assets/campaign-template-create-wf.png)
 
 1. 按一下「**儲存**」。 您的範本現在已準備好用來建立新的行銷活動。
 
 行銷活動範本的各種標籤和子標籤可讓您存取其設定，如[一般設定](#general-configuration)中所述。
 
-## 選取模組 {#select-modules}
+## Select模組 {#select-modules}
 
-**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結可讓您根據此範本為行銷活動啟用和停用工作。 選取您要在根據此範本建立的行銷活動中啟用的功能。
+**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結可讓您根據此範本為行銷活動啟用和停用工作。 Select提供您要在根據此範本建立的行銷活動中啟用的功能。
 
-![](assets/campaign-template-select-modules.png)
+![進階設定[組態]索引標籤以[是]或[否]值列出每項功能；[費用與目標]為[否]。](assets/campaign-template-select-modules.png)
 
 如果未選取功能，則與流&#39;b5&#39;7b有關的元素（選單、圖示、選項、標籤、子標籤等） 不會顯示在範本的介面或根據此範本的行銷活動中。 行銷活動詳細資訊左側的標籤，以及可用的標籤，與範本中選取的功能一致。 例如，**費用和目標**&#x200B;功能未啟用，根據此範本的行銷活動中不會顯示相對應的&#x200B;**[!UICONTROL Budget]**&#x200B;標籤。
 
@@ -80,44 +80,44 @@ ht-degree: 4%
 
 * 例如，使用下列設定：
 
-  ![](assets/campaign-template-select-functionalities.png)
+  ![進階設定：控制組、種子地址及檔案設定為[是]；核准、目標定位及工作流程設定為[否]](assets/campaign-template-select-functionalities.png)
 
   行銷活動控制面板會顯示：
 
-  ![](assets/campaign-template-dashboard-sample-1.png)
+  &lbrack;只有[儀表板]和[編輯]索引標籤的[行銷活動]儀表板，以及[新增傳遞]和![新增檔案連結。](assets/campaign-template-dashboard-sample-1.png)
 
   請注意，**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤遺失。
 
   下列功能可供使用：
 
-  ![](assets/campaign-template-edit-sample-1.png)
+  ![具有[內容]、[檔案]和[稽核]區段且沒有[預算]區段的行銷活動之[編輯]索引標籤。](assets/campaign-template-edit-sample-1.png)
 
   請注意，**[!UICONTROL Budget]**&#x200B;索引標籤遺失。
 
   行銷活動進階設定也會反映此設定。
 
-  ![](assets/campaign-template-parameters-sample-1.png)
+  ![具有Control population和Seed addresses索引標籤且沒有Approvals索引標籤的Campaign進階設定。](assets/campaign-template-parameters-sample-1.png)
 
   請注意，**[!UICONTROL Approvals]**&#x200B;索引標籤無法使用。
 
 * 使用此設定：
-  ![](assets/campaign-template-dashboard-sample-2.png)
+  ![進階設定：核准、目標定位和工作流程、費用和目標設定為「是」；其他功能否](assets/campaign-template-dashboard-sample-2.png)
 
   行銷活動控制面板會顯示：
 
-  ![](assets/campaign-template-select-functionalities-2.png)
+  ![具有[目標定位]和[工作流程]索引標籤以及[新增傳遞]連結，但沒有[新增檔案]連結的行銷活動儀表板。](assets/campaign-template-select-functionalities-2.png)
 
   請注意，**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤可用，但缺少&#x200B;**新增檔案**&#x200B;連結。
 
   下列功能可供使用：
 
-  ![](assets/campaign-template-edit-sample-2.png)
+  ![編輯標籤，並開啟「預算」區段，顯示相關的預算、目標以及「成本與費用」標籤。](assets/campaign-template-edit-sample-2.png)
 
   請注意，**[!UICONTROL Budget]**&#x200B;索引標籤可供使用。
 
   行銷活動進階設定也會反映此設定。
 
-  ![](assets/campaign-template-parameters-sample-2.png)
+  ![具有[核准]索引標籤和工作驗證的進階設定，且沒有[控制項]填入或[種子地址]索引標籤。](assets/campaign-template-parameters-sample-2.png)
 
   請注意，**[!UICONTROL Approvals]**&#x200B;索引標籤可用，但&#x200B;**[!UICONTROL Control population]**&#x200B;和&#x200B;**[!UICONTROL Seed addresses]**&#x200B;索引標籤未啟用。
 
@@ -126,42 +126,42 @@ ht-degree: 4%
 
 * **控制組**
 
-  選取此模組時，範本的進階設定及根據此範本的行銷活動會新增一個標籤。 可透過範本或為每個行銷活動個別定義設定。 在[本節](marketing-campaign-deliveries.md)中進一步瞭解控制組。
+  選取此模組時，範本的進階設定及根據此範本的行銷活動會新增一個標籤。 可透過範本或為每個行銷活動個別定義設定。 深入瞭解[行銷活動傳遞](marketing-campaign-deliveries.md)中的控制組。
 
-  ![](assets/template-activate-1.png)
+  ![進階設定[控制群組]索引標籤已啟用控制群組選項，且其組態的[編輯]連結。](assets/template-activate-1.png)
 
 
 * **種子地址**
 
   選取此模組時，範本的進階設定及根據此範本的行銷活動會新增一個標籤。 可透過範本或為每個行銷活動個別定義設定。
 
-  ![](assets/template-activate-2.png)
+  ![進階設定種子地址索引標籤，內含匯入種子範本連結和種子地址清單。](assets/template-activate-2.png)
 
 * **檔案**
 
-  選取此模組時，範本的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤及根據此範本的行銷活動會新增一個索引標籤。 可從範本新增附加檔案，或針對每個促銷活動個別新增。 在[本節](marketing-campaign-deliveries.md)中進一步瞭解檔案。
+  選取此模組時，範本的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤及根據此範本的行銷活動會新增一個索引標籤。 可從範本新增附加檔案，或針對每個促銷活動個別新增。 深入瞭解[行銷活動傳遞](marketing-campaign-deliveries.md)中的檔案。
 
-  ![](assets/template-activate-3.png)
+  [編輯]索引標籤的![檔案區段列出附加的檔案，包含[新增]、[刪除]和[詳細資料]按鈕。](assets/template-activate-3.png)
 
 * **傳遞大綱**
 
-  選取此模組時，會將&#x200B;**[!UICONTROL Delivery outlines]**&#x200B;子索引標籤新增至&#x200B;**[!UICONTROL Documents]**&#x200B;索引標籤，以定義行銷活動的傳遞大綱。 在[本節](marketing-campaign-assets.md#delivery-outlines)中進一步瞭解傳遞大綱。
+  選取此模組時，會將&#x200B;**[!UICONTROL Delivery outlines]**&#x200B;子索引標籤新增至&#x200B;**[!UICONTROL Documents]**&#x200B;索引標籤，以定義行銷活動的傳遞大綱。 在[使用傳遞大綱](marketing-campaign-assets.md#delivery-outlines)中進一步瞭解傳遞大綱。
 
-  ![](assets/template-activate-4.png)
+  ![傳遞大綱[檔案]區段的子索引標籤包含[新增傳遞大綱]連結。](assets/template-activate-4.png)
 
 * **目標定位和工作流程**
 
-  選取&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;模組時，會新增索引標籤，讓您根據此範本建立一或多個行銷活動的工作流程。 您也可以根據此範本個別設定每個行銷活動的工作流程。在[本節](marketing-campaign-deliveries.md)中進一步瞭解行銷活動工作流程。
+  選取&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;模組時，會新增索引標籤，讓您根據此範本建立一或多個行銷活動的工作流程。 您也可以根據此範本個別設定每個行銷活動的工作流程。深入瞭解[行銷活動傳遞](marketing-campaign-deliveries.md)中的行銷活動工作流程。
 
-  ![](assets/template-activate-5.png)
+  ![使用工作流程定位和工作流程索引標籤：查詢和讀取清單、重複資料刪除，然後行動傳送。](assets/template-activate-5.png)
 
   啟用此模組時，會將&#x200B;**[!UICONTROL Jobs]**&#x200B;索引標籤新增至行銷活動的進階設定，以定義程式執行順序。
 
 * **核准**
 
-  如果啟用&#x200B;**[!UICONTROL Approvals]**，您可以選取要核准的程式以及負責核准的運運算元。 在[本節](marketing-campaign-approval.md#select-reviewers)中進一步瞭解核准。
+  如果啟用&#x200B;**[!UICONTROL Approvals]**，您可以選取要核准的程式以及負責核准的運運算元。 深入瞭解[Select稽核者](marketing-campaign-approval.md#select-reviewers)的核准。
 
-  ![](assets/template-activate-6.png)
+  ![進階設定[核准]索引標籤已啟用內容、目標、預算和擷取核准，並指派稽核者。](assets/template-activate-6.png)
 
   您可以選擇是否透過&#x200B;**[!UICONTROL Approvals]**&#x200B;索引標籤（範本進階設定區段）啟用程式核准。
 
@@ -169,21 +169,21 @@ ht-degree: 4%
 
   選取此模組時，會根據此範本將&#x200B;**[!UICONTROL Budget]**&#x200B;標籤新增至範本和行銷活動的詳細資訊，以便選取相關預算。
 
-  ![](assets/template-activate-7.png)
+  ![具有相關預算欄位、[目標]及[成本]索引標籤（含成本行）的[編輯]索引標籤的[預算]區段。](assets/template-activate-7.png)
 
 
 ## 範本屬性 {#template-properties}
 
-![](assets/template-op-type.png)
+![已開啟[作業型別]下拉式清單的[行銷活動範本編輯]索引標籤，顯示[唯一]、[週期性]和[定期]。](assets/template-op-type.png)
 
 建立行銷活動範本時，需要輸入下列資訊：
 
 * 輸入範本的&#x200B;**標籤**：標籤是必要的，而且是根據此範本的所有行銷活動的預設標籤。
-* 從下拉式清單中選取行銷活動&#x200B;**性質**。 此清單中可用的值是儲存在&#x200B;**[!UICONTROL natureOp]**&#x200B;列舉中的值。
+* 從下拉式清單Select行銷活動&#x200B;**nature**。 此清單中可用的值是儲存在&#x200B;**[!UICONTROL natureOp]**&#x200B;列舉中的值。
 
-  在[此頁面](../../v8/config/enumerations.md)中瞭解如何存取及設定您的分項清單。
+  瞭解如何在[管理分項清單](../../v8/config/enumerations.md)中存取及設定分項清單。
 
-* 選取行銷活動&#x200B;**的**&#x200B;型別：唯一、循環或定期。 依預設，行銷活動範本適用於不重複行銷活動。 在[此區段](recurring-periodic-campaigns.md)中詳細說明週期性行銷活動和週期性行銷活動。
+* Select促銷活動&#x200B;**的**&#x200B;型別：唯一、循環或定期。 依預設，行銷活動範本適用於不重複行銷活動。 在[建立循環和定期行銷活動](recurring-periodic-campaigns.md)中詳細說明了循環和定期行銷活動。
 * 指定行銷活動的持續時間，即行銷活動將發生的天數。 根據此範本建立行銷活動時，會自動填入行銷活動的開始和結束日期。
 
   如果行銷活動為週期性，您必須直接在範本中指定行銷活動開始和結束日期。

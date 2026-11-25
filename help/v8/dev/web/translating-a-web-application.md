@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 3%
 ---
 # 追蹤網站應用程式{#translating-a-web-application}
 
@@ -36,18 +36,18 @@ ht-degree: 5%
 
 此選項可讓您指定是否必須翻譯區塊內容。
 
-要翻譯的字串收集方式與網頁應用程式的其他字串收集方式相同，是透過應用程式的&#x200B;**[!UICONTROL Translations]**&#x200B;索引標籤進行。 如需詳細資訊，請參閱[此頁面](translating-a-web-form.md)。
+要翻譯的字串收集方式與網頁應用程式的其他字串收集方式相同，是透過應用程式的&#x200B;**[!UICONTROL Translations]**&#x200B;索引標籤進行。 如需詳細資訊，請參閱[翻譯網路表單](translating-a-web-form.md)。
 
 標幟要翻譯的字串：
 
 1. 在Web應用程式中開啟使用DCE編輯的內容頁面。
 
-   ![](assets/dce_translation_3.png)
+   ![網頁應用程式編輯器，其頁面活動在預先載入、頁面、儲存、結束流程中反白顯示](assets/dce_translation_3.png)
 
 1. 選取HTML區塊。
 1. 在右側的引數區塊中，**[!UICONTROL Localization]**&#x200B;選項可讓您標幟所選區塊的內容。 依預設，僅翻譯頁面標題。
 
-   ![](assets/dce_translation_1.png)
+   ![封鎖具有本地化區段的選項，並反白顯示其[翻譯是/否]切換按鈕](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -58,11 +58,11 @@ ht-degree: 5%
    * 當選取的區塊包含數個字串/區塊時，系統會將其標示為單一字串以供翻譯。 然後，字串會包含此區塊內元素的HTML程式碼。
    * 當您想要標幟包含數個字串的區塊時，如果至少其中一個字串已經標幟，則會顯示警告。 然後，您可以從隔離字串中移除標幟，並新增整個區塊。
 
-     ![](assets/dce_translation_4.png)
+     ![群組確認對話方塊已包含2個要轉譯的元素之警告](assets/dce_translation_4.png)
 
    * 當您想要從已標幟的區塊中包含的字串中移除標幟時，無法直接修改字串轉譯選項。 不過，您可以存取包含字串的區塊以進行變更。
 
-     ![](assets/dce_translation_2.png)
+     ![本地化區段警告，指出元素已在要翻譯的區塊中，並附有Select區塊按鈕](assets/dce_translation_2.png)
 
 1. 完成標幟字串後，請返回Web應用程式並選取&#x200B;**[!UICONTROL Translations]**&#x200B;標籤。
 1. 選取 **[!UICONTROL Collect the strings to translate]**。 在DCE中標幟的字串會新增至Web應用程式的字串。

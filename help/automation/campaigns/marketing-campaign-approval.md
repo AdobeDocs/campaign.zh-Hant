@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2636'
 ht-degree: 1%
 ---
 # 設定及管理核准流程 {#approval-marketing-campaigns}
@@ -51,25 +51,25 @@ ht-degree: 1%
 操作員可透過數種方式核准：
 
 * 來自通知訊息。 電子郵件中的連結會透過網頁瀏覽器將運運算元傳送至Campaign。 連線之後，檢閱者可以選擇核准或不核准內容。
-  ![](assets/approval-content-email.png)
+  ![內容核准通知電子郵件，其中包含核准或拒絕傳遞內容連結與傳遞詳細資料。](assets/approval-content-email.png)
 
 * 從行銷活動控制面板。
-  ![](assets/approval-from-dashboard.png)
+  ![使用者端主控台中的Campaign儀表板，其核准功能表已開啟，且核准目標定位選項已反白顯示。](assets/approval-from-dashboard.png)
 
 * 從傳遞控制面板。
-  ![](assets/approval-from-delivery-dashboard.png)
+  ![傳遞儀表板，其核准功能表已開啟，列出提交內容、核准目標定位及核准預算。](assets/approval-from-delivery-dashboard.png)
 
 操作員可以從核准視窗存取行銷活動和傳遞。 他們也可以輸入註解。
 
-![](assets/approval-target-confirm.png)
+![傳遞視窗上的動作，包含[接受]或[拒絕]選項、[註解]欄位和[目標]核准按鈕。](assets/approval-target-confirm.png)
 
 操作員驗證後，資訊會顯示在行銷活動和傳遞控制面板以及記錄中。
 
-![](assets/approvals-from-delivery.png)
+![傳遞儀表板核准區段顯示目標已核准和要核准的預算及其截止日期。](assets/approvals-from-delivery.png)
 
 此資訊也可在傳送的核准記錄檔和行銷活動的核准日誌中取得。 這些記錄檔是透過&#x200B;**[!UICONTROL Edit > Audit > Approvals]**&#x200B;索引標籤進行存取。
 
-![](assets/approval-logs.png)
+![傳遞稽核核准索引標籤，具有核准截止日期排程以及目標定位的核准記錄專案。](assets/approval-logs.png)
 
 
 ## 啟用核准{#enable-approvals}
@@ -84,24 +84,24 @@ ht-degree: 1%
 
 在下列範例中，傳遞內容不需要核准：
 
-![](assets/approval-not-enabled.png)
+![目標與預算核准已啟用時，傳遞屬性[核准]索引標籤的[啟用內容核准]已清除。](assets/approval-not-enabled.png)
 
 
 >[!CAUTION]
 >
 >檢查檢閱者是否具有核准的&#x200B;**適當許可權**，以及其安全區域是否已正確定義。 [了解更多資訊](#selecting-reviewers)。
 
-傳遞的核准程式在[本節](#review-and-approve-deliveries)中有詳細說明。
+傳遞的核准程式在[檢閱及核准傳遞](#review-and-approve-deliveries)中詳細說明。
 
-## 選取檢閱者 {#select-reviewers}
+## Select檢閱者 {#select-reviewers}
 
 對於每種核准型別，會從傳送的下拉式清單中選取負責核准的運運算元或運運算元群組。 可使用&#x200B;**[!UICONTROL Edit...]**&#x200B;連結新增更多運運算元。 此視窗也可讓您編輯核准期限。 依預設，稽核者從提交日期起有三天可核准程式。 若要新增自動提醒，請使用&#x200B;**[!UICONTROL Add a reminder]**&#x200B;連結。
 
-![](assets/add-reviewers.png)
+![進階設定[核准]索引標籤和[編輯檢閱者]視窗，其中包含其他檢閱者、延遲和新增提醒。](assets/add-reviewers.png)
 
 如果未指定稽核者，則行銷活動擁有者會負責核准並接收通知。 行銷活動擁有者在行銷活動的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;索引標籤中指定：
 
-![](assets/campaign-owner.png)
+![反白顯示「行銷活動編輯」索引標籤的「指派至」欄位，以設定行銷活動所有者。](assets/campaign-owner.png)
 
 其他所有具有&#x200B;**[!UICONTROL Administrator]**&#x200B;許可權的Adobe Campaign運運算元也可以核准工作，但他們不會收到通知。
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 如果已定義稽核者清單，當稽核者核准某個工作時，就會核准該工作。 行銷活動和傳遞控制面板中不再提供核准連結。 啟用通知傳送後，如果其他複查者按一下通知訊息中的核准連結，就會通知他們其他操作員已核准該工作。
 
-![](assets/delivery-target-already-approved.png)
+![確認傳遞目標定位已由其他操作員核准的通知電子郵件。](assets/delivery-target-already-approved.png)
 
 
 ## 檢閱及核准傳遞 {#review-and-approve-deliveries}
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 需要核准的階段會出現在行銷活動控制面板上（透過使用者端主控台或網頁介面）。 它們也會出現在傳送追蹤表格和傳送控制面板上。
 
-![](assets/delivery-approval-actions.png)
+![傳遞摘要及核准功能表列出提交內容、核准目標及核准預算。](assets/delivery-approval-actions.png)
 
 對於行銷活動中的每個傳遞，您可以核准下列流程：
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
   在核准設定視窗中選取&#x200B;**[!UICONTROL Enable target approval]**、**[!UICONTROL Enable content approval]**&#x200B;或&#x200B;**[!UICONTROL Enable budget approval]**&#x200B;選項時，相關連結會顯示在行銷活動和傳遞控制面板中。
 
-  ![](assets/template-activate-6.png)
+  ![進階設定[核准]索引標籤，包含[啟用內容]、[目標]、[預算]和[擷取]核准選項及其稽核者。](assets/template-activate-6.png)
 
   >[!NOTE]
   >
@@ -156,7 +156,7 @@ ht-degree: 1%
 
   **[!UICONTROL Approve file]**&#x200B;選項適用於行銷活動和傳遞控制面板。
 
-  ![](assets/approve-file-preview.png)
+  ![具有[核准檔案]按鈕的Web傳遞頁面，以及[傳遞時動作]視窗以接受或拒絕檔案。](assets/approve-file-preview.png)
 
   您可以在驗證之前預覽輸出檔案。 擷取檔案預覽只會顯示資料範例。 未載入整個檔案。
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
   **[!UICONTROL Enable individual approval of each associated delivery]**&#x200B;選項用於與次要傳遞相關的主要傳遞。 依預設，不會選取此選項，因此可以執行主要傳送的整體核准。 如果選取此選項，則必須個別核准每個傳遞。
 
-  ![](assets/enable-ind-approval.png)
+  ![進階設定[核准]索引標籤，其啟用每個所選關聯傳遞的個別核准。](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -252,20 +252,20 @@ ht-degree: 1%
 
 1. 選取 **[!UICONTROL Approve targeting]**。
 
-![](assets/target-validation-from-console.png)
+![已開啟核准下拉式清單的行銷活動控制面板，以及[核准內容]和[核准目標]選項。](assets/target-validation-from-console.png)
 
 1. 在快顯視窗中，檢查要核准的資訊。
-1. 選取&#x200B;**[!UICONTROL Accept]**&#x200B;或&#x200B;**[!UICONTROL Reject]**，並視需要輸入註解。 此註解會顯示在驗證記錄檔中。
+1. Select **[!UICONTROL Accept]**&#x200B;或&#x200B;**[!UICONTROL Reject]**，並視需要輸入註解。 此註解會顯示在驗證記錄檔中。
 1. 使用&#x200B;**[!UICONTROL Target approval]**&#x200B;按鈕確認您的選擇。
 
-![](assets/confirm-validation-from-console.png)
+![已選取[接受]的傳遞視窗動作、已輸入註解，且已反白顯示[目標核准]按鈕。](assets/confirm-validation-from-console.png)
 
 
 如果某個程式已由另一個操作員核准，則無法使用核准連結。
 
 如果處理遭到拒絕，則會在傳遞控制面板中顯示資訊，如下所示：
 
-![](assets/target-approval-rejected.png)
+![顯示目標核准的傳遞儀表板遭到拒絕，且核准目標定位按鈕和目標定位遭到拒絕狀態。](assets/target-approval-rejected.png)
 
 
 ### 從通知訊息核准 {#approval-via-notification-messages}
@@ -275,7 +275,7 @@ ht-degree: 1%
 1. 按一下通知中的連結。
 1. 登入Adobe Campaign。
 1. 檢查要核准的資訊
-1. 選取&#x200B;**[!UICONTROL Accept]**&#x200B;或&#x200B;**[!UICONTROL Reject]**，並視需要輸入註解。
+1. Select **[!UICONTROL Accept]**&#x200B;或&#x200B;**[!UICONTROL Reject]**，並視需要輸入註解。
 1. 驗證。 您的選擇和註解會顯示在驗證記錄中。
 
 >[!NOTE]
@@ -288,19 +288,19 @@ ht-degree: 1%
 
 * 在行銷活動核准記錄中，**[!UICONTROL Edit > Audit]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Approvals]**&#x200B;子索引標籤：
 
-  ![](assets/approval-tracking-from-campaign.png)
+  ![行銷活動編輯>稽核>核准子索引標籤列出具有傳遞、動作、型別和核准者的核准日誌。](assets/approval-tracking-from-campaign.png)
 
 * 在行銷活動傳遞記錄中，**[!UICONTROL Edit > Audit]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Deliveries]**&#x200B;子索引標籤：
 
-  ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![行銷活動編輯>稽核>傳遞子索引標籤會列出每個傳遞及其目標定位和內容狀態。](assets/approval-tracking-from-campaign-deliveries.png)
 
 * 按一下&#x200B;**[!UICONTROL Summary]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Hide/display logs]**&#x200B;選項，即可檢視每個傳遞的核准狀態。
 
-  ![](assets/approval-tracking-delivery-dashboard.png)
+  ![傳遞摘要索引標籤，其隱藏/顯示記錄檔連結已反白顯示，且核准記錄檔顯示於核准下方。](assets/approval-tracking-delivery-dashboard.png)
 
 * 也可以透過每個傳遞的&#x200B;**[!UICONTROL Audit > Approvals]**&#x200B;索引標籤存取此資訊：
 
-  ![](assets/approval-tracking-delivery-tab.png)
+  ![傳遞稽核>核准索引標籤列出核准記錄，包含日期、動作、型別、核准者及註解。](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >
@@ -312,7 +312,7 @@ ht-degree: 1%
 
 若要選擇核准模式（手動或自動），請按一下行銷活動或行銷活動範本的&#x200B;**[!UICONTROL Edit > Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**，最後按一下&#x200B;**[!UICONTROL Approvals]**&#x200B;標籤。
 par
-![](assets/approval-mode.png)
+![進階設定[核准]索引標籤的[核准模式]下拉式清單已開啟，顯示[自動]和[手動]。](assets/approval-mode.png)
 
 >[!NOTE]
 >
@@ -338,7 +338,7 @@ par
 
 若要這麼做，請編輯行銷活動或行銷活動範本的核准期間（ **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]**&#x200B;標籤）並選取&#x200B;**[!UICONTROL Do not enable notification sending]**。
 
-![](assets/enable-disable-notifications.png)
+![進階設定[核准]索引標籤中選取了[不啟用通知傳送]。](assets/enable-disable-notifications.png)
 
 ### 通知內容 {#notification-content}
 

@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 2%
+source-wordcount: '1298'
+ht-degree: 1%
 ---
 # 表單轉譯{#form-rendering}
 
@@ -39,17 +39,17 @@ ht-degree: 2%
 
 表單設定可讓您選取用來產生頁面的範本。 若要存取它們，請按一下表單詳細資料工具列中的&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Rendering]**&#x200B;標籤。 預設有許多範本（樣式表）可供使用。
 
-![](assets/s_ncs_admin_survey_rendering_select.png)
+![表單屬性轉譯索引標籤，範本清單已開啟，顯示標準表單和主題1到主題7。](assets/s_ncs_admin_survey_rendering_select.png)
 
 編輯器的底部區段可讓您檢視所選範本的轉譯。
 
 縮放功能可讓您編輯選取的範本。
 
-![](assets/s_ncs_admin_survey_render_edit.png)
+![表單產生範本主題5對話方塊，其中包含頁面配置連結和CSS設定。](assets/s_ncs_admin_survey_render_edit.png)
 
 您可以修改或覆寫這些範本。 若要這麼做，請按一下&#x200B;**[!UICONTROL Page layout...]**&#x200B;連結並個人化資訊。
 
-![](assets/s_ncs_admin_survey_render_edit_param.png)
+![頁面配置對話方塊，[屬性]索引標籤，含標誌影像、寬度和高度，以及預覽影像路徑。](assets/s_ncs_admin_survey_render_edit_param.png)
 
 您可以：
 
@@ -58,19 +58,19 @@ ht-degree: 2%
 
 **[!UICONTROL Headers/Footers]**&#x200B;索引標籤可讓您使用此範本變更顯示在每個表單頁面頁首和頁尾的資訊。
 
-![](assets/s_ncs_admin_survey_render_edit_header.png)
+![頁面配置對話方塊，[頁首/頁尾]索引標籤，包含[頁首]和[頁尾]行及[位置]欄位。](assets/s_ncs_admin_survey_render_edit_header.png)
 
 **[!UICONTROL Page headers]**&#x200B;和&#x200B;**[!UICONTROL Page footers]**&#x200B;區段的每一行都對應至HTML頁面中的一行。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以建立新行。
 
 選取現有的行，然後按一下&#x200B;**[!UICONTROL Detail]**&#x200B;按鈕以個人化它。
 
-![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![頁面標題詳細資訊對話方塊，包含頁面配置、框線與字型標籤，以及左右區域內容。](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 您可以透過相關標籤變更線條內容、新增框線以及變更字型屬性。 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以確認這些變更。
 
 **[!UICONTROL Position]**&#x200B;欄位可讓您定義頁首與頁尾中的元素位置。
 
-![](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![頁首/頁尾索引標籤，頁首和頁尾的位置清單為隱藏、頁面外、頁面中。](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 若要這麼做，請使用&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤。
 
-![](assets/s_ncs_admin_survey_advanced_tab.png)
+![表單元素的進階索引標籤，具有顯示設定，例如儲存格數目和垂直對齊。](assets/s_ncs_admin_survey_advanced_tab.png)
 
 它可讓您定義下列屬性：
 
@@ -98,15 +98,15 @@ ht-degree: 2%
 * **[!UICONTROL Lines]**： **[!UICONTROL Multi-line text]**&#x200B;型別區域的行數，
 * **[!UICONTROL Style inline]**：可讓您使用其他設定多載CSS樣式表。 這些使用&#x200B;**；**&#x200B;個字元分隔，如下列範例所示：
 
-  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![進階索引標籤，其Style內嵌值設定為font-size：16pt； background： blue.](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### 定義頁首和頁尾 {#defining-headers-and-footers}
 
-欄位會以樹狀結構排序，其根目錄與頁面同名。 選取它以修改名稱。
+欄位會以樹狀結構排序，其根目錄與頁面同名。 使用Select來修改名稱。
 
 視窗的標題必須在表單屬性視窗的&#x200B;**[!UICONTROL Page]**&#x200B;索引標籤中輸入。 您也可以新增一組內容至頁首與頁尾（此資訊會顯示在每個頁面上）。 此內容是在&#x200B;**[!UICONTROL Texts]**&#x200B;標籤的相符區段中輸入，如下所示：
 
-![](assets/s_ncs_admin_survey_titles_config.png)
+![含有視窗標題、頁首和頁尾內容的表單屬性頁面索引標籤。](assets/s_ncs_admin_survey_titles_config.png)
 
 ### 將元素新增至HTML標題 {#adding-elements-to-html-header}
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 例如，這可讓您參照將顯示在頁面標題列中的圖示。
 
-![](assets/webform_header_page_tab.png)
+![Page Header索引標籤包含新增至HTML標題的捷徑圖示連結元素。](assets/webform_header_page_tab.png)
 
 ## 定義控制設定 {#defining-control-settings}
 
@@ -124,19 +124,19 @@ ht-degree: 2%
 
 若要將某些欄位設為必要欄位，請在建立欄位時選取此選項。
 
-![](assets/s_ncs_admin_survey_required_field.png)
+![欄位一般索引標籤，已針對[姓氏]欄位核取[必填]選項。](assets/s_ncs_admin_survey_required_field.png)
 
 如果使用者未輸入欄位即核准此頁面，將會顯示下列訊息：
 
-![](assets/s_ncs_admin_survey_required_default_msg.png)
+![顯示預設錯誤訊息的表單頁面「姓氏」欄位是必填欄位，空白欄位會反白顯示。](assets/s_ncs_admin_survey_required_default_msg.png)
 
 您可以按一下&#x200B;**[!UICONTROL Personalize this message]**&#x200B;連結，以個人化此郵件。
 
-![](assets/s_ncs_admin_survey_required_custom_msg.png)
+![訊息個人化對話方塊開啟，透過空白必要欄位的自訂文字個人化訊息。](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 如果使用者未輸入欄位即核准此頁面，將會顯示下列訊息：
 
-![](assets/s_ncs_admin_survey_required_custom_msg2.png)
+![表單頁面，在反白顯示的空白欄位上方顯示自訂「必要欄位」訊息。](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
 ### 檢查資料格式 {#checking-data-format}
 
@@ -146,7 +146,7 @@ ht-degree: 2%
 
 例如，如果您建立&#x200B;**[!UICONTROL Number]**&#x200B;檢查以儲存使用者端號碼，如下所示：
 
-![](assets/s_ncs_admin_survey_choose_format.png)
+![Number型別欄位將其值儲存在使用者端變數中，且[儲存]和[編輯分支]對話方塊顯示Integer型別。](assets/s_ncs_admin_survey_choose_format.png)
 
 使用者必須在表單欄位中輸入整數。
 
@@ -156,13 +156,13 @@ ht-degree: 2%
 
 針對頁面的每個元素，**[!UICONTROL Visibility]**&#x200B;區段可讓您定義顯示條件。
 
-![](assets/s_ncs_admin_survey_condition_edit.png)
+![容器的[一般]索引標籤，其可見度編輯連結會開啟[可見度條件]對話方塊。](assets/s_ncs_admin_survey_condition_edit.png)
 
 條件可能涉及資料庫欄位或變數的值。
 
 在欄位選取視窗中，您可以從下列資料中選擇：
 
-![](assets/s_ncs_admin_survey_condition_select.png)
+![Select欄位對話方塊，其中顯示具有識別碼、語言、來源、收件者和變數的內容樹狀結構。](assets/s_ncs_admin_survey_condition_select.png)
 
 * 主樹狀結構包含表單內容的引數。 預設引數為識別碼（符合收件者的加密識別碼）、語言和來源。
 
@@ -186,11 +186,11 @@ ht-degree: 2%
 
 1. 編輯您要插入一或多個元素的頁面，然後按一下工具列中的&#x200B;**[!UICONTROL Import an existing block]**。
 
-   ![](assets/s_ncs_admin_survey_import_block.png)
+   ![頁面編輯器工具列上反白顯示[匯入現有區塊]按鈕。](assets/s_ncs_admin_survey_import_block.png)
 
 1. 選取包含要匯入欄位的Web表單，然後選擇要匯入的容器和欄位。
 
-   ![](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![使用來源Web應用程式匯入現有的區塊對話方塊，以及已檢查要匯入的區塊。](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -198,4 +198,4 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以確認插入。
 
-   ![](assets/s_ncs_admin_survey_import_block_rendering.png)
+   匯入後![頁面樹狀結構，現在包含姓氏、國家/地區、帳號#和電子郵件欄位。](assets/s_ncs_admin_survey_import_block_rendering.png)

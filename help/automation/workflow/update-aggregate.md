@@ -30,25 +30,25 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 3%
+source-wordcount: '143'
+ht-degree: 2%
 ---
 # 更新彙總{#update-aggregate}
 
 [多維度資料集](../../v8/reporting/gs-cubes.md)中定義用於報告的彙總可隨特定活動更新。 設定彙總時可使用&#x200B;**[!UICONTROL Workflow]**&#x200B;標籤。
 
-在[本節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)中進一步瞭解多維度資料集與彙總。
+深入瞭解[立方結構中彙總](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)的立方結構和彙總。
 
 若要更新彙總，請編輯&#x200B;**[!UICONTROL Update aggregate]**&#x200B;活動並選取要更新的Cube和彙總。
 
 您可以設定&#x200B;**完整更新**&#x200B;或&#x200B;**部分更新**。
 
-![](assets/update-aggregate-details.png)
+![使用Cube和Aggregate欄位以及Full update或Partial更新選項更新彙總活動。](assets/update-aggregate-details.png)
 
 依預設，每次計算期間都會執行完整更新。 若要啟用部分更新，請選取選項並定義更新條件。
 
-![](assets/update-aggregate-partial.png)
+![正在編輯更新條件視窗，其中在建立日期時，會在目前日期減去1個月之後使用篩選器。](assets/update-aggregate-partial.png)
 
 良好的作法是新增&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動以設定計算更新的頻率。

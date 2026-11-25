@@ -27,9 +27,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1915'
 ht-degree: 1%
 ---
 # 查詢{#query}
@@ -39,9 +39,9 @@ ht-degree: 1%
 ## 建立查詢 {#creating-a-query}
 
 查詢可讓您根據條件選取目標。 您可以將區段代碼與查詢結果相關聯，並插入其他資料。
-透過[本節](querying-recipient-table.md)中的使用案例瞭解如何建立查詢。 另請參閱有關[查詢編輯器](../../v8/start/query-editor.md)的章節。
+瞭解如何透過[查詢收件者資料表](querying-recipient-table.md)中的使用案例建立查詢。 另請參閱有關[查詢編輯器](../../v8/start/query-editor.md)的章節。
 
-![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
+![包含[編輯查詢]、[新增資料]、[編輯其他資料]和[結果標籤]及[區段代碼]欄位的[查詢活動]對話方塊。](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 **[!UICONTROL Edit query...]**&#x200B;連結可讓您以下列方式定義母體的目標定位型別、限制和選取條件：
 
-1. 選取目標定位和篩選維度。 預設情況下，會從收件者中選取目標。 限制篩選器的清單與用於傳送目標定位的清單相同。
+1. Select目標定位和篩選維度。 預設情況下，會從收件者中選取目標。 限制篩選器的清單與用於傳送目標定位的清單相同。
 
    目標維度與我們正在處理的元素型別一致，例如作業所定位的母體。
 
@@ -57,15 +57,15 @@ ht-degree: 1%
 
    如需詳細資訊，請參閱[目標定位和篩選維度](targeting-workflows.md#targeting-and-filtering-dimensions)。
 
-   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
+   ![將收件者作為目標維度，並將收件者作為篩選維度的「目標定位和篩選」維度步驟。](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    如有需要，可在選擇目標定位和篩選維度時選取&#x200B;**[!UICONTROL Temporary schema]**，以入站轉變的資料為基礎進行查詢。
 
-   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
+   ![已選取「暫存結構描述」選項且已選取結構描述查詢A的目標定位和篩選維度步驟。](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 使用精靈定義母體。 要輸入的欄位可能會因目標型別而異。 您可以使用&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤，以您目前的條件預覽目標母體。
 
-   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
+   ![包含資料夾、傳遞和選取為條件的資訊服務以及[預覽]索引標籤的[查詢篩選]步驟。](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果您已在步驟1或使用&#x200B;**[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**&#x200B;選項選取&#x200B;**[!UICONTROL Filtering conditions]**，則您稍後必須手動新增篩選條件。
 
@@ -81,31 +81,31 @@ ht-degree: 1%
 
 **[!UICONTROL Add data...]**&#x200B;連結可讓您選取要收集的其他資料。
 
-![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
+![查詢活動對話方塊，在補充資訊區段中反白顯示新增資料連結。](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 首先，選取要新增的資料型別：
 
-![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
+![其他資料精靈，其選項資料連結至篩選維度、外部資料和優惠方案主張。](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
-* 選取&#x200B;**[!UICONTROL Data linked to the filtering dimension]**&#x200B;以選取Adobe Campaign資料庫中的資料。
-* 選取&#x200B;**[!UICONTROL External data]**&#x200B;以從外部資料庫新增資料。 只有您已購買&#x200B;**同盟資料存取**&#x200B;選項時，才能使用此選項。 如需詳細資訊，請參閱[存取外部資料庫(FDA)](accessing-an-external-database-fda.md)。
-* 選取&#x200B;**[!UICONTROL An offer proposition]**&#x200B;選項以新增一組欄，讓您儲存優惠方案引擎產生的最佳主張。 只有您已購買&#x200B;**互動**&#x200B;模組時，才能使用此選項。
+* Select **[!UICONTROL Data linked to the filtering dimension]**&#x200B;以選取Adobe Campaign資料庫中的資料。
+* Select **[!UICONTROL External data]**&#x200B;從外部資料庫新增資料。 只有您已購買&#x200B;**同盟資料存取**&#x200B;選項時，才能使用此選項。 如需詳細資訊，請參閱[存取外部資料庫(FDA)](accessing-an-external-database-fda.md)。
+* Select這個&#x200B;**[!UICONTROL An offer proposition]**&#x200B;選項可新增一組欄，讓您儲存優惠方案引擎產生的最佳主張。 只有您已購買&#x200B;**互動**&#x200B;模組時，才能使用此選項。
 
 如果平台上未安裝選用模組，則此階段不會顯示。 您將直接進入下一個階段。
 
 若要從Adobe Campaign資料庫新增資料：
 
-1. 選取您要新增的資料型別。 這可以是屬於篩選維度的資料，或是儲存在連結表格中的資料。
+1. Select您要新增的資料型別。 這可以是屬於篩選維度的資料，或是儲存在連結表格中的資料。
 
-   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
+   ![Select欄位以新增步驟，其中包含已選取篩選維度的資料以及連結至篩選維度的資料。](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果資料屬於查詢的篩選維度，只需在可用欄位清單中選取該資料，即可在輸出欄中顯示該資料。
 
-   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
+   ![要新增步驟的資料，其中列出收件者欄位作為可用欄位和選取的輸出欄，包括「公司」。](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    您可以新增：
 
-   * 根據從目標母體或彙總（上個月內未決購買的次數、收款的平均金額等）中取得的資料計算出的欄位。 例如，移至[選取資料](targeting-workflows.md)。
+   * 根據從目標母體或彙總（上個月內未決購買的次數、收款的平均金額等）中取得的資料計算出的欄位。 例如，前往[Select資料](targeting-workflows.md)。
    * 新欄位，使用輸出欄清單右側的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕建立。
 
      您也可以新增資訊集合，例如合約清單、最近5次傳遞等。集合與相同設定檔可以有多個值的欄位一致（1-N關係）。 如需詳細資訊，請參閱[編輯其他資料](targeting-workflows.md#edit-additional-data)。
@@ -113,9 +113,9 @@ ht-degree: 1%
 若要新增連結至目標母體的資訊集合：
 
 1. 在精靈的第一步，選取&#x200B;**[!UICONTROL Data linked to the filtering dimension]**&#x200B;選項：
-1. 選取包含您要收集之資訊的資料表，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. Select包含您要收集之資訊的表格，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
+   ![Select欄位以新增步驟，其中資料連結至選取的篩選維度，以及連結資料表的樹狀結構。](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 必要時，請在&#x200B;**[!UICONTROL Data collected]**&#x200B;欄位中選取其中一個值，以指定要保留的集合元素數目。 依預設，會復原集合的所有行，然後根據下列步驟指定的條件進行篩選。
 
@@ -130,11 +130,11 @@ ht-degree: 1%
    * 如果您選擇復原數行(**[!UICONTROL Limit the line count]**)，則可以指定要收集的行數。
    * 如果收集的欄包含彙總，例如宣告的失敗次數、網站上的平均費用性列管等。您可以使用&#x200B;**[!UICONTROL Aggregates]**&#x200B;值。
 
-   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
+   ![開啟資料收集清單的一般引數步驟：所有列、限制行數、彙總、合併。](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. 指定集合的子選取專案。
 
-   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
+   ![條件標籤的集合篩選步驟，包含指定日期之後的優惠方案與建立日期。](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. 如果您已選取&#x200B;**[!UICONTROL Limit the line count]**&#x200B;選項，請定義篩選所收集資料的順序。 一旦收集的行數超過您指定要保留的行數時，篩選順序可讓您指定要保留的行。
 
@@ -144,10 +144,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->其他查詢範例出現在[此區段](querying-recipient-table.md)中。
+>在[查詢收件者資料表](querying-recipient-table.md)中會顯示其他查詢範例。
 
 1. 為查詢命名，然後選取&#x200B;**[!UICONTROL Edit query...]**&#x200B;連結。
-1. 在可用的篩選器型別清單中選取&#x200B;**[!UICONTROL Filtering conditions]**。
+1. 可用篩選器型別清單中的Select **[!UICONTROL Filtering conditions]**。
 1. 為建議的目標輸入不同的條件。 這裡的條件使用AND選項結合。 收件者必須符合下列四個條件，才能納入選取範圍：
 
    * 標題為「先生」的收件者（也可使用&#x200B;**性別**&#x200B;欄位並選取&#x200B;**男性**&#x200B;作為值來找到）。
@@ -155,20 +155,20 @@ ht-degree: 1%
    * 18歲以上的收件者。
    * 住在法國的收件者。
 
-   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
+   ![性別等於男性、年齡從18到30歲且美國地區等於西部的查詢篩選器。](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    您可以檢視符合條件組合的SQL：
 
-   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
+   ![根據性別、年齡和地區的篩選條件產生的原生SQL查詢。](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. 您可以在相關索引標籤中預覽符合您查詢的收件者，以檢查條件是否正確：
 
-   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
+   ![查詢的預覽索引標籤列出三個相符的收件者，計數3個。](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. 儲存您的篩選器，以便日後按一下&#x200B;**[!UICONTROL Finish]** > **[!UICONTROL OK]**&#x200B;再次使用。
 1. 新增其他活動以繼續編輯工作流程。 一旦啟動且完成先前的查詢步驟後，就會顯示找到的收件者數目。 您可以使用滑鼠快顯功能表顯示進一步的詳細資訊（以滑鼠右鍵按一下轉變> **[!UICONTROL Display the target...]**）。
 
-   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
+   ![工作流程查詢活動，其外站轉變標示為3 — 顯示找到的收件者數目結果。](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## 輸出引數 {#output-parameters}
 
@@ -208,7 +208,7 @@ ht-degree: 1%
 
 使用查詢的篩選維度，而非使用「存在方式」運運算元。
 
-![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
+![使用收件者傳遞記錄(broadLog)篩選條件，例如，內部名稱等於傳遞。](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 在查詢中，篩選器中的「存在（例如）」條件無效。 它們等同於SQL中的子查詢：
 
@@ -216,13 +216,13 @@ ht-degree: 1%
 
 最佳實務建議改用查詢的篩選維度：
 
-![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
+![將篩選維度設定為收件者傳遞記錄檔的目標維度收件者。](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 SQL中篩選維度的對等項是內部聯結：
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-如需篩選維度的詳細資訊，請參閱[本節](build-a-workflow.md)。
+如需篩選維度的詳細資訊，請參閱[建立工作流程](build-a-workflow.md)。
 
 ### 架構 {#architecture}
 

@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 4%
+source-wordcount: '1151'
+ht-degree: 2%
 ---
 # 建立協作行銷活動{#creating-a-collaborative-campaign-intro}
 
 
 
-中央實體會從&#x200B;**分散式行銷**&#x200B;行銷活動範本建立合作行銷活動。 請參見[此頁面](about-distributed-marketing.md)。
+中央實體會從&#x200B;**分散式行銷**&#x200B;行銷活動範本建立合作行銷活動。 請參閱[開始使用分散式行銷](about-distributed-marketing.md)。
 
 ## 建立協作行銷活動 {#creating-a-collaborative-campaign}
 
@@ -48,23 +48,23 @@ ht-degree: 4%
 
 若要建立合作行銷活動（依表單），必須選取&#x200B;**[!UICONTROL Collaborative campaign (by form)]**&#x200B;範本。
 
-![](assets/mkg_dist_mutual_op_form2.png)
+![已選取合作行銷活動（依表單）範本的新行銷活動對話方塊。](assets/mkg_dist_mutual_op_form2.png)
 
 在&#x200B;**[!UICONTROL Edit]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結以存取&#x200B;**分散式行銷**&#x200B;標籤。
 
-選取&#x200B;**By form**&#x200B;網頁介面。 此型別的介面可讓您建立個人化欄位，本機實體在訂購行銷活動時會使用這些欄位。 請參閱[建立本機行銷活動（依表單）](examples.md#creating-a-local-campaign--by-form-)。
+Select **By表單**&#x200B;網頁介面。 此型別的介面可讓您建立個人化欄位，本機實體在訂購行銷活動時會使用這些欄位。 請參閱[建立本機行銷活動（依表單）](examples.md#creating-a-local-campaign--by-form-)。
 
 儲存您的行銷活動。 您現在可以從&#x200B;**行銷活動**&#x200B;索引標籤中的&#x200B;**行銷活動套件**&#x200B;檢視，按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕來使用它。
 
 **[!UICONTROL Campaign Package]**&#x200B;檢視可讓您使用本機行銷活動範本（現成或重複），以及合作行銷活動的參考行銷活動，目標是為您不同的組織實體建立行銷活動。
 
-![](assets/mkg_dist_mutual_op_form1b.png)
+![已開啟套件建立對話方塊和參考行銷活動下拉式清單的行銷活動套件清單。](assets/mkg_dist_mutual_op_form1b.png)
 
 ### 依行銷活動 {#by-campaign}
 
 若要建立合作行銷活動（依行銷活動），必須選取&#x200B;**[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]**&#x200B;範本。
 
-![](assets/mkg_dist_mutual_op_by_op2.png)
+![已選取合作行銷活動（依行銷活動）範本的新行銷活動對話方塊。](assets/mkg_dist_mutual_op_by_op2.png)
 
 訂購行銷活動時，本機實體可完成中央實體預先定義的條件，並在訂購行銷活動之前評估行銷活動。
 
@@ -78,13 +78,13 @@ ht-degree: 4%
 
 中央實體可從此儀表板（透過&#x200B;**[!UICONTROL List of associated campaigns]**&#x200B;連結）檢視與&#x200B;**合作行銷活動（依行銷活動）**&#x200B;連結的所有子行銷活動。
 
-![](assets/mkg_dist_mutual_op_by_op.png)
+![合作行銷活動控制面板，具有連結行銷活動清單連結，開啟連結行銷活動清單。](assets/mkg_dist_mutual_op_by_op.png)
 
 ### 依據目標核准 {#by-target-approval}
 
 若要建立合作行銷活動（依目標核准），必須選取&#x200B;**[!UICONTROL Collaborative campaign (by target approval)]**&#x200B;範本。
 
-![](assets/mkg_dist_mutual_op_by_valid.png)
+![已選取合作行銷活動（依目標核准）範本的新行銷活動對話方塊。](assets/mkg_dist_mutual_op_by_valid.png)
 
 >[!NOTE]
 >
@@ -98,23 +98,23 @@ ht-degree: 4%
 
 必須建立&#x200B;**本機實體發佈**&#x200B;型別資料發佈。 資料分佈範本可讓您限制分組值清單中的記錄數。 在&#x200B;**[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;中，按一下&#x200B;**[!UICONTROL New]**&#x200B;圖示以建立新的&#x200B;**[!UICONTROL Data distribution]**。 如需資料發佈的詳細資訊，
 
-![](assets/mkg_dist_data_distribution.png)
+![具有目標維度、發佈欄位和本機實體指派型別的資料發佈表單。](assets/mkg_dist_data_distribution.png)
 
-選取&#x200B;**目標維度**&#x200B;和&#x200B;**[!UICONTROL Distribution field]**。 針對&#x200B;**[!UICONTROL Assignment type]**，選取&#x200B;**本機實體**。
+Select **目標維度**&#x200B;和&#x200B;**[!UICONTROL Distribution field]**。 針對&#x200B;**[!UICONTROL Assignment type]**，選取&#x200B;**本機實體**。
 
 在&#x200B;**[!UICONTROL Distribution]**&#x200B;索引標籤中，為每個本機實體新增欄位並指定值。
 
-![](assets/mkg_dist_data_distribution2.png)
+![資料分配的劃分標籤，其中列出每個分配欄位值、固定計數和本機實體。](assets/mkg_dist_data_distribution2.png)
 
 您可以在&#x200B;**傳遞**&#x200B;型別活動之後新增第二個&#x200B;**目標核准**，以設定其上的報告。
 
 在行銷活動建立通知訊息中，本機實體會接收已由中央實體引數預先定義的聯絡人清單。
 
-![](assets/mkg_dist_mutual_op_by_valid1.png)
+![目標核准電子郵件連結至本機實體檢閱其連絡人清單的網頁。](assets/mkg_dist_mutual_op_by_valid1.png)
 
 本機實體可以根據行銷活動內容刪除某些聯絡人。
 
-![](assets/mkg_dist_mutual_op_by_valid2.png)
+![目標核准頁面，已清除部分連絡人、註解及核准目標定位按鈕。](assets/mkg_dist_mutual_op_by_valid2.png)
 
 ### 簡單 {#simple}
 
@@ -129,7 +129,7 @@ ht-degree: 4%
 1. 在&#x200B;**行銷活動**&#x200B;頁面的&#x200B;**[!UICONTROL Navigation]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Campaign packages]**&#x200B;連結。
 1. 按一下 **[!UICONTROL Create]** 按鈕。
 1. 視窗頂端的區段可讓您選取&#x200B;**[!UICONTROL New collaborative package (mutualizedEmpty)]**&#x200B;範本。
-1. 選取參考行銷活動。
+1. Select作為參考促銷活動。
 1. 指定行銷活動套件的標籤、資料夾和執行排程。
 
 ### 日期 {#dates}
@@ -142,13 +142,13 @@ ht-degree: 4%
 >
 >**[!UICONTROL Personalization deadline]**&#x200B;可讓中央實體選擇截止日期，本機實體必須在此日期之前傳遞檔案（試算表、影像），才能用來設定行銷活動。 這不是強制選項。 橫向步進此日期不會影響行銷活動實施。
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
+![具有「執行排程」區段的Campaign套件對話方塊，包括個人化和註冊截止日期。](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
 ### 客群 {#audience}
 
 中央實體必須在建立合作行銷活動後，立即指定每個行銷活動涉及的本機實體。
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
+![包含[新增]按鈕的Campaign套件對話方塊，開啟選取對象本機實體的動作。](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
 
 >[!CAUTION]
 >
@@ -158,36 +158,36 @@ ht-degree: 4%
 
 對於&#x200B;**合作行銷活動**，您可以指定訂單核准模式。
 
-![](assets/mkg_dist_edit_kit1.png)
+![Campaign套件[編輯]索引標籤，包含[核准模式]下拉式清單，提供[手動]和[自動]。](assets/mkg_dist_edit_kit1.png)
 
 在手動模式下，本地實體需要訂閱行銷活動才能參與。
 
 在自動模式中，本機實體會預先訂閱行銷活動。 它可能會取消行銷活動訂閱或修改其引數，而無需獲得中央實體的核准。
 
-![](assets/mkg_dist_edit_kit2.png)
+![包含「拒絕訂閱」和「變更訂單引數」連結的行銷活動訂閱電子郵件。](assets/mkg_dist_edit_kit2.png)
 
 ### 通知 {#notifications}
 
-通知的設定與本機實體的通知相同。 請參閱[本節](creating-a-local-campaign.md#notifications)。
+通知的設定與本機實體的通知相同。 請參閱[通知](creating-a-local-campaign.md#notifications)。
 
 ## 訂購行銷活動 {#ordering-a-campaign}
 
 將合作行銷活動新增至行銷活動套件清單時，會通知屬於中央實體所定義對象的本機實體(**合作行銷活動（依目標核准）**&#x200B;沒有預先定義的對象)。 傳送的訊息包含可讓您註冊促銷活動的連結，如下所示：
 
-![](assets/mkg_dist_mutual_op_notification.png)
+![促銷活動訂閱電子郵件，包含「註冊」促銷活動連結與套件詳細資料。](assets/mkg_dist_mutual_op_notification.png)
 
 此訊息也可讓本機實體檢視由建立封裝的中央運運算元輸入的說明，以及連結至行銷活動的檔案。 這些並不屬於行銷活動本身，但會提供相關的其他資訊。
 
 一旦本機操作員透過Web介面登入，他們就能在想要訂購的合作行銷活動中輸入個人化資訊：
 
-![](assets/mkg_dist_mutual_op_command.png)
+![促銷活動訂購網頁，本機實體會在此輸入訂購標籤和訂購註解。](assets/mkg_dist_mutual_op_command.png)
 
 本地實體完成註冊後，中央實體會透過電子郵件收到核准其訂單的通知。
 
-![](assets/mkg_dist_mutual_op_valid_command.png)
+![核准行銷活動訂單電子郵件和具有[接受]和[拒絕]選項及註解的訂單核准頁面。](assets/mkg_dist_mutual_op_valid_command.png)
 
 如需詳細資訊，請參閱[核准程式](creating-a-local-campaign.md#approval-process)區段。
 
 ## 核准訂單 {#approving-an-order}
 
-核准合作行銷活動套件訂單的流程，與核准本機行銷活動相同。 請參閱[本節](creating-a-local-campaign.md#approving-an-order)。
+核准合作行銷活動套件訂單的流程，與核准本機行銷活動相同。 請參閱[核准訂單](creating-a-local-campaign.md#approving-an-order)。

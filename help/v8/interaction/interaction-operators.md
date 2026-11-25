@@ -27,14 +27,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '255'
 ht-degree: 3%
 ---
 # 操作者設定檔 {#operator-profiles}
 
-兩種型別的操作者可以使用行銷活動互動： **優惠方案管理員**&#x200B;和&#x200B;**傳遞管理員**。 每一個都有特定的許可權和限制。 在[此頁面](../start/gs-permissions.md)中進一步瞭解Campaign運運算元和許可權。
+兩種型別的操作者可以使用行銷活動互動： **優惠方案管理員**&#x200B;和&#x200B;**傳遞管理員**。 每一個都有特定的許可權和限制。 在[中進一步瞭解Campaign運運算元和許可權Campaign v8](../start/gs-permissions.md)開始使用許可權。
 
 * **[!UICONTROL Offer manager]**&#x200B;會建立和維護優惠。
 * **[!UICONTROL Delivery manager]**&#x200B;核准並使用優惠
@@ -44,7 +44,7 @@ ht-degree: 3%
 1. 建立運運算元。 [了解更多](../start/manage-permissions.md#add-users)
 1. 瀏覽至&#x200B;**[!UICONTROL Groups and named rights]**&#x200B;視窗，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取&#x200B;**[!UICONTROL Offer manager]**&#x200B;群組。
 
-[此處](../start/manage-permissions.md#ootb-productprofiles)說明與優惠方案管理員相關的許可權。
+與優惠方案管理員相關的許可權說明為[預設產品設定檔和操作員群組](../start/manage-permissions.md#ootb-productprofiles)。
 
 ## 建立傳遞管理員操作員 {#delivery-manager}
 

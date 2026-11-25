@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 3%
 ---
 # 開始和結束{#start-and-end}
 
@@ -32,14 +32,14 @@ ht-degree: 4%
 
   執行工作流程會從沒有入站轉變的活動和開始型別活動開始。
 
-  ![](assets/s_user_segmentation_start_stop.png)
+  ![具有開始活動、傳遞、核准、傳遞控制和兩個結束活動的工作流程，每個核准結果一個。](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
   您可以設定&#x200B;**[!UICONTROL End]**&#x200B;活動以中斷所有進行中的工作。 若要這麼做，請連按兩下活動以顯示其屬性，並核取適當的選項。
 
-  ![](assets/s_user_segmentation_end.png)
+  ![已選取[停止所有進行中的工作]選項，結束活動內容。](assets/s_user_segmentation_end.png)
 
   啟用結束活動時，工作表中的資料會自動刪除。 如果不需要這樣做，且為了避免不必要的載入，您可以選擇在最後一個活動輸出時停用轉變。 例如，在傳送輸出中，如果未排程任何程式，請取消核取相關選項，如下所示：
 
-  ![](assets/s_advuser_delivery_option_no_output.png)
+  ![傳送活動屬性，其產生外站轉變選項已清除。](assets/s_advuser_delivery_option_no_output.png)

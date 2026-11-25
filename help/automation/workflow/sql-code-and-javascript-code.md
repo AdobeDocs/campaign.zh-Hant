@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '436'
+ht-degree: 8%
 ---
 # SQL 程式碼和 JavaScript 程式碼{#sql-code-and-javascript-code}
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 **[!UICONTROL SQL code]**&#x200B;活動會執行SQL指令碼。 指令碼是JST範本。
 
-![](assets/sql_code.png)
+![具有[標籤]欄位、SQL指令碼編輯器及[處理錯誤]選項的SQL程式碼活動對話方塊](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
@@ -79,7 +79,7 @@ ht-degree: 9%
 
 ### JavaScript 程式碼 {#js-code-desc}
 
-![](assets/javascript_code.png)
+![JavaScript程式碼活動對話方塊，包含[標籤]、[停止執行]和[指令碼]欄位，以及[處理錯誤]選項](assets/javascript_code.png)
 
 * **[!UICONTROL Script]**：編輯器的中央區域包含要執行的指令碼。
 
@@ -87,7 +87,7 @@ ht-degree: 9%
 
 ### 進階 JavaScript 程式碼 {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![進階JavaScript程式碼活動，包含首次呼叫和下次呼叫指令碼編輯器以及Ok轉變](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL First call]**：編輯器的第一個區域包含要在第一次呼叫期間執行的指令碼。
 * **[!UICONTROL Next calls]**：編輯器的第二個區域包含下次呼叫時要執行的指令碼。

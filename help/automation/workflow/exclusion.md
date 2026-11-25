@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 ---
 # 排除{#exclusion}
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 若要設定此活動，請輸入其標籤並選取主要收件者集：主要集的母體可讓您建構結果。 將排除主要集和至少一個進入活動共用的設定檔。
 
-![](assets/s_user_segmentation_exclu.png)
+![包含主要集、排除規則、結果標籤和產生補充選項的排除活動。](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 如果要利用剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 補數將包含主要傳入母體減去傳出母體。 隨後會將其他輸出轉變新增到活動中，如下所示：
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![具有兩個標示為「結果」和「補充」之輸出轉變的排除活動。](assets/s_user_segmentation_exclu_compl.png)
 
 ## 排除範例 {#exclusion-examples}
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 1. 核准排除設定，然後將更新清單活動插入至結果。 您也可以在必要時插入額外的清單更新至補充。
 1. 執行工作流程。 在此範例中，結果是由年齡介於18至30歲的收件者組成，但住在巴黎的收件者會被排除並傳送至補充。
 
-   ![](assets/exclusion_example.png)
+   ![工作流程，其中18-30和live in paris queries提供排除專案，每個專案都包含結果並補充清單更新。](assets/exclusion_example.png)
 
 ## 輸入引數 {#input-parameters}
 

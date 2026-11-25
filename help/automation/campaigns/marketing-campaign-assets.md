@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '881'
 ht-degree: 0%
 ---
 # 管理資產和檔案 {#manage-assets-documents}
@@ -54,19 +54,19 @@ ht-degree: 0%
 
 檔案透過&#x200B;**[!UICONTROL Edit > Documents]**&#x200B;索引標籤連結至方案或行銷活動。
 
-![](assets/op_add_document.png)
+![促銷活動編輯標籤，檔案子標籤：附加檔案清單，包含新增、刪除和詳細資料按鈕。](assets/op_add_document.png)
 
 您也可以從控制面板的專用連結，將檔案新增至行銷活動。
 
-![](assets/add_a_document_in_op.png)
+![包含「新增檔案」連結和用於上傳檔案的「行銷檔案」對話方塊的行銷活動儀表板。](assets/add_a_document_in_op.png)
 
 按一下&#x200B;**[!UICONTROL Detail...]**&#x200B;圖示以檢視檔案內容並新增資訊：
 
-![](assets/add_document_details.png)
+![檔案對話方塊從詳細資料開啟：標籤、版本、性質、上傳的檔案連結和描述。](assets/add_document_details.png)
 
 在控制面板中，與行銷活動相關聯的檔案會分組到&#x200B;**[!UICONTROL Document(s)]**&#x200B;區段，如下列範例所示：
 
-![](assets/edit_documents.png)
+![含有檔案區段的行銷活動控制面板，醒目提示附加至行銷活動的檔案。](assets/edit_documents.png)
 
 您也可以從此檢視編輯及修改它們。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 若要建立傳遞大網，請按一下相關行銷活動&#x200B;**[!UICONTROL Edit > Documents]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Delivery outlines]**&#x200B;子索引標籤。
 
-![](assets/add-a-delivery-outline.png)
+![行銷活動編輯索引標籤，檔案，傳遞大綱子索引標籤及新增傳遞大綱連結。](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -98,33 +98,33 @@ ht-degree: 0%
 1. 以滑鼠右鍵按一下樹狀結構的根並選取&#x200B;**[!UICONTROL New > Delivery outlines]**。
 1. 用滑鼠右鍵按一下您剛建立的大綱，然後選取&#x200B;**[!UICONTROL New > Item]**&#x200B;或&#x200B;**[!UICONTROL New > Personalization fields]**。
 
-![](assets/del-outline-add-new-item.png)
+![使用滑鼠右鍵功能表的傳遞大綱樹狀結構：「新增>專案、個人化欄位或選件」。](assets/del-outline-add-new-item.png)
 
 大綱可包含專案、個人化欄位和選件：
 
 * 專案可以是實體檔案，例如，此處會參照和說明，且會附加至傳遞。
 * 個人化欄位可讓您建立與傳送相關的個人化元素，而非收件者。 因此，您可以建立用於特定目標之傳送的值（歡迎優惠、折扣等） 它們是在Adobe Campaign中建立並透過&#x200B;**[!UICONTROL Import personalization fields...]**&#x200B;連結匯入大綱。
 
-  ![](assets/del-outline-perso-field.png)
+  ![Select個人化欄位對話方塊清單套件、金牌和Premium，從匯入個人化欄位開啟。](assets/del-outline-perso-field.png)
 
   也可以按一下清單區域右邊的&#x200B;**[!UICONTROL Add]**&#x200B;圖示，直接在大綱中建立它們。
 
-  ![](assets/add-del-outline-button.png)
+  ![傳遞大網中的個人化欄位清單，已輸入值，並在清單右側新增](assets/add-del-outline-button.png)。
 
 
-### 選取大綱 {#select-an-outline}
+### Select大綱 {#select-an-outline}
 
 對於每次傳遞，您可以從保留給擷取大綱的區段中選取要關聯的大綱，如下列範例所示：
 
-![](assets/select-delivery-outline.png)
+使用Select傳遞的![直接郵件索引標籤，傳遞大綱對話方塊中列出單位B、單位C和單位A。](assets/select-delivery-outline.png)
 
 然後所選輪廓會顯示在視窗的下半部。 您可以使用欄位右側的圖示加以編輯，或使用下拉式清單加以變更：
 
-![](assets/delivery-outline-selected.png)
+傳遞的![直接郵件索引標籤，傳遞大綱欄位已反白並顯示Unit C。](assets/delivery-outline-selected.png)
 
 傳遞的&#x200B;**[!UICONTROL Summary]**&#x200B;標籤也會顯示這項資訊：
 
-![](assets/delivery-outline-in-dashboard.png)
+![傳遞摘要索引標籤，其箭頭指向傳遞大綱值Unit C。](assets/delivery-outline-in-dashboard.png)
 
 ### 擷取結果 {#extraction-result}
 
@@ -132,6 +132,6 @@ ht-degree: 0%
 
 在下列範例中，與傳遞相關的大綱的標籤、預估成本和說明將新增至摘取檔案。
 
-![](assets/campaign-export-template.png)
+![要擷取匯出範本步驟的資料，其標籤（傳遞/傳遞大網）輸出資料行已反白顯示。](assets/campaign-export-template.png)
 
 匯出模型必須與為相關傳遞選取的服務提供者相關聯。 請參閱[此節](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。

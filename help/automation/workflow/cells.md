@@ -30,24 +30,24 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 1%
 ---
 # 儲存格{#cells}
 
 **[!UICONTROL Cells]**&#x200B;活動提供各種子集的檢視作為資料欄。 它有助於子集操控，也設計為利用個人化功能。
 
-![](assets/wf_split_cells.png)
+![儲存格活動的儲存格索引標籤，列出子集1到3，具有篩選、限制、排除和區段代碼欄。](assets/wf_split_cells.png)
 
 此活動可設定為根據使用者需求輸入特定引數。 依預設，每個子集的詳細資訊會透過&#x200B;**[!UICONTROL Cells]**&#x200B;和&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤在專用視窗中詳細說明。
 
-![](assets/wf_split_cells_with_customization.png)
+![以反白顯示[詳細資料]按鈕的[儲存格]索引標籤，以開啟所選子集的詳細資料。](assets/wf_split_cells_with_customization.png)
 
 在下列範例中，已修改輸入表單：已新增&#x200B;**[!UICONTROL Data]**&#x200B;索引標籤以啟用每個子集的優惠和優先順序層級的關聯。
 
-![](assets/cells-activity-sample.png)
+![包含自訂資料標籤的子集詳細資料，該標籤包含區段代碼、優先順序、儲存格識別碼和選件欄位。](assets/cells-activity-sample.png)
 
 針對此設定，下列資訊已新增至Adobe Campaign總管的&#x200B;**[!UICONTROL Administration > Configurations > Input forms]**&#x200B;節點中的工作流程表單：
 

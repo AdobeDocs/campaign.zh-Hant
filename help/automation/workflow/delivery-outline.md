@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '260'
 ht-degree: 1%
 ---
 # 傳遞大綱{#delivery-outline}
@@ -55,4 +55,4 @@ ht-degree: 1%
 
    預覽會考量傳送中指定的優惠方案數量。 執行工作流程時，會考慮傳遞大網中指定的數字。
 
-   ![](assets/int_compo_offre_wf1.png)
+   ![已選取優惠方案、多個主張、優惠方案空間和篩選規則表格的傳遞大網活動。](assets/int_compo_offre_wf1.png)

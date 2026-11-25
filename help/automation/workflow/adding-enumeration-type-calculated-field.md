@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '566'
 ht-degree: 1%
 ---
 # 新增分項清單型別計算欄位 {#adding-an-enumeration-type-calculated-field}
@@ -50,23 +50,23 @@ ht-degree: 1%
 1. 開啟[一般查詢編輯器](../../v8/start/query-editor.md)並選取收件者資料表(**[!UICONTROL nms:recipient]**)。
 1. 在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗中，選取&#x200B;**[!UICONTROL Last name]**、**[!UICONTROL First name]**&#x200B;和&#x200B;**[!UICONTROL Gender]**。
 
-   ![](assets/query_editor_nveau_73.png)
+   ![要擷取視窗的資料，在輸出資料行清單中有姓氏、名字和性別。](assets/query_editor_nveau_73.png)
 
 1. 在&#x200B;**[!UICONTROL Sorting]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Next]**：此範例不需要排序。
 1. 在 **[!UICONTROL Data filtering]** 中選取 **[!UICONTROL Filtering conditions]**。
 1. 在&#x200B;**[!UICONTROL Target element]**&#x200B;視窗中，設定篩選條件以收集會說英語的收件者。
 
-   ![](assets/query_editor_nveau_74.png)
+   ![篩選條件語言(@language)等於EN的目標元素視窗。](assets/query_editor_nveau_74.png)
 
 1. 在&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Add a calculated field]**。
 
-   ![](assets/query_editor_nveau_75.png)
+   ![使用[新增計算欄位]按鈕反白顯示的資料格式化視窗。](assets/query_editor_nveau_75.png)
 
 1. 前往&#x200B;**[!UICONTROL Export calculated field definition]**&#x200B;視窗的&#x200B;**[!UICONTROL Type]**&#x200B;視窗並選取&#x200B;**[!UICONTROL Enumerations]**。
 
    定義新計算欄位必須參考的欄。 若要這麼做，請在&#x200B;**[!UICONTROL Source column]**&#x200B;欄位的下拉式選單中選取&#x200B;**[!UICONTROL Gender]**&#x200B;欄：目的地值將與&#x200B;**[!UICONTROL Gender]**&#x200B;欄一致。
 
-   ![](assets/query_editor_nveau_76.png)
+   ![計算欄位定義，其Type設為Enumerations，而Source欄設為Gender。](assets/query_editor_nveau_76.png)
 
    定義&#x200B;**Source**&#x200B;和&#x200B;**目的地**&#x200B;值：目的地值可讓查詢結果更易於讀取。 此查詢應傳回收件者性別，結果將為0、1或2。
 
@@ -75,11 +75,11 @@ ht-degree: 1%
    * 在&#x200B;**[!UICONTROL Source]**&#x200B;欄中，在新行中輸入每個性別(0,1，2)的來源值。
    * 在&#x200B;**[!UICONTROL Destination]**&#x200B;欄中，輸入值：行「0」為「未指示」，行「1」為「男性」，行「2」為「女性」。
 
-   選取&#x200B;**[!UICONTROL Keep the source value]**&#x200B;函式。
+   Select **[!UICONTROL Keep the source value]**&#x200B;函式。
 
    按一下&#x200B;**[!UICONTROL OK]**&#x200B;以核准計算欄位。
 
-   ![](assets/query_editor_nveau_77.png)
+   ![將來源0、1和2對應到未指示、男性與女性；保持來源值為選取狀態。](assets/query_editor_nveau_77.png)
 
 1. 在&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Next]**。
 1. 在預覽視窗中，**[!UICONTROL start the preview of the data]**。
@@ -90,12 +90,12 @@ ht-degree: 1%
    * 1表示「男性」
    * 2表示「女性」
 
-   ![](assets/query_editor_nveau_78.png)
+   ![具有「性別」和「性別」規格欄的資料預覽，例如1具有「男性」和0具有「未指定」。](assets/query_editor_nveau_78.png)
 
    例如，如果您未在&#x200B;**[!UICONTROL List of enumeration values]**&#x200B;中輸入性別「2」，而已選取&#x200B;**[!UICONTROL In other cases]**&#x200B;欄位的&#x200B;**[!UICONTROL Generate a warning and continue]**&#x200B;函式，您將會收到警告記錄。 此記錄指出尚未輸入性別「2」（女性）。 它顯示在資料預覽視窗的&#x200B;**[!UICONTROL Logs generated during export]**&#x200B;欄位中。
 
-   ![](assets/query_editor_nveau_79.png)
+   ![具有標幟性別2列的資料預覽，且資料行@gender的記錄列舉值2不存在。](assets/query_editor_nveau_79.png)
 
-   再舉一個例子，說明沒有輸入列舉值「2」。 選取&#x200B;**[!UICONTROL Generate an error and reject the line]**&#x200B;函式：所有性別「2」收件者會在行中提出異常和其他資訊（名字和姓氏等） 將不會匯出。 資料預覽視窗的&#x200B;**[!UICONTROL Logs generated during export]**&#x200B;欄位中顯示錯誤記錄。 此記錄表示未輸入列舉值「2」。
+   再舉一個例子，說明沒有輸入列舉值「2」。 Select **[!UICONTROL Generate an error and reject the line]**&#x200B;功能：所有性別「2」收件者會在行中提出異常和其他資訊（名字和姓氏等） 將不會匯出。 資料預覽視窗的&#x200B;**[!UICONTROL Logs generated during export]**&#x200B;欄位中顯示錯誤記錄。 此記錄表示未輸入列舉值「2」。
 
-   ![](assets/query_editor_nveau_80.png)
+   ![拒絕的性別2資料列上有錯誤圖示的資料預覽，而且記錄列舉值2不存在。](assets/query_editor_nveau_80.png)

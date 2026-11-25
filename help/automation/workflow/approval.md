@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '609'
 ht-degree: 0%
 ---
 # 核准{#approval}
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * 若要選取單一運運算元，請在&#x200B;**[!UICONTROL Assignment type]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Operator]**&#x200B;值，並在&#x200B;**[!UICONTROL Assignee]**&#x200B;欄位的下拉式清單中選取相關運運算元。
 
-  ![](assets/s_advuser_validation_box_assign.png)
+  ![指派型別清單開啟且運運算元反白顯示的核准活動](assets/s_advuser_validation_box_assign.png)
 
   >[!CAUTION]
   >
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 * 您可以定義用於篩選核准運運算元的查詢。 若要這麼做，請在&#x200B;**[!UICONTROL Assignment type]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Filter]**&#x200B;值，然後按一下&#x200B;**[!UICONTROL Advanced parameters...]**&#x200B;連結以定義篩選條件，如下列範例所示：
 
-  ![](assets/s_advuser_validation_box_filter.png)
+  ![核准活動設為[篩選]，且使用[進階]引數篩選條件，其中Department等於值](assets/s_advuser_validation_box_filter.png)
 
 在單一核准的事件中，對應於操作員選擇的轉變已啟用，任務已完成：其他操作員無法回覆。
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 可從&#x200B;**[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]**&#x200B;節點存取&#x200B;**核准**&#x200B;型別工作：操作者可直接透過此檢視存取核准表單。
 
-![](assets/s_advuser_validation_from_console.png)
+![具有[作業核准]視窗的核准擱置清單，顯示訊息，[選擇是或否]及[核准]按鈕](assets/s_advuser_validation_from_console.png)
 
 ## 屬性 {#properties}
 
 可在傳送給稽核者的訊息中使用自訂變數。 它們可以插入訊息標題或內文中。
 
-![](assets/edit_validation.png)
+![核准活動，其個人化功能表用於將活動和事件變數插入[標題]欄位](assets/edit_validation.png)
 
 此&#x200B;**[!UICONTROL Title]**&#x200B;欄位包含訊息的標題：這是已傳送電子郵件訊息的主旨。 標題及訊息內文皆為JavaScript範本，因此可包含根據工作流程內容計算的值。
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '370'
 ht-degree: 2%
 ---
 # 開始使用Campaign HTML編輯器{#about-campaign-html-editor}
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 一般操作如下：
 
-![](assets/dce_schema.png)
+![登陸頁面和電子郵件傳遞都會透過數位內容編輯器，然後進行發佈或傳送](assets/dce_schema.png)
 
 若要建立簡單的&#x200B;**網頁應用程式**，您需要：
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在[此區段](creating-a-landing-page.md)中有網頁應用程式內容中的完整實作範例。
+>在[建立登入頁面](creating-a-landing-page.md)中可以使用網頁應用程式內容中的完整實作範例。
 
 若要建立&#x200B;**電子郵件傳遞**，您需要：
 

@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '559'
 ht-degree: 0%
 ---
 # 檔案收集器{#file-collector}
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **[!UICONTROL File collector]**&#x200B;活動的第一個索引標籤可讓您選取來源目錄，並在必要時篩選收集的檔案。 其他標籤在[傳入電子郵件](inbound-emails.md)中詳細說明（**[!UICONTROL Schedule]**&#x200B;和&#x200B;**[!UICONTROL Expiry]**&#x200B;標籤）。
 
-![](assets/file_collect_edit.png)
+![檔案收集器[目錄]索引標籤，具有[目錄]、[篩選]和[處理檔案後立即停止]選項](assets/file_collect_edit.png)
 
 1. **正在下載檔案**
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 無法判斷檔案處理順序。 若要依序處理一組檔案，請使用&#x200B;**[!UICONTROL Stop as soon as a file has been processed]**&#x200B;選項並建立回圈。 在此情況下，會依字母順序處理檔案。 **[!UICONTROL Process file nonexistence]**&#x200B;選項可讓您完成反複專案。
 
-![](assets/file_collect_loop.png)
+![從[匯入]回到[檔案]收集器的工作流程循環，在[無檔案]轉變上有警示活動](assets/file_collect_loop.png)
 
 ## 輸出引數 {#output-parameters}
 

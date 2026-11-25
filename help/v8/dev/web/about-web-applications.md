@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 12%
+source-wordcount: '886'
+ht-degree: 10%
 ---
 # 開始使用網路應用程式{#about-web-applications}
 
@@ -61,7 +61,7 @@ Adobe Campaign可讓您使用來自資料庫的資料，以及根據連線使用
 
 這可以是訂閱表單，其中包含已預先載入Adobe Campaign資料庫所含資訊的資料，如下所示：
 
-![](assets/webapp_form_sample.png)
+![訂閱表單已預先載入電子郵件、名稱和國家/地區，並附有[訂閱]按鈕。](assets/webapp_form_sample.png)
 
 本章提供如何管理Web應用程式的概觀。
 
@@ -101,7 +101,7 @@ Adobe Campaign中的網頁應用程式可存取下列功能：
 >
 >調查在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}中有詳細說明（Campaign v8檔案）。
 >
->在[本節](about-web-forms.md)中詳細說明Adobe Campaign中網路表單的整體功能。
+>在[開始使用網路表單](about-web-forms.md)中詳細說明Adobe Campaign中網路表單的整體功能。
 
 ## Web應用程式實施 {#web-application-implementation}
 
@@ -109,7 +109,7 @@ Adobe Campaign中的網頁應用程式可存取下列功能：
 
 1. 建立內容（欄位、清單、表格、圖形等）。
 
-   您也可以檢視詳細說明表單可用欄位的區段：所有這些欄位也適用於Web應用程式。 此資訊可在[此頁面](adding-fields-to-a-web-form.md)中取得。
+   您也可以檢視詳細說明表單可用欄位的區段：所有這些欄位也適用於Web應用程式。 此資訊可在[新增欄位至網路表單](adding-fields-to-a-web-form.md)中使用。
 
 1. 您可以視需要新增預先載入、測試和儲存步驟，以及設定存取控制系統（主要在外聯網發佈的架構中）。
 1. 發佈網頁應用程式，使其可在外部網路或Adobe Campaign中使用。
@@ -120,7 +120,7 @@ Adobe Campaign中的網頁應用程式可存取下列功能：
 
 Web應用程式儲存在Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Resources > Online > Web Applications]**&#x200B;節點中。 設定分為以下資料夾：
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**：包含網頁表單簡報（應用程式和調查）的轉譯範本。 範本可讓您產生表單。 它也使用CSS樣式表。 可在範本層級多載此樣式表。 如需詳細資訊，請參閱[此頁面](form-rendering.md#selecting-the-form-rendering-template)。
+* **[!UICONTROL Administration > Configuration > Form renderings]**：包含網頁表單簡報（應用程式和調查）的轉譯範本。 範本可讓您產生表單。 它也使用CSS樣式表。 可在範本層級多載此樣式表。 如需詳細資訊，請參閱[選取表單轉譯範本](form-rendering.md#selecting-the-form-rendering-template)。
 * **[!UICONTROL Resources > Templates > Web application templates]**：包含表單範本。 若要建立表單或Web應用程式，您必須從範本開始。
 
 ## 網頁應用程式範本 {#web-application-templates}
@@ -135,7 +135,7 @@ Web應用程式儲存在Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Resou
 
 建立助理可以讓您選取要啟用的選項，如下所示。
 
-![](assets/webapp_create_template.png)
+![新增Web應用程式對話方塊，其中包含要啟用的[調查]與[進階網站] （外部網路）選項。](assets/webapp_create_template.png)
 
 >[!CAUTION]
 >

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 56%
+source-wordcount: '482'
+ht-degree: 50%
 ---
 # 連結至鏡像頁面 {#mirror-page}
 
@@ -51,7 +51,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 在 Adobe Campaign 中，您可以使用專屬 **個人化區塊**，將鏡像頁面連結插入電子郵件中。 內建的&#x200B;**鏡像頁面連結**&#x200B;個人化區塊會將以下程式碼插入電子郵件內容中：`<%@ include view='MirrorPage' %>`。
 
-![](assets/mirror-page-insert.png){width="800"}
+![電子郵件編輯器個人化功能表，其中已選取「包含，然後連結至映象頁面」](assets/mirror-page-insert.png){width="800"}
 
 
 如需插入個人化內容區塊的詳細資訊，請參閱[個人化區塊](personalization-blocks.md)。
@@ -65,7 +65,7 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 1. 瀏覽至電子郵件屬性的&#x200B;**[!UICONTROL Validity]**&#x200B;標籤。
 1. 在&#x200B;**映象頁面管理**&#x200B;區段中，檢查&#x200B;**[!UICONTROL Mode]**&#x200B;下拉式清單。
 
-![](assets/mirror-page-generation.png){width="800"}
+![有效標籤，內含「映象頁面管理模式」下拉式清單，列出四個產生選項](assets/mirror-page-generation.png){width="800"}
 
 除了預設模式外，還提供下列選項：
 
@@ -81,8 +81,8 @@ Adobe Campaign 產生的鏡像頁面包含所有個人化資料。
 
 1. 傳送傳遞後，請開啟並瀏覽至其&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 
-1. Select收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
+1. 選取收件者並按一下&#x200B;**[!UICONTROL Display the mirror page for this message...]**&#x200B;連結。
 
-   ![](assets/mirror-page-display.png){width="800"}
+   ![已選取記錄檔的傳遞記錄，並在左下角顯示此訊息連結的映象頁面](assets/mirror-page-display.png){width="800"}
 
    映象頁面會顯示在專用畫面中，其中包含所選收件者的個人化資料。

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1763'
 ht-degree: 0%
 ---
 # Campaign技術運運算元移轉至Adobe Developer Console {#migrate-tech-users-to-ims}
@@ -73,7 +73,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 若要建立新專案，請從Adobe Developer Console的主畫面按一下&#x200B;**建立新專案**。
 
-![](assets/New-Project.png)
+![Adobe Developer Console首頁，其中的「建立新專案」快速入門選項已反白顯示。](assets/New-Project.png)
 
 您可以使用&#x200B;**編輯專案**&#x200B;按鈕來重新命名此專案。
 
@@ -85,16 +85,16 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 若要將API新增至專案，請依照下列步驟執行：
 
 1. 按一下&#x200B;**新增API**&#x200B;以選取要新增至專案的API。
-   ![](assets/do-not-localize/ims-updates-01.png)
-1. 勾選Adobe Campaign卡片右上角的方塊，選取Adobe Campaign API並將其新增至您的專案，當您將滑鼠停留在卡片上時，就會顯示這個方塊
-   ![](assets/do-not-localize/ims-updates-02.png)
+   ![使用「新增API」、「新增事件」和「新增外掛程式」選項，在Adobe Developer Console中新增空白專案頁面。](assets/do-not-localize/ims-updates-01.png)
+1. Select ，並勾選Adobe Campaign卡片右上角的方塊（當您將滑鼠停留在卡片上時顯示），將Adobe Campaign API新增至您的專案
+   ![在Experience Cloud下方選取Adobe Campaign卡片，再按[下一步]按鈕，新增API畫面。](assets/do-not-localize/ims-updates-02.png)
 1. 按一下畫面底部的&#x200B;**[下一步]**。
 
-### 步驟3 — 選取驗證型別  {#ims-migration-step-3}
+### 步驟3 — 驗證型別Select  {#ims-migration-step-3}
 
 在&#x200B;**設定API**&#x200B;畫面中，選取所需的驗證型別。 此專案需要&#x200B;**OAuth伺服器對伺服器**&#x200B;驗證。 確定已選取它，然後按一下畫面底部的&#x200B;**下一步**。
 
-![](assets/do-not-localize/ims-updates-03.png)
+![選取OAuth伺服器對伺服器設定API畫面、認證名稱欄位及[下一步]按鈕。](assets/do-not-localize/ims-updates-03.png)
 
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
@@ -102,7 +102,7 @@ Once your project is created in the Adobe Developer Console, add an API that use
 When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.
 -->
 
-### 步驟4 — 選取產品設定檔 {#ims-migration-step-4}
+### 步驟4 -Select產品設定檔 {#ims-migration-step-4}
 
 如先決條件一節中所述，您必須指派適當的產品設定檔以供專案使用。 在此步驟中，您必須選取要由正在建立的技術帳戶使用的產品設定檔。
 
@@ -129,17 +129,17 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 在專案畫面中，按一下&#x200B;**[!UICONTROL + Add to Project]**&#x200B;並選擇畫面左上方的&#x200B;**[!UICONTROL API]**，以便將I/O管理API新增至此專案。
 
-![](assets/do-not-localize/ims-updates-04.png)
+![Adobe Campaign API頁面，其[加入至專案]功能表已開啟，顯示API、事件和外掛程式。](assets/do-not-localize/ims-updates-04.png)
 
-在&#x200B;**新增API**&#x200B;畫面中，向下捲動以尋找&#x200B;**I/O管理API**&#x200B;卡。 按一下將游標停留在卡片上時顯示的核取方塊，選取該卡片。 然後按一下熒幕底部的&#x200B;**下一步**。
+在&#x200B;**新增API**&#x200B;畫面中，向下捲動以尋找&#x200B;**I/O管理API**&#x200B;卡。 按一下將游標停留在卡片上時顯示的核取方塊，即可對其進行Select。 然後按一下熒幕底部的&#x200B;**下一步**。
 
-![](assets/do-not-localize/ims-updates-05.png)
+![新增API畫面，其中已選取I/O Management API卡及[下一步]按鈕。](assets/do-not-localize/ims-updates-05.png)
 
 
 在&#x200B;**設定API**&#x200B;畫面中，OAuth伺服器對伺服器驗證已存在。 按一下畫面底部的&#x200B;**「儲存設定的API」**。
 
 
-![](assets/do-not-localize/ims-updates-06.png)
+![設定API畫面顯示現有的OAuth伺服器對伺服器認證，並儲存設定的API按鈕。](assets/do-not-localize/ims-updates-06.png)
 
 這會帶您回到新建立專案之I/O管理API中的專案畫面。 按一下畫面頂端階層連結中的專案名稱，即可返回主專案詳細資訊頁面。
 
@@ -148,7 +148,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 檢閱您的專案，確定專案看起來類似下文，產品和服務區段中的&#x200B;**I/O管理API**&#x200B;和&#x200B;**Adobe Campaign API**&#x200B;以及[認證]區段中的&#x200B;**OAuth伺服器對伺服器**。
 
-![](assets/do-not-localize/ims-updates-07.png)
+![專案概觀在產品和服務下列出I/O管理API和Adobe Campaign，以及OAuth伺服器對伺服器。](assets/do-not-localize/ims-updates-07.png)
 
 
 ### 步驟7 — 驗證設定 {#ims-migration-step-7}
@@ -228,11 +228,11 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
    您可以按一下專案&#x200B;**認證**&#x200B;區段中的&#x200B;**OAuth伺服器對伺服器**&#x200B;標題來尋找此電子郵件地址。
 
-   ![](assets/do-not-localize/ims-updates-07.png)
+   ![具有OAuth伺服器對伺服器認證的專案概觀，可在[認證]區段中選取。](assets/do-not-localize/ims-updates-07.png)
 
    在[認證]畫面中，向下捲動以找到&#x200B;**Technical Account Email**，然後按一下&#x200B;**複製**&#x200B;按鈕。
 
-   ![](assets/do-not-localize/ims-updates-08.png)
+   ![OAuth伺服器對伺服器認證詳細資料，包含[產生存取權杖]按鈕、使用者端ID和使用者端密碼。](assets/do-not-localize/ims-updates-08.png)
 
 1. 您現在需要更新Adobe Campaign使用者端主控台中新建立的技術運運算元。 您必須將現有的技術操作員資料夾許可權套用至新的技術操作員。
 

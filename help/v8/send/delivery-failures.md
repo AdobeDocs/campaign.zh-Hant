@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3478'
 ht-degree: 6%
 ---
 # 瞭解傳遞失敗 {#delivery-failures}
@@ -714,7 +714,7 @@ SMPP聯結器會擷取使用規則運算式（規則運算式）傳回之SR （�
 
 產生的訊息範例：
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ Extended generic SMPP聯結器會套用啟發式來尋找合理的預設值：�
 
 收件者訊息失敗並出現「無法聯絡」錯誤，指出：
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,13 +758,13 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決方法**：檢閱工作流程和傳遞內容，以明確判斷哪些個人化嘗試呼叫相關資料表。 然後，在HTML中移除對此表格的呼叫，或修正傳遞的對應。
 
-在[本節](personalize.md)中進一步瞭解個人化。
+在[開始使用個人化](personalize.md)中進一步瞭解個人化。
 
 ### 多個個人化值錯誤 {#multiple-values-error}
 
 傳送失敗時，傳送記錄檔中可能會出現下列錯誤：
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -776,7 +776,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 部分傳送可能會因為「無法聯絡」錯誤而失敗，並指出：
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

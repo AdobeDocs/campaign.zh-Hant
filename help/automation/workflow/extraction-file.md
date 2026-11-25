@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '407'
 ht-degree: 1%
 ---
 # 資料擷取 (檔案){#extraction-file}
@@ -46,29 +46,29 @@ ht-degree: 1%
 1. 指定輸出檔案的名稱：此名稱可包含變數，可透過欄位右側的個人化按鈕插入。
 1. 按一下&#x200B;**[!UICONTROL Edit the file format...]**&#x200B;以選取要擷取的資料。
 
-   ![](assets/s_advuser_extract_file_param.png)
+   ![從[編輯檔案格式]連結開啟擷取檔案格式視窗的資料擷取（檔案）活動。](assets/s_advuser_extract_file_param.png)
 
    **[!UICONTROL Handle groupings (GROUP BY + HAVING)]**&#x200B;選項新增了額外的步驟來篩選彙總的最終結果，例如，針對指定的採購單型別、已訂購10次以上的客戶等。
 
 1. 如有必要，您可以將新欄新增至輸出檔案，例如計算或處理結果。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;圖示。
 
-   ![](assets/s_advuser_extract_file_add_col.png)
+   ![擷取檔案格式視窗，在[輸出]資料行清單右側反白顯示[新增]圖示。](assets/s_advuser_extract_file_add_col.png)
 
    在其他行中，按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示以定義新欄的內容。
 
-   ![](assets/s_advuser_extract_file_add_exp.png)
+   ![在[建立日期]資料行上有[編輯運算式]圖示的輸出資料行清單。](assets/s_advuser_extract_file_add_exp.png)
 
    然後，您將會存取選取視窗。 按一下&#x200B;**[!UICONTROL Advanced selection]**&#x200B;選擇要套用至資料的程式。
 
-   ![](assets/s_advuser_extract_file_advanced_selection.png)
+   ![要選取的視窗清單收件者欄位欄位，其進階選取按鈕已反白顯示。](assets/s_advuser_extract_file_advanced_selection.png)
 
    從清單中選擇所需的公式。
 
-   ![](assets/s_advuser_extract_file_agregate_values.png)
+   ![已選取彙總函式上有[處理序]且已選取[最大值]選項的公式型別視窗。](assets/s_advuser_extract_file_agregate_values.png)
 
 您可以定義在資料擷取期間執行的後程式，以便您壓縮或加密檔案。 若要這麼做，必須在活動的&#x200B;**[!UICONTROL Script]**&#x200B;索引標籤中新增所需的命令。
 
-![](assets/postprocessing_dataextraction.png)
+![使用Script索引標籤反白的資料擷取（檔案）活動，以新增後處理命令。](assets/postprocessing_dataextraction.png)
 
 ## 彙總函式清單 {#list-of-aggregate-functions}
 

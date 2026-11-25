@@ -23,20 +23,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '849'
 ht-degree: 1%
 ---
 # 在日文的行動裝置上傳送電子郵件 {#sending-emails-on-japanese-mobiles}
 
 ## 日文行動裝置的電子郵件格式 {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign針對行動裝置上的電子郵件管理三種特定的日文格式： **裝飾郵件** （DoCoMo行動裝置）、**裝飾郵件** （Softbank行動裝置）和&#x200B;**裝飾郵件** （KDDI AU行動裝置）。 這些格式會施加特定的編碼、結構和大小限制。 在[本節](#limitations-and-recommendations)中進一步瞭解限制和建議。
+Adobe Campaign針對行動裝置上的電子郵件管理三種特定的日文格式： **裝飾郵件** （DoCoMo行動裝置）、**裝飾郵件** （Softbank行動裝置）和&#x200B;**裝飾郵件** （KDDI AU行動裝置）。 這些格式會施加特定的編碼、結構和大小限制。 深入瞭解[限制與建議](#limitations-and-recommendations)中的限制與建議。
 
 為了讓收件者正確接收這些格式之一的郵件，建議在對應設定檔中選取&#x200B;**[!UICONTROL Deco-mail (DoCoMo)]**、**[!UICONTROL Decore Mail (Softbank)]**&#x200B;或&#x200B;**[!UICONTROL Decoration Mail (KDDI AU)]**：
 
-![](assets/deco-mail_03.png)
+![開啟電子郵件格式清單的收件者一般標籤：未知、文字、HTML、裝飾郵件、裝飾郵件、裝飾郵件](assets/deco-mail_03.png)
 
 不過，如果您保留&#x200B;**[!UICONTROL Email format]**&#x200B;選項為&#x200B;**[!UICONTROL Unknown]**、**[!UICONTROL HTML]**&#x200B;或&#x200B;**[!UICONTROL Text]**，Adobe Campaign會自動偵測（傳送電子郵件時）要使用的日文格式，以便正確顯示訊息。
 
@@ -73,7 +73,7 @@ Adobe Campaign可讓您檢查您的訊息格式是否適合傳送至日本行動
 * 檢查訊息中的影像數量是否未超過格式的限制（20個影像）
 * 檢查郵件大小總計（小於100kB）
 
-  ![](assets/deco-mail_06.png)
+  ![預覽結果視窗，其中的Deco-mail診斷標籤列出不支援的標籤和100 kB大小限制](assets/deco-mail_06.png)
 
 ### 執行型別規則 {#running-typology-rule}
 
@@ -91,14 +91,14 @@ Adobe Campaign可讓您檢查您的訊息格式是否適合傳送至日本行動
 
 例如，若已在&#x200B;**[!UICONTROL Decore Mail (Softbank)]**&#x200B;預先定義此設定檔的電子郵件格式，您可以用test@softbank.ne.jp取代設定檔的位址。
 
-![](assets/deco-mail_05.png)
+![使用對應至設定檔的softbank.ne.jp測試位址來替代位址模式，以傳送證明對話方塊](assets/deco-mail_05.png)
 
 ## 傳送訊息 {#sending-messages}
 
 若要使用Campaign以日文電子郵件格式傳送電子郵件給收件者，有兩個可能的選項：
 
-* 建立兩個傳遞：一個僅用於日文收件者，另一個用於其他收件者 — 請參閱[本節](#designing-a-specific-delivery-for-japanese-formats)。
-* 建立單一傳遞，Adobe Campaign會自動偵測要使用的格式 — 請參閱[本節](#designing-a-delivery-for-all-formats)。
+* 建立兩個傳遞：一個僅供日文收件者使用，另一個則供其他收件者使用 — 請參閱[為日文格式設計特定傳遞](#designing-a-specific-delivery-for-japanese-formats)。
+* 建立單一傳遞，Adobe Campaign會自動偵測要使用的格式 — 請參閱[為所有格式設計傳遞](#designing-a-delivery-for-all-formats)。
 
 ### 設計日文格式的特定傳遞 {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -106,9 +106,9 @@ Adobe Campaign可讓您檢查您的訊息格式是否適合傳送至日本行動
 
 若要這麼做，請在工作流程中使用&#x200B;**[!UICONTROL Split]**&#x200B;活動，並將日文電子郵件格式（裝飾郵件、裝飾郵件和裝飾郵件）定義為篩選條件。
 
-![](assets/deco-mail_08.png)
+![篩選對話方塊，其中包含三個電子郵件格式條件，這些條件組合為Or：裝飾郵件、裝飾郵件和裝飾郵件](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![工作流程：查詢、重複資料刪除，然後依電子郵件格式分割為日文的行動裝置傳遞和標準傳遞](assets/deco-mail_07.png)
 
 ### 為所有格式設計傳遞 {#designing-a-delivery-for-all-formats}
 
@@ -118,4 +118,4 @@ Adobe Campaign可讓您檢查您的訊息格式是否適合傳送至日本行動
 
 >[!IMPORTANT]
 >
->請務必遵守與每種日文電子郵件格式（裝飾郵件、裝飾郵件和裝飾郵件）相關的特殊功能。 如需限制的詳細資訊，請參閱[本節](#limitations-and-recommendations)。
+>請務必遵守與每種日文電子郵件格式（裝飾郵件、裝飾郵件和裝飾郵件）相關的特殊功能。 有關限制的詳細資訊，請參閱[限制和建議](#limitations-and-recommendations)。

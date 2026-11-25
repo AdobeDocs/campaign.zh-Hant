@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1338'
+ht-degree: 4%
 ---
 # 設計 iOS 豐富的推播傳遞 {#rich-push}
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Default]**。
 
-   ![](assets/rich_push_ios_default_1.png)
+   ![「一般」索引標籤，其中包含「通知型別」下拉式清單，「預設」、「基本」、「輪播」和「計時器」](assets/rich_push_ios_default_1.png)
 
 1. 在&#x200B;**[!UICONTROL Title]**&#x200B;欄位中，輸入您要顯示在通知中心可用通知清單中的標題標籤。
 
@@ -66,17 +66,17 @@ ht-degree: 5%
 
 1. 在精靈的&#x200B;**[!UICONTROL Message content]**&#x200B;區段中輸入訊息的內容。
 
-   ![](assets/rich_push_ios_default_2.png)
+   ![一般索引標籤，預設通知型別、標題和訊息內容已填入](assets/rich_push_ios_default_2.png)
 
 1. 導覽至&#x200B;**[!UICONTROL Sound and Badge]**&#x200B;標籤以自訂其他設定，例如通知的聲音和徽章選項。 [了解更多](#sound-badge)
 
-   ![](assets/rich_push_ios_default_3.png)
+   ![已勾選「清潔徽章」的「聲音與徽章」標籤、「嚴重警示模式」及「聲音名稱」設定](assets/rich_push_ios_default_3.png)
 
 1. 從&#x200B;**[!UICONTROL Application variables]**&#x200B;索引標籤，會自動新增您的&#x200B;**[!UICONTROL Application variables]**。 它們可讓您定義通知行為，例如，您可以設定當使用者啟動通知時顯示的特定應用程式畫面。
 
 1. 如需進一步自訂，請探索可用於推播通知的&#x200B;**[!UICONTROL Advanced options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![進階索引標籤，內含Thread-id、Category、Target Content ID、Launch影像與Relevance分數欄位](assets/rich_push_ios_default_4.png)
 
 1. 設定通知後，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以預覽通知。
 
@@ -86,13 +86,13 @@ ht-degree: 5%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Basic]**。
 
-   ![](assets/rich_push_ios_basic_1.png)
+   ![已選取「基本」的「通知型別」下拉式清單，新增「展開標題」和「展開訊息」欄位](assets/rich_push_ios_basic_1.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Expanded message]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_ios_basic_2.png)
+   ![基本通知，標題、展開標題、訊息和展開訊息欄位已填入](assets/rich_push_ios_basic_2.png)
 
 1. 選擇性地新增與iOS通知承載之&#x200B;**subtitle**&#x200B;引數相對應的&#x200B;**[!UICONTROL Subtitle]**。
 
@@ -102,11 +102,11 @@ ht-degree: 5%
 
 1. 如需進一步自訂，請探索可用於推播通知的&#x200B;**[!UICONTROL Advanced options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![進階索引標籤，內含Thread-id、Category、Target Content ID、Launch影像與Relevance分數欄位](assets/rich_push_ios_default_4.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表中，輸入&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
-   ![](assets/rich_push_ios_basic_3.png)
+   ![包含標題色彩、訊息色彩和背景色彩欄位的[色彩選項]索引標籤](assets/rich_push_ios_basic_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -116,17 +116,17 @@ ht-degree: 5%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Carousel]**。
 
-   ![](assets/rich_push_ios_carousel_1.png)
+   ![已選取轉盤的「通知型別」下拉式清單，新增「顏色選項」和「轉盤選項」索引標籤](assets/rich_push_ios_carousel_1.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Expanded Title]**&#x200B;和&#x200B;**[!UICONTROL Message]**&#x200B;欄位中輸入文字。
 
-   ![](assets/rich_push_ios_carousel_2.png)
+   ![標題、展開標題及訊息欄位已填入的轉盤通知](assets/rich_push_ios_carousel_2.png)
 
 1. 導覽至&#x200B;**[!UICONTROL Sound and Badge]**&#x200B;標籤以自訂其他設定，例如通知的聲音和徽章選項。 [了解更多](#sound-badge)
 
 1. 從&#x200B;**[!UICONTROL Application variables]**&#x200B;索引標籤，會自動新增您的&#x200B;**[!UICONTROL Application variables]**。 它們可讓您定義通知行為，例如，您可以設定當使用者啟動通知時顯示的特定應用程式畫面。
 
-   ![](assets/rich_push_ios_carousel_4.png)
+   具有執行緒ID、目標內容ID和點按動作欄位的轉盤通知的![進階索引標籤](assets/rich_push_ios_carousel_4.png)
 
 1. 如需進一步自訂，請探索可用於推播通知的&#x200B;**[!UICONTROL Advanced options]**。 [了解更多](#push-advanced)
 
@@ -141,7 +141,7 @@ ht-degree: 5%
 
    請確定您至少包含三個影像，最多包含五個影像。
 
-   ![](assets/rich_push_ios_carousel_3.png)
+   ![轉盤選項索引標籤具有手動操作模式，且影像清單具有動作URI](assets/rich_push_ios_carousel_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -151,13 +151,13 @@ ht-degree: 5%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Timer]**。
 
-   ![](assets/rich_push_ios_timer_1.png)
+   ![已選取計時器的[通知型別]下拉式清單，新增[色彩選項]和[計時器選項]索引標籤](assets/rich_push_ios_timer_1.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Expanded title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_ios_timer_2.png)
+   ![標題、展開標題及訊息欄位已填入的計時器通知](assets/rich_push_ios_timer_2.png)
 
 1. 選擇性地新增與iOS通知承載之&#x200B;**subtitle**&#x200B;引數相對應的&#x200B;**[!UICONTROL Subtitle]**。
 
@@ -169,13 +169,13 @@ ht-degree: 5%
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表中，輸入&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
-   ![](assets/rich_push_ios_timer_4.png)
+   ![色彩選項索引標籤，包含標題色彩、訊息色彩、背景色彩和計時器色彩欄位](assets/rich_push_ios_timer_4.png)
 
 1. 從&#x200B;**[!UICONTROL Timer]**&#x200B;索引標籤，將您的&#x200B;**[!UICONTROL Timer duration]**&#x200B;設為秒數，或將&#x200B;**[!UICONTROL Timer end timestamp]**&#x200B;設為特定紀元時間戳記。
 
 1. 在&#x200B;**[!UICONTROL Alternate title]**、**[!UICONTROL Alternate message]**&#x200B;和&#x200B;**[!UICONTROL Alternate image]**&#x200B;欄位中輸入計時器過期後顯示的文字和影像。
 
-   ![](assets/rich_push_ios_timer_3.png)
+   ![含有替代標題、計時器持續時間、替代影像和替代訊息欄位的[計時器選項]索引標籤](assets/rich_push_ios_timer_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 | **[!UICONTROL Clean Badge]** | 啟用此選項以重新整理徽章值。 |
 | **[!UICONTROL Value]** | 設定用於直接在應用程式圖示上顯示新未讀取資訊的數字。 |
 | **[!UICONTROL Critical alert mode]** | 啟用此選項可在您的通知中新增音效，即使使用者的電話設定為焦點模式或iPhone已靜音亦然。 |
-| **[!UICONTROL Name]** | 選取在收到通知時由行動終端機播放的音效。 |
+| **[!UICONTROL Name]** | Select在收到通知時由行動終端機播放的音效。 |
 | **[!UICONTROL Volume]** | 將音量從0設定為100。 聲音必須包含在應用程式中，並在建立服務時定義。 |
 
 ### 進階選項 {#notification-options}

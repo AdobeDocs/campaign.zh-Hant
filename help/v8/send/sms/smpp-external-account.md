@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3734'
 ht-degree: 3%
 ---
 # SMPP外部帳戶設定 {#smpp-external-account}
@@ -53,7 +53,7 @@ SMS服務提供者端的網路裝置通常稱為SMSC。
 
 ## 連線設定 {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![SMPP外部帳戶的連線設定標籤：伺服器、連線埠、帳戶、密碼和連線模式](assets/smpp_connection_settings.png){zoomable="yes"}
 
 以下是設定連線所需的引數及其角色：
 
@@ -94,7 +94,7 @@ SMS服務提供者端的網路裝置通常稱為SMSC。
 
 ## SMPP 管道設定 {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![SMPP通道設定標籤：音譯選項、來源號碼、來源和目的地TON/NPI、服務型別](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### 授權字元音譯 {#smpp-transliteration}
 
@@ -124,7 +124,7 @@ TON （編號型別）和NPI （編號計畫指示器） （在SMPP 3.4規格的
 
 ## 輸送量和延遲 {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![輸送量和延遲標籤：傳送視窗、最大MT輸送量、重新連線、到期、繫結逾時、enquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 這些設定控制SMPP頻道的所有計時方面。 某些提供者需要非常精確的訊息速率、視窗和重試時間控制，因此這些設定應該設定為符合提供者容量與其合約中指示之條件的值。
 
@@ -134,7 +134,7 @@ TON （編號型別）和NPI （編號計畫指示器） （在SMPP 3.4規格的
 
 最大視窗為4的傳輸範例：
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![促銷活動與SMSC之間的順序： SUBMIT_SM請求與SUBMIT_SM_RESP回覆的視窗為4](assets/sms_sending_window.png){zoomable="yes"}
 
 當網路連結具有高延遲時，此視窗有助於增加輸送量。 視窗的值必須至少是SMS/s數乘以連結的延遲（以秒為單位），這樣聯結器就不會在傳送下一個訊息之前等待SUBMIT_SM_RESP。
 
@@ -199,7 +199,7 @@ inquire_link是一種特殊型別的PDU，傳送後會讓連線保持連線。 �
 
 ## SMSC 特異性 {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+![包含message_payload、繫結TON/NPI、狀態規則運算式、ID格式和TLS選項的SMSC特性標籤](assets/smsc_specificities.png){zoomable="yes"}
 
 ### 啟用 message_payload
 
@@ -347,7 +347,7 @@ SMPP通訊協定規格並未嚴格執行SR格式。 這只是規格附錄B中說
 
 ## 傳入流量 {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![傳入流量標籤：MO中的選用SMPP引數(TLV)以及MO](assets/incoming_traffic.png){zoomable="yes"}的自動回覆表格
 
 ### MO中的選用SMPP引數(TLV)
 

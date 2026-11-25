@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # Personalization資料來源{#personalization-data}
@@ -53,7 +53,7 @@ Personalization資料可從各種型別的來源擷取：Campaign資料庫資料
 
 可透過[同盟資料存取](../connect/fda.md)，從外部資料表提取Personalization資料。  如果您想使用外部資料庫中的資料在傳遞中執行個人化，請收集要在工作流程中使用的資料，以便在臨時表格中提供。
 
-若要執行此動作，請在目標工作流程中新增&#x200B;**查詢**&#x200B;活動，並使用&#x200B;**新增資料……**&#x200B;連結來選取外部資料庫。 詳細程式可在[此區段](../../automation/workflow/query.md#adding-data)中取得。
+若要執行此動作，請在目標工作流程中新增&#x200B;**查詢**&#x200B;活動，並使用&#x200B;**新增資料……**&#x200B;連結來選取外部資料庫。 詳細處理可在[新增資料](../../automation/workflow/query.md#adding-data)中使用。
 
 然後，使用臨時表格中的資料來個人化您的傳遞。 設定查詢活動後，請從&#x200B;**Target擴充功能**&#x200B;專案存取個人化選項中的外部資料。
 
@@ -87,4 +87,4 @@ Adobe Campaign介面中看不到此工作流程。 其目的僅在於成為快�
 
 在工作流程內容中建立傳遞時，您可以使用暫時工作流程表格中的資料。 儲存在工作流程臨時工作表中的資料可用於個人化任務。 資料可用於個人化欄位。
 
-此資料會分組到&#x200B;**[!UICONTROL Target extension]**&#x200B;功能表中。 如需詳細資訊，請參閱[本節](../../automation/workflow/use-workflow-data.md#target-data)。
+此資料會分組到&#x200B;**[!UICONTROL Target extension]**&#x200B;功能表中。 如需詳細資訊，請參閱[利用目標資料](../../automation/workflow/use-workflow-data.md#target-data)。

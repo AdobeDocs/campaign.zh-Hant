@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '838'
 ht-degree: 2%
 ---
 # 傳送及監視您的電子郵件  {#send-and-monitor-emails}
@@ -77,7 +77,7 @@ MTA會符合SMTP退信的資格，並以對應至Campaign退信原因和資格�
 >
 >目前&#x200B;**非同步**&#x200B;退信由inMail處理序透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則限定。
 
-在[本節](delivery-failures.md)中進一步瞭解傳遞失敗。
+深入瞭解Campaign[&#128279;](delivery-failures.md)中傳送失敗的傳送情況。
 
 
 ### 特定MX規則
@@ -112,9 +112,9 @@ Campaign電子郵件回饋服務(EFS)會報告隨Adobe Campaign傳送的每個�
 
 >[!NOTE]
 >
->如需硬退信和軟退信的詳細資訊，請參閱[本節](delivery-failures.md#delivery-failure-reasons)。
+>如需硬退信和軟退信的詳細資訊，請參閱[為什麼訊息傳遞失敗](delivery-failures.md#delivery-failure-reasons)。
 >
->如需傳送暫時失敗後重試的詳細資訊，請參閱[本節](delivery-failures.md#retries)。
+>如需傳送暫時失敗後重試的詳細資訊，請參閱[重試管理](delivery-failures.md#retries)。
 
 下表顯示如何在傳送程式的每個步驟更新KPI和傳送記錄檔狀態。
 

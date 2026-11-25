@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1244'
 ht-degree: 1%
 ---
 # 建立調查的關鍵步驟{#getting-started-with-surveys}
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 以下快速概述使用下列內建範本建立簡單調查的主要步驟：
 
-![](assets/s_ncs_admin_survey_result.png)
+![問卷頁面您的詳細資料，包括姓氏、帳號及電子郵件欄位、電子郵件格式清單及驗證按鈕](assets/s_ncs_admin_survey_result.png)
 
 這些步驟為：
 
@@ -52,13 +52,13 @@ ht-degree: 1%
 
 若要建立新的問卷，請移至&#x200B;**[!UICONTROL Campaigns]**&#x200B;或&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Web Applications]**&#x200B;功能表。 按一下表單清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
-![](assets/s_ncs_admin_survey_create.png)
+![Web應用程式清單位於[行銷活動]索引標籤中，表單清單上方有[建立]按鈕](assets/s_ncs_admin_survey_create.png)
 
 ## 步驟2 — 選取範本 {#step-2---selecting-the-template}
 
 選取意見調查範本，然後指定意見調查的名稱。 一般使用者不會看到此名稱，但可讓您在Adobe Campaign中識別調查。 按一下&#x200B;**[!UICONTROL Save]**&#x200B;將問卷新增至Web應用程式清單。
 
-![](assets/s_ncs_admin_survey_wz_00.png)
+![新增Web應用程式對話方塊，其中已選取新調查範本、標籤、資料夾和儲存按鈕](assets/s_ncs_admin_survey_wz_00.png)
 
 ## 步驟3 — 建立調查 {#step-3---building-the-survey}
 
@@ -70,34 +70,34 @@ ht-degree: 1%
 
 * 若要建立頁面，請在編輯器的左側區段中選取&#x200B;**[!UICONTROL Page]**&#x200B;物件，並將其儲存在中間區段中，如下所示：
 
-  ![](assets/s_ncs_admin_survey_new_page.png)
+  ![將Page物件從[一般]清單拖曳至圖表區域的意見調查編輯器](assets/s_ncs_admin_survey_new_page.png)
 
 * 接著，選取&#x200B;**[!UICONTROL Storage]**&#x200B;物件，並將其置於頁面的輸出轉變上。
 * 最後，選取&#x200B;**[!UICONTROL End]**&#x200B;物件，並將其放置在儲存方塊的輸出轉換結尾，以取得下列圖表：
 
-  ![](assets/s_ncs_admin_survey_end.png)
+  ![包含由轉換連結的Page、Storage方塊和End物件的調查圖表](assets/s_ncs_admin_survey_end.png)
 
 ## 步驟4 — 建立頁面內容 {#step-4---creating-the-page-content}
 
 在下列範例中，我們使用&#x200B;**[!UICONTROL Page (v5 compatibility)]**&#x200B;型別頁面。 透過&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤的進階功能表存取此型別的頁面。
 
-![](assets/s_ncs_admin_survey_pagev5.png)
+![在頁面、儲存空間、結束圖表中選取頁面（v5相容性）物件的[編輯]索引標籤的進階清單](assets/s_ncs_admin_survey_pagev5.png)
 
 * **新增輸入欄位**
 
   若要建立頁面的內容，您必須編輯它：若要這麼做，請連按兩下&#x200B;**[!UICONTROL Page]**&#x200B;物件。 按一下工具列中的第一個圖示以開啟欄位建立助理。 若要建立使用者名稱輸入欄位，以儲存在收件者設定檔的相符欄位中，請選取&#x200B;**[!UICONTROL Edit a recipient]**。
 
-  ![](assets/s_ncs_admin_survey_add_field_menu.png)
+  ![已選取[編輯收件者]選項的欄位建立精靈，以新增表單欄位](assets/s_ncs_admin_survey_add_field_menu.png)
 
   按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕以選取資料庫中資料儲存的欄位。 在此案例中，「姓氏」欄位。
 
-  ![](assets/s_ncs_admin_survey_choose_field.png)
+  ![欄位建立精靈列出收件者欄位，並選取姓氏作為要輸入的欄位](assets/s_ncs_admin_survey_choose_field.png)
 
   按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以確認建立欄位。
 
   根據預設，當資訊儲存在資料庫中已存在的欄位中時，欄位會採用所選欄位的名稱，即此範例中的「姓氏」。 您可以修改此標籤，如下所示：
 
-  ![](assets/s_ncs_admin_survey_change_label.png)
+  ![頁面編輯器，其中的[姓氏]欄位標籤已變更為[您的姓名]，儲存在資料庫欄位@lastName](assets/s_ncs_admin_survey_change_label.png)中
 
   現在為使用者帳號建立輸入欄位。 重複操作並選取[帳戶編號]欄位。
 
@@ -107,29 +107,29 @@ ht-degree: 1%
 
   若要建立問題，請在樹狀結構中的最後一個元素上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Containers > Question]**，或按一下&#x200B;**[!UICONTROL Containers]**&#x200B;圖示並選取&#x200B;**[!UICONTROL Question]**。
 
-  ![](assets/s_ncs_admin_survey_add_qu.png)
+  ![開啟了容器功能表並選取問題的頁面編輯器，位於名稱、帳號及電子郵件欄位下方](assets/s_ncs_admin_survey_add_qu.png)
 
   輸入問題的標籤，並將答案欄位插入為問題的子分支。 要執行此操作，當您建立答案欄位時，必須選取連結到問題的節點。 使用&#x200B;**[!UICONTROL Selection controls]**&#x200B;圖示或按一下右鍵新增&#x200B;**[!UICONTROL drop-down list]**，如下所示：
 
-  ![](assets/s_ncs_admin_survey_add_list.png)
+  ![在[選取控制項]開啟且[組合方塊]反白顯示的問題上按一下滑鼠右鍵功能表](assets/s_ncs_admin_survey_add_list.png)
 
   選取儲存空間：選取分項清單欄位以自動擷取值（在此案例中為電子郵件格式）。
 
-  ![](assets/s_ncs_admin_survey_add_itz_list.png)
+  ![儲存對話方塊，其中包含編輯選取的收件者和電子郵件格式(@emailFormat)資料庫欄位](assets/s_ncs_admin_survey_add_itz_list.png)
 
   在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Initialize the list of values from the database]**&#x200B;連結：會自動輸入值表。
 
-  ![](assets/s_ncs_admin_survey_add_value.png)
+  ![組合方塊[一般]索引標籤，具有[初始化資料庫連結的值清單]和已填的值清單](assets/s_ncs_admin_survey_add_value.png)
 
   按一下&#x200B;**[!UICONTROL OK]**&#x200B;關閉編輯器，並按一下&#x200B;**[!UICONTROL Save]**&#x200B;儲存變更。
 
   >[!NOTE]
   >
-  >您可以利用&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤中的選項，針對每個欄位或問題調整頁面版面以符合您的需求。 問卷熒幕的版面配置在[此區段](../web/about-web-forms.md)中有詳細說明。
+  >您可以利用&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤中的選項，針對每個欄位或問題調整頁面版面以符合您的需求。 問卷熒幕的版面配置在[開始使用網路表單](../web/about-web-forms.md)中有詳細說明。
 
   在詳細資訊畫面中，按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視您剛建立的問卷的呈現。
 
-  ![](assets/s_ncs_admin_survey_preview.png)
+  ![預覽索引標籤顯示調查頁面，包含名稱、帳號、電子郵件和電子郵件格式欄位以及驗證按鈕](assets/s_ncs_admin_survey_preview.png)
 
 ## 步驟5 — 儲存調查資料 {#step-5---storing-the-survey-data-}
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 在以下範例中，當儲存（確認）發生時，如果設定檔以與表單中輸入相同的帳號儲存在資料庫中，則會更新設定檔。 如果設定檔不存在，則會建立設定檔。
 
-![](assets/s_ncs_admin_survey_save_edit.png)
+![儲存方塊對話方塊，其帳號欄位已核取為收件者](assets/s_ncs_admin_survey_save_edit.png)下的調解金鑰
 
 按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認，然後按一下&#x200B;**[!UICONTROL Save]**&#x200B;儲存問卷。
 
@@ -150,17 +150,17 @@ ht-degree: 1%
 * 按一下位於意見調查儀表板上方的&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
 * 按一下&#x200B;**[!UICONTROL Start]**&#x200B;以啟動出版物並關閉助理。
 
-  ![](assets/s_ncs_admin_survey_start_publ.png)
+  ![儀表板發佈按鈕，指向帶有「開始」按鈕的Web應用程式發佈對話方塊](assets/s_ncs_admin_survey_start_publ.png)
 
   問卷的狀態變更為： **線上**。
 
-  ![](assets/survey_published.png)
+  ![狀態變更為[線上]且顯示出版日期與公用URL的調查儀表板](assets/survey_published.png)
 
 ## 步驟7 — 分享您的線上意見調查 {#step-7---sharing-your-online-survey}
 
 調查一旦投入生產，就可在伺服器上存取，而且您可以提供。 用於存取調查的URL會顯示在控制面板上。
 
-![](assets/survey_url_from_dashboard.png)
+![具有指向線上意見調查之公用URL欄位的箭頭的意見調查儀表板](assets/survey_url_from_dashboard.png)
 
 例如，若要傳送調查，您可以傳送包含目標人口存取連結的訊息，或將調查存取URL放在網頁上。
 

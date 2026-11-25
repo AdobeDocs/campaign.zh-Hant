@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '1159'
 ht-degree: 1%
 ---
 # 個人化優惠券{#personalized-coupons}
@@ -55,12 +55,12 @@ ht-degree: 1%
 
 1. 在行銷活動樹狀結構中，移至&#x200B;**[!UICONTROL Resources > Campaign management > Coupons]**。
 
-   ![](assets/deliv_coup_01.png)
+   ![含有資源的行銷活動樹狀結構，已展開行銷活動管理，並已選取優惠券節點](assets/deliv_coup_01.png)
 
 1. 按一下 **[!UICONTROL New]** 按鈕。
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入優惠券的名稱。 已在&#x200B;**[!UICONTROL Coupon code]**&#x200B;中自動輸入唯一代碼。 您可以保留代碼或輸入新代碼。
 
-   ![](assets/deliv_coup_02.png)
+   ![優惠券清單和優惠券的「一般」標籤，包含「標籤」、「優惠券代碼」、「優惠券型別」、「開始日期」和「結束日期」欄位](assets/deliv_coup_02.png)
 
 1. 選擇&#x200B;**[!UICONTROL Start date]**&#x200B;與&#x200B;**[!UICONTROL End date]**&#x200B;以設定優惠券的有效期間。
 1. 在&#x200B;**[!UICONTROL Coupon type]**&#x200B;中，選擇「匿名」或「個人」。
@@ -77,11 +77,11 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >個別優惠券可大量匯入。 如需有關匯入和匯出的詳細資訊，請參閱[本區段](../start/import.md)。
+   >個別優惠券可大量匯入。 如需有關匯入和匯出的詳細資訊，請參閱[開始使用設定檔](../start/import.md)。
 
 ### 設定個別優惠券 {#configuring-individual-coupons}
 
-![](assets/deliv_coup_03.png)
+![優惠券的抵用券索引標籤，列出個別優惠券代碼，每個代碼都具有「可用」狀態](assets/deliv_coup_03.png)
 
 「優惠券」標籤僅適用於「個別優惠券」。 優惠券與傳遞相關聯後，「優惠券」索引標籤會提供下列詳細資訊：
 
@@ -94,64 +94,64 @@ ht-degree: 1%
 
 ## 在電子郵件傳遞中插入抵用券 {#inserting-a-coupon-into-an-email-delivery}
 
-在下列範例中，會從首頁建立傳送。 如需有關如何建立傳遞的詳細說明，請參閱[本節](email.md)。
+在下列範例中，會從首頁建立傳送。 如需有關如何建立傳遞的詳細說明，請參閱[使用Adobe Campaign傳送電子郵件](email.md)。
 1. 移至&#x200B;**[!UICONTROL Campaigns]**&#x200B;並選擇&#x200B;**[!UICONTROL Deliveries]**。
 1. 按一下 **[!UICONTROL Create]**。
 
-   ![](assets/deliv_coup_04.png)
+   ![行銷活動標籤上的傳遞清單，其建立按鈕為反白顯示](assets/deliv_coup_04.png)
 
 1. 在&#x200B;**[!UICONTROL Label]**&#x200B;中輸入名稱並按一下&#x200B;**[!UICONTROL Continue]**。
 1. 按一下&#x200B;**[!UICONTROL To]**&#x200B;以新增收件者。
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選擇傳遞的收件者。 選取收件者後，按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以返回傳遞。
 
-   ![](assets/deliv_coup_05.png)
+   主要目標標籤上的![Select目標對話方塊，其中的[新增]按鈕反白顯示](assets/deliv_coup_05.png)
 
 1. 輸入主旨並將內容新增至訊息。
 
-   ![](assets/deliv_coup_06.png)
+   ![包含優惠券電子郵件主旨和HTML內容的傳遞編輯器](assets/deliv_coup_06.png)
 
 1. 在工具列中按一下&#x200B;**[!UICONTROL Properties]**&#x200B;並選擇&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤。
 1. 按一下&#x200B;**[!UICONTROL Coupon management]**&#x200B;的資料夾圖示。
 
-   ![](assets/deliv_coup_07.png)
+   ![傳遞屬性「進階」標籤，優惠券管理中優惠券欄位旁會顯示資料夾圖示](assets/deliv_coup_07.png)
 
 1. 選擇優惠券並按一下&#x200B;**[!UICONTROL Ok]**。 再按一下&#x200B;**[!UICONTROL Ok]**。
 
-   ![](assets/deliv_coup_08.png)
+   ![優惠券選取對話方塊列出已選取足球優惠券的優惠券檔案](assets/deliv_coup_08.png)
 
 1. 按一下訊息以選擇要放置抵用券的位置。
 
-   ![](assets/deliv_coup_09.png)
+   ![將游標置於要插入優惠券代碼位置的HTML內容編輯器](assets/deliv_coup_09.png)
 
 1. 按一下個人化圖示，根據抵用券型別選擇下列其中一項：
 
    * 匿名優惠券： **[!UICONTROL Coupon > Coupon code]**
 
-     ![](assets/deliv_coup_10.png)
+     ![已選取優惠券的Personalization功能表，然後選取優惠券代碼，以取得匿名優惠券](assets/deliv_coup_10.png)
 
    * 個別優惠券： **[!UICONTROL Coupon value > Coupon code]**
 
-     ![](assets/deliv_coup_11.png)
+     ![Personalization功能表，針對個別優惠券，先選取優惠券值，再選取優惠券代碼](assets/deliv_coup_11.png)
 
      抵用券會以程式碼的形式插入訊息中，而非您指派的名稱。 此程式碼用於Campaign ootb資料模型。
 
-   ![](assets/deliv_coup_12.png)
+   ![電子郵件內容包含插入的優惠券代碼指令碼couponValue.couponCode，醒目提示](assets/deliv_coup_12.png)
 
 1. 執行測試以確認您指派給優惠券的名稱。 前往&#x200B;**[!UICONTROL Preview]**&#x200B;標籤並按一下&#x200B;**[!UICONTROL Test personalization]**。 選擇測試的收件者。
 
-   ![](assets/deliv_coup_13.png)
+   ![預覽索引標籤，其中的[測試個人化]功能表已開啟，[收件者]選項已反白顯示](assets/deliv_coup_13.png)
 
    測試後，抵用券應顯示為指派的名稱，而非程式碼。
 
-   ![](assets/deliv_coup_14.png)
+   ![郵件內文顯示優惠券代碼Trynow的電子郵件預覽](assets/deliv_coup_14.png)
 
 1. 在工具列中按一下&#x200B;**[!UICONTROL Send]** （左上方），然後選擇您要傳送傳遞的方式。
 
-   ![](assets/deliv_coup_15.png)
+   ![使用[儘快傳遞]選項和[分析]按鈕，傳送至主要傳遞目標對話方塊](assets/deliv_coup_15.png)
 
 1. 按一下 **[!UICONTROL Analyze]**。 如果分析記錄檔確認所有收件者都有足夠的優惠券，請按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;以傳送。
 
-   ![](assets/deliv_coup_16.png)
+   ![傳遞分析記錄檔顯示2張已回收的抵用券，且[確認傳遞]按鈕可用](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ ht-degree: 1%
 1. 移至&#x200B;**[!UICONTROL Explorer > Resources > Campaign management > Coupons]**。
 1. 按一下「**[!UICONTROL Deliveries]**」標籤。
 
-   ![](assets/deliv_coup_17.png)
+   優惠券的![傳遞索引標籤，其中列出使用它的傳遞以及其狀態和訊息計數](assets/deliv_coup_17.png)
 
    成功傳遞的狀態讀取為&#x200B;**[!UICONTROL Finished]**。
 
@@ -180,12 +180,12 @@ ht-degree: 1%
 1. 按一下 **[!UICONTROL To]**。
 1. 在&#x200B;**[!UICONTROL Select target]**&#x200B;中，移至&#x200B;**[!UICONTROL Exclusions]**&#x200B;標籤。
 
-   ![](assets/deliv_coup_18.png)
+   ![Select目標對話方塊，其中反白顯示[排除專案]索引標籤，並顯示[編輯排除專案設定]連結](assets/deliv_coup_18.png)
 
 1. 在排除設定區段中，按一下&#x200B;**[!UICONTROL Edit]**。
 1. 輸入您要在&#x200B;**[!UICONTROL Limit delivery to...messages]**&#x200B;中傳送的訊息數目，然後按一下&#x200B;**[!UICONTROL Ok]**。 您可以傳送傳遞。
 
-   ![](assets/deliv_coup_19.png)
+   ![排除設定對話方塊，其[限制傳遞至]欄位設為20則強調顯示的訊息](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >

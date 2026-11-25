@@ -24,16 +24,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '603'
 ht-degree: 4%
 ---
 # 交易型訊息設定 {#mc-settings}
 
-異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign模組。 在[本節](../send/transactional.md)中進一步瞭解異動訊息。
+異動訊息（訊息中心）是專為管理觸發式訊息而設計的Campaign模組。 深入瞭解[行銷活動異動訊息](../send/transactional.md)中的異動訊息。
 
-瞭解[此頁面](../architecture/architecture.md#transac-msg-archi)中的交易式傳訊架構。
+瞭解[訊息中心架構](../architecture/architecture.md#transac-msg-archi)中的異動訊息架構。
 
 
 >[!NOTE]

@@ -7,10 +7,10 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 3%
+source-wordcount: '1592'
+ht-degree: 2%
 ---
 # 將Campaign運運算元移轉至Adobe Identity Management系統(IMS) {#migrate-users-to-ims}
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 透過Campaign v8，所有一般使用者應該已透過Adobe Campaign Identity Management System (IMS)，使用其Adobe ID連線至Adobe使用者端主控台。 但是，使用某些舊版設定時，使用者/密碼連線仍然可用。 **從Campaign v8.6開始不再允許此專案。**
 
-此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術運運算元的移轉作業在專用文章中有詳細說明，可在[此頁面](ims-migration.md)取得。
+此外，為了強化安全性和驗證程式，Adobe Campaign使用者端應用程式現在直接使用IMS技術帳戶權杖呼叫Campaign API。 技術操作員的移轉在專屬文章中有詳細說明，可在[將技術使用者移轉至Adobe Developer主控台](ims-migration.md)中取得。
 
 此變更適用於Campaign v8.5.2開始，且為Campaign v8.6開始的&#x200B;**強制性**。
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 1. Adobe會將您的環境升級至Campaign v8.5.2。
 1. 升級後，您仍然可以透過兩種方法建立新使用者，以原生使用者身分或透過IMS。
-1. 您的內部Campaign管理員必須向Campaign使用者端主控台上的所有原生使用者新增唯一電子郵件，並在完成後向您的Adobe轉變管理員確認。 此步驟在[此區段](#ims-migration-id)中有詳細說明。
+1. 您的內部Campaign管理員必須向Campaign使用者端主控台上的所有原生使用者新增唯一電子郵件，並在完成後向您的Adobe轉變管理員確認。 此步驟在[如何為目前原生使用者新增電子郵件？](#ims-migration-id)中有詳細說明。
 1. 請與Adobe合作，為Adobe確定一個日期，讓非技術使用者（操作員）和產品設定檔執行自動移轉。 此步驟需要一小時的時段，您的任何執行個體都沒有停機時間。
 1. 您的內部Campaign管理員會驗證這些變更，並提供簽核服務。 移轉後，您再也不能建立任何以他的登入和密碼進行驗證的進一步運運算元。
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 身為Campaign管理員，您必須從使用者端主控台新增電子郵件ID至所有原生使用者。 若要執行此作業，請依照下列步驟操作：
 
 1. 連線到使用者端主控台，並瀏覽至&#x200B;**管理>存取管理>操作員**。
-1. 在運運算元清單中選取要更新的運運算元。
+1. Select運運算元，在運運算元清單中更新。
 1. 在操作員表單的&#x200B;**聯絡點**&#x200B;區段中，輸入操作員的電子郵件。
 1. 儲存您的變更。
 
@@ -108,36 +108,36 @@ ht-degree: 3%
 
    在[此頁面](../../automation/workflow/query.md)中進一步瞭解&#x200B;**查詢**&#x200B;活動
 
-   深入瞭解[此頁面](../../automation/workflow/extraction-file.md)中的&#x200B;**資料擷取（檔案）**&#x200B;活動
+   深入瞭解[資料擷取（檔案）](../../automation/workflow/extraction-file.md)中的&#x200B;**資料擷取（檔案）**&#x200B;活動
 
 1. 以包含您操作員電子郵件的新欄更新CSV檔案。
 
 1. 建立工作流程以匯入更新的資料，在工作流程中有&#x200B;**資料載入（檔案）**&#x200B;活動和&#x200B;**更新資料**&#x200B;活動。
 
-   ![](assets/update-operators-wf.png){width="70%"}
+   ![更新操作員工作流程：連結至更新資料活動的資料載入（檔案）活動。](assets/update-operators-wf.png){width="70%"}
 
 1. 編輯&#x200B;**資料載入（檔案）**&#x200B;活動，並定義設定以載入更新的CSV檔案，如以下範例所示。
 
-   ![](assets/data-loading-activity.png){width="70%"}
+   ![資料載入（檔案）活動設定：範例檔案、預覽標籤、名稱和電子郵件欄，以及檔案名稱。](assets/data-loading-activity.png){width="70%"}
 
-   深入瞭解[此頁面](../../automation/workflow/data-loading-file.md)中的&#x200B;**資料載入（檔案）**&#x200B;活動
+   深入瞭解[資料載入（檔案）](../../automation/workflow/data-loading-file.md)中的&#x200B;**資料載入（檔案）**&#x200B;活動
 
 1. 編輯&#x200B;**更新資料**&#x200B;活動，並根據下列範例定義設定。 請注意，**已更新的維度**&#x200B;已變更為`Operators (xtk)`。
 
-   ![](assets/update-data-activity.png){width="70%"}
+   ![使用運運算元維度上的調解金鑰更新資料活動，更新@email和@name欄位。](assets/update-data-activity.png){width="70%"}
 
    在[此頁面](../../automation/workflow/update-data.md)中進一步瞭解&#x200B;**更新資料**&#x200B;活動
 
 1. 執行工作流程並檢查結果。 電子郵件地址已新增到操作員的設定檔。
 
-   ![](assets/updated-operator.png){width="70%"}
+   ![操作員設定檔，連絡人聯絡點中的[電子郵件]欄位強調顯示，顯示新增的電子郵件地址。](assets/updated-operator.png){width="70%"}
 
 +++
 
 
 ### 如何透過IMS登入Campaign？ {#ims-migration-log}
 
-在[本節](../../v8/start/connect.md)中瞭解如何使用您的Adobe ID連線至Campaign。
+瞭解如何在[連線至Campaign v8](../../v8/start/connect.md)中使用您的Adobe ID連線至Campaign。
 
 ### 此移轉期間是否會有停機時間？ {#ims-migration-downtime}
 
@@ -153,7 +153,7 @@ Adobe強烈建議所有使用者在移轉期間登出。
 
 此移轉包括兩個方面：一般使用者移轉和技術使用者移轉（用於自訂程式碼的API）。
 
-如果您的所有使用者（Campaign運運算元）都在IMS上，則不需要執行此移轉。 不過，您仍需要移轉可能已用於自訂程式碼中的技術使用者。 在[本頁](ims-migration.md)中瞭解更多。
+如果您的所有使用者（Campaign運運算元）都在IMS上，則不需要執行此移轉。 不過，您仍需要移轉可能已用於自訂程式碼中的技術使用者。 深入瞭解[將技術使用者移轉至Adobe Developer主控台](ims-migration.md)。
 
 移轉一旦完成，您必須聯絡Adobe轉換經理，Adobe才能完成移轉。
 
@@ -165,15 +165,15 @@ Adobe強烈建議所有使用者在移轉期間登出。
 
 1. 以滑鼠右鍵按一下標題列，並選取&#x200B;**設定清單**&#x200B;功能表。
 
-   ![](assets/ims_2.png)
+   ![開啟滑鼠右鍵功能表並反白顯示[設定清單]選項的[運運算元]清單。](assets/ims_2.png)
 
 1. 將&#x200B;**已停用的帳戶**&#x200B;和&#x200B;**驗證型別**&#x200B;新增為&#x200B;**輸出資料行**。
 
-   ![](assets/ims_1.png)
+   ![已停用帳戶且已將驗證型別新增至輸出資料行的清單設定。](assets/ims_1.png)
 
 您現在可以看到&#x200B;**操作員**&#x200B;及其&#x200B;**驗證型別**&#x200B;的清單。
 
-![](assets/ims_3.png)
+![運運算元清單，其驗證型別欄反白顯示，顯示每個運運算元的原生或IMS。](assets/ims_3.png)
 
 ## 有用的連結 {#ims-useful-links}
 

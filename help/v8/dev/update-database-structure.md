@@ -25,24 +25,24 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '153'
 ht-degree: 0%
 ---
 # 更新資料庫結構 {#updating-the-database-structure}
 
 若要套用對結構描述所做的修改，請啟動資料庫更新精靈。 此助理可以透過&#x200B;**[!UICONTROL Tools > Advanced > Update database structure]**&#x200B;存取。 它會檢查資料庫的實體結構是否符合其邏輯描述，並執行SQL更新指令碼。
 
-![](assets/schema_update.png)
+![資料庫更新精靈：使用[下一步]按鈕來啟動自動探索程式的[更新引數]頁面](assets/schema_update.png)
 
 資料庫中的模組會自動填入並啟動。
 
-![](assets/schema_update_select2.png)
+![資料庫更新精靈[編輯表格]頁面列出表格，並將CusContracts表格設定為同步](assets/schema_update_select2.png)
 
 請依照下列步驟操作，並檢視資料庫更新SQL指令碼：
 
-![](assets/schema_update2.png)
+![資料庫更新精靈：使用CusContracts的SQL CREATE TABLE命令檔更新命令檔頁面](assets/schema_update2.png)
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ ht-degree: 0%
 
 接下來，啟動資料庫更新：
 
-![](assets/schema_update3.png)
+![資料庫更新精靈開始資料庫更新頁面，其中記錄檔顯示更新在100%](assets/schema_update3.png)完成

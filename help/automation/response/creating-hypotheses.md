@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 3%
+source-wordcount: '1375'
+ht-degree: 2%
 ---
 # 建立假設{#creating-hypotheses}
 
@@ -55,11 +55,11 @@ ht-degree: 3%
 1. 在Adobe Campaign樹狀結構中，移至&#x200B;**[!UICONTROL Campaign management > Measurement hypotheses]**。
 1. 按一下「**[!UICONTROL New]**」按鈕，或在假設清單上按一下滑鼠右鍵，然後在下拉式清單中選取&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/response_hypothesis_instance_creation_002.png)
+   ![測量假設清單，包含[新增]按鈕和[新假設]對話方塊以選擇範本](assets/response_hypothesis_instance_creation_002.png)
 
 1. 在假設視窗中，選取先前建立的範本。 [了解更多](hypothesis-templates.md)
 
-   ![](assets/response_hypothesis_instance_creation_003.png)
+   ![新的假設對話方塊，其中包含「假設範本」下拉式清單，列出可用的範本](assets/response_hypothesis_instance_creation_003.png)
 
    在所選模型中定義的假設前後關聯會顯示在視窗中。
 
@@ -67,11 +67,11 @@ ht-degree: 3%
    >
    >範本中定義且在此步驟中不可見的設定也會保留在記憶體中，並重新指派給進行中的假設。
 
-   ![](assets/response_hypothesis_instance_creation_004.png)
+   ![新假設對話方塊顯示從選取的範本和傳遞欄位繼承的查詢](assets/response_hypothesis_instance_creation_004.png)
 
-1. 選取您要建立假設的傳遞。
+1. Select您要建立假設的傳遞。
 
-   ![](assets/response_hypothesis_instance_creation_005.png)
+   ![新的假設對話方塊，其中包含「傳遞」下拉式清單要選取的傳遞](assets/response_hypothesis_instance_creation_005.png)
 
 1. 您可以編輯&#x200B;**[!UICONTROL General]**、**[!UICONTROL Transactions]**&#x200B;和&#x200B;**[!UICONTROL Scope]**&#x200B;標籤，以個人化您的假設。 [了解更多](hypothesis-templates.md#creating-a-hypothesis-model)
 1. 按一下&#x200B;**[!UICONTROL Start]**&#x200B;開始假設。
@@ -87,11 +87,11 @@ ht-degree: 3%
    >
    >如果您已核取此選項，請在工作流程執行後將其刪除。
 
-   ![](assets/response_hypothesis_instance_creation_006.png)
+   測量假設清單的![開始按鈕和開始假設的確認提示](assets/response_hypothesis_instance_creation_006.png)
 
    計算完成後，測量指標會自動更新。
 
-   ![](assets/response_hypothesis_instance_creation_007.png)
+   ![假設一般標籤包含由假設計算的指標，例如回應率和回應](assets/response_hypothesis_instance_creation_007.png)
 
 1. 如有必要，請變更設定並重新啟動假設。
 
@@ -99,14 +99,14 @@ ht-degree: 3%
 
 您可以在行銷活動開始之前，先在行銷活動中參考假設。 在這種情況下，一旦傳送傳遞，就會根據假設範本中定義的執行設定，自動啟動假設。 若要在傳遞中建立假設，請套用下列程式：
 
-1. 根據您的需求，您可以建立一或多個&#x200B;**[!UICONTROL Delivery]**&#x200B;型別範本，如[本節](hypothesis-templates.md#creating-a-hypothesis-model)所述
+1. 根據您的需求，您可以建立一或多個&#x200B;**[!UICONTROL Delivery]**&#x200B;型別範本，如[建立假設模型](hypothesis-templates.md#creating-a-hypothesis-model)中所述
 1. 建立行銷活動和目標定位工作流程。
 1. 在傳遞視窗中，按一下&#x200B;**[!UICONTROL Delivery measurement]**&#x200B;圖示。
-1. 選取假設範本（在模型中設定的查詢會顯示在假設視窗中）。
+1. Select假設範本（在模型中設定的查詢會顯示在假設視窗中）。
 
    行銷活動完成後，系統會根據模型中設定的日期，自動計算假設。 [了解更多](hypothesis-templates.md#hypothesis-template-execution-settings)
 
-   ![](assets/response_hypothesis_instance_creation_008.png)
+   ![傳遞測量視窗，其中包含[新增]按鈕，以參考傳遞中的假設範本](assets/response_hypothesis_instance_creation_008.png)
 
 ## 將預設假設新增至行銷活動的傳遞 {#adding-a-default-hypothesis-to-deliveries-for-a-campaign}
 
@@ -115,15 +115,15 @@ ht-degree: 3%
 1. 前往行銷活動的&#x200B;**[!UICONTROL Edit]**&#x200B;標籤。
 1. 在測量區段中，按一下&#x200B;**[!UICONTROL Default hypotheses]**&#x200B;標籤。
 
-   ![](assets/response_hypothesis_instance_creation_010.png)
+   ![促銷活動編輯標籤、測量區段，以及反白的預設假設標籤](assets/response_hypothesis_instance_creation_010.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取假設範本。
 
-   ![](assets/response_hypothesis_instance_creation_011.png)
+   ![使用行銷活動「預設假設」標籤上的範本下拉式清單，新增假設對話方塊](assets/response_hypothesis_instance_creation_011.png)
 
    根據此範本的假設，現在預設會在行銷活動的每個新傳遞中參照。
 
-   ![](assets/response_hypothesis_instance_creation_012.png)
+   ![目標工作流程中的傳遞測量視窗，其中列出購買假設](assets/response_hypothesis_instance_creation_012.png)
 
 可以在假設的&#x200B;**[!UICONTROL General]**&#x200B;和&#x200B;**[!UICONTROL Reactions]**&#x200B;標籤中檢視假設結果。 [了解更多](hypothesis-tracking.md)
 
@@ -133,19 +133,19 @@ ht-degree: 3%
 
 在優惠方案主張上建立假設，類似於建立即時傳遞假設。 只要優惠方案有效，就可以執行假設。 計算期間以優惠方案主張日期為基礎。 當假設可讓您將收件者連結至購買時，可能會被接受的優惠方案主張的狀態可以自動變更。 [了解更多](hypothesis-templates.md#transactions)
 
-1. 依照[本節](hypothesis-templates.md#creating-a-hypothesis-model)的說明，建立一或多個&#x200B;**[!UICONTROL Offer]**&#x200B;型別模型。
+1. 按照[建立假設模型](hypothesis-templates.md#creating-a-hypothesis-model)中的說明建立一或多個&#x200B;**[!UICONTROL Offer]**&#x200B;型別模型。
 1. 前往&#x200B;**[!UICONTROL Campaign management > Measurement hypotheses]**&#x200B;節點。
 1. 選取先前建立的模型，以建立&#x200B;**[!UICONTROL Offers]**&#x200B;型別假設。
 
-   ![](assets/response_hypothesis_instance_offer_001.png)
+   ![新的假設對話方塊與範本下拉式清單優惠方案範本，例如新的優惠方案假設](assets/response_hypothesis_instance_offer_001.png)
 
    在模型中建立的查詢會出現在視窗中。
 
-   ![](assets/response_hypothesis_instance_offer_003.png)
+   ![與優惠假設範本的新假設對話方塊，且查詢型別等於專案](assets/response_hypothesis_instance_offer_003.png)
 
 1. 選擇要建立假設的優惠方案。
 
-   ![](assets/response_hypothesis_instance_offer_004.png)
+   ![新的假設對話方塊與優惠下拉式清單優惠，例如Trip to Paris](assets/response_hypothesis_instance_offer_004.png)
 
 1. 視需要調整查詢。
 1. 按一下&#x200B;**[!UICONTROL Start]**&#x200B;以執行假設。
@@ -153,7 +153,7 @@ ht-degree: 3%
 
    對優惠方案所做的假設已在&#x200B;**[!UICONTROL Measurement]**&#x200B;索引標籤中參照。
 
-   ![](assets/response_hypothesis_instance_offer_007.png)
+   ![優惠方案量值索引標籤，其中包含連結至優惠方案的假設清單，位於有效ROI計算底下](assets/response_hypothesis_instance_offer_007.png)
 
    如果在假設範本中啟用了&#x200B;**[!UICONTROL Update offer proposition status]**&#x200B;選項，則優惠方案主張的狀態會自動變更，從而對行銷活動的影響提供回饋（如需詳細資訊，請參閱[交易](hypothesis-templates.md#transactions)）。
 
@@ -169,7 +169,7 @@ ht-degree: 3%
 
 1. 設定種子地址：先前建立的假設範本已設定為在反應結果中考慮控制組。
 
-   ![](assets/response_hypothesis_delivery_example_007.png)
+   ![Campaign進階設定，控制項填入標籤，並啟用控制組組態](assets/response_hypothesis_delivery_example_007.png)
 
    >[!NOTE]
    >
@@ -177,28 +177,28 @@ ht-degree: 3%
 
 1. 開啟&#x200B;**[!UICONTROL Direct mail delivery]**&#x200B;並按一下&#x200B;**[!UICONTROL Delivery measurement]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/response_hypothesis_delivery_example_002.png)
+   ![直接郵件傳遞的傳遞測量視窗，包含假設的[新增]按鈕](assets/response_hypothesis_delivery_example_002.png)
 
 1. 從下拉式清單中選擇先前建立的假設範本。
 
-   ![](assets/response_hypothesis_delivery_example_004.png)
+   ![使用範本下拉式清單新增假設對話方塊，列出購買時假設(HYP4)](assets/response_hypothesis_delivery_example_004.png)
 
    將顯示在模型中建立的查詢。
 
-   ![](assets/response_hypothesis_delivery_example_005.png)
+   ![新的假設對話方塊與依票證行範本的假設及其依產品的查詢篩選器](assets/response_hypothesis_delivery_example_005.png)
 
 1. 按一下&#x200B;**[!UICONTROL Edit query...]**，並輸入假設所關心的產品，以調整查詢。
 
-   ![](assets/response_hypothesis_delivery_example_006.png)
+   ![編輯查詢視窗篩選產品名稱等於Clothing的假設](assets/response_hypothesis_delivery_example_006.png)
 
    您可以在行銷活動的&#x200B;**[!UICONTROL Edit]** > **[!UICONTROL Measurement]**&#x200B;索引標籤中檢查該假設是否連結至傳遞。
 
-   ![](assets/response_hypothesis_delivery_example_008.png)
+   ![促銷活動測量區段，測量假設標籤，列出傳遞購買假設](assets/response_hypothesis_delivery_example_008.png)
 
 1. 啟動您的目標定位工作流程，並執行必要的檢查，直到行銷活動完成為止。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=zh-Hant#start-a-delivery){target=_blank}。
 
-   ![](assets/response_hypothesis_delivery_example_009.png)
+   ![具有進行中直接郵件傳遞的行銷活動儀表板，及其狀態、目標母體與校樣](assets/response_hypothesis_delivery_example_009.png)
 
 1. 在Adobe Campaign樹狀結構中，前往&#x200B;**[!UICONTROL Campaign management > Measurement hypotheses]**&#x200B;節點以檢查由假設所計算的指標。
 
-   ![](assets/response_hypothesis_delivery_example_010.png)
+   ![測量假設清單和[一般]索引標籤，包含計算的指標，例如連絡的回應率](assets/response_hypothesis_delivery_example_010.png)

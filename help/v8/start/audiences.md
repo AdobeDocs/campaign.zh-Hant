@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 18%
 ---
 # 在Campaign中配合對象{#gs-ac-audiences}
@@ -44,13 +44,13 @@ ht-degree: 18%
 
 清單是一組靜態的聯絡人，可在傳遞動作中定位，或在匯入或其他工作流程動作中更新。 例如，透過查詢從資料庫中擷取的母體可儲存為清單。
 
-瞭解如何在[此頁面](../audiences/create-audiences.md)中建立和管理清單。
+瞭解如何在[在Campaign](../audiences/create-audiences.md)中建立設定檔對象中建立和管理清單。
 
 ## 篩選資料庫{#filter-the-database}
 
 篩選設定可讓您從清單&#x200B;**[!UICONTROL dynamically]**&#x200B;中選取資料：修改資料時，會更新篩選的資料。 您可以建立自己的篩選器，或使用內建篩選器來定義目標對象。
 
-瞭解如何在[此頁面](../audiences/create-filters.md)中建立和管理篩選器。
+瞭解如何在[使用Adobe Campaign](../audiences/create-filters.md)中的篩選器。
 
 ## 在工作流程中建立對象
 

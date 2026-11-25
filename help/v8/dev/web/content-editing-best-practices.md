@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 3%
 ---
 # 內容編輯最佳實務{#content-editing-best-practices}
 
@@ -51,13 +51,13 @@ ht-degree: 4%
 
   **&#39;type&#39;**&#x200B;屬性會以下列形式顯示在介面中：
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![輸入區域（電子郵件）側邊欄面板，包含表單資料區段、欄位選擇器以及「強制是」或「否」切換](assets/dce_sidebar_inputtypechanges.png)
 
   這個網站[&#128279;](https://www.w3schools.com/tags/att_input_type.asp)中的&#39;type&#39;屬性正式清單為。
 
 * 使用DCE模擬結束頁面的步驟：
 
-  ![](assets/dce_enchainement.png)
+  ![表單圖表，依序有[預先載入]、[頁面]、[儲存]和[頁面2]方塊，模擬結束頁面](assets/dce_enchainement.png)
 
 * 確定頁面中只有一個`<body> </body>`。
 * 上傳CSS或JS檔案時，.zip檔案中包含的影像不會上傳。 因此，不會更新CSS對這些影像的參考。

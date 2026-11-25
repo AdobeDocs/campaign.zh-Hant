@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 0%
 ---
 # 建立新結構描述 {#create-new-schema}
 
@@ -47,11 +47,11 @@ ht-degree: 2%
 >
 >內建資料結構描述只能由Adobe Campaign主控台的管理員刪除。
 
-![](assets/schema_navtree.png)
+![管理、設定和資料結構描述節點反白顯示的瀏覽器樹狀結構。](assets/schema_navtree.png)
 
 **[!UICONTROL Edit]**&#x200B;索引標籤顯示結構描述的XML內容：
 
-![](assets/schema_edition.png)
+![Source結構描述編輯器，編輯索引標籤，顯示[名稱]和[標籤]欄位以及結構描述XML內容。](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 **[!UICONTROL Preview]**&#x200B;索引標籤會自動產生延伸結構描述：
 
-![](assets/schema_edition2.png)
+![Source結構描述編輯器，[預覽]索引標籤，顯示產生的延伸結構描述XML。](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ ht-degree: 2%
 1. 編輯Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Administration > Configuration > Data schemas]**&#x200B;節點並按一下&#x200B;**[!UICONTROL New]**。
 1. 選擇&#x200B;**[!UICONTROL Create a new table in the data template]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Next]** 。
 
-   ![](assets/create_new_schema.png)
+   ![資料結構描述精靈的結構描述型別頁面，其中選取了在資料範本中建立新資料表。](assets/create_new_schema.png)
 
 1. 指定資料表的名稱和名稱空間。
 
-   ![](assets/create_new_param.png)
+   ![已填入名稱空間cus、名稱合約、標籤、標籤（單數）和說明的結構描述引數頁面。](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 1. 建立表格內容。 我們建議使用專用助理來確認沒有遺失任何設定。 若要這麼做，請按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，然後選擇要新增的設定型別。
 
-   ![](assets/create_new_content.png)
+   ![在[插入]功能表開啟的情況下編輯結構描述頁面，顯示[字串]和[整數]等屬性型別。](assets/create_new_content.png)
 
 1. 定義合約表格的設定。
 
@@ -138,6 +138,6 @@ ht-degree: 2%
 
 1. 儲存結構描述並按一下&#x200B;**[!UICONTROL Structure]**&#x200B;標籤以產生結構：
 
-   ![](assets/configuration_structure.png)
+   ![合約結構描述的結構索引標籤，列出持有者、共同持有者、合約編號和訂閱日期屬性。](assets/configuration_structure.png)
 
-1. 更新資料庫結構以建立將連結綱要的表格。 如需詳細資訊，請參閱[本章節](update-database-structure.md)。
+1. 更新資料庫結構以建立將連結綱要的表格。 如需詳細資訊，請參閱[更新資料庫結構](update-database-structure.md)。

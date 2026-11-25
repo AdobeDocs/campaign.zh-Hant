@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '210'
+ht-degree: 3%
 ---
 # 測試{#test}
 
@@ -30,11 +30,11 @@ ht-degree: 4%
 
 條件是JavaScript運算式，必須評估為「true」或「false」。 若要輸入運算式，請按一下條件名稱右邊的圖示，然後選取&#x200B;**[!UICONTROL Edit...]**。
 
-![](assets/edit_test.png)
+![在[編輯]選項及[使用預設連線]方塊開啟個人化功能表的情況下，測試活動條件表格](assets/edit_test.png)
 
 如需透過工作流程JavaScript存取之應用程式伺服器的所有其他JavaScript函式和SOAP方法的詳細資訊，請參閱[JSAPI檔案](https://experienceleague.adobe.com/zh-hant/tools/campaign-api){target="_blank"}。
 
-您也可以從此編輯器直接插入變數。 有關如何使用變數的詳細資訊，請參閱[本節](javascript-scripts-and-templates.md#variables)。
+您也可以從此編輯器直接插入變數。 有關如何使用變數的詳細資訊，請參閱[變數](javascript-scripts-and-templates.md#variables)。
 
 可以從活動屬性編輯視窗中新增、刪除或排序條件，也可以從轉變中修改條件。
 

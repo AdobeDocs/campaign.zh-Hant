@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 5%
 ---
 # 控制您的訊息內容{#control-message-content}
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。
 
-如需在Adobe Campaign中使用個人化欄位的詳細資訊，請參閱[本節](personalization-fields.md)。
+如需在Adobe Campaign中使用個人化欄位的詳細資訊，請參閱[新增個人化欄位](personalization-fields.md)。
 
 ## 選擇退出連結和表單 {#opt-out}
 

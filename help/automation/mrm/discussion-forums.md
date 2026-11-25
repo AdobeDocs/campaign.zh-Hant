@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '568'
 ht-degree: 0%
 ---
 # 論壇{#discussion-forums}
@@ -43,13 +43,13 @@ Adobe Campaign操作人員可使用討論區來共用資訊。 下列各元素�
 
 若要存取論壇，請瀏覽到儀表板並按一下右上角的&#x200B;**[!UICONTROL Forum]**&#x200B;連結。
 
-![](assets/mrm-forum-icon.png)
+![具有指向論壇連結和討論清單之箭頭的行銷活動儀表板。](assets/mrm-forum-icon.png)
 
 訊息及其回應會以從最新到最舊的順序顯示。
 
 若要啟動新執行緒，請按一下右上角的&#x200B;**[!UICONTROL Add a discussion]**&#x200B;按鈕。 會出現&#x200B;**[!UICONTROL Discussion forum]**&#x200B;方塊（請參閱下文）。
 
-![](assets/mrm-forum-new-thread.png)
+![討論區對話方塊，包含主旨、訊息、要通知的運運算元、附加檔案及建立訊息。](assets/mrm-forum-new-thread.png)
 
 
 在&#x200B;**[!UICONTROL Message]**&#x200B;欄位中輸入您的文字，並在&#x200B;**[!UICONTROL Subject]**&#x200B;欄位中輸入討論標題。
@@ -85,7 +85,7 @@ Adobe Campaign操作人員可使用討論區來共用資訊。 下列各元素�
 
 * 您的個人儀表板會列出您訂閱的論壇。 按一下&#x200B;**[!UICONTROL Subscription to discussion forums]**&#x200B;連結以顯示清單，然後按一下您感興趣的專案以存取其論壇。
 
-  ![](assets/forum-subscribed.png)
+  ![操作員儀表板，其中已反白顯示討論區訂閱清單。](assets/forum-subscribed.png)
 
 
 ## 疑難排解通知傳送 {#checking-notification-delivery}

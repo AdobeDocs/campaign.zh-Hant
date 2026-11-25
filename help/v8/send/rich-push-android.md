@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2484'
 ht-degree: 3%
 ---
 # 設計 Android 豐富的推播傳遞 {#rich-push}
@@ -79,17 +79,17 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Default]**。
 
-   ![](assets/rich_push_default.png)
+   在Android內容索引標籤中選取預設的![通知型別清單](assets/rich_push_default.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Message]**&#x200B;欄位中輸入文字。
 
-   ![](assets/rich_push_default_2.png)
+   ![標題和訊息欄位已填入促銷代碼優惠方案的預設通知](assets/rich_push_default_2.png)
 
 1. 使用動態個人化欄位來定義內容、個人化資料並新增動態內容。 [了解更多](../send/personalize.md)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_default_3.png)
+   已針對預設通知填入![通知選項和HTTPv1額外選項](assets/rich_push_default_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -97,13 +97,13 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Basic]**。
 
-   ![](assets/rich_push_basic.png)
+   ![在Android內容索引標籤中選取了「基本」的通知型別清單](assets/rich_push_basic.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_basic_2.png)
+   ![標題、訊息和展開訊息欄位已填入的基本通知](assets/rich_push_basic_2.png)
 
 1. 使用動態個人化欄位來定義內容、個人化資料並新增動態內容。 [了解更多](../send/personalize.md)
 
@@ -130,11 +130,11 @@ ht-degree: 3%
 
    如需如何處理Android應用程式連結的詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/training/app-links)。
 
-   ![](assets/rich_push_basic_3.png)
+   ![基本通知按鈕表格，其中一個網頁URL按鈕標示為[立即購買]！ 和稍後提醒欄位已填入](assets/rich_push_basic_3.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_basic_4.png)
+   ![基本通知已填入通知選項和HTTPv1其他選項](assets/rich_push_basic_4.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -142,13 +142,13 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Carousel]**。
 
-   ![](assets/rich_push_carousel.png)
+   ![在Android內容索引標籤中選取輪播的通知型別清單](assets/rich_push_carousel.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_carousel_1.png)
+   ![標題、訊息和展開訊息欄位已填入的轉盤通知](assets/rich_push_carousel_1.png)
 
 1. 使用運算式編輯器來定義內容、個人化資料及新增動態內容。 [了解更多](../send/personalize.md)
 
@@ -165,11 +165,11 @@ ht-degree: 3%
 
    請確定您至少包含三個影像，最多包含五個影像。
 
-   ![](assets/rich_push_carousel_2.png)
+   ![轉盤選項設定為[手動]，在[影像]資料表中使用[影片]版面配置和3個具有動作URI的影像](assets/rich_push_carousel_2.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![通知選項和已填入輪播通知的HTTPv1額外選項](assets/rich_push_carousel_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -177,11 +177,11 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Icon buttons]**。
 
-   ![](assets/rich_push_icon.png)
+   ![在Android內容索引標籤中選取圖示按鈕的通知型別清單](assets/rich_push_icon.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
-   ![](assets/rich_push_icon_2.png)
+   ![圖示按鈕通知，在背景顏色中輸入十六進位值](assets/rich_push_icon_2.png)
 
 1. 提供&#x200B;**[!UICONTROL Cancel button image]**&#x200B;的URL。
 
@@ -189,11 +189,11 @@ ht-degree: 3%
 
    請確定您至少包含三個影像，且最多包含五個按鈕。
 
-   ![](assets/rich_push_icon_3.png)
+   ![取消按鈕影像URL和圖示影像按鈕表格，包含三個Web URL按鈕](assets/rich_push_icon_3.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_icon_5.png)
+   ![已針對圖示按鈕通知填入通知選項和HTTPv1額外選項](assets/rich_push_icon_5.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -201,13 +201,13 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Input box]**。
 
-   ![](assets/rich_push_input.png)
+   ![在Android內容索引標籤中選取輸入方塊的通知型別清單](assets/rich_push_input.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_input_2.png)
+   ![輸入方塊通知，標題、訊息和展開的訊息欄位已填入](assets/rich_push_input_2.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
@@ -218,11 +218,11 @@ ht-degree: 3%
    * **[!UICONTROL Feedback text]**：輸入要在回覆後顯示的文字。
    * **[!UICONTROL Feedback image]**：新增回覆後所顯示影像的URL。
 
-   ![](assets/rich_push_input_3.png)
+   ![輸入方塊選項：輸入接收者名稱、輸入文字、回饋文字和回饋影像已填入](assets/rich_push_input_3.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_input_4.png)
+   ![已針對輸入方塊通知填入通知選項和HTTPv1其他選項](assets/rich_push_input_4.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -230,13 +230,13 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Product catalog]**。
 
-   ![](assets/rich_push_catalog.png)
+   ![在Android內容索引標籤中選取產品目錄的通知型別清單](assets/rich_push_catalog.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_catalog_2.png)
+   ![標題和訊息欄位已填入的產品目錄通知](assets/rich_push_catalog_2.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
@@ -248,7 +248,7 @@ ht-degree: 3%
    * **[!UICONTROL Action button URI]**：指定按一下按鈕時要執行的URI。
    * **[!UICONTROL Display type]**：選擇垂直或水準顯示。
 
-   ![](assets/rich_push_catalog_3.png)
+   ![產品目錄選項：動作按鈕文字、動作按鈕色彩、動作按鈕URI和顯示型別](assets/rich_push_catalog_3.png)
 
 1. 在&#x200B;**[!UICONTROL Product catalog items]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並為每個專案輸入下列詳細資料：
 
@@ -260,7 +260,7 @@ ht-degree: 3%
 
    請確定您最多包含三個專案。
 
-   ![](assets/rich_push_catalog_4.png)
+   ![產品目錄專案表格，包含三個顯示標題、影像、價格和URI的專案](assets/rich_push_catalog_4.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
@@ -270,19 +270,19 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Product rating]**。
 
-   ![](assets/rich_push_rating.png)
+   ![在Android內容索引標籤中選取產品評級的通知型別清單](assets/rich_push_rating.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_rating_2.png)
+   ![標題和訊息欄位已填入的產品評等通知](assets/rich_push_rating_2.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
 1. 在&#x200B;**[!UICONTROL Product rating options]**&#x200B;功能表中，輸入&#x200B;**[!UICONTROL Rating icon in unselected state]**&#x200B;與&#x200B;**[!UICONTROL Rating icon in selected state]**&#x200B;的URL。
 
-   ![](assets/rich_push_rating_3.png)
+   ![產品評等選項，其中影像URL的評等圖示處於未選取狀態和已選取狀態](assets/rich_push_rating_3.png)
 
 1. 在&#x200B;**[!UICONTROL Product rating items]**&#x200B;功能表下，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並輸入您的&#x200B;**[!UICONTROL Link URI]**&#x200B;並選擇您的&#x200B;**[!UICONTROL Link type]**。
 
@@ -296,11 +296,11 @@ ht-degree: 3%
 
    請確定您至少包含三個值，最多包含五個值。
 
-   ![](assets/rich_push_rating_4.png)
+   ![產品評等專案資料表，包含三個型別為網頁URL](assets/rich_push_rating_4.png)的連結URI專案
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![通知選項和已填入輪播通知的HTTPv1額外選項](assets/rich_push_carousel_3.png)
 
 定義訊息內容後，您可以使用測試訂閱者來預覽及測試訊息。
 
@@ -308,23 +308,23 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Timer]**。
 
-   ![](assets/rich_push_timer.png)
+   在Android內容索引標籤中選取計時器的![通知型別清單](assets/rich_push_timer.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_timer_2.png)
+   ![標題和訊息欄位已填入的計時器通知，加上替代訊息欄位](assets/rich_push_timer_2.png)
 
 1. 在&#x200B;**[!UICONTROL Alternate title]**、**[!UICONTROL Alternate message]**&#x200B;和&#x200B;**[!UICONTROL Alternate expanded message]**&#x200B;欄位中輸入計時器過期後顯示的文字。
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**、**[!UICONTROL Background]**&#x200B;和&#x200B;**[!UICONTROL Timer]**&#x200B;的十六進位色彩代碼。
 
-   ![](assets/rich_push_timer_3.png)
+   ![計時器通知色彩選項：標題色彩、訊息色彩、背景色彩和計時器色彩](assets/rich_push_timer_3.png)
 
 1. 將您的&#x200B;**[!UICONTROL Timer duration]**&#x200B;設為秒數，或將&#x200B;**[!UICONTROL Timer end timestamp]**&#x200B;設為特定紀元時間戳記，並新增您將在計時器過期後顯示的&#x200B;**[!UICONTROL Alternate image]** URL。
 
-   ![](assets/rich_push_timer_4.png)
+   ![計時器持續時間設為3600且有替代影像URL的計時器選項](assets/rich_push_timer_4.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 
@@ -334,19 +334,19 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL Notification Type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Zero bezel]**。
 
-   ![](assets/rich_push_bezel.png)
+   ![在Android內容索引標籤中選取了零邊框的通知型別清單](assets/rich_push_bezel.png)
 
 1. 若要撰寫訊息，請在&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Expanded message]**&#x200B;欄位中輸入文字。
 
    展開通知時顯示&#x200B;**[!UICONTROL Expanded message]**&#x200B;時，**[!UICONTROL Message]**&#x200B;文字會顯示在收合的檢視中。
 
-   ![](assets/rich_push_zero_2.png)
+   ![標題和訊息欄位已填入的零邊框通知](assets/rich_push_zero_2.png)
 
 1. 在&#x200B;**[!UICONTROL Color options]**&#x200B;功能表下，輸入您&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Background]**&#x200B;的十六進位色彩代碼。
 
 1. 在&#x200B;**[!UICONTROL Zero bezel options]**&#x200B;功能表中，於&#x200B;**[!UICONTROL Collapsed notification style]**&#x200B;欄位中新增影像URL。
 
-   ![](assets/rich_push_zero_3.png)
+   ![以收合通知樣式顯示影像URL的零邊框選項](assets/rich_push_zero_3.png)
 
 1. 若要進一步個人化您的推播通知，請設定推播通知的&#x200B;**[!UICONTROL Notification options]**&#x200B;和&#x200B;**[!UICONTROL HTTPv1 additional options]**。 [了解更多](#push-advanced)
 

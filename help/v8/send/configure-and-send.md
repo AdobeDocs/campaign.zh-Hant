@@ -19,20 +19,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 9%
+source-wordcount: '1440'
+ht-degree: 7%
 ---
 # 設定並傳送傳遞 {#configure-delivery}
 
-存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞[優先順序](#delivery-priority)、設定[波段](#sending-using-multiple-waves)，並測試您的傳遞傳送。 完成此設定後，您可以確認傳送，如[此區段](#confirm-delivery)所述。 然後立即傳送訊息，或根據傳遞[排程](#schedule-delivery-sending)傳送訊息。
+存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞[優先順序](#delivery-priority)、設定[波段](#sending-using-multiple-waves)，並測試您的傳遞傳送。 完成此設定後，您可以依照[確認傳遞](#confirm-delivery)中所述來確認傳送。 然後立即傳送訊息，或根據傳遞[排程](#schedule-delivery-sending)傳送訊息。
 
 ## 設定其他引數 {#delivery-additional-parameters}
 
 在傳送傳遞之前，您可以透過&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤，在傳遞屬性中定義傳送引數。
 
-![](assets/delivery-properties-delivery.png)
+![傳遞屬性具有優先順序、波段、重試、個人化和郵件格式設定的傳遞標籤](assets/delivery-properties-delivery.png)
 
 ### 傳遞優先順序 {#delivery-priority}
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 1. 開啟傳遞屬性並瀏覽至&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤。
 1. 啟用&#x200B;**[!UICONTROL Send using multiple waves]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Define waves...]**&#x200B;連結。
 
-   ![](assets/delivery-define-waves.png)
+   ![已選取使用多個波段且「定義波段」連結反白顯示的傳送索引標籤](assets/delivery-define-waves.png)
 
 ### 設定波段 {#config-waves}
 
@@ -81,29 +81,29 @@ ht-degree: 9%
 
   在&#x200B;**[!UICONTROL Period]**&#x200B;欄位中，指定兩個連續波段開始之間的延遲。 例如，如果您輸入&#x200B;**[!UICONTROL 2d]**，第一個波段會立即開始，第二個波段會在兩天內開始，第三個波段會在四天內開始，依此類推。
 
-  ![](assets/delivery-waves-size.png)
+  ![波次定義對話方塊，等大小波次設為30%，且波次之間有2d週期](assets/delivery-waves-size.png)
 
 * **定義傳送每個波次的行事曆**。  例如，第一個波段代表傳遞中包含之訊息總數的25%，將立即開始。 接下來的兩個批次會完成傳遞，並設定為每六小時開始一次。
 
   在&#x200B;**[!UICONTROL Start]**&#x200B;欄中，指定兩個連續波段開始之間的延遲。 在&#x200B;**[!UICONTROL Size]**&#x200B;欄中輸入固定數字或百分比。
 
-  ![](assets/delivery-waves-calendar.png)
+  ![波段定義對話方塊，包含三個波段的行事曆：0秒時為25%，6小時時為50%，6小時時為25%](assets/delivery-waves-calendar.png)
 
 ### 波段排程檢查 {#check-waves}
 
-特定型別規則&#x200B;**[!UICONTROL Wave scheduling check]**&#x200B;可確保最後一個波段是在傳遞有效性限制之前計畫。 在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中設定的行銷活動型別及其規則會顯示在[本區段](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->中。
+特定型別規則&#x200B;**[!UICONTROL Wave scheduling check]**&#x200B;可確保最後一個波段是在傳遞有效性限制之前計畫。 在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中設定的行銷活動型別及其規則，會顯示在[型別規則和型別](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->中。
 
 >[!IMPORTANT]
 >
->* 請確定最後一個批次沒有超過在&#x200B;**[!UICONTROL Validity]**&#x200B;索引標籤中定義的傳送期限。 否則，部分訊息可能不會傳送。 在[本節](delivery-failures.md#valid-period)中進一步瞭解傳遞的有效期。
+>* 請確定最後一個批次沒有超過在&#x200B;**[!UICONTROL Validity]**&#x200B;索引標籤中定義的傳送期限。 否則，部分訊息可能不會傳送。 進一步瞭解[有效期間](delivery-failures.md#valid-period)內傳遞的有效期間。
 >
->* 在設定最後一個波段時，您也必須設定足夠的重試時間。 在[本節](delivery-failures.md#retries)中進一步瞭解重試。
+>* 在設定最後一個波段時，您也必須設定足夠的重試時間。 深入瞭解[重試管理](delivery-failures.md#retries)中的重試。
 >
 >* 從傳遞的聯絡日期開始排程波段。 如果在一或多個批次的計畫時間後開始傳遞，這些逾期批次會一起傳送，而不是彼此隔開。
 
 ### 監視波段 {#monitor-waves}
 
-若要監視您的傳送，請瀏覽至傳送記錄檔。 請參閱[此頁面](send.md)。
+若要監視您的傳送，請瀏覽至傳送記錄檔。 檢視[傳送及監視您的電子郵件](send.md)。
 
 您可以看到已在已處理波段（**[!UICONTROL Sent]**&#x200B;狀態）中傳送的傳遞，以及將在剩餘波段（**[!UICONTROL Pending]**&#x200B;狀態）中傳送的傳遞。
 
@@ -120,7 +120,7 @@ ht-degree: 9%
 
   若要這麼做，請使用&#x200B;**[!UICONTROL Schedule waves according to a calendar]**&#x200B;選項。 例如，將第一個波段設為10%，將第二個波段設為15%，以此類推。
 
-  ![](assets/delivery-waves-ex-ramp-up.png)
+  ![包含五個波次的波次定義行事曆，大小從10%增加到30%，間隔12小時](assets/delivery-waves-ex-ramp-up.png)
 
 * **具有客服中心的行銷活動**
 
@@ -130,7 +130,7 @@ ht-degree: 9%
 
   若要這麼做，請選取&#x200B;**[!UICONTROL Schedule multiple waves of the same size]**&#x200B;選項。 輸入&#x200B;**[!UICONTROL 20]**&#x200B;作為波段大小，並在&#x200B;**[!UICONTROL Period]**&#x200B;欄位中輸入&#x200B;**[!UICONTROL 1d]**。
 
-  ![](assets/delivery-waves-ex-call-center.png)
+  ![具有20則訊息和1d句號等大小波段的「波段」定義對話方塊](assets/delivery-waves-ex-call-center.png)
 
 ## 確認傳遞 {#confirm-delivery}
 
@@ -143,13 +143,13 @@ ht-degree: 9%
    * 若要立即傳送傳遞，請選取&#x200B;**[!UICONTROL Deliver as soon as possible]**。
    * 若要排程傳送至之後的日期，請選取&#x200B;**[!UICONTROL Postpone the delivery]**。 [了解更多](#schedule-delivery-sending)
 
-1. 按一下 **[!UICONTROL Analyze]**。 如需詳細資訊，請參閱[本節](delivery-analysis.md)。
+1. 按一下 **[!UICONTROL Analyze]**。 如需詳細資訊，請參閱[傳遞分析](delivery-analysis.md)。
 
-   ![](assets/delivery-send-analyze.png)
+   ![傳送至主要傳遞目標對話方塊，並選取儘快傳遞，且[分析]按鈕反白顯示](assets/delivery-send-analyze.png)
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;以啟動訊息的傳遞。
 
-   ![](assets/delivery-send-confirm.png)
+   ![在分析後傳送至主要傳遞目標對話方塊，並反白顯示[確認傳遞]按鈕](assets/delivery-send-confirm.png)
 
 1. 您可以關閉傳遞精靈，並從&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤追蹤傳遞的執行，可透過此傳遞的詳細資訊或傳遞清單存取。
 
@@ -168,7 +168,7 @@ ht-degree: 9%
 
 1. 在&#x200B;**[!UICONTROL Contact date]**&#x200B;欄位中指定開始日期。
 
-   ![](assets/delivery-send-postpone.png)
+   ![傳送至主要傳遞目標對話方塊，並延後選取的傳遞及輸入的聯絡日期](assets/delivery-send-postpone.png)
 
 1. 開始傳遞分析並確認傳遞傳送。 但是，要到&#x200B;**[!UICONTROL Contact date]**&#x200B;欄位中指定的日期才會開始傳送傳遞。
 
@@ -176,13 +176,13 @@ ht-degree: 9%
    >
    >開始分析後，您定義的聯絡日期即已固定。 如果您修改此日期，則必須重新啟動分析，以便將您的修改納入考量。
 
-   ![](assets/delivery-send-scheduled.png)
+   ![傳遞準備完成訊息，其中顯示排定日期傳送及[確認傳送]按鈕](assets/delivery-send-scheduled.png)
 
 在傳遞清單中，傳遞會以&#x200B;**[!UICONTROL Pending]**&#x200B;狀態出現。
 
 您也可以透過傳遞的&#x200B;**[!UICONTROL Scheduling]**&#x200B;按鈕設定上游。
 
-![](assets/delivery-scheduling-button.png)
+![從[排程]按鈕開啟[排程]對話方塊，並選取[排程]傳遞（非自動執行）](assets/delivery-scheduling-button.png)
 
 這可讓您將傳送延遲到較晚日期，或將傳送儲存在臨時行事曆中。
 
@@ -198,7 +198,7 @@ ht-degree: 9%
 
 例如，如果您排程在倫敦時間8點自動執行傳遞，則時間會自動轉換為所選的時區：
 
-![](assets/delivery-schedule-time-zone.png)
+![排程對話方塊，並開啟時區下拉式清單，以將連絡日期轉換為另一個時區](assets/delivery-schedule-time-zone.png)
 
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}

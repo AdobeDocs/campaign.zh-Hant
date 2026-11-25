@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '436'
 ht-degree: 3%
 ---
 # SQL 資料管理{#sql-data-management}
@@ -57,7 +57,7 @@ ht-degree: 3%
 ## 設定SQL資料管理活動 {#configuring-the-sql-data-management-activity}
 
 1. 指定活動&#x200B;**[!UICONTROL Label]**。
-1. 選取要使用的&#x200B;**[!UICONTROL External account]**，然後選取連結至此外部帳戶的&#x200B;**[!UICONTROL Outbound schema]**。
+1. Select要使用的&#x200B;**[!UICONTROL External account]**，然後選取連結至此外部帳戶的&#x200B;**[!UICONTROL Outbound schema]**。
 
    >[!CAUTION]
    >
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    否則，請在專用區域中輸入或複製貼上您的SQL指令碼。
 
-   ![](assets/sql_datamanagement.png)
+   ![具有輸出結構描述收件者的SQL資料管理活動，以及使用傳入轉換資料表名稱的SQL指令碼](assets/sql_datamanagement.png)
 
    活動可讓您在指令碼中使用下列變數：
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1128'
 ht-degree: 1%
 ---
 # 傳遞{#delivery}
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 若要設定，請編輯活動並輸入傳送選項。
 
-![](assets/edit_diffusion.png)
+![傳遞活動視窗，包含傳遞、收件者、內容及動作，以執行區段及出站轉變](assets/edit_diffusion.png)
 
 1. **傳送**
 
@@ -53,27 +53,27 @@ ht-degree: 1%
 
      在下列範例中，會首次建立傳送。 母體及內容將於稍後定義。 接著，系統會使用入站轉變，將這三個元素的資訊重新輸入新的傳送活動，以便傳送。
 
-     ![](assets/specified_transition_option_exemple.png)
+     ![工作流程，其中「建立傳遞」活動會饋送第二個在轉變中設定為「已指定」的傳遞活動](assets/specified_transition_option_exemple.png)
 
    * 直接選取相關的傳遞。 若要這麼做，請選取&#x200B;**[!UICONTROL Explicit]**&#x200B;選項，然後從&#x200B;**[!UICONTROL Delivery]**&#x200B;欄位的下拉式清單中選取傳遞。
 
      清單預設會顯示&#x200B;**傳送**&#x200B;資料夾中包含的未完成傳送。 若要存取其他行銷活動，請按一下&#x200B;**[!UICONTROL Select link]**&#x200B;圖示。
 
-     ![](assets/diffusion_edit_1.png)
+     已選取明確的![傳遞區段，以及傳遞欄位旁的Select連結圖示](assets/diffusion_edit_1.png)
 
-     從&#x200B;**[!UICONTROL Folder]**&#x200B;欄位的下拉式清單中選取行銷活動，或按一下&#x200B;**[!UICONTROL Display sub-levels]**&#x200B;以顯示子資料夾中包含的所有傳遞：
+     從&#x200B;**[!UICONTROL Folder]**&#x200B;欄位的下拉式清單中Select行銷活動，或按一下&#x200B;**[!UICONTROL Display sub-levels]**&#x200B;以顯示子資料夾中包含的所有傳遞：
 
-     ![](assets/diffusion_edit_2.png)
+     ![傳送選擇視窗，其中資料夾欄位設定為傳送並顯示子層級圖示](assets/diffusion_edit_2.png)
 
      選取傳遞動作後，您可以按一下&#x200B;**[!UICONTROL Edit link]**&#x200B;圖示來顯示內容。
 
    * 建立指令碼以計算傳遞。 若要這麼做，請選取&#x200B;**[!UICONTROL Computed by a script]**&#x200B;選項並輸入指令碼。 您可以按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;選項來開啟輸入視窗。 以下範例會復原傳遞的識別碼：
 
-     ![](assets/diffusion_edit_3.png)
+     ![由指令碼選項計算，其編輯指令碼視窗顯示運算式vars.deliveryId](assets/diffusion_edit_3.png)
 
    * 建立新傳遞。 若要這麼做，請選取&#x200B;**[!UICONTROL New, created from a template]**&#x200B;選項，然後選取傳遞將依據的傳遞範本。
 
-     ![](assets/diffusion_edit_4.png)
+     ![新增，從範本選項建立，已選取傳遞範本和編輯連結圖示](assets/diffusion_edit_4.png)
 
      按一下「**[!UICONTROL Select link]**」圖示以瀏覽資料夾，如果您想要檢視所選範本的內容，請按一下「**[!UICONTROL Edit link]**」圖示。
 
@@ -81,21 +81,21 @@ ht-degree: 1%
 
    收件者可由傳入事件指定，例如在檔案匯入後，或在傳遞動作中指定。 它們也可以儲存在一個或多個檔案中。
 
-   ![](assets/diffusion_edit_5.png)
+   ![收件者區段，其選項是由傳入事件所指定、在傳遞中指定，且檔案已指定](assets/diffusion_edit_5.png)
 
 1. **內容**
 
    訊息的內容可在傳遞或傳入事件中定義。
 
-   ![](assets/diffusion_edit_6.png)
+   ![內容區段，包含由傳入事件所指定，並在傳遞選項中指定](assets/diffusion_edit_6.png)
 
 1. **要執行的動作**
 
    您可以建立傳遞、準備、開始、估計目標或傳送證明。
 
-   ![](assets/diffusion_edit_7.png)
+   ![執行從[儲存]到[準備]和[開始]選項以及[產生出站轉變]選項的動作](assets/diffusion_edit_7.png)
 
-   選取要執行的動作型別：
+   Select要執行的動作型別：
 
    * **[!UICONTROL Save]**：此選項可讓您建立傳遞並儲存。 它不會分析或傳遞。
    * **[!UICONTROL Estimate the target]**：此選項可讓您計算傳遞目標，以評估其潛在（第一個分析階段）。 此動作等同於選取&#x200B;**[!UICONTROL Estimate the population to be targeted]**&#x200B;選項，並在透過&#x200B;**傳遞**&#x200B;將傳遞傳送到主要目標時按一下&#x200B;**[!UICONTROL Analyze]**。
@@ -121,13 +121,13 @@ ht-degree: 1%
 
    **指令碼**&#x200B;索引標籤可讓您修改傳遞引數。
 
-   ![](assets/edit_diffusion_fil_script.png)
+   ![傳遞活動的指令碼索引標籤，其中包含設定傳遞標籤的傳遞物件修改指令碼](assets/edit_diffusion_fil_script.png)
 
 ## 範例：傳遞工作流程 {#example--delivery-workflow}
 
 建立新工作流程並新增活動，如下圖所示：
 
-![](assets/new-workflow-5.png)
+![工作流程包含開始、傳遞及核准活動，然後傳遞控制設為[是]並結束設為[否]](assets/new-workflow-5.png)
 
 開啟&#x200B;**傳遞**&#x200B;活動並定義屬性，如下所示：
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 * 在&#x200B;**[!UICONTROL Recipients]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Specified in the delivery]**。
 * 在&#x200B;**[!UICONTROL Action to execute]**&#x200B;區段中，保留&#x200B;**[!UICONTROL Prepare]**&#x200B;選項。
 
-![](assets/new-workflow-param-delivery.png)
+![傳遞活動為[新增]、使用範本建立、已在傳遞收件者中指定，並選取[準備]](assets/new-workflow-param-delivery.png)
 
 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉屬性視窗。 您剛剛設定了活動，包括根據將在其內指定目標的傳遞範本建立和準備新傳遞。
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
    此訊息包含以JavaScript撰寫的運算式： **[!UICONTROL vars.recCount]**&#x200B;代表傳遞前一個任務所定位的收件者數目。 如需JavaScript運算式的詳細資訊，請參閱[JavaScript指令碼和範本](javascript-scripts-and-templates.md)。
 
-   ![](assets/new-workflow-param-validation.png)
+   ![具有群組指派型別的核准活動，以及使用vars.recCount要求核准目標的訊息](assets/new-workflow-param-validation.png)
 
    [核准](approval.md)中詳細說明了核准任務。
 

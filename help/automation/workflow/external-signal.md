@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '194'
 ht-degree: 2%
 ---
 # 外部訊號{#external-signal}
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 您可以設定此活動，以便在未收到訊號時定義事件。 若要這麼做，請編輯活動並按一下&#x200B;**[!UICONTROL Expiration]**&#x200B;標籤。 按一下&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕以建立及設定事件。
 
-![](assets/edit_signal.png)
+![外部訊號到期索引標籤列出三個到期日，到期詳細資訊視窗已開啟](assets/edit_signal.png)
 
 有效期的設定在[有效期](define-approvals.md)中詳細說明。
 
@@ -46,4 +46,4 @@ ht-degree: 2%
 
 每行代表一種到期型別，並與轉換重合。
 
-![](assets/external_sign_diag.png)
+![外部訊號活動，具有輸出轉換到期、到期2、到期3和新的](assets/external_sign_diag.png)

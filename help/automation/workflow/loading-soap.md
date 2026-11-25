@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 ---
 # 載入 (SOAP){#loading-soap}
 
@@ -38,21 +38,21 @@ ht-degree: 4%
 
 操作如下：
 
-1. 選取使用XML範例或WSDL。
+1. 使用XML範例或WSDL之間的Select。
 
    以下範例來自於訊息中心模組的技術工作流程。
 
-   ![](assets/load_soap_002.png)
+   ![正在載入(SOAP)活動使用選取的範例XML、結果範例和初始化指令碼。](assets/load_soap_002.png)
 
 1. 對於XML範例，請選取範例檔案。 分析檔案以建立結果範例。
 
    針對WSDL，輸入相符的存取URL，然後產生骨架代碼。 系統會自動更新並顯示選取的服務與呼叫。
 
-   ![](assets/soap_load_003.png)
+   ![結果格式包含使用選取的WSDL、存取URL欄位及[產生骨架程式碼]連結。](assets/soap_load_003.png)
 
-1. 選取&#x200B;**[!UICONTROL Click here to view and edit analysis results]**&#x200B;以指定每個已識別的資料行。
+1. Select **[!UICONTROL Click here to view and edit analysis results]**&#x200B;以指定每個已識別的資料行。
 
-   ![](assets/soap_load_001.png)
+   ![檔案格式視窗列出已識別的資料行，以及所選資料行的標籤、資料型別和內部名稱。](assets/soap_load_001.png)
 
    如果您要更新範例，請選取&#x200B;**[!UICONTROL Re-analyze the example]**。
 

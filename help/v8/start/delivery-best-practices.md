@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3162'
+source-wordcount: '3182'
 ht-degree: 2%
 ---
 # 關於傳遞的最佳實務 {#delivery-best-practices}
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 有幾個因素可能會直接影響伺服器效能，並拖慢Campaign平台的速度：
 
-* [個人化](../send/personalize.md)元素的數量和型別：電子郵件中的個人化會將每個收件者的資料提取出資料庫。 如果有許多個人化元素，則準備傳送所需的資料量會較高。 這可能會降低平台的速度。 在[本節](../send/personalize.md#perso-guardrails)中進一步瞭解個人化護欄。
+* [個人化](../send/personalize.md)元素的數量和型別：電子郵件中的個人化會將每個收件者的資料提取出資料庫。 如果有許多個人化元素，則準備傳送所需的資料量會較高。 這可能會降低平台的速度。 深入瞭解[護欄和建議](../send/personalize.md#perso-guardrails)中的個人化護欄。
 
 * 伺服器載入：行銷伺服器同時處理許多不同工作時，可能會減慢效能。 行銷伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 為避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
@@ -143,7 +143,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 設定控制組 {#set-up-control-group}
 
-傳送傳遞後，您可以將排除的收件者與收到傳遞的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 在[本節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)中進一步瞭解控制組。
+傳送傳遞後，您可以將排除的收件者與收到傳遞的收件者之行為進行比較。 接著，您就可以評估行銷活動的效率。 深入瞭解[新增控制組](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)中的控制組。
 
 ### 使用型別來套用篩選器或控制規則 {#create-typologies}
 
@@ -153,13 +153,13 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 例如，為了更能控制傳出流量，您可以定義要使用的IP位址，方法為為每個子網域定義一個相似性，並為每個相似性建立一種型別。 相似性是在執行個體的組態檔案中定義。 請連絡您的Adobe Campaign管理員。
 
-如需型別的詳細資訊，請參閱[本節](../../automation/campaign-opt/campaign-typologies.md)。
+如需型別的詳細資訊，請參閱[開始使用行銷活動型別](../../automation/campaign-opt/campaign-typologies.md)。
 
 ## 最佳化您的內容 {#optimize-content}
 
 ### 建置個人化內容 {#perso-content}
 
-若要個人化您的訊息，您可以使用儲存在資料庫中的收件者資料，或是透過追蹤、登陸頁面、訂閱等收集的資料。在[本節](../send/personalize.md)中提供Personalization基本知識。
+若要個人化您的訊息，您可以使用儲存在資料庫中的收件者資料，或是透過追蹤、登陸頁面、訂閱等收集的資料。在[開始使用個人化](../send/personalize.md)中顯示Personalization基本知識。
 
 +++ **閱讀一些最佳實務**
 
@@ -171,9 +171,9 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
   %>
   &grave;&grave;
 
-  如需個人化區塊的詳細資訊，請參閱[本區段](../send/personalization-blocks.md)。
+  如需個人化區塊的詳細資訊，請參閱[使用個人化區塊](../send/personalization-blocks.md)。
 
-* 準備個人化資料 — 您可以在工作流程中準備個人化資料，以改進傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則尤其應使用此專案。 此選項在[本節](../send/personalization-data.md#optimize-personalization)中說明
+* 準備個人化資料 — 您可以在工作流程中準備個人化資料，以改進傳送準備分析。 如果個人化資料來自透過同盟資料存取(FDA)的外部表格，則尤其應使用此專案。 此選項在[最佳化個人化](../send/personalization-data.md#optimize-personalization)中說明
 +++
 
 ### 建置最佳化內容 {#build-optimized-content}
@@ -215,7 +215,7 @@ Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 [進一步瞭�
 
 ### 鏡像頁面 {#mirror-page-check}
 
-一律包含映象頁面連結。 偏好位置位於電子郵件頂端。 在[此頁面](../send/mirror-page.md)中進一步瞭解映象頁面
+一律包含映象頁面連結。 偏好位置位於電子郵件頂端。 在[新增映象頁面的連結至映象頁面](../send/mirror-page.md)中進一步瞭解映象頁面
 
 ### 取消訂閱連結 {#unsub-link-check}
 
@@ -320,7 +320,7 @@ Adobe建議預覽您的訊息，以檢查其個人化情況，以及收件者看
 
 ## 定義正確客群 {#define-the-right-audience}
 
-目標人口是關鍵：仔細建立您的清單，在熱門電子郵件使用者端和行動裝置上測試您的電子郵件，並確保您的電子郵件清單是最新的（沒有未知或過時的地址）。 您也可以傳送校樣來幫助設定完整的驗證週期。 若要了解客群的詳細資訊，請參閱[本章節](../audiences/gs-audiences.md)。
+目標人口是關鍵：仔細建立您的清單，在熱門電子郵件使用者端和行動裝置上測試您的電子郵件，並確保您的電子郵件清單是最新的（沒有未知或過時的地址）。 您也可以傳送校樣來幫助設定完整的驗證週期。 深入瞭解[中的對象開始使用Campaign](../audiences/gs-audiences.md)中的設定檔和對象。
 
 ### 鎖定正確的對象 {#target-the-right-audience}
 

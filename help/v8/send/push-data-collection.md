@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1651'
 ht-degree: 2%
 ---
 # 已修訂推播通知設定 {#push-notifications-config}
@@ -64,7 +64,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 按一下&#x200B;**[!UICONTROL Create App Surface]**&#x200B;以建立新的組態。
 
-   ![](assets/push-config-1.png)
+   資料收集中的![應用程式表面清單，其中的「建立應用程式表面」按鈕反白顯示](assets/push-config-1.png)
 
 1. 輸入組態的&#x200B;**[!UICONTROL Name]**。
 
@@ -74,7 +74,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!TAB iOS]
 
-![](assets/push-config-2.png)
+![為Apple iOS建立應用程式表面：應用程式ID、推送認證切換及p8金鑰檔案拖放區域](assets/push-config-2.png)
 
 1. 在&#x200B;**[!UICONTROL App ID (iOS Bundle ID)]**&#x200B;欄位中輸入行動應用程式&#x200B;**套件組合識別碼**。
 
@@ -96,7 +96,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 >[!TAB Android]
 
-![](assets/push-config-3.png)
+![為Android建立應用程式表面：應用程式ID （Android封裝名稱）、推送認證切換及JSON金鑰拖放區域](assets/push-config-3.png)
 
 1. 提供&#x200B;**[!UICONTROL App ID (Android package name)]**。 封裝名稱通常是您`build.gradle`檔案中的應用程式ID。
 
@@ -120,17 +120,17 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 瀏覽至&#x200B;**[!UICONTROL Profiles and Targets > Services and Subscriptions]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-   ![](assets/push-config-4.png){width="800"}
+   ![具有標籤、內部名稱、行動應用程式型別和訂閱者應用程式目標對應的新服務對話方塊](assets/push-config-4.png){width="800"}
 
 1. 輸入&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**，然後選取&#x200B;**[!UICONTROL Mobile application]**&#x200B;型別。
 
    >[!NOTE]
    >
-   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者資料表。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 在[此頁面](../audiences/target-mappings.md)中進一步瞭解目標對應。
+   >預設&#x200B;**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**&#x200B;目標對應已連結至收件者資料表。 如果您想使用不同的目標對應，則需要建立新的目標對應，並在服務的&#x200B;**[!UICONTROL Target mapping]**&#x200B;欄位中輸入它。 深入瞭解[使用目標對應](../audiences/target-mappings.md)中的目標對應。
 
 1. 然後使用右側的&#x200B;**[!UICONTROL Add]**&#x200B;圖示來定義使用此服務的行動應用程式。
 
-   ![](assets/push-config-5.png)
+   ![以反白顯示[新增]圖示的服務對話方塊，以定義使用服務的行動應用程式](assets/push-config-5.png)
 
 ### 建立行動應用程式 {#create-sapp}
 
@@ -144,17 +144,17 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an iOS application]**。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/push-config-6.png)
+   ![已選取[建立iOS應用程式]的行動應用程式建立精靈](assets/push-config-6.png)
 
 1. 從&#x200B;**[!UICONTROL Launch app configurations list]**&#x200B;視窗中，選取先前在此區段中建立的應用程式表面。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/push-config-7.png)
+   ![啟動應用程式設定清單列出要選取的示範應用程式表面](assets/push-config-7.png)
 
 1. （選擇性）您可以使用約&#x200B;**[!UICONTROL Application variables]**&#x200B;擴充推送訊息內容。 這些都是可完全自訂的專案，而且是傳送至行動裝置的訊息裝載的一部分。
 
    在下列範例中，已新增&#x200B;**mediaURl**&#x200B;和&#x200B;**mediaExt**&#x200B;變數來建立豐富推送通知，然後提供應用程式要在通知內顯示的影像。
 
-   ![](assets/push-config-8.png)
+   ![已新增mediaURL和mediaExt應用程式變數的一般引數](assets/push-config-8.png)
 
 1. 瀏覽至&#x200B;**[!UICONTROL Subscription parameters]**&#x200B;標籤以定義副檔名為&#x200B;**[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**&#x200B;結構描述的對應。
 
@@ -175,7 +175,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
    >
    > 您不能對應用程式的開發版本（沙箱）和生產版本使用相同的憑證。
 
-   ![](assets/push-config-9.png)
+   ![具有iOS整合索引鍵和應用程式圖示欄位的開發應用程式步驟](assets/push-config-9.png)
 
 1. 從&#x200B;**[!UICONTROL Application icon]**&#x200B;欄位Select圖示，以個人化您服務中的行動應用程式。
 
@@ -191,11 +191,11 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 從您的服務中，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Create an Android application]**。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/push-config-10.png)
+   ![已選取[建立Android應用程式]的行動應用程式建立精靈](assets/push-config-10.png)
 
 1. 從&#x200B;**[!UICONTROL Launch app configurations list]**&#x200B;視窗中，選取在此區段中建立的應用程式表面，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/push-config-11.png)
+   ![啟動Android應用程式的應用程式設定清單列出示範應用程式表面](assets/push-config-11.png)
 
 1. 整合金鑰是每個應用程式專屬的。 此維度會將行動應用程式連結至Adobe Campaign，並將在設定Campaign擴充功能時使用。
 
@@ -207,7 +207,7 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
    >
    > **[!UICONTROL Integration key]**&#x200B;可使用字串值完全自訂，但必須與SDK中指定的完全相同。
 
-   ![](assets/push-config-12.png)
+   ![Android的一般引數，包含整合索引鍵、應用程式圖示和應用程式變數](assets/push-config-12.png)
 
 1. 從&#x200B;**[!UICONTROL Application icon]**&#x200B;欄位中選取圖示，以個人化您服務中的行動應用程式。
 
@@ -234,11 +234,11 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 按一下 **[!UICONTROL New Property]**。
 
-   ![](assets/push-config-13.png)
+   ![資料收集中的標籤屬性清單，其中新屬性按鈕反白顯示](assets/push-config-13.png)
 
 1. 輸入屬性的名稱，並選取&#x200B;**[!UICONTROL Mobile]**&#x200B;做為平台。
 
-   ![](assets/push-config-14.png)
+   ![以輸入的名稱建立屬性表單，並選取行動平台](assets/push-config-14.png)
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立行動屬性。
 
@@ -246,18 +246,18 @@ Campaign v8.5推出我們最新的推播通知服務，並以現代尖端技術�
 
 1. 從您的行動屬性儀表板，存取&#x200B;**[!UICONTROL Extensions]**&#x200B;功能表及&#x200B;**[!UICONTROL Catalog]**&#x200B;標籤。
 
-   ![](assets/push-config-15.png)
+   ![行動屬性延伸頁面，其中的[目錄]索引標籤反白顯示](assets/push-config-15.png)
 
 1. 安裝&#x200B;**[!DNL Adobe Campaign Classic]**&#x200B;擴充功能。 [進一步瞭解Campaign擴充功能](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
-   ![](assets/push-config-16.png)
+   ![Adobe Campaign Classic擴充功能上反白顯示「安裝」按鈕的擴充功能目錄](assets/push-config-16.png)
 
 1. 填寫執行個體的詳細資訊：
 
    * 在Campaign的&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]**&#x200B;功能表中可以找到&#x200B;**[!UICONTROL Registration endpoint]**&#x200B;或&#x200B;**[!UICONTROL Tracking endpoint]**&#x200B;個URL。
    * 在[此區段](#create-app)設定的行動應用程式中找到&#x200B;**[!UICONTROL Integration keys]**。
 
-   ![](assets/push-config-17.png)
+   ![安裝包含註冊與追蹤端點以及iOS與Android整合金鑰的擴充功能頁面](assets/push-config-17.png)
 
 1. 按一下 **[!UICONTROL Save]**。
 
@@ -275,4 +275,4 @@ Adobe Experience Platform Mobile SDK可協助您在行動應用程式中使用[!
 
 在資料收集中成功設定行動應用程式後，您現在可以在Adobe Campaign中建立和傳送推播通知。
 
-如需iOS和Android通知傳送的特定詳細元素，請參閱[此頁面](push.md#push-create)。
+請參閱[建立您的第一個推播通知](push.md#push-create)，以取得特定於iOS和Android通知傳送的詳細元素。

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '754'
 ht-degree: 5%
 ---
 # 開始使用 Campaign 資料模型 {#gs-ac-datamodel}
@@ -45,7 +45,7 @@ Adobe Campaign 附有預定義的資料模型。 本節提供Adobe Campaign資�
 
 Adobe Campaign資料模型的基本結構描述如下：
 
-* **收件者資料表**：資料模型依賴的主要資料表，預設為收件者資料表(**nmsRecipient**)。 此表格會儲存所有行銷設定檔。 在[本節](#ootb-profiles)中進一步瞭解收件者資料表。
+* **收件者資料表**：資料模型依賴的主要資料表，預設為收件者資料表(**nmsRecipient**)。 此表格會儲存所有行銷設定檔。 深入瞭解[內建設定檔資料表](#ootb-profiles)中的收件者資料表。
 
 * **傳遞資料表**：此資料表會針對每個傳遞動作儲存一個記錄。 通常是傳遞表格(**NmsDelivery**)。 此表格中的記錄代表傳遞動作或傳遞範本。 它包含執行傳遞所需的所有引數，例如目標、內容等。每個記錄都會更新數次，以反映傳送進度。
 
@@ -65,12 +65,12 @@ Adobe Campaign資料模型的基本結構描述如下：
 
 開始使用Adobe Campaign時，您需要評估預設資料模型，以檢查哪個表格最適合儲存行銷資料。
 
-您可以將預設收件者表格與現成欄位搭配使用，例如[此區段](#ootb-profiles)中所述。 如有需要，您可以使用兩種機制來擴充它：
+您可以將預設的收件者表格搭配現成欄位使用，例如[內建的設定檔表格](#ootb-profiles)中所述。 如有需要，您可以使用兩種機制來擴充它：
 
 * [使用新欄位擴充現有資料表](extend-schema.md)。 例如，您可以新增「忠誠度」欄位至「收件者」表格。
 * [建立新資料表](create-schema.md)，例如「Purchase」資料表，列出資料庫中每個設定檔進行的所有採購，並將其連結至收件者資料表。
 
-在[本節](datamodel-best-practices.md)中探索使用Campaign資料模型的最佳實務。
+在[資料模型最佳實務](datamodel-best-practices.md)中探索使用Campaign資料模型的最佳實務。
 
 ## 內建設定檔表格 {#ootb-profiles}
 
@@ -85,19 +85,19 @@ Adobe Campaign中的內建收件者表格(nmsrecipient)是建立資料模型的�
 
 您可以擴充收件者表格，但無法減少表格中的欄位或連結數量。
 
-在[本節](extend-schema.md)中瞭解如何擴充現有結構描述。
+瞭解如何在[延伸Campaign綱要](extend-schema.md)中延伸現有綱要。
 
 在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=zh-Hant#extending-a-table){target="_blank"}中探索內建收件者表格擴充功能的範例
 
-您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，在[此區段](custom-recipient.md)中說明。
+您也可以使用不同的收件者表格，以更符合您的業務或功能需求。 此方法具有限制，在[變更您的預設收件者資料表](custom-recipient.md)中說明。
 
 ## Campaign表格和雲端資料庫
 
 如需深入瞭解Campaign v8中的表格管理，請注意，在[企業(FFDA)部署](../architecture/enterprise-deployment.md)的內容中，表格會在Campaign與其Snowflake雲端資料庫之間復寫。
 
-在[本節](../architecture/replication.md)中進一步瞭解復寫策略和機制。
+深入瞭解[資料復寫](../architecture/replication.md)中的復寫策略和機制。
 
 **相關主題**
 
-探索如何在[此節中匯入設定檔](../start/import.md)
-在[本節](../start/audiences.md)中進一步瞭解Campaign對象
+探索如何在[中匯入設定檔開始使用設定檔](../start/import.md)
+在[中進一步瞭解Campaign對象在Campaign中搭配對象](../start/audiences.md)

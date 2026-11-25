@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '563'
 ht-degree: 2%
 ---
 # 發佈行銷活動套件{#publishing-the-campaign-package}
@@ -33,15 +33,15 @@ ht-degree: 2%
 
 若要選取稽核者，請按一下行銷活動套件中的&#x200B;**[!UICONTROL Approval parameters]**&#x200B;連結，然後從下拉式清單中選擇相關的稽核者。
 
-![](assets/s_advuser_mkg_dist_define_valid.png)
+![檢閱者欄位設定為中央管理群組的行銷活動封裝的核准引數對話方塊。](assets/s_advuser_mkg_dist_define_valid.png)
 
 接著，您可以按一下&#x200B;**[!UICONTROL Submit for approval]**&#x200B;開始核准程式。
 
-![](assets/s_advuser_mkg_dist_valid_process.png)
+![行銷活動套件儀表板顯示已提交供核准的訊息和[核准套件]按鈕。](assets/s_advuser_mkg_dist_valid_process.png)
 
 然後會傳送通知訊息給檢閱者，以確認此行銷活動套件的可用性。 該訊息包含透過網頁存取接受或拒絕核准的連結。
 
-![](assets/s_advuser_mkg_dist_valid_process1.png)
+![核准電子郵件，其中包含接受或拒絕連結，在封裝頁面上開啟動作，其中包含接受和拒絕選項。](assets/s_advuser_mkg_dist_valid_process1.png)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 您可以從行銷活動套件&#x200B;**[!UICONTROL Approval parameters...]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結新增其他稽核者。
 
-![](assets/s_advuser_mkg_dist_select_op_valid.png)
+![在核准引數中編輯連結，開啟含有其他稽核者和核准排程的[編輯稽核者]視窗。](assets/s_advuser_mkg_dist_select_op_valid.png)
 
 ## 核准時間表 {#approval-periods}
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 可以在指定日期和/或在提交日期後&#x200B;**x**&#x200B;天寄出提醒。 可以在提醒表的第一欄中設定提醒型別。 在以下範例中，稽核者將在2023年1月11日（即&#x200B;**[!UICONTROL Date]**&#x200B;欄中選取的日期前兩天）收到提醒訊息，並在核准期結束前一天（即提交核准日期後兩天）收到第二次提醒。
 
-![](assets/s_advuser_mkg_dist_reminder_planning.png)
+![編輯具有3d核准延遲的檢閱者視窗和兩個提醒：核准截止日期與指定日期之間的延遲。](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 定義封裝且封裝已提交核准後，執行排程會顯示在&#x200B;**[!UICONTROL Audit]**&#x200B;索引標籤中。 它會顯示根據先前設定計算出的處理截止日期，以及所有已設定提醒的日期。
 
@@ -69,6 +69,6 @@ ht-degree: 2%
 
 如果未指定稽核者或通知的操作者皆未核准封裝，則&#x200B;**[!UICONTROL Approve the package]**&#x200B;按鈕可讓您直接從行銷活動封裝&#x200B;**[!UICONTROL Dashboard]**&#x200B;或封裝概述進行核准。
 
-![](assets/s_advuser_mkg_dist_valid_button.png)
+![核准封裝按鈕開啟封裝上的動作對話方塊，其中包含[接受]或[拒絕]選項以及[註解]欄位。](assets/s_advuser_mkg_dist_valid_button.png)
 
 核准後，行銷活動會發佈、新增到清單中，並在達到可用日期後立即供本地實體使用。 如果在建立行銷活動時指定了本機實體，則會傳送訊息給通知群組中的操作員，讓他們知道行銷活動可用。 如果預先未指定實體，則所有本機實體預設都可使用促銷活動。 如需詳細資訊，請參閱[組織實體](about-distributed-marketing.md#organizational-entities)。

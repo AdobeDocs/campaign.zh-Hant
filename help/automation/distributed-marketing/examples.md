@@ -20,9 +20,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1626'
 ht-degree: 0%
 ---
 # 分散式行銷範例{#distributed-marketing-samples}
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 建立行銷活動範本時，請按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結之&#x200B;**[!UICONTROL Web interface]**&#x200B;選項內的&#x200B;**[!UICONTROL Zoom]**&#x200B;圖示，以存取網頁應用程式的詳細資料。
 
-![](assets/mkg_dist_local_op_form1.png)
+![進階設定，分散式行銷標籤：網頁介面欄位，其編輯連結圖示反白顯示。](assets/mkg_dist_local_op_form1.png)
 
 >[!NOTE]
 >
@@ -46,21 +46,21 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中，選取&#x200B;**行銷活動訂單**&#x200B;活動並開啟以存取其內容。
 
-![](assets/mkg_dist_web_app1.png)
+![網頁應用程式工作流程，其行銷活動訂購頁面活動已開啟以顯示其內容。](assets/mkg_dist_web_app1.png)
 
 在此範例中，**行銷活動訂單**&#x200B;活動包括：
 
 * 要由本地實體在訂單期間輸入的欄位，
 
-  ![](assets/mkg_dist_web_app2.png)
+  ![行銷活動訂單頁面欄位（聯絡日期、偏好的管道、年齡區段、影像、訊息）及其網路表單。](assets/mkg_dist_web_app2.png)
 
 * 可讓本地實體評估行銷活動的連結（例如目標、預算、內容等），
 
-  ![](assets/mkg_dist_web_app3.png)
+  ![評估目標定位、評估預算，以及評估網頁和網路表單中的內容連結。](assets/mkg_dist_web_app3.png)
 
 * 可讓您計算並顯示這些評估結果的指令碼。
 
-  ![](assets/mkg_dist_web_app4.png)
+  ![目標結果、預算結果和內容結果專案反白顯示的頁面樹狀結構。](assets/mkg_dist_web_app4.png)
 
 在此範例中，使用下列API：
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 本機實體的&#x200B;**&#x200B;**
 
 1. 使用行銷活動建立通知來存取中央實體選取的聯絡人清單。
-1. 選取聯絡人並核准參與率。
+1. Select聯絡人並核准參與率。
 
 中央實體的&#x200B;**：**
 
@@ -113,15 +113,15 @@ ht-degree: 0%
 
 1. 已選擇參與行銷活動的本機實體將會收到電子郵件通知。
 
-   ![](assets/mkg_dist_use_case_target_valid8.png)
+   ![目標核准電子郵件包含[存取您的連絡人清單並核准目標定位連結]。](assets/mkg_dist_use_case_target_valid8.png)
 
 1. 按一下&#x200B;**[!UICONTROL Access your contact list and approve targeting]**&#x200B;連結，即可授予本機實體存取為行銷活動選取之使用者端清單的許可權（透過網頁瀏覽器）。
 
-   ![](assets/mkg_dist_use_case_target_valid9.png)
+   ![目標核准網頁列出具有核取方塊和核准目標定位按鈕的目標聯絡人。](assets/mkg_dist_use_case_target_valid9.png)
 
 1. 本機實體會從清單中取消檢查某些連絡人，因為自年初以來，已就類似的選件與他們聯絡。
 
-   ![](assets/mkg_dist_use_case_target_valid10.png)
+   ![取消勾選三個連絡人的目標核准頁面，以及說明刪除的註解。](assets/mkg_dist_use_case_target_valid10.png)
 
 檢查通過後，行銷活動就會自動開始。
 
@@ -131,15 +131,15 @@ ht-degree: 0%
 
 1. 若要設定合作行銷活動（依目標核准），您必須先建立&#x200B;**[!UICONTROL Data distribution activity]**。 按一下Campaign Explorer **[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;資料夾中的&#x200B;**[!UICONTROL New]**&#x200B;圖示。
 
-   ![](assets/mkg_dist_use_case_target_valid3.png)
+   ![資料發佈一般標籤：目標維度、發佈欄位來源、指派型別本機實體。](assets/mkg_dist_use_case_target_valid3.png)
 
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，您必須指定：
 
    * **[!UICONTROL Targeting dimension]**。 在此對&#x200B;**收件者**&#x200B;執行&#x200B;**資料發佈**。
    * **[!UICONTROL Distribution type]**。 您可以選擇&#x200B;**固定大小**&#x200B;或&#x200B;**大小作為百分比**。
-   * **[!UICONTROL Assignment type]**。 選取&#x200B;**本機實體**&#x200B;選項。
+   * **[!UICONTROL Assignment type]**。 Select **本機實體**&#x200B;選項。
    * **[!UICONTROL Distribution type]**。 在這裡，是存在於收件者表格中的&#x200B;**[!UICONTROL Origin (@origin)]**&#x200B;欄位，可讓您識別連絡人與本機實體之間的關係。
-   * **[!UICONTROL Approval storage]**&#x200B;欄位。 選取&#x200B;**本機核准收件者**&#x200B;選項。
+   * **[!UICONTROL Approval storage]**&#x200B;欄位。 Select **本機核准收件者**&#x200B;選項。
 
 1. 在&#x200B;**[!UICONTROL Breakdown]**&#x200B;索引標籤中，指定：
 
@@ -147,7 +147,7 @@ ht-degree: 0%
    * 本機實體&#x200B;**[!UICONTROL label]**。
    * **[!UICONTROL Size]** （固定或以百分比表示）。 **0預設值**&#x200B;包含選取連結至本機實體的所有收件者。
 
-   ![](assets/mkg_dist_use_case_target_valid4.png)
+   ![資料分佈劃分索引標籤列出東、北、南、西分佈值和本機實體。](assets/mkg_dist_use_case_target_valid4.png)
 
 1. 儲存您的新資料分佈。
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 1. 從Campaign Explorer的&#x200B;**[!UICONTROL Campaign management > Campaign]**&#x200B;資料夾建立新的&#x200B;**[!UICONTROL collaborative campaign (by target approval)]**。
 1. 在&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，為您的行銷活動建立工作流程。 這必須包含由&#x200B;**[!UICONTROL Data distribution]**&#x200B;活動定義&#x200B;**[!UICONTROL Record count limitation]**&#x200B;的&#x200B;**分割**&#x200B;活動。
 
-   ![](assets/mkg_dist_use_case_target_valid5.png)
+   ![使用Local entities distribution，將分割活動記錄計數限制設為By data distribution。](assets/mkg_dist_use_case_target_valid5.png)
 
 1. 新增&#x200B;**[!UICONTROL Local approval]**&#x200B;動作，您可以在其中指定：
 
@@ -164,7 +164,7 @@ ht-degree: 0%
    * 核准提醒，
    * 行銷活動的預期處理。
 
-   ![](assets/mkg_dist_use_case_target_valid7.png)
+   ![本機核准活動：本機實體的目標核准通知、核准型別、範本和描述。](assets/mkg_dist_use_case_target_valid7.png)
 
 1. 儲存您的記錄。
 
@@ -177,15 +177,15 @@ ht-degree: 0%
    * 在&#x200B;**手動**&#x200B;模式中，如果本機實體接受來自中央實體的邀請，則會參與行銷活動。 如果他們想要且需要經理的核准以確認其參與促銷活動，則可以刪除預先選取的聯絡人。
    * 在&#x200B;**自動**&#x200B;模式中，本機實體必須參與行銷活動，除非他們從行銷活動取消註冊。 他們不需要核准就可以刪除連絡人。
 
-   ![](assets/mkg_dist_use_case_target_valid.png)
+   ![具有參考行銷活動且核准模式欄位設定為[手動]的行銷活動套件建立對話方塊。](assets/mkg_dist_use_case_target_valid.png)
 
 1. 在&#x200B;**[!UICONTROL Description]**&#x200B;索引標籤中，您可以新增行銷活動的說明，以及要傳送給本機實體的任何檔案。
 
-   ![](assets/mkg_dist_use_case_target_valid1.png)
+   ![Campaign套件說明標籤，包含套件說明和附加檔案清單。](assets/mkg_dist_use_case_target_valid1.png)
 
 1. 核准您的行銷活動套件，然後啟動您的工作流程以發佈套件，並讓它可用於套件清單中的所有本機實體。
 
-   ![](assets/mkg_dist_use_case_target_valid2.png)
+   ![具有[核准封裝]按鈕的封裝儀表板，顯示正在編輯的狀態。](assets/mkg_dist_use_case_target_valid2.png)
 
 ## 建立合作行銷活動（依表單） {#creating-a-collaborative-campaign--by-form-}
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 1. 選取要參與行銷活動的本地實體會收到電子郵件通知，通知他們已參與行銷活動。
 
-   ![](assets/mkg_dist_use_case_form_7.png)
+   ![在本機實體的行銷活動連結中，以註冊方式註冊行銷活動電子郵件。](assets/mkg_dist_use_case_form_7.png)
 
 1. 本機實體完成個人化表單，然後他們：
 
@@ -229,35 +229,35 @@ ht-degree: 0%
    * 預覽傳遞內容，
    * 核准其參與率。
 
-     ![](assets/mkg_dist_use_case_form_8.png)
+     ![含有評估連結、影像預覽和[驗證]按鈕的Campaign訂單Web表單。](assets/mkg_dist_use_case_form_8.png)
 
 1. 負責驗證訂單的操作員核准其參與。
 
-   ![](assets/mkg_dist_use_case_form_9.png)
+   ![含有訂單詳細資料、訂單註解及[驗證]按鈕的行銷活動訂單核准頁面。](assets/mkg_dist_use_case_form_9.png)
 
 ### 中央實體側 {#central-entity-side-1}
 
 1. 若要實作合作行銷活動（依表單），您必須使用&#x200B;**合作行銷活動（依表單）**&#x200B;範本建立行銷活動。
 
-   ![](assets/mkg_dist_use_case_form_1.png)
+   ![使用合作行銷活動（依表單）範本新增行銷活動對話方塊。](assets/mkg_dist_use_case_form_1.png)
 
 1. 在促銷活動的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Advanced campaign parameters...]**&#x200B;連結以將其設定為本機促銷活動。 請參閱[建立本機行銷活動（依表單）](#creating-a-local-campaign--by-form-)。
 
-   ![](assets/mkg_dist_use_case_form_2.png)
+   ![進階設定，分散式行銷標籤：合作層級，可依表單設定，預設值。](assets/mkg_dist_use_case_form_2.png)
 
 1. 設定行銷活動工作流程與網頁表單。 請參閱[建立本機行銷活動（依表單）](#creating-a-local-campaign--by-form-)。
 1. 指定執行排程和相關本機實體，以建立您的Campaign套件。
 
-   ![](assets/mkg_dist_use_case_form_3.png)
+   ![含有參考行銷活動、執行排程、截止日期及本機實體清單的行銷活動套件對話方塊。](assets/mkg_dist_use_case_form_3.png)
 
 1. 在&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中選取核准模式，以完成封裝設定。
 
-   ![](assets/mkg_dist_use_case_form_4.png)
+   ![核准模式下拉式清單，提供手動和自動。](assets/mkg_dist_use_case_form_4.png)
 
 1. 從「**[!UICONTROL Description]**」索引標籤，您可以輸入行銷活動套件說明、發佈套件時傳送給本機實體的通知訊息，以及附加任何資訊性檔案至行銷活動套件。
 
-   ![](assets/mkg_dist_use_case_form_5.png)
+   ![包含通知電子郵件選項的封裝描述標籤，本機實體的訊息和附加檔案。](assets/mkg_dist_use_case_form_5.png)
 
 1. 核准套件以發佈。
 
-   ![](assets/mkg_dist_use_case_form_6.png)
+   ![核准封裝按鈕開啟封裝上的動作對話方塊，其中包含[接受]和[拒絕]選項。](assets/mkg_dist_use_case_form_6.png)

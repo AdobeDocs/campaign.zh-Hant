@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '1524'
+ht-degree: 0%
 ---
 # 方案結構{#schema-structure}
 
 `<srcschema>`的基本結構如下：
 
-```
+```xml
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 資料結構描述的XML檔案必須包含具有&#x200B;**名稱**&#x200B;和&#x200B;**名稱空間**&#x200B;屬性的&#x200B;**`<srcschema>`**&#x200B;根元素，才能填入結構描述名稱及其名稱空間。
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 讓我們使用以下XML內容來說明資料結構的結構：
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 及其對應的資料結構：
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 在我們的範例中，主要元素由以下行表示：
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
 在我們的範例結構描述中，這些類別包括：
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -181,7 +181,7 @@ ht-degree: 1%
 
 以下是輸入型別的結構描述範例：
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,13 +208,13 @@ ht-degree: 1%
 
   **範例**：
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
   您可以從Adobe Campaign使用者端主控台輸入表單中看到標籤：
 
-  ![](assets/schema_label.png)
+  ![主控台中的電子郵件輸入欄位，標示為「電子郵件」並輸入電子郵件地址。](assets/schema_label.png)
 
 * **desc**&#x200B;屬性可讓您輸入較長的說明。
 
@@ -226,7 +226,7 @@ ht-degree: 1%
 
   **範例**：
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
@@ -234,7 +234,7 @@ ht-degree: 1%
 
 **default**&#x200B;屬性可讓您定義在內容建立時傳回預設值的運算式。
 
-值必須是符合XPath語言的運算式。 如需詳細資訊，請參閱[本章節](#reference-with-xpath)。
+值必須是符合XPath語言的運算式。 如需詳細資訊，請參閱[XPath參考](#reference-with-xpath)。
 
 **範例**：
 
@@ -267,7 +267,7 @@ ht-degree: 1%
 
 這些值會顯示在輸入表單的下拉式清單中：
 
-![](assets/schema_user_enum.png)
+![輸入表單中的城市欄位，顯示使用者分項清單中的下拉式值清單。](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,11 +281,11 @@ ht-degree: 1%
 
 列舉可讓使用者從下拉式清單中選取值，而不是在常規輸入欄位中輸入值：
 
-![](assets/schema_enum.png)
+![顯示「無」指定值、「男性」和「女性」的「性別」下拉式清單。](assets/schema_enum.png)
 
 資料結構描述中的列舉宣告範例：
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -317,13 +317,13 @@ ht-degree: 1%
 
   例如，此分項清單用於指定行銷活動的性質。
 
-  ![](assets/schema_dbenum.png)
+  ![新的行銷活動對話方塊，其自然下拉式清單已開啟，顯示「無指定」和「重新行銷」。](assets/schema_dbenum.png)
 
 ### 範例 {#example}
 
 以下是填入屬性的結構描述範例：
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -350,7 +350,7 @@ ht-degree: 1%
 
 **範例**：結構描述中&#x200B;**`<group>`**&#x200B;集合專案的定義。
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -358,7 +358,7 @@ ht-degree: 1%
 
 透過XML內容的投影：
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -396,7 +396,7 @@ XPath是一種語法，可讓您在XML檔案的樹狀結構中尋找節點。
 
 您可以透過Adobe Campaign使用者端主控台中的任何運算式編輯器，存取可用函式清單：
 
-![](assets/schema_function.png)
+![運算式編輯器函式樹狀結構，包含彙總、字串、日期及數值群組，例如Abs、Ceil及Round。](assets/schema_function.png)
 
 **範例**：
 
@@ -412,7 +412,7 @@ XPath是一種語法，可讓您在XML檔案的樹狀結構中尋找節點。
 
 **範例**：收件者資料表的運算字串。
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

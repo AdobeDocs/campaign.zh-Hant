@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1391'
 ht-degree: 13%
 ---
 # 工作流程最佳實務{#workflow-best-practices}
@@ -95,7 +95,7 @@ Adobe建議您在專用資料夾中建立工作流程。
 * 一律以&#x200B;**[!UICONTROL Start]**&#x200B;活動或&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動開始您的工作流程。 相關時，您也可以使用&#x200B;**[!UICONTROL External signal]**&#x200B;活動。
 * 在建立工作流程時，每個分支僅使用一個&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動。 如果工作流程的同一分支有多個排程器（相互連結），則要執行的任務數量將呈指數倍增，這將使得資料庫大幅超載。 此規則也適用於所有具有&#x200B;**[!UICONTROL Scheduling & History]**&#x200B;索引標籤的活動。 深入瞭解[排程](scheduler.md)。
 
-  ![](assets/wf-scheduler.png)
+  ![每個分支有一個排程器的正確配置，而一個分支中有兩個排程器標示為不允許。](assets/wf-scheduler.png)
 
 * 針對每個工作流程使用&#x200B;**[!UICONTROL End]**&#x200B;活動。 這可讓Adobe Campaign釋出用於工作流程中計算的暫存空間。 有關詳細資訊，請參閱： [開始和結束](start-and-end.md)。
 
@@ -140,7 +140,7 @@ JavaScript方法&#x200B;**[!UICONTROL logInfo()]**&#x200B;是偵錯工作流程�
 
 工作流程屬性的&#x200B;**[!UICONTROL Execution]**&#x200B;索引標籤中提供&#x200B;**日誌**&#x200B;中的Log SQL查詢選項。 此選項會記錄來自不同活動的所有SQL查詢，並提供檢視平台實際執行內容的方法。 但是，此選項只應在開發期間&#x200B;**暫時**&#x200B;使用，且&#x200B;**不在生產上啟用**。
 
-最佳實務是在不再需要記錄時清除記錄。 系統不會自動清除工作流程歷史記錄：預設會保留所有訊息。 您可以透過&#x200B;**[!UICONTROL File > Actions]**&#x200B;功能表或按一下位於清單上方工具列中的[動作]按鈕，清除歷史記錄。 選取永久刪除歷史記錄。
+最佳實務是在不再需要記錄時清除記錄。 系統不會自動清除工作流程歷史記錄：預設會保留所有訊息。 您可以透過&#x200B;**[!UICONTROL File > Actions]**&#x200B;功能表或按一下位於清單上方工具列中的[動作]按鈕，清除歷史記錄。 Select清除歷史記錄。
 若要瞭解如何清除記錄檔，請參閱此[檔案](start-a-workflow.md)。
 
 ### 工作流程規劃 {#workflow-planning}
@@ -158,4 +158,4 @@ JavaScript方法&#x200B;**[!UICONTROL logInfo()]**&#x200B;是偵錯工作流程�
 
 在生產環境中，請避免在引擎中執行工作流程。 在&#x200B;**[!UICONTROL Workflow properties]**&#x200B;中核取&#x200B;**[!UICONTROL Execute in the engine]**&#x200B;選項時，工作流程會具有優先順序，而所有其他工作流程會由工作流程引擎停止，直到此工作流程完成。
 
-![](assets/wf-execute-in-engine.png)
+![已檢查在引擎中執行（不在生產中使用）的工作流程屬性[執行]索引標籤。](assets/wf-execute-in-engine.png)

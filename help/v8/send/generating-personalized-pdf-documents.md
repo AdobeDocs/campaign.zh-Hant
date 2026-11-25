@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '517'
 ht-degree: 4%
 ---
 # 產生個人化 PDF 文件{#generating-personalized-pdf-documents}
@@ -75,7 +75,7 @@ Adobe Campaign可讓您從LibreOffice或Microsoft Word檔案，產生電子郵�
 * 以「My_Logo」作為內部名稱，建立新的「My Logo」個人化區塊。
 * 按一下&#x200B;**[!UICONTROL Advanced parameters...]**&#x200B;連結，然後核取&#x200B;**[!UICONTROL "The content of the block is included in an attachment"]**&#x200B;選項。 這可讓您將個人化區塊的定義直接複製到OpenOffice檔案的內容中。
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![我的標誌個人化區塊及其內容型別與編輯器中的OpenOffice XML定義](assets/s_ncs_pdf_bloc_option.png)
 
   您需要在個人化區塊中區分兩種型別的宣告：
 

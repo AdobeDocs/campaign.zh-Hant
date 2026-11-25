@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 4%
 ---
 # 範本管理{#template-management}
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 建立登入頁面型別Web應用程式時，使用者可以選擇其中一個範本。 您也可以匯入在Adobe Campaign外部建立的HTML範本。
 
-![](assets/dce_popup_templatechoice.png)
+![選擇內容對話方塊，列出可用的內容範本，例如「從檔案」、「連絡人」和「點進」](assets/dce_popup_templatechoice.png)
 
 若要新增範本，請參閱[全域選項](content-editor-interface.md#global-options)。
 
@@ -48,6 +48,6 @@ ht-degree: 5%
 
 在&#x200B;**行銷活動**&#x200B;索引標籤中，開啟所選傳遞。 按一下&#x200B;**另存為範本**&#x200B;按鈕，命名範本，然後儲存。
 
-![](assets/dce_save_model.png)
+![HTML內容編輯器，在右側工具列中反白顯示「另存為範本」圖示](assets/dce_save_model.png)
 
 新範本儲存在總管中的&#x200B;**資源>範本>內容範本**&#x200B;節點下。

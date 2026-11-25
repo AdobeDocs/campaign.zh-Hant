@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 14%
+source-wordcount: '319'
+ht-degree: 12%
 ---
 # 開始使用[!DNL Campaign] API {#gs-ac-api}
 
@@ -69,7 +69,7 @@ ht-degree: 14%
 若要使用API並與[!DNL Adobe Campaign]互動，您也必須熟悉您的資料模型。
 
 >[!NOTE]
->您可以產生資料模型的完整說明。 在[本頁](datamodel.md)中瞭解更多。
+>您可以產生資料模型的完整說明。 深入瞭解[開始使用Campaign資料模型](datamodel.md)。
 
 
 **相關主題**
