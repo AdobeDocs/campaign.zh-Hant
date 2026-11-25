@@ -105,7 +105,7 @@ ht-degree: 7%
 
      在[新增映象頁面的連結至映象頁面](mirror-page.md#link-to-mirror-page)中進一步瞭解管理映象頁面。
 
-1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。深入瞭解Adobe Campaign](email-parameters.md)中的[電子郵件引數。
+1. 您可以為電子郵件定義其他引數，例如傳送訊息副本至密件副本地址、變更訊息格式、設定特定編碼等。深入瞭解Adobe Campaign[&#128279;](email-parameters.md)中的電子郵件引數。
 
 1. 內容準備就緒後，請按一下&#x200B;**儲存**：內容現在會顯示在&#x200B;**[!UICONTROL Campaigns > Deliveries]**&#x200B;索引標籤的傳遞清單中。
 

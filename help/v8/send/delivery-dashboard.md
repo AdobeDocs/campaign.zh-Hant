@@ -132,7 +132,7 @@ ht-degree: 3%
 
 如此一來，您就可以確保以最佳方式在各種Web使用者端、網頁郵件與裝置上向收件者顯示您的訊息。
 
-如需收件匣轉譯的詳細資訊，請參閱Campaign](inbox-rendering.md)中的[收件匣轉譯
+如需收件匣轉譯的詳細資訊，請參閱Campaign[&#128279;](inbox-rendering.md)中的收件匣轉譯
 
 
 ## 傳遞稽核 {#delivery-audit-}

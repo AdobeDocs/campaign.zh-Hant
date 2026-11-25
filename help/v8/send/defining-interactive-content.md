@@ -117,7 +117,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 1. 在AMP內容通過驗證前，視需要進行修正。
 
-   ![已選取AMP4EMAIL格式的AMP驗證器，且驗證狀態：強調顯示PASS ](assets/amp_validator_pass.png)
+   ![已選取AMP4EMAIL格式的AMP驗證器，且驗證狀態：強調顯示PASS &#x200B;](assets/amp_validator_pass.png)
 
 1. 若要預覽您的內容，請將驗證的內容複製並貼到[AMP Playground](https://playground.amp.dev)或類似的網站。
 
@@ -152,7 +152,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 * AMP MIME部分必須包含[有效的AMP檔案](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)。
 * AMP MIME部分必須小於100KB。
 
-您也可以參閱Gmail](https://developers.google.com/gmail/ampemail/tips)檔案的[提示和已知限制。
+您也可以參閱Gmail[&#128279;](https://developers.google.com/gmail/ampemail/tips)檔案的提示和已知限制。
 
 ## AMP電子郵件定位 {#targeting-amp-email}
 
