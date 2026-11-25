@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 2%
+source-wordcount: '1786'
+ht-degree: 1%
 ---
 # 自訂多維度資料集{#cube-custom}
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 若要啟用量化，請在建立維度時勾選適當的方塊。
 
-![](assets/cube-class.png)
+![Dimension建立對話方塊，其中在「設定量化」下選取「啟用量化」選項。](assets/cube-class.png)
 
 您可以手動建立回收筒，或將回收筒連結至現有的[分項清單](../config/enumerations.md)。
 
@@ -56,15 +56,15 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 
 若要個別建立每個回收筒，請選取&#x200B;**[!UICONTROL Define each bin]**&#x200B;選項，並使用表格建立各種回收筒。
 
-![](assets/cube-binning.png)
+![已選取[定義每個資料匣]選項的Dimension量化設定，以及空的資料匣資料表。](assets/cube-binning.png)
 
 按一下「**[!UICONTROL Add]**」按鈕以建立新的資料匣並列出將分組到資料匣中的值。
 
-![](assets/cube-add-new-bin.png)
+![含有法文和義大利文值清單的新bin對話方塊，以及[新增]按鈕以列出更多值。](assets/cube-add-new-bin.png)
 
 在下列範例中，語言分為三類：英文/德文/荷蘭文、法文/義大利文/西班牙文和其他語言。
 
-![](assets/cube-add-new-bin-2.png)
+![語言維度包含兩個值匣：法文、義大利文、西班牙文和英文、德文、荷蘭文；其他值標示為「其他」。](assets/cube-add-new-bin-2.png)
 
 您可以使用SQL遮罩將數個值組合成濾鏡。 若要這麼做，請檢查&#x200B;**[!UICONTROL Use an SQL mask]**&#x200B;欄中的&#x200B;**[!UICONTROL Yes]**，並輸入要套用到&#x200B;**[!UICONTROL Value or expression]**&#x200B;欄中的SQL篩選器。
 
@@ -79,11 +79,11 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 1. 建立新維度並啟用量化。
 1. 選取&#x200B;**[!UICONTROL Dynamically link the values to an enumeration]**&#x200B;選項並選取相符的列舉。
 
-   ![](assets/cube-link-to-enum.png)
+   ![將值動態連結至選取的列舉選項，並開啟可用的列舉清單。](assets/cube-link-to-enum.png)
 
    每當更新分項清單值時，系統就會自動調整相符的回收筒。
 
-   在[此頁面](../config/enumerations.md)中進一步瞭解列舉。
+   深入瞭解[管理分項清單](../config/enumerations.md)中的分項清單。
 
 ### 建立值範圍 {#create-value-ranges}
 
@@ -115,11 +115,11 @@ Adobe Campaign也提供自動量化的輔助程式：值可以細分為N個群�
 
 Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人（由ISP重新分組）的電子郵件網域清單，如下列範例所示：
 
-![](assets/nmx_report_sample.png)
+![使用者端來源和電子郵件網域報告，其中包含依ISP分組的電子郵件網域（AOL、免費、Gmail、Microsoft、Yahoo、其他）。](assets/nmx_report_sample.png)
 
 這是使用下列範本建置：
 
-![](assets/nmx_enum_domain.png)
+![網域列舉設定為[在量值時保留]，其值(AOL、Free、Gmail、Microsoft、Yahoo)和網域別名。](assets/nmx_enum_domain.png)
 
 若要使用此列舉建立報表，請使用&#x200B;**[!UICONTROL Email domain]**&#x200B;維度建立Cube。 選擇&#x200B;**[!UICONTROL Enable binning]**&#x200B;選項，然後選擇&#x200B;**[!UICONTROL Dynamically link the values to an enumeration]**。 然後選取&#x200B;**網域**&#x200B;列舉，如上所示。 所有沒有指定別名的值都會在&#x200B;**其他**&#x200B;標籤下重新分組。
 
@@ -127,13 +127,13 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 您只需要修改分項清單即可更新相關報表。 例如，建立&#x200B;**Adobe**&#x200B;值並新增&#x200B;**adobe.com**&#x200B;別名，報表就會在列舉層級自動以Adobe值更新。
 
-![](assets/nmx_add_alias.png)
+![將neolane.com別名新增至網域列舉，這會將Neolane行新增至報表。](assets/nmx_add_alias.png)
 
 **[!UICONTROL Domains]**&#x200B;列舉用於產生顯示網域清單的內建報告。 若要調整這些報表的內容，您可以編輯此清單。
 
 您可以建立其他保留給量化使用的分項清單，並用於其他立方結構：所有別名值都會在第一個分項清單標籤中指定的分項清單中重新分組。
 
-在[此頁面](../../v8/config/ui-settings.md)中進一步瞭解列舉。
+深入瞭解[Campaign介面設定](../../v8/config/ui-settings.md)中的分項清單。
 
 ## 立方體中的彙總 {#calculate-and-use-aggregates}
 
@@ -143,7 +143,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 彙總會在每個立方結構的相關頁簽中定義。
 
-![](assets/cube-agregate.png)
+![總管中Cube的[彙總]索引標籤，列出具有[新增]按鈕的Cube彙總。](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 1. 選取維度和層級。 對每個維度和每個層級重複此程式。
 1. 按一下&#x200B;**[!UICONTROL Workflow]**&#x200B;索引標籤以建立彙總工作流程。
 
-   * **[!UICONTROL Scheduler]**&#x200B;活動可讓您定義計算更新的頻率。 排程器在[此區段](../../automation/workflow/scheduler.md)中有詳細說明。
+   * **[!UICONTROL Scheduler]**&#x200B;活動可讓您定義計算更新的頻率。 排程器在[設定排程器活動](../../automation/workflow/scheduler.md#configuring-scheduler-activity)中有詳細說明。
    * **[!UICONTROL Aggregate update]**&#x200B;活動可讓您選取要套用的更新模式：完整或部分。
 
      依預設，每次計算期間都會執行完整更新。 若要啟用部分更新，請選取相關選項並定義更新條件。
@@ -171,15 +171,15 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 1. 按一下計量清單上方的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，並選取要計算的計量型別和公式。
 
-   ![](assets/cube-create-a-measure.png)
+   ![運運算元清單開啟的量值建立對話方塊： Count、Sum、Minimum、Maximum、Average等。](assets/cube-create-a-measure.png)
 
 1. 視需要並根據運運算元，選擇作業涉及的運算式。
 
-   **[!UICONTROL Advanced selection]**&#x200B;按鈕可讓您建立複雜的計算公式。 如需詳細資訊，請參閱[本章節](../../automation/workflow/query.md)。
+   **[!UICONTROL Advanced selection]**&#x200B;按鈕可讓您建立複雜的計算公式。 如需詳細資訊，請參閱[查詢](../../automation/workflow/query.md)。
 
 1. **[!UICONTROL Filter the measure data...]**&#x200B;連結可讓您限制計算欄位，並僅將其套用至資料庫中的特定資料。
 
-   ![](assets/cube-create-measure-2.png)
+   ![篩選量值的條件，在BasketMusic運算式上開啟運運算元清單。](assets/cube-create-measure-2.png)
 
 1. 輸入量值的標籤並新增說明，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以建立它。
 
@@ -197,7 +197,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 移動線條以變更顯示順序。 在下列範例中，法國資料會移至清單底部：這表示它將顯示在最後一欄。
 
-![](assets/cube-in-report-settings.png)
+![設定計量視窗，將法語計量拖曳到結尾時，會將它的資料行移到報表的最後一欄。](assets/cube-in-report-settings.png)
 
 ### 設定顯示 {#configuring-the-display}
 
@@ -207,17 +207,17 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
   您可以選擇是否顯示測量的標籤，以及配置它們的版面（行或欄）。
 
-![](assets/cube-pivot-table-config-details.png)
+![具有[方向]清單（[列]、[欄]）、[標籤]、[對齊]和[標題]選項的樞紐分析表組態對話方塊。](assets/cube-pivot-table-config-details.png)
 
 顏色選項可讓您反白標示重要的值，以方便閱讀。
 
-![](assets/cube-pivot-table-color.png)
+具有色彩區段的![樞紐分析表組態：啟動、使用的量值、下限、上限和色階。](assets/cube-pivot-table-color.png)
 
 ### 變更顯示的測量型別 {#changing-the-type-of-measure-displayed}
 
 在每個測量中，您可以定義要套用的單位和格式。
 
-![](assets/cube-pivot-table-config-units.png)
+![設定計量視窗的標籤、格式、小數位數、單位和單位位置。](assets/cube-pivot-table-config-units.png)
 
 ## 共用您的報告 {#share-a-report}
 
@@ -225,7 +225,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL Show the report properties]**&#x200B;圖示並啟用&#x200B;**[!UICONTROL Share this report]**&#x200B;選項。
 
-![](assets/cube_share_option.png)
+![報告內容對話方塊，其[共用報告]選項設定為[是]，再加上[類別]和[關聯性]欄位。](assets/cube_share_option.png)
 
 指定報表所屬的類別及其相關性。<!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
@@ -239,13 +239,13 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 1. 按一下&#x200B;**[!UICONTROL Add a filter]**&#x200B;圖示。
 
-   ![](assets/cube_add_filter.png)
+   ![報表工具列的「每個公司的使用者端」樞紐分析表上方有反白顯示的「新增篩選器」圖示。](assets/cube_add_filter.png)
 
 1. 選取篩選器關注的維度
 
 1. 選取篩選型別及其精確度等級。
 
-   ![](assets/cube_ceate_filter.png)
+   ![新增包含核取方塊的篩選對話方塊，以選取要保留的值範圍，例如年齡範圍。](assets/cube_ceate_filter.png)
 
 1. 建立篩選器後，篩選器會顯示在報表上方。
 
@@ -253,7 +253,7 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
    您可以視需要合併多個篩選器：所有篩選器都會顯示在此區域中。
 
-   ![](assets/cube_multiple_filters.png)
+   ![報告上方的篩選區域顯示三個合併的篩選：「城市」、「公司」和「年齡」。](assets/cube_multiple_filters.png)
 
 每次修改（新增、移除、變更）篩選器時，都必須重新計算報表。
 
@@ -261,8 +261,8 @@ Adobe Campaign也提供網域列舉，可讓您顯示資料庫中所有連絡人
 
 若要選取線條、欄或儲存格，請以滑鼠左鍵按一下該線條、欄或儲存格。 若要取消選取，請再按一下「 」。
 
-![](assets/cube_create_filter_from_selection.png)
+![我的CLIENTS報告已選取LONDON行，且選取圖示上的篩選器反白顯示。](assets/cube_create_filter_from_selection.png)
 
 篩選器會自動套用，並新增至報表上方的篩選器區域。
 
-![](assets/cube_create_filter_display.png)
+![在倫敦篩選的報告，在報告上方的篩選區域中顯示「城市=倫敦」篩選器。](assets/cube_create_filter_display.png)

@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 8%
+source-wordcount: '1071'
+ht-degree: 7%
 ---
 # 傳遞報告 {#delivery-reports}
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 1. 按一下您要存取其報告的傳送名稱。
 1. 選取「**[!UICONTROL Summary]**」標籤，然後按一下「**[!UICONTROL Reports]**」連結以存取傳遞的特定報告。
 
-   ![](assets/detailed-report-2.png)
+   ![反白顯示[報告]連結的[傳遞摘要]索引標籤，列出可用的傳遞報告。](assets/detailed-report-2.png)
 
    依預設，可使用下列報表：
 
@@ -64,7 +64,7 @@ ht-degree: 8%
 >
 >根據訊息開啟計算出的值一律為預估值，因為連結至文字格式電子郵件的錯誤邊界。 **[!UICONTROL Distinct opens/Sum of opens for the population reached]**&#x200B;指標會將此錯誤邊界列入考量。 [了解更多資訊](metrics-calculation.md#tracking-opens-)。
 
-![](assets/tracking-report-synthesis.png)
+![追蹤指標報告包含四個編號區段，從「傳遞統計資料」到「產生的點按資料流」。](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. Delivery statistics]**
 
@@ -101,7 +101,7 @@ ht-degree: 8%
 >
 >此報告中顯示的網域名稱是在多維資料庫層級使用的分項清單中定義。 若要變更、新增或移除預設網域，請編輯&#x200B;**[!UICONTROL Domains]**&#x200B;專案清單，並修改值與別名。 **[!UICONTROL Others]**&#x200B;類別包含不屬於任何專案清單值的網域名稱。
 >
->在[此頁面](../config/enumerations.md)中瞭解如何存取及設定您的分項清單。
+>瞭解如何在[管理分項清單](../config/enumerations.md)中存取及設定分項清單。
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -168,7 +168,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 此報表提供有關傳遞的所有主要資訊。
 
-![](assets/user-report-summary.png)
+![包含初始目標母體、排除原因和傳遞統計資料區段的傳遞報告摘要。](assets/user-report-summary.png)
 
 **[!UICONTROL Target population]**
 

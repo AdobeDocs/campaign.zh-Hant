@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '678'
 ht-degree: 2%
 ---
 # 稽核軌跡{#audit-trail}
@@ -69,7 +69,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 * **選項稽核軌跡**&#x200B;可讓您檢查活動和對選項進行的最後修改。
 
-  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
+  如需選項的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)。
 
 * **傳遞稽核軌跡**&#x200B;可讓您檢查活動和對傳遞進行的最後修改。
 
@@ -105,7 +105,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
 
 1. 在&#x200B;**[!UICONTROL Administration]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL Audit]**&#x200B;然後&#x200B;**[!UICONTROL Audit Trail]**。
 
-   ![](assets/audit-trail-1.png)
+   已選取[管理]、[稽核]、[稽核軌跡]以及稽核實體清單的![總管樹狀結構](assets/audit-trail-1.png)
 
 1. **[!UICONTROL Audit trail]**&#x200B;視窗會開啟，其中包含您的實體清單。 Adobe Campaign將稽核其他實體的建立、編輯和刪除動作。
 
@@ -119,7 +119,7 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
    * **[!UICONTROL Action]**：此實體上執行的最後一個動作，已建立、已修改或已刪除。
    * **[!UICONTROL Modification date]**：在此實體上執行上一個動作的日期。
 
-   ![](assets/audit-trail-2.png)
+   ![稽核實體詳細資料顯示型別、實體、修改者、動作和修改日期](assets/audit-trail-2.png)
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ Adobe Campaign中的&#x200B;**[!UICONTROL Audit trail]**&#x200B;功能提供您�
    * 針對運運算元： **[!UICONTROL XtkAudit_Operator]**
    * 針對每個實體： **[!UICONTROL XtkAudit_Enable_All]**
 
-   ![](assets/audit-trail-3.png)
+   在「管理」下的![選項清單，Platform在XtkAudit_上篩選，並選取XtkAudit_Delivery選項](assets/audit-trail-3.png)
 
 1. 如果要啟用實體，請將&#x200B;**[!UICONTROL Value]**&#x200B;變更為1；如果要停用實體，請變更為0。
 
-   ![](assets/audit-trail-4.png)
+   ![XtkAudit_Delivery選項，其值（整數）欄位設為1以啟用稽核軌跡](assets/audit-trail-4.png)
 
 1. 按一下 **[!UICONTROL Save]**。

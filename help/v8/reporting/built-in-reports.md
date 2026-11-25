@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1189'
 ht-degree: 3%
 ---
 # Adobe Campaign內建報告 {#ootb-reports}
@@ -57,32 +57,32 @@ ht-degree: 3%
 
 1. 選取Adobe Campaign介面的&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
-   ![](assets/reporting-access-from-home.png)
+   ![報告索引標籤在Campaign首頁反白顯示，顯示內建報告的全域報告清單。](assets/reporting-access-from-home.png)
 
 1. 使用搜尋欄位來篩選顯示的報表。
 
 1. 然後按一下您要顯示的報表。
 
-   ![](assets/edit-a-report.png)
+   ![使用預算上的搜尋欄位篩選的全域報告清單，顯示要開啟的相符報告。](assets/edit-a-report.png)
 
 1. 按一下畫面頂端的&#x200B;**[!UICONTROL Back]**&#x200B;連結，返回報告清單。
 
-   ![](assets/back-button.png)
+   ![成本分析報告，其[上一步]按鈕在右上方反白顯示，以返回報告清單。](assets/back-button.png)
 
 行銷活動或傳送的特定報告可透過其各自的儀表板存取。
 
-![](assets/reporting-on-delivery.png)
+![傳遞儀表板反白顯示「報表」連結，列出傳遞報表。](assets/reporting-on-delivery.png)
 
 清單、服務、選件等的原則相同，如下所示：
 
-![](assets/reporting-on-offer.png)
+![反白顯示「報表」連結的清單儀表板，以存取清單報表。](assets/reporting-on-offer.png)
 
 
 ## 傳遞報告 {#reports-on-deliveries}
 
 下表提供Adobe Campaign提供的內建報表。
 
-如需這些報告內容的詳細資訊，請參閱[本節](delivery-reports.md)。
+如需這些報告內容的詳細資訊，請參閱[Adobe Campaign內建傳遞報告](delivery-reports.md)。
 
 <table> 
  <tbody> 

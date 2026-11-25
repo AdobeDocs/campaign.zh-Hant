@@ -31,20 +31,20 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 8%
+source-wordcount: '1984'
+ht-degree: 7%
 ---
 # 全域報告 {#global-reports}
 
 這些報表會說明整個資料庫中的資料活動。 若要檢視報告儀表板，請前往&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。
 
-![](assets/reports-tab.png)
+Adobe Campaign首頁的![報告標籤，顯示具有報告圖磚的全域報告儀表板](assets/reports-tab.png)
 
 若要顯示報表，請按一下其名稱。 預設會提供下列報表：
 
-![](assets/report-global-list.png)
+![顯示預設報告的全域報告清單，例如，使用者活動、傳遞輸送量和瀏覽器](assets/report-global-list.png)
 
 >[!NOTE]
 >
@@ -68,13 +68,13 @@ ht-degree: 8%
 
 此報表包含指定期間內整個平台的傳遞輸送量資訊。 若要測量訊息傳遞的速度，標準是每小時傳送的訊息數和訊息的大小 (以位元/秒為單位)。 在下面的範例中，第一個圖表以藍色顯示成功傳遞，以橘色顯示錯誤傳遞的數量。
 
-![](assets/report-toolbar.png)
+![傳遞輸送量報告包含引數時間範圍、重新整理連結以及每小時成功與錯誤圖表](assets/report-toolbar.png)
 
 您可以透過變更時程來設定顯示的值：1小時檢視、3小時檢視、24小時檢視等。按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以確認您的選擇。
 
 >[!NOTE]
 >
->您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=zh-Hant){target="_blank"}監視每小時傳送的傳遞數目。
+>您也可以使用[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}監視每小時傳送的傳遞數目。
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel){target="_blank"}中。
 >
@@ -139,11 +139,11 @@ ht-degree: 8%
 
 您可以按一下[+]符號來開啟數值表格的每一行。 對於每個網域型別，您可以依錯誤型別顯示錯誤訊息的劃分。
 
-![](assets/errors-report-details.png)
+![每個網域資料表的錯誤劃分，可展開的網域資料列顯示錯誤型別的錯誤計數](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯&#x200B;**[!UICONTROL Delivery logs (broadlogrcp)]** Cube。 如需詳細資訊，請參閱[本章節](gs-cubes.md)。 **[!UICONTROL Others]**&#x200B;類別包含不屬於特定類別的網域名稱。
+>此報告中顯示的網域名稱是在多維資料庫層級定義的。 若要變更這些值，請編輯&#x200B;**[!UICONTROL Delivery logs (broadlogrcp)]** Cube。 如需詳細資訊，請參閱[開始使用Adobe Campaign Analytics報表](gs-cubes.md)。 **[!UICONTROL Others]**&#x200B;類別包含不屬於特定類別的網域名稱。
 
 ## 瀏覽器 {#browsers}
 
@@ -157,7 +157,7 @@ ht-degree: 8%
 
 瀏覽器使用的全域統計資料會以值表格和圖表的形式呈現。
 
-![](assets/browser-report.png)
+![網際網路瀏覽器會報告一個訪客表、每個瀏覽器的檢視頁面和使用率，以及一個環形圖](assets/browser-report.png)
 
 使用下列指標：
 
@@ -169,7 +169,7 @@ ht-degree: 8%
 
 在全域統計值表格中，您可以按一下每個瀏覽器名稱來檢視其使用統計值。
 
-![](assets/browser-report-info.png)
+![單一瀏覽器的統計資料，包含[歷程記錄]曲線、[依版本劃分]圖表，以及[全域速率]和[相對速率]](assets/browser-report-info.png)
 
 統計資料會以曲線、圖表和值表的形式呈現。
 
@@ -247,7 +247,7 @@ The following indicators are used:
 
 作業系統的全域使用統計資料會以值表和圖表的形式呈現。
 
-![](assets/os-report.png)
+![作業系統報告包含訪客表、檢視頁面數和每個系統的使用率，以及環圈圖](assets/os-report.png)
 
 使用下列指標：
 
@@ -259,7 +259,7 @@ The following indicators are used:
 
 在全域統計值表格中，按一下每個作業系統的名稱，即可檢視每個作業系統的統計值。
 
-![](assets/os-report-details.png)
+![具有「歷程記錄」曲線、「依版本劃分」圖表的Windows統計資料頁面，以及「全域速率」和「相對速率/版本](assets/os-report-details.png)」
 
 統計資料會以曲線、圖表和值表的形式呈現。
 
@@ -276,11 +276,11 @@ The following indicators are used:
 
 此報表可讓您監視資訊服務的訂閱。 它會顯示訂閱和取消訂閱。
 
-![](assets/service-report.png)
+![訂閱追蹤報告，包含訂閱表及訂閱演變曲線的整體演化](assets/service-report.png)
 
 按一下首頁或總管的&#x200B;**[!UICONTROL Profiles and targets > Services and subscriptions]**&#x200B;節點，即可顯示訂閱的連結。 選取所需的訂閱，然後按一下&#x200B;**[!UICONTROL Reports]**&#x200B;標籤。 **[!UICONTROL Subscriptions tracking]**&#x200B;報告預設為可用。 它可讓您檢視一段時間內的訂閱和取消訂閱趨勢以及熟客率。 您可以透過下拉式清單設定此資料的表示方式。 按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以驗證選取的組態。
 
-如需詳細資訊，請參閱[本頁面](../start/subscriptions.md)。
+如需詳細資訊，請參閱[在Campaign](../start/subscriptions.md)中管理訂閱和取消訂閱。
 
 **[!UICONTROL Number subscribed to date]**&#x200B;代表目前訂閱的總人數。
 
@@ -302,7 +302,7 @@ The following indicators are used:
 
 此報表顯示依網際網路網域、所有已處理和已傳送訊息、硬退信和軟退信、開啟、點按和取消訂閱的劃分資訊。
 
-![](assets/broadcast-report.png)
+![傳遞統計報表，顯示每個電子郵件網域的已處理電子郵件、已傳遞、退信、開啟、點按和取消訂閱](assets/broadcast-report.png)
 
 使用下列指標：
 
@@ -313,7 +313,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >如需硬退信和軟退信的詳細資訊，請參閱[此頁面](../send/quarantines.md)。
+  >如需硬跳出和軟跳出的詳細資訊，請參閱[促銷活動中的隔離管理](../send/quarantines.md)。
 
 * **[!UICONTROL Opens]**：目標收件者開啟郵件至少一次的次數與成功處理的郵件數相比的百分比。
 * **[!UICONTROL Clicks]**：與成功處理的訊息數相比，至少一次點按傳遞的人員數的百分比。
@@ -323,9 +323,9 @@ The following indicators are used:
 
 此報表顯示相關期間內依作業系統、裝置和瀏覽器劃分的開啟專案。 每個類別有兩個圖表。 第一個圖表顯示在電腦和行動裝置上的開啟數統計資料。 第二個圖表僅顯示在行動裝置上的開啟數統計資料。
 
-開啟次數與開啟的訊息總數相對應。 不計入文字格式的電子郵件。 如需追蹤開啟的詳細資訊，請參閱[本節](metrics-calculation.md#tracking-opens-)。
+開啟次數與開啟的訊息總數相對應。 不計入文字格式的電子郵件。 如需追蹤開啟的詳細資訊，請參閱[追蹤開啟](metrics-calculation.md#tracking-opens-)。
 
-![](assets/user-agent-report.png)
+![開啟報告的劃分，其中顯示所有開啟和行動開啟的作業系統、裝置和瀏覽器的圓形圖](assets/user-agent-report.png)
 
 >[!NOTE]
 >
