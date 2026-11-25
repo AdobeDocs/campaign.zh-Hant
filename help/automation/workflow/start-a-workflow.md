@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1180'
 ht-degree: 0%
 ---
 # 開始、暫停、停止工作流程 {#starting-a-workflow}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 工具列的&#x200B;**[!UICONTROL Actions]**&#x200B;按鈕可讓您存取所選工作流程的其他執行選項。 您也可以使用&#x200B;**[!UICONTROL File > Actions]**&#x200B;功能表，或以滑鼠右鍵按一下工作流程並選取&#x200B;**[!UICONTROL Actions]**。
 
-![](assets/purge_historique.png)
+![工作流程清單，其中的[動作]功能表已開啟，[清除]歷程記錄在[開始]、[暫停]、[停止]和[重新啟動]選項中反白顯示。](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 選取一或多個工作流程活動時，您可以按一下滑鼠右鍵依您的選取範圍採取行動。
 
-![](assets/contextual_menu.png)
+![在反白顯示[顯示記錄]的工作流程活動上按一下滑鼠右鍵功能表，再加上[開啟]、[剪下]、[複製]、[刪除]及[儲存]選項。](assets/contextual_menu.png)
 
 在右鍵功能表中提供下列選項：
 

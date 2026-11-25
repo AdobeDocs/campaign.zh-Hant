@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '382'
 ht-degree: 1%
 ---
 # 傳入電子郵件{#inbound-emails}
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 **傳入電子郵件**&#x200B;活動可讓您從POP3郵件伺服器下載及處理電子郵件訊息。
 
-![](assets/email_rec_edit_1.png)
+![與POP3伺服器、外部帳戶和指令碼欄位之間的傳入電子郵件活動對話方塊](assets/email_rec_edit_1.png)
 
 **傳入電子郵件**&#x200B;活動的第一個索引標籤可讓您輸入POP3伺服器的引數，並輸入在收到每封郵件時要執行的指令碼。 第二個索引標籤可讓您將排程指派給活動，而第三個索引標籤會定義活動到期條件。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
      如果未選取此選項，您必須指定下列引數：
 
-     ![](assets/email_rec_edit_1b.png)
+     具有POP3伺服器、POP3帳戶、密碼和連線埠欄位的![POP3伺服器區段](assets/email_rec_edit_1b.png)
 
      * **[!UICONTROL POP3 server]**
 
@@ -91,6 +91,6 @@ ht-degree: 1%
 
    您可以透過&#x200B;**[!UICONTROL Expiration]**&#x200B;索引標籤定義到期延遲。
 
-   ![](assets/email_rec_edit_3.png)
+   ![傳入電子郵件到期索引標籤，到期型別清單顯示延遲和到期選項](assets/email_rec_edit_3.png)
 
    設定與排程活動的設定相同。 請參閱[有效期](define-approvals.md)。

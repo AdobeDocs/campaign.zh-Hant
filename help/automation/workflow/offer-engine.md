@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 4%
+source-wordcount: '170'
+ht-degree: 3%
 ---
 # 產品建議引擎{#offer-engine}
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 此活動的運作原則與引擎呼叫的擴充活動相同，也就是在傳送前，使用引擎計算的優惠擴充入站母體資料。
 
-![](assets/int_offerengine_activity2.png)
+![工作流程圖表，其優惠方案引擎活動置於「查詢」與「直接郵件」傳遞之間。](assets/int_offerengine_activity2.png)
 
 設定查詢之後（請參閱此[區段](query.md)）：
 
@@ -47,6 +47,6 @@ ht-degree: 4%
    >
    >如果您使用此活動，則只會儲存傳送中使用的優惠方案主張。
 
-   ![](assets/int_offerengine_activity1.png)
+   ![優惠方案引擎活動，包含優惠方案空間、優惠方案類別、主題、要計算的建議數目以及聯絡日期。](assets/int_offerengine_activity1.png)
 
 1. 然後，設定與您所選管道對應的傳送活動。 請參閱[跨通道傳遞](cross-channel-deliveries.md)。

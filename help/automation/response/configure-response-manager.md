@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '820'
 ht-degree: 0%
 ---
 # 設定Campaign回應管理員{#configuration}
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 組態完成後，下列綱要會顯示不同表格之間的聯結：
 
-![](assets/response_data_model.png)
+![回應表格的資料模型：傳遞、傳遞記錄、測量假設及連結至回應的收件者](assets/response_data_model.png)
 
 ### 回應管理與收件者 {#response-management-with-adobe-campaign-recipients}
 
@@ -89,17 +89,17 @@ ht-degree: 0%
 1. 透過Adobe Campaign總管，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**。
 1. 用滑鼠右鍵按一下&#x200B;**收件者**，然後選取&#x200B;**[!UICONTROL Actions]**&#x200B;和&#x200B;**[!UICONTROL Modify the options of the targeting dimensions]**。
 
-   ![](assets/delivery_mapping1.png)
+   ![目標對應清單，其中的[動作]功能表已開啟，[修改]目標維度選項已選取](assets/delivery_mapping1.png)
 
 1. 您可以在下一個視窗中個人化&#x200B;**[!UICONTROL Extension namespace]**，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/delivery_mapping2.png)
+   ![目標維度選項與擴充功能結構描述欄位的擴充功能名稱空間和後置字元的儲存步驟](assets/delivery_mapping2.png)
 
 1. 在&#x200B;**[!UICONTROL Response management]**&#x200B;類別中，確定已核取&#x200B;**[!UICONTROL Generate a storage schema for reactions]**&#x200B;方塊。
 
    然後按一下&#x200B;**[!UICONTROL Define additional fields...]**&#x200B;以選取相關的交易表格，並將所需的欄位新增到nms:remaMatchRcp結構描述的延伸模組。
 
-   ![](assets/delivery_mapping3.png)
+   ![延伸步驟包含產生回應檢查的儲存結構描述以及回應結構描述對話方塊的延伸](assets/delivery_mapping3.png)
 
 建立的結構描述如下所示：
 

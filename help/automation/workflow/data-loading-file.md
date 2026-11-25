@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 14%
+source-wordcount: '1287'
+ht-degree: 12%
 ---
 # 資料載入 (檔案){#data-loading-file}
 
@@ -45,13 +45,13 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=zh-Hant){target="_blank"}
+>僅支援「平面」結構檔案（例如CSV、TXT等）。 不建議使用XML格式。 透過使用者端主控台，您可以載入大小上限為150MB的檔案。 在Web使用者介面中，載入檔案活動的限製為50MB。 [了解更多](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![使用範例檔案的資料載入（檔案）活動、欄預覽、檔案名稱選項和拒絕管理。](assets/s_advuser_wf_etl_file.png)
 
-您可以定義在檔案匯入期間執行的預先處理程式，例如不必在伺服器上解壓縮檔案（因此可節省解壓縮檔案的空間），而要在檔案處理中包括解壓縮。 選取&#x200B;**[!UICONTROL Pre-process the file]**&#x200B;選項，然後從3個選項中選擇一個： **[!UICONTROL None]**、**[!UICONTROL Decompression]** (zcat)或&#x200B;**[!UICONTROL Decrypt]** (gpg)。
+您可以定義在檔案匯入期間執行的預先處理程式，例如不必在伺服器上解壓縮檔案（因此可節省解壓縮檔案的空間），而要在檔案處理中包括解壓縮。 Select **[!UICONTROL Pre-process the file]**&#x200B;選項，並從3個選項中選擇一個： **[!UICONTROL None]**、**[!UICONTROL Decompression]** (zcat)或&#x200B;**[!UICONTROL Decrypt]** (gpg)。
 
-![](assets/preprocessing-dataloading.png)
+![資料載入（檔案），預先處理選取的檔案和命令清單： None、Decompression、Decrypt。](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 14%
 
 若要這麼做，請在&#x200B;**[!UICONTROL Data loading (file)]**&#x200B;活動的主視窗中選取&#x200B;**[!UICONTROL Click here to change the file format...]**。 然後會開啟格式詳細資訊視窗。
 
-![](assets/file_loading_columns_format.png)
+![具有一般檔案設定的檔案格式視窗，以及具有資料型別、允許NULL和長度的Columns資料表。](assets/file_loading_columns_format.png)
 
 然後，您可以修改檔案的一般格式以及每欄的格式。
 
@@ -108,7 +108,7 @@ ht-degree: 14%
 
 以下範例可讓您每天在伺服器上收集檔案、載入其內容，並根據其中包含的資訊更新資料庫中的資料。 要收集的檔案包含客戶的相關資訊，這些客戶可能已購買（3,000歐元或以下）、要求購買退款，或是未購買任何東西就造訪商店。 根據此資訊，各種程式將套用至它們在資料庫中的設定檔。
 
-![](assets/s_advuser_load_file_sample_0.png)
+![包含檔案收集器、資料載入（檔案）和分割的工作流程，依購買型別導致四個「更新」資料活動。](assets/s_advuser_load_file_sample_0.png)
 
 1. 檔案收集器可讓您根據指定的頻率，復原儲存在目錄中的檔案。
 
@@ -116,13 +116,13 @@ ht-degree: 14%
 
    [檔案收集器](file-collector.md)區段中詳細說明使用&#x200B;**[!UICONTROL File collector]**。
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![檔案收集器[目錄]索引標籤，其中包含伺服器目錄和客戶文字檔的篩選器。](assets/s_advuser_load_file_sample_1.png)
 
    **[!UICONTROL Schedule]**&#x200B;索引標籤可讓您排程收集器的執行，也就是指定檢查這些檔案是否存在的頻率。
 
    我們想要在每個工作日晚上9點觸發收集器。
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   ![檔案收集器[排程]索引標籤，其中已檢查計畫執行，且每日9:00 PM觸發程式，再加上[變更]按鈕。](assets/s_advuser_load_file_sample_2.png)
 
    若要這麼做，請按一下編輯工具右下角的&#x200B;**[!UICONTROL Change...]**&#x200B;按鈕，並設定排程。
 
@@ -130,7 +130,7 @@ ht-degree: 14%
 
 1. 然後設定資料載入（檔案）活動，以指出應如何讀取收集的檔案。 要執行此操作，請選取與要載入的檔案具有相同結構的範例檔案。
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![資料載入（檔案）活動，包含範例檔案以及事件、lastname、firstname和其他資料行的預覽。](assets/s_advuser_load_file_sample_3.png)
 
    在此，檔案包含五欄：
 
@@ -143,15 +143,15 @@ ht-degree: 14%
 
    「分割」活動在一節中有詳細說明。
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![分割無購買的子集，使用Edit連結開啟查詢，其中事件欄位被選取為運算式。](assets/s_advuser_load_file_sample_4.png)
 
    對於每個子集，請在&#x200B;**Event**&#x200B;資料行中指定其中一個值。
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![子集的運算式Event (Event)等於0的查詢篩選條件。](assets/s_advuser_load_file_sample_5.png)
 
    因此，**[!UICONTROL Split]**&#x200B;活動將包含下列資訊：
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![使用子集索引標籤分割活動，以進行3000次以下購買、無購買、回訪和超過3000次購買；未顯示購買。](assets/s_advuser_load_file_sample_6.png)
 
 1. 然後指定針對每種母體型別執行的程式。 在我們的範例中，我們將前往資料庫中的&#x200B;**[!UICONTROL Update the data]**。 若要這麼做，請在分割活動的每個出站轉變的結尾處放置&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
 

@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 2%
+source-wordcount: '1511'
+ht-degree: 1%
 ---
 # Campaign 模擬{#campaign-simulations}
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;子索引標籤中選擇傳遞模式。
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![傳遞屬性[型別]索引標籤，其中的[傳遞模式]下拉式清單列出三種模式。](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### 建立模擬 {#create-a-simulation}
@@ -52,19 +52,19 @@ ht-degree: 2%
 
 1. 開啟「**[!UICONTROL Campaigns]**」標籤，按一下「**[!UICONTROL Create]**」區段內的「**[!UICONTROL More]**」連結，然後選取「**[!UICONTROL Simulation]**」選項。
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![促銷活動行事曆首頁，其中[建立開啟]和[模擬]底下的[更多]功能表已反白顯示。](assets/simu_campaign_opti_01.png)
 
 1. 輸入範本和模擬的名稱。 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立模擬。
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![模擬建立對話方塊，其中反白顯示模擬範本和標籤欄位以及[儲存]按鈕。](assets/simu_campaign_opti_02.png)
 
 1. 按一下「**[!UICONTROL Edit]**」標籤以進行設定。
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![編輯具有一般、範圍、計算和稽核區段及執行設定之模擬的標籤。](assets/simu_campaign_opti_edit.png)
 
 1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;索引標籤中，指定您要考慮用於此模擬的傳送。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，並指定要考慮的傳遞選擇模式。
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   ![具有[新增]按鈕的範圍區段和[模擬專案]對話方塊，以選擇如何選取傳遞。](assets/simu_campaign_opti_edit_scope.png)
 
    您可以逐一選取每個傳遞，或依行銷活動、方案或計畫排序。
 
@@ -74,17 +74,17 @@ ht-degree: 2%
    >  
    >如果您不這麼做，則建立模擬時不會考慮計畫、方案或行銷活動中不可用的任何傳送：稍後新增的傳送將被忽略。
 
-   ![](assets/simu_campaign_opti_edit_scope_update.png)
+   ![模擬專案對話方塊，其中包含一或多個程式的所有傳遞及[重新整理選取專案]選項已核取。](assets/simu_campaign_opti_edit_scope_update.png)
 
-1. 選取要包含在模擬範圍內的元素。 如有必要，請使用SHIFT和CTRL鍵選取多個元素。
+1. Select模擬範圍中要包含的元素。 如有必要，請使用SHIFT和CTRL鍵選取多個元素。
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![傳遞選擇對話方塊，有數個傳遞被反白及[完成]按鈕。](assets/simu_campaign_opti_edit_scope_select.png)
 
    按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以核准選取專案。
 
    您可以手動合併屬於計畫、方案或行銷活動的選定傳遞與傳遞。
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![範圍清單將方案、行銷活動和計畫混合在一起，並具有[儲存]按鈕和[編輯動態條件]連結。](assets/simu_campaign_opti_edit_scope_save.png)
 
    如有必要，您可以透過&#x200B;**[!UICONTROL Edit the dynamic condition...]**&#x200B;連結使用動態條件。
 
@@ -96,11 +96,11 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Calculations]**&#x200B;索引標籤中，選取分析維度，例如收件者綱要。
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![結構描述選擇對話方塊開啟且收件者(nms)已選取為分析維度的計算區段。](assets/simu_campaign_opti_dimension.png)
 
 1. 然後，您可以新增運算式。
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![將收件者(nms)作為分析維度的計算區段，以及列出的「帳戶」與「狀態」報告軸。](assets/simu_campaign_opti_dimension_02.png)
 
 ### 執行設定 {#execution-settings}
 
@@ -118,11 +118,11 @@ ht-degree: 2%
 
 若要這麼做，請開啟模擬儀表板，然後按一下&#x200B;**[!UICONTROL Start simulation]**。
 
-![](assets/simu_campaign_opti_start.png)
+![具有[開始]模擬按鈕的模擬儀表板。](assets/simu_campaign_opti_start.png)
 
 執行完成後，請開啟模擬，然後按一下&#x200B;**[!UICONTROL Results]**&#x200B;標籤以檢視針對每個傳遞計算的目標。
 
-![](assets/simu_campaign_opti_results.png)
+![結果標籤，傳遞子標籤列出每個傳遞及其初始計數和最終計數。](assets/simu_campaign_opti_results.png)
 
 1. **[!UICONTROL Deliveries]**&#x200B;子標籤會列出模擬所考慮的所有傳遞。 它會顯示兩個計數：
 
@@ -135,12 +135,12 @@ ht-degree: 2%
 
 1. **[!UICONTROL Exclusions]**&#x200B;子標籤可讓您檢視排除專案劃分資訊。
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![結果標籤，「排除專案」子標籤，顯示每個傳遞和規則的排除計數。](assets/simu_campaign_opti_14.png)
 
 1. **[!UICONTROL Alerts]**&#x200B;子索引標籤會將模擬期間產生的所有警示訊息分組。 在容量超載時（例如，如果鎖定的收件者人數超過設定的容量），可以傳送警報訊息。
 1. **[!UICONTROL Exploration of the exclusions]**&#x200B;子標籤可讓您建立結果分析表格。 使用者需要在橫截面/縱座標軸中指出變數。
 
-   如需建立分析表格的範例，請參閱[本節](#explore-results)的結尾。
+   如需建立分析表格的範例，請參閱[瀏覽結果](#explore-results)的結尾。
 
 ### 檢視結果 {#view-results}
 
@@ -148,7 +148,7 @@ ht-degree: 2%
 
 **[!UICONTROL Audit]**&#x200B;索引標籤可讓您監視模擬執行。 **[!UICONTROL SQL Logs]**&#x200B;子標籤對專家使用者很有用。 它以SQL格式列出執行記錄。 只有在模擬執行前已在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Save SQL queries in the log]**&#x200B;選項時，才會顯示這些記錄。
 
-![](assets/simu_campaign_opti_11.png)
+![具有[日誌]和SQL記錄子索引標籤的稽核區段，SQL記錄顯示執行查詢。](assets/simu_campaign_opti_11.png)
 
 #### 探索結果 {#explore-results}
 
@@ -180,7 +180,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 若要存取報告，透過目標模擬的儀表板，按一下該模擬的&#x200B;**[!UICONTROL Reports]**&#x200B;連結。
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![模擬儀表板報告檢視列出報告圖磚，例如模擬排除的詳細資料。](assets/campaign_opt_reporting_edit_from_board.png)
 
 您也可以使用可從模擬控制面板存取的&#x200B;**[!UICONTROL Reports]**&#x200B;連結來編輯報告。
 
@@ -196,12 +196,12 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. 在&#x200B;**[!UICONTROL Reports]**&#x200B;標籤中，編輯其中一個可用的報告，例如&#x200B;**[!UICONTROL Detail of simulation exclusions]**。
 1. 在報表的右上角，按一下圖示以建立新的歷史記錄。
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![模擬排除報告的詳細資料，其中在工具列中反白顯示[新增歷程記錄]圖示。](assets/campaign_opt_reporting_create_hist.png)
 
 1. 關閉模擬並變更型別&#x200B;**A**&#x200B;的設定。
 1. 再次執行模擬，並將結果與建立歷史記錄之報表中顯示的結果進行比較。
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![模擬排除報告與從「可用的歷史記錄」圖示開啟的已儲存歷史記錄比較的詳細資料。](assets/campaign_opt_reporting_edit_hist.png)
 
    您可以視需要儲存儘可能多的報表歷史記錄。
 
@@ -221,7 +221,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. 若要定義報表座標軸，請選取包含要在&#x200B;**[!UICONTROL Analysis dimension]**&#x200B;欄位中處理之資訊的表格。 此資訊是強制性的。
 1. 在此，我們要選取收件者表格的「區段」欄位。
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![計算區段，以收件者(nms)作為分析維度，以及以@status為](assets/simu_campaign_opti_09.png)的狀態報告軸
 
 1. 可以使用以下選項：
 
@@ -241,7 +241,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 傳遞目標重疊表示在至少兩次模擬傳遞中的目標收件者。
 
-![](assets/simu_campaign_opti_13.png)
+![結果索引標籤，「重疊」子索引標籤列出每個傳遞、其並行傳遞和重疊計數。](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >

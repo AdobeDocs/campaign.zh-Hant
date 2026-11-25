@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '457'
 ht-degree: 1%
 ---
 # 控制規則{#control-rules}
@@ -50,13 +50,13 @@ ht-degree: 1%
 
 應用以下步驟：
 
-1. 建立&#x200B;**[!UICONTROL Control]**&#x200B;型別規則。 選取&#x200B;**[!UICONTROL Warning]**&#x200B;警示等級。
+1. 建立&#x200B;**[!UICONTROL Control]**&#x200B;型別規則。 Select **[!UICONTROL Warning]**&#x200B;警示等級。
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![型別規則建立對話方塊，「一般」標籤：控制規則型別、簡訊頻道、反白顯示警告的層級下拉式清單。](assets/campaign_opt_create_control_01.png)
 
 1. 在&#x200B;**[!UICONTROL Code]**&#x200B;索引標籤中，輸入指令碼以套用所需的臨界值，如下所示：
 
-   ![](assets/campaign_opt_create_control_02.png)
+   ![型別規則[程式碼]索引標籤，其指令碼會在傳遞目標超過100個連絡人時記錄警告。](assets/campaign_opt_create_control_02.png)
 
    如果傳送目標超過100個連絡人，此指令碼會觸發警告：
 
@@ -66,18 +66,18 @@ ht-degree: 1%
 
 1. 將此規則連結至行銷活動型別，並參考相關SMS傳送中的型別。
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![傳遞屬性，「型別」標籤：「型別」下拉式清單列出可用型別中的行動裝置（最多100個）。](assets/campaign_opt_create_control_03.png)
 
 1. 在傳遞分析期間，會套用規則並建立警告（如適用）。
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ![傳遞分析記錄檔顯示規則+100訊息偵測到問題的警告；確認傳遞可用。](assets/campaign_opt_create_control_04.png)
 
    但是，傳遞仍可傳送。
 
    如果您提高警示等級，將無法開始傳遞。
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![型別規則[一般]索引標籤，其層級下拉式清單已開啟，且已選取[錯誤]而非[警告]。](assets/campaign_opt_create_control_05.png)
 
    分析結束時，**[!UICONTROL Confirm delivery]**&#x200B;按鈕將不可用。
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![傳遞分析記錄檔因錯誤而結束，且[確認傳遞]按鈕已停用。](assets/campaign_opt_create_control_06.png)

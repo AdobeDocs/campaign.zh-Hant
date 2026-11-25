@@ -24,20 +24,20 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 ---
 # 建立摘要清單{#creating-a-summary-list}
 
 此使用案例詳細說明如何建立工作流程，收集檔案並完成數個擴充功能後，即可建立摘要清單。 此範例是根據在商店中進行購買的聯絡人清單。
 
-![](assets/uc2_enrich_overview.png)
+![工作流程圖表：檔案收集器、資料載入（檔案）、擴充、更新資料、擴充2、清單更新和等待。](assets/uc2_enrich_overview.png)
 
 以下是使用的資料結構：
 
-![](assets/uc2_enrich_data.png)
+![資料結構：連結的Purchases和Contact表格，以及具有refStoreName和zipCodeRef.](assets/uc2_enrich_data.png)的獨立Stores表格
 
 其目的是：
 
@@ -73,44 +73,44 @@ Phone;500;London 5
 
    **檔案收集器**&#x200B;活動可讓您從Adobe Campaign伺服器收集檔案，並將檔案傳送至該伺服器。
 
-   **資料載入（檔案）**&#x200B;活動可讓您使用收集的資料擴充工作流程的工作表。 如需此活動的詳細資訊，請參閱[此頁面](data-loading-file.md)。
+   **資料載入（檔案）**&#x200B;活動可讓您使用收集的資料擴充工作流程的工作表。 如需此活動的詳細資訊，請參閱[資料載入（檔案）](data-loading-file.md)。
 
 1. 設定&#x200B;**檔案收集器**&#x200B;活動，以從選取的目錄中收集文字(&#42;.txt)型別檔案。
 
-   ![](assets/uc2_enrich_collecteur.png)
+   ![檔案收集器活動： *.txt篩選的[目錄]索引標籤，以及已核取[處理檔案]不存在的選項。](assets/uc2_enrich_collecteur.png)
 
    **檔案收集器**&#x200B;活動可讓您管理來源目錄中沒有檔案。 若要這麼做，請核取&#x200B;**[!UICONTROL Process file nonexistence]**&#x200B;選項。 在此工作流程中，已新增&#x200B;**等待**&#x200B;活動以嘗試其他檔案集合（如果在集合時目錄中遺失該集合）。
 
 1. 使用與要匯入的資料格式相同的範例檔案，設定&#x200B;**資料載入（檔案）**&#x200B;活動。
 
-   ![](assets/uc2_enrich_chargement1.png)
+   ![資料載入（檔案）活動，以Purchases.txt作為範例檔案，並預覽productName、productPrice、storeName。](assets/uc2_enrich_chargement1.png)
 
    按一下&#x200B;**[!UICONTROL Click here to change the file format...]**&#x200B;連結，使用「購買」表格的內部名稱和標籤重新命名欄。
 
-   ![](assets/uc2_enrich_chargement2.png)
+   ![檔案格式視窗，以資料行productName、productPrice和storeName、分號分隔符號和第一行作為標題。](assets/uc2_enrich_chargement2.png)
 
 在匯入資料後，透過建立符合「商店」方案的參考表格的連結來執行擴充。
 
 新增擴充活動，並依照以下方式設定：
 
-1. 從&#x200B;**資料載入（檔案）**&#x200B;活動中選取由資料組成的主集。
+1. Select主要集是由來自&#x200B;**資料載入（檔案）**&#x200B;活動的資料所組成。
 
-   ![](assets/uc2_enrich_enrich1.png)
+   ![以資料載入（檔案）為主集，加上新增資料和編輯其他資料連結的擴充活動。](assets/uc2_enrich_enrich1.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add data]**，然後選取&#x200B;**[!UICONTROL A link]**&#x200B;選項。
 
-   ![](assets/uc2_enrich_enrich2.png)
+   ![Select要新增的資料型別視窗已選取A連結選項。](assets/uc2_enrich_enrich2.png)
 
 1. 選取 **[!UICONTROL Define a collection]** 選項。
-1. 選取「儲存」結構描述作為目標。
+1. 將「商店」綱要作為目標Select。
 
-   ![](assets/uc2_enrich_enrich3.png)
+   ![連結定義：將選取的集合定義為連結型別，並將存放區結構描述定義為目標結構描述。](assets/uc2_enrich_enrich3.png)
 
 如需各種連結型別的詳細資訊，請參閱[擴充及修改資料](targeting-workflows.md#enrich-and-modify-data)。
 
 在下列視窗中，您必須藉由選取來源欄位（在主要集中）與目標欄位（屬於「儲存」綱要）來設定資料調解，以建立聯結條件。
 
-![](assets/uc2_enrich_enrich4.png)
+![連結定義加入條件符合來源欄位storeName與目標欄位refStoreName。](assets/uc2_enrich_enrich4.png)
 
 現在連結已建立，我們會從「商店」結構描述新增欄至工作流程的工作表：「郵遞區號參考」欄位。
 
@@ -118,11 +118,11 @@ Phone;500;London 5
 1. 按一下 **[!UICONTROL Edit additional data]**。
 1. 將「郵遞區號參考」欄位新增至&#x200B;**[!UICONTROL Output columns]**。
 
-![](assets/uc2_enrich_enrich5.png)
+來自商店連結的![郵遞區號參考欄位已新增至擴充的輸出欄。](assets/uc2_enrich_enrich5.png)
 
 在此擴充後，工作流程工作表中的資料將如下：
 
-![](assets/uc2_enrich_population1.png)
+![擴充後的工作表資料，在productName、productPrice和storeName旁有「郵遞區號參考」欄。](assets/uc2_enrich_population1.png)
 
 ## 步驟2：將擴充資料寫入「購買」表格 {#step-2--writing-enriched-data-to-the--purchases--table}
 
@@ -131,18 +131,18 @@ Phone;500;London 5
 在更新&#x200B;**Purchases**&#x200B;資料表中的資料之前，必須先執行工作流程工作表中的資料與&#x200B;**Purchases**&#x200B;目標維度之間的調解。
 
 1. 按一下擴充活動的&#x200B;**[!UICONTROL Reconciliation]**&#x200B;標籤。
-1. 選取目標維度，即此案例中的「購買」結構描述。
-1. 在工作流程表格中的資料（在此例中為「storeName」欄位）選取「Source運算式」。
-1. 為「購買」表格中的資料選取「目的地運算式」（在此例中為「storename」欄位）。
+1. Select目標維度，在此例中為「購買」結構描述。
+1. Select工作流程表格中資料的「Source運算式」（在此例中為「storeName」欄位）。
+1. Select是「購買」表格（在此例中為「storename」欄位）中資料的「目的地運算式」。
 1. 核取 **[!UICONTROL Keep unreconciled data coming from the work table]** 選項。
 
-![](assets/uc2_enrich_reconciliation.png)
+![包含與@storeName相符之購買目標維度和storeName的調解標籤。](assets/uc2_enrich_reconciliation.png)
 
 在&#x200B;**更新資料**&#x200B;活動中，需要下列設定：
 
-1. 在&#x200B;**[!UICONTROL Operation type]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Insert or update]**&#x200B;選項，以避免每次收集檔案時都建立新記錄。
-1. 選取&#x200B;**[!UICONTROL Record identification]**&#x200B;選項的&#x200B;**[!UICONTROL By directly using the targeting dimension]**&#x200B;值。
-1. 選取「購買」結構描述做為&#x200B;**[!UICONTROL Document type]**。
+1. 在&#x200B;**[!UICONTROL Operation type]**&#x200B;欄位中Select **[!UICONTROL Insert or update]**&#x200B;選項，以避免每次收集檔案時都建立新記錄。
+1. Select **[!UICONTROL Record identification]**&#x200B;選項的&#x200B;**[!UICONTROL By directly using the targeting dimension]**&#x200B;值。
+1. 將「購買」結構描述Select為&#x200B;**[!UICONTROL Document type]**。
 1. 指定要更新的欄位清單。 **[!UICONTROL Destination]**&#x200B;欄可讓您定義「購買」結構描述的欄位。 **[!UICONTROL Expression]**&#x200B;欄可讓您選取工作表中的欄位以執行對應。
 1. 按一下&#x200B;**[!UICONTROL Generate an outbound transition]**&#x200B;選項。
 
@@ -158,25 +158,25 @@ Phone;500;London 5
 1. 按一下[新增&#x200B;**[!UICONTROL Data]**]。
 1. 按一下&#x200B;**[!UICONTROL Data linked to the targeting dimension]**&#x200B;選項。
 1. 在&#x200B;**[!UICONTROL Select fields to add]**&#x200B;視窗中按一下&#x200B;**[!UICONTROL Data linked to the filtering dimension]**&#x200B;選項。
-1. 選取&#x200B;**[!UICONTROL Purchases]**&#x200B;節點，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. Select **[!UICONTROL Purchases]**&#x200B;節點，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/uc2_enrich_enrich9.png)
+   ![要新增視窗的Select欄位，其中資料連結至選取的篩選維度，且「購買」節點反白顯示。](assets/uc2_enrich_enrich9.png)
 
 1. 選取&#x200B;**[!UICONTROL Aggregates]**&#x200B;選項以變更&#x200B;**[!UICONTROL Collected data]**&#x200B;欄位。
 
-   ![](assets/uc2_enrich_enrich10.png)
+   ![Purchases集合的一般引數，其Data collected欄位設為Aggregates。](assets/uc2_enrich_enrich10.png)
 
 1. 按一下 **[!UICONTROL Next]**。
 1. 新增下列運算式以計算每個聯絡人的購買總計：&quot;Sum(@prodprice)&quot;。
 
-   ![](assets/uc2_enrich_enrich6.png)
+   ![要新增視窗的資料，其運算式Sum(product Price)定義為總購買量的輸出資料行。](assets/uc2_enrich_enrich6.png)
 
 若要準備摘要清單，您必須從「購買」欄位及首次擴充欄位（「郵遞區號參考」欄位）新增欄位。
 
 1. 按一下擴充活動中的&#x200B;**[!UICONTROL Edit additional data...]**&#x200B;連結。
 1. 新增「商店名稱」和「購買/郵遞區號參考」欄位。
 
-   ![](assets/uc2_enrich_enrich7.png)
+   ![擴充專案2的輸出欄：購買連結、Sum(productPrice)、storeName和郵遞區號參考欄位。](assets/uc2_enrich_enrich7.png)
 
 1. 按一下「**[!UICONTROL Properties]**」標籤。
 1. 變更第二個連結，僅建立一行。
@@ -187,7 +187,7 @@ Phone;500;London 5
 
 1. 將&#x200B;**清單更新**&#x200B;活動新增至工作流程。 此活動必須連結至第二個擴充活動的出站轉變。
 1. 選取 **[!UICONTROL Create the list if necessary (Calculated name)]** 選項。
-1. 選取計算名稱的值。 為清單選擇的標籤為目前日期： &lt;%= formatDate(new Date()， &quot;%2D/%2M/%2Y&quot;) %>。
+1. Select計算名稱的值。 為清單選擇的標籤為目前日期： &lt;%= formatDate(new Date()， &quot;%2D/%2M/%2Y&quot;) %>。
 
 執行工作流程後，清單將包含：
 
@@ -196,4 +196,4 @@ Phone;500;London 5
 * 「商店名稱」欄、
 * 針對包含在商店參考結構描述中的所有商店輸入的「郵遞區號參考」欄。
 
-![](assets/uc2_enrich_listfinal.png)
+![含有連絡人、Sum(productPrice)、商店名稱及郵遞區號欄的最終清單內容。](assets/uc2_enrich_listfinal.png)

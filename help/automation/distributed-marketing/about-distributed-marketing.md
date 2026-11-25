@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1202'
 ht-degree: 0%
 ---
 # 開始使用分散式行銷{#about-distributed-marketing}
@@ -103,7 +103,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
 可從&#x200B;**行銷活動**&#x200B;標籤存取行銷活動套件清單：按一下&#x200B;**[!UICONTROL Campaign packages]**&#x200B;連結。
 
-![](assets/mkg_dist_home_local_op.png)
+![行銷活動標籤：按一下[瀏覽]功能表中的[行銷活動套件]可開啟行銷活動套件清單。](assets/mkg_dist_home_local_op.png)
 
 此視窗可讓所有當地營運商檢視其當地代理商可用的行銷活動。
 
@@ -113,7 +113,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
 首先，透過&#x200B;**[!UICONTROL Access management]**&#x200B;資料夾指定中央和本機實體運運算元。
 
-![](assets/s_advuser_mkg_dist_tree.png)
+![Explorer樹狀結構，其中已展開[管理] > [存取管理]，顯示運運算元和組織實體。](assets/s_advuser_mkg_dist_tree.png)
 
 ### 運算子 {#operators}
 
@@ -123,18 +123,18 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 
 本機運運算元必須屬於&#x200B;**[!UICONTROL Local management]**&#x200B;運運算元群組或具有&#x200B;**[!UICONTROL LOCAL]**&#x200B;已命名的許可權。 它們也必須連結至其本機實體。
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![操作員存取許可權索引標籤列出本機管理和中央管理安全性群組。](assets/s_advuser_mkg_dist_local_create.png)
 
 ### 組織實體 {#organizational-entities}
 
 若要建立組織實體，請按一下&#x200B;**[!UICONTROL Administration > Access management > Organizational entities]**&#x200B;資料夾，然後按一下實體清單上方的&#x200B;**[!UICONTROL New]**&#x200B;圖示。
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![在實體清單上方反白顯示「新增」圖示的組織實體資料夾。](assets/s_advuser_mkg_dist_local_list.png)
 
 每個組織實體都包含識別資訊（標籤、內部名稱、聯絡資訊等） 與訂單核准流程中涉及的群組。 這些是在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Notifications and approvals]**&#x200B;區段中定義的。
 
 * 定義套件通知群組：此群組中的操作員將在每次將新套件新增到行銷活動套件清單和每次行銷活動可用時收到通知。
-* 選取負責核准訂單的稽核者群組，即負責核准本地實體所訂購行銷活動的稽核者。
+* Select負責核准訂單的稽核者群組，即負責核准本地實體所訂購行銷活動的稽核者。
 * 最後，選取負責核准本地行銷活動（目標、內容、預算等）的稽核者群組。 根據範本，此群組可在訂購行銷活動時新增至。
 
 >[!NOTE]
@@ -152,7 +152,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;應用程式，用於在�
 1. 建立本機實體。
 1. 將收件者與管理本機實體的操作者連結。
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![收件者表單，其原始欄位已反白顯示，將收件者連結至本機實體。](assets/mkg_dist_local_entity_association.png)
 
 1. 指定本機實體的許可權和瀏覽規則
 1. 指定行銷活動本地化所需的欄位集：

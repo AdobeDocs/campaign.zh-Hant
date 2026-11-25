@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1036'
 ht-degree: 2%
 ---
 # 傳送生日電子郵件{#sending-a-birthday-email}
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 為了設定此使用案例，我們已建立下列目標定位工作流程：
 
-![](assets/birthday-workflow_usecase_1.png)
+![生日工作流程：排程器，查詢，3月1日測試，使用閏年查詢建立分支，聯合，然後傳遞。](assets/birthday-workflow_usecase_1.png)
 
 此（每日執行）工作流程會選取目前日期生日的所有收件者。
 
@@ -48,20 +48,20 @@ ht-degree: 2%
 1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放到工作流程中，然後按兩下。
 1. 按一下&#x200B;**編輯查詢**&#x200B;連結並選取&#x200B;**[!UICONTROL Filtering conditions]**。
 
-   ![](assets/s_ncs_user_create_exp_exple00.png)
+   ![已選取收件者，且篩選條件反白顯示的目標和篩選維度視窗。](assets/s_ncs_user_create_exp_exple00.png)
 
 1. 按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄的第一個儲存格，然後按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;以開啟運算式編輯器。
 
-   ![](assets/s_ncs_user_create_exp_exple.png)
+   ![篩選條件編輯器，包含空白的運算式儲存格，且顯示[編輯運算式]按鈕。](assets/s_ncs_user_create_exp_exple.png)
 
 1. 按一下&#x200B;**[!UICONTROL Advanced selection]**&#x200B;以選取篩選模式。
 
-   ![](assets/s_ncs_user_create_exp_exple_a.png)
+   ![要選取的視窗中列出收件者欄位的欄位，並反白顯示[進階選取]按鈕。](assets/s_ncs_user_create_exp_exple_a.png)
 
-1. 選取&#x200B;**[!UICONTROL Edit the formula using an expression]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**&#x200B;以顯示運算式編輯器。
+1. Select **[!UICONTROL Edit the formula using an expression]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**&#x200B;以顯示運算式編輯器。
 1. 在函式清單中，按兩下&#x200B;**[!UICONTROL Day]**，可透過&#x200B;**[!UICONTROL Date]**&#x200B;節點存取。 此函式傳回的數字，代表以引數形式傳遞之日期對應的日期。
 
-   ![](assets/s_ncs_user_create_exp_exple01.png)
+   ![編輯運算式視窗，其中Day()位於編輯區域，而Day函式則位於函式清單中。](assets/s_ncs_user_create_exp_exple01.png)
 
 1. 在可用欄位清單中，按兩下&#x200B;**[!UICONTROL Birth date]**。 然後，編輯器的上半區段會顯示下列公式：
 
@@ -73,13 +73,13 @@ ht-degree: 2%
 
 1. 在查詢編輯器中，在&#x200B;**[!UICONTROL Operator]**&#x200B;欄的第一個儲存格中，選取&#x200B;**[!UICONTROL equal to]**。
 
-   ![](assets/s_ncs_user_create_exp_exple02.png)
+   ![以出生日期作為運算式來篩選條件，且運運算元下拉式清單會開啟等於選取的專案。](assets/s_ncs_user_create_exp_exple02.png)
 
 1. 接著，按一下第二欄(**[!UICONTROL Value]**)的第一個儲存格，然後按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;以開啟運算式編輯器。
 1. 在函式清單中，按兩下&#x200B;**[!UICONTROL Day]**，可透過&#x200B;**[!UICONTROL Date]**&#x200B;節點存取。
 1. 連按兩下&#x200B;**[!UICONTROL GetDate]**&#x200B;函式以擷取目前的日期。
 
-   ![](assets/s_ncs_user_create_exp_exple04.png)
+   ![編輯運算式視窗，其中顯示Day(GetDate())，並在函式清單中反白顯示Day和GetDate函式。](assets/s_ncs_user_create_exp_exple04.png)
 
    編輯器的上方區段會顯示下列公式：
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    完整的查詢如下：
 
-   ![](assets/s_ncs_user_create_exp_exple03.png)
+   ![完整查詢：出生日期等於目前日期之日，而出生日期之月等於目前日期之月。](assets/s_ncs_user_create_exp_exple03.png)
 
 將&#x200B;**[!UICONTROL Query]**&#x200B;活動的結果連結至&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動，以傳送電子郵件至您所有收件者生日清單。
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 
 如果目前年度&#x200B;**不是閏年**，而工作流程在3月1日執行，我們需要選取昨天（2月29日）生日的所有收件者，並將他們新增至收件者清單。 在任何其他情況下，都不需要執行其他動作。
 
-### 步驟1：選取收件者 {#step-1--selecting-the-recipients}
+### 步驟1：Select收件者 {#step-1--selecting-the-recipients}
 
 設定&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動以便工作流程每天開始之後，識別其週年是當天的所有收件者。
 
@@ -121,11 +121,11 @@ ht-degree: 2%
 >
 >如果目前年份是閏年，則所有在2月29日出生的收件者都會自動納入。
 
-![](assets/birthday-workflow_usecase_2.png)
+![名為「月+日」的查詢活動篩選器等於目前日期，比對出生「月」與「日」的日期。](assets/birthday-workflow_usecase_2.png)
 
 選取生日符合目前日期的收件者，會顯示在[識別生日為](#identifying-recipients-whose-birthday-it-is)的收件者區段。
 
-### 步驟2：選擇是否為閏年 {#step-2--select-whether-or-not-it-is-a-leap-year}
+### 步驟2：Select是否為閏年 {#step-2--select-whether-or-not-it-is-a-leap-year}
 
 **[!UICONTROL Test]**&#x200B;活動可讓您檢查是否為閏年，以及目前的日期是否為3月1日。
 
@@ -175,7 +175,7 @@ vars.firstOfMarch = 1;
 }
 ```
 
-![](assets/birthday-workflow_usecase_3.png)
+![使用定義isLeapYear函式的初始化指令碼之測試活動的進階標籤。](assets/birthday-workflow_usecase_3.png)
 
 在&#x200B;**[!UICONTROL Conditional forks]**&#x200B;區段中新增下列條件：
 
@@ -183,15 +183,15 @@ vars.firstOfMarch = 1;
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 
-![](assets/birthday-workflow_usecase_4.png)
+![測試索引標籤3月1日且不是閏年，條件為True vars.currentIsALeapYear == 0 &amp;&amp; vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
 
-### 步驟3：選取2月29日出生的任何收件者 {#step-3--select-any-recipients-born-on-february-29th}
+### 步驟3：Select 2月29日出生的任何收件者 {#step-3--select-any-recipients-born-on-february-29th}
 
 建立&#x200B;**[!UICONTROL Fork]**&#x200B;活動，並將其中一個出站轉變連結至&#x200B;**[!UICONTROL Query]**&#x200B;活動。
 
 在此查詢中，選取出生日期為2月29日的所有收件者。
 
-![](assets/birthday-workflow_usecase_5.png)
+![查詢選取在2月29日出生的收件者：出生日期等於2月而出生日期等於29日。](assets/birthday-workflow_usecase_5.png)
 
 將結果與&#x200B;**[!UICONTROL Union]**&#x200B;活動結合。
 
@@ -207,4 +207,4 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >如果已為行銷活動啟用核准步驟，則只有在確認這些步驟後，才會傳送傳送。 如需詳細資訊，請參閱區段。
 
-![](assets/birthday-workflow_usecase_1.png)
+![生日工作流程：排程器，查詢，3月1日測試，使用閏年查詢建立分支，聯合，然後傳遞。](assets/birthday-workflow_usecase_1.png)

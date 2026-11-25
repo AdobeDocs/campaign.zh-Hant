@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 4%
 ---
 # 傳入簡訊{#inbound-sms}
 
@@ -41,15 +41,15 @@ ht-degree: 6%
 
 ## 屬性 {#properties}
 
-![](assets/sms_rec_edit.png)
+![包含外部帳戶欄位的傳入SMS活動、要處理連結的篩選訊息以及指令碼區域。](assets/sms_rec_edit.png)
 
 **傳入SMS**&#x200B;活動的第一個索引標籤可讓您輸入SMS訊息的路由引數，並輸入要在接收每則訊息時執行的指令碼。 第二個索引標籤可讓您將排程指派給活動，而第三個索引標籤會定義活動的到期條件。
 
-1. **[!UICONTROL SMS routing]**：選取要用於SMS復原的外部帳戶。 外部帳戶是透過樹狀結構的&#x200B;**[!UICONTROL Administration > Platform > External accounts]**&#x200B;節點設定。 [了解更多](../../v8/config/external-accounts.md)
+1. **[!UICONTROL SMS routing]**： Select要用於SMS復原的外部帳戶。 外部帳戶是透過樹狀結構的&#x200B;**[!UICONTROL Administration > Platform > External accounts]**&#x200B;節點設定。 [了解更多](../../v8/config/external-accounts.md)
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
-   ![](assets/sms_rec_edit_2.png)
+   ![傳入SMS排程索引標籤，已檢查計畫執行，並在收到SMS時立即停止排程。](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL Expiration]**
 

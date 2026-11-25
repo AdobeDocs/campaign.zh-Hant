@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Targeting Activity
   - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
     internal-label: Subscription Services Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '430'
 ht-degree: 1%
 ---
 # 訂閱服務{#subscription-services}
@@ -34,15 +34,15 @@ ht-degree: 1%
 
 若要進行設定，請編輯活動並輸入其標籤，然後選取要執行的動作（訂閱或取消訂閱）及相關服務，如下列範例所示：
 
-![](assets/edit_service_inscription.png)
+![包含註冊或取消訂閱的訂閱服務活動、確認訊息選項和服務清單](assets/edit_service_inscription.png)
 
 1. 輸入活動的標籤。
-1. 若要在執行結束時建立轉換，請選取&#x200B;**[!UICONTROL Generate an outbound transition]**。
+1. 如果您想要在執行結束時建立轉換，請Select **[!UICONTROL Generate an outbound transition]**。
 
    一般而言，目標對資訊服務的訂閱會標籤目標定位工作流程的結尾，這也是預設未啟用選項的原因。
 
 1. 如果您想要訂閱或取消訂閱所選資訊服務的指定母體，請按一下&#x200B;**[!UICONTROL Subscription]**&#x200B;或&#x200B;**[!UICONTROL Unsubscription]**。
-1. 選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;以通知收件者他們已訂閱或取消訂閱服務。
+1. Select **[!UICONTROL Send a confirmation message]**&#x200B;通知收件者他們已訂閱或取消訂閱服務。
 
    此訊息的內容是在與資訊服務相關的傳遞範本中指定的。
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 >
 >在手動訂閱收件者服務之前，請確認這些收件者接受來自您的通訊。
 
-![](assets/subscription_services_example.png)
+![三個查詢會饋送交集，然後是清單更新和訂閱服務活動](assets/subscription_services_example.png)
 
 1. 新增下列三個查詢：
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    如有需要，您可以核取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;方塊，通知收件者其電子報訂閱。
 
-1. 選取電子報所在的資料夾，然後從顯示的清單中選取電子報。
+1. 在Select中選取newsletter所在的資料夾，然後從出現的清單中選取newsletter。
 1. 取消勾選&#x200B;**[!UICONTROL Generate outbound transition]**，讓此活動將標示工作流程結尾，然後按一下&#x200B;**[!UICONTROL Ok]**。
 
 在工作流程執行期間，與所有三個查詢相對應的收件者會新增到清單中，並訂閱電子報。

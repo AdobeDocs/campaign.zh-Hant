@@ -23,16 +23,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '337'
+ht-degree: 2%
 ---
 # 跨頻道傳遞{#cross-channel-deliveries}
 
 跨頻道傳遞可在[行銷活動工作流程](campaign-workflows.md)活動的&#x200B;**[!UICONTROL Deliveries]**&#x200B;索引標籤中使用。
 
-選取傳遞所依據的範本，並定義其內容。
+Select範本，您要據以傳送並定義其內容。
 
 您可以使用不同的目標定位活動，在工作流程上游指定傳送的目標。
 
@@ -46,26 +46,26 @@ ht-degree: 3%
    >
    >對於推播通知，請使用&#x200B;**訂閱者應用程式**&#x200B;目標維度。
 
-   ![](assets/cross_channel_delivery_1.png)
+   ![以訂閱者應用程式結構描述選取為篩選檔案的查詢活動。](assets/cross_channel_delivery_1.png)
 
 1. 將篩選條件新增至查詢。 在此情況下，我們將選取擁有行動電話號碼或電子郵件地址的收件者。
 
-   ![](assets/cross_channel_delivery_2.png)
+   ![使用行動裝置的查詢篩選器不是空的，且電子郵件的Or條件不是空的。](assets/cross_channel_delivery_2.png)
 
 1. 將&#x200B;**[!UICONTROL Split]**&#x200B;活動新增至您的工作流程，以劃分擁有行動電話號碼的收件者和擁有電子郵件地址的收件者。
 1. 在&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤中，選取每個目標的傳遞。
 
    按兩下工作流程中的傳送活動，以傳統傳送精靈的相同方式建立您的傳送。
 
-   ![](assets/cross_channel_delivery_3.png)
+   ![具有查詢和分割的行銷活動工作流程，導致行動傳遞和電子郵件傳遞。](assets/cross_channel_delivery_3.png)
 
 1. 新增並設定&#x200B;**[!UICONTROL Wait]**&#x200B;活動，讓收件者無法一次收到太多傳遞。
 1. 新增&#x200B;**[!UICONTROL Split]**&#x200B;活動以劃分iOS或Android行動應用程式的訂閱者。
 
-   選取每個作業系統的服務。
+   Select是適用於各種作業系統的服務。
 
-   ![](assets/cross_channel_delivery_4.png)
+   ![查詢對話方塊，其中訂閱者應用程式為目標維度，而訂閱者則是選取的Android行動應用程式。](assets/cross_channel_delivery_4.png)
 
-1. 選取並設定每個作業系統的行動應用程式傳送。
+1. Select ，並為每個作業系統設定行動應用程式傳送。
 
-   ![](assets/cross_channel_delivery_5.png)
+   ![工作流程包含加入等待活動的電子郵件和簡訊傳遞，然後分割為推播iOS和推播Android傳遞。](assets/cross_channel_delivery_5.png)

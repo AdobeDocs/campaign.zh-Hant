@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '513'
 ht-degree: 5%
 ---
 # 監視技術工作流程 {#monitoring-technical-workflows}
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 可以透過&#x200B;**[!UICONTROL Monitoring]**&#x200B;索引標籤存取執行個體監視儀表板。
 
-![](assets/monitoring_technical_workflows1.png)
+![執行個體監視儀表板，包含程式清單、失敗的工作流程與傳遞，以及系統指標連結](assets/monitoring_technical_workflows1.png)
 
 在「系統指示器和核心檔案」下，檢查指示器是否以紅色反白顯示。 如果是這種情況，並且有些是這種情況，您應該：
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 **[!UICONTROL Workflow supervisors]**&#x200B;群組應該包含需要通知失敗情況的操作者，以及可以及時採取動作的操作者。
 
-![](assets/monitoring_technical_workflows3.png)
+![工作流程屬性[一般]索引標籤，已在[監督員]欄位中選取工作流程監督員](assets/monitoring_technical_workflows3.png)
 
 應產生警示，並在發生問題時傳送至正確的群組。
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 * 負責監控的運運算元。
 * 發生錯誤時應採取哪些措施的說明。
 
-![](assets/monitoring_technical_workflows4.png)
+![維護工作表列出每個工作流程頻率、開始、持續時間、資料夾、名稱、嚴重性和相依性](assets/monitoring_technical_workflows4.png)
 
 ## 監控的規劃和自動化 {#planning-and-automation-of-monitoring}
 

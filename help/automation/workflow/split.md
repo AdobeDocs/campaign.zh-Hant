@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 4%
+source-wordcount: '2149'
+ht-degree: 3%
 ---
 # 分割{#split}
 
@@ -37,9 +37,9 @@ ht-degree: 4%
 >
 >無法對具有不同來源的資料表執行分割作業。 為此，您需要在&#x200B;**分割**&#x200B;活動之前新增&#x200B;**擴充**&#x200B;活動。
 
-* 如需使用分割活動的範例，請參閱[本區段](targeting-workflows.md#create-subsets-using-the-split-activity)。
-* 說明如何使用「分割」活動，以使用篩選條件將目標分割成不同母體的範例，請參閱[本節](cross-channel-delivery-workflow.md)。
-* [此區段](javascript-scripts-and-templates.md)提供如何在分割活動中使用執行個體變數的範例。
+* 如需使用分割活動的範例，請參考[使用分割活動建立子集](targeting-workflows.md#create-subsets-using-the-split-activity)。
+* 說明如何使用「分割」活動，以使用篩選條件將目標分割成不同母體的範例，請參閱[跨通道傳遞工作流程](cross-channel-delivery-workflow.md)。
+* [JavaScript指令碼和範本](javascript-scripts-and-templates.md)提供如何在分割活動中使用執行個體變數的範例。
 
 若要設定此活動，請在&#x200B;**[!UICONTROL Subsets]**&#x200B;索引標籤中定義子集內容和標籤，然後在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選擇目標維度。
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 1. 按一下比對欄位中的標籤，然後選取要套用的篩選器。
 1. 若要篩選傳入母體，請選取&#x200B;**[!UICONTROL Add a filtering condition]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。
 
-   選取要套用至資料的篩選器型別，以將其納入此集。
+   Select要套用至資料的篩選器型別，以包含在此集中。
 
    處理程式與&#x200B;**Query**&#x200B;型別活動的處理程式相同。
 
@@ -62,11 +62,11 @@ ht-degree: 4%
 
    精靈可讓您選擇此子集記錄的選擇模式。 [了解更多資訊](#limit-the-number-of-subset-records)。
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![子集索引標籤包含子集1，限制所選記錄以及開啟限制精靈的編輯連結](assets/s_user_segmentation_partage4.png)
 
-1. 您也可以&#x200B;**使用&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**按鈕**&#x200B;新增其他子集。
+1. 您也可以&#x200B;**使用&#x200B;**[!UICONTROL Add]**按鈕**&#x200B;新增其他子集。
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![子集索引標籤具有新增按鈕，且索引標籤底端有「子集1」、「子集2」和「子集3」](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ ht-degree: 4%
 
    對於每個建立的子集，外站轉變將會新增到分割活動中。
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![分割活動，每個子集具有一個出站轉變：子集1、子集2和子集3](assets/s_user_segmentation_partage_add2.png)
 
    您可以選擇產生單一出站轉變（例如使用區段代碼識別集合）：若要這麼做，請選取&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Generate subsets in the same table]**&#x200B;選項。
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 如果您不想使用子集包含的整個母體，您可以限制它包含的記錄數。
 
 1. 在子集編輯視窗中，核取&#x200B;**[!UICONTROL Limit the selected records]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。
-1. 選取您選擇的限制型別：
+1. Select為您選擇的限制型別：
 
    * **[!UICONTROL Activate random sampling]**：此選項會採用記錄的隨機抽樣。 套用的隨機抽樣型別取決於資料庫引擎。
    * **[!UICONTROL Keep only the first records after sorting]**：此選項可讓您根據一或多個排序順序定義限制。 如果您選取&#x200B;**[!UICONTROL Age]**&#x200B;欄位作為排序標準，選取100作為限制，則只會保留最年輕的100位收件者。
@@ -93,15 +93,15 @@ ht-degree: 4%
 
      例如，如果您選取&#x200B;**[!UICONTROL Age]**&#x200B;欄位作為排序條件，然後定義了100的限制，但資料庫中2000個最年輕的收件者皆為18個，則會從這2000個收件者中隨機選取100個收件者。
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![限制精靈步驟的型別：隨機抽樣、排序後的第一個記錄，或排序後的第一個記錄（條件，隨機）](assets/s_user_segmentation_partage_wz1.png)
 
 1. 如果您想要定義排序標準，另一個步驟可讓您定義欄及排序順序。
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![使用目標定位和篩選維度及排序欄的排序精靈步驟建立日期和公司，降序](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. 然後選擇資料限制方法。
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![已選取大小(%)且設定為10.00，加上其他資料限制選項的「限制精靈」步驟](assets/s_user_segmentation_partage_wz2.png)
 
    有幾種方法可以做到：
 
@@ -125,15 +125,15 @@ ht-degree: 4%
 
 1. 選取資料限制值後，選取&#x200B;**[!UICONTROL By data grouping]**&#x200B;或&#x200B;**[!UICONTROL By data grouping (as a %)]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![已選取依資料群組的限制精靈步驟，以及按一下[下一步]以輸入其他資訊的提示](assets/s_user_segmentation_partage_wz3.png)
 
 1. 然後選取分組欄位（執行個體的&#x200B;**[!UICONTROL Language]**&#x200B;欄位）並按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![資料分組精靈步驟，列出語言欄位做為分組運算式](assets/s_user_segmentation_partage_wz4.png)
 
 1. 最後，指定資料分組臨界值（使用固定值或百分比，視先前選取的分組方法而定）。 若要為每個值設定相同的臨界值，例如，如果您要將每種語言的記錄數設為10，請選取&#x200B;**[!UICONTROL All data groupings are the same size]**&#x200B;選項。 若要為每個值設定不同的限制，請選取&#x200B;**[!UICONTROL Limitations by grouping value]**&#x200B;選項。 這可讓您針對英文、法文等選擇不同的限制。
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![所有資料分組的資料分組步驟都是選取相同大小且值為8](assets/s_user_segmentation_partage_wz5.png)
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以核准限制並返回編輯分割活動。
 
@@ -141,9 +141,9 @@ ht-degree: 4%
 
 如果您的分組欄位包含太多值，或您想避免為每個新的分割活動重設值，Adobe Campaign可讓您為每個資料分佈建立限制。 選取[資料限制值](#create-subsets)區段)時，請選取&#x200B;**[!UICONTROL By data distribution]**&#x200B;選項，然後從下拉式功能表中選取範本。 建立資料發佈範本的示例如下。
 
-如需具有發佈範本的&#x200B;**[!UICONTROL Local approval]**&#x200B;活動的範例，請參閱[此頁面](local-approval-activity.md)。
+如需具有散發範本的&#x200B;**[!UICONTROL Local approval]**&#x200B;活動範例，請參閱[使用本機核准活動](local-approval-activity.md)。
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![已選取依資料分送，且範本分送已套用至收件者的限制精靈步驟](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -153,11 +153,11 @@ ht-degree: 4%
 
 1. 若要建立資料發佈範本，請前往&#x200B;**[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;節點並按一下&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![總管樹狀結構，在[資源與行銷活動管理]下具有資料發佈節點，以及[新增]按鈕](assets/local_validation_data_distribution_1.png)
 
 1. **[!UICONTROL General]**&#x200B;索引標籤可讓您輸入發佈的標籤和執行內容（目標維度、發佈欄位）。
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![具有目標維度、發佈欄位、發佈型別和核准儲存空間的[資料發佈一般]索引標籤](assets/local_validation_data_distribution_2.png)
 
    需要輸入下列欄位：
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 1. 如果您使用[本機核准](local-approval.md)活動，請輸入散發範本的&#x200B;**[!UICONTROL Advanced settings]**：
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![進階引數，包含[核准目標訊息]、[傳遞標籤]、[群組]欄位及Web介面設定](assets/local_validation_data_distribution_3.png)
 
    需要輸入下列欄位：
 
@@ -181,21 +181,21 @@ ht-degree: 4%
      >
      >此選項預設為勾選。
 
-     ![](assets/local_validation_notification.png)
+     ![要核准的收件者核准通知清單，每個清單都有以紅色反白顯示的核取方塊](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**：可讓您定義運算式，以在回訪通知中顯示傳遞標籤。 預設運算式提供有關傳遞標準標籤（計算字串）的資訊。 您可以修改此運算式。
 
-     ![](assets/local_validation_notification_3.png)
+     ![具有傳遞行的傳遞回饋通知，顯示傳遞標籤，以紅色反白顯示](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**：此欄位可讓您定義用來在核准和傳回通知中顯示收件者的群組。
 
-     ![](assets/local_validation_notification_4.png)
+     ![核准清單，其中的收件者會在以紅色反白顯示的男性與女性標題下分組](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**：可讓您將Web應用程式連結至收件者清單。 在核准和回訪通知中，每個收件者都將可點按，並連結至選取的網頁應用程式。 **[!UICONTROL Parameters]**&#x200B;欄位（例如&#x200B;**[!UICONTROL recipientId]**）可讓您設定要在URL和網頁應用程式中使用的其他引數。
 
 1. **[!UICONTROL Breakdown]**&#x200B;索引標籤可讓您定義通訊群組值的清單。
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![劃分索引標籤列出分配欄位值及其百分比、標籤和群組或運運算元](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**：輸入分佈值。
    * **[!UICONTROL Percentage / Set]**：輸入連結至每個值的記錄限制（固定或百分比）。
@@ -213,13 +213,13 @@ ht-degree: 4%
 
 ## 篩選引數 {#filtering-parameters}
 
-按一下&#x200B;**[!UICONTROL General]**&#x200B;標籤以輸入活動標籤。 選取此分割的目標和篩選維度。 如有必要，您可以變更指定子集的這些維度。
+按一下&#x200B;**[!UICONTROL General]**&#x200B;標籤以輸入活動標籤。 Select此分割的目標和篩選維度。 如有必要，您可以變更指定子集的這些維度。
 
-![](assets/s_user_segmentation_partage_general.png)
+![已核取目標與篩選維度以及「產生補充」選項的分割活動的「一般」標籤](assets/s_user_segmentation_partage_general.png)
 
 如果要利用剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 補充是入站目標減去子集的聯合。 然後，會將額外的出站轉變新增至活動，如下所示：
 
-![](assets/s_user_segmentation_partage_compl.png)
+![分割具有外站轉變的活動Subset 1、Subset 2、Subset 3和一個額外的Complement轉變](assets/s_user_segmentation_partage_compl.png)
 
 若要讓此選項正確運作，傳入資料必須具有主索引鍵。
 

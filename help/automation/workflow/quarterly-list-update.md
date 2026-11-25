@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '294'
+ht-degree: 4%
 ---
 # 使用增量查詢更新每季清單 {#quarterly-list-update}
 
@@ -36,11 +36,11 @@ ht-degree: 5%
 
 由於這些行銷活動會在每個季初啟動，以提供相關的體育活動，因此這些清單會每季更新。 不過，此行銷活動僅能每9個月將收件者鎖定於此。 這可讓您找出收件者的資格頻率，並逐年提供不同季節的活動。
 
-![](assets/incremental_query_example.png)
+![工作流程具有增量查詢活動，透過其「結果」轉變連結到清單更新活動](assets/incremental_query_example.png)
 
 1. 將增量查詢和清單更新活動新增到新工作流程中。
 1. 依照[建立查詢](query.md#creating-a-query)中指定的方式設定活動的&#x200B;**[!UICONTROL Incremental query]**&#x200B;索引標籤。
-1. 選取「**[!UICONTROL Scheduling & History]**」標籤，然後指定270天的歷程記錄。 已設定目標的收件者在270天或大約9個月的期間內將不再設定目標。
+1. 在&#x200B;**[!UICONTROL Scheduling & History]**&#x200B;索引標籤Select，然後指定270天的歷程記錄。 已設定目標的收件者在270天或大約9個月的期間內將不再設定目標。
 
    然後按一下&#x200B;**[!UICONTROL Change...]**&#x200B;按鈕。
 

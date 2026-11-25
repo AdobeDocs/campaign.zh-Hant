@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '277'
 ht-degree: 0%
 ---
 # 執行彙總計算 {#performing-aggregate-computing}
@@ -48,12 +48,12 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Data to extract]**&#x200B;中，定義主索引鍵的計數（如上一個範例所示）。 在輸出欄中新增&#x200B;**[!UICONTROL Gender]**&#x200B;欄位。 檢查&#x200B;**[!UICONTROL Gender]**&#x200B;欄中的&#x200B;**[!UICONTROL Group]**&#x200B;選項。 如此一來，收件者就會依性別分組。
 
-   ![](assets/query_editor_nveau_27.png)
+   ![要使用count （主索引鍵）和Gender欄擷取的資料，且Gender的Group設為Yes。](assets/query_editor_nveau_27.png)
 
 1. 在&#x200B;**[!UICONTROL Sorting]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Next]**：這裡不需要排序。
 1. 設定資料篩選。 在此，您要將選取範圍限製為住在倫敦的聯絡人。
 
-   ![](assets/query_editor_22.png)
+   ![目標元素篩選器：城市（位置/@city位）等於倫敦，並反白顯示查詢摘要。](assets/query_editor_22.png)
 
    >[!NOTE]
    >
@@ -64,4 +64,4 @@ ht-degree: 0%
 
    依性別區分的每種排序有三個不同的值：女性為&#x200B;**2**，男性為&#x200B;**1**，性別不明時為&#x200B;**0**。 在此範例中，該清單包含10名女性、16名男性和2名性別不明的個人。
 
-   ![](assets/query_editor_agregat_04.png)
+   ![資料預覽顯示性別值2、1和0的計數10、16和2。](assets/query_editor_agregat_04.png)

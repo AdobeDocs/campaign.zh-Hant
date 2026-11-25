@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 ---
 # 行銷活動傳遞 {#marketing-campaign-deliveries}
 
@@ -44,39 +44,39 @@ ht-degree: 1%
 
 * 從行銷活動控制面板中的&#x200B;**[!UICONTROL Add a delivery]**&#x200B;連結。
 
-  ![](assets/campaign_op_add_delivery.png)
+  ![包含[新增傳遞]連結及新傳遞視窗以選取範本和標籤的行銷活動儀表板。](assets/campaign_op_add_delivery.png)
 
   儲存後，傳送會新增至行銷活動控制面板。
 
 * 在行銷活動工作流程的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，透過新增傳遞來建立。
 
-  ![](assets/campaign-wf-delivery.png)
+  ![目標定位和工作流程索引標籤，其中包含「傳送」浮動視窗以及以傳送活動結尾的工作流程。](assets/campaign-wf-delivery.png)
 
   工作流程開始後，傳送會新增至行銷活動控制面板。
 
-在此頁面[&#128279;](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程。
+在此頁面](marketing-campaign-approval.md)瞭解如何設定及執行傳遞核准流程[。
 
 ## 開始傳遞 {#start-a-delivery}
 
 授與所有核准後，可以傳送傳遞。 傳遞執行程式取決於通道。
 
-* 如需電子郵件或行動裝置頻道傳遞，請參閱[本節](#start-an-online-delivery)
+* 如需電子郵件或行動裝置頻道傳遞，請參閱[開始電子郵件或行動裝置傳遞](#start-an-online-delivery)
 
-* 如果是直接郵件傳遞，請參閱[本節](#start-an-offline-delivery)
+* 如果是直接郵件傳遞，請參閱[開始直接郵件傳遞](#start-an-offline-delivery)
 
 ### 開始電子郵件或行動傳送 {#start-an-online-delivery}
 
 在授與所有核准要求後，傳遞狀態就會變更為&#x200B;**[!UICONTROL Pending confirmation]**&#x200B;並可以啟動。 可開始傳送的稽核者會收到傳送已準備開始的通知。
 
-![](assets/confirm-delivery.png)
+![具有[確認傳遞]按鈕的傳遞摘要，會在所有核准都獲得授權且狀態為[擱置中]後顯示。](assets/confirm-delivery.png)
 
 此資訊也會顯示在行銷活動控制面板上。 **[!UICONTROL Confirm delivery]**&#x200B;連結可讓您開始傳遞。
 
-![](assets/confirm-delivery-from-dashboard.png)
+![在傳送上具有[確認傳送]連結的行銷活動儀表板，傳送正在等候確認。](assets/confirm-delivery-from-dashboard.png)
 
 確認傳遞僅限於管理員，以及傳遞或行銷活動屬性中明確提及的運運算元或運運算元群組。 如果未設計運運算元，則管理員和行銷活動所有者可以核准。
 
-![](assets/select-delivery-reviewers.png)
+![傳遞屬性[核准]索引標籤顯示每個核准和傳遞開始的稽核者。](assets/select-delivery-reviewers.png)
 
 不過，您也可以允許行銷活動擁有者確認傳送，即使傳送或行銷活動屬性中已定義特定稽核者亦然。 若要這麼做，請以管理員身分建立&#x200B;**NmsCampaign_Activate_OwnerConfirmation**&#x200B;選項，並將其設定為&#x200B;**1**。 這些選項是從Campaign檔案總管的&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**&#x200B;資料夾進行管理。
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    只有在進階行銷活動引數的&#x200B;**[!UICONTROL Approvals]**&#x200B;索引標籤中啟用了&#x200B;**[!UICONTROL Enable the sending and validation of proofs (Direct mail)]**&#x200B;選項時，才能使用此步驟。
 
-   ![](assets/enable-proof-validation.png)
+   ![校訂驗證視窗啟用傳送及驗證選取的校訂（直接郵件）和校訂群組。](assets/enable-proof-validation.png)
 
 1. 按一下&#x200B;**[!UICONTROL Send a proof]**&#x200B;按鈕以建立校樣。
 
@@ -115,21 +115,21 @@ ht-degree: 1%
 
 * **[!UICONTROL Budget]**&#x200B;索引標籤可讓您管理行銷活動的預算。 總成本專案會顯示在行銷活動主要標籤及其所屬方案的&#x200B;**[!UICONTROL Calculated cost]**&#x200B;欄位中。 這些金額也會反映在行銷活動預算中。
 
-  ![](assets/campaign-budget-tab.png)
+  ![行銷活動預算標籤，顯示相關預算、計算成本及每次傳遞的成本明細行清單。](assets/campaign-budget-tab.png)
 
   實際成本最終將依據路由器提供的資訊計算。 只有實際傳送的訊息才會開立發票。
 
 * 庫存定義於樹狀結構的&#x200B;**[!UICONTROL Administration > Campaign management > Stocks]**&#x200B;節點中。
 
-  ![](assets/campaign-stocks.png)
+  Campaign總管中的![Stocks節點，具有銷售傳單庫存儀表板及其庫存明細行。](assets/campaign-stocks.png)
 
   **[!UICONTROL Administration > Campaign management > Service providers]**&#x200B;節點中的成本結構。
 
-  ![](assets/campaign-service-providers.png)
+  Campaign總管中的![服務提供者節點（含Blue Print提供者及其服務清單）。](assets/campaign-service-providers.png)
 
   坯件線會顯示在坯件區段中。 若要定義初始坯件，請開啟坯件線。 每次進行交貨時，庫存都會減少。 您可以定義警示等級與通知。
 
 
   >[!NOTE]
   >
-  >在本節[&#128279;](providers-stocks-and-budgets.md)中進一步瞭解預算。
+  >在本節](providers-stocks-and-budgets.md)中進一步瞭解預算[。

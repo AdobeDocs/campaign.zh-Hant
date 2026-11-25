@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '180'
 ht-degree: 5%
 ---
 # 傳遞控制{#delivery-control}
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 這可以是轉變中指定的傳遞、明確選取的傳遞或指令碼計算的傳遞。 如需詳細資訊，請參閱[傳遞](delivery.md)。
 
-![](assets/edit_diffusion_act.png)
+![傳遞的傳遞控制活動已在轉換中指定，動作開始並產生出站轉換](assets/edit_diffusion_act.png)
 
 如果您選取&#x200B;**[!UICONTROL Start]**，活動將會執行啟動傳送所需的所有步驟（目標計算、內容準備、傳送）。 如果先前的工作流程活動已執行其中某些步驟，則不會再執行這些步驟。 例如，如果目標估計已由&#x200B;**[!UICONTROL Delivery]**&#x200B;型別活動（請參閱[傳送](delivery.md)）執行，**[!UICONTROL Act on the delivery]**&#x200B;活動將啟動其餘步驟（內容準備和傳送）。
 

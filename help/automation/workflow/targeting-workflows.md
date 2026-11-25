@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 5%
+source-wordcount: '2646'
+ht-degree: 3%
 ---
 # 建立目標定位工作流程{#target-data}
 
@@ -46,11 +46,11 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->目標定位活動在[本節](activities.md)中有詳細說明。
+>目標定位活動在[關於工作流程活動](activities.md)中有詳細說明。
 
 目標工作流程可以透過Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]**&#x200B;節點或透過首頁的&#x200B;**[!UICONTROL Profiles and Targets > Targeting workflows]**&#x200B;功能表來建立和編輯。
 
-![](assets/target_wf.png)
+![使用者端主控台中的[設定檔與目標]底下，使用現有的工作流程和[建立]按鈕的目標工作流程清單。](assets/target_wf.png)
 
 行銷活動框架內的目標工作流程會與所有行銷活動工作流程一起儲存。
 
@@ -76,17 +76,17 @@ ht-degree: 5%
 
 例如，收件者(**recipient**)可以使用下列篩選維度：
 
-![](assets/query-filter-dimensions.png)
+![查詢對話方塊，目標維度收件者且篩選維度清單已開啟，顯示收件者傳遞記錄。](assets/query-filter-dimensions.png)
 
 對於&#x200B;**訪客**，清單將包含下列篩選維度：
 
-![](assets/query-filter-dimension-2.png)
+![具有目標維度訪客的查詢對話方塊，且篩選維度清單已開啟，顯示訪客訂閱。](assets/query-filter-dimension-2.png)
 
 ## 建立查詢 {#create-queries}
 
 ### 使用其他資料 {#select-data}
 
-**[!UICONTROL Query]**&#x200B;活動可讓您選取基本資料以建置目標母體。 如需詳細資訊，請參閱[本章節](query.md#creating-a-query)。
+**[!UICONTROL Query]**&#x200B;活動可讓您選取基本資料以建置目標母體。 如需詳細資訊，請參閱[建立查詢](query.md#creating-a-query)。
 
 您也可以使用下列活動來查詢及調整資料庫中的資料： [增量查詢](incremental-query.md)，[讀取清單](read-list.md)。
 
@@ -98,19 +98,19 @@ ht-degree: 5%
 
 **[!UICONTROL Edit additional data...]**&#x200B;連結可讓您檢視新增的資料，並修改或新增至其中。
 
-![](assets/edit-additional-data.png)
+![查詢活動，其編輯其他資料連結在[補充資訊]下反白顯示。](assets/edit-additional-data.png)
 
 若要將資料新增至先前定義的輸出欄，請在可用欄位清單中選取該資料。 若要建立新的輸出資料行，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;圖示，然後選取欄位並按一下&#x200B;**[!UICONTROL Edit expression]**。
 
-![](assets/query_add_an_output_column.png)
+![其他資料行視窗，其中包含可用的欄位、輸出資料行，以及反白顯示的[新增]圖示，以建立輸出資料行。](assets/query_add_an_output_column.png)
 
 按一下&#x200B;**進階選擇**&#x200B;按鈕。
 
-![](assets/query_add_an_output_column_formula.png)
+![Select運算式視窗中列出收件者欄位，底部有[進階選取]按鈕。](assets/query_add_an_output_column_formula.png)
 
 為要新增的欄位定義計算模式，例如彙總。
 
-![](assets/query_add_aggregate.png)
+![已選取彙總函式上有Process的公式型別步驟，並已選取Sum選項。](assets/query_add_aggregate.png)
 
 **[!UICONTROL Add a sub-item]**&#x200B;選項可讓您將計算資料附加至集合。 這可讓您從收集中選取其他資料，或定義收集要素的彙總計算。
 
@@ -122,23 +122,23 @@ ht-degree: 5%
 
 收集的其他資料可讓您調整資料庫中的資料篩選。 若要這麼做，請按一下&#x200B;**[!UICONTROL Refine the target using additional data...]**&#x200B;連結：這可讓您對新增的資料進行過度篩選。
 
-![](assets/wf_add_data_use_additional_data.png)
+![查詢活動，使用強調顯示的其他資料連結來縮小目標範圍。](assets/wf_add_data_use_additional_data.png)
 
 ### 均勻化資料 {#homogenize-data}
 
 在&#x200B;**[!UICONTROL Union]**&#x200B;或&#x200B;**[!UICONTROL Intersection]**&#x200B;型別活動中，您可以選擇只保留共用的其他資料，以保持資料的一致性。 在這種情況下，此活動的暫時輸出工作表將僅包含在所有入站集中找到的其他資料。
 
-![](assets/use-common-add-data-only.png)
+![與[僅使用一般其他資料]選項交集活動已反白並選取。](assets/use-common-add-data-only.png)
 
 ### 與其他資料調解 {#reconciliation-with-additional-data}
 
 在資料調解階段（**[!UICONTROL Union]**、**[!UICONTROL Intersection]**&#x200B;等活動）中，您可以從其他資料行中選取要用於資料調解的資料行。 要執行此操作，請在選取的欄上設定調解，並指定主集。 然後選取視窗下方欄中的欄，如下列範例所示：
 
-![](assets/select-column-and-join.png)
+![交集活動包含所選資料行、主要集和用於聯結清單的資料行。](assets/select-column-and-join.png)
 
-選取運算式並確認。
+Select運算式並確認。
 
-![](assets/select-column-and-join-2.png)
+![Select交集的運算式視窗，列出已選取帳號#之目標維度底下的欄位。](assets/select-column-and-join-2.png)
 
 
 ### 建立子集 {#create-subsets}
@@ -147,7 +147,7 @@ ht-degree: 5%
 
 您僅可使用其他資料作為篩選條件或目標資料將目標分割成數個子集。 如果您已購買&#x200B;**同盟資料存取**&#x200B;選項，也可以使用外部資料。
 
-如需詳細資訊，請參閱[本章節](#create-subsets-using-the-split-activity)。
+如需詳細資訊，請參考[使用分割活動建立子集](#create-subsets-using-the-split-activity)。
 
 ## 區段資料 {#segment-data}
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 
 聯合活動可讓您在一個轉變中結合數個活動的結果。 集合不一定要是同質的。
 
-![](assets/union-keys-only.png)
+![僅具有調解選項索引鍵、所有共用資料行以及選取資料行的聯合活動。](assets/union-keys-only.png)
 
 下列資料調解選項可供使用：
 
@@ -171,11 +171,11 @@ ht-degree: 5%
 
 * **[!UICONTROL A selection of columns]**
 
-  選取此選項可定義將套用資料協調的欄清單。
+  Select此選項可定義將套用資料協調的欄清單。
 
   首先，選取主集（包含來源資料的主集），然後選取要用於聯結的欄。
 
-  ![](assets/join-reconciliation-options.png)
+  ![聯合活動，具有選取的資料行、主要集以及要選取的聯結資料行帳戶和來源。](assets/join-reconciliation-options.png)
 
   >[!CAUTION]
   >
@@ -187,11 +187,11 @@ ht-degree: 5%
 
   記錄會先從清單中第一個入站轉變的母體取得，如果未達到最大值，則會從第二個入站轉變的母體取得，以此類推。
 
-  ![](assets/join_limit_nb_priority.png)
+  ![聯合活動，具有限制已檢查產生的母體大小及入站母體的優先順序。](assets/join_limit_nb_priority.png)
 
 ### 擷取連線點資料（交集） {#extract-joint-data--intersection-}
 
-![](assets/traitements.png)
+![母體A、B和C，其輪廓標示為聯合、交集和排除所涵蓋的區域。](assets/traitements.png)
 
 交集可讓您僅復原入站轉變母體所共用的線。 此活動必須像聯合活動一樣設定。
 
@@ -207,7 +207,7 @@ ht-degree: 5%
 
 資料調解可透過識別碼、變更軸或連線來執行。
 
-![](assets/exclusion-add-rule.png)
+![排除活動開啟[例外定義]對話方塊，並有[排除集]和[變更維度]選項。](assets/exclusion-add-rule.png)
 
 ### 使用分割活動建立子集 {#create-subsets-using-the-split-activity}
 
@@ -221,15 +221,15 @@ ht-degree: 5%
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，選取所要的選項： **[!UICONTROL Use data from the target and additional data]**、**[!UICONTROL Use the additional data only]**&#x200B;或&#x200B;**[!UICONTROL Use external data]**。
 1. 如果選取&#x200B;**[!UICONTROL Use data from the target and additional data]**&#x200B;選項，則目標維度可讓您使用入站轉變所傳達的所有資料。
 
-   ![](assets/split-general-tab-options.png)
+   ![使用[使用目標中的資料]和[其他資料]選項及篩選維度清單，分割活動[一般]索引標籤。](assets/split-general-tab-options.png)
 
    建立子集時，會使用上述篩選引數。
 
    若要定義篩選條件，請選擇&#x200B;**[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit...]**&#x200B;連結。 然後指定建立此子集的篩選條件。
 
-   ![](assets/split-subset-config-all-data.png)
+   ![分割活動子集索引標籤，對選取的入站母體新增篩選條件並編輯連結。](assets/split-subset-config-all-data.png)
 
-   在[本節](cross-channel-delivery-workflow.md)中說明如何在&#x200B;**[!UICONTROL Split]**&#x200B;活動中使用篩選條件將目標分割成不同母體的範例。
+   在[跨通道傳遞工作流程](cross-channel-delivery-workflow.md)中說明如何在&#x200B;**[!UICONTROL Split]**&#x200B;活動中使用篩選條件將目標區隔成不同母體的範例。
 
    **[!UICONTROL Label]**&#x200B;欄位可讓您為新建立的子集命名，以符合出站轉變。
 
@@ -237,7 +237,7 @@ ht-degree: 5%
 
    如有必要，您可以針對要建立的每個子集個別變更目標定位和篩選維度。 若要這麼做，請編輯子集的篩選條件，並核取&#x200B;**[!UICONTROL Use a specific filtering dimension]**&#x200B;選項。
 
-   ![](assets/split-subset-config-specific-filtering.png)
+   ![查詢對話方塊，已勾選「使用特定篩選維度」選項，位於目標定位和篩選維度上方。](assets/split-subset-config-specific-filtering.png)
 
 1. 如果選取&#x200B;**[!UICONTROL Use the additional data only]**&#x200B;選項，則僅提供額外的資料用於子集篩選。
 
@@ -247,21 +247,21 @@ ht-degree: 5%
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並定義篩選條件。
 
-   ![](assets/wf_split_add_a_tab.png)
+   ![使用[新增]按鈕反白顯示[分割活動子集]索引標籤，以在[子集]旁邊建立新的子集索引標籤。](assets/wf_split_add_a_tab.png)
 
 1. 在活動的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中定義篩選維度（請參閱上文）。預設會套用至所有子集。
 
-   ![](assets/wf_split_edit_filtering.png)
+   ![顯示「子集A」、「B」和「C」索引標籤以及「子集B」的篩選條件選項的「分割活動子集」索引標籤。](assets/wf_split_edit_filtering.png)
 
 1. 如有必要，您可以個別變更每個子集的篩選維度。 這可讓您為所有金卡持有者建立一組檔案，一個檔案適用於在最新電子報中點按的所有收件者，第三個檔案適用於過去30天內於店內購買的18至25歲人士，所有檔案皆使用相同的分割活動。 若要這麼做，請選取&#x200B;**[!UICONTROL Use a specific filtering dimension]**&#x200B;選項並選取資料篩選內容。
 
 建立子集後，分割活動預設會顯示與子集相同數量的輸出轉變：
 
-![](assets/wf_split_multi_outputs.png)
+![分割活動有三個外站轉變（子集1、子集2和子集3）的工作流程，以分隔活動。](assets/wf_split_multi_outputs.png)
 
 您可以將所有這些子集群組為一個輸出轉變。 在此情況下，個別子集的連結將顯示在區段代碼中，例如。 若要這麼做，請選取&#x200B;**[!UICONTROL Generate all subsets in the same table]**&#x200B;選項。
 
-![](assets/wf_split_single_output.png)
+![核取並反白顯示[產生相同資料表中的所有子集]選項的[分割活動一般]索引標籤。](assets/wf_split_single_output.png)
 
 例如，您可以放置單一傳遞活動，並根據每個收件者集的區段代碼來個人化傳遞內容。
 
@@ -306,7 +306,7 @@ ht-degree: 5%
 
 ### 豐富及修改資料 {#enrich-and-modify-data}
 
-除了目標維度之外，篩選維度還可讓您指定收集資料的性質。 請參閱[本節](targeting-workflows.md#targeting-and-filtering-dimensions)。
+除了目標維度之外，篩選維度還可讓您指定收集資料的性質。 請參閱[目標定位和篩選維度](targeting-workflows.md#targeting-and-filtering-dimensions)。
 
 已識別和收集的資料可以擴充、彙總和操作，以最佳化目標建構。 若要這麼做，除了[此區段](#segmen-data)中詳述的資料操作活動之外，請使用下列專案：
 

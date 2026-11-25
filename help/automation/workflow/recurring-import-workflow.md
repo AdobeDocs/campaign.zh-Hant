@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1187'
 ht-degree: 0%
 ---
 # 設定週期性匯入工作流程 {#setting-up-a-recurring-import}
@@ -48,7 +48,7 @@ ht-degree: 0%
    * **[!UICONTROL Deduplication]**：將資料插入資料庫之前，先從內送檔案刪除重複資料。
    * **[!UICONTROL Update data]**：使用匯入的設定檔更新資料庫。
 
-   ![](assets/import_template_example0.png)
+   ![匯入範本工作流程：資料載入（檔案）、擴充、分割、重複資料刪除、兩個更新資料活動和結束。](assets/import_template_example0.png)
 
 1. 設定&#x200B;**[!UICONTROL Data Loading (file)]**&#x200B;活動：
 
@@ -61,16 +61,16 @@ ht-degree: 0%
 
    * 在&#x200B;**[!UICONTROL Name of the file to load]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Upload a file from the local machine]**&#x200B;並保留欄位空白。 每次從這個範本建立新工作流程時，只要檔案符合定義的結構，您就可以在此處指定所要的檔案。
 
-     您可以使用任何選項，但必須據以修改範本。 例如，如果您選取&#x200B;**[!UICONTROL Specified in the transition]**，您可以先新增&#x200B;**[!UICONTROL File Transfer]**&#x200B;活動，再擷取要從FTP/SFTP伺服器匯入的檔案。 透過S3或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=zh-Hant){target="_blank"}。
+     您可以使用任何選項，但必須據以修改範本。 例如，如果您選取&#x200B;**[!UICONTROL Specified in the transition]**，您可以先新增&#x200B;**[!UICONTROL File Transfer]**&#x200B;活動，再擷取要從FTP/SFTP伺服器匯入的檔案。 透過S3或SFTP連線，您也可以透過Adobe即時客戶資料平台將區段資料匯入Adobe Campaign。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}。
 
-     ![](assets/import_template_example1.png)
+     ![使用範例檔案預覽的資料載入（檔案）活動，並從選取的本機電腦上傳檔案。](assets/import_template_example1.png)
 
 1. 設定&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動。 此活動在此內容的目的是識別傳入資料。
 
    * 在&#x200B;**[!UICONTROL Enrichment]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Add data]**&#x200B;並定義匯入資料和收件者目標維度之間的連結。 在此範例中，**CRM ID**&#x200B;自訂欄位是用來建立加入條件。 只要允許您識別唯一記錄，就使用所需的欄位或欄位組合。
    * 在&#x200B;**[!UICONTROL Reconciliation]**&#x200B;索引標籤中，保留&#x200B;**[!UICONTROL Identify the document from the working data]**&#x200B;選項為未核取。
 
-   ![](assets/import_template_example2.png)
+   ![使用連結定義畫面擴充活動：目標可能不存在之連結，收件者(nms)結構描述。](assets/import_template_example2.png)
 
 1. 設定&#x200B;**[!UICONTROL Split]**&#x200B;活動以在一個轉變中擷取已調解的收件者，以及在第二個轉變中無法調解但擁有足夠資料的收件者。
 
@@ -84,46 +84,46 @@ ht-degree: 0%
 
    * 在&#x200B;**[!UICONTROL Subsets]**&#x200B;索引標籤的第一個子集中，對入站母體新增篩選條件，以僅選取收件者主索引鍵不等於0的記錄。 如此一來，會在該子集中選取檔案中與資料庫收件者調解的資料。
 
-     ![](assets/import_template_example3.png)
+     ![使用篩選器查詢分割不等於0的子集主索引鍵：收件者的主索引鍵不等於0。](assets/import_template_example3.png)
 
    * 新增第二個子集，選取有足夠資料可插入資料庫中的未調解記錄。 例如：電子郵件地址、名字和姓氏。
 
      子集會依其建立順序進行處理，這表示在處理此第二個子集時，已在第一個子集中選取資料庫中已存在的所有記錄。
 
-     ![](assets/import_template_example3_2.png)
+     ![分割足夠的子集資料，以插入電子郵件、firstname和lastname不為空白的篩選功能。](assets/import_template_example3_2.png)
 
    * 在前兩個子集中未選取的所有記錄都會在&#x200B;**[!UICONTROL Complement]**&#x200B;中選取。
 
 1. 設定位於先前設定之&#x200B;**[!UICONTROL Split]**&#x200B;活動的第一個出站轉變之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
 
-   * 選取&#x200B;**[!UICONTROL Update]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變僅包含資料庫中已存在的收件者。
+   * Select **[!UICONTROL Update]**&#x200B;為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變僅包含資料庫中已存在的收件者。
    * 在&#x200B;**[!UICONTROL Record identification]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Using reconciliation keys]**&#x200B;並定義目標維度與在&#x200B;**[!UICONTROL Enrichment]**&#x200B;中建立的連結之間的索引鍵。 在此範例中，使用&#x200B;**CRM ID**&#x200B;自訂欄位。
    * 在&#x200B;**[!UICONTROL Fields to update]**&#x200B;區段中，指示收件者維度中的欄位，以使用檔案中對應欄的值進行更新。 如果檔案欄的名稱相同或幾乎與收件者維度欄位的名稱相同，您可以使用魔術棒按鈕來自動比對不同的欄位。
 
-     ![](assets/import_template_example6.png)
+     @crmid ![使用更新作業、收件者上的調解金鑰，以及對應至欄位的檔案欄來更新資料。](assets/import_template_example6.png)
 
 1. 設定位於包含未調解收件者的轉換之後的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動：
 
-   * 選取&#x200B;**[!UICONTROL Edit configuration]**&#x200B;並將目標維度設定為從工作流程的&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動產生的暫存結構描述。
+   * Select **[!UICONTROL Edit configuration]**&#x200B;並將目標維度設定為從工作流程的&#x200B;**[!UICONTROL Enrichment]**&#x200B;活動產生的暫存結構描述。
 
-     ![](assets/import_template_example4.png)
+     ![已選取暫存結構描述且已選取擴充結構描述的「重複資料刪除目標」維度畫面。](assets/import_template_example4.png)
 
    * 在此範例中，電子郵件欄位用於尋找唯一設定檔。 您可以使用任何您確定已填的欄位，以及唯一組合的一部分。
    * 在&#x200B;**[!UICONTROL Deduplication method]**&#x200B;畫面中，選取&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;並核取&#x200B;**[!UICONTROL Disable automatic filtering of 0 ID records]**&#x200B;選項，以確保不會排除主索引鍵等於0 （這應該是此轉換的所有記錄）的記錄。
 
-   ![](assets/import_template_example7.png)
+   ![重複資料刪除活動已設定為使用[為我選擇]方法在電子郵件欄位上重複資料刪除。](assets/import_template_example7.png)
 
 1. 設定位於先前設定的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
 
-   * 選取&#x200B;**[!UICONTROL Insert]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變只包含不在資料庫中的收件者。
+   * Select **[!UICONTROL Insert]**&#x200B;為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變僅包含資料庫中不存在的收件者。
    * 在&#x200B;**[!UICONTROL Record identification]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Directly using the targeting dimension]**&#x200B;並選擇&#x200B;**[!UICONTROL Recipients]**&#x200B;維度。
    * 在&#x200B;**[!UICONTROL Fields to update]**&#x200B;區段中，指示收件者維度中的欄位，以使用檔案中對應欄的值進行更新。 如果檔案欄的名稱相同或幾乎與收件者維度欄位的名稱相同，您可以使用魔術棒按鈕來自動比對不同的欄位。
 
-     ![](assets/import_template_example8.png)
+     ![使用插入作業更新資料2，將維度收件者和對應至收件者欄位的檔案資料行做為目標。](assets/import_template_example8.png)
 
 1. 在&#x200B;**[!UICONTROL Split]**&#x200B;活動的第三個轉變之後，如果您要追蹤未插入資料庫中的資料，請新增&#x200B;**[!UICONTROL Data extraction (file)]**&#x200B;活動和&#x200B;**[!UICONTROL File transfer]**&#x200B;活動。 設定這些活動以匯出您需要的欄，並在FTP或SFTP伺服器上傳輸檔案，以便您擷取檔案。
 1. 新增&#x200B;**[!UICONTROL End]**&#x200B;活動並儲存工作流程範本。
 
 範本現在可用於每個新工作流程。 然後只需指定包含要在&#x200B;**[!UICONTROL Data loading (file)]**&#x200B;活動中匯入之資料的檔案。
 
-![](assets/import_template_example9.png)
+![已執行匯入工作流程，顯示每個轉變的記錄計數，包括[補充]轉變到[結束]。](assets/import_template_example9.png)

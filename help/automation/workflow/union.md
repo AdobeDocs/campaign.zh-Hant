@@ -19,20 +19,20 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '333'
 ht-degree: 2%
 ---
 # 聯合{#union}
 
 **[!UICONTROL Union]**&#x200B;會將數個入站活動的結果群組在單一目標中。 建立目標時會收到所有結果：因此，必須完成所有先前的活動才能執行聯合。
 
-![](assets/s_user_segmentation_union.png)
+![具有調解選項的聯集活動，限制產生的母體大小核取方塊和結果標籤](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->有關設定和使用&#x200B;**[!UICONTROL Union]**&#x200B;活動的詳細資訊，請參閱[此頁面](targeting-workflows.md#combine-several-targets--union-)。
+>有關設定和使用&#x200B;**[!UICONTROL Union]**&#x200B;活動的詳細資訊，請參閱[合併數個目標（聯合）](targeting-workflows.md#combine-several-targets--union-)。
 
 ## 聯合範例 {#union-example}
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 1. 在兩個查詢之後且在清單的更新型別活動之前直接插入&#x200B;**[!UICONTROL Union]** -type活動，然後開啟它。
 1. 您可以輸入標籤。
-1. 選取&#x200B;**[!UICONTROL Keys only]**&#x200B;調解方法，因為在此範例中，由查詢產生的母體包含一致的資料。
+1. Select **[!UICONTROL Keys only]**&#x200B;調解方法，因為在此範例中，由查詢產生的母體包含一致的資料。
 1. 如果您已為查詢新增其他資料，您可以決定只保留共用的資料。
 1. 如果要限制最終母體的大小，請核取&#x200B;**[!UICONTROL Limit size of generated population]**&#x200B;選項。
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 1. 核准&#x200B;**[!UICONTROL Union]**&#x200B;活動，然後設定[清單更新](list-update.md)活動。
 1. 啟動工作流程。 會顯示結果數量，並建立或更新清單更新活動中定義的清單。 此清單包含兩個查詢的收件者集，或如適用，包含上一步驟中定義的號碼。
 
-   ![](assets/union_example.png)
+   ![工作流程，其中兩個查詢饋送一個聯集活動，會將5個結果輸出到清單更新活動](assets/union_example.png)
 
 ## 輸入引數 {#input-parameters}
 

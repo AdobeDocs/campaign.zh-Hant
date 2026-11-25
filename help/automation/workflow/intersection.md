@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 9%
+source-wordcount: '440'
+ht-degree: 8%
 ---
 # 交集{#intersection}
 
@@ -36,13 +36,13 @@ ht-degree: 9%
 
 交集讓您僅擷取所有傳入活動結果共有的母體。 建立目標時會收到所有結果：因此，必須先完成所有先前的活動，才能執行交集。 若要設定此活動，您必須輸入其標籤以及有關結果的選項。
 
-![](assets/s_user_segmentation_inter.png)
+![調解設定為僅限金鑰、結果標籤和產生補碼選項的交集活動](assets/s_user_segmentation_inter.png)
 
 如需設定及使用交集活動的詳細資訊，請參閱[擷取聯合資料（交集）](targeting-workflows.md#extract-joint-data--intersection-)。
 
 如果要處理剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 此補集會包含所有傳入活動減去交集的聯合結果。 然後，會將額外的出站轉變新增至活動，如下所示：
 
-![](assets/s_user_segmentation_inter_compl.png)
+![具有兩個外站轉變（結果及補充）的交集活動](assets/s_user_segmentation_inter_compl.png)
 
 ## 交集範例 {#intersection-example}
 
@@ -60,7 +60,7 @@ ht-degree: 9%
 
    交集結果會傳送給第一個清單更新。 如果您已選擇使用補充，也會將其傳送至第二個清單更新。
 
-   ![](assets/intersection_example.png)
+   ![傳送交集的三個查詢，其結果和補碼會移至兩個清單更新活動](assets/intersection_example.png)
 
 ## 輸入引數 {#input-parameters}
 

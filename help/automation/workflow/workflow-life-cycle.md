@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '279'
 ht-degree: 2%
 ---
 # 工作流程生命週期 {#workflow-life-cycle}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 例如，已概述&#x200B;**開始**&#x200B;和&#x200B;**傳遞**&#x200B;活動，而&#x200B;**核准**&#x200B;活動在下列工作流程中閃爍。
 
-![](assets/new-workflow-6.png)
+![工作流程中列出開始和傳送活動，且核准活動正在執行，然後傳送控制和結束](assets/new-workflow-6.png)
 
 這表示前兩個活動已成功執行，且核准正在進行中，即已建立但尚未完成。
 
@@ -50,4 +50,4 @@ ht-degree: 2%
 
 工作流程已啟動，正在等候屬於&#x200B;**核准**&#x200B;活動中指定之群組的運運算元做出決定。 屬於群組且擁有電子郵件地址或行動電話號碼的運運算元會收到通知。
 
-如需如何監視工作流程的詳細資訊，請參閱[本節](monitor-workflow-execution.md)。
+如需如何監視工作流程的詳細資訊，請參閱[監視工作流程執行](monitor-workflow-execution.md)。

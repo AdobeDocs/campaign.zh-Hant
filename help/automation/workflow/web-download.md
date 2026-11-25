@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '573'
 ht-degree: 2%
 ---
 # 網頁下載{#web-download}
@@ -47,23 +47,23 @@ ht-degree: 2%
 
    * 若要直接輸入要下載的檔案URL，請選取&#x200B;**[!UICONTROL Explicit URL]**&#x200B;選項，並在適當的欄位中指定URL。 此URL可使用變數資料建構。
 
-     ![](assets/download_web_edit.png)
+     ![已選取[明確URL]選項且空白URL欄位的Web下載活動。](assets/download_web_edit.png)
 
    * 若要使用&#x200B;**[!UICONTROL External account]**，請從下拉式清單中選取帳戶，並指定要下載的檔案。
 
      從Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Administration > Platform > External accounts]**&#x200B;節點設定外部帳戶。 帳戶引數可以透過&#x200B;**[!UICONTROL Edit link]**&#x200B;圖示編輯。
 
-     ![](assets/download_web_edit_external.png)
+     ![已選取外部帳戶的Web檔案區段，其中包含要下載的帳戶和檔案名稱。](assets/download_web_edit_external.png)
 
    * 若要從Adobe Campaign執行個體下載檔案，請選取&#x200B;**[!UICONTROL Adobe Campaign Instance]**&#x200B;選項。
 
-     ![](assets/download_web_edit_instance.png)
+     已選取Adobe Campaign執行個體且檔案名稱使用變數的![網頁檔案區段。](assets/download_web_edit_instance.png)
 
 1. **檔案歷史化**
 
    **[!UICONTROL File historization settings...]**&#x200B;連結可讓您指定檔案儲存目錄和此目錄的清除頻率。
 
-   ![](assets/download_web_edit_hist.png)
+   ![歷史化設定對話方塊，其中包含儲存目錄、檔案數目和大小上限(MB)清除設定。](assets/download_web_edit_hist.png)
 
    可以使用以下選項：
 
@@ -85,7 +85,7 @@ ht-degree: 2%
    * **[!UICONTROL Add the HTTP headers to the file]**：在某些情況下，您可能會想要將額外的HTTP標頭新增至檔案。 最常見的情況是，這些標頭將用於提供其他資訊以進行疑難排解、用於[跨原始資源共用(CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)，或用於設定特定的快取指示。
    * **[!UICONTROL Ignore the HTTP return code]**： HTTP傳回碼（也稱為HTTP狀態碼）表示HTTP要求的結果。
 
-   ![](assets/download_web_edit_advanced.png)
+   ![進階引數對話方塊，包括「遵循重新導向」、「將HTTP標頭新增至檔案」和「忽略HTTP傳回碼」。](assets/download_web_edit_advanced.png)
 
    **[!UICONTROL Process errors]**&#x200B;選項在[處理錯誤](monitor-workflow-execution.md#processing-errors)中有詳細說明。
 

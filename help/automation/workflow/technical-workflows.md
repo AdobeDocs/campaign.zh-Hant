@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2271'
 ht-degree: 4%
 ---
 # 技術工作流程{#about-technical-workflows}
@@ -51,17 +51,17 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 
 依預設，技術工作流程可在下列節點的子資料夾中使用： **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**。
 
-![](assets/navtree.png){width="50%" zoomable="yes"}
+![已展開「管理>生產」並選取「技術工作流程」資料夾的「總管」樹狀結構。](assets/navtree.png){width="50%" zoomable="yes"}
 
 >[!NOTE]
 >
->* [本節](#list-technical-workflows)提供每個模組所安裝的技術工作流程清單。
+>* 每個模組所安裝的技術工作流程清單可在[內建的技術工作流程](#list-technical-workflows)中取得。
 >
 >* 與訊息中心附加元件相關的技術工作流程預設會儲存在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**&#x200B;節點中。
 
 **[!UICONTROL Campaign process]**&#x200B;子資料夾集中了執行行銷活動內處理程式所需的工作流程：任務通知、庫存管理、成本計算等。
 
-![](assets/campaign-processes-wf.png)
+![在技術工作流程樹狀結構中選取行銷活動處理資料夾，以及其工作流程清單和圖表。](assets/campaign-processes-wf.png)
 
 ## 管理和建立技術工作流程 {#manage-tech-workflows}
 
@@ -92,7 +92,7 @@ Adobe Campaign隨附一組內建的技術工作流程。 它們可控制排定�
 | **事件清除** (webAnalyticsPurgeWebEvents) | 網站分析連接器 | 此工作流程可讓您根據生命週期欄位中設定的期間，從資料庫欄位中刪除每個事件。 |
 | **將對象匯出至Adobe Experience Cloud** (exportSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程會將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同Adobe CX Enterprise解決方案。 |
 | **預測** （預測） | 預設安裝 | 此工作流程會分析臨時行事曆中儲存的傳遞（建立臨時記錄）。 預設會每天凌晨1:00觸發。 |
-| **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[本節](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
+| **完整彙總計算(propositionrcp cube)** (agg_nmspropositionrcp_full) | 優惠方案引擎（互動） | 此工作流程會更新優惠方案主張Cube的完整彙總。 預設會每天早上6:00觸發。 此彙總會擷取下列維度：管道、傳送、行銷優惠和日期。 然後，優惠方案主張多維度資料集可用來根據優惠方案產生報表。 在[開始使用Adobe Campaign分析報告](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。 |
 | **已轉換連絡人的識別碼** (webAnalyticsFindConverted) | 網站分析連接器 | 此工作流程會針對在再次行銷活動後完成購買的網站訪客建立索引。 此工作流程復原的資料可在再行銷效率報表中存取（請參閱本頁面）。 |
 | **從Adobe Experience Cloud匯入對象** (importSharedAudience) | 與Adobe Experience Cloud整合 | 此工作流程可讓您將不同CX Enterprise解決方案的對象/區段匯入至Adobe Campaign。 |
 | 行銷活動中的傳遞&#x200B;**工作** (deliveryMgt) | 預設安裝 | 此工作流程會觸發已核准的傳送，並開始為外部傳送對服務提供者進行後續處理。 也會傳送核准通知和提醒。 |

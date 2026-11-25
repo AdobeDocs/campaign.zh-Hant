@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '376'
 ht-degree: 2%
 ---
 # 分支{#fork}
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 1. 開啟&#x200B;**[!UICONTROL Fork]**&#x200B;活動並定義出站轉變的名稱和標籤。
 
-   ![](assets/s_user_segmentation_fork.png)
+   ![具有四個轉變的分叉活動，以及用來編輯轉變4的名稱和標籤的「轉變」視窗。](assets/s_user_segmentation_fork.png)
 
 1. 開啟並設定每個出站轉變。
 1. 或者，若要聯結出站轉變，請新增AND — 聯結活動。 [了解更多資訊](and-join.md)。

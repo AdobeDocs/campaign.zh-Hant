@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 3%
 ---
 # 時間限制{#time-constraint}
 
@@ -30,4 +30,4 @@ ht-degree: 4%
 
 選取&#x200B;**[!UICONTROL Try again later if outside of execution period]**&#x200B;選項時，可讓您在執行時間範圍以外重新啟動工作。 如果您希望工作流程動作在暫停後永久放棄，請取消選取此選項。
 
-![](assets/s_user_scheduled_wait.png)
+![時間限制活動，具有開始和結束時間，如果檢查執行期間之外，則稍後再試。](assets/s_user_scheduled_wait.png)

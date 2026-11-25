@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 ---
 # 編輯結構描述{#edit-schema}
 
@@ -38,10 +38,10 @@ ht-degree: 3%
 
 此活動不會變更工作表中的資料，只會變更其結構描述，即資料的邏輯檢視。
 
-![](assets/wf_manipulation_box.png)
+![使用輸出資料行與運算式編輯結構描述活動，包括使用Avg](assets/wf_manipulation_box.png)計算的Order average資料行
 
 您也可以透過&#x200B;**[!UICONTROL Links]**&#x200B;索引標籤建立與其他工作表的聯結。
 
-![](assets/wf_manipulation_box_link_tab.png)
+使用連結定義對話方塊來編輯綱要的![連結索引標籤，顯示目標綱要和加入條件](assets/wf_manipulation_box_link_tab.png)
 
 下方可讓您設定加入條件的清單，也就是用來協調兩個表格資料的准則。

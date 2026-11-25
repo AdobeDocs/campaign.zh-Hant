@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 1%
 ---
 # 內容管理{#content-management}
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Adobe Campaign Web使用者介面可讓您將內容片段用於內容。 它可讓行銷使用者預先建立多個自訂內容區塊，這要歸功於可在一或多個訊息中參考的可重複使用元件，好讓您在改良的設計程式中快速組合訊息內容。 若要深入瞭解內容片段，請參閱[Adobe Campaign Web UI檔案。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 活動的屬性分為三個步驟：
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 * **內容更新**：工作可以修改內容的主體或匯入所有XML內容。
 * **動作**：可以儲存或產生產生的內容。
 
-  ![](assets/content_mgmt_edit.png)
+  ![包含內容、更新內容及動作以執行區段和出站轉變的內容管理活動](assets/content_mgmt_edit.png)
 
 1. **內容**
 
@@ -59,19 +59,19 @@ ht-degree: 2%
 
      此選項可讓您透過&#x200B;**[!UICONTROL Content]**&#x200B;欄位選取已建立的內容。 只有在選取&#x200B;**[!UICONTROL Explicit]**&#x200B;選項時，才會顯示此欄位。
 
-     ![](assets/content_mgmt_explicit.png)
+     已選取[明確]選項的![內容區段，且[內容]欄位設定為現有內容](assets/content_mgmt_explicit.png)
 
    * **[!UICONTROL Calculated by a script]**
 
      內容識別碼由指令碼計算。 **[!UICONTROL Script]**&#x200B;欄位可讓您定義評估內容識別碼（主索引鍵）的JavaScript範本。 只有在選取&#x200B;**[!UICONTROL Calculated by a script]**&#x200B;選項時，才會顯示此欄位。
 
-     ![](assets/content_mgmt_script.png)
+     ![已選取由指令碼計算且顯示指令碼欄位的內容區段](assets/content_mgmt_script.png)
 
    * **[!UICONTROL New, created from a publication template]**
 
      從出版物範本建立新內容。 此新內容將儲存在&#x200B;**[!UICONTROL String]**&#x200B;欄位中指定的檔案中。 **[!UICONTROL Template]**&#x200B;欄位指定要用來建立內容的發佈範本。
 
-     ![](assets/content_mgmt_new.png)
+     ![內容區段有新內容，是從選取的出版物範本及範本和管道欄位建立的](assets/content_mgmt_new.png)
 
 1. **更新內容**
 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
      此選項可讓您從透過XSL樣式表下載的XML檔案建構內容。 選取此選項時，**[!UICONTROL URL]**&#x200B;欄位會指定XML內容下載URL。 **[!UICONTROL XSL stylesheet]**&#x200B;可讓您指定要用來轉換下載的XML檔案的樣式表。 此屬性是選用的。
 
-     ![](assets/content_mgmt_xmlcontent.png)
+     ![更新內容區段並檢查是否存取XML摘要中的資料，顯示URL和XSL樣式表欄位](assets/content_mgmt_xmlcontent.png)
 
 1. **要執行的動作**
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
      此選項會儲存內容，然後為具有「檔案」型別發佈的每個轉換範本產生輸出檔案。
 
-     ![](assets/content_mgmt_generate.png)
+     ![選取[產生]且顯示[出版物]資料夾欄位時，執行區段的動作](assets/content_mgmt_generate.png)
 
      已針對每個以儲存於&#x200B;**[!UICONTROL contentId]**&#x200B;變數中的內容識別碼作為其引數以及&#x200B;**[!UICONTROL filename]**&#x200B;變數中的檔案名稱所產生的檔案啟動出站轉變。
 

@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '772'
 ht-degree: 0%
 ---
 # 使用案例：監督您的工作流程{#supervising-workflows}
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >除了工作流程之外，行銷活動&#x200B;**工作流程熱度圖**&#x200B;可讓您詳細分析目前執行的工作流程。 如需詳細資訊，請參閱[專屬區段](heatmap.md)。
 >
->如需如何&#x200B;**監視工作流程執行**&#x200B;的詳細資訊，請參閱[本節](monitor-workflow-execution.md)。
+>如需如何&#x200B;**監視工作流程執行**&#x200B;的詳細資訊，請參閱[監視工作流程執行](monitor-workflow-execution.md)。
 
 ## 步驟1：建立監控工作流程 {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 下列結構描述顯示活動的順序：
 
-![](assets/uc_monitoring_workflow_overview.png)
+![監督工作流程，其中包含由轉變連結的「開始」、「JavaScript程式碼」、「測試」、「傳遞」及「等待」活動](assets/uc_monitoring_workflow_overview.png)
 
 此工作流程由以下部分組成：
 
@@ -137,11 +137,11 @@ vars.strWorkflowStop = strStop;
 
 如果三個事件變數「vars.strWorkflowError」、「vars.strWorkflowPaused」或「vars.strWorkflowStop」中至少有一個不是void，則會傳送傳遞給主管&#x200B;**。**
 
-![](assets/uc_monitoring_workflow_test.png)
+![測試具有True條件的活動，檢查三個工作流程變數長度是否為0，以及False預設值](assets/uc_monitoring_workflow_test.png)
 
 「等待」活動可設定為定期重新啟動監視工作流程。 在此使用案例中，**等待時間設為1小時**。
 
-![](assets/uc_monitoring_workflow_attente.png)
+![持續時間欄位設為1h](assets/uc_monitoring_workflow_attente.png)的等待活動
 
 ## 步驟4：準備傳送 {#step-4--preparing-the-delivery}
 
@@ -152,7 +152,7 @@ vars.strWorkflowStop = strStop;
 * **主管的電子郵件地址**。
 * **用於插入個人化文字的HTML內容**。
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![傳遞範本的變數索引標籤，其中列出WF_Stop、WF_Error和WF_Paused為文字變數](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   宣告的三個變數(WF_Stop、WF_Paused、WF_Error)符合三個工作流程事件變數。
 
@@ -162,7 +162,7 @@ vars.strWorkflowStop = strStop;
 
   傳遞範本的內容如下：
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![傳遞範本的HTML內容含有錯誤、暫停和停止的工作流程標題和變數。WF_ tags](assets/uc_monitoring_workflow_model_diffusion.png)
 
 建立並核准範本後，您需要將&#x200B;**傳遞**&#x200B;活動設定為：
 
@@ -176,13 +176,13 @@ vars.strWorkflowStop = strStop;
 * 要執行的動作：選取&#x200B;**準備並啟動**。
 * 取消核取&#x200B;**處理錯誤**&#x200B;選項。
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![傳遞活動為新的，從範本建立，在傳遞中指定，並選取準備和開始](assets/uc_monitoring_workflow_optionmodel.png)
 
 * 前往&#x200B;**傳遞**&#x200B;活動的&#x200B;**指令碼**&#x200B;標籤，透過個人化欄位功能表新增三個&#x200B;**字元字串**&#x200B;型別變數。
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  傳遞活動的![指令碼索引標籤，其個人化功能表在傳遞上開啟且「其他」選項](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![已選取變數且值（文字）欄位反白顯示的可用欄位視窗](assets/uc_monitoring_workflow_linkvariables.png)
 
   宣告的三個變數為：
 

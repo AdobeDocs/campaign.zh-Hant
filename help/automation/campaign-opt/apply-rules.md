@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 9%
+source-wordcount: '1058'
+ht-degree: 8%
 ---
 # 套用型別規則{#applying-rules}
 
@@ -45,14 +45,14 @@ ht-degree: 9%
 
 1. 移至&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後選取要套用至此型別的規則。
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![帶有[新增]按鈕的[型別規則]索引標籤，以及[新增規則]對話方塊，其中列出要選取的型別規則](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. 儲存型別：會將其新增至現有型別的清單中。
 1. 開啟您要套用規則的傳遞。
 1. 瀏覽至傳遞屬性並開啟&#x200B;**[!UICONTROL Typology]**&#x200B;標籤。
-1. 在下拉式清單中選取型別。
+1. Select下拉式清單中的型別。
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![傳遞屬性，「型別」標籤，包含「型別」下拉式清單，列出使用者端/潛在客戶壓力](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 9%
 
 然後使用[查詢編輯器](../../v8/start/query-editor.md)來定義篩選條件。 在以下範例中，容量規則僅涉及標籤中包含「offer」字樣的傳送，或是在2013年4月1日之前建立的傳送。
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+![在標籤上有應用程式條件查詢的容量規則[一般]索引標籤包含優惠方案和建立日期](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -117,9 +117,9 @@ ht-degree: 9%
 
 ### 控制規則 {#control-rules}
 
-對於&#x200B;**[!UICONTROL Control]**&#x200B;規則，您可以決定套用規則之傳遞生命週期的哪個時間點：在鎖定目標之前或之後、在個人化開始時、在分析結束時。 在型別規則的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Phase]**&#x200B;欄位下拉式清單中，選取要套用的值。
+對於&#x200B;**[!UICONTROL Control]**&#x200B;規則，您可以決定套用規則之傳遞生命週期的哪個時間點：在鎖定目標之前或之後、在個人化開始時、在分析結束時。 在型別規則的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Phase]**&#x200B;欄位下拉式清單中，Select要套用的值。
 
-![](assets/campaign_opt_define_control_phase.png)
+![控制型別規則[一般]索引標籤，包含[階段]下拉式清單，列出四個應用程式階段](assets/campaign_opt_define_control_phase.png)
 
 可能的值包括：
 
@@ -147,7 +147,7 @@ ht-degree: 9%
 
 您可以選擇使用&#x200B;**[!UICONTROL Managing affinities with IP addresses]**&#x200B;欄位，將傳遞連結至傳遞伺服器(MTA)。 這可讓您限制特定傳遞至機器或輸出地址的電子郵件數量。
 
-![](assets/campaign_opt_select_ip_affinity.png)
+![「型別一般」索引標籤的「相關性」欄位位於「與IP位址的相關性管理」下](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -161,9 +161,9 @@ ht-degree: 9%
 
 **[!UICONTROL Distributed Marketing]**&#x200B;索引標籤可讓您定義重新對應型別和/或規則，以便在訂購和/或保留共用行銷活動時套用。 為本機實體定義的型別/規則（連結至為中央實體定義的型別/規則）會取代連結至中央實體的規則/型別。 重新對應可讓您將中央實體規則調整為適合訂購行銷活動的本地實體。
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![型別「分散式行銷」索引標籤，包含組織實體和相關聯的中央型別欄位](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >在型別與型別規則中，如果您的授權包含此選項，則會新增&#x200B;**[!UICONTROL Distributed Marketing]**&#x200B;標籤：請檢查您的授權合約。\
->如需分散式行銷的詳細資訊，請參閱[本節](../distributed-marketing/about-distributed-marketing.md)。
+>如需分散式行銷的詳細資訊，請參閱[開始使用分散式行銷](../distributed-marketing/about-distributed-marketing.md)。

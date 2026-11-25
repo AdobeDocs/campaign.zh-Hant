@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 3%
+source-wordcount: '797'
+ht-degree: 1%
 ---
 # 跨頻道傳遞工作流程{#cross-channel-delivery-workflow}
 
@@ -47,18 +47,18 @@ ht-degree: 3%
    * 傳送SMS給已開啟電子郵件但未按一下選件連結的收件者。
    * 將開啟電子郵件並按一下連結的收件者新增至資料庫。
 
-![](assets/wkf_cross-channel_7.png)
+![從Gold會員查詢及電子郵件到提醒電子郵件、簡訊及清單更新的工作流程（透過[等待及分割]）](assets/wkf_cross-channel_7.png)
 
 ## 步驟1：建立對象 {#step-1--build-the-audience}
 
 若要定義您的目標，請建立查詢以識別收件者。
 
-1. 建立行銷活動。 在[本頁](../campaigns/marketing-campaign-create.md)中瞭解更多。
+1. 建立行銷活動。 深入瞭解[建立行銷活動](../campaigns/marketing-campaign-create.md)。
 1. 在行銷活動的&#x200B;**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤中，新增&#x200B;**查詢**&#x200B;活動至您的工作流程。 有關使用此活動的詳細資訊，請參閱[本區段](query.md)。
 1. 定義將接收您傳遞的收件者。 例如，選取「金級」成員作為目標維度。
 1. 新增篩選條件至您的查詢。 在此範例中，選取擁有電子郵件地址和行動電話號碼的收件者。
 
-   ![](assets/wkf_cross-channel_3.png)
+   ![條件電子郵件不空白且行動不空白的金級成員清單篩選視窗](assets/wkf_cross-channel_3.png)
 
 1. 儲存您的變更。
 
@@ -67,21 +67,21 @@ ht-degree: 3%
 1. 建立電子郵件傳遞。
 1. 設計訊息並將包含優惠方案的連結插入內容中。
 
-   ![](assets/wkf_cross-channel_1.png)
+   ![包含優惠方案選擇選項、優惠方案空間欄位和排除不符合資格的收件者的優惠方案管理視窗](assets/wkf_cross-channel_1.png)
 
-   如需將優惠方案整合至訊息內文的詳細資訊，請參閱[此頁面](../../v8/send/email.md)。
+   如需將優惠方案整合至訊息內文的詳細資訊，請參閱[使用Adobe Campaign傳送電子郵件](../../v8/send/email.md)。
 
 1. 儲存您的變更。
 1. 用滑鼠右鍵按一下&#x200B;**[!UICONTROL Email delivery]**&#x200B;活動以開啟。
-1. 選取&#x200B;**[!UICONTROL Generate an outbound transition]**&#x200B;選項以復原母體及追蹤記錄。
+1. Select **[!UICONTROL Generate an outbound transition]**&#x200B;選項以復原母體及追蹤記錄。
 
-   ![](assets/wkf_cross-channel_2.png)
+   ![已選取產生出站轉變的電子郵件傳遞活動](assets/wkf_cross-channel_2.png)
 
    這可讓您使用此資訊，根據收件者在收到第一封電子郵件時的行為來傳送另一個傳遞。
 
 1. 新增&#x200B;**[!UICONTROL Wait]**&#x200B;活動，讓收件者有幾天的時間開啟電子郵件。
 
-   ![](assets/wkf_cross-channel_4.png)
+   ![持續時間欄位設為3d](assets/wkf_cross-channel_4.png)的等待活動
 
 ## 步驟3：將產生的對象分段 {#step-3--segment-the-resulting-audience}
 
@@ -90,32 +90,32 @@ ht-degree: 3%
 1. 將&#x200B;**分割**&#x200B;活動新增至工作流程並加以開啟。 有關使用此活動的詳細資訊，請參閱[本區段](split.md)。
 1. 從查詢上游計算的母體建立三個區段。
 
-   ![](assets/wkf_cross-channel_6.png)
+   ![使用三個子集分割活動子集索引標籤：未開啟電子郵件、已開啟但未按一下連結、已按一下](assets/wkf_cross-channel_6.png)
 
 1. 針對第一個子集，選取&#x200B;**[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;選項並按一下&#x200B;**[!UICONTROL Edit]**。
 
-   ![](assets/wkf_cross-channel_8.png)
+   ![分割子集未在傳入母體及編輯連結上新增篩選條件時開啟電子郵件](assets/wkf_cross-channel_8.png)
 
-1. 選取&#x200B;**[!UICONTROL Recipients of a delivery]**&#x200B;作為限制篩選器，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. Select **[!UICONTROL Recipients of a delivery]**&#x200B;做為限制篩選器，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/wkf_cross-channel_9.png)
+   ![目標定位與篩選維度視窗，其中包含限制篩選清單中選取之傳遞的收件者](assets/wkf_cross-channel_9.png)
 
 1. 在篩選設定中，從&#x200B;**[!UICONTROL Behavior]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Recipients who have not opened or clicked (email)]**，然後從傳遞清單中選取包含您要傳送之優惠方案的電子郵件。 按一下 **[!UICONTROL Finish]**。
 
-   ![](assets/wkf_cross-channel_10.png)
+   ![目標元素視窗的行為設定為未開啟或點按的收件者（電子郵件）和已選取的傳遞](assets/wkf_cross-channel_10.png)
 
 1. 以類似方式繼續第二個子集，並從&#x200B;**[!UICONTROL Behavior]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Recipients who have not clicked (email)]**。
 
-   ![](assets/wkf_cross-channel_11.png)
+   ![未點按（電子郵件）的收件者已開啟行為清單](assets/wkf_cross-channel_11.png)
 
 1. 對於第三個子集，在選取&#x200B;**[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;並按一下&#x200B;**[!UICONTROL Edit]**&#x200B;後，選取&#x200B;**[!UICONTROL Use a specific filtering dimension]**&#x200B;選項。
-1. 從&#x200B;**[!UICONTROL Filtering dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Recipient tracking log]**，從&#x200B;**[!UICONTROL List of restriction filters]**&#x200B;反白顯示&#x200B;**[!UICONTROL Filtering conditions]**，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 從&#x200B;**[!UICONTROL Filtering dimension]**&#x200B;下拉式清單中的Select **[!UICONTROL Recipient tracking log]**，反白標示&#x200B;**[!UICONTROL List of restriction filters]**&#x200B;中的&#x200B;**[!UICONTROL Filtering conditions]**，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/wkf_cross-channel_12.png)
+   ![使用選取且篩選維度設定為收件者追蹤記錄檔的特定篩選維度](assets/wkf_cross-channel_12.png)
 
-1. 依下列方式選取篩選條件：
+1. Select的篩選條件如下：
 
-   ![](assets/wkf_cross-channel_13.png)
+   ![篩選條件：型別等於電子郵件點選、傳遞標籤等於電子郵件（含冬季優惠），以及優惠冬季優惠](assets/wkf_cross-channel_13.png)
 
 1. 按一下&#x200B;**[!UICONTROL Finish]**&#x200B;以儲存變更。
 

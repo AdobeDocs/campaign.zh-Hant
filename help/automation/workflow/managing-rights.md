@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '329'
 ht-degree: 1%
 ---
 # 管理工作流程許可權{#managing-rights}
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 它們也必須對應至已命名的許可權，這些許可權必須與它們會影響的工作流程執行的動作（收件者匯入、檔案存取、融合、SQL指令碼執行等）一致。
 
-如需管理操作員與許可權的詳細資訊，請參閱[本節](../../v8/start/gs-permissions.md)。
+如需管理操作員與許可權的詳細資訊，請參閱[開始使用Campaign v8](../../v8/start/gs-permissions.md)中的許可權。
 
 ## 操作者群組 {#operator-groups-wf}
 

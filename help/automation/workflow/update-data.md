@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 7%
+source-wordcount: '1003'
+ht-degree: 6%
 ---
 # 更新資料{#update-data}
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 * **[!UICONTROL Update and merge collections]**：更新資料並選擇主要記錄，然後連結連結至此主要記錄中重複專案的元素。 然後，可刪除重複專案，而不建立孤立的附加元素。
 * **[!UICONTROL Delete]**：刪除資料。
 
-![](assets/s_advuser_update_data_1.png)
+![在Operation型別清單開啟時更新資料活動，顯示插入或透過Delete更新。](assets/s_advuser_update_data_1.png)
 
 **[!UICONTROL Batch size]**&#x200B;欄位可讓您選取要更新的入站轉變元素數目。 例如，如果您宣告500，則處理的前500筆記錄將會更新。
 
@@ -57,25 +57,25 @@ ht-degree: 7%
 
 * 否則，請指定一或多個連結，以便識別資料庫中的資料或直接使用調解金鑰。
 
-![](assets/s_advuser_update_data_2.png)
+![更新資料活動，記錄識別：選取收件者結構描述作為已更新的維度。](assets/s_advuser_update_data_2.png)
 
 ## 選取要更新的欄位 {#selecting-the-fields-to-be-updated}
 
 使用&#x200B;**[!UICONTROL Automatically associate fields with the same name]**&#x200B;選項，讓Adobe Campaign自動識別要更新的欄位。
 
-![](assets/s_advuser_update_data_3b.png)
+![要更新資料表的欄位，該資料表已填入自動關聯相同名稱欄位的棒狀按鈕。](assets/s_advuser_update_data_3b.png)
 
 您也可以使用&#x200B;**[!UICONTROL Insert]**&#x200B;圖示來手動選取要更新的資料庫欄位。
 
-![](assets/s_advuser_update_data_3.png)
+在新欄位上的![編輯運算式按鈕以更新列，開啟收件者檔案的欄位選擇器。](assets/s_advuser_update_data_3.png)
 
-選取要更新的所有欄位，並在必要時根據要執行的更新新增條件。 要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。 條件會逐一套用，並遵循清單中的順序。 使用右邊的箭頭來變更更新順序。
+Select會更新所有欄位，並在必要時根據要執行的更新新增條件。 要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。 條件會逐一套用，並遵循清單中的順序。 使用右邊的箭頭來變更更新順序。
 
 您可以多次使用相同的目的地欄位。
 
 在&#x200B;**[!UICONTROL Insert or update]**&#x200B;作業中，您可以個別或針對每個欄位選取要套用的行銷活動。 若要這麼做，請在&#x200B;**[!UICONTROL Operation]**&#x200B;欄中選取所需的值。
 
-![](assets/s_advuser_update_data_5.png)
+![要以[全部]、[插入]和[更新]選項更新資料表的欄位作業資料行。](assets/s_advuser_update_data_5.png)
 
 **[!UICONTROL modifiedDate]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL createdDate]**&#x200B;和&#x200B;**[!UICONTROL createdBy]**&#x200B;欄位會在資料更新期間自動更新，除非其管理模式在欄位更新表格中特別設定。
 
@@ -106,15 +106,15 @@ ht-degree: 7%
 >
 >此選項也可讓您從工作流程工作表(targetWorkflow)、傳送(targetDelivery)和清單(targetList)處理次要記錄的參考。 如有需要，這些連結會出現在您選取欄位和集合的清單中。
 
-1. 選取&#x200B;**[!UICONTROL Update and merge collections]**&#x200B;作業。
+1. Select **[!UICONTROL Update and merge collections]**&#x200B;作業。
 
-   ![](assets/update_and_merge_collections1.png)
+   ![使用在作業型別清單中選取的更新及合併集合作業型別來更新資料活動。](assets/update_and_merge_collections1.png)
 
-1. 選取連結的優先順序。 這可讓您識別主要記錄。 可用的連結會因入站轉變而異。
+1. Select連結的優先順序。 這可讓您識別主要記錄。 可用的連結會因入站轉變而異。
 
-   ![](assets/update_and_merge_collections2.png)
+   ![記錄識別區段，依優先順序列出用來尋找主要記錄的連結。](assets/update_and_merge_collections2.png)
 
-1. 選取要移至主要記錄的集合與要更新的欄位。
+1. Select要移動到主要記錄的集合和要更新的欄位。
 
    輸入一或多個次要記錄識別後套用至這些記錄的規則。 若要這麼做，您可以使用[運算式產生器](../../v8/start/filter-conditions.md#list-of-functions)。 例如，指定這是必須保留的所有不同記錄中最近更新的值。
 
@@ -126,7 +126,7 @@ ht-degree: 7%
 
 1. 選取&#x200B;**[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**，指定您要處理次要記錄的順序。
 
-   ![](assets/update_and_merge_collections3.png)
+   ![要更新的目標籤錄的欄位和集合，使用Source運算式和Knowd if columns.](assets/update_and_merge_collections3.png)
 
 如果定義的規則適用，次要記錄的資料會與主要記錄相關聯。 根據所選的更新型別，可刪除次要記錄。
 

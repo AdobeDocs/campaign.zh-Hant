@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '360'
+ht-degree: 3%
 ---
 # 協調資料更新{#coordinating-data-updates}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 目的是在執行另一個更新作業之前，檢查更新流程是否已結束。 為此，我們將設定一個執行個體變數，並讓工作流程測試執行個體是否正在執行，以決定是否繼續執行工作流程並執行更新。
 
-![](assets/uc_dataupdate_wkf.png)
+![工作流程：排程器，正在執行中？ 測試結束於結束於是，或查詢、更新資料及結束於2否](assets/uc_dataupdate_wkf.png)
 
 此工作流程由以下部分組成：
 
@@ -55,19 +55,19 @@ ht-degree: 4%
    >
    >&quot;isRunning&quot;是我們針對此範例選擇的執行個體變數名稱。 這不是內建變數。
 
-   ![](assets/uc_dataupdate_test.png)
+   ![正在執行中？ 測試活動具有Yes條件instance.vars.isRunning且預設分支標籤為No.](assets/uc_dataupdate_test.png)
 
 1. 將&#x200B;**End**&#x200B;活動新增至&#x200B;**No**&#x200B;分支。 如此一來，如果工作流程已執行，則不會執行任何動作。
 1. 將所需的活動新增至&#x200B;**是**&#x200B;分支。 在我們的案例中，**查詢**&#x200B;和&#x200B;**更新資料**&#x200B;活動。
 1. 開啟第一個活動，然後在&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中新增&#x200B;**instance.vars.isRunning = true**&#x200B;命令。 如此一來，執行個體變數就會設定為執行中。
 
-   ![](assets/uc_dataupdate_query.png)
+   ![具有初始化指令碼執行個體.vars.isRunning = true的查詢活動的進階索引標籤。](assets/uc_dataupdate_query.png)
 
 1. 在&#x200B;**[!UICONTROL Yes]**&#x200B;分叉的結尾新增&#x200B;**End**&#x200B;活動，然後在&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中新增&#x200B;**instance.vars.isRunning = false**&#x200B;命令。
 
    如此一來，只要工作流程仍在執行中，就不會執行任何動作。
 
-   ![](assets/uc_dataupdate_end.png)
+   ![具有初始化指令碼執行個體.vars.isRunning = false之End 2活動的進階索引標籤。](assets/uc_dataupdate_end.png)
 
 **相關主題：**
 

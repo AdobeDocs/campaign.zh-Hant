@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 1%
+source-wordcount: '659'
+ht-degree: 0%
 ---
 # 篩選規則{#filtering-rules}
 
@@ -44,27 +44,27 @@ ht-degree: 1%
 1. 瀏覽至Campaign匯出程式的&#x200B;**[!UICONTROL Administration > Campaign management > Typology management > Typology rules]**&#x200B;資料夾，然後按一下&#x200B;**新增**&#x200B;圖示以建立型別規則。
 1. 建立適用於所有管道的&#x200B;**[!UICONTROL Filtering]**&#x200B;型別規則。
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![新的型別規則，在[頻道]清單中選取[篩選]作為規則型別和[所有頻道]選項。](assets/campaign_opt_create_filter_01.png)
 
 1. 從&#x200B;**篩選器**&#x200B;索引標籤將預設目標維度變更為&#x200B;**訂閱** (**nms:subscription**)。
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![篩選標籤，其中訂閱(nms)結構描述已選取為目標維度。](assets/campaign_opt_create_filter_02.png)
 
 1. 使用&#x200B;**[!UICONTROL Edit the query from the targeting dimension...]**&#x200B;連結建立篩選器。
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![編輯篩選查詢對話方塊，目標型別步驟，已選取篩選條件。](assets/campaign_opt_create_filter_03.png)
 
 1. 依收件者年齡篩選並儲存篩選條件。
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![條件年齡（收件者/@age）大於18的編輯篩選查詢對話方塊。](assets/campaign_opt_create_filter_03b.png)
 
 1. 從&#x200B;**型別**&#x200B;索引標籤，將此規則連結至行銷活動型別並儲存。
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![篩選規則的[型別]索引標籤，其中已選取[新增型別]對話方塊和[新聞稿]型別。](assets/campaign_opt_create_filter_04.png)
 
 在傳送中使用此規則時，系統會自動排除未成年訂閱者。 特定訊息會指出何時套用規則：
 
-![](assets/campaign_opt_create_filter_05.png)
+![套用排除位址和排除網域規則的行上具有箭頭的傳遞分析記錄。](assets/campaign_opt_create_filter_05.png)
 
 ## 設定篩選規則的條件 {#condition-a-filtering-rule}
 
@@ -86,17 +86,17 @@ ht-degree: 1%
 
 您可以建立&#x200B;**[!UICONTROL Filtering]**&#x200B;型別：它們只包含篩選規則。
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![型別清單設為[篩選]的型別，其[規則]索引標籤列出要套用的篩選規則。](assets/campaign_opt_create_typo_filtering.png)
 
 選取目標時，這些特定型別可以連結至傳遞：在傳遞精靈中，按一下&#x200B;**[!UICONTROL To]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Exclusions]**&#x200B;索引標籤。
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![Select目標對話方塊，「排除專案」索引標籤，並在「篩選規則」底下具有「新增篩選規則」連結。](assets/campaign_opt_apply_typo_filtering.png)
 
 然後選取要套用至傳遞的篩選型別。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並選取要套用的型別。
 
 您也可以透過此索引標籤直接連結篩選規則，而不需將其分組在型別中。 要執行此操作，請使用視窗的下半部。
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![排除索引標籤，其中包含篩選型別及透過兩個[新增]按鈕新增的篩選規則。](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

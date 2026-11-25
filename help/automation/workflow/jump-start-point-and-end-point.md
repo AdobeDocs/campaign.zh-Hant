@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 15%
+source-wordcount: '153'
+ht-degree: 11%
 ---
 # 跳至 (起點和終點){#jump-start-point-and-end-point}
 
@@ -36,12 +36,12 @@ ht-degree: 15%
 
 它們會從一個活動移至另一個活動，如下列範例所示：
 
-![](assets/s_user_segmentation_jump_sample.png)
+![起始點跳躍的工作流程會取代長轉場到兩個結束點跳躍，以饋送聯合與重複資料刪除。](assets/s_user_segmentation_jump_sample.png)
 
 對於每個「起點」型別的轉接，必須定位「終點」型別的轉接。
 
 您可以在同一個工作流程中插入數個起點和終點跳躍。 它們由必須在引數中輸入的數字來識別：
 
-![](assets/s_user_segmentation_jump_in.png)
+![跳轉（起點）活動，其標籤欄位和跳轉號碼欄位設為1。](assets/s_user_segmentation_jump_in.png)
 
 若要改善圖表的可讀性，您可以變更與跳轉關聯的影像以顯示相關數字。 請參閱[變更活動影像](change-activity-images.md)。

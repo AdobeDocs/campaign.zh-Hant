@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '589'
+ht-degree: 0%
 ---
 # 變更維度{#change-dimension}
 
@@ -40,13 +40,13 @@ ht-degree: 1%
 
 若要設定&#x200B;**[!UICONTROL Change dimension]**&#x200B;活動，請套用下列步驟：
 
-1. 透過&#x200B;**[!UICONTROL Change dimension]**&#x200B;欄位選取新的目標維度。
+1. 透過&#x200B;**[!UICONTROL Change dimension]**&#x200B;欄位Select新的目標維度。
 
-   ![](assets/s_user_change_dimension_param1.png)
+   ![在欄位選擇器開啟且訂閱選取為新維度時，變更活動的維度欄位](assets/s_user_change_dimension_param1.png)
 
 1. 在尺寸變更期間，您可以保留所有元素或選取要保留在輸出中的元素。 在下列範例中，最大值為 重複專案數設為2。
 
-   ![](assets/s_user_change_dimension_limit.png)
+   ![選項在[限制]欄位設為2](assets/s_user_change_dimension_limit.png)的情況下，限制新目標檔案中選取的專案數
 
    當您選擇只保留一個記錄時，會在工作結構描述中顯示集合：此集合代表最終結果中未鎖定目標的所有記錄（因為只保留一個記錄）。 如同其他所有集合，這個集合可讓您計算彙總或復原欄中的資訊。
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 如果您選擇不保留所有這些資訊，您可以設定重複管理模式。
 
-   ![](assets/s_user_change_dimension_param2.png)
+   ![重複資料刪除對話方塊列出電子郵件和帳號欄位，其箭頭設定其優先順序](assets/s_user_change_dimension_param2.png)
 
    藍色箭頭可讓您定義重複的處理優先順序。
 
@@ -66,30 +66,30 @@ ht-degree: 1%
 
    * 按一下&#x200B;**[!UICONTROL Add data...]**&#x200B;連結並選取&#x200B;**[!UICONTROL Data linked to the filtering dimension]**。
 
-     ![](assets/wf_change-dimension_sample_01.png)
+     ![結果索引標籤新增資料連結開啟其他資料精靈，其中資料連結至選取的篩選維度](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
      >如需建立和管理其他資料行的詳細資訊，請參閱[新增資料](query.md#adding-data)。
 
-   * 選取前一個目標維度（在軸切換前），並在收件者的&#x200B;**[!UICONTROL Location]**&#x200B;子樹狀結構中選取&#x200B;**[!UICONTROL Zip Code]**，然後按一下&#x200B;**[!UICONTROL Edit expression]**。
+   * Select先前的目標維度（在軸切換之前），並在收件者的&#x200B;**[!UICONTROL Location]**&#x200B;子樹狀結構中選取&#x200B;**[!UICONTROL Zip Code]**，然後按一下「**[!UICONTROL Edit expression]**」。
 
-     ![](assets/wf_change-dimension_sample_02.png)
+     ![其他資料精靈，其中包含Location子樹狀結構中的郵遞區號，已新增為輸出資料行及編輯運算式](assets/wf_change-dimension_sample_02.png)
 
    * 按一下&#x200B;**[!UICONTROL Advanced selection]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit the formula using an expression]**。
 
-     ![](assets/wf_change-dimension_sample_03.png)
+     ![開啟公式型別的進階選取按鈕，使用選取的運算式編輯公式](assets/wf_change-dimension_sample_03.png)
 
    * 使用清單中提供的函式並指定要執行的計算。
 
-     ![](assets/wf_change-dimension_sample_04.png)
+     ![運算式編輯器，其公式從長度為2的字元1的郵遞區號子字串和函式清單](assets/wf_change-dimension_sample_04.png)
 
    * 最後，輸入您剛建立之欄的標籤。
 
-     ![](assets/wf_change-dimension_sample_05.png)
+     ![含有標籤County和運算式Substring(zip/Postcode， 1， 2)的輸出資料行](assets/wf_change-dimension_sample_05.png)
 
 1. 執行工作流程以檢視此設定的結果。 比較變更維度活動前後表格中的資料，並比較工作流程表格的結構，如下列範例所示：
 
-   ![](assets/wf_change-dimension_sample_06.png)
+   ![在變更維度之前顯示轉換上的目標選項，其資料和結構描述位於檢視母體中](assets/wf_change-dimension_sample_06.png)
 
-   ![](assets/wf_change-dimension_sample_07.png)
+   ![在變更維度之後顯示目標選項，顯示包含County資料行與新結構描述的資料](assets/wf_change-dimension_sample_07.png)

@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 14%
+source-wordcount: '1332'
+ht-degree: 11%
 ---
 # 重複資料刪除{#deduplication}
 
@@ -66,7 +66,7 @@ ht-degree: 14%
 * 建立&#x200B;**聯集**&#x200B;活動以統一每個傳入流量。
 * 在&#x200B;**聯合**&#x200B;活動後建立&#x200B;**重複資料刪除**&#x200B;活動。
 
-![](assets/dedup-best-practice.png)
+![兩個以聯集聯結的查詢，後面接著重複資料刪除活動和清單更新](assets/dedup-best-practice.png)
 
 ## 設定 {#configuration}
 
@@ -74,9 +74,9 @@ ht-degree: 14%
 
 1. 按一下&#x200B;**[!UICONTROL Edit configuration...]**&#x200B;連結以定義重複資料刪除模式。
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![重複資料刪除活動視窗，其中包含重複資料刪除引數中的編輯設定連結](assets/s_user_segmentation_dedup_param.png)
 
-1. 選取此活動的目標型別（預設情況下，重複資料刪除會連結至收件者）以及要使用的條件，即允許您識別重複專案的相同值欄位。
+1. Select此活動的目標型別（依預設，重複資料刪除會連結至收件者）以及要使用的條件，也就是可讓您識別重複專案的相同值欄位。
 
    >[!NOTE]
    >
@@ -84,30 +84,30 @@ ht-degree: 14%
    >
    >在下一步中，**[!UICONTROL Other]**&#x200B;選項可讓您選取要使用的條件或條件：
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![使用電子郵件、簡訊、電話、傳真、郵寄地址和其他選項的目標維度步驟](assets/s_user_segmentation_dedup_param2.png)
 
 1. 在下一步中，**[!UICONTROL Other]**&#x200B;選項可讓您選取在值相同的情況下要使用的准則或准則。
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![識別使用Select的重複步驟，並選取運算式視窗和出生日期欄位](assets/s_user_segmentation_dedup_param3.png)
 
 1. 從下拉式清單中，選取要使用的重複資料刪除方法，然後輸入要保留的重複專案數。
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![重複資料刪除方法步驟，要保留雙倍，而且方法清單顯示四個方法](assets/s_user_segmentation_dedup_param4.png)
 
    可以使用下列方法：
 
    * **[!UICONTROL Choose for me]**：隨機選取要保留在重複項目外的記錄。
    * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。 若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。 若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
 
-     ![](assets/s_user_segmentation_dedup_param5.png)
+     ![在優先順序清單和其他值選項中依循含有英文和法文的值清單方法](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**：您可以保留所選運算式的值不為空白的記錄作為優先順序。
 
-     ![](assets/s_user_segmentation_dedup_param6.png)
+     ![非空白值方法，正在選取[運算式]欄位和[帳號]欄位](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**：可讓您保留具有指定運算式之最低（或最高）值的記錄。
 
-     ![](assets/s_user_segmentation_dedup_param7.png)
+     ![使用具有Status的運算式方法做為運算式，並保留選取最大值的記錄](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ ht-degree: 14%
 
    在活動編輯器視窗的下半部，您可以修改圖形物件出站轉變的標籤，並輸入與活動結果相關聯的區段代碼。 此程式碼稍後可當作鎖定目標條件使用。
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![已勾選結果標籤Target、區段代碼PRO及Generate補充的重複資料刪除活動](assets/s_user_segmentation_dedup_param8.png)
 
 1. 如果要利用剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 補充包含所有重複專案。 隨後會將其他轉變新增至活動，如下所示：
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![傳送重複資料刪除的三個設定檔查詢，重複和目標輸出已傳送至兩個清單更新活動](assets/s_user_segmentation_dedup_param9.png)
 
 ## 範例：在傳遞之前識別重複專案 {#example--identify-the-duplicates-before-a-delivery}
 
@@ -133,7 +133,7 @@ ht-degree: 14%
 
 已識別的重複專案也會整合到專用的重複專案清單中，以便視需要重複使用。
 
-![](assets/deduplication_example.png)
+![具有三個設定檔查詢、重複資料刪除、傳遞和補充轉換清單更新的聯合工作流程](assets/deduplication_example.png)
 
 1. 新增並連結工作流程運作所需的各種活動，如上所示。
 
@@ -141,13 +141,13 @@ ht-degree: 14%
 
 1. 開啟重複資料刪除活動，然後按一下&#x200B;**[!UICONTROL Edit configuration...]**&#x200B;連結以定義重複資料刪除模式。
 1. 在新視窗中，選取&#x200B;**[!UICONTROL Database schema]**。
-1. 選取&#x200B;**收件者**&#x200B;作為定位和篩選維度。
-1. 選取&#x200B;**[!UICONTROL Email]**&#x200B;重複專案的ID欄位，只將傳遞傳送給每個電子郵件地址一次，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. Select **收件者**&#x200B;作為定位和篩選維度。
+1. Select **[!UICONTROL Email]**&#x200B;重複專案的ID欄位，只將傳遞傳送給每個電子郵件地址一次，然後按一下&#x200B;**[!UICONTROL Next]**。
 
    如果您希望複製ID以特定欄位為基礎，請選取&#x200B;**[!UICONTROL Other]**&#x200B;以存取可用欄位清單。
 
 1. 選擇時，在識別多個收件者的相同電子郵件地址時，只保留一個專案。
-1. 選取&#x200B;**[!UICONTROL Choose for me]**&#x200B;重複資料刪除模式，以便隨機選擇在已識別重複專案情況下儲存的記錄，然後按一下&#x200B;**[!UICONTROL Finish]**。
+1. Select **[!UICONTROL Choose for me]**&#x200B;重複資料刪除模式，以便隨機選擇在已識別重複專案情況下儲存的記錄，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
 執行工作流程時，會從結果（以及傳遞）中排除所有識別為重複的收件者，並將其新增至重複專案清單。 此清單可再次使用，而不需要重新識別重複專案。
 
@@ -157,23 +157,23 @@ ht-degree: 14%
 
 例如，如果有一組重複記錄，您可以選擇保留最舊的電話號碼或最新的名稱。
 
-在[此區段](deduplication-merge.md)中提供了運用此功能的使用案例。
+在[使用重複資料刪除活動的合併功能](deduplication-merge.md)中，可以使用這個功能的使用案例。
 
 要執行此操作，請依照下列步驟執行：
 
 1. 在&#x200B;**[!UICONTROL Deduplication method]**&#x200B;選取步驟中，按一下&#x200B;**[!UICONTROL Advanced Parameters]**&#x200B;連結。
 
-   ![](assets/dedup1.png)
+   ![以進階引數連結反白的重複資料刪除方法步驟](assets/dedup1.png)
 
-1. 選取&#x200B;**[!UICONTROL Merge records]**&#x200B;選項以啟動功能。
+1. 使用Select的&#x200B;**[!UICONTROL Merge records]**&#x200B;選項來啟動功能。
 
    若要在每個合併條件中將多個資料欄位分組，請啟動&#x200B;**[!UICONTROL Use several record merging criteria]**&#x200B;選項。
 
-   ![](assets/dedup2.png)
+   ![已勾選「合併記錄與使用數個記錄合併條件」選項的進階引數](assets/dedup2.png)
 
 1. 啟動功能後，**[!UICONTROL Merge]**&#x200B;索引標籤會新增至&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動。 它可讓您定義要合併的欄位群組及其相關規則。
 
-   如需詳細資訊，請參閱[本節](deduplication-merge.md)中提供的專用使用案例。
+   如需詳細資訊，請參閱[使用重複資料刪除活動的合併功能](deduplication-merge.md)中提供的專用使用案例。
 
 ## 輸入引數 {#input-parameters}
 

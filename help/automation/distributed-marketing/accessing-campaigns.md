@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '187'
 ht-degree: 1%
 ---
 # 存取行銷活動{#accessing-campaigns}
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 它會新增至相符訂單的詳細資訊，而且可以編輯。 完整的儀表板可讓您在本機層級進行管理。
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+![促銷活動套件清單，其控制面板上已開啟本機促銷活動，顯示傳遞並新增傳遞連結](assets/mkg_dist_local_op_edit_new_op1.png)
 
 促銷活動仍可透過首頁上的&#x200B;**[!UICONTROL Campaigns]**&#x200B;連結存取（在促銷活動概覽中）。
 

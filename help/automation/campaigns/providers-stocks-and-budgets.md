@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '2173'
 ht-degree: 1%
 ---
 # 供應商、庫存和預算{#providers-stocks-and-budgets}
@@ -66,7 +66,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 1. 按一下服務提供者清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 1. 在視窗的下半部分，指定服務提供者的名稱和聯絡詳細資訊。
 
-   ![](assets/add-a-supplier.png)
+   總管中的![服務提供者清單，以及具有[標籤]、[內部名稱]和[註解]欄位的新服務提供者表單](assets/add-a-supplier.png)
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕，將服務提供者新增至清單。
 
@@ -80,11 +80,11 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 1. 在服務提供者的&#x200B;**[!UICONTROL Services]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕並輸入服務範本的名稱。
 
-   ![](assets/supplier-new-template.png)
+   新服務範本的![服務對話方塊，[一般]索引標籤，包含[標籤]、[內部名稱]和[註解]欄位](assets/supplier-new-template.png)
 
 1. 針對每種處理型別（透過直接郵件/電子郵件/等或任務傳遞），建立成本類別。 若要這麼做，請按一下「**[!UICONTROL Cost categories]**」標籤，然後按「**[!UICONTROL Add]**」按鈕，然後輸入每個成本類別的引數。
 
-   ![](assets/add-cost-categories.png)
+   ![包含[新增]按鈕的成本類別索引標籤，以及直接郵件類別及其成本型別的[成本]類別對話方塊](assets/add-cost-categories.png)
 
    * 輸入此成本類別的標籤，並選取相關處理程式的型別： **[!UICONTROL Direct mail]**、**[!UICONTROL Email]**、**[!UICONTROL Mobile]**&#x200B;等。
    * 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以定義與此類別關聯的成本型別。
@@ -96,7 +96,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 1. 您可以預先選取此成本類別的值，這是服務提供者成本類別的預設值（而非空白值）。 若要這麼做，請針對相關類別型別啟用&#x200B;**[!UICONTROL Selected]**&#x200B;欄中的&#x200B;**是**&#x200B;選項：
 
-   ![](assets/default-cost-type.png)
+   ![成本類別對話方塊，針對信函成本型別](assets/default-cost-type.png)，在[已選取]欄中啟用[是]選項
 
    在傳遞層級，預設會選取值。
 
@@ -106,7 +106,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 按一下&#x200B;**[!UICONTROL Cost structure]**&#x200B;標籤，為每個成本類別和型別設定成本計算。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;並輸入成本結構。
 
-![](assets/add-cost-structure.png)
+![包含[新增]按鈕的成本結構索引標籤，以及[成本結構定義]對話方塊： channel、cost category、calculation](assets/add-cost-structure.png)
 
 * 若要建立成本結構，請從下拉式清單中選取訊息型別與相關的成本分類，以及計算規則將套用的成本型別。 這些下拉式清單的內容來自透過&#x200B;**[!UICONTROL Cost categories]**&#x200B;索引標籤輸入的資訊。
 
@@ -126,7 +126,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 如果此金額適用於批次訊息，請在&#x200B;**[!UICONTROL for]**&#x200B;欄位中指定相關的訊息數目。
 
-![](assets/supplier_cost_structure_calc.png)
+![成本結構對話方塊，已選取「每則訊息」和「線性」，5個單位的金額為4.00](assets/supplier_cost_structure_calc.png)
 
 
 #### 線性結構（依臨界值） {#linear-structure-by-threshold}
@@ -135,7 +135,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 設定如下：
 
-![](assets/supplier-cost-structure-linear.png)
+![成本結構對話方塊，其中包含「線性依臨界值型別」、含有金額的臨界值清單以及「超出」值](assets/supplier-cost-structure-linear.png)
 
 若要新增臨界值，請按一下清單右側的&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
 
@@ -143,17 +143,17 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 最後，您可以根據訊息總數來設定成本計算。 若要這麼做，請選取&#x200B;**[!UICONTROL Constant by threshold]**&#x200B;計算結構。 例如，1到100則訊息的成本將設定為固定數量12.00,101到1000則訊息的成本將設定為100.00，超過1000則訊息的任何傳送的成本將設定為500.00，無論總數為何。
 
-![](assets/supplier-cost-structure-constant.png)
+![成本結構對話方塊，其中包含「常數」（依臨界值型別）、具有固定金額的臨界值清單，以及「超出」值](assets/supplier-cost-structure-constant.png)
 
 ### 設定與服務相關聯的工作 {#configure-processes-associated-with-a-service}
 
 您可以透過&#x200B;**[!UICONTROL Jobs]**&#x200B;索引標籤，關聯與服務提供者關聯的程式資訊。 本節可讓您設定傳送資訊給路由器的設定。
 
-![](assets/cost-supplier-jobs.png)
+![服務的[工作]索引標籤，顯示檔案擷取、通知電子郵件及後續處理工作流程範本設定](assets/cost-supplier-jobs.png)
 
 * **[!UICONTROL File extraction]**&#x200B;區段會指出選取此服務時用於傳遞的匯出範本。 您可以在&#x200B;**[!UICONTROL Extraction file]**&#x200B;欄位中指出輸出檔案的名稱。 欄位右側的按鈕可讓您插入變數。
 
-* **[!UICONTROL Notification email]**&#x200B;區段可讓您指定在傳送檔案後通知服務提供者的範本。 選取用來建立警示訊息和收件者群組的範本。
+* **[!UICONTROL Notification email]**&#x200B;區段可讓您指定在傳送檔案後通知服務提供者的範本。 Select用來建立警報訊息和收件者群組的範本。
 
   依預設，通知訊息的傳遞範本儲存在&#x200B;**[!UICONTROL Administration > Campaign management > Technical delivery templates]**&#x200B;資料夾中，此資料夾可從一般檢視存取。
 
@@ -171,18 +171,18 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 * 如果是直接郵件傳送，您可以從設定視窗中選取服務。
 
-  ![](assets/supplier-mail-delivery-select.png)
+  ![直接郵件傳遞，並反白顯示[服務提供者]區段：[服務]欄位和[成本]類別清單](assets/supplier-mail-delivery-select.png)
 
 * 針對行動裝置頻道上的傳遞，會套用相同的選取模式。
 * 針對電子郵件傳遞，服務是從傳遞屬性的&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中選取，如下列範例所示：
 
-  ![](assets/supplier-email-delivery-select.png)
+  ![傳遞屬性，[進階]索引標籤，[服務提供者]區段顯示[服務]欄位和[成本]類別清單](assets/supplier-email-delivery-select.png)
 
 **[!UICONTROL Amount to surcharge]**&#x200B;欄可讓您在相關傳遞或任務的內容中，為此類別新增成本。
 
 在定義交貨的成本類別時，您可以定義成本型態的必要選擇。 若要這麼做，請選取&#x200B;**[!UICONTROL A cost type must be selected]**。
 
-![](assets/cost-type-must-be-selected.png)
+![成本類別對話方塊，在成本型別清單上方，勾選「必須選取A成本型別」選項](assets/cost-type-must-be-selected.png)
 
 ## 庫存與訂單管理 {#stock-and-order-management}
 
@@ -202,7 +202,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 如果庫存耗盡或達到最小臨界值，Adobe Campaign可以提醒一組操作員。 可透過導覽區域的&#x200B;**[!UICONTROL Other choices]**&#x200B;連結，透過&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤的&#x200B;**[!UICONTROL Stocks]**&#x200B;連結存取庫存量。
 
-![](assets/stock-dashboard.png)
+![Adobe Campaign首頁，「行銷活動」標籤，其中的「庫存」清單顯示可用的庫存](assets/stock-dashboard.png)
 
 #### 建立庫存 {#creating-a-stock}
 
@@ -217,17 +217,17 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 建立坯件時，按一下「**[!UICONTROL Stock lines]**」標籤以新增線。
 
-![](assets/stock-new-lines.png)
+![Stock編輯畫面， Stock行標籤，列出具有Initial stock、Consumed、In stock和Alert層級欄位的庫存行](assets/stock-new-lines.png)
 
 建立坯件後，請使用其圖示板來建立及監控坯件線。
 
 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕以新增庫存行。
 
-![](assets/add-stock-lines.png)
+![在庫存明細行清單上方具有「建立」按鈕的庫存儀表板，顯示初始、消耗及庫存數量](assets/add-stock-lines.png)
 
 * 在&#x200B;**[!UICONTROL Initial stock]**&#x200B;欄位中指出最初庫存的數量。 **[!UICONTROL Consumed]**&#x200B;和&#x200B;**[!UICONTROL In stock]**&#x200B;欄位會自動計算並隨著行銷活動進度更新。
 
-  ![](assets/create-new-stock-line.png)
+  ![庫存明細對話方塊，「一般」標籤，包含「初始庫存」、「已沖銷」及「庫存量」數量，以及「警示」層級欄位](assets/create-new-stock-line.png)
 
 * 在&#x200B;**[!UICONTROL Alert level]**&#x200B;欄位中指出操作員應收到警示以訂購庫存的臨界值。 達到警示等級時，使用此存貨的交貨之核准視窗中會顯示警告訊息。
 
@@ -235,7 +235,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 對於指定的服務提供者，在服務中，存貨明細行可由其中一個成本類別參考，如下所示：
 
-![](assets/select-stock-line-supplier.png)
+![成本類別對話方塊，其存貨行是從成本型別的存貨行下拉式清單中選取的](assets/select-stock-line-supplier.png)
 
 ### 庫存追蹤 {#stock-tracking}
 
@@ -243,7 +243,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 當傳遞中參考的庫存不足時，會顯示警報。 例如，在核准摘取檔案時，會顯示下列警報：
 
-![](assets/stock-alert.png)
+![傳遞對話方塊上的動作，在檔案核准前顯示庫存警示不足，且有[接受]和[拒絕]選項](assets/stock-alert.png)
 
 #### 訂單 {#orders}
 
@@ -251,7 +251,7 @@ Adobe Campaign可讓您定義服務提供者，讓他們參與促銷活動內所
 
 若要儲存訂單，請編輯目標存貨明細行，按一下「**[!UICONTROL Add]**」按鈕，並指定交貨日期與訂購數量。
 
-![](assets/order-stocks.png)
+![具有[新增]按鈕的[庫存行訂單]索引標籤，以及具有[交貨日期]和[訂單欄位]的[庫存訂單]對話方塊](assets/order-stocks.png)
 
 >[!NOTE]
 >

@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '388'
+ht-degree: 8%
 ---
 # 持續傳遞{#continuous-delivery}
 
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 **持續傳遞**&#x200B;型別動作可讓您將新收件者新增至現有傳遞。 此傳送型別可避免您每次都必須建立新傳送：此模式通常更有效率，尤其是當需要時會傳送少量警報或通知。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#continuous-delivery-video)
+![視訊播放圖示](assets/do-not-localize/how-to-video.png) [在視訊中探索此功能](#continuous-delivery-video)
 
 在傳遞範本層級，您可以指定指令碼以計算相關傳遞的標籤（和行銷活動資料夾）。 如果指令碼計算尚未存在的傳遞，則會即時建立傳遞。
 
-![](assets/edit_diffusion_fil.png)
+![包含[範本]欄位和[收件者]選項的持續傳遞活動，加上[處理錯誤]核取方塊](assets/edit_diffusion_fil.png)
 
 **[!UICONTROL Process errors]**&#x200B;選項會顯示特定轉變，如果產生錯誤，將會啟用該轉變。 在此情況下，工作流程不會進入錯誤模式並繼續執行。
 
@@ -81,4 +81,4 @@ ht-degree: 10%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=zh-Hant){target="_blank"}提供其他Campaign操作說明影片。
+[此處](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}提供其他Campaign操作說明影片。

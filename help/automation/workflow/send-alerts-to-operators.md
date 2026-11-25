@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '467'
 ht-degree: 2%
 ---
 # 傳送個人化警示給營運商{#sending-personalized-alerts-to-operators}
@@ -37,7 +37,7 @@ ht-degree: 2%
 1. 使用&#x200B;**[!UICONTROL Test]**&#x200B;活動檢查母體計數。
 1. 根據&#x200B;**[!UICONTROL Test]**&#x200B;活動結果，使用&#x200B;**[!UICONTROL Alert]**&#x200B;活動傳送警示給運運算元。
 
-![](assets/uc_operator_1.png)
+![具有查詢、JavaScript程式碼和測試活動的工作流程；True分支會導向到Alert活動，False到End 2。](assets/uc_operator_1.png)
 
 ## 將母體儲存至執行個體變數 {#saving-the-population-to-the-instance-variable}
 
@@ -60,21 +60,21 @@ var query = xtk.queryDef.create(
 * **[!UICONTROL queryDef schema]**&#x200B;標籤應該對應到查詢活動中使用的目標維度名稱。
 * **[!UICONTROL node expr]**&#x200B;標籤應該對應至您要擷取的欄位名稱。
 
-![](assets/uc_operator_3.png)
+![包含queryDef結構描述temp:query以及醒目提示目標firstName和lastName節點的JavaScript程式碼指令碼。](assets/uc_operator_3.png)
 
 若要擷取這些資訊，請遵循下列步驟：
 
 1. 以滑鼠右鍵按一下&#x200B;**[!UICONTROL Query]**&#x200B;活動的出站轉變，然後選取&#x200B;**[!UICONTROL Display the target]**。
 
-   ![](assets/uc_operator_4.png)
+   ![在查詢活動的出站轉變上按一下滑鼠右鍵功能表，並選取顯示目標。](assets/uc_operator_4.png)
 
 1. 在清單上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Configure list]**。
 
-   ![](assets/uc_operator_5.png)
+   ![目標清單的記錄，且右鍵功能表已開啟且已選取[設定]清單。](assets/uc_operator_5.png)
 
 1. 查詢目標維度和欄位名稱會顯示在清單中。
 
-   ![](assets/uc_operator_6.png)
+   ![設定清單資料行索引標籤，顯示反白顯示的查詢temp:query根專案及其目標維度欄位。](assets/uc_operator_6.png)
 
 ## 測試母體計數 {#testing-the-population-count}
 
@@ -84,7 +84,7 @@ var query = xtk.queryDef.create(
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![使用條件vars.recCount>0和預設False分支，以True條件分叉測試活動。](assets/uc_operator_7.png)
 
 ## 設定警報 {#setting-up-the-alert}
 
@@ -108,4 +108,4 @@ for each (var item in items){
 >**[!UICONTROL <%= item.target.recipient.@fieldName %>]**&#x200B;命令可讓您新增已透過&#x200B;**[!UICONTROL JavaScript code]**&#x200B;活動儲存至執行個體變數的其中一個欄位。\
 >只要欄位已插入JavaScript程式碼中，您就可以新增所需數量的欄位。
 
-![](assets/uc_operator_8.png)
+![已將警示活動指派給運運算元，訊息會循環播放已儲存的專案，以列出名字和姓氏。](assets/uc_operator_8.png)

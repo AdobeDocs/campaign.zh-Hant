@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1377'
 ht-degree: 2%
 ---
 # JavaScript 指令碼和範本{#javascript-scripts-and-templates}
@@ -39,7 +39,7 @@ ht-degree: 2%
 * 「測試」活動會評估JavaScript運算式，以啟動適當的轉變。
 * 大部分的文字欄位都是JavaScript範本：JavaScript運算式可包含在&lt;%=和%>之間。 這些欄位提供可開啟下拉式清單的按鈕，以幫助您輸入運算式。
 
-  ![](assets/script-button.png)
+  ![文字欄位右側具有下拉箭頭的按鈕，其中列出運算式可用的屬性。](assets/script-button.png)
 
 ## 物件已公開 {#objects-exposed}
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 在此範例和下列範例中，建立包含&#x200B;**JavaScript code**&#x200B;活動和&#x200B;**End**&#x200B;活動的工作流程，如下圖所示。
 
-![](assets/script-1.png)
+![具有JavaScript程式碼活動的工作流程，透過「確定」轉變連線至「結束」活動。](assets/script-1.png)
 
 連按兩下&#x200B;**JavaScript程式碼**&#x200B;活動並插入下列指令碼：
 
@@ -104,7 +104,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->[此區段](workflow-use-cases.md)中有其他工作流程使用案例。
+>[工作流程使用案例](workflow-use-cases.md)中有其他工作流程使用案例。
 
 **範例1**
 
@@ -116,7 +116,7 @@ logInfo("Start date: " + task.creationDate)
 
    例如： `instance.vars.segmentpercent = 10;`
 
-   ![](assets/js_ex1.png)
+   ![在Script欄位中輸入指令碼instance.vars.segmentpercent = 10的JavaScript程式碼活動。](assets/js_ex1.png)
 
 1. 新增「查詢」活動，並根據您的需求鎖定收件者。
 
@@ -124,7 +124,7 @@ logInfo("Start date: " + task.creationDate)
 
    此百分比會根據先前定義的例項變數，以動態方式更新。
 
-   ![](assets/js_ex2.png)
+   ![分割活動子集索引標籤，其中限制已啟用選取的記錄，且隨機抽樣限製為50 %。](assets/js_ex2.png)
 
 1. 在分割活動之進階索引標籤的初始化指令碼區段中，定義JS條件。 JS條件會選取從「分割」活動出來的第一個轉變的隨機取樣百分比，並將其更新為先前建立的執行個體變數所設定的值。
 
@@ -132,13 +132,13 @@ logInfo("Start date: " + task.creationDate)
    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
    ```
 
-   ![](assets/js_ex3.png)
+   ![將具有初始化指令碼設定限制器的活動進階索引標籤分割為instance.vars.segmentpercent.](assets/js_ex3.png)
 
 1. 請確定補充是在分割活動的獨立轉變中產生，並在每個出站轉變後新增「結束」活動。
 
 1. 儲存並執行工作流程。 動態抽樣會根據執行個體變數套用。
 
-   ![](assets/js_ex4.png)
+   ![具有JavaScript程式碼、查詢和分割的工作流程，具有「第一組」和「補充」轉換到「兩端」活動。](assets/js_ex4.png)
 
 **範例2**
 
@@ -180,7 +180,7 @@ logInfo("Start date: " + task.creationDate)
 
 1. 透過&#x200B;**[!UICONTROL JavaScript code]**&#x200B;建立定義傳遞內部名稱的執行個體變數： **instance.vars.deliveryIN = &quot;DM42&quot;**。
 
-   ![](assets/wkf_js_activity_1.png)
+   ![在指令碼欄位中使用指令碼instance.vars.deliveryIN = &#39;DM42&#39;的JavaScript程式碼活動。](assets/wkf_js_activity_1.png)
 
 1. 建立其定位和篩選維度為收件者的查詢。 在條件中，指定您希望尋找透過變數指定之傳遞傳送的所有收件者。
 
@@ -190,7 +190,7 @@ logInfo("Start date: " + task.creationDate)
 
    工作流程將傳回DM42傳遞的收件者。
 
-   ![](assets/wkf_var_in_query.png)
+   ![在傳遞內部名稱等於執行個體/vars/deliveryIN值的收件者傳遞記錄上查詢篩選器。](assets/wkf_var_in_query.png)
 
 ## 進階功能 {#advanced-functions}
 

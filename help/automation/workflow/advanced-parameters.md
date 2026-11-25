@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 4%
 ---
 # 進階參數{#advanced-parameters}
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 * 簡化版本（針對執行個體的&#x200B;**[!UICONTROL Start]**&#x200B;和&#x200B;**[!UICONTROL End]**&#x200B;活動）
 
-  ![](assets/wf-advanced-basic.png)
+  ![開始活動的簡化進階索引標籤，包含名稱、影像、初始化指令碼和註解欄位。](assets/wf-advanced-basic.png)
 
 * 更詳細的版本（例如&#x200B;**[!UICONTROL Query]**&#x200B;活動的）
 
-  ![](assets/wf-advanced-full.png)
+  ![查詢活動的詳細進階索引標籤，包含執行、相似性、行為、時區和錯誤管理欄位。](assets/wf-advanced-full.png)
 
 將在&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中輸入的欄位在以下各節中詳細說明。
 

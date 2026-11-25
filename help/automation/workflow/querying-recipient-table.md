@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '528'
+ht-degree: 2%
 ---
 # 查詢收件者表格 {#querying-recipient-table}
 
@@ -55,18 +55,18 @@ ht-degree: 3%
 1. 按一下&#x200B;**[!UICONTROL Tools > Generic query editor...]**&#x200B;並選擇&#x200B;**收件者** (**nms:recipient**)資料表。 然後按一下 **[!UICONTROL Next]**。
 1. 選擇： **[!UICONTROL Last name]**、**[!UICONTROL First name]**、**[!UICONTROL Email]**、**[!UICONTROL City]**&#x200B;和&#x200B;**[!UICONTROL Account number]**。 這些欄位已新增至&#x200B;**[!UICONTROL Output columns]**。 然後按一下 **[!UICONTROL Next]**。
 
-   ![](assets/query_editor_03.png)
+   ![使用輸出資料行中的[電子郵件]、[姓氏]、[名字]、[城市]和[帳戶]欄位，擷取步驟的資料](assets/query_editor_03.png)
 
 1. 排序欄，以使用正確的順序顯示。 在此處，我們要以遞減順序排序帳號，並以字母順序排序名稱。 然後按一下 **[!UICONTROL Next]**。
 
-   ![](assets/query_editor_04.png)
+   ![以遞減順序排序帳號#的排序步驟，以遞增順序排序姓氏](assets/query_editor_04.png)
 
 1. 在&#x200B;**[!UICONTROL Data filtering]**&#x200B;視窗中，調整您的搜尋：選擇&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**。
 1. **[!UICONTROL Target element]**&#x200B;視窗可讓您輸入篩選設定。
 
    定義下列篩選條件：電子郵件網域等於「orange.co.uk」的收件者。 若要這麼做，請在&#x200B;**[!UICONTROL Expression]**&#x200B;欄中選擇&#x200B;**電子郵件網域(@email)**，在&#x200B;**[!UICONTROL Operator]**&#x200B;欄中選擇&#x200B;**等於**，並在&#x200B;**[!UICONTROL Value]**&#x200B;欄中輸入&quot;orange.co.uk&quot;。
 
-   ![](assets/query_editor_05.png)
+   ![篩選電子郵件網域(@domain)等於orange.co.uk且查詢摘要為](assets/query_editor_05.png)的目標元素步驟
 
 1. 如有需要，請按一下&#x200B;**[!UICONTROL Distribution of values]**&#x200B;按鈕，以根據潛在客戶的電子郵件網域檢視分送。 資料庫中每個電子郵件網域都有百分比可用。 「orange.co.uk」以外的網域會一直顯示，直到套用篩選器為止。
 
@@ -74,19 +74,19 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以瞭解查詢結果：只顯示「orange.co.uk」電子郵件網域。
 
-   ![](assets/query_editor_nveau_17.png)
+   ![目標元素預覽索引標籤僅列出具有orange.co.uk電子郵件地址的收件者](assets/query_editor_nveau_17.png)
 
 1. 我們現在將變更查詢，以尋找不在倫敦的聯絡人。
 
-   在&#x200B;**[!UICONTROL Expression]**&#x200B;欄中選取&#x200B;**[!UICONTROL City (location/@city)]**，**[!UICONTROL different from]**&#x200B;作為運運算元，並在&#x200B;**[!UICONTROL Value]**&#x200B;欄中輸入&#x200B;**[!UICONTROL London]**。
+   **[!UICONTROL Expression]**&#x200B;欄中的Select **[!UICONTROL City (location/@city)]**，**[!UICONTROL different from]**&#x200B;作為運運算元，並在&#x200B;**[!UICONTROL Value]**&#x200B;欄中輸入&#x200B;**[!UICONTROL London]**。
 
-   ![](assets/query_editor_08.png)
+   ![條件為City (location/@city)不等於London的目標元素步驟已新增至篩選器](assets/query_editor_08.png)
 
 1. 這會將您帶往&#x200B;**[!UICONTROL Data formatting]**&#x200B;視窗。 檢查欄順序。 將「城市」欄向上移動到「帳號」欄下方。
 
    取消勾選「名字」欄，將其從清單中移除。
 
-   ![](assets/query_editor_nveau_15.png)
+   ![資料格式化步驟，欄順序和名字欄未勾選](assets/query_editor_nveau_15.png)
 
 1. 在&#x200B;**[!UICONTROL Data preview]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL Start the preview of the data]**。 此函式計算查詢的結果。
 
@@ -94,12 +94,12 @@ ht-degree: 3%
 
    該結果會顯示所有含有「orange.co.uk」電子郵件網域的收件者，他們並非住在倫敦。 「名字」欄未顯示，因為在上一個階段中它未被核取。 帳號會依遞減順序排序。
 
-   ![](assets/query_editor_nveau_12.png)
+   ![資料預覽，其中的[欄結果]索引標籤顯示查詢結果的帳號、城市、電子郵件和姓氏](assets/query_editor_nveau_12.png)
 
    **[!UICONTROL XML result]**&#x200B;索引標籤以XML格式顯示結果。
 
-   ![](assets/query_editor_nveau_13.png)
+   ![使用XML結果索引標籤將查詢結果顯示為收件者XML元素的資料預覽](assets/query_editor_nveau_13.png)
 
    **[!UICONTROL Generated SQL queries]**&#x200B;索引標籤以SQL格式顯示查詢結果。
 
-   ![](assets/query_editor_nveau_14.png)
+   ![資料預覽，其中產生的SQL查詢索引標籤顯示查詢的SELECT陳述式](assets/query_editor_nveau_14.png)

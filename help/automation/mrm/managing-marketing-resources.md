@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1339'
 ht-degree: 1%
 ---
 # 管理行銷資源{#managing-marketing-resources}
@@ -43,9 +43,9 @@ ht-degree: 1%
 1. 瀏覽至&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL Marketing resouces]**。
 
 1. 按一下 **[!UICONTROL Create]** 按鈕。
-   ![](assets/add-a-mkt-resource.png)
-1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**&#x200B;連結。
-   ![](assets/mkt-resource-creation.png)
+   ![行銷資源清單位於[行銷活動]索引標籤中，並反白顯示[建立]按鈕。](assets/add-a-mkt-resource.png)
+1. 在「行銷資源」視窗中拖放檔案，將其上傳至Campaign伺服器。 您也可以使用&#x200B;**[!UICONTROL Upload file to server...]**連結。
+   ![行銷資源建立視窗，其中包含上傳檔案至伺服器連結以新增檔案。](assets/mkt-resource-creation.png)
 
 上傳完成後，資源會新增至可用資源清單中。
 
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 上傳後，所有Adobe Campaign操作員都可使用行銷資源。 他們可以檢視、製作復本以修改檔案，或更新伺服器上的檔案。
 
-![](assets/open-a-marketing-resource.png)
+![行銷資源儀表板，包含儀表板、編輯和預覽標籤、狀態、檔案和指派的運運算元。](assets/open-a-marketing-resource.png)
 
 使用&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Assigned to]**&#x200B;下拉式清單來選取負責資源的運運算元。
 
-![](assets/assign-a-mkt-resource.png)
+![在已開啟指派至運運算元下拉式清單的行銷資源編輯標籤。](assets/assign-a-mkt-resource.png)
 
 您也可以選取負責資源驗證和資源發佈的運運算元或運運算元群組。 若要存取這些選項，請按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結。
 
@@ -83,18 +83,18 @@ ht-degree: 1%
 
 若要鎖定資源，您必須按一下資源儀表板中的&#x200B;**[!UICONTROL Lock]**&#x200B;按鈕。
 
-![](assets/lock-a-resource.png)
+![具有指向[鎖定]按鈕之箭頭的行銷資源儀表板。](assets/lock-a-resource.png)
 
 
 更新資源後，按一下資源儀表板中的&#x200B;**[!UICONTROL Lock]**&#x200B;按鈕，讓所有操作員都可以再次使用。
 
 特殊訊息會通知任何嘗試存取該訊息的操作者：
 
-![](assets/mkt-resource-locked.png)
+![編輯索引標籤訊息，指出檔案在伺服器上，且正在由其他運運算元編輯。](assets/mkt-resource-locked.png)
 
 **[!UICONTROL Tracking]**&#x200B;索引標籤指出鎖定資源的操作員名稱。
 
-![](assets/mkt-resource-audit-tab.png)
+![行銷資源的[稽核]索引標籤，其日誌中有校訂閱讀器、可用性日期、擁有者和鎖定專案。](assets/mkt-resource-audit-tab.png)
 
 
 >[!NOTE]
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 對於每個資源，**[!UICONTROL Forum]**&#x200B;索引標籤可讓參與者共用資訊。
 
-![](assets/mkt-resource-forum.png)
+![行銷資源上的討論區對話方塊，其主旨、訊息和運運算元要通知欄位。](assets/mkt-resource-forum.png)
 
 在[討論區](discussion-forums.md)區段中瞭解更多。
 
@@ -115,13 +115,13 @@ ht-degree: 1%
 
 若要核准資源，請按一下其控制面板上的&#x200B;**[!UICONTROL Approve the resource]**&#x200B;按鈕。
 
-![](assets/mkt-resouce-approve.png)
+![行銷資源儀表板，其箭頭指向[核准資源]按鈕。](assets/mkt-resouce-approve.png)
 
 然後，授權的操作員可以接受或拒絕核准。 此動作是可能的：透過已傳送的電子郵件訊息（按一下通知訊息中的連結），或透過使用者端主控台（按一下&#x200B;**[!UICONTROL Approve]** ）按鈕。
 
 核准視窗可讓您輸入註解。
 
-![](assets/mkt-resource-approval-confirmation.png)
+![資源對話方塊上的動作，包含[接受]和[拒絕]選項、[註解]欄位及[核准]按鈕。](assets/mkt-resource-approval-confirmation.png)
 
 瀏覽至&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤以檢查核准。
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 若要發佈資源，請按一下行銷資源控制面板編輯區域中的&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
 
-![](assets/mkt-resource-publish.png)
+![已核准的行銷資源儀表板，其箭頭指向[發佈]按鈕。](assets/mkt-resource-publish.png)
 
 您也可以透過工作流程自動發佈資源。
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 為了讓Adobe Campaign能夠發佈，您需要建立足夠的工作流程並將其連結至資源。 若要這麼做，請開啟資源的&#x200B;**[!UICONTROL Advanced settings...]**&#x200B;方塊，然後在&#x200B;**[!UICONTROL Post-processing]**&#x200B;欄位中選取所需的工作流程。
 
-![](assets/mkt-resource-post-processing-wf.png)
+![進階引數對話方塊與資源發佈底下的後處理工作流程欄位。](assets/mkt-resource-post-processing-wf.png)
 
 工作流程會執行：
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 瀏覽至行銷活動儀表板中的&#x200B;**[!UICONTROL Edit > Documents > Resources]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選取相關資源。
 
-![](assets/link-a-mkt-resource-to-a-campaign.png)
+![具有[新增]按鈕的行銷活動的[資源]索引標籤，以及行銷資源選取對話方塊。](assets/link-a-mkt-resource-to-a-campaign.png)
 
 您可以依狀態、性質或型別篩選資源，或套用個人化篩選。
 
@@ -170,15 +170,15 @@ ht-degree: 1%
 
 行銷資源可以透過傳遞大網與傳遞建立關聯。
 
-在[本節](../campaigns/marketing-campaign-deliveries.md)中進一步瞭解傳遞大綱。
+深入瞭解[行銷活動傳遞](../campaigns/marketing-campaign-deliveries.md)中的傳遞大綱。
 
 若要這麼做，請在傳遞大網上按一下滑鼠右鍵，然後選取&#x200B;**新增>資源**。
 
-![](assets/mkt-resource-add-in-del-outline.png)
+![傳遞概述內容功能表，並選取[新增]和[資源]選項。](assets/mkt-resource-add-in-del-outline.png)
 
 輸入資產名稱，並從&#x200B;**行銷資源**&#x200B;下拉式清單中選取它。
 
-![](assets/mkt-resource-select-in-del-outline.png)
+![傳遞大網行銷資源下拉式清單，顯示可選取的可用資源。](assets/mkt-resource-select-in-del-outline.png)
 
 
 ## 庫存管理 {#stock-management}
@@ -188,11 +188,11 @@ ht-degree: 1%
 
 若要將行銷資源與股票建立關聯，請遵循下列步驟：
 
-1. 編輯庫存或建立新庫存。 在[本節](../campaigns/providers-stocks-and-budgets.md#stock-management)中進一步瞭解庫存。
+1. 編輯庫存或建立新庫存。 深入瞭解[庫存管理](../campaigns/providers-stocks-and-budgets.md#stock-management)中的庫存。
 
 1. 新增庫存行，並選取對應的行銷資源。
 
-   ![](assets/mkt-resource-in-a-stock-line.png)
+   ![與行銷資源欄位、初始庫存和警示等級的庫存行對話方塊。](assets/mkt-resource-in-a-stock-line.png)
 
    選取資源後，您就可以透過資源右側的&#x200B;**[!UICONTROL Edit the link]**&#x200B;圖示編輯選取的資源。
 

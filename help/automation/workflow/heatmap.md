@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 ---
 # 工作流程熱度圖 {#workflow-heatmap}
 
@@ -64,7 +64,7 @@ Campaign Workflow HeatMap包含目前執行的所有工作流程，並以色彩�
 
 1. 移至&#x200B;**[!UICONTROL Monitoring]**&#x200B;並按一下&#x200B;**[!UICONTROL Workflow HeatMap]**&#x200B;連結以顯示&#x200B;**[!UICONTROL Campaign Workflow HeatMap]**&#x200B;頁面。
 
-   ![](assets/wkf_monitoring_path.png)
+   ![已選取工作流程熱度圖連結的監視標籤，正在開啟行銷活動工作流程熱度圖格線。](assets/wkf_monitoring_path.png)
 
 1. 按一下行事曆以選取日期。
 
@@ -76,15 +76,15 @@ Campaign Workflow HeatMap包含目前執行的所有工作流程，並以色彩�
 
 1. 按一下 **[!UICONTROL Filters]** 按鈕。
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![促銷活動工作流程熱度圖頁面，其篩選器按鈕在說明和載入資料旁反白顯示。](assets/wkf_monitoring_filters.png)
 
 1. 使用滑桿來設定從0秒到1小時的最短持續時間。 這可讓您僅搜尋執行時間超過特定秒數或分鐘的工作流程。
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ![HeatMap篩選器面板，其最短期間滑桿設定為30分鐘，位於[工作流程]和[工作流程]型別欄位上方。](assets/wkf_monitoring_filters_duration.png)
 
 1. 您也可以從&#x200B;**[!UICONTROL Workflows]**&#x200B;下拉式清單中選擇特定工作流程。
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ![HeatMap篩選器中的工作流程下拉式清單，顯示所有、資料庫清理、預測和其他工作流程。](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 
 若要瞭解如何套用色彩代碼以及如何導覽HeatMap，請按一下&#x200B;**[!UICONTROL Help]**&#x200B;按鈕。
 
-![](assets/wkf_monitoring_legend.png)
+![HeatMap說明面板列出鍵盤控制項，以及從1工作流程綠色到50紅色圖例。](assets/wkf_monitoring_legend.png)
 
 每一列代表一天中的一小時，每個儲存格代表該小時的5分鐘。
 
@@ -116,11 +116,11 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 
 在以下範例中，上午8點至上午8:05之間，有三個工作流程在執行中（無論其個別持續時間為何）：
 
-![](assets/wkf_monitoring_ex_8am.png)
+![HeatMap格線，反白顯示08h列、00m欄儲存格，顯示凌晨8點至上午8:05之間執行的三個工作流程。](assets/wkf_monitoring_ex_8am.png)
 
 1. 按一下彩色儲存格，以顯示在此期間執行的所有並行工作流程詳細資料。
 
-   ![](assets/wkf_monitoring_details.png)
+   ![已選取08h儲存格的熱度圖，以及列出三個同時工作流程且具有活動和持續時間的表格。](assets/wkf_monitoring_details.png)
 
    對於每個工作流程，會列出其中包含的所有活動及其持續時間。
 
@@ -139,7 +139,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 1. 將持續時間設定為幾秒或幾分鐘。
 1. 增加持續時間篩選條件，以排除不重要的最短工作流程。
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![持續時間最小滑桿設為3分鐘（189秒）的HeatMap篩選器，以排除最短的工作流程。](assets/wkf_monitoring_short_duration.png)
 
 1. 探索結果以瞭解執行個體的負載並採取適當的動作：
 
@@ -153,7 +153,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 1. 從&#x200B;**[!UICONTROL Campaign Workflow HeatMap]**&#x200B;檢視，按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕。
 1. 將持續時間設為1小時。
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![持續時間最小滑桿設為1小時（3600秒）上限的HeatMap篩選器。](assets/wkf_monitoring_long_duration.png)
 
 1. 減少&#x200B;**[!UICONTROL Min duration]**&#x200B;篩選器，以包含更多結果。
 1. 探索結果以找出最長的工作流程，這些工作流程可能對伺服器和資料庫資源（CPU、RAM、網路、IOPS等）產生較大影響。
@@ -173,7 +173,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 1. 將&#x200B;**[!UICONTROL Workflow type]**&#x200B;篩選器設為&#x200B;**[!UICONTROL Marketing]**。
 1. 在「熱度圖」格線中，觀察下列專案：
 
-   ![](assets/wkf_monitoring_without.png)
+   ![沒有持續時間篩選器的HeatMap格線，10h列有50個工作流程的尖峰，14h後有幾個儲存格。](assets/wkf_monitoring_without.png)
 
    * 50個長效的行銷活動工作流程正在上午10點執行（超過5分鐘）。
    * 其中大多數都具有擱置狀態（預設情況下，並行限制設為20）。
@@ -184,7 +184,7 @@ Campaign Workflow HeatMap是從左上到右下自然可讀的格線，允許尋�
 1. 返回&#x200B;**[!UICONTROL Campaign Workflow HeatMap]**&#x200B;頁面並按一下&#x200B;**[!UICONTROL Reload data]**&#x200B;按鈕。
 1. 現在請觀察下列專案：
 
-   ![](assets/wkf_monitoring_with.png)
+   ![已套用持續時間篩選的HeatMap格線，顯示不同的分佈，峰值減少到18個工作流程。](assets/wkf_monitoring_with.png)
 
    * 上午10點，只有18個長期的行銷活動工作流程仍在執行中。
    * 沒有其他工作流程處於擱置狀態（並行限制仍設為20）。

@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 33%
+source-wordcount: '684'
+ht-degree: 31%
 ---
 # 工作流程屬性{#workflow-properties}
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 工作流程中&#x200B;**[!UICONTROL Properties]**&#x200B;視窗的&#x200B;**[!UICONTROL Execution]**&#x200B;標籤分為3個區段：
 
-![](assets/wf_execution_tab.png)
+![具有工作流程屬性之排程器、執行和錯誤管理區段的[執行]索引標籤。](assets/wf_execution_tab.png)
 
 ### 排程器 {#scheduler}
 
@@ -65,7 +65,7 @@ ht-degree: 33%
 
   當選項啟用時，查詢會顯示在&#x200B;**[!UICONTROL SQL logs]**&#x200B;索引標籤中，該索引標籤已新增至工作流程（行銷活動工作流程除外）和&#x200B;**[!UICONTROL Properties]**&#x200B;活動。 **[!UICONTROL Audit]**&#x200B;索引標籤也包含SQL查詢。
 
-  ![](assets/wf_tab_log_sql.png)
+  ![工作流程視窗，在[圖表]和[稽核]標籤旁反白顯示SQL記錄標籤。](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
@@ -102,7 +102,7 @@ ht-degree: 33%
 
   如果相關操作員的設定檔中有電子郵件地址，則會以電子郵件通知相關操作員。 若要定義工作流程監督員，請移至屬性（**[!UICONTROL General]**&#x200B;標籤）的&#x200B;**[!UICONTROL Supervisor(s)]**&#x200B;欄位。
 
-  ![](assets/wf-properties_select-supervisors.png)
+  ![「一般」標籤，其中的「監督員」下拉式清單已開啟，「工作流程監督員」已反白顯示。](assets/wf-properties_select-supervisors.png)
 
   **[!UICONTROL Notification to a workflow supervisor]**&#x200B;預設範本包含一個連結，可透過網頁存取Adobe Campaign使用者端主控台，這樣收件者就可以在登入後處理問題。
 

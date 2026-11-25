@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 4%
+source-wordcount: '1529'
+ht-degree: 3%
 ---
 # 建立方案和行銷活動{#create-programs-and-campaigns}
 
@@ -36,9 +36,9 @@ ht-degree: 4%
 
 行銷方案由行銷活動組成，行銷活動由傳遞、資源等組成。有關傳遞、預算、稽核者和連結檔案的所有資訊都會分組在行銷活動中。
 
-![](assets/campaigns-create-from-home.png)
+![包含「行銷活動」清單、「建立」按鈕和「行銷活動行事曆」功能表的行銷活動首頁](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索方案和行銷活動](#video)
+有關方案和行銷活動的影片![播放圖示](assets/do-not-localize/how-to-video.png) [在影片中探索方案和行銷活動](#video)
 
 ## 使用方案和計畫{#work-with-plan-and-program}
 
@@ -50,20 +50,20 @@ ht-degree: 4%
 
 1. 按一下首頁上的&#x200B;**總管**&#x200B;圖示。
 1. 在您要建立計畫的資料夾上按一下滑鼠右鍵。
-1. 選取&#x200B;**新增資料夾>行銷活動管理>計畫**。
+1. Select **新增資料夾>行銷活動管理>計畫**。
 
-   ![](assets/create-new-plan-folder.png)
+   ![在總管中新增資料夾功能表，並選取「行銷活動管理>計畫」](assets/create-new-plan-folder.png)
 
 1. 重新命名計畫。
 1. 在新建立的計畫上按一下滑鼠右鍵，然後選取&#x200B;**屬性……**。
 1. 在&#x200B;**一般**&#x200B;索引標籤中，修改&#x200B;**內部名稱**&#x200B;以避免在套件匯出期間重複。
 
-   ![](assets/plan-properties.png)
+   ![資料夾內容對話方塊，[一般]索引標籤，包含[標籤]和[內部名稱]欄位，以及[儲存]按鈕](assets/plan-properties.png)
 
 1. 按一下「**儲存**」。
 1. 在新建立的計畫上按一下滑鼠右鍵，然後選取&#x200B;**建立新的「方案」資料夾**。
 
-   ![](assets/program-folder.png)
+   ![在計畫資料夾上按一下右鍵功能表，並選取建立新的&#39;Program&#39;資料夾](assets/program-folder.png)
 
 1. 重複上述步驟，重新命名新的程式資料夾及其內部名稱。
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 * **編輯**&#x200B;索引標籤可讓您個人化方案：名稱、開始和結束日期、預算、連結檔案等。
 
-  ![](assets/new-program-edit-tab.png)
+  ![含有標籤、內部名稱、排程日期、相關預算與目標的[方案編輯]索引標籤](assets/new-program-edit-tab.png)
 
 ## 使用行銷活動{#work-with-campaigns}
 
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 **[!UICONTROL Program]**&#x200B;欄位可讓您選取要附加行銷活動的方案。 此資訊是強制性的。
 
-![](assets/new-campaign-settings.png)
+![新的行銷活動對話方塊，包含[範本]、[標籤]和[方案]欄位，以及[確定]按鈕](assets/new-campaign-settings.png)
 
 行銷活動也可以透過行銷活動或方案行事曆來建立。 [了解更多](#campaign-calendar)
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 所有這些動作都會將您帶往行銷活動控制面板。
 
-![](assets/campaigns-dashboard-approve.png)
+![行銷活動儀表板，在傳遞提供核准內容及核准目標定位上有核准功能表](assets/campaigns-dashboard-approve.png)
 
 存取下列章節，瞭解如何設定行銷活動：
 
@@ -133,17 +133,17 @@ ht-degree: 4%
 
 針對每個行銷活動，工作、資源和傳遞都會集中在控制面板中。 此介面可讓您管理和協調行銷動作。
 
-透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。此協調流程在[此區段](marketing-campaign-approval.md)中有詳細說明。
+透過Adobe Campaign，您可以設定合作流程，以建立和核准行銷活動的各個步驟：核准預算、目標、內容等。此協調流程在[設定及管理核准程式](marketing-campaign-approval.md)中有詳細說明。
 
-![](assets/campaigns-dashboard-approval-tab.png)
+![具有[核准]功能表、內容及目標定位狀態的行銷活動控制面板的傳遞面板](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示在[本節](marketing-campaign-templates.md#campaign-templates)中。
+>行銷活動中可用的元件取決於其範本。 行銷活動範本設定顯示在[建立和設定行銷活動範本](marketing-campaign-templates.md#campaign-templates)中。
 
 取得行銷活動後，請使用&#x200B;**[!UICONTROL Reports]**&#x200B;連結來存取行銷活動報告。
 
-![](assets/campaigns-reports-dashboard.png)
+![行銷活動儀表板報告索引標籤列出行銷活動報告，例如行銷活動費用和傳遞摘要](assets/campaigns-reports-dashboard.png)
 
 ## 行銷活動行事曆 {#campaign-calendar}
 
@@ -151,11 +151,11 @@ ht-degree: 4%
 
 若要編輯計畫、方案、行銷活動或傳遞，請在行事曆中瀏覽至其名稱，然後使用&#x200B;**[!UICONTROL Open]**&#x200B;連結。 然後它會顯示在新的標籤中，如下所示：
 
-![](assets/campaign-calendar.png)
+![具有快顯視窗的行銷活動行事曆顯示開啟連結、排程和狀態](assets/campaign-calendar.png)
 
 您可以篩選行銷活動行事曆中顯示的資訊。 若要這麼做，請按一下&#x200B;**[!UICONTROL Filter]**&#x200B;連結並選取篩選條件。
 
-![](assets/campaign_planning_filter.png)
+![行銷活動行事曆篩選連結展開行銷活動、傳遞、任務和方案的篩選選項](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
@@ -167,11 +167,11 @@ ht-degree: 4%
 
 若要篩選要顯示的行銷活動，請按一下&#x200B;**[!UICONTROL Filter]**&#x200B;連結，並選取要顯示的行銷活動狀態。
 
-![](assets/calendar-filter-options.png)
+![具有「工作」下拉式清單狀態（例如「正在編輯」、「已開始」和「已完成」）的行銷活動行事曆篩選器](assets/calendar-filter-options.png)
 
 瀏覽行事曆時，您也可以建立方案或行銷活動。
 
-![](assets/campaign-create-from-calendar.png)
+![方案排程索引標籤，其中的[新增]功能表提供新增方案和新增行銷活動](assets/campaign-create-from-calendar.png)
 
 當您透過方案的&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤建立行銷活動時，該行銷活動會自動連結到相關方案。 在這種情況下，**[!UICONTROL Program]**&#x200B;欄位是隱藏的。
 
@@ -183,7 +183,7 @@ ht-degree: 4%
 1. 如常透過https://`<your instance>:<port>/view/home`登入。
 1. 使用功能表存取概述。
 
-   ![](assets/web-access-campaigns.png)
+   ![網頁介面中的行銷活動清單，包含行銷活動狀態和[動作]功能表](assets/web-access-campaigns.png)
 
 除了導覽和檢視行銷活動之外，您還可以執行下列型別的工作：
 
@@ -216,13 +216,13 @@ ht-degree: 4%
 
 目標或傳遞內容的核准可透過Web存取執行。
 
-![](assets/web-access-approval.png)
+在網頁介面中傳遞對話方塊上的![動作，包含[接受]和[拒絕]選項以及[註解]欄位](assets/web-access-approval.png)
 
-您也可以使用通知訊息中包含的連結。 如需詳細資訊，請參閱[本章節](marketing-campaign-approval.md#review-and-approve-deliveries)。
+您也可以使用通知訊息中包含的連結。 如需詳細資訊，請參閱[檢閱並核准傳遞](marketing-campaign-approval.md#review-and-approve-deliveries)。
 
 
 ## 教學課程影片 {#video}
 
 本影片說明如何建立行銷計畫、方案和行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426483?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

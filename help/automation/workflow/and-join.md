@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '212'
+ht-degree: 16%
 ---
 # 合併連結{#and-join}
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 例如，您可以在內容建立和傳遞傳送自動化的內容中使用AND-join活動，以確保只有在完成目標查詢和內容更新步驟後才會開始傳遞。 以下位置提供了專屬的使用案例：
 
-![](assets/and-join-usage.png)
+![Fork在傳遞之前並行執行Query和Content Management的工作流程。](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->在&#x200B;**AND-join**&#x200B;型別活動的情況下，事件變數會合併，但如果相同的變數定義兩次，則會發生衝突，且值仍未確定。 如需詳細資訊，請參閱[本章節](javascript-scripts-and-templates.md#event-variables)。
+>在&#x200B;**AND-join**&#x200B;型別活動的情況下，事件變數會合併，但如果相同的變數定義兩次，則會發生衝突，且值仍未確定。 如需詳細資訊，請參閱[事件變數](javascript-scripts-and-templates.md#event-variables)。

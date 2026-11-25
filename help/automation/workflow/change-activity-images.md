@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '213'
+ht-degree: 2%
 ---
 # 變更活動影像{#change-activity-images}
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 * 若要變更背景影像，請選取所需的目標定位工作流程，然後按一下「**[!UICONTROL Properties]**」標籤。
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![工作流程屬性，進階標籤：反白顯示Select連結圖示的背景影像欄位。](assets/s_user_segmentation_properties_tab.png)
 
   若要選取要使用的影像，請按一下&#x200B;**[!UICONTROL Background image]**&#x200B;欄位右側的&#x200B;**[!UICONTROL Select link]**&#x200B;圖示。
 
@@ -49,7 +49,7 @@ ht-degree: 3%
   >
   >背景影像的寬度（以畫素為單位）必須是4的倍數。
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![影像選取視窗列出背景影像（例如backgrounds/grid.png），並使用[確定]確認。](assets/s_user_segmentation_background_select.png)
 
   **[!UICONTROL Edit link]**&#x200B;圖示可讓您檢視選取的影像。
 
@@ -57,11 +57,11 @@ ht-degree: 3%
 
   若要選取要使用的影像，請按一下&#x200B;**[!UICONTROL Image]**&#x200B;欄位右側的&#x200B;**[!UICONTROL Select link]**&#x200B;圖示。
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![反白顯示影像欄位之活動的進階索引標籤，設定為activities/dedup.png。](assets/s_user_segmentation_activity_image.png)
 
   **[!UICONTROL Edit link]**&#x200B;圖示可讓您檢視選取的影像。
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![所選影像nms:activities/dedup.png的預覽，以「編輯」連結圖示顯示。](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >
