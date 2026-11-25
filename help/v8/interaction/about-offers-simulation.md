@@ -61,7 +61,7 @@ ht-degree: 2%
 
 1. 指定模擬範圍。
 
-   如需詳細資訊，請參閱領域](simulation-scope.md#definition-of-the-scope)的[定義。
+   如需詳細資訊，請參閱領域[&#128279;](simulation-scope.md#definition-of-the-scope)的定義。
 
    ![模擬範圍標籤，包含環境、優惠方案空間、聯絡日期、主張和資料夾最佳旅行者目標](assets/offer_simulation_004.png)
 

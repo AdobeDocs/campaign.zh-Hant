@@ -253,7 +253,7 @@ Neobank公司想要針對兩個不同的目標建立行銷優惠方案。 想要
 
 1. 建立以&#x200B;**合作夥伴**&#x200B;為標籤的第二個類別。
 
-   在環境 — 訪客](assets/offer_inbound_fallback_example_028.png)下的最佳優惠方案旁邊建立![優惠方案類別合作夥伴
+   在環境 — 訪客![&#128279;](assets/offer_inbound_fallback_example_028.png)下的最佳優惠方案旁邊建立優惠方案類別合作夥伴
 
 ### 建立匿名訪客的優惠 {#creating-offers-for-anonymous-visitors}
 
