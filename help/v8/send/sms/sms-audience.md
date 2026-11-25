@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 6%
 ---
 # Select SMS傳送的對象 {#sms-audience}
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 1. 由於對象儲存在Adobe Campaign資料庫中，請在&#x200B;**[!UICONTROL Main target]**&#x200B;索引標籤中選擇&#x200B;**[!UICONTROL Defined in the database]**&#x200B;選項。
 
-   ![](assets/audience_to.png){zoomable="yes"}
+   ![已選取[在資料庫中定義]選項的Select目標對話方塊，從[收件者]連結開啟](assets/audience_to.png){zoomable="yes"}
 
 1. Select下拉式清單中的&#x200B;**[!UICONTROL Target mapping]**。 Adobe Campaign預設目標對應是收件者，根據&#x200B;**[!UICONTROL nms:recipient]**&#x200B;結構描述。
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    然後，您可以選取要套用的篩選型別：
 
-   ![](assets/audience_filters.png){zoomable="yes"}
+   ![Select目標元素對話方塊，列出目標型別和使用者篩選器，以便從](assets/audience_filters.png){zoomable="yes"}中選擇
 
    若要使用目標型別，請選取它並按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 
 1. 在標籤欄位中輸入對象名稱，然後按一下&#x200B;**[!UICONTROL Finish]**&#x200B;按鈕以驗證對象。
 
-   ![](assets/audience_finish.png){zoomable="yes"}
+   ![具有行動標籤的目標元素定義不是空的、行動裝置上的篩選器以及反白顯示的完成](assets/audience_finish.png){zoomable="yes"}
 
    您可以按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，視需要新增目標母體。 您也可以按一下標籤後方的十字以刪除部分標籤。
 
@@ -88,7 +88,7 @@ ht-degree: 7%
 
 1. 選取 **[!UICONTROL Defined in an external file]** 選項。
 
-   ![](assets/audience_externalfile.png){zoomable="yes"}
+   ![已選取[在外部檔案中定義]選項的Select目標對話方塊，以及[檔案格式定義]連結](assets/audience_externalfile.png){zoomable="yes"}
 
 1. 依預設，收件者會匯入資料庫中。 在這種情況下，您需要選取&#x200B;**[!UICONTROL Target mapping]**。 如需目標對應的詳細資訊，請參閱[使用目標對應](../../audiences/target-mappings.md)。
 

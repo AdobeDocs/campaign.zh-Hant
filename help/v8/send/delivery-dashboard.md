@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1279'
 ht-degree: 3%
 ---
 # 在Campaign UI中監視您的傳遞 {#delivery-dashboard}
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 您可以透過樹狀結構的&#x200B;**[!UICONTROL Campaign Management > Deliveries]**&#x200B;節點，從傳遞清單存取傳遞。
 
-![](assets/deliveries-list.png)
+![傳遞清單位於「行銷活動管理」下，具有狀態和訊息計數，且選取的傳遞儀表板位於](assets/deliveries-list.png)以下
 
 依預設，傳遞清單包含在所選節點中建立的傳遞的名稱和狀態。 它也會顯示成功傳送、處理和傳送的訊息數。
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->對於大型傳送，您可以更新這些值。 若要這麼做，請選取有問題的傳送，然後在其上按一下滑鼠右鍵。 選取&#x200B;**[!UICONTROL Action > Recompute delivery and tracking indicators...]**，然後使用該助理來更新此資訊。
+>對於大型傳送，您可以更新這些值。 若要這麼做，請選取有問題的傳送，然後在其上按一下滑鼠右鍵。 Select **[!UICONTROL Action > Recompute delivery and tracking indicators...]**，然後使用助理來更新這項資訊。
 
 ## 傳遞控制面板總覽 {#delivery-dashboard-overview}
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 * [傳遞呈現](#delivery-rendering)
 * [傳遞稽核](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![傳遞儀表板摘要索引標籤，用於傳送、處理和成功數字、狀態和電子郵件設定](assets/s_ncs_user_del_details.png)
 
 **相關主題：**
 
@@ -90,9 +90,9 @@ ht-degree: 3%
 
 可從&#x200B;**[!UICONTROL Summary]**&#x200B;標籤存取的&#x200B;**[!UICONTROL Reports]**&#x200B;連結可讓您檢視與傳遞動作相關的一組報告：一般傳遞報告、詳細報告、傳遞報告、失敗訊息的分發、年初匯率、點按和交易等。
 
-您可以根據自己的需求設定此標籤的內容。 如需傳遞報告的詳細資訊，請參閱[本節](../reporting/delivery-reports.md)。
+您可以根據自己的需求設定此標籤的內容。 如需傳遞報告的詳細資訊，請參閱[Adobe Campaign內建傳遞報告](../reporting/delivery-reports.md)。
 
-![](assets/delivery-report.png)
+![傳遞摘要標籤的報告檢視，其中列出可用的傳遞報告](assets/delivery-report.png)
 
 ## 傳遞記錄、記錄和排除 {#delivery-logs-and-history}
 
@@ -102,15 +102,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->顯示傳送記錄的清單可與Campaign中的任何清單一樣自訂。 例如，您可以新增欄，以瞭解在傳送中每封電子郵件傳送了哪個IP位址。 如需設定清單顯示的詳細資訊，請參閱[本節](../config/ui-settings.md#customize-lists)。
+>顯示傳送記錄的清單可與Campaign中的任何清單一樣自訂。 例如，您可以新增欄，以瞭解在傳送中每封電子郵件傳送了哪個IP位址。 有關設定清單顯示的詳細資訊，請參閱[管理和自訂清單](../config/ui-settings.md#customize-lists)。
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![傳遞索引標籤記錄子索引標籤，其狀態篩選器下拉式清單列出傳遞記錄狀態](assets/s_ncs_user_delivery_delivery_tab.png)
 
 **[!UICONTROL Display the mirror page for this message...]**&#x200B;連結可讓您在新視窗中檢視從清單選取之傳遞內容的映象頁面。
 
 映象頁面僅適用於已定義HTML內容的傳送。 如需詳細資訊，請參閱[映象頁面的連結](mirror-page.md)。
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![傳遞記錄清單，其中顯示反白顯示這個訊息連結的映象頁面](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## 傳遞追蹤記錄和歷史記錄 {#tracking-logs}
 
@@ -122,9 +122,9 @@ ht-degree: 3%
 
 追蹤設定會在傳遞助理的適當階段執行。 請參閱[如何設定追蹤的連結](tracking.md)。
 
-在傳遞報告中解譯&#x200B;**[!UICONTROL Tracking]**&#x200B;資料。 請參閱[本節](../reporting/delivery-reports.md)。
+在傳遞報告中解譯&#x200B;**[!UICONTROL Tracking]**&#x200B;資料。 請參閱[Adobe Campaign內建傳遞報告](../reporting/delivery-reports.md)。
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![追蹤標籤記錄子標籤列出追蹤的開啟與點按次數，包含日期、標籤、型別和收件者](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 收件匣轉譯 {#delivery-rendering}
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 如此一來，您就可以確保以最佳方式在各種Web使用者端、網頁郵件與裝置上向收件者顯示您的訊息。
 
-如需收件匣轉譯的詳細資訊，請參閱[此頁面](inbox-rendering.md)
+如需收件匣轉譯的詳細資訊，請參閱Campaign](inbox-rendering.md)中的[收件匣轉譯
 
 
 ## 傳遞稽核 {#delivery-audit-}
@@ -145,9 +145,9 @@ ht-degree: 3%
 
 **[!UICONTROL Proofs]**&#x200B;子索引標籤可讓您檢視已傳送的校樣清單。
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![稽核索引標籤校樣子索引標籤列出傳送給傳遞的校樣，以及要傳送、處理和成功的訊息](assets/s_ncs_user_delivery_log_tab.png)
 
-您可以修改此視窗中顯示的資訊（以及&#x200B;**[!UICONTROL Delivery]**&#x200B;和&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤的資訊），方法是選取要顯示的欄。 若要這麼做，請按一下右下角的&#x200B;**[!UICONTROL Configure list]**&#x200B;圖示。 如需設定清單顯示的詳細資訊，請參閱[本節](../config/ui-settings.md#customize-lists)。
+您可以修改此視窗中顯示的資訊（以及&#x200B;**[!UICONTROL Delivery]**&#x200B;和&#x200B;**[!UICONTROL Tracking]**&#x200B;索引標籤的資訊），方法是選取要顯示的欄。 若要這麼做，請按一下右下角的&#x200B;**[!UICONTROL Configure list]**&#x200B;圖示。 有關設定清單顯示的詳細資訊，請參閱[管理和自訂清單](../config/ui-settings.md#customize-lists)。
 
 ## 傳遞控制面板同步 {#delivery-dashboard-synchronization}
 

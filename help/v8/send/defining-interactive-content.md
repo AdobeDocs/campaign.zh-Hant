@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1553'
 ht-degree: 3%
 ---
 # 定義互動式內容{#defining-interactive-content}
@@ -39,7 +39,7 @@ Adobe Campaign可讓您使用互動式[AMP for Email](https://amp.dev/about/emai
 * 測試傳送AMP電子郵件至適當設定的特定地址。
 * 向對應的服務供應商註冊後，將AMP電子郵件傳送至Gmail或Mail.ru地址。
 
-如需測試和傳送AMP電子郵件的詳細資訊，請參閱[本節](#targeting-amp-email)。
+如需測試和傳送AMP電子郵件的詳細資訊，請參閱[鎖定AMP電子郵件](#targeting-amp-email)。
 
 此功能透過Adobe Campaign中的專用套件提供。 根據您的許可權和部署模式，您可以安裝此套件或聯絡Adobe為您安裝。
 
@@ -56,7 +56,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 如需電子郵件格式、規格和需求的AMP詳細資訊，請參閱[AMP開發人員檔案](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#amp-email-video)
+![播放電子郵件視訊AMP的圖示](assets/do-not-localize/how-to-video.png) [在視訊中探索此功能](#amp-email-video)
 
 ## 透過Adobe Campaign使用AMP for Email的關鍵步驟 {#key-steps-to-use-amp}
 
@@ -87,7 +87,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 1. 按一下「**[!UICONTROL AMP content]**」標籤。
 
-   ![](assets/amp_tab.png)
+   ![電子郵件傳遞，AMP內容索引標籤反白顯示AMP原始碼](assets/amp_tab.png)
 
 1. 編輯AMP內容以符合您的需求。
 
@@ -99,7 +99,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 1. 視需要個人化AMP內容，如同您在Adobe Campaign中通常使用HTML格式一樣，使用個人化欄位和個人化區塊。
 
-   ![](assets/amp_tab_perso.png)
+   ![AMP內容編輯器，在程式碼中反白顯示收件者名字個人化欄位](assets/amp_tab_perso.png)
 
 1. 完成編輯後，請選取您整個AMP內容，然後將其複製貼到[AMP網路驗證器](https://validator.ampproject.org)或類似的網站。
 
@@ -107,7 +107,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
    >
    >請務必從熒幕上方的下拉式清單中選取&#x200B;**AMP4電子郵件**。
 
-   ![](assets/amp_validator.png)
+   ![已選取AMP4EMAIL格式的AMP驗證器，且驗證狀態失敗列出不允許的相對URL](assets/amp_validator.png)
 
    錯誤會以內嵌方式標幟。
 
@@ -117,7 +117,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 1. 在AMP內容通過驗證前，視需要進行修正。
 
-   ![](assets/amp_validator_pass.png)
+   ![已選取AMP4EMAIL格式的AMP驗證器，且驗證狀態：強調顯示PASS ](assets/amp_validator_pass.png)
 
 1. 若要預覽您的內容，請將驗證的內容複製並貼到[AMP Playground](https://playground.amp.dev)或類似的網站。
 
@@ -125,7 +125,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
    >
    >請務必從熒幕上方的下拉式清單中選取&#x200B;**AMP for Email**。
 
-   ![](assets/amp_playground.png)
+   ![已選取AMP for Email的AMP Playground，且右邊有已轉譯的電子郵件預覽](assets/amp_playground.png)
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 * AMP MIME部分必須包含[有效的AMP檔案](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)。
 * AMP MIME部分必須小於100KB。
 
-您也可以參閱Gmail[&#128279;](https://developers.google.com/gmail/ampemail/tips)檔案的提示和已知限制。
+您也可以參閱Gmail](https://developers.google.com/gmail/ampemail/tips)檔案的[提示和已知限制。
 
 ## AMP電子郵件定位 {#targeting-amp-email}
 
@@ -178,7 +178,7 @@ AMP for Email與現有電子郵件相容。 除了HTML和/或純文字外，AMP�
 
 如需更多詳細資料，請參閱[Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email)開發人員檔案。
 
-![](assets/amp_from_field.png)
+![電子郵件引數，在AMP內容標籤上方反白顯示[寄件者]欄位](assets/amp_from_field.png)
 
 若要測試傳送AMP電子郵件至Mail.ru位址，請依照[Mail.ru開發人員檔案](https://postmaster.mail.ru/amp/#howto) （**如果您是使用者**&#x200B;區段）中的步驟進行。
 

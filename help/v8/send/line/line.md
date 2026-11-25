@@ -33,18 +33,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 4%
+source-wordcount: '1578'
+ht-degree: 2%
 ---
 # 建立LINE傳遞
 
 LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話，適用所有行動裝置與個人電腦。 您可以使用Adobe Campaign傳送LINE訊息。
 
-[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
+[!DNL LINE]也可以與交易式訊息模組結合，以在消費者行動裝置上安裝的[!DNL LINE]應用程式上傳送即時訊息。 如需詳細資訊，請參閱Campaign Classic v7檔案中的此[頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)。
 
-![](assets/line_message.png)
+![LINE應用程式交談顯示從商店帳戶收到的文字訊息](assets/line_message.png)
 
 使用[!DNL LINE]管道的步驟如下：
 
@@ -69,13 +69,13 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 在左側功能表中，選取&#x200B;**[!UICONTROL Services and Subscriptions]**&#x200B;並按一下&#x200B;**[!UICONTROL Create]**。
 
-   ![](assets/line_service_1.png)
+   ![以[建立]按鈕反白顯示的服務與訂閱清單](assets/line_service_1.png)
 
 1. 新增&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Internal name]**&#x200B;至您的新服務。
 
 1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中的Select **[!UICONTROL LINE]**。
 
-   ![](assets/line_service_2.png)
+   ![服務建立對話方塊，已在[型別]下拉式清單](assets/line_service_2.png)中選取LINE
 
 1. 按一下 **[!UICONTROL Save]**。
 
@@ -89,11 +89,11 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. Select內建&#x200B;**[!UICONTROL LINE V2 routing]**&#x200B;外部帳戶。
 
-   ![](assets/line_config.png)
+   已選取內建LINE V2路由帳戶的![外部帳戶清單](assets/line_config.png)
 
 1. 按一下外部帳戶中的&#x200B;**[!UICONTROL LINE]**&#x200B;索引標籤，開始設定外部帳戶。 填寫下列欄位：
 
-   ![](assets/line_config_2.png)
+   ![外部帳戶的LINE索引標籤，包含管道識別碼、秘密金鑰、存取權杖和LINE訂閱服務欄位](assets/line_config_2.png)
 
    * **[!UICONTROL Channel Alias]**：已透過您在&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]**&#x200B;索引標籤中的[!DNL LINE]帳戶提供。
    * **[!UICONTROL Channel ID]**：已透過您在&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]**&#x200B;索引標籤中的[!DNL LINE]帳戶提供。
@@ -118,37 +118,37 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 從&#x200B;**[!UICONTROL Campaigns]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Deliveries]**，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
-   ![](assets/line_message_07.png)
+   ![在Campaigns索引標籤中傳遞清單，其建立按鈕反白顯示](assets/line_message_07.png)
 
-1. Select **[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本。
+1. 選取&#x200B;**[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本。
 
-   ![](assets/line_message_01.png)
+   ![已選取LINE V2傳遞範本的新傳遞對話方塊](assets/line_message_01.png)
 
-1. 使用&#x200B;**[!UICONTROL Label]**、**[!UICONTROL Delivery code]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;識別您的傳遞。 如需詳細資訊，請參閱[本章節](../../start/create-message.md#create-the-delivery)。
+1. 使用&#x200B;**[!UICONTROL Label]**、**[!UICONTROL Delivery code]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;識別您的傳遞。 如需詳細資訊，請參閱[建立傳遞](../../start/create-message.md#create-the-delivery)。
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以建立您的傳遞。
 
 1. 在傳遞編輯器中，選取&#x200B;**[!UICONTROL To]**&#x200B;以定位[!DNL LINE]傳遞的收件者。 在&#x200B;**[!UICONTROL Visitor subscriptions (nms:visitorSub)]**&#x200B;上執行目標定位。
 
-   如需詳細資訊，請參閱[本頁面](../../audiences/target-mappings.md)。
+   如需詳細資訊，請參閱[使用目標對應](../../audiences/target-mappings.md)。
 
-   ![](assets/line_message_08.png)
+   ![LINE V2傳遞，其中的「收件者」連結反白顯示，且空的LINE訊息清單](assets/line_message_08.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選取您的&#x200B;**[!UICONTROL Delivery target population]**。
 
-   ![](assets/line_message_09.png)
+   ![Select目標對話方塊，[主要目標]索引標籤，包含傳遞目標母體的[新增]按鈕](assets/line_message_09.png)
 
 1. 選擇您要直接鎖定[!DNL LINE]位訂閱者，或根據其[!DNL LINE]訂閱鎖定使用者，然後按一下&#x200B;**[!UICONTROL Next]**。 在此範例中，我們選取&#x200B;**[!UICONTROL By LINE V2 subscription]**。
 
-1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;下拉式清單中的Select **[!UICONTROL Line-V2]**，然後是您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
+1. 在&#x200B;**[!UICONTROL Folder]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Line-V2]**，然後選取您的[!DNL LINE]服務。 按一下&#x200B;**[!UICONTROL Finish]**，然後按&#x200B;**[!UICONTROL Ok]**，開始個人化您的傳遞。
 
-   ![](assets/line_message_10.png)
+   ![目標專案對話方塊，其中有LINE-V2資料夾及選取的LINESVC服務](assets/line_message_10.png)
 
 1. 從您的傳遞編輯器中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以新增一或多個訊息，並選取&#x200B;**[!UICONTROL Content type]**。
 
    如需其他可用&#x200B;**[!UICONTROL Content type]**&#x200B;的詳細資訊，請參閱[定義內容型別](#defining-the-content)。
 
-   ![](assets/line_message_11.png)
+   ![以LINE訊息區段](assets/line_message_11.png)中反白新增按鈕的服務訂閱者為目標的LINE V2傳遞
 
 1. 正確建立與設定您的傳遞後，您可以將其傳送至先前定義的目標。
 
@@ -176,7 +176,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 **[!UICONTROL Text message]** [!DNL LINE]傳遞是以文字形式傳送給收件者的訊息。
 
-![](assets/line_message_02.png)
+![LINE訊息編輯器，在[內容]索引標籤中包含[文字訊息型別]和[三段促銷文字]](assets/line_message_02.png)
 
 此型別訊息的組態與電子郵件中&#x200B;**[!UICONTROL Text]**&#x200B;的組態類似。 如需詳細資訊，請參閱此[頁面](../defining-the-email-content.md#message-content)。
 
@@ -192,11 +192,11 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
   >
   >您可以使用&#x200B;**%SIZE%**&#x200B;變數，根據收件者行動裝置的熒幕大小最佳化影像顯示。
 
-  ![](assets/line_message_04.png)
+  ![已選取個人化影像的影像和連結訊息，反白顯示影像URL和替代文字欄位](assets/line_message_04.png)
 
 * 每個裝置熒幕大小為&#x200B;**[!UICONTROL Image URL]**，
 
-  ![](assets/line_message_03.png)
+  ![影像和連結訊息，其中依解析度定義選取的每一裝置熒幕大小的影像和四個影像URL欄位](assets/line_message_03.png)
 
   **[!UICONTROL Define images per device screen size]**&#x200B;選項可讓您使用不同的影像解析度，以最佳化行動裝置上的傳遞可見度。 僅支援具有相同高度和寬度的影像。
 
@@ -218,7 +218,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
   **[!UICONTROL Links]**&#x200B;區段可讓您選擇將影像分割成多個可點選區域的不同版面配置。 然後，您可以為每個人指派專用的&#x200B;**[!UICONTROL Link URL]**。
 
-  ![](assets/line_message_05.png)
+  ![已選取三區域版面配置的連結區段，以及每個區域A、B和C](assets/line_message_05.png)的連結URL欄位
 
 ### 設定視訊訊息傳送 {#configuring-a-video-message-delivery}
 
@@ -230,7 +230,7 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 請注意，在某些裝置上播放寬視訊或高視訊時，可能會遭到裁剪。
 
-![](assets/line_message_06.png)
+![含有預覽影像URL和視訊影像URL欄位的視訊訊息內容](assets/line_message_06.png)
 
 ## 存取報告 {#accessing-reports}
 
@@ -240,11 +240,11 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 >
 >追蹤報表會指出點進率。 [!DNL LINE]未將未結匯率納入考量。
 
-![](assets/line_reports_01.png)
+在「一般」旁邊反白顯示「報表」索引標籤的![LINE傳遞摘要](assets/line_reports_01.png)
 
 若為[!DNL LINE]服務報告，請從&#x200B;**[!UICONTROL Explorer]**&#x200B;索引標籤存取功能表&#x200B;**[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]**。 然後按一下[!DNL LINE]服務中的&#x200B;**[!UICONTROL Reports]**&#x200B;圖示。
 
-![](assets/line_reports.png)
+![LINESVC服務儀表板，在[一般]旁邊反白顯示[報表]索引標籤](assets/line_reports.png)
 
 ## 範例：建立並傳送個人化LINE訊息 {#example--create-and-send-a-personalized-line-message}
 
@@ -252,43 +252,43 @@ LINE 是免費應用程式，可傳送即時訊息、進行語音與視訊通話
 
 1. 從&#x200B;**[!UICONTROL Campaign]**&#x200B;索引標籤按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，以建立您的[!DNL LINE]傳遞。
 
-   ![](assets/line_usecase.png)
+   ![在Campaigns索引標籤中傳遞清單，其建立按鈕反白顯示](assets/line_usecase.png)
 
 1. Select **[!UICONTROL LINE V2 delivery]**&#x200B;傳遞範本並命名您的傳遞。
 
-   ![](assets/line_usecase_01.png)
+   ![在下拉式清單中選取LINE V2傳遞範本的新傳遞對話方塊](assets/line_usecase_01.png)
 
 1. 在傳送的設定視窗中，選取目標母體。
 
    如需詳細資訊，請參閱[識別目標母體](../../start/create-message.md#target-population)。
 
-   ![](assets/line_usecase_02.png)
+   ![具有「收件者」連結的傳遞，以及顯示「新增」按鈕以定義目標母體的目標對話方塊](assets/line_usecase_02.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;建立您的訊息並選取&#x200B;**[!UICONTROL Content type]**。
 
    首先，我們要建立&#x200B;**[!UICONTROL Text message]**。
 
-   ![](assets/line_usecase_03.png)
+   ![LINE訊息編輯器，其訊息型別設定為[簡訊]及包含促銷代碼的歡迎文字](assets/line_usecase_03.png)
 
 1. 將游標放在您要插入個人化文字的位置，然後按一下下拉式圖示，然後選取&#x200B;**[!UICONTROL Visitor]** > **[!UICONTROL First name]**。
 
-   ![](assets/line_usecase_05.png)
+   ![已選取「訪客後名字」的Personalization功能表，以將名字插入文字中](assets/line_usecase_05.png)
 
 1. 依照相同的程式新增影像，在&#x200B;**[!UICONTROL Message type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Image and links]**。
 
    新增您的&#x200B;**[!UICONTROL Image URL]**。
 
-   ![](assets/line_usecase_07.png)
+   ![含有訊息型別、影像URL和替代文字20%關閉的影像和連結訊息](assets/line_usecase_07.png)
 
 1. 在&#x200B;**[!UICONTROL Links]**&#x200B;區段中，選取將影像分割成多個可點選區域的版面。
 
 1. 將URL指派給影像的每個區域。
 
-   ![](assets/line_usecase_08.png)
+   ![影像和連結訊息有兩個區域，分別是A和B，每個區域都反白顯示自己的連結URL](assets/line_usecase_08.png)
 
 1. 儲存您的傳遞，然後按一下&#x200B;**[!UICONTROL Send]**&#x200B;以分析並傳送給目標。
 
    傳送至目標。
 
-   ![](assets/line_usecase_06.png)
+   ![已收到包含個人化問候語、促銷代碼文字和鞋影像20%折扣的LINE訊息](assets/line_usecase_06.png)
 

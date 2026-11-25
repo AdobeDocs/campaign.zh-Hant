@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 4%
+source-wordcount: '1290'
+ht-degree: 3%
 ---
 # 將檔案附加到電子郵件{#attaching-files}
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->為避免出現效能問題，建議每封電子郵件不要包含多個附件。 您可以從Campaign選項清單設定建議的臨界值。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)。
+>為避免出現效能問題，建議每封電子郵件不要包含多個附件。 您可以從Campaign選項清單設定建議的臨界值。 請參閱[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)。
 
 有兩種可能的情況：
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新增一個檔案作為電子郵件的附件。 此臨界值可從`NmsDelivery_MaxRecommendedAttachments`選項設定。
 
-在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#delivery)的Campaign選項清單中瞭解更多。
+在[Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)的Campaign選項清單中瞭解更多。
 
 ## 附加本機檔案 {#attaching-a-local-file}
 
@@ -65,21 +65,21 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 1. 按一下 **[!UICONTROL Add]** 按鈕。
 1. 按一下&#x200B;**[!UICONTROL File...]**&#x200B;以選取要附加至傳遞的檔案。
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![編輯附加檔案對話方塊，其中開啟[新增]功能表並選取[檔案]，以將檔案附加至電子郵件傳遞](assets/s_ncs_user_wizard_email_attachement.png)
 
 您也可以直接將檔案拖放至傳遞&#x200B;**[!UICONTROL Attachments]**&#x200B;欄位，或使用傳遞助理工具列的&#x200B;**[!UICONTROL Attach]**&#x200B;圖示，
 
-![](assets/s_ncs_user_wizard_add_file_ico.png)
+在傳遞助理工具列中電子郵件引數區段旁的![附加圖示](assets/s_ncs_user_wizard_add_file_ico.png)
 
 選取檔案後，會立即將其上傳至伺服器，以便在傳送時可用。 它列在&#x200B;**[!UICONTROL Attachments]**&#x200B;欄位中。
 
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+![已上傳檔案的電子郵件引數列在附件欄位](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## 建立計算附件 {#creating-a-calculated-attachment}
 
 當您建立已計算的附件時，可在分析或傳遞每封郵件期間計算附件的名稱，並可視收件者而定。 您也可以將其個人化並轉換至PDF。
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![編輯附加檔案對話方塊，其中已開啟[新增]功能表並選取[計算的附件]](assets/s_ncs_user_wizard_attachment.png)
 
 若要建立個人化附件，請遵循下列步驟：
 
@@ -87,7 +87,7 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL Calculated attachment]**。
 1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中選取計算型別：
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+![附件定義對話方塊，其中的[型別]下拉式清單顯示四個已計算的附件選項](assets/s_ncs_user_wizard_email01_136.png)
 
 可以使用以下選項：
 
@@ -103,11 +103,11 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 1. 在&#x200B;**[!UICONTROL Local file]**&#x200B;欄位中選取要上傳的檔案。
 1. 必要時指定標籤。 在傳訊系統中檢視時，標籤會取代檔案名稱。 如果未指定任何專案，預設會使用檔案名稱。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![附件定義[一般]索引標籤，包含[型別]、[標籤]和[本機檔案]欄位，以及伺服器上的[上傳檔案]選項](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
 1. 必要時，請選取&#x200B;**[!UICONTROL Upload file on the server]**，然後按一下&#x200B;**[!UICONTROL Update on server]**&#x200B;以開始傳輸。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![上傳進度視窗列出記錄訊息，並在100%](assets/s_ncs_user_wizard_email_calc_attachement_01.png)顯示檔案傳輸至伺服器
 
 然後，伺服器上便可使用檔案，將其附加至從此範本建立的不同傳送。
 
@@ -115,7 +115,7 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 
 選項&#x200B;**[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]**&#x200B;可讓您選取包含個人化欄位的檔案，例如預期收件者的姓氏和名字。
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+![包含PDF附件之收件者名字與姓氏個人化欄位的Word處理器檔案](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 對於此類附件，請套用下列設定步驟：
 
@@ -124,13 +124,13 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 1. 選取&#x200B;**[!UICONTROL Upload file on the server]**，然後按一下&#x200B;**[!UICONTROL Update on server]**&#x200B;開始傳輸。
 1. 您可以顯示預覽。 若要這麼做，請選取收件者。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![附件定義對話方塊，預覽從預覽清單選取之收件者的個人化PDF](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. 分析您的傳遞，然後開始進行。
 
    每位收件者都會收到附加至傳遞的個人化PDF。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![已收到包含個人化PDF附件的電子郵件，已開啟以在問候語中顯示收件者名稱](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -149,13 +149,13 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
    >
    >伺服器上必須有檔案。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![在傳遞分析期間使用指令碼計算檔案路徑和名稱（包括日期）的附件定義](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. 分析，然後開始您的傳遞。
 
    可以在分析記錄檔中看到檔案名稱計算。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![傳遞分析記錄，其行顯示反白顯示的計算附件檔案名稱結果](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### 附加個人化檔案 {#attach-a-personalized-file}
 
@@ -168,7 +168,7 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 1. 指定您要套用至附件的標籤。
 1. 在定義視窗中指定檔案的存取路徑及其確切名稱。 如果檔案名稱已個人化，您可以使用相關值的個人化欄位。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![使用檔案路徑中收件者姓氏的附件定義，為每個收件者挑選不同的檔案](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -178,21 +178,21 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 
    在以下範例中，附加檔案是根據名稱選擇的，其定義使用合併欄位。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![已收到一個附加檔案的電子郵件，其名稱是從收件者姓氏建置的](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
 ### 附件設定 {#attachment-settings}
 
 對於前兩個選項，您可以選取適當的選項來選擇&#x200B;**[!UICONTROL Upload file on the server]**。 **[!UICONTROL Update the file on the server]**&#x200B;連結可讓您開始上傳。
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![附件定義[一般]索引標籤，其中上載檔案在選取的伺服器上，更新在伺服器上](assets/s_ncs_user_wizard_email01_137.png)
 
 系統會顯示一則訊息，告知您檔案已上傳至伺服器：
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+![顯示檔案的附件定義已存在於伺服器訊息](assets/s_ncs_user_wizard_email01_1371.png)上
 
 對於檔案的變更，會顯示警告訊息：
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![附件定義顯示本機檔案不等於伺服器上的檔案的警告](assets/s_ncs_user_wizard_email01_1372.png)
 
 **[!UICONTROL Advanced]**&#x200B;索引標籤可讓您定義附加檔案的進階選項：
 
@@ -201,4 +201,4 @@ Adobe也建議限制附加檔案的大小和數量。 依預設，您只能新�
 
   在視窗中輸入文字，並使用下拉式清單中可用的個人化欄位。 在以下範例中，檔案名稱經過個人化，包含今天的日期和收件者名稱。
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![進階索引標籤，內含個人化附件檔案名稱的指令碼，以及顯示結果名稱的電子郵件](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

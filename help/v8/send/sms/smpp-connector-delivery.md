@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1322'
 ht-degree: 2%
 ---
 # SMPP聯結器說明 {#smpp-connector-desc}
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 以下是SMS流程與環境互動概覽的高階區塊圖。
 
-![](assets/smsv2_highlevel.png){zoomable="yes"}
+![簡訊程式，其SMPP聯結器和SR調解連結至Campaign資料庫和SMPP提供者](assets/smsv2_highlevel.png){zoomable="yes"}
 
 SMS流程託管2個重要元件：處理與SMPP提供者通訊的SMPP聯結器本身，以及SR調解的背景工作。
 
@@ -91,7 +91,7 @@ SMS程式會輪詢nms:extAccount，並在其SMPP聯結器中產生新連線，�
 
 以下圖表說明整個程式：
 
-![](assets/message_processing.png){zoomable="yes"}
+![廣泛記錄、providerMsgId、providerMsgStatus、SMPP聯結器與提供者之間的三個階段的順序圖](assets/message_processing.png){zoomable="yes"}
 
 **階段1**
 

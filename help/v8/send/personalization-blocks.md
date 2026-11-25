@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 17%
+source-wordcount: '689'
+ht-degree: 16%
 ---
 # 使用個人化區塊{#personalization-blocks}
 
 個人化區塊是動態內容，包含您可以插入傳送中的特定轉譯。 例如，您可以新增標誌、問候語訊息或映象頁面的連結。
 
-若要存取個人化內容區塊，請瀏覽至總管的&#x200B;**[!UICONTROL Resources > Campaign Management > Personalization blocks]**&#x200B;節點。 [此區段](#ootb-personalization-blocks)中列出內建的個人化區塊。
+若要存取個人化內容區塊，請瀏覽至總管的&#x200B;**[!UICONTROL Resources > Campaign Management > Personalization blocks]**&#x200B;節點。 內建個人化區塊列在[內建個人化區塊](#ootb-personalization-blocks)中。
 
 您也可以定義新區塊，以最佳化您的傳送個人化。 [了解更多資訊](#create-custom-personalization-blocks)。
 
@@ -42,9 +42,9 @@ ht-degree: 17%
 若要在訊息中插入個人化區塊，請遵循下列步驟：
 
 1. 在傳遞精靈的內容編輯器中，按一下個人化圖示並選取&#x200B;**[!UICONTROL Include]**&#x200B;功能表。
-1. 從清單中Select個人化區塊，或按一下&#x200B;**[!UICONTROL Other...]**&#x200B;功能表以存取完整清單。
+1. 從清單中選取個人化區塊，或按一下&#x200B;**[!UICONTROL Other...]**&#x200B;功能表以存取完整清單。
 
-   ![](assets/perso-content-block.png)
+   ![在個人化功能表中包含子功能表，列出區塊，例如映象頁面的連結，末尾的[其他……]](assets/perso-content-block.png)
 
 1. 然後，個人化區塊會插入為指令碼。 產生個人化時，會自動調整成適合收件者設定檔。
 1. 瀏覽至&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤並選取收件者，以檢視特定收件者的此區塊內容。
@@ -82,14 +82,14 @@ ht-degree: 17%
 1. 瀏覽至Campaign檔案總管的&#x200B;**[!UICONTROL Resources > Campaign Management > Personalization blocks]**&#x200B;資料夾。
 1. 在內建區塊清單上方，按一下&#x200B;**[!UICONTROL New]**。
 
-   ![](assets/perso-new-block.png)
+   ![在Campaign檔案總管中使用新按鈕上的箭號的個人化區塊清單](assets/perso-new-block.png)
 
 1. 填寫個人化區塊的設定：
 
-   ![](assets/perso-custom-block.png)
+   ![新的個人化區塊表單，包含選擇退出連結的標籤、內部名稱、內容型別和指令碼內容](assets/perso-custom-block.png)
 
    * 輸入區塊的標籤。 此標籤會顯示在個人化欄位插入視窗中。
-   * Select a **傳遞**&#x200B;內容型別。
+   * 選取&#x200B;**傳遞**&#x200B;內容型別。
    * 啟用&#x200B;**[!UICONTROL Visible in the customization menus]**&#x200B;選項，讓此區塊可從個人化欄位插入圖示存取。
    * 如有必要，請啟用&#x200B;**[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;選項，為HTML和文字電子郵件定義兩個不同的區塊。
    * 輸入內容（在HTML、文字、JavaScript等） 個人化區塊的，然後按一下&#x200B;**[!UICONTROL Save]**。
@@ -100,4 +100,4 @@ ht-degree: 17%
 
 在以下影片中瞭解如何建立動態內容區塊，以及如何使用這些區塊來個人化您的電子郵件傳送內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449017?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

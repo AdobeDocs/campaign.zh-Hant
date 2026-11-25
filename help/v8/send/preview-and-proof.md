@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 10%
+source-wordcount: '829'
+ht-degree: 9%
 ---
 # 預覽和測試您的電子郵件 {#preview-test}
 
@@ -41,11 +41,11 @@ ht-degree: 10%
 1. 瀏覽至傳遞的&#x200B;**預覽**&#x200B;標籤。
 1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;按鈕以選取設定檔以填入個人化資料。 您可以在資料庫中選擇特定的收件者、種子地址，或從目標母體中選取設定檔（如果已經定義）。 您也可以檢查內容而不進行個人化。
 
-   ![](assets/test-personalization.png)
+   ![在[預覽]索引標籤中測試個人化功能表：收件者、種子地址、傳遞目標母體、無個人化](assets/test-personalization.png)
 
 1. 會產生預覽，讓您可檢查訊息呈現。 在訊息預覽中，個人化元素會由選取的測試設定檔資料取代。
 
-   ![](assets/test-personalization-with-a-recipient.png)
+   ![以選取的測試設定檔名字個人化主旨和標題的電子郵件預覽](assets/test-personalization-with-a-recipient.png)
 
 1. Select其他測試設定檔，以預覽訊息每個變體的電子郵件呈現。
 
@@ -59,7 +59,7 @@ ht-degree: 10%
 
 校樣目標可以在傳遞範本中定義，或專用於傳遞。 在這兩種情況下，都從&#x200B;**[!UICONTROL To]**&#x200B;連結瀏覽至目標定義畫面，並選取&#x200B;**[!UICONTROL Target of the proofs]**&#x200B;標籤。
 
-![](assets/target-of-proofs.png)
+![Select目標對話方塊，校樣標籤的目標，具有定位模式下拉式清單和新增按鈕](assets/target-of-proofs.png)
 
 已從&#x200B;**[!UICONTROL Targeting mode]**&#x200B;下拉式清單中選取校訂目標的型別。
 
@@ -68,11 +68,11 @@ ht-degree: 10%
 
   預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800"}
+  ![以用來選取特定設定檔的詳細資訊圖示取代列出校訂地址的地址模式](assets/target-of-proofs-substitution-details.png){width="800"}
 
   選擇&#x200B;**[!UICONTROL Select a profile (must be included in the target)]**&#x200B;選項並選取收件者。
 
-  ![](assets/target-of-proofs-substitution.png){width="800"}
+  ![與Select的待命校訂收件者對話方塊，其中包含設定檔選項和從清單中選取的收件者](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 使用&#x200B;**[!UICONTROL Seed addresses]**&#x200B;選項以使用種子地址作為證明目標。 這些位址可從檔案匯入或手動輸入。
@@ -81,7 +81,7 @@ ht-degree: 10%
   >
   >種子地址不屬於預設收件者表格(nms:recipient)，它們是在單獨的表格中建立的。 如果您使用新資料擴充收件者表格，則必須使用相同資料擴充種子地址表格。
 
-  在[本節](../audiences/test-profiles.md)中進一步瞭解種子地址。
+  在[在Campaign](../audiences/test-profiles.md)中建立測試設定檔，深入瞭解種子地址。
 
 * 使用&#x200B;**[!UICONTROL Specific target and Seed addresses]**&#x200B;選項結合種子地址和特定的電子郵件地址。 相關設定隨後會在兩個單獨的子標籤中定義。
 
@@ -93,7 +93,7 @@ ht-degree: 10%
 1. 從&#x200B;**[!UICONTROL Send a proof]**&#x200B;視窗，檢查證明收件者。
 1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;開始準備校訂訊息。
 
-   ![](assets/send-proof-analyze.png){width="800"}
+   ![傳送證明視窗，其中包含替代地址，以及按一下[分析]後執行的傳遞分析記錄](assets/send-proof-analyze.png){width="800"}
 
 1. 傳遞準備完成後，請使用&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;開始傳送證明訊息。
 
@@ -115,11 +115,11 @@ ht-degree: 10%
 
 根據預設，主旨中的`Proof #N`提及可識別校訂訊息，其中`N`為校訂號碼。 此數字會隨著每個證明傳遞分析而增加。 您可以視需要變更`proof`首碼。
 
-![](assets/proof-parameters.png){width="800"}
+來自[進階]索引標籤的![校訂內容對話方塊，其中包含校訂選項以及[標籤前置詞]欄位設定為[校訂]](assets/proof-parameters.png){width="800"}
 
 
 ## 操作說明影片 {#video-proof}
 
 瞭解如何傳送及驗證電子郵件傳遞的校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

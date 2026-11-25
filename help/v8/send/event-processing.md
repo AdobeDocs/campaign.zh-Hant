@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '744'
 ht-degree: 1%
 ---
 # 事件處理 {#event-processing}
 
-在交易式訊息的內容中，事件是由外部資訊系統產生，並透過&#x200B;**[!UICONTROL PushEvent]**&#x200B;和&#x200B;**[!UICONTROL PushEvents]**&#x200B;方法傳送至Adobe Campaign。 在[本節](event-description.md)中說明這些方法。
+在交易式訊息的內容中，事件是由外部資訊系統產生，並透過&#x200B;**[!UICONTROL PushEvent]**&#x200B;和&#x200B;**[!UICONTROL PushEvents]**&#x200B;方法傳送至Adobe Campaign。 這些方法的說明請參閱[瞭解事件描述](event-description.md)。
 
 此事件包含連結至事件的資料，例如：
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 事件資料的範例：
 
-![](assets/mc-event-request.png)
+![範例事件XML：在ctx元素中的事件資料屬性（型別、電子郵件、來源）和個人化事件資料](assets/mc-event-request.png)
 
 若要處理異動訊息事件，下列步驟將套用至執行例項：
 
@@ -65,11 +65,11 @@ ht-degree: 1%
 
 收集到事件後，系統會根據技術工作流程，在執行個體的即時和批次佇列之間，以及等待連結至[訊息範本](transactional-template.md)時，對事件進行劃分。
 
-![](assets/mc-event-queues.png)
+執行例項上的![訊息中心資料夾：預設資料夾下的即時事件和批次事件](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->在執行例項上，**[!UICONTROL Real time events]**&#x200B;或&#x200B;**[!UICONTROL Batch events]**&#x200B;資料夾不能設定為檢視，因為這樣可能會導致存取許可權問題。 如需將資料夾設定為檢視的詳細資訊，請參閱[本節](../audiences/folders-and-views.md#turn-a-folder-to-a-view)。
+>在執行例項上，**[!UICONTROL Real time events]**&#x200B;或&#x200B;**[!UICONTROL Batch events]**&#x200B;資料夾不能設定為檢視，因為這樣可能會導致存取許可權問題。 如需將資料夾設定為檢視的詳細資訊，請參閱[將資料夾轉換為檢視](../audiences/folders-and-views.md#turn-a-folder-to-a-view)。
 
 ## 將事件轉移至範本 {#event-to-template}
 
@@ -79,11 +79,11 @@ ht-degree: 1%
 
 * 在事件本身的屬性中指定的事件型別：
 
-  ![](assets/event-type-sample.png)
+  ![事件型別屬性設為purchase_order](assets/event-type-sample.png)的批次事件XML
 
 * 訊息範本屬性中指定的事件型別：
 
-  ![](assets/event-type-select.png)
+  ![訊息範本精靈，其事件型別清單顯示購買和purchase_def](assets/event-type-select.png)
 
 依預設，路由依賴下列資訊：
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 * **個擱置中的傳遞**
 已處理事件，且已連結傳遞範本。 電子郵件正在等候傳遞，且已套用傳統傳遞程式。 如需詳細資訊，您可以開啟傳遞。
 * **已傳送**，**已忽略**&#x200B;及&#x200B;**傳遞錯誤**
-這些傳遞狀態是透過&#x200B;**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
+這些傳遞狀態是透過**updateEventsStatus**&#x200B;工作流程復原。 如需詳細資訊，您可以開啟相關的傳送。
 * **事件未涵蓋**
 異動訊息路由階段失敗。 例如，Adobe Campaign找不到當作事件範本的電子郵件。
 * **事件已過期**

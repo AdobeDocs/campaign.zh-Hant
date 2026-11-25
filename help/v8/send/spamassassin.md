@@ -19,10 +19,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 ---
 # SpamAssassin{#spamassassin}
 
@@ -52,7 +52,7 @@ SpamAssassin運用各種垃圾郵件偵測技術，包括：
 1. 移至 **[!UICONTROL Preview]** 索引標籤。
 1. 選取收件者以預覽您的傳遞。
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![開啟收件者清單的[傳遞預覽]索引標籤，以選擇反垃圾郵件檢查的收件者](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -60,13 +60,13 @@ SpamAssassin運用各種垃圾郵件偵測技術，包括：
 
 1. 警告訊息會提供測試的結果。 如果偵測到高風險等級，會顯示下列警告訊息：
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![預覽標籤警告：反垃圾郵件檢查偵測到此電子郵件有高風險，包含更多連結](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. 按一下警告旁的&#x200B;**[!UICONTROL More...]**&#x200B;連結。
 1. 選取 **[!UICONTROL Anti-spam checking]** 索引標籤。
 1. 移至&#x200B;**[!UICONTROL Points / Rule / Description]**&#x200B;區段以檢視此風險的原因。
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![反垃圾郵件檢查索引標籤，包含垃圾郵件分數、最高授權分數以及分數/規則/說明清單](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

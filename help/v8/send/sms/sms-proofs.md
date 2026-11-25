@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '303'
 ht-degree: 1%
 ---
 # 傳送簡訊傳遞的證明 {#sms-proof}
@@ -39,13 +39,13 @@ Adobe強烈建議您設定傳遞驗證週期。 將內容傳送給對象之前�
 
 1. 按一下&#x200B;**[!UICONTROL Send a proof]**&#x200B;按鈕，將會開啟一個視窗
 
-   ![](assets/proof_targeting.png){zoomable="yes"}
+   ![使用鎖定目標模式清單傳送校樣對話方塊：特定校樣目標、地址替代、種子地址或兩者](assets/proof_targeting.png){zoomable="yes"}
 
    您有多個模式可傳送證明：
 
    * **[!UICONTROL Definition of a specific proof target]**：可讓您以篩選條件查詢資料庫中作為證明目標的地址
    * **[!UICONTROL Substitution of the address]**：可讓您輸入測試地址，並使用目標收件者資料來驗證內容。 您可以手動輸入替代地址，或從下拉式清單中選取替代地址。 關聯的[分項清單](../../config/enumerations.md)是&#x200B;**[!UICONTROL Substitution address (rcpAddress)]**。
-     預設會隨機執行替代，但您可以透過&#x200B;**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
+     預設會隨機執行替代，但您可以透過**[!UICONTROL Detail]**&#x200B;圖示從主要目標中選取特定收件者。
    * **[!UICONTROL Seed addresses]**：可讓您存取種子地址以作為證明目標。 這些位址可從檔案匯入或手動輸入。
    * **[!UICONTROL Specific target and Seed addresses]**：可讓您合併來自收件者的種子地址和地址。
 
@@ -53,12 +53,12 @@ Adobe強烈建議您設定傳遞驗證週期。 將內容傳送給對象之前�
 
    在下列範例中，我們選擇&#x200B;**[!UICONTROL Definition of a specific proof target]**，並新增收件者：
 
-   ![](assets/proof_recipient.png){zoomable="yes"}
+   ![在特定校訂目標模式的定義中傳送校訂對話方塊，新增一個收件者並新增分析按鈕](assets/proof_recipient.png){zoomable="yes"}
 
 1. 按一下 **[!UICONTROL Analyze]** 按鈕。
 Adobe Campaign會在驗證證明傳送之前執行所有控制。 分析結束時，**[!UICONTROL Confirm delivery]**&#x200B;按鈕將可供點按。
 
-   ![](assets/proof_analyze.png){zoomable="yes"}
+   ![在分析後傳送證明對話方塊：準備完成、1則要傳送的訊息、分析記錄檔和確認傳遞按鈕](assets/proof_analyze.png){zoomable="yes"}
 
 1. 若要傳送簡訊傳遞的證明，請按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;按鈕。
 

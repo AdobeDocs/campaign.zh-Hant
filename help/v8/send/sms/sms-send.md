@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '143'
+ht-degree: 2%
 ---
 # 傳送簡訊給對象 {#sms-send-audience}
 
@@ -40,10 +40,10 @@ ht-degree: 3%
 
    在以下範例中，我們選擇&#x200B;**[!UICONTROL Deliver it as soon as possible]**，**[!UICONTROL Analyze]**&#x200B;按鈕出現。 我們按一下該&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。
 
-   ![](assets/send_action.png){zoomable="yes"}
+   ![傳送至主要傳遞目標對話方塊，並選取儘快傳遞並醒目提示分析](assets/send_action.png){zoomable="yes"}
 
    Adobe Campaign會在驗證證明傳送之前執行所有控制。 您會看到實際對象數量。 分析結束時，**[!UICONTROL Confirm delivery]**&#x200B;按鈕將可供點按。
 
-   ![](assets/send_analyze.png){zoomable="yes"}
+   ![已完成傳遞分析，顯示要傳送的訊息數目以及[確認傳遞]按鈕](assets/send_analyze.png){zoomable="yes"}
 
 1. 若要將您的SMS傳送傳送傳送傳送給其對象，請按一下&#x200B;**[!UICONTROL Confirm delivery]**&#x200B;按鈕。

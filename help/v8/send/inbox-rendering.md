@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 9%
+source-wordcount: '793'
+ht-degree: 8%
 ---
 # 收件匣轉譯{#inbox-rendering}
 
@@ -72,7 +72,7 @@ Litmus是功能豐富的電子郵件驗證和預覽應用程式。 它可讓電�
 
 剩餘的可用代號數目會顯示在[收件匣轉譯報告](#inbox-rendering-report)中。
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+![收件匣轉譯結果報告，其中每月套裝中使用的代號數目已反白顯示](assets/s_tn_inbox_rendering_tokens.png)
 
 收件匣轉譯功能通常用於測試新設計電子郵件的HTML架構。 每個轉譯最多需要大約70個權杖（取決於通常測試的環境數量）。 但是，在某些情況下，您可能需要多個收件匣轉譯報告才能完整測試您的傳送。 因此，可能需要更多權杖才能完成數項檢查。
 
@@ -87,17 +87,17 @@ Litmus是功能豐富的電子郵件驗證和預覽應用程式。 它可讓電�
 
 1. 選取&#x200B;**[!UICONTROL Analyze]**&#x200B;以啟動擷取處理作業。
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   傳遞工具列中的![收件匣轉譯按鈕，以及收件匣轉譯對話方塊的[分析]按鈕](assets/s_tn_inbox_rendering_button.png)
 
-   已傳送證明。 傳送電子郵件後幾分鐘，即可在該校訂中存取轉譯縮圖。 如需傳送校樣的詳細資訊，請參閱[本節](preview-and-proof.md#send-proofs)。
+   已傳送證明。 傳送電子郵件後幾分鐘，即可在該校訂中存取轉譯縮圖。 如需傳送校樣的詳細資訊，請參閱[傳送校樣](preview-and-proof.md#send-proofs)。
 
 1. 傳送後，證明會出現在傳送清單中。 按兩下。
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![傳送清單，其中包含傳送後選取的電子郵件傳遞證明](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. 前往校訂的&#x200B;**收件匣轉譯**&#x200B;標籤。
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![校樣的收件匣轉譯索引標籤（反白顯示），包含報告摘要和行動區段](assets/s_tn_inbox_rendering_tab.png)
 
    此時會顯示「收件匣轉譯」報告。
 
@@ -107,14 +107,14 @@ Litmus是功能豐富的電子郵件驗證和預覽應用程式。 它可讓電�
 
 頂端區段顯示透過圖形化色彩編碼表示法重新分割已接收、不想要（垃圾郵件）、未接收或待接收的訊息數目。
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![收件匣、垃圾訊息、未收到和等待接收的圓形圖，其中未收到和等待隱藏](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 將滑鼠指標暫留在圖表上，即可顯示每種顏色的詳細資料。 按一下清單上的專案以隱藏或顯示圖表中的對應類別。
 
 報告正文分為三個部分： **[!UICONTROL Mobile]**、**[!UICONTROL Desktop]**&#x200B;和&#x200B;**[!UICONTROL Webmails]**。 向下捲動報告，以顯示分為這三種類別的所有呈現。
 
-![](assets/s_tn_inbox_rendering_report.png)
+收件匣轉譯報告的![網頁郵件區段，其中包含每個網頁郵件和瀏覽器組合的卡片](assets/s_tn_inbox_rendering_report.png)
 
 若要取得每個報告的詳細資料，請按一下相對應的卡片。 會針對所選取接收方法來顯示呈現。
 
-![](assets/s_tn_inbox_rendering_example.png)
+![在Chrome上以Gmail詳細呈現電子郵件，從報告中的卡片開啟](assets/s_tn_inbox_rendering_example.png)

@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 9%
+source-wordcount: '212'
+ht-degree: 3%
 ---
 # 設定 URL 追蹤選項 {#personalizing-url-tracking}
 
@@ -45,7 +45,7 @@ ht-degree: 9%
 >
 >電子郵件中的影像管理也在此視窗中設定。 請參閱[新增影像](defining-the-email-content.md#adding-images)。
 
-![](assets/s_ncs_user_email_del_tracking_ico.png)
+![在工具列中反白顯示「追蹤和影像」圖示的電子郵件傳遞](assets/s_ncs_user_email_del_tracking_ico.png)
 
 您可以設定追蹤選項：
 
@@ -57,15 +57,15 @@ ht-degree: 9%
 
 * 啟用/停用訊息開啟的追蹤。
 
-![](assets/s_ncs_user_email_del_tracking_param.png)
+![追蹤與影像視窗、追蹤標籤、啟用追蹤與開啟追蹤選項，以及追蹤的URL樹狀結構](assets/s_ncs_user_email_del_tracking_param.png)
 
 追蹤的URL會以樹狀形式列在中央視窗中。
 
-您可以個別針對每個訊息URL啟用或停用追蹤。 如需詳細資訊，請參閱[本章節](tracked-links.md)。
+您可以個別針對每個訊息URL啟用或停用追蹤。 如需詳細資訊，請參閱[設定追蹤的連結](tracked-links.md)。
 
 **[!UICONTROL Advanced]**&#x200B;索引標籤可讓您個人化追蹤的URL與開頭URL的計算公式。
 
-![](assets/s_ncs_user_email_del_tracking_param_adv.png)
+![追蹤與影像視窗，進階索引標籤，包含追蹤的URL與開啟的URL計算公式](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
 >[!CAUTION]
 >

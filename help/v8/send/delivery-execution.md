@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '820'
 ht-degree: 2%
 ---
 # 傳送及監控異動訊息 {#delivery-execution}
@@ -71,7 +71,7 @@ Adobe Campaign提供數個報表，可讓您控制活動並順利執行執行執
 
 可以從&#x200B;**控制項執行個體**&#x200B;的&#x200B;**[!UICONTROL Reports]**&#x200B;索引標籤存取這些訊息中心報告。
 
-![](assets/mc-reports.png)
+![報告標籤上的全域報告頁面，其中三個Message Center報告強調顯示](assets/mc-reports.png)
 
 ### 訊息中心事件歷史記錄 {#history-events}
 
@@ -86,7 +86,7 @@ Adobe Campaign提供數個報表，可讓您控制活動並順利執行執行執
 
 **[!UICONTROL Message Center processing time]**&#x200B;報告顯示與即時佇列相關的主要指標。 此報表也可透過控制執行個體上的&#x200B;**[!UICONTROL Monitoring]**&#x200B;索引標籤存取。
 
-![](assets/mc-processing-time-report.png)
+![訊息中心處理時間報告，包含頻道、執行個體和期間篩選器、指標和圖表](assets/mc-processing-time-report.png)
 
 您可以選擇顯示全域統計資料或特定執行例項的相關統計資料。 您也可以依管道和特定期間篩選資料。
 
@@ -135,4 +135,4 @@ Adobe Campaign提供數個報表，可讓您控制活動並順利執行執行執
 1. 在&#x200B;**執行執行個體**&#x200B;上開啟部署精靈，並瀏覽至&#x200B;**[!UICONTROL Message Center]**&#x200B;頁面。
 1. 使用箭頭來變更臨界值。
 
-   ![](assets/mc-thresholds.png)
+   ![訊息中心組態精靈，包含執行執行個體設定以及警告和警示臨界值](assets/mc-thresholds.png)

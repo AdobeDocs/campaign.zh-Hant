@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 ---
 # 將郵件副本傳送至密件副本地址 {#bcc}
@@ -62,7 +62,7 @@ Adobe Campaign本身不會管理封存的檔案。 與已傳送電子郵件相�
 1. 按一下 **[!UICONTROL Properties]** 按鈕。
 1. 從&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤，核取&#x200B;**[!UICONTROL Email BCC with Enhanced MTA]**&#x200B;選項。
 
-   ![](assets/email-bcc.png)
+   ![傳遞屬性「傳遞」索引標籤，其中電子郵件密件副本包含強調顯示的增強型動量選項](assets/email-bcc.png)
 
 1. 按一下 **[!UICONTROL Ok]** 確認。
 

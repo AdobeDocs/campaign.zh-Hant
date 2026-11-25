@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '532'
 ht-degree: 1%
 ---
 # 自訂表情符號清單 {#customize-emoticons}
@@ -55,7 +55,7 @@ ht-degree: 1%
    >
    >現成可用的分項清單只能由Adobe Campaign Classic主控台的管理員管理。
 
-   ![](assets/emoticon_1.png)
+   ![已選取管理、平台和分項清單，並反白表情符號清單分項清單的](assets/emoticon_1.png)
 
 1. 按一下 **[!UICONTROL Add]**。
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    * **[!UICONTROL Label]**：您新表情符號的標籤。
 
-   ![](assets/emoticon_5.png)
+   ![列舉值對話方塊，針對新表情符號](assets/emoticon_5.png)顯示U+代碼和標籤欄位
 
 1. 完成設定時，按一下&#x200B;**[!UICONTROL Ok]**，然後再按&#x200B;**[!UICONTROL Save]**。
 您的新表情符號會自動放入商店中。
@@ -77,7 +77,7 @@ ht-degree: 1%
 
    <br>在此範例中，我們選擇顯示訂單編號61，這表示如果專案已有此訂單，則會自動移至商店，而我們的新專案會出現在分項清單中。
 
-   ![](assets/emoticon_2.png)
+   ![列舉值對話方塊，其中U+代碼、標籤和顯示順序欄位設定為61](assets/emoticon_2.png)
 
 1. 您的新表情符號現已新增至&#x200B;**[!UICONTROL Insert emoticon list]**&#x200B;現成的分項清單。 您可以隨時變更其&#x200B;**[!UICONTROL Display order]**，或將其移至市集（如果不再需要的話）。
 
@@ -85,8 +85,8 @@ ht-degree: 1%
 
 1. 您的新表情符號現在可在傳送中找到了，位置位於先前步驟中設定的第61個位置的&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;快顯視窗中。 如需如何在傳遞中使用表情符號的詳細資訊，請參閱本[區段](defining-the-email-content.md#inserting-emoticons)。
 
-   ![](assets/emoticon_4.png)
+   ![插入表情符號快顯視窗，並將新表情符號加入最後一個位置](assets/emoticon_4.png)
 
 1. 如果&#x200B;**[!UICONTROL Insert emoticon]**&#x200B;快顯視窗中出現下清單情符號，表示未正確設定。 檢查您的&#x200B;**[!UICONTROL U+]**&#x200B;程式碼或&#x200B;**[!UICONTROL Display order]**&#x200B;在&#x200B;**[!UICONTROL Emoticon list]**&#x200B;中是否正確。
 
-   ![](assets/emoticon_6.png)
+   ![插入表情符號快顯視窗，其中有兩個紅色十字圖示標示錯誤設定的表情符號](assets/emoticon_6.png)

@@ -28,9 +28,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # 監視和追蹤簡訊
@@ -47,25 +47,25 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL Summary]**&#x200B;索引標籤中，您有主要資料，例如已處理的訊息數和成功數。
 
-![](assets/sms_summary.png){zoomable="yes"}
+![簡訊傳遞儀表板摘要索引標籤，包含要傳送的訊息、已處理及成功率，以及傳遞狀態](assets/sms_summary.png){zoomable="yes"}
 
 傳送SMS後，無法再存取與傳送內容有關的&#x200B;**[!UICONTROL SMS]**&#x200B;標籤以進行變更。
 
 在&#x200B;**[!UICONTROL Delivery]**&#x200B;標籤中，您擁有傳遞記錄的資訊。 對於每個聯絡的地址，您可以檢視簡訊是否已傳送
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![傳遞索引標籤記錄檔清單，針對每個聯絡的地址，顯示是否傳送簡訊，以及狀態和原因](assets/sms_deliverylogs.png){zoomable="yes"}
 
 您可以在&#x200B;**[!UICONTROL Exclusions]**&#x200B;索引標籤中檢視有關為何將某些地址從目標中排除的詳細資料。
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![傳遞索引標籤排除專案索引標籤會以原因列出被忽略的地址，例如已加入封鎖清單的地址或雙精度浮點數](assets/sms_exclusions.png){zoomable="yes"}
 
 **[!UICONTROL Tracking]**&#x200B;索引標籤與追蹤有關。 以下是在SMS內容中追蹤的URL範例。
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![追蹤標籤URL清單顯示來自SMS內容的追蹤URL及其標籤、型別和來源URL](assets/sms_trackinglogs.png){zoomable="yes"}
 
 最後，在傳遞啟動期間包含所有詳細資料的&#x200B;**[!UICONTROL Audit]**&#x200B;標籤：
 
-![](assets/sms_audit.png){zoomable="yes"}
+![稽核索引標籤記錄檔列出傳遞啟動期間記錄的訊息，包含日期和訊息欄](assets/sms_audit.png){zoomable="yes"}
 
 ## 瞭解簡訊失敗
 

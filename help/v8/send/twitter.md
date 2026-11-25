@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 3%
+source-wordcount: '895'
+ht-degree: 2%
 ---
 # 透過Adobe Campaign在X (Twitter)上發佈訊息 {#post-tw-messages}
 
@@ -40,7 +40,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 * 透過恢復設定檔資料來收集新聯絡人，這可讓您執行目標定位行銷活動，並在可能時實施跨管道策略。 此動作需要使用者同意。
 
 
-整合您的X帳戶與Adobe Campaign的設定步驟在[此頁面](../connect/ac-tw.md)中說明。
+將X帳戶與Adobe Campaign整合的設定步驟已詳述於[使用Campaign和X (Twitter)](../connect/ac-tw.md)。
 
 ## 建立並發佈X貼文 {#publish-on-tw}
 
@@ -50,13 +50,13 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
    根據&#x200B;**[!UICONTROL Tweet (twitter)]**&#x200B;傳遞範本建立新的傳遞。
 
-   ![](assets/tw-new-delivery.png)
+   ![新的傳遞對話方塊，其中包含在範本清單中選取的推文(twitter)傳遞範本](assets/tw-new-delivery.png)
 
 1. Select是主要目標
 
    您要傳送貼文的目標帳戶Select。
 
-   ![](assets/tw-define-target.png)
+   主要目標標籤上的![Select目標對話方塊，其中包含Twitter帳戶目標以及反白顯示的[新增]按鈕](assets/tw-define-target.png)
 
    1. 按一下&#x200B;**[!UICONTROL To]**&#x200B;連結。
    1. 按一下 **[!UICONTROL Add]** 按鈕。
@@ -77,7 +77,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
    在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中輸入您貼文的內容。
 
-   ![](assets/tw-delivery-content.png)
+   ![已輸入張貼文字和個人化欄位的Tweet傳遞內容標籤](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
    瀏覽&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤以檢查文章的轉譯。
 
-   ![](assets/tw-delivery-preview.png)
+   ![Tweet傳遞的[預覽]索引標籤，顯示服務名稱為](assets/tw-delivery-preview.png)的已轉譯張貼文字
 
    1. 按一下「**[!UICONTROL Preview]**」標籤。
    1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式功能表並選取&#x200B;**[!UICONTROL Service]**。
@@ -104,7 +104,7 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 1. 張貼訊息
 
    1. 內容核准後，按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
-   1. 選取&#x200B;**[!UICONTROL Deliver as soon as possible]**&#x200B;並按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。
+   1. Select **[!UICONTROL Deliver as soon as possible]**&#x200B;並按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;按鈕。
    1. 分析完成後，檢查結果。
    1. 按一下&#x200B;**[!UICONTROL Confirm delivery]**，然後按一下&#x200B;**[!UICONTROL Yes]**。
 
@@ -116,17 +116,17 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
 1. 根據&#x200B;**[!UICONTROL Tweet (Direct Message)]**&#x200B;內建傳遞範本建立X傳遞。
 
-1. 選取主要目標
+1. Select是主要目標
 
-   ![](assets/tw-dm-define-target.png)
+   ![Select目標對話方塊，其中包含訪客訂閱對應以及直接訊息的醒目提示新增按鈕](assets/tw-dm-define-target.png)
 
-   1. 選取&#x200B;**[!UICONTROL To]**&#x200B;連結和&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
+   1. Select **[!UICONTROL To]**&#x200B;連結和&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
 
    1. 選擇目標定位型別
 
       * 選取&#x200B;**[!UICONTROL Twitter subscribers]**&#x200B;以傳送直接訊息給所有追隨者。
 
-      * 選取&#x200B;**[!UICONTROL Filter conditions]**&#x200B;以定義查詢並檢視其結果。 瞭解如何在[本節](../audiences/create-filters.md#advanced-filters)中建立篩選器。
+      * 選取&#x200B;**[!UICONTROL Filter conditions]**&#x200B;以定義查詢並檢視其結果。 瞭解如何在[進階篩選器](../audiences/create-filters.md#advanced-filters)中建立篩選器。
 
 1. 從&#x200B;**[!UICONTROL Target of the proofs]**&#x200B;索引標籤選取校訂目標：此帳戶將收到您直接郵件的校訂。
 
@@ -139,15 +139,15 @@ Adobe Campaign隨附&#x200B;**社交行銷**&#x200B;模組，可讓您透過X �
 
 1. 在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中輸入訊息的內容。
 
-   ![](assets/tw-dm-content.png)
+   包含個人化訊息文字的Twitter直接訊息傳遞的![內容標籤](assets/tw-dm-content.png)
 
-   個人化欄位的使用方式與電子郵件傳遞相同，例如，在訊息本文中新增追隨者的名稱。 若要了解更多資訊，請參閱[此區段](../send/personalize.md)。
+   個人化欄位的使用方式與電子郵件傳遞相同，例如，在訊息本文中新增追隨者的名稱。 深入瞭解[開始使用個人化](../send/personalize.md)。
 
 1. 預覽您的訊息
 
    瀏覽&#x200B;**[!UICONTROL Preview]**&#x200B;索引標籤以檢查文章的轉譯。
 
-   ![](assets/tw-dm-preview.png)
+   ![顯示所選訂閱者個人化文字的Twitter直接訊息預覽標籤](assets/tw-dm-preview.png)
 
    1. 按一下「**[!UICONTROL Preview]**」標籤。
    1. 按一下&#x200B;**[!UICONTROL Test personalization]**&#x200B;下拉式功能表並選取&#x200B;**[!UICONTROL Visitor Subscription]**。

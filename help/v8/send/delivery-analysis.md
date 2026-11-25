@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '748'
 ht-degree: 5%
 ---
 # 傳遞分析 {#analyze-delivery}
@@ -41,11 +41,11 @@ ht-degree: 5%
 1. 在傳遞視窗中，按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL Deliver as soon as possible]**&#x200B;以執行對象計算，並準備立即傳送的內容。 您也可以將傳送延遲到較晚的日期，或是在未準備內容的情況下取得母體預估值。
 
-   ![](assets/delivery-analysis-start.png)
+   ![傳送至主要傳遞目標對話方塊，並選取儘快傳遞，加上分析按鈕](assets/delivery-analysis-start.png)
 
 1. 按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;以手動啟動分析。 進度列會顯示分析的進度。
 
-   在傳遞分析期間會套用一組檢查規則。 這些規則是在&#x200B;**型別**&#x200B;中定義，該型別是在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中選取的。 在[本節](../../automation/campaign-opt/campaign-typologies.md)中進一步瞭解型別。
+   在傳遞分析期間會套用一組檢查規則。 這些規則是在&#x200B;**型別**&#x200B;中定義，該型別是在傳遞屬性的&#x200B;**[!UICONTROL Typology]**&#x200B;索引標籤中選取的。 深入瞭解[中的型別](../../automation/campaign-opt/campaign-typologies.md)開始使用行銷活動型別。
 
    針對電子郵件，預設分析會涵蓋下列幾點：
 
@@ -72,7 +72,7 @@ ht-degree: 5%
    * 黃色圖示表示非關鍵性處理錯誤。
    * 紅色圖示表示嚴重錯誤，無法傳送傳遞。
 
-   ![](assets/delivery-analysis-results.png){width="800"}
+   ![分析結果：準備完成、要傳送的22則訊息、有警告的記錄以及[確認傳遞]按鈕](assets/delivery-analysis-results.png){width="800"}
 
 1. 按一下&#x200B;**[!UICONTROL Close]**&#x200B;以更正錯誤（如果有的話）。 進行變更後，按一下&#x200B;**[!UICONTROL Analyze]**&#x200B;重新啟動分析。
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 瀏覽至傳遞屬性的&#x200B;**[!UICONTROL Analysis]**&#x200B;標籤，以定義分析階段中訊息準備的設定。
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![包含標籤和程式碼選項、核准模式設定為[手動]及FFDA設定的[傳遞屬性分析]索引標籤](assets/delivery-properties-analysis-tab.png){width="800"}
 
 此索引標籤提供下列選項的存取權：
 

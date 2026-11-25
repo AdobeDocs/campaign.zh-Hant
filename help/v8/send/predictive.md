@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 56%
+source-wordcount: '817'
+ht-degree: 54%
 ---
 # 傳送時間最佳化和預測性參與計分{#optimize-message-delivery}
 
@@ -81,7 +81,7 @@ Adobe Campaign提供兩種新的機器學習模型： [預測性傳送時間最�
 
 預測性傳送時間最佳化儲存在設定檔層級：
 
-![](assets/sto-schema.png)
+![具有預測性傳送時間最佳化欄位的收件者結構描述結構，可供您按一下並開啟最佳時間](assets/sto-schema.png)
 
 
 >[!NOTE]

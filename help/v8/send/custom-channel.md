@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 2%
+source-wordcount: '647'
+ht-degree: 1%
 ---
 # 開始使用自訂管道 {#gs-custom-channel}
 
@@ -36,15 +36,15 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 傳遞的建立和傳送可在使用者端主控台和網頁UI中執行。 不過，自訂通道設定只能在使用者端主控台中執行。
 
-若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=zh-Hant){target="_blank"}。
+若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}。
 
 以下是在使用者端主控台中設定新自訂頻道的步驟。 自訂外部和API管道共用以下步驟：
 
-1. 設定結構描述，[瞭解詳情](#configure-schema)
-1. 建立新的外部帳戶，[瞭解詳情](#create-ext-account)
-1. 建立新的傳遞範本，[瞭解詳情](#create-template)
+1. 設定結構描述，[設定結構描述](#configure-schema)
+1. 建立新的外部帳戶，[建立新的外部帳戶](#create-ext-account)
+1. 建立新的傳遞範本，[建立新的傳遞範本](#create-template)
 
-自訂API通道需要其他設定。 [閱讀更多](#api-additional)
+自訂API通道需要其他設定。 [自訂API額外設定](#api-additional)
 
 ## 設定結構{#configure-schema}
 
@@ -56,14 +56,14 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
    例如：
 
-   ```
+   ```xml
    <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
    <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
           value="122"/>
    </enumeration>
    ```
 
-   ![](assets/cus-schema.png){zoomable="yes"}
+   ![傳遞(cus)來源結構描述中，反白顯示自訂頻道的messageType列舉](assets/cus-schema.png){zoomable="yes"}
 
 ## 建立新的外部帳戶{#create-ext-account}
 
@@ -75,7 +75,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 1. 選取通道並變更傳送模式。 針對自訂外部管道選擇&#x200B;**外部**，針對自訂API管道選擇&#x200B;**大量**。
 
-   ![](assets/cus-ext-account.png){zoomable="yes"}
+   ![路由型別的外部帳戶，已選取自訂通道且傳遞模式設定為外部](assets/cus-ext-account.png){zoomable="yes"}
 
 ## 建立新的傳遞範本{#create-template}
 
@@ -87,7 +87,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 1. 按一下&#x200B;**屬性**&#x200B;並選取正確的資料夾和路由。
 
-   ![](assets/cus-template.png){zoomable="yes"}
+   ![傳遞範本屬性，[一般]索引標籤，[資料夾]和[路由]欄位設定為自訂管道外部帳戶](assets/cus-template.png){zoomable="yes"}
 
 新頻道現已推出。 您可以根據此管道來建立及執行傳送。
 
@@ -107,13 +107,13 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 1. 開啟&#x200B;**傳遞**&#x200B;結構描述，然後按一下&#x200B;**熒幕版本**。
 
-   ![](assets/cus-schema2.png){zoomable="yes"}
+   ![傳遞(nms)結構描述頁面，其熒幕版本按鈕位於右上方](assets/cus-schema2.png){zoomable="yes"}
 
-1. 選取與您的頻道對應的標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=zh-Hant#fields){target="_blank"}。
+1. Select對應至您頻道的索引標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}。
 
-   ![](assets/cus-schema3.png){zoomable="yes"}
+   ![熒幕定義對話方塊，自訂管道索引標籤，列出具有標籤、屬性、型別和必要選項的自訂欄位](assets/cus-schema3.png){zoomable="yes"}
 
-1. 在模擬內容的&#x200B;**預覽**&#x200B;區段中，選取專用的JSPP。 這是選擇性的。 這會在傳遞模擬畫面中啟動預覽。 [閱讀更多](#api-additional-preview)
+1. 在模擬內容的&#x200B;**預覽**&#x200B;區段中，選取專用的JSPP。 這是選擇性的。 這會在傳遞模擬畫面中啟動預覽。 [設定預覽](#api-additional-preview)
 
 ### 設定預覽{#api-additional-preview}
 
@@ -128,7 +128,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 在使用者端主控台中，選取&#x200B;**管理** > **設定** > **動態JavaScript頁面**，並建立新的JSSP。 以下是需要擷取之引數的範例。
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

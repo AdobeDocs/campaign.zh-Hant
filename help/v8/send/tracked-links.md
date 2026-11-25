@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '621'
 ht-degree: 6%
 ---
 # 設定追蹤的連結 {#how-to-configure-tracked-links}
@@ -39,17 +39,17 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->電子郵件內容中包含個人化的連結需要追蹤特定語法。 在[本節](personalized-links.md)中進一步瞭解如何在電子郵件中新增可個人化且支援追蹤的連結。
+>電子郵件內容中包含個人化的連結需要追蹤特定語法。 進一步瞭解如何在可個人化的電子郵件中新增連結，以及在[追蹤個人化連結](personalized-links.md)中支援追蹤。
 
 訊息追蹤預設為啟用。 若要個人化追蹤URL的方式，請遵循下列步驟：
 
 1. 在訊息內容下方Select傳遞助理下方的&#x200B;**[!UICONTROL Display URLs]**&#x200B;選項。
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![傳送HTML內容，內容下方有「顯示URL」選項，但尚未選取](assets/s_ncs_user_email_del_display_urls.png)
 
    當您從追蹤的URL清單中選取URL時，它會在傳送內容中反白顯示 — 除了映象頁面中的連結和預設提供的取消訂閱連結以外。
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![追蹤的URL清單，其中包含已選取的URL及其在傳遞內容中反白顯示的相符連結](assets/s_ncs_user_email_del_show_urls.png)
 
 1. 對於訊息的每個URL，選取是否要啟動追蹤。
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 
 1. 如有需要，請變更追蹤模式，並在&#x200B;**[!UICONTROL Tracking]**&#x200B;欄中選取符合目標連結的新模式，如下所示：
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![追蹤資料行下拉式清單，列出URL的追蹤模式，從[已啟用]到[映象]頁面](assets/s_ncs_user_select_tracking_mode.png)
 
    對於每個個別URL，您可以將追蹤模式設定為下列其中一個值：
 
@@ -78,7 +78,7 @@ ht-degree: 6%
    * **[!UICONTROL Opt-out]**：將此URL視為選擇退出或取消訂閱URL。
    * **[!UICONTROL Mirror page]**：將此URL視為映象頁面URL。
 
-1. 此外，您可以在&#x200B;**[!UICONTROL Category]**&#x200B;欄的下拉式清單中，為每個追蹤的URL選取類別。 這些類別可顯示在報表中，例如在&#x200B;**[!UICONTROL URLs and click streams]**&#x200B;報表中（請參閱[此區段](../reporting/delivery-reports.md#urls-and-click-streams)）。 類別是在特定列舉中定義： **[!UICONTROL urlCategory]**。 在[本節](../config/enumerations.md)中進一步瞭解如何使用分項清單。
+1. 此外，您可以在&#x200B;**[!UICONTROL Category]**&#x200B;欄的下拉式清單中，為每個追蹤的URL選取類別。 這些類別可顯示在報表中，例如在&#x200B;**[!UICONTROL URLs and click streams]**&#x200B;報表中（請參閱[URL和點按資料流](../reporting/delivery-reports.md#urls-and-click-streams)）。 類別是在特定列舉中定義： **[!UICONTROL urlCategory]**。 進一步瞭解如何在[管理分項清單](../config/enumerations.md)中使用分項清單。
 
 ## URL分隔字元的最佳作法 {#url-delimiters}
 
@@ -88,8 +88,8 @@ ht-degree: 6%
 * 括弧[ ]
 * 大括弧{ }
 
-在此範例中，URL https://www.adobe.com/tw後面接著分號。 收件者電子郵件使用者端可能會將分號解譯為URL的一部分。 因此，連結可能會中斷。 若要避免此問題，您可以使用下列其中一種方式將URL以分隔符號括住：
+在此範例中，URL https://www.adobe.com後面接著分號。 收件者電子郵件使用者端可能會將分號解譯為URL的一部分。 因此，連結可能會中斷。 若要避免此問題，您可以使用下列其中一種方式將URL以分隔符號括住：
 
-* (https://www.adobe.com/tw)；
-* [https://www.adobe.com/tw]；
-* {https://www.adobe.com/tw}；
+* (https://www.adobe.com)；
+* [https://www.adobe.com]；
+* {https://www.adobe.com}；

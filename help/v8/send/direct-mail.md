@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '985'
+ht-degree: 5%
 ---
 # 建立直接郵件傳遞
 
@@ -52,14 +52,14 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->在[本節](../start/create-message.md)中介紹了傳遞建立的全域概念。
+>在[建立您的第一個傳遞](../start/create-message.md)中介紹了傳遞建立的全域概念。
 
 1. 例如，從「傳遞」控制面板建立新傳遞。
 1. 選取傳遞範本&#x200B;**透過直接郵件（紙張）傳遞**。
 
-   ![](assets/direct_mail.png)
+   ![新的傳遞對話方塊，在清單中選取直接郵件（紙張）傳遞範本](assets/direct_mail.png)
 
-1. 使用標籤、程式碼和說明來識別您的傳遞。 如需詳細資訊，請參閱[本章節](../start/create-message.md#create-the-delivery)。
+1. 使用標籤、程式碼和說明來識別您的傳遞。 如需詳細資訊，請參閱[建立傳遞](../start/create-message.md#create-the-delivery)。
 1. 按一下&#x200B;**繼續**&#x200B;以確認此資訊並顯示訊息設定視窗。
 
 ## 定義客群{#defining-the-direct-mail-audience}
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 如果名稱、郵遞區號欄位和城鎮/城市欄位並非空白，則會將地址視為完整。 所有位址不完整的收件者都會從直接郵件傳遞中排除。
 
-若要了解更多資訊，請參閱[此區段](../start/create-message.md#target-population)。
+深入瞭解[定義目標對象](../start/create-message.md#target-population)。
 
 ## 定義檔案的內容{#defining-the-direct-mail-content}
 
@@ -80,21 +80,21 @@ ht-degree: 8%
 
 依照預設，擷取檔案會建立並儲存在伺服器上。 您可以將它儲存在電腦上。 若要這麼做，請核取&#x200B;**[!UICONTROL Download the generated file after the analysis of the delivery]**。 在此情況下，您需要指出本機儲存目錄的存取路徑以及檔案名稱。
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![已勾選「下載產生的檔案」選項並輸入本機檔案路徑的「擷取」標籤](assets/s_ncs_user_mail_delivery_local_file.png)
 
 對於直接郵件傳遞，擷取的內容定義在&#x200B;**[!UICONTROL Edit the extraction file format...]**&#x200B;連結中。
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![擷取索引標籤，其中醒目提示編輯擷取檔案格式連結](assets/s_ncs_user_mail_delivery_format_link.png)
 
 此連結可讓您存取擷取小幫手，並定義要匯出至輸出檔案的資訊（欄）。
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![要擷取精靈的資料，其欄位從可用欄位拖曳到輸出欄](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱[本章節](../dev/web/publishing-a-web-form.md)。
+您可以將個人化URL插入解壓縮檔案中。 如需詳細資訊，請參閱[發佈網頁表單](../dev/web/publishing-a-web-form.md)。
 
 >[!NOTE]
 >
->此助理包含Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=zh-Hant){target="_blank"}中詳述的匯出助理步驟。
+>此助理包含Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}中詳述的匯出助理步驟。
 
 ## 驗證傳遞{#validating}
 
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 在行銷活動的內容中，於解壓縮日期建立解壓縮檔案。 您可以檢視擷取的檔案內容、核准該檔案，或視需要變更格式並重新啟動擷取。 一旦檔案獲得核准，您就可以將通知電子郵件傳送給路由器。 在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=zh-Hant){target="_blank"}中瞭解更多。
 
-驗證傳遞時的全域概念顯示在[本節](../start/create-message.md#validate-the-delivery)中。
+在[準備並驗證您的傳遞](../start/create-message.md#validate-the-delivery)中顯示了驗證傳遞時的全域概念。
 
 直接郵件傳遞的輸出檔案會在傳遞分析期間產生。 檔案的內容取決於選取的輸出欄（請參閱此[區段檔案](#defining-the-direct-mail-content)）。
 
@@ -116,7 +116,7 @@ ht-degree: 8%
 
 傳送確認會從指定的檔案中開始資料擷取。
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![針對處於擱置狀態的直接郵件傳遞，使用[確定]和[取消]開始傳遞確認對話方塊](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 接著，您可以關閉小幫手，並透過&#x200B;**[!UICONTROL Delivery]**&#x200B;索引標籤檢視傳送記錄檔（可透過傳送詳細資料存取）。
 

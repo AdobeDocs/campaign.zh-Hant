@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '468'
 ht-degree: 0%
 ---
 # 開始使用異動訊息{#send-transactional-messages}
@@ -49,9 +49,9 @@ ht-degree: 0%
 * 個人對客戶動作的即時回應
 * 非促銷內容
 
-交易式訊息設定在[本節](../config/transactional-msg-settings.md)中有詳細說明。
+[行銷活動交易訊息設定](../config/transactional-msg-settings.md)中詳細說明了交易訊息設定。
 
-瞭解[此頁面](../architecture/architecture.md#transac-msg-archi)上的交易式傳訊架構。
+瞭解[訊息中心架構](../architecture/architecture.md#transac-msg-archi)的交易式傳訊架構。
 
 ## 異動訊息傳遞操作原則 {#transactional-messaging-operating-principle}
 
@@ -86,7 +86,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 1. 從清單中選取&#x200B;**[!UICONTROL Event type]**&#x200B;分項清單。
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以建立分項清單。 這可以是訂單確認、密碼變更、訂單傳遞變更等。
 
-   ![](assets/messagecenter_eventtype_enum_001.png)
+   ![事件型別列舉，位於[管理] > [平台] > [列舉]下，包含[新增]及[列舉]值對話方塊](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >
