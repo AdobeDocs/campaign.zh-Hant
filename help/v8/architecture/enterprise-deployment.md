@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 44%
+source-wordcount: '1093'
+ht-degree: 42%
 ---
 # [!DNL Campaign] FFDA部署 {#gs-ac-ffda}
 
@@ -76,11 +76,11 @@ Campaign v8企業版(FFDA)在流程的任何步驟中都提供端對端規模，
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。
 
-可利用特定 API 來管理本機和雲端資料庫之間的資料。 在[此頁面](new-apis.md)瞭解這些新 API 如何運作，以及如何使用它們。
+可利用特定 API 來管理本機和雲端資料庫之間的資料。 瞭解這些新API如何運作，以及如何在[新Campaign v8 API](new-apis.md)中使用它們。
 
 伺服器與處理序之間的一般通訊會根據以下結構描述執行：
 
-![](assets/architecture.png)
+![具有Snowflake和PgSQL的行銷執行個體、訊息中心和Mid Sourcing執行個體、消費者、追蹤、步驟1到4](assets/architecture.png)
 
 * 執行個體上已停用執行和退回管理模組。
 * 應用程式設定為在使用SOAP呼叫（透過HTTP或HTTPS）驅動的遠端「中間來源」伺服器上執行訊息。

@@ -34,14 +34,14 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 2%
 ---
 # Campaign API準備機制
 
-在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的磁碟量極低，否則必須使用批次作業&#x200B;**&#x200B;**。 為了改善效能，內嵌API會重新導向至本機資料庫。
+在[企業(FFDA)部署](enterprise-deployment.md)的內容中，不建議在效能（延遲和並行）方面引發單一呼叫。 除非您傳送的磁碟量極低，否則必須使用批次作業&#x200B;****。 為了改善效能，內嵌API會重新導向至本機資料庫。
 
 根據預設，某些內建方案會啟用行銷活動準備功能。 我們也可以在任何自訂結構描述上將其啟用。 簡述暫存機制：
 
@@ -66,7 +66,7 @@ Campaign Classic v7 API仍可使用，但無法從此新的準備機制受益：
 
 1. 在Campaign Cloud資料庫上建立範例自訂結構描述。 此步驟未啟用任何分段。
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -79,13 +79,13 @@ Campaign Classic v7 API仍可使用，但無法從此新的準備機制受益：
    </srcSchema>
    ```
 
-   在[此頁面](../dev/create-schema.md)中進一步瞭解自訂結構描述建立。
+   深入瞭解在[在Campaign](../dev/create-schema.md)中建立新的結構描述。
 
 1. 儲存並更新資料庫結構。  [了解更多](../dev/update-database-structure.md)
 
 1. 透過新增&#x200B;**autoStg=&quot;true&quot;**&#x200B;引數，在結構描述定義中啟用暫存機制。
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -100,6 +100,6 @@ Campaign Classic v7 API仍可使用，但無法從此新的準備機制受益：
 
 1. 儲存修改。 有新的分段結構描述可供使用，這是初始結構描述的本機副本。
 
-   ![](assets/staging-mechanism.png)
+   範例資料表（分段）產生之分段結構描述dem:sampleTableStg的![XML來源，這是初始結構描述](assets/staging-mechanism.png)的本機復本
 
 1. 更新資料庫結構。 將在Campaign本機資料庫上建立臨時資料表。

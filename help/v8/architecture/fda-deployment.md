@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '348'
 ht-degree: 0%
 ---
 # [!DNL Campaign] FDA部署{#gs-fda}
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 伺服器與處理序之間的一般通訊會根據以下結構描述執行：
 
-![](assets/fda-architecture.png)
+![FDA資料流程： Campaign行銷伺服器、Snowflake、PgSQL、Message Center和Mid Sourcing伺服器，編號步驟1至5](assets/fda-architecture.png)
 
 PostgreSQL是主要資料庫，Snowflake可作為次要資料庫使用。 您可以擴充資料模型，並將資料儲存在Snowflake上。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 10%
+source-wordcount: '1166'
+ht-degree: 9%
 ---
 # 開始使用Campaign架構{#gs-ac-archi}
 
@@ -51,7 +51,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 您可以將套件從一個環境匯出和匯入到另一個環境。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=zh-Hant){target="_blank"}中進一步瞭解套件
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}中進一步瞭解套件
 
 ## 部署模型 {#ac-deployment}
 
@@ -62,7 +62,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 在其[FDA部署](fda-deployment.md)中，[!DNL Adobe Campaign] v8可連線至[!DNL Snowflake]，以透過同盟資料存取功能存取資料：您可以存取及處理儲存在[!DNL Snowflake]資料庫中的外部資料與資訊，而不需要變更Adobe Campaign資料的結構。 PostgreSQL是主要資料庫，您可以使用Snowflake做為次要資料庫，以擴充資料模型並將資料儲存至Snowflake。 接著，您可以利用出色的效能，對大型資料集執行ETL、細分和報告。
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Campaign v8 FDA架構：應用程式伺服器、Postgres和Snowflake資料庫、即時和批次傳遞伺服器](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Campaign可作為個別執行個體使用，每個執行個體代表完整的Cam
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。 使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，即可開始。 雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Campaign v8 FFDA架構：應用程式伺服器、具有Snowflake的雲端資料庫、Postgres復寫、傳遞伺服器](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## 分割傳遞執行 {#split}
@@ -97,7 +97,7 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 * 分割傳送 — iOS (splitDeliveryIOS)
 * 分割傳送 — Android (splitDeliveryAndroid)
 
-![](assets/splitted-delivery.png)
+![外部帳戶分割傳遞 — 電子郵件：路由型別、電子郵件管道、中間來源傳遞模式、名稱splitDeliveryEmail](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
@@ -109,11 +109,11 @@ Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所�
 
 1. 導覽至&#x200B;**[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]**&#x200B;資料夾，並開啟所需的傳遞範本。 在此範例中，我們要編輯電子郵件傳遞範本。
 
-   ![](assets/split-default-list.png)
+   ![資源、範本中的傳遞範本清單，已選取電子郵件傳遞範本（郵件）](assets/split-default-list.png)
 
 1. 按一下&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕，並將路由提供者變更為對應的分割傳遞外部帳戶。
 
-   ![](assets/split-default-delivery.png)
+   ![傳遞內容對話方塊，其中包含[路由]欄位以及顯示SplitEmail的外部帳戶清單](assets/split-default-delivery.png)
 
 1. 儲存您的變更。 使用範本傳送的所有傳遞，現在預設都會使用分割路由模式。
 
@@ -127,7 +127,7 @@ In addition, you can select split external accounts as the default routing provi
 
 交易型訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。
 
-在[本節](../send/transactional.md)中瞭解如何傳送異動訊息。
+瞭解如何在[行銷活動異動訊息](../send/transactional.md)中傳送異動訊息。
 
 為回應客戶在網站上的動作，會透過REST API將事件傳送至Campaign，且訊息範本會填入透過API呼叫提供的資訊或資料，而交易式訊息則會即時傳送給客戶。 這些訊息可透過電子郵件、簡訊或推播通知個別或批次傳送。
 
@@ -135,7 +135,7 @@ In addition, you can select split external accounts as the default routing provi
 
 * 行銷人員和IT團隊會使用&#x200B;**控制項執行個體** （或行銷執行個體）來建立、設定和發佈訊息範本。 此例項也會集中事件監控和歷史記錄。
 
-  在[本節](../send/transactional.md)中瞭解如何建立和發佈訊息範本。
+  瞭解如何在[Campaign異動訊息](../send/transactional.md)中建立和發佈訊息範本。
 
 * **執行執行個體**&#x200B;會擷取傳入的事件（例如密碼重設或網站訂單），並傳送個人化訊息。 可以有多個執行執行個體透過負載平衡器處理訊息，並調整要處理的事件數目以達最大可用性。
 
@@ -143,7 +143,7 @@ In addition, you can select split external accounts as the default routing provi
 >
 >控制例項和執行例項必須安裝在不同的電腦上。 他們無法共用相同的Campaign執行個體。
 
-![](assets/messagecenter_diagram.png)
+![訊息中心：網站事件可到達控制執行個體P和執行執行個體E1到EN，這些執行個體會傳送訊息](assets/messagecenter_diagram.png)
 
 ### 驗證
 
@@ -156,4 +156,4 @@ In addition, you can select split external accounts as the default routing provi
 * 多個執行例項
 在負載平衡器後面有多個執行例項的多儲存格執行架構中，外部應用程式叫用的登入方法會通過負載平衡器：因此，無法使用權杖型驗證。 需要以使用者/密碼為基礎的驗證。
 
-在[此頁面](../send/event-processing.md)中進一步瞭解異動訊息事件。
+深入瞭解[收集及處理事件](../send/event-processing.md)中的異動訊息事件。
