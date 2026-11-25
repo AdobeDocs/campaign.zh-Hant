@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2989'
 ht-degree: 1%
 ---
 # 傳入頻道上的產品建議{#offers-on-an-inbound-channel}
@@ -47,7 +47,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
 ### 建立匿名環境 {#creating-an-anonymous-environment}
 
-請依照[建立優惠方案環境](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）中詳述的程式，根據&#x200B;**訪客**&#39;維度建立您的匿名環境。
+請依照[建立優惠方案環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）中詳述的程式，根據&#x200B;**訪客**&#39;維度建立您的匿名環境。
 
 您會獲得包含新環境的樹狀結構：
 
@@ -68,7 +68,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
    ![包含已選取標籤「匿名Web進階優惠」與傳入Web管道的優惠空間對話方塊](assets/offer_inbound_anonymous_example_006.png)
 
-1. 選取用於空間的選件內容欄位，並核取相關方塊，視需要指定這些欄位。
+1. Select用於空間的選件內容欄位，並視需要核取相關方塊來指定。
 
    如此一來，遺失下列其中一項元素的任何優惠方案都將不符合此空間的資格：
 
@@ -147,7 +147,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
 ### 設定網站上的Web優惠方案空間 {#configure-the-web-offer-space-on-the-website}
 
-若要將您剛設定的優惠方案顯示在網站上，請將JavaScript程式碼插入網站的HTML頁面，以呼叫互動引擎(如需詳細資訊，請參閱[關於傳入頻道](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8檔案）。
+若要將您剛設定的選件顯示在網站上，請將JavaScript程式碼插入網站的HTML頁面。 此程式碼會呼叫互動引擎。 如需詳細資訊，請參閱[關於傳入頻道](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8檔案）。
 
 1. 前往HTML頁面，插入一個值符合先前建立之匿名優惠方案空間內部名稱的@id屬性（請參閱[建立匿名優惠方案空間](#creating-anonymous-offer-spaces)），前面加上&#x200B;**i_**。
 
@@ -157,7 +157,7 @@ Neobank網站想要在其網站上針對瀏覽頁面的未識別訪客顯示選�
 
    使用env=liveVisitor和th=financing引數強調顯示![對interactionProposal.js的HTML指令碼呼叫](assets/offer_inbound_anonymous_example_020.png)
 
-   上方的藍色URL方塊對應到執行個體名稱、環境的內部名稱（請參閱[建立匿名環境](#creating-an-anonymous-environment)）以及連結到類別的主題（[建立優惠類別和主題](#creating-an-offer-category-and-a-theme)）。 後者是選擇性的。
+   上方藍色URL方塊對應至例項名稱、環境的內部名稱，以及連結至類別的主題。 如需這些專案的詳細資訊，請參閱[建立匿名環境](#creating-an-anonymous-environment)和[建立優惠方案類別和主題](#creating-an-offer-category-and-a-theme)。 主題是選用的。
 
 當訪客存取網站的首頁時，具有&#x200B;**financing**&#x200B;主題的優惠方案會依設定顯示在HTML頁面上。
 
@@ -211,7 +211,7 @@ Neobank公司想要針對兩個不同的目標建立行銷優惠方案。 想要
 
 ### 建立匿名連絡人的環境 {#creating-an-environment-for-anonymous-contacts}
 
-1. 透過傳遞對應助理（**訪客**&#x200B;對應），為匿名傳入互動建立優惠方案環境。 如需詳細資訊，請參閱[建立優惠方案環境](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）。
+1. 透過傳遞對應助理（**訪客**&#x200B;對應），為匿名傳入互動建立優惠方案環境。 如需詳細資訊，請參閱[建立優惠方案環境](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} （Campaign v8檔案）。
 
    ![提供設計樹狀結構和環境 — 訪客屬性，用於傳入匿名互動的環境](assets/offer_env_anonymous_003.png)
 
@@ -253,7 +253,7 @@ Neobank公司想要針對兩個不同的目標建立行銷優惠方案。 想要
 
 1. 建立以&#x200B;**合作夥伴**&#x200B;為標籤的第二個類別。
 
-   在環境 — 訪客![&#128279;](assets/offer_inbound_fallback_example_028.png)下的最佳優惠方案旁邊建立優惠方案類別合作夥伴
+   在環境 — 訪客](assets/offer_inbound_fallback_example_028.png)下的最佳優惠方案旁邊建立![優惠方案類別合作夥伴
 
 ### 建立匿名訪客的優惠 {#creating-offers-for-anonymous-visitors}
 
@@ -409,7 +409,7 @@ Neobank公司的網站有三個優惠方案空間：兩個適用於&#x200B;**最
 
    ![interactionTarget變數已設定為頁面指令碼中登入者的電子郵件](assets/offer_inbound_fallback_example_043.png)
 
-   個人的身分識別可以根據瀏覽器Cookie、URL中的閱讀引數、電子郵件或個人的識別碼。 如果使用主索引鍵以外的收件者表格欄位，則必須在空間的進階引數中定義該欄位（請參閱[指定已識別之優惠方案的進階設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)）。
+   個人的身分識別可以根據瀏覽器Cookie、URL中的閱讀引數、電子郵件或個人的識別碼。 如果您使用主鍵以外的收件者表格欄位，請在空間的進階引數中定義它。 如需詳細資訊，請參閱[指定已識別之優惠方案空間的進階設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)。
 
 1. 插入呼叫URL
 
@@ -419,6 +419,6 @@ Neobank公司的網站有三個優惠方案空間：兩個適用於&#x200B;**最
 
 當您開啟網頁時，指令碼可讓您呼叫互動引擎，以在網頁的相關空間中顯示選件的內容。 在對Adobe Campaign伺服器的單一呼叫中，引擎會決定環境、選件空間和要選取的類別。
 
-在此範例中，引擎會辨識已識別的環境(**EnvNeobankIdnRecip**)。 它可識別網頁上第一個和第二個優惠方案空間的優惠方案空間(**OSWebBestOfferIdentified**)和&#x200B;**最佳優惠方案**&#x200B;類別(**CatBestOffer**)，以及網站上的第三個優惠方案空間的(**OSWebPartnerIdentified**)優惠方案空間和&#x200B;**合作夥伴**&#x200B;類別(**CatPartner**)。
+在此範例中，引擎會辨識已識別的環境(**EnvNeobankIdnRecip**)。 它會識別網頁上第一個和第二個優惠方案空間的優惠方案空間(**OSWebBestOfferIdentified**)和&#x200B;**最佳優惠方案**&#x200B;類別(**CatBestOffer**)。 對於第三個優惠方案空間，它會識別優惠方案空間(**OSWebPartnerIdentified**)和&#x200B;**合作夥伴**&#x200B;類別(**CatPartner**)。
 
 如果引擎無法識別收件者，它會切換到已識別之優惠方案空間中所參考的匿名優惠方案空間，並依照指令碼中的指定，切換到匿名類別（**CatPartner**&#x200B;和&#x200B;**CatPartnerAnonym**）。

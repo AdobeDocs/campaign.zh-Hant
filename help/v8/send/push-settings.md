@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1890'
 ht-degree: 5%
 ---
 # 設定推播通知頻道 {#push-notification-configuration}
@@ -56,10 +56,10 @@ ht-degree: 5%
 
 1. 檢查[必要條件](#before-starting)。
 1. 在Adobe Experience Platform資料彙集中設定[行動標籤屬性](#launch-property)。
-1. 在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中取得詳細的Adobe Experience Platform Mobile SDK。
-1. （選擇性）啟用記錄與生命週期量度，在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}中有詳細的。
-1. （選用）將[Adobe Experience Platform Assurance新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面[&#128279;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}瞭解如何實作Adobe Experience Platform Assurance擴充功能。
-1. 在Adobe Campaign中設定您的iOS和Android Mobile Services，如本頁面[&#128279;](#push-service)所述。
+1. 在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}中取得詳細的[Adobe Experience Platform Mobile SDK。
+1. （選擇性）啟用記錄與生命週期量度，在此頁面](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}中有詳細的[。
+1. （選用）將[Adobe Experience Platform Assurance新增至您的應用程式](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}，以驗證您的實作。 在此頁面](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}瞭解如何實作Adobe Experience Platform Assurance擴充功能[。
+1. 在Adobe Campaign中設定您的iOS和Android Mobile Services，如本頁面](#push-service)所述。[
 1. 在您的行動屬性中安裝並設定[Adobe Campaign擴充功能](#configure-extension)。
 1. 請依照[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的指示在您的應用程式中設定Adobe Experience Platform Mobile SDK。
 
@@ -67,17 +67,17 @@ ht-degree: 5%
 
 ### 設定許可權 {#setup-permissions}
 
-建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 Adobe Experience Platform中標籤的使用者許可權會透過Adobe Admin Console指派給使用者。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}。
+建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 Adobe Experience Platform中標籤的使用者許可權會透過Adobe Admin Console指派給使用者。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Campaign**&#x200B;管理員共用許可權。
+>推播設定必須由專家使用者執行。 根據您的實作模式和所涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔。 或者，在應用程式開發人員與&#x200B;**Adobe Campaign**&#x200B;管理員之間共用許可權。
 
 若要指派&#x200B;**屬性**&#x200B;和&#x200B;**公司**&#x200B;許可權，請遵循下列步驟：
 
 1. 存取&#x200B;**[!DNL Admin Console]**。
 1. 從&#x200B;**[!UICONTROL Products]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]**&#x200B;卡片。
-1. 選取現有&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新按鈕。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hant#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL New profile]**。
+1. 選取現有&#x200B;**[!UICONTROL Product Profile]**&#x200B;或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按鈕建立新按鈕。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL New profile]**。
 1. 在&#x200B;**[!UICONTROL Permissions]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Property Rights]**。
 1. 按一下 **[!UICONTROL Add all]**。 這會將下列許可權新增至您的產品設定檔：
    * **[!UICONTROL Approve]**
@@ -109,7 +109,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html#add-users){target="_blank"}。
+   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}。
 
 ### 設定您的應用程式 {#configure-app}
 
@@ -171,7 +171,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=zh-Hant){target="_blank"}中進一步瞭解[!DNL Adobe Experience Platform Data Collection]標籤。
+在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}中進一步瞭解[!DNL Adobe Experience Platform Data Collection]標籤。
 
 建立後，請開啟新標籤屬性並建立程式庫。 操作步驟：
 
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## 在Campaign中設定行動服務 {#push-service}
 
-在[!DNL Adobe Experience Platform Data Collection]中設定您的行動應用程式後，您需要建立兩個服務（一個用於iOS裝置，一個用於Android裝置）才能從&#x200B;**[!DNL Adobe Campaign]**&#x200B;傳送推播通知。
+在[!DNL Adobe Experience Platform Data Collection]中設定您的行動應用程式後，請建立兩個服務：一個用於iOS裝置，另一個用於Android裝置。 這些服務可讓您從&#x200B;**[!DNL Adobe Campaign]**&#x200B;傳送推播通知。
 
 推播通知會透過專用服務傳送給您的應用程式使用者。 使用者安裝您的應用程式時，會訂閱此服務： Adobe Campaign仰賴此服務，僅鎖定您應用程式的訂閱者。 在此服務中，您需要新增iOS和Android應用程式，以在iOS和Android裝置上傳送。
 
