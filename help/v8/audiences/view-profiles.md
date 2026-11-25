@@ -42,7 +42,7 @@ ht-degree: 3%
 
 您可以從此頁面[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
 
-![ Campaign首頁的「設定檔和目標」標籤，顯示具有「建立」按鈕的「收件者」清單](assets/profiles-and-targets.png)
+![&#x200B; Campaign首頁的「設定檔和目標」標籤，顯示具有「建立」按鈕的「收件者」清單](assets/profiles-and-targets.png)
 
 如需進階設定檔操控，請從Adobe Campaign首頁的&#x200B;**[!UICONTROL Explorer]**&#x200B;連結存取Campaign樹狀結構。
 
@@ -96,11 +96,11 @@ Select設定檔，會在新標籤中顯示詳細資訊。
 
   ![收件者的[訂閱]索引標籤列出使用中的訂閱，並具有[使用中的訂閱]和[歷程記錄]索引標籤](assets/subscription-tab.png)
 
-  在本節](../start/subscriptions.md)中進一步瞭解訂閱[。
+  在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
 
 * 針對所選設定檔的所有傳遞記錄，**傳遞**。 使用此索引標籤來存取連絡人的行銷記錄：透過所有管道傳送到設定檔的所有傳遞動作的標籤、日期和狀態。
 
 
 * **追蹤**，針對所選設定檔的所有追蹤記錄。 此資訊用於追蹤傳送後的設定檔行為。 此索引標籤顯示傳送中追蹤的所有URL的累積總數。 清單可設定，通常包含：點選的URL、點選的日期和時間，以及包含URL的檔案
 
-  在本節](../send/tracking.md)中進一步瞭解追蹤[。
+  在本節[&#128279;](../send/tracking.md)中進一步瞭解追蹤。

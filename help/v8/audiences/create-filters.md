@@ -263,7 +263,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 1. 取消勾選目前預設預先定義篩選的相同選項。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用篩選。
-1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**圖示：新的預設篩選器可供使用。
+1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**&#x200B;圖示：新的預設篩選器可供使用。
    ![收件者清單，包含依訂閱預設的篩選器及其服務欄位下拉式清單](assets/updated-default-filter.png)
 
 
@@ -300,7 +300,7 @@ Adobe Campaign中有以下型別的篩選器：
 
    ![收件者清單，在清單右下角有[設定清單]圖示](assets/configure-list.png)
 
-1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。****
+1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。**&#x200B;**
 
    ![列出設定對話方塊，其中的Age欄位已新增至輸出資料行](assets/add-age-column.png)
 
