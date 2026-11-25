@@ -196,4 +196,4 @@ ht-degree: 1%
 
    在Cube欄位中選取新使用者端設定檔Cube的樞紐分析表的![資料頁簽](assets/cube-selected-in-report.png)
 
-   這可讓您建立要顯示的報表。 如需詳細資訊，請參閱步驟2 - Select行和欄](#step-2---select-lines-and-columns)。[
+   這可讓您建立要顯示的報表。 如需詳細資訊，請參閱步驟2 - Select行和欄[&#128279;](#step-2---select-lines-and-columns)。

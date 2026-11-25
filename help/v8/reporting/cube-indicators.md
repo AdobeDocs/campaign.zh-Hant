@@ -118,7 +118,7 @@ ht-degree: 1%
 
 若要這麼做，請核取&#x200B;**[!UICONTROL Enable binning]**&#x200B;選項。 [了解更多資訊](customize-cubes.md#data-binning)。
 
-1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**欄位。
+1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**&#x200B;欄位。
 您可以自訂日期顯示模式。 若要這麼做，請選取要使用的階層以及要產生的層次：
 
 ![建立日期維度對話方塊，其包含建立選項的層級：年、季、月、日和小時](assets/cube-date-dimension.png)
