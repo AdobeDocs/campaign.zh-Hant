@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '793'
 ht-degree: 1%
 ---
 # 管理資料夾和檢視 {#folders-and-views}
@@ -74,13 +74,13 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 
 若要建立與您選取的資料夾相同型別的資料夾，請選擇內容功能表中的第一個選項。 例如，從[收件者]資料夾中，選取&#x200B;**[!UICONTROL Create a new 'Recipients' folder]**。
 
-![](assets/create-recipient-folder.png)
+![收件者資料夾的內容功能表，其建立新的「收件者」資料夾選項已反白顯示](assets/create-recipient-folder.png)
 
 您可以視需要拖放新資料夾以整理Campaign檔案總管樹狀結構。
 
 若要建立其他型別的資料夾，請在現有資料夾上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Add new folder]**。 您可以根據要儲存的資料，建立所有型別的資料夾。
 
-![](assets/add-new-folder.png)
+![新增資料夾功能表，顯示已選取[清單]資料夾型別的[資料庫]子功能表](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -109,15 +109,15 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 1. 以滑鼠右鍵按一下此資料夾並選取&#x200B;**[!UICONTROL Properties...]**。
 1. 在&#x200B;**[!UICONTROL Restriction]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL This folder is a view]**。 然後資料庫中的所有傳遞都會顯示。
 
-   ![](assets/this-folder-is-a-view.png)
+   ![具有此資料夾的美國傳遞的資料夾屬性是在[限制]索引標籤中選取的檢視選項](assets/this-folder-is-a-view.png)
 
 1. 從視窗中央區段的查詢編輯器定義篩選條件：資料夾中僅顯示與篩選對應的傳送。
 
-   ![](assets/filter-view.png)
+   ![將檢視定義為內部名稱的限制標籤篩選條件以US開頭](assets/filter-view.png)
 
    >[!NOTE]
    >
-   >瞭解如何在[此頁面](create-filters.md#advanced-filters)中設計查詢
+   >瞭解如何在[進階篩選器](create-filters.md#advanced-filters)中設計查詢
 
 
 >[!CAUTION]
@@ -132,7 +132,7 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 
 您可以使用右側的箭頭行動資料夾，或選取&#x200B;**[!UICONTROL Sort the sub-folders in alphabetical order]**&#x200B;選項以自動排序。
 
-![](assets/sort-folders.png)
+![資料夾屬性的[子資料夾]索引標籤，具有[向下移動]箭頭和[依字母順序排序]選項](assets/sort-folders.png)
 
 
 ## 篩選資料夾中的資料{#filter-data-in-a-folder}
@@ -141,9 +141,9 @@ Campaign資料夾是瀏覽器樹狀結構中的節點。 根據它們的型別�
 
 例如，下列資料夾將僅包含具有電子郵件地址且其來源未標籤為「外部」的連絡人 — 或空白。
 
-![](assets/add-a-filter-to-a-folder.png)
+以內部名稱篩選的US傳遞資料夾屬性的![限制標籤以US開頭](assets/add-a-filter-to-a-folder.png)
 
 
 ## 限制資料夾的存取權{#restrict-access-to-a-folder}
 
-使用檔案夾的許可權來組織和控制Campaign資料的存取。 在[本節](../start/folder-permissions.md)中進一步瞭解資料夾的許可權。
+使用檔案夾的許可權來組織和控制Campaign資料的存取。 深入瞭解[授與及限制Campaign資料夾](../start/folder-permissions.md)中資料夾的許可權。

@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 20%
+source-wordcount: '383'
+ht-degree: 18%
 ---
 # 開始使用輪廓和客群{#gs-profiles-and-audiences}
 
 設定檔是儲存在Campaign資料庫中的聯絡人，例如客戶、服務的訂閱者或潛在客戶。 要取得輪廓來建立此資料庫，有許多可行的機制：透過網路表單線上收集、手動或自動匯入文字檔、透過公司資料庫或其他資訊系統進行複寫。 透過Adobe Campaign，您可以將行銷記錄、購買資訊、偏好設定、CRM資料以及任何相關的PI資料整合在整合檢視中，以進行分析並採取行動。 設定檔包含鎖定目標、確認及追蹤個人所需的所有資訊。
 
-設定檔是&#x200B;**nmsRecipient**&#x200B;資料表中的記錄或儲存所有設定檔屬性的外部資料表，例如名字、姓氏、電子郵件地址、Cookie ID、客戶ID、行動識別碼或與特定頻道相關的其他資訊。 連結至收件者表格的其他表格包含設定檔相關資料，例如傳送記錄表格，其中包含傳送給收件者的所有傳送記錄。 在[本節](../dev/datamodel.md#ootb-profiles)中進一步瞭解內建設定檔和收件者表格。
+設定檔是&#x200B;**nmsRecipient**&#x200B;資料表中的記錄或儲存所有設定檔屬性的外部資料表，例如名字、姓氏、電子郵件地址、Cookie ID、客戶ID、行動識別碼或與特定頻道相關的其他資訊。 連結至收件者表格的其他表格包含設定檔相關資料，例如傳送記錄表格，其中包含傳送給收件者的所有傳送記錄。 深入瞭解[內建設定檔表格](../dev/datamodel.md#ootb-profiles)中的內建設定檔和收件者表格。
 
-![](assets/recipients-in-explorer.png)
+![已選取[收件者]節點的總管樹狀結構，列出選取收件者的設定檔與詳細資料。](assets/recipients-in-explorer.png)
 
 在Adobe Campaign中，**位收件者**&#x200B;是傳送內容（電子郵件、簡訊等）時定位的預設設定檔。
 
@@ -53,6 +53,6 @@ ht-degree: 20%
 * [對應到儲存設定檔的外部資料庫](../connect/fda.md)
 * 在「使用者端主控台」中手動輸入設定檔，如下所示：
 
-![](assets/create-profile.png)
+![從[收件者]頁面的[建立]開啟新收件者對話方塊，具有[名字]和[電子郵件]等[一般]欄位。](assets/create-profile.png)
 
-匯入後，您可以建立對象以傳送訊息。 在本節[&#128279;](create-audiences.md)中瞭解如何建立對象。
+匯入後，您可以建立對象以傳送訊息。 在本節](create-audiences.md)中瞭解如何建立對象[。

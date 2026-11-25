@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 3%
+source-wordcount: '134'
+ht-degree: 2%
 ---
 # 手動建立輪廓{#create-profiles-manual}
 
@@ -38,15 +38,15 @@ ht-degree: 3%
 
 1. 瀏覽至&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤並選取&#x200B;**[!UICONTROL Recipients]**&#x200B;類別。
 
-   ![](assets/profiles-and-targets.png)
+   ![首頁上選取的[設定檔和目標]索引標籤，包含[收件者]清單和[建立]按鈕。](assets/profiles-and-targets.png)
 
    依預設，收件者會儲存在樹狀結構的&#x200B;**[!UICONTROL Profiles and Targets > Recipients]**&#x200B;節點中。 您也可以從此檢視建立收件者。
 
 1. 按一下&#x200B;**[!UICONTROL Create button]**。
 1. 輸入設定檔的資料。
 
-   ![](assets/new-recipient.png)
+   ![填寫了[一般]索引標籤的收件者表單：名字、姓氏、電子郵件、狀態和來源，以及儲存並取消。](assets/new-recipient.png)
 
-   在[此頁面](view-profiles.md#edit-a-profiles)中進一步瞭解收件者內建表單。
+   在[編輯設定檔](view-profiles.md#edit-a-profiles)中進一步瞭解收件者內建表單。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**：設定檔已新增至預設收件者資料夾中的Campaign。

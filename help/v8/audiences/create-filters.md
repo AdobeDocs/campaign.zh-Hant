@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2392'
 ht-degree: 1%
 ---
 # 使用篩選器{#create-filters}
@@ -62,7 +62,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 依預設，Adobe Campaign會顯示操作員有權讀取的所有資料庫記錄。 您可以使用瀏覽器視窗上半區段中可用的選項來篩選此資料。
 
-![](assets/filter_web_zone.png)
+![醒目提示篩選區域的收件者儀表板：資料夾圖示、快速搜尋欄位和排序清單](assets/filter_web_zone.png)
 
 有數種方式可篩選要顯示的資料。 如有需要，這些可搭配使用。 瀏覽以下標籤以進一步瞭解篩選選項。
 
@@ -73,11 +73,11 @@ Adobe Campaign中有以下型別的篩選器：
 
 若要根據資料夾來篩選資料，請按一下&#x200B;**[!UICONTROL Folder]**&#x200B;圖示，然後選取包含要顯示資料的資料夾。
 
-![](assets/filter_web_select_folder.png)
+![資料夾功能表從設定檔和目標展開至收件者、使用者端和新的](assets/filter_web_select_folder.png)
 
 只會顯示資料夾中的設定檔：
 
-![](assets/filter_web_folder_display.png)
+![在[設定檔與目標] > [收件者] > [使用者端] > [新增資料夾]中篩選的收件者清單](assets/filter_web_folder_display.png)
 
 使用資料夾選擇欄位右側的十字可返回預設顯示模式。
 
@@ -87,7 +87,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 例如，針對傳送，您可以選擇只顯示完成的傳送，如下所示：
 
-![](assets/filter_delivery.png)
+![傳遞儀表板狀態下拉式清單，列出全部、正在編輯、已完成和其他狀態](assets/filter_delivery.png)
 
 >[!TAB 排序依據]
 
@@ -95,13 +95,13 @@ Adobe Campaign中有以下型別的篩選器：
 
 例如，您可以依優先順序、建立日期或字母順序來排序工作。
 
-![](assets/order_data_sample.png)
+![任務儀表板排序下拉式清單，標籤從A到Z、最新優先、最舊優先和依優先順序](assets/order_data_sample.png)
 
 >[!TAB 快速搜尋]
 
 使用搜尋欄位來快速存取您要尋找的專案：輸入包含在您要顯示之專案的標籤或內部名稱中的字元，然後確認將自動篩選套用至頁面上的資料。
 
-![](assets/filter_search.png)
+![在搜尋欄位中輸入新聞以篩選傳遞儀表板](assets/filter_search.png)
 
 若要再次顯示所有專案，請按一下十字以刪除搜尋欄位的內容。
 
@@ -113,7 +113,7 @@ Adobe Campaign中有以下型別的篩選器：
 
 例如，設定檔可使用下列內建篩選器：
 
-![](assets/built-in-filters.png)
+![收件者清單的篩選器下拉式清單顯示內建篩選器，例如，已開啟但未點按](assets/built-in-filters.png)
 
 您可以在瀏覽器的&#x200B;**[!UICONTROL Profiles and Targets > Pre-defined filters]**&#x200B;節點中存取篩選器詳細資料。
 
@@ -121,13 +121,13 @@ Adobe Campaign中有以下型別的篩選器：
 >
 >對於所有其他資料清單，預先定義的篩選器會儲存在&#x200B;**[!UICONTROL Administration > Configuration > Predefined filters]**&#x200B;節點中。
 
-Select篩選器以顯示其定義。
+選取要顯示其定義的篩選器。
 
-![](assets/predefined-filter-list.png)
+![總管中的預先定義篩選器節點已選取[已開啟]篩選器，且已顯示其篩選器條件](assets/predefined-filter-list.png)
 
 使用最後一個索引標籤來預覽篩選的資料。
 
-![](assets/built-in-filter-preview.png)
+![依年齡範圍預先定義篩選的預覽索引標籤，最小年齡25歲與最大年齡45歲且符合的收件者](assets/built-in-filter-preview.png)
 
 
 +++  設定檔的內建預先定義篩選器
@@ -243,7 +243,7 @@ Select篩選器以顯示其定義。
 
 每個清單上方的欄位可讓您針對此清單使用&#x200B;**預先定義的預設篩選器**。 對於收件者清單，您可以依預設篩選名稱和電子郵件地址。
 
-![](assets/filter-recipient-name.png)
+![在預設姓氏欄位中以Lucas篩選的收件者清單，傳回兩個設定檔](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
@@ -259,12 +259,12 @@ Select篩選器以顯示其定義。
 1. Select預設為您要使用的篩選器。
 1. 按一下「**[!UICONTROL Parameters]**」索引標籤並選取「**[!UICONTROL Default filter for the associated document type]**」。
 
-   ![](assets/change-default-filter.png)
+   ![預先定義篩選的引數索引標籤，針對選取的相關檔案型別具有預設篩選](assets/change-default-filter.png)
 
 1. 取消勾選目前預設預先定義篩選的相同選項。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用篩選。
-1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**&#x200B;圖示：新的預設篩選器可供使用。
-   ![](assets/updated-default-filter.png)
+1. 瀏覽至收件者資料夾，然後按一下目前篩選器右側的&#x200B;**[!UICONTROL Remove this filter]**圖示：新的預設篩選器可供使用。
+   ![收件者清單，包含依訂閱預設的篩選器及其服務欄位下拉式清單](assets/updated-default-filter.png)
 
 
 ## 快速篩選{#quick-filters}
@@ -281,36 +281,36 @@ Select篩選器以顯示其定義。
 
 1. 用滑鼠右鍵按一下您要篩選的欄位，然後選取&#x200B;**[!UICONTROL Filter on this field]**。
 
-   ![](assets/quick-filter-on-this-field.png)
+   ![在[語言]欄位上按一下滑鼠右鍵功能表，此欄位上的篩選器反白顯示](assets/quick-filter-on-this-field.png)
 
    預設篩選欄位會顯示在清單上方。
 
-   ![](assets/quick-filter-above-list.png)
+   ![語言等於英文篩選器的收件者清單已新增至清單上方](assets/quick-filter-above-list.png)
 
-1. Select篩選器選項。
+1. 選取篩選選項。
 1. 如有需要，請使用篩選器右側的灰色圖示將其移除。
 1. 您可以結合篩選器來調整篩選器。
 
-   ![](assets/add-filter-above-the-list.png)
+   ![語言和電子郵件快速篩選器在清單上方合併，電子郵件運運算元下拉式清單開啟](assets/add-filter-above-the-list.png)
 
 
 如果您需要篩選的欄位在表單中不可用但在欄中，請篩選該欄。 若要這麼做，
 
 1. 按一下&#x200B;**[!UICONTROL Configure list]**&#x200B;圖示。
 
-   ![](assets/configure-list.png)
+   ![收件者清單，在清單右下角有[設定清單]圖示](assets/configure-list.png)
 
-1. Select要顯示的欄，例如收件者的年齡，然後按一下&#x200B;**確定**。
+1. 選取要顯示的欄，例如收件者的年齡，然後按一下[確定]。****
 
-   ![](assets/add-age-column.png)
+   ![列出設定對話方塊，其中的Age欄位已新增至輸出資料行](assets/add-age-column.png)
 
 1. 以滑鼠右鍵按一下收件者清單中的&#x200B;**年齡**&#x200B;欄，然後選取&#x200B;**[!UICONTROL Filter on this column]**。
 
-   ![](assets/age-filter-on-this-column.png)
+   ![在收件者清單上按一下滑鼠右鍵功能表，並反白此欄的篩選器，顯示[年齡]欄](assets/age-filter-on-this-column.png)
 
    然後，您可以選取年齡篩選選項。 在頁面上新增另一個篩選器以定義範圍。
 
-   ![](assets/filter-on-age.png)
+   ![兩個年齡篩選器，大於20且小於30，傳回四個收件者](assets/filter-on-age.png)
 
 ## 進階篩選器{#advanced-filters}
 
@@ -320,7 +320,7 @@ Select篩選器以顯示其定義。
 
 若要建立&#x200B;**進階篩選器**，請按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL Advanced filter...]**。
 
-![](assets/adv-filter.png)
+![具有進階篩選的收件者清單的篩選器下拉式清單在底部](assets/adv-filter.png)反白顯示
 
 您也可以用滑鼠右鍵按一下資料清單，然後選取&#x200B;**[!UICONTROL Advanced filter...]**。
 
@@ -328,16 +328,16 @@ Select篩選器以顯示其定義。
 
 1. 按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄的&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示。
 
-   ![](assets/edit-exp.png)
+   ![進階篩選器對話方塊，在運算式資料行](assets/edit-exp.png)中顯示「編輯運算式」圖示
 
-1. 選取要篩選的欄位。
-1. 從下拉式清單中選取要套用的運運算元。
+1. Select要篩選的欄位。
+1. Select要從下拉式清單套用的運運算元。
 
-   ![](assets/select-operator.png)
+   ![進階篩選器對話方塊，其中的[Account #]運算式及[Operator]下拉式清單已開啟](assets/select-operator.png)
 
-1. 從&#x200B;**[!UICONTROL Value]**&#x200B;欄選取預期的值。 您可以合併多個篩選器來縮小查詢範圍。 若要新增篩選條件，請按一下&#x200B;**[!UICONTROL Add]**。
+1. Select是來自&#x200B;**[!UICONTROL Value]**&#x200B;欄的預期值。 您可以合併多個篩選器來縮小查詢範圍。 若要新增篩選條件，請按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/add-an-exp.png)
+   ![帳戶#的進階篩選器對話方塊以NL開頭，並新增一個And列](assets/add-an-exp.png)
 
    >[!NOTE]
    >
@@ -345,13 +345,13 @@ Select篩選器以顯示其定義。
 
 1. 三個運運算元可用於組合運算式： **和**、**或**、**Except**。 按一下箭頭以切換至&#x200B;**或**。
 
-   ![](assets/select-or-operator.png)
+   ![進階篩選器對話方塊，其中的And、Or和Except運運算元清單會在第二個City條件](assets/select-or-operator.png)開啟
 
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;建立篩選器，並將其套用至目前清單。
 
 套用的篩選器會顯示在清單上方。
 
-![](assets/adv-filter-link.png)
+![已套用進階篩選的收件者清單在清單上方顯示為藍色連結](assets/adv-filter-link.png)
 
 若要編輯或修改此篩選器，請按一下清單上方的藍色說明連結。
 
@@ -365,15 +365,15 @@ Select篩選器以顯示其定義。
 1. 按一下篩選的說明以進行編輯。
 1. 按一下視窗右上角的&#x200B;**[!UICONTROL Save as filter]**&#x200B;圖示。
 
-   ![](assets/save-as-filter.png)
+   ![進階篩選器對話方塊，右上方有「另存為篩選器」圖示](assets/save-as-filter.png)
 
 1. 輸入此篩選器的名稱並儲存。
 
-   ![](assets/application-filter-save.png)
+   ![含有Paris - LA New Users標籤的應用程式篩選對話方塊和篩選條件](assets/application-filter-save.png)
 
 篩選器已新增到[預先定義的篩選器](#predefined-filters)。 可以從此節點更新。
 
-![](assets/added-to-predefined-filters.png)
+![預先定義的篩選器節點列出新的Paris - LA新使用者篩選器及其定義](assets/added-to-predefined-filters.png)
 
 >[!NOTE]
 >
@@ -383,7 +383,7 @@ Select篩選器以顯示其定義。
 
 此篩選器也可從收件者清單的預先定義篩選器取得。
 
-![](assets/access-to-new-predefined-filter.png)
+![包含新Paris - LA New Users篩選的收件者清單下拉式清單醒目提示](assets/access-to-new-predefined-filter.png)
 
 
 
@@ -393,7 +393,7 @@ Select篩選器以顯示其定義。
 
 儲存後，在&#x200B;**[!UICONTROL User filters]**&#x200B;區段中選取訊息的目標母體時，可以使用進階篩選。
 
-![](assets/adv-filter-target-type.png)
+![目標型別對話方塊，已在[使用者]篩選下選取已儲存的Paris - LA新使用者](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
@@ -407,9 +407,9 @@ Select篩選器以顯示其定義。
 
 瞭解如何在這些端對端範例中建置進階查詢：
 
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中鎖定簡單的收件者屬性。
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=zh-Hant){target="_blank"}中篩選過去7天期間未聯絡的收件者。
-* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=zh-Hant){target="_blank"}中復原Active帳戶可篩選的運運算元清單。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}中鎖定簡單的收件者屬性。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}中篩選過去7天期間未聯絡的收件者。
+* 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}中復原Active帳戶可篩選的運運算元清單。
 * 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=zh-Hant){target="_blank"}中建立生日電子郵件對象。
 
 
@@ -425,7 +425,7 @@ Select篩選器以顯示其定義。
 
 * 若要定義表單以選取篩選條件，請選取&#x200B;**[!UICONTROL Use parameter entry form]**&#x200B;選項。 必須在&#x200B;**[!UICONTROL Form]**&#x200B;索引標籤中以XML格式輸入此表單。 例如，收件者清單中提供的內建預先定義篩選器&#x200B;**[!UICONTROL Recipients who have opened]**&#x200B;會顯示篩選器欄位，讓您選取要套用篩選器的傳遞。
 
-![](assets/predefined-filters-parameters.png)
+預先定義篩選器的![引數索引標籤及其進階引數對話方塊，其中的[不要限制篩選器]選項](assets/predefined-filters-parameters.png)
 
 
 * **[!UICONTROL Advanced parameters]**&#x200B;連結可讓您定義其他設定。
