@@ -97,7 +97,7 @@ ht-degree: 3%
 
 選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，**[!UICONTROL Target elements]**&#x200B;區段隨即開啟。 在這裡，您可以定義規則來篩選要收集的資料。
 
-* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁](filter-conditions.md)的[所述。
+* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁[&#128279;](filter-conditions.md)的所述。
 
 * 若要重複使用現有的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選擇您想要的篩選器。
 
@@ -119,7 +119,7 @@ ht-degree: 3%
 
 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視篩選條件的結果。 在此情況下，所有說英語的收件者都會顯示其名稱、名字和電子郵件地址。
 
-![ Target元素步驟的[預覽]索引標籤，列出符合篩選條件的收件者。](assets/query_editor_nveau_98.png)
+![&#x200B; Target元素步驟的[預覽]索引標籤，列出符合篩選條件的收件者。](assets/query_editor_nveau_98.png)
 
 熟悉SQL語言的使用者可以按一下&#x200B;**[!UICONTROL Generate SQL query]**&#x200B;以檢視SQL中的查詢。
 

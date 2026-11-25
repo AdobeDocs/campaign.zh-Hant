@@ -248,7 +248,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 您可以透過&#x200B;**[!UICONTROL Rejects]**&#x200B;索引標籤檢視這些拒絕的詳細資料。
 
-匯入工作的拒絕索引標籤列出聯結器拒絕的記錄，以及所選記錄的拒絕訊息。](assets/s_ncs_user_import_rejets_tab.png)![
+匯入工作的拒絕索引標籤列出聯結器拒絕的記錄，以及所選記錄的拒絕訊息。![&#128279;](assets/s_ncs_user_import_rejets_tab.png)
 
 拒絕有兩種型別（型別會顯示在&#x200B;**[!UICONTROL Connector]**&#x200B;欄中）：
 

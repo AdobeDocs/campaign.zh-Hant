@@ -190,7 +190,7 @@ ht-degree: 78%
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項預設為使用狀態，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因 Adobe Campaign 的使用方式及資料庫的資料類型而異。 可為每個傳遞範本設定選項的值。
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** ，即電子郵件地址位於封鎖清單上的收件者 (「選擇退出」)。 為了遵守電子行銷的職業道德，必須保持選取此選項。
-* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 深入瞭解Campaign](../send/quarantines.md)中[隔離管理的隔離管理。
+* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 深入瞭解Campaign[&#128279;](../send/quarantines.md)中隔離管理的隔離管理。
 * **[!UICONTROL Limit delivery]** 至指定數目的訊息。 此選項可讓您輸入要傳送的訊息數目上限。 如果目標客群超過指示的訊息數，則會隨機選取套用至目標。 若要傳送所有訊息，請將此值保持為「0」。
 * **[!UICONTROL Keep duplicate records (same identifier)]**：此選項允許傳送多個傳遞給符合多個目標選擇標準的收件者。
 +++
