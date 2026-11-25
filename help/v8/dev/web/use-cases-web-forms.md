@@ -25,7 +25,7 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 步驟1 — 建立資訊服務 {#step-1---creating-information-services}
 
-1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
+1. 建立要提供給收件者的電子報訂閱服務。 如需如何建立Newsletter的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
    前&#x200B;**[!UICONTROL Script]**&#x200B;個活動會在封鎖清單中新增收件者，直到他們確認訂閱電子報為止。 其內容必須如下：
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=1
    ```
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    第二個&#x200B;**[!UICONTROL Script]**&#x200B;活動會授權要傳送給使用者的傳送，並訂閱電子報。 指令碼的最後兩行將可讓您將收件者從暫存資料夾轉移至另一個資料夾，並在他們確認訂閱後立即與現有設定檔進行調解。
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>

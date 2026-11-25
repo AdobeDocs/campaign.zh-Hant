@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 10%
@@ -70,7 +70,7 @@ ht-degree: 10%
 1. 建立電子郵件並選取目標母體。 在此範例中，顯示一個版本或另一個版本的條件將依據收件者設定檔的&#x200B;**語言**&#x200B;值。 這些值設定為&#x200B;**EN**、**FR**、**ES**。
 1. 在電子郵件HTML內容中，按一下「**[!UICONTROL Source]**」索引標籤並貼上下列程式碼：
 
-   ```
+   ```html
    <% if (language == "EN" ) { %>
    <DIV id=en-version>Hello <%= recipient.firstName %>,</DIV>
    <DIV>Discover your new offers!</DIV>
@@ -99,4 +99,4 @@ ht-degree: 10%
 
 此影片以多語言電子報為範例，示範如何新增條件式內容至傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426541?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

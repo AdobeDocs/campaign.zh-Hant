@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這些技術工作流程可從Campaign Explorer的&#x200B;**[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]**&#x200B;節點取得。 **它們不可修改。**
 
-技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=zh-Hant){target="_blank"}中詳細列出完整的技術工作流程。
+技術工作流程會定期在伺服器上執行排程的流程或工作。 [此頁面](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}中詳細列出完整的技術工作流程。
 
 確保資料複製的技術工作流程如下：
 
@@ -93,7 +93,7 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
 
 * 使用下列程式碼新增特定&#x200B;**Javascript程式碼**&#x200B;活動：
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
@@ -101,7 +101,7 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
 
 * 使用下列命令新增特定&#x200B;**nlmodule**&#x200B;活動：
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
@@ -121,7 +121,7 @@ API可將自訂和現成可用的資料從Campaign本機資料庫(PostgreSQL)復
 
 範例：
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">
@@ -149,4 +149,4 @@ var xml = xtk.builder.CopyXxlData(
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-[此處](https://experienceleague.adobe.com/zh-hant/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。
+[此處](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)提供其他Campaign v8使用者端主控台教學課程。

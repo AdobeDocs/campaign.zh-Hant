@@ -28,7 +28,7 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -45,7 +45,7 @@ ht-degree: 4%
 
   範本中的 HTML 程式碼範例：
 
-  ```
+  ```xml
   <input id="email" type="email" name="email"/>
   ```
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
   ![](assets/dce_sidebar_inputtypechanges.png)
 
-  這個網站[&#128279;](https://www.w3schools.com/tags/att_input_type.asp)中的&#39;type&#39;屬性正式清單為。
+  這個網站](https://www.w3schools.com/tags/att_input_type.asp)中的&#39;type&#39;屬性正式清單為[。
 
 * 使用DCE模擬結束頁面的步驟：
 

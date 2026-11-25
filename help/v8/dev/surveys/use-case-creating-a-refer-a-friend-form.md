@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_viral_sample_4.png)
 
-   ```
+   ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
    ctx.recipient.visitor.@forwardUrl = "APP5"
    ctx.recipient.visitor.@referrerEmail = ctx.recipient.@email
@@ -115,13 +115,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如需傳遞範本的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant){target="_blank"}。
+   >如需傳遞範本的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}。
 
 1. 建立用於傳遞訂閱訊息的第二個指令碼。
 
    ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
-   ```
+   ```javascript
    // Updtate visitor to have a link to the referrer recipient
    ctx.recipient.visitor.@referrerId = ctx.recipient.@id
    ctx.recipient.visitor.@xtkschema = "nms:visitor"

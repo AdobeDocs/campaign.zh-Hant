@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 * 設定檔集合上的範例GET要求。
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
@@ -60,7 +60,7 @@ ht-degree: 0%
   它會傳回設定檔陣列。
 
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -84,7 +84,7 @@ ht-degree: 0%
 * 特定設定檔的範例GET要求。
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
@@ -96,7 +96,7 @@ ht-degree: 0%
   它會傳回請求的設定檔。
 
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -110,7 +110,7 @@ ht-degree: 0%
 * 建立設定檔的範例POST要求。
 
 
-  ```
+  ```bash
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ ht-degree: 0%
 
   它會傳回包含預設欄位的設定檔。
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 * 更新設定檔的範例PATCH請求。
 
-  ```
+  ```bash
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -144,7 +144,7 @@ ht-degree: 0%
 
   它會傳回PKEY和URL以擷取更新的設定檔。
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * 刪除設定檔的範例DELETE請求。
 
-  ```
+  ```bash
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

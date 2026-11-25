@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ***要求樣本***
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 若要使用自訂金鑰擷取設定檔的訂閱，請在自訂金鑰上執行GET操作。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 對傳回的訂閱URL執行GET要求。
 
-```
+```bash
 -X GET <SUBSCRIPTION_URL> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 它會傳回設定檔的訂閱清單。
 
-```
+```json
 "service": {
 "PKey": "<PKEY>",
 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",

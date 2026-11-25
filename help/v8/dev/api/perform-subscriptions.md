@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 執行GET要求以擷取設定檔。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 它會傳回設定檔的訂閱URL。
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 在訂閱URL上執行POST要求，並在裝載內使用所需的服務主索引鍵。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 它會傳回更新後的設定檔，並且服務節點已完成。
 
-```
+```json
 {
   ...
   "service": {
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 執行GET要求以擷取服務。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 它會傳回服務的訂閱URL。
 
-```
+```json
   {
     ...
     "messageType": "email",
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 在訂閱URL上發出POST請求，並在裝載內使用所需的設定檔主索引鍵。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 它會傳回已完成訂閱者節點的更新服務。
 
-```
+```json
 {
   ...
   "service": ...,

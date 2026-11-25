@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%
@@ -77,7 +77,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]**&#x200B;是超文字連結的內容，因為它將顯示在表單頁面上。
-* **[!UICONTROL URL]**&#x200B;是需要的位址，例如： [https://www.adobe.com/tw](https://www.adobe.com/tw)網站，或[info@adobe.com](mailto:info@adobe.com)傳送訊息。
+* **[!UICONTROL URL]**&#x200B;是需要的位址，例如： [https://www.adobe.com](https://www.adobe.com)網站，或[info@adobe.com](mailto:info@adobe.com)傳送訊息。
 * **[!UICONTROL Window]**&#x200B;欄位可讓您選取網站中連結的顯示模式。 您可以決定在新視窗、目前視窗或其他視窗中開啟連結。
 * 您可以新增工具提示，如下所示：
 
@@ -145,7 +145,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 ![](assets/webapp_perso_vars_include.png)
 
-```
+```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
 <P>To start your customized study, please select your car <%=ctx.vars.marque%> and its year of purchase.</P>
 ```
@@ -189,7 +189,7 @@ HTML編輯器可讓您輸入要插入表單頁面的內容。 若要開啟編輯
 
 選取&#x200B;**[!UICONTROL Static elements]** > **[!UICONTROL Image]**&#x200B;功能表。
 
-選取要插入的影像來源：它可以來自公用資源庫，或儲存在可從外部存取的外部伺服器上。
+Select要插入的影像來源：可來自公用資源庫，或儲存在可從外部存取的外部伺服器上。
 
 ![](assets/s_ncs_admin_survey_add_img.png)
 

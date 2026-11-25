@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 傳遞URL必須包含目的地表單的內部名稱，例如：
 
-   ```
+   ```text
    https://[myserver]/webForm/APP62?&next=APP22
    ```
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_test_ex2.png)
 
-選取&#x200B;**[!UICONTROL Activate the default branching]**&#x200B;選項，針對沒有任何條件為true的情況新增轉變。 如果定義的條件涵蓋了每個可能的情況，就不需要這個選項。
+Select **[!UICONTROL Activate the default branching]**&#x200B;選項，針對沒有任何條件為true的情況新增轉變。 如果定義的條件涵蓋了每個可能的情況，就不需要這個選項。
 
 接著，在條件中有一個為true時定義頁面順序，例如：
 

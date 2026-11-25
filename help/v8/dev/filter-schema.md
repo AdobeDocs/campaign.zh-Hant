@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
 
   在此，篩選器是用來在沒有ADMINISTRATION許可權的情況下禁止操作員在結構描述上使用WRITE許可權。 這表示只有管理員擁有此結構描述所說明之實體的寫入許可權。
 
-  ```
+  ```xml
   <sysFilter name="writeAccess">      
    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
   </sysFilter>
@@ -71,7 +71,7 @@ ht-degree: 2%
 
   在此處，篩選器用於禁止所有運運算元在結構描述上同時具有讀取和寫入許可權。 只有&#x200B;**internal**&#x200B;帳戶(由運算式&quot;$(loginId)!=0&quot;表示)具有這些許可權。
 
-  ```
+  ```xml
   <sysFilter name="readAccess"> 
    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
   </sysFilter>

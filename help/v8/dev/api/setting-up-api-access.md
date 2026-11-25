@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 >[!IMPORTANT]
 >
->若要在[Adobe Developer](https://developer.adobe.com/)中管理憑證，請確定您對該組織具有&#x200B;**系統管理員**&#x200B;許可權，或在Admin Console中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。
+>若要在[Adobe Developer](https://developer.adobe.com/)中管理憑證，請確定您對該組織具有&#x200B;**系統管理員**&#x200B;許可權，或在Admin Console中擁有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)。
 
 1. **檢查您是否有數位憑證**，或視需要建立一個憑證。 以下步驟需要憑證隨附的公開和私密金鑰。
 1. **在[Adobe Developer](https://developer.adobe.com/)中建立與Adobe Campaign服務的新整合**&#x200B;並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。
@@ -56,7 +56,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 若要建立安全的服務對服務Adobe I/O API工作階段，對Adobe服務的每個請求都必須在Authorization標頭中包含以下資訊。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -81,7 +81,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 在AdobeIO整合期間，如果出現下列錯誤：
 
-```
+```json
 { 
 "code": 502, 
 "message": "Oops. Something went wrong. Check your URI and try again." 
