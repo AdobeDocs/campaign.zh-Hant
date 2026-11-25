@@ -93,4 +93,4 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 瞭解如何在[搭配Campaign和X (Twitter)](../connect/ac-tw.md)中設定和使用X整合。
 
-瞭解如何使用Adobe Campaign](../send/twitter.md)在X (Twitter)上建立X貼文，以及透過[貼文訊息傳送直接訊息給您的追隨者。
+瞭解如何使用Adobe Campaign[&#128279;](../send/twitter.md)在X (Twitter)上建立X貼文，以及透過貼文訊息傳送直接訊息給您的追隨者。

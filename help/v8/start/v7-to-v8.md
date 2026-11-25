@@ -77,7 +77,7 @@ Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic 
 * 傳遞狀態不會立即更新 — 行銷執行個體上會執行技術流程，以便及時更新傳遞狀態。
 
 
-進一步瞭解從Campaign Classic v7](../send/transactional-template.md#transition-from-v7)的[轉換從v7傳送異動訊息校樣。
+進一步瞭解從Campaign Classic v7[&#128279;](../send/transactional-template.md#transition-from-v7)的轉換從v7傳送異動訊息校樣。
 
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}

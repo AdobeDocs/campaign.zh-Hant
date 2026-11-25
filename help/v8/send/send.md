@@ -49,7 +49,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->傳遞狀態不會即時顯示。 在本節](#email-feedback-service)中進一步瞭解電子郵件回饋服務[。
+>傳遞狀態不會即時顯示。 在本節[&#128279;](#email-feedback-service)中進一步瞭解電子郵件回饋服務。
 
 ## Campaign MTA {#mta}
 
@@ -77,7 +77,7 @@ MTA會符合SMTP退信的資格，並以對應至Campaign退信原因和資格�
 >
 >目前&#x200B;**非同步**&#x200B;退信由inMail處理序透過&#x200B;**[!UICONTROL Inbound email]**&#x200B;規則限定。
 
-深入瞭解Campaign](delivery-failures.md)中[傳送失敗的傳送情況。
+深入瞭解Campaign[&#128279;](delivery-failures.md)中傳送失敗的傳送情況。
 
 
 ### 特定MX規則
