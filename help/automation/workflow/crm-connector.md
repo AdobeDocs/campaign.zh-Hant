@@ -45,4 +45,4 @@ Select符合您要設定同步之CRM的外部帳戶，然後選取要同步的�
 
 ![從CRM匯入的CRM聯結器活動，且遠端物件清單已開啟，連絡人已反白顯示](assets/crm_task_select_obj.png)
 
-如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}。
+如需Adobe Campaign中CRM聯結器的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=zh-Hant){target="_blank"}。
