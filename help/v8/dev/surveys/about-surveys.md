@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 ---
 # 開始使用意見調查{#about-surveys}
@@ -49,7 +49,7 @@ Adobe Campaign包含圖形模組，可定義及發佈網頁應用程式。 這�
 
 本章詳細說明如何建立和管理&#x200B;**調查**、欄位和頁面管理、儲存模式和記錄。
 
-在[此頁面](getting-started-with-surveys.md)中瞭解如何建立您的第一個調查。
+瞭解如何在[建立調查的關鍵步驟](getting-started-with-surveys.md)中建立您的第一個調查。
 
 >[!NOTE]
 >

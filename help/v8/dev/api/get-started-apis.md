@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '246'
+ht-degree: 53%
 ---
 # 開始使用Campaign REST API {#get-started-apis}
 
@@ -54,7 +54,7 @@ Campaign REST API的目的是讓您&#x200B;**建立Adobe Campaign的整合**，�
 </tr></table>
 
 若要使用Campaign REST API，您需要Adobe I/O帳戶。 這是前進並探索 API 功能的必備第一步。
-如需詳細資訊，請參閱[本章節](setting-up-api-access.md)。
+如需詳細資訊，請參閱[設定API存取](setting-up-api-access.md)。
 
 我們提供的 API 使用&#x200B;**標準概念**，以及 REST 介面和 JSON 負載。
 

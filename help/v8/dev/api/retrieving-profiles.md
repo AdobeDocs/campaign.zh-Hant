@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 4%
+source-wordcount: '238'
+ht-degree: 0%
 ---
 # 使用API擷取設定檔 {#retrieving-profiles}
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 接著，您就可以使用篩選器、排序和分頁來縮小搜尋範圍。 如需詳細資訊，請參閱[其他作業](sorting.md)區段。
 
-此外，Campaign Standard API允許您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
+此外，Campaign Standard API允許您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[根據欄位](#searching-field)搜尋設定檔。
 
 <br/>
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 * 擷取所有設定檔的範例GET要求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -48,7 +48,7 @@ ht-degree: 4%
 
   對要求的回應。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 * 擷取前10個電子郵件值的範例GET要求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ ht-degree: 4%
 
   對要求的回應。 「下一個」節點會傳回URL，讓您存取下一個10個電子郵件值。
 
-  ```
+  ```json
   {
   "content": [
       "amy.dakota@mail.com",
@@ -107,7 +107,7 @@ ht-degree: 4%
 
 * 根據名字篩選設定檔的範例請求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 * 根據姓氏篩選設定檔的範例請求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 * 根據電子郵件篩選設定檔的範例請求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -137,7 +137,7 @@ ht-degree: 4%
 
 * 根據「愛好」自訂欄位篩選設定檔的範例請求。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

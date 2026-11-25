@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 84%
+source-wordcount: '1949'
+ht-degree: 83%
 ---
 # 2022 發行說明{#2022-rn}
 
@@ -106,7 +106,7 @@ _2022 年 9 月 30 日_
 * 此變更僅適用於 GET URL。 其他類型 (包括 POST URL) 則不受影響。
 * 如果您使用自訂程式碼，則安全性權杖不再從 GET URL 安全性權杖參數中擷取。 您必須使用下列 JSSP 程式碼產生新的安全性權杖：
 
-  ```
+  ```javascript
   getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
   ```
 
@@ -254,14 +254,14 @@ _2022 年 5 月 18 日_
 
 **功能改進**
 
-* Microsoft Exchange Online OAuth 2.0 在 Campaign 中支援 POP3 驗證。 [閱讀全文](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Exchange Online OAuth 2.0 在 Campaign 中支援 POP3 驗證。 [退回郵件](../config/external-accounts.md#bounce-mails-external-account)
 * 已套用 Microsoft Dynamics 連接器網頁 API 的重要修正：
 * 已新增名為right的運運算元和群組結構描述寫入(operatorWrite)，以允許使用者插入、更新和刪除運運算元(xtk:operator)和運運算元群組(xtk:group)結構描述。
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 現在，可以在單個中間來源設定多個 LINE 主要帳戶。
 * Web 流程的預設連接數已從 50 增加到 150。
-* Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 [閱讀更多](../architecture/keys.md)
+* Campaign 隨附一組新的護欄，以防止在 Snowflake 資料庫中插入重複的金鑰。 行銷活動中的[金鑰管理](../architecture/keys.md)
 
 **修正**
 

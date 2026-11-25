@@ -35,15 +35,15 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 3%
 ---
 # 使用自訂收件者表格{#gs-ac-custom-recipient}
 
-Adobe Campaign隨附內建的設定檔資料表： **nmsRecipient**。 此表格有許多預先定義的欄位和表格，可以輕鬆擴充。 在[此頁面](datamodel.md#ootb-profiles)中進一步瞭解此資料表。
+Adobe Campaign隨附內建的設定檔資料表： **nmsRecipient**。 此表格有許多預先定義的欄位和表格，可以輕鬆擴充。 在[內建設定檔資料表](datamodel.md#ootb-profiles)中進一步瞭解此資料表。
 
 內建表格擴充功能提供靈活性，但不允許移除某些未使用的欄位或連結。 因此，當您的資料模型與Campaign內建的收件者表格結構完全不同，或您有大量設定檔時，使用自訂收件者表格可能是很好的選項。  不過，此方法在實作時需要特別注意。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=zh-Hant){target="_blank"}中瞭解如何設定您的執行個體以使用自訂收件者表格。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}中瞭解如何設定您的執行個體以使用自訂收件者表格。

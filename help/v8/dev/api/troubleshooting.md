@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 # API疑難排解 {#troubleshooting}
@@ -32,7 +32,7 @@ ht-degree: 0%
 若要取得詳細資訊，您可以使用權杖呼叫IMS API，以檢視您的IMS設定檔看起來是什麼樣子：您需要使用一個prodCtx，其organization_id與您在URL中放入Adobe.io的相同，才能路由您的請求。
 如果缺少，則需要修正IMS布建。
 
-```
+```bash
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 它會傳回以下錯誤。
 
-```
+```json
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
 透過此請求檢查您的IMS設定檔。
 
-```
+```bash
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 回應中，第一個GET請求中的ORGANIZATION_ID值必須相同。
 
-```
+```json
 {
   "countryCode": "FR",
   "mrktPermEmail": null,
@@ -91,7 +91,7 @@ Adobe.io會宣告您無效的URI：您請求的URI很可能無效。 在Adobe.io
 
 * **我在建立後沒有看到我的設定檔**
 
-根據執行個體組態，建立的設定檔必須關聯至&#x200B;**orgUnit**。 若要瞭解如何在建立時新增此欄位，請參閱[本節](creating-profiles-api.md)。
+根據執行個體組態，建立的設定檔必須關聯至&#x200B;**orgUnit**。 若要瞭解如何在建立時新增此欄位，請參閱[使用API建立設定檔](creating-profiles-api.md)。
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

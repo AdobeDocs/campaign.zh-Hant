@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 6%
+ht-degree: 5%
 ---
 # 監視您的傳遞能力{#monitoring-deliverability}
 
@@ -44,7 +44,7 @@ Adobe Campaign可讓您存取下列傳遞工具。
 
 ### 傳遞總處理能力 {#throughput-reports}
 
-**[!UICONTROL Delivery throughput]**&#x200B;報告提供指定期間內整個平台的輸送量概觀。 如需詳細資訊，請參閱[本節](../reporting/global-reports.md#delivery-throughput)。
+**[!UICONTROL Delivery throughput]**&#x200B;報告提供指定期間內整個平台的輸送量概觀。 如需詳細資訊，請參閱[傳遞輸送量](../reporting/global-reports.md#delivery-throughput)。
 
 ### 廣播統計資料 {#broadcast-statistics}
 

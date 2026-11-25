@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 70%
+source-wordcount: '744'
+ht-degree: 65%
 ---
 # 從 [!DNL Campaign Classic] v7 轉變至 [!DNL Campaign] v8{#gs-matrix}
 
@@ -62,7 +62,7 @@ Adobe Campaign Managed Cloud Services 為設計跨頻道客戶體驗提供了 Ma
 * **服務體驗** — 主動的可用性、容量和效能監控和回應，以防止中斷，更快地解決事件，並定期審查服務以持續改進。
 * **深入的行銷活動專長** — 由專家客戶工程團隊提供的高相似性服務，可滿足功能、技術或傳遞性需求，降低部署風險，並改善變更管理。
 
-身為前[!DNL Campaign Classic]使用者，請注意[!DNL Campaign Classic] v7 中除了[!DNL Campaign]本章節[所列的一小部分功能外，也提供大部份](#gs-removed) v8 的功能。
+身為前[!DNL Campaign Classic]位使用者，請注意，[!DNL Campaign Classic] v7的大部分功能都可以在[!DNL Campaign] v8中使用，但[不支援的功能](#gs-removed)所列的一小部分功能除外。
 
 >新的雲端架構可讓Campaign簡化流程、降低成本、管理風險，並改善資料安全性。 您的 Campaign v8 環境隨附預先為您設定的專用虛擬私人雲端 (VPC)。
 
@@ -77,7 +77,7 @@ Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic 
 * 傳遞狀態不會立即更新 — 行銷執行個體上會執行技術流程，以便及時更新傳遞狀態。
 
 
-深入瞭解從[此頁面](../send/transactional-template.md#transition-from-v7)上的v7轉換時傳送異動訊息校樣。
+進一步瞭解從Campaign Classic v7](../send/transactional-template.md#transition-from-v7)的[轉換從v7傳送異動訊息校樣。
 
 
 ## [!DNL Campaign] 和 [!DNL Snowflake] {#ac-gs-snowflake}
@@ -86,20 +86,20 @@ Campaign v8依賴&#x200B;**混合式架構**。 如果您要從Campaign Classic 
 
 Campaign v8 企業版帶來 **完全同盟資料存取** (FFDA) 的概念：所有資料現在都在雲端資料庫遠端處理。 使用此新架構，Campaign v8 企業 (FFDA) 部署可簡化資料管理：雲端資料庫不需要索引。 您只需要建立表格、複製資料，就可以開始。 雲端資料庫技術不需要進行具體的維護來保證效能等級。
 
-在[此頁面](../../v8/architecture/architecture.md)中進一步瞭解[!DNL Campaign] v8架構。
+深入瞭解[中的[!DNL Campaign] v8架構](../../v8/architecture/architecture.md)開始使用行銷活動架構。
 
 
 ## 使用您的 Adobe ID 連結到 Campaign{#adobe-id}
 
 Campaign 使用者僅透過其 Adobe ID 連線。 相同的Adobe ID可用來保留與單一帳戶相關聯的所有[!DNL Adobe CX Enterprise]解決方案Adobe計畫和產品。
 
-瞭解如何在[此頁面](connect.md)中連線至[!DNL Campaign]。
+瞭解如何在[連線至Campaign v8](connect.md)中連線至[!DNL Campaign]。
 
 ## 使用多維度資料集分析資料{#adobe-reporting}
 
 使用「行銷分析」模組可以分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 此外，建立報告並建置目標群體：一經識別，儲存在 Adobe Campaign (目標定位、分段等) 使用的清單中。
 
-Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。 若要深入了解多維度資料集，請參閱[本節](../../v8/reporting/gs-cubes.md)。
+Adobe Campaign v8 已最佳化多維度資料集報告，且提供比 Campaign Classic v7 更好的擴充功能。 在該特定部署模型中，先前對多維資料集的限制不適用於 Campaign v8。 在[開始使用Adobe Campaign分析報告](../../v8/reporting/gs-cubes.md)中進一步瞭解多維度資料集。
 
 ## 未提供的功能{#gs-unavailable-features}
 

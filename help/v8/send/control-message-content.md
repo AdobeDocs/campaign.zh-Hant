@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 5%
 ---
 # 控制您的訊息內容{#control-message-content}
@@ -34,7 +34,7 @@ ht-degree: 5%
 * [取消訂閱連結](#opt-out)和登陸頁面：取消訂閱連結是必要的。 它必須可見且有效，而且表單必須有效。
 * 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容（[收件匣轉譯](#message-responsiveness)，[SpamAssassin](#spamassassin)）。
 
-如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=zh-Hant){target="_blank"}。
+如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}。
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。
 
-如需在Adobe Campaign中使用個人化欄位的詳細資訊，請參閱[本節](personalization-fields.md)。
+如需在Adobe Campaign中使用個人化欄位的詳細資訊，請參閱[新增個人化欄位](personalization-fields.md)。
 
 ## 選擇退出連結和表單 {#opt-out}
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 每次傳送前，您必須先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且驗證後會將&#x200B;**[!UICONTROL No longer contact this recipient]**&#x200B;欄位的值變更為&#x200B;**[!UICONTROL Yes]**。 您應該系統地進行此檢查，因為輸入連結或變更表單時總是可能發生人為錯誤。
 
-瞭解如何在本節[&#128279;](personalization-blocks.md#ootb-personalization-blocks)中插入選擇退出連結。
+瞭解如何在本節](personalization-blocks.md#ootb-personalization-blocks)中插入選擇退出連結[。
 
 如果在開始傳遞後偵測到有關取消訂閱的問題，則仍可以為按一下選擇退出連結的收件者手動執行取消訂閱（例如使用大量更新函式），即使他們無法確認自己的選擇。
 

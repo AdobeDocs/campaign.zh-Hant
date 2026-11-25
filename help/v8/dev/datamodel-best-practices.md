@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 5%
+source-wordcount: '2783'
+ht-degree: 4%
 ---
 # 資料模型最佳實務 {#data-model-best-practices}
 
@@ -60,11 +60,11 @@ ht-degree: 5%
 
 Adobe Campaign系統非常靈活，可擴充至初始實施以外的範圍。 不過，雖然可能性是無限的，但做出明智的決策並奠定堅實的基礎以開始設計您的資料模型是至關重要的。
 
-若要進一步瞭解Campaign內建表格以及它們之間的關係，請參閱[本節](datamodel.md)。
+若要更瞭解Campaign內建資料表以及它們之間的關係，請參閱[開始使用Campaign資料模型](datamodel.md)。
 
-閱讀[本節](schemas.md)以開始使用Campaign綱要。
+閱讀[使用Campaign綱要](schemas.md)以開始使用Campaign綱要。
 
-瞭解如何設定延伸結構描述，以便在[此頁面](extend-schema.md)中延伸Adobe Campaign資料庫的概念資料模型。
+瞭解如何設定延伸結構描述，以在[延伸Campaign結構描述](extend-schema.md)中延伸Adobe Campaign資料庫的概念資料模型。
 
 ## 資料模型架構 {#data-model-architecture}
 
@@ -136,7 +136,7 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 
 在[Enterprise (FFDA)部署](../architecture/enterprise-deployment.md)的內容中，Adobe Campaign主索引鍵是所有內建資料表的自動產生UUID。 UUID也可用於自訂表格。 [了解更多](../architecture/keys.md)
 
-即使ID的數量是無限的，您也應該注意資料庫的大小，以確保最佳效能。 若要避免發生任何問題，請務必調整執行個體清除設定。 如需詳細資訊，請參閱[本節](#data-retention)。
+即使ID的數量是無限的，您也應該注意資料庫的大小，以確保最佳效能。 若要避免發生任何問題，請務必調整執行個體清除設定。 如需詳細資訊，請參閱[資料保留](#data-retention)。
 
 
 ## 自訂內部索引鍵 {#custom-internal-keys}
@@ -257,7 +257,7 @@ Adobe Campaign仰賴協力廠商資料庫引擎。 視提供者而定，為大�
 
 * **小型**&#x200B;資料表與傳遞資料表類似。
 * **中等大小**&#x200B;資料表與收件者資料表的大小相同。 每個客戶有一筆記錄。
-* **大型**&#x200B;資料表類似於Broad記錄資料表。 每個客戶有許多記錄。
+* **大型**資料表類似於Broad記錄資料表。 每個客戶有許多記錄。
 例如，如果您的資料庫包含1千萬位收件者，則廣泛記錄表格會包含約1億到2億則訊息，而傳遞表格則會包含數千筆記錄。
 
 列數也會影響效能。 Adobe Campaign資料庫的設計目的，並非儲存主動未用於目標定位或個人化用途的歷史資料，而是儲存運作資料庫。

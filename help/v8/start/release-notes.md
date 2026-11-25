@@ -26,18 +26,18 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 9%
+source-wordcount: '2451'
+ht-degree: 11%
 ---
 # 最新版本 {#latest-release}
 
-本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。 在[此頁面](upgrades.md)進一步了解 Campaign 行銷活動發布、版本和更新。 本文件的先前版本區段將列出其他版本。
+本頁面列出 Campaign v8 (主控台) **最新版本**&#x200B;中的新功能、改善和修正。 深入瞭解[行銷活動版本、升級和安全性](upgrades.md)中的Campaign版本、版本和升級。 本文件的先前版本區段將列出其他版本。
 
 ## 發行版本8.9.4 {#release-8-9-4}
 
-_2026年10月15日_
+_2026 年 10 月 15 日_
 
 ### 功能改進 {#improvements-8-9-4}
 
@@ -55,11 +55,11 @@ _2026年10月15日_
 * 修正不使用設定檔對應之Snowflake或FFDA外部檔案目標的傳遞準備可能失敗的問題。 (NEO-96507)
 * 修正工作流程包含連結至不同FDA來源的多個查詢可能會失敗的問題。 (NEO-97249)
 * 修正當處理即時觸發並緊密觸發的事件時，近乎即時擴充工作流程可能會間歇性地失敗並出現SQL錯誤的問題。 (NEO-97557)
-* 修正內部鎖定機制可能進入重試回圈，導致伺服器上CPU使用率高的問題。 (NEO-94845)
+* 修正內部鎖定機制可能進入重試迴圈，導致伺服器 CPU 使用率過高的問題。 (NEO-94845)
 * 修正將種子地址與自訂目標對應搭配使用時，傳遞準備可能失敗並出現SQL錯誤的問題。 (NEO-94966)
 * 修正將資料載入Redshift時，FDA工作流程可能失敗並出現欄溢位錯誤的問題。 (NEO-96125)
-* 修正Analytics外部帳戶可能因「過去」(410)錯誤而失敗的問題。 (NEO-99019)
-* 修正即使成功傳送相對應的訊息，部分傳送仍可能卡在個人化擱置狀態的問題。 (NEO-94471)
+* 修正 Analytics 外部帳戶可能因「Gone」(410) 錯誤而失敗的問題。 (NEO-99019)
+* 修正即使對應的訊息已成功傳送，部分傳遞仍可能卡在個人化待處理狀態的問題。 (NEO-94471)
 
 ## 發行版本8.9.3 {#release-8-9-3}
 
@@ -142,8 +142,8 @@ _2026 年 1 月 27 日_
 
 ### 安全性改善 {#security-8-9-1}
 
-* Snowflake外部帳戶現在支援OAuth2驗證，為同盟資料存取連線提供現代且安全的驗證方法。 (NEO-87013) [瞭解詳情](../config/external-accounts.md#snowflake-external-accounts)
-* Databricks外部帳戶現在支援透過服務主體（非互動式使用者端憑證流程）的OAuth2驗證，為同盟資料存取連線提供安全的驗證方法。 互動式OAuth2驗證將在未來版本中提供。 (NEO-87422) [瞭解詳情](../config/external-accounts.md#databricks-external-accounts)
+* Snowflake外部帳戶現在支援OAuth2驗證，為同盟資料存取連線提供現代且安全的驗證方法。 (NEO-87013) [Snowflake外部帳戶](../config/external-accounts.md#snowflake-external-accounts)
+* Databricks外部帳戶現在支援透過服務主體（非互動式使用者端憑證流程）的OAuth2驗證，為同盟資料存取連線提供安全的驗證方法。 互動式OAuth2驗證將在未來版本中提供。 (NEO-87422) [資料庫外部帳戶](../config/external-accounts.md#databricks-external-accounts)
 * 修正工作流程檔案存取漏洞，限制對授權目錄的操作，防止未經授權的存取和可能的遠端程式碼執行。 (NEO-88460)
 * 新增FTP URL允許清單控制項至工作流程JavaScript程式碼活動，限制只有授權位址的輸出FTP連線。 (NEO-89083)
 * 修正可能導致應用程式拒絕服務的安全性問題。 (NEO-89984)
@@ -154,12 +154,12 @@ _2026 年 1 月 27 日_
 
 此版本隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
-* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=zh-Hant){target="_blank"}
-* [內容實驗 - A/B 測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=zh-Hant){target="_blank"}
-* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=zh-Hant){target="_blank"}
-* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=zh-Hant){target="_blank"}
+* [多語言傳送功能 (正式推出)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [異動訊息(GA)中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager即時和語言副本](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [內容實驗 - A/B 測試](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [持續傳遞活動](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [行銷活動核准管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 

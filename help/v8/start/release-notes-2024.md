@@ -40,14 +40,14 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 83%
+source-wordcount: '1687'
+ht-degree: 81%
 ---
 # 2024 年發行說明 {#2024-rn}
 
-本頁面列出 **2024 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。 如需最新版本，請參閱[此頁面](release-notes.md)。
+本頁面列出 **2024 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。 如需最新版本，請參閱[Campaign v8發行說明](release-notes.md)。
 
 對於任何新的實作或升級至現有環境，請安裝[最新版本](release-notes.md)。
 
@@ -74,11 +74,11 @@ _2024 年 9 月 3 日_
 
 ### 新功能 {#new-8-7-2}
 
-* **新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [閱讀全文](../send/sms/sms.md)。
+* **新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [使用Adobe Campaign傳送簡訊](../send/sms/sms.md)。
 
-* **豐富推播通知 (GA)** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [閱讀全文](../send/rich-push-android.md)。
+* **豐富推播通知 (GA)** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [設計Android豐富推送傳遞](../send/rich-push-android.md)。
 
-* **品牌化** - 品牌化選項現在可供所有管道使用，包括 SMS 和直接郵件。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
+* **品牌化** - 品牌化選項現在可供所有管道使用，包括 SMS 和直接郵件。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
 ### 修正 {#fixes-8-7-2}
 
@@ -98,13 +98,13 @@ _2024 年 5 月 2 日_
 
 ### 新功能 {#new-8-7-1}
 
-* **豐富推播通知範本** - 您現可透過 Android 傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [閱讀全文](../send/rich-push-ios.md)。
+* **豐富推播通知範本** - 您現可透過 Android 傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 [設計iOS豐富推送傳遞](../send/rich-push-ios.md)。
 
-* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=zh-Hant){target="_blank"}
+* **品牌化** - 作為 Campaign Standard 移轉使用者，您的技術管理員現可定義一個或多個品牌，以便集中影響品牌識別的參數。 這包括品牌標誌、登陸頁面存取 URL 之網域或訊息追蹤設定。 您可以建立這些品牌，並將其連結至訊息或登陸頁面。 此設定在範本中管理。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
-* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [閱讀更多](../dev/api/get-started-apis.md)
+* **Rest API** - 作為 Campaign Standard 移轉使用者，您可使用 Rest API 來建立 Adobe Campaign 整合，並將 Adobe Campaign 與您使用的技術面板結合，以便建立您自己的生態系統。 [開始使用Campaign REST API](../dev/api/get-started-apis.md)
 
-* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
+* **動態報告** - 作為 Campaign Standard 移轉使用者，您可存取動態報告，其提供完全可自訂的即時報告，以便測量行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### 相容性更新 {#comp-8-7-1}
 
@@ -127,7 +127,7 @@ _2024 年 5 月 2 日_
 
 ### 一般改善 {#improvements-8-7-1}
 
-* 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [閱讀更多](../../technotes/upgrades/64-bit-tables.md)
+* 數個結構描述已從 32 位元變更為 64 位元。 這僅適用從 Campaign Standard 移轉的客戶。 [64位元結構描述](../../technotes/upgrades/64-bit-tables.md)
 
 * 在 Campaign 表格中，下列屬性現在預設會依伺服器日期和時間填入：`lastModified` 和 `created`。 此 `createdBy-id` 屬性值現在會依預設填入目前登入的 ID。 系統會忽略使用者在 API 呼叫中提供的值。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
@@ -147,7 +147,7 @@ _2024 年 7 月 30 日_
 
 ### 新功能 {#new-8-6-3}
 
-* **豐富推播通知** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [閱讀全文](../send/rich-push-android.md)。
+* **豐富推播通知** - 您現在可以傳送豐富推播通知。 豐富推播通知是行動裝置通知的增強型形式，其不僅限於簡單文字訊息，而是結合多媒體元素，例如影像、互動式按鈕或其他多媒體內容。 透過此版本，您現在可以在 iOS 和 Android 應用程式中使用一組豐富推播通知範本。 [設計Android豐富推送傳遞](../send/rich-push-android.md)。
 
 * 自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 [了解更多](release-notes-2024.md#change-8-7-1)
 
@@ -170,7 +170,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 
 下列變更已在 5 月發行，現在已經可供 Campaign v8 使用者使用：
 
-* **新的增強式安全性附加元件**：為了讓您的網路連線更安全，並為您的資源提供更高的安全性，Adobe Campaign 提供新的增強安全性附加元件，其中包括兩項功能：安全 CMK 整合和安全 VPN 通道。 [閱讀更多](../config/enhanced-security.md)
+* **新的增強式安全性附加元件**：為了讓您的網路連線更安全，並為您的資源提供更高的安全性，Adobe Campaign 提供新的增強安全性附加元件，其中包括兩項功能：安全 CMK 整合和安全 VPN 通道。 [Campaign Enhanced安全性附加元件](../config/enhanced-security.md)
 
 ## 發行版本 8.6.2 {#release-8-6-2}
 
@@ -188,7 +188,7 @@ _2024 年 2 月 14 日_
 
 ### 新功能 {#new-8-6-1}
 
-* 從這個版本開始，您可以存取新的&#x200B;**Campaign Web使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境使用。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面[&#128279;](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面。
+* 從這個版本開始，您可以存取新的&#x200B;**Campaign Web使用者介面**，該介面可透過中央[!DNL Adobe CX Enterprise]環境使用。 [!DNL CX Enterprise]是Adobe的整合式數位行銷應用程式產品和服務系列。 您可以從其直覺式介面，快速存取雲端應用程式、產品功能和服務。 在此頁面](campaign-ui.md#ac-web-ui)中瞭解如何連線至[!DNL CX Enterprise]，以及存取Adobe Campaign Web介面[。
 
   >[!AVAILABILITY]
   >
@@ -208,7 +208,7 @@ _2024 年 2 月 14 日_
 
 * 到 2024 年 2 月，任何透過 Google 或 Yahoo! 傳送超過 5,000 則電子郵件訊息的公司 將必須開始使用稱為網域型訊息驗證報告和符合性 (DMARC) 的驗證技術。 請務必為您搭配Adobe Campaign使用的所有子網域設定DMARC記錄。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"}
 
-* 2024 年 6 月 1 日起，Google 和 Yahoo! 將要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign 現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=zh-Hant#list-unsubscribe){target="_blank"}
+* 2024 年 6 月 1 日起，Google 和 Yahoo! 將要求寄件者遵守一鍵式清單取消訂閱規範。 Adobe Campaign 現在支援此選項。 [了解更多](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### 修正 {#fixes-8-6-1}

@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 92%
+source-wordcount: '1252'
+ht-degree: 81%
 ---
 # Campaign 實施方針{#gs-implementation}
 
@@ -77,7 +77,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
   進一步瞭解[Campaign Classic v7隱私權檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=zh-Hant#consent){target="_blank"}
 
-* **隱私和資料保護法規**：請參考[此章節](privacy.md)關於隱私權請求的資訊，以及這些法規對您的組織和 Adobe Campaign 的影響。
+* **隱私權與資料保護法規**：請參閱[在Campaign中管理隱私權要求](privacy.md)，以取得隱私權要求的相關資訊，以及這些法規對貴組織和Adobe Campaign的影響。
 
 ### 安全性
 
@@ -89,7 +89,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
 您可以手動將使用者新增至 Campagin，並將他們與群組建立關聯，並使其與您的角色階層一致。 接著，使用者就可以登入並存取適合他們的資料和權限。
 
-在[本節](../start/gs-permissions.md)瞭解如何新增使用者至 Adobe Campaign。
+在[開始使用Campaign v8](../start/gs-permissions.md)中的許可權，瞭解如何在Adobe Campaign中新增使用者。
 
 ### 安裝 Campaign 用戶端控制台{#implementation-install-console}
 
@@ -145,17 +145,17 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
    請參閱本節以深入了解 [Campaign 內建資料模型](../dev/datamodel.md)。
 
-   您可以擴充現有結構描述或從頭開始建立新結構描述。 在[本頁](../dev/customize.md)中瞭解更多。
+   您可以擴充現有結構描述或從頭開始建立新結構描述。 深入瞭解[自訂您的執行個體](../dev/customize.md)。
 
 1. **儀表板和清單**
 
    您可以輕鬆設定清單、新增和移除欄位，以及自訂欄位。
 
-   在[本頁面](../dev/customize.md#gs-lists-and-filters)瞭解如何管理 Campaign 中的篩選器與清單。
+   瞭解如何在[自訂清單和建立篩選器](../dev/customize.md#gs-lists-and-filters)中管理Campaign中的篩選器和清單。
 
    您也可以根據您的需求建立新的控制面板以顯示 Campaign 資料。
 
-   在[本頁](../dev/customize.md#gs-custom-dashboards)中瞭解更多。
+   深入瞭解[自訂儀表板](../dev/customize.md#gs-custom-dashboards)。
 
 1. **報告**
 
@@ -163,7 +163,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
    除了內建報告之外，透過使用 Adobe Campaign，可以讓您在不同工作環境中根據不同需求產生報告。 本檔案詳細說明了使用原則和實施模式。
 
-   在[本頁面](../reporting/gs-reporting.md)深入瞭解 Campaign 報告功能。
+   在[開始使用Adobe Campaign報告工具](../reporting/gs-reporting.md)中進一步瞭解Campaign的報告功能。
 
 
 ## 設定行銷活動自動化{#implementation-automation}
@@ -172,7 +172,7 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 
 * 利用&#x200B;**工作流程**&#x200B;管理流程與資料。 請參閱[本文件](../../automation/workflow/about-workflows.md)以深入瞭解。
 
-* 設定&#x200B;**訂閱**&#x200B;流程與&#x200B;**登陸頁面**。  在[本頁](../start/subscriptions.md)中了解更多
+* 設定&#x200B;**訂閱**&#x200B;流程與&#x200B;**登陸頁面**。  深入瞭解[在Campaign中管理訂閱和取消訂閱](../start/subscriptions.md)
 
 * 設定&#x200B;**類型規則**&#x200B;定義疲勞與控制管理。  請參閱[本文件](../../automation/campaign-opt/campaign-typologies.md)以深入瞭解。
 
@@ -193,24 +193,24 @@ Adobe Campaign提供流程和設定，允許您根據適用的資料隱私法和
 * Campaign - Analytics 資料連接器
 
 
-您只能使用單一登入 (SSO) 來連線至 Campaign。 在[本頁](connect.md)中瞭解更多。
+您只能使用單一登入 (SSO) 來連線至 Campaign。 深入瞭解[連線至Campaign v8](connect.md)。
 
-在此頁面[&#128279;](../connect/integration.md)中探索可與Adobe 整合的Adobe Campaign解決方案完整清單。
+在此頁面](../connect/integration.md)中探索可與Adobe [整合的Adobe Campaign解決方案完整清單。
 
 ### 連接器{#implementation-connectors}
 
 將 Campaign 與第三方系統連結，以結合多種功能並自動化流程。
 
-在[本節](../connect/integration.md)深入瞭解可用的連接器。
+深入瞭解[Connect Campaign與您的解決方案](../connect/integration.md)中可用的聯結器。
 
 **將您的 CRM 連結至 Campaign**
 
 您可以將您的 Adobe Campaign 平台連接至 CRM 第三方系統，並同步資料：連絡人、帳戶、購買等。
 
-在[本章節](../connect/integration.md#gs-crm-connectors)瞭解如何將 CRM 系統連結至 Campaign
+瞭解如何在[與您的CRM聯結器整合](../connect/integration.md#gs-crm-connectors)中將您的CRM系統連結至Campaign
 
 **連結至外部資料庫**
 
 您可以透過同盟資料存取 (FDA) 模組，將 Campaign Cloud 資料庫連結至外部系統。
 
-在 [本章節](../connect/integration.md#gs-fda)瞭解如何設定 Campaign FDA 模組，定義存取參數
+瞭解如何設定Campaign FDA模組，以在[透過同盟資料存取連線協力廠商](../connect/integration.md#gs-fda)中定義存取引數

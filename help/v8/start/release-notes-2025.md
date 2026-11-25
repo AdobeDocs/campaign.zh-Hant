@@ -38,14 +38,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3608'
-ht-degree: 31%
+source-wordcount: '3632'
+ht-degree: 30%
 ---
 # 2025 年發行說明 {#2025-rn}
 
-本頁面列出 **2025 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。 如需最新版本，請參閱[此頁面](release-notes.md)。
+本頁面列出 **2025 Campaign v8 版本**&#x200B;附帶的新功能、改善和修正。 如需最新版本，請參閱[Campaign v8發行說明](release-notes.md)。
 
 對於任何新的實作或升級至現有環境，請安裝[最新版本](release-notes.md)。
 
@@ -76,8 +76,8 @@ _2025 年 10 月 9 日_
 
 此版本也隨附Campaign Web使用者介面提供的一組功能：
 
-* [交易式訊息中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=zh-Hant){target="_blank"}
-* [異動訊息、推播通知和簡訊的多語言功能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=zh-Hant){target="_blank"}
+* [交易式訊息中的設定檔擴充](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [異動訊息、推播通知和簡訊的多語言功能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
@@ -112,7 +112,7 @@ _2025年7月9日_
 
 先前為少數客戶所發行，現在下列功能適用於所有Campaign FDA環境：
 
-* **新的SMS傳送聯結器** - SMS傳送聯結器已經過現代化與改善，可啟用收發器模式SMPP連線、啟用永久性SMPP連線，並確保更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 如果您想要轉換為新聯結器，請聯絡Adobe。 [閱讀更多](../send/sms/sms.md)
+* **新的SMS傳送聯結器** - SMS傳送聯結器已經過現代化與改善，可啟用收發器模式SMPP連線、啟用永久性SMPP連線，並確保更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 如果您想要轉換為新聯結器，請聯絡Adobe。 [使用Adobe Campaign傳送簡訊](../send/sms/sms.md)
 
   >[!NOTE]
   >
@@ -123,32 +123,32 @@ _2025年7月9日_
 <!-- * **Enrichment in transactional messages** (to remove?) -->
 
 <!--
-* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=zh-Hant)
+* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html)
 
 ACC - Multilingual deliveries - Starting Campaign Web User interface April release, you will be able to send multiple email deliveries in different languages, and access the related dynamic reports. This capability will only be available in Adobe Campaign Web User Interface at the end of April, and require a server update to Campaign v8.7.4.
 -->
 
 <!--
-*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=zh-Hant){target="_blank"}
+*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 (already available in console and web, to remove?)
 web - * Visual fragments - You can now archive visual content fragments. Learn more
 -->
 
 <!--
-* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=zh-Hant){target="_blank"}
+* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
 -->
 
 <!--
 * **Landing pages improvements**  in the Web UI- The following improvements to landing pages are now available:
 
-    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html?lang=zh-Hant#create-service){target="_blank"}
-    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#create-landing-page){target="_blank"}
-    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#create-landing-page){target="_blank"}
-    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#define-actions-on-form-submission){target="_blank"}
-    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=zh-Hant){target="_blank"}
-    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=zh-Hant#lp-message){target="_blank"}
-    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=zh-Hant#captcha){target="_blank"}
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html#create-service){target="_blank"}
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#define-actions-on-form-submission){target="_blank"}
+    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html){target="_blank"}
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html#lp-message){target="_blank"}
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#captcha){target="_blank"}
 
 web - * **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 Web - * **Captcha in landing pages** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
@@ -169,13 +169,13 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **Rest API** — 您現在可以使用Rest API來建立Adobe Campaign的整合，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統。 異動訊息REST API也適用於SMS頻道。 當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。 如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。 事件型異動API也可用於電子郵件。 [閱讀更多](../dev/api/get-started-apis.md)
+* **Rest API** — 您現在可以使用Rest API來建立Adobe Campaign的整合，並將Adobe Campaign與您使用的技術面板結合，以建立您自己的生態系統。 異動訊息REST API也適用於SMS頻道。 當承載中同時存在 email 和 mobilePhone 時，您可以使用「wishedChannel」欄位來指定管道。 如果未提供，除非 wishedChannel 明確地要求簡訊，否則預設會使用電子郵件。 事件型異動API也可用於電子郵件。 [開始使用Campaign REST API](../dev/api/get-started-apis.md)
 
   >[!NOTE]
   >
   >此功能&#x200B;**不**&#x200B;可用於[Campaign FFDA部署](../architecture/enterprise-deployment.md)。
 
-* **一鍵式清單 — 取消訂閱** — 由於主要ISP要求寄件者允許收件者只要按一下即可立即選擇退出，您現在可以直接從電子郵件範本或傳遞屬性在使用者介面中啟用「一鍵式清單 — 取消訂閱」標題。 依預設，會啟用此選項。 [閱讀更多](../send/email-parameters.md#one-click-list-unsubscribe)
+* **一鍵式清單 — 取消訂閱** — 由於主要ISP要求寄件者允許收件者只要按一下即可立即選擇退出，您現在可以直接從電子郵件範本或傳遞屬性在使用者介面中啟用「一鍵式清單 — 取消訂閱」標題。 依預設，會啟用此選項。 [啟用一鍵式清單取消訂閱](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -186,21 +186,21 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 
 除了上述功能以外，此版本也隨附Campaign Web使用者介面提供的一組功能：
 
-* [多語言傳遞建立](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=zh-Hant#multilingual-delivery){target="_blank"}
-* [傳遞警報](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=zh-Hant){target="_blank"}
-* [登陸頁面改善](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html?lang=zh-Hant){target="_blank"}
-* [動態報告](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"} （隨選）
-* [集中式品牌](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=zh-Hant){target="_blank"} （隨選，新實作）
+* [多語言傳遞建立](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [傳遞警報](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
+* [登陸頁面改善](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
+* [動態報告](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （隨選）
+* [集中式品牌](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} （隨選，新實作）
 
 請參閱Campaign Web UI [發行說明](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=zh-hant){target="_blank"}
 
 ### 一般改善 {#improvements-8-8-1}
 
-* Microsoft網狀架構現在可支援作為具有Adobe Campaign同盟資料存取(FDA)的外部資料庫。 [閱讀更多](../config/external-accounts.md#transfer-data-external-accounts)
-* Campaign v8現在支援Android 15和iOS 18的推播通知。 [閱讀更多](../start/compatibility-matrix.md#MobileSDK)
-* 除了用於安全虛擬私人網路通道的內部部署資料庫外，現在也支援雲端資料庫。 [閱讀更多](../config/enhanced-security.md#vpn-databases)
-* 已在SMS 2.0聯結器的「傳入流量」區段中新增一組新的「提供者ID」欄位。 [閱讀更多](../send/sms/smpp-external-account.md#incoming-traffic)
-* 透過「mailto」List-Unsubscribe方法取消訂閱的收件者，不再傳送至隔離區。 他們或是從與傳送相關聯的服務取消訂閱，或是傳送到封鎖清單（設定檔的「不再聯絡」區段），前提是沒有為傳送定義服務。 [閱讀更多](../send/quarantines.md)
+* Microsoft網狀架構現在可支援作為具有Adobe Campaign同盟資料存取(FDA)的外部資料庫。 [傳輸資料外部帳戶](../config/external-accounts.md#transfer-data-external-accounts)
+* Campaign v8現在支援Android 15和iOS 18的推播通知。 [行動SDK](../start/compatibility-matrix.md#MobileSDK)
+* 除了用於安全虛擬私人網路通道的內部部署資料庫外，現在也支援雲端資料庫。 [支援的資料庫和裝置](../config/enhanced-security.md#vpn-databases)
+* 已在SMS 2.0聯結器的「傳入流量」區段中新增一組新的「提供者ID」欄位。 [傳入流量](../send/sms/smpp-external-account.md#incoming-traffic)
+* 透過「mailto」List-Unsubscribe方法取消訂閱的收件者，不再傳送至隔離區。 他們或是從與傳送相關聯的服務取消訂閱，或是傳送到封鎖清單（設定檔的「不再聯絡」區段），前提是沒有為傳送定義服務。 [促銷活動中的隔離管理](../send/quarantines.md)
 * Adobe Campaign使用者端主控台現在提供收件匣轉譯報告的改良版本。
 * 已將`setup-client.exe`檔案取代為`ac-client.msi`檔案，提供更簡單的方法，讓系統管理員不需要使用者介入即可執行大量升級。
 
@@ -312,7 +312,7 @@ _2025 年 4 月 25 日_
 
 ### 新功能 {#features-8-6-5}
 
-**新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [閱讀全文](../send/sms/sms.md)。
+**新的 SMS 傳送連接器** - SMS 傳送連接器已經過現代化及改善，可啟用收發器模式 SMPP 連線、啟用永久性 SMPP 連線，並確保轉換自 Adobe Campaign Standard 的環境有更好的相容性。 新的 SMS 外部帳戶現在可用於所有新的 SMS 實施。 我們仍支援現有的實施，但建議改用此全新的現代化擴充聯結器。 [使用Adobe Campaign傳送簡訊](../send/sms/sms.md)。
 
 ### 一般改善 {#improvements-8-6-5}
 
@@ -362,9 +362,9 @@ _2025 年 2 月 14 日_
 
 ### 新功能 {#features-8-7-3}
 
-* **交易型訊息的動態報告** - 您現在可以在動態報告使用者介面中監視交易型訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=zh-Hant){target="_blank"}
+* **交易型訊息的動態報告** - 您現在可以在動態報告使用者介面中監視交易型訊息。 這些報表可讓行銷人員即時檢視異動訊息的所有報表量度和維度，以及透過範本傳送的傳送劃分。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
-* **交易型訊息 REST API** - 以事件為基礎的交易型 API 現在可用於電子郵件。 [閱讀更多](../dev/api/get-started-apis.md)
+* **交易型訊息 REST API** - 以事件為基礎的交易型 API 現在可用於電子郵件。 [開始使用Campaign REST API](../dev/api/get-started-apis.md)
 
 ### 修正 {#fixes-8-7-3}
 
@@ -380,8 +380,8 @@ _2025 年 1 月 15 日_
 
 * 已改善 Campaign 應用程式在[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)情境下的傳遞分析期間的穩定性。
 * 此版本隨附改善及增強的 FFDA 架構機制，包括金鑰管理、暫存和資料複寫。
-* 已為[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行複寫請求，以複寫傳遞和相關資料。 這些工作流程以`Replicate nms`開始。 [閱讀更多](../architecture/replication.md)
-* 新的&#x200B;**啟用監督者以保持工作流程永久執行**&#x200B;選項現在可在工作流程屬性中使用。 啟用此選項後，工作流程會在發生錯誤時自動重新啟動。 如果工作流程仍然錯誤，預設會每 30 秒重新啟動一次。 若要調整此間隔，您可以建立新的 `XtkWorkflow_WatchdogRestartTimerTimeout` 選項，並設定整數資料類型以指定新的延遲。 此選項只應在技術工作流程中啟用。 [閱讀更多](../../automation/workflow/workflow-properties.md#execution)
+* 已為[企業 (FFDA) 部署](../../v8/architecture/enterprise-deployment.md)引入新的技術工作流程。 這些工作流程會集中對應表格上的平行複寫請求，以複寫傳遞和相關資料。 這些工作流程以`Replicate nms`開始。 [資料復寫](../architecture/replication.md)
+* 新的&#x200B;**啟用監督者以保持工作流程永久執行**&#x200B;選項現在可在工作流程屬性中使用。 啟用此選項後，工作流程會在發生錯誤時自動重新啟動。 如果工作流程仍然錯誤，預設會每 30 秒重新啟動一次。 若要調整此間隔，您可以建立新的 `XtkWorkflow_WatchdogRestartTimerTimeout` 選項，並設定整數資料類型以指定新的延遲。 此選項只應在技術工作流程中啟用。 [執行](../../automation/workflow/workflow-properties.md#execution)
 
 ### 安全性改善 {#security-8-6-4}
 
