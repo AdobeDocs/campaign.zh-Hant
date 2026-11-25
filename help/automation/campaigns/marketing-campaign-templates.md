@@ -84,7 +84,7 @@ ht-degree: 3%
 
   行銷活動控制面板會顯示：
 
-  ![只有[儀表板]和[編輯]索引標籤的[行銷活動]儀表板，以及[新增傳遞]和[新增檔案連結。](assets/campaign-template-dashboard-sample-1.png)
+  &lbrack;只有[儀表板]和[編輯]索引標籤的[行銷活動]儀表板，以及[新增傳遞]和![新增檔案連結。](assets/campaign-template-dashboard-sample-1.png)
 
   請注意，**[!UICONTROL Targeting and workflows]**&#x200B;索引標籤遺失。
 

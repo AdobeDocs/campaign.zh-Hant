@@ -64,7 +64,7 @@ ht-degree: 2%
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   使用命令delivery.content.html.source=loadFile(vars.filename)](assets/delivery_loadcontent_script.png)的傳遞活動的![指令碼標籤
+   使用命令delivery.content.html.source=loadFile(vars.filename)![&#128279;](assets/delivery_loadcontent_script.png)的傳遞活動的指令碼標籤
 
 1. 儲存並執行工作流程。 已在&#x200B;**[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;下建立包含載入內容的新傳遞。
 

@@ -64,7 +64,7 @@ ht-degree: 3%
 
    ![子集索引標籤包含子集1，限制所選記錄以及開啟限制精靈的編輯連結](assets/s_user_segmentation_partage4.png)
 
-1. 您也可以&#x200B;**使用&#x200B;**[!UICONTROL Add]**按鈕**&#x200B;新增其他子集。
+1. 您也可以&#x200B;**使用&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**按鈕**&#x200B;新增其他子集。
 
    ![子集索引標籤具有新增按鈕，且索引標籤底端有「子集1」、「子集2」和「子集3」](assets/s_user_segmentation_partage_add.png)
 
