@@ -208,7 +208,7 @@ Snowflake FDA連線使用Snowflake ODBC驅動程式。 從Campaign v8.9.1開始�
 
 ## Adobe解決方案整合外部帳戶 {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶用於實作Adobe Identity Management Service (IMS)以連線至Adobe Campaign。 在[登入Adobe Identity Management ](../start/connect.md#logon-to-ac)中進一步瞭解Adobe Campaign服務(IMS)。
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部帳戶用於實作Adobe Identity Management Service (IMS)以連線至Adobe Campaign。 在[登入Adobe Identity Management &#x200B;](../start/connect.md#logon-to-ac)中進一步瞭解Adobe Campaign服務(IMS)。
 
 * **網站分析** - **[!UICONTROL Web Analytics (Adobe Analytics)]**&#x200B;外部帳戶用於設定從Adobe Analytics到Adobe Campaign的資料傳輸。 深入瞭解Adobe Campaign - Adobe Analytics在[使用Campaign和Adobe Analytics](../connect/ac-aa.md)中的整合。
 
