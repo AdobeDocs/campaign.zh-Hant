@@ -53,7 +53,7 @@ ht-degree: 3%
 
   ![輸入區域（電子郵件）側邊欄面板，包含表單資料區段、欄位選擇器以及「強制是」或「否」切換](assets/dce_sidebar_inputtypechanges.png)
 
-  這個網站](https://www.w3schools.com/tags/att_input_type.asp)中的&#39;type&#39;屬性正式清單為[。
+  這個網站[&#128279;](https://www.w3schools.com/tags/att_input_type.asp)中的&#39;type&#39;屬性正式清單為。
 
 * 使用DCE模擬結束頁面的步驟：
 
