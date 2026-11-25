@@ -85,7 +85,7 @@ Unicity Service隨附專屬的&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;�
 
 偵測到重複的金鑰時，會傳送特定通知給&#x200B;**[!UICONTROL Workflow Supervisors]**&#x200B;運運算元群組。 可在&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;工作流程的&#x200B;**警報**&#x200B;活動中變更此警報的內容和對象。
 
-![ Unicity警示中的警示活動，已指派給具有重複金鑰訊息的工作流程主管群組](assets/wf-alert-activity.png)
+![&#x200B; Unicity警示中的警示活動，已指派給具有重複金鑰訊息的工作流程主管群組](assets/wf-alert-activity.png)
 
 
 ## 其他護欄 {#duplicates-guardrails}

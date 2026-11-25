@@ -97,7 +97,7 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  使用指令碼nms.replicationStrategy.StartReplicateStagingData for dem:sampleTable](assets/jscode.png)的![JavaScript程式碼活動
+  使用指令碼nms.replicationStrategy.StartReplicateStagingData for dem:sampleTable![&#128279;](assets/jscode.png)的JavaScript程式碼活動
 
 * 使用下列命令新增特定&#x200B;**nlmodule**&#x200B;活動：
 
