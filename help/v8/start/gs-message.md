@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 71%
+source-wordcount: '1057'
+ht-degree: 66%
 ---
 # 開始使用訊息 {#gs-ac-msg}
 
@@ -60,21 +60,21 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->建立傳遞時，您必須選取範本。 每個管道都可使用預設範本。 在[此頁面](../send/create-templates.md)中進一步瞭解傳遞範本。
+>建立傳遞時，您必須選取範本。 每個管道都可使用預設範本。 在[使用傳遞範本](../send/create-templates.md)中進一步瞭解傳遞範本。
 
-1. **一次性訊息** — 您可以傳送一次性訊息給對象。 在[本節](create-message.md)中瞭解如何傳送您的第一封郵件。
+1. **一次性訊息** — 您可以傳送一次性訊息給對象。 瞭解如何在[建立您的第一個傳遞](create-message.md)中傳送您的第一個訊息。
 
-   ![](assets/send-email.png)
+   ![電子郵件傳遞編輯器，包含[寄件者]、[收件者]和[主旨]欄位、HTML內容以及[傳送]按鈕](assets/send-email.png)
 
-1. **行銷活動中的訊息** — 您可以在[行銷活動的內容中傳送訊息](campaigns.md)、定義核准程式、在合併的控制面板中傳送及追蹤訊息。 在[本節](../../automation/campaigns/marketing-campaign-deliveries.md)中瞭解如何操作。
+1. **行銷活動中的訊息** — 您可以在[行銷活動的內容中傳送訊息](campaigns.md)、定義核准程式、在合併的控制面板中傳送及追蹤訊息。 瞭解如何進行[行銷活動傳遞](../../automation/campaigns/marketing-campaign-deliveries.md)。
 
-   ![](assets/deliveries-in-a-campaign.png)
+   ![行銷活動儀表板列出具有核准狀態的傳遞，例如「核准」和「提交」](assets/deliveries-in-a-campaign.png)
 
-1. **工作流程中的訊息** — 您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 在[此頁面](../../automation/workflow/delivery.md)中瞭解如何操作。
+1. **工作流程中的訊息** — 您可以透過[工作流程](../config/workflows.md)傳送訊息，並自動化您的傳遞。 瞭解如何進行[傳遞](../../automation/workflow/delivery.md)。
 
-   ![](assets/send-in-a-wf.png)
+   ![包含「查詢與讀取」清單的行銷活動工作流程，傳送夏季優惠傳遞、等待和行動傳遞](assets/send-in-a-wf.png)
 
-1. **觸發訊息** — 您可從事件[觸發訊息](../send/transactional.md)。 交易型訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。 [本頁面](../send/transactional.md)詳細說明了設定及傳送異動訊息的步驟
+1. **觸發訊息** — 您可從事件[觸發訊息](../send/transactional.md)。 交易型訊息 (訊息中心) 是專為管理觸發訊息而設計的 Campaign 模組。 設定及傳送異動訊息的步驟已詳載於[促銷活動異動訊息](../send/transactional.md)
 
 ## 通訊管道 {#gs-channel}
 
@@ -111,7 +111,7 @@ Campaign 的傳遞物件有三種：
 
 您可以從傳遞清單建立傳遞，或透過在工作流程中建立[傳遞](../../automation/workflow/delivery.md)活動。
 
-工作流程也會根據您想使用的管道類型，提供特定的傳遞活動。 有關這些活動的詳細資訊，請參閱[本節](../../automation/workflow/cross-channel-deliveries.md)。
+工作流程也會根據您想使用的管道類型，提供特定的傳遞活動。 如需這些活動的詳細資訊，請參閱[跨頻道傳遞](../../automation/workflow/cross-channel-deliveries.md)。
 
 ### 週期性傳遞 {#recurring-delivery}
 

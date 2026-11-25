@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 78%
+source-wordcount: '929'
+ht-degree: 70%
 ---
 # 開始使用行銷活動 {#gs-ac-campaigns}
 
@@ -42,7 +42,7 @@ Adobe Campaign 提供一套解決方案，幫助您跨所有線上及離線頻�
 
 Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
-![](assets/campaign-tab.png)
+首頁的![行銷活動索引標籤會列出具有狀態、日期和「建立」按鈕的行銷活動](assets/campaign-tab.png)
 
 ### 核心概念{#ac-core-concepts}
 
@@ -64,7 +64,7 @@ Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人�
 
 Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分析所有行銷活動。
 
-![](assets/calendar.png)
+![行銷活動行事曆以時間表顯示行銷活動和傳遞，並包含忠誠度方案詳細資訊快顯視窗](assets/calendar.png)
 
 在[本節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=zh-Hant){target="_blank"}中瞭解如何存取及實施行銷活動。
 
@@ -88,7 +88,7 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    您可以在工作流程中建立客群，或選取現有群組，例如收件者清單、電子報訂閱者、先前傳遞的收件者或任何篩選條件。
 
-   ![](assets/campaign-wf.png)
+   ![行銷活動工作流程：查詢和讀取清單摘要會提供夏季優惠傳遞，然後是等待和行動傳遞](assets/campaign-wf.png)
 
    在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=zh-Hant){target="_blank"}瞭解如何定義訊息的客群。
 
@@ -96,11 +96,11 @@ Adobe Campaign 可讓您從統一的控制中心建立、設定、執行和分�
 
    選取頻道、定義訊息內容並開始傳遞。
 
-   ![](assets/campaign-dashboard.png)
+   ![具有狀態、排程、檔案、動作及其狀態之傳遞清單的行銷活動儀表板](assets/campaign-dashboard.png)
 
-   在[此頁面](../../automation/campaigns/marketing-campaign-deliveries.md)瞭解如何建立及開始行銷活動傳遞。
+   瞭解如何在[建立傳遞](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries)和[開始傳遞](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery)中建立及開始行銷活動傳遞。
 
-   您可以將各種檔案與行銷活動建立關聯：報告、照片、網頁、圖表等。在[此頁面](../../automation/campaigns/marketing-campaign-assets.md)中進一步瞭解相關檔案。
+   您可以將各種檔案與行銷活動建立關聯：報告、照片、網頁、圖表等。深入瞭解[行銷活動資產、檔案和傳遞大綱](../../automation/campaigns/marketing-campaign-assets.md)中的相關檔案。
 
 1. **設定核准流程**
 
@@ -115,7 +115,7 @@ Adobe Campaign提供&#x200B;**分散式行銷**&#x200B;附加功能，可在中�
 
 >[!NOTE]
 >
->此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[Campaign v8相容性矩陣](compatibility-matrix.md)
 
 瞭解如何在[此頁面](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=zh-Hant){target="_blank"}中設定及使用Campaign分散式行銷功能。
 
@@ -125,6 +125,6 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 
 >[!NOTE]
 >
->此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[本節](compatibility-matrix.md)
+>此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[Campaign v8相容性矩陣](compatibility-matrix.md)
 
-[&#128279;](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。
+[](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。

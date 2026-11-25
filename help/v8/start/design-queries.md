@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 5%
+source-wordcount: '1109'
+ht-degree: 3%
 ---
 # 查詢行銷活動資料庫
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 若要查詢Campaign資料庫，請開啟&#x200B;**[一般查詢編輯器](query-editor.md)**，然後選取包含您要在&#x200B;**[!UICONTROL Document type]**&#x200B;視窗中查詢之資料的資料表。
 
-![](assets/query_editor_nveau_21.png)
+![具有一般查詢編輯器的[工具]功能表開啟[檔案型別]視窗，且清單中有[收件者]結構描述。](assets/query_editor_nveau_21.png)
 
 如有需要，請使用篩選欄位或&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕來篩選資料。
 
@@ -62,19 +62,19 @@ ht-degree: 5%
 
 例如，您可以選取&#x200B;**[!UICONTROL Age]**、**[!UICONTROL Primary key]**、**[!UICONTROL Email domain]**&#x200B;和&#x200B;**[!UICONTROL City]**。 輸出將根據此選取專案進行結構化。 若要調整欄的順序，請使用視窗右側的藍色箭頭。
 
-![](assets/query_editor_nveau_01.png)
+![要擷取步驟的資料，其中年齡、主索引鍵、電子郵件網域和城市已新增至輸出欄清單。](assets/query_editor_nveau_01.png)
 
 您可以透過新增公式或將流程套用至彙總函式來修改運算式。 若要編輯運算式，請按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄位，然後選取&#x200B;**[!UICONTROL Edit expression]**。
 
-![](assets/query_editor_nveau_97.png)
+![輸出資料行中的運算式資料行欄位，其編輯運算式按鈕反白顯示。](assets/query_editor_nveau_97.png)
 
-您可以將輸出欄中顯示的資料分組。 若要這麼做，請在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗的&#x200B;**[!UICONTROL Group]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。 然後會根據選取的群組軸來彙總結果。 如需使用分組的查詢範例，請參閱[此區段](../../automation/workflow/query-delivery-info.md)。
+您可以將輸出欄中顯示的資料分組。 若要這麼做，請在&#x200B;**[!UICONTROL Data to extract]**&#x200B;視窗的&#x200B;**[!UICONTROL Group]**&#x200B;欄中選取&#x200B;**[!UICONTROL Yes]**。 然後會根據選取的群組軸來彙總結果。 如需使用分組的查詢範例，請參閱[查詢傳遞資訊](../../automation/workflow/query-delivery-info.md)。
 
-![](assets/query_editor_nveau_56.png)
+![要擷取步驟的資料（以反白顯示[群組]欄），每個輸出欄設定為[否]。](assets/query_editor_nveau_56.png)
 
 * **[!UICONTROL Handle groupings (GROUP BY + HAVING)]**&#x200B;選項可讓您將結果群組並套用條件至這些群組。 它適用於輸出欄中的所有欄位。 例如，您可以使用它來分組輸出欄中的值，然後篩選結果以僅擷取特定資訊，例如年齡介於35到50歲的收件者。
 
-  如需詳細資訊，請參閱[本章節](../../automation/workflow/query-grouping-management.md)。
+  如需詳細資訊，請參考[使用分組管理](../../automation/workflow/query-grouping-management.md)的查詢。
 
 **[!UICONTROL Remove duplicate rows (DISTINCT)]**&#x200B;選項會從輸出中排除相同的列（刪除重複專案）。 例如，如果您選取&#x200B;**姓氏**、**名字**&#x200B;和&#x200B;**電子郵件**&#x200B;作為輸出欄，則所有三個欄位中具有相同值的任何記錄都將視為重複。 結果中只會保留一個例項，確保每個聯絡人只會出現一次。
 
@@ -87,21 +87,21 @@ ht-degree: 5%
 
 在此範例中，資料會根據收件者年齡以遞增順序排序。
 
-![](assets/query_editor_nveau_57.png)
+![排序步驟列出年齡、主索引鍵、電子郵件網域和城市，且排序和降序排序欄設定為](assets/query_editor_nveau_57.png)
 
 ## 步驟4 — 篩選資料 {#step-4---filter-data}
 
 查詢編輯器可讓您篩選資料以縮小結果。 可用的篩選器取決於您要查詢的表格。
 
-![](assets/query_editor_nveau_09.png)
+![資料篩選步驟，其篩選條件已選取於下列限制篩選及使用者篩選清單中。](assets/query_editor_nveau_09.png)
 
 選取&#x200B;**[!UICONTROL Filtering conditions]**&#x200B;後，**[!UICONTROL Target elements]**&#x200B;區段隨即開啟。 在這裡，您可以定義規則來篩選要收集的資料。
 
-* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁[&#128279;](filter-conditions.md)的所述。
+* 若要建立新篩選器，請選擇建立條件所需的欄位、運運算元和值。 您也可以合併多個條件，如本頁](filter-conditions.md)的[所述。
 
 * 若要重複使用現有的篩選器，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，選取&#x200B;**[!UICONTROL Predefined filter]**&#x200B;並選擇您想要的篩選器。
 
-  ![](assets/query_editor_15.png)
+  ![在Target元素步驟中新增功能表，並開啟預先定義的篩選器，列出列入黑名單的電子郵件地址和其他篩選器。](assets/query_editor_15.png)
 
 在&#x200B;**[!UICONTROL Generic query editor]**&#x200B;中建立的篩選器可重複用於其他查詢應用程式，反之亦然。 若要儲存篩選器以供稍後使用，請按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示。
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
 如下列範例所示，若要復原所有說英語的收件者，請選取：「收件者語言&#x200B;**等於** EN」。
 
-![](assets/query_editor_nveau_89.png)
+![已選取篩選條件，然後是條件語言等於EN的Target專案。](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ ht-degree: 5%
 
 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;標籤以檢視篩選條件的結果。 在此情況下，所有說英語的收件者都會顯示其名稱、名字和電子郵件地址。
 
-![](assets/query_editor_nveau_98.png)
+![ Target元素步驟的[預覽]索引標籤，列出符合篩選條件的收件者。](assets/query_editor_nveau_98.png)
 
 熟悉SQL語言的使用者可以按一下&#x200B;**[!UICONTROL Generate SQL query]**&#x200B;以檢視SQL中的查詢。
 
-![](assets/query_editor_nveau_99.png)
+![已產生SQL查詢連結，正在開啟從語言等於EN的篩選器產生的Native SQL查詢。](assets/query_editor_nveau_99.png)
 
 ## 步驟5 — 格式化資料 {#step-5---format-data}
 
@@ -135,7 +135,7 @@ ht-degree: 5%
 
 未勾選的欄會隱藏在資料預覽視窗中。
 
-![](assets/query_editor_nveau_10.png)
+![列出年齡、主索引鍵、電子郵件網域和城市的資料格式化步驟，且未勾選電子郵件網域欄。](assets/query_editor_nveau_10.png)
 
 **[!UICONTROL Transformation]**&#x200B;欄可讓您將欄標籤變更為大寫或小寫。 選取欄並按一下&#x200B;**[!UICONTROL Transformation]**&#x200B;欄。 您可以選擇：
 
@@ -143,7 +143,7 @@ ht-degree: 5%
 * **[!UICONTROL Switch to upper case]**,
 * **[!UICONTROL First letter in upper case]**.
 
-![](assets/query_editor_nveau_42.png)
+![包含None的轉換下拉式清單、Switch to lower case、Switch to upper case and First letter in upper case。](assets/query_editor_nveau_42.png)
 
 ## 步驟6 — 預覽資料 {#step-6---preview-data}
 
@@ -151,7 +151,7 @@ ht-degree: 5%
 
 在此範例中，資料會根據收件者年齡以遞增順序排序。
 
-![](assets/query_editor_nveau_11.png)
+![資料預覽步驟：開始預覽資料填入年齡、主索引鍵和城市值的表格。](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >

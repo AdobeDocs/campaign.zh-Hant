@@ -35,22 +35,22 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1710'
+ht-degree: 78%
 ---
 # 建立您的第一個傳遞 {#create-a-msg}
 
-在本頁面，了解如何建立一次性傳遞。 您可以建立其他類型的傳遞，來建置您的使用案例。 在[本頁面](gs-message.md)進一步瞭解不同類型的傳遞以及建立方法。
+在本頁面，了解如何建立一次性傳遞。 您可以建立其他類型的傳遞，來建置您的使用案例。 深入瞭解不同型別的傳遞以及如何在[開始使用訊息](gs-message.md)中建立它們。
 
 建立一次性傳遞的關鍵步驟如下：
 
-1. **建立新的傳遞**。 [閱讀更多](#create-the-delivery)
+1. **建立新的傳遞**。 [建立傳遞](#create-the-delivery)
 
-1. **定義傳遞內容**。 [閱讀更多](#content-of-the-delivery)
+1. **定義傳遞內容**。 [定義傳遞內容](#content-of-the-delivery)
 
-1. **選取目標群體**。 [閱讀更多](#target-population)
+1. **選取目標群體**。 [定義目標對象](#target-population)
 
 接著，您可以使用 Adobe Campaign 準備、測試、傳送及監視訊息。
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 1. 瀏覽至傳遞清單，然後按一下 **[!UICONTROL Create]**。
 1. 選取傳遞通道。 若要這麼做，請從下拉式清單中選擇適當的傳遞範本。
 
-   ![](../send/assets/select-the-new-template.png)
+   ![傳遞範本下拉式清單，列出電子郵件、簡訊、推文和其他傳遞範本，供您選擇](../send/assets/select-the-new-template.png)
 
    隨附內建範本，供您安裝的每個管道使用：電子郵件、電話、行動裝置管道（推播/簡訊）、直接郵件、X (Twitter)等。清單中可用的管道取決於您的授權合約。
 
@@ -110,32 +110,32 @@ ht-degree: 90%
 1. 在傳遞編輯器之中，選取 **[!UICONTROL To]**。
 1. 如果收件者儲存在資料庫，請選擇第一個選項。
 
-   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
+   ![Select目標對話方塊，其中已選取[要連結並在資料庫中定義]選項](../send/sms/assets/audience_to.png){zoomable="yes"}
 
 1. 在 **[!UICONTROL Target mapping]** 下拉式清單選取[目標對應](../audiences/target-mappings.md) 。
 1. 按一下 **[!UICONTROL Add]** 按鈕來定義限制篩選器。
 
-   ![](assets/target-type.png){width="60%" zoomable="yes"}
+   ![目標型別對話方塊列出限制篩選器，例如資料夾中包含的收件者](assets/target-type.png){width="60%" zoomable="yes"}
 
    選取篩選器類型並按一下 **[!UICONTROL Next]** 來定義條件。 您可以從 **[!UICONTROL Preview]** 索引標籤顯示篩選的收件者。 視目標型別而定，**[!UICONTROL Refine target]** 按鈕可讓您合併多個目標選擇標準。
 
    提供以下目標類型：
 
-   * **[!UICONTROL Filtering conditions]**：使用此選項來定義自訂查詢以擷取收件者。 在[本章節](../start/query-editor.md)瞭解如何設計查詢。
-   * **[!UICONTROL A list of recipients]**：使用此選項來鎖定設定檔清單。 在[本章節](../audiences/create-audiences.md)深入了解有關清單的詳細資訊。
+   * **[!UICONTROL Filtering conditions]**：使用此選項來定義自訂查詢以擷取收件者。 瞭解如何在[使用查詢編輯器](../start/query-editor.md)中設計查詢。
+   * **[!UICONTROL A list of recipients]**：使用此選項來鎖定設定檔清單。 深入瞭解[在Campaign](../audiences/create-audiences.md)中建立設定檔對象。
    * **[!UICONTROL A recipient]**：使用此選項來選取資料庫之中的特定設定檔。
    * **[!UICONTROL Recipients included in a folder]**：使用此選項來鎖定特定資料夾包含的所有設定檔。
    * **[!UICONTROL Recipients of a delivery]**：使用此選項從傳遞的收件者建立目標。 然後，您必須在清單之中選取傳遞：
 
-     ![](assets/target-recipient-delivery.png)
+     ![目標元素對話方塊，用於選取收件者為目標的傳遞，並具有「行為」篩選器](assets/target-recipient-delivery.png)
 
    * **[!UICONTROL Delivery recipients belonging to a folder]**：使用此選項從包含於特定資料夾中的傳遞收件者建立目標。
 
-     ![](assets/target-delivery-folder.png)
+     用於選取傳遞資料夾的![目標元素對話方塊，包含「行為」和「包含子資料夾」選項](assets/target-delivery-folder.png)
 
      您可以從下拉式清單選取，來篩選收件者的行為：
 
-     ![](assets/target-filter-behavior.png)
+     ![行為下拉式清單列出收件者篩選器，例如，已開啟或已點按、未開啟及失敗的訊息](assets/target-filter-behavior.png)
 
      >[!NOTE]
      >
@@ -143,9 +143,9 @@ ht-degree: 90%
 
    * **[!UICONTROL Subscribers of an information service]**：此選項可讓您選取收件者必須訂閱的電子報，才能成為正在建立的傳遞目標。
 
-     ![](assets/target-service.png)
+     ![目標元素對話方塊列出資訊服務，例如Newsletter，以定位訂閱者](assets/target-service.png)
 
-   * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫設定檔的篩選標準。 預先設定的篩選器會顯示在[此區段](../audiences/create-filters.md#default-filters)之中。
+   * **[!UICONTROL User filters]**：此選項可讓您存取預先設定的篩選器，以使用這些篩選器作為資料庫設定檔的篩選標準。 預先設定的篩選器會顯示在[預設篩選器](../audiences/create-filters.md#default-filters)中。
    * **[!UICONTROL Exclude recipients from this segment]**&#x200B;選項可讓您鎖定不符合已定義目標條件的收件者。 若要使用此選項，請選取適當的方框，然後套用定位 (如先前所定義) 以排除產生的設定檔。
 
 1. 在 **[!UICONTROL Label]** 欄位輸入此目標選擇的名稱。 依預設，該標籤是第一個鎖定目標標準的標籤。 結合篩選標準時，建議使用明確的名稱。
@@ -153,7 +153,7 @@ ht-degree: 90%
 
    主要目標設定索引標籤的中央區段會摘要說明已定義的鎖定目標標準。 按一下標準以檢視其內容 (設定和預覽)。 若要刪除標準，請按一下位於其標籤後面的十字形。
 
-   ![](assets/target-remove-criterion.png)
+   ![目標母體中的目標定位准則之後，具有刪除十字的主目標標籤](assets/target-remove-criterion.png)
 
 ### 選取外部收件者 {#selecting-external-recipients}
 
@@ -184,13 +184,13 @@ ht-degree: 90%
 
 若要修改預設設定，請按一下 **[!UICONTROL Edit...]** 連結。
 
-![](assets/target-exclusion-settings.png)
+![排除設定選項，包括排除被封鎖和隔離的收件者，以及保留重複專案](assets/target-exclusion-settings.png)
 
 +++ 檢視可用選項
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**：此選項預設為使用狀態，並在傳遞期間移除重複的電子郵件地址。 套用的策略可能會因 Adobe Campaign 的使用方式及資料庫的資料類型而異。 可為每個傳遞範本設定選項的值。
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** ，即電子郵件地址位於封鎖清單上的收件者 (「選擇退出」)。 為了遵守電子行銷的職業道德，必須保持選取此選項。
-* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 請參閱[本節](../send/quarantines.md)以深入瞭解更多有關隔離管理的資訊。
+* **[!UICONTROL Exclude quarantined recipients]**：此選項可讓您從目標中排除任何包含已隔離地址的設定檔。 我們強烈建議維持選取此選項。 深入瞭解Campaign](../send/quarantines.md)中[隔離管理的隔離管理。
 * **[!UICONTROL Limit delivery]** 至指定數目的訊息。 此選項可讓您輸入要傳送的訊息數目上限。 如果目標客群超過指示的訊息數，則會隨機選取套用至目標。 若要傳送所有訊息，請將此值保持為「0」。
 * **[!UICONTROL Keep duplicate records (same identifier)]**：此選項允許傳送多個傳遞給符合多個目標選擇標準的收件者。
 +++
@@ -202,14 +202,14 @@ ht-degree: 90%
 
 校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
-有關校樣收件者與傳送的詳細資訊，請參閱讀[本章節](../send/preview-and-proof.md#send-proofs)。
+如需證明收件者和傳送的詳細資訊，請參閱[傳送證明](../send/preview-and-proof.md#send-proofs)。
 
 
 #### 教學課程影片 {#seeds-and-proofs-video}
 
 您可以在本影片瞭解如何向現有電子郵件新增種子和校樣，以及如何傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447010?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 其他 Campaign Classic 作法影片可在[此處](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant)取得。
 
@@ -232,4 +232,4 @@ ht-degree: 90%
 
 存取傳遞參數以設定更多設定，並定義如何傳送訊息。 您可以定義傳遞優先順序、設定傳送波段、設定重試設定，以及測試您的傳遞傳送。 完成此設定之後，您可以確認傳送。 然後會立即傳送訊息，或根據傳遞排程傳送訊息。
 
-在[本頁](../send/configure-and-send.md)了解如何設定您的傳遞設定。
+瞭解如何在[使用Adobe Campaign設定電子郵件](../send/configure-and-send.md)中設定您的傳遞設定。

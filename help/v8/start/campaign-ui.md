@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 62%
+ht-degree: 60%
 ---
 # 探索使用者介面 {#ui-client-console}
 
@@ -42,7 +42,7 @@ ht-degree: 62%
 
 * **用戶端主控台** - Campaign 用戶端主控台是原生應用程式，可透過標準網際網路通訊協定 (例如 SOAP 和 HTTP) 與 Adobe Campaign 應用程式伺服器通訊。 Campaign 用戶端主控台會集中所有功能和設定，且需要最少的頻寬，因為它依賴本機快取。 Campaign 用戶端控制台旨在實現輕鬆部署，可從網路瀏覽器部署、可自動更新，且不需要任何特定網路設定，因為它只會產生 HTTP 流量。 [了解更多](#ui-access)
 
-  如需了解如何安裝和設定 Campaign 用戶端主控台，請參閱[本章節](../start/connect.md)。
+  瞭解如何在[連線至Campaign v8](../start/connect.md)中安裝和設定Campaign使用者端主控台。
 
 * **網頁存取** - Adobe Campaign網頁存取功能可讓您使用HTML使用者介面，透過網頁瀏覽器存取Campaign功能的子集。 使用此網頁介面存取報告、控制和驗證訊息、存取監控儀表板等。  在[本章節](../start/connect.md#web-access)中進一步瞭解 Campaign Web Access。
 
@@ -95,7 +95,7 @@ Campaign 用戶端主控台是原生應用程式，可透過標準網際網路�
 
 連線至Campaign使用者端主控台後，請瀏覽上方區段中的索引標籤，以存取Campaign主要功能：
 
-![](assets/overview-home.png)
+![促銷活動首頁，其中醒目提示促銷活動、設定檔和目標、監控和報告標籤](assets/overview-home.png)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 此工作區可讓您存取 Explorer 樹狀結構以瀏覽所有功能和選項。
 
-* 左側區段顯示 Campaign Explorer 樹狀結構，並讓您根據權限瀏覽執行個體的所有元件和設定。 您可以新增和自訂資料夾，如[此頁面](../audiences/folders-and-views.md)中所述。
+* 左側區段顯示 Campaign Explorer 樹狀結構，並讓您根據權限瀏覽執行個體的所有元件和設定。 您可以新增和自訂資料夾，如[資料夾和檢視](../audiences/folders-and-views.md)中所述。
 
 * 上半部分顯示目前資料夾中的記錄清單。 這些清單皆可完全自訂。 [了解更多](../config/ui-settings.md)
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 15%
+source-wordcount: '1796'
+ht-degree: 14%
 ---
 # 版本、升級和安全性 {#upgrades}
 
@@ -43,7 +43,7 @@ Adobe Campaign 會定期更新。 此定期更新的目的是為了讓您掌握�
 
 * 您的Campaign伺服器執行個體會由Adobe隨著每個新版本自動升級，而不需要您採取任何動作。
 * 在會影響您環境的升級之前，您的Adobe代表會與您聯絡。
-* **您的使用者端主控台是您負責維持最新狀態的元件。** 它必須升級至與您的Campaign伺服器相同的版本。 透過[本頁](../start/connect.md#upgrade-ac-console)了解如何升級您的用戶端主控台。
+* **您的使用者端主控台是您負責維持最新狀態的元件。** 它必須升級至與您的Campaign伺服器相同的版本。 瞭解如何在[升級您的使用者端主控台](../start/connect.md#upgrade-ac-console)中升級您的使用者端主控台。
 
 此外，身為客戶，請確定您使用的是列於[相容性矩陣](compatibility-matrix.md)的最新受支援系統版本。
 
@@ -92,7 +92,7 @@ Hotfix 請求應透過 Adobe 客戶服務提出。 若核准，會為受影響�
 
 若要檢查您的Campaign版本，請從使用者端主控台存取&#x200B;**說明>關於……**&#x200B;功能表。
 
-![](assets/ac-version.png)
+![關於顯示使用者端主控台和應用程式伺服器版本的使用者端主控台對話方塊](assets/ac-version.png)
 
 您可存取下列資訊：
 
@@ -109,7 +109,7 @@ Hotfix 請求應透過 Adobe 客戶服務提出。 若核准，會為受影響�
 
 新版本及其變更列在[發行說明](release-notes.md)中。
 
-如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=zh-Hant&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
+如需產品版本更新，請訂閱[Adobe優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html){target="_blank"}或造訪[Campaign社群](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}。
 
 如需安全性通知與組織安全性更新準備的指南，請參閱[隨時掌握資訊](#security-staying-informed)。
 

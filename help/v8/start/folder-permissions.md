@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 18%
+source-wordcount: '333'
+ht-degree: 17%
 ---
 # 管理檔案夾許可權{#manage-folder-permissions}
 
@@ -40,14 +40,14 @@ ht-degree: 18%
 
 使用檔案夾的許可權來組織和控制Campaign資料的存取。
 
-[此頁面](../audiences/folders-and-views.md)中詳細說明了資料夾管理。
+在[資料夾和檢視](../audiences/folders-and-views.md)中詳細說明資料夾管理。
 
 若要編輯特定Campaign資料夾的許可權，請遵循下列步驟：
 
 1. 在資料夾上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Properties...]**。
 1. 瀏覽至&#x200B;**[!UICONTROL Security]**&#x200B;標籤，檢視此資料夾的授權。
 
-   ![](assets/folder-permissions.png)
+   ![資料夾屬性安全性索引標籤，具有操作者或群組的授權以及讀取、寫入和刪除資料許可權](assets/folder-permissions.png)
 
 * 若要&#x200B;**授權群組或操作員**，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後選取群組或操作員以指派此資料夾的授權。
 * 若要&#x200B;**禁止群組或運運算元**，請按一下&#x200B;**[!UICONTROL Delete]**&#x200B;並選取群組或運運算元以移除此資料夾的授權。
