@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 存取延伸profileAndServicesExt資源的範例GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -64,7 +64,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 它會傳回所有連結的自訂資源清單。 然後，您可以使用資源URL來執行本檔案中描述的任何API工作。
 
-```
+```json
 {
 "apiName": "resourceType",
 "cusProduct": {

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1244'
 ht-degree: 0%
 ---
 # 合作使用Campaign與Adobe Target
@@ -66,7 +66,7 @@ Adobe Target可使用下列型別的資料：
 * 此電子郵件在美國已開啟。
 * 如果這些條件都不適用，則會顯示預設影像。
 
-![](assets/target_4.png)
+![依對象的電子郵件變體：預設顯示飛機、法國埃菲爾鐵塔、美國自由女神像](assets/target_4.png)
 
 在Adobe Campaign和Adobe Target中需要完成下列步驟：
 
@@ -86,11 +86,11 @@ Adobe Target可使用下列型別的資料：
 
 * 如果您使用數位內容編輯器，請選擇現有影像，然後從工具列選取&#x200B;**[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]**。
 
-  ![](assets/target_5.png)
+  ![在影像工具列功能表中選取Adobe Target所提供動態影像的數位內容編輯器](assets/target_5.png)
 
 * 如果您使用標準編輯器，請將游標置於您要插入影像的位置，然後從個人化下拉式選單中選取&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]**。
 
-  ![](assets/target_12.png)
+  ![在個人化功能表中選取Adobe Target提供的標準編輯器（包含>動態影像）](assets/target_12.png)
 
 然後您可以定義影像引數：
 
@@ -101,7 +101,7 @@ Adobe Target可使用下列型別的資料：
 
 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[Adobe Target檔案](https://experienceleague.adobe.com/zh-hant/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}中進一步瞭解Target企業許可權。
 
-![](assets/target_13.png)
+![插入由Adobe Target對話方塊提供的影像，其中包含預設影像、目標位置、登陸頁面和決定引數](assets/target_13.png)
 
 ### 建立重新導向選件 {#create-redirect-offers}
 
@@ -113,11 +113,11 @@ Adobe Target可使用下列型別的資料：
 
 1. 按一下 **[!UICONTROL Create]**，之後 **[!UICONTROL Redirect Offer]**。
 
-   ![](assets/target_9.png)
+   ![Adobe Target選件索引標籤，代碼選件，建立功能表開啟且重新導向選件醒目提示](assets/target_9.png)
 
 1. 輸入選件的名稱和影像的URL。
 
-   ![](assets/target_6.png)
+   ![Adobe Target建立重新導向選件表單，其[名稱]欄位設為[法文]對象，且[重新導向URL]欄位設為](assets/target_6.png)
 
 1. 對其餘的重新導向選件遵循相同程式。 如需詳細資訊，請參閱此[Adobe Target檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=zh-Hant#experiences){target="_blank"}。
 
@@ -127,11 +127,11 @@ Adobe Target可使用下列型別的資料：
 
 1. 若要在Target中建立新的對象，請從&#x200B;**[!UICONTROL Audiences]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL Create Audience]**。
 
-   ![](assets/audiences_1.png)
+   ![反白顯示「建立對象」按鈕的「Adobe Target對象」索引標籤](assets/audiences_1.png)
 
 1. 新增名稱至您的對象。
 
-   ![](assets/audiences_2.png)
+   ![使用「對象名稱」欄位和「新增規則」按鈕的「Adobe Target新對象」對話方塊](assets/audiences_2.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add a rule]**&#x200B;並選取類別。 規則會使用特定條件來鎖定訪客。 您可以新增條件或在其他類別中建立新規則來調整規則。
 
@@ -145,17 +145,17 @@ Adobe Target可使用下列型別的資料：
 
 1. 若要建立體驗鎖定目標活動，請從&#x200B;**[!UICONTROL Activities]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL Create Activity]**&#x200B;然後&#x200B;**[!UICONTROL Experience Targeting]**。
 
-   ![](assets/target_10.png)
+   ![Adobe Target活動索引標籤，其中的「建立活動」功能表已開啟，且體驗鎖定目標已反白顯示](assets/target_10.png)
 
 1. 選取&#x200B;**[!UICONTROL Form]**&#x200B;作為&#x200B;**[!UICONTROL Experience Composer]**。
 
 1. 按一下&#x200B;**[!UICONTROL Change audience]**&#x200B;按鈕以選擇對象。
 
-   ![](assets/target_10_2.png)
+   ![在「所有訪客」對象選單中選取了「變更對象」的新活動體驗步驟](assets/target_10_2.png)
 
 1. 選取在先前步驟中建立的對象。
 
-   ![](assets/target_10_3.png)
+   ![選擇對象對話方塊列出包含所有訪客和其他對象的對象庫](assets/target_10_3.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以建立另一個體驗。
 
@@ -163,27 +163,27 @@ Adobe Target可使用下列型別的資料：
 
 1. 選取您在Adobe Campaign中插入動態選件時選擇的位置名稱。
 
-   ![](assets/target_15.png)
+   在Select位置清單中選取v_rawbox位置的![體驗鎖定目標活動](assets/target_15.png)
 
 1. 按一下下拉式按鈕並選取&#x200B;**[!UICONTROL Change Redirect Offer]**。
 
-   ![](assets/target_content.png)
+   ![醒目提示變更重新導向選件之活動的內容功能表](assets/target_content.png)
 
 1. 選取您先前建立的重新導向選件。
 
-   ![](assets/target_content_2.png)
+   ![Select重新導向選件對話方塊，其中包含已選取的法國受眾選件以及[儲存]按鈕](assets/target_content_2.png)
 
 1. 對第二個體驗執行相同的步驟。
 
 **[!UICONTROL Target]**&#x200B;視窗會摘要列出您的活動。 如有需要，您可以新增其他體驗。
 
-![](assets/target_experience.png)
+![Target步驟會將法國受眾列為體驗A，並將美國受眾列為體驗B，同時新增體驗](assets/target_experience.png)
 
 **[!UICONTROL Goal & Settings]**&#x200B;視窗可讓您設定優先順序、目標或持續時間，以個人化您的活動。
 
 **[!UICONTROL Reporting Settings]**&#x200B;區段可讓您選取動作並編輯將決定何時達成目標的引數。
 
-![](assets/target_experience_2.png)
+![目標量度設為「轉換」且已檢視v6_rawbox](assets/target_experience_2.png)之mbox的目標和設定步驟
 
 ## 預覽和傳送訊息 {#preview-send-email}
 
@@ -193,4 +193,4 @@ Adobe Target可使用下列型別的資料：
 
 您現在已準備好傳送包含Target動態優惠方案的電子郵件。
 
-![](assets/target_20.png)
+![Marie Dupont的電子郵件預覽，顯示Adobe Target為法國觀眾提供的埃菲爾鐵塔影像](assets/target_20.png)

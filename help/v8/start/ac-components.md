@@ -36,22 +36,22 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 78%
+source-wordcount: '675'
+ht-degree: 73%
 ---
 # 了解 Campaign 元件和程序 {#components-and-processes}
 
 Adobe Campaign 是跨通道行銷解決方案，可自動化電子郵件、行動裝置、社交和離線行銷活動。 Adobe Campaign 提供一處集中式位置，可存取您的客戶資料和輪廓。 使用 Adobe Campaign 為客戶打造一致的體驗，跨通道設計、執行並個人化您的行銷，同時改善每個裝置和接觸點的客戶體驗。 使用 Adobe Campaign，您可以透過拖放視覺工作流程介面管理多個資料來源、定義對象區段，以及規劃和執行多步驟、跨通道的行銷活動。
 
-在[本頁面](../start/get-started.md)中進一步瞭解 Campaign 主要功能。
+在[開始使用Campaign v8](../start/get-started.md)中進一步瞭解Campaign金鑰功能。
 
 ## Campaign 元件 {#ac-components}
 
 Adobe Campaign 元件和全球架構如下所示。
 
-![](assets/do-not-localize//ac-components.png)
+![架構：整合、簡報、邏輯應用程式和持續層，加上電子郵件、郵件和簡訊執行](assets/do-not-localize//ac-components.png)
 
 ### 展示層{#presentation-layer}
 
@@ -87,7 +87,7 @@ Adobe Campaign v8 已作為 Managed Service 部署：Adobe Campaign 的所有元
 
 Campaign Web 伺服器會控制 Campaign Web 程序的存取權。 JavaScript 是用於核心產品功能和自訂的伺服器端語言。 Tomcat 是後端引擎，並作為 Web 程序的一部分內嵌在 Campaign 產品中。 例如，JSP 或 JSSP 頁面會使用 JavaScript 來轉譯動態內容。
 
-![](assets/do-not-localize/ac-processes.png)
+![使用者端主控台和其他應用程式會呼叫Web伺服器和Web處理序，它們透過SQL](assets/do-not-localize/ac-processes.png)存取資料庫
 
 Campaign 用戶端主控台會透過 HTTP 使用 SOAP XML 連線至 Web 伺服器。 Web伺服器提供安全性層，使用Javascript將請求傳遞至應用程式層，而Campaign內部程式則使用SQL存取資料庫。
 

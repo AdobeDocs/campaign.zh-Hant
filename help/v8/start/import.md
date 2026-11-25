@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '3848'
-ht-degree: 34%
+source-wordcount: '4502'
+ht-degree: 28%
 ---
 # 將資料匯入 Campaign {#ootb-profiles}
 
 Campaign可協助您將連絡人新增至資料庫。 您可以載入檔案、排程並自動化多個聯絡人更新、在網路上收集資料，或直接在收件者表格中輸入輪廓資訊。
 
-輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。 在[本節](../../automation/workflow/recurring-import-workflow.md)了解更多資訊。
+輪廓匯入是在專用範本中設定的，專用範本則是在工作流程透過&#x200B;**匯入**&#x200B;活動執行。 它們可以根據排程自動重複，例如多個資訊系統之間的自動化資料交換。 深入瞭解[設定循環匯入](../../automation/workflow/recurring-import-workflow.md)。
 
-![](assets/import-wf.png)
+![更新設定檔工作流程：已更新連絡人和讀取清單摘要排除，然後重複資料刪除，再更新資料。](assets/import-wf.png)
 
 ## 執行匯入
 
@@ -48,7 +48,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 >[!NOTE]
 >
->您可以使用&#x200B;**[!UICONTROL Import a list]**&#x200B;函式，匯入資料時不必與資料庫資料對應。 然後可透過&#x200B;**[!UICONTROL Read list]**&#x200B;物件將資料僅用於工作流程中。 如需詳細資訊，請參閱[此頁面](../../automation/workflow/read-list.md)。
+>您可以使用&#x200B;**[!UICONTROL Import a list]**&#x200B;函式，匯入資料時不必與資料庫資料對應。 然後可透過&#x200B;**[!UICONTROL Read list]**&#x200B;物件將資料僅用於工作流程中。 如需詳細資訊，請參閱[讀取清單](../../automation/workflow/read-list.md)。
 
 
 ## 使用匯入助理
@@ -57,7 +57,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 建立新的匯入工作後，匯入助理就會顯示。
 
-![](assets/new-import.png)
+![工作清單，其中的[建立]功能表顯示[新匯入]和[新匯出]，以及匯入助理的[要匯入的檔案]對話方塊。](assets/new-import.png)
 
 在來源檔案中，每一行都與記錄一致。 記錄中的資料以分隔符號（空格、定位字元、字元等）分隔。 這意味著以行的形式檢索資料，並且每行與資料庫的欄位相關聯。
 
@@ -68,7 +68,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 選取&#x200B;**[!UICONTROL Profiles and Targets > Job > Generic imports and exports]**&#x200B;資料夾。
 1. 點擊&#x200B;**新建**，然後點擊&#x200B;**匯入**&#x200B;以建立匯入範本。
 
-   ![](assets/s_ncs_user_import_wizard01_1.png)
+   ![範本選取畫面：新文字匯入範本、標籤、說明、簡單匯入型別和目的地資料夾。](assets/s_ncs_user_import_wizard01_1.png)
 
 1. 按一下&#x200B;**[!UICONTROL Import template]**&#x200B;欄位右側的箭頭以選取您的範本，或按一下&#x200B;**[!UICONTROL Select link]**&#x200B;以瀏覽樹狀結構。
 
@@ -79,11 +79,11 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
    若要多重匯入，請從匯入助理第一個畫面的&#x200B;**[!UICONTROL Import type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Multiple import]**。
 
-   ![](assets/s_ncs_user_import_wizard01_2.png)
+   ![範本選取畫面的[匯入型別]下拉式清單中會列出[簡單匯入]和[多重匯入]。](assets/s_ncs_user_import_wizard01_2.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以指定要匯入的欄位。
 
-   ![](assets/s_ncs_user_import_wizard01_3.png)
+   ![以兩個來源檔案匯入多重匯入的步驟清單，並以[新增]按鈕新增另一個檔案。](assets/s_ncs_user_import_wizard01_3.png)
 
    每次新增檔案時，都會顯示&#x200B;**[!UICONTROL File to import]**&#x200B;助理的畫面。 請參閱區段[步驟2 - Source檔案選擇](#step-2---source-file-selection)，並依照助理中的步驟將匯入選項定義為簡單匯入。
 
@@ -97,11 +97,11 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 預設會選取&#x200B;**[!UICONTROL Upload file on the server]**。 按一下&#x200B;**[!UICONTROL Local file]**&#x200B;欄位右側的資料夾，以瀏覽本機磁碟並選取要匯入的檔案。 您可以取消選擇此選項以輸入存取路徑以及要在伺服器上匯入的檔案名稱。
 
-![](assets/s_ncs_user_import_wizard02_1.png)
+![要匯入熒幕的檔案，其中具有空白的本機檔案欄位，且伺服器上的上傳檔案選項已選取。](assets/s_ncs_user_import_wizard02_1.png)
 
 指定檔案後，您可以按一下&#x200B;**[!UICONTROL Auto-detect format]**，在視窗的下半部檢視其資料。 此預覽顯示源檔案的前 200 行。
 
-![](assets/s_ncs_user_import_wizard02_2.png)
+![要匯入熒幕的檔案，其中已選取來源檔案，且按一下[自動偵測]格式後預覽其第一行。](assets/s_ncs_user_import_wizard02_2.png)
 
 使用此檢視上方提供的選項來設定匯入。 透過這些選項定義的引數會傳輸到預覽中。 可以使用以下選項：
 
@@ -115,7 +115,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 **[!UICONTROL Click here to change the file format...]**&#x200B;選項可讓您格式化來源檔案的資料，尤其是指定欄分隔符號和每個欄位的資料型別。 此配置通過以下視窗執行：
 
-![](assets/s_ncs_user_import_wizard02_3.png)
+![檔案格式對話方塊：檔案型別、編碼、欄分隔符號、每欄標籤和資料型別，以及預覽。](assets/s_ncs_user_import_wizard02_3.png)
 
 此步驟可讓您說明應如何讀取檔案欄位的值。 例如，若是日期，日期或日期+時間資料可能與格式（dd/mm/yyyy、mm/dd/yy等）相關聯。 如果輸入資料與預期格式不匹配，則在匯入期間將發生拒絕。
 
@@ -127,7 +127,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 然後，您必須選擇目標架構並將每行的資料對應到資料庫中的欄位。
 
-![](assets/s_ncs_user_import_wizard03_1.png)
+![包含收件者目的地結構描述和來源資料行對應到目的地欄位的欄位對應畫面。](assets/s_ncs_user_import_wizard03_1.png)
 
 * **[!UICONTROL Destination schema]**&#x200B;欄位可讓您選取要匯入資料的結構描述。 此資訊是強制性的。 按一下&#x200B;**[!UICONTROL Select link]**&#x200B;圖示以選取其中一個現有結構描述。 按一下&#x200B;**[!UICONTROL Edit link]**&#x200B;以顯示所選資料表的內容。
 * 中央表格會顯示來源檔案中定義的所有欄位。 選取要匯入的欄位，以將目的地檔案與其建立關聯。 可以手動或自動對應這些欄位。
@@ -142,7 +142,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 * 您可以將轉換套用至匯入的欄位。 若要這麼做，請按一下與相關欄位相關的&#x200B;**[!UICONTROL Transformation]**&#x200B;欄儲存格，然後選取要套用的轉換。
 
-  ![](assets/s_ncs_user_import_wizard03_2.png)
+  ![使用「轉換」下拉式清單的欄位對應熒幕：「無」、「小寫」、「大寫」、「大寫的第一個字母」。](assets/s_ncs_user_import_wizard03_2.png)
 
   >[!IMPORTANT]
   >
@@ -161,23 +161,23 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * **[!UICONTROL JavaScript expression]**：計算欄位的值是JavaScript函式評估的結果。 返回的值可以是數字、日期等。
 * **[!UICONTROL Enumeration]**：欄位的值是根據來源檔案中包含的值所歸因。 編輯器允許您指定源行並輸入枚舉值清單，如以下示例所示：
 
-  ![](assets/s_ncs_user_import_wizard03_3.png)
+  ![匯入型別Enumerations的計算欄位定義，將來源值0和1對應到未登入和已登入。](assets/s_ncs_user_import_wizard03_3.png)
 
   **[!UICONTROL Preview]**&#x200B;索引標籤可讓您檢視已定義組態的結果。 已在此新增&#x200B;**[!UICONTROL Subscription]**&#x200B;欄。 該值計算自&#x200B;**狀態**&#x200B;欄位。
 
-  ![](assets/s_ncs_user_import_wizard03_4.png)
+  ![計算欄位定義的預覽標籤，顯示從來源資料計算的新服務資料行。](assets/s_ncs_user_import_wizard03_4.png)
 
 ### 第 4 步 – 調解 {#step-4---reconciliation}
 
 匯入輔助程式的調解步驟可讓您定義從檔案中調解資料與資料庫中現有資料的模式，並設定檔案資料與資料庫資料之間的優先順序規則。 配置視窗如下所示：
 
-![](assets/s_ncs_user_import_wizard04_1.png)
+![使用欄位樹狀目錄調解畫面，其中名字設定為調解金鑰1的一部分。](assets/s_ncs_user_import_wizard04_1.png)
 
 屏幕的中央部分包含一個樹結構，其中包含要匯入資料的 Adobe Campaign 資料庫的欄位和表。
 
 每個節點（表格或欄位）都有特殊選項可用。 當您按一下清單中相關的節點時，其引數和簡短說明會顯示在下方。 為每個元素定義的行為會顯示在對應的&#x200B;**[!UICONTROL Behavior]**&#x200B;欄中。
 
-![](assets/s_ncs_user_import_wizard04_2.png)
+![調解熒幕具有[作業]設定和[管理雙面]下拉式清單： Update、Reject entity、Ignore。](assets/s_ncs_user_import_wizard04_2.png)
 
 #### 操作類型 {#types-of-operation}
 
@@ -209,7 +209,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 避免選擇在匯入期間可能被修改的欄位；如果發生這種情況，引擎可以建立其他記錄。
 
-![](assets/s_ncs_user_import_wizard04_3.png)
+![已選取電子郵件欄位，並設定為調解金鑰2的一部分的調解畫面。](assets/s_ncs_user_import_wizard04_3.png)
 
 >[!NOTE]
 >
@@ -244,11 +244,11 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 大部分的資料傳輸作業會產生各種型別的錯誤（不一致的行格式、無效的電子郵件地址等）。 匯入引擎生成的所有錯誤和所有警告都將儲存並連結到匯入執行個體。
 
-![](assets/s_ncs_user_import_general_tab.png)
+![匯入工作[一般]索引標籤，其中包含反白顯示的[錯誤]、[警告]、[拒絕]、[雙倍]和[重複專案]計數器。](assets/s_ncs_user_import_general_tab.png)
 
 您可以透過&#x200B;**[!UICONTROL Rejects]**&#x200B;索引標籤檢視這些拒絕的詳細資料。
 
-![](assets/s_ncs_user_import_rejets_tab.png)
+匯入工作的拒絕索引標籤列出聯結器拒絕的記錄，以及所選記錄的拒絕訊息。![&#128279;](assets/s_ncs_user_import_rejets_tab.png)
 
 拒絕有兩種型別（型別會顯示在&#x200B;**[!UICONTROL Connector]**&#x200B;欄中）：
 
@@ -261,19 +261,19 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 * **[!UICONTROL Reject parent element]**：記錄的整行被拒絕，而不僅僅是造成錯誤的欄位。
 * **[!UICONTROL Reject all elements]**：匯入停止，且記錄的所有元素都遭到拒絕。
 
-  ![](assets/s_ncs_user_import_wizard04_4.png)
+  ![發生錯誤時的調解下拉式清單：忽略並記錄警告、拒絕父元素、拒絕所有元素。](assets/s_ncs_user_import_wizard04_4.png)
 
 匯入執行個體的拒絕屏幕中的樹結構指示哪些欄位被拒絕以及錯誤發生的位置。
 
 您可以透過&#x200B;**[!UICONTROL Export rejects]**&#x200B;圖示產生包含這些記錄的檔案：
 
-![](assets/s_ncs_user_import_errors_export.png)
+![一般匯入和匯出清單，其匯入完成時已選取錯誤，且[匯出]拒絕圖示。](assets/s_ncs_user_import_errors_export.png)
 
 ### 第 5 步 - 匯入收件者時的附加步驟 {#step-5---additional-step-when-importing-recipients}
 
 匯入助理的下一個步驟可讓您選取或建立資料匯入所在的資料夾、自動對應匯入的收件者與（新的或現有的）清單，以及將收件者訂閱至服務。
 
-![](assets/s_ncs_user_import_wizard05_1.png)
+![匯入收件者畫面，包含資料夾、清單和服務的「編輯」連結，以及「來源」欄位。](assets/s_ncs_user_import_wizard05_1.png)
 
 >[!NOTE]
 >
@@ -291,25 +291,25 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
      若要選取匯入資料夾，請按一下&#x200B;**[!UICONTROL Folder]**&#x200B;欄位右側的箭頭，然後選取相關的資料夾。 您也可以使用&#x200B;**[!UICONTROL Select link]**&#x200B;圖示在新視窗中顯示樹狀結構或建立新資料夾。
 
-     ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![使用[加入至現有的資料夾]選項和[資料夾]欄位，匯入資料夾對話方塊。](assets/s_ncs_user_import_wizard05_2.png)
 
      若要建立新資料夾，請選取您要新增資料夾的節點，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Create a new 'Recipients' folder]**。
 
-     ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![資料夾樹狀結構，右鍵功能表顯示[建立新的收件者資料夾]。](assets/s_ncs_user_import_wizard05_3.png)
 
      資料夾會新增至目前節點下方。 輸入新資料夾的名稱，按一下Enter進行確認，然後按一下&#x200B;**[!UICONTROL OK]**。
 
-     ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![資料夾樹狀目錄，在選取的節點下方新增了新的Newsletter資料夾，準備就緒即可確認確定。](assets/s_ncs_user_import_wizard05_4.png)
 
   1. 與清單相關聯
 
      **[!UICONTROL Add recipients to a list]**&#x200B;區段中的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結可讓您選取或建立收件者將匯入其中的清單。
 
-     ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![使用[新增至現有清單]選項和清單下拉式清單，將收件者新增至清單對話方塊。](assets/s_ncs_user_import_wizard05_5.png)
 
      您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按&#x200B;**[!UICONTROL Create]**，為這些收件者建立新清單。
 
-     ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![含有[建立]圖示的清單選擇對話方塊，用來新增收件者清單。](assets/s_ncs_user_import_wizard05_6.png)
 
      您可以決定將收件者新增至清單中已存在的收件者，或使用新收件者重新建立清單。 在這種情況下，如果清單已包含收件者，則它們將被刪除並由匯入的收件者替換。
 
@@ -317,9 +317,9 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
      若要讓所有匯入的收件者訂閱資訊服務，請按一下&#x200B;**[!UICONTROL Subscribe recipients to a service]**&#x200B;區段的&#x200B;**[!UICONTROL Edit...]**&#x200B;連結，以選取或建立收件者將訂閱的資訊服務。 您可以選取&#x200B;**[!UICONTROL Send a confirmation message]**&#x200B;選項：此訊息的內容定義在與訂閱服務相關聯的傳遞範本中。
 
-     ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![使用選取的現有服務為收件者訂閱服務對話方塊，並選取傳送確認訊息。](assets/s_ncs_user_import_wizard05_7.png)
 
-     您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示，為這些收件者建立新的服務。 [本節](../start/subscriptions.md)介紹了資訊服務的管理。
+     您可以按一下&#x200B;**[!UICONTROL Select link]**，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示，為這些收件者建立新的服務。 在[管理Campaign中的訂閱與取消訂閱](../start/subscriptions.md)中呈現資訊服務的管理。
 
 * 使用&#x200B;**[!UICONTROL Origin]**&#x200B;欄位將收件者來源的相關資訊新增至其設定檔。 此資訊在多重匯入的框架內特別有用。
 
@@ -329,7 +329,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 助理的最後一步可讓您啟動資料匯入。 若要這麼做，請按一下&#x200B;**[!UICONTROL Start]**&#x200B;按鈕。
 
-![](assets/s_ncs_user_import_wizard06_1.png)
+![資料匯入執行畫麵包含[開始]按鈕、執行記錄、已處理計數和100%進度列。](assets/s_ncs_user_import_wizard06_1.png)
 
 然後，您可以監視匯入工作的執行（請參閱[監視工作流程執行](../../automation/workflow/monitor-workflow-execution.md)）。
 
@@ -350,7 +350,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 選取&#x200B;**[!UICONTROL Profiles and Targets > Job > Generic imports and exports]**&#x200B;資料夾。
 1. 點擊&#x200B;**新建**，然後點擊&#x200B;**匯出**&#x200B;以建立匯出範本。
 
-   ![](assets/s_ncs_user_export_wizard01.png)
+   ![使用「新文字匯出範本」、「標籤」、「說明」、「簡單匯出型別」和「資料夾」來匯出範本選取畫面。](assets/s_ncs_user_export_wizard01.png)
 
 1. 按一下&#x200B;**[!UICONTROL Export template]**&#x200B;欄位右側的箭頭以選取您的範本，或按一下&#x200B;**[!UICONTROL Select link]**&#x200B;以瀏覽樹狀結構。
 
@@ -365,7 +365,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 根據預設，從&#x200B;**[!UICONTROL Jobs]**&#x200B;節點啟動匯出時，資料會來自收件者表格。 從資料清單（從&#x200B;**[!UICONTROL right click > Export]**&#x200B;功能表）啟動匯出時，資料所屬的表格會自動填入&#x200B;**[!UICONTROL Document type]**&#x200B;欄位。
 
-![](assets/s_ncs_user_export_wizard02.png)
+![要匯出熒幕的檔案，包含收件者檔案型別、下載選項、本機檔案路徑和名稱。](assets/s_ncs_user_export_wizard02.png)
 
 * 依預設，已選取&#x200B;**[!UICONTROL Download the file generated on the server after the export]**&#x200B;選項。 在&#x200B;**[!UICONTROL Local file]**&#x200B;欄位中，填寫要建立之檔案的名稱和路徑，或按一下欄位右側的資料夾來瀏覽您的本機磁碟。 您可以取消選擇此選項以輸入伺服器輸出檔案的存取路徑和名稱。
 
@@ -377,7 +377,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 * 您可以建立差異匯出，以僅匯出自上次執行以來修改的記錄。 若要這麼做，請按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結，再按一下&#x200B;**[!UICONTROL Differential export]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL Activate differential export]**。
 
-  ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![進階引數，差異匯出標籤：啟用差異匯出已核取，且修改日期欄位。](assets/s_ncs_user_export_wizard02_b.png)
 
   您必須輸入上次修改的日期。 它可以從欄位中檢索或計算。
 
@@ -385,7 +385,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 選取匯出檔案的輸出格式。 可以使用以下格式：文字、固定行文字、CSV 和 XML。
 
-![](assets/s_ncs_user_export_wizard03.png)
+![目的地格式熒幕，包含文字輸出格式、欄分隔符號、字串分隔符號、編碼和格式。](assets/s_ncs_user_export_wizard03.png)
 
 * 針對&#x200B;**[!UICONTROL Text]**&#x200B;格式，選取分隔符號以分隔欄（定位字元、逗號、分號或自訂）和字串（單引號、雙引號或無）。
 * 對於&#x200B;**[!UICONTROL text]**&#x200B;和&#x200B;**[!UICONTROL CSV]**，您可以選取選項&#x200B;**[!UICONTROL Use first lines as column titles]**。
@@ -399,7 +399,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 1. 連按兩下&#x200B;**[!UICONTROL Available fields]**&#x200B;清單中所需的欄位，以將它們新增至&#x200B;**[!UICONTROL Output columns]**&#x200B;區段。
 1. 使用清單右側的箭頭定義輸出檔案中欄位的順序。
 
-   ![](assets/s_ncs_user_export_wizard04.png)
+   ![要以[可用欄位]清單和選取的[輸出]欄擷取熒幕的資料。](assets/s_ncs_user_export_wizard04.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以呼叫函式。
 
@@ -407,13 +407,13 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 選擇行的排序順序。
 
-![](assets/s_ncs_user_export_wizard05.png)
+![排序畫面列出具有[排序]和[降序]排序選項的輸出資料行。](assets/s_ncs_user_export_wizard05.png)
 
 ### 第 6 步 - 篩選條件 {#step-6---filter-conditions-}
 
 您可以新增篩選條件以避免匯出所有資料。 此篩選的設定與傳遞助理員中的收件者目標定位相同。
 
-![](assets/s_ncs_user_export_wizard05_b.png)
+![限制篩選的資料篩選清單，資訊服務目標專案對話方塊的訂閱者已開啟。](assets/s_ncs_user_export_wizard05_b.png)
 
 ### 第 7 步 – 設定資料格式 {#step-7---data-formatting}
 
@@ -427,19 +427,19 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
   * 切換到大寫
   * 第一個字母大寫
 
-  ![](assets/s_ncs_user_export_wizard06.png)
+  ![使用Company欄的「轉換」下拉式清單的資料格式化畫面：「無」、「下限」、「上限」、「第一個字母」。](assets/s_ncs_user_export_wizard06.png)
 
 * 如果要建立新的計算欄位（例如，包含姓氏和名字的欄），請按一下&#x200B;**[!UICONTROL Add a calculated field]**。 如需詳細資訊，請參閱匯入資料區段。
 
 如果要匯出元素集合 (例如，收件者的訂閱，它們所屬的清單等) ，則必須指定要匯出的集合中的元素數量。
 
-![](assets/s_ncs_user_export_wizard06_c.png)
+![集合個人化對話方塊，以限制要擷取及篩選訂閱集合專案的行。](assets/s_ncs_user_export_wizard06_c.png)
 
 ### 第 8 步 - 資料預覽 {#step-8---data-preview}
 
 按一下&#x200B;**[!UICONTROL Start the preview of the data]**&#x200B;以預覽匯出結果。
 
-![](assets/s_ncs_user_export_wizard07.png)
+![資料預覽畫面開始預覽資料，行顯示欄位和預覽結果欄。](assets/s_ncs_user_export_wizard07.png)
 
 >[!NOTE]
 >
@@ -451,7 +451,7 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 按一下&#x200B;**[!UICONTROL Start]**&#x200B;以啟動資料匯出。
 
-![](assets/s_ncs_user_export_wizard08.png)
+![包含[開始]按鈕、執行記錄檔和100%進度列的資料匯出執行畫面。](assets/s_ncs_user_export_wizard08.png)
 
 然後，您可以監視匯出工作的執行。
 
@@ -460,9 +460,9 @@ Adobe Campaign可讓您以文字、CSV、TAB或XML格式，從一或多個檔案
 
 使用 Campaign 建立網路表單，輕鬆、有效率地收集並管理輪廓資訊。 您可以在您的網站共用這些表單，讓您的聯絡人輕鬆提供資訊。 他們的資訊會傳送至 Campaign 建立其輪廓，或更新其資訊 (如果資訊已存在於資料庫中)。
 
-![](assets/web-form-page.png)
+![具有開始、預先載入、頁面、儲存和結束的網頁應用程式工作流程，以及具有電子郵件登錄檔單的頁面編輯器。](assets/web-form-page.png)
 
-在[本節](../dev/web/about-web-forms.md)中瞭解如何建立網路表單。
+瞭解如何在[開始使用網路表單](../dev/web/about-web-forms.md)中建立網路表單。
 
 **相關主題**
 

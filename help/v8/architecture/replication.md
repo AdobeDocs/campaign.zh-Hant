@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '849'
 ht-degree: 2%
 ---
 # 資料複製 {#wf-data-replication}
@@ -93,19 +93,19 @@ Campaign v8依賴特定技術工作流程來管理排程的資料複製。 這�
 
 * 使用下列程式碼新增特定&#x200B;**Javascript程式碼**&#x200B;活動：
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  ![](assets/jscode.png)
+  使用指令碼nms.replicationStrategy.StartReplicateStagingData for dem:sampleTable![&#128279;](assets/jscode.png)的JavaScript程式碼活動
 
 * 使用下列命令新增特定&#x200B;**nlmodule**&#x200B;活動：
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  ![](assets/nlmodule.png)
+  ![nlserver模組活動，其引數為ffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png)
 
 +++
 
@@ -121,7 +121,7 @@ API可將自訂和現成可用的資料從Campaign本機資料庫(PostgreSQL)復
 
 範例：
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">

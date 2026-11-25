@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # 與Adobe Experience Platform共用和同步受眾 {#gs-ac-aep}
@@ -44,13 +44,13 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
   1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
   1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Audience sync]**&#x200B;做為同步型別。
 
-     ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![在Experience Platform中設定新的目的地頁面，並將Select同步型別設定為Audience sync](assets/aep-audience-sync.png){width="800" align="center"}
 
-  1. Select要傳送至Adobe Campaign的區段。
+  1. 選取要傳送至Adobe Campaign的區段。
   1. 設定您要在對象中匯出的屬性。
   1. 設定好流量後，即可在Adobe Campaign中啟用選取的對象。
 
-     ![](assets/aep-destination.png){width="800" align="center"}
+     ![Adobe Campaign Audiences資料夾的AEP主控台清單，顯示同步區段和對象詳細資料](assets/aep-destination.png){width="800" align="center"}
 
   有關如何設定目的地的詳細資訊，請參閱[Adobe Campaign Managed Cloud Services連線檔案](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
@@ -58,7 +58,7 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
 
   若要這麼做，請設定新的Adobe Campaign Managed Cloud Services **Source連線**，將Campaign事件擷取至Adobe Experience Platform。 提供要使用的Campaign執行個體和結構描述的詳細資訊，選取應擷取資料的資料集，然後設定要擷取的欄位。 [瞭解如何建立Adobe Campaign Managed Cloud Services來源連線](https://www.adobe.com/go/sources-campaign-ui-en)
 
-  ![](assets/aep-logs.png){width="800" align="center"}
+  ![包含已擷取記錄、批次和成功狀態的Adobe Campaign追蹤記錄資料集活動頁面](assets/aep-logs.png){width="800" align="center"}
 
 ## 在Adobe Experience Platform和Adobe Campaign之間同步設定檔屬性 {#profile}
 
@@ -75,7 +75,7 @@ Adobe Campaign Managed Cloud Service Destination和Source聯結器可緊密整�
 1. 存取Adobe Experience Platform目的地目錄並建立新的&#x200B;**[!UICONTROL Adobe Campaign Managed Cloud Services]**&#x200B;連線。
 1. 提供要使用的Campaign執行個體的詳細資料，並選擇&#x200B;**[!UICONTROL Profile sync (Update only)]**&#x200B;做為同步型別。
 
-   ![](assets/aep-profile-sync.png){width="800" align="center"}
+   ![在Experience Platform中設定新的目的地頁面，並將Select同步型別設定為設定檔同步（僅限更新）](assets/aep-profile-sync.png){width="800" align="center"}
 
 1. 選取以設定檔為目標的區段，以更新至Adobe Campaign資料庫。
 1. 設定您要更新至Adobe Campaign的設定檔屬性。

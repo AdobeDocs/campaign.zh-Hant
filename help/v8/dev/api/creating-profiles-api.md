@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 使用電子郵件「john.doe@mail.com」建立設定檔的範例POST請求。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 它會傳回新建立的設定檔，並帶有「john.doe@mail.com」電子郵件地址。
 
-```
+```json
 {
     "PKey": "<PKEY>",
     "firstName": "John",

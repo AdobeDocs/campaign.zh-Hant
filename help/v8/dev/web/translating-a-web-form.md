@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -166,7 +166,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
    ![](assets/s_ncs_admin_survey_trad_import.png)
 
-1. Select要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+1. 選取要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
    ![](assets/s_ncs_admin_survey_trad_import_start.png)
 
@@ -178,13 +178,13 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
 Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x200B;索引標籤中指定的預設語言顯示。 若要變更語言，您必須在URL的結尾加上下列字元（其中&#x200B;**xx**&#x200B;是該語言的符號）：
 
-```
+```text
 ?lang=xx
 ```
 
 語言是URL的第一個或唯一引數。 例如： **https://myserver/webApp/APP34**
 
-```
+```text
 &lang=xx
 ```
 
@@ -472,7 +472,7 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. 選取翻譯語言並輸入字串的翻譯。 您可以核取&#x200B;**[!UICONTROL Translation approved]**&#x200B;選項以核准翻譯。
+1. Select翻譯語言，並輸入字串的翻譯。 您可以核取&#x200B;**[!UICONTROL Translation approved]**&#x200B;選項以核准翻譯。
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 

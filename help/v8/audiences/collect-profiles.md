@@ -29,15 +29,15 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 24%
+source-wordcount: '100'
+ht-degree: 19%
 ---
 # 使用網路表單收集和更新設定檔
 
 使用Campaign建立網路表單，輕鬆、有效率地收集和管理設定檔資料。 您可以在您的網站共用這些表單，讓您的聯絡人輕鬆提供資訊。 資料會傳送至Campaign以建立或更新其設定檔。
 
-![](assets/web-form-page.png)
+![網頁應用程式工作流程的頁面活動，顯示Luma電子報表單，其中包含電子郵件欄位和傳送按鈕。](assets/web-form-page.png)
 
-在[本節](../dev/web/about-web-forms.md)中瞭解如何建立網路表單。
+瞭解如何在[開始使用網路表單](../dev/web/about-web-forms.md)中建立網路表單。

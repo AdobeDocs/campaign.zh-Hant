@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1077'
 ht-degree: 20%
 ---
 # Campaign使用者介面設定 {#ui-settings}
@@ -45,13 +45,13 @@ ht-degree: 20%
 
 您可以將資料夾新增至Campaign Explorer、建立檢視及指派許可權。
 
-瞭解如何在[此頁面](../audiences/folders-and-views.md)中管理資料夾和檢視
+瞭解如何管理[資料夾和檢視](../audiences/folders-and-views.md)中的資料夾和檢視
 
 ## 管理和自訂清單 {#customize-lists}
 
 在Campaign使用者端主控台中，資料會顯示在清單中。 您可以根據自己的需求調整這些清單。 例如，您可以新增欄、篩選資料、計算記錄、儲存和共用您的設定。
 
-此外，您可以建立和儲存篩選器。  在[此頁面](../audiences/create-filters.md)中進一步瞭解篩選器。
+此外，您可以建立和儲存篩選器。  深入瞭解[中的篩選器。使用Adobe Campaign](../audiences/create-filters.md)中的篩選器。
 
 ### 記錄數 {#number-of-records}
 
@@ -107,7 +107,7 @@ ht-degree: 20%
 
 您可以使用&#x200B;**[!UICONTROL Distribution of values]**&#x200B;圖示來檢視目前資料夾中所選欄位的重新分割值。
 
-![](assets/value-distribution.png)
+![值分佈對話方塊，列出服務與訂閱資料夾的每個型別及其計數與百分比](assets/value-distribution.png)
 
 
 ### 新建欄 {#create-a-new-column}
@@ -145,7 +145,7 @@ ht-degree: 20%
 1. 按一下&#x200B;**[!UICONTROL Advanced settings]**，然後在&#x200B;**[!UICONTROL Configuration]**&#x200B;欄位中指定名稱。
 1. 按一下&#x200B;**[!UICONTROL OK]**，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-然後，您可以將此設定套用至相同型別的另一個資料夾。 在[此頁面](../audiences/folders-and-views.md)中進一步瞭解資料夾。
+然後，您可以將此設定套用至相同型別的另一個資料夾。 深入瞭解[資料夾和檢視](../audiences/folders-and-views.md)中的資料夾。
 
 ### 匯出清單 {#exporting-a-list}
 

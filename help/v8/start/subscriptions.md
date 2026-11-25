@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 10%
+source-wordcount: '577'
+ht-degree: 7%
 ---
 # 管理訂閱和取消訂閱 {#optin-optout}
 
@@ -40,17 +40,17 @@ ht-degree: 10%
 
 * 手動將服務新增至收件者設定檔：若要這麼做，請從其設定檔的&#x200B;**[!UICONTROL Subscriptions]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取相關的資訊服務。
 
-  ![](assets/subscribe-to-a-service.png)
+  ![收件者設定檔的「訂閱」索引標籤透過Select從新增](assets/subscribe-to-a-service.png)開啟服務對話方塊
 
   在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=zh-Hant#deliveries-tab){target="_blank"} 中深入瞭解
 
 * 自動為一組收件者訂閱服務。 收件者清單可能來自篩選操作、群組、資料夾、匯入或直接手動選擇。 若要訂閱這些收件者，請選取設定檔，然後按一下滑鼠右鍵。 選取 **[!UICONTROL Actions > Subscribe selection to a service...]**。
 
-  ![](assets/subscribe-selection.png)
+  ![在選取的收件者上按一下滑鼠右鍵功能表，其中包含[動作] > [訂閱服務的選取專案]](assets/subscribe-selection.png)
 
   選取相關的服務，然後啟動作業。
 
-  ![](assets/subscribe-confirm.png)
+  ![服務訂閱精靈、服務選擇步驟，以及傳送確認訊息選項](assets/subscribe-confirm.png)
 
   在 [Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=zh-Hant#deliveries-tab){target="_blank"} 中深入瞭解
 
@@ -61,18 +61,18 @@ ht-degree: 10%
 
 * 使用網路表單，讓收件者可以訂閱服務。
 
-  ![](assets/opt-in-webapp.png)
+  ![Newsletter訂閱Web應用程式工作流程：預先載入、訂閱、儲存和結束](assets/opt-in-webapp.png)
 
   Campaign隨附預設網頁表單，可管理選擇加入。 您可以加以個人化，並對應設定檔資料。
 
-  ![](assets/web-app.png)
+  ![訂閱網頁表單的頁面編輯器，包含名稱、電子郵件、電話、同意核取方塊和我訂閱按鈕](assets/web-app.png)
 
-  若要了解更多資訊，請參閱[此區段](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)。
+  深入瞭解[建立雙重選擇加入的訂閱表單](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)。
 
 
 * 建立目標工作流程並使用&#x200B;**[!UICONTROL Subscription service]**&#x200B;活動。
 
-  ![](assets/wf-subscription.png)
+  ![具有讀取清單、查詢及檔案收集器的工作流程，饋送重複資料刪除及訂閱服務](assets/wf-subscription.png)
 
   在[本頁](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=zh-Hant){target="_blank"}中瞭解更多。
 

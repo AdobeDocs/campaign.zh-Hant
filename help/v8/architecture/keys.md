@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # 金鑰管理和唯一性 {#key-management}
 
@@ -73,11 +73,11 @@ Unicity Service隨附專屬的&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;�
 
 此工作流程會檢查所有自訂和內建方案，以偵測重複的列。
 
-![](assets/unicity-alerting-wf.png)
+![Unicity警示(ffdaUnicity)工作流程：結構描述檢查、偵測到重複的資料列測試、警示、結束和清理活動](assets/unicity-alerting-wf.png)
 
 如果&#x200B;**[!UICONTROL Unicity alerting]** (ffdaUnicity)工作流程偵測到某些重複的索引鍵，則會將其新增至特定的&#x200B;**稽核Unicity**&#x200B;表格，其中包括結構描述名稱、索引鍵型別、受影響的列數和日期。 您可以從&#x200B;**[!UICONTROL Administration > Audit > Key Unicity]**&#x200B;節點存取重複的金鑰。
 
-![](assets/unicity-table.png)
+![索引鍵唯一性清單，包含結構描述Id、索引鍵定義、索引鍵型別、重複值、重複計數、建立日期](assets/unicity-table.png)
 
 身為資料庫管理員，您可以使用SQL活動來移除重複專案，或聯絡Adobe客戶服務以取得更多指引。
 
@@ -85,7 +85,7 @@ Unicity Service隨附專屬的&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;�
 
 偵測到重複的金鑰時，會傳送特定通知給&#x200B;**[!UICONTROL Workflow Supervisors]**&#x200B;運運算元群組。 可在&#x200B;**[!UICONTROL Unicity alerting]**&#x200B;工作流程的&#x200B;**警報**&#x200B;活動中變更此警報的內容和對象。
 
-![](assets/wf-alert-activity.png)
+![&#x200B; Unicity警示中的警示活動，已指派給具有重複金鑰訊息的工作流程主管群組](assets/wf-alert-activity.png)
 
 
 ## 其他護欄 {#duplicates-guardrails}
@@ -94,25 +94,25 @@ Campaign提供一組新護欄，以防止在[!DNL Snowflake]資料庫中插入�
 
 >[!NOTE]
 >
->從Campaign v8.3開始提供這些護欄。 若要檢查您的版本，請參閱[本節](../start/compatibility-matrix.md)
+>從Campaign v8.3開始提供這些護欄。 若要檢查您的版本，請參閱[Campaign v8相容性矩陣](../start/compatibility-matrix.md)
 
 ### 傳遞準備 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign會在傳送準備期間自動移除對象中任何重複的UUID。 此機制可防止在準備傳送時發生任何錯誤。 身為一般使用者，您可以在傳送記錄中檢查此資訊：由於金鑰重複，部分收件者可從主要目標中排除。 在這種情況下，會顯示下列警告： `Exclusion of duplicates (based on the primary key or targeted records)`。
 
-![](assets/exclusion-duplicates-log.png)
+![傳遞記錄，其行以箭號](assets/exclusion-duplicates-log.png)標示排除重複專案（根據目標籤錄的主鍵）
 
 ### 更新工作流程中的資料 {#duplicates-update-data}
 
 在[Enterprise (FFDA)部署](enterprise-deployment.md)的內容中，您無法選取內部金鑰(UUID)作為欄位來更新工作流程中的資料。
 
-![](assets/update-data-no-internal-key.png)
+![使用收件者(nms:recipient)的欄位選取器更新資料活動，其中無法選取任何內部索引鍵欄位](assets/update-data-no-internal-key.png)
 
 ### 查詢包含重複專案的結構描述 {#query-with-duplicates}
 
 當工作流程開始在結構描述上執行查詢時，Adobe Campaign會檢查是否在[稽核唯一性表格](#unicity-wf)中報告任何重複記錄。 若是如此，工作流程會記錄警告，因為對重複資料的後續操作可能會影響工作流程結果。
 
-![](assets/query-with-duplicates.png)
+![違反警告Unicity條件約束的工作流程記錄。 在結構描述nms:recipient](assets/query-with-duplicates.png)上找到重複的資料
 
 此檢查會在下列工作流程活動中執行：
 

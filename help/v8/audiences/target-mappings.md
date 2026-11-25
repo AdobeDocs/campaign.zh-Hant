@@ -36,10 +36,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 6%
+source-wordcount: '449'
+ht-degree: 5%
 ---
 # 使用目標對應{#gs-target-mappings}
 
@@ -71,7 +71,7 @@ Adobe Campaign隨附下列內建目標對應：
 * 您使用自訂收件者表格，
 * 您可以設定與目標對應畫面上內建目標維度不同的篩選維度。
 
-在[此頁面](../dev/custom-recipient.md)中進一步瞭解自訂收件者表格。
+在[變更您的預設收件者表格](../dev/custom-recipient.md)中進一步瞭解自訂收件者表格。
 
 Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應所需的所有結構描述。
 
@@ -79,16 +79,16 @@ Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應
 
 1. 建立新的目標對應，並選取您的自訂結構描述作為目標維度。
 
-   ![](assets/new-target-mapping.png)
+   ![新目標對應精靈的Select目標維度步驟，包含「標籤使用者端」和「目標維度合約」。](assets/new-target-mapping.png)
 
 
 1. 表示儲存設定檔資訊的欄位：姓氏、名字、電子郵件、地址等。
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![編輯地址表單步驟，其中每個傳遞位址列位（例如電子郵件）都連結到新維度的欄位。](assets/wf_new_mapping_define_join.png)
 
 1. 指定資訊儲存的引數，包括可輕鬆識別的擴充功能結構描述的尾碼。
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![儲存步驟，包含用於儲存排除專案和訊息的名稱空間、擴充功能結構描述尾碼和排除專案選項。](assets/wf_new_mapping_define_names.png)
 
    您可以選擇是否要儲存排除專案(**excludelog**)、包含訊息(**broadlog**)或是在個別的資料表中。
 
@@ -96,6 +96,6 @@ Adobe Campaign目標對應建立精靈會協助您建立使用自訂目標對應
 
 1. 然後選取要考慮的擴充功能。 擴充功能型別取決於您的Campaign設定和附加元件。
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   ![擴充功能步驟，在優惠方案引擎下選取產生主張的儲存結構描述選項。](assets/wf_new_mapping_define_extensions.png)
 
    按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以啟動傳遞對應建立：所有連結表格都會根據選取的引數自動建立。

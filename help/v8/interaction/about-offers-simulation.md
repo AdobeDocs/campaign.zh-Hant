@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 3%
+source-wordcount: '367'
+ht-degree: 2%
 ---
 # 關於產品建議模擬{#about-offers-simulation}
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 若要瞭解如何模擬優惠方案，請閱讀以下步驟。
 
-![](assets/how-to-video.png)您也可以觀看此[影片](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)。
+![播放影片](assets/how-to-video.png)您也可以觀看此[影片](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)。
 
 ## 建立模擬的主要步驟 {#main-steps-for-creating-a-simulation}
 
@@ -46,14 +46,14 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL Profiles and Targets]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Simulations]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
-   ![](assets/offer_simulation_001.png)
+   ![使用[建立]按鈕的模擬清單，開啟包含範本、標籤和資料夾的[新增優惠方案模擬]對話方塊](assets/offer_simulation_001.png)
 
 1. 儲存並編輯您剛建立的模擬。
 1. 移至&#x200B;**[!UICONTROL Edit]**&#x200B;標籤並指定執行設定。
 
    如需詳細資訊，請參閱[執行設定](execution-settings.md)。
 
-   ![](assets/offer_simulation_003.png)
+   ![模擬一般標籤，執行設定：低活動排程、SQL記錄及優先順序清單](assets/offer_simulation_003.png)
 
    >[!NOTE]
    >
@@ -63,21 +63,21 @@ ht-degree: 3%
 
    如需詳細資訊，請參閱領域[&#128279;](simulation-scope.md#definition-of-the-scope)的定義。
 
-   ![](assets/offer_simulation_004.png)
+   ![模擬範圍標籤，包含環境、優惠方案空間、聯絡日期、主張和資料夾最佳旅行者目標](assets/offer_simulation_004.png)
 
 1. 新增報告座標軸以增強&#x200B;**[!UICONTROL Offer distribution by rank]**&#x200B;報告（選擇性）。
 
    如需詳細資訊，請參閱[新增報告軸](simulation-scope.md#adding-reporting-axes)。
 
-   ![](assets/offer_simulation_005.png)
+   ![目標上及選件上具有報表軸的「模擬計算」索引標籤，以及「新增」按鈕](assets/offer_simulation_005.png)
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以記錄模擬設定。
 1. 透過儀表板開始模擬。
 
-   ![](assets/offer_simulation_006.png)
+   ![啟動模擬按鈕反白的模擬儀表板](assets/offer_simulation_006.png)
 
 1. 檢查模擬結果，並顯示分析報告。
 
    如需詳細資訊，請參閱[模擬追蹤](simulation-tracking.md)。
 
-   ![](assets/offer_simulation_007.png)
+   ![依排名報告的優惠結果標籤與劃分，包含優惠排名表與圓餅圖](assets/offer_simulation_007.png)

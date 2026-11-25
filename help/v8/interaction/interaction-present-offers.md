@@ -21,20 +21,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 8%
+source-wordcount: '209'
+ht-degree: 0%
 ---
 # 呈現最佳優惠方案{#interaction-present-offers}
 
 可使用[傳入或傳出頻道](interaction-architecture.md#interaction-types)，將優惠方案顯示在各種優惠方案空間中。 本章詳細說明傳入頻道的一些特定功能。
 
-![](assets/inbound-interactions.png)
+![傳入流量：瀏覽網站、透過Cookie或登入識別訪客、優惠引擎從目錄中挑選最佳優惠](assets/inbound-interactions.png)
 
 為了讓優惠方案引擎選取優惠方案，優惠方案必須獲得核准並可在即時環境中使用。
 
-如需詳細資訊，請參閱[本章節](approving-and-activating-an-offer.md#approving-offer-content)。
+如需詳細資訊，請參閱[核准優惠方案內容](approving-and-activating-an-offer.md#approving-offer-content)。
 
 在傳入連絡人的內容中，瀏覽頁面的使用者是否可由網站識別。 優惠方案引擎為已識別的設定檔和匿名設定檔提供不同的優惠方案。
 
@@ -44,4 +44,4 @@ ht-degree: 8%
 >
 >針對傳入互動，您必須特別設定優惠方案引擎以顯示和更新一或多個優惠方案。
 >
->您也必須在優惠方案空間上啟用單一模式。 如需詳細資訊，請參閱[此頁面](interaction-offer-spaces.md)。
+>您也必須在優惠方案空間上啟用單一模式。 如需詳細資訊，請參閱[促銷活動互動優惠方案空間](interaction-offer-spaces.md)。

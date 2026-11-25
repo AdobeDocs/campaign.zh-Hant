@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 13%
+source-wordcount: '987'
+ht-degree: 10%
 ---
 # 在清單中建立對象 {#create-segments}
 
@@ -38,7 +38,7 @@ ht-degree: 13%
 
 清單是透過&#x200B;**[!UICONTROL Profiles and targets]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Lists]**&#x200B;連結建立及管理的。 這些清單是以預設的Adobe Campaign設定檔表格(nms:recipient)為基礎。 [了解更多](../dev/datamodel.md#ootb-profiles)
 
-![](assets/list-dashboard.png)
+![「設定檔與目標」底下的「清單」頁面，顯示現有清單與「建立」按鈕](assets/list-dashboard.png)
 
 您可以使用工作流程中的&#x200B;**更新清單**&#x200B;活動來建立清單。 此活動會將產生的母體儲存在清單中。 使用它來建立新清單或更新現有清單。 若要建立包含內建設定檔表格以外其他資料型別的清單，您必須執行工作流程。 例如，若您在訪客表格上使用查詢，然後更新清單，即可建立訪客清單。 [了解更多資訊](#create-a-list-wf)。
 
@@ -53,11 +53,11 @@ ht-degree: 13%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL New list]**。
 
-   ![](assets/new-list.png)
+   在[清單]頁面上使用[新增清單]選項![建立功能表](assets/new-list.png)
 
 1. 在清單建立視窗的&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤中輸入資訊。
 
-   ![](assets/list-details.png)
+   ![清單建立視窗的[編輯]索引標籤，包含[標籤]、[內部名稱]、[清單型別]、[結構描述]和[資料夾]欄位](assets/list-details.png)
 
    * 在&#x200B;**[!UICONTROL Label]**&#x200B;欄位中輸入清單名稱，並視需要變更內部名稱。
    * 新增此清單的描述。
@@ -66,7 +66,7 @@ ht-degree: 13%
 
 1. 在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;以選取屬於清單的設定檔。
 
-   ![](assets/add-profiles-to-a-list.png)
+   ![從資料集資料夾中選取數個收件者，將收件者新增至清單對話方塊](assets/add-profiles-to-a-list.png)
 
    您可以使用&#x200B;**[!UICONTROL Create]**&#x200B;圖示建立新的設定檔，並直接從此視窗將其新增到清單中。 該用戶檔案將新增至資料庫。
 
@@ -83,15 +83,15 @@ ht-degree: 13%
 
 1. 選取 **[!UICONTROL Actions > Associate selection with a list...]**。
 
-   ![](assets/add-selection-to-a-list.png)
+   ![動作功能表，針對選取的收件者，將選取專案與清單選項相關聯](assets/add-selection-to-a-list.png)
 
 1. 選取現有清單或建立新清單，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/select-the-list.png)
+   ![收件者與清單精靈的Select清單步驟，已選取清單及[下一步]按鈕](assets/select-the-list.png)
 
 1. 按一下 **[!UICONTROL Start]** 按鈕。
 
-   ![](assets/record-a-list.png)
+   ![使用重新建立清單選項和[開始]按鈕，在精靈的清單步驟中錄製](assets/record-a-list.png)
 
 選取&#x200B;**[!UICONTROL Recreate the list]**&#x200B;選項，從清單中刪除現有內容並最佳化清單的建立（不需要查詢即可驗證設定檔是否已連結至清單）。
 
@@ -111,22 +111,22 @@ ht-degree: 13%
 1. 選取「**[!UICONTROL Profiles and targets]**」、「**[!UICONTROL Targeting workflows]**」，然後從「**[!UICONTROL Create]**」按鈕建立新的工作流程。
 1. 輸入此工作流程的標籤，例如&#39;25-40連絡人&#39;，新增說明，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-   ![](assets/targeting-wf-sample.png)
+   ![目標工作流程中的新工作流程對話方塊，已為25至40個連絡人填入標籤和說明](assets/targeting-wf-sample.png)
 
 1. 插入&#x200B;**[!UICONTROL Query]**&#x200B;活動以定義目標母體，並編輯查詢。
 
-   ![](assets/targeting-wf-edit-query.png)
+   ![具有編輯查詢連結的查詢活動以及具有篩選條件的定位和篩選維度步驟](assets/targeting-wf-edit-query.png)
 
 1. 定義篩選條件，如下所示：
 
-   ![](assets/targeting-wf-age-filter.png)
+   ![年齡大於或等於25且小於或等於40的查詢篩選步驟](assets/targeting-wf-age-filter.png)
 
    在[本節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=zh-Hant){target="_blank"}中瞭解如何在工作流程中建立查詢。
 
 1. 為此查詢新增標籤並儲存您的變更。
 1. 新增&#x200B;**[!UICONTROL List update]**&#x200B;活動並加以編輯。
 
-   ![](assets/list-update-activity.png)
+   ![在工作流程中列出更新活動設定，包含清單建立和資料夾選項以及[確定]按鈕](assets/list-update-activity.png)
 
 1. 輸入活動的標籤。
 1. 選取&#x200B;**[!UICONTROL Create the list if necessary (Computed name)]**&#x200B;選項以顯示清單會在第一個工作流程執行後建立，然後使用下列執行進行更新。
@@ -140,7 +140,7 @@ ht-degree: 13%
 
    接著會建立相符的收件者清單。 您可以從首頁的&#x200B;**[!UICONTROL Lists]**&#x200B;專案存取此清單。
 
-   ![](assets/access-new-list.png)
+   ![清單頁面在頂端顯示新的25到40位連絡人清單，從清單專案](assets/access-new-list.png)連線
 
    您可以將排程器新增至工作流程，讓此工作流程重複執行。 [了解更多資訊](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=zh-Hant){target="_blank"}。
 

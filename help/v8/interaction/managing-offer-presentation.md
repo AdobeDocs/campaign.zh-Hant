@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1201'
 ht-degree: 0%
 ---
 # 管理優惠方案簡報{#managing-offer-presentation}
@@ -42,24 +42,24 @@ ht-degree: 0%
 1. 前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**&#x200B;節點。
 1. 建立型別規則並選擇&#x200B;**[!UICONTROL Offer presentation]**&#x200B;型別。
 
-   ![](assets/offer_typology_001.png)
+   ![具有新規則表單的型別規則節點，以及顯示優惠方案簡報的規則型別清單](assets/offer_typology_001.png)
 
 1. 指定應套用規則的管道。
 
-   ![](assets/offer_typology_002.png)
+   ![反白顯示「所有管道」之型別規則的管道清單](assets/offer_typology_002.png)
 
 1. 設定規則的應用程式條件。 如需詳細資訊，請參閱[簡報規則設定](#presentation-rule-settings)。
 1. 前往「**[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]**」節點，建立將群組所有&#x200B;**[!UICONTROL Offer presentation]**&#x200B;型別規則的型別。
 
-   ![](assets/offer_typology_003.png)
+   ![已選取選件型別的「型別」節點，且顯示其「一般」標籤](assets/offer_typology_003.png)
 
 1. 建立型別後，將游標置於型別規則上，並將其群組至您剛建立的型別。
 
-   ![](assets/offer_typology_004.png)
+   ![規則的型別標籤，其中的「新增型別」對話方塊列出選取的優惠型別](assets/offer_typology_004.png)
 
 1. 在您的優惠方案環境中，使用下拉式清單來參考型別。
 
-   ![](assets/offer_typology_005.png)
+   ![環境的適用性標籤 — 訪客優惠方案環境，包含優惠方案的優惠方案呈現方式型別清單](assets/offer_typology_005.png)
 
 ## 簡報規則設定 {#presentation-rule-settings}
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 1. 在您的型別規則中，按一下&#x200B;**[!UICONTROL Edit the rule application conditions...]**&#x200B;連結以建立您的查詢。
 
-   ![](assets/offer_typology_006.png)
+   ![型別規則的[一般]索引標籤，其中反白顯示[編輯規則應用程式條件]連結](assets/offer_typology_006.png)
 
 1. 在查詢視窗中，您可以對要套用型別規則的選件套用篩選。
 
    例如，您可以選取優惠方案類別。
 
-   ![](assets/offer_typology_008.png)
+   ![查詢類別等於優惠方案樹狀結構中選取的優惠方案類別](assets/offer_typology_008.png)
 
 ### 優惠方案維度 {#offer-dimensions}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 **[!UICONTROL Targeting dimension]**&#x200B;與將接收優惠方案主張的收件者表格（預設為： `nms:recipients`）一致。 **[!UICONTROL Storage dimension]**&#x200B;與包含連結至目標維度之主張歷程記錄的資料表一致（預設為： `nms:propositionRcp`）。
 
-![](assets/offer_typology_009.png)
+![目標維度和儲存維度欄位反白顯示的優惠方案簡報標籤](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 使用箭頭變更天數或直接輸入期間（例如「2d 6h」）。
 
-![](assets/offer_typology_010.png)
+![包含Sliding period， Period consistent field highlighted的優惠方案簡報標籤](assets/offer_typology_010.png)
 
 ### 主張數量 {#number-of-propositions}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 使用箭頭來變更優惠方案主張的數量。
 
-![](assets/offer_typology_011.png)
+![主張數量上限為的優惠方案簡報標籤，反白的數量欄位](assets/offer_typology_011.png)
 
 ## 定義主張和收件者 {#defining-propositions-and-recipients}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 您可以選取篩選條件，以根據頻道、相關優惠或先前指派主張的狀態來排除主張。
 
-![](assets/offer_typology_014.png)
+![僅使用相同管道計算區段的主張，優惠和主張狀態篩選器強調顯示](assets/offer_typology_014.png)
 
 這些條件代表簡報規則最常使用的應用程式。 若要使用其他條件，您可以使用&#x200B;**[!UICONTROL Limit propositions...]**&#x200B;連結來建立查詢。 如需詳細資訊，請參閱[在主張上建立查詢](#creating-a-query-on-propositions)區段。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 若要指定收件者，請按一下&#x200B;**[!UICONTROL Edit the query from the targeting dimension...]**&#x200B;連結，然後選取規則所關注的收件者。
 
-![](assets/offer_typology_012.png)
+![編輯篩選查詢精靈，選取資料夾中包含的收件者作為目標維度查詢](assets/offer_typology_012.png)
 
 ### 建立主張的查詢 {#creating-a-query-on-propositions}
 
@@ -172,4 +172,4 @@ ht-degree: 0%
 
 在下列範例中，要在兩個簡報之後計數的建議，是針對&#x200B;**客服中心**&#x200B;空間，**特殊優惠**&#x200B;類別中的建議，其權重低於&#x200B;**20**。
 
-![](assets/offer_typology_013.png)
+![將主張查詢限制在權重、優惠方案空間以及低於20的權重上，以便主張計數](assets/offer_typology_013.png)

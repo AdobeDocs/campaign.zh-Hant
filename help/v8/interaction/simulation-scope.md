@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '271'
 ht-degree: 2%
 ---
 # 模擬範圍{#simulation-scope}
@@ -50,7 +50,7 @@ ht-degree: 2%
 
   收件者將收到這麼多建議。 例如，如果您輸入5，則每個收件者最多會收到5個優惠方案主張。
 
-  ![](assets/offer_simulation_009.png)
+  ![包含聯絡日期、主張數和資料夾最佳旅行者目標查詢的模擬範圍標籤](assets/offer_simulation_009.png)
 
 若要調整要納入模擬考量的優惠方案，您可以新增一或多個主題（在類別中預先指定）。
 
@@ -66,4 +66,4 @@ ht-degree: 2%
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後選擇適當的欄位。 軸將用於計算模擬，並顯示在分析報告中。 如需詳細資訊，請參閱[模擬追蹤](simulation-tracking.md)。
 
-![](assets/offer_simulation_011.png)
+![計算索引標籤，其中包含Select運算式對話方塊，選擇[結束日期]以新增優惠方案報告軸](assets/offer_simulation_011.png)

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 13%
+source-wordcount: '460'
+ht-degree: 8%
 ---
 # 開始使用報告功能{#gs-ac-reports}
 
@@ -51,11 +51,11 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   使用行銷分析功能來分析和測量資料、計算統計資料、簡化和最佳化報告建立和計算。 您可以建立報告並建置目標母體，然後將它們儲存到清單中，以便用於Adobe Campaign中的目標定位或細分任務。
 
-  ![](assets/create-a-report.png)
+  ![使用可用的Cube範本和選取的收件者範本，建立新的報告頁面](assets/create-a-report.png)
 
   根據查詢、計算和磁碟區的複雜性，這些報告中分析的資料可透過查詢來收集，並預先彙總在清單（資料管理型別工作流程）或多維度資料集（使用Marketing Analytics）中。 它會以樞紐分析表或群組清單的形式顯示。
 
-  如需詳細資訊，請參閱[本章節](gs-cubes.md)。
+  如需詳細資訊，請參閱[開始使用Adobe Campaign Analytics報表](gs-cubes.md)。
 
 * **內建報告**
 
@@ -63,9 +63,9 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   使用&#x200B;**報表**&#x200B;標籤來存取這些報表。
 
-  ![](assets/built-in-reports.png)
+  ![顯示內建報告之全域報告清單的報告標籤，例如，廣播統計資料和瀏覽器](assets/built-in-reports.png)
 
-  如需詳細資訊，請參閱[本章節](built-in-reports.md)。
+  如需詳細資訊，請參閱[Adobe Campaign內建報告](built-in-reports.md)。
 
 * **描述性資料分析**
 
@@ -73,7 +73,7 @@ Adobe Campaign提供本頁面所列的一組報表工具。
 
   使用&#x200B;**[!UICONTROL Tools > Descriptive analysis...]**&#x200B;功能表建立新報告。
 
-  ![](assets/desc-analysis-report.png)
+  ![描述性分析精靈資料表組態，變數定義對話方塊是從[新增]開啟](assets/desc-analysis-report.png)
 
   行銷活動描述性分析報告會顯示在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=zh-Hant){target="_blank"}中。
 

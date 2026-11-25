@@ -62,10 +62,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 63%
+source-wordcount: '1531'
+ht-degree: 62%
 ---
 # Adobe Campaign v8 重要功能 {#ac-gs-what-is-new}
 
@@ -73,7 +73,7 @@ Adobe Campaign v8 專為需要同級最佳雲端解決方案的跨頻道行銷�
 
 Adobe Campaign v8 顯著改善基礎架構、安全性、傳遞能力和監視功能。 它可作為&#x200B;**受管理的Cloud Service**&#x200B;使用，結合了服務與主動式監督和即時警報。 [在本節中](#acms-desc)進一步瞭解 Campaign Managed Cloud Services。
 
-![](assets/home-page.png)
+![含有歡迎訊息及Adobe Campaign Managed Cloud Services卡的Campaign使用者端主控台首頁](assets/home-page.png)
 
 ## 主要功能{#key-capabilities}
 
@@ -231,7 +231,7 @@ Campaign v8受管理的Cloud Services可免除手動升級的負擔：
 * 根據不同時間的不同業務需求進行設定
 * 根據需求控制存取設定，以加強安全性
 
-![](assets/subdomain1.png)
+![控制檯子網域管理頁面列出已設定的子網域，並反白顯示「設定新子網域」](assets/subdomain1.png)
 
 [深入瞭解Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}
 

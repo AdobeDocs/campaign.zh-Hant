@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '478'
 ht-degree: 1%
 ---
 # 使用環境{#work-with-environments}
@@ -41,7 +41,7 @@ ht-degree: 1%
 * **[!UICONTROL Design]**&#x200B;優惠方案環境，其中包含正在編輯且可以變更的優惠方案。 這些優惠方案尚未經過核准週期，因此不會傳送給連絡人。
 * **[!UICONTROL Live]**&#x200B;優惠方案環境包含向連絡人展示的已核准優惠方案。 此環境中的選件是唯讀的。
 
-![](assets/offer_environments_overview_001.png)
+![總管樹狀結構，包含設計和即時優惠方案環境，每個環境都包含優惠方案空間和管理資料夾。](assets/offer_environments_overview_001.png)
 
 每個&#x200B;**[!UICONTROL Design]**&#x200B;環境都連結到&#x200B;**[!UICONTROL Live]**&#x200B;環境。 當優惠方案完成時，其內容和適用性規則會受限於核准週期。 此週期完成後，相關選件會自動部署至&#x200B;**[!UICONTROL Live]**&#x200B;環境。 從現在開始，該檔案將可供傳送。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 >
 >若要鎖定收件者表格，您必須使用目標對應助理員來建立環境。 [了解更多資訊](#creating-an-offer-environment)。
 
-![](assets/offer_environments_overview_002.png)
+![設計環境一般索引標籤，其中的[設計]型別及其[連結的即時環境]欄位已反白顯示。](assets/offer_environments_overview_002.png)
 
 傳遞管理員只能檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境並利用選件來傳遞它們。 優惠方案管理員可以檢視及使用&#x200B;**[!UICONTROL Design]**&#x200B;環境，以及檢視&#x200B;**[!UICONTROL Live]**&#x200B;環境。 [了解更多](interaction-operators.md)
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 1. 瀏覽至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**，用滑鼠右鍵按一下您要使用的目標對應並選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**。
 
-   ![](assets/offer_env_anonymous_001.png)
+   ![目標對應清單包含[動作]功能表和[修改所選目標維度的選項]。](assets/offer_env_anonymous_001.png)
 
 1. 按一下&#x200B;**[!UICONTROL Next]**，選取&#x200B;**[!UICONTROL Generate a storage schema for propositions]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-   ![](assets/offer_env_anonymous_002.png)
+   精靈的![擴充功能步驟，產生所選主張的儲存結構描述。](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 例如，您可以將收件者環境優惠方案空間（已識別的連絡人）與符合訪客環境（未識別的連絡人）的優惠方案空間連結。 如此一來，聯絡人便可獲得不同的優惠方案，具體取決於是否識別此聯絡人。 如需詳細資訊，請參閱[建立優惠方案空間](interaction-offer-spaces.md)。
 
-![](assets/offer_env_anonymous_003.png)
+![訪客設計和即時環境，並核取專用於傳入匿名互動的選項。](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >

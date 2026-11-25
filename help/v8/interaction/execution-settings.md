@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '154'
+ht-degree: 3%
 ---
 # 執行設定{#execution-settings}
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 這些設定稍後可以在模擬視窗的&#x200B;**[!UICONTROL General]**&#x200B;標籤中變更。
 
-![](assets/offer_simulation_008.png)
+![具有執行設定之模擬的[一般]索引標籤：低活動排程、SQL記錄及優先順序清單。](assets/offer_simulation_008.png)
 
 * **[!UICONTROL Schedule execution for a time of low activity]** ：可讓您根據所選的優先順序（低、平均或高）排程模擬，以最佳化Adobe Campaign效能。
 * **[!UICONTROL Priority]** ：這是套用至模擬以排程的層級。 核取&#x200B;**[!UICONTROL Schedule execution for a time of low activity]**&#x200B;選項時，行銷活動處理工作流程會選取活動較少的時間來開始行銷活動。

@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 82%
+source-wordcount: '1164'
+ht-degree: 76%
 ---
 # 連線至 Adobe Campaign v8{#gs-ac-connect}
 
@@ -93,7 +93,7 @@ Campaign 使用者透過 Adobe 身分管理系統 (IMS)，使用其 Adobe ID 連
 
 1. 啟動主控台並瀏覽右上角的連結，以存取連線設定畫面。
 
-   ![](assets/connectToCampaign.png)
+   ![從登入畫面開啟連線對話方塊，並選取[使用Adobe ID連線]選項](assets/connectToCampaign.png)
 
 1. 選取您需要登入的 Campaign 執行個體。
 
@@ -101,7 +101,7 @@ Campaign 使用者透過 Adobe 身分管理系統 (IMS)，使用其 Adobe ID 連
 
 接著，您可以使用您的 Adobe ID 登入 Campaign。
 
-![](assets/adobeID.png)
+![Campaign使用者端主控台的Adobe ID登入畫面，包含電子郵件欄位和[繼續]按鈕](assets/adobeID.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Adobe Campaign 可讓您定義並管理指派給各個操作者的權限。
 
 身為 Campaign 管理員，您必須負責建立操作者，並與使用者共用其認證。
 
-在[本節](gs-permissions.md)中進一步了解使用者以及如何定義其權限。
+在[開始使用Campaign v8](gs-permissions.md)中的許可權，進一步瞭解使用者以及如何定義其許可權。
 
 
 ## 使用網頁瀏覽器存取 Campaign {#connect-web-ac}
@@ -165,11 +165,11 @@ Adobe Campaign 可讓您定義並管理指派給各個操作者的權限。
 
 例如，針對指定的操作者，在主控台中將顯示下列行銷活動選項：
 
-![](assets/campaign-from-console.png)
+![使用者端主控台中的Campaign儀表板，提供完整的編輯標籤和動作](assets/campaign-from-console.png)
 
 而網路存取介面上，主要啟用檢視選項：
 
-![](assets/campaign-from-web.png)
+![網頁存取中的Campaign儀表板，主要檢視選項](assets/campaign-from-web.png)
 
 Web存取也用於驗證程式：操作員可以按一下核准請求電子郵件，並透過其網頁瀏覽器連線至Campaign，以驗證或拒絕傳遞內容或預算。
 

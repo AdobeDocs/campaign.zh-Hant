@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 5%
+source-wordcount: '1119'
+ht-degree: 2%
 ---
 # 建立產品建議
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 在優惠方案的&#x200B;**[!UICONTROL Eligibility]**&#x200B;索引標籤中，定義優惠方案的適用期間。 使用下拉式清單選取行事曆中的開始和結束日期。
 
-![](assets/offer_eligibility_create_002.png)
+![適用性索引標籤，包含優惠方案適用性期間的開始和結束日期下拉式行事曆。](assets/offer_eligibility_create_002.png)
 
 在此期間之外，將不會選取選件。 如果您也設定了優惠方案類別的適用日期，則適用最嚴格的期間。
 
@@ -70,11 +70,11 @@ ht-degree: 5%
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL Edit query]**&#x200B;連結，並選取您要套用的篩選器。
 
-![](assets/offer_eligibility_create_003.png)
+![Select目標定位篩選條件精靈，從[適用性]索引標籤中的[編輯查詢]連結開啟。](assets/offer_eligibility_create_003.png)
 
 如果已經建立預先定義的篩選器，您可以從使用者篩選器清單中選取它們。 [了解更多](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![目標精靈中的使用者篩選器清單，已套用選取的篩選器並預覽相符的收件者。](assets/offer_eligibility_create_004.png)
 
 ### 設定優惠方案權重 {#offer-weight}
 
@@ -92,11 +92,11 @@ ht-degree: 5%
 
 1. 在選件的&#x200B;**[!UICONTROL Eligibility]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/offer_weight_create_001.png)
+   ![資格索引標籤，其中的「新增」按鈕會開啟「權重」對話方塊以建立優惠方案權重。](assets/offer_weight_create_001.png)
 
 1. 變更標籤並指派權數。 預設值為1。
 
-   ![](assets/offer_weight_create_006.png)
+   ![具有Label欄位的Weight對話方塊，以及Arbitration區段中的Weight值。](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -104,19 +104,19 @@ ht-degree: 5%
 
 1. 如果您想要將加權套用至指定期間，請定義適用日期。
 
-   ![](assets/offer_weight_create_002.png)
+   ![在[適用日期]區段中設定開始日期和結束日期的[加權]對話方塊。](assets/offer_weight_create_002.png)
 
 1. 如有必要，請將權重限製為特定優惠方案空間。
 
-   ![](assets/offer_weight_create_003.png)
+   ![具有「優惠空間」下拉式清單的「寬度」對話方塊，其中列出限制寬度的空間。](assets/offer_weight_create_003.png)
 
 1. 將篩選器套用至目標。
 
-   ![](assets/offer_weight_create_004.png)
+   ![加權對話方塊，在目標上反白顯示「篩選器」中的「編輯查詢」連結。](assets/offer_weight_create_004.png)
 
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存重量。
 
-   ![](assets/offer_weight_create_005.png)
+   ![資格標籤權重表列出新的進階權重及其日期和篩選器。](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ ht-degree: 5%
 
 若要檢視，請按一下&#x200B;**[!UICONTROL Schedule and eligibility rules]**&#x200B;連結。
 
-![](assets/offer_eligibility_create_005.png)
+![含有醒目提示之排程和適用性規則連結的優惠儀表板。](assets/offer_eligibility_create_005.png)
 
 ## 建立選件內容 {#creating-the-offer-content}
 
 使用&#x200B;**[!UICONTROL Content]**&#x200B;標籤來定義優惠內容。
 
-![](assets/offer_content_create_001.png)
+![具有標題、目的地URL、影像URL欄位和HTML內容編輯器的選件內容索引標籤。](assets/offer_content_create_001.png)
 
 1. 定義選件內容的各種引數。
 
@@ -143,7 +143,7 @@ ht-degree: 5%
    * **[!UICONTROL Image URL]**：指定您選件影像的URL或存取路徑。
    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**：在您要的索引標籤中輸入優惠方案內文。 若要產生追蹤，**[!UICONTROL HTML content]**&#x200B;必須由可以包含在`<div>`型別元素中的HTML元素組成。 例如，HTML頁面中`<table>`元素的結果將如下所示：
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
@@ -158,13 +158,13 @@ ht-degree: 5%
       </div>
    ```
 
-   瞭解如何在[本節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)中定義接受URL。
+   瞭解如何在接受主張時，在[優惠方案狀態中定義接受URL](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)。
 
-   ![](assets/offer_content_create_002.png)
+   ![內容標籤填入標題、目的地URL和影像URL，加上內容定義連結。](assets/offer_content_create_002.png)
 
    若要尋找優惠方案空間設定期間所定義的必要欄位，請按一下&#x200B;**[!UICONTROL Content definitions]**&#x200B;連結以顯示清單。 [了解更多](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![內容定義對話方塊清單，針對每個優惠方案空間，列出必要的內容欄位。](assets/offer_content_create_003.png)
 
    在此範例中，選件必須包含標題、影像、HTML內容和目的地URL。
 
@@ -176,11 +176,11 @@ ht-degree: 5%
 
 1. 按一下「**[!UICONTROL Preview]**」標籤。
 
-   ![](assets/offer_preview_create_001.png)
+   ![優惠方案的預覽索引標籤，列出要為每個優惠方案空間預覽的宣告。](assets/offer_preview_create_001.png)
 
 1. 選取您要檢視之優惠方案的呈現方式。
 
-   ![](assets/offer_preview_create_002.png)
+   ![預覽索引標籤，並展開Email /clients表示以顯示演算後的選件內容。](assets/offer_preview_create_002.png)
 
 1. 如果您已個人化優惠內容，請選取優惠目標以檢視個人化。
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 您現在可以核准並啟用優惠方案，使其可在&#x200B;**即時**&#x200B;環境中使用。
 
-如需詳細資訊，請參閱[本章節](approving-and-activating-an-offer.md#approving-offer-content)。
+如需詳細資訊，請參閱[核准優惠方案內容](approving-and-activating-an-offer.md#approving-offer-content)。
 
 ## 管理產品建議簡報{#offer-presentation}
 
 Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些是行銷活動互動專屬的規則，是&#x200B;**型別規則**。 它們可讓您根據已傳送給收件者的建議歷史記錄排除優惠。 環境會參照這些引數。
 
-如需詳細資訊，請參閱[本章節](managing-offer-presentation.md)。
+如需詳細資訊，請參閱[管理優惠方案簡報](managing-offer-presentation.md)。
 
 ## 優惠方案模擬
 
@@ -216,4 +216,4 @@ Campaign可讓您使用簡報規則控制優惠方案主張的流程。 這些�
 
 模擬會考量先前套用至優惠及其簡報規則的前後關聯和適用性規則。 這可讓您測試和調整優惠方案主張的各種版本，而無須實際使用優惠方案，或過度/過少向目標行銷，因為模擬不會對目標收件者造成影響。
 
-如需優惠方案模擬的詳細資訊，請參閱[本區段](about-offers-simulation.md)。
+如需優惠方案模擬的詳細資訊，請參閱[關於優惠方案模擬](about-offers-simulation.md)。

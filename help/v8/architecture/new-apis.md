@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '492'
+ht-degree: 3%
 ---
 # 特定FFDA Campaign API{#gs-new-api}
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼，將資料插入雲端資料庫而不進行調解：
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -70,7 +70,7 @@ logInfo(strUuid);
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -90,7 +90,7 @@ logInfo(strUuid);
 
 1. UUID會在SOAP回應中傳回：
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -102,7 +102,7 @@ logInfo(strUuid);
 
 因此，會如預期提供臨時資料表。
 
-![](assets/no-reconciliation.png)
+![暫存結構描述範例資料表（暫存）內容列出四個記錄，測試第1欄和測試第2欄的值](assets/no-reconciliation.png)
 
 ### 插入並調解
 
@@ -110,7 +110,7 @@ logInfo(strUuid);
 
 在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼，以使用調解方式將資料插入雲端資料庫：
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 執行工作流程後，會依預期提供暫存表格。
 
-![](assets/with-reconciliation.png)
+![暫存結構描述範例表（暫存）內容現在列出六筆記錄，包括ABC12345和ABDCD321](assets/with-reconciliation.png)
 
 
 **來自SOAP呼叫**
@@ -130,7 +130,7 @@ logInfo(strUuid);
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -150,7 +150,7 @@ logInfo(strUuid);
 
 1. 在此情況下，不會將UUID提供回回應，因為它已在裝載中提供。 回應為：
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -172,7 +172,7 @@ logInfo(strUuid);
 
 在&#x200B;**Javascript程式碼**&#x200B;活動中使用下列程式碼來更新雲端資料庫中的資料：
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -183,14 +183,14 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 執行工作流程後，測試表格會如預期更新。
 
-![](assets/updated-data.png)
+![記錄ABC12345現在顯示testValue A （已更新）和testValue B （已更新）的暫存資料表內容](assets/updated-data.png)
 
 **來自SOAP呼叫**
 
 1. 取得驗證權杖。
 1. 觸發API。 承載為：
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -210,7 +210,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 1. SOAP回應為：
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>
@@ -222,7 +222,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 訂閱管理 {#sub-apis}
 
-Campaign的訂閱管理在[此頁面](../start/subscriptions.md)中說明。
+行銷活動中的訂閱管理在[管理行銷活動中的訂閱和取消訂閱](../start/subscriptions.md)中進行了說明。
 
 訂閱和取消訂閱資料的插入依賴Campaign本機資料庫中的[暫存機制](staging.md)。 訂閱者資訊會暫時儲存在本機資料庫的臨時資料表中，而同步工作流程會將此資料從本機資料庫傳送至雲端資料庫。 因此，訂閱和取消訂閱程式為&#x200B;**非同步**。 每小時都會透過特定的技術工作流程處理選擇加入和選擇退出請求。 [了解更多](replication.md#workflows)
 

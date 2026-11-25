@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 3%
 ---
 # 檢視現有的設定檔 {#view-profiles}
 
@@ -42,11 +42,11 @@ ht-degree: 6%
 
 您可以從此頁面[建立新收件者](create-profiles.md)、編輯現有收件者並存取其設定檔詳細資料。
 
-![](assets/profiles-and-targets.png)
+![&#x200B; Campaign首頁的「設定檔和目標」標籤，顯示具有「建立」按鈕的「收件者」清單](assets/profiles-and-targets.png)
 
 如需進階設定檔操控，請從Adobe Campaign首頁的&#x200B;**[!UICONTROL Explorer]**&#x200B;連結存取Campaign樹狀結構。
 
-![](assets/recipients-in-explorer.png)
+![總管樹狀結構，其中已選取收件者資料夾、收件者清單及所選收件者的詳細資料](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -56,9 +56,9 @@ ht-degree: 6%
 
 ## 編輯輪廓 {#edit-a-profiles}
 
-選取設定檔，以在新的索引標籤中顯示詳細資訊。
+Select設定檔，會在新標籤中顯示詳細資訊。
 
-![](assets/edit-a-profile.png)
+![包含「一般」、「連絡資訊」、「其他」、「訂閱」、「傳遞」及「追蹤」區段的收件者設定檔標籤](assets/edit-a-profile.png)
 
 用戶檔案相關的資料會被歸類在索引標籤中。 這些標籤及其內容取決於您的特定設定和已安裝的套件。
 
@@ -66,7 +66,7 @@ ht-degree: 6%
 
 * **[!UICONTROL General]**，適用於所有一般設定檔資料。 其中特別包含姓氏、名字、電子郵件地址、電子郵件格式等。
 
-  此索引標籤也會儲存設定檔的&#x200B;**選擇退出**&#x200B;旗標：選取&#x200B;**[!UICONTROL No longer contact (by any channel)]**&#x200B;選項時，設定檔會位於封鎖清單中。 例如，如果收件者按一下電子報中的取消訂閱連結，此資訊會新增至聯絡資料。 任何頻道（電子郵件、直接郵件等）不再以這類收件者為目標。 如需詳細資訊，請參閱[此頁面](../send/quarantines.md)。
+  此索引標籤也會儲存設定檔的&#x200B;**選擇退出**&#x200B;旗標：選取&#x200B;**[!UICONTROL No longer contact (by any channel)]**&#x200B;選項時，設定檔會位於封鎖清單中。 例如，如果收件者按一下電子報中的取消訂閱連結，此資訊會新增至聯絡資料。 任何頻道（電子郵件、直接郵件等）不再以這類收件者為目標。 如需詳細資訊，請參閱[促銷活動](../send/quarantines.md)中的隔離管理。
 
 * **連絡資訊**，其中包含所選設定檔的直接郵件地址。
 
@@ -76,15 +76,15 @@ ht-degree: 6%
 
   使用&#x200B;**[!UICONTROL Field properties…]**&#x200B;內容功能表來變更欄位名稱並定義其格式。
 
-  ![](assets/other-tab-field-properties.png)
+  在Boolean 1欄位的內容功能表中選取Field properties選項的收件者![其他標籤](assets/other-tab-field-properties.png)
 
   輸入新設定，如下所示：
 
-  ![](assets/change-field-properties.png)
+  ![欄位屬性對話方塊，其[標籤]欄位設定為Luma Gold Program，且[描述]欄位已填入](assets/change-field-properties.png)
 
   檢查UI中的更新：
 
-  ![](assets/other-tab-updated.png)
+  ![收件者的其他標籤，其中布林值1欄位現在顯示為Luma Gold Program，值為「是」或「否」](assets/other-tab-updated.png)
 
 
   >[!CAUTION]
@@ -94,7 +94,7 @@ ht-degree: 6%
 
 * **訂閱**，適用於所有使用中的服務訂閱。 使用&#x200B;**History**&#x200B;索引標籤來存取此連絡人的訂閱與取消訂閱詳細資料。
 
-  ![](assets/subscription-tab.png)
+  ![收件者的[訂閱]索引標籤列出使用中的訂閱，並具有[使用中的訂閱]和[歷程記錄]索引標籤](assets/subscription-tab.png)
 
   在本節[&#128279;](../start/subscriptions.md)中進一步瞭解訂閱。
 

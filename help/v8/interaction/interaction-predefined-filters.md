@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '244'
+ht-degree: 4%
 ---
 # 建立預先定義的篩選器{#creating-pre-defined-filters}
 
@@ -45,24 +45,24 @@ ht-degree: 7%
 
 1. 瀏覽至&#x200B;**[!UICONTROL Administration]**&#x200B;資料夾並選取&#x200B;**[!UICONTROL Pre-defined offer filters]**。
 
-   ![](assets/offer_filter_create_005.png)
+   ![優惠方案 — 在「管理」下選取預先定義優惠方案篩選器節點的設計樹狀結構](assets/offer_filter_create_005.png)
 
 1. 按一下 **[!UICONTROL New]**。
 
-   ![](assets/offer_filter_create_001.png)
+   ![預先定義的優惠方案篩選器清單，其中反白顯示[新增]按鈕，並列出[年齡]篩選器](assets/offer_filter_create_001.png)
 
 1. 變更標籤，以便稍後識別篩選器。
 
-   ![](assets/offer_filter_create_002.png)
+   ![應用程式篩選器對話方塊，其[標籤]欄位設定為[電子郵件頻道]](assets/offer_filter_create_002.png)
 
 1. 選取篩選條件將關注的欄位。
 
-   ![](assets/offer_filter_create_003.png)
+   ![Select運算式對話方塊，其中包含從收件者欄位中選擇的電子郵件欄位](assets/offer_filter_create_003.png)
 
 1. 視需要選取運運算元和值，然後儲存查詢。
 
-   ![](assets/offer_filter_create_004.png)
+   ![運運算元設為的電子郵件運算式上的篩選條件不是空的](assets/offer_filter_create_004.png)
 
 1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以檢視篩選結果。
 
-   ![](assets/offer_filter_create_006.png)
+   電子郵件通道篩選的![預覽索引標籤，列出符合篩選條件的收件者](assets/offer_filter_create_006.png)

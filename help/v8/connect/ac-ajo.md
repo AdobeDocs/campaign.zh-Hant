@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '142'
 ht-degree: 0%
 ---
 # 合作使用Campaign與Adobe Journey Optimizer
@@ -40,7 +40,7 @@ Adobe Campaign與Adobe Journey Optimizer之間的整合可讓您在Adobe Journey
 基本步驟是在Campaign中建立異動訊息範本，然後在Adobe Journey Optimizer中建立事件、動作並設計歷程。
 
 
-![](assets/ajo-integration.png)
+![具有ActionCampaign_v8動作及其電子郵件、名字和訂單引數的Journey Optimizer歷程畫布](assets/ajo-integration.png)
 
 
 [在此端對端範例中探索此整合](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}。

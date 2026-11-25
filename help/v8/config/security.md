@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 47%
+source-wordcount: '2990'
+ht-degree: 44%
 ---
 # Campaign安全性最佳做法 {#ac-security}
 
@@ -82,7 +82,7 @@ Adobe Campaign目前並未以電腦可讀的格式提供建議的安全設定指
 
 ## 隱私權
 
-為正確處理隱私權並管理個人資料，工作時請遵循您營運業務所在地區的適用法規。 Adobe Campaign的功能可協助您遵守[此頁面](../start/privacy.md)所列的規定
+為正確處理隱私權並管理個人資料，工作時請遵循您營運業務所在地區的適用法規。 Adobe Campaign的功能可協助您遵守[在Campaign中管理隱私權要求](../start/privacy.md)所列的規定
 
 ### Adobe Experience Cloud 隱私權 {#experience-cloud-privacy}
 
@@ -98,7 +98,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。 在 Campai
 
 * **如何使用 Adobe Experience Cloud 收集資訊**
 
-  * Adobe Experience Cloud 解決方案會使用 Cookie 和類似技術（例如網站信標，又稱為標籤或像素），讓您收集資訊。 如需 Adobe Campaign Cookie 和追蹤功能的詳細資訊，請參閱[本節](#tracking-capabilities)。
+  * Adobe Experience Cloud 解決方案會使用 Cookie 和類似技術（例如網站信標，又稱為標籤或像素），讓您收集資訊。 如需Adobe Campaign Cookie和追蹤功能的詳細資訊，請參閱[追蹤功能](#tracking-capabilities)。
   * 您也可以在行動應用程式中使用 Adobe Experience Cloud 技術。 如需使用Campaign傳送行動傳遞的詳細資訊，請參閱[簡訊頻道](../send/sms/sms-channel.md)和行動應用程式頻道。
 
 * **使用者對於您使用Adobe Experience Cloud的隱私權選擇**
@@ -142,7 +142,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。 在 Campai
 
 * **Adobe Campaign** 是&#x200B;**資料處理方**。
 
-![](assets/privacy-gdpr-flow.png)
+![隱私權要求流程： Laura傳送要求、Anne查詢Adobe Campaign、傳回結果，然後Anne回應Laura](assets/privacy-gdpr-flow.png)
 
 以下是此使用案例的一般流程：
 
@@ -160,19 +160,19 @@ Adobe Campaign 可讓您收集資料，包括個人和敏感資訊。 因此，�
 
 * 讓收件者一律同意接收通訊。 為此，請盡快接受選擇退出要求，並透過雙重選擇加入程式以確認同意。 如需詳細資訊，請參閱[建立雙重選擇加入的訂閱表單](../dev/web/use-cases-web-forms.md)。
 * 請勿匯入詐騙清單，並使用種子地址以確認您的用戶端檔案並未遭到詐騙使用。 有關此項目的詳細資訊，請參閱[關於種子地址](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}。
-* 透過同意與權限管理，您可以追蹤收件者的偏好設定，並管理組織內哪些人員可以存取哪些資料。 如需詳細資訊，請參閱[本節](#consent)。
-* 加速和管理收件者的隱私權要求。 如需詳細資訊，請參閱[本節](#privacy-requests)。
+* 透過同意與權限管理，您可以追蹤收件者的偏好設定，並管理組織內哪些人員可以存取哪些資料。 如需詳細資訊，請參閱[同意、保留和角色](#consent)。
+* 加速和管理收件者的隱私權要求。 如需詳細資訊，請參閱[隱私權要求](#privacy-requests)。
 
 ## 隱私權管理 {#privacy-management}
 
 隱私權管理是指可協助您遵守隱私權法規（GDPR、CCPA等）的所有流程及工具。
 
 Adobe Campaign 提供專屬於隱私權管理的各種功能：
-* 同意管理、資料保留和使用者角色。 請參閱[本節](#consent)。
-* 隱私權要求（存取權限與被遺忘的權利）。 請參閱[本節](#privacy-requests)。
+* 同意管理、資料保留和使用者角色。 請參閱[同意、保留和角色](#consent)。
+* 隱私權要求（存取權限與被遺忘的權利）。 請參閱[隱私權要求](#privacy-requests)。
 * 選擇退出個人資訊銷售（專屬於 CCPA）。
 
-[本節](#personal-data)將提供 Campaign 中主要隱私權功能及相關人物誌的範例。
+Campaign中的主要隱私權功能及相關角色的範例會顯示在[個人資料和角色](#personal-data)中。
 
 ### 同意、保留和角色 {#consent}
 
@@ -190,9 +190,9 @@ Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特�
 
 * **被遺忘的權利** (刪除要求) 為資料主體賦予權利，讓資料控制人員得以清除其個人資料。
 
-[此節](../start/privacy.md)顯示&#x200B;**存取**&#x200B;及&#x200B;**刪除**&#x200B;要求。
+**存取**&#x200B;和&#x200B;**刪除**&#x200B;要求顯示在[Campaign中的管理隱私權要求](../start/privacy.md)中。
 
-建立這些請求的實施步驟將於[本節](../start/privacy.md)中詳細說明。
+建立這些要求的實作步驟已詳載於[在Campaign中管理隱私權要求](../start/privacy.md)。
 
 ## 追蹤功能 {#tracking-capabilities}
 
@@ -214,13 +214,13 @@ Adobe Campaign 的追蹤功能讓您得以使用三種 Cookie 來追蹤傳遞收
 
 Adobe Campaign可讓您追蹤已傳送的電子郵件和傳遞收件者的行為：開啟、點按連結、取消訂閱等。如需詳細資訊，請參閱[關於訊息](../start/gs-message.md)。
 
-若要這麼做，請將追蹤連結新增至您的訊息，以便在傳遞控制面板的Tracking索引標籤中測量傳遞和收件者行為的影響。 追蹤資料會在追蹤指標報告中詮釋。 若要進一步瞭解追蹤，請參閱[此頁面](../send/tracking.md)。
+若要這麼做，請將追蹤連結新增至您的訊息，以便在傳遞控制面板的Tracking索引標籤中測量傳遞和收件者行為的影響。 追蹤資料會在追蹤指標報告中詮釋。 若要進一步瞭解追蹤，請參閱[開始使用訊息追蹤](../send/tracking.md)。
 
 ### 網路追蹤 {#web-tracking}
 
 >[!AVAILABILITY]
 >
->Campaign v8不提供網頁追蹤功能。 深入瞭解[此頁面](../start/v7-to-v8.md#gs-unavailable-features)中無法使用的功能。
+>Campaign v8不提供網頁追蹤功能。 深入瞭解[無法使用的功能](../start/v7-to-v8.md#gs-unavailable-features)中無法使用的功能。
 
 ## 資料與PII保護 {#data-and-pii-protection}
 
@@ -248,7 +248,7 @@ Adobe Campaign可讓您追蹤已傳送的電子郵件和傳遞收件者的行為
 * **一致地使用產品設定檔** — 偏好將使用者指派給Admin Console中的產品設定檔（運運算元群組）；保持命名一致（例如`campaign - <instance> - <group>`）。 請參閱[開始使用許可權](../start/gs-permissions.md)。
 * **控制面板存取權** — 在Campaign v8中，名稱包含「管理員」的產品設定檔或已命名許可權可授予對Campaign控制面板的存取權。 避免在設定檔或群組名稱中使用「管理員」，除非這些使用者應該具有「控制面板」存取權。
 
-若要了解權限的詳細資訊，請參閱[本章節](../start/gs-permissions.md)。
+深入瞭解[中的許可權開始使用Campaign v8](../start/gs-permissions.md)中的許可權。
 
 ## 驗證和工作階段 {#authentication-and-session}
 
@@ -292,7 +292,7 @@ Adobe Campaign可讓您追蹤已傳送的電子郵件和傳遞收件者的行為
 
 您必須確定低許可權驗證的使用者無法存取加密的密碼。 要執行此操作，有兩個主要方法：限制僅存取密碼欄位或存取整個實體。
 
-此限制可讓您移除密碼欄位，但讓所有使用者都可從介面存取外部帳戶。 在[本頁](../dev/restrict-pi-view.md)中瞭解更多。
+此限制可讓您移除密碼欄位，但讓所有使用者都可從介面存取外部帳戶。 深入瞭解[限制PI檢視](../dev/restrict-pi-view.md)。
 
 1. 前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**。
 
@@ -304,7 +304,7 @@ Adobe Campaign可讓您追蹤已傳送的電子郵件和傳遞收件者的行為
 
    您可以將主要元素(`<element name="extAccount" ... >`)取代為：
 
-   ```
+   ```xml
    <element name="extAccount">
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -325,7 +325,7 @@ Adobe Campaign可讓您追蹤已傳送的電子郵件和傳遞收件者的行為
 
    因此，您的擴充式srcSchema看起來可能像這樣：
 
-   ```
+   ```xml
    <...>
        <element name="extAccount">
            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>

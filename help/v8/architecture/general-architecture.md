@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1180'
 ht-degree: 7%
 ---
 # 一般架構{#general-architecture}
@@ -128,7 +128,7 @@ Adobe Campaign模組分為三種型別：
 
 您可以使用預先定義的資料庫和結構描述來部署Adobe Campaign，並視需要擴充此預先定義的環境。 Adobe Campaign會透過SQL呼叫存取資料市場內的所有資料。 Adobe Campaign也提供完整的擷取轉換和載入(ETL)工具，以執行資料匯入和匯出系統內的資料。
 
-![](assets/data-flow-diagram.png)
+![使用者端電腦、具有追蹤和MTA的前端伺服器、應用程式伺服器、資料庫、退回信箱之間的流量](assets/data-flow-diagram.png)
 
 
 >[!CAUTION]

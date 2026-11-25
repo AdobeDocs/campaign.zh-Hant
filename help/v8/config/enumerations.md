@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '822'
 ht-degree: 1%
 ---
 # 使用分項清單 {#enumerations}
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 定義後，值會顯示在下拉式清單中。 您可以直接選取值，或使用預測性輸入來輸入值，這會建議並完成相符專案。 某些欄位包含預先定義的分項清單，如果需要，可以建立其他分項清單。
 
-![](assets/enum_values.png)
+![開啟語言下拉式清單的收件者表單，列出英文、法文、義大利文、俄文和西班牙文的列舉值](assets/enum_values.png)
 
 
 ## 分項清單的型別 {#types-of-enum}

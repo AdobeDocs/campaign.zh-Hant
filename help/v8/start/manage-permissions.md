@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1816'
 ht-degree: 1%
 ---
 # 管理使用者權限{#manage-permissions}
@@ -62,16 +62,16 @@ ht-degree: 1%
 
 1. 在[Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}首頁中，選取&#x200B;**新增使用者**。
 
-   ![](assets/add-a-user.png)
+   ![Admin Console首頁，其中醒目提示新增使用者快速連結](assets/add-a-user.png)
 
 1. 輸入使用者的電子郵件地址。
 1. 使用「+」符號選取要指派給使用者的產品設定檔或使用者群組。
 
-   ![](assets/add-a-product-profile.png)
+   ![使用Adobe Campaign產品設定檔清單新增使用者表單，以選取給使用者](assets/add-a-product-profile.png)
 
-   [此區段](#ootb-productprofiles)中列出了Campaign內建的產品設定檔。
+   行銷活動內建的產品設定檔列在[預設產品設定檔和操作員群組](#ootb-productprofiles)中。
 
-   在[本節](#user-groups)中瞭解如何建立使用者群組
+   瞭解如何在[使用使用者群組](#user-groups)中建立使用者群組
 
 1. 按一下「**儲存**」。 會新增使用者，並顯示在使用者清單中。 如果您將管理員角色或產品設定檔指派給使用者，使用者會收到電子郵件通知。 使用者必須按照連結完成他們的設定檔。
 
@@ -109,21 +109,21 @@ ht-degree: 1%
 
 1. 連線至Campaign，開啟檔案總管，並瀏覽至&#x200B;**[!UICONTROL Administration > Access management > Operator groups]**。
 1. 按一下&#x200B;**[!UICONTROL New]**，定義運運算元群組的名稱並設定其內部名稱(&#39;reviewers&#39;)。
-   ![](assets/new-op-group.png)
-1. 透過選取已命名的許可權來定義相關許可權。 已命名的許可權在[此區段](#use-named-rights)中有詳細說明
+   ![總管中的運運算元群組清單，正在建立新的檢閱者運運算元群組](assets/new-op-group.png)
+1. 透過選取已命名的許可權來定義相關許可權。 已命名的許可權在[已命名的許可權](#use-named-rights)中詳細說明
 1. 儲存新的運運算元群組。
 
 #### 在Admin Console中建立產品設定檔{#create-profile-in-admin-console}
 
 1. 連線至[Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}。
 1. 從首頁的&#x200B;**產品與服務**&#x200B;區段，開啟Campaign產品。
-1. 按一下「**新增設定檔**」，然後輸入要建立的產品設定檔名稱，語法完全正確，如[此處](#product-profiles)所述。 例如，我們輸入：行銷活動 — `<your-instance-name>` — 稽核者
+1. 按一下「**新增設定檔**」，然後輸入要建立的產品設定檔名稱，語法完全正確，如[使用產品設定檔](#product-profiles)所述。 例如，我們輸入：行銷活動 — `<your-instance-name>` — 稽核者
 
-   ![](assets/new-product-profile-ui.png)
+   ![建立產品設定檔名稱欄位已填入的新產品設定檔頁面](assets/new-product-profile-ui.png)
 
 1. 儲存您的變更。
 
-您現在可以將使用者新增至這個新的產品設定檔，如[本節](#add-users)中所述。
+您現在可以將使用者新增至這個新的產品設定檔，如[新增使用者](#add-users)中所述。
 
 最佳實務是將產品設定檔指派給使用者群組。 依使用者管理許可權不是可持續的模式。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Adobe啟用您的環境時定義。
 
-![](assets/ootb-product-profiles.png)
+![列出內建Campaign產品設定檔的Admin Console產品設定檔索引標籤，例如管理及作業](assets/ootb-product-profiles.png)
 
 這些產品設定檔符合行銷活動&#x200B;**操作員群組**。 預設運運算元群組及其[已命名的許可權](#use-named-rights)如下所列：
 
@@ -213,7 +213,7 @@ Adobe Campaign隨附內建&#x200B;**產品設定檔**，這些設定檔會在Ado
    >
    >**優惠方案管理員**&#x200B;只有在未指定稽核者或已在優惠方案範本中設定為稽核者時，才能核准優惠方案。
 
-   [此頁面](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)提供每個環境的提案管理員許可權矩陣。
+   每個環境的提案管理員許可權矩陣可在[每個互動運運算元](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)的許可權矩陣中使用。
 
 ## 使用使用者群組{#user-groups}
 

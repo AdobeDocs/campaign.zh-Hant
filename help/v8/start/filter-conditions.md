@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '3350'
-ht-degree: 34%
+source-wordcount: '3713'
+ht-degree: 30%
 ---
 # 定義篩選條件{#filter-conditions}
 
@@ -37,7 +37,7 @@ ht-degree: 34%
 
 在篩選條件下，您需要使用運運算元將兩個值連結在一起。
 
-![](assets/query_editor_nveau_96.png)
+![Target元素步驟，並開啟運運算元下拉式清單，列出等於、大於、小於和其他運運算元。](assets/query_editor_nveau_96.png)
 
 以下是可用的運運算元清單：
 
@@ -143,24 +143,24 @@ ht-degree: 34%
 
 按一下&#x200B;**[!UICONTROL And]** （預設提供），然後從下拉式清單中選擇。
 
-![](assets/query_condition_modif_01.png)
+![條件電子郵件網域等於orange.co.uk下方的下拉式清單中的And、Or和Except連結選項。](assets/query_condition_modif_01.png)
 
 * **[!UICONTROL And]**：新增條件並啟用過度篩選。
 * **[!UICONTROL Or]**：新增條件並啟用過度篩選。
 
   下列範例可讓您尋找電子郵件網域包含「orange.co.uk」或其後置程式碼開頭為「NW」的收件者。
 
-  ![](assets/query_condition_modif_02.png)
+  ![由Or連結的兩個條件：電子郵件網域等於orange.co.uk或郵遞區號以NW開頭。](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Except]**：如果您有兩個篩選器，且第一個篩選器未傳回值，則此型別的連結會建立例外狀況。
 
   在以下範例中，我們希望傳回其電子郵件網域包含「orange.co.uk」的收件者，但如果收件者的姓氏為「Smith」則除外。
 
-  ![](assets/query_condition_modif_03.png)
+  ![由Except連結的兩個條件：電子郵件網域等於orange.co.uk，但Last name equal to Smith除外。](assets/query_condition_modif_03.png)
 
 此範例顯示一個篩選器，可讓您顯示：會說西班牙文的收件者，或者是擁有行動號碼的女性，或者是沒有帳號且其公司名稱以字母「N」開頭的收件者。
 
-![](assets/query_editor_nveau_31.png)
+![篩選結合西班牙文的語言、女性與行動電話號碼，且沒有帳號與以N.](assets/query_editor_nveau_31.png)開頭的公司
 
 ## 排定條件優先順序 {#prioritizing-conditions}
 
@@ -169,7 +169,7 @@ ht-degree: 34%
 * 指向右側的箭頭可讓您在篩選器中加入一層括弧。
 * 指向左側的箭頭可讓您從篩選器中刪除選取的括弧層級。
 
-  ![](assets/query_condition_modif_04.png)
+  ![查詢編輯器工具列，左括弧和右括弧以及反白的向上和向下箭頭。](assets/query_condition_modif_04.png)
 
 * 垂直箭頭可讓您移動條件，進而變更其執行順序。
 
@@ -177,7 +177,7 @@ ht-degree: 34%
 
 將游標置於&#x200B;**[!UICONTROL Gender (@gender) equal to Male]**&#x200B;篩選條件上，然後按一下&#x200B;**[!UICONTROL Remove a parenthesis level]**&#x200B;箭頭。
 
-![](assets/query_editor_nveau_32.png)
+![移除括弧層級之前和之後：性別等於男性，移至與倫敦等城市相同的層級。](assets/query_editor_nveau_32.png)
 
 **[!UICONTROL Gender (@gender) equal to Male]**&#x200B;條件已移出其括弧。 其等級已移至「倫敦等同城市」條件。 這些條件連結在一起(**[!UICONTROL And]**)。
 
@@ -187,7 +187,7 @@ ht-degree: 34%
 
 所選欄位的詳細資訊會顯示在視窗底部。 例如，**[!UICONTROL Email domain]**&#x200B;欄位是&#x200B;**[!UICONTROL Calculated SQL field]**，其副檔名為&#x200B;**[!UICONTROL (@domain)]**。
 
-![](assets/query_editor_nveau_59.png)
+![選取電子郵件網域後要擷取步驟的資料；下列詳細資料會讀取SQL計算欄位(@domain)。](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ ht-degree: 34%
 
 連按兩下可用欄位，將其新增至輸出欄。 在查詢結束時，每個選取的欄位會在&#x200B;**[!UICONTROL Data preview]**&#x200B;視窗中建立欄。
 
-![](assets/query_editor_nveau_01.png)
+![要擷取步驟的資料，其中年齡、主索引鍵、電子郵件網域和城市已新增至輸出欄清單。](assets/query_editor_nveau_01.png)
 
 預設不會顯示進階欄位。 按一下可用欄位右下角的&#x200B;**[!UICONTROL Display advanced fields]**&#x200B;以顯示所有內容。 再按一下可返回前一個檢視。
 
@@ -203,7 +203,7 @@ ht-degree: 34%
 
 下列範例顯示收件者表格的進階欄位。
 
-![](assets/query_editor_nveau_53.png)
+![已反白進階欄位的可用欄位清單，以及右下角的[顯示進階欄位]按鈕。](assets/query_editor_nveau_53.png)
 
 各種欄位類別：
 
@@ -275,7 +275,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->* 使用&#x200B;**[!UICONTROL Add]**&#x200B;按鈕（在側邊圖示列上方）新增要編輯運算式的輸出資料行。 如需編輯運算式的詳細資訊，請參閱[本節](#building-expressions)。
+>* 使用&#x200B;**[!UICONTROL Add]**&#x200B;按鈕（在側邊圖示列上方）新增要編輯運算式的輸出資料行。 如需編輯運算式的詳細資訊，請參閱[建置運算式](#building-expressions)。
 >* 按一下紅色的&#39;x&#39; （**刪除**）來刪除輸出資料行。
 >* 使用箭頭變更輸出欄的順序。
 >* **[!UICONTROL Distribution of values]**&#x200B;可做為檢視所選欄位值分佈的方式（例如，連結至收件者城鎮、收件者語言等的分佈）。
@@ -284,29 +284,29 @@ ht-degree: 34%
 
 如有必要，請在資料格式化期間新增欄。 計算欄位會將欄新增至資料預覽區段。 按一下 **[!UICONTROL Add a calculated field]**。
 
-![](assets/query_editor_nveau_43.png)
+![使用[新增計算欄位]按鈕的資料格式化步驟，且在[型別]上開啟計算欄位定義對話方塊。](assets/query_editor_nveau_43.png)
 
 有四種類型的計算欄位：
 
 * **[!UICONTROL Fixed string]**：讓您新增字元字串。
 
-  ![](assets/query_editor_nveau_60.png)
+  ![匯出計算欄位定義對話方塊，其中包含固定字串型別和My字串輸入的文字。](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL String with JavaScript tags]**：計算欄位的值結合了字元字串和JavaScript指令。
 
-  ![](assets/query_editor_nveau_61.png)
+  ![匯出計算欄位定義對話方塊，其中包含編輯器中具有JavaScript標籤和指令碼標籤的型別字串。](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript expression]**：計算欄位的值是JavaScript函式評估的結果。 可輸入傳回的值（數字、日期等）。
 
-  ![](assets/query_editor_nveau_62.png)
+  ![匯出計算欄位定義對話方塊，其中包含型別JavaScript運算式以及傳回A或B的if-else指令碼。](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumerations]**：此型別的欄位可讓您使用/修改新欄中其中一個輸出欄的內容。
 
   您可以使用欄的來源值，並為它指定目標值。 此目的地值將顯示在新的輸出欄中。
 
-  有新增計算欄位型別&#x200B;**[!UICONTROL Enumerations]**&#x200B;的範例可用，請參閱[本區段](../../automation/workflow/adding-enumeration-type-calculated-field.md)。
+  有新增計算欄位型別&#x200B;**[!UICONTROL Enumerations]**&#x200B;的範例可用，請參閱[新增列舉型別計算欄位](../../automation/workflow/adding-enumeration-type-calculated-field.md)。
 
-  ![](assets/query_editor_nveau_63.png)
+  ![列舉計算欄位對話方塊，其中包含Source欄清單以及其他案例的四個選項。](assets/query_editor_nveau_63.png)
 
   **[!UICONTROL Enumerations]**&#x200B;型別計算欄位可包含4個條件：
 
@@ -319,7 +319,7 @@ ht-degree: 34%
 
 若要移除此計算欄位，請按一下&#x200B;**[!UICONTROL Remove the calculated field]**&#x200B;十字。
 
-![](assets/query_editor_nveau_58.png)
+![已選取計算欄位[新增]並反白顯示[計算欄位詳細資料]按鈕的資料格式化步驟。](assets/query_editor_nveau_58.png)
 
 ## 建立運算式 {#building-expressions}
 
@@ -333,17 +333,17 @@ ht-degree: 34%
 
    有數種公式可供使用： **[!UICONTROL Field only]**、**[!UICONTROL Aggregate]**、**[!UICONTROL Expression]**。
 
-   選取&#x200B;**[!UICONTROL Process on an aggregate function]**&#x200B;和&#x200B;**[!UICONTROL Count]**。 按一下 **[!UICONTROL Next]**。
+   Select **[!UICONTROL Process on an aggregate function]**&#x200B;和&#x200B;**[!UICONTROL Count]**。 按一下 **[!UICONTROL Next]**。
 
-   ![](assets/query_editor_nveau_54.png)
+   ![要擷取步驟的資料：新增會開啟運算式欄位，並反白顯示[編輯運算式]按鈕。](assets/query_editor_nveau_54.png)
 
 1. 主索引鍵已計算。
 
-   ![](assets/query_editor_nveau_88.png)
+   ![已新增並反白count （主索引鍵）運算式的輸出資料行清單。](assets/query_editor_nveau_88.png)
 
 以下是&#x200B;**[!UICONTROL Formula types]**&#x200B;視窗中可用選項的詳細檢視：
 
-![](assets/query_editor_nveau_05.png)
+![公式型別視窗中，已選取彙總函式上的處理序，且已選取Count選項。](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Field only]**&#x200B;可讓您返回&#x200B;**[!UICONTROL Field to select]**&#x200B;視窗。
 1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. 以下是彙總使用的一些範例：
@@ -358,7 +358,7 @@ ht-degree: 34%
 
 1. **[!UICONTROL Expression]**&#x200B;開啟&#x200B;**[!UICONTROL Edit the expression]**&#x200B;視窗。 這可讓您偵測包含太多數字的電話號碼，可能是輸入錯誤。
 
-   ![](assets/query_editor_nveau_71.png)
+   ![使用電話長度運算式編輯運算式視窗，結果篩選大於10的電話。](assets/query_editor_nveau_71.png)
 
    如需所有可用函式的清單，請參閱[函式清單](#list-of-functions)。
 
@@ -368,7 +368,7 @@ ht-degree: 34%
 
 運算式編輯器看起來像這樣：
 
-![](assets/filter-define-expression.png)
+![編輯運算式視窗，其中包含[可用]欄位，以及包含[彙總]與[字串]等類別的函式清單。](assets/filter-define-expression.png)
 
 它可讓您選取資料庫表格中的欄位，並將進階函式新增至這些欄位。 可使用下列函式：
 

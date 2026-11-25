@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1636'
 ht-degree: 1%
 ---
 # 管理即時互動
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 互動可讓您建立和管理優惠方案目錄，並設定資格規則及連結至這些規則的應用程式主題。 根據所選的管道，可以透過各種演算功能將優惠內容個人化。 最後，您可以使用模擬模組來計算優惠方案簡報的影響。
 
-![](assets/interaction-cycle.png)
+![優惠方案引擎週期：引擎呼叫、目錄呼叫、選取和個人化、歷程記錄、優惠方案簡報](assets/interaction-cycle.png)
 
 首先，客戶與公司會透過通訊頻道進行聯絡：可以是網站（傳入互動）、電子郵件、簡訊、推播通知（傳出互動）。 [了解更多](#interaction-types)
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 設定傳入互動的優惠方案引擎，以顯示和更新一或多個優惠方案。
 
-   各種整合模式在[本節](interaction-present-offers.md)中有詳細說明。
+   各種整合模式在[呈現優惠方案（傳入互動）](interaction-present-offers.md)中有詳細的說明。
 
    >[!NOTE]
    >

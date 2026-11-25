@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 以下裝載範例說明如何從服務取消訂閱設定檔。 首先執行GET要求以擷取設定檔。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 它會傳回設定檔的訂閱URL。
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 對訂閱URL執行GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 它會傳回所選設定檔的訂閱清單，以及每個訂閱服務的URL。
 
-```
+```json
 ...
 "service": {
   "PKey": "<PKEY>",
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 在所需的服務URL上執行DELETE要求。
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 擷取服務記錄。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 它會傳回服務的訂閱URL。
 
-```
+```json
 {
   ...
   "messageType": "email",
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 對訂閱URL執行GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 它會傳回所選服務的訂閱清單，以及每個設定檔訂閱的URL (href)。
 
-```
+```json
 {
   "PKey": "<PKEY>",
   "created": "2019-03-26 08:58:04.764Z",
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 在所需的設定檔訂閱URL上執行DELETE要求。
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

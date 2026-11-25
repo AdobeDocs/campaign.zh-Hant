@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 3%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 # 建立多維度資料集{#create-a-cube}
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 若要存取多維度資料集，請從Campaign檔案總管瀏覽至&#x200B;**[!UICONTROL Administration > Configuration > Cubes]**。
 
-![](assets/cube-node.png)
+總管中「管理>組態」下的![多維資料庫節點，包含多維資料庫清單和選取的多維資料庫詳細資訊](assets/cube-node.png)
 
 您可以使用立方體來：
 
@@ -51,21 +51,21 @@ ht-degree: 3%
 
   要執行此操作，請建立新報表並選取您要使用的立方結構。
 
-  ![](assets/create-new-cube.png)
+  ![從可用的Cube範本建立新報告，已選取收件者，並在[建立]之前輸入標籤](assets/create-new-cube.png)
 
   立方結構看起來就像範本，根據建立的報表而定。 選擇範本後，按一下「**[!UICONTROL Create]**」以設定並檢視新報告。
 
   您可以調整測量、變更顯示模式或設定表格，然後使用主要按鈕顯示報表。
 
-  ![](assets/display-cube-table.png)
+  ![以Cube為基礎的新報表，包含「測量」、「年齡」和「國家/地區」欄位，以及顯示樞紐分析表的按鈕](assets/display-cube-table.png)
 
 * 參照報告&#x200B;**[!UICONTROL Query]**&#x200B;方塊中的Cube以使用它的指標，如下所示：
 
-  ![](assets/cube-report-query.png)
+  ![已選取[使用Cube]選項且已在Cube欄位中選取Cube的報表查詢活動](assets/cube-report-query.png)
 
 * 在報表的任何頁面中插入以立方體為基礎的樞紐分析表。 若要這麼做，請在相關頁面上參考要在樞紐分析表&#x200B;**[!UICONTROL Data]**&#x200B;索引標籤中使用的Cube。
 
-  ![](assets/cube-in-a-report.png)
+  ![報表頁面上樞紐分析表的資料頁簽，在Cube欄位中選取Cube，並選取Age和City維度](assets/cube-in-a-report.png)
 
   如需詳細資訊，請參閱[探索報表中的資料](cube-tables.md#explore-the-data-in-a-report)。
 
@@ -94,14 +94,14 @@ ht-degree: 3%
 
 1. 按一下立方結構清單上方的&#x200B;**[!UICONTROL New]**&#x200B;按鈕。
 
-   ![](assets/create-a-cube.png)
+   ![含有事實來源選項、事實結構描述欄位、標籤和儲存按鈕的新增Cube對話方塊](assets/create-a-cube.png)
 
 1. Select包含您要探索之元素（也稱為「事實結構描述」）的結構描述。 在此範例中，選取預設的&#x200B;**收件者**&#x200B;資料表。
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立多維資料庫：已新增至多維資料庫清單。 您現在可以使用標籤進行設定。
 
 1. 按一下&#x200B;**[!UICONTROL Filter the source data...]**&#x200B;連結，將此Cube的計算套用至資料庫中的資料。
 
-   ![](assets/cube-filter-source.png)
+   ![Cube一般頁簽，其中的[篩選]來源資料連結會開啟[編輯篩選]對話方塊，且條件Age大於18](assets/cube-filter-source.png)
 
 ### 定義維度 {#define-dimensions}
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 1. 瀏覽至Cube的&#x200B;**[!UICONTROL Dimension]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以建立新的維度。
 1. 在&#x200B;**[!UICONTROL Expression field]**&#x200B;中，按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示以選取包含相關資料的欄位。
 
-   ![](assets/cube-add-dimension.png)
+   ![維度索引標籤，其中包含[新增]按鈕和[新增維度]對話方塊；[編輯運算式]圖示會選取欄位](assets/cube-add-dimension.png)
 
 1. 在此範例中，我們選取的是收件者&#x200B;**年齡**。 對於此欄位，您可以定義量化以分組年齡，並讓資訊閱讀更容易。 當存在數個獨立值的可能性時，我們建議使用量化。
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 1. 新增&#x200B;**日期**&#x200B;型別維度。 在這裡，我們要顯示收件者設定檔建立日期。 若要這麼做，請按一下&#x200B;**[!UICONTROL Add]**&#x200B;並選取收件者表格中的&#x200B;**[!UICONTROL Creation date]**&#x200B;欄位。
 您可以自訂日期顯示模式。 若要這麼做，請選取要使用的階層以及要產生的層次：
 
-![](assets/cube-date-dimension.png)
+![建立日期維度對話方塊，其包含建立選項的層級：年、季、月、日和小時](assets/cube-date-dimension.png)
 
 在我們的範例中，我們只想顯示年、月和日。 請注意，您不能同時使用周和半年/月：這些層級不相容。
 
@@ -129,13 +129,13 @@ ht-degree: 3%
 
 您可以啟用量化以使資訊讀取更容易，並將值連結至[分項清單](../config/enumerations.md)。
 
-從下拉式清單中選取分項清單。 請注意，此列舉必須定義為&#x200B;**[!UICONTROL Reserved for binning]**。
+從下拉式清單中Select分項清單。 請注意，此列舉必須定義為&#x200B;**[!UICONTROL Reserved for binning]**。
 
-![](assets/cube-dimension-with-enum.png)
+![啟用量化的「城市」維度，以動態方式將值連結至其他值的列舉和標籤](assets/cube-dimension-with-enum.png)
 
 只會顯示分項清單中的值。 其他則將在&#x200B;**[!UICONTROL Label of the other values]**&#x200B;欄位中定義的標籤下分組。
 
-如需詳細資訊，請參閱[本章節](customize-cubes.md#dynamically-manage-bins)。
+如需詳細資訊，請參閱[動態管理回收筒](customize-cubes.md#dynamically-manage-bins)。
 
 ### 建立指標 {#build-indicators}
 
@@ -146,17 +146,17 @@ ht-degree: 3%
 若要建立指標，請遵循下列步驟：
 
 1. 瀏覽至&#x200B;**[!UICONTROL Measures]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕。
-1. 選取要套用的測量型別和公式。 在此範例中，我們會計算收件者中女性的數量。 我們的量值是以事實結構描述為基礎，並使用&#x200B;**[!UICONTROL Count]**&#x200B;運運算元。
+1. Select測量型別和要套用的公式。 在此範例中，我們會計算收件者中女性的數量。 我們的量值是以事實結構描述為基礎，並使用&#x200B;**[!UICONTROL Count]**&#x200B;運運算元。
 
-   ![](assets/cube-new-measure.png)
+   ![新量值對話方塊，其中包含使用事實結構描述、Count運運算元和篩選量值資料連結所定義的量值](assets/cube-new-measure.png)
 
    使用&#x200B;**[!UICONTROL Filter the measure data...]**&#x200B;連結僅選取女性。 [了解更多資訊](customize-cubes.md#define-measures)。
 
-   ![](assets/cube-filter-measure-data.png)
+   ![編輯篩選對話方塊，其條件性別等於並在值清單中選取女性值](assets/cube-filter-measure-data.png)
 
 1. 輸入測量的標籤並儲存。
 
-   ![](assets/cube-save-measure.png)
+   ![使用Count運運算元完成的女性量值，篩選器性別等於Female且儲存前的Label欄位](assets/cube-save-measure.png)
 
 1. 儲存立方體。
 

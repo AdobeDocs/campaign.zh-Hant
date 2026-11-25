@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 若要計算&#x200B;**messageType**&#x200B;值等於&quot;sms&quot;的所有服務，請使用&#x200B;**byChannel**&#x200B;篩選器執行GET要求。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -43,7 +43,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 它會傳回與篩選器對應的服務。
 
-```
+```json
 {
     "content": [
         {
@@ -64,7 +64,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 對&#x200B;**count**&#x200B;節點的URL執行GET要求以擷取結果數目。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請�
 
 它會傳回記錄數。
 
-```
+```json
 {
     "count": 26
 }
