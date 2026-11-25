@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1566'
 ht-degree: 0%
 ---
 # 在網頁中新增優惠方案{#add-an-offer-in-web}
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 指令碼呼叫URL看起來像這樣：
 
-```
+```xml
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
@@ -61,13 +61,13 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 在我們的範例中，@id屬性會收到「i_SPC12」值，其中「SPC12」是先前建立之優惠空間的內部名稱：
 
-```
+```xml
 <div id="i_SPC12"></div>
 ```
 
 在我們的範例中，呼叫指令碼的URL如下（「OE3」是即時環境的內部名稱）：
 
-```
+```xml
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
 ```
 
@@ -83,7 +83,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 優惠方案引擎會將優惠方案呈現的內容傳回HTML頁面：
 
-```
+```xml
 <div id="banner_header">
  <div id="i_SPC12">
    <table>
@@ -107,11 +107,11 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 ### 呈現已識別的優惠 {#presenting-an-identified-offer}
 
-若要向已識別的連絡人呈現優惠方案，程式類似於此區段[&#128279;](#presenting-an-anonymous-offer)中詳細的。
+若要向已識別的連絡人呈現優惠方案，程式類似於此區段](#presenting-an-anonymous-offer)中詳細的[。
 
 在網頁內容中，您需要新增下列指令碼，以在呼叫優惠方案引擎期間識別聯絡人：
 
-```
+```xml
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
@@ -119,7 +119,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 1. 移至網頁將呼叫的優惠方案空間，按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;並新增一或多個識別鍵。
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![進階引數Target identification索引標籤，索引鍵路徑為@email且Last name欄位已新增為第二個索引鍵](assets/interaction_htmlmode_001.png)
 
    在此範例中，識別索引鍵是複合的，因為它同時以電子郵件和收件者名稱為基礎。
 
@@ -127,7 +127,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    在以下範例中，聯絡人已登入網站，並在致電優惠方案引擎時被識別，這要歸功於他們的電子郵件和名稱。
 
-   ```
+   ```xml
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
@@ -141,7 +141,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 1. 選取 **[!UICONTROL Overload the HTML rendering function]**。
 1. 移至&#x200B;**[!UICONTROL HTML rendering]**&#x200B;標籤，並在優惠方案空間插入符合為優惠方案內容定義欄位的變數。
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![優惠空間「編輯函式」對話方塊、HTML呈現索引標籤，以及HTML呈現函式選項和指令碼多載](assets/interaction_htmlmode_002.png)
 
    在此範例中，優惠方案會以橫幅的形式顯示在網頁中，且由可點按的影像以及符合優惠方案內容中定義欄位的標題所組成。
 
@@ -153,7 +153,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 對優惠方案引擎的呼叫看起來像這樣：
 
-```
+```xml
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
@@ -171,7 +171,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 傳回的XML節點如下所示：
 
-```
+```xml
 <propositions>
  <proposition id="" offer-id="" weight="" rank="" space="" div=""> //proposition identifiers
    ...XML content defined in Adobe Campaign...
@@ -184,9 +184,9 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 1. **建立環境和優惠方案空間**
 
-   有關建立環境的詳細資訊，請參閱[此頁面](interaction-env.md)。
+   如需建立環境的詳細資訊，請參閱[使用行銷活動互動環境](interaction-env.md)。
 
-   如需建立優惠方案空間的詳細資訊，請參閱[此頁面](interaction-offer-spaces.md)。
+   如需建立優惠方案空間的詳細資訊，請參閱[促銷活動互動優惠方案空間](interaction-offer-spaces.md)。
 
 1. **擴充優惠方案結構描述以新增欄位**
 
@@ -194,7 +194,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    範例中的結構描述名稱為&#x200B;**cus:offer**
 
-   ```
+   ```xml
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
               label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
@@ -231,7 +231,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    在「檢視」區段中，插入兩個含有以下內容的新欄位：
 
-   ```
+   ```xml
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
         <form label="Edit title 2" name="editForm" nothingToSave="true">
             <input nolabel="true" toolbarAlign="horizontal" type="jstEdit" xpath="." xpathInsert="/ignored/customizeTitle2">
@@ -256,7 +256,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    註解目的地URL欄位：
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![具有目的地URL輸入區塊的優惠方案宣告表單XML已註解](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -264,17 +264,17 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    優惠方案宣告表單中的轉譯如下所示：
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![HTML內容編輯器上方具有空白標題、目的地URL和影像URL欄位的「選件內容」索引標籤](assets/interaction_xmlmode_form.png)
 
    已新增&#x200B;**[!UICONTROL Title 2]**&#x200B;及&#x200B;**[!UICONTROL Price]**&#x200B;欄位，且不再顯示&#x200B;**[!UICONTROL Destination URL]**&#x200B;欄位。
 
 1. **建立產品建議**
 
-   如需建立優惠方案的詳細資訊，請參閱[此頁面](interaction-offer.md)。
+   如需建立優惠方案的詳細資訊，請參閱[促銷活動互動優惠方案](interaction-offer.md)。
 
    在下列使用案例中，輸入選件的方式如下：
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![已填入標題、目的地URL和影像URL的選件內容索引標籤，以及使用recipient.firstName的HTML內容](assets/interaction_xmlmode_offer.png)
 
 1. **核准優惠方案**
 
@@ -284,7 +284,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    在HTML頁面中呼叫選件引擎看起來像這樣：
 
-   ```
+   ```xml
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
@@ -294,7 +294,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    選件引擎傳回的XML節點如下所示：
 
-   ```
+   ```xml
    <propositions>
     <proposition id="a28002" offer-id="10322005" weight="1" rank="1" space="SPC14" div="i_SPC14">
      <xmlOfferView>
@@ -320,14 +320,14 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
    函式看起來可能像這樣：
 
-   ```
+   ```javascript
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![提供空間[編輯函式]對話方塊，[XML演算]索引標籤，包含[多載XML演算函式]選項和指令碼](assets/interaction_xmlmode_001.png)
 
 ## 設定SOAP整合
 
@@ -367,7 +367,7 @@ HTML頁面必須包含具有@id屬性的元素，且元素屬性具有已建立�
 
 以下是SOAP呼叫的程式碼範例：
 
-```
+```html
 <%
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(

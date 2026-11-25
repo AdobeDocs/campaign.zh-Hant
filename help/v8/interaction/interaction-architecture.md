@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1417'
 ht-degree: 0%
 ---
 # 瞭解Campaign互動環境和架構
@@ -40,7 +40,7 @@ ht-degree: 0%
 
   類別也可以線上上環境中手動發佈。
 
-  核准優惠方案的程式在此區段[&#128279;](interaction-offer.md#approve-offers)中詳細說明。
+  核准優惠方案的程式在此區段](interaction-offer.md#approve-offers)中詳細說明[。
 
 * 您都可以找到&#x200B;**即時**&#x200B;環境，其中包含設計環境中的已核准優惠方案，以及在設計環境中設定的各種優惠方案空間、篩選器、類別和規則。 呼叫優惠方案引擎期間，引擎一律會使用即時環境中的優惠方案。
 
@@ -57,7 +57,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 一旦可以或必須呈現優惠方案（根據執行的組態），優惠方案引擎就會扮演中介角色：它會結合所收到的連絡人相關資料以及可在應用程式中套用的不同規則，自動計算可用連絡人中可能的最佳優惠方案。
 
-![](assets/architecture_interaction2.png)
+![優惠方案引擎流程：傳出批次傳遞，已識別單一與匿名單一與其目錄的互動](assets/architecture_interaction2.png)
 
 ## 分散式架構
 
@@ -66,7 +66,7 @@ Adobe Campaign互動模組提出兩種互動：
 * 專用於傳出頻道並包含行銷和環境設計基礎的一個或多個控制例項
 * 專用於傳入頻道的一或多個執行例項
 
-![](assets/interaction_powerbooster_schema.png)
+![控制項執行個體將設計選件部署為上線，並將套件傳送至發佈至網站的執行個體](assets/interaction_powerbooster_schema.png)
 
 執行例項專用於傳入頻道，並包含目錄的線上版本。 每個執行例項都是獨立的，並且專用於一個聯絡區段（例如，每個國家/地區一個執行例項）。 對選件引擎的呼叫必須直接在執行上執行（每個執行例項一個特定URL）。 由於執行個體之間的同步不是自動的，來自相同連絡人的互動必須透過相同執行個體傳送。
 
@@ -82,7 +82,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 所有線上執行個體都會停用在設計環境中刪除的選件。 在清除期間（在每個執行個體的部署助理中指定）和滑動期間（在傳入主張的型別規則中指定）之後，所有執行個體上都會自動刪除過時的主張和優惠方案。
 
-![](assets/interaction_powerbooster_schema2.png)
+![控制執行個體與每個執行執行個體之間雙向同步的優惠方案主張](assets/interaction_powerbooster_schema2.png)
 
 系統會為每個環境及外部帳戶建立工作流程，以進行主張同步。 同步頻率可以根據每個環境和外部帳戶進行調整。
 
@@ -102,7 +102,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 >[!NOTE]
 >
->安裝套件時，**nms:proposition**&#x200B;資料表的&#x200B;**long**&#x200B;型別欄位（例如主張識別碼）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=zh-Hant#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
+>安裝套件時，**nms:proposition**&#x200B;資料表的&#x200B;**long**&#x200B;型別欄位（例如主張識別碼）會變成&#x200B;**int64**&#x200B;型別欄位。 [Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}中會詳細說明此型別的資料。
 
 在每個執行個體上設定資料保留期間（透過部署精靈中的&#x200B;**[!UICONTROL Data purge]**&#x200B;視窗）。 在執行例項上，此期間必須對應於要計算的型別規則（滑動期間）和適用性規則所需的歷史深度。
 
@@ -110,7 +110,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 1. 為每個執行例項建立一個外部帳戶：
 
-   ![](assets/interaction_powerbooster1.png)
+   ![具有已啟用、連線、訊息中心及互動選項的執行執行個體的外部帳戶表單](assets/interaction_powerbooster1.png)
 
    * 完成標籤並新增簡短且明確的內部名稱。
    * 選取 **[!UICONTROL Execution instance]**。
@@ -131,7 +131,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 1. 設定環境：
 
-   ![](assets/interaction_powerbooster2.png)
+   ![環境一般索引標籤會依國家/地區列出具有更新頻率和主張篩選的執行個體](assets/interaction_powerbooster2.png)
 
    * 新增執行個體清單。
    * 針對每一個專案，指定同步化期間和篩選條件（例如，依國家/地區）。
@@ -142,7 +142,7 @@ Adobe Campaign互動模組提出兩種互動：
 
 如果基於最佳化理由，只有部分行銷資料庫在執行例項上重複，您可以指定連結至環境的受限制綱要，以允許使用者僅使用執行例項上可用的資料。 您可以使用執行個體上無法取得的資料來建立選件。 若要這麼做，您必須藉由限制傳出頻道（**[!UICONTROL Taken into account if]**&#x200B;欄位）上的此規則，在其他頻道上停用該規則。
 
-![](assets/ita_filtering.png)
+![國家/地區母體專案篩選器及頻道](assets/ita_filtering.png)的已考慮if欄位
 
 ### 維護選項 {#maintenance-options}
 

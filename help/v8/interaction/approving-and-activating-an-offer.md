@@ -21,9 +21,9 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '848'
 ht-degree: 0%
 ---
 # 核准和啟用優惠方案{#approving-and-activating-an-offer}
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 優惠方案控制面板上的橫幅會告訴您優惠方案是否需要通過核准週期。
 
-![](assets/offer_validate_001.png)
+![優惠儀表板橫幅指出優惠正在等待核准，並附上核准按鈕。](assets/offer_validate_001.png)
 
 ## 核准優惠內容 {#approving-offer-content}
 
@@ -52,15 +52,15 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Approval]**&#x200B;按鈕，然後在快顯視窗中選取&#x200B;**[!UICONTROL Approve content]**。
 
-   ![](assets/offer_validate_002.png)
+   ![已選取[核准]內容的[核准]功能表，在選件對話方塊中開啟[動作]。](assets/offer_validate_002.png)
 
 1. 使用下拉式清單，選取您要繼續編輯的表示或您要發佈至即時環境的表示，然後按一下&#x200B;**[!UICONTROL Content approval]**。
 
-   ![](assets/offer_validate_003.png)
+   ![優惠方案對話方塊上的動作：選擇[繼續編輯]或[啟用]、新增註解、按一下[內容核准]。](assets/offer_validate_003.png)
 
    一旦核准優惠方案內容，就會更新優惠方案控制面板表格上的資訊。
 
-   ![](assets/offer_validate_004.png)
+   ![核准後的優惠儀表板：代表顯示已啟用，而核准區段顯示已核准的內容。](assets/offer_validate_004.png)
 
    >[!NOTE]
    >
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * 按一下&#x200B;**[!UICONTROL Schedule and eligibility rules]**&#x200B;即可檢視規則的完整清單。
 
-  ![](assets/offer_validate_005.png)
+  ![從核准對話方塊開啟具有權重和日期範圍的排程和適用性規則清單。](assets/offer_validate_005.png)
 
 * 若要變更適用性規則，請按一下&#x200B;**[!UICONTROL Reject]**，然後按一下&#x200B;**[!UICONTROL Eligibility approval]**。
 
-  ![](assets/offer_validate_007.png)
+  ![資格核准對話方塊，其中已選取[拒絕]、註解及[資格核准]按鈕。](assets/offer_validate_007.png)
 
   優惠方案控制面板上的各種狀態都會更新。
 
-  ![](assets/offer_validate_006.png)
+  ![拒絕後的儀表板：資格核准被拒絕橫幅、提交資格按鈕、資格被拒絕。](assets/offer_validate_006.png)
 
 * 若要接受優惠資格，請按一下&#x200B;**[!UICONTROL Approve eligibility]**。
 
-  ![](assets/offer_validate_008.png)
+  ![提交資格按鈕在優惠方案對話方塊中開啟動作，並有核准和拒絕選項。](assets/offer_validate_008.png)
 
   核准資格，視需要新增註解，然後按一下&#x200B;**[!UICONTROL Eligibility approval]**。
 
-  ![](assets/offer_validate_009.png)
+  ![資格核准對話方塊，其中包含核准選取的專案、輸入的註解以及資格核准按鈕。](assets/offer_validate_009.png)
 
   優惠方案控制面板上的各種狀態都會更新。
 
-  ![](assets/offer_validate_010.png)
+  ![顯示優惠方案擱置部署至上線環境的儀表板，其資格已核准，內容已核准。](assets/offer_validate_010.png)
 
 ## 核准追蹤 {#approval-tracking}
 
 核准追蹤可在優惠方案控制面板上使用。 按一下&#x200B;**[!UICONTROL Hide/display logs]**&#x200B;以存取它。
 
-![](assets/offer_validate_012.png)
+![按一下[隱藏/顯示記錄]，列出動作、型別和核准者之後，顯示核准記錄的優惠儀表板。](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 1. 在出現的&#x200B;**[!UICONTROL Edit]**&#x200B;視窗中，選取要重新啟動的核准，然後按一下&#x200B;**[!UICONTROL Re-initialize approval to submit it again]**。
 1. 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;確認。
 
-![](assets/offer_validate_013.png)
+![在[編輯]視窗中核准分錄，並具有[重新初始化]核准以再次提交該分錄連結。](assets/offer_validate_013.png)
 
 ## 發佈優惠方案 {#publishing-the-offer}
 
@@ -124,11 +124,11 @@ ht-degree: 0%
 
 設計環境中可用選件的控制面板包含有關發佈的資訊，包括即時環境中相符選件的名稱。
 
-![](assets/offer_golive_001.png)
+![設計優惠儀表板：部署日期橫幅、具有已發佈狀態的優惠方案線上連結、即時代表線上。](assets/offer_golive_001.png)
 
 若要顯示即時環境中可用的優惠方案，請按一下優惠方案標籤：即時優惠方案有一個包含其所有相關資訊的控制面板。
 
-![](assets/offer_golive_002.png)
+![連結至即時優惠儀表板，其中顯示線上狀態、環境、排程和適用性規則。](assets/offer_golive_002.png)
 
 ## 停用優惠方案 {#disabling-an-offer}
 
@@ -142,4 +142,4 @@ ht-degree: 0%
 >
 >在設計環境中刪除優惠方案時，它會在連結的線上環境中自動停用。 主張保留期過後，停用的優惠方案會從線上環境中刪除。
 
-![](assets/offer_preview_deactivate.png)
+![優惠儀表板擱置部署，且停用優惠按鈕已用來停用優惠。](assets/offer_preview_deactivate.png)

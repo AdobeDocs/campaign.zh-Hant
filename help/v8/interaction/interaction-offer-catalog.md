@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 ---
 # 建立產品建議目錄
 
@@ -45,15 +45,15 @@ ht-degree: 2%
 
 1. 瀏覽至&#x200B;**[!UICONTROL Offer catalog]**&#x200B;資料夾。
 
-   ![](assets/offer_cat_create_001.png)
+   ![總管樹狀結構，已在[優惠] - [設計與環境] - [收件者]下選取優惠方案目錄資料夾](assets/offer_cat_create_001.png)
 
 1. 按一下滑鼠右鍵並從下拉式清單中選取&#x200B;**[!UICONTROL Create a new "Offer category" folder]**。
 
-   ![](assets/offer_cat_create_002.png)
+   ![優惠方案目錄上的內容功能表，其中的[建立新的優惠方案類別資料夾]選項反白顯示](assets/offer_cat_create_002.png)
 
 1. 重新命名類別。 您稍後可以使用&#x200B;**[!UICONTROL General]**&#x200B;索引標籤來編輯標籤。
 
-   ![](assets/offer_cat_create_003.png)
+   ![名稱為Neobank的新類別資料夾 — 優惠方案目錄樹狀結構中的個人銀行，準備重新命名](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 2%
 
    * 從&#x200B;**[!UICONTROL Eligibility]**&#x200B;索引標籤指派適用日期。
 
-     ![](assets/offer_cat_create_004.png)
+     ![具有[開始日期]和[結束日期]欄位、行事曆開啟以及目標篩選器的[編輯查詢]連結的適用性標籤](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]**&#x200B;將篩選器套用至優惠目標。
 
@@ -83,4 +83,4 @@ ht-degree: 2%
 1. 按一下「**[!UICONTROL Eligibility]**」索引標籤並選取&#x200B;**[!UICONTROL Always include this category in the recommendations]**&#x200B;選項。
 1. 按一下 **[!UICONTROL Save]**。
 
-   ![](assets/offer_cat_default_001.png)
+   ![類別適用性索引標籤，「一律包含此類別」在選取的建議中](assets/offer_cat_default_001.png)

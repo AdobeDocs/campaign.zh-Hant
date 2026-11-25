@@ -26,9 +26,9 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '193'
 ht-degree: 3%
 ---
 # 擴充功能範例{#extension-example}
@@ -41,12 +41,12 @@ ht-degree: 3%
 
   在以下範例中，新增的標準為國家/地區代碼和上次造訪的頁面。
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![具有國家/地區代碼和上次造訪頁面屬性的互動資料結構描述已新增。](assets/s_ncs_configuration_offer_schemas.png)
 
 * 然後，您可以在定義適用性條件定義時，使用先前建立的屬性。
 
   在以下範例中，我們可以建立適用性標準，以根據使用者所在的國家/地區或他們檢視的上一個網頁來顯示優惠方案。
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![適用性查詢編輯器，包含可選取為條件的國家/地區代碼和上次造訪頁面互動欄位。](assets/s_ncs_configuration_offer_context.png)
 
-* 設定SOAP呼叫時，請插入&#x200B;**context** XML元素，以參考加入互動結構描述中的內容資訊。 如需進一步資訊，請參閱[透過SOAP整合（伺服器端）](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8檔案）。
+* 設定SOAP呼叫時，請插入&#x200B;**context** XML元素，以參考加入互動結構描述中的內容資訊。 如需進一步資訊，請參閱[透過SOAP整合（伺服器端）](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} （Campaign v8檔案）。

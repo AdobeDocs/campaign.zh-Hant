@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1269'
 ht-degree: 0%
 ---
 # 互動最佳實務 {#interaction-best-practices}
@@ -77,13 +77,13 @@ ht-degree: 0%
 
 在下列範例中，在傳遞中選取的優惠方案空間為&#x200B;**[!UICONTROL Email (Environment - Recipient)]**：
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+在優惠方案空間欄位設定為電子郵件（環境 — 收件者）的傳遞中，![優惠方案選擇區段。](assets/Interaction-best-practices-offer-space-selected.png)
 
 如果您在傳送中選取的優惠方案空間未設定HTML演算函式，您會在傳送功能表中看到該空間，且將無法選取。 這與&#x200B;**擴充**&#x200B;活動中選取的優惠方案空間無關。
 
 在下列範例中，下拉式清單提供HTML轉譯函式，因為傳送中選取的選件空間具有轉譯函式：
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+![Personalization欄位功能表，其主張、主張和HTML演算選項強調顯示。](assets/Interaction-best-practices-HTML-rendering.png)
 
 此函式插入程式碼，例如： `<%@ include proposition="targetData.proposition" view="rendering/html" %>`。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 建議產生或接受時，優惠方案空間能夠將資料儲存在主張表格中：
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![優惠方案空間的[儲存]索引標籤，包含[開啟]主張和[開啟]接受狀態以及儲存路徑運算式。](assets/Interaction-best-practices-offer-space-storage.png)
 
 但是，這僅適用於傳入互動。
 
@@ -109,15 +109,15 @@ ht-degree: 0%
 
 例如，在&#x200B;**擴充**&#x200B;工作流程活動中手動選取優惠方案（沒有互動）時，標準欄位的定義如下：
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![使用手動選取之優惠方案的標準欄位輸出擴充活動的資料行。](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 可以新增其他欄位，例如`@rank`欄位：
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![擴充活動的輸出資料行，其中包含主張的已新增Ranking欄位。](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 由於名為`@rank`的主張資料表中有一個欄位，因此將會複製工作流程暫存資料表中的值。
 
-如需在主張資料表中儲存其他欄位的詳細資訊，請參閱[本節](interaction-send-offers.md#storing-offer-rankings-and-weights)。
+如需在主張表格中儲存其他欄位的詳細資訊，請參閱[儲存優惠排名和權重](interaction-send-offers.md#storing-offer-rankings-and-weights)。
 
 針對具有互動的傳出優惠方案，在選取數個優惠方案且您想要記錄它們在電子郵件中的顯示順序時，此功能會很實用。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 使用互動及手動選取優惠方案時，使用者可以將兩種方法結合使用。 例如，使用者可以手動將手動選取之優惠的`@rank`欄位設為1，並針對互動傳回的優惠使用如`"1 + @rank"`的運算式。 假設「互動」選取三個優惠方案，則兩種方法傳回的優惠方案排名都將是1-4：
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![結合優惠互動與1 +排名運算式的輸出欄，以手動設定排名。](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### 擴充nms:offer結構描述 {#extending-nms-offer-schema}
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 * 為`<element name="view">`下的內容儲存定義任何新欄位。
 * 每個新欄位需要定義兩次。 一次作為一般XML欄位，另一次作為CDATA XML欄位，並在名稱后面附加「_jst」。 例如：
 
-  ```
+  ```xml
   <element label="Price" name="price" type="long" xml="true"/>
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```

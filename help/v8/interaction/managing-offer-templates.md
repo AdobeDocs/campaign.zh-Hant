@@ -23,10 +23,10 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '211'
+ht-degree: 1%
 ---
 # 管理優惠方案範本{#managing-offer-templates}
 
@@ -41,7 +41,7 @@ Adobe Campaign中提供立即可用的優惠範本。 您可以在建立優惠�
 1. 移至&#x200B;**資源** > **範本** > **優惠方案範本**。
 1. 按一下&#x200B;**新增**&#x200B;圖示。
 
-   ![](assets/offer_model_001.png)
+   在Explorer中的![選件範本資料夾中反白顯示[新增]按鈕，以及新選件[一般]索引標籤](assets/offer_model_001.png)
 
 1. 設定範本的方法為套用與一般優惠方案相同的程式，然後按一下[儲存] **儲存範本**。
 
@@ -52,10 +52,10 @@ Adobe Campaign中提供立即可用的優惠範本。 您可以在建立優惠�
 1. 移至&#x200B;**資源>範本>優惠方案範本**。
 1. 使用滑鼠，在您要複製的範本上按一下滑鼠右鍵，然後從下拉式功能表中選取&#x200B;**複製**。
 
-   ![](assets/offer_model_002.png)
+   ![選件範本內容功能表中的[重複]命令已反白顯示](assets/offer_model_002.png)
 
-1. 必要時，請設定您希望範本中顯示的設定，然後按一下[儲存] **&#x200B;**&#x200B;儲存範本。
+1. 必要時，請設定您希望範本中顯示的設定，然後按一下[儲存] ****&#x200B;儲存範本。
 
 建立優惠方案時，現在會提供此範本。
 
-![](assets/offer_modelcreated_001.png)
+![優惠方案範本資料夾中的行銷優惠方案選擇對話方塊，列出兩個優惠方案範本](assets/offer_modelcreated_001.png)
