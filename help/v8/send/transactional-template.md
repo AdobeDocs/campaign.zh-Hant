@@ -113,7 +113,7 @@ ht-degree: 0%
 
    ![種子地址對話方塊，標籤、電子郵件和外部識別碼欄位已填入](assets/messagecenter_create_seed_2.png)
 
-1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 插入測試資料。 [在Campaign Classic v7檔案中進一步瞭解個人化資料](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![種子位址對話方塊，其內容區段中的測試資料是以XML格式寫入的事件內容](assets/messagecenter_create_custo_3.png)
 

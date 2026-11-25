@@ -36,7 +36,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
 傳遞的建立和傳送可在使用者端主控台和網頁UI中執行。 不過，自訂通道設定只能在使用者端主控台中執行。
 
-若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}。
+若要瞭解如何根據自訂頻道建立及傳送傳遞，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=zh-Hant){target="_blank"}。
 
 以下是在使用者端主控台中設定新自訂頻道的步驟。 自訂外部和API管道共用以下步驟：
 
@@ -109,7 +109,7 @@ Adobe Campaign可讓您建立與協力廠商整合的自訂外部或API管道。
 
    ![傳遞(nms)結構描述頁面，其熒幕版本按鈕位於右上方](assets/cus-schema2.png){zoomable="yes"}
 
-1. Select對應至您頻道的索引標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}。
+1. Select對應至您頻道的索引標籤，並定義欄位在傳送內容畫面中的顯示方式。 如需熒幕版本的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=zh-Hant#fields){target="_blank"}。
 
    ![熒幕定義對話方塊，自訂管道索引標籤，列出具有標籤、屬性、型別和必要選項的自訂欄位](assets/cus-schema3.png){zoomable="yes"}
 

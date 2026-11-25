@@ -94,7 +94,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->此助理包含Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}中詳述的匯出助理步驟。
+>此助理包含Adobe Campaign Classic [檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=zh-Hant){target="_blank"}中詳述的匯出助理步驟。
 
 ## 驗證傳遞{#validating}
 
