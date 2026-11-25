@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '820'
 ht-degree: 0%
 ---
 # 使用實例：建立轉介表單{#use-case-creating-a-refer-a-friend-form}
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 在此範例中，我們要與資料庫中的收件者競爭。 網路表單會有一個區段用於輸入答案，另一個區段用於輸入朋友的電子郵件地址以推薦朋友。
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![包含識別區域的競爭表單、包含隨機問題的測驗區域，以及邀請朋友的邀請區域](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 識別與競爭區塊是使用前述程式建立的。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 建立競爭網路表單，其中包含問題以及用於輸入朋友聯絡資訊的欄位，如下所示：
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![包含識別碼、遊戲和轉介區段的競爭表單結構（包含好友聯絡欄位）](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    **您的訊息**&#x200B;欄位可讓您為裁判輸入訊息。 反向連結還必須輸入其&#x200B;**姓氏**、**名字**&#x200B;和&#x200B;**電子郵件**。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
    >
    >在此範例中，我們想要鎖定收件者，以建議他們參與反向連結建議的競爭。 不過，在這封郵件中，我們也要向他們提供我們其中一個資訊服務的訂閱。 如果他們訂閱，可以儲存在資料庫中。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![表單結構已選取[推薦朋友]區段中的姓氏欄位](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    與參考者相關的欄位內容將用於設定檔建立指令碼和傳送給他們的訊息中。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    它包含下列指示：
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![表單圖表，其中已開啟被推薦者資訊指令碼方塊，設定訪客ID、轉寄URL和反向連結欄位](assets/s_ncs_admin_survey_viral_sample_4.png)
 
    ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
@@ -89,23 +89,23 @@ ht-degree: 0%
 
 1. 儲存方塊可讓您收集資訊並將其儲存在資料庫中。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![儲存方塊對話方塊，其中包含調解選項中選取的Visitor元素，以儲存被推薦者](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. 然後建立傳遞範本，連結至在步驟1中建立的資訊服務。 它將會在資訊服務的&#x200B;**[!UICONTROL Choose scenario]**&#x200B;欄位中選取。
 
    用來建立轉介優惠訊息的傳遞範本包含下列資訊：
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![邀請朋友傳遞範本，其中包含使用個人化欄位的主旨和HTML內容](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    此範本具有以下特性：
 
    * 選取訪客表格作為目標對應。
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     已選取訪客(nms:visitor)作為傳遞的目標對應時，使用![Select目標對話方塊](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * 被推薦者的聯絡資訊以及反向連結上的資訊會從訪客表格中取得。 使用個人化按鈕插入。
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     傳遞內容中的![Personalization功能表，訪客子功能表列出姓氏、名字、電子郵件和反向連結欄位](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * 此範本包含競爭表單的連結，以及供裁判訂閱電子報的訂閱連結。
 
@@ -115,11 +115,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如需傳遞範本的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=zh-Hant){target="_blank"}。
+   >如需傳遞範本的詳細資訊，請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}。
 
 1. 建立用於傳遞訂閱訊息的第二個指令碼。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![指令碼方塊轉介者儲存及訊息傳送，其程式碼會將轉介電子郵件通知排入轉介者佇列](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
    ```javascript
    // Updtate visitor to have a link to the referrer recipient
@@ -146,10 +146,10 @@ ht-degree: 0%
 
 1. 發佈競爭表單並傳送邀請給初始目標的收件者。 當其中一個邀請朋友時，會建立以&#x200B;**轉介選件**&#x200B;範本為基礎的傳遞。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![已完成測驗頁面，其中包含「邀請朋友」區段，以及「傳遞」清單，顯示該傳遞進行中](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    被推薦者已新增至&#x200B;**[!UICONTROL Administration > Visitors node]**&#x200B;中的訪客資料夾：
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![訪客資料夾列出被推薦者，訪客的[一般]索引標籤顯示名稱、電子郵件和反向連結](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    其設定檔包含其反向連結輸入的資訊。 它會根據在表單指令碼中輸入的設定進行儲存。 如果他們決定訂閱電子報，則會儲存在收件者表格中。

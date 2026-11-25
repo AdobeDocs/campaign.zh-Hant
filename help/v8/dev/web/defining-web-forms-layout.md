@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 ---
 # 定義網路表單版面{#defining-web-forms-layout}
 
@@ -36,19 +36,19 @@ ht-degree: 2%
 
 對於表單的每個頁面，容器都是透過工具列的&#x200B;**[!UICONTROL Containers]**&#x200B;按鈕建立的。
 
-![](assets/s_ncs_admin_survey_containers_add.png)
+![開啟容器工具列按鈕的網頁表單頁面編輯器，提供標準容器選項](assets/s_ncs_admin_survey_containers_add.png)
 
 使用容器將頁面的元素分組，而不在最終轉譯新增標籤。 元素會分組到容器子樹狀結構中。 標準容器可讓您管理版面。
 
 例如：
 
-![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+![包含兩個容器的樹狀結構的頁面屬性，一般資訊和您的合約，及其表單欄位](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
 標籤的位置會套用至階層中置於容器下方的元素。 如有必要，可針對每個元素將其多載。 新增或移除欄以變更版面。 請參閱[定位頁面](#positioning-the-fields-on-the-page)上的欄位。
 
 在上述範例中，演算方式如下：
 
-![](assets/s_ncs_admin_survey_containers_std_ex.png)
+![含有兩個容器的已轉譯表單頁面：個人詳細資料欄位和合約核取方塊清單，加上驗證按鈕](assets/s_ncs_admin_survey_containers_std_ex.png)
 
 ## 定位頁面上的欄位 {#positioning-the-fields-on-the-page}
 
@@ -58,33 +58,33 @@ ht-degree: 2%
 
 依預設，頁面會建置在單一欄上，而每個元素會佔用一個儲存格。 這表示欄位會一個顯示在另一個欄位下，每個欄位佔據一整行，如下所示：
 
-![](assets/s_ncs_admin_survey_container_ex.png)
+![呈現的單欄表單頁面，其中的「性別」、「名稱」、「名字」和「電子郵件」欄位分別棧疊在單獨的行上](assets/s_ncs_admin_survey_container_ex.png)
 
 在下列範例中，已保留預設設定。 此頁面佔據一欄，其中包含四個容器。
 
-![](assets/s_ncs_admin_survey_container_ex0.png)
+![包含四個容器的頁面屬性，且欄數設為1反白顯示](assets/s_ncs_admin_survey_container_ex0.png)
 
 每個容器佔據一欄，每個元素佔據一個儲存格：
 
-![](assets/s_ncs_admin_survey_container_ex0a.png)
+![顯示設定中儲存格數設為1的資訊元素屬性](assets/s_ncs_admin_survey_container_ex0a.png)
 
 演算方式如下：
 
-![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+![以四個容器呈現單欄頁面，每個容器有一個垂直棧疊的欄](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
 您可以調整顯示引數以取得下列演算：
 
-![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+![呈現兩欄頁面，其中容器1和3填滿左欄，容器2和4填滿右欄](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
 在上述彩現範例中，每個輸入欄位、標題和影像在容器的欄中佔據一個儲存格。
 
 您可以修改每個容器中的格式。 在我們的範例中，您可以將容器4的內容分配至兩欄，並分配元素。
 
-![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+![包含兩欄的容器4：標題和下拉式方塊各取一個儲存格，核取方塊橫跨兩個儲存格](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
 標題和清單各佔一個儲存格（因此是容器的整行），而核取方塊會延伸至兩個儲存格。 根據欄位型別，歸因至輸入欄位的儲存格數定義於&#x200B;**[!UICONTROL General]**&#x200B;索引標籤或&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中：
 
-![](assets/s_ncs_admin_survey_container_ex2.png)
+![核取方塊元素的進階索引標籤，在[顯示]設定下的[儲存格數目]設為2](assets/s_ncs_admin_survey_container_ex2.png)
 
 ## 定義標籤位置 {#defining-the-position-of-labels}
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 整個表單的全域顯示引數是在表單屬性方塊中指定的。 **[!UICONTROL Rendering]**&#x200B;標籤可讓您選取標籤的位置。
 
-![](assets/s_ncs_admin_survey_label_position.png)
+![Web表單內容對話方塊，呈現索引標籤，標籤位置清單：已繼承、靠左、靠右、靠上、靠下、隱藏](assets/s_ncs_admin_survey_label_position.png)
 
 透過&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤，可針對每個頁面、每個容器和每個欄位多載此位置。
 

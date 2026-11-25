@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '1044'
+ht-degree: 1%
 ---
 # 設定登陸頁面{#creating-a-landing-page}
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 >
 >針對最常見的使用案例，請在Campaign網頁使用者介面中建立您的登入頁面，以便您輕鬆設計及發佈。 如本節所述，在使用者端主控台中建立的登入頁面可提供更多設定，並涵蓋更進階的使用案例。
 >
->[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[進一步瞭解Campaign網頁使用者介面的登入頁面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -56,24 +56,24 @@ ht-degree: 2%
 1. 前往&#x200B;**[!UICONTROL Campaigns]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL Web application]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL New landing page]**&#x200B;範本並輸入標籤，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-   ![](assets/dce_uc1_newlandingpage.png)
+   ![新增Web應用程式對話方塊，其中包含新登入頁面範本、標籤和Web應用程式資料夾](assets/dce_uc1_newlandingpage.png)
 
 1. 按一下「**[!UICONTROL Edit]**」標籤。
 1. 刪除&#x200B;**結束**&#x200B;活動。
 1. 在&#x200B;**[!UICONTROL Storage]**&#x200B;活動後新增&#x200B;**[!UICONTROL Page]**&#x200B;活動。
 1. 編輯&#x200B;**頁面2**&#x200B;活動，然後在&#x200B;**[!UICONTROL Properties]**&#x200B;索引標籤中取消勾選&#x200B;**[!UICONTROL Activate outbound transitions]**&#x200B;選項。
 
-   ![](assets/dce_uc1_transition.png)
+   ![名稱為「頁面2」的「頁面活動屬性」索引標籤，「啟用出站轉變」已清除](assets/dce_uc1_transition.png)
 
 1. 儲存變更。
 
 接著，您會取得下列順序：
 
-![](assets/dce_uc1_edition_activity.png)
+![網頁應用程式流程：預先載入、頁面、儲存和頁面2活動依序連線](assets/dce_uc1_edition_activity.png)
 
 >[!NOTE]
 >
->如需建立Web應用程式的詳細資訊，請參閱[本節](creating-a-new-web-application.md)。
+>如需建立Web應用程式的詳細資訊，請參閱[建立新的Web應用程式](creating-a-new-web-application.md)。
 
 ## 步驟1 — 選取和載入範本 {#step-1---selecting-and-loading-templates}
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 1. 開啟網頁應用程式的前&#x200B;**[!UICONTROL Page]**&#x200B;個活動。
 1. 選取&#x200B;**[!UICONTROL From a file]**&#x200B;以擷取您的內容範本。
 
-   ![](assets/dce_uc1_selectmodel.png)
+   ![選擇內容對話方塊列出範本：從檔案、連絡人、詳細點進、點進和贏取](assets/dce_uc1_selectmodel.png)
 
 1. 選取要使用的HTML檔案。
 1. 按一下&#x200B;**開啟**&#x200B;開始匯入。
@@ -99,7 +99,7 @@ ht-degree: 2%
 
    匯入完成後，按一下&#x200B;**[!UICONTROL Close]**&#x200B;按鈕。
 
-   ![](assets/dce_uc1_import.png)
+   ![發佈已上傳CSS、影像和指令碼檔案的資源記錄，結尾為100%成功訊息](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
@@ -108,7 +108,7 @@ ht-degree: 2%
 1. 按一下「**[!UICONTROL Properties]**」標籤。
 1. 為每個頁面輸入&#x200B;**標籤** （例如：頁面1=收集，頁面2=感謝您）。
 
-   ![](assets/dce_uc1_pagelabel.png)
+   ![已選取標籤「集合」和「啟用外站轉變」的「頁面活動屬性」索引標籤](assets/dce_uc1_pagelabel.png)
 
 請針對Web應用程式中插入的每個頁面套用這些步驟。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 在本節中，我們將調整匯入的內容，並將資料庫的欄位連結至網頁的形式。 先前建立的Web應用程式為：
 
-![](assets/dce_uc1_lp_enchainement.png)
+![具有預先載入、集合、儲存和感謝活動的網頁應用程式流程，依序連線](assets/dce_uc1_lp_enchainement.png)
 
 ### 修改內容 {#modifying-content}
 
@@ -132,37 +132,37 @@ ht-degree: 2%
 1. 選取新的背景顏色。
 1. 按一下&#x200B;**確定**&#x200B;以確認變更。
 
-   ![](assets/dce_uc1_changecolor.png)
+   ![頁面編輯器使用檢色器對話方塊，變更選取的超文字連結按鈕的背景顏色](assets/dce_uc1_changecolor.png)
 
 1. 套用這些相同的程式以變更按鈕的顏色
 
-   ![](assets/dce_uc1_finalcolor.png)
+   ![產生的登錄檔單頁面，包含FirstName、電子郵件、電話和位址列位，以及重新錄製的SEND IT按鈕](assets/dce_uc1_finalcolor.png)
 
 ### 連結表單欄位 {#linking-form-fields}
 
 我們將連結頁面中的欄位與資料庫中的欄位，以儲存提供的資訊。
 
-1. 選取表單欄位。
+1. Select表單欄位。
 1. 編輯編輯器右側的&#x200B;**[!UICONTROL Field]**&#x200B;區段。
-1. 選取您要連結至所選欄位的資料庫欄位。
+1. Select您要連結至所選欄位的資料庫欄位。
 
-   ![](assets/dce_uc1_mapping.png)
+   ![選取名字的收件者對話方塊欄位，以將輸入區域對應到資料庫欄位](assets/dce_uc1_mapping.png)
 
 1. 對頁面上的每個欄位重複此程式。
 
 您可以將欄位設為必要欄位：例如，按一下&#x200B;**[!UICONTROL Email]**&#x200B;欄位，然後啟用&#x200B;**必要欄位**&#x200B;選項。
 
-![](assets/dce_uc1_fieldmandatory.png)
+![表單資料區段](assets/dce_uc1_fieldmandatory.png)中強制選項設為「是」的頁面編輯器輸入區域設定
 
 ### 建立下一頁的連結 {#creating-a-link-to-the-next-page}
 
 此步驟為必要步驟，因為它可讓Web應用程式決定後續步驟的順序：將收集的資料儲存在資料庫中，然後顯示下一頁（**感謝您**&#x200B;頁）。
 
-1. 選取&#x200B;**[!UICONTROL Collection]**&#x200B;頁面的&#x200B;**[!UICONTROL Send it!]**&#x200B;按鈕。
+1. Select **[!UICONTROL Collection]**&#x200B;頁面的&#x200B;**[!UICONTROL Send it!]**&#x200B;按鈕。
 1. 按一下&#x200B;**[!UICONTROL Action]**&#x200B;下拉式功能表。
-1. 選取&#x200B;**[!UICONTROL Next page]**&#x200B;動作。
+1. Select **[!UICONTROL Next page]**&#x200B;動作。
 
-   ![](assets/dce_uc1_actionbouton.png)
+   ![超文字連結設定，其中的「動作」下拉式清單已開啟，且已選取「下一頁」](assets/dce_uc1_actionbouton.png)
 
 ### 插入個人化欄位 {#inserting-a-personalization-field}
 
@@ -173,21 +173,21 @@ ht-degree: 2%
 1. 在工具列的&#x200B;**[!UICONTROL Insert]**&#x200B;功能表中選取&#x200B;**[!UICONTROL Personalization field]**。
 1. 選取名字。
 
-   ![](assets/dce_uc1_persochamp.png)
+   ![已選取Personalization欄位且在[插入專案]對話方塊中選取名字欄位的[插入]功能表](assets/dce_uc1_persochamp.png)
 
 編輯器中的個人化欄位有黃色背景。
 
-![](assets/dce_uc1_edit_champperso.png)
+![使用以黃色反白顯示名字個人化欄位的「感謝您」頁面標題](assets/dce_uc1_edit_champperso.png)
 
 ## 步驟3 — 發佈內容 {#step-3---publishing-content}
 
 內容會從網頁應用程式儀表板發佈。 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以執行。
 
-![](assets/dce_uc1_pub_dashboard.png)
+![具有[發佈]按鈕的Web應用程式儀表板，以及必須發佈應用程式的訊息](assets/dce_uc1_pub_dashboard.png)
 
 發佈期間會顯示記錄。 發佈系統會分析在網頁應用程式中找到的所有內容
 
-![](assets/dce_uc1_pub_dashboard_journal.png)
+![Web應用程式發佈記錄檔的結尾是[處理完成] （有警告）和[關閉]按鈕](assets/dce_uc1_pub_dashboard_journal.png)
 
 >[!NOTE]
 >

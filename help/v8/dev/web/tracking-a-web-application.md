@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 3%
 ---
 # 追蹤網站應用程式的瀏覽次數{#tracking-a-web-application}
 
@@ -50,11 +50,11 @@ Adobe Campaign可讓您插入追蹤標籤，藉此追蹤及測量網站應用程
 * 可在相同頁面上插入數個追蹤標籤，以便簡化導覽路徑定義（例如購買、訂閱、退貨等）。
 * 在網頁應用程式儀表板中檢視不同頁面的導覽路徑和追蹤標籤。
 
-  ![](assets/trackers_1.png)
+  ![網頁應用程式儀表板，包含追蹤標籤區段，列出轉換路徑及每個頁面上的追蹤標籤階段](assets/trackers_1.png)
 
 * 產生完整追蹤報表。
 
-  ![](assets/trackers_5.png)
+  ![追蹤標籤分析報告，包含總造訪次數、不重複訪客、轉換率、跳出率和造訪圖表](assets/trackers_5.png)
 
   主要指標如下：
 
@@ -71,7 +71,7 @@ Adobe Campaign可讓您插入追蹤標籤，藉此追蹤及測量網站應用程
 1. 傳送特定傳遞以授予網頁應用程式頁面的存取權：在此案例中，流量來源是此傳遞，
 1. 將Web應用程式關聯至專用的流量來源：在此情況下，它必須是外部「流量來源」型別的傳遞。 您可以從Web應用程式特性或目標對應中選取它。
 
-   ![](assets/trackers_6.png)
+   ![Web應用程式屬性的進階引數對話方塊，其流量來源欄位設定為Web傳遞](assets/trackers_6.png)
 
 為了識別網頁應用程式中的流量來源，Adobe Campaign會連續尋找下列資訊：
 
@@ -85,14 +85,14 @@ Adobe Campaign可讓您插入追蹤標籤，藉此追蹤及測量網站應用程
 
 ## 使用數位內容編輯器(DCE)設計的網頁應用程式 {#web-applications-designed-with-digital-content-editor--dce-}
 
-使用HTML內容編輯器 — **數位內容編輯器(DCE)**&#x200B;建立Web應用程式時 — 會從編輯器的&#x200B;**[!UICONTROL Properties]**&#x200B;索引標籤插入追蹤標籤。 如需數位內容編輯器(DCE)的詳細資訊，請參閱[本節](about-campaign-html-editor.md)。
+使用HTML內容編輯器 — **數位內容編輯器(DCE)**&#x200B;建立Web應用程式時 — 會從編輯器的&#x200B;**[!UICONTROL Properties]**&#x200B;索引標籤插入追蹤標籤。 如需數位內容編輯器(DCE)的詳細資訊，請參閱[開始使用Campaign HTML編輯器](about-campaign-html-editor.md)。
 
-![](assets/trackers_2.png)
+![DCE頁面屬性標籤，其中追蹤標籤已指派目標，例如訂閱、轉換或更新](assets/trackers_2.png)
 
 使用網頁介面時，必須從頁面屬性插入追蹤標籤。
 
-![](assets/trackers_3.png)
+![頁面對話方塊的屬性，追蹤標籤標籤，列出每個標籤及其階段和目標動作](assets/trackers_3.png)
 
 **[!UICONTROL Display blocks]**&#x200B;圖示可讓您檢視針對頁面定義的追蹤標籤數目。
 
-![](assets/trackers_4.png)
+![在網頁編輯器中顯示區塊圖示，工具提示表示頁面中有2個追蹤標籤](assets/trackers_4.png)

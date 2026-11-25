@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '1069'
 ht-degree: 0%
 ---
 # 網路表單答案{#web-forms-answers}
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 針對表單中的每個輸入欄位，可使用下列儲存選項：
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![具有[編輯儲存體]連結的[姓氏]輸入欄位，以及[儲存體]對話方塊，其中顯示[編輯收件者和變數]選項。](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL Edit a recipient]**
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 若要將資料儲存在資料庫的現有欄位中，請按一下&#x200B;**[!UICONTROL Edit expression]**&#x200B;圖示，然後從可用欄位清單中選取資料。
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![含有Edit運算式的儲存體對話方塊開啟欄位選取器，其中選取了姓氏(@lastName)。](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ ht-degree: 0%
 
 這表示您可以使用未儲存欄位的值來授權在頁面上顯示一組選項。 在以下頁面中，車輛型別未儲存在資料庫中：
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![將儲存設定為變數typeV和編輯儲存連結的汽車組合方塊型別。](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 儲存在變數中，建立下拉式方塊時或透過&#x200B;**[!UICONTROL Edit storage...]**&#x200B;連結時必須選取該變數。
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![包含「變數」選項的「儲存」對話方塊，以及下拉式清單「車型」、「搬運卡車」和「個人車」。](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 您可以透過&#x200B;**[!UICONTROL Edit variables...]**&#x200B;連結顯示現有變數並建立新變數。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以建立新變數。
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![使用Car Energy標籤和名稱編輯變數清單和[變數]對話方塊，輸入Text以新增變數。](assets/s_ncs_admin_survey_add_a_variable.png)
 
 建立頁面的輸入欄位時，新增的變數將可在本機變數清單中使用。
 
@@ -81,19 +81,19 @@ ht-degree: 0%
 
 在上述範例中，僅當從下拉式清單中選取&#x200B;**[!UICONTROL Private]**&#x200B;選項時，才會顯示包含私人車輛相關資料的容器，如可見性條件中所示：
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![個人汽車容器可見度條件：汽車型別等於個人。](assets/s_ncs_admin_survey_add_a_condition.png)
 
 如果使用者選擇私人車輛，網路表單會提供下列選項：
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![車輛預訂表單頁面，其中顯示Select、Compact、Intermediate和Standard的「車輛型別」下拉式清單。](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 如果選取「專業」選項，則會顯示內含商業車輛相關資料的容器，如可見度條件所示：
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![卡車/貨車容器可見度條件：來源等於「卡車」。](assets/s_ncs_admin_survey_view_a_condition.png)
 
 這表示，如果使用者選取商業車輛，表單會提供下列選項：
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![已選取「搬運卡車」的車輛預訂表單，以及列有「小巴士」、「皮卡」、「貨車」及「20輛卡車」的「類別」下拉式清單。](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## 使用收集的資訊 {#using-collected-information}
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 若要儲存表單頁面中所收集的資訊，您需要在圖表中放置儲存方塊。
 
-![](assets/s_ncs_admin_survey_save_box.png)
+![網頁表單圖表，包含歡迎頁面、訂閱、儲存和結束活動，醒目提示儲存方塊。](assets/s_ncs_admin_survey_save_box.png)
 
 使用此方塊有兩種方式：
 
@@ -139,13 +139,13 @@ ht-degree: 0%
 
 * 若要擴充資料庫中收件者的資料，請編輯儲存方塊並選取調解金鑰。 對於內部使用（通常是內部網路系統）或用來建立新設定檔的表單，您可以選取調解欄位。 方塊提供Web應用程式各個頁面中所使用之資料庫的所有欄位：
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![儲存活動對話方塊，其中包含[收件者]欄位和[搜尋]資料夾欄位的調解選項樹狀結構。](assets/s_ncs_admin_survey_save_box_edit.png)
 
 依預設，資料會透過&#x200B;**[!UICONTROL Update or insertion]**&#x200B;作業匯入資料庫：如果資料存在於資料庫中，則會更新元素（例如，選取的Newsletter或輸入的電子郵件地址）。 如果不存在，則會新增資訊。
 
 不過，您可以變更此行為。 要執行此操作，請選取元素的根目錄，然後從下拉式清單中選取要執行的操作：
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![儲存活動作業清單：僅限調解、更新或插入、插入、更新及刪除。](assets/s_ncs_admin_survey_save_operation.png)
 
 您可以選取要調解的搜尋資料夾，以及新設定檔的建立資料夾。 如果這些欄位為空，則會搜尋設定檔並在運運算元的預設資料夾中建立。
 
@@ -153,4 +153,4 @@ ht-degree: 0%
 >
 >可能的操作包括： **[!UICONTROL Simple reconciliation]**、**[!UICONTROL Update or insertion]**、**[!UICONTROL Insertion]**、**[!UICONTROL Update]**、**[!UICONTROL Deletion]**。\
 >操作員的預設資料夾是操作員具有寫入許可權的第一個資料夾。\
->請參閱[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。
+>請參閱[本節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}。

@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '661'
 ht-degree: 3%
 ---
 # 內容編輯器介面{#content-editor-interface}
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 DCE編輯視窗分為三個不同的區段。 它們可讓您檢視、修改和檢查內容的狀態。
 
-![](assets/dce_decoupe_window_nb.png)
+![DCE編輯視窗，包含三個編號區段：狀態訊息、內容區域及右側選項面板](assets/dce_decoupe_window_nb.png)
 
 1. **top**&#x200B;區段是顯示給使用者的訊息區域。 這些訊息會指出網頁應用程式的狀態或正在建立的傳送，以及與內容相關的警告和錯誤訊息。 如需詳細資訊，請參閱[HTML內容狀態](content-editing-best-practices.md#html-content-statuses)。
 1. 視窗&#x200B;**左側**&#x200B;的區段是編輯內容的區域。 在此區域中，使用者可以使用快顯工具列直接與內容互動：將連結插入影像中、變更字型、刪除欄位等。如需詳細資訊，請參閱[編輯表單](editing-content.md#editing-forms)。
@@ -48,17 +48,17 @@ DCE編輯視窗分為三個不同的區段。 它們可讓您檢視、修改和�
 
 編輯器的右上角可讓您存取全域選項，以便控制目前建立的內容。
 
-![](assets/dce_global_options.png)
+![編輯器的右上角，區塊選項面板上方有四個全域選項圖示](assets/dce_global_options.png)
 
 它有四個圖示：
 
-![](assets/dce_icons_sidebar.png)
+![全域選項圖示：顯示/隱藏區塊、選擇其他內容、另存為範本和頁面的屬性](assets/dce_icons_sidebar.png)
 
 * **顯示/隱藏區塊**&#x200B;圖示可讓您顯示內容區塊周圍的藍色框架（與`<div>`個HTML標籤相對應）。
 
 * **選擇其他內容**&#x200B;圖示可讓使用者從範本（現有範本或現成可用的範本）載入新內容。
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![選擇內容對話方塊，其中包含「從檔案」和可用的範本，例如「連絡人」和「點進」](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -66,15 +66,15 @@ DCE編輯視窗分為三個不同的區段。 它們可讓您檢視、修改和�
 
 * **另存為範本**&#x200B;圖示可讓您將目前內容另存為範本。 您必須輸入範本的標籤和內部名稱。 範本儲存在&#x200B;**[!UICONTROL Resources > Templates > Content templates]**&#x200B;節點中。
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![儲存為範本對話方塊，並包含標籤、內部名稱和資料夾欄位](assets/dce_popup_savetemplate.png)
 
   儲存後，範本即可使用，並可在建立新內容時選取。
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![電子郵件傳送HTML內容索引標籤，內容範本中有已儲存的Music &amp; Arts範本](assets/dce_create_fromtemplate.png)
 
 * **頁面屬性**&#x200B;圖示可讓您選取HTML頁面頂端的內容資訊。
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![頁面對話方塊的屬性，包含HTML頁面標頭的「標題」、「關鍵字」和「說明」欄位](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -86,7 +86,7 @@ DCE編輯視窗分為三個不同的區段。 它們可讓您檢視、修改和�
 
 編輯器右側的區段會將主要選項分組，讓您根據內容採取行動。 若要顯示這些選項，您必須選取區塊：這些選項的性質取決於選取的區塊。
 
-![](assets/dce_right_section.png)
+![編輯器的右側區段，包含[區塊]選項：[可見度]條件、[框線]和[背景]色彩](assets/dce_right_section.png)
 
 您可以：
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 1%
+source-wordcount: '1481'
+ht-degree: 0%
 ---
 # 發佈網路表單{#publishing-a-web-form}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 * **[!UICONTROL DES encryption]**
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![預先載入識別區段，方法設定為DES加密、DES金鑰欄位，如果沒有ID，則略過預先載入](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   此加密方法使用外部提供的識別碼(ID)，連結至Adobe Campaign和外部提供者共用的金鑰。 **[!UICONTROL Des key]**&#x200B;欄位可讓您輸入此加密金鑰。
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
   此選項可讓您從表單目前內容的欄位中進行選擇，這些欄位將用於尋找資料庫中的對應設定檔。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![預先載入識別碼區段，其欄位清單方法和選取為識別碼的電子郵件欄位](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   欄位可透過&#x200B;**[!UICONTROL Parameters]**&#x200B;索引標籤新增至表單屬性（請參閱[新增引數](defining-web-forms-properties.md#adding-parameters)）。 它們會放置在表單URL或輸入區域中。
 
@@ -69,11 +69,11 @@ ht-degree: 1%
 
   URL可包含未加密的電子郵件地址，在此情況下，使用者可直接存取他們相關的頁面。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![包含電子郵件地址的網頁表單URL，直接開啟預填的使用者端資訊表單](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   否則，系統會要求他們輸入密碼。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![沒有電子郵件的網頁表單URL，開啟要求密碼的「輸入密碼」頁面](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 例如，您可以預先載入收件者的性別，並透過測試方塊自動將其導向適當的頁面。
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![預先載入方塊載入性別欄位，接著是測試方塊，將收件者傳送至相符頁面](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## 管理網路表單傳遞和追蹤 {#managing-web-forms-delivery-and-tracking}
 
@@ -137,13 +137,13 @@ ht-degree: 1%
 
 表單的發佈狀態會顯示在表單清單中。
 
-![](assets/s_ncs_admin_survey_status.png)
+![網頁應用程式清單，顯示每個表單的發佈狀態，例如「線上」和「正在編輯」](assets/s_ncs_admin_survey_status.png)
 
 ### 發佈表單 {#publishing-a-form}
 
 若要變更表單的狀態，您必須將其發佈。 若要這麼做，請按一下網路表單清單上方的&#x200B;**[!UICONTROL Publication]**&#x200B;按鈕，然後在下拉式方塊中選取狀態。
 
-![](assets/webapp_publish_webform.png)
+![含[發佈]按鈕的Web表單儀表板，指向含[開始]按鈕的Web應用程式發佈對話方塊](assets/webapp_publish_webform.png)
 
 ### 線上上提供表單 {#making-a-form-available-online}
 
@@ -151,17 +151,17 @@ ht-degree: 1%
 
 * 使用&#x200B;**[!UICONTROL Project]**&#x200B;區段中的欄位來輸入表單的開始和結束日期。
 
-  ![](assets/webapp_availability_date.png)
+  ![屬性的[一般]索引標籤，在[專案]區段中有[開始]和[結束]日期欄位，且[結束日期]行事曆已開啟](assets/webapp_availability_date.png)
 
 * 按一下&#x200B;**[!UICONTROL Personalize the message displayed if the form is closed...]**&#x200B;連結以定義若使用者在表單無效時嘗試存取表單，則要顯示的錯誤訊息。
 
-  請參閱表單[&#128279;](defining-web-forms-properties.md#accessibility-of-the-form)的協助工具。
+  請參閱表單](defining-web-forms-properties.md#accessibility-of-the-form)的[協助工具。
 
 ### 透過電子郵件傳遞表單 {#delivering-a-form-via-email}
 
 當您透過電子郵件傳送邀請時，可以使用&#x200B;**[!UICONTROL Adobe Campaign Encryption]**&#x200B;選項進行資料協調。 若要這麼做，請前往傳送小幫手，新增下列引數，將連結調整為適合表單：
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
@@ -169,21 +169,21 @@ ht-degree: 1%
 
 在此情況下，您需要核取記錄方塊中的&#x200B;**[!UICONTROL Update the preloaded record]**&#x200B;選項。 如需詳細資訊，請參閱[儲存網路表單答案](web-forms-answers.md#saving-web-forms-answers)。
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+![儲存方塊對話方塊，已勾選「更新預先載入的記錄」選項](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### 記錄回應 {#log-responses}
 
 可在專用標籤中啟用回應追蹤，以監控網頁表單的影響。 若要這麼做，請按一下表單屬性視窗中的&#x200B;**[!UICONTROL Advanced parameters...]**&#x200B;連結，然後選取&#x200B;**[!UICONTROL Log responses]**&#x200B;選項。
 
-![](assets/s_ncs_admin_survey_trace.png)
+![進階引數對話方塊，已核取[記錄回應]選項，從表單屬性開啟](assets/s_ncs_admin_survey_trace.png)
 
 **[!UICONTROL Responses]**&#x200B;標籤可讓您檢視回應者的身分。
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+網頁表單的![回應索引標籤，列出每個表單回應的日期和收件者](assets/s_ncs_admin_survey_trace_tab.png)
 
 選取收件者並按一下&#x200B;**[!UICONTROL Detail...]**&#x200B;按鈕，以檢視提供的回應。
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+[回應]索引標籤上的![詳細資訊按鈕會開啟含有收件者輸入之答案的表單回應視窗](assets/s_ncs_admin_survey_trace_edit.png)
 
 您可以處理查詢中提供的回應記錄，例如，在傳送提醒時僅針對非回應者，或僅向回應者提供特定通訊。
 
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 從執行個體匯出和匯入包含Web表單的套件至另一個執行個體時（例如，從預備到生產），新執行個體上的Web表單狀態可能會根據多個條件而改變。 以下列出不同案例。
 
-在[本節](#life-cycle-of-a-form)中進一步瞭解網頁表單的不同狀態。
+深入瞭解在[表單生命週期](#life-cycle-of-a-form)中，網頁表單的不同狀態。
 
 >[!NOTE]
 >

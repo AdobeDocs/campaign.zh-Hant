@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1823'
 ht-degree: 0%
 ---
 # 翻譯網路表單{#translating-a-web-form}
@@ -57,7 +57,7 @@ ht-degree: 0%
 >
 >此視窗也可讓您變更預設語言和編輯語言。
 
-![](assets/s_ncs_admin_survey_add_lang.png)
+![網頁應用程式屬性本地化標籤，包含設計和預設語言及其他語言法文和西班牙文](assets/s_ncs_admin_survey_add_lang.png)
 
 當您新增網頁應用程式的翻譯語言時（或預設語言與編輯語言不同時），**[!UICONTROL Edit]**&#x200B;標籤中會新增&#x200B;**[!UICONTROL Translation]**&#x200B;子標籤以管理翻譯。
 
@@ -71,9 +71,9 @@ Adobe Campaign包含翻譯及管理多語言翻譯的工具。 此編輯器可�
 
 第一次開啟此索引標籤時，不會包含任何資料。 按一下&#x200B;**[!UICONTROL Collect the strings to translate]**&#x200B;連結以更新網頁應用程式中的字串。
 
-Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x200B;索引標籤中定義的欄位和字串標籤：HTML區塊、Javascript等。靜態元素在網頁表單[&#128279;](static-elements-in-a-web-form.md)中的靜態元素中有詳細的說明。
+Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x200B;索引標籤中定義的欄位和字串標籤：HTML區塊、Javascript等。靜態元素在網頁表單](static-elements-in-a-web-form.md)中的[靜態元素中有詳細的說明。
 
-![](assets/s_ncs_admin_survey_trad_tab.png)
+![網頁應用程式的翻譯索引標籤，包含收集要翻譯的連結和字串要翻譯的字串](assets/s_ncs_admin_survey_trad_tab.png)
 
 >[!CAUTION]
 >
@@ -89,9 +89,9 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
 ### 篩選字串 {#filtering-strings}
 
-依預設，會顯示Web應用程式的每種翻譯語言。 預設篩選器有兩種：語言和狀態。 按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL By language or status]**&#x200B;以顯示相符的下拉式方塊。 您也可以建立進階篩選。 如需篩選器的詳細資訊，請參閱[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/audience/create-filters){target=_blank}。
+依預設，會顯示Web應用程式的每種翻譯語言。 預設篩選器有兩種：語言和狀態。 按一下&#x200B;**[!UICONTROL Filters]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL By language or status]**&#x200B;以顯示相符的下拉式方塊。 您也可以建立進階篩選。 如需篩選器的詳細資訊，請參閱[Campaign v8 （主控台）檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}。
 
-![](assets/s_ncs_admin_survey_trad_tab_en.png)
+![翻譯索引標籤篩選功能表包含依語言或狀態，篩選狀態為「待翻譯」的法文字串](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 移至&#x200B;**[!UICONTROL Language]**&#x200B;下拉式方塊以選取翻譯語言。
 
@@ -101,7 +101,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
 1. 若要翻譯單字，請在字串清單上連按兩下其行。
 
-   ![](assets/s_ncs_admin_survey_trad_tab_add_term.png)
+   ![翻譯對話方塊，包含來源字串、法文翻譯、翻譯核准選項及儲存](assets/s_ncs_admin_survey_trad_tab_add_term.png)
 
    來源字串會顯示在視窗的上半部分。
 
@@ -125,7 +125,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 
 1. 選取您要匯出其字串的Web應用程式，按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Actions > Export strings for translation...]**
 
-   ![](assets/s_ncs_admin_survey_trad_export.png)
+   ![網頁應用程式清單右鍵[動作]功能表，其中反白顯示翻譯的[匯出]字串](assets/s_ncs_admin_survey_trad_export.png)
 
 1. 選取&#x200B;**[!UICONTROL Export strategy]** ：
 
@@ -146,7 +146,7 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
 1. 然後選擇將記錄檔案的&#x200B;**[!UICONTROL Target folder]**。
 1. 選取檔案格式（ **[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL XLIFF]** ）並按一下&#x200B;**[!UICONTROL Start]**。
 
-![](assets/s_ncs_admin_survey_trad_export_start.png)
+![匯出翻譯精靈的字串，每個語言一個檔案、目標資料夾、CSV或XLIFF格式並開始](assets/s_ncs_admin_survey_trad_export_start.png)
 
 >[!NOTE]
 >
@@ -164,11 +164,11 @@ Adobe Campaign會收集在所有靜態元素的&#x200B;**[!UICONTROL Texts]**&#x
    >
    >不需要選取翻譯所關心的網頁應用程式。 將游標置於Web應用程式清單上的任何位置。
 
-   ![](assets/s_ncs_admin_survey_trad_import.png)
+   ![網頁應用程式清單右鍵[動作]功能表，其中反白顯示[匯入轉譯字串]](assets/s_ncs_admin_survey_trad_import.png)
 
-1. 選取要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+1. Select要匯入的檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
-   ![](assets/s_ncs_admin_survey_trad_import_start.png)
+   ![匯入已選取要匯入的本機CSV檔案及[上傳]按鈕的翻譯字串精靈](assets/s_ncs_admin_survey_trad_import_start.png)
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 &lang=xx
 ```
 
-如果URL中的語言之前有其他引數。 例如： **https://myserver/webApp/APP34?status=1&lang=en**
+如果URL中的語言之前有其他引數。 例如： **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 以下列出預設可用的翻譯語言和字典。
 
@@ -434,7 +434,7 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 
 下列網路表單提供四種語言版本：英文、法文、德文和西班牙文。 字元字串已透過Web表單的&#x200B;**[!UICONTROL Translation]**&#x200B;索引標籤全部轉譯。 由於預設語言為英文，因此發佈調查表時，請使用標準URL以英文顯示。
 
-![](assets/s_ncs_admin_survey_trad_sample_fr.png)
+![網頁表單歡迎頁面以英文顯示，包含標題、名稱、電子郵件、電話和位址列位以及[下一步]按鈕](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
 在URL結尾新增&#x200B;**？lang=fr**，以法文顯示：
 
@@ -442,14 +442,14 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 >
 >每種語言的符號清單在[變更表單顯示語言](#changing-forms-display-language)中詳細說明。
 
-![](assets/s_ncs_admin_survey_trad_sample_en.png)
+將lang=fr新增至URL後，![相同的歡迎頁面以法文顯示，且lang引數強調顯示](assets/s_ncs_admin_survey_trad_sample_en.png)
 
 您可以新增&#x200B;**？lang=es**&#x200B;或&#x200B;**？lang=de**&#x200B;以西班牙文或德文顯示。
 
 >[!NOTE]
 >
 >如果此Web應用程式已使用其他引數，請新增&#x200B;**&amp;lang=**。\
->例如： **https://myserver/webApp/APP34?status=1&lang=en**
+>例如： **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 進階翻譯設定 {#advanced-translation-configuration}
 
@@ -463,18 +463,18 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 
 如果您將Web應用程式翻譯成系統字典未翻譯的語言，則會出現警告訊息，通知您缺少部分翻譯。
 
-![](assets/s_ncs_admin_survey_trad_error.png)
+![翻譯索引標籤中的警告：系統字典中遺漏語言es和fr的27個翻譯](assets/s_ncs_admin_survey_trad_error.png)
 
 若要新增語言，請套用下列步驟：
 
 1. 前往Adobe Campaign樹狀結構，然後按一下「**[!UICONTROL Administration > Configuration > Global dictionary > System dictionary]**」。
 1. 在視窗的上半部分，選取要翻譯的系統字串，然後按一下下半部分的&#x200B;**[!UICONTROL Add]**。
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation.png)
+   ![全域字典下的系統字典，已選取buttonPrevious等字串且Add按鈕反白顯示](assets/s_ncs_admin_survey_trad_system_translation.png)
 
 1. Select翻譯語言，並輸入字串的翻譯。 您可以核取&#x200B;**[!UICONTROL Translation approved]**&#x200B;選項以核准翻譯。
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
+   ![按鈕的翻譯對話方塊選取法文的先前按鈕，已核准翻譯文字和翻譯選項](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
    >[!NOTE]
    >
@@ -490,8 +490,8 @@ Web表單會以Web應用程式屬性之&#x200B;**[!UICONTROL Localization]**&#x2
 
 1. 按一下Adobe Campaign樹狀結構的&#x200B;**[!UICONTROL Administration > Platform > Enumerations]**&#x200B;節點，然後從清單中選取&#x200B;**[!UICONTROL Languages available for translation]**。 可用翻譯的清單會顯示在視窗的下方。
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
+   ![列舉清單，已選取可供翻譯的語言(dictionaryLocale)，且[新增]按鈕反白顯示](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，然後輸入影像的&#x200B;**[!UICONTROL Internal name]**、**[!UICONTROL Label]**&#x200B;和識別碼（標幟）。 若要新增影像，請聯絡您的管理員。
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
+   ![具有內部名稱、標籤威爾士語和影像欄位的新語言的列舉值對話方塊](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

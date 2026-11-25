@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '740'
 ht-degree: 2%
 ---
 # 網站應用程式追蹤選擇退出{#web-application-tracking-opt-out}
@@ -47,13 +47,13 @@ Adobe Campaign可讓您停止追蹤使用者的網路行為，這些使用者選
 
 >[!NOTE]
 >
->當指令碼一律遵循[安全性與隱私權檢查清單](https://helpx.adobe.com/tw/campaign/kb/acc-security.html#dev)中說明的准則時。
+>當指令碼一律遵循[安全性與隱私權檢查清單](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)中說明的准則時。
 
 ## 設定橫幅 {#configuring-the-banner-}
 
 橫幅必須設定才能顯示在網頁應用程式或登入頁面中。
 
-Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。 此橫幅版本會在內容模型資料夾中顯示為個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=zh-Hant){target="_blank"}。
+Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。 此橫幅版本會在內容模型資料夾中顯示為個人化區塊。 請參閱[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -66,11 +66,11 @@ Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。
 * 沒有橫幅。
 * 在每個頁面上手動設定橫幅：核取此選項，並在頁面屬性中選取每個頁面中的橫幅。
 
-  ![](assets/pageproperties.png)
+  ![已核取[啟用外站轉變]選項的[頁面屬性]對話方塊標頭。](assets/pageproperties.png)
 
 * 自動將橫幅新增至所有頁面：直接在網頁應用程式屬性中選取橫幅。
 
-  ![](assets/optoutconfig.png)
+  ![含有選擇退出橫幅選項的Web應用程式屬性[一般]索引標籤：沒有橫幅、每頁手動或自動。](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。
 
 預設橫幅的結構如下：
 
-```
+```xml
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
    <a onClick="NL.ClientWebTracking.allow();" class="optout-accept">Accept</a>
@@ -90,7 +90,7 @@ Adobe Campaign隨附範例橫幅，您必須根據自己的需求進行調整。
 
 您必須將&#x200B;**請在此插入您的訊息**，並以包含追蹤資訊的區塊取代。 此取代應在與選擇退出橫幅相關的新個人化區塊中執行。
 
-橫幅會以特定CSS傳遞。 不過，您可在建立和設定網頁時覆寫樣式。 請參見[此頁面](content-editor-interface.md)。
+橫幅會以特定CSS傳遞。 不過，您可在建立和設定網頁時覆寫樣式。 請參閱[內容編輯器介面](content-editor-interface.md)。
 
 ## 使用API設定選擇退出Cookie {#setting-the-opt-out-cookie-using-api}
 
@@ -137,7 +137,7 @@ Cookie名稱為&#x200B;**apottout**。 常見的值包括：
 
 JSSP範例：
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

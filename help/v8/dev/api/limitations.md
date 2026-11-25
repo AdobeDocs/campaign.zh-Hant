@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1071'
 ht-degree: 1%
 ---
 # 建議與限制 {#limitations}
@@ -81,7 +81,7 @@ Campaign Standard和Campaign v8的PKey值管理方式不同。 如果您使用Ca
 
 * 若要在REST API裝載中使用篩選器，您需要在Campaign v8中編輯篩選器，並提供要在裝載中使用的名稱。 若要這麼做，請從&#x200B;**[!UICONTROL Parameters]**&#x200B;索引標籤存取篩選器的其他引數，並在&#x200B;**[!UICONTROL Filter name in REST API]**&#x200B;欄位中提供所需的名稱。
 
-  ![](assets/api-filtering.png)
+  ![預先定義篩選器的進階引數對話方塊，其REST API欄位中的篩選名稱設定為byEmailNotEmpty](assets/api-filtering.png)
 
 
 * 使用自訂篩選器所需的「by」首碼已不再需要。 篩選器名稱的使用方式應與請求相同。

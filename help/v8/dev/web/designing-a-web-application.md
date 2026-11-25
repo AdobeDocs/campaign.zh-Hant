@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 4%
+source-wordcount: '347'
+ht-degree: 3%
 ---
 # 設計網站應用程式{#designing-a-web-application}
 
@@ -47,21 +47,21 @@ Web應用程式是依照與[網路表單](about-web-forms.md)相同的原則建�
 
 您可以在Web應用程式中包含圖表。 要執行此操作，請使用工作列中的圖表下拉式清單來選取要插入的圖表型別。
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![頁面編輯器工具列圖表下拉式清單，列出長條圖、圓餅圖、雷達、區域、曲線和Funnel。](assets/s_ncs_admin_webapps_bar_graph.png)
 
 您也可以選取&#x200B;**[!UICONTROL Add a chart]**&#x200B;功能表。
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![頁面內容功能表包含「新增圖表」子功能表，其中列出長條圖、圓餅圖、雷達、區域、曲線和Funnel。](assets/s_ncs_admin_webapps_graph.png)
 
 ## 在Web應用程式中插入表格 {#inserting-tables-in-a-web-application}
 
 若要新增表格，請使用工作列中的表格下拉式清單來選取要使用的表格型別。
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![頁面編輯器工具清單格下拉式清單，列出樞紐分析表、具有群組的清單及分佈。](assets/s_ncs_admin_webapps_bar_table.png)
 
 您也可以在下拉式選單中選取表格型別。
 
-![](assets/s_ncs_admin_webapps_table.png)
+![頁面內容功能表，包含[新增表格]子功能表，其中列出樞紐分析表、具有群組的清單及分送。](assets/s_ncs_admin_webapps_table.png)
 
 ## 概觀型別的Web應用程式 {#overview-type-web-applications}
 

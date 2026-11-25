@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '2026'
 ht-degree: 1%
 ---
 # 使用資料套件{#data-packages}
@@ -126,15 +126,15 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 若要匯出資料封裝中的物件集，請遵循下列步驟：
 
 1. 透過總管的&#x200B;**[!UICONTROL Tools > Advanced > Export package...]**&#x200B;功能表瀏覽至封裝匯出小幫手。
-1. 選取[封裝型別](#types-of-packages)。
+1. Select [型別的套件](#types-of-packages)。
 
-   ![](assets/package_type.png)
+   ![封裝匯出精靈，包含使用者封裝、平台封裝和管理封裝選項，已選取使用者封裝](assets/package_type.png)
 
 1. 按一下&#x200B;**新增**&#x200B;按鈕，選取要匯出為封裝的實體。
 
    >[!CAUTION]
    >
-   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 選取與資料夾對應的實體：優惠方案類別為&#x200B;**nms:offerCategory**、優惠方案環境為&#x200B;**nms:offerEnv**、方案為&#x200B;**nms:program**、計畫為&#x200B;**nms:plan**。
+   >如果您匯出&#x200B;**[!UICONTROL Offer category]**、**[!UICONTROL Offer environment]**、**[!UICONTROL Program]**&#x200B;或&#x200B;**[!UICONTROL Plan]**&#x200B;型別資料夾，請勿選取&#x200B;**xtk:folder**，因為您可能會遺失部分資料。 Select與資料夾對應的實體：針對優惠方案類別為&#x200B;**nms:offerCategory**、針對優惠方案環境為&#x200B;**nms:offerEnv**、針對方案為&#x200B;**nms:program**，針對計畫為&#x200B;**nms:plan**。
 
    相依性機制會控制實體匯出順序。 如需詳細資訊，請參閱[管理相依性](#manage-dependencies)。
 
@@ -142,7 +142,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 
    >[!NOTE]
    >
-   >查詢編輯器出現在[此區段](../../automation/workflow/query.md)中。
+   >查詢編輯器出現在[建立查詢](../../automation/workflow/query.md#creating-a-query)中。
 
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;並選取匯出資料的排序順序。
 
@@ -159,7 +159,7 @@ XML檔案必須以`<package>`專案開頭和結尾。 後續的任何`<entities>
 
 >[!NOTE]
 >
->連結到結構描述元素的完整性型別定義於[此頁面](database-links.md)。
+>連結到結構描述元素的完整性型別定義於Campaign結構描述中的[連結管理](database-links.md)。
 
 #### 匯出行銷活動 {#export-a-campaign}
 
@@ -241,7 +241,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 若要建立封裝定義，請按一下&#x200B;**[!UICONTROL New]**&#x200B;按鈕，然後填寫封裝定義的一般資訊。
 
-![](assets/packagedefinition_create.png)
+![含有[新增]按鈕和[一般]索引標籤欄位[標籤]、[名稱]和[散發者]的封裝定義資料夾](assets/packagedefinition_create.png)
 
 然後，您可以將實體加入封裝定義中，並將其匯出至XML檔案封裝。
 
@@ -253,9 +253,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 將實體新增至封裝定義 {#add-entities-to-a-package-definition}
 
-在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以選取要與封裝一起匯出的實體。 選取實體時的最佳實務會顯示在[此區段](#export-a-set-of-objects-in-a-package)中。
+在&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中，按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以選取要與封裝一起匯出的實體。 在[匯出封裝中的一組物件](#export-a-set-of-objects-in-a-package)中呈現選取實體時的最佳實務。
 
-![](assets/packagedefinition_addentities.png)
+![封裝定義的[內容]索引標籤，其中的[新增]按鈕會開啟[匯出實體]對話方塊列出結構描述](assets/packagedefinition_addentities.png)
 
 實體可以直接從其在執行個體中的位置新增到套件定義中。 要執行此操作，請遵循下列步驟：
 
@@ -263,13 +263,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. Select **[!UICONTROL Add to a package definition]**，然後選取您要新增實體的封裝定義。
 
-1. 實體已新增至封裝定義，並將與封裝一起匯出（請參閱[此區段](#export-packages-from-a-package-definition)）。
+1. 實體已新增至封裝定義，並將與封裝一起匯出（請參閱[從封裝定義匯出封裝](#export-packages-from-a-package-definition)）。
 
 ### 設定封裝定義產生 {#configure-package-definitions-generation}
 
 封裝產生可從封裝定義&#x200B;**[!UICONTROL Content]**&#x200B;標籤進行設定。 若要這麼做，請按一下&#x200B;**[!UICONTROL Generation parameters]**&#x200B;連結。
 
-![](assets/packagedefinition_generationparameters.png)
+![產生引數對話方塊包含定義、包含安裝指令碼和包含預設值](assets/packagedefinition_generationparameters.png)
 
 * 使用&#x200B;**[!UICONTROL Include the definition]**&#x200B;選項來包含封裝定義中目前使用的定義。
 * 使用&#x200B;**[!UICONTROL Include an installation script]**&#x200B;選項來新增Javascript指令碼，以便在套件匯入時執行。 選取後，**[!UICONTROL Script]**&#x200B;索引標籤會新增到封裝定義畫面中。

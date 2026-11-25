@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 1%
+source-wordcount: '1168'
+ht-degree: 0%
 ---
 # 管理答案{#managing-answers}
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 您可以新增儲存空間來儲存調查中提供的回應，藉此輕鬆擴充資料範本。 若要這麼做，請在建立輸入欄位時選取&#x200B;**[!UICONTROL Store answers to a question]**&#x200B;選項。 按一下&#x200B;**[!UICONTROL New field...]**&#x200B;連結並指定其屬性：
 
-![](assets/s_ncs_admin_survey_new_space.png)
+![儲存體對話方塊，其中儲存體回答選取的問題，以及合約欄位的[建立新的封存欄位]對話方塊。](assets/s_ncs_admin_survey_new_space.png)
 
 輸入欄位的標籤和名稱，然後選取欄位型別：文字、布林值、整數或小數、日期等。
 
@@ -62,15 +62,15 @@ ht-degree: 1%
 
 例如，您可以建立下拉式清單，讓使用者選取其原生語言。 對應的封存欄位可以與包含語言清單的&#x200B;**語言**&#x200B;列舉相關聯：
 
-![](assets/s_ncs_admin_survey_database_values_2b.png)
+![使用選取的語言分項清單及[編輯連結]圖示來建立新的封存欄位對話方塊。](assets/s_ncs_admin_survey_database_values_2b.png)
 
 欄位右側的&#x200B;**[!UICONTROL Edit link]**&#x200B;圖示可讓您編輯此分項清單的內容：
 
-![](assets/s_ncs_admin_survey_database_values_2c.png)
+![列舉語言（語言）編輯器，列出英文、法文和德文值。](assets/s_ncs_admin_survey_database_values_2c.png)
 
 在欄位的&#x200B;**[!UICONTROL General]**&#x200B;標籤中，**[!UICONTROL Initialize the list of values from the database]**&#x200B;連結可讓您自動輸入提供的標籤清單。
 
-![](assets/s_ncs_admin_survey_database_values_2.png)
+![下拉式欄位[一般]索引標籤，從填入語言標籤的資料庫連結初始化值清單。](assets/s_ncs_admin_survey_database_values_2.png)
 
 **範例**：將收件者的合約儲存在一個欄位中
 
@@ -78,31 +78,31 @@ ht-degree: 1%
 
 按一下&#x200B;**[!UICONTROL New field...]**&#x200B;連結，然後輸入欄位內容。 選取&#x200B;**[!UICONTROL Multiple values]**&#x200B;選項，以儲存數個值。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
+![為選取多重值選項的合約建立新的封存欄位對話方塊。](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
 為其他合約建立輸入欄位，並將資料儲存在相同的存檔欄位中。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
+![儲存對話方塊和欄位選擇器，將輸入欄位連結至合約已封存欄位。](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
 當使用者核准調查時，他們的答案將會儲存在&#x200B;**[!UICONTROL Contracts]**&#x200B;欄位中。
 
 在我們的範例中，針對下列答案：
 
-![](assets/s_ncs_admin_survey_storage_multi_ex3.png)
+![包含四個合約欄位且填入值M、L、T和V的合約調查頁面。](assets/s_ncs_admin_survey_storage_multi_ex3.png)
 
 受訪者的設定檔將包含輸入的四份合約。
 
 可藉由顯示相關欄，在調查的&#x200B;**[!UICONTROL Answers]**&#x200B;索引標籤中檢視這些專案。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
+![Answers索引標籤會列出回應，其中的Contrat_1到Contrat_4欄顯示多重值答案的值。](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
 您也可以根據答案來篩選收件者，以便只顯示您感興趣的使用者。 若要這麼做，請建立目標工作流程並使用&#x200B;**[!UICONTROL Survey responses]**&#x200B;方塊。
 
-![](assets/s_ncs_admin_survey_read_responses_wf.png)
+![使用調查回應活動將目標定位工作流程從目標定位調色盤拖曳到圖表中。](assets/s_ncs_admin_survey_read_responses_wf.png)
 
 根據您要復原的設定檔建立查詢。 在下列範例中，查詢可讓您選取至少有兩個合約的設定檔，包括A型態合約。
 
-![](assets/s_ncs_admin_survey_read_responses_edit.png)
+![在Contract_1等於E且Contract_2等於R.](assets/s_ncs_admin_survey_read_responses_edit.png)上的調查回應活動及其查詢對話方塊篩選
 
 針對每個表單，提供的答案可用於欄位或標籤中。 針對已封存欄位中儲存的內容使用下列語法：
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->針對其他型別的欄位，語法在[本節](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8檔案）中有詳細說明。
+>針對其他型別的欄位，語法在[本節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} （Campaign v8檔案）中有詳細說明。
 
 ### 儲存設定 {#storage-settings}
 
@@ -127,17 +127,17 @@ ht-degree: 1%
 * 透過&#x200B;**[!UICONTROL Edit]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Properties]**&#x200B;按鈕編輯意見調查屬性。
 * 按一下&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;連結並核取&#x200B;**[!UICONTROL Save a copy of raw answers]**&#x200B;選項。
 
-![](assets/s_ncs_admin_survey_xml_archive_option.png)
+![已選取[儲存原始答案的復本]選項的[Web應用程式進階引數]對話方塊。](assets/s_ncs_admin_survey_xml_archive_option.png)
 
 您可以預設為所有調查啟用它（此選項在發佈調查時套用）。 若要這麼做，請建立&#x200B;**[!UICONTROL NmsWebApp_XmlBackup]**&#x200B;選項並為其指派值&#x200B;**[!UICONTROL 1]**，如下所示：
 
-![](assets/s_ncs_admin_survey_xml_global_option.png)
+以NmsWebApp_XmlBackup選項建立的Administration， Platform中的![Options節點，值為1.](assets/s_ncs_admin_survey_xml_global_option.png)
 
 ## 分數管理 {#score-management}
 
 您可以將分數指派給表單頁面中提供的選項。 分數只能連結至已關閉的問題：核取方塊、下拉式清單的值、訂閱等。
 
-![](assets/s_ncs_admin_survey_score_create.png)
+![下拉式方塊欄位「一般」索引標籤列出了VIP的「忠誠度卡片標準」值，其「分數」欄從2.00到10.00。](assets/s_ncs_admin_survey_score_create.png)
 
 分數會在確認頁面時（即使用者按一下&#x200B;**[!UICONTROL Next]**&#x200B;或&#x200B;**[!UICONTROL Finish]**&#x200B;按鈕時）累計並儲存在伺服器端。
 
@@ -153,7 +153,7 @@ ht-degree: 1%
 
 * 若要在測試中使用分數，請使用測試計算公式中的&#x200B;**[!UICONTROL Score]**&#x200B;欄位，如下所示：
 
-  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![測試條件分數大於6的活動，從內容檔案選取[分數]欄位。](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * 您可以在指令碼中使用分數。
 
@@ -161,18 +161,18 @@ ht-degree: 1%
 
 * 在調查中，下一頁可讓您根據下拉式清單中選取的值，將不同的分數指派給使用者：
 
-  ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![班級層級的下拉式欄位，學前到大學，分數從2.00到7.00。](assets/s_ncs_admin_survey_score_exa.png)
 
 * 您可以根據選取的選項，將此分數與第二個值結合：
 
-  ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![您所在的多重選擇欄位……家長得分7.00，學生得分2.00。](assets/s_ncs_admin_survey_score_exb.png)
 
 * 當使用者按一下&#x200B;**[!UICONTROL Next]**&#x200B;按鈕，兩個值就會相加。
 
-  ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![在[等級]清單中選取[初級]的歡迎頁面，並在[狀態]下選取[上層]選項。](assets/s_ncs_admin_survey_score_exe.png)
 
 * 條件可套用至要根據分數顯示的頁面。 其設定如下：
 
-  ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![測試具有編輯分支條件的活動：分數大於7.00。](assets/s_ncs_admin_survey_score_exd.png)
 
-  ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![當分數低於7時，測試活動路由到第1級；當等於7時，路由到第2級；當高於7時，路由到第3級。](assets/s_ncs_admin_survey_score_exg.png)

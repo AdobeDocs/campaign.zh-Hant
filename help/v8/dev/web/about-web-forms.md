@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '623'
 ht-degree: 1%
 ---
 # 開始使用網路表單{#about-web-forms}
@@ -55,19 +55,19 @@ Adobe Campaign整合了圖形模組，用於定義及發佈網路表單，以建
 
 若要建立網頁表單，請按一下網頁應用程式清單上方的&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
-![](assets/webapp_create_new.png)
+![Web應用程式清單位於[行銷活動]下，其建立按鈕以反白顯示來啟動新的Web表單。](assets/webapp_create_new.png)
 
-選取網頁表單範本（預設為&#x200B;**[!UICONTROL newWebForm]**）。
+Select網頁表單範本（預設為&#x200B;**[!UICONTROL newWebForm]**）。
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![新增Web應用程式對話方塊與範本清單中選取的新Web表單(newWebForm)範本。](assets/s_ncs_admin_survey_select_template.png)
 
 這會將您導向至表單的控制面板。
 
-![](assets/webapp_empty_dashboard.png)
+![新網頁表單的[儀表板]索引標籤，顯示其狀態、結構描述、資料夾、公用URL和[發佈]按鈕。](assets/webapp_empty_dashboard.png)
 
 **[!UICONTROL Edit]**&#x200B;索引標籤可讓您建立內容。
 
-![](assets/webapp_edit_tab.png)
+![網頁表單的「編輯」索引標籤，顯示活動圖表（開始、頁面、測試、儲存、結束）和活動調色盤。](assets/webapp_edit_tab.png)
 
 若要定義網頁表單的設定和內容，請套用下列步驟：
 
@@ -104,12 +104,12 @@ Adobe Campaign整合了圖形模組，用於定義及發佈網路表單，以建
 
 您也可以使用工具列中的圖示或按一下右鍵來插入輸入區域。
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![新增輸入欄位的頁面編輯器工具列功能表：下拉式方塊、核取方塊、選項按鈕、多重選擇、日期、格線。](assets/s_ncs_admin_webform_add_selection.png)
 
 在這種情況下，請先選取要新增的欄位型別和答案儲存模式。
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![儲存體對話方塊：選擇[編輯收件者或變數]，然後選取包含[編輯運算式]的[資料庫]欄位。](assets/s_ncs_admin_webform_select_storage.png)
 
 按一下&#x200B;**[!UICONTROL Ok]**&#x200B;以核准選取專案。
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![在Select中選取Salutation欄位，表示式會填入[儲存]對話方塊中的[資料庫]欄位；按一下[確定]。](assets/s_ncs_admin_webform_confirm_storage.png)

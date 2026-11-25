@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '938'
 ht-degree: 0%
 ---
 # 定義網路表單頁面順序{#defining-web-forms-page-sequencing}
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 對於每個頁面，您可以刪除&#x200B;**[!UICONTROL Next]**&#x200B;或&#x200B;**[!UICONTROL Previous]**&#x200B;按鈕。 若要這麼做，請選取相關頁面，然後選取選項&#x200B;**[!UICONTROL Disable next page]**&#x200B;或&#x200B;**[!UICONTROL Disallow returning to the previous page]** 。
 
-![](assets/s_ncs_admin_survey_no_next_page.png)
+![頁面屬性，[一般]索引標籤，在[導覽]區段中選取[停用下一頁]選項。](assets/s_ncs_admin_survey_no_next_page.png)
 
 您可以使用連結來取代這些按鈕。 請參閱[插入HTML內容](static-elements-in-a-web-form.md#inserting-html-content)。
 
@@ -48,19 +48,19 @@ ht-degree: 0%
 
 * 表單的另一個頁面。 若要這麼做，請選取&#x200B;**[!UICONTROL Internal activity]**，然後指定所要的頁面，如下所示：
 
-  ![](assets/s_ncs_admin_jump_param1.png)
+  ![已選取內部活動的跳轉對話方塊，以及顯示跳轉目標表單頁面的活動清單。](assets/s_ncs_admin_jump_param1.png)
 
 * 另一個表單。 若要這麼做，請選取&#x200B;**[!UICONTROL Explicit]**&#x200B;選項並指定目的地表單。
 
-  ![](assets/s_ncs_admin_jump_param2.png)
+  ![已選取[明確]的跳轉對話方塊，並在[目標Web應用程式]欄位中選取目的地表單。](assets/s_ncs_admin_jump_param2.png)
 
 * 目的地可以儲存在變數中。 在此情況下，請從下拉式清單中選取它，如下所示：
 
-  ![](assets/s_ncs_admin_jump_param3.png)
+  ![跳轉對話方塊，其中儲存於選取的變數中，且[區域變數]下拉式清單開啟。](assets/s_ncs_admin_jump_param3.png)
 
 * **[!UICONTROL Comment]**&#x200B;索引標籤可讓您輸入當運運算元按一下圖表中的物件時，可以看到的資訊。
 
-  ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![「跳轉」對話方塊的「註解」標籤；文字會以工具提示的形式顯示在表單圖表的「跳轉」物件上。](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## 範例：根據URL的引數存取其他表單 {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
 1. 在表單結尾插入跳轉：這會取代&#x200B;**[!UICONTROL End]**&#x200B;方塊。
 
-   ![](assets/s_ncs_admin_survey_jump_sample1.png)
+   ![表單圖表的Jump物件插入表單結尾的Storage之後，取代End方塊。](assets/s_ncs_admin_survey_jump_sample1.png)
 
 1. 在表單屬性中，新增儲存在區域變數(**next**)中的引數(**next**)。 在[將資料儲存在區域變數](web-forms-answers.md#storing-data-in-a-local-variable)中，詳細列出區域變數。
 
-   ![](assets/s_ncs_admin_survey_jump_sample2.png)
+   ![表單屬性[引數]索引標籤新增下一個引數，儲存在下一個區域變數中。](assets/s_ncs_admin_survey_jump_sample2.png)
 
 1. 編輯&#x200B;**[!UICONTROL Jump]**&#x200B;物件，選取&#x200B;**[!UICONTROL Stored in a variable]**&#x200B;選項，然後從下拉式方塊中選取&#x200B;**下一個**&#x200B;變數。
 
-   ![](assets/s_ncs_admin_survey_jump_sample3.png)
+   ![跳轉對話方塊，其中儲存於選取的變數中，以及下一個選取於區域變數清單中的變數。](assets/s_ncs_admin_survey_jump_sample3.png)
 
 1. 傳遞URL必須包含目的地表單的內部名稱，例如：
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 例如，您可以為已線上上訂購的客戶顯示不同的頁面，為已下十個以上訂單的客戶顯示另一個頁面。 若要這麼做，請在表單的第一個頁面中，插入一個&#x200B;**[!UICONTROL Number]**&#x200B;型別輸入欄位，讓使用者說明他們下了多少訂單。
 
-![](assets/s_ncs_admin_survey_test_ex0.png)
+![表單頁面您的詳細資訊與訂單，包括標題、名稱、電子郵件欄位以及您訂購網頁問題的頻率。](assets/s_ncs_admin_survey_test_ex0.png)
 
 您可以將此資訊儲存在資料庫的欄位中，或使用本機變數。
 
@@ -108,17 +108,17 @@ ht-degree: 0%
 
 在我們的範例中，我們想要使用變數：
 
-![](assets/s_ncs_admin_survey_test_ex1.png)
+![頁面的訂購計數欄位，其儲存設定為[變數]選項且選取變數[訂購]。](assets/s_ncs_admin_survey_test_ex1.png)
 
 在表單的圖表中，插入測試方塊以定義條件。 對於每個條件，都將在測試方塊的輸出處新增一個分支。
 
-![](assets/s_ncs_admin_survey_test_ex2.png)
+![測試對話方塊，其中包含分支訂單+10和訂單1—>9，以及定義其條件的「編輯分支」對話方塊。](assets/s_ncs_admin_survey_test_ex2.png)
 
-Select **[!UICONTROL Activate the default branching]**&#x200B;選項，針對沒有任何條件為true的情況新增轉變。 如果定義的條件涵蓋了每個可能的情況，就不需要這個選項。
+選取&#x200B;**[!UICONTROL Activate the default branching]**&#x200B;選項，針對沒有任何條件為true的情況新增轉變。 如果定義的條件涵蓋了每個可能的情況，就不需要這個選項。
 
 接著，在條件中有一個為true時定義頁面順序，例如：
 
-![](assets/s_ncs_admin_survey_test_ex3.png)
+![表單圖表：訂單？ 測試會導向到「新增」、「標準」或「黃金」頁面，這些頁面都會導向到「儲存」和「結束」。](assets/s_ncs_admin_survey_test_ex3.png)
 
 ### 根據引數顯示 {#display-based-on-parameters}
 
@@ -134,7 +134,7 @@ Select **[!UICONTROL Activate the default branching]**&#x200B;選項，針對沒
 
 若要個人化此頁面，請按兩下&#x200B;**[!UICONTROL End]**，然後在中央編輯器中輸入頁面內容。
 
-![](assets/s_ncs_admin_survey_end_page_edit.png)
+![結束對話方塊與結束頁面標題和內容編輯器，顯示完成問卷的感謝訊息。](assets/s_ncs_admin_survey_end_page_edit.png)
 
 * 您可以複製並貼上現有的HTML內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL Display source code]**&#x200B;並插入HTML程式碼。
 * 您可以使用外部URL；若要這麼做，請選取對應的選項，然後輸入要顯示之頁面的URL。

@@ -31,9 +31,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1259'
 ht-degree: 0%
 ---
 # 使用案例：建立概觀頁面{#use-cases-creating-overviews}
@@ -48,13 +48,13 @@ ht-degree: 0%
 * 每個連結編輯工具一個篩選器（請參閱[使用連結編輯器建立篩選器](#creating-a-filter-using-a-link-editor)），
 * 重新整理連結（請參閱[建立重新整理連結](#creating-a-refresh-link)）。
 
-![](assets/s_ncs_configuration_webapp_overview.png)
+![網頁應用程式概觀頁面，包含標籤：資料夾篩選、新增按鈕、連結編輯器篩選、重新整理連結、清單、詳細資料。](assets/s_ncs_configuration_webapp_overview.png)
 
 ## 建立單頁Web應用程式 {#creating-a-single-page-web-application}
 
 1. 建立單一&#x200B;**[!UICONTROL Page]** Web應用程式，並停用出站轉換及下一頁的轉換。
 
-   ![](assets/s_ncs_configuration_webapp_create.png)
+   ![頁面屬性，[一般]索引標籤，已選取[停用下一頁]及[啟用出站轉變]。](assets/s_ncs_configuration_webapp_create.png)
 
 1. 變更頁面標題。
 
@@ -62,19 +62,19 @@ ht-degree: 0%
 
 1. 在Web應用程式屬性中，選取&#x200B;**[!UICONTROL Single-page Web application]**&#x200B;範本，修改應用程式的轉譯。
 
-   ![](assets/s_ncs_configuration_webapp_rendering.png)
+   ![[內容]對話方塊，[轉譯]索引標籤，在[範本]清單中選取[單頁Web應用程式]範本。](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. 開啟網頁應用程式的&#x200B;**[!UICONTROL Page]**&#x200B;活動並開啟清單(**[!UICONTROL Static element > List]**)。
 1. 在您的清單的&#x200B;**[!UICONTROL Data]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Web applications]**&#x200B;檔案的型別以及&#x200B;**[!UICONTROL Label]** 、 **[!UICONTROL Creation date]**&#x200B;和&#x200B;**[!UICONTROL Type of application]**&#x200B;輸出欄。
 1. 在&#x200B;**[!UICONTROL Filter]**&#x200B;子標籤中，建立下列篩選器，如下所示，以便只顯示Web應用程式並從檢視中排除範本。
 
-   ![](assets/s_ncs_configuration_webapp_filter.png)
+   ![列出資料標籤、篩選子標籤，條件範本等於「否」且主索引鍵不等於0。](assets/s_ncs_configuration_webapp_filter.png)
 
 1. 關閉頁面的設定視窗並按一下&#x200B;**[!UICONTROL Preview]**。
 
    會顯示資料庫中可用的Web應用程式清單。
 
-   ![](assets/s_ncs_configuration_webapp_preview.png)
+   ![網頁應用程式的[預覽]索引標籤，依標籤顯示Web應用程式清單。](assets/s_ncs_configuration_webapp_preview.png)
 
 ## 在資料夾中新增篩選器 {#adding-a-filter-on-a-folder}
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 
 1. 將&#x200B;**[!UICONTROL XML]**&#x200B;型別套用至變數。
 
-   ![](assets/s_ncs_configuration_webapp_variable_xml.png)
+   ![Select資料夾輸入，其中編輯儲存區已開啟，且編輯分支顯示XML型別的資料夾變數。](assets/s_ncs_configuration_webapp_variable_xml.png)
 
 1. 選取&#x200B;**[!UICONTROL Refresh page]**&#x200B;互動。
 
-   ![](assets/s_ncs_configuration_webapp_variable.png)
+   ![已選取[重新整理頁面]動作的資料夾輸入，讓動作在選取資料夾時執行。](assets/s_ncs_configuration_webapp_variable.png)
 
 1. 將游標放在清單上，並在&#x200B;**[!UICONTROL Advanced]**&#x200B;索引標籤中，參考先前在清單的&#x200B;**[!UICONTROL Folder filter XPath]**&#x200B;索引標籤中建立的變數。 您必須使用資料夾連結涉及的元素名稱，即&#x200B;**資料夾**。
 
-   ![](assets/s_ncs_configuration_webapp_variable002.png)
+   ![列出進階索引標籤，並將資料夾篩選XPath欄位設定為儲存/篩選中的資料夾。](assets/s_ncs_configuration_webapp_variable002.png)
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ ht-degree: 0%
 
    此樣式已在先前選取的&#x200B;**[!UICONTROL Single-page Web application]**&#x200B;範本中參照。
 
-   ![](assets/s_ncs_configuration_webapp_link.png)
+   ![新連結專案，其URL可開啟新的Web應用程式表單，且Style欄位設定為按鈕。](assets/s_ncs_configuration_webapp_link.png)
 
 ## 新增詳細資料至清單 {#adding-detail-to-a-list}
 
@@ -138,17 +138,17 @@ ht-degree: 0%
 1. 將游標放在先前建立的清單元素上。
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，選取下拉式清單中的&#x200B;**[!UICONTROL Columns and additional detail]**&#x200B;顯示模式。
 
-   ![](assets/s_ncs_configuration_webapp_detail.png)
+   ![將[檢視]選項設定為[欄]和[其他詳細資料]的[列出一般]索引標籤。](assets/s_ncs_configuration_webapp_detail.png)
 
 1. 在&#x200B;**[!UICONTROL Data]**&#x200B;索引標籤中，新增&#x200B;**[!UICONTROL Primary key]**、**[!UICONTROL Internal name]**&#x200B;及&#x200B;**[!UICONTROL Description]**&#x200B;欄，並為每個欄選取&#x200B;**[!UICONTROL Hidden field]**&#x200B;選項。
 
-   ![](assets/s_ncs_configuration_webapp_detail002.png)
+   ![含有標示為「隱藏」欄位之主索引鍵、內部名稱和說明輸出資料欄的清單資料索引標籤。](assets/s_ncs_configuration_webapp_detail002.png)
 
    如此一來，此資訊只會顯示在每個專案的詳細資訊中。
 
 1. 在&#x200B;**[!UICONTROL Additional detail]**&#x200B;索引標籤中，新增下列程式碼：
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=
@@ -192,22 +192,22 @@ ht-degree: 0%
 1. 將游標放在&#x200B;**[!UICONTROL Page]**&#x200B;專案上並選取&#x200B;**[!UICONTROL Container > Standard]**。
 1. 將欄數設定為&#x200B;**2**，讓連結編輯器和連結彼此相鄰。
 
-   ![](assets/s_ncs_configuration_webapp_container.png)
+   ![外觀樣式欄位設為dottedFilter和兩欄的篩選容器。](assets/s_ncs_configuration_webapp_container.png)
 
-   如需元素配置的資訊，請參閱[本區段](about-web-forms.md)。
+   如需元素配置的資訊，請參閱[開始使用網路表單](about-web-forms.md)。
 
 1. 套用&#x200B;**dottedFilter**
 
    此樣式已在先前選取的&#x200B;**[!UICONTROL Single-page Web application]**&#x200B;範本中參照。
 
-   ![](assets/s_ncs_configuration_webapp_container002.png)
+   ![篩選容器的[一般]索引標籤，[外觀樣式]欄位設定為dottedFilter。](assets/s_ncs_configuration_webapp_container002.png)
 
 ### 使用連結編輯器建立篩選器 {#creating-a-filter-using-a-link-editor}
 
 1. 將游標放在上一個階段建立的容器上，並透過&#x200B;**[!UICONTROL Advanced controls]**&#x200B;功能表插入連結編輯器。
 1. 在自動開啟的儲存視窗中，選取&#x200B;**[!UICONTROL Variables]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Edit variables]**&#x200B;連結並建立用於篩選資料的XML變數。
 
-   ![](assets/s_ncs_configuration_webapp_variable003.png)
+   ![連結編輯器輸入：編輯儲存體、編輯變數以及建立var2 XML變數的「變數」對話方塊。](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. 修改標籤。
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 1. 選擇運運算元表格作為應用程式綱要。
 
-   ![](assets/s_ncs_configuration_webapp_linkeditor.png)
+   ![連結編輯器標示為Created by，儲存至變數var2，並選取Operator應用程式結構描述。](assets/s_ncs_configuration_webapp_linkeditor.png)
 
 1. 將游標放在清單元素上，並透過&#x200B;**[!UICONTROL Data > Filter]**&#x200B;索引標籤建立篩選器：
 
@@ -224,7 +224,7 @@ ht-degree: 0%
    * **值：**&#x200B;變數（變數）
    * **考慮條件：**「$(var2/@id)」!=
 
-   ![](assets/s_ncs_configuration_webapp_filter002.png)
+   ![清單篩選條件，包括等於變數的「建立者」連結索引鍵，僅在設定var2 ID時套用。](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
 >
@@ -237,13 +237,13 @@ ht-degree: 0%
 1. 選取 **[!UICONTROL Refresh data in a list]**。
 1. 新增先前建立的清單。
 
-   ![](assets/s_ncs_configuration_webapp_refreshlink.png)
+   ![重新整理清單動作中與「重新整理」資料的連結，以及在「清單」底下選擇要重新整理的清單1。](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. 在&#x200B;**[!UICONTROL Image]**&#x200B;欄位上新增重新整理圖示： **/xtk/img/refresh.png**。
 1. 使用排序順序箭頭，重新組織Web應用程式的各種元素，如下所示。
 
-   ![](assets/s_ncs_configuration_webapp_orderelements.png)
+   ![頁面元素樹狀結構，其排序順序箭頭已反白顯示，以將清單1移至篩選元素下方。](assets/s_ncs_configuration_webapp_orderelements.png)
 
 Web應用程式現在已設定完畢。 您可以按一下「**[!UICONTROL Preview]**」標籤來預覽。
 
-![](assets/s_ncs_configuration_webapp_result.png)
+![預覽完成的網頁應用程式：資料夾篩選、新增連結、由篩選建立、重新整理連結和清單。](assets/s_ncs_configuration_webapp_result.png)

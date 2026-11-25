@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 6%
+source-wordcount: '1376'
+ht-degree: 5%
 ---
 # 使用結構描述{#gs-ac-schemas}
 
@@ -69,7 +69,7 @@ Adobe Campaign採用資料結構描述來：
 * 定義 Campaign 應用程式中不同資料物件之間的連結。
 * 定義及描述每個物件中包含的個別欄位。
 
-如需深入瞭解Campaign內建表格及其互動，請參閱[本節](datamodel.md)。
+如需深入瞭解Campaign內建資料表及其互動，請參閱[開始使用Campaign資料模型](datamodel.md)。
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ Adobe Campaign採用資料結構描述來：
 
 第一個&#x200B;**`<element>`**&#x200B;子元素與實體的根一致。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>
@@ -97,7 +97,7 @@ Adobe Campaign採用資料結構描述來：
 >
 >實體的根元素與結構描述同名。
 
-![](assets/schema_and_entity.png)
+![結構描述會定義收件者資料的XML結構；實體是遵循它的特定記錄。](assets/schema_and_entity.png)
 
 **`<element>`**&#x200B;標籤定義實體元素的名稱。 結構描述的&#x200B;**`<attribute>`**&#x200B;標籤會定義這些標籤所連結到&#x200B;**`<element>`**&#x200B;標籤中的屬性名稱。
 
@@ -137,7 +137,7 @@ Adobe Campaign採用資料結構描述來：
 
 如需詳細資訊，請參閱[建立新的結構描述](create-schema.md)。
 
-![](assets/schemaextension_1.png)
+![資料結構描述建立精靈、結構描述型別步驟，並反白顯示結構描述選項的新資料表和延伸模組。](assets/schemaextension_1.png)
 
 
 當您建立或擴充要使用的結構描述後，最佳實務便是以其XML內容元素在下面出現的順序來定義其XML內容元素。
@@ -221,17 +221,17 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >建立新結構描述或在結構描述擴充期間，您需要為整個結構描述保留相同的主要索引鍵序列值(@pkSequence)。
 
-在[本節](database-mapping.md)中進一步瞭解金鑰。
+深入瞭解[Campaign資料庫對應](database-mapping.md)中的金鑰。
 
 ## 屬性（欄位） {#attributes--fields-}
 
-屬性可讓您定義組成資料物件的欄位。 您可以使用結構描述版本工具列中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空的屬性範本拖放到游標所在的XML中。 若要了解更多資訊，請參閱[此區段](create-schema.md)。
+屬性可讓您定義組成資料物件的欄位。 您可以使用結構描述版本工具列中的&#x200B;**[!UICONTROL Insert]**&#x200B;按鈕，將空的屬性範本拖放到游標所在的XML中。 深入瞭解[在Campaign](create-schema.md)中建立新的結構描述。
 
-![](assets/schemaextension_2.png)
+![在[插入]功能表開啟的情況下編輯結構描述步驟，以新增屬性，例如String、Boolean、Integer或Date。](assets/schemaextension_2.png)
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=zh-Hant#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}的`<attribute>`元素區段中，提供完整的屬性清單。 以下是一些較常用的屬性： **@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type**。
 
-如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=zh-Hant#configuring-campaign-classic){target="_blank"}中的屬性說明。
+如需每個屬性的詳細資訊，請參閱[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}中的屬性說明。
 
 ### 範例 {#examples}
 
@@ -311,9 +311,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 完成並儲存變更後，任何可能影響SQL結構的變更都必須套用至資料庫。 要執行此操作，請使用資料庫更新輔助程式。
 
-![](assets/schemaextension_3.png)
+![主控台中的[工具]，[進階]功能表，已選取[更新]資料庫結構以套用結構描述變更。](assets/schemaextension_3.png)
 
-如需詳細資訊，請參閱[本章節](update-database-structure.md)。
+如需詳細資訊，請參閱[更新資料庫結構](update-database-structure.md)。
 
 >[!NOTE]
 >

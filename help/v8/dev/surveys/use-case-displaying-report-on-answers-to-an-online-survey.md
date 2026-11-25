@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '657'
 ht-degree: 1%
 ---
 # 使用案例：針對線上調查的回答顯示報告{#use-case-displaying-report-on-answers-to-an-online-survey}
@@ -63,27 +63,27 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
 若要收集調查的答案，請套用下列步驟：
 
-1. 建立工作流程並放置&#x200B;**[!UICONTROL Answers to a survey]**&#x200B;活動。 有關使用此活動的詳細資訊，請參閱[本區段](publish-track-and-use-collected-data.md#using-the-collected-data)。
+1. 建立工作流程並放置&#x200B;**[!UICONTROL Answers to a survey]**&#x200B;活動。 有關使用此活動的詳細資訊，請參閱[使用收集的資料](publish-track-and-use-collected-data.md#using-the-collected-data)。
 1. 編輯活動並選取您要分析其答案的調查。
 1. 啟用&#x200B;**[!UICONTROL Select all the answer data]**&#x200B;選項以收集所有資訊。
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![已選取調查且Select已啟用所有答案資料的線上調查工作流程中的調查回應活動。](assets/reporting_usecase_1_01.png)
 
 1. Select要擷取的欄（在此情況下，請選取所有已封存欄位）。 這些欄位包含答案。
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![用於選擇要新增至輸出欄的已封存欄位的Select額外欄位對話方塊。](assets/reporting_usecase_1_02.png)
 
 1. 設定回應收集方塊後，定位&#x200B;**[!UICONTROL List update]**&#x200B;型別活動以儲存資料。
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![工作流程包含調查回應活動，此活動由結果轉換連結至清單更新活動。](assets/reporting_usecase_1_04.png)
 
    在此活動中，指定要更新的清單，並取消勾選&#x200B;**[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]**&#x200B;選項：將答案新增到現有表格。 此選項可讓您參照立方體中的清單。 每次更新都不會重新產生連結至清單的結構描述，以確保使用此清單的Cube完整性。
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![清單更新對話方塊具有清除功能，如果清單存在則重複使用清單選項，因此會將答案新增到清單中。](assets/reporting_usecase_1_03.png)
 
 1. 啟動工作流程以確認其設定。
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![線上意見調查工作流程圖表，其中包含已連線至清單更新的意見調查回應，準備開始。](assets/reporting_usecase_1_05.png)
 
    指定的清單會建立，並包含調查答案的結構描述。
 
@@ -93,15 +93,15 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
 ## 步驟2 — 建立立方結構、其測量值及其指示器 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
+然後您可以建立立方結構並設定其計量：它們將用於建立將顯示在報告中的指標。 有關建立和設定多維資料集的詳細資訊，請參閱[關於多維資料集](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}。
 
 在此範例中，Cube是以先前建立的工作流程饋送之清單中的資料為基礎。
 
-![](assets/reporting_usecase_2_01.png)
+![Cube對話方塊使用選取的清單和WEB代表清單作為事實清單來回答線上調查。](assets/reporting_usecase_2_01.png)
 
 定義要在報表中顯示的尺寸與測量。 在此處，我們要顯示合約日期與回應者的國家/地區。
 
-![](assets/reporting_usecase_2_02.png)
+![具有「國家/地區」和「部門」的「Cube維度」索引標籤，以及具有「已回答」、2016合約和2017合約的「計量」索引標籤。](assets/reporting_usecase_2_02.png)
 
 **[!UICONTROL Preview]**&#x200B;索引標籤可讓您控制報表的呈現。
 
@@ -109,8 +109,8 @@ Adobe Campaign調查的回答可使用專用報告進行收集和分析。
 
 然後，您可以根據此立方結構建立報表，並處理資料與資訊。
 
-![](assets/reporting_usecase_3_01.png)
+![使用[線上意見調查]Cube範本及[建立]按鈕來建立新報告頁面。](assets/reporting_usecase_3_01.png)
 
 根據您的需求調整資訊以顯示。
 
-![](assets/reporting_usecase_3_02.png)
+![2016與2017年合約計數（依國家區分）的線上調查報告表，其中「國家/地區」維度位於資料列中。](assets/reporting_usecase_3_02.png)

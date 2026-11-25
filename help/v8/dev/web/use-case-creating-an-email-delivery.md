@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '866'
 ht-degree: 1%
 ---
 # 使用實例：建立電子郵件傳遞{#use-case-creating-an-email-delivery}
@@ -60,15 +60,15 @@ ht-degree: 1%
 
 ## 步驟1 — 建立傳遞 {#step-1---creating-a-delivery}
 
-若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
+若要建立新的傳遞，請將游標置於&#x200B;**行銷活動**&#x200B;索引標籤中，然後按一下&#x200B;**傳遞**。 接著，按一下現有傳遞清單上方的&#x200B;**建立**&#x200B;按鈕。 如需建立傳遞的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}。
 
-![](assets/delivery_step_1.png)
+![在Campaigns索引標籤中的傳遞清單，其建立按鈕可用來開始新的傳遞。](assets/delivery_step_1.png)
 
 ## 步驟2 — 選取範本 {#step-2---selecting-a-template}
 
 選取傳遞範本，然後為您的傳遞命名。 此名稱僅對Adobe Campaign主控台的使用者可見，不會對您的收件者可見；不過，此標題將顯示在您的傳遞清單中。 按一下 **[!UICONTROL Continue]**。
 
-![](assets/dce_delivery_model.png)
+![傳遞建立對話方塊，包含電子郵件傳遞範本、[標籤]欄位及[繼續]按鈕。](assets/dce_delivery_model.png)
 
 ## 步驟3 — 選取內容 {#step-3---selecting-a-content}
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 
 選取您要使用的內容範本，然後按一下「**[!UICONTROL Start with the selected content]**」按鈕，以在建立的傳遞中顯示範本。
 
-![](assets/dce_select_model.png)
+![傳遞內容步驟列出內容範本，其開頭為選取的內容按鈕。](assets/dce_select_model.png)
 
 您也可以選取&#x200B;**[!UICONTROL From a file]**，匯入在Adobe Campaign外部建立的HTML內容。
 
-![](assets/dce_select_from_file_template.png)
+![反白顯示[從檔案]選項的可用內容範本。](assets/dce_select_from_file_template.png)
 
 您可以將此內容儲存為範本以供日後使用。 建立個人化內容範本後，您可以從範本清單中預覽它。 如需詳細資訊，請參閱[範本管理](template-management.md)。
 
@@ -94,13 +94,13 @@ ht-degree: 1%
 
   若要將收件者的第一和第二個名稱插入傳遞中的文字欄位，請按一下您選擇的文字欄位，然後將游標放在您要顯示它們的位置。 按一下彈出式工具列中的第一個圖示，然後按一下&#x200B;**[!UICONTROL Personalization block]**。 選取&#x200B;**[!UICONTROL Greetings]**，然後按一下&#x200B;**[!UICONTROL OK]**。
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![插入選取了Greetings個人化區塊的元素對話方塊，從工具列功能表開啟。](assets/dce_personalizationblock_greetings.png)
 
 * 將連結插入影像中
 
   若要透過影像將傳遞收件者帶往外部地址，請按一下相關影像以顯示快顯工具列，將游標放在第一個圖示上，然後按一下&#x200B;**[!UICONTROL Link to an external URL]**。 如需詳細資訊，請參閱[新增連結](editing-content.md#adding-a-link)。
 
-  ![](assets/dce_externalpage.png)
+  ![影像工具列功能表已選取外部URL連結選項。](assets/dce_externalpage.png)
 
   在&#x200B;**URL**&#x200B;欄位中，使用以下格式&#x200B;**https://www.myURL.com**&#x200B;輸入連結的URL，然後確認。
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
   按一下您想要看到連結張貼到的文字欄位。 按一下彈出式工具列中的第一個圖示，選取&#x200B;**[!UICONTROL Personalization block]**，然後選取&#x200B;**[!UICONTROL Link to Mirror Page (MirrorPage)]**。 按一下 **[!UICONTROL Save]** 確認。
 
-  ![](assets/dce_mirrorpage.png)
+  ![文字編輯器中的工具列功能表已選取Personalization區塊選項。](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -134,7 +134,7 @@ ht-degree: 1%
 
   選取連結至Web應用程式的文字欄位，然後按一下第一個圖示。 選擇&#x200B;**[!UICONTROL Link to a Web application]**，然後按一下&#x200B;**網頁應用程式**&#x200B;欄位結尾的圖示來選取所需的應用程式。
 
-  ![](assets/dce_webapp.png)
+  ![插入連結對話方塊，其中包含[標籤]和[Web應用程式]欄位以及[確定]按鈕。](assets/dce_webapp.png)
 
   按一下&#x200B;**儲存**&#x200B;以確認。
 
