@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 70%
+source-wordcount: '933'
+ht-degree: 67%
 ---
 # 開始使用行銷活動 {#gs-ac-campaigns}
 
@@ -40,7 +40,7 @@ Adobe Campaign 提供一套解決方案，幫助您跨所有線上及離線頻�
 
 ## 跨頻道行銷活動策劃{#cross-channel-orchestration}
 
-Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
+Adobe Campaign可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接郵件、SMS、推播通知、LINE和自訂頻道。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
 首頁的![行銷活動索引標籤會列出具有狀態、日期和「建立」按鈕的行銷活動](assets/campaign-tab.png)
 
@@ -127,4 +127,4 @@ Adobe Campaign 提供 **回應管理**&#x200B;附加功能，讓您可以衡量�
 >
 >此功能可從Campaign v8.3開始使用。 若要檢查您的版本，請參閱[Campaign v8相容性矩陣](compatibility-matrix.md)
 
-[&#128279;](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。
+[](../assets/do-not-localize/book.png)在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=zh-Hant){target="_blank"}中瞭解如何設定及使用Campaign回應管理員。
