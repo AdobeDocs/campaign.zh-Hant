@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 12%
+source-wordcount: '489'
+ht-degree: 11%
 ---
 # 將Campaign與您的解決方案連結{#gs-ac-connectors}
 
@@ -49,7 +49,7 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 
 * Adobe Analytics。 [了解更多](../connect/ac-aa.md)
 * Adobe Experience Cloud觸發器。 [了解更多](../connect/ac-triggers.md)
-* Adobe Experience Manager。 [了解更多](../connect/ac-aem.md)
+* Adobe Experience Manager，包括Campaign網頁使用者介面中的Adobe Experience Manager as a Cloud Service資產和範本。 [了解更多](../connect/ac-aem.md)
 * Adobe Experience Platform。 [了解更多](../connect/ac-aep.md)
 * Adobe Journey Optimizer。 [了解更多](../connect/ac-ajo.md)
 * Adobe Target。 [了解更多](../connect/ac-at.md)
@@ -57,9 +57,9 @@ Campaign v8可與下列Adobe解決方案連線。 瀏覽連結以進一步瞭解
 
 您也可以結合您跨越[!DNL CX Enterprise]解決方案的&#x200B;**對象**&#x200B;和&#x200B;**資產**，以及資產共用和對象共用功能。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**對象共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**對象共用**。
 
-在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=zh-Hant#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**資產共用**。
+在[Campaign Classic v7檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}中進一步瞭解Campaign與[!DNL CX Enterprise]解決方案之間的&#x200B;**資產共用**。
 
 >[!NOTE]
 >
@@ -93,4 +93,4 @@ CRM聯結器可讓您快速輕鬆地整合資料：Adobe Campaign提供專用的
 
 瞭解如何在[搭配Campaign和X (Twitter)](../connect/ac-tw.md)中設定和使用X整合。
 
-瞭解如何使用Adobe Campaign[&#128279;](../send/twitter.md)在X (Twitter)上建立X貼文，以及透過貼文訊息傳送直接訊息給您的追隨者。
+瞭解如何使用Adobe Campaign](../send/twitter.md)在X (Twitter)上建立X貼文，以及透過[貼文訊息傳送直接訊息給您的追隨者。
