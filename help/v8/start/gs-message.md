@@ -43,14 +43,14 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 66%
+source-wordcount: '1059'
+ht-degree: 63%
 ---
 # 開始使用訊息 {#gs-ac-msg}
 
-透過 Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊、LINE 訊息、推播通知和直接郵件，並使用各種專屬報告來評估行銷成效。 這些訊息經過設計並透過傳遞傳送出去，而且可針對每位收件者進行個人化。
+透過Adobe Campaign，您可以傳送跨頻道行銷活動，包括電子郵件、簡訊、LINE訊息、推播通知和直接郵件，並使用各種專屬報告來衡量其成效。 這些訊息經過設計並透過傳遞傳送出去，而且可針對每位收件者進行個人化。
 
 核心功能包括目標定位、定義和個人化訊息、通訊執行及相關的營運報告。
 

@@ -30,16 +30,27 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '982'
 ht-degree: 0%
 ---
 # 合作使用Campaign與Adobe Experience Manager {#ac-aem}
 
 Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experience Manager中管理電子郵件傳送的內容及表單。
 
-[探索如何在Campaign網頁介面中編輯您的Adobe Experience Manager as Cloud Service內容](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=zh-Hant){target="_blank"}。
+## 搭配Campaign網頁使用者介面使用Adobe Experience Manager as a Cloud Service {#aem-cs-web-ui}
+
+透過Campaign網頁使用者介面，您可以連線您的Adobe Experience Manager as a Cloud Service環境以集中處理您的內容。 資產和範本的單一信任來源可讓您的電子郵件在各個管道保持一致，並避免兩個解決方案之間的重複內容。
+
+* **Assets**：在Adobe Experience Manager Assets中管理您的資產，並直接在電子郵件內容中重複使用它們。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
+* **範本**：在Adobe Experience Manager as a Cloud Service中建立並核准電子郵件範本，然後在您的傳遞中作為內容範本使用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
+
+連線依賴使用者端主控台中設定的&#x200B;**[!UICONTROL AEM]**&#x200B;外部帳戶。 檢視[外部帳戶](../config/external-accounts.md)。
+
+## 透過使用者端主控台使用Adobe Experience Manager {#aem-console}
+
+以下各節說明Campaign使用者端主控台中的整合。
 
 [在本檔案中進一步瞭解Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=zh-Hant#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
 
@@ -64,7 +75,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![已開啟[建立]功能表且已選取[頁面]的AEM Sites電子郵件資料夾](assets/aem_authoring_2.png)
 
-1. 選取&#x200B;**[!UICONTROL Adobe Campaign Email]**&#x200B;範本並命名您的Newsletter。
+1. Select **[!UICONTROL Adobe Campaign Email]**&#x200B;範本並命名您的Newsletter。
 
 1. 建立頁面之後，存取&#x200B;**[!UICONTROL Page information]**&#x200B;功能表並按一下&#x200B;**[!UICONTROL Open Properties]**。
 
@@ -140,7 +151,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![行銷活動索引標籤上的行銷活動傳遞清單，其中的「建立」按鈕反白顯示](assets/aem_assets_3.png)
 
-1. 選取&#x200B;**傳遞範本**，然後為您的傳遞命名。
+1. Select **傳遞範本**，然後為您的傳遞命名。
 
 1. 定義及個人化訊息內容。 [了解更多](../send/email.md)
 
@@ -154,7 +165,7 @@ Adobe Campaign與Adobe Experience Manager的整合可讓您直接在Adobe Experi
 
    ![使用Select的Campaign電子郵件編輯器影像功能表醒目提示共用資產](assets/aem_assets_4.png)
 
-1. 從選取視窗中，從&#x200B;**Adobe Experience Manager Assets資料庫**&#x200B;選取影像，然後選取&#x200B;**選取**。
+1. 從選取視窗中，選取您&#x200B;**Adobe Experience Manager Assets資料庫**&#x200B;的影像，然後選取&#x200B;**Select**。
 
    ![Select共用資產視窗中列出已選取jogging-newsletter.jpg的AEM Assets資料庫檔案](assets/aem_assets_5.png)
 

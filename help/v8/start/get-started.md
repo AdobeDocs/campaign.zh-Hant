@@ -51,10 +51,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 71%
+source-wordcount: '1103'
+ht-degree: 68%
 ---
 # 開始使用 Adobe Campaign{#gs-ac-v8}
 
@@ -99,7 +99,7 @@ Adobe Campaign 提供了強大且方便使用的市場細分和目標鎖定功�
 
 ## 跨頻道行銷活動策劃 {#cross-channel-campaign-orchestration}
 
-Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
+Adobe Campaign可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接郵件、SMS、推播通知、LINE和自訂頻道。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
 瞭解如何在[開始使用行銷活動](campaigns.md)中設計、排程及執行行銷活動。
 

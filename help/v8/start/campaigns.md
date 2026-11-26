@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 70%
+source-wordcount: '933'
+ht-degree: 67%
 ---
 # 開始使用行銷活動 {#gs-ac-campaigns}
 
@@ -40,7 +40,7 @@ Adobe Campaign 提供一套解決方案，幫助您跨所有線上及離線頻�
 
 ## 跨頻道行銷活動策劃{#cross-channel-orchestration}
 
-Adobe Campaign 可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接行銷郵件、簡訊、推播通知等。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
+Adobe Campaign可讓您在多個頻道上設計及編排有針對性的個人化行銷活動：電子郵件、直接郵件、SMS、推播通知、LINE和自訂頻道。 單一介面可為您提供排程、編排、設定、個人化、自動化、執行和評估所有行銷活動和通訊所需的所有功能。
 
 首頁的![行銷活動索引標籤會列出具有狀態、日期和「建立」按鈕的行銷活動](assets/campaign-tab.png)
 
